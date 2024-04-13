@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "hp": "number",
+    "ac": "number",
+    "modifier": "number",
+    "pasperc": "number"
+  }
+}

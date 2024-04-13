@@ -1,0 +1,65 @@
+{
+  "frames": [
+    {
+      "url": "https://www.dndbeyond.com/characters/121164009/mjf9RH",
+      "displayName": "DnD Beyond Runa",
+      "icon": "shield",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://www.dndbeyond.com/characters/121164020/mIWNt6",
+      "displayName": "DnD Beyond Gin",
+      "icon": "shield",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://www.dndbeyond.com/characters/122348282/evjPhd",
+      "displayName": "DnD Beyond Nataniel",
+      "icon": "sword",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://www.dndbeyond.com/characters/121163998/xhlAxg",
+      "displayName": "DnD Beyond Ksarion",
+      "icon": "shield",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://www.dndbeyond.com/characters/122363992/MQLPEt",
+      "displayName": "DnD Beyond Solaria",
+      "icon": "church",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

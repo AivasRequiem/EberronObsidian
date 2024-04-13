@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "dadd7f07be68cfbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "36307bd2d3c6963f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17c3b1f0019ae484",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0b391c1eec6974b9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Еберрон З попелу Останньої Війни (2).pdf"
+              }
+            }
+          },
+          {
+            "id": "4d7a562644d86a8c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_ресурси/Карти/map414_terminus.jpg"
+              }
+            }
+          },
+          {
+            "id": "0823982d3c6eed27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ccb90e6ae2dc66db",
+    "type": "split",
+    "children": [
+      {
+        "id": "753d147d440a2b78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "568c389648cb3f29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e1a7b0be4c3c017",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e40ea169633e285",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f43b71954c76861f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a353eb09aeb5588b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3407d517de3f4f31",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4c982ef08e1a4aa6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d39eebadf79f24be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f955fb2131f41bd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md"
+              }
+            }
+          },
+          {
+            "id": "6d9b56682223cfe3",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "35d72834bb577f16",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 998
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_c94a4989eb29"
+              }
+            }
+          },
+          {
+            "id": "40cec142bebebf8c",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "75bb23ebb5ea0973",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4a7fa0ec82e98aa",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 507.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "dbfolder:Create a new database table": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-custom-frames:Open DnD Beyond Runa": false,
+      "obsidian-custom-frames:Open DnD Beyond Gin": false,
+      "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
+      "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
+      "obsidian-custom-frames:Open DnD Beyond Solaria": false,
+      "calendarium:Open Calendarium": false,
+      "media-extended:Open media": false
+    }
+  },
+  "active": "17c3b1f0019ae484",
+  "lastOpenFiles": [
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+    "_ресурси/Карти/map414_terminus.jpg",
+    "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
+    "_шаблони/Вставити персонажа.md",
+    "_ресурси/Pasted image 20240403010148.png",
+    "_неоргнанізоване/Джас.md",
+    "Життя/Організації/Дааск.md",
+    "Життя/НІПи/Шарн/Вугілля.md",
+    "_ресурси/Фото/Персонажі/CoalWarforged.jpg",
+    "Життя/Раси/Відмінчата.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
+    "Кампанії/Нові Герої/Персонажі гравців/БД Гравців.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+    "_неоргнанізоване/Кріліум Макар.md",
+    "_неоргнанізоване/Крікоріс Макар.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Натаніель.md",
+    "Інструменти ДМ/Таблиці/Падіння в Шарні.md",
+    "Кампанії/Нові Герої/Без назви.md",
+    "_ресурси/Фото/Персонажі/Alden d'Orien.jpg",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T5. Апартаменти нижнього рівня.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T4b. Вітальня Ґарри.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T4a. Квартира Мартіші.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T3. Сходи житлової вежі.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T2. Торгові сходи.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/T1. Платформа для повітряних екіпажів.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Маєток Єдинорога.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Карнавал Гвинтиків.md",
+    "Життя/Раси/Люди.md",
+    "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp",
+    "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp.crdownload",
+    "_ресурси/Фото/Місця",
+    "_ресурси/Фото/Нова папка",
+    "_ресурси/Фото/Організації/Vadalis.webp",
+    "_ресурси/Фото/Організації/HouseOrien.png",
+    "_ресурси/Фото/Персонажі/vilroy.webp",
+    "_ресурси/Фото/Організації",
+    "_ресурси/Фото/Персонажі",
+    "_ресурси/Фото/vilroy.jpg",
+    "_ресурси/Фото/ef0dd425-05bb-4f3b-8d4c-88d671489a51.webp.crdownload",
+    "_ресурси/Фото/Персонажі/Garra.webp",
+    "_ресурси/Фото/9ee92dff150b1091b69f0596d19f6928.webp.crdownload",
+    "_ресурси/Фото/Crest - City of Sharn 01.png.crdownload",
+    "_ресурси/Фото/Tarkanan.webp.crdownload"
+  ]
+}
