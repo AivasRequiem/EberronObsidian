@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -247,7 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 507.5
+    "width": 427.5
   },
   "left-ribbon": {
     "hiddenItems": {
