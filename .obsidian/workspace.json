@@ -252,12 +252,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "calendarium:Open Calendarium": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -269,8 +270,7 @@
       "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
-      "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false
+      "media-extended:Open media": false
     }
   },
   "active": "222e755a809041df",
