@@ -93,8 +93,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "334b61b30df853c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Шарн/Джермен Вілрой.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -160,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+                "file": "Життя/НІПи/Шарн/Джермен Вілрой.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+                "file": "Життя/НІПи/Шарн/Джермен Вілрой.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 1.md"
+                "file": "Життя/НІПи/Шарн/Джермен Вілрой.md"
               }
             }
           },
@@ -285,11 +299,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "17c3b1f0019ae484",
+  "active": "334b61b30df853c8",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Карнавал Гвинтиків.md",
     "Життя/НІПи/Шарн/Вугілля.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
     "_ресурси/Карти/map414_terminus.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
