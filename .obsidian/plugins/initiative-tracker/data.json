@@ -237,7 +237,7 @@
         "ac": 16,
         "currentAC": 16,
         "id": "ID_984beacb9b9b",
-        "currentHP": 30,
+        "currentHP": 21,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -278,9 +278,11 @@
         "ac": 15,
         "currentAC": 15,
         "id": "ID_7b593b7b7aa9",
-        "currentHP": 22,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -321,9 +323,11 @@
         "ac": 15,
         "currentAC": 15,
         "id": "ID_f8daba496a9b",
-        "currentHP": 9,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
