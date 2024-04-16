@@ -320,7 +320,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "calendarium:Open Calendarium": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -332,7 +331,8 @@
       "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
-      "media-extended:Open media": false
+      "media-extended:Open media": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "17c3b1f0019ae484",
