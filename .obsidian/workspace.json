@@ -307,39 +307,6 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "37507d042e97ce22",
-    "type": "floating",
-    "children": [
-      {
-        "id": "80e15cc3d08d5d5b",
-        "type": "window",
-        "children": [
-          {
-            "id": "6ca7ba1d68c36945",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e56d21d5d1095e86",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 8,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "0b391c1eec6974b9",
   "lastOpenFiles": [
     "Життя/НІПи/БД НІПів.md",
