@@ -117,8 +117,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -224,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни (2).pdf"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md"
               }
             }
           },
@@ -309,10 +308,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "a799ecd26d668187",
+  "active": "0b391c1eec6974b9",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/БД НІПів.md",
     "Життя/НІПи/Дім Канніт",
     "Життя/НІПи/Untitled.md",
