@@ -26,9 +26,12 @@
             "id": "c47f380dcb1aef92",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Alden d'Orien.jpg"
+                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -109,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Alden d'Orien.jpg",
+                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Alden d'Orien.jpg",
+                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Alden d'Orien.jpg"
+                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md"
               }
             }
           },
@@ -236,13 +239,18 @@
   },
   "active": "c47f380dcb1aef92",
   "lastOpenFiles": [
-    "_ресурси/Фото/Персонажі/Artificer_Alchemist.jpg",
-    "_ресурси/Фото/Персонажі/Авеліна д'Канніт.jpg",
-    "_ресурси/Фото/Персонажі/Елайден д'Канніт.webp",
-    "_ресурси/Фото/Персонажі/Альдо д'Канніт.webp",
-    "_ресурси/Фото/Персонажі/Авеліна д'Канніт Стелс.jpg",
-    "_ресурси/Фото/Персонажі/Авеліна д'Канніт.webp",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
+    "_ресурси/Фото/Персонажі/Авеліна д'Канніт.webp",
+    "_ресурси/Фото/Персонажі/Авеліна д'Канніт Стелс.jpg",
+    "_ресурси/Фото/Персонажі/Елайден д'Канніт.webp",
+    "_ресурси/Фото/Персонажі/Alden d'Orien.jpg",
+    "_ресурси/Фото/Персонажі/Artificer_Alchemist.webp",
+    "_ресурси/Фото/Персонажі/Альдо д'Канніт .webp",
+    "_ресурси/Фото/Персонажі/Альдо д'Канніт (2).webp",
+    "_ресурси/Фото/Персонажі/DALL·E 2024-04-18 20.55.23 - A 27-year-old female human armorer artificer in an Eberron fantasy setting, depicted in a painterly art style with strong brush strokes and a moody at.webp",
+    "_ресурси/Фото/Персонажі/DALL·E 2024-04-18 20.55.33 - A young female human alchemist artificer, 25 years old, in an Eberron fantasy setting, depicted in a painterly art style with strong brush strokes and.webp",
+    "_ресурси/Фото/Персонажі/DALL·E 2024-04-18 20.55.34 - A young female human alchemist artificer, 25 years old, in an Eberron fantasy setting, depicted in a painterly art style with strong brush strokes and.webp",
     "Життя/НІПи/БД НІПів.md",
     "Життя/Організації/Дім Орієн.md",
     "Життя/Організації/Дім Канніт.md",
@@ -252,16 +260,10 @@
     "Життя/НІПи/Дааск/Ґарра.md",
     "_шаблони/Вставити організацію.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Дім Канніт",
     "_ресурси/Фото/Персонажі/Авеліна д'Канніт Стелс.jpg.~tmp",
-    "_ресурси/Фото/Персонажі/Artificer_Alchemist.webp",
-    "_ресурси/Фото/Персонажі/Авеліна д'Канніт Стелс.webp",
-    "_ресурси/Фото/Персонажі/Artificer_Malleck.jpg",
     "_ресурси/Фото/Персонажі/Artificer_Malleck.jpg.crdownload",
-    "_ресурси/Фото/Персонажі/ArtificerArmorer.jpeg",
     "_ресурси/Фото/Персонажі/ArtificerArmorer.jpeg.crdownload",
-    "_ресурси/Фото/Персонажі/Jorlanna d'Cannith.webp",
     "_ресурси/Фото/Персонажі/Jorlanna d'Cannith.webp.crdownload",
     "_ресурси/Еберрон З попелу Останньої Війни (2).pdf",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
