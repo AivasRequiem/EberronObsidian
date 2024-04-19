@@ -869,13 +869,13 @@
   "version": {
     "major": 1,
     "minor": 3,
-    "patch": 1,
+    "patch": 0,
     "beta": null
   },
   "debug": false,
   "askedToMoveFC": false,
-  "askedAboutSync": false,
-  "syncBehavior": "Ask",
+  "askedAboutSync": true,
+  "syncBehavior": "Always",
   "inlineEventsTag": null,
   "paths": []
 }
