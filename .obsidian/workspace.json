@@ -23,107 +23,6 @@
             }
           },
           {
-            "id": "a799ecd26d668187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0823982d3c6eed27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "222e755a809041df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Райони/Високі Мури.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07eb913e12b9f420",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Карнавал Гвинтиків.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "429fdd29172cde76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Шарн/Вугілля.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "334b61b30df853c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Шарн/Джермен Вілрой.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b05928a2a4565c3",
-            "type": "leaf",
-            "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Життя/НІПи/БД НІПів.md"
-              }
-            }
-          },
-          {
-            "id": "22653b410b8a182a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_шаблони/Вставити організацію.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a2905e04d2cbd9d6",
             "type": "leaf",
             "state": {
@@ -137,12 +36,12 @@
             }
           },
           {
-            "id": "f37f117715d287cd",
+            "id": "a799ecd26d668187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Лабораторія Аарена д'Канніта.md",
+                "file": "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -301,14 +200,14 @@
         "currentTab": 5
       },
       {
-        "id": "75bb23ebb5ea0973",
+        "id": "b4872400f250f6dc",
         "type": "tabs",
         "children": [
           {
-            "id": "f4a7fa0ec82e98aa",
+            "id": "8112132e1523ef28",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "fantasy-statblocks-creature-pane",
               "state": {}
             }
           }
@@ -341,8 +240,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "f37f117715d287cd",
+  "active": "a2905e04d2cbd9d6",
   "lastOpenFiles": [
+    "Інструменти ДМ/Таблиці/Жителі апартаментів.png",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Лабораторія Аарена д'Канніта.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "Життя/НІПи/Untitled.md",
@@ -359,7 +260,6 @@
     "_ресурси/Фото/Організації/House Tharashk.png",
     "_ресурси/Фото/Організації/House Vadalis.png",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Лабораторія Аарена д'Канніта.md",
     "_шаблони/Вставити місце.md",
     "_шаблони/Вставити організацію.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Untitled.md",
