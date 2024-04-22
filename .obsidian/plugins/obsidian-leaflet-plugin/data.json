@@ -1,5 +1,83 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "locked": false,
+      "lastAccessed": 1713604375215,
+      "markers": [
+        {
+          "id": "ID_38eb491869ab",
+          "type": "default",
+          "loc": [
+            2046.0134713632754,
+            3147.213503096483
+          ],
+          "layer": "%5B%5BMap%20of%20Khorvaire%20-%20Eberron%20-%20DM%20vers.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -16.873697757720947,
+              "lng": 6.795673293071925,
+              "id": "ID_49096aaa889a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -15.048177242279053,
+              "lng": 8.776054238092998,
+              "id": "ID_dbcb881beae9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -13.529947757720947,
+              "lng": 11.672162752283658,
+              "id": "ID_896a3aabe80a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -13.045572757720947,
+              "lng": 12.953804212717511,
+              "id": "ID_6a78e8392bf9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -13.624674439430237,
+              "lng": 13.879190626964895,
+              "id": "ID_eb69fa3b99b9",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": true,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Атлас/Хорвейр/Карта Хорвейру.md"
+      ]
+    }
+  ],
   "defaultMarker": {
     "type": "default",
     "iconName": "map-marker",
@@ -14,7 +92,7 @@
   "color": "#dddddd",
   "lat": 39.983334,
   "long": -82.98333,
-  "notePreview": false,
+  "notePreview": true,
   "layerMarkers": true,
   "previousVersion": "6.0.5",
   "version": {
