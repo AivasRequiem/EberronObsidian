@@ -42,11 +42,13 @@
     },
     {
       "name": "Соларія",
-      "level": 1,
-      "hp": 9,
-      "ac": "15",
+      "level": 2,
+      "hp": 15,
+      "ac": 15,
       "modifier": -1,
-      "player": true
+      "player": true,
+      "note": "Соларія",
+      "path": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md"
     }
   ],
   "parties": [
@@ -294,12 +296,12 @@
         "static": false,
         "modifier": 1,
         "hp": 30,
-        "currentMaxHP": 30,
+        "currentMaxHP": 10,
         "cr": "1",
         "ac": 16,
         "currentAC": 16,
         "id": "ID_8b39594bda89",
-        "currentHP": 30,
+        "currentHP": 10,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -404,9 +406,151 @@
   "rollHP": false,
   "descending": true,
   "builder": {
-    "showParty": true,
+    "showParty": false,
     "showXP": true,
-    "sidebarIcon": true
+    "sidebarIcon": true,
+    "headers": [
+      {
+        "text": "CR",
+        "field": "cr",
+        "type": 1
+      },
+      {
+        "text": "Type",
+        "field": "type",
+        "type": 0
+      },
+      {
+        "text": "Size",
+        "field": "size",
+        "type": 0
+      },
+      {
+        "text": "Alignment",
+        "field": "alignment",
+        "type": 0
+      }
+    ],
+    "filters": {
+      "filters": [
+        {
+          "type": 0,
+          "text": "CR",
+          "fields": [
+            "cr"
+          ],
+          "options": [
+            0,
+            30
+          ],
+          "id": "ID_DEFAULT_CR_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Size",
+          "fields": [
+            "size"
+          ],
+          "options": [
+            "Large",
+            "Medium",
+            "Huge",
+            "Gargantuan",
+            "Small",
+            "Tiny"
+          ],
+          "id": "ID_DEFAULT_SIZE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Type",
+          "fields": [
+            "type"
+          ],
+          "options": [
+            "aberration",
+            "humanoid",
+            "dragon",
+            "undead",
+            "elemental",
+            "monstrosity",
+            "construct",
+            "beast",
+            "plant",
+            "fiend",
+            "ooze",
+            "fey",
+            "giant",
+            "celestial",
+            "Halfogre"
+          ],
+          "id": "ID_DEFAULT_TYPE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Alignment",
+          "fields": [
+            "alignment"
+          ],
+          "options": [
+            "lawful evil",
+            "any alignment",
+            "chaotic evil",
+            "chaotic good",
+            "lawful good",
+            "neutral",
+            "lawful neutral",
+            "unaligned",
+            "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
+            "neutral (law/chaos axis) chaotic good neutral (good/evil axis) evil",
+            "neutral evil",
+            "chaotic good neutral (good/evil axis) evil",
+            "neutral good",
+            "chaotic neutral",
+            "neutral good (50%) or neutral evil (50%)",
+            "lawful neutral (law/chaos axis) chaotic evil",
+            "Chaotic Evil",
+            null,
+            "chaotic good (75%) or neutral evil (25%)"
+          ],
+          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+          "derive": true
+        }
+      ],
+      "layout": [
+        {
+          "nested": [
+            {
+              "id": "ID_DEFAULT_CR_FILTER",
+              "type": "filter"
+            }
+          ],
+          "id": "ID_DEFAULT_NESTED_CR",
+          "type": "nested"
+        },
+        {
+          "id": "ID_DEFAULT_NESTED_LAYOUT",
+          "type": "nested",
+          "nested": [
+            {
+              "id": "ID_DEFAULT_SIZE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_TYPE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+              "type": "filter"
+            }
+          ]
+        }
+      ]
+    }
   },
   "rollPlayerInitiatives": 0
 }
