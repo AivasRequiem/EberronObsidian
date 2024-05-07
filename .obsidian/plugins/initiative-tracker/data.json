@@ -42,13 +42,11 @@
     },
     {
       "name": "Соларія",
-      "level": 2,
-      "hp": 15,
-      "ac": 15,
+      "level": 1,
+      "hp": 9,
+      "ac": "15",
       "modifier": -1,
-      "player": true,
-      "note": "Соларія",
-      "path": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md"
+      "player": true
     }
   ],
   "parties": [
@@ -150,7 +148,7 @@
   "version": [
     13,
     0,
-    5
+    10
   ],
   "canUseDiceRoll": false,
   "preferStatblockLink": false,
@@ -163,7 +161,7 @@
     "creatures": [
       {
         "name": "Ксаріон",
-        "initiative": 13,
+        "initiative": 9,
         "static": false,
         "modifier": -1,
         "hp": 20,
@@ -172,8 +170,8 @@
         "currentAC": 18,
         "note": "Ксаріон Макар",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
-        "id": "ID_89f8892a486b",
-        "currentHP": 20,
+        "id": "ID_9ba949f91b3a",
+        "currentHP": 12,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -185,7 +183,7 @@
       },
       {
         "name": "Джин Мосс",
-        "initiative": 21,
+        "initiative": 9,
         "static": false,
         "modifier": 2,
         "hp": 17,
@@ -194,8 +192,8 @@
         "currentAC": 13,
         "note": "Джин Мосс",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
-        "id": "ID_89dbdb58e9f8",
-        "currentHP": 17,
+        "id": "ID_da980b6af928",
+        "currentHP": 10,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -207,7 +205,7 @@
       },
       {
         "name": "Руна",
-        "initiative": 13,
+        "initiative": 20,
         "static": false,
         "modifier": 2,
         "hp": 17,
@@ -216,8 +214,8 @@
         "currentAC": 16,
         "note": "Руна",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
-        "id": "ID_4999ebf8da4a",
-        "currentHP": 17,
+        "id": "ID_f88a78db3818",
+        "currentHP": 10,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -229,7 +227,7 @@
       },
       {
         "name": "Натаніель",
-        "initiative": 15,
+        "initiative": 18,
         "static": false,
         "modifier": 3,
         "hp": 15,
@@ -238,8 +236,8 @@
         "currentAC": 14,
         "note": "Натаніель",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Натаніель.md",
-        "id": "ID_e99a4b49eb89",
-        "currentHP": 15,
+        "id": "ID_09faa81a7ab9",
+        "currentHP": 9,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -251,14 +249,14 @@
       },
       {
         "name": "Соларія",
-        "initiative": 4,
+        "initiative": 2,
         "static": false,
         "modifier": -1,
         "hp": 9,
         "currentMaxHP": 9,
         "ac": "15",
         "currentAC": "15",
-        "id": "ID_c9f80b28b8ca",
+        "id": "ID_4b0a79c85abb",
         "currentHP": 9,
         "tempHP": 0,
         "status": [],
@@ -270,50 +268,8 @@
         "friendly": false
       },
       {
-        "name": "Warforged Soldier",
-        "initiative": 9,
-        "static": false,
-        "modifier": 1,
-        "hp": 30,
-        "currentMaxHP": 30,
-        "cr": "1",
-        "ac": 16,
-        "currentAC": 16,
-        "id": "ID_483858fae9db",
-        "currentHP": 30,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "4d8 + 12",
-        "rollHP": false
-      },
-      {
-        "name": "Warforged Soldier",
-        "initiative": 12,
-        "static": false,
-        "modifier": 1,
-        "hp": 30,
-        "currentMaxHP": 10,
-        "cr": "1",
-        "ac": 16,
-        "currentAC": 16,
-        "id": "ID_8b39594bda89",
-        "currentHP": 10,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "4d8 + 12",
-        "rollHP": false
-      },
-      {
         "name": "Shifter",
-        "initiative": 22,
+        "initiative": 5,
         "static": false,
         "modifier": 3,
         "hp": 19,
@@ -321,7 +277,7 @@
         "cr": "1/2",
         "ac": 14,
         "currentAC": 14,
-        "id": "ID_c9fbd879bac9",
+        "id": "ID_a8ea58990a2b",
         "currentHP": 19,
         "tempHP": 0,
         "status": [],
@@ -333,50 +289,92 @@
         "rollHP": false
       },
       {
-        "name": "Bandit",
+        "name": "Kobold",
         "initiative": 16,
         "static": false,
-        "modifier": 1,
-        "hp": 11,
-        "currentMaxHP": 11,
+        "modifier": 2,
+        "hp": 5,
+        "currentMaxHP": 5,
         "cr": "1/8",
         "ac": 12,
         "currentAC": 12,
-        "id": "ID_9a480bd82bc9",
-        "currentHP": 11,
+        "id": "ID_1aeb4aa9992a",
+        "currentHP": 5,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "active": false,
         "hidden": false,
         "friendly": false,
-        "hit_dice": "2d8 + 2",
+        "hit_dice": "2d6 - 2",
         "rollHP": false
       },
       {
-        "name": "Bandit",
-        "initiative": 2,
+        "name": "Kobold",
+        "initiative": 17,
         "static": false,
-        "modifier": 1,
-        "hp": 11,
-        "currentMaxHP": 11,
+        "modifier": 2,
+        "hp": 5,
+        "currentMaxHP": 5,
         "cr": "1/8",
         "ac": 12,
         "currentAC": 12,
-        "id": "ID_b84b6bd8cbb9",
-        "currentHP": 11,
+        "id": "ID_bb3b18096868",
+        "currentHP": 5,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "active": false,
         "hidden": false,
         "friendly": false,
-        "hit_dice": "2d8 + 2",
+        "hit_dice": "2d6 - 2",
+        "rollHP": false
+      },
+      {
+        "name": "Kobold",
+        "initiative": 16,
+        "static": false,
+        "modifier": 2,
+        "hp": 5,
+        "currentMaxHP": 5,
+        "cr": "1/8",
+        "ac": 12,
+        "currentAC": 12,
+        "id": "ID_2968696bf87b",
+        "currentHP": 5,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d6 - 2",
+        "rollHP": false
+      },
+      {
+        "name": "Acolyte",
+        "initiative": 16,
+        "static": false,
+        "modifier": 0,
+        "hp": 9,
+        "currentMaxHP": 9,
+        "cr": "1/4",
+        "ac": 10,
+        "currentAC": 10,
+        "id": "ID_7b8838597adb",
+        "currentHP": 9,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d8",
         "rollHP": false
       }
     ],
     "state": false,
-    "name": "Гобліни Дааску",
+    "name": "Ударний загін Дааску",
     "round": 1,
     "logFile": "",
     "rollHP": false
@@ -406,151 +404,9 @@
   "rollHP": false,
   "descending": true,
   "builder": {
-    "showParty": false,
+    "showParty": true,
     "showXP": true,
-    "sidebarIcon": true,
-    "headers": [
-      {
-        "text": "CR",
-        "field": "cr",
-        "type": 1
-      },
-      {
-        "text": "Type",
-        "field": "type",
-        "type": 0
-      },
-      {
-        "text": "Size",
-        "field": "size",
-        "type": 0
-      },
-      {
-        "text": "Alignment",
-        "field": "alignment",
-        "type": 0
-      }
-    ],
-    "filters": {
-      "filters": [
-        {
-          "type": 0,
-          "text": "CR",
-          "fields": [
-            "cr"
-          ],
-          "options": [
-            0,
-            30
-          ],
-          "id": "ID_DEFAULT_CR_FILTER",
-          "derive": true
-        },
-        {
-          "type": 2,
-          "text": "Size",
-          "fields": [
-            "size"
-          ],
-          "options": [
-            "Large",
-            "Medium",
-            "Huge",
-            "Gargantuan",
-            "Small",
-            "Tiny"
-          ],
-          "id": "ID_DEFAULT_SIZE_FILTER",
-          "derive": true
-        },
-        {
-          "type": 2,
-          "text": "Type",
-          "fields": [
-            "type"
-          ],
-          "options": [
-            "aberration",
-            "humanoid",
-            "dragon",
-            "undead",
-            "elemental",
-            "monstrosity",
-            "construct",
-            "beast",
-            "plant",
-            "fiend",
-            "ooze",
-            "fey",
-            "giant",
-            "celestial",
-            "Halfogre"
-          ],
-          "id": "ID_DEFAULT_TYPE_FILTER",
-          "derive": true
-        },
-        {
-          "type": 2,
-          "text": "Alignment",
-          "fields": [
-            "alignment"
-          ],
-          "options": [
-            "lawful evil",
-            "any alignment",
-            "chaotic evil",
-            "chaotic good",
-            "lawful good",
-            "neutral",
-            "lawful neutral",
-            "unaligned",
-            "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
-            "neutral (law/chaos axis) chaotic good neutral (good/evil axis) evil",
-            "neutral evil",
-            "chaotic good neutral (good/evil axis) evil",
-            "neutral good",
-            "chaotic neutral",
-            "neutral good (50%) or neutral evil (50%)",
-            "lawful neutral (law/chaos axis) chaotic evil",
-            "Chaotic Evil",
-            null,
-            "chaotic good (75%) or neutral evil (25%)"
-          ],
-          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
-          "derive": true
-        }
-      ],
-      "layout": [
-        {
-          "nested": [
-            {
-              "id": "ID_DEFAULT_CR_FILTER",
-              "type": "filter"
-            }
-          ],
-          "id": "ID_DEFAULT_NESTED_CR",
-          "type": "nested"
-        },
-        {
-          "id": "ID_DEFAULT_NESTED_LAYOUT",
-          "type": "nested",
-          "nested": [
-            {
-              "id": "ID_DEFAULT_SIZE_FILTER",
-              "type": "filter"
-            },
-            {
-              "id": "ID_DEFAULT_TYPE_FILTER",
-              "type": "filter"
-            },
-            {
-              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
-              "type": "filter"
-            }
-          ]
-        }
-      ]
-    }
+    "sidebarIcon": true
   },
   "rollPlayerInitiatives": 0
 }
