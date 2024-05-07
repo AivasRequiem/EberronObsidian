@@ -26,10 +26,8 @@
             "id": "5d832df4d878a090",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни (2).pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -51,15 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Атлас/Хорвейр/Бреландія/Шарн.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md"
               }
             }
           },
@@ -235,6 +232,9 @@
       "daily-notes:Сьогоднішня нотатка": false,
       "templates:Вставити шаблон": false,
       "command-palette:Відкрити меню команд": false,
+      "calendarium:Open Calendarium": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
@@ -244,21 +244,18 @@
       "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
-      "media-extended:Open media": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false
+      "media-extended:Open media": false
     }
   },
-  "active": "6b251038f0b26ac8",
+  "active": "222e755a809041df",
   "lastOpenFiles": [
+    "Атлас/Хорвейр/Бреландія/Шарн.md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Новий Text Document.txt",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "Життя/НІПи/Дім Канніт/Альдо д'Канніт.md",
     "Життя/НІПи/Дім Канніт/Елайден д'Канніт.md",
     "Життя/НІПи/Дім Орієн/Олден д'Орієн.md",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Атлас/Хорвейр/Бреландія/Шарн.md",
     "_ресурси/Карти/Map of Khorvaire - Eberron - DM vers.png",
     "_ресурси/Карти/Map of Khorvaire - Eberron - DM vers.jpg",
     "_ресурси/Фото/Персонажі/8f7da9f7-7bfc-4705-a1ff-8c41dd6267aa.webp",
@@ -296,7 +293,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "conflict-files-obsidian-git.md",
     "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp.crdownload",
-    "_ресурси/Фото/Місця",
-    "_ресурси/Фото/Нова папка"
+    "_ресурси/Фото/Місця"
   ]
 }
