@@ -187,7 +187,7 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewState": 1,
+                  "viewState": 0,
                   "displaying": {
                     "day": 18,
                     "month": 0,
@@ -260,7 +260,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "222e755a809041df",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Бреландія/Шарн.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Лабораторія Аарена д'Канніта.md",
