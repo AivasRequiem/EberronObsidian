@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "8fe71892ab590be9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "a799ecd26d668187",
             "type": "leaf",
             "state": {
@@ -86,21 +101,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8fe71892ab590be9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,6 +229,11 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
+                  "viewing": {
+                    "day": 19,
+                    "month": 0,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 18,
@@ -235,7 +243,8 @@
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29"
+                "id": "ID_c94a4989eb29",
+                "child": "ID_abeb18a9bbeb"
               }
             }
           },
@@ -277,6 +286,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "8b8ff410798f52b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7abc7292195a3027",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "id": "ID_abeb18a9bbeb",
+                "parent": "ID_c94a4989eb29"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -305,7 +332,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "a222c9e77a62d4c2",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
