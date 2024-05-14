@@ -263,6 +263,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "564115f5bb5ac5e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a222c9e77a62d4c2",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -291,7 +305,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0b391c1eec6974b9",
+  "active": "a222c9e77a62d4c2",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
