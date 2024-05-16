@@ -6,9 +6,9 @@
       "name": "Ксаріон",
       "player": true,
       "ac": 18,
-      "hp": 20,
-      "modifier": -1,
-      "level": 2
+      "hp": 28,
+      "modifier": 0,
+      "level": 3
     },
     {
       "note": "Джин Мосс",
@@ -16,13 +16,13 @@
       "name": "Джин Мосс",
       "player": true,
       "ac": 13,
-      "hp": 17,
-      "modifier": 2,
-      "level": 2
+      "hp": 24,
+      "modifier": 3,
+      "level": 3
     },
     {
       "name": "Руна",
-      "level": 2,
+      "level": 3,
       "hp": 17,
       "ac": 16,
       "modifier": 2,
@@ -42,11 +42,13 @@
     },
     {
       "name": "Соларія",
-      "level": 1,
-      "hp": 9,
-      "ac": "15",
+      "level": 2,
+      "hp": 15,
+      "ac": 15,
       "modifier": -1,
-      "player": true
+      "player": true,
+      "note": "Соларія",
+      "path": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md"
     }
   ],
   "parties": [
@@ -164,8 +166,8 @@
         "initiative": 9,
         "static": false,
         "modifier": -1,
-        "hp": 20,
-        "currentMaxHP": 20,
+        "hp": 28,
+        "currentMaxHP": 28,
         "ac": 18,
         "currentAC": 18,
         "note": "Ксаріон Макар",
@@ -186,8 +188,8 @@
         "initiative": 14,
         "static": false,
         "modifier": 2,
-        "hp": 17,
-        "currentMaxHP": 17,
+        "hp": 24,
+        "currentMaxHP": 24,
         "ac": 13,
         "currentAC": 13,
         "note": "Джин Мосс",
