@@ -40509,6 +40509,240 @@
         "spells": [],
         "spellsNotes": ""
       }
+    ],
+    [
+      "Cleric (Tier 1)",
+      {
+        "name": "Cleric (Tier 1)",
+        "size": "Medium or Small",
+        "type": "humanoid",
+        "alignment": "any",
+        "ac": 15,
+        "hp": 26,
+        "hit_dice": "4d8+8",
+        "speed": 30,
+        "stats": [
+          13,
+          13,
+          14,
+          10,
+          16,
+          12
+        ],
+        "saves": [
+          {
+            "WIS": 5
+          },
+          {
+            "CHA": 3
+          }
+        ],
+        "skillsaves": [
+          {
+            "Medicine": 5
+          },
+          {
+            "Perception": 5
+          },
+          {
+            "Persuasion": 3
+          },
+          {
+            "Religion": 2
+          }
+        ],
+        "senses": "Passive Perception 15",
+        "languages": "Common",
+        "cr": 1,
+        "spells": [
+          {
+            "At-will": "light, sacred flame, thaumaturgy"
+          },
+          {
+            "1/day each": "detect evil and good, bless, cure wounds, hold person, inflict wounds, spiritual weapon"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting.",
+            "desc": "The cleric's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Mace",
+            "desc": "Melee Weapon Attack +3 to hit, reach 5 ft., one creature. Hit 1d6+1 bludgeoning damage."
+          },
+          {
+            "name": "Turn Undead (1/rest)",
+            "desc": "Each undead that can see or hear the cleric and is within 30 feet must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from the cleric as it can, and it can't willingly move to a space within 30 feet of them. It can't take reactions and for its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Rogue (Tier 1)",
+      {
+        "name": "Rogue (Tier 1)",
+        "size": "Medium or Small",
+        "type": [
+          null
+        ],
+        "alignment": "any alignment",
+        "ac": 14,
+        "hp": 22,
+        "hit_dice": "4d8+4",
+        "speed": 30,
+        "stats": [
+          10,
+          16,
+          12,
+          10,
+          14,
+          15
+        ],
+        "saves": [
+          {
+            "DEX": 5
+          },
+          {
+            "INT": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 5
+          },
+          {
+            "Deception": 4
+          },
+          {
+            "Perception": 6
+          },
+          {
+            "Sleght of Hand": 5
+          },
+          {
+            "Stealth": 7
+          }
+        ],
+        "senses": "Passive Perception 16",
+        "languages": "Common, Thieves' Cant",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Sneak Attack (1/Turn)",
+            "desc": "The rogue deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the rogue that isn't incapacitated and the rogue doesn't have disadvantage on the attack roll."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. Hit 6 (1d6+3) piercing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Hand Crossbow",
+            "desc": "Ranged Weapon Attack +5 to hit, range 30/120 ft., one target. Hit 6 (1d6+3) piercing damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Rogue (Tier 2)",
+      {
+        "name": "Rogue (Tier 2)",
+        "size": "Small Or Medium",
+        "type": "humanoid",
+        "alignment": "any alignment",
+        "ac": 16,
+        "hp": 58,
+        "hit_dice": "9d8+18",
+        "speed": 30,
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          14,
+          15
+        ],
+        "saves": [
+          {
+            "Dex": 7
+          },
+          {
+            "Int": 3
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 7
+          },
+          {
+            "Deception": 8
+          },
+          {
+            "Perception": 8
+          },
+          {
+            "Sleight of Hand": 10
+          },
+          {
+            "Stealth": 10
+          }
+        ],
+        "senses": "Passive Perception 18",
+        "languages": "Common, Thieves' Cant",
+        "cr": 5,
+        "traits": [
+          {
+            "name": "Evasion",
+            "desc": "When the rogue is subjected to an effect that allows the rogue to make a Dexterity saving throw to take only half damage, the rogue instead take no damage if they succeed on the saving throw, and only half damage if they fail."
+          },
+          {
+            "name": "Sneak Attack (1/Turn)",
+            "desc": "The rogue deals an extra 17 (5d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the rogue that isn't incapacitated and the rogue doesn't have disadvantage on the attack roll."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Attack",
+            "desc": "The rogue makes one shortsword or hand crossbow attack and adds its poison, if available."
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing damage."
+          },
+          {
+            "name": "Hand Crossbow",
+            "desc": "Ranged Weapon Attack +7 to hit, range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing damage."
+          },
+          {
+            "name": "Poison (Recharge 4-6)",
+            "desc": "When a creature is hit with the rogue's shortsword or hand crossbow, they must make a DC 13 Constitution saving throw, taking 14 (4d6) poison damage a failed save, or half as much damage on a successful one."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Cunning Action",
+            "desc": "On each of its turns, the rogue can use a bonus action to take the Dash, Disengage, or Hide action."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Uncanny Dodge",
+            "desc": "When an attacker the rogue can see hits them with an attack, the rogue can use their reaction to halve the attacks damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
@@ -40524,8 +40758,7 @@
     "patch": 2
   },
   "paths": [
-    "Інструменти ДМ/Бестіарій",
-    "/"
+    "Інструменти ДМ/Бестіарій"
   ],
   "autoParse": true,
   "disableSRD": false,
