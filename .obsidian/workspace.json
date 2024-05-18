@@ -54,14 +54,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Життя/НІПи/Клан Боромар/Дектстер.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,14 +262,15 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "templater-obsidian:Templater": false,
-      "media-extended:Open media": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "e02be7dbecbce437",
+  "active": "8adfb248f300c177",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Клан Боромар/Дектстер.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
@@ -296,7 +298,6 @@
     "Життя/Організації/Untitled.md",
     "Життя/Організації/Дааск.md",
     "Життя/Раси/Дракононародженні.md",
-    "Життя/Раси/Дворфи.md",
     "_ресурси/~$еррон_З_попелу_Останньої_Війни.docx",
     "_ресурси/Фото/Організації/Dragonmarked_House_COA_Cannith.webp",
     "_ресурси/Фото/Організації/Boromar_Statue.webp",
