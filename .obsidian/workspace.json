@@ -52,24 +52,16 @@
             "id": "8adfb248f300c177",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
-              }
-            }
-          },
-          {
-            "id": "662218bfb2c08dcf",
-            "type": "leaf",
-            "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Життя/НІПи/БД НІПів.md"
+                "file": "Життя/НІПи/Клан Боромар/Дектстер.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Життя/НІПи/БД НІПів.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Життя/НІПи/БД НІПів.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,8 +167,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Життя/НІПи/БД НІПів.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md"
               }
+            }
+          },
+          {
+            "id": "40cec142bebebf8c",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
             }
           },
           {
@@ -208,17 +208,9 @@
                 "id": "ID_c94a4989eb29"
               }
             }
-          },
-          {
-            "id": "40cec142bebebf8c",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "599c9c88c82d3d46",
@@ -250,8 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5,
-    "collapsed": true
+    "width": 426.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,10 +267,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "662218bfb2c08dcf",
+  "active": "e02be7dbecbce437",
   "lastOpenFiles": [
-    "Життя/НІПи/Повелитель Клинків.md",
+    "Життя/НІПи/Клан Боромар/Дектстер.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Життя/НІПи/БД НІПів.md",
+    "Життя/НІПи/Повелитель Клинків.md",
     "Життя/НІПи/Клан Боромар/Ріанна д'Джораско.md",
     "Життя/НІПи/Дім Орієн/Олден д'Орієн.md",
     "Життя/НІПи/Клан Боромар/Гастон Боромар.md",
@@ -303,10 +297,7 @@
     "Життя/Організації/Дааск.md",
     "Життя/Раси/Дракононародженні.md",
     "Життя/Раси/Дворфи.md",
-    "Життя/Раси/Гноми.md",
-    "Життя/Раси/Гобліноїди.md",
     "_ресурси/~$еррон_З_попелу_Останньої_Війни.docx",
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Організації/Dragonmarked_House_COA_Cannith.webp",
     "_ресурси/Фото/Організації/Boromar_Statue.webp",
     "_ресурси/Фото/Організації/Boromar_Statue.webp.crdownload",

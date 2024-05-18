@@ -40743,6 +40743,79 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Artificer (Tier 1)",
+      {
+        "name": "Artificer (Tier 1)",
+        "size": "Medium Or Small",
+        "type": "humanoid",
+        "alignment": "any alignment",
+        "ac": 16,
+        "hp": 26,
+        "hit_dice": "4d8+8",
+        "speed": 30,
+        "stats": [
+          8,
+          14,
+          15,
+          16,
+          12,
+          10
+        ],
+        "saves": [
+          {
+            "Con": 4
+          },
+          {
+            "Int": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "Investigation": 5
+          }
+        ],
+        "senses": "Passive Perception 11",
+        "languages": "Common",
+        "cr": 1,
+        "spells": [
+          "The artificer is a 3rd level spellcaster, its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks).",
+          {
+            "At will": "mending, shocking grasp"
+          },
+          {
+            "1/day each": "absorb elements, cure wounds, faerie fire"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Tool Proficiency",
+            "desc": "The artificer is proficient with Thieves' Tools, Tinker's Tools, and any one type of artisan's tools."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Repeating Acid Slinger",
+            "desc": "Ranged Weapon Attack +5 to hit, 20/60 ft., one creature. Hit 10 (2d6 + 3) acid damage."
+          },
+          {
+            "name": "Bomb (Recharge 6)",
+            "desc": "The artificer launches a small bomb to a point within 30 feet of it. Each creature within a 5 foot radius of that point must make a DC 13 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much on a successful one."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Mind Sharpener Armor (3/day)",
+            "desc": "When the artificer fails a Constitution saving throw to maintain concentration on a spell, they can use their reaction to succeed instead."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
