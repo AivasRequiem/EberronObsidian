@@ -226,20 +226,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "1f74b8ab442ac461",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e5be7e6740cf1f58",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
