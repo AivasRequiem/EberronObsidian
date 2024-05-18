@@ -269,11 +269,11 @@
       "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
-      "calendarium:Open Calendarium": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "662218bfb2c08dcf",
