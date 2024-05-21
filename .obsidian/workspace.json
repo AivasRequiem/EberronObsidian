@@ -128,8 +128,7 @@
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Предмети/Зброя/Dawn.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Предмети/Зброя/Dawn.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Предмети/Зброя/Dawn.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md"
               }
             }
           },
@@ -335,10 +334,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "a7096bcc19656943",
+  "active": "e02be7dbecbce437",
   "lastOpenFiles": [
-    "Предмети/Зброя/Elemental Katana.md",
     "Предмети/Зброя/Dawn.md",
+    "Предмети/Зброя/Elemental Katana.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
     "_ресурси/Фото/Предмети",
