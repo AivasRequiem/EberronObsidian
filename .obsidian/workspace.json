@@ -34,8 +34,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "dc1687f8b5cea1e3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 3.md"
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
               }
             }
           },
@@ -226,8 +237,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e02be7dbecbce437",
+  "active": "dc1687f8b5cea1e3",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "Життя/Раси/Відмінчата.md",
     "Життя/НІПи/Клан Боромар/Декстер.md",
@@ -242,7 +254,6 @@
     "conflict-files-obsidian-git.md",
     "Предмети/Зброя/Stinger Sword.md",
     "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "Предмети/Зброя",
     "Предмети",
     "_ресурси/Фото/Предмети",
