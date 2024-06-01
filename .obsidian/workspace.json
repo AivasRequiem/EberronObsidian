@@ -185,14 +185,6 @@
             }
           },
           {
-            "id": "6d9b56682223cfe3",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {}
-            }
-          },
-          {
             "id": "35d72834bb577f16",
             "type": "leaf",
             "state": {
@@ -211,6 +203,14 @@
                 },
                 "id": "ID_c94a4989eb29"
               }
+            }
+          },
+          {
+            "id": "0efba78ea9651152",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
             }
           }
         ],
@@ -264,11 +264,11 @@
       "obsidian-custom-frames:Open DnD Beyond Nataniel": false,
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
-      "templater-obsidian:Templater": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "templater-obsidian:Templater": false,
+      "media-extended:Open media": false
     }
   },
   "active": "4988ced708ada849",
