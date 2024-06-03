@@ -9,7 +9,7 @@
 **Abilities:**
 - **+1 Bonus to Performance Checks:** The lute grants a +1 bonus to performance checks made while playing it, enhancing the bardic abilities of its wielder.
 - **Cutting Words:** Once per day, the lute can use the _Cutting Words_ feature, allowing the wielder to subtract a 1d6 from an enemy’s attack roll, ability check, or damage roll as a reaction. The lute itself delivers the insult telepathically, often coming up with particularly biting and clever remarks that suit the situation.
-- **Song of Rest:** The lute enhances the bard’s _Song of Rest_ feature. When the bard uses Song of Rest, allies regain an additional 1d6 hit points. (after friendship will grow this ability will be unlocked)
+- **Song of Rest:** The lute enhances the bard’s _Song of Rest_ feature. When the bard uses Song of Rest, allies regain an additional 1d6 hit points.
 - **Mend Strings:** The lute can magically repair its own strings once per day, ensuring that it remains playable despite its aged condition.
 **Flavor and Roleplay Elements:**
 - **Snarky Advice:** The lute frequently offers commentary on the wielder’s actions and decisions, sometimes helpful, sometimes not. For example, if the wielder is about to engage in a risky action, the lute might say, "Are you sure that's a good idea? Last time you did something like this, it didn’t end well, remember?"
