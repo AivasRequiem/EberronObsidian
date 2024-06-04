@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -250,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
+                "file": "Життя/НІПи/Повелитель Клинків.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
+                "file": "Життя/НІПи/Повелитель Клинків.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md"
+                "file": "Життя/НІПи/Повелитель Клинків.md"
               }
             }
           },
@@ -376,10 +376,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "568c389648cb3f29",
+  "active": "25bf336462e27ff1",
   "lastOpenFiles": [
-    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
+    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
     "Життя/НІПи/Повелитель Клинків.md",
     "Життя/НІПи/Дааск/Ніхо Кой.md",
     "_ресурси/Фото/Персонажі/Niho Koi.webp",
