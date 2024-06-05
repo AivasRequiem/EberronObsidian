@@ -23,34 +23,6 @@
             }
           },
           {
-            "id": "31afe207476c308d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "df057a267ab3b1f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4558a8c68d010aa3",
             "type": "leaf",
             "pinned": true,
@@ -66,60 +38,9 @@
             }
           },
           {
-            "id": "eb6c097cda4b4697",
+            "id": "3c10008a6bbe3fcd",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "017bb9dfa4b59f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Повелитель Клинків.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34006b5643a912dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Інструменти ДМ/50 питань для гравців.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d4208892b3eaf9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4bf2ba4f258aa6c",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -127,55 +48,17 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "e8f33690aa4b55d5",
+            "id": "01b3d45ae3fda642",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18cc225caed6a954",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Дааск/Ніхо Кой.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "25bf336462e27ff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4245cac3f8e7f6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Предмети/Артефакти/Lute of the Witty Muse.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -249,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -289,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
               }
             }
           },
@@ -375,16 +258,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "25bf336462e27ff1",
+  "active": "01b3d45ae3fda642",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 4.md",
+    "Життя/НІПи/Повелитель Клинків.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Кампанії/Нові Герої/Персонажі гравців/Натаніель.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Персонажі гравців/БД Гравців.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 4.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
-    "Життя/НІПи/Повелитель Клинків.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
     "Життя/НІПи/Дааск/Ніхо Кой.md",
     "_ресурси/Фото/Персонажі/Niho Koi.webp",
@@ -398,7 +282,6 @@
     "Предмети/Артефакти/Lute of the Witty Muse.md",
     "Предмети/Артефакти/Shadow Veil.md",
     "Предмети/Артефакти",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "_ресурси/Карти/Cog Hub Floor 1.jpg",
