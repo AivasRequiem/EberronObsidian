@@ -205,7 +205,11 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 9,
+                    "month": 1,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 20,
@@ -215,7 +219,8 @@
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29"
+                "id": "ID_c94a4989eb29",
+                "child": "ID_18186a08e839"
               }
             }
           },
@@ -228,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "599c9c88c82d3d46",
@@ -240,6 +245,24 @@
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "bd6ad79729b63667",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cf39460de6f7bbe",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "id": "ID_18186a08e839",
+                "parent": "ID_c94a4989eb29"
+              }
             }
           }
         ]
@@ -271,7 +294,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
