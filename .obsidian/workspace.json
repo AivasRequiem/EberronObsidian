@@ -78,8 +78,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Життя/НІПи/Дім Орієн/Олден д'Орієн.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Життя/НІПи/Дім Орієн/Олден д'Орієн.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -185,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Життя/НІПи/Дім Орієн/Олден д'Орієн.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 4.md"
               }
             }
           },
@@ -294,8 +293,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "e2404a638549295c",
   "lastOpenFiles": [
+    "Життя/НІПи/Дім Орієн/Олден д'Орієн.md",
     "Життя/Організації/Доми/Дім Фіярлан.md",
     "Життя/Організації/Доми/Дім Туранні.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
@@ -327,7 +327,6 @@
     "_ресурси/Карти/Cog Hub Floor 1.jpg",
     "_ресурси/Карти/Daask Cog Hub Floor 1.jpg",
     "_ресурси/Карти/Daask Cog Hub Lowest Floor.jpg",
-    "Атлас/Хорвейр/Бреландія/Шарн/Місця/Карнавал Гвинтиків.md",
     "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
     "Предмети/Зброя",
     "Предмети",
