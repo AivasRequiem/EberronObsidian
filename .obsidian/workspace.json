@@ -219,8 +219,8 @@
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
                   "viewing": {
-                    "day": 9,
-                    "month": 1,
+                    "day": 24,
+                    "month": 0,
                     "year": 998
                   },
                   "viewState": 1,
@@ -307,7 +307,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "dcb8e8f938bf4ffc",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
