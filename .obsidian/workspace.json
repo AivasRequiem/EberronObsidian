@@ -36,16 +36,6 @@
             }
           },
           {
-            "id": "e45c79985674e9d2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
             "id": "4558a8c68d010aa3",
             "type": "leaf",
             "pinned": true,
@@ -89,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Повел",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -299,13 +289,13 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "e45c79985674e9d2",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Лорд Клинків.md",
