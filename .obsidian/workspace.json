@@ -125,8 +125,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -295,7 +294,7 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "568c389648cb3f29",
   "lastOpenFiles": [
     "_ресурси/Фото/Різне/Запрошення на бал.png",
     "_ресурси/Фото/Запрошення на бал.png",
