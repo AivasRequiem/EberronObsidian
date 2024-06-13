@@ -36,6 +36,16 @@
             }
           },
           {
+            "id": "e45c79985674e9d2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
             "id": "4558a8c68d010aa3",
             "type": "leaf",
             "pinned": true,
@@ -79,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -295,7 +305,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "e45c79985674e9d2",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Життя/НІПи/Лорд Клинків.md",
