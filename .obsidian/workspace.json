@@ -315,8 +315,8 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "d746ffc53c75eb20",
