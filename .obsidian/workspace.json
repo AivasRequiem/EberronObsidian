@@ -114,7 +114,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Життя/НІПи/Лорд Клинків.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Життя/НІПи/Лорд Клинків.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -220,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
+                "file": "Життя/НІПи/Лорд Клинків.md"
               }
             }
           },
@@ -329,14 +330,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "e0149497a1fdc23f",
   "lastOpenFiles": [
+    "_неоргнанізоване/Разубель.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "_ресурси/Фото/Різне/Ввараак2.jpg",
     "_ресурси/Фото/Різне/Ввараак2.jpg.crdownload",
     "_ресурси/Фото/Різне/Ввараак.jpg",
     "_ресурси/Фото/Різне/Ввараак.jpg.crdownload",
     "Життя/НІПи/Лорд Клинків.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "_ресурси/Фото/Містицизм/The_Traveler.JPG.webp",
     "_ресурси/Фото/Містицизм/The_Traveler.JPG.webp.crdownload",
     "_ресурси/Фото/Містицизм",
@@ -358,7 +360,6 @@
     "_ресурси/Фото/Організації/Kundarak.webp",
     "_ресурси/Фото/Організації/Jorasco.webp",
     "_ресурси/Фото/Організації/HouseOrien.png",
-    "_ресурси/Фото/Організації/House_Sivis_coat_of_arms.webp",
     "Життя/Організації/Доми/Дім Лірандар.md",
     "Життя/Організації/Доми/Дім Орієн.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
