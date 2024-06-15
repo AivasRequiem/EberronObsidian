@@ -110,7 +110,7 @@
                 "file": "Предмети/Зброя/Kage no Yaiba.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -305,7 +305,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
