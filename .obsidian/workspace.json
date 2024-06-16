@@ -49,8 +49,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "50aad526475b1364",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Інструменти ДМ/50 питань для гравців.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Інструменти ДМ/50 питань для гравців.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Інструменти ДМ/50 питань для гравців.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
               }
             }
           },
@@ -251,8 +250,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "6edc851ab9857aa7",
+  "active": "d746ffc53c75eb20",
   "lastOpenFiles": [
+    "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
