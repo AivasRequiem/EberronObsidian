@@ -4,130 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "36307bd2d3c6963f",
-        "type": "tabs",
+        "id": "8c26404b46da9dc0",
+        "type": "split",
         "children": [
           {
-            "id": "d746ffc53c75eb20",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "36307bd2d3c6963f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d746ffc53c75eb20",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "pinned": true
+                }
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "938b15fa40aadbc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Доми/Дім Туранні.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
+              {
+                "id": "674c804d2536bdd9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "9b47e7d8c9165d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Доми/Дім Фіярлан.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "50aad526475b1364",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5e8c5065a01345d6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "674c804d2536bdd9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
-              }
-            }
-          },
-          {
-            "id": "4558a8c68d010aa3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3c10008a6bbe3fcd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "01b3d45ae3fda642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0149497a1fdc23f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Разубель.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a05ed33fb043a17b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -193,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -233,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
               }
             }
           },
@@ -253,11 +185,7 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": {
-                    "day": 24,
-                    "month": 0,
-                    "year": 998
-                  },
+                  "viewing": null,
                   "viewState": 1,
                   "displaying": {
                     "day": 24,
@@ -296,24 +224,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "bd6ad79729b63667",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8cf39460de6f7bbe",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM_AGENDA",
-              "state": {
-                "calendar": "ID_d8bbdbca793a",
-                "id": "ID_18186a08e839",
-                "parent": "ID_c94a4989eb29"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -321,12 +231,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
@@ -342,8 +252,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "674c804d2536bdd9",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
     "_неоргнанізоване/Талісса Ріаллан.md",
@@ -388,7 +299,6 @@
     "Життя/Організації/Доми/Дім Джораско.md",
     "Життя/Організації/Доми/Дім Галланда.md",
     "Життя/Організації/Доми/Дім Денейт.md",
-    "Життя/Організації/Доми/Дім Лірандар.md",
-    "Життя/Організації/Доми/Дім Орієн.md"
+    "Життя/Організації/Доми/Дім Лірандар.md"
   ]
 }
