@@ -27,6 +27,19 @@
                 }
               },
               {
+                "id": "6edc851ab9857aa7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Інструменти ДМ/50 питань для гравців.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "674c804d2536bdd9",
                 "type": "leaf",
                 "state": {
@@ -36,7 +49,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "50aad526475b1364",
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Інструменти ДМ/50 питань для гравців.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Інструменти ДМ/50 питань для гравців.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
+                "file": "Інструменти ДМ/50 питань для гравців.md"
               }
             }
           },
@@ -209,20 +223,6 @@
           }
         ],
         "currentTab": 5
-      },
-      {
-        "id": "599c9c88c82d3d46",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "99fc9866c30247bb",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -251,11 +251,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "6edc851ab9857aa7",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
     "_неоргнанізоване/Талісса Ріаллан.md",
     "_ресурси/Фото/Персонажі/Таліса.jpg",
@@ -288,7 +288,6 @@
     "_ресурси/Фото/Різне/Ввараак2.jpg.crdownload",
     "_ресурси/Фото/Різне/Ввараак.jpg",
     "_ресурси/Фото/Різне/Ввараак.jpg.crdownload",
-    "_ресурси/Фото/Містицизм/The_Traveler.JPG.webp.crdownload",
     "Життя/Організації/Доми/Дім Фіярлан.md",
     "Життя/Організації/Доми/Дім Тарашк.md",
     "Життя/Організації/Доми/Дім Сівіс.md",
