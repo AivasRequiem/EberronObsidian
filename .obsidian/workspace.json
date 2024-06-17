@@ -4,74 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "8c26404b46da9dc0",
-        "type": "split",
+        "id": "36307bd2d3c6963f",
+        "type": "tabs",
         "children": [
           {
-            "id": "36307bd2d3c6963f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d746ffc53c75eb20",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "pinned": true
-                }
+            "id": "d746ffc53c75eb20",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              {
-                "id": "6edc851ab9857aa7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Інструменти ДМ/50 питань для гравців.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "674c804d2536bdd9",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
-                  }
-                }
-              }
-            ]
+              "pinned": true
+            }
           },
           {
-            "id": "50aad526475b1364",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5e8c5065a01345d6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
+            "id": "433443171e5d23fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "f280e64f04712f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6edc851ab9857aa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Інструменти ДМ/50 питань для гравців.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "674c804d2536bdd9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md"
               }
             }
           },
@@ -197,11 +198,15 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 2,
+                    "month": 1,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 24,
-                    "month": 0,
+                    "month": 1,
                     "year": 998
                   },
                   "displayDayNumber": false,
@@ -250,13 +255,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d746ffc53c75eb20",
+  "active": "433443171e5d23fb",
   "lastOpenFiles": [
-    "Інструменти ДМ/50 питань для гравців.md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
+    "Життя/Організації/Доми/Дім Кундарак.md",
+    "_ресурси/Фото/Персонажі/ArtificerArmorer.jpeg",
+    "Життя/Організації/Доми/Дім Вадаліс.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
+    "Інструменти ДМ/50 питань для гравців.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_неоргнанізоване/Талісса Ріаллан.md",
     "_ресурси/Фото/Персонажі/Таліса.jpg",
     "_ресурси/Фото/Персонажі/Таліса.jpg.crdownload",
@@ -286,17 +295,13 @@
     "_неоргнанізоване/Разубель.md",
     "_ресурси/Фото/Різне/Ввараак2.jpg",
     "_ресурси/Фото/Різне/Ввараак2.jpg.crdownload",
-    "_ресурси/Фото/Різне/Ввараак.jpg",
     "_ресурси/Фото/Різне/Ввараак.jpg.crdownload",
     "Життя/Організації/Доми/Дім Фіярлан.md",
     "Життя/Організації/Доми/Дім Тарашк.md",
     "Життя/Організації/Доми/Дім Сівіс.md",
-    "Життя/Організації/Доми/Дім Вадаліс.md",
-    "Життя/Організації/Доми/Дім Кундарак.md",
     "Життя/Організації/Доми/Дім Туранні.md",
     "Життя/Організації/Доми/Дім Медані.md",
     "Життя/Організації/Доми/Дім Джораско.md",
-    "Життя/Організації/Доми/Дім Галланда.md",
-    "Життя/Організації/Доми/Дім Денейт.md"
+    "Життя/Організації/Доми/Дім Галланда.md"
   ]
 }
