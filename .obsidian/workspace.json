@@ -91,14 +91,14 @@
               "type": "markdown",
               "state": {
                 "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md"
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md"
               }
             }
           },
@@ -279,10 +279,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "3407d517de3f4f31",
+  "active": "134bd70588df4778",
   "lastOpenFiles": [
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Життя/Організації/Дааск.md",
     "_ресурси/Фото/Місця/Droaam_ECS.webp",
     "_ресурси/Фото/Місця/Droaam_ECS.webp.crdownload",
