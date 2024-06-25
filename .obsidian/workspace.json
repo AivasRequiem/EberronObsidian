@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "f43b71954c76861f",
@@ -282,7 +281,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "568c389648cb3f29",
+  "active": "8f91421b2c603a79",
   "lastOpenFiles": [
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
