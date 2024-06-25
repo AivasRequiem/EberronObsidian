@@ -23,6 +23,16 @@
             }
           },
           {
+            "id": "0b2f73c4f1ad21b9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "c511e3ab3e80240a",
             "type": "leaf",
             "state": {
@@ -71,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,7 +263,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "674c804d2536bdd9",
+  "active": "0b2f73c4f1ad21b9",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
