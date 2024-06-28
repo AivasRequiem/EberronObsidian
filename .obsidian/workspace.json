@@ -84,8 +84,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md"
               }
             }
           },
@@ -280,10 +279,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "134bd70588df4778",
+  "active": "674c804d2536bdd9",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Життя/НІПи/Дааск/Герда.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
