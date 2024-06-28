@@ -70,22 +70,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d97f91ae31701bae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md"
               }
             }
           },
@@ -280,8 +266,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d97f91ae31701bae",
+  "active": "674c804d2536bdd9",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Життя/НІПи/Дааск/Герда.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
