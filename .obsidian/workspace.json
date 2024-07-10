@@ -10,16 +10,27 @@
           {
             "id": "674c804d2536bdd9",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-                "mode": "preview",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
+            }
+          },
+          {
+            "id": "677c68ee71378123",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Дааск/Герда.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -273,7 +284,6 @@
       {
         "id": "a353eb09aeb5588b",
         "type": "tabs",
-        "dimension": 63.11274509803921,
         "children": [
           {
             "id": "3407d517de3f4f31",
@@ -281,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -321,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md"
               }
             }
           },
@@ -373,13 +383,26 @@
       {
         "id": "60cb2fe3e4504944",
         "type": "tabs",
-        "dimension": 36.88725490196079,
         "children": [
           {
             "id": "0f1f664035e7d9e0",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "03ed64122b76d4cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cee92d2efa60a6d",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
               "state": {}
             }
           }
@@ -414,8 +437,9 @@
   },
   "active": "674c804d2536bdd9",
   "lastOpenFiles": [
-    "Життя/НІПи/Дааск/Герда.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+    "Життя/НІПи/Дааск/Герда.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
