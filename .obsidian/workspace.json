@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "e8ee9fe06d4ac442",
+            "id": "80810a8fec40cd58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "677c68ee71378123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Дааск/Герда.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,175 +53,6 @@
               "type": "pdf",
               "state": {
                 "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
-              }
-            }
-          },
-          {
-            "id": "ccb00a99783d17be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Нижній поверх.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "433443171e5d23fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "134bd70588df4778",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d843abd14a94de93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Дааск/Герда.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b5b803154a9568",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "459c7d03605f0e30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Разубель.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dfecb2a7c4bf6204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ec738b8ea52e772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Інструменти ДМ/50 питань для гравців.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2230d464b59b31c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73f6a680e458be77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1ba8acfe83a979f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cb39cbe1ff2e5ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a3b40d1085c9de3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Дааск/Герда.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           }
@@ -394,20 +212,6 @@
         "currentTab": 5
       },
       {
-        "id": "60cb2fe3e4504944",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0f1f664035e7d9e0",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "bdc74a41b5e5ada4",
         "type": "tabs",
         "children": [
@@ -420,10 +224,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "6d120ea34789a96e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d7b31c6be34c367",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 534.5
+    "width": 486.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -444,21 +262,22 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "77f6ec542e96be8f",
+  "active": "674c804d2536bdd9",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
     "Життя/НІПи/Дааск/Герда.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
     "Інструменти ДМ/50 питань для гравців.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Життя/НІПи/Клинки/Разубель.md",
     "_ресурси/Фото/Персонажі/Elara.jpg",
     "_ресурси/Фото/Персонажі/Elara.jpg.crdownload",
