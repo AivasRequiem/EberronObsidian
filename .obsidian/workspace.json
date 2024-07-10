@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "e8ee9fe06d4ac442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "677c68ee71378123",
             "type": "leaf",
             "state": {
@@ -378,7 +391,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "60cb2fe3e4504944",
@@ -395,11 +408,11 @@
         ]
       },
       {
-        "id": "03ed64122b76d4cd",
+        "id": "bdc74a41b5e5ada4",
         "type": "tabs",
         "children": [
           {
-            "id": "9cee92d2efa60a6d",
+            "id": "77f6ec542e96be8f",
             "type": "leaf",
             "state": {
               "type": "fantasy-statblocks-creature-pane",
@@ -410,7 +423,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 534.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -435,11 +448,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "674c804d2536bdd9",
+  "active": "77f6ec542e96be8f",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-    "Життя/НІПи/Дааск/Герда.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+    "Життя/НІПи/Дааск/Герда.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",

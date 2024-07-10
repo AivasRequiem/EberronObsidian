@@ -69356,6 +69356,113 @@
         "columns": 1,
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Chest Weasel",
+      {
+        "name": "Chest Weasel",
+        "size": "Small",
+        "type": "fey",
+        "alignment": "typically chaotic neutral",
+        "ac": "22 (natural armor while possessing an object), 14 (while not possessing an object)",
+        "hp": 35,
+        "hit_dice": "10d6",
+        "speed": "40 ft., burrow 20 ft., fly 40 ft. (hover)",
+        "stats": [
+          5,
+          18,
+          10,
+          16,
+          12,
+          17
+        ],
+        "saves": [
+          {
+            "Dex": 7
+          },
+          {
+            "Wis": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Deception": 9
+          },
+          {
+            "Insight": 7
+          },
+          {
+            "Stealth": 10
+          }
+        ],
+        "damage_immunities": "necrotic, poison (while possessing an object)",
+        "condition_immunities": "charmed, frightened",
+        "senses": "darkvision 120 ft., passive Perception 11",
+        "languages": "Common, Sylvan",
+        "cr": "5 (1,800 XP)",
+        "traits": [
+          {
+            "name": "Airtight Seal",
+            "desc": "The chest weasel doesn’t need to breathe."
+          },
+          {
+            "name": "Cracked Shell",
+            "desc": "The first time the chest weasel is reduced to 0 hit points, it drops to 1 hit point instead. Until the end of its next turn, all attacks against the chest weasel have disadvantage and its movement does not provoke attacks of opportunity. The chest weasel can’t use this feature again until it finishes a long rest."
+          },
+          {
+            "name": "False Appearance (while possessing an object)",
+            "desc": "While the chest weasel remains motionless, it is indistinguishable from an ordinary object."
+          },
+          {
+            "name": "New Home",
+            "desc": "If the chest weasel possesses a new object, it regains half its total HP back."
+          },
+          {
+            "name": "Object Manipulation",
+            "desc": "While the chest weasel is possessing an object, the object becomes an extension of itself. It can make the object move as fast as the chest weasel can itself move, and it can change characteristics of the object, such as the material from which it’s made of; its weight (with a maximum weight of 100 pounds and a minimum weight of 10); and its size (making it grow or shrink up to twice its original size)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The chest weasel makes two claw attacks."
+          },
+          {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage."
+          },
+          {
+            "name": "Object Possession",
+            "desc": "The chest weasel possesses a non-magical object that isn’t currently worn or carried by a creature within 5 feet of it."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The chest weasel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14, +6 to hit with spell attacks).",
+            "spells": [
+              {
+                "At will": "mending, resistance, guidance, identify"
+              },
+              {
+                "3/day each": "crown of madness, jump, longstrider, thunderwave, misty step"
+              },
+              {
+                "2/day each": "confusion, dimension door, invisibility, suggestion"
+              },
+              {
+                "1/day": "plane shift (only on itself)"
+              }
+            ]
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Misty Step",
+            "desc": "The chest weasel can use misty step after another creature takes any action, without consuming the use of a spell."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
