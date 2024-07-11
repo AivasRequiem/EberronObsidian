@@ -225,25 +225,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "6d120ea34789a96e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5d7b31c6be34c367",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 486.5,
-    "collapsed": true
+    "width": 486.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,7 +253,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "674c804d2536bdd9",
+  "active": "77f6ec542e96be8f",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
