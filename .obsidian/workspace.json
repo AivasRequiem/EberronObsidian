@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "674c804d2536bdd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80810a8fec40cd58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "f43b71954c76861f",
@@ -225,6 +211,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "8f0e11649d46ebfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af8c83bf3e7e14d9",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -253,10 +253,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77f6ec542e96be8f",
+  "active": "80810a8fec40cd58",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 5.md",
     "Життя/НІПи/Дааск/Герда.md",
@@ -293,7 +294,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
-    "Життя/Організації/Дааск.md",
     "_ресурси/Фото/Місця/Droaam_ECS.webp.crdownload",
     "Атлас/Хорвейр/Дроаам",
     "_ресурси/Фото/Персонажі/Таліса.jpg.crdownload",
