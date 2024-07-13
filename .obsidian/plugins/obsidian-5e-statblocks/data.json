@@ -69399,7 +69399,7 @@
         "condition_immunities": "charmed, frightened",
         "senses": "darkvision 120 ft., passive Perception 11",
         "languages": "Common, Sylvan",
-        "cr": "5 (1,800 XP)",
+        "cr": 5,
         "traits": [
           {
             "name": "Airtight Seal",
@@ -69434,24 +69434,21 @@
           {
             "name": "Object Possession",
             "desc": "The chest weasel possesses a non-magical object that isn’t currently worn or carried by a creature within 5 feet of it."
+          }
+        ],
+        "spells": [
+          "The chest weasel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14, +6 to hit with spell attacks).",
+          {
+            "At will": "mending, resistance, guidance, identify"
           },
           {
-            "name": "Spellcasting",
-            "desc": "The chest weasel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14, +6 to hit with spell attacks).",
-            "spells": [
-              {
-                "At will": "mending, resistance, guidance, identify"
-              },
-              {
-                "3/day each": "crown of madness, jump, longstrider, thunderwave, misty step"
-              },
-              {
-                "2/day each": "confusion, dimension door, invisibility, suggestion"
-              },
-              {
-                "1/day": "plane shift (only on itself)"
-              }
-            ]
+            "3/day each": "crown of madness, jump, longstrider, thunderwave, misty step"
+          },
+          {
+            "2/day each": "confusion, dimension door, invisibility, suggestion"
+          },
+          {
+            "1/day": "plane shift (only on itself)"
           }
         ],
         "reactions": [
@@ -69474,8 +69471,8 @@
   "showAdvanced": false,
   "version": {
     "major": 4,
-    "minor": 4,
-    "patch": 2
+    "minor": 6,
+    "patch": 0
   },
   "paths": [
     "Інструменти ДМ/Бестіарій",

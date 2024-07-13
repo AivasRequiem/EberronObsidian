@@ -199,20 +199,6 @@
         "currentTab": 5
       },
       {
-        "id": "bdc74a41b5e5ada4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "77f6ec542e96be8f",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "8f0e11649d46ebfe",
         "type": "tabs",
         "children": [
