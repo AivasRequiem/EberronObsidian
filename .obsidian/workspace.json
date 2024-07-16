@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "8f0e11649d46ebfe",
@@ -240,6 +240,39 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "calendarium:Open Calendarium": false
     }
+  },
+  "floating": {
+    "id": "2c17ba94c8930908",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0e8cfa1911efe91c",
+        "type": "window",
+        "children": [
+          {
+            "id": "d27d301fe938e275",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "46983372f0eb9350",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 8,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "6aa21d315406a006",
   "lastOpenFiles": [
