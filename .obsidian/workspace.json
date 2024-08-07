@@ -240,6 +240,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "dc7e2de346b073f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6af6ffca3a47dc7",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -268,7 +282,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "689dfe919d05184c",
+  "active": "d6af6ffca3a47dc7",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Верхні поверхи.md",
