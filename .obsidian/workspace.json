@@ -71,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 8.md"
               }
             }
           },
@@ -282,7 +281,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d6af6ffca3a47dc7",
+  "active": "2a3b40d1085c9de3",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Зубчатий вузол/Зубчатий вузол. Верхні поверхи.md",
