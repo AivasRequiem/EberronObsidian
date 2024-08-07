@@ -69466,7 +69466,7 @@
   "layouts": [],
   "default": "basic-5e-layout",
   "useDice": true,
-  "renderDice": true,
+  "renderDice": false,
   "export": true,
   "showAdvanced": false,
   "version": {
