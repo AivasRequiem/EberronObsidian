@@ -36,6 +36,16 @@
             }
           },
           {
+            "id": "1c6d6d1da8776416",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "677c68ee71378123",
             "type": "leaf",
             "state": {
@@ -228,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -438,7 +448,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "689dfe919d05184c",
+  "active": "1c6d6d1da8776416",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
