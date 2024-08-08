@@ -253,20 +253,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "8cba84917bf31a58",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "511f260ba8435f3a",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -295,7 +281,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "dc8442a721ddc2e3",
+  "active": "0f1f664035e7d9e0",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
     "_ресурси/Exploring Eberron.pdf",
