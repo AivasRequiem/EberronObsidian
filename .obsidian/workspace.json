@@ -240,6 +240,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "8cba84917bf31a58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "511f260ba8435f3a",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -268,7 +282,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "689dfe919d05184c",
+  "active": "511f260ba8435f3a",
   "lastOpenFiles": [
     "_ресурси/Exploring Eberron.pdf",
     "_ресурси/Chronicles of Eberron.pdf",
