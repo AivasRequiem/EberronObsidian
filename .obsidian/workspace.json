@@ -31,7 +31,7 @@
                 "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           },
@@ -236,20 +236,6 @@
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "dc7e2de346b073f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d6af6ffca3a47dc7",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
               "state": {}
             }
           }
