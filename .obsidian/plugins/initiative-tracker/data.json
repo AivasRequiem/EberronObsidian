@@ -8,17 +8,17 @@
       "ac": 18,
       "hp": 44,
       "modifier": 0,
-      "level": 4
+      "level": 5
     },
     {
       "note": "Джин Мосс",
       "path": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
       "name": "Джин Мосс",
       "player": true,
-      "ac": 14,
-      "hp": 31,
+      "ac": 16,
+      "hp": 38,
       "modifier": 4,
-      "level": 4
+      "level": 5
     },
     {
       "name": "Руна",
@@ -36,9 +36,9 @@
       "name": "Натаніель",
       "player": true,
       "ac": 16,
-      "hp": 34,
+      "hp": 33,
       "modifier": 4,
-      "level": 4
+      "level": 5
     },
     {
       "name": "Соларія",
@@ -67,8 +67,6 @@
       "players": [
         "Ксаріон",
         "Джин Мосс",
-        "Натаніель",
-        "Соларія",
         "Руна",
         "Фіора д'Вадаліс"
       ]
@@ -177,10 +175,10 @@
         "initiative": 24,
         "static": false,
         "modifier": 4,
-        "hp": 31,
-        "currentMaxHP": 31,
-        "ac": 14,
-        "currentAC": 14,
+        "hp": 38,
+        "currentMaxHP": 38,
+        "ac": 16,
+        "currentAC": 16,
         "note": "Джин Мосс",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
         "id": "ID_0a088b2b4b69",
@@ -245,8 +243,8 @@
         "initiative": 5,
         "static": false,
         "modifier": 4,
-        "hp": 34,
-        "currentMaxHP": 34,
+        "hp": 33,
+        "currentMaxHP": 33,
         "ac": 16,
         "currentAC": 16,
         "note": "Нікс",
