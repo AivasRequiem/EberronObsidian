@@ -280,20 +280,6 @@
         "currentTab": 4
       },
       {
-        "id": "60cb2fe3e4504944",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0f1f664035e7d9e0",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "6b7496937ff8f66e",
         "type": "tabs",
         "children": [
