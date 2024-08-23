@@ -28,7 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
+                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f70ee2ac3f0c63a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
+                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
+                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -217,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md"
+                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md"
               }
             }
           },
@@ -303,11 +316,15 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "a23967af8ae3100a",
   "lastOpenFiles": [
+    "Атлас/Хорвейр/Дроаам/Дроаам.md",
+    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+    "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Життя/Організації/Релігії/Кров Вол.md",
@@ -316,7 +333,6 @@
     "_ресурси/Фото/Організації/Blood_of_Vol.webp.crdownload",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/Організації/Релігії",
-    "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
     "Життя/НІПи/Кров Вол",
     "_ресурси/Фото/Персонажі/Багряна Люція (ульт 2).jpg",
     "_ресурси/Фото/Персонажі/Багряна Люція (ульт 2).jpg.crdownload",
@@ -346,7 +362,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "conflict-files-obsidian-git.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-    "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "_ресурси/Фото/Персонажі/Elara.jpg",
     "_ресурси/Фото/Персонажі/Alister.jpg",
     "_ресурси/Фото/Персонажі/Rada.jpg",
