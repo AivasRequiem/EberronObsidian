@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "55799cad998a1ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1765cf7ff0747e40",
             "type": "leaf",
             "state": {
@@ -146,8 +159,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md"
               }
             }
           }
@@ -223,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -357,11 +369,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e78d3c95e09e50b5",
+  "active": "7a7cce0fbc10df9a",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
-    "_ресурси/Інше/Na_Boloti_1.1.pdf",
     "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+    "_ресурси/Інше/Na_Boloti_1.1.pdf",
     "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
