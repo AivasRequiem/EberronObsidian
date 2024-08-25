@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_ресурси/Інше/Na_Boloti_1.1.pdf"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md"
               }
             }
           }
@@ -162,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_ресурси/Інше/Na_Boloti_1.1.pdf",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_ресурси/Інше/Na_Boloti_1.1.pdf",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -242,20 +241,6 @@
         "currentTab": 3
       },
       {
-        "id": "6b7496937ff8f66e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4e2d66d90779e4c7",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "6f8e9f3237c54781",
         "type": "tabs",
         "children": [
@@ -296,14 +281,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "1765cf7ff0747e40",
+  "active": "7a7cce0fbc10df9a",
   "lastOpenFiles": [
-    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
+    "_ресурси/Інше/Na_Boloti_1.1.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
+    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Життя/НІПи/Дааск/Герда.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
-    "_ресурси/Інше/Na_Boloti_1.1.pdf",
     "Атлас/Хорвейр/Дроаам/Сіростін/Колиба Надії.md",
     "_ресурси/Карти/Port town Vralkek.jpg",
     "_ресурси/Карти/Port town Vralkek (ДМ).jpg",
