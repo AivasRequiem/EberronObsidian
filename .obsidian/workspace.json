@@ -320,40 +320,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "f65d3bf3fdce649e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "aef7cc7e29885e14",
-        "type": "window",
-        "children": [
-          {
-            "id": "e4d188ac8bc5d7a7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "41d9f121731043a5",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1360,
-        "y": -99,
-        "width": 1028,
-        "height": 803,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "fe5afd4f1ebf3348",
+  "active": "35209fbc6dfbba01",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
