@@ -78096,6 +78096,410 @@
         ],
         "spellsNotes": ""
       }
+    ],
+    [
+      "Bone Knight (Marcus)",
+      {
+        "image": null,
+        "bestiary": true,
+        "name": "Bone Knight (Marcus)",
+        "source": [
+          "Eberron: Rising from the Last War"
+        ],
+        "type": "humanoid",
+        "subtype": "any race",
+        "size": "Medium",
+        "alignment": "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
+        "hp": 45,
+        "hit_dice": "6d8 + 18",
+        "ac": "17 (bonecraft armor)",
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          12,
+          14,
+          10,
+          12,
+          14
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "necrotic",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "wisdom": "3"
+          },
+          {
+            "charisma": "4"
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": "5"
+          },
+          {
+            "deception": "4"
+          },
+          {
+            "intimidation": "4"
+          }
+        ],
+        "senses": "passive Perception 11",
+        "languages": "any one language (usually Common)",
+        "cr": "3",
+        "traits": [
+          {
+            "name": "Commander of Bones",
+            "desc": "As a bonus action, the knight can target one skeleton or zombie it can see within 30 feet of it. The target must make a 12 Wisdom saving throw. On a failed save, the target must obey the knight's commands until the knight dies or until the knight releases it as a bonus action. The knight can command up to six undead at a time this way."
+          },
+          {
+            "name": "Master of the Pallid Banner",
+            "desc": "While within 60 feet of the knight, any undead ally of the knight has advantage on saving throws against any effect that turns undead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The knight attacks twice with one of its weapons."
+          },
+          {
+            "name": "Greatsword",
+            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 9 (2d6 + 2) slashing damage."
+          },
+          {
+            "name": "Longbow",
+            "desc": "Ranged Weapon Attack +3 to hit, range 150/600 ft., one target. 4 (1d8 + 0) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "mythic_actions": [],
+        "spells": [
+          "The knight is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save 12, +4 to hit with spell attacks). It has the following paladin spells prepared:",
+          {
+            "1st level (4 slots)": "command, compelled duel, wrathful smite"
+          },
+          {
+            "2nd level (2 slots)": "branding smite, magic weapon"
+          }
+        ],
+        "spellsNotes": "",
+        "creature": {
+          "image": null,
+          "bestiary": true,
+          "name": "Bone Knight",
+          "source": [
+            "Eberron: Rising from the Last War"
+          ],
+          "type": "humanoid",
+          "subtype": "any race",
+          "size": "Medium",
+          "alignment": "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
+          "hp": 45,
+          "hit_dice": "6d8 + 18",
+          "ac": "17 (bonecraft armor)",
+          "speed": "30 ft.",
+          "stats": [
+            16,
+            12,
+            14,
+            10,
+            12,
+            14
+          ],
+          "damage_immunities": "",
+          "damage_resistances": "necrotic",
+          "damage_vulnerabilities": "",
+          "condition_immunities": "",
+          "saves": [
+            {
+              "wisdom": "3"
+            },
+            {
+              "charisma": "4"
+            }
+          ],
+          "skillsaves": [
+            {
+              "athletics": "5"
+            },
+            {
+              "deception": "4"
+            },
+            {
+              "intimidation": "4"
+            }
+          ],
+          "senses": "passive Perception 11",
+          "languages": "any one language (usually Common)",
+          "cr": "3",
+          "traits": [
+            {
+              "name": "Commander of Bones",
+              "desc": "As a bonus action, the knight can target one skeleton or zombie it can see within 30 feet of it. The target must make a 12 Wisdom saving throw. On a failed save, the target must obey the knight's commands until the knight dies or until the knight releases it as a bonus action. The knight can command up to six undead at a time this way."
+            },
+            {
+              "name": "Master of the Pallid Banner",
+              "desc": "While within 60 feet of the knight, any undead ally of the knight has advantage on saving throws against any effect that turns undead."
+            }
+          ],
+          "actions": [
+            {
+              "name": "Multiattack",
+              "desc": "The knight attacks twice with one of its weapons."
+            },
+            {
+              "name": "Greatsword",
+              "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 9 (2d6 + 2) slashing damage."
+            },
+            {
+              "name": "Longbow",
+              "desc": "Ranged Weapon Attack +3 to hit, range 150/600 ft., one target. 4 (1d8 + 0) piercing damage."
+            }
+          ],
+          "bonus_actions": [],
+          "reactions": [],
+          "legendary_actions": [],
+          "mythic_actions": [],
+          "spells": [
+            "The knight is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save 12, +4 to hit with spell attacks). It has the following paladin spells prepared:",
+            {
+              "1st level (4 slots)": "command, compelled duel, wrathful smite"
+            },
+            {
+              "2nd level (2 slots)": "branding smite, magic weapon"
+            }
+          ],
+          "spellsNotes": "",
+          "modifier": 1
+        },
+        "modifier": 1,
+        "temp": 0,
+        "current_ac": "17 (bonecraft armor)",
+        "dirty_ac": false,
+        "enabled": true,
+        "hidden": false,
+        "max": 45,
+        "current_max": 45,
+        "status": [],
+        "initiative": 0,
+        "static": false,
+        "id": "ID_7a4869f9e97a",
+        "viewing": false,
+        "number": 0,
+        "friendly": false,
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Crimson Lucia",
+      {
+        "image": null,
+        "bestiary": true,
+        "name": "Crimson Lucia",
+        "source": [
+          "Guildmasters' Guide to Ravnica"
+        ],
+        "type": "humanoid",
+        "subtype": "elf",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "hp": 58,
+        "hit_dice": "9d8 + 18",
+        "ac": "13 (Mage Armor)",
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          14,
+          14,
+          13,
+          9,
+          18
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "psychic",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "wisdom": "2"
+          },
+          {
+            "charisma": "6"
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": "4"
+          },
+          {
+            "intimidation": "6"
+          },
+          {
+            "perception": "2"
+          },
+          {
+            "stealth": "5"
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 12",
+        "languages": "Abyssal plus any one language (usually Common)",
+        "cr": "5",
+        "traits": [
+          {
+            "name": "Blood Witch Dance",
+            "desc": "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a 14 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
+          },
+          {
+            "name": "Devil's Sight",
+            "desc": "Magical darkness doesn't impede the witch's darkvision."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The witch makes two attacks: one with its longsword and one with its shortsword."
+          },
+          {
+            "name": "Longsword",
+            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 6 (1d6 + 2) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "mythic_actions": [],
+        "spells": [
+          "The witch's innate spellcasting ability is Charisma (spell save 14, +6 to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:",
+          {
+            "At will": "alter self, detect magic, eldritch blast (at 9th level), false life, levitate (self only), mage armor (self only)"
+          },
+          {
+            "3/day each": "hellish rebuke, hex, scorching ray (at 2nd level)"
+          },
+          {
+            "1/day each": "enthrall, suggestion"
+          }
+        ],
+        "spellsNotes": "",
+        "creature": {
+          "image": null,
+          "bestiary": true,
+          "name": "Blood Witch",
+          "source": [
+            "Guildmasters' Guide to Ravnica"
+          ],
+          "type": "humanoid",
+          "subtype": "any race",
+          "size": "Medium",
+          "alignment": "chaotic evil",
+          "hp": 58,
+          "hit_dice": "9d8 + 18",
+          "ac": "13 (Mage Armor)",
+          "speed": "30 ft.",
+          "stats": [
+            16,
+            14,
+            14,
+            13,
+            9,
+            18
+          ],
+          "damage_immunities": "",
+          "damage_resistances": "psychic",
+          "damage_vulnerabilities": "",
+          "condition_immunities": "",
+          "saves": [
+            {
+              "wisdom": "2"
+            },
+            {
+              "charisma": "6"
+            }
+          ],
+          "skillsaves": [
+            {
+              "arcana": "4"
+            },
+            {
+              "intimidation": "6"
+            },
+            {
+              "perception": "2"
+            },
+            {
+              "stealth": "5"
+            }
+          ],
+          "senses": "darkvision 120 ft., passive Perception 12",
+          "languages": "Abyssal plus any one language (usually Common)",
+          "cr": "5",
+          "traits": [
+            {
+              "name": "Blood Witch Dance",
+              "desc": "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a 14 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
+            },
+            {
+              "name": "Devil's Sight",
+              "desc": "Magical darkness doesn't impede the witch's darkvision."
+            }
+          ],
+          "actions": [
+            {
+              "name": "Multiattack",
+              "desc": "The witch makes two attacks: one with its longsword and one with its shortsword."
+            },
+            {
+              "name": "Longsword",
+              "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+            },
+            {
+              "name": "Shortsword",
+              "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. 6 (1d6 + 2) piercing damage."
+            }
+          ],
+          "bonus_actions": [],
+          "reactions": [],
+          "legendary_actions": [],
+          "mythic_actions": [],
+          "spells": [
+            "The witch's innate spellcasting ability is Charisma (spell save 14, +6 to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:",
+            {
+              "At will": "alter self, detect magic, eldritch blast (at 9th level), false life, levitate (self only), mage armor (self only)"
+            },
+            {
+              "3/day each": "hellish rebuke, hex, scorching ray (at 2nd level)"
+            },
+            {
+              "1/day each": "enthrall, suggestion"
+            }
+          ],
+          "spellsNotes": "",
+          "modifier": 2
+        },
+        "modifier": 2,
+        "temp": 0,
+        "current_ac": "13 (Mage Armor)",
+        "dirty_ac": false,
+        "enabled": true,
+        "hidden": false,
+        "max": 58,
+        "current_max": 58,
+        "status": [],
+        "initiative": 0,
+        "static": false,
+        "id": "ID_e86929e9a99b",
+        "viewing": false,
+        "number": 0,
+        "friendly": false,
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
