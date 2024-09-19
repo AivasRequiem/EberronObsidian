@@ -282,7 +282,7 @@
             }
           },
           {
-            "id": "0efba78ea9651152",
+            "id": "67e29701680749bc",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -330,10 +330,11 @@
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35d72834bb577f16",
+  "active": "68e958e53fbe03fa",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
