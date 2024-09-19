@@ -294,6 +294,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "10f0ec78a744057f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e57f1c6e69f7f11",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
