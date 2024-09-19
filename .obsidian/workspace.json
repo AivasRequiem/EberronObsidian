@@ -23,20 +23,22 @@
             }
           },
           {
-            "id": "88bc8c82f0e3608c",
+            "id": "68e958e53fbe03fa",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Життя/Організації/Релігії/Кров Вол.md",
-                "mode": "preview",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "8582b2a6ed8e656f",
+            "id": "88bc8c82f0e3608c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -122,22 +124,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "68e958e53fbe03fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -338,8 +327,8 @@
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
     "Життя/Організації/Релігії/Кров Вол.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
     "Життя/НІПи/Клинки/Разубель.md",
     "_ресурси/Фото/Предмети/ACV_Bloody_Fang.webp",
     "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
