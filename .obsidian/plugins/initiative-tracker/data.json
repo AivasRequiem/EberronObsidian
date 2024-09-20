@@ -173,7 +173,7 @@
     "creatures": [
       {
         "name": "Ксаріон",
-        "initiative": 16,
+        "initiative": 2,
         "static": false,
         "modifier": 0,
         "hp": 44,
@@ -183,7 +183,7 @@
         "note": "Ксаріон Макар",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
         "id": "ID_7bdb782b5af8",
-        "currentHP": 28,
+        "currentHP": 44,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -195,7 +195,7 @@
       },
       {
         "name": "Джин Мосс",
-        "initiative": 23,
+        "initiative": 15,
         "static": false,
         "modifier": 4,
         "hp": 38,
@@ -205,7 +205,7 @@
         "note": "Джин Мосс",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
         "id": "ID_ba4b792aca39",
-        "currentHP": 31,
+        "currentHP": 38,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -217,7 +217,7 @@
       },
       {
         "name": "Руна",
-        "initiative": 16,
+        "initiative": 18,
         "static": false,
         "modifier": 2,
         "hp": 84,
@@ -227,7 +227,7 @@
         "note": "Руна",
         "path": "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
         "id": "ID_c8d8e8fa8aa9",
-        "currentHP": 17,
+        "currentHP": 84,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -239,7 +239,7 @@
       },
       {
         "name": "Натаніель",
-        "initiative": 22,
+        "initiative": 23,
         "static": false,
         "modifier": 4,
         "hp": 33,
@@ -261,7 +261,7 @@
       },
       {
         "name": "Соларія",
-        "initiative": 0,
+        "initiative": 19,
         "static": false,
         "modifier": -1,
         "hp": 27,
@@ -280,26 +280,6 @@
         "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Lucia The Eternal",
-        "initiative": 11,
-        "static": false,
-        "modifier": 2,
-        "hp": 104,
-        "currentMaxHP": 104,
-        "cr": 6,
-        "ac": "14 (Mage Armor)",
-        "currentAC": "14 (Mage Armor)",
-        "id": "ID_fa0ab928eb3b",
-        "currentHP": 104,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "16d8 + 32"
       }
     ],
     "state": false,
