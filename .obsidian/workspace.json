@@ -266,20 +266,21 @@
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
                   "viewing": {
-                    "day": 2,
-                    "month": 1,
+                    "day": 1,
+                    "month": 3,
                     "year": 998
                   },
                   "viewState": 1,
                   "displaying": {
-                    "day": 24,
+                    "day": 1,
                     "month": 2,
                     "year": 998
                   },
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29"
+                "id": "ID_c94a4989eb29",
+                "child": "ID_5809a8799a7b"
               }
             }
           },
@@ -321,6 +322,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "c7fec05163cc94b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be2d24c4d9b7589f",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "id": "ID_5809a8799a7b",
+                "parent": "ID_c94a4989eb29"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -350,7 +369,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "35d72834bb577f16",
+  "active": "68e958e53fbe03fa",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
