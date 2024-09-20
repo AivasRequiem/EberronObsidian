@@ -1,0 +1,19 @@
+{
+  "saveWindowLocations": true,
+  "useCustomWindowName": false,
+  "customWindowName": "Second Window",
+  "windows": {
+    "Second Window": {
+      "hosts": {
+        "DESKTOP-E8ATJ1V": {
+          "x": 2549,
+          "y": -11,
+          "width": 1942,
+          "height": 1054,
+          "fullscreen": false,
+          "maximized": true
+        }
+      }
+    }
+  }
+}
