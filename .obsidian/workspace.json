@@ -90,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
+                "file": "Інструменти ДМ/Таблиці/Події на вулицях Шарну/Вулиці Нижнього Шарну.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md"
+                "file": "Інструменти ДМ/Таблиці/Події на вулицях Шарну/Вулиці Нижнього Шарну.md"
               }
             }
           }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
+                "file": "Інструменти ДМ/Таблиці/Події на вулицях Шарну/Вулиці Нижнього Шарну.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
+                "file": "Інструменти ДМ/Таблиці/Події на вулицях Шарну/Вулиці Нижнього Шарну.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -271,12 +271,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
@@ -295,8 +295,10 @@
   },
   "active": "fd2e08ed2f928288",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
+    "Інструменти ДМ/Таблиці/Події на вулицях Шарну/Вулиці Нижнього Шарну.md",
+    "Інструменти ДМ/Таблиці/Події на вулицях Шарну",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
     "_ресурси/Фото/Персонажі/Багряна Люція (ульт 2).jpg",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
@@ -330,7 +332,6 @@
     "_ресурси/Фото/Персонажі/8f7da9f7-7bfc-4705-a1ff-8c41dd6267aa.webp",
     "_ресурси/Фото/Персонажі/e1c97ef8f98e15542a683020cf25610b.jpg",
     "_ресурси/Фото/Персонажі/e1c97ef8f98e15542a683020cf25610b.jpg.crdownload",
-    "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "_ресурси/Карти/na_boloti_static_grid 1.jpg",
     "_ресурси/Інше/Na_Boloti_1.1.pdf",
     "_ресурси/Карти/Port town Vralkek.jpg",
@@ -339,7 +340,6 @@
     "_ресурси/Інше",
     "_ресурси/Нова папка",
     "Атлас/Хорвейр/Дроаам/Вралкек",
-    "_ресурси/Фото/Організації/Blood_of_Vol.webp.crdownload",
-    "Життя/Організації/Релігії"
+    "_ресурси/Фото/Організації/Blood_of_Vol.webp.crdownload"
   ]
 }
