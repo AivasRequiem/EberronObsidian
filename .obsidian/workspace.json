@@ -251,7 +251,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "calendarium:Open Calendarium": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -264,7 +263,8 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:Open media": false
+      "media-extended:Open media": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "d184d13985da5e92",
