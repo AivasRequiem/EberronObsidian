@@ -99,19 +99,22 @@
             }
           },
           {
-            "id": "0a9557ba6dddee18",
+            "id": "d26274b5c46b8c17",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_ресурси/Фото/Предмети/Pasted image 20240521182710.png"
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240521182710"
+              "icon": "lucide-file",
+              "title": "Карта Хорвейру"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -169,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md"
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md"
               },
               "icon": "lucide-list",
-              "title": "Вміст Сесія 12"
+              "title": "Вміст Карта Хорвейру"
             }
           }
         ]
@@ -195,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +208,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Сесія 12"
+              "title": "Зворотні посилання для Карта Хорвейру"
             }
           },
           {
@@ -214,12 +217,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Сесія 12"
+              "title": "Вихідні посилання з Карта Хорвейру"
             }
           },
           {
@@ -352,15 +355,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "d26274b5c46b8c17",
   "lastOpenFiles": [
+    "Життя/Організації/Релігії/Кров Вол.md",
+    "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "_ресурси/Карти/Droaam_ECS.webp",
     "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-    "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
-    "Життя/Організації/Релігії/Кров Вол.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Кампанії/Завіса спадає/Сесії/Сесія 1.md",
     "Pasted image 20241014160140.png",
