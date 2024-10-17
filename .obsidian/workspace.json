@@ -89,17 +89,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Завіса спадає/Сесії/Сесія 1.md",
-                "mode": "source",
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Сесія 1"
+              "title": "Кров Вол"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "кров",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,13 +157,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md"
+                "file": "Життя/Організації/Релігії/Кров Вол.md"
               },
               "icon": "lucide-list",
-              "title": "Вміст Сесія 12"
+              "title": "Вміст Кров Вол"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,6 @@
       {
         "id": "a353eb09aeb5588b",
         "type": "tabs",
-        "dimension": 54.04411764705882,
         "children": [
           {
             "id": "3407d517de3f4f31",
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Сесія 12"
+              "title": "Зворотні посилання для Кров Вол"
             }
           },
           {
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Сесія 12"
+              "title": "Вихідні посилання з Кров Вол"
             }
           },
           {
@@ -274,7 +274,6 @@
       {
         "id": "3cf6b13560d03f1e",
         "type": "tabs",
-        "dimension": 45.955882352941174,
         "children": [
           {
             "id": "35209fbc6dfbba01",
@@ -283,6 +282,22 @@
               "type": "initiative-tracker-creature-view",
               "state": {},
               "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ee876da57f26e201",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "def298ae141e6eee",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
               "title": "Combatant"
             }
           }
@@ -316,18 +331,20 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "d184d13985da5e92",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "Життя/НІПи/Кров Вол/Багряна Люція.md",
+    "Атлас/Хорвейр/Дроаам/Дроаам.md",
+    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
     "Кампанії/Завіса спадає/Сесії/Сесія 1.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
     "Pasted image 20241014160140.png",
     "_неоргнанізоване/Без назви.md",
     "_ресурси/Curtain Call A Sharn Adventure v1.1.pdf",
     "_ресурси/Keith Baker Trust No One.pdf",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Предмети/ACV_Bloody_Fang.webp",
-    "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Завіса спадає/Сесії",
     "Кампанії/Завіса спадає",
@@ -353,8 +370,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
-    "Життя/НІПи/Клинки/Разубель.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
     "_ресурси/Фото/Предмети/ACV_Bloody_Fang.webp.crdownload",
     "_ресурси/Фото/Персонажі/Багряна Люція (ульт 1).jpg",
     "_ресурси/Фото/Персонажі/288d5ee423b6616da48533b577a4cdf4.jpg",
