@@ -291,20 +291,6 @@
         "currentTab": 3
       },
       {
-        "id": "fa005c1ca255d5c5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8b58f330810b4704",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "bfed9ea533cb81ef",
         "type": "tabs",
         "children": [
@@ -381,7 +367,7 @@
       }
     ]
   },
-  "active": "58300e2712372992",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
