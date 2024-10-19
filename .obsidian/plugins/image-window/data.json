@@ -20,6 +20,14 @@
           "height": 1185,
           "fullscreen": false,
           "maximized": false
+        },
+        "NB01GD234": {
+          "x": 1703,
+          "y": -187,
+          "width": 1288,
+          "height": 680,
+          "fullscreen": false,
+          "maximized": true
         }
       }
     }
