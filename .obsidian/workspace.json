@@ -98,8 +98,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d89db2703e71a75d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -151,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md"
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md"
               }
             }
           }
@@ -175,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -318,20 +332,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 1319,
-        "y": 63,
+        "x": 1946,
+        "y": -92,
         "width": 1024,
-        "height": 801,
+        "height": 673,
         "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "d89db2703e71a75d",
   "lastOpenFiles": [
-    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
-    "_ресурси/Карти/Port town Vralkek.jpg",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "_ресурси/Карти/Port town Vralkek.jpg",
+    "Атлас/Хорвейр/Дроаам/Вралкек/Вралкек.md",
     "Життя/Організації/Релігії/Кров Вол.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 12.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
