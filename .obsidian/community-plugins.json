@@ -2,7 +2,6 @@
   "dataview",
   "obsidian-dice-roller",
   "calendarium",
-  "initiative-tracker",
   "obsidian-5e-statblocks",
   "obsidian-leaflet-plugin",
   "table-editor-obsidian",
@@ -13,5 +12,6 @@
   "copy-url-in-preview",
   "media-extended",
   "obsidian-admonition",
-  "image-window"
+  "image-window",
+  "initiative-tracker"
 ]
