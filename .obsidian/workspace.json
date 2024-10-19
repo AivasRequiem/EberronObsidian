@@ -57,21 +57,6 @@
             }
           },
           {
-            "id": "88bc8c82f0e3608c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Релігії/Кров Вол.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Кров Вол"
-            }
-          },
-          {
             "id": "0f34afe8945c4d3e",
             "type": "leaf",
             "state": {
@@ -99,21 +84,6 @@
               },
               "icon": "lucide-file",
               "title": "Вралкек"
-            }
-          },
-          {
-            "id": "247c8d8b67821f01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 10"
             }
           },
           {
@@ -174,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -317,7 +287,11 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 13,
+                    "month": 2,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
@@ -327,7 +301,8 @@
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29"
+                "id": "ID_c94a4989eb29",
+                "child": "ID_d869db3bca48"
               },
               "icon": "CALENDARIUM",
               "title": "Calendarium"
@@ -387,6 +362,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "6af238312f1f1cf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efecfc167e85071f",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "id": "ID_d869db3bca48",
+                "parent": "ID_c94a4989eb29"
+              },
+              "icon": "CALENDARIUM_AGENDA",
+              "title": "Agenda"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -416,13 +411,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "be256bc7e657b63a",
+  "active": "0d87e7b9176f64ef",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
-    "Життя/Організації/Релігії/Кров Вол.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
     "Життя/НІПи/Дааск/Городан Поплелорд.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
+    "Життя/Організації/Релігії/Кров Вол.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
