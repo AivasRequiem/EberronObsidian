@@ -184,10 +184,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md"
+                "file": "_ресурси/Фото/Персонажі/Razubel.jpg"
               },
               "icon": "lucide-list",
-              "title": "Вміст Сесія 12"
+              "title": "Вміст Razubel"
             }
           }
         ]
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "_ресурси/Фото/Персонажі/Razubel.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Сесія 12"
+              "title": "Зворотні посилання для Razubel"
             }
           },
           {
@@ -229,12 +229,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "file": "_ресурси/Фото/Персонажі/Razubel.jpg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Сесія 12"
+              "title": "Вихідні посилання з Razubel"
             }
           },
           {
@@ -378,10 +378,10 @@
       }
     ]
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "6d4c02e63440d23f",
   "lastOpenFiles": [
-    "_ресурси/Фото/Персонажі/Razubel.jpg",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "_ресурси/Фото/Персонажі/Razubel.jpg",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
