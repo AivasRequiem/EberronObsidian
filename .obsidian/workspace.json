@@ -17,7 +17,7 @@
                 "file": "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -156,8 +156,7 @@
               "title": "Папірус"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -388,7 +387,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "a8241589d74a237a",
+  "active": "1cb7bf0b081bd30a",
   "lastOpenFiles": [
     "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Ангел.md",
