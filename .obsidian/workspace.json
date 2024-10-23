@@ -312,22 +312,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "3240f807c0a991c2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "740cfac9d683fa89",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -392,7 +376,7 @@
       }
     ]
   },
-  "active": "5fe3958a13e0ddc0",
+  "active": "2c40c67baded9140",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
