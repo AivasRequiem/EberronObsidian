@@ -148,7 +148,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
+              "title": "Files"
             }
           },
           {
@@ -319,12 +319,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -341,47 +341,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "10694264f1f71839",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7ed3a1eb93bab530",
-        "type": "window",
-        "children": [
-          {
-            "id": "bab1ba8ba943842b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6d4c02e63440d23f",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_ресурси/Фото/Персонажі/Razubel.jpg"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Razubel"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1946,
-        "y": -92,
-        "width": 1024,
-        "height": 673,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "6d4c02e63440d23f",
+  "active": "0d87e7b9176f64ef",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "_ресурси/Фото/Персонажі/Razubel.jpg",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
