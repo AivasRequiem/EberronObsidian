@@ -295,7 +295,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "48cf7f35e0e2e8fa",
@@ -357,7 +357,42 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "1cb7bf0b081bd30a",
+  "floating": {
+    "id": "530f1ddfb61641dc",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ac84e0903537a916",
+        "type": "window",
+        "children": [
+          {
+            "id": "55d342622d545726",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5fe3958a13e0ddc0",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -575,
+        "y": -15,
+        "width": 1025,
+        "height": 801,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "5fe3958a13e0ddc0",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
