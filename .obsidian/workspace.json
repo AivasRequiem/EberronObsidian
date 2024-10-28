@@ -191,7 +191,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "разубель",
+                "query": "тавік",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,7 +224,8 @@
               "title": "Вміст Razubel"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -375,7 +376,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
