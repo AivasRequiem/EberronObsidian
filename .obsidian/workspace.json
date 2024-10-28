@@ -346,6 +346,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "3905d6620dc2093e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1b80a27e030bb87",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
