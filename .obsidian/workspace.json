@@ -332,22 +332,6 @@
         "currentTab": 4
       },
       {
-        "id": "bfed9ea533cb81ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "58300e2712372992",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
-      },
-      {
         "id": "3905d6620dc2093e",
         "type": "tabs",
         "children": [
