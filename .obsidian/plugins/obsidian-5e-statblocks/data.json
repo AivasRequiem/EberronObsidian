@@ -79048,6 +79048,216 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Weakened Tsucora Quori",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Tsucora_quori.webp<STATBLOCK-WIKI-LINK>",
+        "name": "Weakened Tsucora Quori",
+        "size": "Large",
+        "alignment": "lawful evil",
+        "type": "fiend (quori)",
+        "ac": 14,
+        "hp": 60,
+        "hit_dice": "8d10+16",
+        "speed": "40 ft.",
+        "stats": [
+          14,
+          11,
+          14,
+          13,
+          14,
+          13
+        ],
+        "saves": [
+          {
+            "dexterity": 3
+          },
+          {
+            "constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "intimidate": 4
+          },
+          {
+            "perception": 5
+          },
+          {
+            "stealth": 3
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 15",
+        "languages": "Common, Quor, Riedran, telepathy 120 ft.",
+        "cr": 5,
+        "damage_resistances": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "charmed, frightened",
+        "traits": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "desc": "The quori’s innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:\n- At will: *mage hand* (the hand is invisible)\n- 1/day each: *charm person, cure wounds* (self only), *wrathful smite*"
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "The quori has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Nightmare Awareness",
+            "desc": "Magical darkness doesn’t impede the quori’s darkvision, and magic can’t put it to sleep."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The quori makes three attacks: two with its pincers and one with its sting."
+          },
+          {
+            "name": "Pincer",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage and the target is grappled (escape DC 13). The tsucora has two pincers, each of which can grapple only one target."
+          },
+          {
+            "name": "Stinger",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage and the target must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. While frightened by this effect, at the end of each of its turns, the target must succeed on another Wisdom saving throw or take 16 (3d10) psychic damage. On a successful save, the target is no longer frightened."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Nolan",
+      {
+        "layout": "Basic 5e Layout",
+        "name": "Nolan",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "type": "humanoid (human)",
+        "ac": 15,
+        "hp": 32,
+        "hit_dice": "5d8+10",
+        "speed": "40 ft.",
+        "stats": [
+          14,
+          16,
+          15,
+          14,
+          15,
+          11
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 5
+          },
+          {
+            "athletics": 4
+          },
+          {
+            "stealth": 5
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "Abyssal, Common",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Nolan is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following spells prepared:\n- Cantrips (at-will): *minor illusion, prestidigitation, true strike*\n- 1st level (4 slots): *charm person, disguise self, expeditious retreat, silent image*"
+          },
+          {
+            "name": "Unarmored Defense",
+            "desc": "While Nolan is wearing no armor and wielding no shield, his AC includes his Wisdom modifier."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Nolan makes four attacks, each of which can be an unarmed strike or a dart attack. He can use Shadow Jaunt once, either before or after one of the attacks."
+          },
+          {
+            "name": "Unarmed Strike",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage."
+          },
+          {
+            "name": "Dart",
+            "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+          },
+          {
+            "name": "Shadow Jaunt",
+            "desc": "Nolan magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Both the space he is leaving and his destination must be in dim light or darkness."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Jolgar Tarkanan",
+      {
+        "layout": "Basic 5e Layout",
+        "name": "Jolgar Tarkanan",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "type": "humanoid (human)",
+        "ac": 15,
+        "hp": 52,
+        "hit_dice": "8d8+16",
+        "speed": "30 ft.",
+        "stats": [
+          11,
+          14,
+          14,
+          12,
+          11,
+          14
+        ],
+        "saves": [
+          {
+            "dexterity": 4
+          },
+          {
+            "wisdom": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 4
+          },
+          {
+            "perception": 4
+          },
+          {
+            "performance": 6
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Common, Goblin",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Aberrant Dragonmark",
+            "desc": "Jolgar’s innate spellcasting ability is Constitution (spell save DC 12, +4 to hit with spell attacks). He can innately cast the following spells, requiring no material components:\n- At will: *shocking grasp*\n- 1/day: *witch bolt* (2nd-level version)"
+          },
+          {
+            "name": "Instrument of the Bards",
+            "desc": "Jolgar can use the Fochlucan bandore to cast the following spells (spell save DC 12, +4 to hit with spell attacks):\n- 1/day each: *entangle, faerie fire, fly, invisibility, protection from evil and good, shillelagh, speak with animals*"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Jolgar is a 4th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). He has the following bard spells prepared:\n- Cantrips (at-will): *friends, mage hand, vicious mockery*\n- 1st level (4 slots): *charm person, healing word, heroism, sleep, thunderwave*\n- 2nd level (3 slots): *invisibility, shatter*"
+          },
+          {
+            "name": "Taunt (2/day)",
+            "desc": "Jolgar can use a bonus action on his turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Jolgar’s next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
