@@ -287,16 +287,16 @@
         "currentTab": 3
       },
       {
-        "id": "3905d6620dc2093e",
+        "id": "a316c6b6feeddec0",
         "type": "tabs",
         "children": [
           {
-            "id": "f1b80a27e030bb87",
+            "id": "1ba90b56b3a585f2",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "fantasy-statblocks-creature-pane",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
+              "icon": "skull",
               "title": "Combatant"
             }
           }
@@ -330,7 +330,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "1ba90b56b3a585f2",
   "lastOpenFiles": [
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
