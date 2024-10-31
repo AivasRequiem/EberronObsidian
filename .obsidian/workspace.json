@@ -25,6 +25,18 @@
             }
           },
           {
+            "id": "48e0194015df3371",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
+            }
+          },
+          {
             "id": "f9e2fd9f8866d6f4",
             "type": "leaf",
             "state": {
@@ -130,7 +142,8 @@
               "title": "Журнал сесії 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,10 +358,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "48e0194015df3371",
   "lastOpenFiles": [
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 2.md",
     "Кампанії/Страх виявляє істину/Untitled",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
