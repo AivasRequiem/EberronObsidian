@@ -78589,6 +78589,21 @@
             "desc": "Sora Maenya grabs a creature within reach, dealing 40 (6d10 + 7) bludgeoning damage, and the target must succeed on a DC 20 Strength saving throw or become restrained until the end of Maenya's next turn."
           }
         ],
+        "spells": [
+          "Sora Maenya is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks).",
+          {
+            "1st level (4 slots)": "command, bane"
+          },
+          {
+            "2nd level (3 slots)": "enhance ability, hold person"
+          },
+          {
+            "3rd level (3 slots)": "fear, haste"
+          },
+          {
+            "4th level (2 slots)": "freedom of movement, dominate beast"
+          }
+        ],
         "legendary_actions": [
           {
             "name": "Intimidating Roar",
@@ -78677,6 +78692,36 @@
           {
             "name": "Beguiling Gaze",
             "desc": "Sora Katra fixes her gaze on a creature within 30 feet. The target must succeed on a DC 20 Charisma saving throw or be charmed for 1 minute. While charmed, the creature regards Sora Katra as a trusted friend. This charm ends if Sora Katra or her allies harm the creature."
+          }
+        ],
+        "spells": [
+          "Sora Katra is a 15th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks).",
+          {
+            "Cantrips (at will)": "minor illusion, message, thaumaturgy"
+          },
+          {
+            "1st level (4 slots)": "charm person, disguise self, dissonant whispers"
+          },
+          {
+            "2nd level (3 slots)": "suggestion, mirror image"
+          },
+          {
+            "3rd level (3 slots)": "counterspell, hypnotic pattern"
+          },
+          {
+            "4th level (3 slots)": "greater invisibility, confusion"
+          },
+          {
+            "5th level (2 slots)": "dominate person, modify memory"
+          },
+          {
+            "6th level (1 slot)": "circle of death, mass suggestion"
+          },
+          {
+            "7th level (1 slot)": "resurrection, finger of death, project image"
+          },
+          {
+            "8th level (1 slot)": "power word stun"
           }
         ],
         "legendary_actions": [
@@ -78782,7 +78827,40 @@
             "desc": "Sora Teraza creates a 20-foot-radius sphere of shifting visions. Each creature in that area must make a DC 19 Wisdom saving throw or be frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
           }
         ],
-        "source": "Homebrew"
+        "source": "Homebrew",
+        "spells": [
+          "Sora Teraza is an 18th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 22, +14 to hit with spell attacks).",
+          {
+            "Cantrips (at will)": "guidance, sacred flame, thaumaturgy"
+          },
+          {
+            "1st level (4 slots)": "detect magic, identify, shield of faith"
+          },
+          {
+            "2nd level (3 slots)": "augury, see invisibility"
+          },
+          {
+            "3rd level (3 slots)": "clairvoyance, dispel magic, spirit guardians"
+          },
+          {
+            "4th level (3 slots)": "divination, banishment"
+          },
+          {
+            "5th level (2 slots)": "commune, teleportation circle"
+          },
+          {
+            "6th level (1 slot)": "true seeing"
+          },
+          {
+            "7th level (1 slot)": "plane shift"
+          },
+          {
+            "8th level (1 slot)": "mind blank"
+          },
+          {
+            "9th level (1 slot)": "foresight"
+          }
+        ]
       }
     ],
     [
