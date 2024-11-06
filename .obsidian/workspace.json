@@ -284,23 +284,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "a316c6b6feeddec0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1ba90b56b3a585f2",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
+        "currentTab": 4
       },
       {
         "id": "cce19b3657d59a0f",
@@ -346,7 +330,42 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "floating": {
+    "id": "28a905fe0a2d619e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "74e35b8c61663f5e",
+        "type": "window",
+        "children": [
+          {
+            "id": "4fbf632745c73aa4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3a91f14643d4d139",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1469,
+        "y": -196,
+        "width": 1024,
+        "height": 801,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "aefa3154e3c83f73",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 12.md",
