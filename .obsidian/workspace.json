@@ -25,6 +25,18 @@
             }
           },
           {
+            "id": "c087ddd54eaef565",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Keith Baker Trust No One.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Keith Baker Trust No One"
+            }
+          },
+          {
             "id": "48e0194015df3371",
             "type": "leaf",
             "pinned": true,
@@ -115,7 +127,8 @@
               "title": "Журнал сесії 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -351,8 +364,21 @@
                   "icon": "lucide-view",
                   "title": "Player View"
                 }
+              },
+              {
+                "id": "f80c43600fb91a12",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -365,16 +391,16 @@
       }
     ]
   },
-  "active": "aefa3154e3c83f73",
+  "active": "c087ddd54eaef565",
   "lastOpenFiles": [
+    "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
+    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 12.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
-    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 2.md",
     "Кампанії/Страх виявляє істину/Untitled",
     "Атлас/Хорвейр/Карта Хорвейру.md",
@@ -407,7 +433,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
     "_ресурси/Карти/Droaam_ECS.webp",
     "_ресурси/Фото/Предмети/ACV_Bloody_Fang.webp",
