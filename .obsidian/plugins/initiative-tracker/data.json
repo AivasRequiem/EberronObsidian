@@ -238,7 +238,7 @@
         "enabled": true,
         "level": 2,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
@@ -318,7 +318,7 @@
         "ac": 11,
         "currentAC": 11,
         "id": "ID_ea888a786b2a",
-        "currentHP": 38,
+        "currentHP": 29,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -350,9 +350,9 @@
         "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": "Гобліни Дааску",
-    "round": 1,
+    "round": 2,
     "logFile": "",
     "rollHP": false
   },
