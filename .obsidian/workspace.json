@@ -25,6 +25,18 @@
             }
           },
           {
+            "id": "e04e87c4b96567ad",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
+          },
+          {
             "id": "48e0194015df3371",
             "type": "leaf",
             "pinned": true,
@@ -115,7 +127,8 @@
               "title": "Журнал сесії 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,7 +359,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "e04e87c4b96567ad",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 12.md",
