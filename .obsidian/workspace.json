@@ -58,7 +58,7 @@
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -139,7 +139,8 @@
               "title": "Журнал сесії 2"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -354,10 +355,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0d87e7b9176f64ef",
+  "active": "48e0194015df3371",
   "lastOpenFiles": [
-    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
+    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "_ресурси/Keith Baker Trust No One.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
