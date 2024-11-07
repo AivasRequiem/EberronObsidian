@@ -354,54 +354,6 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "28a905fe0a2d619e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "74e35b8c61663f5e",
-        "type": "window",
-        "children": [
-          {
-            "id": "4fbf632745c73aa4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3a91f14643d4d139",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              },
-              {
-                "id": "f80c43600fb91a12",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": -1469,
-        "y": -196,
-        "width": 1024,
-        "height": 801,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "0d87e7b9176f64ef",
   "lastOpenFiles": [
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
