@@ -144,9 +144,9 @@
               "type": "markdown",
               "state": {
                 "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Лорд Клинків"
