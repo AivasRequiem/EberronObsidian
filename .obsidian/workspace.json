@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
@@ -338,22 +338,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5c02f95588f1015c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "38d5e60b80b7fe4e",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -385,6 +369,7 @@
   },
   "active": "ff7503723ff60fdf",
   "lastOpenFiles": [
+    "_ресурси/Фото/Персонажі/Sora Maenia.webp",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg.crdownload",
     "_ресурси/Фото/Персонажі/Sora Teraza.jpg",
@@ -429,7 +414,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-    "_ресурси/Карти/Port town Vralkek.jpg",
-    "_ресурси/Фото/Предмети/Pasted image 20240521182710.png"
+    "_ресурси/Карти/Port town Vralkek.jpg"
   ]
 }
