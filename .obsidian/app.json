@@ -2,5 +2,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "_неоргнанізоване",
   "readableLineLength": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
 }
