@@ -79390,6 +79390,207 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Forgeborne Elite",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Forgeborne Elite.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Forgeborne Elite",
+        "size": "Medium",
+        "type": "construct",
+        "subtype": null,
+        "alignment": "lawful evil",
+        "ac": "18 (plate)",
+        "hp": 59,
+        "hit_dice": "7d8 + 28",
+        "speed": "25 ft.",
+        "stats": [
+          20,
+          11,
+          18,
+          13,
+          16,
+          14
+        ],
+        "saves": [
+          {
+            "strength": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "intimidation": 4
+          },
+          {
+            "perception": 5
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 15",
+        "languages": "Common",
+        "damage_resistances": "bludgeoning, lightning, slashing",
+        "condition_immunities": "exhaustion",
+        "cr": 3,
+        "traits": [
+          {
+            "name": "Blademaster's Watch",
+            "desc": "If a melee or ranged weapon attack targets the Blademaster, and a Forgeborn Elite is within 5 feet of him, the attack targets the Forgeborn Elite instead."
+          },
+          {
+            "name": "Death Blast",
+            "desc": "When the Forgeborn Elite dies, it explodes in a burst of forceful lightning. Each creature within 20 ft. of it must make a DC 15 Dexterity saving throw, taking 13 (3d8) force damage plus 13 (3d8) lightning damage on a failed save, or half as much damage on a successful one."
+          },
+          {
+            "name": "Immutable Form",
+            "desc": "The Forgeborn Elite is immune to any spell or effect that would alter its form."
+          },
+          {
+            "name": "Elite Initiative Onslaught (Leader Only)",
+            "desc": "Forgeborn Elite that start combat within 30 feet of an Elite Leader can share the same initiative count."
+          },
+          {
+            "name": "Legendary Resistance (Leader Only; 1/Day)",
+            "desc": "If the Forgeborn Elite Leader fails a saving throw, it can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Hammer of Supremacy",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) force damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone. On a critical hit, the target is also stunned until the end of its next turn."
+          },
+          {
+            "name": "Marked for Execution (2/Day; Leader Only)",
+            "desc": "The Forgeborn Elite Leader makes a Hammer of Supremacy attack roll that deals an automatic hit and marks the target for the next minute. The Forgeborn Elite Leader can then teleport anywhere within 5 feet of the marked target, as long as both are within 120 feet of each other. This effect ends if the Forgeborn Elite Leader dies or it marks another target using this attack."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Elite Maneuver",
+            "desc": "The Forgeborn Elite makes a grapple check or attempts to shove or knock a creature prone."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "War Crimes",
+            "desc": "When an allied construct the Forgeborn Elite can see hits a hostile target with an attack, the Forgeborn Elite can make a weapon attack with advantage against that same target if the Forgeborn Elite is within 5 feet of it."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Krilium Makar, Blademaster",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Кріліум.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Krilium Makar, Blademaster",
+        "size": "Medium",
+        "type": "humanoid (half-construct)",
+        "subtype": null,
+        "alignment": "lawful evil",
+        "ac": "18 (plate)",
+        "hp": 152,
+        "hit_dice": "16d8 + 80",
+        "speed": "30 ft.",
+        "stats": [
+          20,
+          16,
+          20,
+          16,
+          16,
+          20
+        ],
+        "saves": [
+          {
+            "strength": 9
+          },
+          {
+            "constitution": 9
+          },
+          {
+            "intelligence": 7
+          },
+          {
+            "charisma": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 9
+          },
+          {
+            "deception": 9
+          },
+          {
+            "intimidation": 9
+          },
+          {
+            "perception": 7
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 17",
+        "languages": "Common, Draconic, Dwarvish, Elvish, Infernal",
+        "damage_resistances": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "charmed, exhaustion, frightened, stunned",
+        "cr": 11,
+        "traits": [
+          {
+            "name": "Bladed Body",
+            "desc": "A creature that touches the Blademaster or hits it with a melee attack while within 5 feet of him takes 13 (3d8) slashing damage."
+          },
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If the Blademaster fails a saving throw, he can choose to succeed instead."
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "The Blademaster has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Magitek Plating",
+            "desc": "Any critical hit against the Blademaster becomes a normal hit."
+          },
+          {
+            "name": "Magitek-Spliced Resilience",
+            "desc": "The Blademaster has advantage on saving throws against being poisoned, is immune to disease, and magic can't put him to sleep."
+          },
+          {
+            "name": "Tyrannical Bolstering",
+            "desc": "Unless the Blademaster is incapacitated, constructs of his choice within 60 feet of him have advantage on saving throws against being charmed or frightened."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Blademaster makes two melee weapon attacks or three ranged weapon attacks."
+          },
+          {
+            "name": "Swirling Master Blade",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage plus 9 (2d8) lightning damage. The target must succeed on a DC 17 Strength saving throw or be knocked prone and stunned until the end of its next turn."
+          },
+          {
+            "name": "Flying Swirling Blade",
+            "desc": "Ranged Weapon Attack: +7 to hit, range 120 ft., up to three targets within 5 feet of each other. Hit: 19 (3d10 + 3) slashing damage. At the end of this attack, the Flying Blade returns to the Blademaster."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Tyrannical Rules Master (4/Day)",
+            "desc": "The Blademaster can turn any attack roll, ability check, or saving throw into a success or vice versa, as long as the target creature making the roll is within line of sight of the Blademaster."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Slashing Teleport",
+            "desc": "The Blademaster teleports to an unoccupied space he can see within line of sight that is next to another creature. He then makes a Swirling Master Blade attack and teleports again to another unoccupied space of his choice within 30 feet of the last place he teleported from."
+          },
+          {
+            "name": "Blade Barrier (Costs 2 Actions)",
+            "desc": "The Blademaster creates a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within 120 feet of the Blademaster and lasts for 1 minute. The Blademaster can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain. When a creature enters the wall's area for the first time on a turn or starts its turn there, the creature must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 33 (6d10) slashing damage. On a successful save, the creature takes half as much damage. The Blademaster cannot have more than two blade barriers active at a time."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
@@ -79401,8 +79602,8 @@
   "showAdvanced": false,
   "version": {
     "major": 4,
-    "minor": 7,
-    "patch": 8
+    "minor": 8,
+    "patch": 0
   },
   "paths": [
     "Інструменти ДМ/Бестіарій",
