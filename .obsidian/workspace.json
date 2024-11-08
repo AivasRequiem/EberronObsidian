@@ -143,13 +143,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "preview",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Лорд Клинків"
+              "title": "Сесія 13"
             }
           }
         ],
@@ -184,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "лорд клинків",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,8 +217,7 @@
               "title": "Вміст Razubel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Razubel.jpg",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +247,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Razubel"
+              "title": "Зворотні посилання для Сесія 13"
             }
           },
           {
@@ -257,12 +256,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Razubel.jpg",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Razubel"
+              "title": "Вихідні посилання з Сесія 13"
             }
           },
           {
@@ -322,8 +321,7 @@
               "title": "Dice Tray"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "cce19b3657d59a0f",
@@ -387,6 +385,14 @@
   },
   "active": "ff7503723ff60fdf",
   "lastOpenFiles": [
+    "_ресурси/Фото/Персонажі/Sora Katra 2.jpg",
+    "_ресурси/Фото/Персонажі/Sora Katra 2.jpg.crdownload",
+    "_ресурси/Фото/Персонажі/Sora Teraza.jpg",
+    "_ресурси/Фото/Персонажі/Sora Teraza.jpg.crdownload",
+    "_ресурси/Фото/Персонажі/Sora Katra.jpg",
+    "_ресурси/Фото/Персонажі/Sora Katra.jpg.crdownload",
+    "Життя/НІПи/Клинки/Кріліум Макар.md",
+    "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg.crdownload",
@@ -405,15 +411,12 @@
     "Кампанії/Страх виявляє істину/Untitled",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "_ресурси/Інше/Шарнський Розслідувач 8 Терендора.pptx",
-    "_ресурси/Інше/Шарнський Розслідувач 8 Терендора.pdf",
     "_ресурси/Карти/Mad Warlock's Tower.jpg",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Вінсент Донрейн.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Ангел.md",
     "_ресурси/Фото/Істоти/Tsucora_quori.webp",
-    "_ресурси/Фото/Істоти/Tsucora_quori.webp.crdownload",
-    "_ресурси/Фото/Істоти",
     "Pasted image 20241014160140.png",
     "_неоргнанізоване/Тирани.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
@@ -427,10 +430,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "_ресурси/Карти/Port town Vralkek.jpg",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
-    "_ресурси/Фото/Предмети/Pasted image 20240521182710.png",
-    "_ресурси/Карти/Droaam_ECS.webp",
-    "_ресурси/Фото/Предмети/ACV_Bloody_Fang.webp"
+    "_ресурси/Фото/Предмети/Pasted image 20240521182710.png"
   ]
 }
