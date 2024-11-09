@@ -144,16 +144,26 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Сесія 13"
             }
+          },
+          {
+            "id": "96008d5b23a6a9e2",
+            "type": "leaf",
+            "state": {
+              "type": "intiative-tracker-encounter-builder",
+              "state": [],
+              "icon": "intiative-tracker-encounter-builder",
+              "title": "Encounter Builder"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -334,6 +344,22 @@
               "type": "initiative-tracker-creature-view",
               "state": {},
               "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "104eb83abe60d5f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99c7d5d26ebb0721",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
               "title": "Combatant"
             }
           }
