@@ -33,7 +33,7 @@
     {
       "note": "Нікс",
       "path": "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
-      "name": "Нікс",
+      "name": "Натаніель",
       "player": true,
       "ac": 16,
       "hp": 39,
@@ -105,11 +105,11 @@
     {
       "name": "Нові Герої",
       "players": [
-        "Ксаріон",
         "Джин Мосс",
         "Руна",
-        "Натаніель",
-        "Соларія"
+        "Соларія",
+        "Ксаріон Макар",
+        "Натаніель"
       ]
     },
     {
@@ -221,29 +221,180 @@
   "state": {
     "creatures": [
       {
-        "name": "Harpy",
-        "initiative": 21,
+        "name": "Джин Мосс",
+        "initiative": 20,
         "static": false,
-        "modifier": 1,
-        "hp": 38,
-        "currentMaxHP": 38,
-        "cr": "1",
-        "ac": 11,
-        "currentAC": 11,
-        "id": "ID_a83a296b6a1b",
-        "currentHP": 38,
+        "modifier": 3,
+        "hp": 39,
+        "currentMaxHP": 39,
+        "ac": 16,
+        "currentAC": 16,
+        "note": "Джин Мосс",
+        "path": "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
+        "id": "ID_b9bb0b18781b",
+        "currentHP": 39,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Руна",
+        "initiative": 9,
+        "static": false,
+        "modifier": 2,
+        "hp": 57,
+        "currentMaxHP": 57,
+        "ac": 16,
+        "currentAC": 16,
+        "note": "Руна",
+        "path": "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
+        "id": "ID_98b8c849eb4b",
+        "currentHP": 57,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Соларія",
+        "initiative": 1,
+        "static": false,
+        "modifier": -1,
+        "hp": 33,
+        "currentMaxHP": 33,
+        "ac": 16,
+        "currentAC": 16,
+        "note": "Соларія",
+        "path": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+        "id": "ID_ab8989ab8bdb",
+        "currentHP": 33,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Ксаріон Макар",
+        "initiative": 4,
+        "static": false,
+        "modifier": 0,
+        "hp": 50,
+        "currentMaxHP": 50,
+        "ac": 18,
+        "currentAC": 18,
+        "note": "Ксаріон Макар",
+        "path": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+        "id": "ID_4b8a8bc9a839",
+        "currentHP": 50,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Forgeborne Elite",
+        "initiative": 10,
+        "static": false,
+        "modifier": 0,
+        "hp": 59,
+        "currentMaxHP": 59,
+        "cr": 3,
+        "ac": "18 (plate)",
+        "currentAC": "18 (plate)",
+        "id": "ID_4a395a58085b",
+        "currentHP": 59,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "active": false,
         "hidden": false,
         "friendly": false,
-        "hit_dice": "7d8 + 7",
+        "hit_dice": "7d8 + 28",
+        "rollHP": false
+      },
+      {
+        "name": "Forgeborne Elite",
+        "initiative": 8,
+        "static": false,
+        "modifier": 0,
+        "hp": 59,
+        "currentMaxHP": 59,
+        "cr": 3,
+        "ac": "18 (plate)",
+        "currentAC": "18 (plate)",
+        "id": "ID_989bd9289959",
+        "currentHP": 59,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "7d8 + 28",
+        "rollHP": false
+      },
+      {
+        "name": "Forgeborne Elite",
+        "initiative": 7,
+        "static": false,
+        "modifier": 0,
+        "hp": 59,
+        "currentMaxHP": 59,
+        "cr": 3,
+        "ac": "18 (plate)",
+        "currentAC": "18 (plate)",
+        "id": "ID_297ac9cbbae8",
+        "currentHP": 59,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "7d8 + 28",
+        "rollHP": false
+      },
+      {
+        "name": "Forgeborne Elite",
+        "initiative": 7,
+        "static": false,
+        "modifier": 0,
+        "hp": 59,
+        "currentMaxHP": 59,
+        "cr": 3,
+        "ac": "18 (plate)",
+        "currentAC": "18 (plate)",
+        "id": "ID_b9998b1829b8",
+        "currentHP": 59,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "7d8 + 28",
         "rollHP": false
       },
       {
         "name": "Кайл",
-        "initiative": 21,
+        "initiative": 4,
         "static": false,
         "modifier": 3,
         "hp": 15,
@@ -252,7 +403,7 @@
         "currentAC": 14,
         "note": "Кайл",
         "path": "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
-        "id": "ID_8ad8e8d8487b",
+        "id": "ID_2a7999b85ac9",
         "currentHP": 9,
         "tempHP": 0,
         "status": [],
@@ -265,7 +416,7 @@
       },
       {
         "name": "Папірус",
-        "initiative": 20,
+        "initiative": 7,
         "static": false,
         "modifier": 1,
         "hp": 11,
@@ -274,7 +425,7 @@
         "currentAC": 11,
         "note": "Папірус",
         "path": "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
-        "id": "ID_7bf809db8b8a",
+        "id": "ID_a8daea9b988a",
         "currentHP": 11,
         "tempHP": 0,
         "status": [],
@@ -287,7 +438,7 @@
       },
       {
         "name": "Вінсент Донрейн",
-        "initiative": 6,
+        "initiative": 13,
         "static": false,
         "modifier": -1,
         "hp": 15,
@@ -296,7 +447,7 @@
         "currentAC": 10,
         "note": "Вінсент Донрейн",
         "path": "Кампанії/Страх виявляє істину/Персонажі гравців/Вінсент Донрейн.md",
-        "id": "ID_1bfa9ab9186a",
+        "id": "ID_5a6b9a29494b",
         "currentHP": 9,
         "tempHP": 0,
         "status": [],
@@ -306,94 +457,10 @@
         "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Harpy",
-        "initiative": 5,
-        "static": false,
-        "modifier": 1,
-        "hp": 38,
-        "currentMaxHP": 38,
-        "cr": "1",
-        "ac": 11,
-        "currentAC": 11,
-        "id": "ID_a83a296b6a1b",
-        "currentHP": 38,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "7d8 + 7",
-        "rollHP": false
-      },
-      {
-        "name": "Harpy",
-        "initiative": 3,
-        "static": false,
-        "modifier": 1,
-        "hp": 38,
-        "currentMaxHP": 38,
-        "cr": "1",
-        "ac": 11,
-        "currentAC": 11,
-        "id": "ID_a83a296b6a1b",
-        "currentHP": 38,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "7d8 + 7",
-        "rollHP": false
-      },
-      {
-        "name": "Harpy",
-        "initiative": 17,
-        "static": false,
-        "modifier": 1,
-        "hp": 38,
-        "currentMaxHP": 38,
-        "cr": "1",
-        "ac": 11,
-        "currentAC": 11,
-        "id": "ID_a83a296b6a1b",
-        "currentHP": 38,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "7d8 + 7",
-        "rollHP": false
-      },
-      {
-        "name": "Harpy",
-        "initiative": 15,
-        "static": false,
-        "modifier": 1,
-        "hp": 38,
-        "currentMaxHP": 38,
-        "cr": "1",
-        "ac": 11,
-        "currentAC": 11,
-        "id": "ID_a83a296b6a1b",
-        "currentHP": 38,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "7d8 + 7",
-        "rollHP": false
       }
     ],
     "state": false,
-    "name": null,
+    "name": "Битва проти охорони Кріліума",
     "round": 1,
     "logFile": "",
     "rollHP": false
@@ -423,8 +490,8 @@
   "rollHP": false,
   "descending": true,
   "builder": {
-    "showParty": true,
-    "showXP": true,
+    "showParty": false,
+    "showXP": false,
     "sidebarIcon": true,
     "headers": [
       {
@@ -447,7 +514,138 @@
         "field": "alignment",
         "type": 0
       }
-    ]
+    ],
+    "filters": {
+      "filters": [
+        {
+          "type": 0,
+          "text": "CR",
+          "fields": [
+            "cr"
+          ],
+          "options": [
+            0,
+            30
+          ],
+          "id": "ID_DEFAULT_CR_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Size",
+          "fields": [
+            "size"
+          ],
+          "options": [
+            "large",
+            "medium",
+            "huge",
+            "gargantuan",
+            "small",
+            "tiny",
+            "medium or small",
+            "small or medium"
+          ],
+          "id": "ID_DEFAULT_SIZE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Type",
+          "fields": [
+            "type"
+          ],
+          "options": [
+            "aberration",
+            "humanoid",
+            "dragon",
+            "undead",
+            "elemental",
+            "monstrosity",
+            "construct",
+            "beast",
+            "plant",
+            "fiend",
+            "ooze",
+            "fey",
+            "giant",
+            "celestial",
+            null,
+            "humanoid (kobold)",
+            "humanoid (minotaur)",
+            "fiend (quori)",
+            "humanoid (human)",
+            "humanoid (any race)",
+            "humanoid (half-construct)",
+            "construct (dragon)"
+          ],
+          "id": "ID_DEFAULT_TYPE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Alignment",
+          "fields": [
+            "alignment"
+          ],
+          "options": [
+            "lawful evil",
+            "any alignment",
+            "chaotic evil",
+            "chaotic good",
+            "lawful good",
+            "neutral",
+            "lawful neutral",
+            "unaligned",
+            "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
+            "neutral (law/chaos axis) chaotic good neutral (good/evil axis) evil",
+            "neutral evil",
+            "chaotic good neutral (good/evil axis) evil",
+            "neutral good",
+            "chaotic neutral",
+            "neutral good (50%) or neutral evil (50%)",
+            "lawful neutral (law/chaos axis) chaotic evil",
+            "chaotic good (75%) or neutral evil (25%)",
+            "any",
+            "as the eidolon's alignment",
+            "typically chaotic neutral",
+            "any evil"
+          ],
+          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+          "derive": true
+        }
+      ],
+      "layout": [
+        {
+          "nested": [
+            {
+              "id": "ID_DEFAULT_CR_FILTER",
+              "type": "filter"
+            }
+          ],
+          "id": "ID_DEFAULT_NESTED_CR",
+          "type": "nested"
+        },
+        {
+          "id": "ID_DEFAULT_NESTED_LAYOUT",
+          "type": "nested",
+          "nested": [
+            {
+              "id": "ID_DEFAULT_SIZE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_TYPE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+              "type": "filter"
+            }
+          ]
+        }
+      ]
+    }
   },
   "rollPlayerInitiatives": 0
 }

@@ -25,6 +25,21 @@
             }
           },
           {
+            "id": "ad3488049543edbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 12"
+            }
+          },
+          {
             "id": "c087ddd54eaef565",
             "type": "leaf",
             "state": {
@@ -61,21 +76,6 @@
               },
               "icon": "lucide-file",
               "title": "Карта Хорвейру (гравців)"
-            }
-          },
-          {
-            "id": "ad3488049543edbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 12"
             }
           },
           {
@@ -121,49 +121,8 @@
               "icon": "lucide-file-text",
               "title": "Еберрон З попелу Останньої Війни"
             }
-          },
-          {
-            "id": "2fab3f8c04a1c4b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Журнал сесії 2"
-            }
-          },
-          {
-            "id": "ff7503723ff60fdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 13"
-            }
-          },
-          {
-            "id": "96008d5b23a6a9e2",
-            "type": "leaf",
-            "state": {
-              "type": "intiative-tracker-encounter-builder",
-              "state": [],
-              "icon": "intiative-tracker-encounter-builder",
-              "title": "Encounter Builder"
-            }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -331,7 +290,8 @@
               "title": "Dice Tray"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "cce19b3657d59a0f",
@@ -393,8 +353,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "ff7503723ff60fdf",
+  "active": "48e0194015df3371",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Фото/Персонажі/Sora Maenia.webp",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg.crdownload",
@@ -404,7 +368,6 @@
     "_ресурси/Фото/Персонажі/Sora Katra.jpg.crdownload",
     "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg.crdownload",
     "_ресурси/Фото/Персонажі/Кріліум.jpg",
@@ -437,9 +400,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 8.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-    "_ресурси/Карти/Port town Vralkek.jpg"
+    "Кампанії/Нові Герої/Плани сесій/Сесія 7.md"
   ]
 }
