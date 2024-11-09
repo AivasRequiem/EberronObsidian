@@ -79814,6 +79814,122 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Razubel, Clockmaster",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Razubel.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Razubel, Clockmaster",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "neutral evil",
+        "ac": "17 (Magitek Forcefield)",
+        "hp": 153,
+        "hit_dice": "18d8 + 72",
+        "speed": "30 ft.",
+        "stats": [
+          15,
+          15,
+          19,
+          24,
+          18,
+          17
+        ],
+        "saves": [
+          {
+            "constitution": 7
+          },
+          {
+            "intelligence": 10
+          },
+          {
+            "wisdom": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 10
+          },
+          {
+            "history": 10
+          },
+          {
+            "investigation": 10
+          },
+          {
+            "medicine": 7
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 14",
+        "languages": "Common, Dwarvish, Elvish, Gnomish",
+        "damage_resistances": "lightning, necrotic, psychic",
+        "damage_immunities": "force, poison",
+        "condition_immunities": "exhaustion, poisoned, stunned",
+        "cr": 8,
+        "traits": [
+          {
+            "name": "Magitek Machinery",
+            "desc": "This special equipment grants the Clockmaster all her resistances and immunities, as well as her spell attacks and Armor Class. This machinery can be targeted at a -3 penalty to attack rolls. It shares the same AC as the Clockmaster, has 100 hp, and immunity to psychic and poison damage. If destroyed, the Clockmaster's maximum hp is reduced to half its total and she has disadvantage on all attack rolls and saving throws."
+          },
+          {
+            "name": "Blessing of the Void",
+            "desc": "The Clockmaster is immune to any spell or effect that would alter her form, move her against her will, or move her to another plane of existence against her will."
+          },
+          {
+            "name": "Dark Devotion",
+            "desc": "The Clockmaster has advantage on saving throws against being charmed or frightened."
+          },
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If the Clockmaster fails a saving throw, she can choose to succeed instead."
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "The Clockmaster has advantage on saving throws against spells and other magical effects."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Clockmaster makes two melee spell attacks."
+          },
+          {
+            "name": "Magitek Power Touch",
+            "desc": "Melee Spell Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (3d8) force damage plus 13 (3d8) lightning damage and the target must succeed on a DC 18 Constitution saving throw or be stunned for 1 minute (save ends at end of turn)."
+          },
+          {
+            "name": "Legendary Engineer (3/Day)",
+            "desc": "The Clockmaster can magically repair a construct within 5 feet of her. The construct regains half its hit points total (rounded down)."
+          },
+          {
+            "name": "Clockwork Sorcery",
+            "desc": "The Clockmaster can cast the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14):",
+            "spells": [
+              "At will: command, dispel magic, heat metal, mending",
+              "3/day each: counterspell, dominate person, hold monster, mass suggestion, modify memory, plane shift (self only), telekinesis, telepathic bond",
+              "2/day each: commune (as an action), harm, legend lore, scrying",
+              "1/day each: finger of death, forbiddance, force cage, sunburst",
+              "1/week each: meteor swarm, time stop, true resurrection, weird"
+            ]
+          },
+          {
+            "name": "Void Magitek Blast (Recharge 5-6)",
+            "desc": "The Clockmaster releases a blast of pulsating energy that burns with sheer force. Any creature within 30 feet of the blast must make a DC 18 Dexterity saving throw, taking 22 (4d10) force damage plus 22 (4d10) psychic damage on a failure and being knocked prone, or half as much damage on a success and being shoved 5 feet toward an unoccupied space."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Magitek Takeover (1/Day)",
+            "desc": "The Clockmaster makes a DC 20 Intelligence (Arcana) check. On a success, she gains control over all constructs (not counting half-constructs) within 120 feet of her for the next minute. She must roll again at the beginning of each of her turns to continue this magitek takeover."
+          },
+          {
+            "name": "Summon Construct (3/Day)",
+            "desc": "The Clockmaster summons 1d6+1 Steel Predators or 1d3+1 Forgeborn Elite. These constructs regard the Clockmaster as a regular Forgeborn Elite would regard the Blademaster. They appear in an unoccupied space within 30 feet of the Clockmaster and stop functioning if she is killed or falls unconscious."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
