@@ -339,7 +339,7 @@
         "ac": "18 (plate)",
         "currentAC": "18 (plate)",
         "id": "ID_cb085a6b4b88",
-        "currentHP": 143,
+        "currentHP": 135,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -365,7 +365,7 @@
         "status": [],
         "enabled": true,
         "active": false,
-        "hidden": true,
+        "hidden": false,
         "friendly": false,
         "hit_dice": "18d8 + 72",
         "rollHP": false
