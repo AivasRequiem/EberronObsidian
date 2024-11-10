@@ -25,6 +25,21 @@
             }
           },
           {
+            "id": "8423cdf51177d8e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Клинки/Кріліум Макар.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Кріліум Макар"
+            }
+          },
+          {
             "id": "afe1b22c998f05d3",
             "type": "leaf",
             "state": {
@@ -137,7 +152,8 @@
               "title": "Еберрон З попелу Останньої Війни"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "крілі",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,7 +192,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Пошук"
+              "title": "Search"
             }
           },
           {
@@ -201,7 +217,8 @@
               "title": "Вміст Razubel"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -352,10 +369,48 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "35d72834bb577f16",
+  "floating": {
+    "id": "bc0c1b9004b50d58",
+    "type": "floating",
+    "children": [
+      {
+        "id": "32e30eb2532e8553",
+        "type": "window",
+        "children": [
+          {
+            "id": "0cf49aed50dfb4ca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "47e63003d439017b",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "_ресурси/Фото/Персонажі/Кріліум.jpg"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Кріліум"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1191,
+        "y": -48,
+        "width": 1288,
+        "height": 728,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "47e63003d439017b",
   "lastOpenFiles": [
-    "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp",
+    "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+    "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
@@ -367,7 +422,6 @@
     "_ресурси/Фото/Персонажі/Sora Teraza.jpg.crdownload",
     "_ресурси/Фото/Персонажі/Sora Katra.jpg",
     "_ресурси/Фото/Персонажі/Sora Katra.jpg.crdownload",
-    "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg.crdownload",
@@ -396,7 +450,6 @@
     "Атлас/Хорвейр/Бреландія/Шарн/Місця/Термінус/Термінус.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "Атлас/Хорвейр/Бреландія/Шарн/Райони/Високі Мури.md",
-    "_ресурси/Фото/Персонажі/Razubel.jpg",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 10.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md"
