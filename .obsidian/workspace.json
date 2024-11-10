@@ -186,7 +186,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "крілі",
+                "query": "лорд",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,7 +219,8 @@
               "title": "Вміст Razubel"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -405,7 +406,7 @@
       }
     ]
   },
-  "active": "aefa3154e3c83f73",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
