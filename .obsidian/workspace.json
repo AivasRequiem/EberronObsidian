@@ -375,37 +375,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "32e30eb2532e8553",
-        "type": "window",
-        "children": [
-          {
-            "id": "0cf49aed50dfb4ca",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "47e63003d439017b",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_ресурси/Фото/Персонажі/Кріліум.jpg"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Кріліум"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1191,
-        "y": -48,
-        "width": 1288,
-        "height": 728,
-        "maximize": true,
-        "zoom": 0
-      },
-      {
         "id": "a3978c8c0afffa48",
         "type": "window",
         "children": [
@@ -436,7 +405,7 @@
       }
     ]
   },
-  "active": "9a5263005c714299",
+  "active": "aefa3154e3c83f73",
   "lastOpenFiles": [
     "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
