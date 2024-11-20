@@ -287,35 +287,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "a3978c8c0afffa48",
-        "type": "window",
-        "children": [
-          {
-            "id": "4bb4d833efe96be9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9a5263005c714299",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 680,
-        "y": 0,
-        "width": 1027,
-        "height": 802,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "a024d2f03cb2e9de",
         "type": "window",
         "children": [
