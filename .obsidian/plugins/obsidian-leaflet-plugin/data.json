@@ -3,25 +3,8 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1732131862248,
-      "markers": [
-        {
-          "id": "ID_da79ebc8090b",
-          "type": "default",
-          "loc": [
-            729.6016156630446,
-            1886.560892205709
-          ],
-          "layer": "%5B%5BMap%20of%20Khorvaire%20-%20Eberron%20-%20DM%20vers.png%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        }
-      ],
+      "lastAccessed": 1732132589887,
+      "markers": [],
       "overlays": [],
       "shapes": [
         {
