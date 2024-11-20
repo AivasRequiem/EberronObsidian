@@ -25,6 +25,42 @@
             }
           },
           {
+            "id": "b2fab84269043d7f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Chronicles of Eberron.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Chronicles of Eberron"
+            }
+          },
+          {
+            "id": "1afccf28d9752cdc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Exploring Eberron.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Exploring Eberron"
+            }
+          },
+          {
+            "id": "248682617a2baaed",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Exploring Eberron.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Exploring Eberron"
+            }
+          },
+          {
             "id": "06ded064ea6fb91b",
             "type": "leaf",
             "state": {
@@ -66,7 +102,8 @@
               "title": "Еберрон З попелу Останньої Війни"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -347,10 +384,12 @@
       }
     ]
   },
-  "active": "1bb5e84a1ce11850",
+  "active": "1afccf28d9752cdc",
   "lastOpenFiles": [
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
+    "_ресурси/Chronicles of Eberron.pdf",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
+    "_ресурси/Exploring Eberron.pdf",
+    "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "_ресурси/Keith Baker Trust No One.pdf",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
@@ -382,7 +421,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Страх виявляє істину/Untitled",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "_ресурси/Інше/Шарнський Розслідувач 8 Терендора.pptx",
     "_ресурси/Карти/Mad Warlock's Tower.jpg",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
