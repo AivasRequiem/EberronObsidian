@@ -231,11 +231,13 @@
         "ac": 15,
         "currentAC": 15,
         "id": "ID_1818bba93958",
-        "currentHP": 7,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false,
         "hit_dice": "5d8+10",
@@ -303,7 +305,7 @@
         "enabled": true,
         "level": 2,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -376,7 +378,7 @@
     ],
     "state": true,
     "name": "Аукціон",
-    "round": 7,
+    "round": 8,
     "logFile": "",
     "rollHP": false
   },
