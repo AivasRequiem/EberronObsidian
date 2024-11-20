@@ -237,22 +237,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b6e896905e033114",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f01e2ebf97389197",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -312,6 +296,35 @@
         "direction": "vertical",
         "x": 341,
         "y": 109,
+        "width": 1025,
+        "height": 801,
+        "maximize": true,
+        "zoom": 0
+      },
+      {
+        "id": "2700c711e1f2af9e",
+        "type": "window",
+        "children": [
+          {
+            "id": "46cc5d447121a70b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "32851b02eaa0824d",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1073,
+        "y": -142,
         "width": 1025,
         "height": 801,
         "maximize": true,

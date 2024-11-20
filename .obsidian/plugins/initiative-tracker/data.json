@@ -222,7 +222,7 @@
     "creatures": [
       {
         "name": "Кайл",
-        "initiative": 12,
+        "initiative": 10,
         "static": false,
         "modifier": 3,
         "hp": 15,
@@ -244,7 +244,7 @@
       },
       {
         "name": "Ангел",
-        "initiative": 14,
+        "initiative": 1,
         "static": false,
         "modifier": 0,
         "hp": 15,
@@ -266,7 +266,7 @@
       },
       {
         "name": "Вінсент Донрейн",
-        "initiative": 16,
+        "initiative": 17,
         "static": false,
         "modifier": -1,
         "hp": 15,
@@ -282,13 +282,13 @@
         "enabled": true,
         "level": 2,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
       {
         "name": "Папірус",
-        "initiative": 9,
+        "initiative": 4,
         "static": false,
         "modifier": 1,
         "hp": 11,
@@ -361,7 +361,7 @@
         "ac": 13,
         "currentAC": 13,
         "id": "ID_cb29d9dbcaaa",
-        "currentHP": 22,
+        "currentHP": 9,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -382,7 +382,7 @@
         "ac": 13,
         "currentAC": 13,
         "id": "ID_bbc9e8887a7b",
-        "currentHP": 22,
+        "currentHP": 9,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -403,7 +403,7 @@
         "ac": 15,
         "currentAC": 15,
         "id": "ID_1818bba93958",
-        "currentHP": 32,
+        "currentHP": 19,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -424,7 +424,7 @@
         "ac": 15,
         "currentAC": 15,
         "id": "ID_5a6898896ba9",
-        "currentHP": 52,
+        "currentHP": 44,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -484,7 +484,7 @@
         "status": [],
         "enabled": true,
         "active": false,
-        "hidden": true,
+        "hidden": false,
         "friendly": false,
         "hit_dice": "8d10+16",
         "rollHP": false
@@ -566,7 +566,7 @@
         "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": "Аукціон",
     "round": 1,
     "logFile": "",
