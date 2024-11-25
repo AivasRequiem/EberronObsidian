@@ -102,8 +102,7 @@
               "title": "Еберрон З попелу Останньої Війни"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -319,81 +318,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "bc0c1b9004b50d58",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a024d2f03cb2e9de",
-        "type": "window",
-        "children": [
-          {
-            "id": "9b60a141a3488f0e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c670f83e2fe9aa87",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "_ресурси/Keith Baker Trust No One.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Keith Baker Trust No One"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 341,
-        "y": 109,
-        "width": 1025,
-        "height": 801,
-        "maximize": true,
-        "zoom": 0
-      },
-      {
-        "id": "2700c711e1f2af9e",
-        "type": "window",
-        "children": [
-          {
-            "id": "46cc5d447121a70b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "32851b02eaa0824d",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1073,
-        "y": -142,
-        "width": 1025,
-        "height": 801,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c670f83e2fe9aa87",
+  "active": "1bb5e84a1ce11850",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
+    "_ресурси/Keith Baker Trust No One.pdf",
     "_ресурси/Exploring Eberron.pdf",
     "_ресурси/Chronicles of Eberron.pdf",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 2.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
-    "_ресурси/Keith Baker Trust No One.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
