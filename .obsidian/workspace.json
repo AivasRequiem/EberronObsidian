@@ -350,6 +350,22 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "cc78dd53ef4676c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "639161bc29bcac02",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
