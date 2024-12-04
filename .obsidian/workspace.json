@@ -309,22 +309,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "1b3b44c2a77f219e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b21e6734a39c7dbb",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -354,11 +338,48 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "efd50a27184c9de2",
+  "floating": {
+    "id": "e0789e2e2c557df2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6c04ca00ea36c43a",
+        "type": "window",
+        "children": [
+          {
+            "id": "19dfb08d9cd9902b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "29cf387c02fcd336",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "_ресурси/Фото/Місця/Zolanberg.jpg"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Zolanberg"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1793,
+        "y": -118,
+        "width": 1280,
+        "height": 672,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "29cf387c02fcd336",
   "lastOpenFiles": [
+    "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 3-4.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
