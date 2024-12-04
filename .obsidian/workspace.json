@@ -34,7 +34,7 @@
                 "file": "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -339,7 +339,7 @@
             }
           },
           {
-            "id": "f80c5be5b5b5f41e",
+            "id": "3cbd87ab501685ff",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -350,22 +350,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "9142554277864cd9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "29ee4b9dc94277da",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
