@@ -366,6 +366,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "1b3b44c2a77f219e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b21e6734a39c7dbb",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
