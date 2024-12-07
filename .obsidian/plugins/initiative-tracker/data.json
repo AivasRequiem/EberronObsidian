@@ -222,7 +222,7 @@
     "creatures": [
       {
         "name": "Sora Katra",
-        "initiative": 17,
+        "initiative": 8,
         "static": false,
         "modifier": 4,
         "hp": 290,
@@ -242,7 +242,7 @@
       },
       {
         "name": "Кайл",
-        "initiative": 11,
+        "initiative": 8,
         "static": false,
         "modifier": 3,
         "hp": 15,
@@ -273,7 +273,7 @@
         "ac": "20 (natural armor)",
         "currentAC": "20 (natural armor)",
         "id": "ID_19dbb84b3828",
-        "currentHP": 35,
+        "currentHP": 5,
         "tempHP": 0,
         "status": [],
         "enabled": true,
