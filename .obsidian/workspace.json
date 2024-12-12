@@ -8,60 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e63d1a106e144a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Джейла Даран.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Джейла Даран"
-            }
-          },
-          {
-            "id": "f41011555e625cb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Зіларґо"
-            }
-          },
-          {
-            "id": "f3234dbde4e2e59d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Лорд Клинків"
-            }
-          },
-          {
             "id": "b2fab84269043d7f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_ресурси/Chronicles of Eberron.pdf"
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Chronicles of Eberron"
+              "icon": "lucide-file",
+              "title": "Сесія 15"
+            }
+          },
+          {
+            "id": "a7cf9c8350b83f63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 7"
             }
           },
           {
@@ -275,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cc78dd53ef4676c6",
@@ -321,20 +294,25 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7e63d1a106e144a6",
+  "active": "b2fab84269043d7f",
   "lastOpenFiles": [
-    "Життя/Організації/Релігії/Срібне Полум'я.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
+    "_ресурси/Chronicles of Eberron.pdf",
+    "Життя/НІПи/Клинки/Лорд Клинків.md",
+    "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
+    "Життя/Організації/Доми/Дім Канніт.md",
     "Життя/НІПи/Джейла Даран.md",
+    "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
+    "Життя/Організації/Релігії/Срібне Полум'я.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "Атлас/Хорвейр/Без назви.md",
-    "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Атлас/Хорвейр/Трейн",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
     "Предмети/Артефакти/Lute of the Witty Muse.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
@@ -354,18 +332,13 @@
     "_ресурси/Фото/Місця/Zolanberg.jpg.crdownload",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 12.md",
     "_ресурси/Keith Baker Trust No One.pdf",
-    "_ресурси/Chronicles of Eberron.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
-    "Життя/НІПи/Клинки/Кріліум Макар.md",
     "_ресурси/Фото/Персонажі/Кріліум.jpg",
     "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp",
-    "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "_ресурси/Фото/Персонажі/Sora Maenia.webp",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg",
     "_ресурси/Фото/Персонажі/Sora Katra 2.jpg.crdownload",
     "_ресурси/Фото/Персонажі/Sora Teraza.jpg",
-    "_ресурси/Фото/Персонажі/Sora Teraza.jpg.crdownload",
     "_ресурси/Фото/Персонажі/Sora Katra.jpg",
     "_ресурси/Фото/Істоти/Clockwork_Dragon.jpg",
     "_ресурси/Карти/Mad Warlock's Tower.jpg"
