@@ -38,6 +38,21 @@
             }
           },
           {
+            "id": "24a31d97412f8e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/Організації/Доми/Дім Канніт.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Дім Канніт"
+            }
+          },
+          {
             "id": "248682617a2baaed",
             "type": "leaf",
             "state": {
@@ -78,6 +93,18 @@
               "icon": "lucide-file",
               "title": "Карта Хорвейру"
             }
+          },
+          {
+            "id": "56ed389374ec96ec",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Еберрон З попелу Останньої Війни"
+            }
           }
         ]
       }
@@ -101,7 +128,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           },
           {
@@ -211,17 +238,22 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 20,
+                    "month": 1,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
-                    "month": 2,
+                    "month": 1,
                     "year": 998
                   },
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29"
+                "id": "ID_c94a4989eb29",
+                "child": "ID_fb7a2a4a3a8b"
               },
               "icon": "CALENDARIUM",
               "title": "Calendarium"
@@ -251,17 +283,21 @@
         "currentTab": 3
       },
       {
-        "id": "cc78dd53ef4676c6",
+        "id": "de903cb4316e3eb7",
         "type": "tabs",
         "children": [
           {
-            "id": "639161bc29bcac02",
+            "id": "a55eeb640c545b12",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_d8bbdbca793a",
+                "id": "ID_fb7a2a4a3a8b",
+                "parent": "ID_c94a4989eb29"
+              },
+              "icon": "CALENDARIUM_AGENDA",
+              "title": "Agenda"
             }
           }
         ]
@@ -272,12 +308,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -296,40 +332,39 @@
   },
   "active": "b2fab84269043d7f",
   "lastOpenFiles": [
-    "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
-    "Життя/НІПи/Срібне Полум'я",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
+    "Життя/Організації/Доми/Дім Канніт.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
+    "Життя/НІПи/Срібне Полум'я",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
+    "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "_ресурси/Exploring Eberron.pdf",
+    "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "_ресурси/Chronicles of Eberron.pdf",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
-    "Життя/Організації/Доми/Дім Канніт.md",
-    "Життя/НІПи/Джейла Даран.md",
-    "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
+    "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
     "Життя/Організації/Релігії/Срібне Полум'я.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "Атлас/Хорвейр/Без назви.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Атлас/Хорвейр/Трейн",
     "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
     "Предмети/Артефакти/Lute of the Witty Muse.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 13.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 1-2.md",
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 3-4.md",
     "Атлас/Хорвейр/Зіларґо",
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
-    "_ресурси/Exploring Eberron.pdf",
     "_ресурси/Фото/Місця/Zolanberg 2.jpg",
     "_ресурси/Фото/Місця/Zolanberg 2.jpg.crdownload",
     "_ресурси/Фото/Місця/Zolanberg.jpg.crdownload",
