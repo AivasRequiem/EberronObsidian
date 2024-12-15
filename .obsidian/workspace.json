@@ -344,6 +344,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "65920ab15ace00f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c0db68eaf1b7076",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -373,7 +389,42 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "aefa3154e3c83f73",
+  "floating": {
+    "id": "d671be6f16f183fc",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8b443700f605640e",
+        "type": "window",
+        "children": [
+          {
+            "id": "2d6de6f35701e677",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7e2e3f283f967105",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1659,
+        "y": -173,
+        "width": 1025,
+        "height": 801,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "b2fab84269043d7f",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
