@@ -289,7 +289,11 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 17,
+                    "month": 2,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
@@ -327,7 +331,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d8c56749d3a5020d",
@@ -408,7 +412,7 @@
       }
     ]
   },
-  "active": "aefa3154e3c83f73",
+  "active": "35d72834bb577f16",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
