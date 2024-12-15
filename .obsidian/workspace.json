@@ -374,43 +374,6 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "d671be6f16f183fc",
-    "type": "floating",
-    "children": [
-      {
-        "id": "fa4eb9efa34e9f1e",
-        "type": "window",
-        "children": [
-          {
-            "id": "b49c61574f7bb15a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "750f6772fd7bd6ef",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Багряна Люція (звичайна)"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1496,
-        "y": -172,
-        "width": 1289,
-        "height": 681,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5d8ef4ffa7dc4c0d",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
