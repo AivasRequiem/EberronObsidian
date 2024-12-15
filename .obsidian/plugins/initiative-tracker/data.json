@@ -238,7 +238,7 @@
         "enabled": true,
         "level": 6,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
@@ -253,7 +253,7 @@
         "ac": "16 (studded leather armor)",
         "currentAC": "16 (studded leather armor)",
         "id": "ID_6bbb7b087aab",
-        "currentHP": 43,
+        "currentHP": 1,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -337,7 +337,7 @@
         "ac": "17 (splint armor)",
         "currentAC": "17 (splint armor)",
         "id": "ID_9bb8db281afb",
-        "currentHP": 45,
+        "currentHP": 40,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -383,7 +383,7 @@
         "tempHP": 0,
         "status": [],
         "enabled": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false,
         "hit_dice": "9d8 + 18",
@@ -498,9 +498,9 @@
         "friendly": false
       }
     ],
-    "state": true,
+    "state": false,
     "name": "Охорона маєтку Роланда",
-    "round": 3,
+    "round": 4,
     "logFile": "",
     "rollHP": false
   },
