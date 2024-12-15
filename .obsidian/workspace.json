@@ -330,32 +330,16 @@
         "currentTab": 4
       },
       {
-        "id": "fa5c59656e86b206",
+        "id": "d8c56749d3a5020d",
         "type": "tabs",
         "children": [
           {
-            "id": "41909932624f7515",
+            "id": "33b8f9d71acbb184",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {},
               "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
-      },
-      {
-        "id": "65920ab15ace00f0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0c0db68eaf1b7076",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
               "title": "Combatant"
             }
           }
@@ -424,7 +408,7 @@
       }
     ]
   },
-  "active": "b2fab84269043d7f",
+  "active": "aefa3154e3c83f73",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
