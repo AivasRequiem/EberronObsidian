@@ -180,7 +180,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           },
           {
@@ -304,8 +304,7 @@
                   "displayDayNumber": false,
                   "displayMoons": true
                 },
-                "id": "ID_c94a4989eb29",
-                "child": "ID_fb7a2a4a3a8b"
+                "id": "ID_c94a4989eb29"
               },
               "icon": "CALENDARIUM",
               "title": "Calendarium"
@@ -356,12 +355,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -374,8 +373,7 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false
+      "media-extended:Open media": false
     }
   },
   "floating": {
