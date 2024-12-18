@@ -260,7 +260,7 @@
         "enabled": true,
         "level": 2,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -319,11 +319,13 @@
         "ac": "17 (natural armor)",
         "currentAC": "17 (natural armor)",
         "id": "ID_b9fbe8dbda18",
-        "currentHP": 16,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false,
         "hit_dice": "3d8 + 6",
@@ -363,9 +365,11 @@
         "ac": "17 (natural armor)",
         "currentAC": "17 (natural armor)",
         "id": "ID_5a4bab7a8b4b",
-        "currentHP": 19,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -407,9 +411,11 @@
         "ac": "13 (studded leather armor)",
         "currentAC": "13 (studded leather armor)",
         "id": "ID_091a586908fb",
-        "currentHP": 14,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
