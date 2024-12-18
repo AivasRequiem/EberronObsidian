@@ -269,7 +269,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d8c56749d3a5020d",
@@ -349,10 +349,39 @@
         "height": 681,
         "maximize": true,
         "zoom": 0
+      },
+      {
+        "id": "2917cbe2435eb070",
+        "type": "window",
+        "children": [
+          {
+            "id": "1ed8d4fd98ee216a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cd6c63ec62548e68",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -682,
+        "y": -6,
+        "width": 1025,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0
       }
     ]
   },
-  "active": "e3b4068c7e2eeb46",
+  "active": "cd6c63ec62548e68",
   "lastOpenFiles": [
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 5.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
