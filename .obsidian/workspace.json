@@ -286,6 +286,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "4f46fd54d78f5fb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fba84dabfc9b7e87",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -315,7 +331,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e3b4068c7e2eeb46",
+  "active": "fba84dabfc9b7e87",
   "lastOpenFiles": [
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
