@@ -118,7 +118,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           },
           {
@@ -293,12 +293,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -315,79 +315,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "3b7682dc5a8c55b4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3889d70cf60bb1a0",
-        "type": "window",
-        "children": [
-          {
-            "id": "ded22192e83ec2b0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "655eb5d0797c20af",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_ресурси/Фото/Місця/Zolanberg.jpg"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Zolanberg"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1398,
-        "y": 183,
-        "width": 1289,
-        "height": 681,
-        "maximize": true,
-        "zoom": 0
-      },
-      {
-        "id": "2917cbe2435eb070",
-        "type": "window",
-        "children": [
-          {
-            "id": "1ed8d4fd98ee216a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cd6c63ec62548e68",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -682,
-        "y": -6,
-        "width": 1025,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "655eb5d0797c20af",
+  "active": "e3b4068c7e2eeb46",
   "lastOpenFiles": [
+    "_ресурси/Фото/Місця/Zolanberg.jpg",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5.md",
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 5.md",
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 2.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
-    "_ресурси/Фото/Місця/Zolanberg.jpg",
     "Атлас/Хорвейр/Трейн/Трейн.md",
     "Життя/Організації/Релігії/Срібне Полум'я.md",
     "Життя/Організації/Доми/Дім Канніт.md",
@@ -413,7 +347,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 7.md",
     "Життя/НІПи/Срібне Полум'я",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
     "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
     "_ресурси/Chronicles of Eberron.pdf",
     "Атлас/Хорвейр/Трейн",
