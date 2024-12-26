@@ -32,7 +32,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Страх виявляє істину/Сесії/Сесія 7.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
@@ -245,16 +245,16 @@
         "currentTab": 4
       },
       {
-        "id": "d8c56749d3a5020d",
+        "id": "33e7dea5d46e921e",
         "type": "tabs",
         "children": [
           {
-            "id": "33b8f9d71acbb184",
+            "id": "f2a03c232e18dd3b",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "fantasy-statblocks-creature-pane",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
+              "icon": "skull",
               "title": "Combatant"
             }
           }
@@ -323,7 +323,7 @@
       }
     ]
   },
-  "active": "97c1f398c9d6fd53",
+  "active": "aefa3154e3c83f73",
   "lastOpenFiles": [
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5-6.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
