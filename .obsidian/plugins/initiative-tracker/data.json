@@ -222,7 +222,7 @@
     "creatures": [
       {
         "name": "Кайл",
-        "initiative": 8,
+        "initiative": 15,
         "static": false,
         "modifier": 3,
         "hp": 15,
@@ -243,30 +243,8 @@
         "friendly": false
       },
       {
-        "name": "Ангел",
-        "initiative": 14,
-        "static": false,
-        "modifier": 0,
-        "hp": 15,
-        "currentMaxHP": 15,
-        "ac": 16,
-        "currentAC": 16,
-        "note": "Ангел",
-        "path": "Кампанії/Страх виявляє істину/Персонажі гравців/Ангел.md",
-        "id": "ID_fb4958484a98",
-        "currentHP": 15,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "level": 4,
-        "player": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false
-      },
-      {
         "name": "Вінсент Донрейн",
-        "initiative": 2,
+        "initiative": 17,
         "static": false,
         "modifier": -1,
         "hp": 15,
@@ -288,7 +266,7 @@
       },
       {
         "name": "Папірус",
-        "initiative": 7,
+        "initiative": 4,
         "static": false,
         "modifier": 1,
         "hp": 11,
@@ -319,9 +297,11 @@
         "ac": 12,
         "currentAC": 12,
         "id": "ID_5adb1b7ad859",
-        "currentHP": 22,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -340,7 +320,7 @@
         "ac": 12,
         "currentAC": 12,
         "id": "ID_f8da4af9591a",
-        "currentHP": 22,
+        "currentHP": 14,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -361,9 +341,11 @@
         "ac": 12,
         "currentAC": 12,
         "id": "ID_e8a98a6a3baa",
-        "currentHP": 16,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -373,7 +355,7 @@
       },
       {
         "name": "Ангел",
-        "initiative": 9,
+        "initiative": 15,
         "static": false,
         "modifier": 0,
         "hp": 15,
