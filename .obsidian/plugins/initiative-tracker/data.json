@@ -253,9 +253,11 @@
         "ac": 8,
         "currentAC": 8,
         "id": "ID_4a4bb8095bfa",
-        "currentHP": 8,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -273,9 +275,11 @@
         "ac": 8,
         "currentAC": 8,
         "id": "ID_19d8ab38fad9",
-        "currentHP": 8,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -338,9 +342,11 @@
         "ac": 8,
         "currentAC": 8,
         "id": "ID_099b198b28db",
-        "currentHP": 7,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -381,9 +387,11 @@
         "ac": 8,
         "currentAC": 8,
         "id": "ID_4a4bb8095bfa",
-        "currentHP": 15,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
