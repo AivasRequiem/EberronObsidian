@@ -91,7 +91,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           },
           {
@@ -248,7 +248,7 @@
       {
         "id": "33e7dea5d46e921e",
         "type": "tabs",
-        "dimension": 49.01960784313725,
+        "dimension": 49.01960784313726,
         "children": [
           {
             "id": "f2a03c232e18dd3b",
@@ -268,12 +268,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -286,8 +286,7 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:Open media": false,
-      "calendarium:Open Calendarium": false
+      "media-extended:Open media": false
     }
   },
   "floating": {
@@ -316,16 +315,16 @@
           }
         ],
         "direction": "vertical",
-        "x": -1513,
-        "y": 327,
-        "width": 1025,
-        "height": 801,
-        "maximize": true,
+        "x": -15,
+        "y": 0,
+        "width": 1027,
+        "height": 803,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "35d72834bb577f16",
+  "active": "2c544eb160ec9b8f",
   "lastOpenFiles": [
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5-6.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
