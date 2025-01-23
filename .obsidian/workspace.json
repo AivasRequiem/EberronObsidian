@@ -286,7 +286,8 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:Open media": false
+      "media-extended:Open media": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "floating": {
@@ -315,10 +316,10 @@
           }
         ],
         "direction": "vertical",
-        "x": -15,
+        "x": -16,
         "y": 0,
-        "width": 1027,
-        "height": 803,
+        "width": 1032,
+        "height": 804,
         "maximize": false,
         "zoom": 0
       }
