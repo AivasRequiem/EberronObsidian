@@ -90,6 +90,20 @@
       "resultText": "[3, 1, 3, 6, 2, 4, 2, 2, 5, 1, 1, 4, 6]",
       "timestamp": 1729354016013,
       "id": "QyLdBQ-g4m3u"
+    },
+    {
+      "result": "2",
+      "original": "1d12",
+      "resultText": "1d12\n[2]",
+      "timestamp": 1737673937411,
+      "id": "kg5aaK-DA1FR"
+    },
+    {
+      "result": "15",
+      "original": "1d28",
+      "resultText": "1d28\n[15]",
+      "timestamp": 1737673948034,
+      "id": "OGTAY00KfHRe"
     }
   ],
   "showDice": true
