@@ -33,7 +33,7 @@
                 "file": "Інструменти ДМ/Правила бастіонів.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Правила бастіонів"
@@ -142,13 +142,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_ресурси/Фото/Персонажі/Razubel.jpg"
+                "file": "Інструменти ДМ/Правила бастіонів.md"
               },
               "icon": "lucide-list",
-              "title": "Вміст Razubel"
+              "title": "Вміст Правила бастіонів"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
