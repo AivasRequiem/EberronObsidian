@@ -15,8 +15,17 @@
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Сесія 16"
@@ -30,8 +39,17 @@
               "state": {
                 "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 15.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Журнал сесії 15"
@@ -96,8 +114,7 @@
               "title": "Карта Хорвейру"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +133,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловий менеджер"
@@ -318,7 +336,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "a9620f5460f77d4e",
+  "active": "c5d7e2a07cf57385",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "_ресурси/Інше/~$аз про арешт.docx",
