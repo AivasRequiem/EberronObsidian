@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+                "file": "Життя/Організації/Релігії/Срібне Полум'я.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Сесія 16"
+              "title": "Срібне Полум'я"
+            }
+          },
+          {
+            "id": "db99ade1d63b0ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Соларія"
             }
           },
           {
@@ -113,8 +137,33 @@
               "icon": "lucide-file",
               "title": "Карта Хорвейру"
             }
+          },
+          {
+            "id": "44ff644dab74a0e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_неоргнанізоване/Крозен.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Крозен"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +195,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "самір",
+                "query": "срібного",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -336,8 +385,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "c5d7e2a07cf57385",
+  "active": "44ff644dab74a0e7",
   "lastOpenFiles": [
+    "_неоргнанізоване/Крозен.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+    "Життя/Організації/Релігії/Срібне Полум'я.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "_ресурси/Інше/~$аз про арешт.docx",
     "_ресурси/Інше/~WRL0001.tmp",
@@ -348,7 +400,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
     "Життя/Організації/Релігії/Сльози Мірон.md",
     "Інструменти ДМ/Правила бастіонів.md",
-    "Життя/Організації/Релігії/Срібне Полум'я.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 7.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
@@ -369,7 +420,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 5.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 4.md",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 15.md",
     "_ресурси/Exploring Eberron.pdf",
     "Життя/НІПи/Срібне Полум'я",
     "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
