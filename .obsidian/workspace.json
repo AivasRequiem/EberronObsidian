@@ -15,13 +15,28 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Сесія 16"
+            }
+          },
+          {
+            "id": "cdd25437b864a8d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Карта Хорвейру (гравців)"
             }
           },
           {
@@ -32,17 +47,8 @@
               "state": {
                 "file": "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
                 "mode": "source",
-                "source": false,
                 "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Срібне Полум'я"
@@ -164,7 +170,8 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -379,10 +386,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "df63d7ccf063e00b",
+  "active": "cdd25437b864a8d4",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
     "_ресурси/Фото/Персонажі/Reynar Dalescar.webp",
     "_ресурси/Фото/Персонажі/Lady Elain Dalescar.webp",
@@ -401,7 +409,6 @@
     "Життя/Організації/Релігії/Срібне Полум'я",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "_неоргнанізоване/Крозен.md",
-    "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
     "_ресурси/Інше/~$аз про арешт.docx",
     "_ресурси/Інше/~WRL0001.tmp",
     "_ресурси/Інше/~WRD0000.tmp",
