@@ -8,6 +8,56 @@
         "type": "tabs",
         "children": [
           {
+            "id": "df63d7ccf063e00b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Сесія 16"
+            }
+          },
+          {
+            "id": "800b6c161be1ac63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 13"
+            }
+          },
+          {
             "id": "c5d7e2a07cf57385",
             "type": "leaf",
             "state": {
@@ -146,57 +196,9 @@
               "icon": "lucide-file",
               "title": "Верховні Кардинали Срібного Полум'я"
             }
-          },
-          {
-            "id": "df63d7ccf063e00b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 16"
-            }
-          },
-          {
-            "id": "1290f3181f6dbf33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Соларія"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -418,19 +420,20 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "1290f3181f6dbf33",
+  "active": "800b6c161be1ac63",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Життя/Організації/Релігії/Срібне Полум'я",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "_неоргнанізоване/Крозен.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
     "_ресурси/Інше/~$аз про арешт.docx",
     "_ресурси/Інше/~WRL0001.tmp",
@@ -449,7 +452,6 @@
     "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Вінсент Донрейн.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
