@@ -25,30 +25,6 @@
             }
           },
           {
-            "id": "800b6c161be1ac63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 13"
-            }
-          },
-          {
             "id": "c5d7e2a07cf57385",
             "type": "leaf",
             "state": {
@@ -320,11 +296,7 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": {
-                    "day": 17,
-                    "month": 2,
-                    "year": 998
-                  },
+                  "viewing": null,
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
@@ -362,22 +334,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "33e7dea5d46e921e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f2a03c232e18dd3b",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       },
       {
         "id": "d6a90ef57423265c",
@@ -425,14 +381,14 @@
   },
   "active": "df63d7ccf063e00b",
   "lastOpenFiles": [
-    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
-    "_ресурси/Фото/Персонажі/Reynar Dalescar.webp",
-    "_ресурси/Фото/Персонажі/Lady Elain Dalescar.webp",
-    "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
+    "_ресурси/Фото/Персонажі/Reynar Dalescar.webp",
+    "_ресурси/Фото/Персонажі/Lady Elain Dalescar.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
     "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx",
     "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
@@ -469,7 +425,6 @@
     "Життя/НІПи/Срібне Полум'я",
     "_ресурси/Інше/~$Шарнський Розслідувач 1 Терендора.pptx",
     "_ресурси/Фото/Місця/Zolanberg 2.jpg",
-    "_ресурси/Фото/Персонажі/Кріліум.jpg",
-    "_ресурси/Фото/Місця/Карнавал Гвинтиків.webp"
+    "_ресурси/Фото/Персонажі/Кріліум.jpg"
   ]
 }
