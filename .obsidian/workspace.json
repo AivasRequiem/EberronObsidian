@@ -414,41 +414,6 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "c1a30bdbfd4c0af4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f2f298c680c3d560",
-        "type": "window",
-        "children": [
-          {
-            "id": "62cd93060f613157",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "62d18b03d84b12cb",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1490,
-        "y": -83,
-        "width": 1025,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "d5a27a3ad4b38070",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
