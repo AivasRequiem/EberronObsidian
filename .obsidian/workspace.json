@@ -160,8 +160,45 @@
               "icon": "lucide-file",
               "title": "Верховні Кардинали Срібного Полум'я"
             }
+          },
+          {
+            "id": "9ed89c5f3395b134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 16"
+            }
+          },
+          {
+            "id": "d5a27a3ad4b38070",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -180,7 +217,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -411,12 +449,12 @@
       }
     ]
   },
-  "active": "62d18b03d84b12cb",
+  "active": "d5a27a3ad4b38070",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
