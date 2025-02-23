@@ -15,9 +15,18 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -25,18 +34,51 @@
             }
           },
           {
-            "id": "2cb288e81bcc0d8a",
+            "id": "800b6c161be1ac63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Журнал сесії 16"
+              "title": "Сесія 13"
+            }
+          },
+          {
+            "id": "c5d7e2a07cf57385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Срібне Полум'я"
             }
           },
           {
@@ -47,26 +89,20 @@
               "state": {
                 "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Соларія"
-            }
-          },
-          {
-            "id": "d3ef45862a54147a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Карта Хорвейру"
             }
           },
           {
@@ -162,12 +198,12 @@
             }
           },
           {
-            "id": "9ed89c5f3395b134",
+            "id": "66e2159091a9d86d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "file": "Інструменти ДМ/50 питань для гравців.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,35 +218,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Журнал сесії 16"
-            }
-          },
-          {
-            "id": "41760718500d9c16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 9.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 9"
+              "title": "50 питань для гравців"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -233,7 +245,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
             }
           },
           {
@@ -343,7 +355,11 @@
               "state": {
                 "calendar": "ID_d8bbdbca793a",
                 "ephemeral": {
-                  "viewing": null,
+                  "viewing": {
+                    "day": 17,
+                    "month": 2,
+                    "year": 998
+                  },
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
@@ -380,7 +396,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
+      },
+      {
+        "id": "33e7dea5d46e921e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2a03c232e18dd3b",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       },
       {
         "id": "d6a90ef57423265c",
@@ -404,12 +436,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -426,26 +458,20 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "41760718500d9c16",
+  "active": "66e2159091a9d86d",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 1.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-    "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-    "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
-    "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
-    "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
     "_ресурси/Фото/Персонажі/Reynar Dalescar.webp",
     "_ресурси/Фото/Персонажі/Lady Elain Dalescar.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
+    "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
@@ -453,11 +479,14 @@
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Життя/Організації/Релігії/Срібне Полум'я",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "_неоргнанізоване/Крозен.md",
+    "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
     "_ресурси/Інше/~$аз про арешт.docx",
     "_ресурси/Інше/~WRL0001.tmp",
     "_ресурси/Інше/~WRD0000.tmp",
     "_ресурси/Інше/Указ про арешт.docx",
+    "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5-6.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Сльози Мірон.md",
@@ -466,6 +495,9 @@
     "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 5.md",
     "Життя/НІПи/Клан Боромар/Гастон Боромар.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Ангел.md",
+    "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
+    "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
+    "Кампанії/Страх виявляє істину/Персонажі гравців/Вінсент Донрейн.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
