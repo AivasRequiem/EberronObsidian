@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "d744b90617354cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 16"
+            }
+          },
+          {
             "id": "800b6c161be1ac63",
             "type": "leaf",
             "state": {
@@ -220,21 +244,9 @@
               "icon": "lucide-file",
               "title": "50 питань для гравців"
             }
-          },
-          {
-            "id": "7b825fa7d8a7e14c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -470,9 +482,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7b825fa7d8a7e14c",
+  "active": "d744b90617354cd9",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
     "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
@@ -509,7 +522,6 @@
     "Кампанії/Страх виявляє істину/Персонажі гравців/Ангел.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Папірус.md",
     "Кампанії/Страх виявляє істину/Персонажі гравців/Кайл.md",
-    "Кампанії/Страх виявляє істину/Персонажі гравців/Вінсент Донрейн.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
