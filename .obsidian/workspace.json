@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "e38860f88bf2d04d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Карта Хорвейру"
+            }
+          },
+          {
             "id": "d744b90617354cd9",
             "type": "leaf",
             "state": {
@@ -246,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -482,11 +506,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d744b90617354cd9",
+  "active": "db99ade1d63b0ed0",
   "lastOpenFiles": [
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-    "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+    "Інструменти ДМ/50 питань для гравців.md",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
     "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
     "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
@@ -504,7 +529,6 @@
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Життя/Організації/Релігії/Срібне Полум'я",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
     "_неоргнанізоване/Крозен.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
     "_ресурси/Інше/~$аз про арешт.docx",
