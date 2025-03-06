@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "f86a46490f6d1224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/Організації/Релігії/Срібне Полум'я/Сльози Мірон.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сльози Мірон"
+            }
+          },
+          {
             "id": "e38860f88bf2d04d",
             "type": "leaf",
             "state": {
@@ -269,7 +293,8 @@
               "title": "50 питань для гравців"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -505,11 +530,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "df63d7ccf063e00b",
+  "active": "f86a46490f6d1224",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
