@@ -335,8 +335,7 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -507,7 +506,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "db99ade1d63b0ed0",
+  "active": "568c389648cb3f29",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
