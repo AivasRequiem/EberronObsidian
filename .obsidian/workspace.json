@@ -82,6 +82,30 @@
             }
           },
           {
+            "id": "058d3d80f9e66fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ксаріон Макар"
+            }
+          },
+          {
             "id": "d744b90617354cd9",
             "type": "leaf",
             "state": {
@@ -294,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -530,17 +554,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e450904e0cf9172a",
+  "active": "058d3d80f9e66fe4",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 3.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Сльози Мірон.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
     "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
