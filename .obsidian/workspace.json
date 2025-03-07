@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df63d7ccf063e00b",
+            "id": "11a2af873bc85e87",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -55,6 +55,18 @@
               },
               "icon": "lucide-file",
               "title": "Карта Хорвейру"
+            }
+          },
+          {
+            "id": "43dd6add82b591d8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           },
           {
@@ -106,30 +118,6 @@
             }
           },
           {
-            "id": "11a2af873bc85e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Журнал сесії 11"
-            }
-          },
-          {
             "id": "d744b90617354cd9",
             "type": "leaf",
             "state": {
@@ -151,54 +139,6 @@
               },
               "icon": "lucide-file",
               "title": "Журнал сесії 16"
-            }
-          },
-          {
-            "id": "800b6c161be1ac63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 13"
-            }
-          },
-          {
-            "id": "c5d7e2a07cf57385",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Релігії/Срібне Полум'я/Срібне Полум'я.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Срібне Полум'я"
             }
           },
           {
@@ -226,30 +166,6 @@
             }
           },
           {
-            "id": "a9620f5460f77d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 15.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Журнал сесії 15"
-            }
-          },
-          {
             "id": "2b67b560586fbab4",
             "type": "leaf",
             "state": {
@@ -262,23 +178,6 @@
               },
               "icon": "lucide-file",
               "title": "Самір Кес"
-            }
-          },
-          {
-            "id": "97c1f398c9d6fd53",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Страх виявляє істину/Сесії/Сесія 7.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Сесія 7"
             }
           },
           {
@@ -340,9 +239,33 @@
               "icon": "lucide-file",
               "title": "50 питань для гравців"
             }
+          },
+          {
+            "id": "1ee3816c6ed73786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 17"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -578,8 +501,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "11a2af873bc85e87",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 9.md",
@@ -589,7 +516,6 @@
     "Кампанії/Нові Герої/Події світу/Журнал сесії 3.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Сльози Мірон.md",
     "Інструменти ДМ/50 питань для гравців.md",
@@ -615,9 +541,6 @@
     "_ресурси/Інше/~WRD0000.tmp",
     "_ресурси/Інше/Указ про арешт.docx",
     "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
-    "Кампанії/Страх виявляє істину/Сесії/Сесія 5-6.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
-    "Інструменти ДМ/Правила бастіонів.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
