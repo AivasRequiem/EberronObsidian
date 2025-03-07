@@ -58,42 +58,6 @@
             }
           },
           {
-            "id": "43dd6add82b591d8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "e450904e0cf9172a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Журнал сесії 2"
-            }
-          },
-          {
             "id": "058d3d80f9e66fe4",
             "type": "leaf",
             "state": {
@@ -359,6 +323,54 @@
               "icon": "lucide-file",
               "title": "Сесія 17"
             }
+          },
+          {
+            "id": "995c69355dee65eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 16"
+            }
+          },
+          {
+            "id": "77753ccda8866b78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 17"
+            }
           }
         ],
         "currentTab": 15
@@ -597,21 +609,21 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "46302bb164a33e25",
+  "active": "77753ccda8866b78",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
+    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 9.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 2.md",
-    "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 3.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 2.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
