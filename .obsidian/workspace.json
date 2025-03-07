@@ -263,9 +263,105 @@
               "icon": "lucide-file",
               "title": "Сесія 17"
             }
+          },
+          {
+            "id": "8fe0daf8c666471f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 15"
+            }
+          },
+          {
+            "id": "3607d6cfec81b09f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 14"
+            }
+          },
+          {
+            "id": "d0f28019fe2db81c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 13"
+            }
+          },
+          {
+            "id": "46302bb164a33e25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 17"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -501,11 +597,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "1ee3816c6ed73786",
+  "active": "46302bb164a33e25",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 11.md",
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 10.md",
@@ -525,9 +624,7 @@
     "_ресурси/Фото/Персонажі/Reynar Dalescar.webp",
     "_ресурси/Фото/Персонажі/Lady Elain Dalescar.webp",
     "_ресурси/Фото/Персонажі/Tywin Dalescar.webp",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
@@ -540,7 +637,6 @@
     "_ресурси/Інше/~WRL0001.tmp",
     "_ресурси/Інше/~WRD0000.tmp",
     "_ресурси/Інше/Указ про арешт.docx",
-    "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
