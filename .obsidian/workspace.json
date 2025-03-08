@@ -449,22 +449,6 @@
         "currentTab": 3
       },
       {
-        "id": "33e7dea5d46e921e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f2a03c232e18dd3b",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
-      },
-      {
         "id": "d6a90ef57423265c",
         "type": "tabs",
         "children": [
@@ -508,7 +492,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "568c389648cb3f29",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
     "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
