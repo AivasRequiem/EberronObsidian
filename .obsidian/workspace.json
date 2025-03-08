@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "6cb903cb02626260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 16"
+            }
+          },
+          {
             "id": "5322d2024efdeea6",
             "type": "leaf",
             "state": {
@@ -252,7 +276,8 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -411,8 +436,8 @@
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
           },
           {
@@ -446,7 +471,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d6a90ef57423265c",
@@ -492,15 +517,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "1ee3816c6ed73786",
+  "active": "aefa3154e3c83f73",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",
