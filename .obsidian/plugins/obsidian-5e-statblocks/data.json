@@ -85086,6 +85086,125 @@
         ],
         "spellsNotes": ""
       }
+    ],
+    [
+      "Wereboar Apex",
+      {
+        "layout": "Basic 5e Layout",
+        "name": "Wereboar Apex",
+        "size": "Medium",
+        "type": "humanoid (any race, shapechanger)",
+        "alignment": "neutral evil",
+        "ac": "13 (humanoid), 15 (natural armor in beast or hybrid form)",
+        "hp": 153,
+        "hit_dice": "18d8+24",
+        "speed": "30 ft. (40 ft. in beast form)",
+        "stats": [
+          20,
+          17,
+          18,
+          8,
+          14,
+          15
+        ],
+        "saves": [
+          {
+            "strength": 9
+          },
+          {
+            "constitution": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 9
+          },
+          {
+            "insight": 6
+          },
+          {
+            "perception": 6
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 16",
+        "languages": "any one language (can’t speak in beast form)",
+        "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical weapons that aren’t wooden spears or silvered",
+        "condition_immunities": "charmed, frightened",
+        "cr": 10,
+        "traits": [
+          {
+            "name": "Shapechanger",
+            "desc": "The wereboar can use a bonus action to polymorph into a Large boar-humanoid hybrid or into a Large boar, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+          },
+          {
+            "name": "Brute",
+            "desc": "A melee attack deals one extra die of its damage when the wereboar hits with it (included in the attack)."
+          },
+          {
+            "name": "Charge (Beast or Hybrid Form Only)",
+            "desc": "If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 14 (4d6) slashing damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+          },
+          {
+            "name": "Vengeful Death",
+            "desc": "When the wereboar dies, it can move up to half its speed toward an enemy and make up to three melee attacks against creatures within 5 feet of it. It then immediately dies."
+          },
+          {
+            "name": "Relentless (Recharges after a Short or Long Rest)",
+            "desc": "If the wereboar takes 28 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+          },
+          {
+            "name": "Swift",
+            "desc": "The wereboar can take the Dash action as a bonus action."
+          },
+          {
+            "name": "Sure-Footed (Beast or Hybrid Form Only)",
+            "desc": "The wereboar has advantage on saving throws and ability checks against being knocked prone."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The wereboar makes three attacks, only one of which can be with its tusks."
+          },
+          {
+            "name": "Javelin (Humanoid or Hybrid Form Only)",
+            "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 12 (2d6 + 5) piercing damage."
+          },
+          {
+            "name": "Maul (Humanoid or Hybrid Form Only)",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage."
+          },
+          {
+            "name": "Tusks (Beast or Hybrid Form Only)",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage. If the target is a humanoid, it must succeed on a DC 16 Constitution saving throw or be cursed with wereboar lycanthropy."
+          },
+          {
+            "name": "Hooves (Beast or Hybrid Form Only)",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Punish",
+            "desc": "When the wereboar is hit by an attack from a creature within 5 feet of it, the wereboar can make one melee attack against that creature. On a hit, the target must succeed on a DC 17 Strength saving throw or be knocked prone."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Attack",
+            "desc": "The wereboar makes one attack."
+          },
+          {
+            "name": "Kick (Beast or Hybrid Form Only; Costs 2 Actions)",
+            "desc": "The wereboar makes a melee weapon attack against a creature within 5 feet of it (+9 to hit). On a hit, the target takes 14 (2d8 + 5) bludgeoning damage and is knocked back 10 feet."
+          },
+          {
+            "name": "Tenacity",
+            "desc": "The next saving throw the wereboar makes before the end of its next turn is made with advantage."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
