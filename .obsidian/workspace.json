@@ -397,19 +397,9 @@
               "icon": "lucide-file",
               "title": "Верховні Кардинали Срібного Полум'я"
             }
-          },
-          {
-            "id": "22670dbb7e7b4fff",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -441,7 +431,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "джейла",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -449,7 +439,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Пошук"
+              "title": "Search"
             }
           },
           {
@@ -474,7 +464,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -665,7 +656,7 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "22670dbb7e7b4fff",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
