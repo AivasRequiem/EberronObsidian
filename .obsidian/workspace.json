@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -276,8 +276,7 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -552,7 +551,7 @@
       }
     ]
   },
-  "active": "9a0d3ee38d5f52c7",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
