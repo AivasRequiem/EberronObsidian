@@ -431,7 +431,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "d3",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -464,8 +464,7 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
