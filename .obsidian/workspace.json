@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11a2af873bc85e87",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Сесія 16"
-            }
-          },
-          {
             "id": "1ee3816c6ed73786",
             "type": "leaf",
             "pinned": true,
@@ -41,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -398,8 +372,7 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -656,13 +629,13 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0e1a7b0be4c3c017",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",
-    "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Кампанії/Страх виявляє істину/Сесії/Сесія 5-6.md",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp.crdownload",
