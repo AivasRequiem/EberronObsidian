@@ -276,7 +276,8 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -308,7 +309,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "джейла",
+                "query": "коран",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -316,7 +317,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Пошук"
             }
           },
           {
@@ -341,7 +342,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -516,45 +518,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "70128fd2fca7cf94",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cf58072400de9c38",
-        "type": "window",
-        "children": [
-          {
-            "id": "443a21055c7ba555",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9a0d3ee38d5f52c7",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1522,
-        "y": -24,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "9a0d3ee38d5f52c7",
+  "active": "e38860f88bf2d04d",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
