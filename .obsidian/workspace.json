@@ -324,8 +324,7 @@
               "title": "Верховні Кардинали Срібного Полум'я"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -357,7 +356,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "лорд клинків",
+                "query": "оар",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -390,7 +389,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -519,7 +519,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d6a90ef57423265c",
@@ -565,10 +565,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e32762eb7274e62c",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
-    "_ресурси/Фото/Персонажі/Lord_of_Blades_2.webp",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
+    "_ресурси/Фото/Персонажі/Lord_of_Blades_2.webp",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "conflict-files-obsidian-git.md",
     "Життя/НІПи/Елдинські Хащі",
@@ -611,7 +611,6 @@
     "_ресурси/Фото/Місця/Zolanberg.jpg",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "_ресурси/Фото/Персонажі/Багряна Люція (звичайна).jpg",
-    "_ресурси/Exploring Eberron.pdf",
-    "_ресурси/Фото/Місця/Zolanberg 2.jpg"
+    "_ресурси/Exploring Eberron.pdf"
   ]
 }
