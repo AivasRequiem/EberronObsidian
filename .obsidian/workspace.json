@@ -342,8 +342,7 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -518,7 +517,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e38860f88bf2d04d",
+  "active": "568c389648cb3f29",
   "lastOpenFiles": [
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Елдинські Хащі",
