@@ -323,8 +323,33 @@
               "icon": "lucide-file",
               "title": "Верховні Кардинали Срібного Полум'я"
             }
+          },
+          {
+            "id": "29782a996573f2d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Орґев ір'Вінарн"
+            }
           }
-        ]
+        ],
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -565,14 +590,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0e1a7b0be4c3c017",
+  "active": "29782a996573f2d9",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_ресурси/Фото/Персонажі/Lord_of_Blades_2.webp",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "conflict-files-obsidian-git.md",
     "Життя/НІПи/Елдинські Хащі",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
