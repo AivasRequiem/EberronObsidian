@@ -21,6 +21,21 @@
     {
       "folder": "Життя/НІПи",
       "template": "_шаблони/Вставити персонажа.md"
+    },
+    {
+      "folder": "Кампанії/Нові Герої/Плани сесій",
+      "template": "_шаблони/Сесія X.md"
+    },
+    {
+      "folder": "Кампанії/Нові Герої/Журнали сесій",
+      "template": "_шаблони/Журнал сесії X.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
