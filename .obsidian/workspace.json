@@ -10,7 +10,6 @@
           {
             "id": "1ee3816c6ed73786",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -28,7 +27,6 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Сесія 17"
             }
@@ -277,7 +275,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -517,10 +515,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "c63fd60b8d3949fc",
+  "active": "77753ccda8866b78",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "_шаблони/Журнал сесії X.md",
     "_шаблони/Сесія X.md",
