@@ -180,7 +180,8 @@
               "title": "50 питань для гравців"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,23 +208,6 @@
             }
           },
           {
-            "id": "0e1a7b0be4c3c017",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "корран",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Пошук"
-            }
-          },
-          {
             "id": "1e40ea169633e285",
             "type": "leaf",
             "state": {
@@ -243,6 +227,23 @@
               },
               "icon": "lucide-list",
               "title": "Вміст Журнал сесії 15"
+            }
+          },
+          {
+            "id": "0e1a7b0be4c3c017",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "корран",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -374,7 +375,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       },
       {
         "id": "d6a90ef57423265c",
@@ -420,10 +421,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77753ccda8866b78",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
-    "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
+    "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",

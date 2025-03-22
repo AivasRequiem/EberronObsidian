@@ -85318,54 +85318,67 @@
         "size": "Medium",
         "type": "Humanoid (Human)",
         "alignment": "Neutral Evil",
-        "ac": "16 (breastplate)",
-        "hp": 65,
-        "hit_dice": "10d8+20",
+        "ac": "17 (half plate)",
+        "hp": 82,
+        "hit_dice": "11d8+33",
         "speed": "30 ft.",
         "stats": [
           14,
           14,
-          14,
+          16,
           13,
           16,
-          16
+          18
         ],
         "saves": [
           {
-            "wisdom": 5
+            "wisdom": 6
+          },
+          {
+            "charisma": 7
           }
         ],
         "skillsaves": [
           {
-            "deception": 6
+            "deception": 7
           },
           {
-            "persuasion": 6
+            "persuasion": 7
+          },
+          {
+            "religion": 5
           }
         ],
-        "senses": "Passive Perception 13",
+        "senses": "Passive Perception 16",
         "languages": "Common, Celestial",
-        "cr": 3,
+        "damage_resistances": "necrotic",
+        "cr": "4 (1100 XP)",
+        "traits": [
+          {
+            "name": "Zealous Presence",
+            "desc": "Allies within 10 ft. of Melisent deal an extra 1d4 necrotic damage with melee weapon attacks."
+          }
+        ],
         "actions": [
           {
             "name": "Multiattack",
-            "desc": "Melisent makes two Silver Blade attacks or casts a spell."
+            "desc": "Melisent makes two Silver Blade attacks or makes one Silver Blade attack and casts a spell."
           },
           {
             "name": "Silver Blade",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8+3) slashing damage plus 4 (1d8) necrotic damage."
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage plus 5 (1d10) necrotic damage."
           }
         ],
         "spells": [
-          "Melisent is a 5th-level caster (DC 13, +5 spell attacks).",
+          "Melisent is a 6th-level caster (DC 15, +7 spell attacks).",
           {
             "Level 1 (4 slots)": "Inflict Wounds, Shield of Faith"
           },
           {
-            "Level 2 (3 slots)": "Spiritual Weapon, Silence"
+            "Level 2 (3 slots)": "Spiritual Weapon, Hold Person"
           },
           {
-            "Level 3 (2 slots)": "Counterspell, Dispel Magic"
+            "Level 3 (3 slots)": "Counterspell, Dispel Magic"
           }
         ],
         "source": "Homebrew"
