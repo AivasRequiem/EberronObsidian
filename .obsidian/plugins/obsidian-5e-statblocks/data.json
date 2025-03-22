@@ -85205,6 +85205,171 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "High Cardinal Krozen",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>High Cardinal Krozen.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "High Cardinal Krozen",
+        "size": "Medium",
+        "type": "Humanoid (Human)",
+        "alignment": "Lawful Evil",
+        "ac": "18 (plate armor)",
+        "hp": 145,
+        "hit_dice": "17d8+68",
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          10,
+          18,
+          14,
+          18,
+          20
+        ],
+        "saves": [
+          {
+            "wisdom": 8
+          },
+          {
+            "charisma": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "religion": 7
+          },
+          {
+            "insight": 8
+          },
+          {
+            "intimidation": 9
+          }
+        ],
+        "senses": "Passive Perception 18",
+        "languages": "Common, Celestial",
+        "damage_resistances": "radiant, necrotic",
+        "condition_immunities": "frightened, charmed",
+        "cr": 8,
+        "traits": [
+          {
+            "name": "Aura of Authority",
+            "desc": "Allies within 30 ft. have advantage on saving throws against being frightened or charmed."
+          },
+          {
+            "name": "Legendary Resistance (2/day)",
+            "desc": "If Krozen fails a saving throw, he can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Krozen makes two Flame Staff attacks or casts one spell."
+          },
+          {
+            "name": "Flame Staff",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage plus 7 (2d6) radiant damage."
+          },
+          {
+            "name": "Sacred Burst (Recharge 5-6)",
+            "desc": "Creatures within 20 ft. must make DC 16 Constitution saving throw or take 28 (8d6) radiant damage and be blinded until the end of their next turn. Half damage on success, no blindness."
+          }
+        ],
+        "spells": [
+          "Krozen is a 10th-level spellcaster (Save DC 17, +9 to hit with spells).",
+          {
+            "Cantrips": "Sacred Flame, Resistance, Guidance"
+          },
+          {
+            "Level 1 (4 slots)": "Shield of Faith, Cure Wounds, Inflict Wounds"
+          },
+          {
+            "Level 2 (3 slots)": "Hold Person, Spiritual Weapon"
+          },
+          {
+            "Level 3 (3 slots)": "Spirit Guardians, Dispel Magic"
+          },
+          {
+            "Level 4 (3 slots)": "Guardian of Faith, Death Ward"
+          },
+          {
+            "Level 5 (2 slots)": "Flame Strike, Mass Cure Wounds"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Staff Attack",
+            "desc": "Krozen makes one Flame Staff attack."
+          },
+          {
+            "name": "Terrifying Command (2 actions)",
+            "desc": "One enemy within 60 ft. must make DC 17 Wisdom save or become frightened and have disadvantage on attacks until end of Krozen's next turn."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Melisent",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Melisent Inquisitor.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Melisent",
+        "size": "Medium",
+        "type": "Humanoid (Human)",
+        "alignment": "Neutral Evil",
+        "ac": "16 (breastplate)",
+        "hp": 65,
+        "hit_dice": "10d8+20",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          14,
+          14,
+          13,
+          16,
+          16
+        ],
+        "saves": [
+          {
+            "wisdom": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "deception": 6
+          },
+          {
+            "persuasion": 6
+          }
+        ],
+        "senses": "Passive Perception 13",
+        "languages": "Common, Celestial",
+        "cr": 3,
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Melisent makes two Silver Blade attacks or casts a spell."
+          },
+          {
+            "name": "Silver Blade",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8+3) slashing damage plus 4 (1d8) necrotic damage."
+          }
+        ],
+        "spells": [
+          "Melisent is a 5th-level caster (DC 13, +5 spell attacks).",
+          {
+            "Level 1 (4 slots)": "Inflict Wounds, Shield of Faith"
+          },
+          {
+            "Level 2 (3 slots)": "Spiritual Weapon, Silence"
+          },
+          {
+            "Level 3 (2 slots)": "Counterspell, Dispel Magic"
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},

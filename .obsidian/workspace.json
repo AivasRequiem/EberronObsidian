@@ -16,7 +16,7 @@
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
