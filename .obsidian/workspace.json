@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -31,6 +31,54 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "Сесія 18"
+            }
+          },
+          {
+            "id": "90aa668dbdbaa98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Джейла Даран"
+            }
+          },
+          {
+            "id": "d0ee5963191b96e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Верховний Кардинал Крозен"
             }
           },
           {
@@ -300,7 +348,8 @@
               "title": "50 питань для гравців"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -540,11 +589,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77753ccda8866b78",
+  "active": "90aa668dbdbaa98f",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
+    "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
@@ -577,7 +627,6 @@
     "_ресурси/Фото/Місця/Xendrikruin.webp.crdownload",
     "_ресурси/Фото/Місця/NewCyre.jpg",
     "_ресурси/Фото/Місця/NewCyre.jpg.crdownload",
-    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Елдинські Хащі",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp.crdownload",
