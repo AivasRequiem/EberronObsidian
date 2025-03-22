@@ -34,54 +34,6 @@
             }
           },
           {
-            "id": "d0ee5963191b96e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Верховний Кардинал Крозен"
-            }
-          },
-          {
-            "id": "27df8908e3021b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Соларія"
-            }
-          },
-          {
             "id": "1ee3816c6ed73786",
             "type": "leaf",
             "state": {
@@ -130,30 +82,6 @@
             }
           },
           {
-            "id": "6cb903cb02626260",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 16"
-            }
-          },
-          {
             "id": "5322d2024efdeea6",
             "type": "leaf",
             "state": {
@@ -175,78 +103,6 @@
               },
               "icon": "lucide-file",
               "title": "Трейн"
-            }
-          },
-          {
-            "id": "058d3d80f9e66fe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ксаріон Макар"
-            }
-          },
-          {
-            "id": "d744b90617354cd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Журнал сесії 16"
-            }
-          },
-          {
-            "id": "db99ade1d63b0ed0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Соларія"
             }
           },
           {
@@ -324,7 +180,8 @@
               "title": "50 питань для гравців"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -564,27 +421,29 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77753ccda8866b78",
+  "active": "1ee3816c6ed73786",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
+    "Атлас/Хорвейр/Трейн/Трейн.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+    "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
     "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
     "_ресурси/Фото/Персонажі/Melisent, an inquisitor of the Silver Flame.webp",
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
     "_ресурси/Фото/Персонажі/Jaela Daran.webp",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
-    "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
     "_шаблони/Журнал сесії X.md",
     "_шаблони/Сесія X.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
@@ -592,10 +451,8 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "_шаблони/Вставити організацію.md",
     "_шаблони/Вставити персонажа.md",
-    "Атлас/Хорвейр/Трейн/Трейн.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Клинки/Разубель.md",
-    "Життя/НІПи/Клинки/Кріліум Макар.md",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.pdf",
     "_ресурси/Інше/pptF075.tmp",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.jpg",
