@@ -365,7 +365,7 @@
         "ac": "18 (plate armor)",
         "currentAC": "18 (plate armor)",
         "id": "ID_2ae99b9b3a38",
-        "currentHP": 76,
+        "currentHP": 56,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -386,9 +386,11 @@
         "ac": "17 (half plate)",
         "currentAC": "17 (half plate)",
         "id": "ID_e9394ab93adb",
-        "currentHP": 10,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
