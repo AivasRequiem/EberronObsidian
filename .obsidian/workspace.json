@@ -420,7 +420,42 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77753ccda8866b78",
+  "floating": {
+    "id": "3d823db85d28d805",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0550f1d1d5d3cc79",
+        "type": "window",
+        "children": [
+          {
+            "id": "d3368e786d43418f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "afd6eac586e2cf43",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-player-view",
+                  "state": {},
+                  "icon": "lucide-view",
+                  "title": "Player View"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1986,
+        "y": 83,
+        "width": 1025,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "afd6eac586e2cf43",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
