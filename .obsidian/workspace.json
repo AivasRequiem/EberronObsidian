@@ -34,13 +34,37 @@
             }
           },
           {
+            "id": "27df8908e3021b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Соларія"
+            }
+          },
+          {
             "id": "1ee3816c6ed73786",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -82,6 +106,30 @@
             }
           },
           {
+            "id": "6cb903cb02626260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 16"
+            }
+          },
+          {
             "id": "5322d2024efdeea6",
             "type": "leaf",
             "state": {
@@ -103,6 +151,78 @@
               },
               "icon": "lucide-file",
               "title": "Трейн"
+            }
+          },
+          {
+            "id": "058d3d80f9e66fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ксаріон Макар"
+            }
+          },
+          {
+            "id": "d744b90617354cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Події світу/Журнал сесії 16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 16"
+            }
+          },
+          {
+            "id": "db99ade1d63b0ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Соларія"
             }
           },
           {
@@ -203,7 +323,24 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловий менеджер"
+            }
+          },
+          {
+            "id": "0e1a7b0be4c3c017",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "корран",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Пошук"
             }
           },
           {
@@ -226,23 +363,6 @@
               },
               "icon": "lucide-list",
               "title": "Вміст Журнал сесії 15"
-            }
-          },
-          {
-            "id": "0e1a7b0be4c3c017",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "корран",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
             }
           }
         ]
@@ -374,7 +494,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "d6a90ef57423265c",
@@ -398,12 +518,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -420,65 +540,24 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "floating": {
-    "id": "3d823db85d28d805",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0550f1d1d5d3cc79",
-        "type": "window",
-        "children": [
-          {
-            "id": "d3368e786d43418f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "afd6eac586e2cf43",
-                "type": "leaf",
-                "state": {
-                  "type": "initiative-tracker-player-view",
-                  "state": {},
-                  "icon": "lucide-view",
-                  "title": "Player View"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1986,
-        "y": 83,
-        "width": 1025,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "afd6eac586e2cf43",
+  "active": "77753ccda8866b78",
   "lastOpenFiles": [
-    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
-    "_ресурси/Фото/Персонажі/Jaela Daran.webp",
-    "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
-    "Атлас/Хорвейр/Трейн/Трейн.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
-    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 16.md",
-    "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
-    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
-    "Життя/НІПи/Срібне Полум'я/Джейла Даран.md",
-    "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
-    "_ресурси/Фото/Персонажі/Melisent, an inquisitor of the Silver Flame.webp",
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
+    "_ресурси/Фото/Персонажі/Jaela Daran.webp",
+    "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
     "Інструменти ДМ/50 питань для гравців.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
+    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
     "_шаблони/Журнал сесії X.md",
     "_шаблони/Сесія X.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
@@ -486,6 +565,11 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 3.md",
     "_шаблони/Вставити організацію.md",
     "_шаблони/Вставити персонажа.md",
+    "Атлас/Хорвейр/Трейн/Трейн.md",
+    "Життя/НІПи/Клинки/Лорд Клинків.md",
+    "Життя/НІПи/Клинки/Разубель.md",
+    "Життя/НІПи/Клинки/Кріліум Макар.md",
+    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 15.md",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.pdf",
     "_ресурси/Інше/pptF075.tmp",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.jpg",
@@ -500,6 +584,8 @@
     "_ресурси/Фото/Персонажі/Tira_Miron.webp",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp.crdownload",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
+    "_ресурси/Фото/Персонажі/Cardinal Melisent.webp",
     "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx",
     "Життя/Організації/Релігії/Срібне Полум'я"
   ]
