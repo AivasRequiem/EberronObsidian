@@ -58,6 +58,30 @@
             }
           },
           {
+            "id": "9a298e002aef9e5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сесія 13"
+            }
+          },
+          {
             "id": "27df8908e3021b82",
             "type": "leaf",
             "state": {
@@ -178,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -418,8 +442,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "64a70e775c13e8eb",
+  "active": "9a298e002aef9e5a",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
+    "Предмети/Зброя/Kage no Yaiba.md",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg.crdownload",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 18.md",
@@ -449,7 +475,6 @@
     "Атлас/Хорвейр/Трейн/Трейн.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Клинки/Разубель.md",
-    "Життя/НІПи/Клинки/Кріліум Макар.md",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.pdf",
     "_ресурси/Інше/pptF075.tmp",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.jpg",
@@ -464,7 +489,6 @@
     "_ресурси/Фото/Персонажі/Tira_Miron.webp",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp.crdownload",
     "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
-    "_ресурси/Фото/Персонажі/Cardinal Bearden ir'Davik.webp",
     "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx"
   ]
 }
