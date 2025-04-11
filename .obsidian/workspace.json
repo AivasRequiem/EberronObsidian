@@ -60,6 +60,30 @@
             }
           },
           {
+            "id": "75911406f98c6127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Карта Хорвейру"
+            }
+          },
+          {
             "id": "64a70e775c13e8eb",
             "type": "leaf",
             "state": {
@@ -459,8 +483,9 @@
   "active": "9a298e002aef9e5a",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Предмети/Зброя/Kage no Yaiba.md",
