@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "9a298e002aef9e5a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Сесія 19"
+            }
+          },
+          {
             "id": "64a70e775c13e8eb",
             "type": "leaf",
             "state": {
@@ -58,27 +84,15 @@
             }
           },
           {
-            "id": "9a298e002aef9e5a",
+            "id": "6930b509bac8cc6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Сесія 13"
+              "icon": "lucide-file-text",
+              "title": "Еберрон З попелу Останньої Війни"
             }
           },
           {
@@ -202,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -444,12 +458,15 @@
   },
   "active": "9a298e002aef9e5a",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Предмети/Зброя/Kage no Yaiba.md",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg.crdownload",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 18.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
     "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
@@ -461,7 +478,6 @@
     "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
     "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
     "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 11.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
@@ -473,8 +489,6 @@
     "_шаблони/Вставити організацію.md",
     "_шаблони/Вставити персонажа.md",
     "Атлас/Хорвейр/Трейн/Трейн.md",
-    "Життя/НІПи/Клинки/Лорд Клинків.md",
-    "Життя/НІПи/Клинки/Разубель.md",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.pdf",
     "_ресурси/Інше/pptF075.tmp",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.jpg",
@@ -488,7 +502,6 @@
     "Життя/НІПи/Елдинські Хащі",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp",
     "_ресурси/Фото/Персонажі/Tira_Miron.webp.crdownload",
-    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp",
-    "_ресурси/Інше/~$Шарнський Розслідувач 8 Терендора.pptx"
+    "_ресурси/Фото/Персонажі/Cardinal Tavor Lian.webp"
   ]
 }
