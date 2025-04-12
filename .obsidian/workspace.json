@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77753ccda8866b78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 18"
-            }
-          },
-          {
             "id": "9a298e002aef9e5a",
             "type": "leaf",
             "pinned": true,
@@ -55,6 +31,30 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "Сесія 19"
+            }
+          },
+          {
+            "id": "15fd4b9bd4a75423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 19"
             }
           },
           {
@@ -333,7 +333,8 @@
               "title": "Трейн"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -573,9 +574,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77753ccda8866b78",
+  "active": "15fd4b9bd4a75423",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
     "Інструменти ДМ/50 питань для гравців.md",
@@ -583,7 +585,6 @@
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
     "Предмети/Зброя/Kage no Yaiba.md",
