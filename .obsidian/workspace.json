@@ -60,6 +60,30 @@
             }
           },
           {
+            "id": "e1cebb9222f7a119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 19"
+            }
+          },
+          {
             "id": "7c8cb95e6aca7c9b",
             "type": "leaf",
             "state": {
@@ -288,7 +312,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -528,10 +552,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "9a298e002aef9e5a",
+  "active": "e1cebb9222f7a119",
   "lastOpenFiles": [
-    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
+    "Інструменти ДМ/50 питань для гравців.md",
+    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+    "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
@@ -545,7 +571,6 @@
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
     "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
-    "Інструменти ДМ/50 питань для гравців.md",
     "Життя/Організації/Релігії/Срібне Полум'я/Верховні Кардинали Срібного Полум'я.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
