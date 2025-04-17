@@ -63,7 +63,7 @@
               "state": {
                 "file": "Атлас/Хорвейр/Дроаам/Дроаам.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
