@@ -39,7 +39,7 @@
               "state": {
                 "file": "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
