@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "87b3667c3aeb342d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Елдинські Хащі/Оаліан.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Оаліан"
+            }
+          },
+          {
             "id": "15fd4b9bd4a75423",
             "type": "leaf",
             "state": {
@@ -307,7 +331,8 @@
               "title": "Трейн"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -543,11 +568,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "9a298e002aef9e5a",
+  "active": "87b3667c3aeb342d",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 14.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 15.md",
     "_ресурси/Інше/Коранберзькі Хроніки 2 Ейра.pdf",
