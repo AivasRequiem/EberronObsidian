@@ -250,6 +250,18 @@
             }
           },
           {
+            "id": "09b26ae3c2cc1189",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "6cb903cb02626260",
             "type": "leaf",
             "state": {
@@ -298,7 +310,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -534,7 +546,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "554bed1ca8e06c4f",
+  "active": "09b26ae3c2cc1189",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
