@@ -58,6 +58,30 @@
             }
           },
           {
+            "id": "87efb35d05313a12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Карта Хорвейру (гравців)"
+            }
+          },
+          {
             "id": "8f082fae3fe90dfb",
             "type": "leaf",
             "state": {
@@ -250,7 +274,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -486,7 +510,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d7890b6caaa7b6ea",
+  "active": "87efb35d05313a12",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
