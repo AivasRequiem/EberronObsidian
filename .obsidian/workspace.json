@@ -39,9 +39,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Карта Хорвейру.md",
+                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Карта Хорвейру"
+              "title": "Зандрар"
             }
           },
           {
@@ -306,7 +306,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Твердиня",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -339,8 +339,7 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -511,13 +510,16 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0e1a7b0be4c3c017",
+  "active": "5cc124d7136241d5",
   "lastOpenFiles": [
+    "_ресурси/Фото/Місця/Xandrar.png",
+    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
+    "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Атлас/Хорвейр/Бреландія/Зандрар",
     "_ресурси/Без назви",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
@@ -543,11 +545,8 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 18.md",
     "Інструменти ДМ/50 питань для гравців.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 12.md",
-    "Предмети/Зброя/Kage no Yaiba.md",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg",
     "_ресурси/Фото/Місця/07-003.magic-item-tracker-sheet.jpg.crdownload",
-    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 18.md",
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
     "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
