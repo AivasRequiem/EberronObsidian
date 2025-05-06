@@ -306,7 +306,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "лорд клинків",
+                "query": "Твердиня",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -339,7 +339,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -510,7 +511,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "5cc124d7136241d5",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
