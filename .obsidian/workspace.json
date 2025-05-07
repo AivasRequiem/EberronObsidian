@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e370de8ae173388c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Джино-сесія"
-            }
-          },
-          {
             "id": "5cc124d7136241d5",
             "type": "leaf",
             "state": {
@@ -321,8 +295,7 @@
               "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -548,10 +521,11 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "6930b509bac8cc6d",
+  "active": "5cc124d7136241d5",
   "lastOpenFiles": [
-    "Життя/Організації/Релігії/Кров Вол.md",
+    "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
+    "Життя/Організації/Релігії/Кров Вол.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
@@ -575,7 +549,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/Організації/Доми/Дім Канніт.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
-    "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
