@@ -652,12 +652,12 @@
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://github.com/javalent/fantasy-statblocks/discussions/485",
-                    "title": "Updating MM'24 5Etools importing · javalent/fantasy-statblocks · Discussion #485 · GitHub",
+                    "url": "https://github.com/javalent/fantasy-statblocks/discussions",
+                    "title": "javalent/fantasy-statblocks · Discussions · GitHub",
                     "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "Updating MM'24 5Etools importing · javalent/fantasy-statblocks · Discussion #485 · GitHub"
+                  "title": "javalent/fantasy-statblocks · Discussions · GitHub"
                 }
               },
               {
@@ -675,7 +675,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -688,7 +688,7 @@
       }
     ]
   },
-  "active": "9175b04d01f1ccf3",
+  "active": "60f0c484eb3008ed",
   "lastOpenFiles": [
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
