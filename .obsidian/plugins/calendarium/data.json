@@ -953,7 +953,24 @@
       ],
       "id": "ID_d8bbdbca793a",
       "categories": [],
-      "dateFormat": "DD-MM-YYYY"
+      "dateFormat": "DD-MM-YYYY",
+      "seasonal": {
+        "seasons": [],
+        "offset": 0,
+        "type": "Periodic",
+        "displayColors": true,
+        "interpolateColors": true,
+        "weather": {
+          "enabled": false,
+          "seed": 736138865,
+          "tempUnits": "Imperial",
+          "windUnits": "Imperial",
+          "primaryWindDirection": "E"
+        }
+      },
+      "locations": {
+        "locations": []
+      }
     }
   ],
   "configDirectory": null,
@@ -969,8 +986,8 @@
   "eventFrontmatter": false,
   "parseDates": false,
   "version": {
-    "major": 1,
-    "minor": 5,
+    "major": 2,
+    "minor": 0,
     "patch": 0,
     "beta": null
   },

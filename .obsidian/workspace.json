@@ -554,26 +554,6 @@
             }
           },
           {
-            "id": "3cbd87ab501685ff",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "224a3ffde3afd1a4",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-            }
-          },
-          {
             "id": "73cf81f4d17839c0",
             "type": "leaf",
             "state": {
@@ -581,6 +561,16 @@
               "state": {},
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "8744e0027baf07f7",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
         ],
@@ -630,8 +620,77 @@
       "calendarium:Open Calendarium": false
     }
   },
+  "floating": {
+    "id": "0c8c438e0368c316",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7a24e4892b7055b9",
+        "type": "window",
+        "children": [
+          {
+            "id": "81c06ebe60c2e323",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "17900be97b26750b",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/javalent/fantasy-statblocks/discussions",
+                    "title": "javalent/fantasy-statblocks · Discussions · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "javalent/fantasy-statblocks · Discussions · GitHub"
+                }
+              },
+              {
+                "id": "60f0c484eb3008ed",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/javalent/fantasy-statblocks/discussions/485",
+                    "title": "Updating MM'24 5Etools importing · javalent/fantasy-statblocks · Discussion #485 · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Updating MM'24 5Etools importing · javalent/fantasy-statblocks · Discussion #485 · GitHub"
+                }
+              },
+              {
+                "id": "972971ce68095d33",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/javalent/fantasy-statblocks/discussions/484",
+                    "title": "2024 Monster Manual Statblocks · javalent/fantasy-statblocks · Discussion #484 · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "2024 Monster Manual Statblocks · javalent/fantasy-statblocks · Discussion #484 · GitHub"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "9175b04d01f1ccf3",
   "lastOpenFiles": [
+    "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
@@ -650,7 +709,6 @@
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Журнали сесій/Джино-сесія.md",
-    "Життя/НІПи/Клинки/Лорд Клинків.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
