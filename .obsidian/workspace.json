@@ -694,10 +694,43 @@
         "height": 800,
         "maximize": false,
         "zoom": 0
+      },
+      {
+        "id": "a00f975045cbe1ac",
+        "type": "window",
+        "children": [
+          {
+            "id": "58c10f1100b3d541",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2383af0557e61e8c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://plugins.javalent.com/it/settings",
+                    "title": "Settings -",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Settings -"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
       }
     ]
   },
-  "active": "d11efbdf8408906b",
+  "active": "2383af0557e61e8c",
   "lastOpenFiles": [
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
