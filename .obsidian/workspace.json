@@ -154,30 +154,6 @@
             }
           },
           {
-            "id": "9175b04d01f1ccf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Клинки/Лорд Клинків.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Лорд Клинків"
-            }
-          },
-          {
             "id": "87efb35d05313a12",
             "type": "leaf",
             "state": {
@@ -394,7 +370,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -688,7 +664,7 @@
       }
     ]
   },
-  "active": "60f0c484eb3008ed",
+  "active": "70ba3bd781e9332d",
   "lastOpenFiles": [
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",

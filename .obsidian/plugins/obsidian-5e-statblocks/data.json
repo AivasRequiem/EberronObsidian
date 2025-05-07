@@ -85386,7 +85386,430 @@
     ]
   ],
   "defaultLayouts": {},
-  "layouts": [],
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "3be88a3858da",
+          "properties": [],
+          "hasRule": true,
+          "nested": [
+            {
+              "type": "group",
+              "id": "689a9ae9ba69",
+              "properties": [
+                "name",
+                "size",
+                "type",
+                "subtype",
+                "alignment"
+              ],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "885a1899c88b",
+                  "properties": [],
+                  "hasRule": false,
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "ab7b1aa828fb",
+                      "properties": [
+                        "name"
+                      ],
+                      "conditioned": true,
+                      "size": 1
+                    },
+                    {
+                      "type": "inline",
+                      "id": "4bc81949abfb",
+                      "properties": [],
+                      "hasRule": false,
+                      "nested": [
+                        {
+                          "type": "action",
+                          "id": "b8ebf8baeb2b",
+                          "icon": "sword",
+                          "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
+                        },
+                        {
+                          "type": "action",
+                          "id": "0b3898ca199b",
+                          "icon": "plus-with-circle",
+                          "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "subheading",
+                  "id": "fb78eb281b58",
+                  "properties": [
+                    "size",
+                    "type",
+                    "subtype",
+                    "alignment"
+                  ],
+                  "conditioned": true,
+                  "separator": ", "
+                }
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "image",
+              "id": "3b49a9f8cbcb",
+              "properties": [
+                "image"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "5be82a883b5a",
+          "properties": [
+            "ac",
+            "hp",
+            "speed"
+          ],
+          "nested": [
+            {
+              "type": "property",
+              "id": "bb1b89283b3a",
+              "properties": [
+                "ac"
+              ],
+              "display": "Armor Class",
+              "conditioned": true,
+              "callback": "const ac = [monster.ac];if (\"ac_class\" in monster) {ac.push(`(${monster.ac_class})`);}return ac.join(\" \");"
+            },
+            {
+              "type": "property",
+              "id": "bba9eafa2b5a",
+              "properties": [
+                "hp"
+              ],
+              "display": "Hit Points",
+              "dice": true,
+              "diceProperty": "hit_dice",
+              "diceCallback": "if (\"hit_dice\" in monster) {\n  return [{ text: monster[\"hit_dice\"] }];\n} else {\n  return property;\n}",
+              "callback": "let str = [monster.hp];\nif (monster.hit_dice?.length) {\n  str.push(`(${monster.hit_dice})`);\n}\nreturn str.join(\" \");",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "f8795b79f8b9",
+              "display": "Speed",
+              "properties": [
+                "speed"
+              ],
+              "conditioned": true
+            }
+          ],
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "table",
+          "id": "084aaa3a6b1a",
+          "properties": [
+            "stats"
+          ],
+          "headers": [
+            "Str",
+            "Dex",
+            "Con",
+            "Int",
+            "Wis",
+            "Cha"
+          ],
+          "calculate": true,
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "table",
+          "id": "2be8cb4a195a",
+          "properties": [
+            "fage_stats"
+          ],
+          "headers": [
+            "Accuracy",
+            "Communication",
+            "Constitution",
+            "Dexterity",
+            "Fighting",
+            "Intelligence",
+            "Perception",
+            "Strength",
+            "Willpower"
+          ],
+          "calculate": false,
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "78190908981a",
+          "properties": [
+            "saves",
+            "skillsaves",
+            "damage_immunities",
+            "damage_resistances",
+            "damage_vulnerabilities",
+            "condition_immunities",
+            "cr",
+            "languages",
+            "senses"
+          ],
+          "nested": [
+            {
+              "type": "saves",
+              "id": "7a9bba6bfa0a",
+              "display": "Saves",
+              "properties": [
+                "saves"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "saves",
+              "id": "399ac9bb0a1b",
+              "display": "Skills",
+              "properties": [
+                "skillsaves"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "79790b5b4ae9",
+              "display": "Damage Resistances",
+              "properties": [
+                "damage_resistances"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "4b8b4a0a5809",
+              "display": "Damage Immunities",
+              "properties": [
+                "damage_immunities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "2b2b5bcbe9ab",
+              "display": "Condition Immunities",
+              "properties": [
+                "condition_immunities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "f94bf91ad8c8",
+              "display": "Damage Vulnerabilities",
+              "properties": [
+                "damage_vulnerabilities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "588938da2858",
+              "display": "Senses",
+              "properties": [
+                "senses"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "7b3b18f8ab49",
+              "display": "Languages",
+              "properties": [
+                "languages"
+              ],
+              "fallback": "-"
+            },
+            {
+              "type": "inline",
+              "id": "cadb0b79eb0a",
+              "properties": [],
+              "conditioned": true,
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "78d9cae9ab5b",
+                  "display": "Challenge",
+                  "properties": [
+                    "cr"
+                  ],
+                  "callback": "const CR = {\n    \"0\": {\n        cr: \"0\",\n        value: 0,\n        xp: 10\n    },\n    \"1/8\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"1/4\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"1/2\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"0.125\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"0.25\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"0.5\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"1\": {\n        cr: \"1\",\n        value: 1,\n        xp: 200\n    },\n    \"2\": {\n        cr: \"2\",\n        value: 2,\n        xp: 450\n    },\n    \"3\": {\n        cr: \"3\",\n        value: 3,\n        xp: 700\n    },\n    \"4\": {\n        cr: \"4\",\n        value: 4,\n        xp: 1100\n    },\n    \"5\": {\n        cr: \"5\",\n        value: 5,\n        xp: 1800\n    },\n    \"6\": {\n        cr: \"6\",\n        value: 6,\n        xp: 2300\n    },\n    \"7\": {\n        cr: \"7\",\n        value: 7,\n        xp: 2900\n    },\n    \"8\": {\n        cr: \"8\",\n        value: 8,\n        xp: 3900\n    },\n    \"9\": {\n        cr: \"9\",\n        value: 9,\n        xp: 5000\n    },\n    \"10\": {\n        cr: \"10\",\n        value: 10,\n        xp: 5900\n    },\n    \"11\": {\n        cr: \"11\",\n        value: 11,\n        xp: 7200\n    },\n    \"12\": {\n        cr: \"12\",\n        value: 12,\n        xp: 8400\n    },\n    \"13\": {\n        cr: \"13\",\n        value: 13,\n        xp: 10000\n    },\n    \"14\": {\n        cr: \"14\",\n        value: 14,\n        xp: 11500\n    },\n    \"15\": {\n        cr: \"15\",\n        value: 15,\n        xp: 13000\n    },\n    \"16\": {\n        cr: \"16\",\n        value: 16,\n        xp: 15000\n    },\n    \"17\": {\n        cr: \"17\",\n        value: 17,\n        xp: 18000\n    },\n    \"18\": {\n        cr: \"18\",\n        value: 18,\n        xp: 20000\n    },\n    \"19\": {\n        cr: \"19\",\n        value: 19,\n        xp: 22000\n    },\n    \"20\": {\n        cr: \"20\",\n        value: 20,\n        xp: 25000\n    },\n    \"21\": {\n        cr: \"21\",\n        value: 21,\n        xp: 33000\n    },\n    \"22\": {\n        cr: \"22\",\n        value: 22,\n        xp: 41000\n    },\n    \"23\": {\n        cr: \"23\",\n        value: 23,\n        xp: 50000\n    },\n    \"24\": {\n        cr: \"24\",\n        value: 24,\n        xp: 62000\n    },\n    \"25\": {\n        cr: \"25\",\n        value: 25,\n        xp: 75000\n    },\n    \"26\": {\n        cr: \"26\",\n        value: 26,\n        xp: 90000\n    },\n    \"27\": {\n        cr: \"27\",\n        value: 27,\n        xp: 105000\n    },\n    \"28\": {\n        cr: \"28\",\n        value: 28,\n        xp: 120000\n    },\n    \"29\": {\n        cr: \"29\",\n        value: 29,\n        xp: 135000\n    },\n    \"30\": {\n        cr: \"30\",\n        value: 30,\n        xp: 155000\n    }\n};                        \nif (\"cr\" in monster && monster.cr in CR) {\n    return `${CR[\n        monster.cr\n    ].cr} (${CR[\n        monster.cr\n    ].xp.toLocaleString()} XP)`;\n}\nreturn \"\";"
+                },
+                {
+                  "type": "property",
+                  "id": "f90a385bb8a9",
+                  "display": "Proficiency Bonus",
+                  "properties": [
+                    "cr"
+                  ],
+                  "callback": "const CR = {\n    \"0\": {\n        cr: \"0\",\n        value: 0,\n        xp: 0\n    },\n    \"1/8\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"1/4\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"1/2\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"0.125\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"0.25\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"0.5\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"1\": {\n        cr: \"1\",\n        value: 1,\n        xp: 200\n    },\n    \"2\": {\n        cr: \"2\",\n        value: 2,\n        xp: 450\n    },\n    \"3\": {\n        cr: \"3\",\n        value: 3,\n        xp: 700\n    },\n    \"4\": {\n        cr: \"4\",\n        value: 4,\n        xp: 1100\n    },\n    \"5\": {\n        cr: \"5\",\n        value: 5,\n        xp: 1800\n    },\n    \"6\": {\n        cr: \"6\",\n        value: 6,\n        xp: 2300\n    },\n    \"7\": {\n        cr: \"7\",\n        value: 7,\n        xp: 2900\n    },\n    \"8\": {\n        cr: \"8\",\n        value: 8,\n        xp: 3900\n    },\n    \"9\": {\n        cr: \"9\",\n        value: 9,\n        xp: 5000\n    },\n    \"10\": {\n        cr: \"10\",\n        value: 10,\n        xp: 5900\n    },\n    \"11\": {\n        cr: \"11\",\n        value: 11,\n        xp: 7200\n    },\n    \"12\": {\n        cr: \"12\",\n        value: 12,\n        xp: 8400\n    },\n    \"13\": {\n        cr: \"13\",\n        value: 13,\n        xp: 10000\n    },\n    \"14\": {\n        cr: \"14\",\n        value: 14,\n        xp: 11500\n    },\n    \"15\": {\n        cr: \"15\",\n        value: 15,\n        xp: 13000\n    },\n    \"16\": {\n        cr: \"16\",\n        value: 16,\n        xp: 15000\n    },\n    \"17\": {\n        cr: \"17\",\n        value: 17,\n        xp: 18000\n    },\n    \"18\": {\n        cr: \"18\",\n        value: 18,\n        xp: 20000\n    },\n    \"19\": {\n        cr: \"19\",\n        value: 19,\n        xp: 22000\n    },\n    \"20\": {\n        cr: \"20\",\n        value: 20,\n        xp: 25000\n    },\n    \"21\": {\n        cr: \"21\",\n        value: 21,\n        xp: 33000\n    },\n    \"22\": {\n        cr: \"22\",\n        value: 22,\n        xp: 41000\n    },\n    \"23\": {\n        cr: \"23\",\n        value: 23,\n        xp: 50000\n    },\n    \"24\": {\n        cr: \"24\",\n        value: 24,\n        xp: 62000\n    },\n    \"25\": {\n        cr: \"25\",\n        value: 25,\n        xp: 75000\n    },\n    \"26\": {\n        cr: \"26\",\n        value: 26,\n        xp: 90000\n    },\n    \"27\": {\n        cr: \"27\",\n        value: 27,\n        xp: 105000\n    },\n    \"28\": {\n        cr: \"28\",\n        value: 28,\n        xp: 120000\n    },\n    \"29\": {\n        cr: \"29\",\n        value: 29,\n        xp: 135000\n    },\n    \"30\": {\n        cr: \"30\",\n        value: 30,\n        xp: 155000\n    }\n};           \nif (\"cr\" in monster && monster.cr in CR) {\n    return `+${Math.max(\n            Math.floor(2 + ((CR[monster.cr]?.value ?? 0) - 1) / 4),\n            2\n        )}`;\n}\nreturn \"\";"
+                }
+              ]
+            }
+          ],
+          "conditioned": true,
+          "hasRule": true
+        },
+        {
+          "type": "traits",
+          "id": "f86b4a8a5acb",
+          "properties": [
+            "traits"
+          ],
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "spells",
+          "id": "a81bfa78a9ca",
+          "properties": [
+            "spells"
+          ],
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "text",
+          "id": "196ba9d8697b",
+          "properties": [
+            "spellsNotes"
+          ],
+          "conditioned": true,
+          "text": null
+        },
+        {
+          "type": "traits",
+          "id": "488a1a49c868",
+          "properties": [
+            "actions"
+          ],
+          "heading": "Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "c808baf8c9eb",
+          "properties": [
+            "bonus_actions"
+          ],
+          "heading": "Bonus Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "group",
+          "id": "2b19e98a5a88",
+          "properties": [
+            "legendary_description",
+            "legendary_actions"
+          ],
+          "heading": "Legendary Actions",
+          "nested": [
+            {
+              "type": "text",
+              "id": "7b795908abca",
+              "properties": [
+                "legendary_description"
+              ],
+              "conditioned": true,
+              "text": null
+            },
+            {
+              "type": "traits",
+              "id": "e9da884aa939",
+              "properties": [
+                "legendary_actions"
+              ],
+              "conditioned": true,
+              "dice": true
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "985899ea4bab",
+          "properties": [
+            "mythic_description",
+            "mythic_actions"
+          ],
+          "heading": "Mythic Actions",
+          "nested": [
+            {
+              "type": "text",
+              "id": "48eb086a6a0a",
+              "properties": [
+                "mythic_description"
+              ],
+              "conditioned": true,
+              "text": null
+            },
+            {
+              "type": "traits",
+              "id": "6a2b88983bd8",
+              "properties": [
+                "mythic_actions"
+              ],
+              "conditioned": true,
+              "dice": true
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "traits",
+          "id": "1959b9eb6bfa",
+          "properties": [
+            "reactions"
+          ],
+          "heading": "Reactions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "e9bb58e8d89a",
+          "properties": [
+            "lair_actions"
+          ],
+          "heading": "Lair Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "0b78f9fb2ac8",
+          "properties": [
+            "regional_effects"
+          ],
+          "heading": "Regional Effects",
+          "conditioned": true,
+          "dice": true
+        }
+      ],
+      "name": "Basic 5e Layout Copy",
+      "id": "2a1bfadbcb2a"
+    }
+  ],
   "default": "basic-5e-layout",
   "useDice": true,
   "renderDice": false,
