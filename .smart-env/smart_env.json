@@ -11,12 +11,13 @@
       "adapter": "transformers",
       "transformers": {
         "legacy_transformers": false,
-        "model_key": "TaylorAI/bge-micro-v2"
+        "model_key": "nomic-ai/nomic-embed-text-v1.5"
       },
       "TaylorAI/bge-micro-v2": {},
       "openai": {
         "model_key": "text-embedding-3-small"
-      }
+      },
+      "nomic-ai/nomic-embed-text-v1.5": {}
     }
   },
   "file_exclusions": "Untitled",
