@@ -661,14 +661,47 @@
         "height": 800,
         "maximize": true,
         "zoom": 0
+      },
+      {
+        "id": "e05d1bd119877bd4",
+        "type": "window",
+        "children": [
+          {
+            "id": "61ff9aee47092892",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d11efbdf8408906b",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/javalent/initiative-tracker",
+                    "title": "GitHub - javalent/initiative-tracker: TTRPG Initiative Tracker for Obsidian.md",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - javalent/initiative-tracker: TTRPG Initiative Tracker for Obsidian.md"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
       }
     ]
   },
-  "active": "70ba3bd781e9332d",
+  "active": "d11efbdf8408906b",
   "lastOpenFiles": [
+    "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
-    "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
