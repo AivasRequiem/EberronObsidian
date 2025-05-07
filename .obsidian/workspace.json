@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
+                "file": "Атлас/Хорвейр/Зіларґо/Золанберг.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Зандрар"
+              "title": "Золанберг"
             }
           },
           {
@@ -455,16 +455,6 @@
             }
           },
           {
-            "id": "73cf81f4d17839c0",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
             "id": "8744e0027baf07f7",
             "type": "leaf",
             "state": {
@@ -473,25 +463,31 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "d6a90ef57423265c",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4f64edcee2297fba",
+            "id": "dcc4498a35584a74",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "smart-chat-view",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "message-square",
+              "title": "Smart Chat"
+            }
+          },
+          {
+            "id": "589299e96f65d189",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "pinned": true,
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -518,10 +514,13 @@
       "obsidian-git:Open Git source control": false,
       "media-extended:Open media": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "copilot:Open Copilot Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5cc124d7136241d5",
+  "active": "589299e96f65d189",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
