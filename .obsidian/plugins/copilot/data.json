@@ -40,7 +40,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 6,
+  "maxSourceChunks": 30,
   "groqApiKey": "",
   "activeModels": [
     {

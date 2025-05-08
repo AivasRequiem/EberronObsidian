@@ -406,27 +406,17 @@
             }
           },
           {
-            "id": "dcc4498a35584a74",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Smart Chat"
-            }
-          },
-          {
             "id": "589299e96f65d189",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "Додаток більше не активний"
             }
           },
           {
-            "id": "d70e40293cf9b7d0",
+            "id": "319ca5689c62f42a",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -436,7 +426,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -469,8 +459,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d70e40293cf9b7d0",
+  "active": "319ca5689c62f42a",
   "lastOpenFiles": [
+    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "Кампанії/Нові Герої/Журнали сесій/Джино-сесія.md",
@@ -478,7 +469,6 @@
     "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Життя/Організації/Релігії/Кров Вол.md",
-    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
