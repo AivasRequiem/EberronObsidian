@@ -200,66 +200,6 @@
             }
           },
           {
-            "id": "6930b509bac8cc6d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_ресурси/Еберрон З попелу Останньої Війни.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Еберрон З попелу Останньої Війни"
-            }
-          },
-          {
-            "id": "856bcda5a91dd667",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Релігії/Кров Вол.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Кров Вол"
-            }
-          },
-          {
-            "id": "d7890b6caaa7b6ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Елдинські хащі"
-            }
-          },
-          {
             "id": "15813a762561d9b2",
             "type": "leaf",
             "state": {
@@ -296,7 +236,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -531,11 +471,13 @@
   },
   "active": "d70e40293cf9b7d0",
   "lastOpenFiles": [
+    "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
+    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
+    "Кампанії/Нові Герої/Журнали сесій/Джино-сесія.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Життя/Організації/Релігії/Кров Вол.md",
-    "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
@@ -544,7 +486,6 @@
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "Життя/Організації/Мечі Свободи.md",
     "_ресурси/Фото/Місця/Xandrar.png",
-    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
@@ -552,7 +493,6 @@
     "_ресурси/Без назви",
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-    "Кампанії/Нові Герої/Журнали сесій/Джино-сесія.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/Організації/Доми/Дім Канніт.md",
