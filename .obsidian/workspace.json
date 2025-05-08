@@ -471,8 +471,8 @@
             "state": {
               "type": "smart-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Smart Chat"
+              "icon": "lucide-file",
+              "title": "Додаток більше не активний"
             }
           },
           {
@@ -515,10 +515,8 @@
       "obsidian-git:Open Git source control": false,
       "media-extended:Open media": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false,
       "copilot:Open Copilot Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "8f082fae3fe90dfb",
