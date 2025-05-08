@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "27df48fabe9c46a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Сесія 6"
-            }
-          },
-          {
             "id": "7c8cb95e6aca7c9b",
             "type": "leaf",
             "state": {
@@ -176,30 +152,6 @@
             }
           },
           {
-            "id": "64a70e775c13e8eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Предмети/Зброя/Kage no Yaiba.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Kage no Yaiba"
-            }
-          },
-          {
             "id": "15813a762561d9b2",
             "type": "leaf",
             "state": {
@@ -236,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -459,8 +411,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "319ca5689c62f42a",
+  "active": "8f082fae3fe90dfb",
   "lastOpenFiles": [
+    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
+    "Предмети/Зброя/Kage no Yaiba.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
@@ -481,7 +435,6 @@
     "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
     "Атлас/Хорвейр/Бреландія/Зандрар",
     "_ресурси/Без назви",
-    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "Кампанії/Нові Герої/Плани сесій/Сесія 6.md",
     "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
@@ -490,7 +443,6 @@
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
     "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
-    "Кампанії/Страх виявляє істину/Untitled/Журнал сесії 7.md",
     "Атлас/Хорвейр/Елдинські хащі",
     "_ресурси/Інше/Коранберзькі Хроніки 2 Ейра.pdf",
     "_ресурси/Інше/Коранберзькі Хроніки 2 Ейра.pptx",
