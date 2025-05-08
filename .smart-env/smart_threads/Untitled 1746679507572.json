@@ -1,0 +1,109 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1746679507572.json",
+  "last_embed": {
+    "hash": null
+  },
+  "embeddings": {},
+  "last_read": {
+    "hash": null,
+    "mtime": 0
+  },
+  "created_at": 1746679507572,
+  "responses": {
+    "chatcmpl-yz3eyzlwigwlkkh6f1sr": {
+      "id": "chatcmpl-yz3eyzlwigwlkkh6f1sr",
+      "object": "chat.completion",
+      "created": null,
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Hi there! 👋 \n\nHow can I help you today? Just let me know what you're thinking, or if you just wanted to say hello, that's great too! 😊\n\n\n\n"
+          }
+        }
+      ],
+      "usage": {},
+      "raw": {
+        "id": "chatcmpl-yz3eyzlwigwlkkh6f1sr",
+        "object": "chat.completion",
+        "created": 0,
+        "model": "",
+        "choices": [
+          {
+            "message": {
+              "index": 0,
+              "role": "assistant",
+              "content": "Hi there! 👋 \n\nHow can I help you today? Just let me know what you're thinking, or if you just wanted to say hello, that's great too! 😊\n\n\n\n"
+            }
+          }
+        ],
+        "usage": {}
+      }
+    }
+  },
+  "messages": {
+    "user-1-1746679557116-1": 1,
+    "assistant-2-1746679559503-1": 2
+  },
+  "branches": {},
+  "class_name": "SmartThread2",
+  "key": "Untitled 1746679507572",
+  "blocks": [
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1746679507572",
+      "content": [
+        {
+          "type": "text",
+          "text": "Hello"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1746679557116-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1746679557116-1",
+      "key": "Untitled 1746679507572#user-1-1746679557116-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1746679507572",
+      "content": "Hi there! 👋 \n\nHow can I help you today? Just let me know what you're thinking, or if you just wanted to say hello, that's great too! 😊\n\n\n\n",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1746679559503-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "chatcmpl-yz3eyzlwigwlkkh6f1sr",
+      "branch_i": "1746679559503-1",
+      "key": "Untitled 1746679507572#assistant-2-1746679559503-1"
+    }
+  ]
+}

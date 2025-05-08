@@ -471,24 +471,32 @@
             "state": {
               "type": "smart-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Додаток більше не активний"
+              "icon": "message-square",
+              "title": "Smart Chat"
             }
           },
           {
             "id": "589299e96f65d189",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "pinned": true,
               "icon": "smart-connections",
               "title": "Smart Connections"
             }
+          },
+          {
+            "id": "d70e40293cf9b7d0",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -516,10 +524,12 @@
       "media-extended:Open media": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "copilot:Open Copilot Chat": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "8f082fae3fe90dfb",
+  "active": "d70e40293cf9b7d0",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",

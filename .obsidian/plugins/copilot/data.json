@@ -20,8 +20,8 @@
   "defaultChainType": "llm_chain",
   "defaultModelKey": "qwen3-32b|lm-studio",
   "embeddingModelKey": "text-embedding-nomic-embed-text-v1.5|lm-studio",
-  "temperature": 0.2,
-  "maxTokens": 10000,
+  "temperature": 0.3,
+  "maxTokens": 16000,
   "contextTurns": 30,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
@@ -40,7 +40,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 3,
+  "maxSourceChunks": 6,
   "groqApiKey": "",
   "activeModels": [
     {
@@ -183,11 +183,27 @@
       "isEmbeddingModel": false,
       "capabilities": [
         "reasoning",
-        "vision",
         "websearch"
       ],
       "stream": true,
       "displayName": "Qwen3-32B",
+      "enableCors": true
+    },
+    {
+      "name": "gemma-3-27b-it-qat",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "gemma-3-27b",
       "enableCors": true
     }
   ],
@@ -275,8 +291,8 @@
       "enableCors": true
     }
   ],
-  "embeddingRequestsPerMin": 90,
-  "embeddingBatchSize": 16,
+  "embeddingRequestsPerMin": 300,
+  "embeddingBatchSize": 128,
   "disableIndexOnMobile": true,
   "showSuggestedPrompts": true,
   "showRelevantNotes": true,

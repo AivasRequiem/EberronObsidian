@@ -29,19 +29,47 @@
   },
   "smart_notices": {
     "muted": {
-      "done_import": true
+      "done_import": true,
+      "embedding_complete": true
     }
   },
   "excluded_headings": "",
   "smart_threads": {
     "chat_model": {
-      "adapter": "openai",
+      "adapter": "lm_studio",
       "openai": {
         "model_key": "gpt-4o"
+      },
+      "lm_studio": {
+        "model_key": "gemma-3-27b-it-qat",
+        "models": {
+          "gemma-3-27b-it-qat": {
+            "id": "gemma-3-27b-it-qat",
+            "model_name": "gemma-3-27b-it-qat",
+            "description": "LM Studio model: gemma-3-27b-it-qat",
+            "multimodal": false
+          },
+          "text-embedding-nomic-embed-text-v1.5": {
+            "id": "text-embedding-nomic-embed-text-v1.5",
+            "model_name": "text-embedding-nomic-embed-text-v1.5",
+            "description": "LM Studio model: text-embedding-nomic-embed-text-v1.5",
+            "multimodal": false
+          },
+          "qwen3-32b": {
+            "id": "qwen3-32b",
+            "model_name": "qwen3-32b",
+            "description": "LM Studio model: qwen3-32b",
+            "multimodal": false
+          }
+        }
       }
     },
     "embed_model": {
       "model_key": "None"
-    }
+    },
+    "language": "en",
+    "review_context": false,
+    "lookup_limit": "10",
+    "send_tool_output_in_user_message": false
   }
 }
