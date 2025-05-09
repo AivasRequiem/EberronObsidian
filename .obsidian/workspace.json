@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87efb35d05313a12",
+            "id": "cf9cdcf55b03c976",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,30 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "Оаліан"
-            }
-          },
-          {
-            "id": "cf9cdcf55b03c976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Організації/Мечі Свободи.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Мечі Свободи"
             }
           },
           {
@@ -147,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "чорноц",
+                "query": "оалі",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -286,6 +262,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "6d06819422601bd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99996b6c639485a7",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -314,12 +306,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "87efb35d05313a12",
+  "active": "cf9cdcf55b03c976",
   "lastOpenFiles": [
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
+    "Життя/Організації/Мечі Свободи.md",
+    "_неоргнанізоване/Ондейр.md",
+    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
-    "Життя/Організації/Мечі Свободи.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
@@ -327,7 +321,6 @@
     "Атлас/Історія/Лікантропічний Погром.md",
     "Космологія/Владики/Дике Серце.md",
     "_неоргнанізоване/Сторожі Лісу.md",
-    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_неоргнанізоване/СріЦерква Срібного Полум’я.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Атлас/Історія",
@@ -350,7 +343,6 @@
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
     "_ресурси/Фото/Місця/Xandrar.png",
-    "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
     "Атлас/Хорвейр/Бреландія/Зандрар",
     "_ресурси/Без назви",
     "Атлас/Хорвейр/Елдинські хащі",
