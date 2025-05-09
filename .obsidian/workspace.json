@@ -85,8 +85,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Життя/Організації/Друїдичні кола/Місячні Пророки.md",
-                "mode": "preview",
+                "file": "Космологія/Істоти/Владики/Дике Серце.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Місячні Пророки"
+              "title": "Дике Серце"
             }
           },
           {
@@ -383,19 +383,18 @@
       "obsidian-custom-frames:Open DnD Beyond Ksarion": false,
       "obsidian-custom-frames:Open DnD Beyond Solaria": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:Open media": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "copilot:Open Copilot Chat": false,
-      "calendarium:Open Calendarium": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "8f082fae3fe90dfb",
+  "active": "568c389648cb3f29",
   "lastOpenFiles": [
+    "Космологія/Істоти/Владики",
+    "Життя/Організації/Друїдичні кола/Місячні Пророки.md",
+    "Космологія/Істоти/Владики/Дике Серце.md",
+    "Космологія/Істоти",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
-    "Життя/Організації/Друїдичні кола/Місячні Пророки.md",
     "Життя/Організації/Релігії/Кров Вол.md",
     "Життя/Організації/Друїдичні кола",
     "Життя/Організації/Без назви.md",
@@ -423,8 +422,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 17.md",
     "Життя/Організації/Доми/Дім Канніт.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 17.md",
-    "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
-    "Атлас/Хорвейр/Дроаам/Дроаам.md",
     "Атлас/Хорвейр/Елдинські хащі",
     "_ресурси/Інше/Коранберзькі Хроніки 2 Ейра.pdf",
     "_ресурси/Інше/Коранберзькі Хроніки 2 Ейра.pptx",
@@ -433,7 +430,6 @@
     "_ресурси/Фото/Персонажі/Melisent, a corrupted inquisitor.webp",
     "_ресурси/Фото/Персонажі/Jaela Daran.webp",
     "_ресурси/Фото/Персонажі/High Cardinal Krozen.webp",
-    "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.pdf",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.jpg",
     "_ресурси/Інше/Коранберзькі Хроніки 23 Терендора.png",
     "_ресурси/Фото/Місця/Xendrikruin.webp",
