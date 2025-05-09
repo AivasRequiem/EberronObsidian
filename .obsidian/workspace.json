@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5cc124d7136241d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Зіларґо/Золанберг.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Золанберг"
-            }
-          },
-          {
-            "id": "5c94621174393cd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/НІПи/Кров Вол/Багряна Люція.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Багряна Люція"
-            }
-          },
-          {
             "id": "87efb35d05313a12",
             "type": "leaf",
             "state": {
@@ -80,13 +32,13 @@
             }
           },
           {
-            "id": "8f082fae3fe90dfb",
+            "id": "cf9cdcf55b03c976",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Космологія/Владики/Дике Серце.md",
-                "mode": "source",
+                "file": "Життя/Організації/Мечі Свободи.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -100,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Дике Серце"
+              "title": "Мечі Свободи"
             }
           },
           {
@@ -162,81 +114,8 @@
               "icon": "lucide-file-text",
               "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
             }
-          },
-          {
-            "id": "c88849bc1fb1c8ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Історія/Лікантропічний Погром.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Лікантропічний Погром"
-            }
-          },
-          {
-            "id": "46c961ecef00b93c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Космологія/Владики/Дике Серце.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Дике Серце"
-            }
-          },
-          {
-            "id": "a19170a03e2840c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Елдинські хащі"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -321,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Історія/Лікантропічний Погром.md",
+                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +210,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Лікантропічний Погром"
+              "title": "Зворотні посилання для Зандрар"
             }
           },
           {
@@ -340,12 +219,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Історія/Лікантропічний Погром.md",
+                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Лікантропічний Погром"
+              "title": "Вихідні посилання з Зандрар"
             }
           },
           {
@@ -434,13 +313,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "c88849bc1fb1c8ca",
+  "active": "87efb35d05313a12",
   "lastOpenFiles": [
-    "Космологія/Владики/Дике Серце.md",
-    "Атлас/Історія/Лікантропічний Погром.md",
-    "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
-    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
+    "Життя/Організації/Мечі Свободи.md",
+    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
+    "Життя/НІПи/Кров Вол/Багряна Люція.md",
+    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
+    "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
+    "Атлас/Історія/Лікантропічний Погром.md",
+    "Космологія/Владики/Дике Серце.md",
+    "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "_неоргнанізоване/Сторожі Лісу.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_неоргнанізоване/СріЦерква Срібного Полум’я.md",
@@ -449,25 +332,21 @@
     "_ресурси/Фото/Містицизм/wild_heart.png",
     "_ресурси/Фото/Містицизм/wild_heart.png.crdownload",
     "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
-    "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Життя/НІПи/Клинки/Кріліум Макар.md",
     "Космологія/Владики",
     "Життя/Організації/Друїдичні кола/Місячні Пророки.md",
     "Космологія/Істоти",
-    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Життя/Організації/Релігії/Кров Вол.md",
     "Життя/Організації/Друїдичні кола",
     "Життя/Організації/Без назви.md",
     "Кампанії/Нові Герої/Журнали сесій/Джино-сесія.md",
     "Предмети/Зброя/Kage no Yaiba.md",
-    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "Кампанії/Нові Герої/Плани сесій/Джино-сесія.md",
     "_ресурси/Еберрон З попелу Останньої Війни.pdf",
     "Життя/НІПи/Срібне Полум'я/Верховний Кардинал Крозен.md",
     "Життя/НІПи/Сайр/Орґев ір'Вінарн.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
     "Життя/НІПи/Дім Канніт/Авеліна д'Канніт.md",
-    "Життя/Організації/Мечі Свободи.md",
     "_ресурси/Фото/Місця/Xandrar.png",
     "Атлас/Хорвейр/Зіларґо/Зіларґо.md",
     "Атлас/Хорвейр/Бреландія/Зандрар",
