@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "587a71d53c6cefd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Журнал сесії 19"
+            }
+          },
+          {
             "id": "02a51dc9871e52e6",
             "type": "leaf",
             "state": {
@@ -112,8 +136,8 @@
               "type": "markdown",
               "state": {
                 "file": "Життя/НІПи/Кров Вол/Баззіліо.md",
-                "mode": "preview",
-                "source": false,
+                "mode": "source",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -166,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Життя/НІПи/Кров Вол/Баззіліо.md",
+                "file": "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +285,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Баззіліо"
+              "title": "Зворотні посилання для Журнал сесії 19"
             }
           },
           {
@@ -270,12 +294,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Життя/НІПи/Кров Вол/Баззіліо.md",
+                "file": "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Баззіліо"
+              "title": "Вихідні посилання з Журнал сесії 19"
             }
           },
           {
@@ -303,7 +327,7 @@
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
-                    "month": 2,
+                    "month": 3,
                     "year": 998
                   },
                   "displayDayNumber": false,
@@ -335,7 +359,8 @@
               "title": "Dice Tray"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -364,19 +389,19 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "ec727b87b76c0d00",
+  "active": "587a71d53c6cefd7",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
+    "Атлас/Хорвейр/Карта Хорвейру.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
+    "Життя/НІПи/Кров Вол/Баззіліо.md",
+    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Життя/Організації/Релігії/Кров Вол.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_неоргнанізоване/баззіліо.webp.md",
-    "Життя/НІПи/Кров Вол/Баззіліо.md",
     "_ресурси/Фото/Персонажі/Bassilio.png",
     "_ресурси/Фото/Персонажі/ChatGPT Image 10 трав. 2025 р., 02_33_32.png",
-    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Життя/Організації/Мечі Свободи.md",
-    "Атлас/Хорвейр/Карта Хорвейру.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "_неоргнанізоване/Гніздо Звіропогибелі.md",
     "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
     "_неоргнанізоване/Сільбаран.md",

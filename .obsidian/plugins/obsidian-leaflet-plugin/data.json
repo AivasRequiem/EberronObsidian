@@ -3,7 +3,7 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1746565170638,
+      "lastAccessed": 1746834606272,
       "markers": [],
       "overlays": [],
       "shapes": [
@@ -57,7 +57,7 @@
         }
       ],
       "files": [
-        "Атлас/Хорвейр/Карта Хорвейру (гравців).md"
+        "Атлас/Хорвейр/Карта Хорвейру.md"
       ]
     }
   ],
