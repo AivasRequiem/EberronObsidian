@@ -147,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "чорноц",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +180,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -313,7 +314,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "87efb35d05313a12",
+  "active": "0e1a7b0be4c3c017",
   "lastOpenFiles": [
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
