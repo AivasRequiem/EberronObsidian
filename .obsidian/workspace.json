@@ -58,6 +58,54 @@
             }
           },
           {
+            "id": "e98c3deedd2829dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/НІПи/Елдинські Хащі/Оаліан.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Оаліан"
+            }
+          },
+          {
+            "id": "3b9c7818662991ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Кров Вол"
+            }
+          },
+          {
             "id": "5e379d2d66eb11bf",
             "type": "leaf",
             "state": {
@@ -94,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Життя/Організації/Мечі Свободи.md",
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +237,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Мечі Свободи"
+              "title": "Зворотні посилання для Кров Вол"
             }
           },
           {
@@ -198,12 +246,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Життя/Організації/Мечі Свободи.md",
+                "file": "Життя/Організації/Релігії/Кров Вол.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Мечі Свободи"
+              "title": "Вихідні посилання з Кров Вол"
             }
           },
           {
@@ -264,22 +312,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6d06819422601bd8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "99996b6c639485a7",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -308,10 +340,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "5e379d2d66eb11bf",
+  "active": "3b9c7818662991ff",
   "lastOpenFiles": [
+    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
+    "Життя/Організації/Мечі Свободи.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "_неоргнанізоване/Гніздо Звіропогибелі.md",
@@ -319,9 +353,7 @@
     "_неоргнанізоване/Сільбаран.md",
     "_неоргнанізоване/Первородний.md",
     "Життя/НІПи/Клинки/Лорд Клинків.md",
-    "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_неоргнанізоване/Ондейр.md",
-    "Життя/Організації/Мечі Свободи.md",
     "Життя/НІПи/Кров Вол/Багряна Люція.md",
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
