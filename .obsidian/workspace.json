@@ -16,7 +16,7 @@
               "state": {
                 "file": "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -213,8 +213,7 @@
               "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -299,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +308,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Зандрар"
+              "title": "Зворотні посилання для Сесія 20"
             }
           },
           {
@@ -318,12 +317,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
+                "file": "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Зандрар"
+              "title": "Вихідні посилання з Сесія 20"
             }
           },
           {
@@ -413,12 +412,12 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "02a51dc9871e52e6",
+  "active": "75911406f98c6127",
   "lastOpenFiles": [
+    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "Життя/НІПи/Кров Вол/Баззіліо.md",
-    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "Атлас/Хорвейр/Карта Хорвейру.md",
