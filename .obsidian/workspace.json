@@ -260,8 +260,33 @@
               "icon": "lucide-file",
               "title": "Гноми"
             }
+          },
+          {
+            "id": "171f12181dff9777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Інструменти ДМ/CLI/bestiary/aberration/beholder-xmm.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "beholder-xmm"
+            }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -432,6 +457,22 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "65bc5aa12ce40832",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dbd2f7bf66be6b9",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -460,8 +501,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "75911406f98c6127",
+  "active": "4dbd2f7bf66be6b9",
   "lastOpenFiles": [
+    "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-star-spawn-xphb.md",
+    "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-slaad-xphb.md",
+    "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-beholderkin-xphb.md",
+    "Інструменти ДМ/CLI/bestiary/beast/ape-xmm.md",
+    "Інструменти ДМ/CLI/bestiary/beast/allosaurus-xmm.md",
+    "Інструменти ДМ/CLI/classes/artificer-alchemist-tce.md",
     "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Інструменти ДМ/CLI",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
@@ -493,14 +540,9 @@
     "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
     "Атлас/Історія/Лікантропічний Погром.md",
-    "Космологія/Владики/Дике Серце.md",
-    "_неоргнанізоване/Сторожі Лісу.md",
-    "_неоргнанізоване/СріЦерква Срібного Полум’я.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 13.md",
     "Атлас/Історія",
     "_ресурси/Фото/Містицизм/wild_heart.png",
     "_ресурси/Фото/Містицизм/wild_heart.png.crdownload",
-    "Життя/НІПи/Срібне Полум'я/Самір Кес.md",
     "Космологія/Владики",
     "Космологія/Істоти",
     "Життя/Організації/Друїдичні кола",
