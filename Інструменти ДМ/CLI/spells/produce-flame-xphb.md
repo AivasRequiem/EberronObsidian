@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/gruul-anarch
+- ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/druidic-warrior
 - ttrpg-cli/spell/feat/magic-initiate
@@ -10,6 +12,7 @@ tags:
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subrace/genasi-fire
 classes:
 - Bard (College of Lore)
 - Druid

@@ -10,6 +10,7 @@ tags:
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/battle-smith
 - ttrpg-cli/spell/subclass/circle-of-the-moon
+- ttrpg-cli/spell/subclass/circle-of-wildfire
 - ttrpg-cli/spell/subclass/life-domain
 classes:
 - Artificer (Battle Smith)
@@ -17,6 +18,7 @@ classes:
 - Cleric
 - Cleric (Life Domain)
 - Druid
+- Druid (Circle of Wildfire)
 - Druid (Circle of the Moon)
 aliases:
 - Mass Cure Wounds
@@ -34,6 +36,6 @@ A wave of healing energy washes out from a point you can see within range. Choos
 
 **Using a Higher-Level Spell Slot.** The healing increases by `d8` for each spell slot level above 5.
 
-**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Artificer (Battle Smith)](Інструменти%20ДМ/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Artificer (Battle Smith)](Інструменти%20ДМ/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Wildfire)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 296. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

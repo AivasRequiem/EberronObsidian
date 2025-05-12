@@ -9,11 +9,14 @@ tags:
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/artificer-initiate
 - ttrpg-cli/spell/feat/druidic-warrior
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/kobold
+- ttrpg-cli/spell/race/yuan-ti
 - ttrpg-cli/spell/school/necromancy
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/college-of-lore

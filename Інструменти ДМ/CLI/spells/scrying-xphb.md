@@ -12,6 +12,7 @@ tags:
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/diviner
 - ttrpg-cli/spell/subclass/light-domain
+- ttrpg-cli/spell/subclass/oath-of-the-watchers
 - ttrpg-cli/spell/subclass/oath-of-vengeance
 classes:
 - Bard
@@ -19,6 +20,7 @@ classes:
 - Cleric (Light Domain)
 - Druid
 - Paladin (Oath of Vengeance)
+- Paladin (Oath of the Watchers)
 - Warlock
 - Wizard
 - Wizard (Diviner)
@@ -56,6 +58,6 @@ On a failed save, the spell creates an [Invisible](Інструменти%20ДМ
 
 Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.
 
-**Classes**: [Wizard (Diviner)](Інструменти%20ДМ/CLI/lists/list-spells-classes-diviner-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Cleric (Light Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-light-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of Vengeance)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-vengeance-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Wizard (Diviner)](Інструменти%20ДМ/CLI/lists/list-spells-classes-diviner-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Cleric (Light Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-light-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of Vengeance)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-vengeance-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Paladin (Oath of the Watchers)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 313. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

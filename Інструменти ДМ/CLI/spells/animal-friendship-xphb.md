@@ -3,12 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/feat/fey-touched
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/race/yuan-ti
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subrace/human-mark-of-handling

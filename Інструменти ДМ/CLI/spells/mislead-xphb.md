@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/fey-wanderer
 - ttrpg-cli/spell/subclass/illusionist
+- ttrpg-cli/spell/subclass/twilight-domain
 - ttrpg-cli/spell/subrace/elf-mark-of-shadow
 classes:
 - Bard
+- Cleric (Twilight Domain)
 - Ranger (Fey Wanderer)
 - Warlock
 - Wizard
@@ -35,6 +37,6 @@ As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, y
 
 You can see through its eyes and hear through its ears as if you were located where it is.
 
-**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Ranger (Fey Wanderer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fey-wanderer-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Ranger (Fey Wanderer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fey-wanderer-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Twilight Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE;class=XPHB"); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 299. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

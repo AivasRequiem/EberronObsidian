@@ -3,15 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/dimir-operative
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/artificer-initiate
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/shadow-touched
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/mask-of-many-faces
+- ttrpg-cli/spell/race/deep-gnome
+- ttrpg-cli/spell/race/firbolg
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/college-of-lore

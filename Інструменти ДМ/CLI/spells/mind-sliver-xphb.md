@@ -11,6 +11,7 @@ tags:
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/kobold
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/aberrant-sorcery
 - ttrpg-cli/spell/subclass/arcane-trickster

@@ -12,13 +12,16 @@ aliases:
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB") 
 - [Blade Ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md "XPHB") 
+- [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") 
 - [Chill Touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md "XPHB") 
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB") 
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB") 
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") 
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") 
+- [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") 
 - [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") 
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") 
+- [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") 
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") 
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB") 
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB") 
@@ -29,12 +32,14 @@ aliases:
 - [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB") 
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB") 
 - [Sorcerous Burst](Інструменти%20ДМ/CLI/spells/sorcerous-burst-xphb.md "XPHB") 
+- [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE") 
 - [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") 
 - [True Strike](Інструменти%20ДМ/CLI/spells/true-strike-xphb.md "XPHB") 
 
 ## 1st Level
 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") 
+- [Chaos Bolt](Інструменти%20ДМ/CLI/spells/chaos-bolt-xge.md "XGE") 
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB") 
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") 
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") 
@@ -54,5 +59,6 @@ aliases:
 - [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md "XPHB") 
 - [Silent Image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md "XPHB") 
 - [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md "XPHB") 
+- [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") 
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB") 
 - [Witch Bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md "XPHB")

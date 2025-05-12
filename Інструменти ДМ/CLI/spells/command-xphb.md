@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/azorius-functionary
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
@@ -14,11 +16,13 @@ tags:
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subclass/draconic-sorcery
 - ttrpg-cli/spell/subclass/fiend-patron
+- ttrpg-cli/spell/subclass/order-domain
 classes:
 - Bard
 - Bard (College of Glamour)
 - Bard (College of Lore)
 - Cleric
+- Cleric (Order Domain)
 - Paladin
 - Sorcerer (Draconic Sorcery)
 - Warlock (Fiend Patron)
@@ -44,6 +48,6 @@ You speak a one-word command to a creature you can see within range. The target 
 
 **Using a Higher-Level Spell Slot.** You can affect one additional creature for each spell slot level above 1.
 
-**Classes**: [Bard (College of Glamour)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-glamour-xphb.md "subclass=XPHB;class=XPHB"); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Warlock (Fiend Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fiend-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer (Draconic Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-draconic-sorcery-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard (College of Glamour)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-glamour-xphb.md "subclass=XPHB;class=XPHB"); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Warlock (Fiend Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fiend-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Cleric (Order Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer (Draconic Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-draconic-sorcery-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 251. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

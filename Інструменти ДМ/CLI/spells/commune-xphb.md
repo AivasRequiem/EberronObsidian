@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/oath-of-devotion
+- ttrpg-cli/spell/subclass/order-domain
 classes:
 - Bard
 - Cleric
+- Cleric (Order Domain)
 - Paladin (Oath of Devotion)
 aliases:
 - Commune
@@ -31,6 +33,6 @@ Divine beings aren't necessarily omniscient, so you might receive "unclear" as a
 
 If you cast the spell more than once before finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), there is a cumulative  chance for each casting after the first that you get no answer.
 
-**Classes**: [Paladin (Oath of Devotion)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-devotion-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Paladin (Oath of Devotion)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-devotion-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Cleric (Order Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 251. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

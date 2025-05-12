@@ -11,6 +11,7 @@ tags:
 - ttrpg-cli/spell/feat/shadow-touched
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/optfeature/one-with-shadows
+- ttrpg-cli/spell/race/duergar
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/college-of-lore

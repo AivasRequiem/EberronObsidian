@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/necromancy
+- ttrpg-cli/spell/subclass/circle-of-spores
 classes:
 - Bard
 - Cleric
 - Druid
+- Druid (Circle of Spores)
 aliases:
 - Contagion
 ---
@@ -30,6 +32,6 @@ The target must repeat the saving throw at the end of each of its turns until it
 
 Whenever the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target receives an effect that would end the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition, the target must succeed on a Constitution saving throw, or the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition doesn't end on it.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 256. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

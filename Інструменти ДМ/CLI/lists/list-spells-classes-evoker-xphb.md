@@ -11,8 +11,11 @@ aliases:
 ## Cantrip
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB") at class level 3
+- [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") at class level 3
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") at class level 3
+- [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") at class level 3
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") at class level 3
+- [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") at class level 3
 - [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB") at class level 3
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB") at class level 3
 - [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") at class level 3
@@ -22,6 +25,7 @@ aliases:
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") at class level 3
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") at class level 3
 - [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md "XPHB") at class level 3
+- [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") at class level 3
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB") at class level 3
 - [Witch Bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md "XPHB") at class level 3
 
@@ -31,6 +35,7 @@ aliases:
 - [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md "XPHB") at class level 3
 - [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB") at class level 3
 - [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md "XPHB") at class level 3
+- [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD") at class level 3
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB") at class level 3
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB") at class level 3
 

@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/gruul-anarch
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/conjuration

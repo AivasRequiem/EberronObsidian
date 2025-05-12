@@ -6,6 +6,9 @@ cssclasses: json5e-note
 
 - [Ballista](./ballista-xdmg.md)
 - [Cannon](./cannon-xdmg.md)
+- [Eldritch Cannon, Flamethrower](./eldritch-cannon-flamethrower-tce.md)
+- [Eldritch Cannon, Force Ballista](./eldritch-cannon-force-ballista-tce.md)
+- [Eldritch Cannon, Protector](./eldritch-cannon-protector-tce.md)
 - [Flamethrower Coach](./flamethrower-coach-xdmg.md)
 - [Keg Launcher](./keg-launcher-xdmg.md)
 - [Lightning Cannon](./lightning-cannon-xdmg.md)

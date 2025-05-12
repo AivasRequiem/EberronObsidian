@@ -12,6 +12,7 @@ aliases:
 
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
 - [Produce Flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md "XPHB")
+- [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE")
 
 ## 1st Level
 
@@ -47,6 +48,7 @@ aliases:
 - [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md "XPHB")
 - [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB")
 - [Summon Fey](Інструменти%20ДМ/CLI/spells/summon-fey-xphb.md "XPHB")
+- [Summon Shadowspawn](Інструменти%20ДМ/CLI/spells/summon-shadowspawn-tce.md "TCE")
 
 ## 4th Level
 
@@ -54,6 +56,7 @@ aliases:
 - [Conjure Woodland Beings](Інструменти%20ДМ/CLI/spells/conjure-woodland-beings-xphb.md "XPHB")
 - [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md "XPHB")
 - [Evard's Black Tentacles](Інструменти%20ДМ/CLI/spells/evards-black-tentacles-xphb.md "XPHB")
+- [Find Greater Steed](Інструменти%20ДМ/CLI/spells/find-greater-steed-xge.md "XGE")
 - [Giant Insect](Інструменти%20ДМ/CLI/spells/giant-insect-xphb.md "XPHB")
 - [Grasping Vine](Інструменти%20ДМ/CLI/spells/grasping-vine-xphb.md "XPHB")
 - [Guardian of Faith](Інструменти%20ДМ/CLI/spells/guardian-of-faith-xphb.md "XPHB")
@@ -92,6 +95,7 @@ aliases:
 ## 7th Level
 
 - [Conjure Celestial](Інструменти%20ДМ/CLI/spells/conjure-celestial-xphb.md "XPHB")
+- [Dream of the Blue Veil](Інструменти%20ДМ/CLI/spells/dream-of-the-blue-veil-tce.md "TCE")
 - [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md "XPHB")
 - [Mordenkainen's Magnificent Mansion](Інструменти%20ДМ/CLI/spells/mordenkainens-magnificent-mansion-xphb.md "XPHB")
 - [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md "XPHB")
@@ -106,6 +110,7 @@ aliases:
 
 ## 9th Level
 
+- [Blade of Disaster](Інструменти%20ДМ/CLI/spells/blade-of-disaster-tce.md "TCE")
 - [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md "XPHB")
 - [Storm of Vengeance](Інструменти%20ДМ/CLI/spells/storm-of-vengeance-xphb.md "XPHB")
 - [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md "XPHB")

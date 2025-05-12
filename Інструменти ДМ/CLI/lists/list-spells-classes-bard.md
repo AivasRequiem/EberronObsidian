@@ -29,8 +29,8 @@ aliases:
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md "XPHB")
 - [Bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md "XPHB")
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB")
-- [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB")
-- [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md "XPHB")
+- [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") (\*)
+- [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md "XPHB") (\*)
 - [Comprehend Languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md "XPHB")
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
@@ -52,7 +52,7 @@ aliases:
 
 ## 2nd Level
 
-- [Aid](Інструменти%20ДМ/CLI/spells/aid-xphb.md "XPHB")
+- [Aid](Інструменти%20ДМ/CLI/spells/aid-xphb.md "XPHB") (\*)
 - [Animal Messenger](Інструменти%20ДМ/CLI/spells/animal-messenger-xphb.md "XPHB")
 - [Blindness/Deafness](Інструменти%20ДМ/CLI/spells/blindness-deafness-xphb.md "XPHB")
 - [Calm Emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md "XPHB")
@@ -60,7 +60,7 @@ aliases:
 - [Crown of Madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md "XPHB")
 - [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md "XPHB")
 - [Enhance Ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md "XPHB")
-- [Enlarge/Reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md "XPHB")
+- [Enlarge/Reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md "XPHB") (\*)
 - [Enthrall](Інструменти%20ДМ/CLI/spells/enthrall-xphb.md "XPHB")
 - [Heat Metal](Інструменти%20ДМ/CLI/spells/heat-metal-xphb.md "XPHB")
 - [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md "XPHB")
@@ -70,7 +70,8 @@ aliases:
 - [Locate Animals or Plants](Інструменти%20ДМ/CLI/spells/locate-animals-or-plants-xphb.md "XPHB")
 - [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md "XPHB")
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB")
-- [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB")
+- [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") (\*)
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD")
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
@@ -87,13 +88,14 @@ aliases:
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
 - [Hypnotic Pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md "XPHB")
+- [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE") (\*)
 - [Leomund's Tiny Hut](Інструменти%20ДМ/CLI/spells/leomunds-tiny-hut-xphb.md "XPHB")
 - [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md "XPHB")
-- [Mass Healing Word](Інструменти%20ДМ/CLI/spells/mass-healing-word-xphb.md "XPHB")
+- [Mass Healing Word](Інструменти%20ДМ/CLI/spells/mass-healing-word-xphb.md "XPHB") (\*)
 - [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md "XPHB")
 - [Plant Growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md "XPHB")
 - [Sending](Інструменти%20ДМ/CLI/spells/sending-xphb.md "XPHB")
-- [Slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md "XPHB")
+- [Slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md "XPHB") (\*)
 - [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md "XPHB")
 - [Speak with Plants](Інструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md "XPHB")
 - [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB")
@@ -110,8 +112,9 @@ aliases:
 - [Greater Invisibility](Інструменти%20ДМ/CLI/spells/greater-invisibility-xphb.md "XPHB")
 - [Hallucinatory Terrain](Інструменти%20ДМ/CLI/spells/hallucinatory-terrain-xphb.md "XPHB")
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
-- [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md "XPHB")
+- [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md "XPHB") (\*)
 - [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md "XPHB")
+- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD")
 
 ## 5th Level
 
@@ -128,7 +131,7 @@ aliases:
 - [Modify Memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md "XPHB")
 - [Planar Binding](Інструменти%20ДМ/CLI/spells/planar-binding-xphb.md "XPHB")
 - [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md "XPHB")
-- [Rary's Telepathic Bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md "XPHB")
+- [Rary's Telepathic Bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md "XPHB") (\*)
 - [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md "XPHB")
 - [Seeming](Інструменти%20ДМ/CLI/spells/seeming-xphb.md "XPHB")
 - [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md "XPHB")
@@ -140,7 +143,7 @@ aliases:
 - [Eyebite](Інструменти%20ДМ/CLI/spells/eyebite-xphb.md "XPHB")
 - [Find the Path](Інструменти%20ДМ/CLI/spells/find-the-path-xphb.md "XPHB")
 - [Guards and Wards](Інструменти%20ДМ/CLI/spells/guards-and-wards-xphb.md "XPHB")
-- [Heroes' Feast](Інструменти%20ДМ/CLI/spells/heroes-feast-xphb.md "XPHB")
+- [Heroes' Feast](Інструменти%20ДМ/CLI/spells/heroes-feast-xphb.md "XPHB") (\*)
 - [Mass Suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md "XPHB")
 - [Otto's Irresistible Dance](Інструменти%20ДМ/CLI/spells/ottos-irresistible-dance-xphb.md "XPHB")
 - [Programmed Illusion](Інструменти%20ДМ/CLI/spells/programmed-illusion-xphb.md "XPHB")
@@ -148,13 +151,14 @@ aliases:
 
 ## 7th Level
 
+- [Dream of the Blue Veil](Інструменти%20ДМ/CLI/spells/dream-of-the-blue-veil-tce.md "TCE") (\*)
 - [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md "XPHB")
 - [Forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md "XPHB")
 - [Mirage Arcane](Інструменти%20ДМ/CLI/spells/mirage-arcane-xphb.md "XPHB")
 - [Mordenkainen's Magnificent Mansion](Інструменти%20ДМ/CLI/spells/mordenkainens-magnificent-mansion-xphb.md "XPHB")
 - [Mordenkainen's Sword](Інструменти%20ДМ/CLI/spells/mordenkainens-sword-xphb.md "XPHB")
 - [Power Word Fortify](Інструменти%20ДМ/CLI/spells/power-word-fortify-xphb.md "XPHB")
-- [Prismatic Spray](Інструменти%20ДМ/CLI/spells/prismatic-spray-xphb.md "XPHB")
+- [Prismatic Spray](Інструменти%20ДМ/CLI/spells/prismatic-spray-xphb.md "XPHB") (\*)
 - [Project Image](Інструменти%20ДМ/CLI/spells/project-image-xphb.md "XPHB")
 - [Regenerate](Інструменти%20ДМ/CLI/spells/regenerate-xphb.md "XPHB")
 - [Resurrection](Інструменти%20ДМ/CLI/spells/resurrection-xphb.md "XPHB")
@@ -163,7 +167,7 @@ aliases:
 
 ## 8th Level
 
-- [Antipathy/Sympathy](Інструменти%20ДМ/CLI/spells/antipathy-sympathy-xphb.md "XPHB")
+- [Antipathy/Sympathy](Інструменти%20ДМ/CLI/spells/antipathy-sympathy-xphb.md "XPHB") (\*)
 - [Befuddlement](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md "XPHB")
 - [Dominate Monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md "XPHB")
 - [Glibness](Інструменти%20ДМ/CLI/spells/glibness-xphb.md "XPHB")
@@ -175,5 +179,5 @@ aliases:
 - [Foresight](Інструменти%20ДМ/CLI/spells/foresight-xphb.md "XPHB")
 - [Power Word Heal](Інструменти%20ДМ/CLI/spells/power-word-heal-xphb.md "XPHB")
 - [Power Word Kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md "XPHB")
-- [Prismatic Wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md "XPHB")
+- [Prismatic Wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md "XPHB") (\*)
 - [True Polymorph](Інструменти%20ДМ/CLI/spells/true-polymorph-xphb.md "XPHB")

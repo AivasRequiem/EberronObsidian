@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/dimir-operative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
@@ -12,6 +13,7 @@ tags:
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subclass/trickery-domain
 - ttrpg-cli/spell/subrace/elf-mark-of-shadow
+- ttrpg-cli/spell/subrace/genasi-earth
 - ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
 - Bard

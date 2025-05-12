@@ -11,10 +11,13 @@ aliases:
 ## Cantrip
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB")
+- [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE")
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB")
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB")
+- [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE")
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB")
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB")
+- [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE")
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB")
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB")
@@ -24,6 +27,7 @@ aliases:
 - [Resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md "XPHB")
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB")
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB")
+- [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE")
 - [Thorn Whip](Інструменти%20ДМ/CLI/spells/thorn-whip-xphb.md "XPHB")
 - [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB")
 
@@ -43,6 +47,7 @@ aliases:
 - [Longstrider](Інструменти%20ДМ/CLI/spells/longstrider-xphb.md "XPHB")
 - [Purify Food and Drink](Інструменти%20ДМ/CLI/spells/purify-food-and-drink-xphb.md "XPHB")
 - [Sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md "XPHB")
+- [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE")
 
 ## 2nd Level
 
@@ -68,6 +73,7 @@ aliases:
 
 ## 3rd Level
 
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD")
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
 - [Create Food and Water](Інструменти%20ДМ/CLI/spells/create-food-and-water-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
@@ -75,6 +81,7 @@ aliases:
 - [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
 - [Haste](Інструменти%20ДМ/CLI/spells/haste-xphb.md "XPHB")
+- [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE")
 - [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB")
 - [Revivify](Інструменти%20ДМ/CLI/spells/revivify-xphb.md "XPHB")
 - [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md "XPHB")

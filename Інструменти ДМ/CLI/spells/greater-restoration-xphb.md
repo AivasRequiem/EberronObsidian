@@ -14,12 +14,14 @@ tags:
 - ttrpg-cli/spell/subclass/celestial-patron
 - ttrpg-cli/spell/subclass/clockwork-sorcery
 - ttrpg-cli/spell/subclass/life-domain
+- ttrpg-cli/spell/subclass/peace-domain
 - ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer
 - Bard
 - Cleric
 - Cleric (Life Domain)
+- Cleric (Peace Domain)
 - Druid
 - Paladin
 - Ranger
@@ -45,6 +47,6 @@ You touch a creature and magically remove one of the following effects from it:
 - Any reduction to one of the target's ability scores  
 - Any reduction to the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum  
 
-**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Clockwork Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-clockwork-sorcery-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Warlock (Celestial Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-celestial-patron-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Clockwork Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-clockwork-sorcery-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Warlock (Celestial Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-celestial-patron-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Peace Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 281. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

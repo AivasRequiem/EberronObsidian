@@ -7,6 +7,7 @@ tags:
 - ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
+- ttrpg-cli/spell/race/kobold
 - ttrpg-cli/spell/school/evocation
 classes:
 - Sorcerer

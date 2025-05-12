@@ -43,6 +43,7 @@ aliases:
 - [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
+- [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE")
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB")
 - [Mass Healing Word](Інструменти%20ДМ/CLI/spells/mass-healing-word-xphb.md "XPHB")
 - [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md "XPHB")
@@ -72,6 +73,7 @@ aliases:
 ## 6th Level
 
 - [Contingency](Інструменти%20ДМ/CLI/spells/contingency-xphb.md "XPHB")
+- [Fizban's Platinum Shield](Інструменти%20ДМ/CLI/spells/fizbans-platinum-shield-ftd.md "FTD")
 - [Forbiddance](Інструменти%20ДМ/CLI/spells/forbiddance-xphb.md "XPHB")
 - [Globe of Invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md "XPHB")
 - [Guards and Wards](Інструменти%20ДМ/CLI/spells/guards-and-wards-xphb.md "XPHB")

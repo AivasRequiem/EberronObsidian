@@ -31,14 +31,14 @@ aliases:
 
 - [Aid](Інструменти%20ДМ/CLI/spells/aid-xphb.md "XPHB")
 - [Find Steed](Інструменти%20ДМ/CLI/spells/find-steed-xphb.md "XPHB")
-- [Gentle Repose](Інструменти%20ДМ/CLI/spells/gentle-repose-xphb.md "XPHB")
+- [Gentle Repose](Інструменти%20ДМ/CLI/spells/gentle-repose-xphb.md "XPHB") (\*)
 - [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md "XPHB")
 - [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md "XPHB")
 - [Magic Weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md "XPHB")
-- [Prayer of Healing](Інструменти%20ДМ/CLI/spells/prayer-of-healing-xphb.md "XPHB")
+- [Prayer of Healing](Інструменти%20ДМ/CLI/spells/prayer-of-healing-xphb.md "XPHB") (\*)
 - [Protection from Poison](Інструменти%20ДМ/CLI/spells/protection-from-poison-xphb.md "XPHB")
 - [Shining Smite](Інструменти%20ДМ/CLI/spells/shining-smite-xphb.md "XPHB")
-- [Warding Bond](Інструменти%20ДМ/CLI/spells/warding-bond-xphb.md "XPHB")
+- [Warding Bond](Інструменти%20ДМ/CLI/spells/warding-bond-xphb.md "XPHB") (\*)
 - [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md "XPHB")
 
 ## 3rd Level
@@ -53,6 +53,7 @@ aliases:
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB")
 - [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md "XPHB")
 - [Revivify](Інструменти%20ДМ/CLI/spells/revivify-xphb.md "XPHB")
+- [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE") (\*)
 
 ## 4th Level
 
@@ -60,6 +61,7 @@ aliases:
 - [Aura of Purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md "XPHB")
 - [Banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md "XPHB")
 - [Death Ward](Інструменти%20ДМ/CLI/spells/death-ward-xphb.md "XPHB")
+- [Find Greater Steed](Інструменти%20ДМ/CLI/spells/find-greater-steed-xge.md "XGE")
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
 - [Staggering Smite](Інструменти%20ДМ/CLI/spells/staggering-smite-xphb.md "XPHB")
 
@@ -72,4 +74,4 @@ aliases:
 - [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB")
 - [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md "XPHB")
-- [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB")
+- [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB") (\*)

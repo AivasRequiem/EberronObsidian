@@ -9,12 +9,14 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/artificer-initiate
 - ttrpg-cli/spell/feat/blessed-warrior
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/aasimar
 - ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/kobold
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/celestial-patron

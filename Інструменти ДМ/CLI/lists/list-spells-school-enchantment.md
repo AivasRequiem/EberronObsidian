@@ -10,6 +10,7 @@ aliases:
 
 ## Cantrip
 
+- [Encode Thoughts](Інструменти%20ДМ/CLI/spells/encode-thoughts-ggr.md "GGR")
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB")
 - [Mind Sliver](Інструменти%20ДМ/CLI/spells/mind-sliver-xphb.md "XPHB")
 - [Vicious Mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md "XPHB")
@@ -36,6 +37,7 @@ aliases:
 - [Enthrall](Інструменти%20ДМ/CLI/spells/enthrall-xphb.md "XPHB")
 - [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md "XPHB")
 - [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md "XPHB")
+- [Tasha's Mind Whip](Інструменти%20ДМ/CLI/spells/tashas-mind-whip-tce.md "TCE")
 - [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md "XPHB")
 
 ## 4th Level
@@ -44,6 +46,7 @@ aliases:
 - [Compulsion](Інструменти%20ДМ/CLI/spells/compulsion-xphb.md "XPHB")
 - [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md "XPHB")
 - [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md "XPHB")
+- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD")
 - [Staggering Smite](Інструменти%20ДМ/CLI/spells/staggering-smite-xphb.md "XPHB")
 
 ## 5th Level

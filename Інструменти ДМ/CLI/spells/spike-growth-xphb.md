@@ -9,11 +9,13 @@ tags:
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/the-genie
 classes:
 - Bard
 - Bard (College of Lore)
 - Druid
 - Ranger
+- Warlock (The Genie)
 aliases:
 - Spike Growth
 ---
@@ -30,6 +32,6 @@ The ground in a 20-foot-radius Sphere centered on a point within range sprouts h
 
 The transformation of the ground is camouflaged to look natural. Any creature that can't see the area when the spell is cast must take a [Search](Інструменти%20ДМ/CLI/rules/actions.md#Search) action and succeed on a Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception) or [Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check against your spell save DC to recognize the terrain as hazardous before entering it.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 319. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

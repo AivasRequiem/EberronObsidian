@@ -3,12 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/selesnya-initiate
+- ttrpg-cli/spell/background/simic-scientist
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/druidic-warrior
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/fairy
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/college-of-lore
 classes:

@@ -4,10 +4,12 @@ cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 classes:
 - Paladin
+- Ranger
 aliases:
 - Searing Smite
 ---
@@ -24,6 +26,6 @@ As you hit the target, it takes an extra `d6` Fire damage from the attack. At th
 
 **Using a Higher-Level Spell Slot.** All the damage increases by `d6` for each spell slot level above 1.
 
-**Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook (2024) p. 314. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

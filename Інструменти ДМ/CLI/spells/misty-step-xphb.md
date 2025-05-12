@@ -10,6 +10,7 @@ tags:
 - ttrpg-cli/spell/feat/fey-touched
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/githyanki
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/archfey-patron

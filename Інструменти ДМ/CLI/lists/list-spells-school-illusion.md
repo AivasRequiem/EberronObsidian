@@ -26,6 +26,7 @@ aliases:
 - [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md "XPHB")
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB")
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB")
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD")
 - [Nystul's Magic Aura](Інструменти%20ДМ/CLI/spells/nystuls-magic-aura-xphb.md "XPHB")
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
 - [Silence](Інструменти%20ДМ/CLI/spells/silence-xphb.md "XPHB")

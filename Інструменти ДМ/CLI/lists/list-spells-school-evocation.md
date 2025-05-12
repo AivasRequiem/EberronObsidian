@@ -11,9 +11,12 @@ aliases:
 ## Cantrip
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB")
+- [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE")
 - [Eldritch Blast](Інструменти%20ДМ/CLI/spells/eldritch-blast-xphb.md "XPHB")
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB")
+- [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE")
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB")
+- [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE")
 - [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB")
 - [Sacred Flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md "XPHB")
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB")
@@ -25,6 +28,7 @@ aliases:
 ## 1st Level
 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB")
+- [Chaos Bolt](Інструменти%20ДМ/CLI/spells/chaos-bolt-xge.md "XGE")
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB")
 - [Divine Smite](Інструменти%20ДМ/CLI/spells/divine-smite-xphb.md "XPHB")
 - [Faerie Fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md "XPHB")
@@ -32,6 +36,7 @@ aliases:
 - [Hellish Rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md "XPHB")
 - [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md "XPHB")
 - [Searing Smite](Інструменти%20ДМ/CLI/spells/searing-smite-xphb.md "XPHB")
+- [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE")
 - [Thunderous Smite](Інструменти%20ДМ/CLI/spells/thunderous-smite-xphb.md "XPHB")
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB")
 - [Witch Bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md "XPHB")
@@ -44,6 +49,7 @@ aliases:
 - [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB")
 - [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md "XPHB")
 - [Moonbeam](Інструменти%20ДМ/CLI/spells/moonbeam-xphb.md "XPHB")
+- [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD")
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB")
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
 - [Spiritual Weapon](Інструменти%20ДМ/CLI/spells/spiritual-weapon-xphb.md "XPHB")

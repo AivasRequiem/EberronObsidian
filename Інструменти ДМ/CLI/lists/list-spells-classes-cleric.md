@@ -61,7 +61,7 @@ aliases:
 ## 3rd Level
 
 - [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md "XPHB")
-- [Aura of Vitality](Інструменти%20ДМ/CLI/spells/aura-of-vitality-xphb.md "XPHB")
+- [Aura of Vitality](Інструменти%20ДМ/CLI/spells/aura-of-vitality-xphb.md "XPHB") (\*)
 - [Beacon of Hope](Інструменти%20ДМ/CLI/spells/beacon-of-hope-xphb.md "XPHB")
 - [Bestow Curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md "XPHB")
 - [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md "XPHB")
@@ -79,13 +79,14 @@ aliases:
 - [Sending](Інструменти%20ДМ/CLI/spells/sending-xphb.md "XPHB")
 - [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md "XPHB")
 - [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md "XPHB")
+- [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE") (\*)
 - [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md "XPHB")
 - [Water Walk](Інструменти%20ДМ/CLI/spells/water-walk-xphb.md "XPHB")
 
 ## 4th Level
 
-- [Aura of Life](Інструменти%20ДМ/CLI/spells/aura-of-life-xphb.md "XPHB")
-- [Aura of Purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md "XPHB")
+- [Aura of Life](Інструменти%20ДМ/CLI/spells/aura-of-life-xphb.md "XPHB") (\*)
+- [Aura of Purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md "XPHB") (\*)
 - [Banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md "XPHB")
 - [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md "XPHB")
 - [Death Ward](Інструменти%20ДМ/CLI/spells/death-ward-xphb.md "XPHB")
@@ -111,7 +112,7 @@ aliases:
 - [Planar Binding](Інструменти%20ДМ/CLI/spells/planar-binding-xphb.md "XPHB")
 - [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md "XPHB")
 - [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md "XPHB")
-- [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB")
+- [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB") (\*)
 
 ## 6th Level
 
@@ -123,7 +124,7 @@ aliases:
 - [Heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md "XPHB")
 - [Heroes' Feast](Інструменти%20ДМ/CLI/spells/heroes-feast-xphb.md "XPHB")
 - [Planar Ally](Інструменти%20ДМ/CLI/spells/planar-ally-xphb.md "XPHB")
-- [Sunbeam](Інструменти%20ДМ/CLI/spells/sunbeam-xphb.md "XPHB")
+- [Sunbeam](Інструменти%20ДМ/CLI/spells/sunbeam-xphb.md "XPHB") (\*)
 - [True Seeing](Інструменти%20ДМ/CLI/spells/true-seeing-xphb.md "XPHB")
 - [Word of Recall](Інструменти%20ДМ/CLI/spells/word-of-recall-xphb.md "XPHB")
 
@@ -145,12 +146,12 @@ aliases:
 - [Control Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md "XPHB")
 - [Earthquake](Інструменти%20ДМ/CLI/spells/earthquake-xphb.md "XPHB")
 - [Holy Aura](Інструменти%20ДМ/CLI/spells/holy-aura-xphb.md "XPHB")
-- [Sunburst](Інструменти%20ДМ/CLI/spells/sunburst-xphb.md "XPHB")
+- [Sunburst](Інструменти%20ДМ/CLI/spells/sunburst-xphb.md "XPHB") (\*)
 
 ## 9th Level
 
 - [Astral Projection](Інструменти%20ДМ/CLI/spells/astral-projection-xphb.md "XPHB")
 - [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md "XPHB")
 - [Mass Heal](Інструменти%20ДМ/CLI/spells/mass-heal-xphb.md "XPHB")
-- [Power Word Heal](Інструменти%20ДМ/CLI/spells/power-word-heal-xphb.md "XPHB")
+- [Power Word Heal](Інструменти%20ДМ/CLI/spells/power-word-heal-xphb.md "XPHB") (\*)
 - [True Resurrection](Інструменти%20ДМ/CLI/spells/true-resurrection-xphb.md "XPHB")

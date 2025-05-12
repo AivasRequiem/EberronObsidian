@@ -12,15 +12,18 @@ aliases:
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB") at class level 6
 - [Blade Ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md "XPHB") at class level 6
+- [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") at class level 6
 - [Chill Touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md "XPHB") at class level 6
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB") at class level 6
 - [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md "XPHB") at class level 6
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB") at class level 6
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") at class level 6
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") at class level 6
+- [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") at class level 6
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB") at class level 6
 - [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") at class level 6
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") at class level 6
+- [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") at class level 6
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") at class level 6
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB") at class level 6
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB") at class level 6
@@ -36,6 +39,7 @@ aliases:
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB") at class level 6
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB") at class level 6
 - [Starry Wisp](Інструменти%20ДМ/CLI/spells/starry-wisp-xphb.md "XPHB") at class level 6
+- [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE") at class level 6
 - [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md "XPHB") at class level 6
 - [Thorn Whip](Інструменти%20ДМ/CLI/spells/thorn-whip-xphb.md "XPHB") at class level 6
 - [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") at class level 6
@@ -89,6 +93,7 @@ aliases:
 - [Silent Image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md "XPHB") at class level 6
 - [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md "XPHB") at class level 6
 - [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md "XPHB") at class level 6
+- [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") at class level 6
 - [Tasha's Hideous Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md "XPHB") at class level 6
 - [Tenser's Floating Disk](Інструменти%20ДМ/CLI/spells/tensers-floating-disk-xphb.md "XPHB") at class level 6
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB") at class level 6
@@ -137,12 +142,14 @@ aliases:
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") at class level 6
 - [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md "XPHB") at class level 6
 - [Moonbeam](Інструменти%20ДМ/CLI/spells/moonbeam-xphb.md "XPHB") at class level 6
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") at class level 6
 - [Nystul's Magic Aura](Інструменти%20ДМ/CLI/spells/nystuls-magic-aura-xphb.md "XPHB") at class level 6
 - [Pass without Trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md "XPHB") at class level 6
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB") at class level 6
 - [Prayer of Healing](Інструменти%20ДМ/CLI/spells/prayer-of-healing-xphb.md "XPHB") at class level 6
 - [Protection from Poison](Інструменти%20ДМ/CLI/spells/protection-from-poison-xphb.md "XPHB") at class level 6
 - [Ray of Enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md "XPHB") at class level 6
+- [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD") at class level 6
 - [Rope Trick](Інструменти%20ДМ/CLI/spells/rope-trick-xphb.md "XPHB") at class level 6
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB") at class level 6
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB") at class level 6
@@ -153,6 +160,7 @@ aliases:
 - [Spiritual Weapon](Інструменти%20ДМ/CLI/spells/spiritual-weapon-xphb.md "XPHB") at class level 6
 - [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md "XPHB") at class level 6
 - [Summon Beast](Інструменти%20ДМ/CLI/spells/summon-beast-xphb.md "XPHB") at class level 6
+- [Tasha's Mind Whip](Інструменти%20ДМ/CLI/spells/tashas-mind-whip-tce.md "TCE") at class level 6
 - [Warding Bond](Інструменти%20ДМ/CLI/spells/warding-bond-xphb.md "XPHB") at class level 6
 - [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md "XPHB") at class level 6
 - [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md "XPHB") at class level 6
@@ -160,6 +168,7 @@ aliases:
 ## 3rd Level
 
 - [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md "XPHB") at class level 6
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") at class level 6
 - [Aura of Vitality](Інструменти%20ДМ/CLI/spells/aura-of-vitality-xphb.md "XPHB") at class level 6
 - [Beacon of Hope](Інструменти%20ДМ/CLI/spells/beacon-of-hope-xphb.md "XPHB") at class level 6
 - [Bestow Curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md "XPHB") at class level 6
@@ -180,6 +189,7 @@ aliases:
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB") at class level 6
 - [Haste](Інструменти%20ДМ/CLI/spells/haste-xphb.md "XPHB") at class level 6
 - [Hypnotic Pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md "XPHB") at class level 6
+- [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE") at class level 6
 - [Leomund's Tiny Hut](Інструменти%20ДМ/CLI/spells/leomunds-tiny-hut-xphb.md "XPHB") at class level 6
 - [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md "XPHB") at class level 6
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB") at class level 6
@@ -198,8 +208,10 @@ aliases:
 - [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md "XPHB") at class level 6
 - [Speak with Plants](Інструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md "XPHB") at class level 6
 - [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md "XPHB") at class level 6
+- [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE") at class level 6
 - [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB") at class level 6
 - [Summon Fey](Інструменти%20ДМ/CLI/spells/summon-fey-xphb.md "XPHB") at class level 6
+- [Summon Shadowspawn](Інструменти%20ДМ/CLI/spells/summon-shadowspawn-tce.md "TCE") at class level 6
 - [Summon Undead](Інструменти%20ДМ/CLI/spells/summon-undead-xphb.md "XPHB") at class level 6
 - [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md "XPHB") at class level 6
 - [Vampiric Touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md "XPHB") at class level 6

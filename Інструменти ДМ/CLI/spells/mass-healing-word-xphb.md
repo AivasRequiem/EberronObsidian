@@ -10,6 +10,7 @@ tags:
 - ttrpg-cli/spell/subclass/alchemist
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subclass/life-domain
+- ttrpg-cli/spell/subclass/order-domain
 - ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer (Alchemist)
@@ -17,6 +18,7 @@ classes:
 - Bard (College of Lore)
 - Cleric
 - Cleric (Life Domain)
+- Cleric (Order Domain)
 aliases:
 - Mass Healing Word
 ---
@@ -33,6 +35,6 @@ Up to six creatures of your choice that you can see within range regain [Hit Poi
 
 **Using a Higher-Level Spell Slot.** The healing increases by `d4` for each spell slot level above 3.
 
-**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Cleric (Order Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 296. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

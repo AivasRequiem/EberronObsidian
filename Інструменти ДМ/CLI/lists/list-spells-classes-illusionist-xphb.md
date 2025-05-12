@@ -26,6 +26,7 @@ aliases:
 - [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md "XPHB") at class level 3
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB") at class level 3
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") at class level 3
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") at class level 3
 - [Nystul's Magic Aura](Інструменти%20ДМ/CLI/spells/nystuls-magic-aura-xphb.md "XPHB") at class level 3
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB") at class level 3
 - [Summon Beast](Інструменти%20ДМ/CLI/spells/summon-beast-xphb.md "XPHB") at class level 3

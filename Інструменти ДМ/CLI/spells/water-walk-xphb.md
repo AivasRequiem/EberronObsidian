@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/level/3rd-level
+- ttrpg-cli/spell/race/triton
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subrace/genasi-water
 classes:
 - Artificer
 - Bard

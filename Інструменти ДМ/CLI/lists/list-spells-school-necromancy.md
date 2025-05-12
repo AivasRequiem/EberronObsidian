@@ -34,6 +34,7 @@ aliases:
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
 - [Revivify](Інструменти%20ДМ/CLI/spells/revivify-xphb.md "XPHB")
 - [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md "XPHB")
+- [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE")
 - [Summon Undead](Інструменти%20ДМ/CLI/spells/summon-undead-xphb.md "XPHB")
 - [Vampiric Touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md "XPHB")
 

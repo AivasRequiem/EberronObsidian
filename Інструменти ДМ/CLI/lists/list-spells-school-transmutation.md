@@ -51,6 +51,7 @@ aliases:
 
 ## 3rd Level
 
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD")
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
 - [Elemental Weapon](Інструменти%20ДМ/CLI/spells/elemental-weapon-xphb.md "XPHB")
 - [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md "XPHB")
@@ -85,10 +86,12 @@ aliases:
 - [Disintegrate](Інструменти%20ДМ/CLI/spells/disintegrate-xphb.md "XPHB")
 - [Flesh to Stone](Інструменти%20ДМ/CLI/spells/flesh-to-stone-xphb.md "XPHB")
 - [Move Earth](Інструменти%20ДМ/CLI/spells/move-earth-xphb.md "XPHB")
+- [Tasha's Otherworldly Guise](Інструменти%20ДМ/CLI/spells/tashas-otherworldly-guise-tce.md "TCE")
 - [Wind Walk](Інструменти%20ДМ/CLI/spells/wind-walk-xphb.md "XPHB")
 
 ## 7th Level
 
+- [Draconic Transformation](Інструменти%20ДМ/CLI/spells/draconic-transformation-ftd.md "FTD")
 - [Regenerate](Інструменти%20ДМ/CLI/spells/regenerate-xphb.md "XPHB")
 - [Reverse Gravity](Інструменти%20ДМ/CLI/spells/reverse-gravity-xphb.md "XPHB")
 - [Sequester](Інструменти%20ДМ/CLI/spells/sequester-xphb.md "XPHB")

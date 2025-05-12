@@ -9,6 +9,7 @@ tags:
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subrace/genasi-fire
 classes:
 - Bard
 - Bard (College of Lore)

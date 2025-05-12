@@ -47,7 +47,7 @@ This section also presents other playable races that have performed important ro
 
 ## Changelings
 
-See the [Changeling](Інструменти%20ДМ/CLI/races/changeling-erlw.md) entry.
+See the [Changeling](Інструменти%20ДМ/CLI/races/changeling-mpmm.md) entry.
 
 ## Dragonborn
 
@@ -249,9 +249,9 @@ Goblinoid names often feature drawn-out vowel sounds (represented by doubled let
 
 If you're playing a goblinoid, your racial traits are determined by whether you're a bugbear, goblin, or hobgoblin.
 
-- [Bugbear](Інструменти%20ДМ/CLI/races/bugbear-erlw.md)  
-- [Goblin](Інструменти%20ДМ/CLI/races/goblin-erlw.md)  
-- [Hobgoblin](Інструменти%20ДМ/CLI/races/hobgoblin-erlw.md)  
+- [Bugbear](Інструменти%20ДМ/CLI/races/bugbear-mpmm.md)  
+- [Goblin](Інструменти%20ДМ/CLI/races/goblin-mpmm.md)  
+- [Hobgoblin](Інструменти%20ДМ/CLI/races/hobgoblin-mpmm.md)  
 
 ## Half-Elves
 

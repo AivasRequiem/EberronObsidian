@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
@@ -10,11 +11,13 @@ tags:
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subclass/oath-of-devotion
+- ttrpg-cli/spell/subclass/order-domain
 - ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Bard
 - Bard (College of Lore)
 - Cleric
+- Cleric (Order Domain)
 - Paladin
 - Paladin (Oath of Devotion)
 aliases:
@@ -33,6 +36,6 @@ You create a magical zone that guards against deception in a 15-foot-radius Sphe
 
 An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.
 
-**Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Paladin (Oath of Devotion)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-devotion-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Paladin (Oath of Devotion)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-devotion-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Cleric (Order Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 343. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

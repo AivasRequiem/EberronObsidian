@@ -6,6 +6,7 @@ tags:
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/feat/artificer-initiate
 - ttrpg-cli/spell/feat/blessed-warrior
 - ttrpg-cli/spell/feat/druidic-warrior
 - ttrpg-cli/spell/feat/magic-initiate

@@ -3,9 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/feat/artificer-initiate
 - ttrpg-cli/spell/feat/blessed-warrior
 - ttrpg-cli/spell/feat/druidic-warrior
 - ttrpg-cli/spell/feat/magic-initiate

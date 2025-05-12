@@ -10,11 +10,13 @@ tags:
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/evoker
+- ttrpg-cli/spell/subclass/the-fathomless
 - ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Artificer
 - Bard
 - Sorcerer
+- Warlock (The Fathomless)
 - Wizard
 - Wizard (Evoker)
 aliases:
@@ -42,6 +44,6 @@ When you cast the spell and as a [Bonus Action](Інструменти%20ДМ/CL
 
 **Using a Higher-Level Spell Slot.** The damage of the Clenched Fist increases by `2d8` and the damage of the Grasping Hand increases by `2d6` for each spell slot level above 5.
 
-**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 246. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> (as "Arcane Hand") and the Free Rules (2024)*

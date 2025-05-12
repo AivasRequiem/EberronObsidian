@@ -236,57 +236,9 @@
               "icon": "lucide-file-text",
               "title": "pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free"
             }
-          },
-          {
-            "id": "15005d7329ba83da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Життя/Раси/Гноми.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Гноми"
-            }
-          },
-          {
-            "id": "171f12181dff9777",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Інструменти ДМ/CLI/bestiary/aberration/beholder-xmm.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "beholder-xmm"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -318,7 +270,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Glamerweave",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -351,7 +303,8 @@
               "title": "Вміст Журнал сесії 15"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -456,23 +409,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "65bc5aa12ce40832",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4dbd2f7bf66be6b9",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -501,17 +438,28 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "4dbd2f7bf66be6b9",
+  "active": "bff05a24f3880c1f",
   "lastOpenFiles": [
+    "Інструменти ДМ/CLI/books/eberron-rising-from-the-last-war/01-welcome-to-eberron.md",
+    "Життя/Раси/Гноми.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Джин Мосс.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Соларія.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Фіора д'Вадаліс.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Нікс.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Руна.md",
+    "Кампанії/Нові Герої/Персонажі гравців/Ксаріон Макар.md",
+    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
+    "Інструменти ДМ/CLI/books/eberron-rising-from-the-last-war/02-chapter-1-character-creation.md",
+    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
+    "Інструменти ДМ/CLI/tables/cults-of-the-dragon-below-npcs-cult-npcs-erlw.md",
+    "Інструменти ДМ/CLI/bestiary/aberration/beholder-xmm.md",
     "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-star-spawn-xphb.md",
     "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-slaad-xphb.md",
     "Інструменти ДМ/CLI/bestiary/aberration/aberrant-spirit-beholderkin-xphb.md",
     "Інструменти ДМ/CLI/bestiary/beast/ape-xmm.md",
     "Інструменти ДМ/CLI/bestiary/beast/allosaurus-xmm.md",
     "Інструменти ДМ/CLI/classes/artificer-alchemist-tce.md",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Інструменти ДМ/CLI",
-    "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "_ресурси/Фото/Персонажі/Яссів ір'Оескай.png",
     "Життя/НІПи/Кров Вол/Баззіліо.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
@@ -520,7 +468,6 @@
     "Кампанії/Нові Герої/Плани сесій/Сесія 19.md",
     "_ресурси/Фото/Персонажі/Валан Вірідан Вірреліс.png",
     "_ресурси/Фото/Персонажі/Ґарріт Томраан.png",
-    "Життя/Раси/Гноми.md",
     "_ресурси/Фото/Персонажі/ChatGPT Image 10 трав. 2025 р., 17_46_18.png",
     "_ресурси/Фото/Персонажі/ChatGPT Image 10 трав. 2025 р., 17_46_36.png",
     "Кампанії/Нові Герої/Журнали сесій/Журнал сесії 19.md",
@@ -529,17 +476,7 @@
     "_неоргнанізоване/баззіліо.webp.md",
     "_ресурси/Фото/Персонажі/Bassilio.png",
     "_ресурси/Фото/Персонажі/ChatGPT Image 10 трав. 2025 р., 02_33_32.png",
-    "Життя/Організації/Мечі Свободи.md",
-    "_неоргнанізоване/Гніздо Звіропогибелі.md",
-    "Атлас/Хорвейр/Елдинські хащі/Елдинські хащі.md",
-    "_неоргнанізоване/Сільбаран.md",
-    "_неоргнанізоване/Первородний.md",
-    "Життя/НІПи/Клинки/Лорд Клинків.md",
-    "_неоргнанізоване/Ондейр.md",
-    "Життя/НІПи/Кров Вол/Багряна Люція.md",
-    "Атлас/Хорвейр/Зіларґо/Золанберг.md",
     "_ресурси/pdfcoffee.com_eberron-rising-from-the-last-war-4-pdf-free.pdf",
-    "Атлас/Історія/Лікантропічний Погром.md",
     "Атлас/Історія",
     "_ресурси/Фото/Містицизм/wild_heart.png",
     "_ресурси/Фото/Містицизм/wild_heart.png.crdownload",

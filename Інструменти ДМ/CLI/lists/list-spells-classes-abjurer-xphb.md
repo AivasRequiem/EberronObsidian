@@ -29,6 +29,7 @@ aliases:
 - [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md "XPHB") at class level 3
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB") at class level 3
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB") at class level 3
+- [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE") at class level 3
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB") at class level 3
 - [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md "XPHB") at class level 3
 - [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB") at class level 3
@@ -48,6 +49,7 @@ aliases:
 ## 6th Level
 
 - [Contingency](Інструменти%20ДМ/CLI/spells/contingency-xphb.md "XPHB") at class level 3
+- [Fizban's Platinum Shield](Інструменти%20ДМ/CLI/spells/fizbans-platinum-shield-ftd.md "FTD") at class level 3
 - [Globe of Invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md "XPHB") at class level 3
 - [Guards and Wards](Інструменти%20ДМ/CLI/spells/guards-and-wards-xphb.md "XPHB") at class level 3
 

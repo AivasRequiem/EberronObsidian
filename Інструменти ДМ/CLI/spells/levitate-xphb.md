@@ -13,6 +13,7 @@ tags:
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/college-of-lore
 - ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subrace/genasi-air
 - ttrpg-cli/spell/subrace/half-elf-mark-of-storm
 classes:
 - Artificer

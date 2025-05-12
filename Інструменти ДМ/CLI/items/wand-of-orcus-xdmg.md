@@ -18,7 +18,7 @@ aliases:
 - **Damage**: 1d6 bludgeoning
 - **Weight**: 4.0 lbs.
 
-Crafted and wielded by Orcus, this ghastly wand slips from the demon lord's grasp from time to time. When it does, it magically appears wherever the demon lord senses an opportunity to achieve some fell goal.
+Crafted and wielded by [Orcus](Інструменти%20ДМ/CLI/bestiary/npc/orcus-mpmm.md), this ghastly wand slips from the demon lord's grasp from time to time. When it does, it magically appears wherever the demon lord senses an opportunity to achieve some fell goal.
 
 The wand is topped with a skull that once belonged to a human hero slain by Orcus. The wand can magically change in size to better conform to the grip of its user. All Holy Water within 10 feet of the wand is destroyed.
 
