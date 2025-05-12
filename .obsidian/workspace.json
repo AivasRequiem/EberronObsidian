@@ -460,11 +460,50 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "568c389648cb3f29",
+  "floating": {
+    "id": "215f14adaa47a385",
+    "type": "floating",
+    "children": [
+      {
+        "id": "42e3207e4bcc5727",
+        "type": "window",
+        "children": [
+          {
+            "id": "0de425093f4fda85",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "914ef5c3ee1af563",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/javalent/fantasy-statblocks",
+                    "title": "GitHub - javalent/fantasy-statblocks: Create Dungeons and Dragons style statblocks for Obsidian.md",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - javalent/fantasy-statblocks: Create Dungeons and Dragons style statblocks for Obsidian.md"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "914ef5c3ee1af563",
   "lastOpenFiles": [
+    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Атлас/Хорвейр/Бреландія/Зандрар/Зандрар.md",
     "_ресурси/Фото/Персонажі/Яссів ір'Оескай.png",
-    "Кампанії/Нові Герої/Плани сесій/Сесія 20.md",
     "Життя/НІПи/Кров Вол/Баззіліо.md",
     "Життя/НІПи/Елдинські Хащі/Оаліан.md",
     "_ресурси/Фото/Персонажі/Фейн Сівалор.png",
