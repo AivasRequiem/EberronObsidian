@@ -1,0 +1,191 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-note
+tags:
+- ttrpg-cli/spell/list/class/sorcerer
+aliases:
+- Sorcerer Spells
+---
+# Sorcerer Spells
+
+## Cantrip
+
+- [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB")
+- [Blade Ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md "XPHB")
+- [Chill Touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md "XPHB")
+- [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB")
+- [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB")
+- [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB")
+- [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB")
+- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE")
+- [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB")
+- [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
+- [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB")
+- [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB")
+- [Mind Sliver](Інструменти%20ДМ/CLI/spells/mind-sliver-xphb.md "XPHB")
+- [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md "XPHB")
+- [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB")
+- [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md "XPHB")
+- [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB")
+- [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB")
+- [Sorcerous Burst](Інструменти%20ДМ/CLI/spells/sorcerous-burst-xphb.md "XPHB")
+- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB")
+- [True Strike](Інструменти%20ДМ/CLI/spells/true-strike-xphb.md "XPHB")
+
+## 1st Level
+
+- [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB")
+- [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB")
+- [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB")
+- [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB")
+- [Comprehend Languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md "XPHB")
+- [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
+- [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB")
+- [Expeditious Retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md "XPHB")
+- [False Life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md "XPHB")
+- [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md "XPHB")
+- [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md "XPHB")
+- [Grease](Інструменти%20ДМ/CLI/spells/grease-xphb.md "XPHB")
+- [Ice Knife](Інструменти%20ДМ/CLI/spells/ice-knife-xphb.md "XPHB")
+- [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md "XPHB")
+- [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md "XPHB")
+- [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md "XPHB")
+- [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md "XPHB")
+- [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md "XPHB")
+- [Silent Image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md "XPHB")
+- [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md "XPHB")
+- [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB")
+- [Witch Bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md "XPHB")
+
+## 2nd Level
+
+- [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md "XPHB")
+- [Arcane Vigor](Інструменти%20ДМ/CLI/spells/arcane-vigor-xphb.md "XPHB")
+- [Blindness/Deafness](Інструменти%20ДМ/CLI/spells/blindness-deafness-xphb.md "XPHB")
+- [Blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md "XPHB")
+- [Cloud of Daggers](Інструменти%20ДМ/CLI/spells/cloud-of-daggers-xphb.md "XPHB")
+- [Crown of Madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md "XPHB")
+- [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md "XPHB")
+- [Darkvision](Інструменти%20ДМ/CLI/spells/darkvision-xphb.md "XPHB")
+- [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md "XPHB")
+- [Dragon's Breath](Інструменти%20ДМ/CLI/spells/dragons-breath-xphb.md "XPHB")
+- [Enhance Ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md "XPHB")
+- [Enlarge/Reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md "XPHB")
+- [Flame Blade](Інструменти%20ДМ/CLI/spells/flame-blade-xphb.md "XPHB")
+- [Flaming Sphere](Інструменти%20ДМ/CLI/spells/flaming-sphere-xphb.md "XPHB")
+- [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB")
+- [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md "XPHB")
+- [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md "XPHB")
+- [Knock](Інструменти%20ДМ/CLI/spells/knock-xphb.md "XPHB")
+- [Levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md "XPHB")
+- [Magic Weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md "XPHB")
+- [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md "XPHB")
+- [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB")
+- [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md "XPHB")
+- [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
+- [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB")
+- [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
+- [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
+- [Spider Climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md "XPHB")
+- [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md "XPHB")
+- [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md "XPHB")
+
+## 3rd Level
+
+- [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
+- [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md "XPHB")
+- [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md "XPHB")
+- [Daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md "XPHB")
+- [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
+- [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md "XPHB")
+- [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md "XPHB")
+- [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md "XPHB")
+- [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md "XPHB")
+- [Haste](Інструменти%20ДМ/CLI/spells/haste-xphb.md "XPHB")
+- [Hypnotic Pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md "XPHB")
+- [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md "XPHB")
+- [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md "XPHB")
+- [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB")
+- [Sleet Storm](Інструменти%20ДМ/CLI/spells/sleet-storm-xphb.md "XPHB")
+- [Slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md "XPHB")
+- [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB")
+- [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md "XPHB")
+- [Vampiric Touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md "XPHB")
+- [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md "XPHB")
+- [Water Walk](Інструменти%20ДМ/CLI/spells/water-walk-xphb.md "XPHB")
+
+## 4th Level
+
+- [Banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md "XPHB")
+- [Blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md "XPHB")
+- [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB")
+- [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md "XPHB")
+- [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md "XPHB")
+- [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md "XPHB")
+- [Fire Shield](Інструменти%20ДМ/CLI/spells/fire-shield-xphb.md "XPHB")
+- [Greater Invisibility](Інструменти%20ДМ/CLI/spells/greater-invisibility-xphb.md "XPHB")
+- [Ice Storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md "XPHB")
+- [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md "XPHB")
+- [Stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md "XPHB")
+- [Vitriolic Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md "XPHB")
+- [Wall of Fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md "XPHB")
+
+## 5th Level
+
+- [Animate Objects](Інструменти%20ДМ/CLI/spells/animate-objects-xphb.md "XPHB")
+- [Bigby's Hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md "XPHB")
+- [Cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md "XPHB")
+- [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md "XPHB")
+- [Creation](Інструменти%20ДМ/CLI/spells/creation-xphb.md "XPHB")
+- [Dominate Person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md "XPHB")
+- [Hold Monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md "XPHB")
+- [Insect Plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md "XPHB")
+- [Seeming](Інструменти%20ДМ/CLI/spells/seeming-xphb.md "XPHB")
+- [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB")
+- [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md "XPHB")
+- [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md "XPHB")
+- [Teleportation Circle](Інструменти%20ДМ/CLI/spells/teleportation-circle-xphb.md "XPHB")
+- [Wall of Stone](Інструменти%20ДМ/CLI/spells/wall-of-stone-xphb.md "XPHB")
+
+## 6th Level
+
+- [Arcane Gate](Інструменти%20ДМ/CLI/spells/arcane-gate-xphb.md "XPHB")
+- [Chain Lightning](Інструменти%20ДМ/CLI/spells/chain-lightning-xphb.md "XPHB")
+- [Circle of Death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md "XPHB")
+- [Disintegrate](Інструменти%20ДМ/CLI/spells/disintegrate-xphb.md "XPHB")
+- [Eyebite](Інструменти%20ДМ/CLI/spells/eyebite-xphb.md "XPHB")
+- [Flesh to Stone](Інструменти%20ДМ/CLI/spells/flesh-to-stone-xphb.md "XPHB")
+- [Globe of Invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md "XPHB")
+- [Mass Suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md "XPHB")
+- [Move Earth](Інструменти%20ДМ/CLI/spells/move-earth-xphb.md "XPHB")
+- [Otiluke's Freezing Sphere](Інструменти%20ДМ/CLI/spells/otilukes-freezing-sphere-xphb.md "XPHB")
+- [Sunbeam](Інструменти%20ДМ/CLI/spells/sunbeam-xphb.md "XPHB")
+- [True Seeing](Інструменти%20ДМ/CLI/spells/true-seeing-xphb.md "XPHB")
+
+## 7th Level
+
+- [Delayed Blast Fireball](Інструменти%20ДМ/CLI/spells/delayed-blast-fireball-xphb.md "XPHB")
+- [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md "XPHB")
+- [Finger of Death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md "XPHB")
+- [Fire Storm](Інструменти%20ДМ/CLI/spells/fire-storm-xphb.md "XPHB")
+- [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md "XPHB")
+- [Prismatic Spray](Інструменти%20ДМ/CLI/spells/prismatic-spray-xphb.md "XPHB")
+- [Reverse Gravity](Інструменти%20ДМ/CLI/spells/reverse-gravity-xphb.md "XPHB")
+- [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md "XPHB")
+
+## 8th Level
+
+- [Demiplane](Інструменти%20ДМ/CLI/spells/demiplane-xphb.md "XPHB")
+- [Dominate Monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md "XPHB")
+- [Earthquake](Інструменти%20ДМ/CLI/spells/earthquake-xphb.md "XPHB")
+- [Incendiary Cloud](Інструменти%20ДМ/CLI/spells/incendiary-cloud-xphb.md "XPHB")
+- [Power Word Stun](Інструменти%20ДМ/CLI/spells/power-word-stun-xphb.md "XPHB")
+- [Sunburst](Інструменти%20ДМ/CLI/spells/sunburst-xphb.md "XPHB")
+
+## 9th Level
+
+- [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md "XPHB")
+- [Meteor Swarm](Інструменти%20ДМ/CLI/spells/meteor-swarm-xphb.md "XPHB")
+- [Power Word Kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md "XPHB")
+- [Time Stop](Інструменти%20ДМ/CLI/spells/time-stop-xphb.md "XPHB")
+- [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md "XPHB")
