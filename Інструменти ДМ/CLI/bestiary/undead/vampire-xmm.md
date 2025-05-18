@@ -154,21 +154,10 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
       \ willing recipient of the vampire's Bite, the damage of which doesn't end the\
       \ spell. When the spell ends, the target is unaware it was Charmed by the vampire.\n"
     "name": "Charm (Recharge 5-6)"
-  - "desc": "The vampire casts [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
-      \ requiring no spell components and using Charisma as the spellcasting ability\
-      \ (spell save DC 17). The vampire can't take this action again until the start\
-      \ of its next turn.\n"
-    "name": "Beguile"
 "legendary_actions":
   - "desc": "The vampire moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Grave Strike attack."
     "name": "Deathless Strike"
-  - "desc": "The vampire casts [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
-      \ requiring no spell components and using Charisma as the spellcasting ability\
-      \ (spell save DC 17), and the duration is 24 hours. The Charmed target is a\
-      \ willing recipient of the vampire's Bite, the damage of which doesn't end the\
-      \ spell. When the spell ends, the target is unaware it was Charmed by the vampire.\n"
-    "name": "Charm (Recharge 5-6)"
   - "desc": "The vampire casts [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
       \ requiring no spell components and using Charisma as the spellcasting ability\
       \ (spell save DC 17). The vampire can't take this action again until the start\
@@ -189,7 +178,7 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
       \ of the lair is [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md)\
       \ by a persistent, creeping fog. The vampire and any creatures of its choice\
       \ are unaffected by the fog.  "
-    "name": ""
+    "name": "Effects"
   - "desc": "If the vampire dies or moves its lair elsewhere, these effects end immediately."
     "name": ""
 "source":
