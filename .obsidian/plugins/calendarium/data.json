@@ -977,7 +977,7 @@
   "dailyNotes": false,
   "dateFormat": "YYYY-MM-DD",
   "defaultCalendar": "ID_d8bbdbca793a",
-  "eventPreview": false,
+  "eventPreview": true,
   "exit": {
     "saving": false,
     "event": false,
