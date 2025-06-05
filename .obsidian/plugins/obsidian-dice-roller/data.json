@@ -104,6 +104,20 @@
       "resultText": "1d28\n[15]",
       "timestamp": 1737673948034,
       "id": "OGTAY00KfHRe"
+    },
+    {
+      "result": "3",
+      "original": "1d10",
+      "resultText": "1d10\n[3]",
+      "timestamp": 1749157034484,
+      "id": "k4pFj3QEpxpv"
+    },
+    {
+      "result": "8",
+      "original": "1d10",
+      "resultText": "1d10\n[8]",
+      "timestamp": 1749157086861,
+      "id": "NbbAAM01EjIn"
     }
   ],
   "showDice": true
