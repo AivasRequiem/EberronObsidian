@@ -279,7 +279,7 @@
             "timestamp": 5e-324,
             "order": "*-00-13"
           },
-          "type": "Date"
+          "type": "Recurring"
         },
         {
           "name": "Зимове сонцестояння",
@@ -299,7 +299,7 @@
             "timestamp": 5e-324,
             "order": "*-00-14"
           },
-          "type": "Date"
+          "type": "Recurring"
         },
         {
           "name": "Переддень Переродження - Срібне полум'я",
@@ -319,7 +319,7 @@
             "timestamp": 5e-324,
             "order": "*-00-14"
           },
-          "type": "Date"
+          "type": "Recurring"
         },
         {
           "name": "Тейн Гала - Шарн",
