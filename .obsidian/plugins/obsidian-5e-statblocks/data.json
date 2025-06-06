@@ -2811,6 +2811,212 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Faenror, Verdant Fang",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Fey Wolf Guardian.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Faenror, Verdant Fang",
+        "size": "Large",
+        "type": "fey",
+        "subtype": null,
+        "alignment": "chaotic neutral",
+        "ac": 16,
+        "hp": 110,
+        "hit_dice": "13d10",
+        "speed": "50 ft.",
+        "stats": [
+          20,
+          16,
+          18,
+          10,
+          16,
+          14
+        ],
+        "saves": [
+          {
+            "dexterity": 6
+          },
+          {
+            "constitution": 7
+          },
+          {
+            "wisdom": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 9
+          },
+          {
+            "stealth": 7
+          },
+          {
+            "survival": 7
+          }
+        ],
+        "senses": "darkvision 120 ft., truesight 30 ft., passive Perception 19",
+        "languages": "Sylvan, Druidic",
+        "damage_resistances": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "charmed, poisoned",
+        "cr": 6,
+        "traits": [
+          {
+            "name": "Fey Resilience",
+            "desc": "Faenror has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Madness of the Lost Grove",
+            "desc": "At the start of Faenror’s turn, he must make a DC 14 Wisdom saving throw. On a failure, he has advantage on attack rolls against the nearest creature until the end of his turn."
+          },
+          {
+            "name": "Guardian’s Vigil",
+            "desc": "While in forest terrain, Faenror regains 10 hit points at the start of his turn if he has at least 1 hit point and hasn’t taken fire damage since his last turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Faenror makes two Bite attacks."
+          },
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+          },
+          {
+            "name": "Verdant Fury (Recharge 5–6)",
+            "desc": "Roots and vines lash out from the earth in a 20-foot radius centered on Faenror. Each creature of his choice in the area must succeed on a DC 16 Strength saving throw or take 17 (5d6) piercing damage and become restrained until the end of their next turn. On a success, they take half damage and are not restrained."
+          },
+          {
+            "name": "Blooming Howl (1/day)",
+            "desc": "Faenror unleashes a haunting howl imbued with fey magic. Each humanoid creature within 60 feet that can hear him must succeed on a DC 16 Wisdom saving throw or be charmed until the end of their next turn. While charmed this way, a creature is incapacitated and spends its turn smiling peacefully at the canopy."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Hunter’s Instincts (Recharge 6)",
+            "desc": "Until the start of his next turn, Faenror gains truesight 60 ft. and can detect invisible or hidden creatures within 30 feet."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Gwynevel, Bloom-Touched Stag",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Eldritch Forest Guardian.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Gwynevel, Bloom-Touched Stag",
+        "size": "Huge",
+        "type": "fey",
+        "subtype": null,
+        "alignment": "neutral",
+        "ac": 17,
+        "hp": 145,
+        "hit_dice": "17d10",
+        "speed": "40 ft.",
+        "stats": [
+          20,
+          14,
+          18,
+          16,
+          20,
+          18
+        ],
+        "saves": [
+          {
+            "wisdom": 8
+          },
+          {
+            "constitution": 7
+          },
+          {
+            "intelligence": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "insight": 8
+          },
+          {
+            "nature": 8
+          },
+          {
+            "arcana": 7
+          },
+          {
+            "perception": 8
+          }
+        ],
+        "senses": "truesight 120 ft., passive Perception 18",
+        "languages": "Common, Sylvan, Elvish, Telepathy 120 ft.",
+        "damage_resistances": "cold, lightning, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "charmed, frightened, poisoned",
+        "cr": 8,
+        "traits": [
+          {
+            "name": "Fey Resilience",
+            "desc": "Gwynevel has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Spirit of the Grove",
+            "desc": "While in natural terrain, Gwynevel is under the effects of the *sanctuary* spell (DC 16) and can’t be surprised."
+          },
+          {
+            "name": "Aura of Verdant Grace",
+            "desc": "While Gwynevel is conscious, she emits a calming aura in a 30-foot radius. Friendly creatures in the aura regain 3 hit points at the start of their turn if they have at least 1 HP and have advantage on saving throws against being charmed or frightened."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Gwynevel makes two Verdant Antlers attacks."
+          },
+          {
+            "name": "Verdant Antlers",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed 10 feet and knocked prone."
+          },
+          {
+            "name": "Bloom of Stillness (Recharge 5–6)",
+            "desc": "Each creature of Gwynevel’s choice in a 30-foot radius must succeed on a DC 16 Wisdom saving throw or be charmed until the end of their next turn. A creature charmed this way regards Gwynevel as a beloved protector and is unwilling to attack or move away from her."
+          },
+          {
+            "name": "Seed of Submission",
+            "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one creature. Hit: The target must succeed on a DC 16 Charisma saving throw or be incapacitated until the end of its next turn as visions of roots and vines pulling them into the earth overwhelm their mind."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Verdant Rebuke",
+            "desc": "When Gwynevel is hit by an attack, spectral brambles lash out at the attacker. The attacker must succeed on a DC 16 Dexterity saving throw or take 10 (3d6) piercing damage and be restrained until the end of their next turn."
+          }
+        ],
+        "spells": [
+          {
+            "Gwynevel is a 10th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). She has the following druid spells prepared": null
+          },
+          {
+            "Cantrips (at will)": "druidcraft, thorn whip, guidance"
+          },
+          {
+            "1st level (4 slots)": "entangle, charm person, cure wounds"
+          },
+          {
+            "2nd level (3 slots)": "calm emotions, hold person"
+          },
+          {
+            "3rd level (3 slots)": "plant growth, dispel magic"
+          },
+          {
+            "4th level (3 slots)": "dominate beast, confusion"
+          },
+          {
+            "5th level (2 slots)": "awaken"
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
