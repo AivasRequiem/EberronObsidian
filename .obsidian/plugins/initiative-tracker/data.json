@@ -252,7 +252,7 @@
     "creatures": [
       {
         "name": "Натаніель",
-        "initiative": 0,
+        "initiative": 6,
         "static": false,
         "modifier": 4,
         "hp": 51,
@@ -274,7 +274,7 @@
       },
       {
         "name": "Соларія",
-        "initiative": 0,
+        "initiative": 9,
         "static": false,
         "modifier": -1,
         "hp": 69,
@@ -296,7 +296,7 @@
       },
       {
         "name": "Креза",
-        "initiative": 0,
+        "initiative": 21,
         "static": false,
         "modifier": 1,
         "hp": 59,
@@ -318,7 +318,7 @@
       },
       {
         "name": "Даріус Сміф",
-        "initiative": 0,
+        "initiative": 21,
         "static": false,
         "modifier": 2,
         "hp": 50,
@@ -340,7 +340,7 @@
       },
       {
         "name": "Gwynevel, Bloom-Touched Stag",
-        "initiative": 17,
+        "initiative": 12,
         "static": false,
         "modifier": 2,
         "hp": 145,
@@ -348,7 +348,7 @@
         "cr": 8,
         "ac": 17,
         "currentAC": 17,
-        "id": "ID_1ad97a2a0b49",
+        "id": "ID_39d888d89b7a",
         "currentHP": 145,
         "tempHP": 0,
         "status": [],
@@ -361,7 +361,7 @@
       },
       {
         "name": "Faenror, Verdant Fang",
-        "initiative": 4,
+        "initiative": 19,
         "static": false,
         "modifier": 3,
         "hp": 110,
@@ -369,7 +369,7 @@
         "cr": 6,
         "ac": 16,
         "currentAC": 16,
-        "id": "ID_69d8385a5b08",
+        "id": "ID_3949ab596ac8",
         "currentHP": 110,
         "tempHP": 0,
         "status": [],
@@ -382,7 +382,7 @@
       },
       {
         "name": "Faenror, Verdant Fang",
-        "initiative": 8,
+        "initiative": 7,
         "static": false,
         "modifier": 3,
         "hp": 110,
@@ -390,7 +390,7 @@
         "cr": 6,
         "ac": 16,
         "currentAC": 16,
-        "id": "ID_f95a480b79b9",
+        "id": "ID_39abbae8c8ca",
         "currentHP": 110,
         "tempHP": 0,
         "status": [],
