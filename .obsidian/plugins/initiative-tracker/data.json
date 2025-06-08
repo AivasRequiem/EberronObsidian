@@ -373,9 +373,11 @@
         "ac": 16,
         "currentAC": 16,
         "id": "ID_39abbae8c8ca",
-        "currentHP": 66,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
