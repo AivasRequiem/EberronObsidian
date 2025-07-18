@@ -3,8 +3,29 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1749150156331,
-      "markers": [],
+      "lastAccessed": 1751755026585,
+      "markers": [
+        {
+          "id": "ID_985849382819",
+          "type": "default",
+          "loc": [
+            1155.6666564941406,
+            940.6666870117188
+          ],
+          "link": "Вель'юріт",
+          "layer": "%5B%5BMap%20of%20Khorvaire%20-%20Eberron%20-%20DM%20vers.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            12040.53359375,
+            -23488.22142967902
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
       "overlays": [],
       "shapes": [
         {
@@ -57,6 +78,7 @@
         }
       ],
       "files": [
+        "Атлас/Хорвейр/Карта Хорвейру (гравців).md",
         "Атлас/Хорвейр/Карта Хорвейру.md"
       ]
     }

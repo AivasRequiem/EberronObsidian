@@ -3017,6 +3017,378 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Nightcap",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Nightcap.png<STATBLOCK-WIKI-LINK>",
+        "name": "Nightcap",
+        "size": "Large",
+        "type": "fey",
+        "subtype": null,
+        "alignment": "true neutral",
+        "ac": "18 (natural armor)",
+        "hp": 207,
+        "hit_dice": "18d10+108",
+        "speed": "30 ft.",
+        "stats": [
+          20,
+          14,
+          22,
+          8,
+          14,
+          6
+        ],
+        "saves": [
+          {
+            "constitution": 10
+          },
+          {
+            "wisdom": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 8
+          },
+          {
+            "stealth": 8
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 18",
+        "languages": "Sylvan",
+        "damage_resistances": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "poisoned",
+        "cr": 11,
+        "traits": [
+          {
+            "name": "Ethereal Traveler",
+            "desc": "As a bonus action (see **Ethereal Shift**), the nightcap can step into the Ethereal Plane. While ethereal it is invisible and can see and attack creatures on the Material (or Fey) Plane, though it can’t be targeted from there. It returns to the plane it left at the start of its next turn or when it uses Ethereal Shift again."
+          },
+          {
+            "name": "Night Cap",
+            "desc": "Magical dim light fills the area within 10 ft. of the nightcap, snuffing out nonmagical light in that radius."
+          },
+          {
+            "name": "Full of Spores",
+            "desc": "A creature that touches the nightcap or hits it with a melee attack while within 5 ft. of it takes 10 (3d6) poison damage."
+          },
+          {
+            "name": "Magic Weapons",
+            "desc": "The nightcap’s weapon attacks are magical."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The nightcap makes three Slam attacks."
+          },
+          {
+            "name": "Slam",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 7 (2d6) poison damage."
+          },
+          {
+            "name": "Spore Bomb (Recharge 5–6)",
+            "desc": "The nightcap shakes its cap, releasing a cloud of virulent spores in a 20-ft. radius centered on itself. Creatures in the area must make a DC 18 Constitution save, taking 36 (8d8) poison damage on a failed save or half as much on a success. A creature that fails is **poisoned** for 1 minute. A poisoned creature repeats the save at the end of each of its turns, ending the effect on a success."
+          },
+          {
+            "name": "Leeching Shadow (Recharge 4–6)",
+            "desc": "The nightcap lashes out with its shifting silhouette at one creature it can see within 15 ft. The target must make a DC 18 Constitution save, taking 27 (6d8) necrotic damage on a failed save, or half as much on a success. On a failed save the target’s hit-point maximum is reduced by an amount equal to the necrotic damage taken, and the nightcap regains hit points equal to that amount. The reduction lasts until the target finishes a long rest."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Ethereal Shift (Recharge 4–6)",
+            "desc": "The nightcap enters or leaves the Ethereal Plane as described in **Ethereal Traveler**."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Flicker Away",
+            "desc": "When the nightcap is hit by an attack it can see, it halves the damage taken and teleports up to 15 ft. to an unoccupied space it can see."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Terror",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Terror.png<STATBLOCK-WIKI-LINK>",
+        "name": "Terror",
+        "size": "Large",
+        "type": "fey",
+        "subtype": "shapechanger",
+        "alignment": "neutral evil",
+        "ac": "15 (natural armor)",
+        "hp": 102,
+        "hit_dice": "12d10+36",
+        "speed": "35 ft., climb 35 ft.",
+        "stats": [
+          16,
+          14,
+          17,
+          8,
+          16,
+          12
+        ],
+        "saves": [
+          {
+            "wisdom": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "insight": 5
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 13",
+        "languages": "Sylvan",
+        "damage_resistances": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "frightened",
+        "cr": 4,
+        "traits": [
+          {
+            "name": "Horrific Shifting",
+            "desc": "As a bonus action, the terror magically alters its form (see below), becoming Small, Medium, or Large and adopting any appearance it desires. It retains its statistics other than size. The change ends if the terror dies or uses this trait again."
+          },
+          {
+            "name": "Fear Sense",
+            "desc": "The terror knows the specific phobias of any creature within 120 ft. of it. It has advantage on attack rolls against a creature that is frightened."
+          },
+          {
+            "name": "Nightmare Reflection",
+            "desc": "A non-Fey creature that looks into the terror’s oily body for more than a moment must succeed on a DC 14 Wisdom saving throw or have disadvantage on its next saving throw. If it succeeds by 5 or more, it instead gains advantage on its next Wisdom saving throw."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The terror makes two attacks of the following types in any combination: Lash Out and Syphon Fear."
+          },
+          {
+            "name": "Lash Out",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage."
+          },
+          {
+            "name": "Syphon Fear",
+            "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit: 16 (3d8 + 3) psychic damage, and the terror gains temporary hit points equal to half the damage dealt."
+          },
+          {
+            "name": "Terrify (Recharge 5–6)",
+            "desc": "The terror bombards one creature it can see within 60 ft. with nightmarish visions. The target must make a DC 14 Wisdom saving throw, taking 18 (4d8) psychic damage on a failed save, or half as much on a success. On a failure, the target is **frightened** of the terror for up to 10 minutes. A frightened target repeats the saving throw at the end of each of its turns, ending the effect on a success. The save is made with disadvantage if the terror is currently shaped as something the target fears."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Horrific Shifting",
+            "desc": "The terror uses Horrific Shifting."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Flicker of Dread",
+            "desc": "When the terror is hit by an attack it can see, it halves the attack’s damage against it and teleports up to 15 ft. to an unoccupied space it can see."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Pleasantry",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Pleasantry.jpg<STATBLOCK-WIKI-LINK>",
+        "name": "Pleasantry",
+        "size": "Tiny",
+        "type": "fey",
+        "alignment": "true neutral",
+        "ac": "14 (natural armor)",
+        "hp": 27,
+        "hit_dice": "6d4+6",
+        "speed": "30 ft., fly 50 ft.",
+        "stats": [
+          4,
+          18,
+          12,
+          8,
+          16,
+          15
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 6
+          },
+          {
+            "perception": 5
+          },
+          {
+            "stealth": 6
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 15",
+        "languages": "Common, Sylvan",
+        "damage_resistances": "psychic",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Wakeful",
+            "desc": "The pleasantry can’t be put to sleep by magical or non-magical means."
+          },
+          {
+            "name": "Ethereal Traveler",
+            "desc": "While on the Material or Fey Plane, the pleasantry can see creatures on the Ethereal Plane, and vice versa."
+          },
+          {
+            "name": "Save the Queen",
+            "desc": "When the Pleasantry Queen is targeted by an attack and the pleasantry is within 5 ft. of either the queen or the attacker, the pleasantry can use its reaction to become the new target."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Stinger",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage, and the pleasantry regains hit points equal to half the damage dealt (rounded up)."
+          },
+          {
+            "name": "Sleep (1/Day)",
+            "desc": "The pleasantry casts *sleep* at 2nd level (spell save DC 13)."
+          },
+          {
+            "name": "Royal Sacrifice",
+            "desc": "The pleasantry sacrifices itself, immediately dying. The Pleasantry Queen can then roll one of her Hit Dice, regardless of whether she has any left, and regain a number of hit points equal to the roll."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Pleasantry Queen",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Pleasantry Queen.png<STATBLOCK-WIKI-LINK>",
+        "name": "Pleasantry Queen",
+        "size": "Medium",
+        "type": "fey",
+        "subtype": null,
+        "alignment": "true neutral",
+        "ac": "18 (natural armor)",
+        "hp": 168,
+        "hit_dice": "24d8+72",
+        "speed": "30 ft., fly 50 ft.",
+        "stats": [
+          10,
+          20,
+          16,
+          13,
+          18,
+          16
+        ],
+        "saves": [
+          {
+            "dexterity": 9
+          },
+          {
+            "constitution": 7
+          },
+          {
+            "wisdom": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 9
+          },
+          {
+            "insight": 8
+          },
+          {
+            "perception": 8
+          },
+          {
+            "persuasion": 7
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 18",
+        "languages": "Common, Sylvan",
+        "damage_resistances": "psychic",
+        "cr": 11,
+        "traits": [
+          {
+            "name": "Wakeful",
+            "desc": "The queen can’t be put to sleep by magical or non-magical means."
+          },
+          {
+            "name": "Ethereal Traveler",
+            "desc": "While on the Material or Fey Plane, the queen can see creatures on the Ethereal Plane and vice-versa."
+          },
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If the queen fails a saving throw, she can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The queen makes two Stinger attacks."
+          },
+          {
+            "name": "Stinger",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 26 (3d8 + 5 plus 2d6) piercing and psychic damage, and the queen regains hit points equal to half the damage dealt."
+          },
+          {
+            "name": "Dreamflare Bolt (Recharge 5–6)",
+            "desc": "The queen hurls condensed nightmare energy at a creature she can see within 60 ft. The target must make a DC 17 Wisdom saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much on a success."
+          },
+          {
+            "name": "Siphon Rest",
+            "desc": "The queen targets a sleeping creature within 30 ft. and rolls one of her Hit Dice, regaining that many hit points. A creature that has its rest siphoned three times before finishing a long rest dies."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Ethereal Jump (Recharge 4–6)",
+            "desc": "The queen shifts into the Ethereal Plane until the start of her next turn, becoming invisible and untargetable from the plane she left."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shimmer Step",
+            "desc": "When the queen is hit by an attack she can see, she halves the attack’s damage and teleports up to 15 ft. to an unoccupied space she can see."
+          }
+        ],
+        "spells": [
+          "The Pleasantry Queen casts one of the following spells, requiring no material components and using Wisdom as her spellcasting ability (spell save DC 15, +7 to hit with spell attacks)",
+          {
+            "At will": "color spray, druidcraft, dancing lights"
+          },
+          {
+            "3/day each": "sleep, gust of wind, healing word"
+          },
+          {
+            "2/day each": "hypnotic pattern, dispel magic"
+          },
+          {
+            "1/day each": "dominate person, moonbeam (4th-level)"
+          }
+        ],
+        "lair_actions": [
+          {
+            "name": "Double Siphon",
+            "desc": "The queen uses **Siphon Rest** on up to two different sleeping creatures."
+          },
+          {
+            "name": "Blinding Pollen",
+            "desc": "Poppies release thick pollen. Until the next initiative count 20, creatures hostile to the queen are **blinded** while in the lair. A strong gust of wind ends the effect in an area."
+          },
+          {
+            "name": "Entangling Roots",
+            "desc": "Flowering roots animate, turning the ground into difficult terrain for hostile creatures until the next initiative count 20."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
