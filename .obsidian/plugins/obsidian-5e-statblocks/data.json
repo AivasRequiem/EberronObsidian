@@ -3122,9 +3122,9 @@
         "type": "fey",
         "subtype": "shapechanger",
         "alignment": "neutral evil",
-        "ac": "15 (natural armor)",
-        "hp": 102,
-        "hit_dice": "12d10+36",
+        "ac": "16 (natural armor)",
+        "hp": 93,
+        "hit_dice": "11d10+33",
         "speed": "35 ft., climb 35 ft.",
         "stats": [
           16,
@@ -3136,7 +3136,7 @@
         ],
         "saves": [
           {
-            "wisdom": 5
+            "wisdom": 6
           }
         ],
         "skillsaves": [
@@ -3148,7 +3148,7 @@
         "languages": "Sylvan",
         "damage_resistances": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
         "condition_immunities": "frightened",
-        "cr": 4,
+        "cr": 5,
         "traits": [
           {
             "name": "Horrific Shifting",
@@ -3160,7 +3160,7 @@
           },
           {
             "name": "Nightmare Reflection",
-            "desc": "A non-Fey creature that looks into the terror’s oily body for more than a moment must succeed on a DC 14 Wisdom saving throw or have disadvantage on its next saving throw. If it succeeds by 5 or more, it instead gains advantage on its next Wisdom saving throw."
+            "desc": "A non-Fey creature that looks into the terror’s oily body for more than a moment must succeed on a DC 15 Wisdom saving throw or have disadvantage on its next saving throw. If it succeeds by 5 or more, it instead gains advantage on its next Wisdom saving throw."
           }
         ],
         "actions": [
@@ -3170,15 +3170,15 @@
           },
           {
             "name": "Lash Out",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage."
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage. If the target is **frightened**, it takes an extra 3 (1d6) psychic damage."
           },
           {
             "name": "Syphon Fear",
-            "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit: 16 (3d8 + 3) psychic damage, and the terror gains temporary hit points equal to half the damage dealt."
+            "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit: 16 (3d8 + 3) psychic damage, and the terror gains temporary hit points equal to half the damage dealt."
           },
           {
             "name": "Terrify (Recharge 5–6)",
-            "desc": "The terror bombards one creature it can see within 60 ft. with nightmarish visions. The target must make a DC 14 Wisdom saving throw, taking 18 (4d8) psychic damage on a failed save, or half as much on a success. On a failure, the target is **frightened** of the terror for up to 10 minutes. A frightened target repeats the saving throw at the end of each of its turns, ending the effect on a success. The save is made with disadvantage if the terror is currently shaped as something the target fears."
+            "desc": "The terror bombards one creature it can see within 60 ft. with nightmarish visions. The target must make a DC 15 Wisdom saving throw, taking 22 (5d8) psychic damage on a failed save, or half as much on a success. On a failure, the target is **frightened** of the terror for up to 10 minutes. A frightened target repeats the saving throw at the end of each of its turns, ending the effect on a success. The save is made with disadvantage if the terror is currently shaped as something the target fears."
           }
         ],
         "bonus_actions": [
@@ -3193,7 +3193,104 @@
             "desc": "When the terror is hit by an attack it can see, it halves the attack’s damage against it and teleports up to 15 ft. to an unoccupied space it can see."
           }
         ],
-        "source": "Homebrew"
+        "source": "Homebrew",
+        "creature": {
+          "layout": "Basic 5e Layout",
+          "image": "<STATBLOCK-WIKI-LINK>Terror.png<STATBLOCK-WIKI-LINK>",
+          "name": "Terror",
+          "size": "Large",
+          "type": "fey",
+          "subtype": "shapechanger",
+          "alignment": "neutral evil",
+          "ac": "16 (natural armor)",
+          "hp": 93,
+          "hit_dice": "11d10+33",
+          "speed": "35 ft., climb 35 ft.",
+          "stats": [
+            16,
+            14,
+            17,
+            8,
+            16,
+            12
+          ],
+          "saves": [
+            {
+              "wisdom": 6
+            }
+          ],
+          "skillsaves": [
+            {
+              "insight": 5
+            }
+          ],
+          "senses": "darkvision 60 ft., passive Perception 13",
+          "languages": "Sylvan",
+          "damage_resistances": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+          "condition_immunities": "frightened",
+          "cr": 5,
+          "traits": [
+            {
+              "name": "Horrific Shifting",
+              "desc": "As a bonus action, the terror magically alters its form (see below), becoming Small, Medium, or Large and adopting any appearance it desires. It retains its statistics other than size. The change ends if the terror dies or uses this trait again."
+            },
+            {
+              "name": "Fear Sense",
+              "desc": "The terror knows the specific phobias of any creature within 120 ft. of it. It has advantage on attack rolls against a creature that is frightened."
+            },
+            {
+              "name": "Nightmare Reflection",
+              "desc": "A non-Fey creature that looks into the terror’s oily body for more than a moment must succeed on a DC 15 Wisdom saving throw or have disadvantage on its next saving throw. If it succeeds by 5 or more, it instead gains advantage on its next Wisdom saving throw."
+            }
+          ],
+          "actions": [
+            {
+              "name": "Multiattack",
+              "desc": "The terror makes two attacks of the following types in any combination: Lash Out and Syphon Fear."
+            },
+            {
+              "name": "Lash Out",
+              "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage. If the target is **frightened**, it takes an extra 3 (1d6) psychic damage."
+            },
+            {
+              "name": "Syphon Fear",
+              "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit: 16 (3d8 + 3) psychic damage, and the terror gains temporary hit points equal to half the damage dealt."
+            },
+            {
+              "name": "Terrify (Recharge 5–6)",
+              "desc": "The terror bombards one creature it can see within 60 ft. with nightmarish visions. The target must make a DC 15 Wisdom saving throw, taking 22 (5d8) psychic damage on a failed save, or half as much on a success. On a failure, the target is **frightened** of the terror for up to 10 minutes. A frightened target repeats the saving throw at the end of each of its turns, ending the effect on a success. The save is made with disadvantage if the terror is currently shaped as something the target fears."
+            }
+          ],
+          "bonus_actions": [
+            {
+              "name": "Horrific Shifting",
+              "desc": "The terror uses Horrific Shifting."
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Flicker of Dread",
+              "desc": "When the terror is hit by an attack it can see, it halves the attack’s damage against it and teleports up to 15 ft. to an unoccupied space it can see."
+            }
+          ],
+          "source": "Homebrew",
+          "modifier": 2
+        },
+        "modifier": 2,
+        "temp": 0,
+        "current_ac": "16 (natural armor)",
+        "dirty_ac": false,
+        "enabled": true,
+        "hidden": false,
+        "max": 93,
+        "current_max": 93,
+        "status": [],
+        "initiative": 0,
+        "static": false,
+        "id": "ID_0b996889dbfa",
+        "viewing": false,
+        "number": 0,
+        "friendly": false
       }
     ],
     [
@@ -3742,14 +3839,14 @@
       "diceParsing": []
     }
   ],
-  "default": "basic-5e-layout",
+  "default": "fa19a998ab98",
   "useDice": true,
   "renderDice": false,
   "export": true,
   "showAdvanced": true,
   "version": {
     "major": 4,
-    "minor": 9,
+    "minor": 10,
     "patch": 1
   },
   "paths": [
