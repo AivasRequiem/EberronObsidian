@@ -3109,7 +3109,114 @@
             "desc": "When the nightcap is hit by an attack it can see, it halves the damage taken and teleports up to 15 ft. to an unoccupied space it can see."
           }
         ],
-        "source": "Homebrew"
+        "source": "Homebrew",
+        "creature": {
+          "layout": "Basic 5e Layout",
+          "image": "<STATBLOCK-WIKI-LINK>Nightcap.png<STATBLOCK-WIKI-LINK>",
+          "name": "Nightcap",
+          "size": "Large",
+          "type": "fey",
+          "subtype": null,
+          "alignment": "true neutral",
+          "ac": "18 (natural armor)",
+          "hp": 207,
+          "hit_dice": "18d10+108",
+          "speed": "30 ft.",
+          "stats": [
+            20,
+            14,
+            22,
+            8,
+            14,
+            6
+          ],
+          "saves": [
+            {
+              "constitution": 10
+            },
+            {
+              "wisdom": 8
+            }
+          ],
+          "skillsaves": [
+            {
+              "perception": 8
+            },
+            {
+              "stealth": 8
+            }
+          ],
+          "senses": "darkvision 120 ft., passive Perception 18",
+          "languages": "Sylvan",
+          "damage_resistances": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+          "condition_immunities": "poisoned",
+          "cr": 11,
+          "traits": [
+            {
+              "name": "Ethereal Traveler",
+              "desc": "As a bonus action (see **Ethereal Shift**), the nightcap can step into the Ethereal Plane. While ethereal it is invisible and can see and attack creatures on the Material (or Fey) Plane, though it can’t be targeted from there."
+            },
+            {
+              "name": "Night Cap",
+              "desc": "Magical dim light fills the area within 10 ft. of the nightcap, snuffing out nonmagical light in that radius."
+            },
+            {
+              "name": "Full of Spores",
+              "desc": "A creature that touches the nightcap or hits it with a melee attack while within 5 ft. of it takes 10 (3d6) poison damage."
+            },
+            {
+              "name": "Magic Weapons",
+              "desc": "The nightcap’s weapon attacks are magical."
+            }
+          ],
+          "actions": [
+            {
+              "name": "Multiattack",
+              "desc": "The nightcap makes three Slam attacks."
+            },
+            {
+              "name": "Slam",
+              "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 7 (2d6) poison damage."
+            },
+            {
+              "name": "Spore Bomb (Recharge 5–6)",
+              "desc": "The nightcap shakes its cap, releasing a cloud of virulent spores in a 20-ft. radius centered on itself. Creatures in the area must make a DC 18 Constitution save, taking 36 (8d8) poison damage on a failed save or half as much on a success. A creature that fails is **poisoned** for 1 minute. A poisoned creature repeats the save at the end of each of its turns, ending the effect on a success."
+            },
+            {
+              "name": "Leeching Shadow (Recharge 4–6)",
+              "desc": "The nightcap lashes out with its shifting silhouette at one creature it can see within 15 ft. The target must make a DC 18 Constitution save, taking 27 (6d8) necrotic damage on a failed save, or half as much on a success. On a failed save the target’s hit-point maximum is reduced by an amount equal to the necrotic damage taken, and the nightcap regains hit points equal to that amount. The reduction lasts until the target finishes a long rest."
+            }
+          ],
+          "bonus_actions": [
+            {
+              "name": "Ethereal Shift (Recharge 4–6)",
+              "desc": "The nightcap enters or leaves the Ethereal Plane as described in **Ethereal Traveler**."
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Flicker Away",
+              "desc": "When the nightcap is hit by an attack it can see, it halves the damage taken and teleports up to 15 ft. to an unoccupied space it can see."
+            }
+          ],
+          "source": "Homebrew",
+          "modifier": 2
+        },
+        "modifier": 2,
+        "temp": 0,
+        "current_ac": "18 (natural armor)",
+        "dirty_ac": false,
+        "enabled": true,
+        "hidden": false,
+        "max": 207,
+        "current_max": 207,
+        "status": [],
+        "initiative": 0,
+        "static": false,
+        "id": "ID_6bb8bb5a08ab",
+        "viewing": false,
+        "number": 0,
+        "friendly": false
       }
     ],
     [
