@@ -3368,11 +3368,10 @@
         "name": "Pleasantry Queen",
         "size": "Medium",
         "type": "fey",
-        "subtype": null,
         "alignment": "true neutral",
         "ac": "18 (natural armor)",
-        "hp": 168,
-        "hit_dice": "24d8+72",
+        "hp": 210,
+        "hit_dice": "28d8+84",
         "speed": "30 ft., fly 50 ft.",
         "stats": [
           10,
@@ -3384,33 +3383,33 @@
         ],
         "saves": [
           {
-            "dexterity": 9
+            "dexterity": 10
           },
           {
-            "constitution": 7
+            "constitution": 8
           },
           {
-            "wisdom": 8
+            "wisdom": 9
           }
         ],
         "skillsaves": [
           {
-            "acrobatics": 9
+            "acrobatics": 10
           },
           {
-            "insight": 8
+            "insight": 9
           },
           {
-            "perception": 8
+            "perception": 9
           },
           {
-            "persuasion": 7
+            "persuasion": 8
           }
         ],
-        "senses": "darkvision 120 ft., passive Perception 18",
+        "senses": "darkvision 120 ft., passive Perception 19",
         "languages": "Common, Sylvan",
         "damage_resistances": "psychic",
-        "cr": 11,
+        "cr": 12,
         "traits": [
           {
             "name": "Wakeful",
@@ -3421,22 +3420,22 @@
             "desc": "While on the Material or Fey Plane, the queen can see creatures on the Ethereal Plane and vice-versa."
           },
           {
-            "name": "Legendary Resistance (2/Day)",
+            "name": "Legendary Resistance (3/Day)",
             "desc": "If the queen fails a saving throw, she can choose to succeed instead."
           }
         ],
         "actions": [
           {
             "name": "Multiattack",
-            "desc": "The queen makes two Stinger attacks."
+            "desc": "The queen makes two Stinger attacks or one Stinger attack and one Dreamflare Bolt."
           },
           {
             "name": "Stinger",
-            "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 26 (3d8 + 5 plus 2d6) piercing and psychic damage, and the queen regains hit points equal to half the damage dealt."
+            "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 30 (4d8 + 6 plus 2d8) piercing and psychic damage, and the queen regains hit points equal to half the damage dealt."
           },
           {
             "name": "Dreamflare Bolt (Recharge 5–6)",
-            "desc": "The queen hurls condensed nightmare energy at a creature she can see within 60 ft. The target must make a DC 17 Wisdom saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much on a success."
+            "desc": "The queen hurls condensed nightmare energy at a creature she can see within 60 ft. The target must make a DC 18 Wisdom saving throw, taking 45 (10d8) psychic damage on a failed save, or half as much on a success."
           },
           {
             "name": "Siphon Rest",
@@ -3456,7 +3455,7 @@
           }
         ],
         "spells": [
-          "The Pleasantry Queen casts one of the following spells, requiring no material components and using Wisdom as her spellcasting ability (spell save DC 15, +7 to hit with spell attacks)",
+          "The Pleasantry Queen casts one of the following spells, requiring no material components and using Wisdom as her spellcasting ability (spell save DC 18, +10 to hit with spell attacks)",
           {
             "At will": "color spray, druidcraft, dancing lights"
           },
@@ -3464,10 +3463,10 @@
             "3/day each": "sleep, gust of wind, healing word"
           },
           {
-            "2/day each": "hypnotic pattern, dispel magic"
+            "2/day each": "hypnotic pattern, dispel magic, greater invisibility"
           },
           {
-            "1/day each": "dominate person, moonbeam (4th-level)"
+            "1/day each": "dominate person, moonbeam (4th-level), wall of thorns"
           }
         ],
         "lair_actions": [
