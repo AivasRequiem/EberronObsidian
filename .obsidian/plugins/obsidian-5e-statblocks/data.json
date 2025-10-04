@@ -3592,6 +3592,124 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Eve",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Eve.png<STATBLOCK-WIKI-LINK>",
+        "name": "Eve",
+        "size": "Medium",
+        "type": "humanoid (augmented, construct)",
+        "subtype": null,
+        "alignment": "neutral",
+        "ac": 18,
+        "hp": 195,
+        "hit_dice": "23d8+92",
+        "speed": "35 ft., climb 20 ft., swim 20 ft.",
+        "stats": [
+          16,
+          18,
+          18,
+          10,
+          16,
+          18
+        ],
+        "saves": [
+          {
+            "dexterity": 8
+          },
+          {
+            "constitution": 8
+          },
+          {
+            "wisdom": 7
+          },
+          {
+            "charisma": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 7
+          },
+          {
+            "insight": 7
+          },
+          {
+            "perception": 7
+          },
+          {
+            "persuasion": 8
+          },
+          {
+            "stealth": 8
+          }
+        ],
+        "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 17",
+        "languages": "Common, telepathy 60 ft.",
+        "damage_resistances": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_immunities": "poison",
+        "condition_immunities": "charmed, frightened, poisoned",
+        "cr": 11,
+        "traits": [
+          {
+            "name": "Constructed Physiology",
+            "desc": "Eva doesn’t need to eat, drink, or breathe. She has advantage on saving throws against being poisoned, and she is immune to disease."
+          },
+          {
+            "name": "Lamanian Regeneration",
+            "desc": "While Eva is within natural vegetation, running water, or a manifest zone of Lamannia, she regains 10 hit points at the start of her turn. Fire damage prevents this regeneration until the start of her next turn."
+          },
+          {
+            "name": "Guardian of Adam",
+            "desc": "While within 30 feet of the stasis cradle known as Adam, Eva gains a +2 bonus to AC and saving throws."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Eva makes three Tendril Lash attacks."
+          },
+          {
+            "name": "Tendril Lash",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage plus 9 (2d8) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or be memory-hazed until the end of its next turn (it can’t make opportunity attacks and has disadvantage on Wisdom (Perception) and Intelligence checks)."
+          },
+          {
+            "name": "Grasp and Mend (Recharge 4–6)",
+            "desc": "One creature Eva can see within 30 feet must make a DC 16 Strength saving throw. On a failure, it is grappled (escape DC 16) and restrained by morphic tissue and living vines. While restrained this way, the target takes 13 (3d8) psychic damage at the start of each of its turns. The effect ends if Eva is incapacitated or if the target escapes."
+          },
+          {
+            "name": "Nemesis Pulse (Recharge 5–6)",
+            "desc": "Eva releases an audible psychic shock in a 30-foot cone. Each creature in the area that can hear her must make a DC 16 Wisdom saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much on a success. On a failed save, the creature is dazed until the end of its next turn (it can’t take reactions and can take either an action or a bonus action on its turn, not both). Creatures that can’t hear are unaffected."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shifting Skin",
+            "desc": "When Eva is hit by an attack, she reduces the damage by 10 (3d6) and can move up to 10 feet without provoking opportunity attacks."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Tendril",
+            "desc": "Eva makes one Tendril Lash attack."
+          },
+          {
+            "name": "Slide",
+            "desc": "Eva moves up to her speed without provoking opportunity attacks."
+          },
+          {
+            "name": "Nameless Echo (Costs 2 Actions)",
+            "desc": "One creature within 60 feet that has taken psychic damage since the start of Eva’s last turn must succeed on a DC 16 Wisdom saving throw or be charmed by Eva until the end of its next turn. While charmed in this way, the creature can’t willingly move closer to Adam’s cradle and can’t target Eva with attacks or harmful abilities."
+          },
+          {
+            "name": "Command the Created (Costs 2 Actions)",
+            "desc": "One allied construct or homunculus Eva can see within 60 feet can use its reaction to move up to half its speed or make one weapon attack."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
