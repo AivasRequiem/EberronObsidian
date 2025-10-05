@@ -12,7 +12,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/universal-solvent.webp#right)
 
 
-This tube holds milky liquid with a strong alcohol smell. When found, a tube contains `dice:1d6+1|noform|noparens|avg` (`1d6 + 1`) ounces.
+This tube holds milky liquid with a strong alcohol smell. When found, a tube contains `1d6 + 1` ounces.
 
 You can take a [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.
 

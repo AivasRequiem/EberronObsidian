@@ -45,21 +45,18 @@ aliases:
 "actions":
   - "desc": "Warwyck makes two Longsword or Musket attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
-      \ + 4) slashing damage, or dice:1d10+4|noform|noparens|avg|text(9) (1d10\
-      \ + 4) slashing damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
+      \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 40/120 ft., one target. Hit: dice:1d12+2|noform|noparens|avg|text(8)\
-      \ (1d12 + 2) piercing damage."
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit:\
+      \ 8 (1d12 + 2) piercing damage."
     "name": "Musket"
   - "desc": "Warwyck throws a grenade up to 60 feet, and the grenade explodes in a\
       \ 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity\
-      \ saving throw, taking dice:5d6|noform|noparens|avg|text(17) (5d6) force\
-      \ damage on a failed save, or half as much damage on a successful one. After\
-      \ Warwyck throws the grenade, roll a dice:d6|noform|noparens|avg (d6); on\
-      \ a roll of 4 or lower, Warwyck has no more grenades to throw."
+      \ saving throw, taking 17 (5d6) force damage on a failed save, or half as\
+      \ much damage on a successful one. After Warwyck throws the grenade, roll a\
+      \ d6; on a roll of 4 or lower, Warwyck has no more grenades to throw."
     "name": "Force Grenade"
 "source":
   - "LoX"

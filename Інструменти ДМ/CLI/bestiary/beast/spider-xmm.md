@@ -54,9 +54,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ knows the location of any other creature in contact with the same web."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: 1 Piercing damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ Poison damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus\
+      \ 2 (d4) Poison damage."
     "name": "Bite"
 "source":
   - "XMM"

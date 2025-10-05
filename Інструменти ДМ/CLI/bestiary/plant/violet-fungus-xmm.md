@@ -52,8 +52,7 @@ The dank, sunless Underdark is a fertile breeding ground for weird and dangerous
 "actions":
   - "desc": "The fungus makes two Rotting Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 10\
-      \ ft. Hit: dice:1d8|noform|noparens|avg|text(4) (d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: +2, reach 10 ft. Hit: 4 (d8) Necrotic damage."
     "name": "Rotting Touch"
 "source":
   - "XMM"

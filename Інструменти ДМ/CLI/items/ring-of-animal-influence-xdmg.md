@@ -13,7 +13,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/ring-of-animal-influence.webp#right)
 
 
-This ring has 3 charges, and it regains `dice:1d3|noform|noparens|avg` (`d3`) expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:
+This ring has 3 charges, and it regains `d3` expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:
 
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)  
 - [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) (affects Beasts only)  

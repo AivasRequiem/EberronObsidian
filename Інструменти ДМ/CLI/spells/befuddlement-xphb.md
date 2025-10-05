@@ -28,7 +28,7 @@ aliases:
 
 You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.
 
-On a failed save, the target takes `dice:10d12|noform|noparens|avg` (`10d12`) Psychic damage and can't cast spells or take the [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md), [Heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md), or [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell.
+On a failed save, the target takes `10d12` Psychic damage and can't cast spells or take the [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md), [Heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md), or [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell.
 
 On a successful save, the target takes half as much damage only.
 

@@ -53,15 +53,14 @@ Precognitive mages, a rarity among Azorius spellcasters, are capable of capturin
       \ object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md)"
     "name": "Innate Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+1|noform|noparens|text(+1) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6-1|noform|noparens|avg|text(2) (1d6\
-      \ - 1) bludgeoning damage, or dice:1d8-1|noform|noparens|avg|text(3) (1d8\
-      \ - 1) bludgeoning damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+      \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
+      \ with two hands."
     "name": "Quarterstaff"
   - "desc": "The mage targets one creature within 120 feet of it that it can see.\
-      \ The target takes dice:4d8|noform|noparens|avg|text(18) (4d8) psychic damage,\
-      \ and it must succeed on a DC 14 Intelligence saving throw or be [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) until the end of its next turn."
+      \ The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14\
+      \ Intelligence saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ until the end of its next turn."
     "name": "Glimpse the Temporal Flood (Recharge 5-6)"
 "reactions":
   - "desc": "When the mage or a creature it can see makes an attack roll, a saving\

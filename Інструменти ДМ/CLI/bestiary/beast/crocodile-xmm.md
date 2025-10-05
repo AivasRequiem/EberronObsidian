@@ -50,11 +50,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The crocodile can hold its breath for 1 hour."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12). While\
-      \ [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), the target\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12).\
+      \ While [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), the target\
       \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition."
     "name": "Bite"

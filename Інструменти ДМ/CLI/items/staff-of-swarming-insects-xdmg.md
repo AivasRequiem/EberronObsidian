@@ -38,6 +38,6 @@ While holding the staff, you can cast one of the spells on the following table f
 
 ## Regaining Charges
 
-The staff regains `dice:1d6+4|noform|noparens|avg` (`1d6 + 4`) expended charges daily at dawn. If you expend the last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 1, a swarm of insects consumes and destroys the staff, then disperses.
+The staff regains `1d6 + 4` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 
 *Source: Dungeon Master's Guide (2024) p. 309. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

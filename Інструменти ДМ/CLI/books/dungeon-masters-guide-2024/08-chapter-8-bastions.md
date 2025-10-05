@@ -282,7 +282,7 @@ Nothing significant happens. Roll on the following table, fleshing out the detai
 
 A hostile force attacks your Bastion but is defeated.
 
-Roll `dice:6d6|noform|noparens|avg` (`6d6`); for each die that rolls a 1, one Bastion Defender dies. Remove these Bastion Defenders from your Bastion's roster. If the Bastion has zero Bastion Defenders, one of the Bastion's special facilities (determined randomly) is damaged and forced to shut down.
+Roll `6d6`; for each die that rolls a 1, one Bastion Defender dies. Remove these Bastion Defenders from your Bastion's roster. If the Bastion has zero Bastion Defenders, one of the Bastion's special facilities (determined randomly) is damaged and forced to shut down.
 
 A special facility that shuts down can't be used on your next Bastion turn, after which it is repaired and made operational again at no cost to you.
 
@@ -320,11 +320,11 @@ Your hirelings discover or accidentally create an Uncommon magic item of your ch
 
 #### Refugees
 
-A group of `dice:2d4|noform|noparens|avg` (`2d4`) refugees fleeing from a monster attack, a natural disaster, or some other calamity seeks refuge in your Bastion. If your Bastion lacks a basic facility large enough to house them, the refugees camp right outside the Bastion. The refugees offer you `1d6 × 100` GP as payment for your hospitality and protection. They stay until you find them a new home or a hostile force attacks your Bastion.
+A group of `2d4` refugees fleeing from a monster attack, a natural disaster, or some other calamity seeks refuge in your Bastion. If your Bastion lacks a basic facility large enough to house them, the refugees camp right outside the Bastion. The refugees offer you `1d6 × 100` GP as payment for your hospitality and protection. They stay until you find them a new home or a hostile force attacks your Bastion.
 
 #### Request for Aid
 
-Your Bastion is called on to help a local leader. Perhaps there's a search on for a missing person, or brigands are plaguing the area. If you help, you must dispatch one or more Bastion Defenders. Roll `dice:1d6|noform|noparens|avg` (`d6`) for each Bastion Defender you send. If the total is 10 or higher, the problem is solved and you earn a reward of `1d6 × 100` GP. If the total is less than 10, the problem is still solved, but the reward is halved and one of your Bastion Defenders is killed. Remove that Bastion Defender from your Bastion's roster.
+Your Bastion is called on to help a local leader. Perhaps there's a search on for a missing person, or brigands are plaguing the area. If you help, you must dispatch one or more Bastion Defenders. Roll `d6` for each Bastion Defender you send. If the total is 10 or higher, the problem is solved and you earn a reward of `1d6 × 100` GP. If the total is less than 10, the problem is still solved, but the reward is halved and one of your Bastion Defenders is killed. Remove that Bastion Defender from your Bastion's roster.
 
 #### Treasure
 

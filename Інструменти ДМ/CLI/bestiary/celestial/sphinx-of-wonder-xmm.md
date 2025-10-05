@@ -78,9 +78,8 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Radiant damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing\
+      \ damage plus 7 (2d6) Radiant damage."
     "name": "Rend"
 "reactions":
   - "desc": "Trigger: The sphinx or another creature within 30 feet makes an ability\

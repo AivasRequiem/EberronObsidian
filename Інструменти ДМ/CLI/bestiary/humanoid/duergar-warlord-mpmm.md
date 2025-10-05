@@ -76,16 +76,13 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - "desc": "The duergar makes three Psychic-Attuned Hammer or Javelin attacks and\
       \ uses Call to Attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
-      \ (1d10 + 4) bludgeoning damage, or dice:2d10+4|noform|noparens|avg|text(15)\
-      \ (2d10 + 4) bludgeoning damage while under the effect of Enlarge, plus dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) psychic damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d10 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage while\
+      \ under the effect of Enlarge, plus 5 (d10) psychic damage."
     "name": "Psychic-Attuned Hammer"
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
-      \ to hit, reach 5 ft. or range 30/120 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
-      \ (1d6 + 4) piercing damage, or dice:2d6+4|noform|noparens|avg|text(11)\
-      \ (2d6 + 4) piercing damage while under the effect of Enlarge."
+  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing\
+      \ damage while under the effect of Enlarge."
     "name": "Javelin"
   - "desc": "Up to three allies within 120 feet of this duergar that can hear it can\
       \ each use their reaction to make one weapon attack."
@@ -106,10 +103,9 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
       \ space available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
 "reactions":
-  - "desc": "When an ally that the duergar can see makes a dice:d20|noform|noparens|avg\
-      \ (d20) roll, the duergar can roll a dice:d6|noform|noparens|avg (d6),\
-      \ and the ally can add the number rolled to the dice:d20|noform|noparens|avg\
-      \ (d20) by taking dice:1d6|noform|noparens|avg|text(3) (d6) psychic damage."
+  - "desc": "When an ally that the duergar can see makes a d20 roll, the duergar\
+      \ can roll a d6, and the ally can add the number rolled to the d20 by taking\
+      \ 3 (d6) psychic damage."
     "name": "Scouring Instruction"
 "source":
   - "MPMM"

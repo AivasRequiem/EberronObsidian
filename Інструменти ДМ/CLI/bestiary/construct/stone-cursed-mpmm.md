@@ -67,8 +67,7 @@ Even though a creature transformed into a stone cursed is long dead, a vague whi
   - "desc": "The stone cursed doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
       \ (2d8 + 3) slashing damage. If the target is a creature, it must succeed\
       \ on a DC 12 Constitution saving throw, or it begins to turn to stone and is\
       \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until the\

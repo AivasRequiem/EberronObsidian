@@ -58,13 +58,11 @@ Blights are malicious plants that sprout from deep-rooted evil. Their gnarled fo
 "languages": "Common"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 10\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 6 (1d8 + 2) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12).\
-      \ Until the grapple ends, the target takes dice:1d8|noform|noparens|avg|text(4)\
-      \ (d8) Bludgeoning damage at the start of each of its turns, and the blight\
-      \ can't make Constricting Vine attacks."
+      \ Until the grapple ends, the target takes 4 (d8) Bludgeoning damage at the\
+      \ start of each of its turns, and the blight can't make Constricting Vine attacks."
     "name": "Constricting Vine"
   - "desc": "The blight casts the [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md)\
       \ spell, using Constitution as the spellcasting ability (spell save DC 12).\n"

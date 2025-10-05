@@ -57,8 +57,7 @@ Crawling claws are severed hands that move and act of their own murderous accord
 "languages": "understands Common but can't speak"
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: 2 Necrotic damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 2 Necrotic damage."
     "name": "Slam"
 "source":
   - "XMM"

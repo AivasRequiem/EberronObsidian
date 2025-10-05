@@ -71,15 +71,14 @@ Lamias either are descendants of that first lamia or have made similar deals. Th
   - "desc": "The lamia makes two Claw attacks. It can replace one attack with a use\
       \ of Corrupting Touch."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Psychic damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+      \ damage plus 7 (2d6) Psychic damage."
     "name": "Claw"
   - "desc": "Wisdom Saving Throw: DC 13, one creature the lamia can see within 5\
-      \ feet. Failure: dice:3d8|noform|noparens|avg|text(13) (3d8) Psychic damage,\
-      \ and the target is cursed for 1 hour. Until the curse ends, the target has\
-      \ the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) and [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) conditions."
+      \ feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1\
+      \ hour. Until the curse ends, the target has the [Charmed](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Charmed) and [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ conditions."
     "name": "Corrupting Touch"
   - "desc": "The lamia casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt\

@@ -73,7 +73,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/vicious-weapon.webp#right)
 
 
-This magic weapon deals an extra `dice:2d6|noform|noparens|avg` (`2d6`) damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage.
+This magic weapon deals an extra `2d6` damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage.
 
 **Variants**:
 - [Vicious Antimatter Rifle](#Vicious%20Antimatter%20Rifle)

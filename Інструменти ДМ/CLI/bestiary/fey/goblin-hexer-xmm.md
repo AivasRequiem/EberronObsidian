@@ -71,9 +71,8 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
   - "desc": "The goblin makes two Hex Stick attacks. It can replace one attack with\
       \ a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
-      \ reach 5 ft. or range 60 ft. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
-      \ (2d8 + 3) Psychic damage."
+  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
+      \ 12 (2d8 + 3) Psychic damage."
     "name": "Hex Stick"
   - "desc": "The goblin casts one of the following spells, using Intelligence as the\
       \ spellcasting ability (spell save DC 13):\n\nAt will: [Minor Illusion](І\

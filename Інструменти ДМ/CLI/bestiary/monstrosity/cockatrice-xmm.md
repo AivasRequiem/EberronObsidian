@@ -48,11 +48,10 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d4+1|noform|noparens|avg|text(3) (1d4 + 1) Piercing damage.\
-      \ If the target is a creature, it is subjected to the following effect. Constitution\
-      \ Saving Throw: DC 11. 1st Failure: The target has the [Restrained](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Restrained) condition. The target repeats\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing\
+      \ damage. If the target is a creature, it is subjected to the following effect.\
+      \ Constitution Saving Throw: DC 11. 1st Failure: The target has the [Restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition. The target repeats\
       \ the save at the end of its next turn if it is still [Restrained](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Restrained), ending the effect on itself on\
       \ a success. 2nd Failure: The target has the [Petrified](Інструменти%20ДМ\

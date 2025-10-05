@@ -54,8 +54,7 @@ When threatened or compelled by magic, werebears shape-shift from their humanoid
   - "desc": "The werebear makes two attacks, using Handaxe or Rend in any combination.\
       \ It can replace one attack with a Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d12+4|noform|noparens|avg|text(17) (2d12 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing\
       \ damage. If the target is a Humanoid, it is subjected to the following effect.\
       \ Constitution Saving Throw: DC 14. Failure: The target is cursed. If the\
       \ cursed target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
@@ -63,12 +62,10 @@ When threatened or compelled by magic, werebears shape-shift from their humanoid
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success: The\
       \ target is immune to this werebear's curse for 24 hours."
     "name": "Bite (Bear or Hybrid Form Only)"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
-      \ reach 5 ft or range 20/60 ft. Hit: dice:3d6+4|noform|noparens|avg|text(14)\
-      \ (3d6 + 4) Slashing damage."
+  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit:\
+      \ 14 (3d6 + 4) Slashing damage."
     "name": "Handaxe (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
       \ damage."
     "name": "Rend (Bear or Hybrid Form Only)"
 "bonus_actions":

@@ -79,20 +79,17 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
-      \ (2d10 + 5) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 16 (2d10 + 5) piercing damage plus 4 (d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8\
-      \ + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d8 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 60-foot cone. Each\
       \ creature in that area must make a DC 17 Constitution saving throw, taking\
-      \ dice:9d8|noform|noparens|avg|text(40) (9d8) radiant damage on a failed\
-      \ save, or half as much damage on a successful one. The dragon then gains 15\
-      \ temporary hit points by absorbing a portion of the radiant energy."
+      \ 40 (9d8) radiant damage on a failed save, or half as much damage on a successful\
+      \ one. The dragon then gains 15 temporary hit points by absorbing a portion\
+      \ of the radiant energy."
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
@@ -119,8 +116,7 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
     "name": "Psionics (Costs 2 Actions)"
   - "desc": "The dragon releases a searing beam of starlight at a creature that it\
       \ can see within 60 feet of it. The target must succeed on a DC 17 Dexterity\
-      \ saving throw or take dice:9d6|noform|noparens|avg|text(31) (9d6) radiant\
-      \ damage."
+      \ saving throw or take 31 (9d6) radiant damage."
     "name": "Starlight Strike (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -139,12 +135,12 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
       \ it can see in the lair. Gleaming starlight radiates from that point to fill\
       \ a 10-foot-radius sphere with dim light. Each creature other than the dragon\
       \ in that area when the light appears must succeed on a DC 15 Dexterity saving\
-      \ throw or take dice:2d12|noform|noparens|avg|text(13) (2d12) radiant damage\
-      \ and be outlined in the glow. [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack)\
-      \ rolls made against an outlined creature have advantage, and the creature can't\
-      \ hide or benefit from being [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible).\
-      \ The starlight and the glow around any creature fades on initiative count 20\
-      \ on the next round.  "
+      \ throw or take 13 (2d12) radiant damage and be outlined in the glow. [Attack](І\
+      нструменти%20ДМ/CLI/rules/actions.md#Attack) rolls made against an outlined\
+      \ creature have advantage, and the creature can't hide or benefit from being\
+      \ [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible). The starlight\
+      \ and the glow around any creature fades on initiative count 20 on the next\
+      \ round.  "
     "name": ""
 "regional_effects":
   - "desc": "The region surrounding a legendary crystal dragon's lair is altered by\
@@ -166,9 +162,9 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
       \ that area are made with advantage.  "
     "name": ""
   - "desc": "If the dragon dies, the animal population near the lair returns to normal\
-      \ levels over the course of dice:1d10|noform|noparens|avg (d10) days. The\
-      \ increased Hit Die recovery ends immediately. The existing abundance of quartz\
-      \ crystals remains, but new crystals form at a normal rate."
+      \ levels over the course of d10 days. The increased Hit Die recovery ends\
+      \ immediately. The existing abundance of quartz crystals remains, but new crystals\
+      \ form at a normal rate."
     "name": ""
 "source":
   - "FTD"

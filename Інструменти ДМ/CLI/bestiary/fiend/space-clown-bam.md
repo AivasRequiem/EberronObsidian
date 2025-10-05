@@ -50,22 +50,19 @@ Marauding space clowns feed on Humanoid flesh. They travel through space in gari
 "traits":
   - "desc": "When the clown drops to 0 hit points, it pops like a balloon, releasing\
       \ a splash of putrid, corrosive ichor. Each creature within 5 feet of the clown\
-      \ when it bursts must make a DC 12 Dexterity saving throw, taking dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) acid damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ when it bursts must make a DC 12 Dexterity saving throw, taking 10 (3d6)\
+      \ acid damage on a failed save, or half as much damage on a successful one."
     "name": "Dying Burst"
   - "desc": "The clown wears shoes that squeak when it walks. The squeaking can be\
       \ heard out to a range of 30 feet. The squeaking is silenced while the clown's\
       \ Phantasmal Form is in effect."
     "name": "Squeakers"
 "actions":
-  - "desc": "Melee Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:4d6+3|noform|noparens|avg|text(17)\
+  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
       \ (4d6 + 3) lightning damage."
     "name": "Shock"
-  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ range 120 ft., one creature. Hit: dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) psychic damage, and if the target is a Humanoid with an Intelligence\
+  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one creature. Hit:\
+      \ 7 (2d6) psychic damage, and if the target is a Humanoid with an Intelligence\
       \ score of 3 or higher, it must make a DC 12 Wisdom saving throw. On a failed\
       \ save, the target perceives everything it sees or hears as hilariously funny\
       \ and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\

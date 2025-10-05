@@ -54,15 +54,14 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
 "actions":
   - "desc": "The myconid makes one Slam attack and uses Pacifying Spores."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Bludgeoning\
-      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Poison damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Bludgeoning\
+      \ damage plus 5 (2d4) Poison damage."
     "name": "Slam"
   - "desc": "The myconid releases spores at a Medium or Small corpse within 5 feet\
       \ of it that wasn't a Construct or an Undead. In 24 hours, the corpse rises\
       \ as a [Myconid Spore Servant](Інструменти%20ДМ/CLI/bestiary/plant/myconid-spore-servant-xmm.md).\
-      \ The corpse stays animate for dice:1d4+1|noform|noparens|avg (1d4 + 1)\
-      \ weeks or until destroyed, and it can't be animated again in this way."
+      \ The corpse stays animate for 1d4 + 1 weeks or until destroyed, and it can't\
+      \ be animated again in this way."
     "name": "Animating Spores (3/Day)"
   - "desc": "Constitution Saving Throw: DC 12, one creature the myconid can see\
       \ within 10 feet. Failure: The target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\

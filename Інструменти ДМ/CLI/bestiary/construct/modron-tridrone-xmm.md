@@ -86,10 +86,9 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes three Clockwork Spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
-      \ (1d6 + 1) Force damage. Hit or Miss: The spear magically returns to the\
-      \ modron's hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 120 ft. Hit:\
+      \ 4 (1d6 + 1) Force damage. Hit or Miss: The spear magically returns to\
+      \ the modron's hand immediately after a ranged attack."
     "name": "Clockwork Spear"
 "source":
   - "XMM"

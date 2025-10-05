@@ -69,8 +69,7 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
       \ metal or wood in 1 round."
     "name": "Corrosive Form"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d8+1|noform|noparens|avg|text(10) (2d8 + 1) Acid damage.\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 10 (2d8 + 1) Acid damage.\
       \ Nonmagical armor worn by the target takes a -1 penalty to the AC it offers.\
       \ The armor is destroyed if the penalty reduces its AC to 10. The penalty can\
       \ be removed by casting the [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md)\

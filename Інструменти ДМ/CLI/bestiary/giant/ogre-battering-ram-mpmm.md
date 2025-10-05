@@ -50,8 +50,7 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
 "actions":
   - "desc": "The ogre makes two Bash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
       \ (2d10 + 4) bludgeoning damage, and the ogre can push the target 5 feet away\
       \ if the target is Huge or smaller."
     "name": "Bash"

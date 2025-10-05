@@ -18,6 +18,6 @@ This wand has 7 charges. While holding it, you can take a [Magic](Інструм
 
 ## Regaining Charges
 
-The wand regains `dice:1d6+1|noform|noparens|avg` (`1d6 + 1`) expended charges daily at dawn. If you expend the wand's last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.
+The wand regains `1d6 + 1` expended charges daily at dawn. If you expend the wand's last charge, roll `d20`. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.
 
 *Source: Dungeon Master's Guide (2024) p. 321*

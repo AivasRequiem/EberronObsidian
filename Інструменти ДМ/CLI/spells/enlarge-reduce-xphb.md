@@ -43,11 +43,11 @@ Everything that a targeted creature is wearing and carrying changes size with it
 
 ## Enlarge
 
-The target's size increases by one category—from Medium to Large, for example. The target also has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra `dice:1d4|noform|noparens|avg` (`d4`) damage on a hit.
+The target's size increases by one category—from Medium to Large, for example. The target also has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra `d4` damage on a hit.
 
 ## Reduce
 
-The target's size decreases by one category—from Medium to Small, for example. The target also has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal `dice:1d4|noform|noparens|avg` (`d4`) less damage on a hit (this can't reduce the damage below 1).
+The target's size decreases by one category—from Medium to Small, for example. The target also has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal `d4` less damage on a hit (this can't reduce the damage below 1).
 
 ## Summary
 

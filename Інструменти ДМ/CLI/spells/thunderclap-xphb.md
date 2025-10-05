@@ -45,9 +45,9 @@ aliases:
 - **Components:** S
 - **Duration:** Instantaneous
 
-Each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from you must succeed on a Constitution saving throw or take `dice:1d6|noform|noparens|avg` (`d6`) Thunder damage. The spell's thunderous sound can be heard up to 100 feet away.
+Each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from you must succeed on a Constitution saving throw or take `d6` Thunder damage. The spell's thunderous sound can be heard up to 100 feet away.
 
-**Cantrip Upgrade.** The damage increases by `dice:1d6|noform|noparens|avg` (`d6`) when you reach levels 5 (`dice:2d6|noform|noparens|avg` (`2d6`)), 11 (`dice:3d6|noform|noparens|avg` (`3d6`)), and 17 (`dice:4d6|noform|noparens|avg` (`4d6`)).
+**Cantrip Upgrade.** The damage increases by `d6` when you reach levels 5 (`2d6`), 11 (`3d6`), and 17 (`4d6`).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

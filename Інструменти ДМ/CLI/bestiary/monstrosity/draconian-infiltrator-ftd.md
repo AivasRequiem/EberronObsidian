@@ -60,8 +60,7 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
       \ of the draconian must succeed on a DC 12 Dexterity saving throw or be covered\
       \ in acid for 1 minute. A creature can use its action to scrape or wash the\
       \ acid off itself or another creature. A creature covered in the acid takes\
-      \ dice:2d6|noform|noparens|avg|text(7) (2d6) acid damage at the start of\
-      \ each of its turns."
+      \ 7 (2d6) acid damage at the start of each of its turns."
     "name": "Death Throes"
   - "desc": "When the draconian falls and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
       \ it subtracts up to 100 feet from the fall when calculating the fall's damage,\
@@ -74,10 +73,9 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
       \ the end of the target's next turn. While [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ in this way, the target is also [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
-      \ (1d4 + 3) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ poison damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison\
+      \ damage."
     "name": "Dagger"
 "source":
   - "FTD"

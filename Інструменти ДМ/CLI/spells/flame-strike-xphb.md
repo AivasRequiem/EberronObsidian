@@ -31,9 +31,9 @@ aliases:
 - **Components:** V, S, M (a pinch of sulfur)
 - **Duration:** Instantaneous
 
-A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high [Cylinder](Інструменти%20ДМ/CLI/rules/variant-rules/cylinder-area-of-effect-xphb.md) centered on a point within range makes a Dexterity saving throw, taking `dice:5d6|noform|noparens|avg` (`5d6`) Fire damage and `dice:5d6|noform|noparens|avg` (`5d6`) Radiant damage on a failed save or half as much damage on a successful one.
+A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high [Cylinder](Інструменти%20ДМ/CLI/rules/variant-rules/cylinder-area-of-effect-xphb.md) centered on a point within range makes a Dexterity saving throw, taking `5d6` Fire damage and `5d6` Radiant damage on a failed save or half as much damage on a successful one.
 
-**Using a Higher-Level Spell Slot.** The Fire damage and the Radiant damage increase by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The Fire damage and the Radiant damage increase by `d6` for each spell slot level above 5.
 
 **Classes**: [Paladin (Oath of Devotion)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-devotion-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Light Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-light-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Wildfire)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE;class=XPHB")
 

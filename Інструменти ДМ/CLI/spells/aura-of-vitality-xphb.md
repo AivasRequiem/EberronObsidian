@@ -33,7 +33,7 @@ aliases:
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
 
-An aura radiates from you in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore `dice:2d6|noform|noparens|avg` (`2d6`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to one creature in it.
+An aura radiates from you in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore `2d6` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to one creature in it.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Artificer (Battle Smith)](Інструменти%20ДМ/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Cleric (Twilight Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

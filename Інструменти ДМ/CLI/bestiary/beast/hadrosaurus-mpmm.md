@@ -44,8 +44,7 @@ A hadrosaurus is a semi-quadrupedal herbivore with bony head crests. If raised f
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
       \ (1d10 + 2) bludgeoning damage."
     "name": "Tail"
 "source":

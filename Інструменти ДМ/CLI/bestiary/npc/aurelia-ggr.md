@@ -71,22 +71,18 @@ Aurelia doesn't require food, drink, or sleep.
 "actions":
   - "desc": "Aurelia makes three longsword attacks and uses Leadership."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+8|noform|noparens|avg|text(12)\
-      \ (1d8 + 8) slashing damage, or dice:1d10+8|noform|noparens|avg|text(13)\
-      \ (1d10 + 8) slashing damage when used with two hands, plus dice:6d8|noform|noparens|avg|text(27)\
-      \ (6d8) radiant damage."
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+      \ 12 (1d8 + 8) slashing damage, or 13 (1d10 + 8) slashing damage when used\
+      \ with two hands, plus 27 (6d8) radiant damage."
     "name": "Longsword"
   - "desc": "Aurelia utters a few inspiring words to one creature she can see within\
-      \ 30 feet of her. If the creature can hear her, it can add a dice:d10|noform|noparens|avg\
-      \ (d10) to one attack roll or saving throw it makes before the start of Aurelia's\
-      \ next turn."
+      \ 30 feet of her. If the creature can hear her, it can add a d10 to one attack\
+      \ roll or saving throw it makes before the start of Aurelia's next turn."
     "name": "Leadership"
-  - "desc": "Ranged Spell Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
-      \ range 60 ft., one creature. Hit: dice:12d8|noform|noparens|avg|text(54)\
-      \ (12d8) radiant damage, and Aurelia can choose another creature she can see\
-      \ within 10 feet of the target. The second creature regains dice:6d8|noform|noparens|avg|text(27)\
-      \ (6d8) hit points."
+  - "desc": "Ranged Spell Attack: +17 to hit, range 60 ft., one creature. Hit:\
+      \ 54 (12d8) radiant damage, and Aurelia can choose another creature she can\
+      \ see within 10 feet of the target. The second creature regains 27 (6d8) hit\
+      \ points."
     "name": "Warleader's Helix (Recharge 5-6)"
 "reactions":
   - "desc": "Aurelia adds 7 to her AC against one melee attack that would hit her.\

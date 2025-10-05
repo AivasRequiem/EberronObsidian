@@ -87,8 +87,7 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
   - "desc": "The empyrean makes two attacks, using Sacred Weapon or Divine Ray in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+17|noform|noparens|text(+17), reach\
-      \ 10 ft. Hit: dice:6d6+10|noform|noparens|avg|text(31) (6d6 + 10) Force\
+  - "desc": "Melee Attack Roll: +17, reach 10 ft. Hit: 31 (6d6 + 10) Force\
       \ damage, and the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ condition until the start of the empyrean's next turn. The target can choose\
       \ not to be [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), in\
@@ -96,8 +95,7 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
       струменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) or [Immunity](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)."
     "name": "Sacred Weapon"
-  - "desc": "Ranged Attack Roll: dice:1d20+15|noform|noparens|text(+15), range\
-      \ 600 ft. Hit: dice:6d8+8|noform|noparens|avg|text(35) (6d8 + 8) Necrotic\
+  - "desc": "Ranged Attack Roll: +15, range 600 ft. Hit: 35 (6d8 + 8) Necrotic\
       \ or Radiant damage (empyrean's choice)."
     "name": "Divine Ray"
   - "desc": "The empyrean casts one of the following spells, requiring no Material\
@@ -120,10 +118,10 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
     "name": "Bolster"
   - "desc": "Constitution Saving Throw: DC 23, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the empyrean. Failure: dice:6d8|noform|noparens|avg|text(27) (6d8)\
-      \ Force damage, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition. Success: Half damage only. Failure or Success: The empyrean\
-      \ can't take this action again until the start of its next turn."
+      \ from the empyrean. Failure: 27 (6d8) Force damage, and the target has\
+      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success:\
+      \ Half damage only. Failure or Success: The empyrean can't take this action\
+      \ again until the start of its next turn."
     "name": "Shockwave of Glory"
   - "desc": "The empyrean makes one Divine Ray attack."
     "name": "Smite"

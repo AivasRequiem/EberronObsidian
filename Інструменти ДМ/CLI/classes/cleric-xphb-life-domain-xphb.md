@@ -82,4 +82,4 @@ The healing spells you cast on others heal you as well. Immediately after you ca
 
 ### Supreme Healing (Level 17)
 
-When you would normally roll one or more dice to restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring `dice:2d6|noform|noparens|avg` (`2d6`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell, you restore 12.
+When you would normally roll one or more dice to restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring `2d6` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell, you restore 12.

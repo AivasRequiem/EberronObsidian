@@ -50,11 +50,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ is up to 10 feet with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage\
-      \ plus dice:2d4|noform|noparens|avg|text(5) (2d4) Poison damage. If the\
-      \ target is a Medium or smaller creature, it has the [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12)."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage plus 5 (2d4) Poison damage. If the target is a Medium or smaller\
+      \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 12)."
     "name": "Bite"
   - "desc": "The toad swallows a Medium or smaller target it is grappling. While swallowed,\
       \ the target isn't [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
@@ -62,12 +61,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\
       \ and it has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
       \ against attacks and other effects outside the toad. In addition, the target\
-      \ takes dice:3d6|noform|noparens|avg|text(10) (3d6) Acid damage at the end\
-      \ of each of the toad's turns. The toad can have only one target swallowed at\
-      \ a time, and it can't use Bite while it has a swallowed target. If the toad\
-      \ dies, a swallowed creature is no longer [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ and can escape from the corpse using 5 feet of movement, exiting with the\
-      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+      \ takes 10 (3d6) Acid damage at the end of each of the toad's turns. The toad\
+      \ can have only one target swallowed at a time, and it can't use Bite while\
+      \ it has a swallowed target. If the toad dies, a swallowed creature is no longer\
+      \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) and can\
+      \ escape from the corpse using 5 feet of movement, exiting with the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Swallow"
 "source":
   - "XMM"

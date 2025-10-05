@@ -71,14 +71,12 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Slashing damage\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Cold damage."
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing\
+      \ damage plus 2 (d4) Cold damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:9d8|noform|noparens|avg|text(40) (9d8) Cold damage. Success: Half\
-      \ damage."
+      \ 40 (9d8) Cold damage. Success: Half damage."
     "name": "Cold Breath (Recharge 5-6)"
 "source":
   - "XMM"

@@ -15,13 +15,13 @@ The Explosives table has examples of explosives. If no cost is given for an expl
 
 ## Bomb
 
-As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes a DC 12 Dexterity saving throw, taking `dice:3d6|noform|noparens|avg` (`3d6`) Fire damage on a failed save or half as much damage on a successful one.
+As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes a DC 12 Dexterity saving throw, taking `3d6` Fire damage on a failed save or half as much damage on a successful one.
 
 ## Dynamite Stick
 
-An an action, you can light a Dynamite Stick and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes a DC 12 Dexterity saving throw, taking `dice:3d6|noform|noparens|avg` (`3d6`) Force damage on a failed save or half as much damage on a successful one.
+An an action, you can light a Dynamite Stick and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes a DC 12 Dexterity saving throw, taking `3d6` Force damage on a failed save or half as much damage on a successful one.
 
-It takes 1 minute to bind two or more Dynamite Sticks together so they explode at the same time. Each stick after the first increases the damage by `dice:1d6|noform|noparens|avg` (`d6`) (to a maximum of `dice:10d6|noform|noparens|avg` (`10d6`)) and the effect's radius by 5 feet (to a maximum of 20 feet).
+It takes 1 minute to bind two or more Dynamite Sticks together so they explode at the same time. Each stick after the first increases the damage by `d6` (to a maximum of `10d6`) and the effect's radius by 5 feet (to a maximum of 20 feet).
 
 It takes 1 minute to rig dynamite with a longer fuse so it explodes after a longer period of time, such as 1 minute or 10 minutes.
 
@@ -31,7 +31,7 @@ As an action, you can either throw a grenade at a point up to 60 feet away or us
 
 ## Fragmentation Grenade
 
-Each creature in the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) makes a DC 15 Dexterity saving throw, taking `dice:5d6|noform|noparens|avg|text(17)` (`5d6`) Piercing damage on a failed save or half as much damage on a successful one.
+Each creature in the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) makes a DC 15 Dexterity saving throw, taking 17 (`5d6`) Piercing damage on a failed save or half as much damage on a successful one.
 
 ## Smoke Grenade
 
@@ -39,4 +39,4 @@ The area of the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/s
 
 ## Gunpowder
 
-Setting fire to a container full of Gunpowder causes it to explode. When a container explodes, each creature in a 10-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on the container makes a DC 12 Dexterity saving throw, taking `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) Fire damage (for a powder horn) or `dice:7d6|noform|noparens|avg|text(24)` (`7d6`) Fire damage (for a keg) on a failed save or half as much damage on a successful one.
+Setting fire to a container full of Gunpowder causes it to explode. When a container explodes, each creature in a 10-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on the container makes a DC 12 Dexterity saving throw, taking 10 (`3d6`) Fire damage (for a powder horn) or 24 (`7d6`) Fire damage (for a keg) on a failed save or half as much damage on a successful one.

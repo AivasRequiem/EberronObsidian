@@ -73,13 +73,12 @@ A homunculus's appearance reflects its creator's tastes. Roll on or choose a res
       \ the two of them can communicate telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: 1 Piercing damage, and the target is subjected to the following\
-      \ effect. Constitution Saving Throw: DC 12. Failure: The target has the\
-      \ [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until\
-      \ the end of the homunculus's next turn. By 5th Failure: The target has the\
-      \ [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for\
-      \ 1 minute. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and\
+      \ the target is subjected to the following effect. Constitution Saving Throw:\
+      \ DC 12. Failure: The target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the end of the homunculus's next turn. By 5th Failure: The\
+      \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition for 1 minute. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition, which ends early if the target takes any damage."
     "name": "Bite"

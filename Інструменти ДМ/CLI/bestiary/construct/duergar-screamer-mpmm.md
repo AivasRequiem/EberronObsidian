@@ -55,13 +55,12 @@ These machines are deployed to assist with construction projects and war. Some d
 "actions":
   - "desc": "The screamer makes one Drill attack, and it uses Sonic Scream."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d12+4|noform|noparens|avg|text(10)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
       \ (1d12 + 4) piercing damage."
     "name": "Drill"
   - "desc": "The screamer emits destructive energy in a 15-foot cube. Each creature\
-      \ in that area must succeed on a DC 11 Strength saving throw or take dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) thunder damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ in that area must succeed on a DC 11 Strength saving throw or take 7 (2d6)\
+      \ thunder damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Sonic Scream"
 "reactions":
   - "desc": "Immediately after a creature within 5 feet of the screamer hits it with\

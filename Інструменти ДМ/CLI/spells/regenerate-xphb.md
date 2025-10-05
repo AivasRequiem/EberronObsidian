@@ -24,7 +24,7 @@ aliases:
 - **Components:** V, S, M (a prayer wheel)
 - **Duration:** 1 hour
 
-A creature you touch regains `dice:4d8+15|noform|noparens|avg` (`4d8 + 15`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). For the duration, the target regains 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) at the start of each of its turns, and any severed body parts regrow after 2 minutes.
+A creature you touch regains `4d8 + 15` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). For the duration, the target regains 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) at the start of each of its turns, and any severed body parts regrow after 2 minutes.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
 

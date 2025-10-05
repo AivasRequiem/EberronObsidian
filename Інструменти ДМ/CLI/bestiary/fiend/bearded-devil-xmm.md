@@ -66,24 +66,21 @@ Bearded devils' eponymous beards consist of grotesque, tentacle-like growths. Th
 "actions":
   - "desc": "The devil makes one Beard attack and one Infernal Glaive attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage,\
-      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the devil's next turn. Until this poison ends,\
       \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Beard"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (1d10 + 3) Slashing\
       \ damage. If the target is a creature and doesn't already have an infernal wound,\
       \ it is subjected to the following effect. Constitution Saving Throw: DC 12.\
       \ Failure: The target receives an infernal wound. While wounded, the target\
-      \ loses dice:1d10|noform|noparens|avg|text(5) (d10) [Hit Points](Інструм\
-      енти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) at the start of each of\
-      \ its turns. The wound closes after 1 minute, after a spell restores [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to the target, or\
-      \ after the target or a creature within 5 feet of it takes an action to stanch\
-      \ the wound, doing so by succeeding on a DC 12 Wisdom ([Medicine](Інструмент\
-      и%20ДМ/CLI/rules/skills.md#Medicine)) check."
+      \ loses 5 (d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ at the start of each of its turns. The wound closes after 1 minute, after\
+      \ a spell restores [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ to the target, or after the target or a creature within 5 feet of it takes\
+      \ an action to stanch the wound, doing so by succeeding on a DC 12 Wisdom ([Medicine](І\
+      нструменти%20ДМ/CLI/rules/skills.md#Medicine)) check."
     "name": "Infernal Glaive"
 "source":
   - "XMM"

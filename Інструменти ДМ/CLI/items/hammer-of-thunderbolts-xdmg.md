@@ -22,13 +22,13 @@ You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon
 
 The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet.
 
-If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains `dice:1d4+1|noform|noparens|avg` (`1d4 + 1`) expended charges daily at dawn.
+If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains `1d4 + 1` expended charges daily at dawn.
 
 ## Giant's Bane
 
 While you are attuned to the weapon and wearing either a [Belt of Giant Strength](Інструменти%20ДМ/CLI/items/belt-of-giant-strength-xdmg.md) or [Gauntlets of Ogre Power](Інструменти%20ДМ/CLI/items/gauntlets-of-ogre-power-xdmg.md) to which you are also attuned, you gain the following benefits:
 
-- **Giants' Bane.** When you roll a 20 on the `dice:d20|noform|noparens|avg` (`d20`) for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.  
+- **Giants' Bane.** When you roll a 20 on the `d20` for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.  
 - **Might of Giants.** The Strength score bestowed by your [Belt of Giant Strength](Інструменти%20ДМ/CLI/items/belt-of-giant-strength-xdmg.md) or [Gauntlets of Ogre Power](Інструменти%20ДМ/CLI/items/gauntlets-of-ogre-power-xdmg.md) increases by 4, to a maximum of 30.  
 
 **Variants**:

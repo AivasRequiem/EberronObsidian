@@ -50,8 +50,8 @@ Larvae that survive on the Lower Planes long enough can eventually transform int
 "languages": "understands Common plus one other language but can't speak"
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+1|noform|noparens|text(+1), reach 5\
-      \ ft. Hit: dice:1d4-1|noform|noparens|avg|text(1) (1d4 - 1) Necrotic damage."
+  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Necrotic\
+      \ damage."
     "name": "Bite"
 "source":
   - "XMM"

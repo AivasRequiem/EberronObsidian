@@ -59,14 +59,12 @@ Lizardfolk dwell in wildernesses suffused with primal magic. While many lizardfo
 "actions":
   - "desc": "The lizardfolk makes one Bite attack and one Earthen Maul attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing\
       \ damage. If the target is a creature that isn't a Construct or an Undead, the\
       \ lizardfolk gains [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
       \ equal to the damage dealt."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Earthen Maul"

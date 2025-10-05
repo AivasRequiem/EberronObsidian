@@ -63,23 +63,20 @@ Ghosts typically appear as semitransparent versions of the creatures they were i
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
-      \ ends its turn inside an object."
+      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
   - "desc": "The ghost makes two Withering Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:3d10+3|noform|noparens|avg|text(19) (3d10 + 3) Necrotic\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 19 (3d10 + 3) Necrotic\
       \ damage."
     "name": "Withering Touch"
   - "desc": "Wisdom Saving Throw: DC 13, each creature in a 60-foot [Cone](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) that can see\
-      \ the ghost and isn't an Undead. Failure: dice:2d6+3|noform|noparens|avg|text(10)\
-      \ (2d6 + 3) Psychic damage, and the target has the [Frightened](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Frightened) condition until the start of the\
-      \ ghost's next turn. Success: The target is immune to this ghost's Horrific\
-      \ Visage for 24 hours."
+      \ the ghost and isn't an Undead. Failure: 10 (2d6 + 3) Psychic damage, and\
+      \ the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition until the start of the ghost's next turn. Success: The target\
+      \ is immune to this ghost's Horrific Visage for 24 hours."
     "name": "Horrific Visage"
   - "desc": "Charisma Saving Throw: DC 13, one Humanoid the ghost can see within\
       \ 5 feet. Failure: The target is possessed by the ghost; the ghost disappears,\

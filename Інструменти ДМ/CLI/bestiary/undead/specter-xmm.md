@@ -76,15 +76,13 @@ Specters seek creatures and locations that exude evil and feed on the suffering 
 "traits":
   - "desc": "The specter can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
-      \ ends its turn inside an object."
+      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in sunlight, the specter has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage.\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage.\
       \ If the target is a creature, its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the damage taken."
     "name": "Life Drain"

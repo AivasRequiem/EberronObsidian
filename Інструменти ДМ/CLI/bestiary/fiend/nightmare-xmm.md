@@ -71,9 +71,8 @@ Nightmares' speed, resilience, and ability to gallop between planes of existence
       \ for an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Fire damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+      \ damage plus 10 (3d6) Fire damage."
     "name": "Hooves"
   - "desc": "The nightmare and up to three willing creatures within 5 feet of it teleport\
       \ to the Ethereal Plane from the Material Plane or vice versa."

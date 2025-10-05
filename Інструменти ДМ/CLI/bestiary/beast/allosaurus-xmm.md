@@ -44,16 +44,14 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage.\
-      \ If the target is a Large or smaller creature and the allosaurus moved 30+\
-      \ feet straight toward it immediately before the hit, the target has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, and the allosaurus\
-      \ can make one Bite attack against it."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
+      \ damage. If the target is a Large or smaller creature and the allosaurus moved\
+      \ 30+ feet straight toward it immediately before the hit, the target has the\
+      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, and the\
+      \ allosaurus can make one Bite attack against it."
     "name": "Claws"
 "source":
   - "XMM"

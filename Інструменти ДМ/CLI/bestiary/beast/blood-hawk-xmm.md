@@ -54,10 +54,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage,\
-      \ or dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage if\
-      \ the target is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+      \ damage, or 6 (1d8 + 2) Piercing damage if the target is [Bloodied](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Beak"
 "source":
   - "XMM"

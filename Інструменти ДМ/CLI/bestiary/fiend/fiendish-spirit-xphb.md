@@ -37,8 +37,8 @@ aliases:
 "traits":
   - "desc": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes.\
       \ Dexterity Saving Throw: DC equals your spell save DC, each creature in a\
-      \ 10-foot Emanation originating from the spirit. Failure: dice:2d10|noform|noparens|avg\
-      \ (2d10) plus this spell's level Fire damage. Success: Half damage."
+      \ 10-foot Emanation originating from the spirit. Failure: 2d10 plus this\
+      \ spell's level Fire damage. Success: Half damage."
     "name": "Death Throes (Demon Only)"
   - "desc": "Magical Darkness doesn't impede the spirit's Darkvision."
     "name": "Devil's Sight (Devil Only)"

@@ -25,7 +25,7 @@ aliases:
 
 You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md) spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) spell.
 
-In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell's area for the first time on a turn or ends its turn there, the creature takes `dice:5d10|noform|noparens|avg` (`5d10`) Radiant or Necrotic damage (your choice when you cast this spell).
+In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell's area for the first time on a turn or ends its turn there, the creature takes `5d10` Radiant or Necrotic damage (your choice when you cast this spell).
 
 You can designate a password when you cast the spell. A creature that speaks the password as it enters the area takes no damage from the spell.
 

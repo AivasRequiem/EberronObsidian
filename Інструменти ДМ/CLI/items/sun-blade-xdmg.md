@@ -26,7 +26,7 @@ This item appears to be a sword hilt.
 
 While grasping the hilt, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with [Finesse](Інструменти%20ДМ/CLI/rules/item-properties.md#Finesse). If you are proficient with Longswords or Shortswords, you are proficient with the Sun Blade.
 
-You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra `dice:1d8|noform|noparens|avg` (`d8`) Radiant damage.
+You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra `d8` Radiant damage.
 
 ## Sunlight
 

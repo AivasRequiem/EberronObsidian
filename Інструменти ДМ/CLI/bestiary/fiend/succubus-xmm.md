@@ -83,8 +83,7 @@ Through fiendish rites, succubi can transform into incubi to manipulate their pr
   - "desc": "The succubus makes one Fiendish Touch attack and uses Charm or Draining\
       \ Kiss."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Psychic\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Psychic\
       \ damage."
     "name": "Fiendish Touch"
   - "desc": "The succubus casts [Dominate Person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)\
@@ -93,10 +92,9 @@ Through fiendish rites, succubi can transform into incubi to manipulate their pr
     "name": "Charm"
   - "desc": "Constitution Saving Throw: DC 15, one creature [Charmed](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Charmed) by the succubus within 5 feet. Failure:\
-      \ dice:3d8|noform|noparens|avg|text(13) (3d8) Psychic damage. Success:\
-      \ Half damage. Failure or Success: The target's [Hit Point](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an amount\
-      \ equal to the damage taken."
+      \ 13 (3d8) Psychic damage. Success: Half damage. Failure or Success: The\
+      \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by an amount equal to the damage taken."
     "name": "Draining Kiss"
 "bonus_actions":
   - "desc": "The succubus shape-shifts to resemble a Medium or Small Humanoid or back\

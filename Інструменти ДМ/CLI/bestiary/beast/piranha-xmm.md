@@ -43,9 +43,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The piranha can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5) (with [Advantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target doesn't\
-      \ have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
+  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ if the target doesn't have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
       \ reach 5 ft. Hit: 1 Piercing damage."
     "name": "Bite"
 "source":

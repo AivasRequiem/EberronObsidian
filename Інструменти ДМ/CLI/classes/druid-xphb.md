@@ -195,7 +195,7 @@ Add your Wisdom modifier to the damage you deal with any Druid cantrip.
 
 ### Primal Strike (Level 7)
 
-Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra `dice:1d8|noform|noparens|avg` (`d8`) Cold, Fire, Lightning, or Thunder damage (choose when you hit).
+Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra `d8` Cold, Fire, Lightning, or Thunder damage (choose when you hit).
 
 ### Ability Score Improvement (Level 8)
 
@@ -223,7 +223,7 @@ When you cast a Druid cantrip with a range of 10 feet or greater, the spell's ra
 
 #### Primal Strike
 
-The extra damage of your Primal Strike increases to `dice:2d8|noform|noparens|avg` (`2d8`).
+The extra damage of your Primal Strike increases to `2d8`.
 
 ### Ability Score Improvement (Level 16)
 

@@ -45,9 +45,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage\
-      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+      \ damage plus 3 (d6) Poison damage."
     "name": "Bite"
 "source":
   - "XMM"

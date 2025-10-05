@@ -54,13 +54,11 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
 "actions":
   - "desc": "The cyclops makes two attacks, using Stone Club or Rock in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 10\
-      \ ft. Hit: dice:3d6+6|noform|noparens|avg|text(16) (3d6 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (3d6 + 6) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Stone Club"
-  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 30/120\
-      \ ft. Hit: dice:3d10+6|noform|noparens|avg|text(22) (3d10 + 6) Bludgeoning\
+  - "desc": "Ranged Attack Roll: +9, range 30/120 ft. Hit: 22 (3d10 + 6) Bludgeoning\
       \ damage."
     "name": "Rock"
 "reactions":

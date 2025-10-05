@@ -76,20 +76,17 @@ Poltergeists telekinetically move objects in the places they lurk. Roll on or ch
 "traits":
   - "desc": "The poltergeist can move through other creatures and objects as if they\
       \ were [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
-      \ ends its turn inside an object."
+      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
   - "desc": "The poltergeist makes one Object Slam attack and uses Telekinetic Thrust."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
-      \ reach 5 ft. or range 30 ft. Hit: dice:2d4+2|noform|noparens|avg|text(7)\
-      \ (2d4 + 2) Bludgeoning damage."
+  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 30 ft. Hit:\
+      \ 7 (2d4 + 2) Bludgeoning damage."
     "name": "Object Slam"
   - "desc": "Strength Saving Throw: DC 12, one creature the poltergeist can see\
-      \ within 30 feet. Failure: dice:2d6+2|noform|noparens|avg|text(9) (2d6\
-      \ + 2) Force damage, and the target is pushed up to 30 feet straight away from\
-      \ the poltergeist."
+      \ within 30 feet. Failure: 9 (2d6 + 2) Force damage, and the target is pushed\
+      \ up to 30 feet straight away from the poltergeist."
     "name": "Telekinetic Thrust"
 "bonus_actions":
   - "desc": "The poltergeist gives itself the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\

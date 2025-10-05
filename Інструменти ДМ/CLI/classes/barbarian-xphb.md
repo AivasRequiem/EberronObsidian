@@ -163,7 +163,7 @@ You gain the [Ability Score Improvement](Інструменти%20ДМ/CLI/feats
 
 ### Brutal Strike (Level 9)
 
-If you use Reckless Attack, you can forgo any [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md). If the chosen attack roll hits, the target takes an extra `dice:1d10|noform|noparens|avg` (`d10`) damage of the same type dealt by the weapon or [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), and you can cause one Brutal Strike effect of your choice. You have the following effect options.
+If you use Reckless Attack, you can forgo any [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md). If the chosen attack roll hits, the target takes an extra `d10` damage of the same type dealt by the weapon or [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
 #### Forceful Blow
 
@@ -215,7 +215,7 @@ You gain the [Ability Score Improvement](Інструменти%20ДМ/CLI/feats
 
 ### Improved Brutal Strike (Level 17)
 
-The extra damage of your Brutal Strike increases to `dice:2d10|noform|noparens|avg` (`2d10`). In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.
+The extra damage of your Brutal Strike increases to `2d10`. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.
 
 ### Indomitable Might (Level 18)
 

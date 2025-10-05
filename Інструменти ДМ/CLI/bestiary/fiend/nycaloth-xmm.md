@@ -81,11 +81,10 @@ Nycaloths and other yugoloths frequently serve as mercenary forces in extraplana
 "actions":
   - "desc": "The nycaloth makes two Mercurial Axe attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
-      \ reach 10 ft. or range 30/90 ft. Hit: dice:2d12+5|noform|noparens|avg|text(18)\
-      \ (2d12 + 5) Slashing damage plus dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) Force damage. Hit or Miss: The axe magically returns to the nycaloth's\
-      \ hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: +9, reach 10 ft. or range 30/90 ft.\
+      \ Hit: 18 (2d12 + 5) Slashing damage plus 10 (3d6) Force damage. Hit\
+      \ or Miss: The axe magically returns to the nycaloth's hand immediately after\
+      \ a ranged attack."
     "name": "Mercurial Axe"
 "bonus_actions":
   - "desc": "The nycaloth has the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\

@@ -51,22 +51,19 @@ Ssurran poisoners coat their weapons with toxin and hurl bombs that release pois
 "actions":
   - "desc": "The ssurran makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
-      \ + 1) slashing damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) slashing damage."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+3|noform|noparens|text(+3)\
-      \ to hit, reach 5 ft. or range 30/120 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
-      \ (1d6 + 1) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ poison damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 4 (d8) poison\
+      \ damage."
     "name": "Javelin"
   - "desc": "The ssurran throws a tangerine-sized bomb at a point up to 60 feet away,\
       \ where it explodes, releasing a 10-foot-radius sphere of poisonous gas that\
       \ disperses quickly. Each creature in the sphere must make a DC 11 Constitution\
-      \ saving throw, taking dice:3d6|noform|noparens|avg|text(10) (3d6) poison\
-      \ damage on a failed save, or half as much damage on a successful one. After\
-      \ the ssurran throws a bomb, roll a dice:d6|noform|noparens|avg (d6); on\
-      \ a roll of 4 or lower, the ssurran has no more bombs to throw."
+      \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
+      \ much damage on a successful one. After the ssurran throws a bomb, roll a d6;\
+      \ on a roll of 4 or lower, the ssurran has no more bombs to throw."
     "name": "Poison Bomb"
 "source":
   - "BAM"

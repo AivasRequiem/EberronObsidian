@@ -48,11 +48,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The shark makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9) (with [Advantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target doesn't\
-      \ have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
-      \ reach 5 ft. Hit: dice:3d10+6|noform|noparens|avg|text(22) (3d10 + 6)\
-      \ Piercing damage."
+  - "desc": "Melee Attack Roll: +9 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ if the target doesn't have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
+      \ reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

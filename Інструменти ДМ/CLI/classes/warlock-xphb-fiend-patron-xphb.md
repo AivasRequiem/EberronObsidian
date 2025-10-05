@@ -71,7 +71,7 @@ When you reduce an enemy to 0 [Hit Points](Інструменти%20ДМ/CLI/rul
 
 ### Dark One's Own Luck (Level 6)
 
-You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add `dice:1d10|noform|noparens|avg` (`d10`) to your roll. You can do so after seeing the roll but before any of the roll's effects occur.
+You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add `d10` to your roll. You can do so after seeing the roll but before any of the roll's effects occur.
 
 You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
@@ -81,6 +81,6 @@ Choose one damage type, other than Force, whenever you finish a [Short](Інст
 
 ### Hurl Through Hell (Level 14)
 
-Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes `dice:8d10|noform|noparens|avg` (`8d10`) Psychic damage if it isn't a Fiend, and it has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.
+Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes `8d10` Psychic damage if it isn't a Fiend, and it has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.
 
 Once you use this feature, you can't use it again until you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) unless you expend a Pact Magic spell slot (no action required) to restore your use of it.

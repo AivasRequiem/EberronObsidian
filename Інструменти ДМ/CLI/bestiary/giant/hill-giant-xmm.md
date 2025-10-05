@@ -54,13 +54,11 @@ Disaster, invasion, or want might drive hill giants from their homes into other 
 "actions":
   - "desc": "The giant makes two attacks, using Tree Club or Trash Lob in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
-      \ ft. Hit: dice:3d8+5|noform|noparens|avg|text(18) (3d8 + 5) Bludgeoning\
+  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tree Club"
-  - "desc": "Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8), range 60/240\
-      \ ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Bludgeoning\
+  - "desc": "Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the end of its next turn."
     "name": "Trash Lob"

@@ -37,12 +37,11 @@ aliases:
     "name": "Primal Bond"
 "actions":
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg (1d8 + 2) plus your Wisdom modifier\
-      \ Bludgeoning, Piercing, or Slashing damage (your choice when you summon the\
-      \ beast). If the beast moved at least 20 feet straight toward the target before\
-      \ the hit, the target takes an extra dice:1d6|noform|noparens|avg (d6) damage\
-      \ of the same type, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition if it is a Large or smaller creature."
+      \ ft. Hit: 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing\
+      \ damage (your choice when you summon the beast). If the beast moved at least\
+      \ 20 feet straight toward the target before the hit, the target takes an extra\
+      \ d6 damage of the same type, and the target has the [Prone](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Prone) condition if it is a Large or smaller creature."
     "name": "Beast's Strike"
 "source":
   - "XPHB"

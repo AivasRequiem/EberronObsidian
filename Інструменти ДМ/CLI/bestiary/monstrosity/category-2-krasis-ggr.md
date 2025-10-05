@@ -55,12 +55,10 @@ Just a few examples of krasis are the battering krasis (a fusion of hammerhead s
 "actions":
   - "desc": "The krasis makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:2d12+4|noform|noparens|avg|text(17)\
-      \ (2d12 + 4) piercing damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 17 (2d12 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d12+4|noform|noparens|avg|text(17)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
       \ (2d12 + 4) slashing damage."
     "name": "Claws"
 "source":

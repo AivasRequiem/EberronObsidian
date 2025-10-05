@@ -75,10 +75,9 @@ Countless tales surround griffons. Roll on or choose a result from the Griffon T
 "actions":
   - "desc": "The griffon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ both of the griffon's front claws."
     "name": "Rend"
 "source":

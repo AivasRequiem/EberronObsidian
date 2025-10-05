@@ -32,7 +32,7 @@ You can speak, read, and write Common and one extra language of your choice. Hum
 
 ### Wild Intuition
 
-When you make a Wisdom ([Animal Handling](Інструменти%20ДМ/CLI/rules/skills.md#Animal%20Handling)) or Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
+When you make a Wisdom ([Animal Handling](Інструменти%20ДМ/CLI/rules/skills.md#Animal%20Handling)) or Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check, you can roll a `d4` and add the number rolled to the ability check.
 
 ### Primal Connection
 

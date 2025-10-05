@@ -57,35 +57,33 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
       \ out of an enemy's reach."
     "name": "Flyby"
   - "desc": "The first time on a turn that the arclight phoenix touches the ground,\
-      \ it takes dice:2d10|noform|noparens|avg|text(11) (2d10) force damage."
+      \ it takes 11 (2d10) force damage."
     "name": "Grounded Lightning"
   - "desc": "The arclight phoenix sheds bright light in a 15-foot radius and dim light\
       \ for an additional 15 feet."
     "name": "Illumination"
   - "desc": "The arclight phoenix can move through a space as narrow as 1 inch wide\
       \ without squeezing. A creature that touches the phoenix or hits it with a melee\
-      \ attack while within 5 feet of it takes dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) lightning damage. In addition, the arclight phoenix can enter a hostile\
-      \ creature's space and stop there. The first time it enters a creature's space\
-      \ on a turn, that creature takes dice:2d8|noform|noparens|avg|text(9) (2d8)\
-      \ lightning damage."
+      \ attack while within 5 feet of it takes 9 (2d8) lightning damage. In addition,\
+      \ the arclight phoenix can enter a hostile creature's space and stop there.\
+      \ The first time it enters a creature's space on a turn, that creature takes\
+      \ 9 (2d8) lightning damage."
     "name": "Lightning Form"
   - "desc": "When the arclight phoenix dies, it explodes. Each creature within 30\
-      \ feet of it must make a DC 18 Dexterity saving throw, taking dice:8d8|noform|noparens|avg|text(36)\
-      \ (8d8) lightning damage on a failed save, or half as much damage on a successful\
-      \ one. The explosion destroys the phoenix but leaves behind a Tiny, warm egg\
-      \ with a mizzium shell. The egg contains the embryo of a new arclight phoenix.\
-      \ It hatches when it is in the area of a spell that deals lightning damage,\
-      \ or if a creature touches the egg and expends spell slots whose combined levels\
-      \ equal 13 or more. When it hatches, the egg releases a new arclight phoenix\
-      \ that appears in the egg's space."
+      \ feet of it must make a DC 18 Dexterity saving throw, taking 36 (8d8) lightning\
+      \ damage on a failed save, or half as much damage on a successful one. The explosion\
+      \ destroys the phoenix but leaves behind a Tiny, warm egg with a mizzium shell.\
+      \ The egg contains the embryo of a new arclight phoenix. It hatches when it\
+      \ is in the area of a spell that deals lightning damage, or if a creature touches\
+      \ the egg and expends spell slots whose combined levels equal 13 or more. When\
+      \ it hatches, the egg releases a new arclight phoenix that appears in the egg's\
+      \ space."
     "name": "Crackling Death"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 5 ft., one target. Hit: dice:6d8|noform|noparens|avg|text(27) (6d8)\
-      \ lightning damage, and lightning jumps from the target to one creature of the\
-      \ phoenix's choice that it can see within 30 feet of the target. That second\
-      \ creature must succeed on a DC 18 Dexterity saving throw or take dice:6d8|noform|noparens|avg|text(27)\
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 27 (6d8) lightning damage, and lightning jumps from the target to one creature\
+      \ of the phoenix's choice that it can see within 30 feet of the target. That\
+      \ second creature must succeed on a DC 18 Dexterity saving throw or take 27\
       \ (6d8) lightning damage."
     "name": "Arclight Touch"
 "source":

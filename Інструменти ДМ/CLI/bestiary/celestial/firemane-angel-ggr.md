@@ -65,12 +65,12 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "cr": "12"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 18,\
-      \ dice:1d20+10|noform|noparens|text(+10) to hit with spell attacks). The angel\
-      \ can innately cast the following spells, requiring no material components:\n\
-      \n3/day each: [compelled duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md),\
-      \ [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (as a 5th-level\
-      \ spell)\n\n1/day each: [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md),\
-      \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) (as a 6th-level spell)"
+      \ +10 to hit with spell attacks). The angel can innately cast the following\
+      \ spells, requiring no material components:\n\n3/day each: [compelled duel](І\
+      нструменти%20ДМ/CLI/spells/compelled-duel-xphb.md), [guiding bolt](Інструмен\
+      ти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (as a 5th-level spell)\n\n1/day each:\
+      \ [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md), [fireball](Інстр\
+      ументи%20ДМ/CLI/spells/fireball-xphb.md) (as a 6th-level spell)"
     "name": "Innate Spellcasting"
   - "desc": "The angel doesn't provoke an opportunity attack when it flies out of\
       \ an enemy's reach."
@@ -84,11 +84,9 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+6|noform|noparens|avg|text(10)\
-      \ (1d8 + 6) slashing damage, or dice:1d10+6|noform|noparens|avg|text(11)\
-      \ (1d10 + 6) slashing damage if used with two hands, plus dice:5d8|noform|noparens|avg|text(22)\
-      \ (5d8) fire or radiant damage (angel's choice)."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used\
+      \ with two hands, plus 22 (5d8) fire or radiant damage (angel's choice)."
     "name": "Longsword"
 "source":
   - "GGR"

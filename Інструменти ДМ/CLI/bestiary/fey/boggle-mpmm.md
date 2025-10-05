@@ -55,9 +55,8 @@ A boggle can create magical openings to travel short distances or to pilfer item
 "languages": "Sylvan"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+1|noform|noparens|text(+1) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6-1|noform|noparens|avg|text(2) (1d6\
-      \ - 1) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+      \ (1d6 - 1) bludgeoning damage."
     "name": "Pummel"
   - "desc": "The boggle creates a puddle of nonflammable oil. The puddle is 1 inch\
       \ deep and covers the ground in the boggle's space. The puddle is difficult\

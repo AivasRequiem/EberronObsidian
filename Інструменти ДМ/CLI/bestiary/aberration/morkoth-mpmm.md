@@ -75,19 +75,16 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
   - "desc": "The morkoth makes either two Bite attacks and one Tentacles attack or\
       \ three Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6\
-      \ + 2) slashing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d6 + 2) slashing damage plus 10 (3d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 15 ft., one target. Hit: dice:3d8+2|noform|noparens|avg|text(15)\
-      \ (3d8 + 2) bludgeoning damage, and the target is [grappled](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or smaller\
-      \ creature. Until this grapple ends, the target is [restrained](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Restrained) and takes dice:3d8+2|noform|noparens|avg|text(15)\
-      \ (3d8 + 2) bludgeoning damage at the start of each of its turns, and the\
-      \ morkoth can't use its tentacles on another target."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit:\
+      \ 15 (3d8 + 2) bludgeoning damage, and the target is [grappled](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or\
+      \ smaller creature. Until this grapple ends, the target is [restrained](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Restrained) and takes 15 (3d8 + 2) bludgeoning\
+      \ damage at the start of each of its turns, and the morkoth can't use its tentacles\
+      \ on another target."
     "name": "Tentacles"
   - "desc": "The morkoth projects a 30-foot cone of magical energy. Each creature\
       \ in that area must make a DC 17 Wisdom saving throw. On a failed save, the\

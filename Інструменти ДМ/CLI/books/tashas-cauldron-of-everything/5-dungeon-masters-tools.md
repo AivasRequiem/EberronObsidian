@@ -38,7 +38,7 @@ During session zero, your role is to let the players build the characters they w
 - What does each character like most about every other member of the adventuring party?  
 - Does the group have a patron? See chapter 2, ""Group Patrons"" for patron examples.  
 
-If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `dice:d6|noform|noparens|avg` (`d6`) roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
+If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `d6` roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
 
 ![Party Formation; Party Origin](Інструменти%20ДМ/CLI/tables/party-formation-party-origin-tce.md)
 
@@ -258,7 +258,7 @@ The Far Realm's pernicious influence is often subtle, leaking into the Material 
 
 Consider rolling on the Far Realm Effects table when the following circumstances occur in a region touched by the Far Realm:
 
-- A warlock whose Otherworldly Patron is a Great Old One rolls a 1 or 20 on the `dice:d20|noform|noparens|avg` (`d20`) for an ability check, an attack roll, or a saving throw.  
+- A warlock whose Otherworldly Patron is a Great Old One rolls a 1 or 20 on the `d20` for an ability check, an attack roll, or a saving throw.  
 - The characters take a short or long rest in the region.  
 - A creature spends more than an hour reading an eldritch tome written by those who have seen or otherwise interacted with the Far Realm.  
 
@@ -442,7 +442,7 @@ If the colony's survival is threatened and it thinks it has a chance of survivin
 
 - The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) instead for that duration.  
 - The mimic colony uses the [Help](Інструменти%20ДМ/CLI/rules/actions.md#Help) action, aiding a creature of its choice within 300 feet of it.  
-- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take `dice:3d8|noform|noparens|avg|text(13)` (`3d8`) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.  
+- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take 13 (`3d8`) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.  
 - The mimic colony chooses a cube of nonmagical, inanimate material in physical contact with it. The cube can be up to 15 feet on a side. The colony reshapes that material however it likes. This transformation lasts for 1 hour.  
 
 When determining the difficulty of an encounter with a hostile mimic colony, consider the colony to be one additional creature of challenge rating 2.
@@ -453,7 +453,7 @@ When determining the difficulty of an encounter with a hostile mimic colony, con
 
 In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.
 
-A fruit-bearing plant that is suffused with magic might produce `dice:1d6|noform|noparens|avg` (`d6`) pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
+A fruit-bearing plant that is suffused with magic might produce `d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
 
 As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](Інструменти%20ДМ/CLI/spells/identify-xphb.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
 
@@ -612,7 +612,7 @@ To safely walk across the room, a character must step on the correct tiles. Step
 
 ##### Traps
 
-Certain tiles (as indicated in this trap's "Solution" section) are trapped. A trapped tile is triggered when more than 20 pounds of weight are placed on it, activating the pressure plate underneath and causing jets of poisonous gas to spout from the cracks between the tiles. Any creature above the trapped floor tile or one of its adjacent tiles must make a DC 15 Constitution saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) poison damage on a failed save, or half as much damage on a successful one.
+Certain tiles (as indicated in this trap's "Solution" section) are trapped. A trapped tile is triggered when more than 20 pounds of weight are placed on it, activating the pressure plate underneath and causing jets of poisonous gas to spout from the cracks between the tiles. Any creature above the trapped floor tile or one of its adjacent tiles must make a DC 15 Constitution saving throw, taking 11 (`2d10`) poison damage on a failed save, or half as much damage on a successful one.
 
 As an action, a character can disable a trap with a successful DC 15 Dexterity check using thieves' tools. If a character fails to disable the trap, the tile's trap can no longer be disabled.
 
@@ -650,12 +650,12 @@ Rather than have the same poison gas trap on every trapped tile, each word can h
 
 - **Magic.** The trap triggers normally, as described in this puzzle's "Traps" section.  
 - **Abjuration.** The trap casts [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md) on each creature in the room, using a 9th-level spell slot.  
-- **Conjuration.** The trap teleports the creature that triggered it back to the entrance of the room. That creature must also make a DC 15 Constitution saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) force damage on a failed save, or half as much damage on a successful one.  
+- **Conjuration.** The trap teleports the creature that triggered it back to the entrance of the room. That creature must also make a DC 15 Constitution saving throw, taking 11 (`2d10`) force damage on a failed save, or half as much damage on a successful one.  
 - **Divination.** The creature that triggered the trap must succeed on a DC 15 Intelligence saving throw or be unable to perceive any of the letters on the tiles by sight or touch. Any magic that ends a curse ends this effect on the character. A player whose character is affected by this trap should not be allowed to reference the accompanying player handout until the effect on that character ends.  
 - **Enchantment.** The trap casts [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap.  
-- **Evocation.** Magical fire erupts from the trapped tile. The creature that triggered this trap must succeed on a DC 15 Dexterity saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) fire damage on a failed save, or half as much damage on a successful one.  
+- **Evocation.** Magical fire erupts from the trapped tile. The creature that triggered this trap must succeed on a DC 15 Dexterity saving throw, taking 11 (`2d10`) fire damage on a failed save, or half as much damage on a successful one.  
 - **Illusion.** A suit of [animated armor](Інструменти%20ДМ/CLI/bestiary/construct/animated-armor-xmm.md) appears in an unoccupied space within 5 feet of the creature that set off this trap. The armor attacks only the creature that summoned it and can't leave the room. It doesn't set off any of the room's traps and disappears if it takes any damage. Otherwise, it lasts for 1 minute.  
-- **Necromancy.** Any creature that triggers this trap hears a banshee's wail in its mind. Unless the creature is a construct or undead, it must succeed on a DC 13 Constitution saving throw. On a failure, the creature drops to 0 hit points. On a success, it takes `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) psychic damage.  
+- **Necromancy.** Any creature that triggers this trap hears a banshee's wail in its mind. Unless the creature is a construct or undead, it must succeed on a DC 13 Constitution saving throw. On a failure, the creature drops to 0 hit points. On a success, it takes 10 (`3d6`) psychic damage.  
 - **Transmutation.** The trap casts [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md) (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a [giant frog](Інструменти%20ДМ/CLI/bestiary/beast/giant-frog-xmm.md).  
 
 ### Skeleton Keys
@@ -685,7 +685,7 @@ All four locks must be opened before the box's contents (whatever they might be)
 
 Show the players puzzle handout 2 (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.
 
-Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`dice:1d4|noform|noparens|avg` (`d4`) [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `dice:1d4|noform|noparens|avg` (`d4`) [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `dice:1d4|noform|noparens|avg` (`d4`) [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `dice:1d4|noform|noparens|avg` (`d4`) [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
+Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`d4` [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `d4` [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `d4` [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `d4` [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
 
 #### Solution
 

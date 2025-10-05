@@ -96,4 +96,4 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Order's Wrath (Level 17)
 
-Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes `dice:2d8|noform|noparens|avg` (`2d8`) psychic damage, and the curse ends. You can curse a creature in this way only once per turn.
+Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes `2d8` psychic damage, and the curse ends. You can curse a creature in this way only once per turn.

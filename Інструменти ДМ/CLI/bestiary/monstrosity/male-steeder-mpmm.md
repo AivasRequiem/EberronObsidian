@@ -63,16 +63,14 @@ Rather than spinning webs, steeders excrete a viscous substance from their legs.
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
-      \ + 2) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8) poison\
-      \ damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage plus 4 (d8) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one Small or Tiny creature. Hit: The target is stuck to the\
-      \ steeder's leg and [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ (escape DC 12). The steeder can have only one creature [grappled](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Grappled) at a time."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature.\
+      \ Hit: The target is stuck to the steeder's leg and [grappled](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 12). The steeder can have\
+      \ only one creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ at a time."
     "name": "Sticky Leg"
 "source":
   - "MPMM"

@@ -58,11 +58,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Piercing damage—\
-      or dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Piercing damage if the\
-      \ swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)—plus\
-      \ dice:3d6|noform|noparens|avg|text(10) (3d6) Poison damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing\
+      \ damage—or 6 (1d4 + 4) Piercing damage if the swarm is [Bloodied](Інструм\
+      енти%20ДМ/CLI/rules/conditions.md#Bloodied)—plus 10 (3d6) Poison damage."
     "name": "Bites"
 "source":
   - "XMM"

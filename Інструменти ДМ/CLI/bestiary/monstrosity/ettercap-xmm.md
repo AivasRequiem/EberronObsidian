@@ -65,14 +65,13 @@ Ettercaps avoid fire, which can quickly burn through their webs and the dead tre
 "actions":
   - "desc": "The ettercap makes one Bite attack and one Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage, and the\
-      \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition until the start of the ettercap's next turn."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage plus 2 (d4) Poison damage, and the target has the [Poisoned](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
+      \ the ettercap's next turn."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
+      \ damage."
     "name": "Claw"
   - "desc": "Dexterity Saving Throw: DC 12, one Large or smaller creature the ettercap\
       \ can see within 30 feet. Failure: The target has the [Restrained](Інструм\

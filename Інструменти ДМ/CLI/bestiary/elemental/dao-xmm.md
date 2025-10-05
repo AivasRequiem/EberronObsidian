@@ -63,9 +63,9 @@ Many dao call the Elemental Plane of Earth home. There, they create cities that 
       \ doing so, the dao doesn't disturb the material it moves through."
     "name": "Earth Glide"
   - "desc": "If the dao dies outside the Elemental Plane of Earth, its body dissolves\
-      \ into dirt, and it gains a new body in dice:1d4|noform|noparens|avg (d4)\
-      \ days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ somewhere on the Plane of Earth."
+      \ into dirt, and it gains a new body in d4 days, reviving with all its [Hit\
+      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
+      \ on the Plane of Earth."
     "name": "Elemental Restoration"
   - "desc": "The dao has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
@@ -80,18 +80,15 @@ Many dao call the Elemental Plane of Earth home. There, they create cities that 
 "actions":
   - "desc": "The dao makes three Earthen Maul attacks or two Earth Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 5 ft. Hit: dice:4d6+6|noform|noparens|avg|text(20) (4d6 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 20 (4d6 + 6) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Earthen Maul"
-  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
-      \ 120 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Bludgeoning\
+  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 15 (2d8 + 6) Bludgeoning\
       \ damage. Hit or Miss: Earth explodes from the target's space, creating the\
       \ following effect. Dexterity Saving Throw: DC 16, each creature in a 10-foot\
       \ [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from and including the target. Failure: dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) Thunder damage."
+      \ originating from and including the target. Failure: 10 (3d6) Thunder damage."
     "name": "Earth Burst"
   - "desc": "The dao casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\

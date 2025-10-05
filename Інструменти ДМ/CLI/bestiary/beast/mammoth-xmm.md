@@ -45,8 +45,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The mammoth makes two Gore attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 10 ft. Hit: dice:2d10+7|noform|noparens|avg|text(18) (2d10 + 7) Piercing\
+  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing\
       \ damage. If the target is a Huge or smaller creature and the mammoth moved\
       \ 20+ feet straight toward it immediately before the hit, the target has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
@@ -54,8 +53,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "bonus_actions":
   - "desc": "Dexterity Saving Throw: DC 18, one creature within 5 feet that has\
       \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Failure:\
-      \ dice:4d10+7|noform|noparens|avg|text(29) (4d10 + 7) Bludgeoning damage.\
-      \ Success: Half damage."
+      \ 29 (4d10 + 7) Bludgeoning damage. Success: Half damage."
     "name": "Trample"
 "source":
   - "XMM"

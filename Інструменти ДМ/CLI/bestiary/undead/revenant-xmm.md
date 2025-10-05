@@ -76,8 +76,7 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
 "actions":
   - "desc": "The revenant uses Vengeful Glare and makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Necrotic\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Necrotic\
       \ damage."
     "name": "Slam"
   - "desc": "Wisdom Saving Throw: DC 15, one creature the revenant can see within\

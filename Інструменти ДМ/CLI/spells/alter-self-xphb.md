@@ -48,7 +48,7 @@ You alter your appearance. You decide what you look like, including your height,
 
 ## Natural Weapons
 
-You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) to deal damage with that new growth, it deals `dice:1d6|noform|noparens|avg` (`d6`) damage of the type in parentheses instead of dealing the normal damage for your [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.
+You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) to deal damage with that new growth, it deals `d6` damage of the type in parentheses instead of dealing the normal damage for your [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.
 
 ## Summary
 

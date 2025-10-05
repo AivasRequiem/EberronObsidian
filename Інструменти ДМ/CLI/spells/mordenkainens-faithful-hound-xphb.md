@@ -33,7 +33,7 @@ You conjure a phantom watchdog in an unoccupied space that you can see within ra
 
 No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has [Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) with a range of 30 feet.
 
-At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take `dice:4d8|noform|noparens|avg` (`4d8`) Force damage.
+At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take `4d8` Force damage.
 
 On your later turns, you can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to move the hound up to 30 feet.
 

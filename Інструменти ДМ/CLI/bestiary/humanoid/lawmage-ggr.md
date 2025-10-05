@@ -50,27 +50,26 @@ The Azorius Senate has spellcasters who are trained to capture lawbreakers and b
 "cr": "6"
 "traits":
   - "desc": "The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability\
-      \ is Intelligence (spell save DC 14, dice:1d20+6|noform|noparens|text(+6)\
-      \ to hit with spell attacks). The lawmage has the following wizard spells prepared:\n\
-      \nCantrips (at will): [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md),\
-      \ [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md), [light](Інструмент\
-      и%20ДМ/CLI/spells/light-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
-      \n1st level (4 slots): [alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md),\
-      \ [expeditious retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md),\
-      \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots):\
-      \ [arcane lock](Інструменти%20ДМ/CLI/spells/arcane-lock-xphb.md), [detect thoughts](І\
-      нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [hold person](Інструмен\
-      ти%20ДМ/CLI/spells/hold-person-xphb.md)\n\n3rd level (3 slots): [clairvoyance](І\
+      \ is Intelligence (spell save DC 14, +6 to hit with spell attacks). The lawmage\
+      \ has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [friends](Інструмент\
+      и%20ДМ/CLI/spells/friends-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n1st level (4 slots):\
+      \ [alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md), [expeditious retreat](І\
+      нструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md), [shield](Інструмент\
+      и%20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [arcane lock](І\
+      нструменти%20ДМ/CLI/spells/arcane-lock-xphb.md), [detect thoughts](Інструмен\
+      ти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [hold person](Інструменти%20ДМ\
+      /CLI/spells/hold-person-xphb.md)\n\n3rd level (3 slots): [clairvoyance](І\
       нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [dispel magic](Інструменти\
       %20ДМ/CLI/spells/dispel-magic-xphb.md), [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\n\
       \n4th level (2 slots): [locate creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md),\
       \ [stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
-      \ + 1) bludgeoning damage, or dice:1d8+1|noform|noparens|avg|text(5) (1d8\
-      \ + 1) bludgeoning damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used\
+      \ with two hands."
     "name": "Quarterstaff"
 "source":
   - "GGR"

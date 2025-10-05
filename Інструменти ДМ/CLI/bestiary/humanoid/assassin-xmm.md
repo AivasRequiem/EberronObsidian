@@ -82,15 +82,13 @@ Many assassins adhere to a professional code or exhibit some signature quirk. Ro
   - "desc": "The assassin makes three attacks, using Shortsword or Light Crossbow\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Piercing damage\
-      \ plus dice:5d6|noform|noparens|avg|text(17) (5d6) Poison damage, and the\
-      \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition until the start of the assassin's next turn."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing\
+      \ damage plus 17 (5d6) Poison damage, and the target has the [Poisoned](Ін\
+      струменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
+      \ the assassin's next turn."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 80/320\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Piercing damage\
-      \ plus dice:6d6|noform|noparens|avg|text(21) (6d6) Poison damage."
+  - "desc": "Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing\
+      \ damage plus 21 (6d6) Poison damage."
     "name": "Light Crossbow"
 "bonus_actions":
   - "desc": "The assassin takes the Dash, Disengage, or Hide action."

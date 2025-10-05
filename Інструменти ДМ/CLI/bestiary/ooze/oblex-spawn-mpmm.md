@@ -71,10 +71,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   - "desc": "The oblex doesn't require sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
-      \ + 3) bludgeoning damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) bludgeoning damage plus 2 (d4) psychic damage."
     "name": "Pseudopod"
 "source":
   - "MPMM"

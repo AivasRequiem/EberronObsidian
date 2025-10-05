@@ -107,17 +107,16 @@ A flumph's extremities change color to reflect its mood. The Flumph Colors and E
       \ its location or observe it remotely."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ feet. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Acid damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Acid damage."
     "name": "Tentacle"
   - "desc": "Dexterity Saving Throw: DC 10, one creature the flumph can see within\
       \ 15 feet. Failure: The target is coated in a foul-smelling liquid, exudes\
-      \ a stench for dice:1d4|noform|noparens|avg (d4) hours, and has the [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition while the stench\
-      \ lasts. Other creatures have the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition while in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the coated target. The target can remove the stench on itself\
-      \ if it bathes during a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
+      \ a stench for d4 hours, and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition while the stench lasts. Other creatures have the [Poisoned](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition while in a 5-foot [Emanation](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
+      \ from the coated target. The target can remove the stench on itself if it bathes\
+      \ during a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
       \ or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)."
     "name": "Stench Spray (1/Day)"
 "source":

@@ -52,8 +52,8 @@ Every harpy sings a distinct song. While some songs are said to be heartbreaking
 "languages": "Common"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Slashing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
+      \ damage."
     "name": "Claw"
   - "desc": "The harpy sings a magical melody, which lasts until the harpy's [Concentration](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Concentration) ends on it. Wisdom Saving\

@@ -64,9 +64,8 @@ Quasits are usually overlooked and underestimated by other demons. This drives t
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Slashing damage,\
-      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing\
+      \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the quasit's next turn."
     "name": "Rend"
   - "desc": "Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure:\

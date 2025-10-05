@@ -57,17 +57,15 @@ Neogi pirates (and adult neogi in general) mark themselves and those they captur
 "actions":
   - "desc": "The neogi makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) piercing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
-      \ poison damage, and the target must succeed on a DC 12 Constitution saving\
-      \ throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself on a success."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
+      \ must succeed on a DC 12 Constitution saving throw or become [poisoned](Інс\
+      трументи%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. A target can repeat\
+      \ the saving throw at the end of each of its turns, ending the effect on itself\
+      \ on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "BAM"

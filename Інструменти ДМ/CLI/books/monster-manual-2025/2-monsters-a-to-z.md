@@ -660,10 +660,10 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
 |-----------|--------------------------------|
 | 1 | Another tunnel (either natural or of worked stone) that extends into the Underdark. |
 | 2 | A buried ruin or grave exposed by the tunnel. |
-| 3 | A cluster of `dice:1d4\|noform\|noparens\|avg` (`d4`) fresh ankheg eggs that can be broken and used as vials of Acid. |
+| 3 | A cluster of `d4` fresh ankheg eggs that can be broken and used as vials of Acid. |
 | 4 | A dead ankheg and evidence of a deadlier subterranean predator. |
 | 5 | A piece of ankheg carapace usable as a Shield. |
-| 6 | A pouch with `dice:2d6\|noform\|noparens\|avg` (`2d6`) GP near a puddle of acid. |
+| 6 | A pouch with `2d6` GP near a puddle of acid. |
 | 7 | A stray farm or woodland animal. |
 | 8 | A viciously mauled scarecrow. |
 ^ankheg-tunnel-discoveries
@@ -4995,7 +4995,7 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 | 2 | Broken dragonborn or tiefling horns. |
 | 3 | An ornate prosthetic limb. |
 | 4 | The skeleton of an explorer's pet (perhaps a small dog, monkey, or parrot). |
-| 5 | A skull with gold teeth worth `dice:1d4\|noform\|noparens\|avg` (`d4`) GP. |
+| 5 | A skull with gold teeth worth `d4` GP. |
 | 6 | A spotless suit of metal armor. |
 ^ochre-jelly-leftovers
 
@@ -5098,7 +5098,7 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 |-----------|----------------------------|
 | 1 | Evidence of previous occupants, like bandits, wolves, or dragons. |
 | 2 | Heaps of regurgitated pellets studded with coins or other treasure. |
-| 3 | A nest with `dice:1d6\|noform\|noparens\|avg` (`d6`) owlbear eggs. |
+| 3 | A nest with `d6` owlbear eggs. |
 | 4 | Passages through the earth or hollow trees. |
 ^owlbear-den-features
 
@@ -5692,7 +5692,7 @@ Rocs nest amid remote heights. Their nests are typically littered with treasure 
 | 1 | The burial litter of a lost hero. |
 | 2 | A caravan wagon full of trade goods. |
 | 3 | A live elephant. |
-| 4 | `dice:1d4\|noform\|noparens\|avg` (`d4`) eggs larger than adult humans. |
+| 4 | `d4` eggs larger than adult humans. |
 | 5 | Someone marooned in the nest. |
 | 6 | A statue of a knight riding a rearing steed. |
 ^roc-nest-remnants
@@ -6116,7 +6116,7 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 > 
 > A slaad born from the Spawning Stone has a magical control gem embedded in its head. If a creature claims the gem, the slaad has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition and obeys the gem's bearer. The slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) if it is harmed by the gem's bearer or the bearer's allies or if the gem is returned to the slaad. A [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) spell cast on a slaad destroys the gem, and the slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed).
 > 
-> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals `dice:4d10|noform|noparens|avg|text(22)` (`4d10`) Piercing damage to the slaad.
+> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals 22 (`4d10`) Piercing damage to the slaad.
 ^slaad-control-gems
 
 > [!quote] A quote from Jebeel Sloom  

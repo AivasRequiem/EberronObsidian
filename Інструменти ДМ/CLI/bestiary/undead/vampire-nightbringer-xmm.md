@@ -92,17 +92,14 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The vampire makes one Bite attack and one Shadow Strike attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Piercing damage\
-      \ plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage. The\
-      \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by an amount equal to the Necrotic damage taken, and the\
-      \ vampire regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ equal to that amount."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing\
+      \ damage plus 10 (3d6) Necrotic damage. The target's [Hit Point](Інструмен\
+      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an\
+      \ amount equal to the Necrotic damage taken, and the vampire regains [Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to that amount."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Slashing damage\
-      \ plus dice:4d6|noform|noparens|avg|text(14) (4d6) Cold damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing\
+      \ damage plus 14 (4d6) Cold damage."
     "name": "Shadow Strike"
 "bonus_actions":
   - "desc": "While in [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\

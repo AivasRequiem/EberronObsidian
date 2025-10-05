@@ -57,15 +57,14 @@ Lizardfolk dwell in wildernesses suffused with primal magic. While many lizardfo
 "actions":
   - "desc": "The lizardfolk makes two Earth Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
-      \ reach 5 ft. or range 60 ft. Hit: dice:2d6+2|noform|noparens|avg|text(9)\
-      \ (2d6 + 2) Bludgeoning damage."
+  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft. Hit:\
+      \ 9 (2d6 + 2) Bludgeoning damage."
     "name": "Earth Burst"
   - "desc": "Constitution Saving Throw: DC 12, each creature in a 20-foot-radius,\
       \ 40-foot-high [Cylinder](Інструменти%20ДМ/CLI/rules/variant-rules/cylinder-area-of-effect-xphb.md)\
-      \ centered on a point the lizardfolk can see within 60 feet. Failure: dice:6d4|noform|noparens|avg|text(15)\
-      \ (6d4) Bludgeoning damage, and the target has the [Prone](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Prone) condition. Success: Half damage only."
+      \ centered on a point the lizardfolk can see within 60 feet. Failure: 15 (6d4)\
+      \ Bludgeoning damage, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition. Success: Half damage only."
     "name": "Hail of Stone (Recharge 5-6)"
   - "desc": "The lizardfolk casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\

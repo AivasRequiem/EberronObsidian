@@ -55,15 +55,11 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
 "actions":
   - "desc": "The blessed makes two Mace or Radiant Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
-      \ + 1) bludgeoning damage plus dice:4d8|noform|noparens|avg|text(18) (4d8)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ range 120 ft., one target. Hit: dice:5d8|noform|noparens|avg|text(22)\
-      \ (5d8) radiant damage, and the blessed regains dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) hit points."
+  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+      \ 22 (5d8) radiant damage, and the blessed regains 5 (d10) hit points."
     "name": "Radiant Bolt"
   - "desc": "The blessed casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 14):\n\nAt will: [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\

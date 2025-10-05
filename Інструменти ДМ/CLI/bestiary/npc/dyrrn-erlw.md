@@ -115,9 +115,8 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ can replace its Tentacle Whip attack with Extract Brain if it has a creature\
       \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
-      \ reach 10 ft., one target. Hit: dice:3d10+8|noform|noparens|avg|text(24)\
-      \ (3d10 + 8) slashing damage. If the target is a Medium or smaller creature,\
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+      \ 24 (3d10 + 8) slashing damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 23), pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed\
       \ on a DC 23 Intelligence saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
@@ -125,20 +124,19 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ target until this grapple ends. Dyrrn has two tentacle whips."
     "name": "Tentacle Whip"
   - "desc": "Dyrrn targets one creature it can see within 60 feet of it. The target\
-      \ must succeed on a DC 23 Constitution saving throw or take dice:4d6+8|noform|noparens|avg|text(22)\
-      \ (4d6 + 8) necrotic damage and become corrupted for 1 minute.\n\nA corrupted\
-      \ creature's flesh twists in alien ways. The creature has disadvantage on attack\
-      \ rolls, its speed is reduced by half, and if it tries to cast a spell, it must\
-      \ first succeed on a DC 15 Intelligence check or the spell fails and is wasted.\
-      \ The corrupted creature can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself on a success."
+      \ must succeed on a DC 23 Constitution saving throw or take 22 (4d6 + 8) necrotic\
+      \ damage and become corrupted for 1 minute.\n\nA corrupted creature's flesh\
+      \ twists in alien ways. The creature has disadvantage on attack rolls, its speed\
+      \ is reduced by half, and if it tries to cast a spell, it must first succeed\
+      \ on a DC 15 Intelligence check or the spell fails and is wasted. The corrupted\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
     "name": "Corruption"
-  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
-      \ reach 5 ft., one [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by\
-      \ Dyrrn. Hit: dice:10d10|noform|noparens|avg|text(55) (10d10) piercing\
-      \ damage. If this damage reduces the target to 0 hit points, Dyrrn kills the\
-      \ target by extracting and devouring its brain."
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) creature [grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by Dyrrn. Hit: 55 (10d10)\
+      \ piercing damage. If this damage reduces the target to 0 hit points, Dyrrn\
+      \ kills the target by extracting and devouring its brain."
     "name": "Extract Brain"
 "legendary_actions":
   - "desc": "Dyrrn makes one attack with its Tentacle Whip."
@@ -148,7 +146,7 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ after Dyrrn in the initiative order."
     "name": "Spawn Aberration (Costs 2 Actions)"
   - "desc": "Dyrrn magically emits psychic energy in a 60-foot cone. Each creature\
-      \ in that area must succeed on a DC 23 Intelligence saving throw or take dice:5d8+8|noform|noparens|avg|text(30)\
+      \ in that area must succeed on a DC 23 Intelligence saving throw or take 30\
       \ (5d8 + 8) psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. A creature can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
@@ -167,12 +165,11 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       нструменти%20ДМ/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](І\
       нструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check as an action.  \n- Each\
       \ creature of Dyrrn's choice that it can see within 120 feet of it must succeed\
-      \ on a DC 23 Wisdom saving throw or take dice:4d12|noform|noparens|avg|text(26)\
-      \ (4d12) psychic damage. Unless the target has immunity to psychic damage,\
-      \ its Intelligence score is reduced by dice:1d4|noform|noparens|avg (d4)\
-      \ each time it fails the saving throw for this lair action. The target dies\
-      \ if its Intelligence score is reduced to 0. The reduction lasts until the target\
-      \ finishes a short or long rest.  "
+      \ on a DC 23 Wisdom saving throw or take 26 (4d12) psychic damage. Unless\
+      \ the target has immunity to psychic damage, its Intelligence score is reduced\
+      \ by d4 each time it fails the saving throw for this lair action. The target\
+      \ dies if its Intelligence score is reduced to 0. The reduction lasts until\
+      \ the target finishes a short or long rest.  "
     "name": ""
 "regional_effects":
   - "desc": "A region containing a passage to Dyrrn's lair is warped in one or more\
@@ -187,8 +184,7 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ A creature that succeeds on this saving throw can't be affected by this regional\
       \ effect again for 24 hours.  "
     "name": ""
-  - "desc": "If Dyrrn dies, these effects fade away after dice:1d10|noform|noparens|avg\
-      \ (d10) days."
+  - "desc": "If Dyrrn dies, these effects fade away after d10 days."
     "name": ""
   - "desc": "If a creature goes mad in Dyrrn's lair or while it can see the daelkyr,\
       \ it gains a form of indefinite madness. Roll on the Madness of Dyrrn table\

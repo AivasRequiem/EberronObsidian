@@ -64,15 +64,14 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
 "actions":
   - "desc": "The berserker makes three attacks, using Greataxe or Javelin in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
-      \ damage, plus dice:3d6|noform|noparens|avg|text(10) (3d6) Thunder damage\
-      \ to the target or another creature within 5 feet of the target."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing\
+      \ damage, plus 10 (3d6) Thunder damage to the target or another creature within\
+      \ 5 feet of the target."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
-      \ reach 5 ft. or range 30/120 ft. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
-      \ (4d6 + 4) Piercing damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ decreases by 5 feet until the start of the berserker's next turn."
+  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 30/120 ft.\
+      \ Hit: 18 (4d6 + 4) Piercing damage, and the target's [Speed](Інструмент\
+      и%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases by 5 feet until the\
+      \ start of the berserker's next turn."
     "name": "Javelin"
 "bonus_actions":
   - "desc": "Each ally within 30 feet of the berserker can take a [Reaction](Інстр\

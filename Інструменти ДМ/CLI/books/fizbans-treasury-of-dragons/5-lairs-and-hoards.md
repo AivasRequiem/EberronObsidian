@@ -75,7 +75,7 @@ A dragon's presence can alter the behavior or physical characteristics of creatu
 
 **Draconic Tint**. Creatures that live within 6 miles of the lair develop coloration similar to the dragon's.
 
-**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `dice:1d10|noform|noparens|avg` (`d10`) days.
+**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `d10` days.
 
 #### Planar Connections
 
@@ -111,11 +111,11 @@ Regional effects around a dragon's lair might involve only minor visual or audit
 
 Like regional effects, a dragon's lair actions reflect an intimate connection to the magical energy that flows through and around the lair. The broad scope of that magic means that a dragon need not be limited to the lair actions described in the "Monster Manual" and "chapter 6" of this book. "Chapter 5" of this book offers suggestions for additional lair actions for various kinds of dragon, which are tailored to those dragons and the example lair maps found in that chapter. Additional lair actions that might apply to any dragon in any lair include the following:
 
-**Catch Breath**. The dragon rolls a `dice:d6|noform|noparens|avg` (`d6`). On a 6, it recharges its breath weapon action.
+**Catch Breath**. The dragon rolls a `d6`. On a 6, it recharges its breath weapon action.
 
 **Lair Rejuvenation**. The dragon regains hit points equal to the number of Hit Dice it has by drawing on the magical energy suffusing its lair.
 
-**Lingering Breath**. Any creature that took damage from the dragon's breath weapon on the dragon's previous turn immediately takes `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) damage of that type, as the breath weapon's energy lingers and clings to its targets.
+**Lingering Breath**. Any creature that took damage from the dragon's breath weapon on the dragon's previous turn immediately takes 10 (`3d6`) damage of that type, as the breath weapon's energy lingers and clings to its targets.
 
 **Toughened Scales**. Glowing magical energy swirls across the dragon's scales, granting the dragon resistance to bludgeoning, piercing, and slashing damage until initiative count 20 on the next round.
 
@@ -282,13 +282,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 140 (`4d6 × 10`) gp
 
-3 (`dice:1d6|noform|noparens|avg` (`d6`)) mundane items
+3 (`d6`) mundane items
 
-9 (`dice:2d8|noform|noparens|avg` (`2d8`)) gems
+9 (`2d8`) gems
 
-2 (`dice:1d4|noform|noparens|avg` (`d4`)) art objects
+2 (`d4`) art objects
 
-4 (`dice:1d8|noform|noparens|avg` (`d8`)) magic items
+4 (`d8`) magic items
 
 #### Adult Dragon Hoards
 
@@ -300,13 +300,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 3,500 (`10d6 × 100`) pp
 
-7 (`dice:2d6|noform|noparens|avg` (`2d6`)) mundane items
+7 (`2d6`) mundane items
 
-21 (`dice:6d6|noform|noparens|avg` (`6d6`)) gems
+21 (`6d6`) gems
 
-10 (`dice:3d6|noform|noparens|avg` (`3d6`)) art objects
+10 (`3d6`) art objects
 
-4 (`dice:1d8|noform|noparens|avg` (`d8`)) magic items
+4 (`d8`) magic items
 
 #### Young Dragon Hoards
 
@@ -318,13 +318,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 210 (`6d6 × 10`) pp
 
-4 (`dice:1d8|noform|noparens|avg` (`d8`)) mundane items
+4 (`d8`) mundane items
 
-21 (`dice:6d6|noform|noparens|avg` (`6d6`)) gems
+21 (`6d6`) gems
 
-5 (`dice:2d4|noform|noparens|avg` (`2d4`)) art objects
+5 (`2d4`) art objects
 
-4 (`dice:1d8|noform|noparens|avg` (`d8`)) magic items
+4 (`d8`) magic items
 
 #### Ancient Dragon Hoards
 
@@ -336,13 +336,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 42,000 (`12d6 × 1,000`) pp
 
-9 (`dice:2d8|noform|noparens|avg` (`2d8`)) mundane items
+9 (`2d8`) mundane items
 
-21 (`dice:6d6|noform|noparens|avg` (`6d6`)) gems
+21 (`6d6`) gems
 
-11 (`dice:2d10|noform|noparens|avg` (`2d10`)) art objects
+11 (`2d10`) art objects
 
-7 (`dice:2d6|noform|noparens|avg` (`2d6`)) magic items
+7 (`2d6`) magic items
 
 ![](Інструменти%20ДМ/CLI/books/fizbans-treasury-of-dragons/img/037-04-005-gold-coins.webp#center)
 

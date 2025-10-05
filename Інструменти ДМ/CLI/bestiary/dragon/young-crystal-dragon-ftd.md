@@ -142,20 +142,17 @@ Crystal dragons are among the most social and hospitable of dragons. They are eq
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+3|noform|noparens|avg|text(14)\
-      \ (2d10 + 3) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 14 (2d10 + 3) piercing damage plus 4 (d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each\
       \ creature in that area must make a DC 15 Constitution saving throw, taking\
-      \ dice:6d8|noform|noparens|avg|text(27) (6d8) radiant damage on a failed\
-      \ save, or half as much damage on a successful one. The dragon then gains 10\
-      \ temporary hit points by absorbing a portion of the radiant energy."
+      \ 27 (6d8) radiant damage on a failed save, or half as much damage on a successful\
+      \ one. The dragon then gains 10 temporary hit points by absorbing a portion\
+      \ of the radiant energy."
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\

@@ -79,13 +79,11 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
 "actions":
   - "desc": "The warrior makes two Greatsword or Heavy Crossbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 100/400\
-      \ ft. Hit: dice:2d10+1|noform|noparens|avg|text(12) (2d10 + 1) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1)\
+      \ Piercing damage."
     "name": "Heavy Crossbow"
 "reactions":
   - "desc": "Trigger: The warrior is hit by a melee attack roll while holding a weapon.\

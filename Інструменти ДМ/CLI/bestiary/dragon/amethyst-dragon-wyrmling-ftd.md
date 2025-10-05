@@ -145,14 +145,12 @@ Amethyst dragons are generally aloof creatures, dwelling in isolation for long p
   - "desc": "The dragon can breathe both air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
-      \ (1d10 + 4) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ force damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d10 + 4) piercing damage plus 4 (d8) force damage."
     "name": "Bite"
   - "desc": "The dragon creates a shining bead of gravitational force in its mouth,\
       \ then releases the energy in a 15-foot cone. Each creature in that area must\
-      \ make a DC 13 Strength saving throw. On a failed save, the creature takes dice:5d8|noform|noparens|avg|text(22)\
+      \ make a DC 13 Strength saving throw. On a failed save, the creature takes 22\
       \ (5d8) force damage, and its speed becomes 0 until the start of the dragon's\
       \ next turn. On a successful save, the creature takes half as much damage, and\
       \ its speed isn't reduced."

@@ -73,41 +73,36 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d10+10|noform|noparens|avg|text(21)\
-      \ (2d10 + 10) piercing damage plus dice:2d12|noform|noparens|avg|text(13)\
-      \ (2d12) force damage."
+  - "desc": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit:\
+      \ 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+10|noform|noparens|avg|text(19)\
-      \ (2d8 + 10) slashing damage. If the target is a Huge or smaller creature,\
+  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+      \ 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The greatwyrm can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ reach 20 ft., one target. Hit: dice:2d8+10|noform|noparens|avg|text(19)\
-      \ (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+      \ 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 26 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature\
       \ in that area must make a DC 26 Dexterity saving throw. On a failed save, the\
-      \ creature takes dice:12d12|noform|noparens|avg|text(78) (12d12) acid damage.\
-      \ On a successful save, the creature takes half as much damage."
+      \ creature takes 78 (12d12) acid damage. On a successful save, the creature\
+      \ takes half as much damage."
     "name": "Breath Weapon (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw or Tail attack."
     "name": "Attack"
   - "desc": "The greatwyrm beats its wings. Each creature within 30 feet of it must\
-      \ succeed on a DC 26 Dexterity saving throw or take dice:2d6+10|noform|noparens|avg|text(17)\
-      \ (2d6 + 10) bludgeoning damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
+      \ succeed on a DC 26 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning\
+      \ damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
       \ The greatwyrm can then fly up to half its flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
   - "desc": "The greatwyrm creates four spears of magical force. Each spear hits a\
       \ creature of the greatwyrm's choice it can see within 120 feet of it, dealing\
-      \ dice:1d8+8|noform|noparens|avg|text(12) (1d8 + 8) force damage to its\
-      \ target, then disappears."
+      \ 12 (1d8 + 8) force damage to its target, then disappears."
     "name": "Arcane Spear (Costs 3 Actions)"
 "source":
   - "FTD"

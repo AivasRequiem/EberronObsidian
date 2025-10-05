@@ -76,10 +76,9 @@ Each Valenar animal can be customized with an ancestral gift, a supernatural tra
       \ checks that rely on hearing or smell."
     "name": "Keen Hearing and Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) piercing damage. If the target is a creature, it must succeed on a DC\
-      \ 13 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
+      \ on a DC 13 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
 "source":
   - "ERLW"

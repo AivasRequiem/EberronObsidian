@@ -75,10 +75,8 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
 "actions":
   - "desc": "Zuggtmoy makes three Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+6|noform|noparens|avg|text(15)\
-      \ (2d8 + 6) force damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+      \ 15 (2d8 + 6) force damage plus 9 (2d8) poison damage."
     "name": "Pseudopod"
   - "desc": "Zuggtmoy casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
@@ -152,7 +150,7 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
       \ even where they would normally find no purchase.  \n- Mutating Vegetation.\
       \ Vegetation within 1 mile of the lair becomes infested with parasitic fungi,\
       \ slowly mutating as it is overwhelmed.  \n- If Zuggtmoy dies, these effects\
-      \ fade over the course of dice:1d10|noform|noparens|avg (d10) days.  "
+      \ fade over the course of d10 days.  "
     "name": ""
 "source":
   - "MPMM"

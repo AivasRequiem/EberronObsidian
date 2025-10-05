@@ -52,8 +52,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The hippopotamus makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Piercing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing\
       \ damage."
     "name": "Bite"
 "source":

@@ -72,8 +72,7 @@ Trolls typically hunt alone, but small groups occasionally cooperate to ambush p
 "actions":
   - "desc": "The troll makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing\
       \ damage."
     "name": "Rend"
 "bonus_actions":

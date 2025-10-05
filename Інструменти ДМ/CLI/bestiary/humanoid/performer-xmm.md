@@ -124,8 +124,8 @@ Wrestler
 "languages": "Common plus one other language"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+      \ damage."
     "name": "Shortsword"
 "reactions":
   - "desc": "Trigger: The performer is hit by an attack roll. _Response:_ The performer\

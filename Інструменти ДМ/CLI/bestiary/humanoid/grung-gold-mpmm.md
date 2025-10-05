@@ -68,10 +68,9 @@ aliases:
       \ itself in water for at least 1 hour."
     "name": "Water Dependency"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
-      \ (1d4 + 2) piercing damage plus dice:2d4|noform|noparens|avg|text(5) (2d4)\
-      \ poison damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 5 (2d4) poison\
+      \ damage."
     "name": "Dagger"
 "source":
   - "MPMM"

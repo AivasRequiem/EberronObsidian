@@ -93,7 +93,7 @@ You can attune to up to four magic items at once.
 
 #### Charges
 
-Whenever you use a magic item property that expends charges, roll `dice:1d6|noform|noparens|avg` (`d6`). On a roll of 6, you use the property without expending the charges.
+Whenever you use a magic item property that expends charges, roll `d6`. On a roll of 6, you use the property without expending the charges.
 
 #### Scrolls
 

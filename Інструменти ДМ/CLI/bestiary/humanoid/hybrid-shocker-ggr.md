@@ -42,8 +42,7 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "cr": "1"
 "traits":
   - "desc": "Any creature that touches the hybrid or hits it with a melee attack while\
-      \ within 5 feet of it takes dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ lightning damage."
+      \ within 5 feet of it takes 5 (d10) lightning damage."
     "name": "Electrified Body"
   - "desc": "The hybrid sheds bright light in a 10-foot radius and dim light for an\
       \ additional 10 feet."
@@ -52,15 +51,13 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
   - "desc": "The hybrid makes two attacks: one with its shocking touch and one with\
       \ its tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8|noform|noparens|avg|text(9) (2d8)\
-      \ lightning damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d8) lightning damage."
     "name": "Shocking Touch"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 15 ft., one creature. Hit: The target is [grappled](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Grappled) (escape DC 11), and the hybrid pulls the\
-      \ target up to 15 feet straight toward it. Until this grapple ends, the target\
-      \ takes dice:1d10|noform|noparens|avg|text(5) (d10) lightning damage at\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit:\
+      \ The target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 11), and the hybrid pulls the target up to 15 feet straight toward\
+      \ it. Until this grapple ends, the target takes 5 (d10) lightning damage at\
       \ the start of each of its turns, and the hybrid shocker can't use its tentacles\
       \ on another creature."
     "name": "Tentacles"

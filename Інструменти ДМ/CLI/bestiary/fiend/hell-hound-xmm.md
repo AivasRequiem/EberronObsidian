@@ -62,14 +62,12 @@ Hell hounds have greater cunning than normal canines. They're skilled trackers a
 "actions":
   - "desc": "The hound makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage\
-      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage plus 3 (d6) Fire damage."
     "name": "Bite"
   - "desc": "Dexterity Saving Throw: DC 12, each creature in a 15-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:5d6|noform|noparens|avg|text(17) (5d6) Fire damage. Success: Half\
-      \ damage."
+      \ 17 (5d6) Fire damage. Success: Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

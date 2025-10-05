@@ -93,22 +93,20 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
 "actions":
   - "desc": "The cataclysm makes two Elemental Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+15|noform|noparens|text(+15),\
-      \ reach 30 ft. or range 150 ft. Hit: dice:5d6+8|noform|noparens|avg|text(25)\
-      \ (5d6 + 8) damage of a type chosen by the cataclysm: Acid, Cold, Fire, Lightning,\
-      \ or Thunder."
+  - "desc": "Melee  or Ranged Attack Roll: +15, reach 30 ft. or range 150 ft.\
+      \ Hit: 25 (5d6 + 8) damage of a type chosen by the cataclysm: Acid, Cold,\
+      \ Fire, Lightning, or Thunder."
     "name": "Elemental Burst"
-  - "desc": "The cataclysm creates one of the following effects at random (roll dice:1d4|noform|noparens|avg\
-      \ (d4)):\n\n- 1 Clinging Flames. Dexterity Saving Throw: DC 23, each\
-      \ creature in a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the cataclysm can see within 150 feet. Failure: dice:13d6|noform|noparens|avg|text(45)\
-      \ (13d6) Fire damage. Success: Half damage. Failure or Success: The target\
-      \ starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).  \n\
-      - 2 Freezing Waves. Strength Saving Throw: DC 23, each creature in a 90-foot\
-      \ [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
-      \ Failure: dice:5d8|noform|noparens|avg|text(22) (5d8) Bludgeoning damage\
-      \ plus dice:5d8|noform|noparens|avg|text(22) (5d8) Cold damage, and the\
-      \ target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\
+  - "desc": "The cataclysm creates one of the following effects at random (roll d4):\n\
+      \n- 1 Clinging Flames. Dexterity Saving Throw: DC 23, each creature in\
+      \ a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
+      \ centered on a point the cataclysm can see within 150 feet. Failure: 45 (13d6)\
+      \ Fire damage. Success: Half damage. Failure or Success: The target starts\
+      \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).  \n- 2 Freezing\
+      \ Waves. Strength Saving Throw: DC 23, each creature in a 90-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+      \ 22 (5d8) Bludgeoning damage plus 22 (5d8) Cold damage, and the target\
+      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\
       \ Success: Half damage only. Failure or Success: The target's [Speed](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is reduced to 0 until\
       \ the end of its next turn.  \n- 3 Raging Storm. A storm cloud fills a 60-foot-radius\
@@ -119,18 +117,16 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
       \ and [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened) conditions\
       \ and can't cast spells with a Verbal component. Dexterity Saving Throw: DC\
       \ 23, each creature that enters the cloud for the first time on a turn or starts\
-      \ its turn there. Failure: dice:4d8|noform|noparens|avg|text(18) (4d8)\
-      \ Lightning damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Thunder\
+      \ its turn there. Failure: 18 (4d8) Lightning damage plus 18 (4d8) Thunder\
       \ damage. Success: Half damage.  \n- 4 Swallowing Earth. Strength Saving\
       \ Throw: DC 23, each creature in a 90-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
-      \ originating from a point on the ground within 150 feet. Failure: dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) Bludgeoning damage plus dice:4d8|noform|noparens|avg|text(18) (4d8)\
-      \ Acid damage, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition and is buried under rubble. A buried target has the [Restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition, has [Total Cover](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md), and is suffocating.\
-      \ As an action, a buried creature or another creature within 5 feet of it can\
-      \ make a DC 18 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
+      \ originating from a point on the ground within 150 feet. Failure: 18 (4d8)\
+      \ Bludgeoning damage plus 18 (4d8) Acid damage, and the target has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition and is buried under\
+      \ rubble. A buried target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition, has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md),\
+      \ and is suffocating. As an action, a buried creature or another creature within\
+      \ 5 feet of it can make a DC 18 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
       \ check. On a successful check, the creature is no longer buried. Success:\
       \ Half damage only.  "
     "name": "Cataclysmic Event (Recharge 4-6)"

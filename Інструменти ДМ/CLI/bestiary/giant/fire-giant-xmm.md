@@ -63,16 +63,14 @@ Most fire giants dwell in volcanically active mountains or cavernous depths that
   - "desc": "The giant makes two attacks, using Flame Sword or Hammer Throw in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
-      \ 10 ft. Hit: dice:4d6+7|noform|noparens|avg|text(21) (4d6 + 7) Slashing\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Fire damage."
+  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing\
+      \ damage plus 10 (3d6) Fire damage."
     "name": "Flame Sword"
-  - "desc": "Ranged Attack Roll: dice:1d20+11|noform|noparens|text(+11), range\
-      \ 60/240 ft. Hit: dice:3d10+7|noform|noparens|avg|text(23) (3d10 + 7)\
-      \ Bludgeoning damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Fire\
-      \ damage, and the target is pushed up to 15 feet straight away from the giant\
-      \ and has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
-      \ on the next attack roll it makes before the end of its next turn."
+  - "desc": "Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7)\
+      \ Bludgeoning damage plus 4 (d8) Fire damage, and the target is pushed up\
+      \ to 15 feet straight away from the giant and has [Disadvantage](Інструменти\
+      %20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the next attack roll\
+      \ it makes before the end of its next turn."
     "name": "Hammer Throw"
 "source":
   - "XMM"

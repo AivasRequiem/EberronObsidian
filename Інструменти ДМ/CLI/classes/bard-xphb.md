@@ -75,13 +75,13 @@ A Bard's life is spent traveling, gathering lore, telling stories, and living on
 
 ### Bardic Inspiration (Level 1)
 
-You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a `dice:d6|noform|noparens|avg` (`d6`).
+You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a `d6`.
 
 #### Using Bardic Inspiration
 
 As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
 
-Once within the next hour when the creature fails a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature can roll the Bardic Inspiration die and add the number rolled to the `dice:d20|noform|noparens|avg` (`d20`), potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
+Once within the next hour when the creature fails a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature can roll the Bardic Inspiration die and add the number rolled to the `d20`, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
 
 #### Number of Uses
 
@@ -89,7 +89,7 @@ You can confer a Bardic Inspiration die a number of times equal to your Charisma
 
 #### At Higher Levels
 
-Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a `dice:d8|noform|noparens|avg` (`d8`) at level 5, a `dice:d10|noform|noparens|avg` (`d10`) at level 10, and a `dice:d12|noform|noparens|avg` (`d12`) at level 15.
+Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a `d8` at level 5, a `d10` at level 10, and a `d12` at level 15.
 
 ### Spellcasting (Level 1)
 

@@ -56,12 +56,11 @@ Some mountain dwellers view galeb duhr as aloof allies and might entrust these l
 "languages": "Primordial (Terran)"
 "cr": "6"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
-      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Bludgeoning\
+  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 12 (2d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the galeb duhr moved\
       \ 20+ feet straight toward it immediately before the hit, the target takes an\
-      \ extra dice:2d6|noform|noparens|avg|text(7) (2d6) Bludgeoning damage and\
-      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+      \ extra 7 (2d6) Bludgeoning damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition."
     "name": "Avalanche Slam"
   - "desc": "The galeb duhr magically animates one or two boulders it can see within\
       \ 60 feet of itself. Each boulder uses the Galeb Duhr stat block, except it\

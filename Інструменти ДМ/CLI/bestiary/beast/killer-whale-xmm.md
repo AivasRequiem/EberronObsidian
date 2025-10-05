@@ -48,8 +48,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The whale can hold its breath for 30 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:5d6+4|noform|noparens|avg|text(21) (5d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing\
       \ damage."
     "name": "Bite"
 "source":

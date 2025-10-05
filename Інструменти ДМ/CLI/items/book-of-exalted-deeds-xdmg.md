@@ -20,7 +20,7 @@ The Book of Exalted Deeds rarely lingers in one place. As soon as the book is re
 
 A heavy clasp, wrought to look like angel wings, keeps the book's contents secure. Only a creature that is attuned to the book can release the clasp that holds it shut. Once the book is opened, the attuned creature must spend 80 hours reading and studying the book to digest its contents and gain its benefits.
 
-Other creatures that peruse the book's open pages can read the text but glean no deeper meaning and reap no benefits. A Fiend, an Undead, or a servant of a god from the Lower Planes that tries to read from the book takes `dice:24d6|noform|noparens|avg` (`24d6`) Radiant damage. This damage ignores [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md), and it can't be reduced or avoided by any means. A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage disappears in a flash and is destroyed, leaving its possessions behind. The book then vanishes, and the creature's [Attunement](Інструменти%20ДМ/CLI/rules/variant-rules/attunement-xphb.md) to it ends.
+Other creatures that peruse the book's open pages can read the text but glean no deeper meaning and reap no benefits. A Fiend, an Undead, or a servant of a god from the Lower Planes that tries to read from the book takes `24d6` Radiant damage. This damage ignores [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md), and it can't be reduced or avoided by any means. A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage disappears in a flash and is destroyed, leaving its possessions behind. The book then vanishes, and the creature's [Attunement](Інструменти%20ДМ/CLI/rules/variant-rules/attunement-xphb.md) to it ends.
 
 Benefits granted by the Book of Exalted Deeds last only as long as you strive to do good. If you fail to perform at least one act of kindness or generosity within the span of 10 days, or if you willingly perform an evil act, you lose all the benefits granted by the book.
 
@@ -49,6 +49,6 @@ The Book of Exalted Deeds has the following random properties:
 
 ## Destroying the Book
 
-The Book of Exalted Deeds can't be destroyed. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `dice:1d100|noform|noparens|avg` (`d100`) years.
+The Book of Exalted Deeds can't be destroyed. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `d100` years.
 
 *Source: Dungeon Master's Guide (2024) p. 237*

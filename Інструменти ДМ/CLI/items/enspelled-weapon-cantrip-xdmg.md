@@ -74,9 +74,9 @@ aliases:
 
 
 
-Bound into this weapon is a cantrip. The cantrip is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains `dice:1d6|noform|noparens|avg` (`d6`) expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.
+Bound into this weapon is a cantrip. The cantrip is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains `d6` expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.
 
-The spell's saving throw DC is 13, and its attack bonus is `dice:1d20+5|noform|noparens|text(+5)`.
+The spell's saving throw DC is 13, and its attack bonus is `+5`.
 
 **Variants**:
 - [Enspelled (Cantrip) Antimatter Rifle](#Enspelled%20(Cantrip)%20Antimatter%20Rifle)

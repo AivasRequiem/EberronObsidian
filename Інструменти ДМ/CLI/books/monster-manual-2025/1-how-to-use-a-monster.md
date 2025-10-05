@@ -140,7 +140,7 @@ A monster's size typically determines the die used to calculate its [Hit Points]
 
 ![Parts of a Stat Block; Hit Dice by Size](Інструменти%20ДМ/CLI/tables/parts-of-a-stat-block-hit-dice-by-size-xmm.md)
 
-A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). For example, if a monster has a Constitution of 12 (+1 modifier) and `dice:2d8|noform|noparens|avg` (`2d8`) Hit Dice, it has `dice:2d8+2|noform|noparens|avg` (`2d8 + 2`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) (average 11).
+A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). For example, if a monster has a Constitution of 12 (+1 modifier) and `2d8` Hit Dice, it has `2d8 + 2` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) (average 11).
 
 For more on [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), see the "Player's Handbook".
 
@@ -253,7 +253,7 @@ If an effect forces a saving throw, the effect identifies the kind of save requi
 
 #### Damage Notation
 
-A stat block usually provides both a number and a die expression for each instance of damage. For example, an attack might deal `dice:1d4+2|noform|noparens|avg|text(4)` (`1d4 + 2`) damage on a hit. You decide whether to use the number or the die expression in parentheses; don't use both.
+A stat block usually provides both a number and a die expression for each instance of damage. For example, an attack might deal 4 (`1d4 + 2`) damage on a hit. You decide whether to use the number or the die expression in parentheses; don't use both.
 
 #### Multiattack
 
@@ -292,5 +292,5 @@ The monster has a limited number of Legendary Action uses, and that number is sp
 Some parts of a stat block have restrictions on the number of times they can be used. Here are the most common ways that usage is limited:
 
 - **X/Day.** This notation means the stat block part can be used a certain number of times (represented by X) and that a monster must finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to regain expended uses. For example, a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) that includes "1/Day" means the [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) can be taken once and that the monster must finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to take it again.  
-- **Recharge X–Y.** This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll `dice:1d6|noform|noparens|avg` (`d6`). If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). For example, "Recharge 5–6" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on `dice:1d6|noform|noparens|avg` (`d6`).  
+- **Recharge X–Y.** This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll `d6`. If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). For example, "Recharge 5–6" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on `d6`.  
 - **Recharge after a Short or Long Rest.** This notation means the monster can use the stat block part once and must then finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to use it again.

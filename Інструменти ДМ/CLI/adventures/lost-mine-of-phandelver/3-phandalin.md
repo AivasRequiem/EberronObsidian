@@ -448,7 +448,7 @@ This area was part of Tresendar Manor's original cellars. The Redbrands dug out 
 
 The pit trap in the middle of the hallway is hidden under a false floor consisting of loose stone tiles laid atop breakaway timbers. The tiles and timbers collapse under 100 or more pounds of weight. A character searching the hall for traps can spot the covered pit with a successful DC 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check. A successful check also reveals narrow ledges on the north and south sides of the pit. A creature attempting to skirt around the pit using one of these ledges must succeed on a DC 10 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check.
 
-A creature that triggers the trap or fails the Dexterity check to skirt around the edge of the pit must attempt a DC 15 Dexterity saving throw to catch the edge. On a failed save, the creature falls 20 feet to the dirt floor of the pit, taking `dice:2d6|noform|noparens|avg` (`2d6`) bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
+A creature that triggers the trap or fails the Dexterity check to skirt around the edge of the pit must attempt a DC 15 Dexterity saving throw to catch the edge. On a failed save, the creature falls 20 feet to the dirt floor of the pit, taking `2d6` bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
 
 ### Awarding Experience Points
 
@@ -563,7 +563,7 @@ These bridges are made of wooden planks and have no rails. The south one is rigg
 
 ### Crevasse
 
-This steep-sided fissure is 5 to 10 feet wide and 20 feet deep. Its rough walls are easily climbed without an ability check. A creature that falls into the crevasse takes `dice:2d6|noform|noparens|avg` (`2d6`) bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) in a jumble of rubble that is difficult terrain (see "Difficult Terrain" in the rulebook).
+This steep-sided fissure is 5 to 10 feet wide and 20 feet deep. Its rough walls are easily climbed without an ability check. A creature that falls into the crevasse takes `2d6` bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) in a jumble of rubble that is difficult terrain (see "Difficult Terrain" in the rulebook).
 
 The bottom of the crevasse feels unnaturally cold. When viewed with a [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md) spell, the area emanates a faint necromantic aura. The magic causes all organic matter in the crevasse to age and decompose at half the normal rate.
 
@@ -590,7 +590,7 @@ A character who listens at this door with a successful DC 10 Wisdom ([Perception
 > This barracks contains four roughly built wooden bunks, with heaped-up blankets and dirty dishes scattered about. A strong smell of unwashed bodies and rotten meat fills the air. Three tall, furry humanoids are lounging among the mess, barking orders at a sad little goblin that demeans itself for their amusement. Your sudden appearance causes the goblin to faint.
 ^09f
 
-Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) and one [goblin](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) are present. The goblin, Droop, falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) at the sight of the party, but another creature can use an action to wake him. Otherwise, Droop remains [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) for `dice:1d10|noform|noparens|avg` (`d10`) minutes.
+Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) and one [goblin](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) are present. The goblin, Droop, falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) at the sight of the party, but another creature can use an action to wake him. Otherwise, Droop remains [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) for `d10` minutes.
 
 The bugbears work for the Black Spider and were sent here to help Iarno keep the Redbrands and the citizens of Phandalin in line. The leader is named Mosk. He wears a jeweled eye patch even though he has both his eyes. Mosk wears the eye patch because he thinks it's fancy.
 

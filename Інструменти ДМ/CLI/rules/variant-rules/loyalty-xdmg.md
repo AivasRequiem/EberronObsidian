@@ -19,9 +19,9 @@ An NPC's loyalty is measured on a numerical scale from 0 to 20. The NPC's maximu
 
 Keep track of an NPC's Loyalty Score in secret so that the players won't know for sure whether an NPC party member is loyal or disloyal.
 
-An NPC's Loyalty Score increases by `dice:1d4|noform|noparens|avg` (`d4`) if other party members help the NPC achieve a personal goal. Likewise, an NPC's Loyalty Score increases by `dice:1d4|noform|noparens|avg` (`d4`) if the NPC is treated particularly well (for example, given a magic weapon as a gift) or rescued by another party member. An NPC's Loyalty Score can never be raised above its maximum.
+An NPC's Loyalty Score increases by `d4` if other party members help the NPC achieve a personal goal. Likewise, an NPC's Loyalty Score increases by `d4` if the NPC is treated particularly well (for example, given a magic weapon as a gift) or rescued by another party member. An NPC's Loyalty Score can never be raised above its maximum.
 
-When other party members act in a manner that runs counter to the NPC's alignment or personality, reduce the NPC's Loyalty Score by `dice:1d4|noform|noparens|avg` (`d4`). Reduce the NPC's Loyalty Score by `dice:2d4|noform|noparens|avg` (`2d4`) if the NPC is abused, misled, or endangered by other party members for purely selfish reasons. A Loyalty Score can never drop below 0.
+When other party members act in a manner that runs counter to the NPC's alignment or personality, reduce the NPC's Loyalty Score by `d4`. Reduce the NPC's Loyalty Score by `2d4` if the NPC is abused, misled, or endangered by other party members for purely selfish reasons. A Loyalty Score can never drop below 0.
 
 ## Meaning of Loyalty
 

@@ -54,12 +54,10 @@ Skyjek rocs are headstrong and impulsive, but their bravery makes them ideal mou
 "actions":
   - "desc": "The roc makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8\
-      \ + 5) piercing damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d8 + 5) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d4+5|noform|noparens|avg|text(10)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
       \ (2d4 + 5) slashing damage."
     "name": "Talons"
 "source":

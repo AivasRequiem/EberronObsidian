@@ -38,8 +38,7 @@ aliases:
 "languages": "Understands the languages you know"
 "traits":
   - "desc": "A creature that hits the spirit with a melee attack or that starts its\
-      \ turn in a grapple with the spirit takes dice:1d10|noform|noparens|avg (d10)\
-      \ Fire damage."
+      \ turn in a grapple with the spirit takes d10 Fire damage."
     "name": "Heated Body (Metal Only)"
   - "desc": "When a creature starts its turn within 10 feet of the spirit, the spirit\
       \ can target it with magical energy if the spirit can see it. Wisdom Saving\

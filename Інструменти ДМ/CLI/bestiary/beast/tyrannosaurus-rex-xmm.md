@@ -49,16 +49,14 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The tyrannosaurus makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 10 ft. Hit: dice:4d12+7|noform|noparens|avg|text(33) (4d12 + 7) Piercing\
+  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 17).\
       \ While [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), the target\
       \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition and can't be targeted by the tyrannosaurus's Tail."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 15 ft. Hit: dice:4d8+7|noform|noparens|avg|text(25) (4d8 + 7) Bludgeoning\
+  - "desc": "Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"

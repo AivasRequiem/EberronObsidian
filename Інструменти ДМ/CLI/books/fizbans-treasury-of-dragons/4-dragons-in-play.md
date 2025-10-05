@@ -63,7 +63,7 @@ Many dragons are better known by nicknames and epithets. Klauth is commonly call
 
 When naming a dragon, take whatever approach appeals to you. But bear in mind that dragons need memorable names, and if you or your players have trouble pronouncing a name, it's likely to be quickly forgotten—or jokingly abbreviated.
 
-The Dragon Name Elements table provides Draconic morphemes that appear in dragon names. You can combine these elements to form a dragon name. For each element, roll a `dice:d20|noform|noparens|avg` (`d20`), then choose one of the four possible results from the table, or roll a `dice:d4|noform|noparens|avg` (`d4`) to determine which column to choose from. If you like, you can rearrange these elements and add or drop letters to create a smoother flow or a more dramatic sound. For nicknames, look for inspiration in the dragon's abilities, mannerisms, or most famous acts.
+The Dragon Name Elements table provides Draconic morphemes that appear in dragon names. You can combine these elements to form a dragon name. For each element, roll a `d20`, then choose one of the four possible results from the table, or roll a `d4` to determine which column to choose from. If you like, you can rearrange these elements and add or drop letters to create a smoother flow or a more dramatic sound. For nicknames, look for inspiration in the dragon's abilities, mannerisms, or most famous acts.
 
 ![How to Name Your Dragon; Dragon Name Elements](Інструменти%20ДМ/CLI/tables/how-to-name-your-dragon-dragon-name-elements-ftd.md)
 
@@ -200,10 +200,10 @@ Some sages describe dragons as being akin to knots in the fabric of magic—conc
 
 #### Regional Reversal
 
-As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `dice:1d10|noform|noparens|avg` (`d10`) days, as in the following examples:
+As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `d10` days, as in the following examples:
 
-- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `dice:1d10|noform|noparens|avg` (`d10`) days.  
-- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `dice:1d10|noform|noparens|avg` (`d10`) days.  
+- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `d10` days.  
+- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `d10` days.  
 - **Trembling Earth.** An enormous tremor shakes the earth within 6 miles of the lair.  
 - **Wildlife Changes.** Creatures previously attracted by the dragon's presence undergo sharp behavioral changes, perhaps attacking any creatures they see or beginning a mass migration away from the lair.  
 - **Winds of Change.** The weather within 6 miles of the lair changes dramatically.  
@@ -493,7 +493,7 @@ The magic that suffuses a dragon and the dragon's lair can sometimes extend to e
 
 > [!note] 
 > 
-> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `dice:1d8|noform|noparens|avg` (`d8`) damage of the same type its master's breath weapon deals.
+> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `d8` damage of the same type its master's breath weapon deals.
 > 
 > **Minion's Mind.** The minion can't be compelled to act in a way contrary to its master's instructions.
 > 

@@ -97,7 +97,7 @@ You gain proficiency in the [Insight](Інструменти%20ДМ/CLI/rules/sk
 
 *1st-level Peace Domain feature*
 
-You can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the `dice:d4|noform|noparens|avg` (`d4`) no more than once per turn.
+You can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a `d4` and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the `d4` no more than once per turn.
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
@@ -105,7 +105,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 *2nd-level Peace Domain feature*
 
-You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to `dice:2d6|noform|noparens|avg` (`2d6`) + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.
+You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to `2d6` + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.
 
 ### Protective Bond (Level 6)
 

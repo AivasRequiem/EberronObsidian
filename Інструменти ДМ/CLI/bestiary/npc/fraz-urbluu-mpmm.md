@@ -86,17 +86,15 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
   - "desc": "Fraz-Urb'luu makes one Bite attack and two Fist attacks, and he uses\
       \ Phantasmal Terror."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 10 ft., one target. Hit: dice:3d6+9|noform|noparens|avg|text(19)\
-      \ (3d6 + 9) force damage."
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+      \ 19 (3d6 + 9) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 10 ft., one target. Hit: dice:3d8+9|noform|noparens|avg|text(22)\
-      \ (3d8 + 9) force damage."
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+      \ 22 (3d8 + 9) force damage."
     "name": "Fist"
   - "desc": "Fraz-Urb'luu targets one creature he can see within 120 feet of him.\
-      \ The target must succeed on a DC 23 Wisdom saving throw, or it takes dice:3d10|noform|noparens|avg|text(16)\
-      \ (3d10) psychic damage and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ The target must succeed on a DC 23 Wisdom saving throw, or it takes 16 (3d10)\
+      \ psychic damage and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of Fraz-Urb'luu until the end of its next turn."
     "name": "Phantasmal Terror"
   - "desc": "Fraz-Urb'luu casts one of the following spells, requiring no material\
@@ -112,10 +110,9 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
       ти%20ДМ/CLI/spells/project-image-xphb.md)"
     "name": "Spellcasting"
 "legendary_actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d10+9|noform|noparens|avg|text(20)\
-      \ (2d10 + 9) force damage. If the target is a Large or smaller creature, it\
-      \ is also [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+      \ 20 (2d10 + 9) force damage. If the target is a Large or smaller creature,\
+      \ it is also [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 24), and it is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until the grapple ends. Fraz-Urb'luu can grapple only one creature with his\
       \ tail at a time."
@@ -131,12 +128,11 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
       \ the lair to become walls and an equal number of doors to appear on walls where\
       \ there previously were none.  \n- Psychic Anguish. Fraz-Urb'luu creates\
       \ a wave of anguish. Each creature he can see within the lair must succeed on\
-      \ a DC 23 Wisdom saving throw or take dice:6d10|noform|noparens|avg|text(33)\
-      \ (6d10) psychic damage.  \n- Simulacrum. Fraz-Urb'luu chooses one Humanoid\
-      \ within the lair and instantly creates a simulacrum of that creature (as if\
-      \ created with the [simulacrum](Інструменти%20ДМ/CLI/spells/simulacrum-xphb.md)\
-      \ spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on\
-      \ the next initiative count 20.  "
+      \ a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage.  \n- Simulacrum.\
+      \ Fraz-Urb'luu chooses one Humanoid within the lair and instantly creates a\
+      \ simulacrum of that creature (as if created with the [simulacrum](Інструмен\
+      ти%20ДМ/CLI/spells/simulacrum-xphb.md) spell). This simulacrum obeys Fraz-Urb'luu's\
+      \ commands and is destroyed on the next initiative count 20.  "
     "name": ""
 "regional_effects":
   - "desc": "The region containing Fraz-Urb'luu's lair is warped by his magic, creating\
@@ -153,8 +149,7 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
       \ and paths within 6 miles of the lair twist and turn back on themselves, making\
       \ navigation in the area exceedingly difficult.  "
     "name": ""
-  - "desc": "If Fraz-Urb'luu dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
-      \ (d10) days."
+  - "desc": "If Fraz-Urb'luu dies, these effects fade over the course of d10 days."
     "name": ""
 "source":
   - "MPMM"

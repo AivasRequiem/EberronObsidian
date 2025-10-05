@@ -67,9 +67,8 @@ Barbed devils rarely collect anything as prosaic as coins and gems. Rather, they
 "languages": "Infernal; telepathy 120 ft."
 "cr": "5"
 "traits":
-  - "desc": "At the start of each of its turns, the devil deals dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) Piercing damage to any creature it is grappling or any creature grappling\
-      \ it."
+  - "desc": "At the start of each of its turns, the devil deals 5 (d10) Piercing\
+      \ damage to any creature it is grappling or any creature grappling it."
     "name": "Barbed Hide"
   - "desc": "If the devil dies outside the Nine Hells, its body disappears in sulfurous\
       \ smoke, and it gains a new body instantly, reviving with all its [Hit Points](І\
@@ -83,19 +82,16 @@ Barbed devils rarely collect anything as prosaic as coins and gems. Rather, they
   - "desc": "The devil makes one Claws attack and one Tail attack, or it makes two\
       \ Hurl Flame attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ both claws."
     "name": "Claws"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:2d10+3|noform|noparens|avg|text(14) (2d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing\
       \ damage."
     "name": "Tail"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 150\
-      \ ft. Hit: dice:5d6|noform|noparens|avg|text(17) (5d6) Fire damage. If\
-      \ the target is a flammable object that isn't being worn or carried, it starts\
+  - "desc": "Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage.\
+      \ If the target is a flammable object that isn't being worn or carried, it starts\
       \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Hurl Flame"
 "source":

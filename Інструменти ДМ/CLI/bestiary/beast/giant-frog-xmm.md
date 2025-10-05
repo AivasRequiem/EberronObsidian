@@ -53,10 +53,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ is up to 10 feet with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 11)."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 11)."
     "name": "Bite"
   - "desc": "The frog swallows a Small or smaller target it is grappling. While swallowed,\
       \ the target isn't [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
@@ -68,9 +67,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ longer [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) and\
       \ can escape from the corpse using 5 feet of movement, exiting with the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\n\nAt the end of the\
-      \ frog's next turn, the swallowed target takes dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) Acid damage. If that damage doesn't kill it, the frog disgorges it,\
-      \ causing it to exit [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ frog's next turn, the swallowed target takes 5 (2d4) Acid damage. If that\
+      \ damage doesn't kill it, the frog disgorges it, causing it to exit [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
 "source":
   - "XMM"

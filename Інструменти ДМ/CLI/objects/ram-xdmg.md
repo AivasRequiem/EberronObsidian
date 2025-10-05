@@ -32,6 +32,6 @@ title: Ram
 
 ## Actions
 
-***Ram (Requires Position).*** *Melee Attack Roll:* `dice:1d20+8|noform|noparens|text(+8)`, reach 5 ft. *Hit:* `dice:3d10|noform|noparens|avg|text(16)` (`3d10`) Bludgeoning damage.
+***Ram (Requires Position).*** *Melee Attack Roll:* `+8`, reach 5 ft. *Hit:* 16 (`3d10`) Bludgeoning damage.
 ```
 ^statblock

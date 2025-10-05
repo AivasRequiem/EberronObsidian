@@ -90,10 +90,9 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
 "actions":
   - "desc": "The githzerai makes three Psychic Warp attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:4d10+4|noform|noparens|avg|text(26)\
-      \ (4d10 + 4) Psychic damage, and the target has the githzerai's choice of\
-      \ (A) the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition\
+  - "desc": "Melee  or Ranged Attack Roll: +8, reach 5 ft. or range 120 ft. Hit:\
+      \ 26 (4d10 + 4) Psychic damage, and the target has the githzerai's choice\
+      \ of (A) the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition\
       \ until the start of the githzerai's next turn or (B) the [Prone](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Prone) condition, provided the target is a Large\
       \ or smaller creature."

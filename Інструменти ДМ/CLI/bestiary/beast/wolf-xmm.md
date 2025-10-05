@@ -53,10 +53,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Prone](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Bite"
 "source":
   - "XMM"

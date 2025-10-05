@@ -58,9 +58,8 @@ Faerie dragons are cat-size pranksters with draconic features, butterfly-like wi
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Psychic damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
+      \ damage plus 2 (d4) Psychic damage."
     "name": "Bite"
   - "desc": "Wisdom Saving Throw: DC 12, each creature in a 15-foot [Cone](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

@@ -63,12 +63,10 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
 "actions":
   - "desc": "The unicorn makes one Hooves attack and one Radiant Horn attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning\
       \ damage."
     "name": "Hooves"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Radiant\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Radiant\
       \ damage."
     "name": "Radiant Horn"
   - "desc": "The unicorn casts one of the following spells, requiring no spell components\
@@ -93,10 +91,10 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
       \ and it makes one Radiant Horn attack."
     "name": "Charging Horn"
   - "desc": "The unicorn targets itself or one creature it can see within 60 feet\
-      \ of itself. The target gains dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md),\
-      \ and its AC increases by 2 until the end of the unicorn's next turn. The unicorn\
-      \ can't take this action again until the start of its next turn."
+      \ of itself. The target gains 10 (3d6) [Temporary Hit Points](Інструменти\
+      %20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md), and its AC increases\
+      \ by 2 until the end of the unicorn's next turn. The unicorn can't take this\
+      \ action again until the start of its next turn."
     "name": "Shimmering Shield"
 "regional_effects":
   - "desc": "The region containing a unicorn's lair is changed by its presence, creating\

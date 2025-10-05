@@ -51,12 +51,11 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
 "cr": "16"
 "traits":
   - "desc": "Zegana is a 15th-level Simic spellcaster. Her spellcasting ability is\
-      \ Intelligence (spell save DC 18, dice:1d20+10|noform|noparens|text(+10) to\
-      \ hit with spell attacks). She has the following wizard spells prepared:\n\n\
-      Cantrips (at will): [acid splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md),\
-      \ [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [ray of frost](І\
-      нструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md), shape water\n\n1st level\
-      \ (4 slots): [color spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md),\
+      \ Intelligence (spell save DC 18, +10 to hit with spell attacks). She has\
+      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](І\
+      нструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [druidcraft](Інструменти%20Д\
+      М/CLI/spells/druidcraft-xphb.md), [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md),\
+      \ shape water\n\n1st level (4 slots): [color spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md),\
       \ [expeditious retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md),\
       \ [fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [shield](Інстр\
       ументи%20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [enlarge/reduce](І\
@@ -84,25 +83,24 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+10|noform|noparens|text(+10)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
-      \ (2d6 + 5) piercing damage, and the trident emits a thunderous boom. Each\
-      \ creature in a 15-foot cube originating from the prongs of the trident must\
-      \ make a DC 18 Constitution saving throw. On a failed save, the creature takes\
-      \ dice:2d8|noform|noparens|avg|text(9) (2d8) thunder damage and is pushed\
-      \ 10 feet away from Zegana. If the creature is underwater, the damage is increased\
-      \ to dice:3d8|noform|noparens|avg|text(13) (3d8). On a successful save,\
-      \ the creature takes half as much damage and isn't pushed."
+  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the trident\
+      \ emits a thunderous boom. Each creature in a 15-foot cube originating from\
+      \ the prongs of the trident must make a DC 18 Constitution saving throw. On\
+      \ a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10\
+      \ feet away from Zegana. If the creature is underwater, the damage is increased\
+      \ to 13 (3d8). On a successful save, the creature takes half as much damage\
+      \ and isn't pushed."
     "name": "Prime Speaker's Trident"
   - "desc": "Zegana conjures a wave of water that crashes down on an area within 120\
       \ feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up\
       \ to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving\
-      \ throw. On a failed save, a creature takes dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) bludgeoning damage and is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
-      \ On a successful save, a creature takes half as much damage and isn't knocked\
-      \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). The water spreads\
-      \ out across the ground, extinguishing unprotected flames it comes in contact\
-      \ with, and then vanishes."
+      \ throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and\
+      \ is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). On a successful\
+      \ save, a creature takes half as much damage and isn't knocked [prone](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Prone). The water spreads out across the\
+      \ ground, extinguishing unprotected flames it comes in contact with, and then\
+      \ vanishes."
     "name": "Deluge (Recharge 4-6)"
 "legendary_actions":
   - "desc": "Zegana gains resistance to one damage type of her choice-acid, fire,\

@@ -22,7 +22,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes `dice:14d6|noform|noparens|avg` (`14d6`) Necrotic damage, and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum below 1.
+You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes `14d6` Necrotic damage, and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum below 1.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
 

@@ -85,12 +85,10 @@ Earth elementals are typically made of more than dirt. While an elemental's comp
 "actions":
   - "desc": "The elemental makes two attacks, using Slam or Rock Launch in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
-      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Bludgeoning\
+  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning\
       \ damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8), range 60\
-      \ ft. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6 + 5) Bludgeoning\
+  - "desc": "Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Rock Launch"

@@ -59,10 +59,9 @@ Nobles encompass a variety of people with social influence. They might be rulers
 "actions":
   - "desc": "The noble makes three Beguiling Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8),\
-      \ reach 5 ft. or range 60 ft. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
-      \ (4d6 + 4) Psychic damage, and the target has the [Charmed](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Charmed) condition until the start of the noble's\
+  - "desc": "Melee  or Ranged Attack Roll: +8, reach 5 ft. or range 60 ft. Hit:\
+      \ 18 (4d6 + 4) Psychic damage, and the target has the [Charmed](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Charmed) condition until the start of the noble's\
       \ next turn."
     "name": "Beguiling Strike"
   - "desc": "The noble casts one of the following spells, requiring no Material components\

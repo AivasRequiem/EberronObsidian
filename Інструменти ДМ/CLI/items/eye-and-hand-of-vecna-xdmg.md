@@ -36,7 +36,7 @@ To attune to the eye, you must press it into your empty socket. The eye grafts i
 While you are attuned to the eye, your alignment is Neutral Evil, and you gain the following benefits:
 
 - **Truesight.** You have [Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) out to 240 feet.  
-- **Spellcasting.** The eye has 8 charges and regains `dice:1d4+4|noform|noparens|avg` (`1d4 + 4`) expended charges daily at dawn. You can cast a spell on the [Eye of Vecna](Інструменти%20ДМ/CLI/items/eye-of-vecna-xdmg.md) Spells table from the eye (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a 5 percent chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control.  
+- **Spellcasting.** The eye has 8 charges and regains `1d4 + 4` expended charges daily at dawn. You can cast a spell on the [Eye of Vecna](Інструменти%20ДМ/CLI/items/eye-of-vecna-xdmg.md) Spells table from the eye (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a 5 percent chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control.  
 
     **Eye of Vecna Spells**  
 
@@ -59,8 +59,8 @@ To attune to the hand, you must press it against the stump where your left hand 
 When you are attuned to the hand, your alignment is Neutral Evil, and you gain the following benefits:
 
 - **Great Strength.** Your Strength becomes 20 unless it is already 20 or higher.  
-- **Icy Touch.** Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra `dice:2d8|noform|noparens|avg` (`2d8`) Cold damage on a hit.  
-- **Spellcasting.** The hand has 8 charges and regains `dice:1d4+4|noform|noparens|avg` (`1d4 + 4`) expended charges daily at dawn. You can cast a spell on the [Hand of Vecna](Інструменти%20ДМ/CLI/items/hand-of-vecna-xdmg.md) Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) on you (save DC 18; no [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration) required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.  
+- **Icy Touch.** Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra `2d8` Cold damage on a hit.  
+- **Spellcasting.** The hand has 8 charges and regains `1d4 + 4` expended charges daily at dawn. You can cast a spell on the [Hand of Vecna](Інструменти%20ДМ/CLI/items/hand-of-vecna-xdmg.md) Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) on you (save DC 18; no [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration) required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.  
 
     **Hand of Vecna Spells**  
 
@@ -77,9 +77,9 @@ When you are attuned to the hand, your alignment is Neutral Evil, and you gain t
 While attuned to both the hand and eye, you gain the following additional benefits:
 
 - **Danger Sense.** You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
-- **Necrotic Reduction.** As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can target one creature you can see within 5 feet of yourself. The target makes a DC 18 Constitution saving throw, taking `dice:7d6|noform|noparens|avg` (`7d6`) Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage is transformed into [green slime](Інструменти%20ДМ/CLI/traps-hazards/green-slime-xdmg.md) (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime.  
+- **Necrotic Reduction.** As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can target one creature you can see within 5 feet of yourself. The target makes a DC 18 Constitution saving throw, taking `7d6` Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage is transformed into [green slime](Інструменти%20ДМ/CLI/traps-hazards/green-slime-xdmg.md) (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime.  
 - **Poison Immunity.** You have [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to Poison damage and the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition.  
-- **Regeneration.** If you start your turn with at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you regain `dice:1d10|noform|noparens|avg` (`d10`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).  
+- **Regeneration.** If you start your turn with at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you regain `d10` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).  
 - **Wish.** You can cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md). Once used, this property can't be used again until 30 days have passed.  
 
 ## Destroying the Eye and Hand

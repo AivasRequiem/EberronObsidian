@@ -71,11 +71,11 @@ These golems obey their creators' orders and protect what their makers value mos
       \ equal to the Acid damage dealt."
     "name": "Acid Absorption"
   - "desc": "Whenever the golem starts its turn [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
-      \ roll dice:1d6|noform|noparens|avg (d6). On a 6, the golem goes berserk.\
-      \ On each of its turns while berserk, the golem attacks the nearest creature\
-      \ it can see. If no creature is near enough to move to and attack, the golem\
-      \ attacks an object. Once the golem goes berserk, it continues to be berserk\
-      \ until it is destroyed or it is no longer [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
+      \ roll d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
+      \ the golem attacks the nearest creature it can see. If no creature is near\
+      \ enough to move to and attack, the golem attacks an object. Once the golem\
+      \ goes berserk, it continues to be berserk until it is destroyed or it is no\
+      \ longer [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Berserk"
   - "desc": "The golem can't shape-shift."
     "name": "Immutable Form"
@@ -86,11 +86,10 @@ These golems obey their creators' orders and protect what their makers value mos
   - "desc": "The golem makes two Slam attacks, or it makes three Slam attacks if it\
       \ used Hasten this turn."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Bludgeoning\
-      \ damage plus dice:1d12|noform|noparens|avg|text(6) (d12) Acid damage, and\
-      \ the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by an amount equal to the Acid damage taken."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning\
+      \ damage plus 6 (d12) Acid damage, and the target's [Hit Point](Інструмент\
+      и%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an amount\
+      \ equal to the Acid damage taken."
     "name": "Slam"
 "bonus_actions":
   - "desc": "The golem takes the Dash and Disengage actions."

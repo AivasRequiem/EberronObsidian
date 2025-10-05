@@ -70,13 +70,11 @@ Dreamwalkers become divorced from reality by isolation, shame, and their unendin
 "actions":
   - "desc": "The giant makes two Greatclub or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 15 ft., one target. Hit: dice:4d8+6|noform|noparens|avg|text(24)\
-      \ (4d8 + 6) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+      \ 24 (4d8 + 6) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ range 60/240 ft., one target. Hit: dice:3d10+6|noform|noparens|avg|text(22)\
-      \ (3d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+      \ 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Rock"
   - "desc": "The giant touches one Medium or smaller creature within 10 feet of it\

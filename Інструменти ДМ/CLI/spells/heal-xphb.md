@@ -26,7 +26,7 @@ aliases:
 
 Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). This spell also ends the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded), [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened), and [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) conditions on the target.
 
-**Using a Higher-Level Spell Slot.** The healing increases by `dice:10|noform|noparens|avg|text(10)` for each spell slot level above 6.
+**Using a Higher-Level Spell Slot.** The healing increases by `10` for each spell slot level above 6.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
 

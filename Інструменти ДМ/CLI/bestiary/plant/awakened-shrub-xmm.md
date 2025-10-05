@@ -54,8 +54,7 @@ Magic can invest plants with mobility, sapience, and even a voice. Spells such a
 "languages": "Common plus one other language"
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+1|noform|noparens|text(+1), reach 5\
-      \ ft. Hit: 1 Slashing damage."
+  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage."
     "name": "Rake"
 "source":
   - "XMM"

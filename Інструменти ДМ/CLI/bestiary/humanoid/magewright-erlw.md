@@ -72,9 +72,8 @@ The magewright stat block provides the baseline statistics for a magewright. You
       \nRituals: [knock](Інструменти%20ДМ/CLI/spells/knock-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+3|noform|noparens|text(+3)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+1|noform|noparens|avg|text(3)\
-      \ (1d4 + 1) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":
   - "ERLW"

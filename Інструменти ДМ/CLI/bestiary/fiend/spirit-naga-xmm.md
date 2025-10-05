@@ -71,20 +71,18 @@ Spirit nagas seek to claim what they believe they deserve. Their schemes often i
 "languages": "Abyssal, Common"
 "cr": "8"
 "traits":
-  - "desc": "If it dies, the naga returns to life in dice:1d6|noform|noparens|avg\
-      \ (d6) days and regains all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+  - "desc": "If it dies, the naga returns to life in d6 days and regains all its\
+      \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \ Only a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell can prevent\
       \ this trait from functioning."
     "name": "Fiendish Restoration"
 "actions":
   - "desc": "The naga makes three attacks, using Bite or Necrotic Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Piercing damage\
-      \ plus dice:4d6|noform|noparens|avg|text(14) (4d6) Poison damage."
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing\
+      \ damage plus 14 (4d6) Poison damage."
     "name": "Bite"
-  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 60\
-      \ ft. Hit: dice:6d6|noform|noparens|avg|text(21) (6d6) Necrotic damage."
+  - "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage."
     "name": "Necrotic Ray"
   - "desc": "The naga casts one of the following spells, requiring no Somatic or Material\
       \ components and using Intelligence as the spellcasting ability (spell save\

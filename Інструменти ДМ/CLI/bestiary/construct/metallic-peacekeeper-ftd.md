@@ -58,8 +58,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
 "actions":
   - "desc": "The peacekeeper makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d8+3|noform|noparens|avg|text(16)\
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16\
       \ (3d8 + 3) bludgeoning damage."
     "name": "Slam"
   - "desc": "The peacekeeper releases a calming gas in a 30-foot-radius sphere centered\

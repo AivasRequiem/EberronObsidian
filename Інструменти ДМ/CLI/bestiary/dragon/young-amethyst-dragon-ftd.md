@@ -147,18 +147,15 @@ Amethyst dragons are generally aloof creatures, dwelling in isolation for long p
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
-      \ (2d10 + 5) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ force damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 16 (2d10 + 5) piercing damage plus 4 (d8) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8\
-      \ + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d8 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon creates a shining bead of gravitational force in its mouth,\
       \ then releases the energy in a 30-foot cone. Each creature in that area must\
-      \ make a DC 17 Strength saving throw. On a failed save, the creature takes dice:8d8|noform|noparens|avg|text(36)\
+      \ make a DC 17 Strength saving throw. On a failed save, the creature takes 36\
       \ (8d8) force damage, and its speed becomes 0 until the start of the dragon's\
       \ next turn. On a successful save, the creature takes half as much damage, and\
       \ its speed isn't reduced."

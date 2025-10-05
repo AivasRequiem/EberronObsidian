@@ -64,19 +64,17 @@ Some amnizus perform the critical task of watching over the River Styx from fort
   - "desc": "The amnizu uses Blinding Rot or Forgetfulness, if available. It also\
       \ makes two Taskmaster Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9)\
-      \ (1d8 + 5) slashing damage plus dice:3d10|noform|noparens|avg|text(16)\
-      \ (3d10) force damage."
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+      \ 9 (1d8 + 5) slashing damage plus 16 (3d10) force damage."
     "name": "Taskmaster Whip"
   - "desc": "The amnizu targets one or two creatures that it can see within 60 feet\
-      \ of it. Each target must succeed on a DC 19 Wisdom saving throw or take dice:4d12|noform|noparens|avg|text(26)\
+      \ of it. Each target must succeed on a DC 19 Wisdom saving throw or take 26\
       \ (4d12) necrotic damage and be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ until the start of the amnizu's next turn."
     "name": "Blinding Rot"
   - "desc": "The amnizu targets one creature it can see within 60 feet of it. That\
-      \ creature must succeed on a DC 18 Intelligence saving throw or take dice:4d12|noform|noparens|avg|text(26)\
-      \ (4d12) psychic damage and become [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ creature must succeed on a DC 18 Intelligence saving throw or take 26 (4d12)\
+      \ psychic damage and become [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. A [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ creature repeats the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success. If the target is [stunned](Інструменти\

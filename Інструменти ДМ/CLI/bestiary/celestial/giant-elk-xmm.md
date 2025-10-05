@@ -49,13 +49,11 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": "Celestial; understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Bludgeoning\
-      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Radiant damage.\
-      \ If the target is a Huge or smaller creature and the elk moved 20+ feet straight\
-      \ toward it immediately before the hit, the target takes an extra dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) Bludgeoning damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+      \ damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature\
+      \ and the elk moved 20+ feet straight toward it immediately before the hit,\
+      \ the target takes an extra 5 (2d4) Bludgeoning damage and has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Ram"
 "source":
   - "XMM"

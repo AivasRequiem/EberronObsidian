@@ -24,11 +24,11 @@ Kas was a powerful warrior who served "Vecna" and whose loyalty was rewarded wit
 
 ## Bloodthirst
 
-The sword thirsts for blood. If the sword doesn't taste blood on its blade within 1 minute of being drawn from its scabbard, its wielder makes a DC 15 Charisma saving throw. On a successful save, the wielder takes `dice:3d6|noform|noparens|avg` (`3d6`) Psychic damage. On a failed save, the wielder is dominated by the sword, as if by the [Dominate Monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md) spell, and the sword demands blood. The spell effect ends when the sword's demand is met.
+The sword thirsts for blood. If the sword doesn't taste blood on its blade within 1 minute of being drawn from its scabbard, its wielder makes a DC 15 Charisma saving throw. On a successful save, the wielder takes `3d6` Psychic damage. On a failed save, the wielder is dominated by the sword, as if by the [Dominate Monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md) spell, and the sword demands blood. The spell effect ends when the sword's demand is met.
 
 ## Magic Weapon
 
-You gain a +3 bonus to attack rolls and damage rolls made with the sword, which scores a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `dice:d20|noform|noparens|avg` (`d20`) and deals an extra `dice:2d10|noform|noparens|avg` (`2d10`) Slashing damage to Undead.
+You gain a +3 bonus to attack rolls and damage rolls made with the sword, which scores a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `d20` and deals an extra `2d10` Slashing damage to Undead.
 
 ## Random Properties
 
@@ -53,7 +53,7 @@ Once you use the sword to cast a spell, you can't cast that spell again from it 
 
 While the sword is on your person, you gain the following benefits:
 
-- **Battle Hunger.** You add `dice:1d10|noform|noparens|avg` (`d10`) to your [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
+- **Battle Hunger.** You add `d10` to your [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
 - **Blade of Defense.** When you take an action to attack with the sword, you can transfer some or all of its attack bonus to your [Armor Class](Інструменти%20ДМ/CLI/rules/variant-rules/armor-class-xphb.md) instead. The adjusted bonuses remain in effect until the start of your next turn.  
 - **Necrotic Resistance.** You have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Necrotic damage.  
 

@@ -86,9 +86,9 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
   - "desc": "If the tarrasque is targeted by a [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\
-      \ spell or a spell that requires a ranged attack roll, roll dice:1d6|noform|noparens|avg\
-      \ (d6). On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected\
-      \ and reflects the spell, turning the caster into the target."
+      \ spell or a spell that requires a ranged attack roll, roll d6. On a 1-5,\
+      \ the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects\
+      \ the spell, turning the caster into the target."
     "name": "Reflective Carapace"
   - "desc": "The tarrasque deals double damage to objects and structures."
     "name": "Siege Monster"
@@ -96,27 +96,24 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
   - "desc": "The tarrasque makes one Bite attack and three other attacks, using Claw\
       \ or Tail in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+19|noform|noparens|text(+19), reach\
-      \ 15 ft. Hit: dice:4d12+10|noform|noparens|avg|text(36) (4d12 + 10) Piercing\
+  - "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing\
       \ damage, and the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 20). Until the grapple ends, the target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and can't teleport."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+19|noform|noparens|text(+19), reach\
-      \ 15 ft. Hit: dice:4d8+10|noform|noparens|avg|text(28) (4d8 + 10) Slashing\
+  - "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: dice:1d20+19|noform|noparens|text(+19), reach\
-      \ 30 ft. Hit: dice:3d8+10|noform|noparens|avg|text(23) (3d8 + 10) Bludgeoning\
+  - "desc": "Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"
   - "desc": "Constitution Saving Throw: DC 27, each creature and each object that\
       \ isn't being worn or carried in a 150-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
-      \ Failure: dice:12d12|noform|noparens|avg|text(78) (12d12) Thunder damage,\
-      \ and the target has the [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened)\
-      \ and [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) conditions\
-      \ until the end of its next turn. Success: Half damage only."
+      \ Failure: 78 (12d12) Thunder damage, and the target has the [Deafened](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Deafened) and [Frightened](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Frightened) conditions until the end of its\
+      \ next turn. Success: Half damage only."
     "name": "Thunderous Bellow (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Strength Saving Throw: DC 27, one Large or smaller creature [Grappled](І\
@@ -126,16 +123,16 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
       \ ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions\
       \ and can't teleport, it has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
-      \ against attacks and other effects outside the tarrasque, and it takes dice:16d6|noform|noparens|avg|text(56)\
-      \ (16d6) Acid damage at the start of each of the tarrasque's turns.\n\nIf\
-      \ the tarrasque takes 60 damage or more on a single turn from a creature inside\
-      \ it, the tarrasque must succeed on a DC 20 Constitution saving throw at the\
-      \ end of that turn or regurgitate all swallowed creatures, each of which falls\
-      \ in a space within 10 feet of the tarrasque and has the [Prone](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Prone) condition. If the tarrasque dies, any swallowed\
-      \ creature no longer has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition and can escape from the corpse using 20 feet of movement, exiting\
-      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ against attacks and other effects outside the tarrasque, and it takes 56 (16d6)\
+      \ Acid damage at the start of each of the tarrasque's turns.\n\nIf the tarrasque\
+      \ takes 60 damage or more on a single turn from a creature inside it, the tarrasque\
+      \ must succeed on a DC 20 Constitution saving throw at the end of that turn\
+      \ or regurgitate all swallowed creatures, each of which falls in a space within\
+      \ 10 feet of the tarrasque and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition. If the tarrasque dies, any swallowed creature no longer has the\
+      \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
+      \ and can escape from the corpse using 20 feet of movement, exiting [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
 "legendary_actions":
   - "desc": "The tarrasque moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\

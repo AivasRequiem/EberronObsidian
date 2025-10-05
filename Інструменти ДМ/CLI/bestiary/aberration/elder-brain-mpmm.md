@@ -89,20 +89,18 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
       \ those creatures telepathically hear each other while connected in this way."
     "name": "Telepathic Hub"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 30 ft., one target. Hit: dice:4d8+2|noform|noparens|avg|text(20)\
-      \ (4d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature,\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 30 ft., one target. Hit:\
+      \ 20 (4d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
-      \ DC 15) and takes dice:1d8+5|noform|noparens|avg|text(9) (1d8 + 5) psychic\
-      \ damage at the start of each of its turns until the grapple ends. The elder\
-      \ brain can have up to four targets [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ at a time."
+      \ DC 15) and takes 9 (1d8 + 5) psychic damage at the start of each of its\
+      \ turns until the grapple ends. The elder brain can have up to four targets\
+      \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) at a time."
     "name": "Tentacle"
   - "desc": "Creatures of the elder brain's choice within 60 feet of it must succeed\
-      \ on a DC 18 Intelligence saving throw or take dice:5d10+5|noform|noparens|avg|text(32)\
-      \ (5d10 + 5) psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself on a success."
+      \ on a DC 18 Intelligence saving throw or take 32 (5d10 + 5) psychic damage\
+      \ and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) for 1 minute.\
+      \ A target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The elder brain casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
@@ -121,10 +119,9 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
       \ and the elder brain can terminate the link at any time (no action required).\
       \ The target can use an action on its turn to attempt to break the link, doing\
       \ so with a successful DC 18 Charisma saving throw. On a successful save, the\
-      \ target takes dice:3d6|noform|noparens|avg|text(10) (3d6) psychic damage.\
-      \ The link also ends if the target and the elder brain are more than 5 miles\
-      \ apart. The elder brain can form psychic links with up to ten creatures at\
-      \ a time."
+      \ target takes 10 (3d6) psychic damage. The link also ends if the target and\
+      \ the elder brain are more than 5 miles apart. The elder brain can form psychic\
+      \ links with up to ten creatures at a time."
     "name": "Psychic Link"
   - "desc": "The elder brain targets a creature with which it has a psychic link.\
       \ The elder brain gains insight into the target's emotional state and foremost\
@@ -134,13 +131,11 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
   - "desc": "The elder brain targets one creature within 120 feet of it with which\
       \ it has a psychic link. The elder brain breaks the creature's [concentration](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Concentration) on a spell it has cast.\
-      \ The creature also takes dice:1d4|noform|noparens|avg|text(2) (d4) psychic\
-      \ damage per level of the spell."
+      \ The creature also takes 2 (d4) psychic damage per level of the spell."
     "name": "Break Concentration"
   - "desc": "The elder brain targets one creature within 120 feet of it with which\
       \ it has a psychic link. The target and enemies of the elder brain within 30\
-      \ feet of target take dice:3d6|noform|noparens|avg|text(10) (3d6) psychic\
-      \ damage."
+      \ feet of target take 10 (3d6) psychic damage."
     "name": "Psychic Pulse"
   - "desc": "The elder brain targets one creature within 120 feet of it with which\
       \ it has a psychic link. The elder brain ends the link, causing the creature\

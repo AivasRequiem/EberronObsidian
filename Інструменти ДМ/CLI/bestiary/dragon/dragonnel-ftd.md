@@ -56,8 +56,7 @@ A dragonnel is an agile mount and naturally inclined to flyby tactics, swooping 
 "actions":
   - "desc": "The dragonnel makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
       \ (2d6 + 3) slashing damage."
     "name": "Rend"
 "source":

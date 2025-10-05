@@ -83,14 +83,14 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
 "actions":
   - "desc": "The elemental makes two Thunderous Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
-      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Thunder damage."
+  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder\
+      \ damage."
     "name": "Thunderous Slam"
   - "desc": "Strength Saving Throw: DC 13, one Medium or smaller creature in the\
-      \ elemental's space. Failure: dice:4d10+2|noform|noparens|avg|text(24) (4d10\
-      \ + 2) Thunder damage, and the target is pushed up to 20 feet straight away\
-      \ from the elemental and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition. Success: Half damage only."
+      \ elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target\
+      \ is pushed up to 20 feet straight away from the elemental and has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success: Half damage\
+      \ only."
     "name": "Whirlwind (Recharge 4-6)"
 "source":
   - "XMM"

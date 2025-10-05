@@ -65,16 +65,15 @@ A dracohydra can sometimes be found in the service of the spellcaster who create
 "actions":
   - "desc": "The dracohydra makes as many Bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d10+5|noform|noparens|avg|text(10)\
-      \ (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire,\
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 10 (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire,\
       \ lightning, or poison."
     "name": "Bite"
   - "desc": "The dracohydra's heads exhale a single breath of multicolored energy\
       \ in a 60-foot cone. Each creature in that area must make a DC 17 Dexterity\
-      \ saving throw. On a failed save, the creature takes dice:6d10|noform|noparens|avg|text(33)\
-      \ (6d10) damage of a type chosen by the dracohydra: acid, cold, fire, lightning,\
-      \ or poison. On a successful save, the creature takes half as much damage."
+      \ saving throw. On a failed save, the creature takes 33 (6d10) damage of a\
+      \ type chosen by the dracohydra: acid, cold, fire, lightning, or poison. On\
+      \ a successful save, the creature takes half as much damage."
     "name": "Prismatic Breath (Recharge 4-6)"
 "source":
   - "FTD"

@@ -73,8 +73,7 @@ Weretigers shape-shift from humanoid forms into tigers or tiger-humanoid hybrids
   - "desc": "The weretiger makes two attacks, using Scratch or Longbow in any combination.\
       \ It can replace one attack with a Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing\
       \ damage. If the target is a Humanoid, it is subjected to the following effect.\
       \ Constitution Saving Throw: DC 13. Failure: The target is cursed. If the\
       \ cursed target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
@@ -82,12 +81,10 @@ Weretigers shape-shift from humanoid forms into tigers or tiger-humanoid hybrids
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success: The\
       \ target is immune to this weretiger's curse for 24 hours."
     "name": "Bite (Tiger or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Scratch"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 150/600\
-      \ ft. Hit: dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Piercing\
+  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing\
       \ damage."
     "name": "Longbow (Humanoid or Hybrid Form Only)"
 "bonus_actions":

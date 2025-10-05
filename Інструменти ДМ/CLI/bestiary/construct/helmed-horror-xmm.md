@@ -83,9 +83,8 @@ Helmed horrors might perform any number of assignments. Roll on or choose a resu
 "actions":
   - "desc": "The helmed horror makes two Arcane Sword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage\
-      \ plus dice:1d10|noform|noparens|avg|text(5) (d10) Force damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
+      \ damage plus 5 (d10) Force damage."
     "name": "Arcane Sword"
 "source":
   - "XMM"

@@ -68,14 +68,12 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
-      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Lightning damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
+      \ damage plus 3 (d6) Lightning damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:6d6|noform|noparens|avg|text(21) (6d6) Lightning damage.\
-      \ Success: Half damage."
+      \ Failure: 21 (6d6) Lightning damage. Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
 "source":
   - "XMM"

@@ -69,13 +69,11 @@ Displacer beasts sometimes pursue prey through portals to other planes of existe
 "actions":
   - "desc": "The displacer beast makes one Rend attack and one Tentacle attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ feet. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +6, reach 5 feet. Hit: 9 (1d10 + 4) Slashing\
       \ damage. If target is a Large or smaller creature, it has the [Prone](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Rend"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ feet. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 10 feet. Hit: 11 (2d6 + 4) Piercing\
       \ damage."
     "name": "Tentacle"
 "source":

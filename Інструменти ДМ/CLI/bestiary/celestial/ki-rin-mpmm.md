@@ -74,17 +74,14 @@ When viewed from the outside, a ki-rin's lair is indistinguishable from a natura
   - "desc": "The ki-rin makes two Hoof attacks and one Horn attack, or it makes two\
       \ Sacred Fire attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d4+5|noform|noparens|avg|text(10)\
-      \ (2d4 + 5) force damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
+      \ 10 (2d4 + 5) force damage."
     "name": "Hoof"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8+5|noform|noparens|avg|text(14)\
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
       \ (2d8 + 5) radiant damage."
     "name": "Horn"
-  - "desc": "Ranged Spell Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ range 120 ft., one target. Hit: dice:3d8+5|noform|noparens|avg|text(18)\
-      \ (3d8 + 5) radiant damage."
+  - "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit:\
+      \ 18 (3d8 + 5) radiant damage."
     "name": "Sacred Fire"
   - "desc": "The ki-rin casts one of the following spells, requiring no material components\
       \ and using Wisdom as the spellcasting ability (spell save DC 17):\n\nAt will:\

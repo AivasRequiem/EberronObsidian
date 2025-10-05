@@ -77,14 +77,12 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
       \ use of Spellcasting to cast [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)\
       \ (level 5 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+15|noform|noparens|text(+15), reach\
-      \ 15 ft. Hit: dice:2d8+8|noform|noparens|avg|text(17) (2d8 + 8) Slashing\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Poison damage."
+  - "desc": "Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing\
+      \ damage plus 10 (3d6) Poison damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 22, each creature in a 90-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:22d6|noform|noparens|avg|text(77) (22d6) Poison damage. Success:\
-      \ Half damage."
+      \ 77 (22d6) Poison damage. Success: Half damage."
     "name": "Poison Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
@@ -99,10 +97,10 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
     "name": "Mind Invasion"
   - "desc": "Constitution Saving Throw: DC 21, each creature in a 30-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 90 feet. Failure: dice:5d6|noform|noparens|avg|text(17)\
-      \ (5d6) Poison damage, and the target takes a -2 penalty to AC until the end\
-      \ of its next turn. Failure or Success: The dragon can't take this action\
-      \ again until the start of its next turn."
+      \ centered on a point the dragon can see within 90 feet. Failure: 17 (5d6)\
+      \ Poison damage, and the target takes a -2 penalty to AC until the end of its\
+      \ next turn. Failure or Success: The dragon can't take this action again until\
+      \ the start of its next turn."
     "name": "Noxious Miasma"
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."

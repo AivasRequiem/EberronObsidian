@@ -101,11 +101,11 @@ You gain the service of a [Knight](Інструменти%20ДМ/CLI/bestiary/hu
 
 ## Moon
 
-You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `dice:1d3|noform|noparens|avg` (`d3`) times.
+You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `d3` times.
 
 ## Puzzle
 
-Permanently reduce your Intelligence or Wisdom by `dice:1d4+1|noform|noparens|avg` (`1d4 + 1`) (to a minimum score of 1). You can draw one additional card beyond your declared draws.
+Permanently reduce your Intelligence or Wisdom by `1d4 + 1` (to a minimum score of 1). You can draw one additional card beyond your declared draws.
 
 ## Rogue
 

@@ -109,7 +109,7 @@ The power of the moon suffuses you, granting you the following benefits.
 
 #### Improved Lunar Radiance
 
-Once per turn, you can deal an extra `dice:2d10|noform|noparens|avg` (`2d10`) Radiant damage to a target you hit with a Wild Shape form's attack.
+Once per turn, you can deal an extra `2d10` Radiant damage to a target you hit with a Wild Shape form's attack.
 
 #### Shared Moonlight
 

@@ -54,26 +54,25 @@ A death kiss lacks the combat finesse and intelligence of a true beholder. In mo
 "languages": "Deep Speech, Undercommon"
 "cr": "10"
 "traits":
-  - "desc": "A creature within 5 feet of the death kiss takes dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) lightning damage whenever it hits the death kiss with a melee attack\
-      \ that deals piercing or slashing damage."
+  - "desc": "A creature within 5 feet of the death kiss takes 5 (d10) lightning\
+      \ damage whenever it hits the death kiss with a melee attack that deals piercing\
+      \ or slashing damage."
     "name": "Lightning Blood"
 "actions":
   - "desc": "The death kiss makes three Tentacle attacks. Up to three of these attacks\
       \ can be replaced by Blood Drain—one replacement per tentacle grappling a creature."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 20 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
-      \ (2d6 + 4) piercing damage, and the target is [grappled](Інструменти%20ДМ\
-      /CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Huge or smaller\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+      \ 11 (2d6 + 4) piercing damage, and the target is [grappled](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Huge or smaller\
       \ creature. Until this grapple ends, the target is [restrained](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Restrained), and the death kiss can't use the\
       \ same tentacle on another target. The death kiss has ten tentacles."
     "name": "Tentacle"
   - "desc": "One creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by a tentacle of the death kiss must make a DC 16 Constitution saving throw.\
-      \ On a failed save, the target takes dice:4d10|noform|noparens|avg|text(22)\
-      \ (4d10) lightning damage, and the death kiss regains half as many hit points."
+      \ On a failed save, the target takes 22 (4d10) lightning damage, and the death\
+      \ kiss regains half as many hit points."
     "name": "Blood Drain"
 "source":
   - "MPMM"

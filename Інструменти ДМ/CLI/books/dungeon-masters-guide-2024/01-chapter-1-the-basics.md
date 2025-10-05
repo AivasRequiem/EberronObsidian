@@ -101,7 +101,7 @@ You can also play D&D anywhere you might come together in an online space, from 
 
 ### Dice
 
-You need a full set of polyhedral dice: `dice:d4|noform|noparens|avg` (`d4`), `dice:d6|noform|noparens|avg` (`d6`), `dice:d8|noform|noparens|avg` (`d8`), `dice:d10|noform|noparens|avg` (`d10`), `dice:d12|noform|noparens|avg` (`d12`), and `dice:d20|noform|noparens|avg` (`d20`). It's helpful to have at least two of each kind. Ideally, each player should also have their own set of polyhedral dice.
+You need a full set of polyhedral dice: `d4`, `d6`, `d8`, `d10`, `d12`, and `d20`. It's helpful to have at least two of each kind. Ideally, each player should also have their own set of polyhedral dice.
 
 Lots of digital dice rollers exist. Simple, browser-based dice rollers are easily found on the internet. Specialized dice apps can be found in app stores, and virtual tabletops typically have dice-rolling functionality built in.
 
@@ -355,7 +355,7 @@ The DM starts by asking the players to recap the action of the previous session,
 - **Maeve.** The shrub things need to make Dexterity saving throws. The DC is 14.  
 
 - **Jared.** And how much damage do they take?  
-- **Maeve.** *(Maeve rolls `dice:3d6|noform|noparens|avg` (`3d6`) for the spell's damage.)* 13 Fire damage if they fail the save, 6 if they succeed.  
+- **Maeve.** *(Maeve rolls `3d6` for the spell's damage.)* 13 Fire damage if they fail the save, 6 if they succeed.  
 - **Jared.** Magical fire tears through them and leaves smears of ash behind! Anything else, Mirabella?  
 
 - **Maeve.** My work here is done. *(She mimes blowing smoke away from her fingertips.)*  

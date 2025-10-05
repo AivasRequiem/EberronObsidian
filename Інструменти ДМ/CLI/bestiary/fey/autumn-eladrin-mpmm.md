@@ -80,16 +80,12 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "desc": "The eladrin makes two Longsword or Longbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
-      \ + 1) slashing damage, or dice:1d10+1|noform|noparens|avg|text(6) (1d10\
-      \ + 1) slashing damage if used with two hands, plus dice:5d8|noform|noparens|avg|text(22)\
-      \ (5d8) psychic damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with\
+      \ two hands, plus 22 (5d8) psychic damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ range 150/600 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
-      \ (1d8 + 3) piercing damage plus dice:5d8|noform|noparens|avg|text(22) (5d8)\
-      \ psychic damage."
+  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+      \ 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage."
     "name": "Longbow"
   - "desc": "The eladrin casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\

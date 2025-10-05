@@ -71,14 +71,12 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
 "actions":
   - "desc": "The revenant makes two Suffocate attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
-      \ ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Bludgeoning\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage.\
-      \ If the target is a Large or smaller creature, it has the [Grappled](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 15). Until\
-      \ the grapple ends, the target is suffocating. The revenant can have up to two\
-      \ targets [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) in this\
-      \ way at a time."
+  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Bludgeoning\
+      \ damage plus 10 (3d6) Necrotic damage. If the target is a Large or smaller\
+      \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 15). Until the grapple ends, the target is suffocating.\
+      \ The revenant can have up to two targets [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ in this way at a time."
     "name": "Suffocate"
   - "desc": "Wisdom Saving Throw: DC 15, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\

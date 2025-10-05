@@ -48,13 +48,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
+      \ damage."
     "name": "Bite"
   - "desc": "Strength Saving Throw: DC 12, one Medium or smaller creature the snake\
-      \ can see within 5 feet. Failure: dice:3d4|noform|noparens|avg|text(7) (3d4)\
-      \ Bludgeoning damage, and the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 12)."
+      \ can see within 5 feet. Failure: 7 (3d4) Bludgeoning damage, and the target\
+      \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
+      \ (escape DC 12)."
     "name": "Constrict"
 "source":
   - "XMM"

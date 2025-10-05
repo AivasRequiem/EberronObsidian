@@ -64,12 +64,10 @@ A gloamwing's head is almost ratlike, with prominent teeth, and its leathery ski
 "actions":
   - "desc": "The gloamwing makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d8+5|noform|noparens|avg|text(18)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18\
       \ (3d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
       \ (3d6 + 5) slashing damage."
     "name": "Claws"
 "source":

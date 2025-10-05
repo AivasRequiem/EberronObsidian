@@ -51,12 +51,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The squid makes one Bite attack and one Tentacle attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:4d10+6|noform|noparens|avg|text(28) (4d10 + 6) Piercing\
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 28 (4d10 + 6) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 15\
-      \ ft. Hit: dice:3d8+6|noform|noparens|avg|text(19) (3d8 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 19 (3d8 + 6) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 16) from\
       \ one of two tentacles, and the squid can pull the target up to 10 feet straight\

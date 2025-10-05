@@ -57,21 +57,19 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
 "actions":
   - "desc": "The centaur makes two attacks, using Pike or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing\
       \ damage."
     "name": "Pike"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 150/600\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage."
+  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
+      \ damage."
     "name": "Longbow"
 "bonus_actions":
   - "desc": "The centaur moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
       \ and can move through the spaces of Medium or smaller creatures. Each creature\
       \ whose space the centaur enters is targeted once by the following effect. Strength\
-      \ Saving Throw: DC 14. Failure: dice:1d6+4|noform|noparens|avg|text(7)\
-      \ (1d6 + 4) Bludgeoning damage, and the target has the [Prone](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Prone) condition."
+      \ Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the\
+      \ target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Trampling Charge (Recharge 5-6)"
 "source":
   - "XMM"

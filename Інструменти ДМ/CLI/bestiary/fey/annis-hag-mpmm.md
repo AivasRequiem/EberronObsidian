@@ -64,21 +64,18 @@ A hag can have up to three iron tokens active at one time. As an action, the hag
 "actions":
   - "desc": "The annis makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
       \ (3d6 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
       \ (3d6 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:9d6+5|noform|noparens|avg|text(36)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36\
       \ (9d6 + 5) bludgeoning damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 15) if it is a Large or smaller\
-      \ creature. Until the grapple ends, the target takes dice:9d6+5|noform|noparens|avg|text(36)\
-      \ (9d6 + 5) bludgeoning damage at the start of each of the hag's turns. The\
-      \ hag can't make attacks while grappling a creature in this way."
+      \ creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning\
+      \ damage at the start of each of the hag's turns. The hag can't make attacks\
+      \ while grappling a creature in this way."
     "name": "Crushing Hug"
   - "desc": "The hag casts one of the following spells, using Charisma as the spellcasting\
       \ ability (spell save DC 13):\n\n3/day each: [disguise self](Інструменти\

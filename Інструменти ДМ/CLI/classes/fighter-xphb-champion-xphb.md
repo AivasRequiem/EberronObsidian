@@ -53,7 +53,7 @@ A Champion focuses on the development of martial prowess in a relentless pursuit
 
 ### Improved Critical (Level 3)
 
-Your attack rolls with weapons and Unarmed Strikes can score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `dice:d20|noform|noparens|avg` (`d20`).
+Your attack rolls with weapons and Unarmed Strikes can score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `d20`.
 
 ### Remarkable Athlete (Level 3)
 
@@ -71,7 +71,7 @@ The thrill of battle drives you toward victory. During combat, you can give your
 
 ### Superior Critical (Level 15)
 
-Your attack rolls with weapons and Unarmed Strikes can now score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 18–20 on the `dice:d20|noform|noparens|avg` (`d20`).
+Your attack rolls with weapons and Unarmed Strikes can now score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 18–20 on the `d20`.
 
 ### Survivor (Level 18)
 

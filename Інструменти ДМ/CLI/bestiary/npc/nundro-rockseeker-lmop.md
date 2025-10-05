@@ -40,9 +40,8 @@ aliases:
   - "desc": "Nundro"
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+2|noform|noparens|text(+2) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+      \ (d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "LMoP"

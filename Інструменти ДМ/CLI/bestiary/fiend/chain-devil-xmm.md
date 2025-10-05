@@ -79,15 +79,14 @@ Along with psychological threats and physical harm, a chain devil uses its unner
 "actions":
   - "desc": "The devil makes two Chain attacks and uses Conjure Infernal Chain."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of two chains, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Chain"
   - "desc": "The devil conjures a fiery chain to bind a creature. Dexterity Saving\
-      \ Throw: DC 15, one creature the devil can see within 60 feet. Failure: dice:2d4+4|noform|noparens|avg|text(9)\
+      \ Throw: DC 15, one creature the devil can see within 60 feet. Failure: 9\
       \ (2d4 + 4) Fire damage, and the target has the [Restrained](Інструменти%20Д\
       М/CLI/rules/conditions.md#Restrained) condition until the end of the devil's\
       \ next turn, at which point the chain disappears. If the target is Large or\

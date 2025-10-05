@@ -89,11 +89,9 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes five Slam attacks or five Electrical Discharge attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Force damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Force damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 120\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Lightning\
+  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 5 (1d6 + 2) Lightning\
       \ damage."
     "name": "Electrical Discharge"
   - "desc": "Constitution Saving Throws: DC 11, each creature in a 30-foot [Cone](І\

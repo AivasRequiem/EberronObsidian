@@ -78,18 +78,16 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, the rug can give it\
       \ the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 13) instead of dealing damage. Until the grapple ends, the target\
       \ has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) and [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions, is suffocating,\
-      \ and takes dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Bludgeoning\
-      \ damage at the start of each of its turns. The rug can smother only one creature\
-      \ at a time.\n\nWhile grappling the target, the rug can't take this action,\
-      \ the rug halves the damage it takes (round down), and the target takes the\
-      \ same amount of damage."
+      \ and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns.\
+      \ The rug can smother only one creature at a time.\n\nWhile grappling the target,\
+      \ the rug can't take this action, the rug halves the damage it takes (round\
+      \ down), and the target takes the same amount of damage."
     "name": "Smother"
 "source":
   - "XMM"

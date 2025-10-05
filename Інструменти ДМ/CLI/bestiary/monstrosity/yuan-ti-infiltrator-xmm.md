@@ -88,11 +88,11 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
 "actions":
   - "desc": "The yuan-ti makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Slashing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+      \ damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 120\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Poison damage."
+  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 9 (2d6 + 2) Poison\
+      \ damage."
     "name": "Poison Ray"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\

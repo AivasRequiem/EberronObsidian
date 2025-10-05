@@ -464,7 +464,7 @@ Middle Dura caters to the working class. Its taverns are modestly priced, but th
 
 The Bazaar of Dura is the largest commercial district in Sharn. In addition to the dozens of permanent shops and smithies, the streets of the bazaar are an ever-changing tapestry of stalls and tents. It's said that you can find anything here, if you're not too worried about where it came from and if you're prepared to contend with the cutpurses that prey on the crowds.
 
-A small selection of merchants that regularly do business at the bazaar is given on the Bazaar Merchants table; roll a `dice:d10|noform|noparens|avg` (`d10`), or choose a location of interest.
+A small selection of merchants that regularly do business at the bazaar is given on the Bazaar Merchants table; roll a `d10`, or choose a location of interest.
 
 ![Middle Dura; Bazaar Merchants](Інструменти%20ДМ/CLI/tables/middle-dura-bazaar-merchants-erlw.md)
 
@@ -837,7 +837,7 @@ As veterans and heroes of the Last War, many of the Redcloaks are unfriendly tow
 
 Officers of the watch can levy fines on the spot when they catch culprits, which is the typical way that minor crimes are dealt with. For a serious offense, the perpetrator is taken to a garrison and held until a trial can be arranged. A criminal who is considered to be a serious flight risk will be taken to the most secure facility in Sharn—the King's Citadel headquarters.
 
-Typically, a prisoner's case comes to the attention of a local magistrate within `dice:1d4|noform|noparens|avg` (`d4`) days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
+Typically, a prisoner's case comes to the attention of a local magistrate within `d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
 
 Punishment for convicted criminals varies, but long-term imprisonment is quite rare. Prisoners who deemed to be too dangerous to be allowed to roam free are more likely to be executed than imprisoned. Typically, a long prison sentence is used only for criminals who can't be allowed to go free, but whose deaths would have negative diplomatic repercussions.
 

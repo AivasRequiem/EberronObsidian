@@ -41,9 +41,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage,\
-      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+      \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the centipede's next turn."
     "name": "Bite"
 "source":

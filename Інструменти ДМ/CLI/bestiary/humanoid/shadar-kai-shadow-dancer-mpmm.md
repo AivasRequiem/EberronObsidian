@@ -75,13 +75,11 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - "desc": "The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow\
       \ Jump after one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
-      \ (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 10 (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity\
       \ saving throw or suffer one of the following effects (choose one or roll a\
-      \ dice:d6|noform|noparens|avg (d6)):\n\n- 1–2 Decay. The target takes\
-      \ dice:4d10|noform|noparens|avg|text(22) (4d10) necrotic damage.  \n- 3–\
-      4 Grapple. The target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ d6):\n\n- 1–2 Decay. The target takes 22 (4d10) necrotic damage. \
+      \ \n- 3–4 Grapple. The target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends,\
       \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ and the shadar-kai can't grapple another target.  \n- 5–6 Topple. The\

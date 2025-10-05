@@ -77,18 +77,17 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
 "actions":
   - "desc": "The death dog makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage.\
-      \ If the target is a creature, it is subjected to the following effect. Constitution\
-      \ Saving Throw: DC 12. 1st Failure: The target has the [Poisoned](Інструм\
-      енти%20ДМ/CLI/rules/conditions.md#Poisoned) condition. While [Poisoned](Інст\
-      рументи%20ДМ/CLI/rules/conditions.md#Poisoned), the target's [Hit Point](Інс\
-      трументи%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum doesn't return\
-      \ to normal when finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+      \ damage. If the target is a creature, it is subjected to the following effect.\
+      \ Constitution Saving Throw: DC 12. 1st Failure: The target has the [Poisoned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition. While [Poisoned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target's [Hit Point](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum doesn't\
+      \ return to normal when finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
       \ and it repeats the save every 24 hours that elapse, ending the effect on itself\
       \ on a success. Subsequent Failures: The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by dice:1d10|noform|noparens|avg|text(5) (d10)."
+      \ maximum decreases by 5 (d10)."
     "name": "Bite"
 "source":
   - "XMM"

@@ -70,18 +70,16 @@ Choldriths are born with a mystical connection to Lolth, which gives them divine
   - "desc": "The choldrith ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
-      \ (1d4 + 3) piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ poison damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) poison\
+      \ damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ range 30/60 ft., one Large or smaller creature. Hit: The target is [restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) by webbing. As an action,\
-      \ the [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) target\
-      \ can make a DC 11 Strength check, bursting the webbing on a success. The webbing\
-      \ can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to\
-      \ fire damage; immunity to bludgeoning, poison, and psychic damage)."
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller\
+      \ creature. Hit: The target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ by webbing. As an action, the [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ target can make a DC 11 Strength check, bursting the webbing on a success.\
+      \ The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability\
+      \ to fire damage; immunity to bludgeoning, poison, and psychic damage)."
     "name": "Web (Recharge 5-6)"
   - "desc": "The choldrith casts one of the following spells, using Wisdom as the\
       \ spellcasting ability (spell save DC 12):\n\nAt will: [guidance](Інстру\
@@ -91,12 +89,11 @@ Choldriths are born with a mystical connection to Lolth, which gives them divine
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The choldrith conjures a floating, spectral dagger within 60 feet of\
-      \ itself. The choldrith can make a melee spell attack (dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit) against one creature within 5 feet of the dagger. On a hit, the target\
-      \ takes dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) force damage.\n\
-      \nThe dagger lasts for 1 minute. As a bonus action on later turns, the choldrith\
-      \ can move the dagger up to 20 feet and repeat the attack against one creature\
-      \ within 5 feet of the dagger."
+      \ itself. The choldrith can make a melee spell attack (+4 to hit) against\
+      \ one creature within 5 feet of the dagger. On a hit, the target takes 6 (1d8\
+      \ + 2) force damage.\n\nThe dagger lasts for 1 minute. As a bonus action on\
+      \ later turns, the choldrith can move the dagger up to 20 feet and repeat the\
+      \ attack against one creature within 5 feet of the dagger."
     "name": "Spectral Dagger (Recharges after a Short or Long Rest)"
 "source":
   - "MPMM"

@@ -77,15 +77,14 @@ In the Abyss, glabrezus act as lone hunters or deceitful advisers to greater dem
 "actions":
   - "desc": "The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 10\
-      \ ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Slashing\
+  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 15) from\
       \ one of two pincers."
     "name": "Pincer"
   - "desc": "Dexterity Saving Throw: DC 17, one creature [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) by the glabrezu. Failure: dice:3d6+5|noform|noparens|avg|text(15)\
-      \ (3d6 + 5) Bludgeoning damage. Success: Half damage."
+      %20ДМ/CLI/rules/conditions.md#Grappled) by the glabrezu. Failure: 15 (3d6\
+      \ + 5) Bludgeoning damage. Success: Half damage."
     "name": "Pummel"
   - "desc": "The glabrezu casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\

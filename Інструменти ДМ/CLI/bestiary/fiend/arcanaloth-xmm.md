@@ -88,22 +88,20 @@ Arcanaloths possess considerable spellcasting prowess and frequently disguise th
   - "desc": "The arcanaloth makes three Fiendish Burst attacks. It can replace one\
       \ attack with a Banishing Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:4d12+5|noform|noparens|avg|text(31)\
-      \ (4d12 + 5) Necrotic damage."
+  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit:\
+      \ 31 (4d12 + 5) Necrotic damage."
     "name": "Fiendish Burst"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d4+5|noform|noparens|avg|text(10) (2d4 + 5) Slashing\
-      \ damage plus dice:3d12|noform|noparens|avg|text(19) (3d12) Psychic damage.\
-      \ If the target is a creature, it is subjected to the following effect. Charisma\
-      \ Saving Throw: DC 17. Failure: The target is trapped in a demiplane inside\
-      \ the Soul Tome. While trapped there, the target has the [Incapacitated](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. At the end of\
-      \ each of its turns, the target repeats the save, escaping the tome on a success.\
-      \ When the target escapes, it appears in the space it left or, if that space\
-      \ is occupied, the nearest unoccupied space.\n\nIf the target fails three of\
-      \ these saves while in the demiplane, it becomes bound to the tome and can escape\
-      \ only if the tome is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Slashing\
+      \ damage plus 19 (3d12) Psychic damage. If the target is a creature, it is\
+      \ subjected to the following effect. Charisma Saving Throw: DC 17. Failure:\
+      \ The target is trapped in a demiplane inside the Soul Tome. While trapped there,\
+      \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ condition. At the end of each of its turns, the target repeats the save, escaping\
+      \ the tome on a success. When the target escapes, it appears in the space it\
+      \ left or, if that space is occupied, the nearest unoccupied space.\n\nIf the\
+      \ target fails three of these saves while in the demiplane, it becomes bound\
+      \ to the tome and can escape only if the tome is reduced to 0 [Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Banishing Claw (Requires Soul Tome)"
   - "desc": "The arcanaloth casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\

@@ -65,13 +65,11 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
       \ with a use of Spellcasting to cast [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
-      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) Psychic damage.\
-      \ Critical Hit: If the target is in an astral body (as with the [Astral Projection](І\
-      нструменти%20ДМ/CLI/spells/astral-projection-xphb.md) spell), the githyanki\
-      \ can cut the silvery cord that tethers the target to its material body instead\
-      \ of dealing damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+      \ damage plus 14 (4d6) Psychic damage. Critical Hit: If the target is in\
+      \ an astral body (as with the [Astral Projection](Інструменти%20ДМ/CLI/spells/astral-projection-xphb.md)\
+      \ spell), the githyanki can cut the silvery cord that tethers the target to\
+      \ its material body instead of dealing damage."
     "name": "Silver Sword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\

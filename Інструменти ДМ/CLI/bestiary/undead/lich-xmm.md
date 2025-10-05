@@ -105,21 +105,18 @@ Liches create secluded libraries of magical lore and arcane laboratories hidden 
 "traits":
   - "desc": "If the lich fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (4/Day, or 5/Day in Lair)"
-  - "desc": "If destroyed, the lich reforms in dice:1d10|noform|noparens|avg (d10)\
-      \ days if it has a spirit jar, reviving with all its [Hit Points](Інструмент\
-      и%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). The new body appears in\
-      \ an unoccupied space within the lich's lair."
+  - "desc": "If destroyed, the lich reforms in d10 days if it has a spirit jar,\
+      \ reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+      \ The new body appears in an unoccupied space within the lich's lair."
     "name": "Spirit Jar"
 "actions":
   - "desc": "The lich makes three attacks, using Eldritch Burst or Paralyzing Touch\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:4d12+5|noform|noparens|avg|text(31)\
-      \ (4d12 + 5) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit:\
+      \ 31 (4d12 + 5) Force damage."
     "name": "Eldritch Burst"
-  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
-      \ 5 ft. Hit: dice:3d6+5|noform|noparens|avg|text(15) (3d6 + 5) Cold damage,\
+  - "desc": "Melee Attack Roll: +12, reach 5 ft. Hit: 15 (3d6 + 5) Cold damage,\
       \ and the target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ condition until the start of the lich's next turn."
     "name": "Paralyzing Touch"
@@ -146,14 +143,14 @@ Liches create secluded libraries of magical lore and arcane laboratories hidden 
     "name": "Protective Magic"
 "legendary_actions":
   - "desc": "The lich teleports up to 60 feet to an unoccupied space it can see, and\
-      \ each creature within 10 feet of the space it left takes dice:2d10|noform|noparens|avg|text(11)\
-      \ (2d10) Necrotic damage."
+      \ each creature within 10 feet of the space it left takes 11 (2d10) Necrotic\
+      \ damage."
     "name": "Deathly Teleport"
   - "desc": "Constitution Saving Throw: DC 20, each creature that isn't an Undead\
       \ in a 20-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the lich. Failure: dice:9d6|noform|noparens|avg|text(31)\
-      \ (9d6) Necrotic damage. Success: Half damage. Failure or Success: The\
-      \ lich can't take this action again until the start of its next turn."
+      \ originating from the lich. Failure: 31 (9d6) Necrotic damage. Success:\
+      \ Half damage. Failure or Success: The lich can't take this action again until\
+      \ the start of its next turn."
     "name": "Disrupt Life"
   - "desc": "The lich casts [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md), using\
       \ the same spellcasting ability as Spellcasting. The lich can't take this action\

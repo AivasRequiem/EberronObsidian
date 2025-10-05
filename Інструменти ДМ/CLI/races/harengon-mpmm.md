@@ -31,7 +31,7 @@ You have proficiency in the [Perception](Інструменти%20ДМ/CLI/rules
 
 ### Lucky Footwork
 
-When you fail a Dexterity saving throw, you can use your reaction to roll a `dice:d4|noform|noparens|avg` (`d4`) and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) or your speed is 0.
+When you fail a Dexterity saving throw, you can use your reaction to roll a `d4` and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) or your speed is 0.
 
 ### Rabbit Hop
 

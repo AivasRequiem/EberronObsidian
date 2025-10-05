@@ -49,8 +49,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ hour outside water."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ all eight tentacles. While [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\

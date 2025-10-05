@@ -61,18 +61,16 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
       \ extra movement to do so."
     "name": "Amorphous"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:3d6+1|noform|noparens|avg|text(11) (3d6 + 1) Acid damage,\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 11 (3d6 + 1) Acid damage,\
       \ and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on Intelligence saving throws until the end of the ooze's next turn."
     "name": "Pseudopod"
   - "desc": "Intelligence Saving Throw: DC 10, one creature the ooze can see within\
-      \ 60 feet. Failure: dice:3d8|noform|noparens|avg|text(13) (3d8) Psychic\
-      \ damage."
+      \ 60 feet. Failure: 13 (3d8) Psychic damage."
     "name": "Psychic Crush"
 "reactions":
   - "desc": "Trigger: The ooze fails a saving throw against a spell or another magical\
-      \ effect created by a creature. _Response:_ The triggering creature takes dice:1d6|noform|noparens|avg|text(3)\
+      \ effect created by a creature. _Response:_ The triggering creature takes 3\
       \ (d6) Psychic damage."
     "name": "Mind Corrosion"
 "source":

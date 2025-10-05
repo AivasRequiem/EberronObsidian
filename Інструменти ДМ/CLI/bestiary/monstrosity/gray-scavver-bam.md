@@ -41,10 +41,9 @@ Gray scavvers are 6 feet long and travel in packs. The scent of blood sends them
   - "desc": "The scavver doesn't require air."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit\
-      \ (with advantage if the target is a creature that is missing any hit points),\
-      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit (with advantage if the target is a\
+      \ creature that is missing any hit points), reach 5 ft., one target. Hit:\
+      \ 7 (1d8 + 3) piercing damage."
     "name": "Bite"
 "source":
   - "BAM"

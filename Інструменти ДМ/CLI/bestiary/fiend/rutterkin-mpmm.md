@@ -64,8 +64,7 @@ Creatures bitten by rutterkins are exposed to a terrible disease that infects th
       \ Fear of all rutterkins for 24 hours."
     "name": "Immobilizing Fear"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6+2|noform|noparens|avg|text(12)\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12\
       \ (3d6 + 2) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Constitution saving throw against disease or become [poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned). At the end of each long rest,\

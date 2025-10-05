@@ -61,17 +61,15 @@ Packs of ghouls haunt the rotten corners of the world, ravenously hunting for co
 "actions":
   - "desc": "The ghoul makes two Icy Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Cold damage,\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Cold damage,\
       \ and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ decreases by 5 feet until the start of the ghoul's next turn."
     "name": "Icy Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Slashing damage.\
-      \ If the target is a creature that isn't an Undead or elf, it is subjected to\
-      \ the following effect. Constitution Saving Throw: DC 10. Failure: The target\
-      \ has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition\
-      \ until the end of its next turn."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
+      \ damage. If the target is a creature that isn't an Undead or elf, it is subjected\
+      \ to the following effect. Constitution Saving Throw: DC 10. Failure: The\
+      \ target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
+      \ condition until the end of its next turn."
     "name": "Claw"
 "bonus_actions":
   - "desc": "While underwater, the ghoul moves up to half its [Swim Speed](Інструм\

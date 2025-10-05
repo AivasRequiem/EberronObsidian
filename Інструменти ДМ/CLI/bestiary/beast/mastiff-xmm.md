@@ -45,10 +45,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Prone](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Bite"
 "source":
   - "XMM"

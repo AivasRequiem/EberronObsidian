@@ -92,15 +92,14 @@ Green hags frequently know strange magic or forgotten secrets, such as the weakn
 "actions":
   - "desc": "The hag makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage\
-      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
+      \ damage plus 3 (d6) Poison damage."
     "name": "Claw"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12, dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20Д\
-      М/CLI/spells/dancing-lights-xphb.md), [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\
-      \ (24-hour duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
+      \ and using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit\
+      \ with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md) (24-hour\
+      \ duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ (self only, and the hag leaves no tracks while Invisible), [Minor Illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Ray of Sickness](Інстру\
       менти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (level 3 version)"

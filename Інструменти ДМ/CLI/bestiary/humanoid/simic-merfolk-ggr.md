@@ -42,10 +42,9 @@ aliases:
   - "desc": "The merfolk can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+2|noform|noparens|text(+2)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6|noform|noparens|avg|text(3)\
-      \ (d6) piercing damage, or dice:1d8|noform|noparens|avg|text(4) (d8) piercing\
-      \ damage if used with two hands to make a melee attack."
+  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+      \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "GGR"

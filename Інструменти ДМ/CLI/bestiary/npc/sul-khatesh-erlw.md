@@ -82,13 +82,12 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "cr": "28"
 "traits":
   - "desc": "Sul Khatesh's spellcasting ability is Intelligence (spell save DC 26,\
-      \ dice:1d20+18|noform|noparens|text(+18) to hit with spell attacks). She can\
-      \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
-      \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [detect\
-      \ thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [dispel magic](І\
-      нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [eyebite](Інструменти%20ДМ\
-      /CLI/spells/eyebite-xphb.md), [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md),\
+      \ +18 to hit with spell attacks). She can innately cast the following spells,\
+      \ requiring no material components:\n\nAt will: [counterspell](Інструмен\
+      ти%20ДМ/CLI/spells/counterspell-xphb.md), [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [dispel\
+      \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [eyebite](Інстру\
+      менти%20ДМ/CLI/spells/eyebite-xphb.md), [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md),\
       \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [shield](І\
       нструменти%20ДМ/CLI/spells/shield-xphb.md)\n\n3/day each: [chain lightning](І\
       нструменти%20ДМ/CLI/spells/chain-lightning-xphb.md), [create undead](Інструм\
@@ -111,22 +110,20 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "actions":
   - "desc": "Sul Khatesh makes four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ range 120 ft., one target. Hit: dice:1d10+10|noform|noparens|avg|text(15)\
-      \ (1d10 + 10) force damage."
+  - "desc": "Ranged Spell Attack: +18 to hit, range 120 ft., one target. Hit:\
+      \ 15 (1d10 + 10) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
-      \ reach 5 ft., one target. Hit: dice:5d12+4|noform|noparens|avg|text(36)\
-      \ (5d12 + 4) force damage."
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+      \ 36 (5d12 + 4) force damage."
     "name": "Magic Staff"
   - "desc": "Sul Khatesh conjures orbs of magical energy that plummet to the ground\
       \ at three different points she can see within 1 mile of her. Each creature\
       \ in a 40-foot-radius sphere centered on each point must make a DC 26 Dexterity\
-      \ saving throw, taking dice:11d12|noform|noparens|avg|text(71) (11d12) force\
-      \ damage on a failed save or half as much damage on a successful one. A creature\
-      \ in the area of more than one arcane burst is affected only once. The area\
-      \ of each arcane burst then acts as an [antimagic field](Інструменти%20ДМ/CLI/spells/antimagic-field-xphb.md)\
-      \ for 1 hour. Sul Khatesh and spells she casts are unaffected by these fields."
+      \ saving throw, taking 71 (11d12) force damage on a failed save or half as\
+      \ much damage on a successful one. A creature in the area of more than one arcane\
+      \ burst is affected only once. The area of each arcane burst then acts as an\
+      \ [antimagic field](Інструменти%20ДМ/CLI/spells/antimagic-field-xphb.md) for\
+      \ 1 hour. Sul Khatesh and spells she casts are unaffected by these fields."
     "name": "Arcane Cataclysm (Recharges after a Long Rest)"
   - "desc": "Sul Khatesh magically polymorphs into a humanoid, beast, or giant that\
       \ has a challenge rating no higher than her own, or back into her true form.\
@@ -150,10 +147,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
     "name": "Consume Magic (Costs 2 Actions)"
   - "desc": "Sul Khatesh whispers an arcane secret into the mind of a creature she\
       \ can see within 60 feet of her. The target must succeed on a DC 26 Wisdom saving\
-      \ throw or expend one of its spell slots of 3rd level or lower and deal dice:4d12|noform|noparens|avg|text(26)\
-      \ (4d12) force damage to each creature within 30 feet of it. A creature that\
-      \ fails the saving throw but can't expend a spell slot is instead [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) until the end of its next turn."
+      \ throw or expend one of its spell slots of 3rd level or lower and deal 26 (4d12)\
+      \ force damage to each creature within 30 feet of it. A creature that fails\
+      \ the saving throw but can't expend a spell slot is instead [stunned](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Stunned) until the end of its next turn."
     "name": "Maddening Secrets (Costs 3 Actions)"
 "source":
   - "ERLW"

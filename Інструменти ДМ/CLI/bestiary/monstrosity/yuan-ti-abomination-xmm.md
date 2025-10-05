@@ -89,23 +89,22 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
   - "desc": "The yuan-ti makes two Bite attacks, and it can use Spellcasting to cast\
       \ [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Poison damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
+      \ damage plus 10 (3d6) Poison damage."
     "name": "Bite"
   - "desc": "Strength Saving Throw: DC 15, one Large or smaller creature within\
-      \ 5 feet. Failure: dice:7d6+4|noform|noparens|avg|text(28) (7d6 + 4) Bludgeoning\
-      \ damage. The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ 5 feet. Failure: 28 (7d6 + 4) Bludgeoning damage. The target has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14),\
+      \ and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends. Success: Half damage only."
     "name": "Constrict"
   - "desc": "Constitution Saving Throw: DC 14, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:6d6|noform|noparens|avg|text(21) (6d6) Poison damage, and the target\
-      \ has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
-      \ until the end of the yuan-ti's next turn. While [Poisoned](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Poisoned), the target has the [Blinded](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Blinded) condition. Success: Half damage only."
+      \ 21 (6d6) Poison damage, and the target has the [Poisoned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Poisoned) condition until the end of the yuan-ti's\
+      \ next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+      \ the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ condition. Success: Half damage only."
     "name": "Poison Spray (Recharge 5-6)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\

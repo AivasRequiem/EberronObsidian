@@ -107,14 +107,13 @@ Cults can organize around any mystical tradition, but many serve supernatural be
 "actions":
   - "desc": "The cultist makes three Pact Axe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
-      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Fire damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing\
+      \ damage plus 13 (3d8) Fire damage."
     "name": "Pact Axe"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15, dice:1d20+7|noform|noparens|text(+7) to hit with\
-      \ spell attacks):\n\nAt will: [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md)\
-      \ (level 5 version), [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
+      \ ability (spell save DC 15, +7 to hit with spell attacks):\n\nAt will:\
+      \ [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md) (level\
+      \ 5 version), [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
       \n2/day: [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) (level\
       \ 6 version)"
     "name": "Spellcasting"

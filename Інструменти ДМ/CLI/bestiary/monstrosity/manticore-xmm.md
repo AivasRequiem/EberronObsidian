@@ -71,11 +71,11 @@ Despite their ravenous tendencies, manticores enjoy speaking with those they're 
 "actions":
   - "desc": "The manticore makes three attacks, using Rend or Tail Spike in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Slashing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+      \ damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 100/200\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage."
+  - "desc": "Ranged Attack Roll: +5, range 100/200 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage."
     "name": "Tail Spike"
 "source":
   - "XMM"

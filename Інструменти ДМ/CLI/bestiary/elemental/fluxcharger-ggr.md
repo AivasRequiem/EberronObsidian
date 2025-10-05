@@ -57,24 +57,19 @@ An Izzet weird doesn't require air, food, drink, or sleep.
 "cr": "7"
 "traits":
   - "desc": "Whenever a spell that deals lightning damage includes one or more fluxchargers\
-      \ in its area, the spell deals an extra dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) lightning damage."
+      \ in its area, the spell deals an extra 9 (2d8) lightning damage."
     "name": "Amplify Lightning"
 "actions":
   - "desc": "The fluxcharger makes two slam attacks or uses Arc Lightning twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
-      \ (2d8 + 4) bludgeoning damage plus dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) fire damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ range 30 ft., one target. Hit: dice:3d10|noform|noparens|avg|text(16)\
-      \ (3d10) lightning damage, and lightning jumps from the target to one creature\
+  - "desc": "Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit:\
+      \ 16 (3d10) lightning damage, and lightning jumps from the target to one creature\
       \ of the fluxcharger's choice that it can see within 30 feet of the target.\
       \ That second creature must succeed on a DC 15 Dexterity saving throw or take\
-      \ dice:3d8|noform|noparens|avg|text(13) (3d8) lightning damage. Hit or\
-      \ Miss: The fluxcharger takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ 13 (3d8) lightning damage. Hit or Miss: The fluxcharger takes 5 (d10)\
       \ force damage after resolving the attack."
     "name": "Arc Lightning"
 "source":

@@ -57,7 +57,7 @@ Four [goblins](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm
 This will likely be the first of many combat encounters in the adventure. Here are the steps you should follow to run it effectively:
 
 - Review the goblin stat block in appendix B. Since the goblins are hiding, you'll need to know their [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) skill modifier: +6.  
-- Check to see who, if anyone, is [surprised](Інструменти%20ДМ/CLI/rules/conditions.md#Surprised). The party cannot surprise the goblins, but the goblins might surprise some or all the characters. Make a Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check for the goblins, rolling once for all of them. Roll a `dice:d20|noform|noparens|avg` (`d20`), add the goblins' [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) skill modifier (+6) to the roll, and compare the result to the characters' passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) scores. Any character whose score is lower than the goblins' check result is [surprised](Інструменти%20ДМ/CLI/rules/conditions.md#Surprised) and loses his or her turn during the first round of combat (see "Surprise" in the rulebook).  
+- Check to see who, if anyone, is [surprised](Інструменти%20ДМ/CLI/rules/conditions.md#Surprised). The party cannot surprise the goblins, but the goblins might surprise some or all the characters. Make a Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check for the goblins, rolling once for all of them. Roll a `d20`, add the goblins' [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) skill modifier (+6) to the roll, and compare the result to the characters' passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) scores. Any character whose score is lower than the goblins' check result is [surprised](Інструменти%20ДМ/CLI/rules/conditions.md#Surprised) and loses his or her turn during the first round of combat (see "Surprise" in the rulebook).  
 - Use the initiative rules in the rulebook to determine who acts first, second, third, and so on. Keep track of everyone's initiative count in the margins of this book or on a separate piece of paper.  
 - When the time comes for the goblins to act, two of them rush forward and make melee attacks while two goblins stand 30 feet away from the party and make ranged attacks. The goblins' stat block contains the information you need to resolve these attacks. For more information on what the goblins can do on their turn, see chapter 2, "Combat," in the rulebook.  
 - When three goblins are defeated, the last goblin attempts to flee, heading for the goblin trail.  
@@ -82,9 +82,9 @@ The party can easily steer the wagon away from the road and tie off the oxen whi
 
 The trail leads five miles northwest and ends at the Cragmaw hideout (see that section). Ask the players to determine the party's marching order as the characters move down the trail. The order is important, because the goblins have set two traps to thwart pursuers.
 
-**Snare.** About 10 minutes after heading down the trail, a party on the path encounters a hidden snare. If the characters are searching for traps, the character in the lead spots the trap automatically if his or her passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score is 12 or higher. Otherwise, the character must succeed on a DC 12 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check to notice the trap. If the character fails to notice the trap, he or she triggers the snare and must succeed on a DC 10 Dexterity saving throw. On a failure, the character is suspended upside down 10 feet above the ground. The character is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until 1 or more slashing damage is dealt to the snare's cord. (See the appendix in the rulebook for the effect of being [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).) A character who isn't carefully lowered down takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage from the fall.
+**Snare.** About 10 minutes after heading down the trail, a party on the path encounters a hidden snare. If the characters are searching for traps, the character in the lead spots the trap automatically if his or her passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score is 12 or higher. Otherwise, the character must succeed on a DC 12 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check to notice the trap. If the character fails to notice the trap, he or she triggers the snare and must succeed on a DC 10 Dexterity saving throw. On a failure, the character is suspended upside down 10 feet above the ground. The character is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until 1 or more slashing damage is dealt to the snare's cord. (See the appendix in the rulebook for the effect of being [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).) A character who isn't carefully lowered down takes `d6` bludgeoning damage from the fall.
 
-**Pit.** Another 10 minutes down the trail is a pit the goblins have camouflaged. The pit is 6 feet wide, 10 feet deep, and it triggers when a creature moves across it. The character in the lead spots the hidden pit automatically if his or her passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score is 15 or higher. Otherwise, the character must succeed on a DC 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check to spot the hidden pit. If the trap isn't detected, the lead character must succeed on a DC 10 Dexterity saving throw or fall in, taking `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage. The pit's walls are not steep, so no ability check is required to scramble out.
+**Pit.** Another 10 minutes down the trail is a pit the goblins have camouflaged. The pit is 6 feet wide, 10 feet deep, and it triggers when a creature moves across it. The character in the lead spots the hidden pit automatically if his or her passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score is 15 or higher. Otherwise, the character must succeed on a DC 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check to spot the hidden pit. If the trap isn't detected, the lead character must succeed on a DC 10 Dexterity saving throw or fall in, taking `d6` bludgeoning damage. The pit's walls are not steep, so no ability check is required to scramble out.
 
 **Awarding Experience Points**
 
@@ -200,7 +200,7 @@ A character who tries to calm the animals can attempt a DC 15 Wisdom ([Animal Ha
 
 #### Fissure
 
-A narrow opening in the east wall leads to a natural chimney that climbs 30 feet to 8. At the base of the fissure is rubbish that's been discarded through the opening above. A character attempting to ascend or descend the chimney shaft must make a DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. If the check succeeds, the character moves at half speed up or down the shaft, as desired. On a check result of 6-9, the character neither gains nor loses ground; on a result of 5 or less, the character falls and takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the base of the shaft.
+A narrow opening in the east wall leads to a natural chimney that climbs 30 feet to 8. At the base of the fissure is rubbish that's been discarded through the opening above. A character attempting to ascend or descend the chimney shaft must make a DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. If the check succeeds, the character moves at half speed up or down the shaft, as desired. On a check result of 6-9, the character neither gains nor loses ground; on a result of 5 or less, the character falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the base of the shaft.
 
 #### Developments
 
@@ -232,7 +232,7 @@ The goblin notices the characters if they carry any light or don't use stealth a
 
 This passage is choked with rubble and has steep escarpments. Treat the area as difficult terrain (see "Difficult Terrain" in the rulebook).
 
-The ledge between the two escarpments is fragile. Any weight in excess of 100 pounds loosens the whole mass and sends it tumbling down to the east. Any creature on the ledge when it falls must make a DC 10 Dexterity saving throw, taking `dice:2d6|noform|noparens|avg` (`2d6`) bludgeoning damage on a failure, or half as much damage on a success. The creature also falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on a failed save (see "Being Prone" in the rulebook).
+The ledge between the two escarpments is fragile. Any weight in excess of 100 pounds loosens the whole mass and sends it tumbling down to the east. Any creature on the ledge when it falls must make a DC 10 Dexterity saving throw, taking `2d6` bludgeoning damage on a failure, or half as much damage on a success. The creature also falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on a failed save (see "Being Prone" in the rulebook).
 
 ### 5. Overpass
 
@@ -258,7 +258,7 @@ If the goblin spots the adventurers, it signals the goblins in 7 to release a fl
 
 This bridge spans the passage 20 feet above the stream. It's possible to climb up the cavern walls from the lower passage to the bridge. The 20-foot-high walls are rough but slick with spray, requiring a successful DC 15 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to climb.
 
-The bridge has an Armor Class (AC) of 5 and 10 hit points. If the bridge is reduced to 0 hit points, it collapses. Creatures on the collapsing bridge must succeed on a DC 10 Dexterity saving throw or fall, taking `dice:2d6|noform|noparens|avg` (`2d6`) bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) (see "Being Prone" in the rulebook). Those who succeed hold onto the bridge and must climb it to safety.
+The bridge has an Armor Class (AC) of 5 and 10 hit points. If the bridge is reduced to 0 hit points, it collapses. Creatures on the collapsing bridge must succeed on a DC 10 Dexterity saving throw or fall, taking `2d6` bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) (see "Being Prone" in the rulebook). Those who succeed hold onto the bridge and must climb it to safety.
 
 #### Flood!
 
@@ -269,7 +269,7 @@ The large pools in 7 have collapsible walls that can be yanked out of place to r
 > The passage is suddenly filled with a mighty roar, as a huge surge of rushing water pours down from above!
 ^02e
 
-The flood threatens all creatures in the tunnel. (Creatures on the bridge at 5 are out of danger, as are any characters successfully climbing the cavern walls.) Any creature within 10 feet of the disused passage at 4 or the steps leading up to 3 can attempt a DC 10 Dexterity saving throw to avoid being swept away. A creature that fails to get out of the way can attempt a DC 15 Strength saving throw to hold on. On a failed save, the character is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) and washed down to 1, taking `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage along the way.
+The flood threatens all creatures in the tunnel. (Creatures on the bridge at 5 are out of danger, as are any characters successfully climbing the cavern walls.) Any creature within 10 feet of the disused passage at 4 or the steps leading up to 3 can attempt a DC 10 Dexterity saving throw to avoid being swept away. A creature that fails to get out of the way can attempt a DC 15 Strength saving throw to hold on. On a failed save, the character is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) and washed down to 1, taking `d6` bludgeoning damage along the way.
 
 The goblins in 7 can release a second flood by opening the second pool, but they don't do this unless the goblin on the bridge tells them to. The goblin on the bridge waits to see if the first flood got rid of all the intruders before calling for the second to be released.
 
@@ -290,7 +290,7 @@ The goblin leader, Yeemik, is second-in-command of the whole hideout. If he sees
 
 Yeemik wants to oust Klarg and become the new boss. If the adventurers agree to parley, Yeemik tries to convince them to kill Klarg in 8, promising to release Sildar when they bring back the bugbear's head. Sildar groggily warns the characters that they shouldn't trust the goblin, and he's right. If the characters take the deal, Yeemik tries to force them to pay a rich ransom for Sildar even after they complete their part of the bargain.
 
-If the characters refuse to parley, Yeemik shoves Sildar over the edge and continues with the fight. Sildar takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage from the fall, which is enough to drop him to 0 hit points. Quick-acting characters can try to stabilize him before he dies (see "Damage, Healing, and Dying" in the rulebook).
+If the characters refuse to parley, Yeemik shoves Sildar over the edge and continues with the fight. Sildar takes `d6` bludgeoning damage from the fall, which is enough to drop him to 0 hit points. Quick-acting characters can try to stabilize him before he dies (see "Damage, Healing, and Dying" in the rulebook).
 
 #### Roleplaying Sildar
 
@@ -356,7 +356,7 @@ Klarg the [bugbear](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warri
 
 #### Fire Pit
 
-The hot coals in the central fire pit deal 1 fire damage to any creature that enters the fire pit, or `dice:1d6|noform|noparens|avg` (`d6`) fire damage to any creature that falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) there. A creature can take each type of damage only once per round.
+The hot coals in the central fire pit deal 1 fire damage to any creature that enters the fire pit, or `d6` fire damage to any creature that falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) there. A creature can take each type of damage only once per round.
 
 #### Natural Chimney
 

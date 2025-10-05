@@ -54,8 +54,7 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
       \ within 5 feet of the ogre."
     "name": "Howdah"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Mace"
 "source":

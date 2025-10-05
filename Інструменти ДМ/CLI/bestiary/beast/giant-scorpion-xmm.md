@@ -42,15 +42,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The scorpion makes two Claw attacks and one Sting attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two claws."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage\
-      \ plus dice:2d10|noform|noparens|avg|text(11) (2d10) Poison damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage plus 11 (2d10) Poison damage."
     "name": "Sting"
 "source":
   - "XMM"

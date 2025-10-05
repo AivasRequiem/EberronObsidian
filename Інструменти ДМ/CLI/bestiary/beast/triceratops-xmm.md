@@ -43,10 +43,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The triceratops makes two Gore attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d12+6|noform|noparens|avg|text(19) (2d12 + 6) Piercing\
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing\
       \ damage. If the target is Huge or smaller and the triceratops moved 20+ feet\
-      \ straight toward it immediately before the hit, the target takes an extra dice:2d8|noform|noparens|avg|text(9)\
+      \ straight toward it immediately before the hit, the target takes an extra 9\
       \ (2d8) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ condition."
     "name": "Gore"

@@ -68,27 +68,24 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
   - "desc": "The shard's AC includes its Intelligence modifier."
     "name": "Deflection"
   - "desc": "The shard can move through creatures and objects as if they were difficult\
-      \ terrain. If it ends its turn inside an object, it takes dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) force damage."
+      \ terrain. If it ends its turn inside an object, it takes 5 (d10) force damage."
     "name": "Incorporeal Movement"
   - "desc": "If the shard fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
   - "desc": "When it drops to 0 hit points, the shard disappears and leaves a Tiny\
       \ cracked gemstone in its space. The gemstone matches the kind of gem dragon\
       \ it was in life and has AC 20, 15 hit points, and immunity to all damage except\
-      \ force. Unless the gemstone is destroyed, after dice:1d20|noform|noparens|avg\
-      \ (d20) days, the gemstone dissipates and the shard re-forms, regaining all\
-      \ its hit points and appearing in the place the gemstone once occupied or in\
-      \ the nearest unoccupied space."
+      \ force. Unless the gemstone is destroyed, after d20 days, the gemstone dissipates\
+      \ and the shard re-forms, regaining all its hit points and appearing in the\
+      \ place the gemstone once occupied or in the nearest unoccupied space."
     "name": "Rejuvenation"
   - "desc": "The shard doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
   - "desc": "The shard makes two Telekinetic Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+12|noform|noparens|text(+12)\
-      \ to hit, reach 10 ft. or range 120 ft., one target. Hit: dice:2d8+6|noform|noparens|avg|text(15)\
-      \ (2d8 + 6) force damage."
+  - "desc": "Melee  or Ranged Spell Attack: +12 to hit, reach 10 ft. or range\
+      \ 120 ft., one target. Hit: 15 (2d8 + 6) force damage."
     "name": "Telekinetic Rend"
   - "desc": "The shard disappears as it pours its psychic essence into a Medium or\
       \ smaller nonsentient object it can see within 30 feet of it, magically possessing\
@@ -104,16 +101,15 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
       \ the shard's own flying speed, use its senses, speak verbally or telepathically,\
       \ cast spells, and use its legendary actions.\n\nIf a creature wears or carries\
       \ the inhabited object, the shard can grant the creature the following benefits:\n\
-      \nEach of the creature's attacks deals an extra dice:1d8|noform|noparens|avg\
-      \ (d8) force damage on a hit.\n\nThe creature gains resistance to psychic\
-      \ damage."
+      \nEach of the creature's attacks deals an extra d8 force damage on a hit.\n\
+      \nThe creature gains resistance to psychic damage."
     "name": "Inhabit Object"
   - "desc": "The shard unleashes a pulse of psychic power. Each creature of the shard's\
       \ choice in a 60-foot-radius sphere centered on it must make a DC 20 Intelligence\
-      \ saving throw. On a failed save, the creature takes dice:10d10|noform|noparens|avg|text(55)\
-      \ (10d10) psychic damage and is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ until the end of its next turn. On a successful save, the creature takes half\
-      \ as much damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
+      \ saving throw. On a failed save, the creature takes 55 (10d10) psychic damage\
+      \ and is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) until the\
+      \ end of its next turn. On a successful save, the creature takes half as much\
+      \ damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
     "name": "Psychic Crush (Recharge 5-6)"
   - "desc": "The shard casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 20):\n\n\

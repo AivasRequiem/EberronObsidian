@@ -64,16 +64,14 @@ Giants use their tremendous size and strength to advance the cause of no less th
     "name": "Stone Camouflage"
 "actions":
   - "desc": "The giant makes two slam attacks. The first of those attacks that hits\
-      \ deals an extra dice:4d8|noform|noparens|avg|text(18) (4d8) damage if the\
-      \ giant has taken damage since its last turn."
+      \ deals an extra 18 (4d8) damage if the giant has taken damage since its last\
+      \ turn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 15 ft., one target. Hit: dice:4d8+6|noform|noparens|avg|text(24)\
-      \ (4d8 + 6) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+      \ 24 (4d8 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ range 60/240 ft., one target. Hit: dice:4d10+6|noform|noparens|avg|text(28)\
-      \ (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+      \ 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 18 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Rock"
 "source":

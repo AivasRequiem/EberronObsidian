@@ -59,13 +59,12 @@ Piercers are the larval form of ropers. Young piercers seek to move as far from 
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Piercing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
+      \ damage."
     "name": "Bite"
   - "desc": "The piercer falls. Dexterity Saving Throw: DC 11, one creature directly\
-      \ underneath the piercer. Failure: dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) Piercing damage. Failure or Success: The piercer reduces any damage\
-      \ it takes from the fall by 20."
+      \ underneath the piercer. Failure: 10 (3d6) Piercing damage. Failure or\
+      \ Success: The piercer reduces any damage it takes from the fall by 20."
     "name": "Drop"
 "source":
   - "XMM"

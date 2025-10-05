@@ -72,14 +72,12 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Spellcasting to cast [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
-      \ 10 ft. Hit: dice:2d8+7|noform|noparens|avg|text(16) (2d8 + 7) Slashing\
-      \ damage plus dice:1d10|noform|noparens|avg|text(5) (d10) Lightning damage."
+  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing\
+      \ damage plus 5 (d10) Lightning damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:11d10|noform|noparens|avg|text(60) (11d10) Lightning damage.\
-      \ Success: Half damage."
+      \ Failure: 60 (11d10) Lightning damage. Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
@@ -107,12 +105,11 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - "desc": "- Sinkholes. Sinkholes form more frequently in the area within 1\
       \ mile of the lair. Whenever a creature in that area other than the dragon and\
       \ its allies finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
-      \ roll dice:1d20|noform|noparens|avg (d20). On a 1, a sinkhole opens beneath\
-      \ the creature, and the creature must succeed on a DC 15 Dexterity saving throw\
-      \ or fall 2d4 × 10 feet into the sinkhole.  \n- Spiteful Storms. Dust\
-      \ devils and thunderstorms rage within 1 mile of the lair. The area is [Lightly\
-      \ Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md).\
-      \  "
+      \ roll d20. On a 1, a sinkhole opens beneath the creature, and the creature\
+      \ must succeed on a DC 15 Dexterity saving throw or fall 2d4 × 10 feet into\
+      \ the sinkhole.  \n- Spiteful Storms. Dust devils and thunderstorms rage\
+      \ within 1 mile of the lair. The area is [Lightly Obscured](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/lightly-obscured-xphb.md).  "
     "name": ""
   - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
     "name": ""

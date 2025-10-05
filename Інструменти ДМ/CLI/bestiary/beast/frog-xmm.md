@@ -53,8 +53,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ is up to 5 feet with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: 1 Piercing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

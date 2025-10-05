@@ -60,23 +60,20 @@ One crew member stayed aboard the Moondancer while it was in port: a flumph name
       \ its thoughts, as well as all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
-      \ (1d4 + 2) piercing damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ acid damage. At the end of each of its turns, the target must make a DC 10\
-      \ Constitution saving throw, taking dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ acid damage on a failure or ending the recurring acid damage on a success.\
-      \ A [lesser restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md)\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 4 (1d4 + 2) piercing damage plus 2 (d4) acid damage. At the end of each\
+      \ of its turns, the target must make a DC 10 Constitution saving throw, taking\
+      \ 2 (d4) acid damage on a failure or ending the recurring acid damage on a\
+      \ success. A [lesser restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md)\
       \ spell cast on the target also ends the recurring acid damage."
     "name": "Tendrils"
   - "desc": "Each creature in a 15-foot cone originating from Flapjack must succeed\
       \ on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid.\
-      \ A coated creature exudes a horrible stench for dice:1d4|noform|noparens|avg\
-      \ (d4) hours. The coated creature is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ as long as the stench lasts, and other creatures are [poisoned](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Poisoned) while with in 5 feet of the coated\
-      \ creature. A creature can remove the stench on itself by using a short rest\
-      \ to bathe in water, alcohol, or vinegar."
+      \ A coated creature exudes a horrible stench for d4 hours. The coated creature\
+      \ is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) as long as\
+      \ the stench lasts, and other creatures are [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ while with in 5 feet of the coated creature. A creature can remove the stench\
+      \ on itself by using a short rest to bathe in water, alcohol, or vinegar."
     "name": "Stench Spray (1/Day)"
   - "desc": "Flapjack casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\

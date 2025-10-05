@@ -12,7 +12,7 @@ aliases:
 
 You gain the following benefits.
 
-**Enhanced Unarmed Strike.** When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to `dice:1d4|noform|noparens|avg` (`d4`) plus your Strength modifier instead of the normal damage of an Unarmed Strike.
+**Enhanced Unarmed Strike.** When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to `d4` plus your Strength modifier instead of the normal damage of an Unarmed Strike.
 
 **Damage Rerolls.** Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.
 

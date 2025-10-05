@@ -82,12 +82,10 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The priest makes two attacks, using Mace or Radiant Flame in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
-      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Radiant damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
+      \ damage plus 5 (2d4) Radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 60\
-      \ ft. Hit: dice:2d10|noform|noparens|avg|text(11) (2d10) Radiant damage."
+  - "desc": "Ranged Attack Roll: +5, range 60 ft. Hit: 11 (2d10) Radiant damage."
     "name": "Radiant Flame"
   - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
       \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\

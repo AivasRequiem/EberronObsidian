@@ -74,16 +74,14 @@ The Gray Render Quirks table presents possible quirks for gray renders that can 
 "actions":
   - "desc": "The gray render makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d12+4|noform|noparens|avg|text(17)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17\
       \ (2d12 + 4) piercing damage. If the target is Medium or smaller, the target\
       \ must succeed on a DC 16 Strength saving throw or be knocked [prone](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
-      \ (2d8 + 4) slashing damage, plus dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) bludgeoning damage if the target is [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d8 + 4) slashing damage, plus 10 (3d6) bludgeoning damage if the\
+      \ target is [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Claw"
 "reactions":
   - "desc": "When the gray render takes damage, it makes one Claw attack against a\

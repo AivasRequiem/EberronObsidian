@@ -68,9 +68,8 @@ The remains of [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md
 "languages": ""
 "cr": "3"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Piercing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
+      \ damage plus 7 (2d6) Poison damage."
     "name": "Bite"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 12, each creature in a 30-foot [Cone](І\

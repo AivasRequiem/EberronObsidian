@@ -74,11 +74,11 @@ Guardians of the woodlands, dryads magically flit from tree to tree and from roo
   - "desc": "The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting\
       \ to cast [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage."
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing\
+      \ damage."
     "name": "Vine Lash"
-  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 60\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Piercing damage."
+  - "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing\
+      \ damage."
     "name": "Thorn Burst"
   - "desc": "The dryad casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt\

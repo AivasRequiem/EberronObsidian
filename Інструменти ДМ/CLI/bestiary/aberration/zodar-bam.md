@@ -72,17 +72,16 @@ A zodar can cause speech to issue from the air around it on three occasions in i
   - "desc": "The zodar makes two Crushing Fist attacks. Before or after these attacks,\
       \ the zodar uses Forced Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d10+10|noform|noparens|avg|text(21)\
-      \ (2d10 + 10) force damage."
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+      \ 21 (2d10 + 10) force damage."
     "name": "Crushing Fist"
   - "desc": "The zodar magically warps space around one creature it can see within\
       \ 60 feet of itself. The target must make a DC 21 Constitution saving throw.\
-      \ On a failed save, the target takes dice:4d10|noform|noparens|avg|text(22)\
-      \ (4d10) force damage, and the zodar teleports it, along with any equipment\
-      \ it's wearing or carrying, up to 60 feet to an unoccupied space that the zodar\
-      \ can see and that can support the target. On a successful save, the target\
-      \ takes half as much damage and isn't teleported."
+      \ On a failed save, the target takes 22 (4d10) force damage, and the zodar\
+      \ teleports it, along with any equipment it's wearing or carrying, up to 60\
+      \ feet to an unoccupied space that the zodar can see and that can support the\
+      \ target. On a successful save, the target takes half as much damage and isn't\
+      \ teleported."
     "name": "Forced Teleport"
   - "desc": "The zodar casts the [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
       \ spell, requiring no spell components and using Charisma as the spellcasting\

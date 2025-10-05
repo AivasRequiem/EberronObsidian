@@ -12,4 +12,4 @@ aliases:
 
 **Prerequisite**: Level 5
 
-Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra `dice:1d8|noform|noparens|avg` (`d8`) Force damage to the target, plus another `dice:1d8|noform|noparens|avg` (`d8`) per level of the spell slot, and you can give the target the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition if it is Huge or smaller.
+Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra `d8` Force damage to the target, plus another `d8` per level of the spell slot, and you can give the target the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition if it is Huge or smaller.

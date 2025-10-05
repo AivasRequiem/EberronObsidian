@@ -63,8 +63,7 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 "traits":
   - "desc": "At the end of each of the salamander's turns, each creature of the salamander's\
       \ choice in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the salamander takes dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) Fire damage."
+      \ originating from the salamander takes 10 (3d6) Fire damage."
     "name": "Fire Aura"
   - "desc": "The salamander has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
@@ -72,30 +71,28 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 "actions":
   - "desc": "The salamander makes two Flame Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12),\
-      \ reach 5 ft. or range 30/90 ft. Hit: dice:2d8+7|noform|noparens|avg|text(16)\
-      \ (2d8 + 7) Piercing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
-      \ Fire damage. Hit or Miss: The trident magically returns to the salamander's\
-      \ hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: +12, reach 5 ft. or range 30/90 ft.\
+      \ Hit: 16 (2d8 + 7) Piercing damage plus 14 (4d6) Fire damage. Hit or\
+      \ Miss: The trident magically returns to the salamander's hand immediately\
+      \ after a ranged attack."
     "name": "Flame Trident"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 30-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the salamander can see within 120 feet. Failure: dice:10d6|noform|noparens|avg|text(35)\
-      \ (10d6) Fire damage, and the target starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md),\
-      \ taking dice:1d10|noform|noparens|avg|text(5) (d10) Fire damage at the\
-      \ start of each of its turns instead of the normal [burning](Інструменти%20Д\
-      М/CLI/traps-hazards/burning-xphb.md) damage. The target gains 1 [Exhaustion](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level whenever it takes\
-      \ this [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md) damage.\
-      \ Success: Half damage only."
+      \ on a point the salamander can see within 120 feet. Failure: 35 (10d6)\
+      \ Fire damage, and the target starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md),\
+      \ taking 5 (d10) Fire damage at the start of each of its turns instead of\
+      \ the normal [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md) damage.\
+      \ The target gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
+      \ level whenever it takes this [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)\
+      \ damage. Success: Half damage only."
     "name": "Inferno Blast (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The salamander moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \ During this movement, fire fills a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
       \ originating from the salamander. When the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ enters a creature's space, that creature takes dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) Fire damage. A creature can take this damage only once per turn."
+      \ enters a creature's space, that creature takes 7 (2d6) Fire damage. A creature\
+      \ can take this damage only once per turn."
     "name": "Blazing Movement"
 "source":
   - "XMM"

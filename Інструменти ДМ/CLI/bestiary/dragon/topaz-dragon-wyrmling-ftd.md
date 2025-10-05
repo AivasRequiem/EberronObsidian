@@ -143,18 +143,16 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - "desc": "The dragon can breathe both air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
-      \ (1d10 + 2) piercing damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d10 + 2) piercing damage plus 2 (d4) necrotic damage."
     "name": "Bite"
   - "desc": "The dragon exhales yellowish necrotic energy in a 15-foot cone. Each\
       \ creature in that area must make a DC 11 Constitution saving throw. On a failed\
-      \ save, the creature takes dice:6d6|noform|noparens|avg|text(21) (6d6) necrotic\
-      \ damage and is weakened until the end of its next turn. A weakened creature\
-      \ has disadvantage on Strength-based ability checks and Strength saving throws,\
-      \ and the creature's weapon attacks that rely on Strength deal half damage.\
-      \ On a successful save, the creature takes half as much damage and isn't weakened."
+      \ save, the creature takes 21 (6d6) necrotic damage and is weakened until\
+      \ the end of its next turn. A weakened creature has disadvantage on Strength-based\
+      \ ability checks and Strength saving throws, and the creature's weapon attacks\
+      \ that rely on Strength deal half damage. On a successful save, the creature\
+      \ takes half as much damage and isn't weakened."
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\

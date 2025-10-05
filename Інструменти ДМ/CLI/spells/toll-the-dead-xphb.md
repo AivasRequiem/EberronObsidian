@@ -34,9 +34,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take `dice:1d8|noform|noparens|avg` (`d8`) Necrotic damage. If the target is missing any of its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it instead takes `dice:1d12|noform|noparens|avg` (`d12`) Necrotic damage.
+You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take `d8` Necrotic damage. If the target is missing any of its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it instead takes `d12` Necrotic damage.
 
-**Cantrip Upgrade.** The damage increases by one die when you reach levels 5 (`dice:2d8|noform|noparens|avg` (`2d8`) or `dice:2d12|noform|noparens|avg` (`2d12`)), 11 (`dice:3d8|noform|noparens|avg` (`3d8`) or `dice:3d12|noform|noparens|avg` (`3d12`)), and 17 (`dice:4d8|noform|noparens|avg` (`4d8`) or `dice:4d12|noform|noparens|avg` (`4d12`)).
+**Cantrip Upgrade.** The damage increases by one die when you reach levels 5 (`2d8` or `2d12`), 11 (`3d8` or `3d12`), and 17 (`4d8` or `4d12`).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

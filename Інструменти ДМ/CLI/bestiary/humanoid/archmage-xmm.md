@@ -92,9 +92,8 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "actions":
   - "desc": "The archmage makes four Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
-      \ reach 5 ft. or range 150 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
-      \ (4d10 + 5) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit:\
+      \ 27 (4d10 + 5) Force damage."
     "name": "Arcane Burst"
   - "desc": "The archmage casts one of the following spells, using Intelligence as\
       \ the spellcasting ability (spell save DC 17):\n\nAt will: [Detect Magic](І\

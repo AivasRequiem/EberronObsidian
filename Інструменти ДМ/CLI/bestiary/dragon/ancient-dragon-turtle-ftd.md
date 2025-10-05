@@ -162,24 +162,20 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
 "actions":
   - "desc": "The dragon turtle makes one Bite or Tail attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 15 ft., one target. Hit: dice:1d12+9|noform|noparens|avg|text(15)\
-      \ (1d12 + 9) piercing damage plus dice:2d12|noform|noparens|avg|text(13)\
-      \ (2d12) lightning damage."
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+      \ 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d8+9|noform|noparens|avg|text(18)\
-      \ (2d8 + 9) slashing damage."
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+      \ 18 (2d8 + 9) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d10+9|noform|noparens|avg|text(20)\
-      \ (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+      \ 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 24 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The dragon turtle exhales steam in a 90-foot cone. Each creature in that\
-      \ area must make a DC 24 Constitution saving throw, taking dice:15d8|noform|noparens|avg|text(67)\
-      \ (15d8) fire damage on a failed save, or half as much damage on a successful\
-      \ one. Being underwater doesn't grant resistance against this damage."
+      \ area must make a DC 24 Constitution saving throw, taking 67 (15d8) fire\
+      \ damage on a failed save, or half as much damage on a successful one. Being\
+      \ underwater doesn't grant resistance against this damage."
     "name": "Steam Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The dragon turtle makes one Claw or Tail attack."
@@ -190,8 +186,8 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
   - "desc": "The dragon turtle radiates intense heat. Until the start of the dragon\
       \ turtle's next turn, whenever a creature starts its turn within 20 feet of\
       \ the dragon turtle, that creature must succeed on a DC 24 Constitution saving\
-      \ throw or take dice:9d8|noform|noparens|avg|text(40) (9d8) fire damage.\
-      \ Being underwater doesn't grant resistance against this damage."
+      \ throw or take 40 (9d8) fire damage. Being underwater doesn't grant resistance\
+      \ against this damage."
     "name": "Boiling Aura (Costs 3 Actions)"
 "lair_actions":
   - "desc": "As they are presented in the Monster Manual, dragon turtles don't have\
@@ -212,9 +208,9 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
       \ until the end of its next turn.  \n- Steam Eruption. Steam erupts in a\
       \ 15-foot cone from a point on the ground the dragon turtle can see within 120\
       \ feet of it. Each creature in that area must make a DC 15 Constitution saving\
-      \ throw, taking dice:6d6|noform|noparens|avg|text(21) (6d6) fire damage\
-      \ on a failed save, or half as much damage on a successful one. Being underwater\
-      \ doesn't grant creatures resistance to this damage.  "
+      \ throw, taking 21 (6d6) fire damage on a failed save, or half as much damage\
+      \ on a successful one. Being underwater doesn't grant creatures resistance to\
+      \ this damage.  "
     "name": ""
 "regional_effects":
   - "desc": "The region containing a dragon turtle's lair can be transformed by its\
@@ -229,8 +225,8 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
       \ nearby.  \n- Hot Water. Geothermal vents heat the water within 6 miles\
       \ of the dragon turtle's lair to 100 degrees Fahrenheit.  "
     "name": ""
-  - "desc": "If the dragon turtle dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
-      \ (d10) days."
+  - "desc": "If the dragon turtle dies, these effects fade over the course of d10\
+      \ days."
     "name": ""
 "source":
   - "FTD"

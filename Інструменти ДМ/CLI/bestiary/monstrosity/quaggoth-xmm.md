@@ -61,10 +61,9 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage,\
-      \ or dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Slashing damage if\
-      \ the quaggoth is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
+      \ damage, or 13 (3d6 + 3) Slashing damage if the quaggoth is [Bloodied](Ін\
+      струменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Claw"
 "source":
   - "XMM"

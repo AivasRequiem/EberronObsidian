@@ -42,9 +42,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md). Each creature in that [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) must succeed on a Dexterity saving throw or take `dice:1d6|noform|noparens|avg` (`d6`) Acid damage.
+You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md). Each creature in that [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) must succeed on a Dexterity saving throw or take `d6` Acid damage.
 
-**Cantrip Upgrade.** The damage increases by `dice:1d6|noform|noparens|avg` (`d6`) when you reach levels 5 (`dice:2d6|noform|noparens|avg` (`2d6`)), 11 (`dice:3d6|noform|noparens|avg` (`3d6`)), and 17 (`dice:4d6|noform|noparens|avg` (`4d6`)).
+**Cantrip Upgrade.** The damage increases by `d6` when you reach levels 5 (`2d6`), 11 (`3d6`), and 17 (`4d6`).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

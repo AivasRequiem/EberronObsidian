@@ -50,10 +50,9 @@ The rank-and-file members of the Gruul Clans, called anarchs, despise civilizati
   - "desc": "The anarch deals double damage to objects and structures."
     "name": "Siege Monster"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
-      \ + 2) piercing damage, or dice:1d10+2|noform|noparens|avg|text(7) (1d10\
-      \ + 2) piercing damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage, or 7 (1d10 + 2) piercing damage if used with\
+      \ two hands."
     "name": "Spiked Club"
 "source":
   - "GGR"

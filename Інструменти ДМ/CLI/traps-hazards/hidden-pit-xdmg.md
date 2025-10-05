@@ -12,7 +12,7 @@ aliases:
 
 This 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit. The lid remains open thereafter.
 
-A creature that falls into the pit takes `dice:1d6|noform|noparens|avg|text(3)` (`d6`) Bludgeoning damage from the fall.
+A creature that falls into the pit takes 3 (`d6`) Bludgeoning damage from the fall.
 
 ## Detect and Disarm
 
@@ -28,9 +28,9 @@ You can scale the trap for higher levels by increasing the pit's depth and damag
 
 | Levels | Pit Depth | Bludgeoning Damage |
 |--------|-----------|--------------------|
-| 5–10 | 30 feet | 10 (`dice:3d6\|noform\|noparens\|avg` (`3d6`)) |
-| 11–16 | 60 feet | 21 (`dice:6d6\|noform\|noparens\|avg` (`6d6`)) |
-| 17–20 | 120 feet | 42 (`dice:12d6\|noform\|noparens\|avg` (`12d6`)) |
+| 5–10 | 30 feet | 10 (`3d6`) |
+| 11–16 | 60 feet | 21 (`6d6`) |
+| 17–20 | 120 feet | 42 (`12d6`) |
 ^levels-pit-depth-bludgeoning-damage
 
 *Source: Dungeon Master's Guide (2024) p. 102. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

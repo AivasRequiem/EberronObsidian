@@ -67,9 +67,8 @@ The lowest form of demons, manes appear when truly loathsome souls are condemned
       \ Sickening Vapors for 24 hours."
     "name": "Sickening Vapors"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Slashing damage\
-      \ plus dice:2d4|noform|noparens|avg|text(5) (2d4) Necrotic damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+      \ damage plus 5 (2d4) Necrotic damage."
     "name": "Claw"
 "bonus_actions":
   - "desc": "While in [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\

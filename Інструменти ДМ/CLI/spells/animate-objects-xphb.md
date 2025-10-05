@@ -33,7 +33,7 @@ Each target animates, sprouts legs, and becomes a Construct that uses the [Anima
 
 Until the spell ends, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). If you issue no commands, the creature takes the [Dodge](Інструменти%20ДМ/CLI/rules/actions.md#Dodge) action and moves only to avoid harm. When the creature drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it reverts to its object form, and any remaining damage carries over to that form.
 
-**Using a Higher-Level Spell Slot.** The creature's Slam damage increases by `dice:1d4|noform|noparens|avg` (`d4`) (Medium or smaller), `dice:1d6|noform|noparens|avg` (`d6`) (Large), or `dice:1d12|noform|noparens|avg` (`d12`) (Huge) for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The creature's Slam damage increases by `d4` (Medium or smaller), `d6` (Large), or `d12` (Huge) for each spell slot level above 5.
 
 **Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
 

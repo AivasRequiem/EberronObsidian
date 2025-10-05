@@ -89,11 +89,10 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes four Slam attacks or four Gears Launcher attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Force damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Force damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 320\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Force damage."
+  - "desc": "Ranged Attack Roll: +4, range 320 ft. Hit: 4 (1d4 + 2) Force\
+      \ damage."
     "name": "Gears Launcher"
 "source":
   - "XMM"

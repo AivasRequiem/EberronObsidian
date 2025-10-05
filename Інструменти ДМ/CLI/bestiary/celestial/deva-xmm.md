@@ -85,9 +85,8 @@ Rather than literal correspondence from a god, a deva conveys an allegory or que
 "actions":
   - "desc": "The deva makes two Holy Mace attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
-      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Radiant damage."
+  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+      \ damage plus 18 (4d8) Radiant damage."
     "name": "Holy Mace"
   - "desc": "The deva casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\

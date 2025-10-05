@@ -57,14 +57,13 @@ In rare cases, bone nagas continue to pursue the goals they had while alive inst
   - "desc": "The naga makes two Bite attacks. It can replace any attack with a use\
       \ of Serpentine Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Piercing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Piercing\
+      \ damage plus 7 (2d6) Necrotic damage."
     "name": "Bite"
   - "desc": "Wisdom Saving Throw: DC 13, one creature the naga can see within 60\
-      \ feet. Failure: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Psychic\
-      \ damage, and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ condition until the start of the naga's next turn."
+      \ feet. Failure: 13 (3d6 + 3) Psychic damage, and the target has the [Charmed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until the start of\
+      \ the naga's next turn."
     "name": "Serpentine Gaze"
   - "desc": "The naga casts one of the following spells, requiring no Material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\

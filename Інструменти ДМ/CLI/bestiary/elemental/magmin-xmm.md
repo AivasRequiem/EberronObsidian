@@ -51,12 +51,11 @@ Magmins might be conjured by magic-users to harry foes or might escape the Eleme
 "traits":
   - "desc": "The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each\
       \ creature in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the magmin. Failure: dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) Fire damage. Success: Half damage."
+      \ originating from the magmin. Failure: 7 (2d6) Fire damage. Success:\
+      \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Fire damage.\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage.\
       \ If the target is a creature or a flammable object that isn't being worn or\
       \ carried, it starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Touch"

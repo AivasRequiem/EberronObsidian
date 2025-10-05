@@ -65,14 +65,13 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
       \ healing, except through its Reversal of Fortune reaction."
     "name": "Nilbogism"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
-      \ + 2) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage."
     "name": "Fool's Scepter"
   - "desc": "The nilbog targets one creature it can see within 60 feet of it. The\
-      \ target must succeed on a DC 12 Wisdom saving throw or take dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) psychic damage and have disadvantage on its next attack roll before\
-      \ the end of its next turn."
+      \ target must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic\
+      \ damage and have disadvantage on its next attack roll before the end of its\
+      \ next turn."
     "name": "Mocking Word"
   - "desc": "The nilbog casts one of the following spells, using Charisma as the spellcasting\
       \ ability (spell save DC 12):\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
@@ -84,8 +83,7 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
     "name": "Nimble Escape"
 "reactions":
   - "desc": "In response to another creature dealing damage to the nilbog, the nilbog\
-      \ reduces the damage to 0 and regains dice:1d6|noform|noparens|avg|text(3)\
-      \ (d6) hit points."
+      \ reduces the damage to 0 and regains 3 (d6) hit points."
     "name": "Reversal of Fortune"
 "source":
   - "MPMM"

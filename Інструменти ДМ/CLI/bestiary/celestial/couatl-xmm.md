@@ -61,17 +61,15 @@ Each couatl goes through a period of renewal at the end of an age. In a couatl's
       \ can communicate with it telepathically only if it allows them."
     "name": "Shielded Mind"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d12+5|noform|noparens|avg|text(11) (1d12 + 5) Piercing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the end of the couatl's next turn."
     "name": "Bite"
   - "desc": "Strength Saving Throw: DC 15, one Medium or smaller creature the couatl\
-      \ can see within 5 feet. Failure: dice:1d6+5|noform|noparens|avg|text(8)\
-      \ (1d6 + 5) Bludgeoning damage. The target has the [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13), and it has\
-      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
-      \ until the grapple ends."
+      \ can see within 5 feet. Failure: 8 (1d6 + 5) Bludgeoning damage. The target\
+      \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
+      \ (escape DC 13), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition until the grapple ends."
     "name": "Constrict"
   - "desc": "The couatl casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\

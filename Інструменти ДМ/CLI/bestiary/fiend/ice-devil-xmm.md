@@ -84,20 +84,17 @@ Ice devils usually lurk in frozen realms, particularly the frigid layer of Cania
   - "desc": "The devil makes three Ice Spear attacks. It can replace one attack with\
       \ a Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10),\
-      \ reach 5 ft. or range 30/120 ft. Hit: dice:2d8+5|noform|noparens|avg|text(14)\
-      \ (2d8 + 5) Piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ Cold damage. Until the end of its next turn, the target can't take a [Bonus\
-      \ Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) or\
-      \ [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md), its\
-      \ [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases\
-      \ by 10 feet, and it can move or take one action on its turn, not both. Hit\
-      \ or Miss: The spear magically returns to the devil's hand immediately after\
-      \ a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft.\
+      \ Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the\
+      \ end of its next turn, the target can't take a [Bonus Action](Інструменти%20Д\
+      М/CLI/rules/variant-rules/bonus-action-xphb.md) or [Reaction](Інструменти%20Д\
+      М/CLI/rules/variant-rules/reaction-xphb.md), its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ decreases by 10 feet, and it can move or take one action on its turn, not\
+      \ both. Hit or Miss: The spear magically returns to the devil's hand immediately\
+      \ after a ranged attack."
     "name": "Ice Spear"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 10 ft. Hit: dice:3d6+5|noform|noparens|avg|text(15) (3d6 + 5) Bludgeoning\
-      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Cold damage."
+  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning\
+      \ damage plus 18 (4d8) Cold damage."
     "name": "Tail"
   - "desc": "The devil casts [Wall of Ice](Інструменти%20ДМ/CLI/spells/wall-of-ice-xphb.md)\
       \ (level 8 version), requiring no spell components and using Intelligence as\

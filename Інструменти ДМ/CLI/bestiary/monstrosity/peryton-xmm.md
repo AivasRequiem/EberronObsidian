@@ -71,17 +71,14 @@ Perytons tear out the hearts of those they slay, carrying the organs back to gri
 "actions":
   - "desc": "The peryton makes one Gore attack and one Talons attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage.\
-      \ If the peryton moved 30+ feet straight toward the target immediately before\
-      \ the hit, the target takes an extra dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) Piercing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage. If the peryton moved 30+ feet straight toward the target immediately\
+      \ before the hit, the target takes an extra 9 (2d8) Piercing damage."
     "name": "Gore"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4 + 3) Piercing damage.\
-      \ If the attack reduces a Humanoid target to 0 [Hit Points](Інструменти%20ДМ\
-      /CLI/rules/variant-rules/hit-points-xphb.md), the peryton kills the target by\
-      \ removing its heart."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing\
+      \ damage. If the attack reduces a Humanoid target to 0 [Hit Points](Інструме\
+      нти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), the peryton kills the\
+      \ target by removing its heart."
     "name": "Talons"
 "source":
   - "XMM"

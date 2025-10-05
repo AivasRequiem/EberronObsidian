@@ -45,7 +45,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/flame-tongue.webp#right)
 
 
-While holding this magic weapon, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 40-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for an additional 40 feet. While the weapon is ablaze, it deals an extra `dice:2d6|noform|noparens|avg` (`2d6`) Fire damage on a hit. The flames last until you take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to issue the command again or until you drop, stow, or sheathe the weapon.
+While holding this magic weapon, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 40-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for an additional 40 feet. While the weapon is ablaze, it deals an extra `2d6` Fire damage on a hit. The flames last until you take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to issue the command again or until you drop, stow, or sheathe the weapon.
 
 **Variants**:
 - [Flame Tongue Battleaxe](#Flame%20Tongue%20Battleaxe)

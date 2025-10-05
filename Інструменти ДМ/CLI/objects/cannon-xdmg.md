@@ -30,6 +30,6 @@ title: Cannon
 
 ## Actions
 
-***Cannonball (Requires Load and Aim).*** *Ranged Attack Roll:* `dice:1d20+6|noform|noparens|text(+6)`, range 600/2,400 ft. *Hit:* `dice:8d10|noform|noparens|avg|text(44)` (`8d10`) Bludgeoning damage.
+***Cannonball (Requires Load and Aim).*** *Ranged Attack Roll:* `+6`, range 600/2,400 ft. *Hit:* 44 (`8d10`) Bludgeoning damage.
 ```
 ^statblock

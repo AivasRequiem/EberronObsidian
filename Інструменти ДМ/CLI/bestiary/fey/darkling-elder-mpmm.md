@@ -58,18 +58,16 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
   - "desc": "When the darkling elder dies, magical light flashes out from it in a\
       \ 10-foot radius as its body and possessions, other than metal or magic objects,\
       \ burn to ash. Any creature in that area must make a DC 11 Constitution saving\
-      \ throw. On a failed save, the creature takes dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) radiant damage and is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ until the end of its next turn. On a successful save, the creature takes half\
-      \ as much damage and isn't [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
+      \ throw. On a failed save, the creature takes 7 (2d6) radiant damage and is\
+      \ [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the end\
+      \ of its next turn. On a successful save, the creature takes half as much damage\
+      \ and isn't [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
     "name": "Death Burn"
 "actions":
   - "desc": "The darkling elder makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) slashing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Scimitar"
   - "desc": "The darkling elder casts [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ requiring no spell components and using Wisdom as the spellcasting ability.\n"

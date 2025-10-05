@@ -69,15 +69,12 @@ aliases:
       \ itself in water for at least 1 hour."
     "name": "Water Dependency"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
-      \ (1d4 + 3) piercing damage plus dice:2d4|noform|noparens|avg|text(5) (2d4)\
-      \ poison damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison\
+      \ damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ range 80/320 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
-      \ (1d6 + 3) piercing damage plus dice:2d4|noform|noparens|avg|text(5) (2d4)\
-      \ poison damage."
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d6 + 3) piercing damage plus 5 (2d4) poison damage."
     "name": "Shortbow"
   - "desc": "The grung casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 12):\n\nAt will: [druidcraft](Інструменти%20ДМ\

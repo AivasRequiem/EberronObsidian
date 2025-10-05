@@ -63,13 +63,11 @@ Some nothics seek to end the curse that warped them into their bizarre forms, bu
 "actions":
   - "desc": "The nothic makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "Constitution Saving Throw: DC 13, one creature the nothic can see within\
-      \ 120 feet. Failure: dice:5d6|noform|noparens|avg|text(17) (5d6) Necrotic\
-      \ damage. Success: Half damage."
+      \ 120 feet. Failure: 17 (5d6) Necrotic damage. Success: Half damage."
     "name": "Rotting Gaze"
 "bonus_actions":
   - "desc": "Wisdom Saving Throw: DC 14, one creature the nothic can see within\

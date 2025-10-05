@@ -54,14 +54,11 @@ Githyanki buccaneers ply the Astral Plane for riches, which they haul back to th
 "actions":
   - "desc": "The githyanki makes two Greatsword or Telekinetic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
-      \ (2d6 + 3) slashing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage plus 3 (d6) psychic damage."
     "name": "Greatsword"
-  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ range 60 ft., one target. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
-      \ (3d6 + 3) force damage."
+  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+      \ 13 (3d6 + 3) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\

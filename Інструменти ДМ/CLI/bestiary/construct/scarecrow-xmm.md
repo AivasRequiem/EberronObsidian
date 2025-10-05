@@ -71,9 +71,8 @@ Although scarecrows take their name from rural effigies, they might take varied 
 "languages": "Common plus one other language"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Slashing damage,\
-      \ and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
+      \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the end of the scarecrow's next turn."
     "name": "Fearsome Claw"
   - "desc": "Wisdom Saving Throw: DC 11, one creature the scarecrow can see within\

@@ -13,6 +13,6 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/helm-of-teleportation.webp#right)
 
 
-This helm has 3 charges. While wearing it, you can expend 1 charge to cast [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md) from it. The helm regains `dice:1d3|noform|noparens|avg` (`d3`) expended charges daily at dawn.
+This helm has 3 charges. While wearing it, you can expend 1 charge to cast [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md) from it. The helm regains `d3` expended charges daily at dawn.
 
 *Source: Dungeon Master's Guide (2024) p. 268. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

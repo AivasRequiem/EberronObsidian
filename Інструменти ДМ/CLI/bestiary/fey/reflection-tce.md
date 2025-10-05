@@ -58,14 +58,12 @@ aliases:
       \ checks, and saving throws."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:2d6+2|noform|noparens|avg|text(9)\
-      \ (2d6 + 2) necrotic damage, and the target's Strength score is reduced by\
-      \ dice:1d4|noform|noparens|avg (d4). The target dies if this reduces its\
-      \ Strength to 0. Otherwise, the reduction lasts until the target finishes a\
-      \ short or long rest.\n\nIf a non-evil humanoid dies from this attack, a new\
-      \ reflection rises from the corpse dice:1d4|noform|noparens|avg (d4) hours\
-      \ later."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced\
+      \ by d4. The target dies if this reduces its Strength to 0. Otherwise, the\
+      \ reduction lasts until the target finishes a short or long rest.\n\nIf a non-evil\
+      \ humanoid dies from this attack, a new reflection rises from the corpse d4\
+      \ hours later."
     "name": "Strength Drain"
 "source":
   - "TCE"

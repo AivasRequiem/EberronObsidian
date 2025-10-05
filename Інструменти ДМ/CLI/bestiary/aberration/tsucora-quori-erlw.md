@@ -68,23 +68,20 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori makes three attacks: one pincer attack, one attack with its\
       \ claws, and one stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
       \ (1d10 + 3) bludgeoning damage. The target is [grappled](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or smaller\
       \ creature. The quori has two pincers, each of which can grapple one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:4d4+3|noform|noparens|avg|text(13)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
       \ (4d4 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 10 ft., one creature. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
-      \ (1d10 + 3) piercing damage plus dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) psychic damage, and the target must succeed on a DC 14 Wisdom saving\
-      \ throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ of the quori for 1 minute. The target can repeat the saving throw at the end\
-      \ of each of its turns, ending the effect on itself on a success."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+      \ 8 (1d10 + 3) piercing damage plus 10 (3d6) psychic damage, and the target\
+      \ must succeed on a DC 14 Wisdom saving throw or be [frightened](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Frightened) of the quori for 1 minute. The target\
+      \ can repeat the saving throw at the end of each of its turns, ending the effect\
+      \ on itself on a success."
     "name": "Stinger"
   - "desc": "One humanoid that the quori can see within 5 feet of it must succeed\
       \ on a DC 14 Charisma saving throw or be possessed by the quori; the quori then\

@@ -44,7 +44,7 @@ Once triggered, the glyph glows, filling a 60-foot-radius [Sphere](Інстру�
 
 ## Death
 
-Each target makes a Constitution saving throw, taking `dice:10d10|noform|noparens|avg` (`10d10`) Necrotic damage on a failed save or half as much damage on a successful save.
+Each target makes a Constitution saving throw, taking `10d10` Necrotic damage on a failed save or half as much damage on a successful save.
 
 ## Discord
 

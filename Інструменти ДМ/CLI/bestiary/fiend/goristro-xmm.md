@@ -79,14 +79,12 @@ Goristros resemble hunched, primeval minotaurs bearing the scars of Abyssal wars
 "actions":
   - "desc": "The goristro makes one Brutal Gore attack and two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
-      \ 10 ft. Hit: dice:6d10+7|noform|noparens|avg|text(40) (6d10 + 7) Piercing\
+  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 40 (6d10 + 7) Piercing\
       \ damage. If the target is a Huge or smaller creature, it is pushed up to 20\
       \ feet straight away from the goristro and has the [Prone](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Prone) condition."
     "name": "Brutal Gore"
-  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
-      \ 10 ft. Hit: dice:4d10+7|noform|noparens|avg|text(29) (4d10 + 7) Bludgeoning\
+  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 29 (4d10 + 7) Bludgeoning\
       \ damage."
     "name": "Slam"
 "bonus_actions":

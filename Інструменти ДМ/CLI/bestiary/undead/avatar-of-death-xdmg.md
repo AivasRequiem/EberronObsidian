@@ -40,16 +40,15 @@ aliases:
 "languages": "all languages known to its summoner"
 "traits":
   - "desc": "The avatar can move through other creatures and objects as if they were\
-      \ Difficult Terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ Force damage if it ends its turn inside an object."
+      \ Difficult Terrain. It takes 5 (d10) Force damage if it ends its turn inside\
+      \ an object."
     "name": "Incorporeal Movement"
 "actions":
   - "desc": "The avatar makes a number of Reaping Scythe attacks equal to half the\
       \ summoner's Proficiency Bonus (rounded up)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Automatic hit, reach 5 ft. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
-      \ (1d8 + 3) Slashing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ Necrotic damage."
+  - "desc": "Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3)\
+      \ Slashing damage plus 4 (d8) Necrotic damage."
     "name": "Reaping Scythe"
 "source":
   - "XDMG"

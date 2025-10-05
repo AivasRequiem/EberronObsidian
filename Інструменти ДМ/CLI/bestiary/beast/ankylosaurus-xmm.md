@@ -45,8 +45,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The ankylosaurus makes two Tail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"

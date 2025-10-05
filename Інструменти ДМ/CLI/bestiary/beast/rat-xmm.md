@@ -50,8 +50,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ when it moves out of an enemy's reach."
     "name": "Agile"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
-      \ ft. Hit: 1 Piercing damage."
+  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

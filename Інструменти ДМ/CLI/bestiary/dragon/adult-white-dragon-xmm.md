@@ -73,20 +73,18 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
-      \ 10 ft. Hit: dice:2d6+6|noform|noparens|avg|text(13) (2d6 + 6) Slashing\
-      \ damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Cold damage."
+  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 13 (2d6 + 6) Slashing\
+      \ damage plus 4 (d8) Cold damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 19, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:12d8|noform|noparens|avg|text(54) (12d8) Cold damage. Success:\
-      \ Half damage."
+      \ 54 (12d8) Cold damage. Success: Half damage."
     "name": "Cold Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "Constitution Saving Throw: DC 14, each creature in a 30-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 120 feet. Failure: dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) Cold damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ centered on a point the dragon can see within 120 feet. Failure: 7 (2d6)\
+      \ Cold damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ is 0 until the end of the target's next turn. Failure or Success: The dragon\
       \ can't take this action again until the start of its next turn."
     "name": "Freezing Burst"

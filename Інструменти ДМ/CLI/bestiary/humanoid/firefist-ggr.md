@@ -48,12 +48,12 @@ Boros firefists combine potent magic with peerless fighting ability, inspiring a
 "cr": "7"
 "traits":
   - "desc": "The firefist is a 9th-level Boros spellcaster. Its spellcasting ability\
-      \ is Wisdom (spell save DC 14, dice:1d20+6|noform|noparens|text(+6) to hit\
-      \ with spell attacks). It has the following cleric spells prepared:\n\nCantrips\
-      \ (at will): [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [light](І\
-      нструменти%20ДМ/CLI/spells/light-xphb.md), [sacred flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md),\
-      \ [spare the dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n\
-      1st level (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
+      \ is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following\
+      \ cleric spells prepared:\n\nCantrips (at will): [fire bolt](Інструменти\
+      %20ДМ/CLI/spells/fire-bolt-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [sacred flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md), [spare the\
+      \ dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n1st level\
+      \ (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
       \ [healing word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), [heroism](І\
       нструменти%20ДМ/CLI/spells/heroism-xphb.md), [shield of faith](Інструменти%20Д\
       М/CLI/spells/shield-of-faith-xphb.md)\n\n2nd level (3 slots): [lesser restoration](І\
@@ -69,8 +69,7 @@ Boros firefists combine potent magic with peerless fighting ability, inspiring a
 "actions":
   - "desc": "The firefist makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
 "reactions":

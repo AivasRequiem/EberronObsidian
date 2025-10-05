@@ -87,20 +87,18 @@ A colossus might be filled with monsters and secrets, in addition to the corpses
   - "desc": "The colossus makes three attacks—one with its slam and two with its eldritch\
       \ turrets—and then uses Stomp."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ reach 20 ft., one target. Hit: dice:3d12+10|noform|noparens|avg|text(29)\
-      \ (3d12 + 10) bludgeoning damage, and the colossus can push the target up\
-      \ to 20 feet away from it."
+  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+      \ 29 (3d12 + 10) bludgeoning damage, and the colossus can push the target\
+      \ up to 20 feet away from it."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: dice:1d20+18|noform|noparens|text(+18) to hit,\
-      \ range 300 ft., one target. Hit: dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) force damage, and if the target is a creature, it is knocked [prone](І\
+  - "desc": "Ranged Spell Attack: +18 to hit, range 300 ft., one target. Hit:\
+      \ 18 (4d8) force damage, and if the target is a creature, it is knocked [prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Eldritch Turret"
   - "desc": "The colossus stomps one of its feet at a point on the ground within 20\
       \ feet of it. Any creature in a 20-foot-radius, 20-foot-high cylinder centered\
-      \ on this point must succeed on a DC 26 Dexterity saving throw or take dice:6d10|noform|noparens|avg|text(33)\
-      \ (6d10) bludgeoning damage and fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
+      \ on this point must succeed on a DC 26 Dexterity saving throw or take 33 (6d10)\
+      \ bludgeoning damage and fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
       \ Until the colossus uses its Stomp again or moves, the creature is [restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained). While [restrained](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Restrained) in this way, the creature (or\
@@ -113,10 +111,9 @@ A colossus might be filled with monsters and secrets, in addition to the corpses
     "name": "Stomp"
   - "desc": "The colossus fires a beam of light in a 150-foot line that is 10 feet\
       \ wide. Each creature in the line must make a DC 26 Dexterity saving throw,\
-      \ taking dice:11d10|noform|noparens|avg|text(60) (11d10) radiant damage\
-      \ on a failed save, or half as much damage on a successful one. A creature reduced\
-      \ to 0 hit points by this beam is disintegrated, leaving behind anything it\
-      \ was wearing or carrying."
+      \ taking 60 (11d10) radiant damage on a failed save, or half as much damage\
+      \ on a successful one. A creature reduced to 0 hit points by this beam is disintegrated,\
+      \ leaving behind anything it was wearing or carrying."
     "name": "Incinerating Beam (Recharge 5-6)"
 "source":
   - "ERLW"

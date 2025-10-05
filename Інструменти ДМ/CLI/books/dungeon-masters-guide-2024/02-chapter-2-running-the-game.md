@@ -444,7 +444,7 @@ When you need to make up something on the spot—say, a mages' guild in a town w
 - "Campaign Journal" (described in "chapter 5")  
 - Maps (see "appendix B")  
 
-![When a flying fortress cra...](Інструменти%20ДМ/CLI/books/dungeon-masters-guide-2024/img/011-01-006-falling-fortress.webp#center "When a flying fortress crashes to the ground, unfortunate adventurers in its path might take `dice:18d10|noform|noparens|avg` (`18d10`) damage or more!")
+![When a flying fortress cra...](Інструменти%20ДМ/CLI/books/dungeon-masters-guide-2024/img/011-01-006-falling-fortress.webp#center "When a flying fortress crashes to the ground, unfortunate adventurers in its path might take `18d10` damage or more!")
 
 ## Running Social Interaction
 
@@ -543,7 +543,7 @@ If tracking the passage of time is important during exploration, use a time scal
 The "exploration rules" in the "Player's Handbook" give guidelines for determining travel time based on the characters' pace. In most cases, it's fine to estimate that time rather than calculating it down to the minute. Exceptions include situations like these:
 
 - **Spell Timer.** The characters might need to go somewhere or accomplish something before the duration of a spell or similar effect runs out. For example, they might use the [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md) spell to point them in the direction of an item they seek, so you need to know how far they get in the 10 minutes the spell lasts.  
-- **Triggered Event.** An event might occur at a specific time. For example, a door might remain open for 1 minute after the password to open it is spoken, or reinforcements might arrive `dice:2d4|noform|noparens|avg` (`2d4`) minutes after an alarm is sounded.  
+- **Triggered Event.** An event might occur at a specific time. For example, a door might remain open for 1 minute after the password to open it is spoken, or reinforcements might arrive `2d4` minutes after an alarm is sounded.  
 
 If the characters spend time working out a puzzle or talking to an NPC, you can estimate the time spent by keeping track of how much real time passes. Most combat encounters take less than 1 minute (10 rounds), but it's fair to round up to a whole minute in most cases, assuming characters take a few seconds to pull themselves together after a fight.
 
@@ -660,7 +660,7 @@ Depending on how you planned the stages, the end of a stage might mean the chara
 
 #### Weather
 
-During each stage of the characters' journey, you can determine what the weather is like by rolling on the Weather table, adjusting for the terrain and season as appropriate. Roll `dice:1d20|noform|noparens|avg` (`d20`) three times to determine the temperature, the wind, and the precipitation.
+During each stage of the characters' journey, you can determine what the weather is like by rolling on the Weather table, adjusting for the terrain and season as appropriate. Roll `d20` three times to determine the temperature, the wind, and the precipitation.
 
 Weather has no significant game effect most of the time, but see ""Environmental Effects"" in "chapter 3" for the effects of extreme weather. Adding weather details to your descriptions of the characters' journey can make it more memorable.
 
@@ -732,7 +732,7 @@ The Encounter Distance column in the "Travel Terrain" table gives the range at w
 
 Characters without water and [Rations](Інструменти%20ДМ/CLI/items/rations-xphb.md) can stave off [dehydration](Інструменти%20ДМ/CLI/traps-hazards/dehydration-xphb.md) and [malnutrition](Інструменти%20ДМ/CLI/traps-hazards/malnutrition-xphb.md) by gathering food and water as they travel. A foraging character makes a Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check once per journey stage (or once per day if a stage is shorter than a day). The DC is determined by the abundance of food and water in the region, as shown in the Foraging DC column of the "Travel Terrain" table. If multiple characters forage, each character makes a separate check.
 
-A foraging character finds nothing on a failed check. On a successful check, roll `dice:1d6|noform|noparens|avg` (`d6`) and add the character's Wisdom modifier to determine how much food (in pounds) the character finds per day of the journey stage, then repeat the roll for water (in gallons).
+A foraging character finds nothing on a failed check. On a successful check, roll `d6` and add the character's Wisdom modifier to determine how much food (in pounds) the character finds per day of the journey stage, then repeat the roll for water (in gallons).
 
 > [!note] Do Players Need to Track Rations?
 > 
@@ -765,7 +765,7 @@ In addition to the chance of a delay (adding a few hours, a day, or a couple of 
 
 - **Combat Encounter.** The characters encounter one or more Hostile creatures. For example, marching through a burning forest instead of circling around it might prompt an encounter with raging fire elementals.  
 - **Damage.** The characters take damage. For example, a character who tumbles over a waterfall might take Bludgeoning damage. See ""Improvising Damage"" in this chapter for guidelines on determining how much damage is appropriate.  
-- **Exhaustion.** The obstacle fatigues the characters, causing them to gain [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels. For example, marching through a blizzard instead of taking shelter might cause each character to gain `dice:1d4|noform|noparens|avg` (`d4`) [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels.  
+- **Exhaustion.** The obstacle fatigues the characters, causing them to gain [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels. For example, marching through a blizzard instead of taking shelter might cause each character to gain `d4` [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels.  
 - **Another Condition.** The obstacle imposes another condition on the characters. For example, wading through a fetid swamp rather than skirting around it might impose the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition, which lasts until removed by magic.  
 
 #### Searches

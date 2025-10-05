@@ -53,9 +53,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The enchanter makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6)\
-      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:3d10+3|noform|noparens|avg|text(19)\
-      \ (3d10 + 3) psychic damage."
+  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. Hit: 19 (3d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The enchanter casts one of the following spells, using Intelligence as\
       \ the spellcasting ability (spell save DC 14):\n\nAt will: [friends](Інс\

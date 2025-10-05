@@ -81,7 +81,7 @@ At Rogue level 6, you gain [Expertise](Інструменти%20ДМ/CLI/rules/v
 
 ### Sneak Attack (Level 1)
 
-You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `dice:1d6|noform|noparens|avg` (`d6`) damage to one creature you hit with an attack roll if you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
+You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `d6` damage to one creature you hit with an attack roll if you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
 
 You don't need [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition, and you don't have [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the attack roll.
 
@@ -115,7 +115,7 @@ You gain the [Ability Score Improvement](Інструменти%20ДМ/CLI/feats
 
 ### Cunning Strike (Level 5)
 
-You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove `dice:1d6|noform|noparens|avg` (`d6`) from the Sneak Attack's damage before rolling.
+You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove `d6` from the Sneak Attack's damage before rolling.
 
 If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md).
 
@@ -147,7 +147,7 @@ You can nimbly dodge out of the way of certain dangers. When you're subjected to
 
 ### Reliable Talent (Level 7)
 
-Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a `dice:d20|noform|noparens|avg` (`d20`) roll of 9 or lower as a 10.
+Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a `d20` roll of 9 or lower as a 10.
 
 ### Ability Score Improvement (Level 8)
 

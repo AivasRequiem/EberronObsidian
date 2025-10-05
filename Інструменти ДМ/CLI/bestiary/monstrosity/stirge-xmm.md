@@ -66,13 +66,12 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage,\
-      \ and the stirge attaches to the target. While attached, the stirge can't make\
-      \ Proboscis attacks, and the target takes dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe\
-      \ stirge can detach itself by spending 5 feet of its movement. The target or\
-      \ a creature within 5 feet of it can detach the stirge as an action."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+      \ damage, and the stirge attaches to the target. While attached, the stirge\
+      \ can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage\
+      \ at the start of each of the stirge's turns.\n\nThe stirge can detach itself\
+      \ by spending 5 feet of its movement. The target or a creature within 5 feet\
+      \ of it can detach the stirge as an action."
     "name": "Proboscis"
 "source":
   - "XMM"

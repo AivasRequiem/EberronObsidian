@@ -44,8 +44,7 @@ aliases:
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
       \ ft. Hit: 1d10 + 3 + the spell's level Radiant damage, and the spirit can\
       \ choose itself or another creature it can see within 10 feet of the target.\
-      \ The chosen creature gains dice:1d10|noform|noparens|avg (d10) Temporary\
-      \ Hit Points."
+      \ The chosen creature gains d10 Temporary Hit Points."
     "name": "Radiant Mace (Defender Only)"
   - "desc": "The spirit touches another creature. The target regains Hit Points equal\
       \ to 2d8 + the spell's level."

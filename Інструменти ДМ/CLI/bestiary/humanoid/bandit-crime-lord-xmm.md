@@ -86,19 +86,16 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "actions":
   - "desc": "The bandit makes three attacks, using Scimitar or Pistol in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
-      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) Poison damage."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+      \ damage plus 14 (4d6) Poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 30/90\
-      \ ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Piercing\
-      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) Poison damage."
+  - "desc": "Ranged Attack Roll: +9, range 30/90 ft. Hit: 10 (1d10 + 5) Piercing\
+      \ damage plus 14 (4d6) Poison damage."
     "name": "Pistol"
 "bonus_actions":
   - "desc": "The bandit gives itself [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on the next attack roll it makes during the current turn. If that attack hits,\
-      \ the target takes an extra dice:8d6|noform|noparens|avg|text(28) (8d6)\
-      \ Poison damage."
+      \ the target takes an extra 28 (8d6) Poison damage."
     "name": "Deadly Aim"
 "source":
   - "XMM"

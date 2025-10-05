@@ -75,16 +75,14 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "actions":
   - "desc": "The quori uses its Mind Thrust twice."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
+  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
       \ (1d10 + 4) force damage. If the target is a creature, it must succeed on\
       \ a DC 16 Wisdom saving throw or fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ in a fit of laughter."
     "name": "Idyllic Touch"
   - "desc": "The quori targets a creature it can see within 60 feet of it. The target\
-      \ must make a DC 16 Wisdom saving throw, taking dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) psychic damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ must make a DC 16 Wisdom saving throw, taking 18 (4d8) psychic damage on\
+      \ a failed save, or half as much damage on a successful one."
     "name": "Mind Thrust"
   - "desc": "One humanoid that the quori can see within 5 feet of it must succeed\
       \ on a DC 16 Charisma saving throw or be possessed by the quori; the quori then\
@@ -106,8 +104,7 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "reactions":
   - "desc": "When the quori takes damage from a creature it can see within 60 feet\
       \ of it, the quori can force that creature to succeed on a DC 16 Intelligence\
-      \ saving throw or take dice:2d10|noform|noparens|avg|text(11) (2d10) psychic\
-      \ damage."
+      \ saving throw or take 11 (2d10) psychic damage."
     "name": "Empathic Feedback"
 "source":
   - "ERLW"

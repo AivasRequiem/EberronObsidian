@@ -67,18 +67,14 @@ The challenge rating of a legendary moonstone dragon increases by 1 when it's en
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
-      \ (2d10 + 5) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
-      \ (2d6 + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 12 (2d6 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 15 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9)\
-      \ (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+      \ 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 18 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
@@ -88,9 +84,8 @@ The challenge rating of a legendary moonstone dragon increases by 1 when it's en
       \ for a creature if the creature takes damage or someone uses an action to wake\
       \ it.  \n- Moonlight Breath. The dragon exhales a beam of moonlight in a\
       \ 90-foot line that is 10 feet wide. Each creature in that area must make a\
-      \ DC 18 Dexterity saving throw, taking dice:9d10|noform|noparens|avg|text(49)\
-      \ (9d10) radiant damage on a failed save, or half as much damage on a successful\
-      \ one.  "
+      \ DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed\
+      \ save, or half as much damage on a successful one.  "
     "name": "Breath Weapon (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 19):\n\nAt\

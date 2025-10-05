@@ -84,8 +84,8 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
 "traits":
   - "desc": "The aboleth can breathe air and water."
     "name": "Amphibious"
-  - "desc": "If destroyed, the aboleth gains a new body in dice:5d10|noform|noparens|avg\
-      \ (5d10) days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+  - "desc": "If destroyed, the aboleth gains a new body in 5d10 days, reviving with\
+      \ all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ in the Far Realm or another location chosen by the DM."
     "name": "Eldritch Restoration"
   - "desc": "If the aboleth fails a saving throw, it can choose to succeed instead."
@@ -96,7 +96,7 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
       \ The target is cursed. Until the curse ends, the target's skin becomes slimy,\
       \ the target can breathe air and water, and it can't regain [Hit Points](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) unless it is underwater.\n\
-      \nWhile the cursed creature is outside a body of water, the creature takes dice:1d12|noform|noparens|avg|text(6)\
+      \nWhile the cursed creature is outside a body of water, the creature takes 6\
       \ (d12) Acid damage at the end of every 10 minutes unless moisture is applied\
       \ to its skin before those minutes have passed."
     "name": "Mucus Cloud"
@@ -107,8 +107,7 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
   - "desc": "The aboleth makes two Tentacle attacks and uses either Consume Memories\
       \ or Dominate Mind if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 15\
-      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Bludgeoning\
+  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 12 (2d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of four tentacles."
@@ -116,10 +115,10 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
   - "desc": "Intelligence Saving Throw: DC 16, one creature within 30 feet that\
       \ is [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the aboleth. Failure:\
-      \ dice:3d6|noform|noparens|avg|text(10) (3d6) Psychic damage. Success:\
-      \ Half damage. Failure or Success: The aboleth gains the target's memories\
-      \ if the target is a Humanoid and is reduced to 0 [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) by this action."
+      \ 10 (3d6) Psychic damage. Success: Half damage. Failure or Success: The\
+      \ aboleth gains the target's memories if the target is a Humanoid and is reduced\
+      \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ by this action."
     "name": "Consume Memories"
   - "desc": "Wisdom Saving Throw: DC 16, one creature the aboleth can see within\
       \ 30 feet. Failure: The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
@@ -136,8 +135,7 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
     "name": "Lash"
   - "desc": "If the aboleth has at least one creature [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ or [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), it uses\
-      \ Consume Memories and regains dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+      \ Consume Memories and regains 5 (d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Psychic Drain"
 "regional_effects":
   - "desc": "The region containing an aboleth's lair is warped by it, creating the\

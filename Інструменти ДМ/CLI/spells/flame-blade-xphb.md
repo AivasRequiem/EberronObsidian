@@ -29,11 +29,11 @@ aliases:
 
 You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md).
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to `dice:3d6|noform|noparens|avg` (`3d6`) plus your spellcasting ability modifier.
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to `3d6` plus your spellcasting ability modifier.
 
 The flaming blade sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 10-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for an additional 10 feet.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 2.
+**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 2.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

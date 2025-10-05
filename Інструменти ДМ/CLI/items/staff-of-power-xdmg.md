@@ -41,7 +41,7 @@ While holding the staff , you can cast one of the spells on the following table 
 
 ## Regaining Charges
 
-The staff regains `dice:2d8+4|noform|noparens|avg` (`2d8 + 4`) expended charges daily at dawn. If you expend the last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains `dice:1d8+2|noform|noparens|avg` (`1d8 + 2`) charges.
+The staff regains `2d8 + 4` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains `1d8 + 2` charges.
 
 ## Retributive Strike
 

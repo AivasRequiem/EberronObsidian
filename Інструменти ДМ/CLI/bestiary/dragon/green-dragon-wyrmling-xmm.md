@@ -69,14 +69,12 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d10+2|noform|noparens|avg|text(7) (1d10 + 2) Slashing\
-      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
+      \ damage plus 3 (d6) Poison damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 11, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:6d6|noform|noparens|avg|text(21) (6d6) Poison damage. Success:\
-      \ Half damage."
+      \ 21 (6d6) Poison damage. Success: Half damage."
     "name": "Poison Breath (Recharge 5-6)"
 "source":
   - "XMM"

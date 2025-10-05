@@ -60,9 +60,8 @@ The first time the zombie takes damage, any living creature within 5 feet of the
       \ the effect on it early with a successful save."
     "name": "Ash Puff"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
-      \ + 1) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage."
     "name": "Slam"
 "source":
   - "LMoP"

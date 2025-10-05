@@ -73,16 +73,14 @@ Medusas are born or created through preternatural circumstances. Roll on or choo
   - "desc": "The medusa makes two Claw attacks and one Snake Hair attack, or it makes\
       \ three Poison Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage\
-      \ plus dice:4d6|noform|noparens|avg|text(14) (4d6) Poison damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
+      \ damage plus 14 (4d6) Poison damage."
     "name": "Snake Hair"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 150\
-      \ ft. Hit: dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Poison damage."
+  - "desc": "Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison\
+      \ damage."
     "name": "Poison Ray"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 13, each creature in a 30-foot [Cone](І\

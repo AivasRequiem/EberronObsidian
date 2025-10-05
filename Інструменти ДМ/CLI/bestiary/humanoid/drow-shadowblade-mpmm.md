@@ -67,13 +67,11 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
       \ replaced by a Hand Crossbow attack. The drow can also use Spellcasting to\
       \ cast darkness."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+9|noform|noparens|text(+9)\
-      \ to hit, reach 5 ft. or range 30/60 ft., one target. Hit: dice:7d6+5|noform|noparens|avg|text(27)\
-      \ (7d6 + 5) necrotic damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/60\
+      \ ft., one target. Hit: 27 (7d6 + 5) necrotic damage."
     "name": "Shadow Sword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ range 30/120 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8)\
-      \ (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution\
+  - "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
+      \ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Unconscious) while [poisoned](Інстру\

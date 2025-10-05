@@ -24,12 +24,12 @@ Tarkanan assassins are the elite killers, spies, and thieves who work for House 
 > 
 > | dice: d6 | At Will | 1/Day |
 > |----------|---------|-------|
-> | 1 | [Fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md) (`dice:2d10\|noform\|noparens\|avg` (`2d10`)) | [Burning hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md) (`dice:3d6\|noform\|noparens\|avg` (`3d6`)) |
-> | 2 | [Shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md) (`dice:2d8\|noform\|noparens\|avg` (`2d8`)) | [Chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md) (`dice:4d8\|noform\|noparens\|avg` (`4d8`)) |
-> | 3 | [Poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md) (`dice:2d12\|noform\|noparens\|avg` (`2d12`)) | [Ray of sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (`dice:3d8\|noform\|noparens\|avg` (`3d8`)) |
+> | 1 | [Fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md) (`2d10`) | [Burning hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md) (`3d6`) |
+> | 2 | [Shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md) (`2d8`) | [Chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md) (`4d8`) |
+> | 3 | [Poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md) (`2d12`) | [Ray of sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (`3d8`) |
 > | 4 | [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md) | [Charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (two creatures) |
-> | 5 | [Minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md) | [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md) (`dice:2d8\|noform\|noparens\|avg` (`2d8`)) |
-> | 6 | [Dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md) | [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md) (`dice:7d8\|noform\|noparens\|avg` (`7d8`)) |
+> | 5 | [Minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md) | [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md) (`2d8`) |
+> | 6 | [Dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md) | [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md) (`7d8`) |
 > ^at-will-1-day
 ^aberrant-dragonmark-innate-spells
 
@@ -67,32 +67,27 @@ Tarkanan assassins are the elite killers, spies, and thieves who work for House 
 "languages": "Common, Thieves' cant"
 "cr": "2"
 "traits":
-  - "desc": "The assassin's spellcasting ability is Constitution (dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md)\n\
+  - "desc": "The assassin's spellcasting ability is Constitution (+4 to hit with\
+      \ spell attacks). It can innately cast the following spells, requiring no material\
+      \ components:\n\nAt will: [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md)\n\
       \n1/day: [chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the assassin casts an innate spell, each creature within 10 feet\
-      \ of the assassin must make a DC 12 Constitution saving throw, taking dice:1d8|noform|noparens|avg|text(4)\
-      \ (d8) force damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ of the assassin must make a DC 12 Constitution saving throw, taking 4 (d8)\
+      \ force damage on a failed save, or half as much damage on a successful one."
     "name": "Unstable Mark"
 "actions":
   - "desc": "The assassin makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 120 ft., one target. Hit: dice:2d10|noform|noparens|avg|text(11)\
-      \ (2d10) fire damage. A flammable object hit by this spell ignites if it isn't\
-      \ being worn or carried."
+  - "desc": "Ranged Spell Attack: +4 to hit, range 120 ft., one target. Hit:\
+      \ 11 (2d10) fire damage. A flammable object hit by this spell ignites if it\
+      \ isn't being worn or carried."
     "name": "Fire Bolt (Cantrip)"
-  - "desc": "Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 90 ft., one creature. Hit: dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) damage of a type chosen by the assassin: acid, cold, fire, lightning,\
+  - "desc": "Ranged Spell Attack: +4 to hit, range 90 ft., one creature. Hit:\
+      \ 18 (4d8) damage of a type chosen by the assassin: acid, cold, fire, lightning,\
       \ poison, or thunder."
     "name": "Chromatic Orb (1/Day)"
 "source":

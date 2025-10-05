@@ -451,7 +451,7 @@ The Experience Point cost to gain a level is based on your total character level
 
 You gain the Hit Points from your new class as described for levels after 1. You gain the level 1 Hit Points for a class only when your total character level is 1.
 
-Add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a `dice:d10|noform|noparens|avg` (`d10`) Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten `dice:d10|noform|noparens|avg` (`d10`) Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five `dice:d8|noform|noparens|avg` (`d8`) Hit Dice and five `dice:d10|noform|noparens|avg` (`d10`) Hit Dice.
+Add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a `d10` Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten `d10` Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five `d8` Hit Dice and five `d10` Hit Dice.
 
 ### Proficiency Bonus
 

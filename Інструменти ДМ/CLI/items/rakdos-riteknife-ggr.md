@@ -21,13 +21,13 @@ aliases:
 
 You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its blade is cruelly serrated, and its hilt resembles a demonic head and wings. Whenever you slay a creature with an attack using the dagger, the creature's soul is imprisoned inside the dagger, and that creature can be restored to life only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell. The dagger can hold a maximum of five souls.
 
-For each soul imprisoned in the dagger, your attacks with it deal an extra `dice:1d4|noform|noparens|avg` (`d4`) necrotic damage on a hit. While the dagger is within 5 feet of you, your dreams are haunted by whispers from the trapped souls.
+For each soul imprisoned in the dagger, your attacks with it deal an extra `d4` necrotic damage on a hit. While the dagger is within 5 feet of you, your dreams are haunted by whispers from the trapped souls.
 
 The dagger has the following additional properties.
 
 ## Siphon Vitality
 
-As a bonus action, you can release any number of stored souls from the dagger to regain `dice:1d10|noform|noparens|avg` (`d10`) hit points per soul released.
+As a bonus action, you can release any number of stored souls from the dagger to regain `d10` hit points per soul released.
 
 ## Annihilation
 

@@ -92,9 +92,8 @@ Flameskulls take various forms, from skulls with humanlike features to ones with
 "actions":
   - "desc": "The flameskull makes two Fire Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
-      \ reach 5 ft. or range 60 ft. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
-      \ (3d6 + 3) Fire damage."
+  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
+      \ 13 (3d6 + 3) Fire damage."
     "name": "Fire Ray"
   - "desc": "The flameskull casts one of the following spells, requiring no Somatic\
       \ or Material components and using Intelligence as the spellcasting ability\

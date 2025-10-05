@@ -54,8 +54,8 @@ Nobles encompass a variety of people with social influence. They might be rulers
 "languages": "Common plus two other languages"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Piercing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
+      \ damage."
     "name": "Rapier"
 "reactions":
   - "desc": "Trigger: The noble is hit by a melee attack roll while holding a weapon.\

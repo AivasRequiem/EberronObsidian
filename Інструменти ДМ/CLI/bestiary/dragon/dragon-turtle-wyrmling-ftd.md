@@ -120,14 +120,13 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
   - "desc": "The dragon turtle can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d12+3|noform|noparens|avg|text(11)\
-      \ (1d12 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 11 (1d12 + 3) piercing damage."
     "name": "Bite"
   - "desc": "The dragon turtle exhales steam in a 15-foot cone. Each creature in that\
-      \ area must make a DC 12 Constitution saving throw, taking dice:5d6|noform|noparens|avg|text(17)\
-      \ (5d6) fire damage on a failed save, or half as much damage on a successful\
-      \ one. Being underwater doesn't grant resistance against this damage."
+      \ area must make a DC 12 Constitution saving throw, taking 17 (5d6) fire damage\
+      \ on a failed save, or half as much damage on a successful one. Being underwater\
+      \ doesn't grant resistance against this damage."
     "name": "Steam Breath (Recharge 5-6)"
 "source":
   - "FTD"

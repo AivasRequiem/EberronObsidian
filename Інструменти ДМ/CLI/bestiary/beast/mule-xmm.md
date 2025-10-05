@@ -48,8 +48,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ carrying capacity."
     "name": "Beast of Burden"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning\
       \ damage."
     "name": "Hooves"
 "source":

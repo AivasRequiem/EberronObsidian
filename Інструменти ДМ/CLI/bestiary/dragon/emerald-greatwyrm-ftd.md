@@ -81,14 +81,11 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d10+9|noform|noparens|avg|text(20)\
-      \ (2d10 + 9) piercing damage plus dice:3d10|noform|noparens|avg|text(16)\
-      \ (3d10) force damage."
+  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+      \ 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+9|noform|noparens|avg|text(18)\
-      \ (2d8 + 9) slashing damage. If the target is a Huge or smaller creature,\
+  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+      \ 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 19) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The greatwyrm can have only one creature [grappled](І\
@@ -96,11 +93,11 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
     "name": "Claw"
   - "desc": "The greatwyrm exhales crushing force in a 300-foot cone. Each creature\
       \ in that area must make a DC 25 Dexterity saving throw. On a failed save, the\
-      \ creature takes dice:11d12|noform|noparens|avg|text(71) (11d12) force damage\
-      \ and is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). On\
-      \ a successful save, it takes half as much damage and isn't knocked [prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone). On a success or failure, the\
-      \ creature's speed becomes 0 until the end of its next turn."
+      \ creature takes 71 (11d12) force damage and is knocked [prone](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Prone). On a successful save, it takes half as\
+      \ much damage and isn't knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
+      \ On a success or failure, the creature's speed becomes 0 until the end of its\
+      \ next turn."
     "name": "Breath Weapon (Recharge 5-6)"
   - "desc": "The greatwyrm targets any number of creatures and objects it can see\
       \ within 120 feet of it. No one target can weigh more than 4,000 pounds, and\
@@ -112,12 +109,11 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
       \ it can move each creature or object it has in its telekinetic grip up to 60\
       \ feet in any direction, but not beyond 120 feet of itself. In addition, it\
       \ can choose any number of creatures [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ in this way and deal dice:7d12|noform|noparens|avg|text(45) (7d12) force\
-      \ damage to each of them."
+      \ in this way and deal 45 (7d12) force damage to each of them."
     "name": "Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long\
       \ Rest)"
   - "desc": "The greatwyrm casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability (spell save DC 26, dice:1d20+18|noform|noparens|text(+18)\
+      \ and using Intelligence as the spellcasting ability (spell save DC 26, +18\
       \ to hit with spell attack):\n\n1/day each: [dispel magic](Інструменти%20Д\
       М/CLI/spells/dispel-magic-xphb.md), [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md),\
       \ [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [reverse gravity](І\
@@ -140,8 +136,8 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
     "name": "Psionics (Costs 2 Actions)"
   - "desc": "The greatwyrm emits a beam of psychic energy in a 90-foot line that is\
       \ 10 feet wide. Each creature in that area must make a DC 26 Intelligence saving\
-      \ throw, taking dice:5d10|noform|noparens|avg|text(27) (5d10) psychic damage\
-      \ on a failed save, or half as much damage on a successful one."
+      \ throw, taking 27 (5d10) psychic damage on a failed save, or half as much\
+      \ damage on a successful one."
     "name": "Psychic Beam (Costs 3 Actions)"
 "source":
   - "FTD"

@@ -113,12 +113,10 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "desc": "The vampire makes two attacks, using Grave Strike or Sickening Ray in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 5 ft. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8 + 5) Slashing\
-      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 9 (1d8 + 5) Slashing\
+      \ damage plus 13 (3d8) Necrotic damage."
     "name": "Grave Strike"
-  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
-      \ 120 ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Necrotic\
+  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 16 (2d10 + 5) Necrotic\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the vampire's next turn."
     "name": "Sickening Ray"
@@ -128,8 +126,8 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
     "name": "Hunger of Hadar (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 18, one creature the vampire can see\
-      \ within 30 feet that isn't a Construct or an Undead. Failure: dice:4d6|noform|noparens|avg|text(14)\
-      \ (4d6) Necrotic damage. The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ within 30 feet that isn't a Construct or an Undead. Failure: 14 (4d6)\
+      \ Necrotic damage. The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the damage taken, and the vampire\
       \ regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ equal to that amount."

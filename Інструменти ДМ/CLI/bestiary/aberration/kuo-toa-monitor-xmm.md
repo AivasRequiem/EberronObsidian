@@ -114,11 +114,10 @@ Kuo-toa typically organize their communities around sites they believe to be imp
 "actions":
   - "desc": "The kuo-toa makes two Bone Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Lightning damage, and\
-      \ the target can't make [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
-      \ until the start of the kuo-toa's next turn."
+  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 6 (1d6 + 3) Slashing\
+      \ damage plus 7 (2d6) Lightning damage, and the target can't make [Opportunity\
+      \ Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack) until\
+      \ the start of the kuo-toa's next turn."
     "name": "Bone Whip"
 "source":
   - "XMM"

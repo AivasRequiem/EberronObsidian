@@ -47,14 +47,12 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
 "actions":
   - "desc": "The myrmidon makes two Maul attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
       \ (2d6 + 4) force damage."
     "name": "Maul"
   - "desc": "The myrmidon makes one Maul attack. On a hit, the target takes an extra\
-      \ dice:4d10|noform|noparens|avg|text(22) (4d10) thunder damage, and the\
-      \ target must succeed on a DC 14 Strength saving throw or be knocked [prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ 22 (4d10) thunder damage, and the target must succeed on a DC 14 Strength\
+      \ saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Thunderous Strike (Recharge 6)"
 "source":
   - "MPMM"

@@ -99,10 +99,9 @@ A dracolich lurks in a corrupted version of the lair it had in life.
     "name": "Magic Resistance"
   - "desc": "The dracolich has a magical gem. If the dracolich is destroyed while\
       \ the gem is on the same plane of existence as it, the dracolich gains a new\
-      \ body in dice:1d20|noform|noparens|avg (d20) days, regaining all its [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) and appearing\
-      \ within 5 feet of the gem.\n\nThe gem is a Tiny object that has AC 20; HP 50;\
-      \ and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\
+      \ body in d20 days, regaining all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ and appearing within 5 feet of the gem.\n\nThe gem is a Tiny object that has\
+      \ AC 20; HP 50; and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\
       \ to Necrotic, Poison, and Psychic damage. The gem regains all its [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) at the end of every\
       \ turn, but it turns to dust if reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
@@ -115,22 +114,20 @@ A dracolich lurks in a corrupted version of the lair it had in life.
       \ a use of Spellcasting to cast [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\
       \ (level 2 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
-      \ 10 ft. Hit: dice:2d10+7|noform|noparens|avg|text(18) (2d10 + 7) Slashing\
-      \ damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 18 (2d10 + 7) Slashing\
+      \ damage plus 4 (d8) Necrotic damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 20, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:8d12|noform|noparens|avg|text(52) (8d12) Necrotic damage. Success:\
-      \ Half damage."
+      \ 52 (8d12) Necrotic damage. Success: Half damage."
     "name": "Necrotic Breath (Recharge 5-6)"
   - "desc": "The dracolich casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 19,\
-      \ dice:1d20+11|noform|noparens|text(+11) to hit with spell attacks):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (level\
-      \ 2 version)\n\n1/day each: [Create Undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md)\
-      \ (level 8 version), [Finger of Death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
+      \ +11 to hit with spell attacks):\n\nAt will: [Detect Magic](Інструмен\
+      ти%20ДМ/CLI/spells/detect-magic-xphb.md), [Ray of Sickness](Інструменти%20ДМ\
+      /CLI/spells/ray-of-sickness-xphb.md) (level 2 version)\n\n1/day each: [Create\
+      \ Undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md) (level 8 version),\
+      \ [Finger of Death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Spellcasting"
 "legendary_actions":
   - "desc": "The dracolich moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
@@ -142,8 +139,8 @@ A dracolich lurks in a corrupted version of the lair it had in life.
     "name": "Sickening Ray"
   - "desc": "Wisdom Saving Throw: DC 19, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the dracolich. Failure: dice:2d10|noform|noparens|avg|text(11) (2d10)\
-      \ Psychic damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ from the dracolich. Failure: 11 (2d10) Psychic damage, and the target\
+      \ has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the end of its next turn. Failure or Success: The dracolich\
       \ can't take this action again until the start of its next turn."
     "name": "Terrifying Presence"

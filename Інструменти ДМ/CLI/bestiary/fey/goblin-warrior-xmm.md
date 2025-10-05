@@ -66,15 +66,13 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
 "languages": "Common, Goblin"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Slashing damage,\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Slashing damage if the\
-      \ attack roll had [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+      \ damage, plus 2 (d4) Slashing damage if the attack roll had [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 80/320\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage,\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Piercing damage if the\
-      \ attack roll had [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
+  - "desc": "Ranged Attack Roll: +4, range 80/320 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage, plus 2 (d4) Piercing damage if the attack roll had [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Shortbow"
 "bonus_actions":
   - "desc": "The goblin takes the Disengage or Hide action."

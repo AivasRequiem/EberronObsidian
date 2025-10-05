@@ -90,9 +90,8 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
 "actions":
   - "desc": "The githzerai makes two Psi Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Bludgeoning\
-      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Psychic damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+      \ damage plus 13 (3d8) Psychic damage."
     "name": "Psi Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\nAt will:\

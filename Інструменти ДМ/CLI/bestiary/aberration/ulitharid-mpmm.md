@@ -78,26 +78,23 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
       \ the psychic link at any time (no action required)."
     "name": "Psionic Hub"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one creature. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
-      \ (4d10 + 5) psychic damage. If the target is Large or smaller, it is [grappled](І\
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit:\
+      \ 27 (4d10 + 5) psychic damage. If the target is Large or smaller, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 14) and must succeed\
       \ on a DC 17 Intelligence saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ Humanoid [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by\
-      \ the ulitharid. Hit: dice:10d10|noform|noparens|avg|text(55) (10d10)\
-      \ piercing damage. If this damage reduces the target to 0 hit points, the ulitharid\
-      \ kills the target by extracting and devouring its brain."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) Humanoid [grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the ulitharid. Hit: 55\
+      \ (10d10) piercing damage. If this damage reduces the target to 0 hit points,\
+      \ the ulitharid kills the target by extracting and devouring its brain."
     "name": "Extract Brain"
   - "desc": "The ulitharid magically emits psychic energy in a 60-foot cone. Each\
       \ creature in that area must succeed on a DC 17 Intelligence saving throw or\
-      \ take dice:4d12+5|noform|noparens|avg|text(31) (4d12 + 5) psychic damage\
-      \ and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) for 1 minute.\
-      \ A target can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success."
+      \ take 31 (4d12 + 5) psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The ulitharid casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\

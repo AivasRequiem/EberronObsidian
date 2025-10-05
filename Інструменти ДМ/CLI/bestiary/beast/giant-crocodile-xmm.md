@@ -49,16 +49,14 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The crocodile makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
-      \ ft. Hit: dice:3d10+5|noform|noparens|avg|text(21) (3d10 + 5) Piercing\
+  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 15).\
       \ While [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), the target\
       \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition and can't be targeted by the crocodile's Tail."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
-      \ ft. Hit: dice:3d8+5|noform|noparens|avg|text(18) (3d8 + 5) Bludgeoning\
+  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"

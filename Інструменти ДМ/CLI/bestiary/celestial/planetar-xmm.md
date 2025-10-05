@@ -87,14 +87,13 @@ These angels act where they can against overwhelming evil, but to avoid the atte
 "actions":
   - "desc": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
-      \ 10 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
-      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Radiant damage."
+  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing\
+      \ damage plus 18 (4d8) Radiant damage."
     "name": "Radiant Sword"
   - "desc": "Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the planetar can see within 120 feet. Failure: dice:7d6|noform|noparens|avg|text(24)\
-      \ (7d6) Radiant damage. Success: Half damage."
+      \ on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant\
+      \ damage. Success: Half damage."
     "name": "Holy Burst"
   - "desc": "The planetar casts one of the following spells, requiring no Material\
       \ components and using Charisma as spellcasting ability (spell save DC 20):\n\

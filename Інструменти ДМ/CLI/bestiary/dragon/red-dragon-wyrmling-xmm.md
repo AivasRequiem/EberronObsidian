@@ -68,14 +68,12 @@ Red dragons make their lairs in smoldering, unapproachable places such as volcan
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Slashing\
-      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing\
+      \ damage plus 3 (d6) Fire damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 13, each creature in a 15-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:7d6|noform|noparens|avg|text(24) (7d6) Fire damage. Success: Half\
-      \ damage."
+      \ 24 (7d6) Fire damage. Success: Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

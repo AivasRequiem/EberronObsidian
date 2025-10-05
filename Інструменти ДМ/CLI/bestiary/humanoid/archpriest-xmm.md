@@ -89,16 +89,14 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The archpriest makes three Radiant Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
-      \ reach 5 ft. or range 60 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
-      \ (4d10 + 5) Radiant damage."
+  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 60 ft. Hit:\
+      \ 27 (4d10 + 5) Radiant damage."
     "name": "Radiant Burst"
   - "desc": "Wisdom Saving Throw: DC 17, each enemy in a 20-foot [Emanation](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the archpriest. Failure: dice:6d6|noform|noparens|avg|text(21) (6d6)\
-      \ Radiant damage, and the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ condition until the end of the archpriest's next turn. Success: Half damage\
-      \ only."
+      \ from the archpriest. Failure: 21 (6d6) Radiant damage, and the target\
+      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
+      \ until the end of the archpriest's next turn. Success: Half damage only."
     "name": "Holy Word (Recharge 4-6)"
   - "desc": "The archpriest casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 17):\n\

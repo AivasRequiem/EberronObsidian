@@ -65,14 +65,12 @@ Bodyguards, belligerents, and laborers, toughs rely on their physical strength t
   - "desc": "The tough makes two attacks, using Warhammer or Heavy Crossbow in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, the tough pushes the\
       \ target up to 10 feet straight away from itself."
     "name": "Warhammer"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 100/400\
-      \ ft. Hit: dice:2d10+2|noform|noparens|avg|text(13) (2d10 + 2) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2)\
+      \ Piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "XMM"

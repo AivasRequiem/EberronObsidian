@@ -68,14 +68,12 @@ Copper dragons typically inhabit multi-chamber caves and renovated ruins.
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Slowing Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:9d8|noform|noparens|avg|text(40) (9d8) Acid damage. Success:\
-      \ Half damage."
+      \ Failure: 40 (9d8) Acid damage. Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 14, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

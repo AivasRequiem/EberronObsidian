@@ -71,28 +71,24 @@ Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Quee
   - "desc": "The drow makes three attacks, using Bite, Poisonous Touch, Web, or a\
       \ combination of them. One attack can be replaced by a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
       \ (2d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
-      \ saving throw, taking dice:7d8|noform|noparens|avg|text(31) (7d8) poison\
-      \ damage on a failed save, or half as much damage on a successful one. If the\
-      \ poison damage reduces the target to 0 hit points, the target is stable but\
-      \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 hour,\
-      \ even after regaining hit points, and is [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
-      \ while [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) in this\
-      \ way."
+      \ saving throw, taking 31 (7d8) poison damage on a failed save, or half as\
+      \ much damage on a successful one. If the poison damage reduces the target to\
+      \ 0 hit points, the target is stable but [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 hour, even after regaining hit points, and is [paralyzed](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Paralyzed) while [poisoned](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Poisoned) in this way."
     "name": "Bite (Spider Form Only)"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:10d6|noform|noparens|avg|text(35) (10d6)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 35\
+      \ (10d6) poison damage."
     "name": "Poisonous Touch (Humanoid Form Only)"
-  - "desc": "Ranged Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ range 30/60 ft., one target. Hit: The target is [restrained](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Restrained) by webbing. As an action, the [restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) target can make a DC 15\
-      \ Strength check, bursting the webbing on a success. The webbing can also be\
-      \ attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity\
-      \ to bludgeoning, poison, and psychic damage)."
+  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit:\
+      \ The target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ by webbing. As an action, the [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ target can make a DC 15 Strength check, bursting the webbing on a success.\
+      \ The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability\
+      \ to fire damage; immunity to bludgeoning, poison, and psychic damage)."
     "name": "Web (Spider Form Only; (Recharge 5-6))"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\

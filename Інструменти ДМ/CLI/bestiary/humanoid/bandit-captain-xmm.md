@@ -78,11 +78,10 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "actions":
   - "desc": "The bandit makes two attacks, using Scimitar and Pistol in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
+      \ damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 30/90\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Piercing\
+  - "desc": "Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 (1d10 + 3) Piercing\
       \ damage."
     "name": "Pistol"
 "reactions":

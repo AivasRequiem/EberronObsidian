@@ -79,17 +79,15 @@ Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their un
 "actions":
   - "desc": "The roper makes two Tentacle attacks, uses Reel, and makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:3d8+4|noform|noparens|avg|text(17) (3d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (3d8 + 4) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 60\
-      \ ft. Hit: The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14) from one of six tentacles, and the target has the\
-      \ [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until\
-      \ the grapple ends.\n\nThe tentacle can be damaged, freeing a creature it has\
-      \ [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) when destroyed\
-      \ (AC 20, HP 10, [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\
+  - "desc": "Melee Attack Roll: +7, reach 60 ft. Hit: The target has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
+      \ one of six tentacles, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the grapple ends.\n\nThe tentacle can be damaged, freeing\
+      \ a creature it has [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ when destroyed (AC 20, HP 10, [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\
       \ to Poison and Psychic damage). Damaging the tentacle deals no damage to the\
       \ roper, and a destroyed tentacle regrows at the start of the roper's next turn."
     "name": "Tentacle"

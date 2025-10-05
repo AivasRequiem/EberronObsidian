@@ -47,8 +47,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Bludgeoning\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 11) from\
       \ one of two claws."

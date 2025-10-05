@@ -75,9 +75,8 @@ Shield guardians are typically constructed of steel, stone, and wood in the shap
 "actions":
   - "desc": "The guardian makes two Fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Bludgeoning\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Force damage."
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+      \ damage plus 7 (2d6) Force damage."
     "name": "Fist"
 "reactions":
   - "desc": "Trigger: An attack roll hits the wearer of the guardian's amulet while\

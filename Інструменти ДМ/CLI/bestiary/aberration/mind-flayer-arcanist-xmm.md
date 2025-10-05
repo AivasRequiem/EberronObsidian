@@ -90,20 +90,18 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
 "actions":
   - "desc": "The mind flayer makes three Arcane Tentacles attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
-      \ (4d10 + 5) Psychic damage, and the mind flayer can teleport the target up\
-      \ to 30 feet to an unoccupied space the mind flayer can see on a surface or\
-      \ liquid large enough to support the target. If this damage reduces the target\
+  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit:\
+      \ 27 (4d10 + 5) Psychic damage, and the mind flayer can teleport the target\
+      \ up to 30 feet to an unoccupied space the mind flayer can see on a surface\
+      \ or liquid large enough to support the target. If this damage reduces the target\
       \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ the mind flayer kills it and magically devours its brain."
     "name": "Arcane Tentacles"
   - "desc": "Intelligence Saving Throw: DC 17, each creature in a 40-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the mind flayer. Failure: dice:8d8+5|noform|noparens|avg|text(41)\
-      \ (8d8 + 5) Psychic damage, and the target has the [Stunned](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Stunned) condition until the end of the mind flayer's\
-      \ next turn. Success: Half damage only."
+      \ from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target\
+      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
+      \ until the end of the mind flayer's next turn. Success: Half damage only."
     "name": "Mind Burst (Recharge 5-6)"
   - "desc": "The mind flayer casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\

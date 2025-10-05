@@ -55,11 +55,10 @@ Gricks' origins are unclear, but some suggest these creatures arise from natural
 "actions":
   - "desc": "The grick makes one Beak attack and one Tentacles attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Piercing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing\
+      \ damage."
     "name": "Beak"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d10+2|noform|noparens|avg|text(7) (1d10 + 2) Slashing\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12) from\
       \ all four tentacles."

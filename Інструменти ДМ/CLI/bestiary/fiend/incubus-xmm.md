@@ -87,10 +87,9 @@ Those visited by an incubus have recurring nightmares. Roll on or choose a resul
 "actions":
   - "desc": "The incubus makes two Restless Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:3d6+5|noform|noparens|avg|text(15) (3d6 + 5) Psychic damage,\
-      \ and the target is cursed for 24 hours or until the incubus dies. Until the\
-      \ curse ends, the target gains no benefit from finishing Short Rests."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (3d6 + 5) Psychic\
+      \ damage, and the target is cursed for 24 hours or until the incubus dies. Until\
+      \ the curse ends, the target gains no benefit from finishing Short Rests."
     "name": "Restless Touch"
   - "desc": "The incubus casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
@@ -104,8 +103,8 @@ Those visited by an incubus have recurring nightmares. Roll on or choose a resul
       \ 60 feet. Failure: If the target has 20 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ or fewer, it has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition for 1 hour, until it takes damage, or until a creature within 5\
-      \ feet of it takes an action to wake it. Otherwise, the target takes dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) Psychic damage."
+      \ feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8)\
+      \ Psychic damage."
     "name": "Nightmare (Recharge 6)"
 "source":
   - "XMM"

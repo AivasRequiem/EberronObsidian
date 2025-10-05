@@ -50,14 +50,12 @@ Every kraken priest undergoes a change in appearance that reflects the kraken's 
 "actions":
   - "desc": "The priest makes two Thunderous Touch or Thunderbolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:5d10|noform|noparens|avg|text(27) (5d10)\
-      \ thunder damage."
+  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 27\
+      \ (5d10) thunder damage."
     "name": "Thunderous Touch"
-  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ range 60 ft., one target. Hit: dice:2d10|noform|noparens|avg|text(11)\
-      \ (2d10) lightning damage plus dice:2d10|noform|noparens|avg|text(11) (2d10)\
-      \ thunder damage, and the target is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+      \ 11 (2d10) lightning damage plus 11 (2d10) thunder damage, and the target\
+      \ is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Thunderbolt"
   - "desc": "A kraken speaks through the priest with a thunderous voice audible within\
       \ 300 feet. Creatures of the priest's choice that can hear the kraken's words\

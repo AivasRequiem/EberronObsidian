@@ -68,14 +68,12 @@ Bronze dragons usually make their homes near or under the sea.
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:3d10|noform|noparens|avg|text(16) (3d10) Lightning damage.\
-      \ Success: Half damage."
+      \ Failure: 16 (3d10) Lightning damage. Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
   - "desc": "Strength Saving Throw: DC 12, each creature in a 30-foot [Cone](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

@@ -70,14 +70,12 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Slashing damage\
-      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Acid damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+      \ damage plus 2 (d4) Acid damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 11, each creature in a 15-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:5d8|noform|noparens|avg|text(22) (5d8) Acid damage. Success:\
-      \ Half damage."
+      \ Failure: 22 (5d8) Acid damage. Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
 "source":
   - "XMM"

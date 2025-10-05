@@ -91,8 +91,8 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
   - "desc": "If the blob is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ it implodes and ejects any creatures and objects engulfed by it into the Astral\
       \ Sea. The blob itself vanishes, leaving behind a layer of slime on everything\
-      \ that was within 600 feet of it. In dice:1d20|noform|noparens|avg (d20)\
-      \ years, the blob reconstitutes on a random world in the Material Plane."
+      \ that was within 600 feet of it. In d20 years, the blob reconstitutes on\
+      \ a random world in the Material Plane."
     "name": "Astral Implosion"
   - "desc": "If the blob fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (4/Day)"
@@ -103,8 +103,7 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
   - "desc": "The blob makes two Pseudopod attacks and uses Engulf. It can replace\
       \ one attack with a use of Restraining Glob."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+15|noform|noparens|text(+15), reach\
-      \ 30 ft. Hit: dice:3d10+8|noform|noparens|avg|text(24) (3d10 + 8) Force\
+  - "desc": "Melee Attack Roll: +15, reach 30 ft. Hit: 24 (3d10 + 8) Force\
       \ damage."
     "name": "Pseudopod"
   - "desc": "The blob moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
@@ -114,26 +113,24 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
       \ While engulfed, a target has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
       \ against attacks and other effects outside the blob, and when the blob moves,\
       \ the engulfed target moves with it. A nonmagical object is destroyed after\
-      \ spending 1 minute engulfed.\n\nWhile engulfed, a creature takes dice:6d6|noform|noparens|avg|text(21)\
-      \ (6d6) Force damage at the start of each of its turns, is suffocating, has\
-      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition,\
-      \ and repeats the save at the end of each of its turns. An engulfed creature\
-      \ that is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ spending 1 minute engulfed.\n\nWhile engulfed, a creature takes 21 (6d6)\
+      \ Force damage at the start of each of its turns, is suffocating, has the [Restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition, and repeats the\
+      \ save at the end of each of its turns. An engulfed creature that is reduced\
+      \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ dissolves into ash, which is ejected into the Astral Sea. Success: The target\
       \ escapes and enters the nearest unoccupied space."
     "name": "Engulf"
   - "desc": "The blob lobs a slimy glob at one Large or smaller creature it can see\
       \ within 600 feet of itself. Dexterity Saving Throw: DC 23, the targeted creature.\
-      \ Failure: dice:3d6+8|noform|noparens|avg|text(18) (3d6 + 8) Acid damage.\
-      \ The glob rolls the target 60 feet straight toward the blob, and the target\
-      \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ Failure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight\
+      \ toward the blob, and the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the end of its next turn, when the glob harmlessly dissolves.\
       \ Success: Half damage only."
     "name": "Restraining Glob"
 "legendary_actions":
-  - "desc": "The blob deals dice:4d6|noform|noparens|avg|text(14) (4d6) Necrotic\
-      \ damage to each creature engulfed by it. The blob can't take this action again\
-      \ until the start of its next turn."
+  - "desc": "The blob deals 14 (4d6) Necrotic damage to each creature engulfed by\
+      \ it. The blob can't take this action again until the start of its next turn."
     "name": "Decay"
   - "desc": "The blob uses Restraining Glob. The blob can't take this action again\
       \ until the start of its next turn."

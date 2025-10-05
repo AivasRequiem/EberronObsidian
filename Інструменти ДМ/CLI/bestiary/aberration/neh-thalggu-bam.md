@@ -20,7 +20,7 @@ Neh-thalggu are born in the nightmarish Far Realm, but they spread across the As
 
 After a neh-thalggu kills a victim, it uses its pincers to cut open the victim's head and remove the brain. It then swallows the brain whole. The collected brain is stored inside one of several pockets in the neh-thalggu's head. Once it has collected twelve brains in this fashion, it is overcome by an urge to return to the Far Realm and begins devoting all its energy to finding a way home.
 
-In an encounter with a neh-thalggu, roll a `dice:d12|noform|noparens|avg` (`d12`) to determine how many brains it has already collected.
+In an encounter with a neh-thalggu, roll a `d12` to determine how many brains it has already collected.
 
 ```statblock
 "name": "Neh-thalggu (BAM)"
@@ -52,26 +52,23 @@ In an encounter with a neh-thalggu, roll a `dice:d12|noform|noparens|avg` (`d12`
 "actions":
   - "desc": "The neh-thalggu makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
       \ (2d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4\
-      \ + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ Humanoid. Hit: dice:10d6|noform|noparens|avg|text(35) (10d6) piercing\
-      \ damage. If this damage reduces the target to 0 hit points, the neh-thalggu\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) Humanoid. Hit: 35 (10d6)\
+      \ piercing damage. If this damage reduces the target to 0 hit points, the neh-thalggu\
       \ kills the target by extracting and consuming its brain."
     "name": "Extract Brain"
   - "desc": "The neh-thalggu magically emits psychic energy at one Humanoid it can\
       \ see within 10 feet of itself. The target must make a DC 14 Wisdom saving throw.\
-      \ On a failed save, the target takes dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) psychic damage and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ until the end of its next turn. On a successful save, the target takes half\
-      \ as much damage and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
+      \ On a failed save, the target takes 9 (2d8) psychic damage and is [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) until the end of its\
+      \ next turn. On a successful save, the target takes half as much damage and\
+      \ isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The neh-thalggu casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\

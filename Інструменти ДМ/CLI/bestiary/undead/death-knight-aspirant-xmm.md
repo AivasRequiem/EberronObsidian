@@ -66,15 +66,13 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
 "actions":
   - "desc": "The aspirant makes three Dread Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Slashing\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 14 (2d8 + 5) Slashing\
+      \ damage plus 10 (3d6) Necrotic damage."
     "name": "Dread Blade"
   - "desc": "Dexterity Saving Throw: DC 15, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the aspirant can see within 120 feet of itself. Failure: dice:6d6|noform|noparens|avg|text(21)\
-      \ (6d6) Fire damage plus dice:6d6|noform|noparens|avg|text(21) (6d6) Necrotic\
-      \ damage. Success: Half damage."
+      \ on a point the aspirant can see within 120 feet of itself. Failure: 21 (6d6)\
+      \ Fire damage plus 21 (6d6) Necrotic damage. Success: Half damage."
     "name": "Hellfire Orb (Recharge 5-6)"
   - "desc": "The aspirant casts one of the following spells, using Charisma as the\
       \ spellcasting ability (spell save DC 15):\n\nAt will: [Phantom Steed](І\

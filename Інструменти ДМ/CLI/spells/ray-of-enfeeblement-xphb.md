@@ -34,7 +34,7 @@ aliases:
 
 A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the next attack roll it makes until the start of your next turn.
 
-On a failed save, the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Strength-based [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md) for the duration. During that time, it also subtracts `dice:1d8|noform|noparens|avg` (`d8`) from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.
+On a failed save, the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Strength-based [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md) for the duration. During that time, it also subtracts `d8` from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

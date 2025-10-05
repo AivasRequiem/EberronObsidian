@@ -20,7 +20,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** 1 minute
 
-Until the spell ends, your attacks with weapons deal an extra `dice:1d4|noform|noparens|avg` (`d4`) Radiant damage on a hit.
+Until the spell ends, your attacks with weapons deal an extra `d4` Radiant damage on a hit.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
 

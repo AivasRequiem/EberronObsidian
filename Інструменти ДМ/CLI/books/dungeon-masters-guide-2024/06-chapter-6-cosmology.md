@@ -96,7 +96,7 @@ At your discretion, a creature that spends a long time on an Outer Plane that is
 
 ##### Planar Dissonance
 
-Celestials who visit the Lower Planes and Fiends who visit the Upper Planes experience significant discomfort if their visits last more than a few hours. After finishing a Long Rest on a plane that is alien to its nature, a Celestial or Fiend makes a DC 10 Constitution saving throw. On a failed save, whenever the creature makes a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature must subtract `dice:1d4|noform|noparens|avg` (`d4`) from the roll. The effect is cumulative with each failed save and ends when the creature finishes a Long Rest on a plane that isn't opposed to its nature.
+Celestials who visit the Lower Planes and Fiends who visit the Upper Planes experience significant discomfort if their visits last more than a few hours. After finishing a Long Rest on a plane that is alien to its nature, a Celestial or Fiend makes a DC 10 Constitution saving throw. On a failed save, whenever the creature makes a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature must subtract `d4` from the roll. The effect is cumulative with each failed save and ends when the creature finishes a Long Rest on a plane that isn't opposed to its nature.
 
 ## Planar Travel
 
@@ -114,9 +114,9 @@ Second, portals often have guardians charged with ensuring that certain creature
 
 Finally, most portals aren't open all the time, but open only in particular situations or when a certain requirement is met. A portal can have any requirement, but the following are the most common:
 
-- **Command.** The portal functions only if a particular command is given. A command is usually a word that can be invoked in any language (including a signed language). Sometimes the command must be given as a character passes through the portal (which is otherwise a mundane doorway, window, or similar opening). Other portals open when the command is given within 15 feet of themselves, and they remain open for `dice:1d12|noform|noparens|avg` (`d12`) minutes.  
+- **Command.** The portal functions only if a particular command is given. A command is usually a word that can be invoked in any language (including a signed language). Sometimes the command must be given as a character passes through the portal (which is otherwise a mundane doorway, window, or similar opening). Other portals open when the command is given within 15 feet of themselves, and they remain open for `d12` minutes.  
 - **Key Item.** The portal functions if the traveler carries a particular object; the item acts much like a key to a door. This item can be a common object or a particular one created for that portal. The city of Sigil above the Outlands is known as the City of Doors because it features an overwhelming number of such item-keyed portals.  
-- **Random.** The portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `dice:1d6+6|noform|noparens|avg` (`1d6 + 6`) travelers to pass through, then closes for `dice:1d6|noform|noparens|avg` (`d6`) days.  
+- **Random.** The portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `1d6 + 6` travelers to pass through, then closes for `d6` days.  
 - **Situation.** The portal functions only if a particular condition is met. A situation-keyed portal might open on a clear night, when it rains, or when a certain spell is cast in its vicinity.  
 - **Time.** The portal functions only at particular times on the Material Plane: during a full moon, during the spring equinox or winter solstice, or when the stars are in certain positions. Once it opens, such a portal remains open for a limited time, such as for 3 days following the full moon, for 1 hour, or for 10 minutes.  
 
@@ -333,7 +333,7 @@ A traveler in the Astral Plane can move by simply thinking about moving, but dis
 
 Just as movement is accomplished by the power of thought, all that is required to find one's destination is to think about it. As long as the destination is somewhere in the Astral Plane (or in Wildspace, as described below)—such as "the nearest githyanki outpost," "the nearest color pool leading to the Abyss," or "the Wildspace system of Realmspace"—thinking about a place makes the creature aware of the most direct route to that location. The creature doesn't know how long the journey will take or how perilous it will be, just which direction to go in.
 
-The DM decides how long it takes to get to a desired destination. A trek to a specific location—a particular Wildspace system or Astral outpost, for example—might take `dice:4d6|noform|noparens|avg` (`4d6`) days. For a more general location, such as a color pool leading to a specified plane, the journey might take `1d4 × 10` hours.
+The DM decides how long it takes to get to a desired destination. A trek to a specific location—a particular Wildspace system or Astral outpost, for example—might take `4d6` days. For a more general location, such as a color pool leading to a specified plane, the journey might take `1d4 × 10` hours.
 
 #### Dead Gods
 
@@ -359,7 +359,7 @@ A Wildspace system teems with space-dwelling life-forms, including spores, plank
 
 A psychic wind is a storm of thought that batters travelers' minds rather than their bodies. The storm is made of lost memories, forgotten ideas, and subconscious fears that went astray in the Astral Plane and conglomerated into this powerful force.
 
-A psychic wind is first sensed as a rapid darkening of the silver-gray sky. After `dice:1d4|noform|noparens|avg` (`d4`) minutes, the area becomes as dark as a moonless night. As the sky darkens, the traveler feels buffeting and shaking, as if the plane were rebelling against the storm. As quickly as it comes, the psychic wind passes, and the sky returns to normal in 1 minute.
+A psychic wind is first sensed as a rapid darkening of the silver-gray sky. After `d4` minutes, the area becomes as dark as a moonless night. As the sky darkens, the traveler feels buffeting and shaking, as if the plane were rebelling against the storm. As quickly as it comes, the psychic wind passes, and the sky returns to normal in 1 minute.
 
 A group of travelers journeying together is subjected to one location effect, determined by consulting the Psychic Wind Locations Effects table.
 
@@ -603,7 +603,7 @@ Traveling through the Deep Ethereal is unlike physical travel. Distance is meani
 
 #### Ether Cyclones
 
-An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting everything in its path and carrying the debris for miles. Travelers with a [Passive Perception](Інструменти%20ДМ/CLI/rules/variant-rules/passive-perception-xphb.md) score of 15 or higher receive 1 minute of warning: a deep thrum in the ethereal matter. Travelers who can't reach a curtain or portal leading elsewhere suffer the cyclone's effect. Roll `dice:1d20|noform|noparens|avg` (`d20`) and consult the Ether Cyclone table to determine the effect on all creatures in the vicinity.
+An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting everything in its path and carrying the debris for miles. Travelers with a [Passive Perception](Інструменти%20ДМ/CLI/rules/variant-rules/passive-perception-xphb.md) score of 15 or higher receive 1 minute of warning: a deep thrum in the ethereal matter. Travelers who can't reach a curtain or portal leading elsewhere suffer the cyclone's effect. Roll `d20` and consult the Ether Cyclone table to determine the effect on all creatures in the vicinity.
 
 ![Ether Cyclones; Ether Cyclone](Інструменти%20ДМ/CLI/tables/ether-cyclones-ether-cyclone-xdmg.md)
 

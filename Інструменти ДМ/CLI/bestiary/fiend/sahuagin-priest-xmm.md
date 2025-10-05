@@ -74,9 +74,8 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes two Spectral Jaws attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
-      \ (2d8 + 2) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft. Hit:\
+      \ 11 (2d8 + 2) Force damage."
     "name": "Spectral Jaws"
   - "desc": "The sahuagin casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\

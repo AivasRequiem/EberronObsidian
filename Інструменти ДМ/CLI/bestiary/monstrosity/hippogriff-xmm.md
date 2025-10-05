@@ -72,8 +72,8 @@ Hippogriff migrations might take months or years, and sages frequently predict t
 "actions":
   - "desc": "The hippogriff makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Slashing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+      \ damage."
     "name": "Rend"
 "source":
   - "XMM"

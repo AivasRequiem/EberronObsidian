@@ -63,14 +63,12 @@ Copper dragons typically inhabit multi-chamber caves and renovated ruins.
 "languages": "Draconic"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d10+2|noform|noparens|avg|text(7) (1d10 + 2) Slashing\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 11, each creature in a 20-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:4d8|noform|noparens|avg|text(18) (4d8) Acid damage. Success:\
-      \ Half damage."
+      \ Failure: 18 (4d8) Acid damage. Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 11, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

@@ -59,17 +59,14 @@ aliases:
 "actions":
   - "desc": "Hastain makes two Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
-      \ (1d6 + 4) piercing damage, or dice:1d8+4|noform|noparens|avg|text(8) (1d8\
-      \ + 4) piercing damage if used with two hands to make a melee attack, plus\
-      \ dice:1d6|noform|noparens|avg|text(3) (d6) force damage if Hastain is wearing\
-      \ its talarith."
+  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+      \ damage if used with two hands to make a melee attack, plus 3 (d6) force\
+      \ damage if Hastain is wearing its talarith."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ range 90 ft., one target. Hit: dice:5d8|noform|noparens|avg|text(22) (5d8)\
-      \ damage of a type chosen by Hastain from the following list: cold, fire, lightning,\
-      \ or radiant."
+  - "desc": "Ranged Spell Attack: +10 to hit, range 90 ft., one target. Hit:\
+      \ 22 (5d8) damage of a type chosen by Hastain from the following list: cold,\
+      \ fire, lightning, or radiant."
     "name": "Chromatic Bolt"
   - "desc": "Using its talarith, Hastain summons a duplicate of itself. The duplicate\
       \ obeys Hastain's commands and uses Hastain's statistics, except it is an unaligned\

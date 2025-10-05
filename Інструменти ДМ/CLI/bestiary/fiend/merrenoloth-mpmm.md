@@ -61,9 +61,8 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
 "actions":
   - "desc": "The merrenoloth makes one Oar attack and uses Fear Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4\
-      \ + 3) fire damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+      \ (2d4 + 3) fire damage."
     "name": "Oar"
   - "desc": "The merrenoloth targets one creature it can see within 60 feet of it.\
       \ The target must succeed on a DC 13 Wisdom saving throw or become [frightened](І\
@@ -95,8 +94,8 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
       \ flying there, it must succeed on a DC 13 Strength saving throw or be knocked\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  \n- Propel.\
       \ A strong wind propels the vessel, increasing its speed by 30 feet until initiative\
-      \ count 20 on the next round.  \n- Repair. The vessel regains dice:4d10|noform|noparens|avg|text(22)\
-      \ (4d10) hit points.  "
+      \ count 20 on the next round.  \n- Repair. The vessel regains 22 (4d10)\
+      \ hit points.  "
     "name": ""
 "regional_effects":
   - "desc": "A merrenoloth imbues its vessel with magic that creates one or more of\
@@ -106,8 +105,7 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
       \ the merrenoloth names.  \n- Unsinkable. The vessel doesn't sink even if\
       \ its hull is breached.  "
     "name": ""
-  - "desc": "If the merrenoloth dies, these effects fade over the course of dice:1d6|noform|noparens|avg\
-      \ (d6) hours."
+  - "desc": "If the merrenoloth dies, these effects fade over the course of d6 hours."
     "name": ""
 "source":
   - "MPMM"

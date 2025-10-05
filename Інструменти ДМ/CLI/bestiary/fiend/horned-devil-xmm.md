@@ -67,20 +67,17 @@ Horned devils, also known as cornugons or malebranche, are infernal warriors tha
   - "desc": "The devil makes three attacks, using Searing Fork or Hurl Flame in any\
       \ combination. It can replace one attack with a use of Infernal Tail."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 10 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Piercing\
-      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Fire damage."
+  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing\
+      \ damage plus 9 (2d8) Fire damage."
     "name": "Searing Fork"
-  - "desc": "Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8), range 150\
-      \ ft. Hit: dice:5d8+4|noform|noparens|avg|text(26) (5d8 + 4) Fire damage.\
-      \ If the target is a flammable object that isn't being worn or carried, it starts\
-      \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
+  - "desc": "Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire\
+      \ damage. If the target is a flammable object that isn't being worn or carried,\
+      \ it starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Hurl Flame"
   - "desc": "Dexterity Saving Throw: DC 17, one creature the devil can see within\
-      \ 10 feet. Failure: dice:1d8+6|noform|noparens|avg|text(10) (1d8 + 6)\
-      \ Necrotic damage, and the target receives an infernal wound if it doesn't have\
-      \ one. While wounded, the target loses dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives\
+      \ an infernal wound if it doesn't have one. While wounded, the target loses\
+      \ 10 (3d6) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ at the start of each of its turns. The wound closes after 1 minute, after\
       \ a spell restores [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ to the target, or after the target or a creature within 5 feet of it takes\

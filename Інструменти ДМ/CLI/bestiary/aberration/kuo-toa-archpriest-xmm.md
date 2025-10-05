@@ -114,9 +114,8 @@ Kuo-toa typically organize their communities around sites they believe to be imp
 "actions":
   - "desc": "The kuo-toa makes three Strange Scepter attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:5d6+3|noform|noparens|avg|text(20)\
-      \ (5d6 + 3) Lightning damage."
+  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit:\
+      \ 20 (5d6 + 3) Lightning damage."
     "name": "Strange Scepter"
   - "desc": "The kuo-toa casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 14):\n\

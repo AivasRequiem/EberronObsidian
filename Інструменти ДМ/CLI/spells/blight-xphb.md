@@ -39,11 +39,11 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A creature that you can see within range makes a Constitution saving throw, taking `dice:8d8|noform|noparens|avg` (`8d8`) Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.
+A creature that you can see within range makes a Constitution saving throw, taking `8d8` Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.
 
 Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d8|noform|noparens|avg|text(d8)` for each spell slot level above 4.
+**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 4.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB"); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB")
 

@@ -103,9 +103,8 @@ Cults can organize around any mystical tradition, but many serve supernatural be
 "languages": "Common"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d4+1|noform|noparens|avg|text(3) (1d4 + 1) Slashing damage\
-      \ plus 1 Necrotic damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing\
+      \ damage plus 1 Necrotic damage."
     "name": "Ritual Sickle"
 "source":
   - "XMM"

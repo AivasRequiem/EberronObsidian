@@ -59,9 +59,8 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
 "cr": "12"
 "traits":
   - "desc": "The eidolon can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ force damage if it ends its turn inside an object other than a [sacred statue](І\
-      нструменти%20ДМ/CLI/bestiary/construct/sacred-statue-mpmm.md)."
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object other than a [sacred statue](Інструменти%20ДМ/CLI/bestiary/construct/sacred-statue-mpmm.md)."
     "name": "Incorporeal Movement"
   - "desc": "When the eidolon moves into a space occupied by a [sacred statue](Інс\
       трументи%20ДМ/CLI/bestiary/construct/sacred-statue-mpmm.md), the eidolon can\

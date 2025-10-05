@@ -59,17 +59,14 @@ Ssurran defilers can lay waste to the plant life around them and draw vital ener
 "actions":
   - "desc": "The ssurran makes two Claw attacks and uses Defile (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
-      \ + 1) slashing damage plus dice:1d8|noform|noparens|avg|text(4) (d8) necrotic\
-      \ damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) slashing damage plus 4 (d8) necrotic damage."
     "name": "Claw"
   - "desc": "Ordinary vegetation within 10 feet of the ssurran withers and dies. In\
       \ addition, each creature within 10 feet of the ssurran must make a DC 11 Constitution\
-      \ saving throw, taking dice:4d10|noform|noparens|avg|text(22) (4d10) necrotic\
-      \ damage on a failed save, or half as much damage on a successful one. The ssurran\
-      \ regains dice:1d10|noform|noparens|avg|text(5) (d10) hit points for each\
-      \ creature that fails the saving throw."
+      \ saving throw, taking 22 (4d10) necrotic damage on a failed save, or half\
+      \ as much damage on a successful one. The ssurran regains 5 (d10) hit points\
+      \ for each creature that fails the saving throw."
     "name": "Defile (Recharge 6)"
   - "desc": "The ssurran casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability:\n\nAt will: [mage\

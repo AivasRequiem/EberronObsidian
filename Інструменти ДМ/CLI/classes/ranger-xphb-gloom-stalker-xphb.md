@@ -61,7 +61,7 @@ At the start of your first turn of each combat, your [Speed](Інструмен�
 
 #### Dreadful Strike
 
-When you attack a creature and hit it with a weapon, you can deal an extra `dice:2d6|noform|noparens|avg` (`2d6`) Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
+When you attack a creature and hit it with a weapon, you can deal an extra `2d6` Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
 #### Initiative Bonus
 
@@ -94,7 +94,7 @@ You have honed your ability to resist mind-altering powers. You gain proficiency
 
 ### Stalker's Flurry (Level 11)
 
-The Psychic damage of your Dreadful Strike becomes `dice:2d8|noform|noparens|avg` (`2d8`). In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can cause one of the following additional effects.
+The Psychic damage of your Dreadful Strike becomes `2d8`. In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can cause one of the following additional effects.
 
 #### Sudden Strike
 

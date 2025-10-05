@@ -51,30 +51,28 @@ A mouth of Grolantor is revered as a holy embodiment of Grolantor's aching hunge
 "traits":
   - "desc": "The giant is immune to the [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md)\
       \ spell.\n\nOn each of its turns, the giant uses all its movement to move toward\
-      \ the nearest creature or whatever else it might perceive as food. Roll a dice:d10|noform|noparens|avg\
-      \ (d10) at the start of each of the giant's turns to determine its action\
-      \ for that turn:\n\n- 1–3. The giant makes three Fist attacks against one\
-      \ random creature within reach. If no creatures are within reach, the giant\
-      \ flies into a rage and gains advantage on all attack rolls until the end of\
-      \ its next turn.  \n- 4–5. The giant makes one Fist attack against each\
-      \ creature within reach. If no creatures are within reach, the giant makes one\
-      \ Fist attack against itself.  \n- 6–7. The giant makes one Bite attack\
-      \ against one random creature within reach. If no other creatures are within\
-      \ reach, its eyes glaze over and it is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ until the start of its next turn.  \n- 8–10. The giant makes one Bite\
-      \ attack and two Fist attacks against one random creature within reach. If no\
-      \ creatures are within reach, the giant flies into a rage and gains advantage\
-      \ on all attack rolls until the end of its next turn.  "
+      \ the nearest creature or whatever else it might perceive as food. Roll a d10\
+      \ at the start of each of the giant's turns to determine its action for that\
+      \ turn:\n\n- 1–3. The giant makes three Fist attacks against one random\
+      \ creature within reach. If no creatures are within reach, the giant flies into\
+      \ a rage and gains advantage on all attack rolls until the end of its next turn.\
+      \  \n- 4–5. The giant makes one Fist attack against each creature within\
+      \ reach. If no creatures are within reach, the giant makes one Fist attack against\
+      \ itself.  \n- 6–7. The giant makes one Bite attack against one random creature\
+      \ within reach. If no other creatures are within reach, its eyes glaze over\
+      \ and it is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) until\
+      \ the start of its next turn.  \n- 8–10. The giant makes one Bite attack\
+      \ and two Fist attacks against one random creature within reach. If no creatures\
+      \ are within reach, the giant flies into a rage and gains advantage on all attack\
+      \ rolls until the end of its next turn.  "
     "name": "Mouth of Chaos"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
-      \ (3d6 + 5) piercing damage, and the giant magically regains hit points equal\
-      \ to the damage dealt."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+      \ 15 (3d6 + 5) piercing damage, and the giant magically regains hit points\
+      \ equal to the damage dealt."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 10 ft., one target. Hit: dice:3d8+5|noform|noparens|avg|text(18)\
-      \ (3d8 + 5) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 18 (3d8 + 5) bludgeoning damage."
     "name": "Fist"
 "source":
   - "MPMM"

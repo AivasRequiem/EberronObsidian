@@ -71,21 +71,18 @@ aliases:
   - "desc": "The animal lord makes two attacks, using Rend or Radiant Ray in any combination,\
       \ and uses Animal Spirit."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
-      \ 5 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Force damage."
+  - "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 14 (2d6 + 7) Slashing\
+      \ damage plus 7 (2d6) Force damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12), range\
-      \ 120 ft. Hit: dice:4d6+6|noform|noparens|avg|text(20) (4d6 + 6) Radiant\
+  - "desc": "Ranged Attack Roll: +12, range 120 ft. Hit: 20 (4d6 + 6) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The animal lord conjures an animal spirit that strikes at a creature\
       \ and then disappears. Dexterity Saving Throw: DC 20, one creature the animal\
-      \ lord can see within 120 feet. Failure: dice:4d10+6|noform|noparens|avg|text(28)\
-      \ (4d10 + 6) Radiant damage. Success: Half damage. Failure or Success:\
-      \ The animal lord has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ on attack rolls against the target until the start of the animal lord's next\
-      \ turn."
+      \ lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success:\
+      \ Half damage. Failure or Success: The animal lord has [Advantage](Інструм\
+      енти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on attack rolls against\
+      \ the target until the start of the animal lord's next turn."
     "name": "Animal Spirit"
   - "desc": "The animal lord casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 20):\n\

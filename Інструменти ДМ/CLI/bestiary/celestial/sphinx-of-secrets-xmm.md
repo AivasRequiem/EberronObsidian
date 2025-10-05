@@ -90,19 +90,17 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
       \ use of [Curse](Інструменти%20ДМ/CLI/rules/variant-rules/curses-xphb.md) of\
       \ the Riddle."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Slashing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Radiant damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
+      \ damage plus 7 (2d6) Radiant damage."
     "name": "Claw"
   - "desc": "Intelligence Saving Throw: DC 15, one creature the sphinx can see within\
-      \ 60 feet. Failure: dice:6d6|noform|noparens|avg|text(21) (6d6) Psychic\
-      \ damage, and the target is cursed with a riddle. The cursed target has [Disadvantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks\
-      \ and attack rolls. In addition, if it takes the Magic action, it must succeed\
-      \ on a DC 15 Intelligence saving throw or that action is wasted. The cursed\
-      \ target can take a Study action to make a DC 15 Intelligence check, solving\
-      \ the riddle and ending the curse on a success. The curse ends early if the\
-      \ sphinx curses another target."
+      \ 60 feet. Failure: 21 (6d6) Psychic damage, and the target is cursed with\
+      \ a riddle. The cursed target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
+      \ on ability checks and attack rolls. In addition, if it takes the Magic action,\
+      \ it must succeed on a DC 15 Intelligence saving throw or that action is wasted.\
+      \ The cursed target can take a Study action to make a DC 15 Intelligence check,\
+      \ solving the riddle and ending the curse on a success. The curse ends early\
+      \ if the sphinx curses another target."
     "name": "Curse of the Riddle"
   - "desc": "The sphinx casts one of the following spells, requiring no Material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\

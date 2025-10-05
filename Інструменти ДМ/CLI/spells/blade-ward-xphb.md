@@ -40,7 +40,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts `dice:1d4|noform|noparens|avg` (`d4`) from the attack roll.
+Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts `d4` from the attack roll.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard (Abjurer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-abjurer-xphb.md "subclass=XPHB;class=XPHB")
 

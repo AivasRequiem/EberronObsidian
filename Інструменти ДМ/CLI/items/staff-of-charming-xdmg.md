@@ -28,6 +28,6 @@ This staff has 10 charges. While holding the staff, you can use any of its prope
 
 ## Regaining Charges
 
-The staff regains `dice:1d8+2|noform|noparens|avg` (`1d8 + 2`) expended charges daily at dawn. If you expend the last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 1, the staff crumbles to dust and is destroyed.
+The staff regains `1d8 + 2` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, the staff crumbles to dust and is destroyed.
 
 *Source: Dungeon Master's Guide (2024) p. 307. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

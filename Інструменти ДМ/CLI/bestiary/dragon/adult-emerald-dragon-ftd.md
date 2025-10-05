@@ -92,22 +92,18 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
-      \ (2d10 + 6) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+      \ 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+6|noform|noparens|avg|text(10)\
-      \ (1d8 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+      \ 10 (1d8 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 60-foot cone. Each\
       \ creature in that area must make a DC 18 Intelligence saving throw. On a failed\
-      \ save, the creature takes dice:12d6|noform|noparens|avg|text(42) (12d6)\
-      \ psychic damage, and until the end of its next turn, when the creature makes\
-      \ an attack roll or an ability check, it must roll a dice:d6|noform|noparens|avg\
-      \ (d6) and reduce the total by the number rolled. On a successful save, the\
-      \ creature takes half as much damage with no additional effects."
+      \ save, the creature takes 42 (12d6) psychic damage, and until the end of\
+      \ its next turn, when the creature makes an attack roll or an ability check,\
+      \ it must roll a d6 and reduce the total by the number rolled. On a successful\
+      \ save, the creature takes half as much damage with no additional effects."
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
@@ -134,8 +130,7 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
     "name": "Psionics (Costs 2 Actions)"
   - "desc": "The dragon creates a dancing mote of green flame around a creature it\
       \ can see within 60 feet of it. The target must succeed on a DC 17 Dexterity\
-      \ saving throw or take dice:9d6|noform|noparens|avg|text(31) (9d6) fire\
-      \ damage."
+      \ saving throw or take 31 (9d6) fire damage."
     "name": "Emerald Embers (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -150,11 +145,10 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
       \ of its ability any command the dragon issues that isn't directly harmful to\
       \ the creature.  \n- Distort Perceptions. The dragon attempts to alter the\
       \ perceptions of one creature it can see within its lair. That creature must\
-      \ succeed on a DC 15 Intelligence saving throw or take dice:4d10|noform|noparens|avg|text(22)\
-      \ (4d10) psychic damage and have disadvantage on saving throws until the start\
-      \ of its next turn.  \n- Vanish. The dragon becomes [invisible](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Invisible) until initiative count 20 on the\
-      \ next round.  "
+      \ succeed on a DC 15 Intelligence saving throw or take 22 (4d10) psychic damage\
+      \ and have disadvantage on saving throws until the start of its next turn. \
+      \ \n- Vanish. The dragon becomes [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\
+      \ until initiative count 20 on the next round.  "
     "name": ""
 "regional_effects":
   - "desc": "The region surrounding a legendary emerald dragon's lair is altered by\
@@ -176,9 +170,9 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
       \ numbers.  "
     "name": ""
   - "desc": "If the dragon dies, the population of giant lizards near the lair returns\
-      \ to normal levels over the course of dice:1d10|noform|noparens|avg (d10)\
-      \ days. Rocks immediately stop moving of their own accord. The existing abundance\
-      \ of crystals and emeralds remains, but new ones form at a normal rate."
+      \ to normal levels over the course of d10 days. Rocks immediately stop moving\
+      \ of their own accord. The existing abundance of crystals and emeralds remains,\
+      \ but new ones form at a normal rate."
     "name": ""
 "source":
   - "FTD"

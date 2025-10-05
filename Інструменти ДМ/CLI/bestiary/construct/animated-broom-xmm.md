@@ -82,8 +82,7 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
       \ an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning\
       \ damage."
     "name": "Slam"
 "source":

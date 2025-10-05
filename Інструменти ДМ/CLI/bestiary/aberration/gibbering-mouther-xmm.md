@@ -73,17 +73,15 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
   - "desc": "The mouther babbles incoherently while it doesn't have the [Incapacitated](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. Wisdom Saving\
       \ Throw: DC 10, any creature that starts its turn within 20 feet of the mouther\
-      \ while it is babbling. Failure: The target rolls dice:1d8|noform|noparens|avg\
-      \ (d8) to determine what it does during the current turn:\n\n- 1-4. The\
-      \ target does nothing.  \n- 5-6. The target takes no action or [Bonus Action](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) and uses all its\
-      \ movement to move in a random direction.  \n- 7-8. The target makes a melee\
-      \ attack against a randomly determined creature within its reach or does nothing\
-      \ if it can't make such an attack.  "
+      \ while it is babbling. Failure: The target rolls d8 to determine what it\
+      \ does during the current turn:\n\n- 1-4. The target does nothing.  \n-\
+      \ 5-6. The target takes no action or [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
+      \ and uses all its movement to move in a random direction.  \n- 7-8. The\
+      \ target makes a melee attack against a randomly determined creature within\
+      \ its reach or does nothing if it can't make such an attack.  "
     "name": "Gibbering"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
-      \ ft. Hit: dice:2d6|noform|noparens|avg|text(7) (2d6) Piercing damage.\
+  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 7 (2d6) Piercing damage.\
       \ If the target is a Medium or smaller creature, it has the [Prone](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Prone) condition. The target dies if it is\
       \ reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
@@ -92,10 +90,9 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
     "name": "Bite"
   - "desc": "Dexterity Saving Throw: DC 10, each creature in a 10-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 30 feet. Failure: dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) Radiant damage, and the target has the [Blinded](Інструменти%20ДМ\
-      /CLI/rules/conditions.md#Blinded) condition until the end of the mouther's next\
-      \ turn."
+      \ on a point within 30 feet. Failure: 7 (2d6) Radiant damage, and the target\
+      \ has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition\
+      \ until the end of the mouther's next turn."
     "name": "Blinding Spittle (Recharge 5-6)"
 "source":
   - "XMM"

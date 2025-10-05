@@ -128,10 +128,8 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
 "languages": "Draconic"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
-      \ (2d8 + 3) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 12 (2d8 + 3) piercing damage plus 3 (d6) radiant damage."
     "name": "Bite"
   - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
       \ The dragon exhales mist in a 90-foot cone. Each creature in that area must\
@@ -140,9 +138,8 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
       \ for a creature if the creature takes damage or someone uses an action to wake\
       \ it.  \n- Moonlight Breath. The dragon exhales a beam of moonlight in a\
       \ 30-foot line that is 5 feet wide. Each creature in that area must make a DC\
-      \ 12 Dexterity saving throw, taking dice:4d6|noform|noparens|avg|text(14)\
-      \ (4d6) radiant damage on a failed save, or half as much damage on a successful\
-      \ one.  "
+      \ 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save,\
+      \ or half as much damage on a successful one.  "
     "name": "Breath Weapon (Recharge 5-6)"
 "source":
   - "FTD"

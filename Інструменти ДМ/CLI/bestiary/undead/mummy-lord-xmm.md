@@ -114,32 +114,29 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
   - "desc": "The mummy makes one Rotting Fist or Channel Negative Energy attack, and\
       \ it uses Dreadful Glare."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Bludgeoning\
-      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage.\
-      \ If the target is a creature, it is cursed. While cursed, the target can't\
-      \ regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
-      \ it gains no benefit from finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning\
+      \ damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is\
+      \ cursed. While cursed, the target can't regain [Hit Points](Інструменти%20Д\
+      М/CLI/rules/variant-rules/hit-points-xphb.md), it gains no benefit from finishing\
+      \ a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
       \ and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by dice:3d6|noform|noparens|avg|text(10) (3d6) every\
-      \ 24 hours that elapse. A creature dies and turns to dust if reduced to 0 [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this\
-      \ attack."
+      \ maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies\
+      \ and turns to dust if reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ by this attack."
     "name": "Rotting Fist"
-  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 60\
-      \ ft. Hit: dice:6d6+4|noform|noparens|avg|text(25) (6d6 + 4) Necrotic\
+  - "desc": "Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic\
       \ damage."
     "name": "Channel Negative Energy"
   - "desc": "Wisdom Saving Throw: DC 17, one creature the mummy can see within 60\
-      \ feet. Failure: dice:6d6+4|noform|noparens|avg|text(25) (6d6 + 4) Psychic\
-      \ damage, and the target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
-      \ condition until the end of the mummy's next turn."
+      \ feet. Failure: 25 (6d6 + 4) Psychic damage, and the target has the [Paralyzed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the end of\
+      \ the mummy's next turn."
     "name": "Dreadful Glare"
   - "desc": "The mummy casts one of the following spells, requiring no Material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 17, dice:1d20+9|noform|noparens|text(+9)\
-      \ to hit with spell attacks):\n\nAt will: [Dispel Magic](Інструменти%20Д\
-      М/CLI/spells/dispel-magic-xphb.md), [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n1/day each: [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \ and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit\
+      \ with spell attacks):\n\nAt will: [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day\
+      \ each: [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [Harm](Інструменти%20ДМ/CLI/spells/harm-xphb.md), [Insect Plague](Інструме\
       нти%20ДМ/CLI/spells/insect-plague-xphb.md) (level 7 version)"
     "name": "Spellcasting"

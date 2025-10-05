@@ -88,9 +88,8 @@ When on the Material Plane or otherwise left to their own devices, hezrous reckl
 "actions":
   - "desc": "The hezrou makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Slashing damage\
-      \ plus dice:2d8|noform|noparens|avg|text(9) (2d8) Poison damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing\
+      \ damage plus 9 (2d8) Poison damage."
     "name": "Rend"
 "bonus_actions":
   - "desc": "The hezrou jumps up to 30 feet by spending 10 feet of movement."

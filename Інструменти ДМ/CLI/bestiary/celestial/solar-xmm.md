@@ -72,17 +72,15 @@ Solars can resurrect the dead and often use that power to enlist mortal aid. The
   - "desc": "The solar makes two Flying Sword attacks. It can replace one attack with\
       \ a use of Slaying Bow."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+15|noform|noparens|text(+15),\
-      \ reach 10 ft. or range 120 ft. Hit: dice:4d6+8|noform|noparens|avg|text(22)\
-      \ (4d6 + 8) Slashing damage plus dice:8d8|noform|noparens|avg|text(36) (8d8)\
-      \ Radiant damage. Hit or Miss: The sword magically returns to the solar's\
-      \ hand or hovers within 5 feet of the solar immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: +15, reach 10 ft. or range 120 ft.\
+      \ Hit: 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. Hit\
+      \ or Miss: The sword magically returns to the solar's hand or hovers within\
+      \ 5 feet of the solar immediately after a ranged attack."
     "name": "Flying Sword"
   - "desc": "Dexterity Saving Throw: DC 21, one creature the solar can see within\
       \ 600 feet. Failure: If the creature has 100 [Hit Points](Інструменти%20ДМ\
       /CLI/rules/variant-rules/hit-points-xphb.md) or fewer, it dies. It otherwise\
-      \ takes dice:4d8+6|noform|noparens|avg|text(24) (4d8 + 6) Piercing damage\
-      \ plus dice:8d8|noform|noparens|avg|text(36) (8d8) Radiant damage."
+      \ takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage."
     "name": "Slaying Bow"
   - "desc": "The solar casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 25):\n\nAt\
@@ -107,8 +105,8 @@ Solars can resurrect the dead and often use that power to enlist mortal aid. The
   - "desc": "The solar teleports up to 60 feet to an unoccupied space it can see.\
       \ Dexterity Saving Throw: DC 25, each creature in a 10-foot [Emanation](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the solar at its destination space. Failure: dice:2d10|noform|noparens|avg|text(11)\
-      \ (2d10) Radiant damage. Success: Half damage."
+      \ from the solar at its destination space. Failure: 11 (2d10) Radiant damage.\
+      \ Success: Half damage."
     "name": "Radiant Teleport"
 "source":
   - "XMM"

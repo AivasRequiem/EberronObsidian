@@ -40,8 +40,7 @@ aliases:
     "name": "Primal Bond"
 "actions":
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: dice:1d4+3|noform|noparens|avg (1d4 + 3) plus your Wisdom modifier\
-      \ Slashing damage."
+      \ ft. Hit: 1d4 + 3 plus your Wisdom modifier Slashing damage."
     "name": "Beast's Strike"
 "source":
   - "XPHB"

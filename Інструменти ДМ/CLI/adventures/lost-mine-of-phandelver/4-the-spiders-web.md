@@ -41,7 +41,7 @@ Assume that the party travels twenty-four miles per day over a period of ten hou
 
 Ask the players to tell you the party's marching order, so that, you know which characters are in the lead and who's bringing up the rear. When the party camps, ask which characters are on watch. This information is important if the party encounters something dangerous.
 
-The Triboar Trail is not safe. As the adventurers travel throughout this area, they might stumble across hungry beasts, greedy bandits, or vicious monsters. Check for encounters once during the day and once at night by rolling a `dice:d20|noform|noparens|avg` (`d20`). On a roll of 17-20, an encounter takes place. Roll a `dice:d12|noform|noparens|avg` (`d12`) and consult the Wilderness Encounters table to determine what the party meets.
+The Triboar Trail is not safe. As the adventurers travel throughout this area, they might stumble across hungry beasts, greedy bandits, or vicious monsters. Check for encounters once during the day and once at night by rolling a `d20`. On a roll of 17-20, an encounter takes place. Roll a `d12` and consult the Wilderness Encounters table to determine what the party meets.
 
 **Wilderness Encounters**
 
@@ -51,12 +51,12 @@ The Triboar Trail is not safe. As the adventurers travel throughout this area, t
 
 | dice: d12 | Encounter |
 |-----------|-----------|
-| 1-2 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`dice:1d8+2\|noform\|noparens\|avg` (`1d8 + 2`)) |
+| 1-2 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`1d8 + 2`) |
 | 3-4 | [Ogre](Інструменти%20ДМ/CLI/bestiary/giant/ogre-xmm.md) (1) |
-| 5-6 | [Goblins](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) (`dice:1d6+3\|noform\|noparens\|avg` (`1d6 + 3`)) |
-| 7-8 | [Hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
-| 9-10 | [Orcs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
-| 11 | [Wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
+| 5-6 | [Goblins](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) (`1d6 + 3`) |
+| 7-8 | [Hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) (`1d4 + 2`) |
+| 9-10 | [Orcs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) (`1d4 + 2`) |
+| 11 | [Wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) (`1d4 + 2`) |
 | 12 | [Owlbear](Інструменти%20ДМ/CLI/bestiary/monstrosity/owlbear-xmm.md) (1) |
 ^wilderness-encounters-day
 
@@ -66,12 +66,12 @@ The Triboar Trail is not safe. As the adventurers travel throughout this area, t
 
 | dice: d12 | Encounter |
 |-----------|-----------|
-| 1-3 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`dice:1d8+2\|noform\|noparens\|avg` (`1d8 + 2`)) |
-| 4 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`dice:1d4+1\|noform\|noparens\|avg` (`1d4 + 1`)) |
-| 5 | [Goblins](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) (`dice:1d6+3\|noform\|noparens\|avg` (`1d6 + 3`)) |
-| 6 | [Hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
-| 7-8 | [Orcs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
-| 9-10 | [Wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) (`dice:1d4+2\|noform\|noparens\|avg` (`1d4 + 2`)) |
+| 1-3 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`1d8 + 2`) |
+| 4 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`1d4 + 1`) |
+| 5 | [Goblins](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) (`1d6 + 3`) |
+| 6 | [Hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) (`1d4 + 2`) |
+| 7-8 | [Orcs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) (`1d4 + 2`) |
+| 9-10 | [Wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) (`1d4 + 2`) |
 | 11-12 | [Owlbear](Інструменти%20ДМ/CLI/bestiary/monstrosity/owlbear-xmm.md) (1) |
 ^wilderness-encounters-night
 
@@ -89,7 +89,7 @@ The ogre is looking for an easy kill. It is too stupid to flee once combat is jo
 
 #### Goblins
 
-The goblins know the location of Cragmaw Castle and can provide directions if they are captured and threatened. Each one carries a pouch containing `dice:1d10|noform|noparens|avg` (`d10`) cp.
+The goblins know the location of Cragmaw Castle and can provide directions if they are captured and threatened. Each one carries a pouch containing `d10` cp.
 
 #### Hobgoblins
 
@@ -605,7 +605,7 @@ If the goblin sentries in 3 raised the alarm, the goblins and hobgoblins in area
 
 The dusty plaster and rubble in front of the door leading to 8 conceals a copper tripwire connected to linchpins hidden in the ruined ceiling. Spotting the tripwire requires a passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score of at least 20, or a successful DC 10 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check if characters are actively searching for traps in the area. Once spotted, the tripwire is easily avoided and disarmed (no ability check required).
 
-Any creature that walks over or through the rubble without avoiding the tripwire triggers a cave-in of wooden beams and heavy stones. (The area of the collapse is marked on the map.) Any creature in the area when the trap triggers must succeed on a DC 10 Dexterity saving throw or take `dice:3d6|noform|noparens|avg` (`3d6`) bludgeoning damage from the falling rubble (half as much damage on a successful save). The noise of the collapse puts the monsters in areas 3, 7, 8, and 9 on alert.
+Any creature that walks over or through the rubble without avoiding the tripwire triggers a cave-in of wooden beams and heavy stones. (The area of the collapse is marked on the map.) Any creature in the area when the trap triggers must succeed on a DC 10 Dexterity saving throw or take `3d6` bludgeoning damage from the falling rubble (half as much damage on a successful save). The noise of the collapse puts the monsters in areas 3, 7, 8, and 9 on alert.
 
 ### Awarding Experience Points
 
@@ -859,7 +859,7 @@ Award an additional 200 XP to the party if the characters rescue [Gundren Rockse
 
 You can add a complication in the form of a hobgoblin war band returning home, just as the characters are preparing to leave. This war band consists of three [hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) led by Targor Bloodsword, a [hobgoblin](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) with 20 hit points. Targor also has two [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) as pets.
 
-The hobgoblins have no treasure, but `dice:1d4|noform|noparens|avg` (`d4`) of them carry bloody sacks, each containing a severed elf head. The severed heads are trophies from the hobgoblins' recent victory over an elf hunting party.
+The hobgoblins have no treasure, but `d4` of them carry bloody sacks, each containing a severed elf head. The severed heads are trophies from the hobgoblins' recent victory over an elf hunting party.
 
 Clever characters might try to reason with Targor by urging him to think of himself as Grol's successor rather than Grol's avenger. Targor has long aspired to lead the Cragmaw tribe, so he might do the adventurers the favor of not killing them, provided one or more characters succeed on a DC 15 Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)) check.
 

@@ -100,16 +100,16 @@ The bond you share with your drake intensifies, protecting you and stoking the d
 In addition, while your drake is summoned, you and the drake gain the following benefits:
 
 - **Drake Mount.** The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller. While you are riding your drake, it can't use the flying speed of this feature.  
-- **Magic Fang.** The drake's Bite attack deals an extra `dice:1d6|noform|noparens|avg` (`d6`) damage of the type chosen for the drake's Draconic Essence.  
+- **Magic Fang.** The drake's Bite attack deals an extra `d6` damage of the type chosen for the drake's Draconic Essence.  
 - **Resistance.** You gain resistance to the damage type chosen for the drake's Draconic Essence.  
 
 ### Drake's Breath (Level 11)
 
 *11th-level Drakewarden feature*
 
-As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking `dice:8d6|noform|noparens|avg` (`8d6`) damage on a failed save, or half as much damage on a successful one.
+As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking `8d6` damage on a failed save, or half as much damage on a successful one.
 
-This damage increases to `dice:10d6|noform|noparens|avg` (`10d6`) when you reach 15th level in this class.
+This damage increases to `10d6` when you reach 15th level in this class.
 
 Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again.
 
@@ -119,6 +119,6 @@ Once you use this feature, you can't do so again until you finish a long rest, u
 
 Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:
 
-- **Empowered Bite.** The drake's Bite attack deals an extra `dice:1d6|noform|noparens|avg` (`d6`) damage of the type chosen for its Draconic Essence (for a total of `dice:2d6|noform|noparens|avg` (`2d6`) extra damage).  
+- **Empowered Bite.** The drake's Bite attack deals an extra `d6` damage of the type chosen for its Draconic Essence (for a total of `2d6` extra damage).  
 - **Large Drake.** The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale.  
 - **Reflexive Resistance.** When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.

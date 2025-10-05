@@ -30,9 +30,9 @@ aliases:
 - **Components:** V, S, M (a drop of bile)
 - **Duration:** Instantaneous
 
-You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md). Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes `dice:10d4|noform|noparens|avg` (`10d4`) Acid damage and another `dice:5d4|noform|noparens|avg` (`5d4`) Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.
+You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md). Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes `10d4` Acid damage and another `5d4` Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.
 
-**Using a Higher-Level Spell Slot.** The initial damage increases by `dice:2d4|noform|noparens|avg|text(2d4)` for each spell slot level above 4.
+**Using a Higher-Level Spell Slot.** The initial damage increases by `2d4` for each spell slot level above 4.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

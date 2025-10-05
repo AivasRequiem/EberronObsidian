@@ -51,8 +51,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ when it flies out of an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: 1 Slashing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
     "name": "Talons"
 "source":
   - "XMM"

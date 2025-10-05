@@ -79,14 +79,13 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d10+3|noform|noparens|avg|text(14) (2d10 + 3) Piercing\
-      \ damage, or dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Piercing\
-      \ damage if the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied).\
-      \ If the target is a Medium or smaller creature in the swarm's space, the target\
-      \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
-      \ (escape DC 13). Until the grapple ends, the target takes dice:2d6|noform|noparens|avg|text(7)\
-      \ (2d6) Necrotic damage at the end of each of its turns."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 14 (2d10 + 3) Piercing\
+      \ damage, or 8 (1d10 + 3) Piercing damage if the swarm is [Bloodied](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Bloodied). If the target is a Medium or\
+      \ smaller creature in the swarm's space, the target has the [Grappled](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13). Until\
+      \ the grapple ends, the target takes 7 (2d6) Necrotic damage at the end of\
+      \ each of its turns."
     "name": "Swarm of Proboscises"
 "source":
   - "XMM"

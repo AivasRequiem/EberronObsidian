@@ -55,24 +55,20 @@ Owing to their draconic instincts, chimeras are greedy creatures that hoard trea
   - "desc": "The chimera makes one Ram attack, one Bite attack, and one Claw attack.\
       \ It can replace the Claw attack with a use of Fire Breath if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
-      \ damage, or dice:4d6+4|noform|noparens|avg|text(18) (4d6 + 4) Piercing\
-      \ damage if the chimera had [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ on the attack roll."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
+      \ damage, or 18 (4d6 + 4) Piercing damage if the chimera had [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the attack roll."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Slashing damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing\
+      \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Ram"
   - "desc": "Dexterity Saving Throw: DC 15, each creature in a 15-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:7d8|noform|noparens|avg|text(31) (7d8) Fire damage. Success: Half\
-      \ damage."
+      \ 31 (7d8) Fire damage. Success: Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

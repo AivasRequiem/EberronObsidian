@@ -28,6 +28,6 @@ The tattoo has 3 charges, and it regains all expended charges daily at dawn. As 
 
 - You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.  
 - You can't be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).  
-- You can move through creatures and solid objects as if they were difficult terrain. If you end your turn in a solid object, you take `dice:1d10|noform|noparens|avg` (`d10`) force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take `dice:1d10|noform|noparens|avg` (`d10`) force damage for every 5 feet traveled.  
+- You can move through creatures and solid objects as if they were difficult terrain. If you end your turn in a solid object, you take `d10` force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take `d10` force damage for every 5 feet traveled.  
 
 *Source: Tasha's Cauldron of Everything p. 128*

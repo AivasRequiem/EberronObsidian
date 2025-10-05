@@ -23,7 +23,7 @@ aliases:
 - **Components:** V, S, M (the petrified eye of a newt)
 - **Duration:** Concentration, up to 1 hour
 
-You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra `dice:1d6|noform|noparens|avg` (`d6`) Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks made with the chosen ability.
+You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra `d6` Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks made with the chosen ability.
 
 If the target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) before this spell ends, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on a later turn to curse a new creature.
 

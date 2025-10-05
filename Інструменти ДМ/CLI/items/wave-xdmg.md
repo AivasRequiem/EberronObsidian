@@ -23,7 +23,7 @@ aliases:
 
 Held in the dungeon of White Plume Mountain, Wave is engraved with images of waves, shells, and sea creatures.
 
-You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you roll a 20 on the `dice:d20|noform|noparens|avg` (`d20`) for an attack roll with this weapon, the target takes an extra 21 Necrotic damage.
+You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you roll a 20 on the `d20` for an attack roll with this weapon, the target takes an extra 21 Necrotic damage.
 
 While holding Wave, you gain the following benefits:
 
@@ -32,7 +32,7 @@ While holding Wave, you gain the following benefits:
 
 ## Aquatic Command
 
-Wave has 3 charges and regains `dice:1d3|noform|noparens|avg` (`d3`) expended charges daily at dawn. While you carry it, you can expend 1 charge to cast [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md) (save DC 20) from it on a Beast that has a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md).
+Wave has 3 charges and regains `d3` expended charges daily at dawn. While you carry it, you can expend 1 charge to cast [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md) (save DC 20) from it on a Beast that has a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md).
 
 ## Globe of Invulnerability
 

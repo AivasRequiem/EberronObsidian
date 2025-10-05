@@ -26,9 +26,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes `dice:10d10|noform|noparens|avg` (`10d10`) Psychic damage and has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition for the duration. On a successful save, a target takes half as much damage only.
+You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes `10d10` Psychic damage and has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition for the duration. On a successful save, a target takes half as much damage only.
 
-A [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes `dice:5d10|noform|noparens|avg` (`5d10`) Psychic damage. On a successful save, the spell ends on that target.
+A [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes `5d10` Psychic damage. On a successful save, the spell ends on that target.
 
 **Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB")
 

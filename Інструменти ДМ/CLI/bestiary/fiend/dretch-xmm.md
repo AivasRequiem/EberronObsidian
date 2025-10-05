@@ -58,8 +58,8 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
   \ Abyssal)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Slashing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+      \ damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 11, each creature in a 10-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\

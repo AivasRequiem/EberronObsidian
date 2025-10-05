@@ -26,11 +26,11 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to `dice:1d8|noform|noparens|avg` (`d8`) plus your spellcasting ability modifier.
+You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to `d8` plus your spellcasting ability modifier.
 
 As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d8|noform|noparens|avg|text(d8)` for every slot level above 2.
+**Using a Higher-Level Spell Slot.** The damage increases by `d8` for every slot level above 2.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric (War Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-war-domain-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

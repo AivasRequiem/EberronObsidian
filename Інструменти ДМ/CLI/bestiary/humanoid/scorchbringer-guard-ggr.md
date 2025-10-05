@@ -42,19 +42,18 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer\
       \ action recharges, the tank on its back explodes in a 10-foot radius sphere.\
       \ Each creature in that area must make a DC 12 Dexterity saving throw, taking\
-      \ dice:2d6|noform|noparens|avg|text(7) (2d6) fire damage on a failed save,\
-      \ or half as much damage on a successful one. The explosion ignites flammable\
-      \ objects that aren't being worn or carried, and it destroys the scorchbringer."
+      \ 7 (2d6) fire damage on a failed save, or half as much damage on a successful\
+      \ one. The explosion ignites flammable objects that aren't being worn or carried,\
+      \ and it destroys the scorchbringer."
     "name": "Explosive Tank"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
-      \ (1d4 + 2) bludgeoning damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
     "name": "Light Hammer"
   - "desc": "The guard's scorchbringer spouts a stream of flame in a line that is\
       \ 30 feet long and 5 feet wide. Each creature in the line must make a DC 12\
-      \ Dexterity saving throw, taking dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ fire damage on a failed save, or half as much damage on a successful one."
+      \ Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or\
+      \ half as much damage on a successful one."
     "name": "Scorchbringer (Recharge 4-6)"
 "source":
   - "GGR"

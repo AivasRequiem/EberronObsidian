@@ -80,8 +80,8 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
+      \ damage."
     "name": "Slash"
 "source":
   - "XMM"

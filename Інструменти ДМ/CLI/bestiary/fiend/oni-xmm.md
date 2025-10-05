@@ -81,13 +81,11 @@ Oni torment villages that don't pay them or other supernatural forces respect. R
   - "desc": "The oni makes two Claw or Nightmare Ray attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
-      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing\
+      \ damage plus 9 (2d8) Necrotic damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 60\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Psychic damage,\
-      \ and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Ranged Attack Roll: +5, range 60 ft. Hit: 9 (2d6 + 2) Psychic\
+      \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the oni's next turn."
     "name": "Nightmare Ray"
   - "desc": "The oni shape-shifts into a Small or Medium Humanoid or a Large Giant,\

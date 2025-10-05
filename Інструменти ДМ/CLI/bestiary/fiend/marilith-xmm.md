@@ -71,16 +71,14 @@ Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged bla
 "actions":
   - "desc": "The marilith makes six Pact Blade attacks and uses Constrict."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 5 ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Slashing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 10 (1d10 + 5) Slashing\
+      \ damage plus 7 (2d6) Necrotic damage."
     "name": "Pact Blade"
   - "desc": "Strength Saving Throw: DC 17, one Medium or smaller creature the marilith\
-      \ can see within 5 feet. Failure: dice:2d10+4|noform|noparens|avg|text(15)\
-      \ (2d10 + 4) Bludgeoning damage. The target has the [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14), and it has\
-      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
-      \ until the grapple ends."
+      \ can see within 5 feet. Failure: 15 (2d10 + 4) Bludgeoning damage. The\
+      \ target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 14), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition until the grapple ends."
     "name": "Constrict"
 "bonus_actions":
   - "desc": "The marilith teleports up to 120 feet to an unoccupied space it can see."

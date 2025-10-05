@@ -61,19 +61,17 @@ The congealed blood of a dragon given mobility and hunger, the ooze tries to sha
   - "desc": "The ooze makes two Pseudopod attacks. The ooze can replace one Pseudopod\
       \ attack with its Slime Breath, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
-      \ (1d10 + 4) bludgeoning damage plus dice:4d6|noform|noparens|avg|text(14)\
-      \ (4d6) acid damage. If the target is a Large or smaller creature, it is [grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 15). Until this\
-      \ grapple ends, the target takes dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ acid damage at the start of each of its turns."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target\
+      \ is a Large or smaller creature, it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage\
+      \ at the start of each of its turns."
     "name": "Pseudopod"
   - "desc": "The ooze expels a spray of its gelatinous mass in a 30-foot cone. Each\
       \ creature in that area must make a DC 14 Dexterity saving throw. On a failed\
-      \ save, the creature takes dice:4d10|noform|noparens|avg|text(22) (4d10)\
-      \ acid damage and is pulled up to 30 feet straight toward the ooze. On a successful\
-      \ save, the creature takes half as much damage and isn't pulled."
+      \ save, the creature takes 22 (4d10) acid damage and is pulled up to 30 feet\
+      \ straight toward the ooze. On a successful save, the creature takes half as\
+      \ much damage and isn't pulled."
     "name": "Slime Breath (Recharge 6)"
 "source":
   - "FTD"

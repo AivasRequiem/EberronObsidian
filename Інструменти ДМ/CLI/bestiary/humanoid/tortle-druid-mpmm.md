@@ -58,13 +58,11 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
   - "desc": "The tortle makes four Claw attacks or two [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)'s\
       \ Wrath attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4\
-      \ + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 90 ft., one target. Hit: dice:2d6+2|noform|noparens|avg|text(9)\
-      \ (2d6 + 2) damage of a type chosen by the tortle: cold, fire, lightning,\
+  - "desc": "Ranged Spell Attack: +4 to hit, range 90 ft., one target. Hit:\
+      \ 9 (2d6 + 2) damage of a type chosen by the tortle: cold, fire, lightning,\
       \ or thunder."
     "name": "Nature's Wrath"
   - "desc": "The tortle withdraws into its shell. Until it emerges, it gains a +4\

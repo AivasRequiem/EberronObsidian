@@ -80,12 +80,10 @@ Stone golems are typically created to protect places of significance to a group,
 "actions":
   - "desc": "The golem makes two attacks, using Slam or Force Bolt in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 5 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Bludgeoning\
-      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Force damage."
+  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning\
+      \ damage plus 9 (2d8) Force damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 120\
-      \ ft. Hit: dice:4d10|noform|noparens|avg|text(22) (4d10) Force damage."
+  - "desc": "Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage."
     "name": "Force Bolt"
 "bonus_actions":
   - "desc": "The golem casts the [Slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\

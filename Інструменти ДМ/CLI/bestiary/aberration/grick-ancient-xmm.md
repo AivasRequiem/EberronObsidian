@@ -55,17 +55,14 @@ Gricks' origins are unclear, but some suggest these creatures arise from natural
 "actions":
   - "desc": "The grick makes one Beak attack, one Slam attack, and one Tentacles attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:4d8+4|noform|noparens|avg|text(22) (4d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 22 (4d8 + 4) Piercing\
       \ damage."
     "name": "Beak"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Slam"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ all four tentacles."

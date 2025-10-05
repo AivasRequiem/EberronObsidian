@@ -58,12 +58,10 @@ Bodyguards, belligerents, and laborers, toughs rely on their physical strength t
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
       \ damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 100/400\
-      \ ft. Hit: dice:1d10+1|noform|noparens|avg|text(6) (1d10 + 1) Piercing\
+  - "desc": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing\
       \ damage."
     "name": "Heavy Crossbow"
 "source":

@@ -37,9 +37,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes `dice:1d10|noform|noparens|avg` (`d10`) Necrotic damage, and it can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) until the end of your next turn.
+Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes `d10` Necrotic damage, and it can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) until the end of your next turn.
 
-**Cantrip Upgrade.** The damage increases by `dice:1d10|noform|noparens|avg` (`d10`) when you reach levels 5 (`dice:2d10|noform|noparens|avg` (`2d10`)), 11 (`dice:3d10|noform|noparens|avg` (`3d10`)), and 17 (`dice:4d10|noform|noparens|avg` (`4d10`)).
+**Cantrip Upgrade.** The damage increases by `d10` when you reach levels 5 (`2d10`), 11 (`3d10`), and 17 (`4d10`).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

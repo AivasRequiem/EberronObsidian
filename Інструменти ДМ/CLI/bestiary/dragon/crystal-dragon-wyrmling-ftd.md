@@ -140,16 +140,14 @@ Crystal dragons are among the most social and hospitable of dragons. They are eq
 "languages": "Draconic, telepathy 120 ft."
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
-      \ (1d10 + 2) piercing damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
-      \ radiant damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+      \ 7 (1d10 + 2) piercing damage plus 2 (d4) radiant damage."
     "name": "Bite"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each\
       \ creature in that area must make a DC 12 Constitution saving throw, taking\
-      \ dice:4d8|noform|noparens|avg|text(18) (4d8) radiant damage on a failed\
-      \ save, or half as much damage on a successful one. The dragon then gains 5\
-      \ temporary hit points by absorbing a portion of the radiant energy."
+      \ 18 (4d8) radiant damage on a failed save, or half as much damage on a successful\
+      \ one. The dragon then gains 5 temporary hit points by absorbing a portion of\
+      \ the radiant energy."
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability:\n\nAt will: [dancing\

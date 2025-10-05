@@ -70,15 +70,13 @@ Half-dragons share personality traits and agendas with the dragon who spawned th
 "actions":
   - "desc": "The half-dragon makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
-      \ ft. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) damage of the type chosen\
-      \ for the Draconic Origin trait."
+  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 6 (1d4 + 4) Slashing\
+      \ damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait."
     "name": "Claw"
   - "desc": "Dexterity Saving Throw: DC 14, each creature in a 30-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:8d6|noform|noparens|avg|text(28) (8d6) damage of the type chosen\
-      \ for the Draconic Origin trait. Success: Half damage."
+      \ 28 (8d6) damage of the type chosen for the Draconic Origin trait. Success:\
+      \ Half damage."
     "name": "Dragon's Breath (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The half-dragon jumps up to 30 feet by spending 10 feet of movement."

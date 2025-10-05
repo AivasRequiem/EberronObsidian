@@ -73,20 +73,19 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
 "cr": "14"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 19,\
-      \ dice:1d20+11|noform|noparens|text(+11) to hit with spell attacks). The angel\
-      \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [command](Інструменти%20ДМ/CLI/spells/command-xphb.md) (as a\
-      \ 2nd-level spell), [detect evil and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
-      \n3/day each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\
-      \ (as a 5th-level spell), [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
+      \ +11 to hit with spell attacks). The angel can innately cast the following\
+      \ spells, requiring no material components:\n\nAt will: [command](Інстру\
+      менти%20ДМ/CLI/spells/command-xphb.md) (as a 2nd-level spell), [detect evil\
+      \ and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\n3/day\
+      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (as\
+      \ a 5th-level spell), [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n1/day:\
       \ [raise dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "As a bonus action, the angel targets a creature [charmed](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Charmed) by it that it can see within 30 feet\
-      \ of it. The angel deals dice:2d10|noform|noparens|avg|text(11) (2d10) necrotic\
-      \ damage to the target, and the angel gains temporary hit points equal to the\
-      \ damage dealt."
+      \ of it. The angel deals 11 (2d10) necrotic damage to the target, and the\
+      \ angel gains temporary hit points equal to the damage dealt."
     "name": "Exploitation of the Debtors"
   - "desc": "The angel doesn't provoke an opportunity attack when it flies out of\
       \ an enemy's reach."
@@ -98,10 +97,8 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
   - "desc": "The angel makes two attacks with its scythe. It can substitute Chains\
       \ of Obligation for one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d4+4|noform|noparens|avg|text(9)\
-      \ (2d4 + 4) slashing damage plus dice:6d8|noform|noparens|avg|text(27) (6d8)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage."
     "name": "Scythe"
   - "desc": "The angel targets one creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ by it that it can see within 90 feet of it. The target must succeed on a DC\

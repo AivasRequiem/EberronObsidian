@@ -53,11 +53,11 @@ Blights are malicious plants that sprout from deep-rooted evil. Their gnarled fo
 "languages": "understands Common but can't speak"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Slashing damage."
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
+      \ damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 30/60\
-      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Piercing damage."
+  - "desc": "Ranged Attack Roll: +3, range 30/60 ft. Hit: 6 (2d4 + 1) Piercing\
+      \ damage."
     "name": "Needles"
 "source":
   - "XMM"

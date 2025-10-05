@@ -16,7 +16,7 @@ aliases:
 
 You can cast [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md) or [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md) from the ring.
 
-The ring has 6 charges and regains `dice:1d6|noform|noparens|avg` (`d6`) expended charges daily at dawn. You can expend its charges to use the properties below.
+The ring has 6 charges and regains `d6` expended charges daily at dawn. You can expend its charges to use the properties below.
 
 ## Faerie Fire
 
@@ -32,14 +32,14 @@ As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-
 
 | Number of Spheres | Lightning Damage |
 |-------------------|------------------|
-| 1 | `dice:4d12\|noform\|noparens\|avg` (`4d12`) |
-| 2 | `dice:5d4\|noform\|noparens\|avg` (`5d4`) |
-| 3 | `dice:2d6\|noform\|noparens\|avg` (`2d6`) |
-| 4 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) |
+| 1 | `4d12` |
+| 2 | `5d4` |
+| 3 | `2d6` |
+| 4 | `2d4` |
 ^number-of-spheres-lightning-damage
 
 ## Shooting Stars
 
-You can expend 1 to 3 charges as a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) originating from that point is showered in sparks and makes a DC 15 Dexterity saving throw, taking `dice:5d4|noform|noparens|avg` (`5d4`) Radiant damage on a failed save or half as much damage on a successful one.
+You can expend 1 to 3 charges as a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) originating from that point is showered in sparks and makes a DC 15 Dexterity saving throw, taking `5d4` Radiant damage on a failed save or half as much damage on a successful one.
 
 *Source: Dungeon Master's Guide (2024) p. 294. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

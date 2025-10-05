@@ -26,9 +26,9 @@ aliases:
 - **Components:** V
 - **Duration:** Instantaneous
 
-One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes `dice:3d6|noform|noparens|avg` (`3d6`) Psychic damage and must immediately use its [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md), if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.
+One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes `3d6` Psychic damage and must immediately use its [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md), if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 1.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (Great Old One Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-great-old-one-patron-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer (Aberrant Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-aberrant-sorcery-xphb.md "subclass=XPHB;class=XPHB")
 

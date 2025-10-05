@@ -58,9 +58,9 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
   - "desc": "The marid can breathe air and water."
     "name": "Amphibious"
   - "desc": "If the marid dies outside the Elemental Plane of Water, its body dissolves\
-      \ into brine, and it gains a new body in dice:1d4|noform|noparens|avg (d4)\
-      \ days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ somewhere on the Plane of Water."
+      \ into brine, and it gains a new body in d4 days, reviving with all its [Hit\
+      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
+      \ on the Plane of Water."
     "name": "Elemental Restoration"
   - "desc": "The marid has a 30 percent chance of knowing the [Wish](Інструменти%20Д\
       М/CLI/spells/wish-xphb.md) spell. If the marid knows it, the marid can cast\
@@ -72,16 +72,15 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
 "actions":
   - "desc": "The marid makes three Aquatic Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 15 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Slashing\
-      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Cold damage."
+  - "desc": "Melee Attack Roll: +10, reach 15 ft. Hit: 15 (2d8 + 6) Slashing\
+      \ damage plus 9 (2d8) Cold damage."
     "name": "Aquatic Lash"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:9d6|noform|noparens|avg|text(31) (9d6) Cold damage. If\
-      \ the target is a Huge or smaller creature, it is pushed up to 20 feet straight\
-      \ away from the marid and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition. Success: Half damage only."
+      \ Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature,\
+      \ it is pushed up to 20 feet straight away from the marid and has the [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success: Half damage\
+      \ only."
     "name": "Water Jet"
   - "desc": "The marid casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\

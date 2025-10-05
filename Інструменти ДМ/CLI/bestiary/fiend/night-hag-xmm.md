@@ -83,8 +83,7 @@ Night hags maintain networks of nefarious customers and collect rumors from acro
 "actions":
   - "desc": "The hag makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "The hag casts one of the following spells, requiring no Material components\

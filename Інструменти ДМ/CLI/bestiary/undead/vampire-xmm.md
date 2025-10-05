@@ -115,20 +115,17 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The vampire makes two Grave Strike attacks and uses Bite."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Bludgeoning\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage.\
-      \ If the target is a Large or smaller creature, it has the [Grappled](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from one\
-      \ of two hands."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning\
+      \ damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller\
+      \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 14) from one of two hands."
     "name": "Grave Strike (Vampire Form Only)"
   - "desc": "Constitution Saving Throw: DC 17, one creature within 5 feet that is\
       \ willing or that has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition.\
-      \ Failure: dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Piercing damage\
-      \ plus dice:3d8|noform|noparens|avg|text(13) (3d8) Necrotic damage. The\
-      \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage.\
+      \ The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the Necrotic damage taken, and the\
       \ vampire regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ equal to that amount. A Humanoid reduced to 0 [Hit Points](Інструменти%20Д\

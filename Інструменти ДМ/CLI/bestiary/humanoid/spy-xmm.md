@@ -72,13 +72,11 @@ Spies gather information and disseminate lies, manipulating people to gain the r
 "languages": "Common plus one other language"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage plus 7 (2d6) Poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 30/120\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
+  - "desc": "Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage plus 7 (2d6) Poison damage."
     "name": "Hand Crossbow"
 "bonus_actions":
   - "desc": "The spy takes the Dash, Disengage, or Hide action."

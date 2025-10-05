@@ -72,9 +72,8 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
       \ and leaves a 2½-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
-      \ + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage."
     "name": "Stab"
 "source":
   - "MPMM"

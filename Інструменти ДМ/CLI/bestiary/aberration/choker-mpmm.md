@@ -63,9 +63,8 @@ Chokers tend to set their ambushes alone, rather than working in concert, but wh
 "actions":
   - "desc": "The choker makes two Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
-      \ (1d4 + 3) piercing damage. If the target is a Large or smaller creature,\
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 5 (1d4 + 3) piercing damage. If the target is a Large or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 15). Until this grapple ends, the target is [restrained](Інструменти%20Д\
       М/CLI/rules/conditions.md#Restrained), and the choker can't use this tentacle\

@@ -44,13 +44,13 @@ aliases:
     "name": "Draconic Essence"
 "actions":
   - "desc": "Melee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit:\
-      \ dice:1d6|noform|noparens|avg (d6) plus PB piercing damage."
+      \ d6 plus PB piercing damage."
     "name": "Bite"
 "reactions":
   - "desc": "When another creature within 30 feet of the drake that it can see hits\
       \ a target with a weapon attack, the drake infuses the strike with its essence,\
-      \ causing the target to take an extra dice:1d6|noform|noparens|avg (d6)\
-      \ damage of the type determined by its Draconic Essence."
+      \ causing the target to take an extra d6 damage of the type determined by\
+      \ its Draconic Essence."
     "name": "Infused Strikes"
 "source":
   - "FTD"

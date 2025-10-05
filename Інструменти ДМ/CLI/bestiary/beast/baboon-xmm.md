@@ -47,8 +47,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+1|noform|noparens|text(+1), reach 5\
-      \ ft. Hit: dice:1d4-1|noform|noparens|avg|text(1) (1d4 - 1) Piercing damage."
+  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing\
+      \ damage."
     "name": "Bite"
 "source":
   - "XMM"

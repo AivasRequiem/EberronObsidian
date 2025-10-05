@@ -67,28 +67,25 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - "desc": "The vampire makes three melee attacks, only one of which can be a bite\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one willing creature, or a creature that is [grappled](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Grappled) by the vampire, [incapacitated](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or [restrained](Інст\
-      рументи%20ДМ/CLI/rules/conditions.md#Restrained). Hit: dice:1d6+4|noform|noparens|avg|text(7)\
-      \ (1d6 + 4) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ necrotic damage. If the target is humanoid, it must succeed on a DC 15 Charisma\
-      \ saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by the vampire for 1 minute. While [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ in this way, the target is infatuated with the vampire. The target's hit point\
-      \ maximum is reduced by an amount equal to the necrotic damage taken, and the\
-      \ vampire regains hit points equal to that amount. The reduction lasts until\
-      \ the target finishes a long rest. The target dies if its hit point maximum\
-      \ is reduced to 0."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one willing creature,\
+      \ or a creature that is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ by the vampire, [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
+      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). Hit:\
+      \ 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target\
+      \ is humanoid, it must succeed on a DC 15 Charisma saving throw or be [charmed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) by the vampire for 1 minute.\
+      \ While [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this\
+      \ way, the target is infatuated with the vampire. The target's hit point maximum\
+      \ is reduced by an amount equal to the necrotic damage taken, and the vampire\
+      \ regains hit points equal to that amount. The reduction lasts until the target\
+      \ finishes a long rest. The target dies if its hit point maximum is reduced\
+      \ to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
-      \ + 4) piercing damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
     "name": "Rapier"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) bludgeoning damage. The vampire can also grapple the target (escape\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) bludgeoning damage. The vampire can also grapple the target (escape\
       \ DC 14) if it is a creature and the vampire has a hand free."
     "name": "Unarmed Strike"
 "reactions":

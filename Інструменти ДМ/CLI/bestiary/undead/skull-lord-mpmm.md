@@ -70,22 +70,19 @@ Infighting and treachery brought skull lords into existence. The first of them a
   - "desc": "If the skull lord fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
   - "desc": "While within 30 feet of the skull lord, any Undead ally of the skull\
-      \ lord makes saving throws with advantage, and that ally regains dice:1d6|noform|noparens|avg\
-      \ (d6) hit points whenever it starts its turn there."
+      \ lord makes saving throws with advantage, and that ally regains d6 hit points\
+      \ whenever it starts its turn there."
     "name": "Master of the Grave"
   - "desc": "The skull lord doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
   - "desc": "The skull lord makes three Bone Staff or Deathly Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) bludgeoning damage plus dice:6d6|noform|noparens|avg|text(21) (6d6)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) bludgeoning damage plus 21 (6d6) necrotic damage."
     "name": "Bone Staff"
-  - "desc": "Ranged Spell Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ range 60 ft., one target. Hit: dice:5d8+5|noform|noparens|avg|text(27)\
-      \ (5d8 + 5) necrotic damage."
+  - "desc": "Ranged Spell Attack: +10 to hit, range 60 ft., one target. Hit:\
+      \ 27 (5d8 + 5) necrotic damage."
     "name": "Deathly Ray"
   - "desc": "The skull, lord casts one of the following spells, using Charisma as\
       \ the spellcasting ability (spell save DC 18):\n\nAt will: [mage hand](І\

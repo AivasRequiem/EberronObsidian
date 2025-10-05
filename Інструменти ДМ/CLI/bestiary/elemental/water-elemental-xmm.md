@@ -86,23 +86,21 @@ Water elementals' shapes are influenced by the liquid bodies in which they form.
 "actions":
   - "desc": "The elemental makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Slam"
   - "desc": "Strength Saving Throw: DC 15, each creature in the elemental's space.\
-      \ Failure: dice:4d8+4|noform|noparens|avg|text(22) (4d8 + 4) Bludgeoning\
-      \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14).\
-      \ Until the grapple ends, the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition, is suffocating unless it can breathe water, and takes dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) Bludgeoning damage at the start of each of the elemental's turns.\
-      \ The elemental can grapple one Large creature or up to two Medium or smaller\
-      \ creatures at a time with Whelm. As an action, a creature within 5 feet of\
-      \ the elemental can pull a creature out of it by succeeding on a DC 14 Strength\
-      \ ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. Success:\
-      \ Half damage only."
+      \ Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or\
+      \ smaller creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 14). Until the grapple ends, the target has the [Restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition, is suffocating\
+      \ unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the\
+      \ start of each of the elemental's turns. The elemental can grapple one Large\
+      \ creature or up to two Medium or smaller creatures at a time with Whelm. As\
+      \ an action, a creature within 5 feet of the elemental can pull a creature out\
+      \ of it by succeeding on a DC 14 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
+      \ check. Success: Half damage only."
     "name": "Whelm (Recharge 4-6)"
 "source":
   - "XMM"

@@ -79,8 +79,7 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "languages": ""
 "cr": "5"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
-      \ ft. Hit: dice:2d12+5|noform|noparens|avg|text(18) (2d12 + 5) Piercing\
+  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 18 (2d12 + 5) Piercing\
       \ damage. If the target is a Large or smaller creature and the gorgon moved\
       \ 20+ feet straight toward it immediately before the hit, the target has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
@@ -97,8 +96,7 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "bonus_actions":
   - "desc": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has\
       \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Failure:\
-      \ dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Bludgeoning damage.\
-      \ Success: Half damage."
+      \ 16 (2d10 + 5) Bludgeoning damage. Success: Half damage."
     "name": "Trample"
 "source":
   - "XMM"

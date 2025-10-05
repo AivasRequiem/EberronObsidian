@@ -74,14 +74,11 @@ When an archdruid uses their Change Shape action, you may choose the creature th
   - "desc": "The archdruid makes three Staff or Wildfire attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
-      \ + 2) bludgeoning damage plus dice:6d6|noform|noparens|avg|text(21) (6d6)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage plus 21 (6d6) poison damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ range 120 ft., one target. Hit: dice:6d6+5|noform|noparens|avg|text(26)\
-      \ (6d6 + 5) fire damage, and the target is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+  - "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit:\
+      \ 26 (6d6 + 5) fire damage, and the target is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ until the start of the druid's next turn."
     "name": "Wildfire"
   - "desc": "The archdruid casts one of the following spells, using Wisdom as the\

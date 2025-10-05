@@ -64,28 +64,26 @@ Otyughs often bury themselves amid trash heaps and observe their surroundings wi
 "actions":
   - "desc": "The otyugh makes one Bite attack and two Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition. Whenever the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
       \ it is subjected to the following effect. Constitution Saving Throw: DC 15.\
       \ Failure: The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by dice:1d10|noform|noparens|avg|text(5) (d10) and doesn't\
-      \ return to normal until the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition ends on the target. Success: The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ maximum decreases by 5 (d10) and doesn't return to normal until the [Poisoned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition ends on the target.\
+      \ Success: The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition ends."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two tentacles."
     "name": "Tentacle"
   - "desc": "Constitution Saving Throw: DC 14, each creature [Grappled](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Grappled) by the otyugh. Failure: dice:3d8+3|noform|noparens|avg|text(16)\
-      \ (3d8 + 3) Bludgeoning damage, and the target has the [Stunned](Інструмен\
-      ти%20ДМ/CLI/rules/conditions.md#Stunned) condition until the start of the otyugh's\
+      нти%20ДМ/CLI/rules/conditions.md#Grappled) by the otyugh. Failure: 16 (3d8\
+      \ + 3) Bludgeoning damage, and the target has the [Stunned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Stunned) condition until the start of the otyugh's\
       \ next turn. Success: Half damage only."
     "name": "Tentacle Slam"
 "source":

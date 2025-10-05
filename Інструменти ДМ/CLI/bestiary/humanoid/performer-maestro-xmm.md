@@ -130,16 +130,15 @@ Wrestler
 "actions":
   - "desc": "The performer makes three Rapier attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Piercing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Psychic damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Piercing\
+      \ damage plus 7 (2d6) Psychic damage."
     "name": "Rapier"
   - "desc": "Wisdom Saving Throw: DC 15, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 120 feet. Failure: dice:3d10+4|noform|noparens|avg|text(20)\
-      \ (3d10 + 4) Psychic damage, and the target has the [Charmed](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Charmed) condition until the end of the performer's\
-      \ next turn. Success: Half damage only."
+      \ on a point within 120 feet. Failure: 20 (3d10 + 4) Psychic damage, and\
+      \ the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ condition until the end of the performer's next turn. Success: Half damage\
+      \ only."
     "name": "Beguiling Song"
   - "desc": "The performer casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\

@@ -46,11 +46,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The shark can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6) (with [Advantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target doesn't\
-      \ have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
-      \ reach 5 ft. Hit: dice:3d6+4|noform|noparens|avg|text(14) (3d6 + 4) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: +6 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ if the target doesn't have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
+      \ reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

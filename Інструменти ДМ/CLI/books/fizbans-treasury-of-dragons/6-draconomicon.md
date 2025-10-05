@@ -144,7 +144,7 @@ The amethyst dragon lair shown in map 5.1 is set beneath a mountain ridge betwee
 - **Entrances.** Two cave entrances provide access to the lair, one in the rock face just above one tarn and one below the surface of the other tarn. The dragon uses the underwater passage as a secret entrance and emergency exit.  
 - **Main Caves.** The lair is a complex of caves and tunnels; the stone surfaces are smooth and water-worn, and the air is cool and slightly damp.  
 - **Glowing Crystals.** Large clusters of glowing amethyst crystals grow out from the walls and ceiling, casting dim light in a 30-foot radius.  
-- **Chimneys.** Two chimneys connect the main caves to the three chambers above. Each chimney appears to continue up through the ceiling of the upper level and down through the floor of the lower level, but the dragon's magic warps space within the lair. Moving up past the upper level brings a creature to the lower level again, while moving down from the lower level brings a creature to the upper level. A creature or object dropped down one of the chimneys continues falling endlessly unless it or some outside force has the means to slow or stop it. This property of the lair vanishes after `dice:1d10|noform|noparens|avg` (`d10`) days if the dragon dies.  
+- **Chimneys.** Two chimneys connect the main caves to the three chambers above. Each chimney appears to continue up through the ceiling of the upper level and down through the floor of the lower level, but the dragon's magic warps space within the lair. Moving up past the upper level brings a creature to the lower level again, while moving down from the lower level brings a creature to the upper level. A creature or object dropped down one of the chimneys continues falling endlessly unless it or some outside force has the means to slow or stop it. This property of the lair vanishes after `d10` days if the dragon dies.  
 - **Upper Caves.** The dragon most often sleeps in the largest upper chamber of the lair. The dragon's hoard is divided between that area and the chamber at the opposite end of the upper level. The magic of the lair sometimes makes it appear as though the dragon were sleeping amid both caches, creating the impression that two dragons dwell here.  
 
 ### Amethyst Dragon Treasures
@@ -222,7 +222,7 @@ The black dragon lair shown in map 5.2 is a derelict chapel, lost to time in a g
 
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-black-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-black-dragon-xmm.md)) black dragon can use one or more of the following additional lair actions while in its lair:
 
-- **Filth Burst.** The dragon chooses a point on the ground it can see within 120 feet of it. A 20-foot-radius, 20-foot-high cylinder of watery filth centered on that point erupts from the ground until initiative count 20 on the next round. Each creature in the cylinder when it appears or that ends its turn there must make a DC 15 Constitution saving throw, taking `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) poison damage on a failed save, or half as much damage on a successful one. The cylinder is "difficult terrain".  
+- **Filth Burst.** The dragon chooses a point on the ground it can see within 120 feet of it. A 20-foot-radius, 20-foot-high cylinder of watery filth centered on that point erupts from the ground until initiative count 20 on the next round. Each creature in the cylinder when it appears or that ends its turn there must make a DC 15 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. The cylinder is "difficult terrain".  
 - **Grasping Muck.** Tendrils of roiling muck extend from the dragon's lair to grasp up to three creatures of the dragon's choice that it can see within the lair. A targeted creature must succeed on a DC 15 Strength saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until initiative count 20 on the next round.  
 - **Noxious Gas.** A bubble of swamp gas erupts in a 20-foot-radius sphere centered on a point the dragon can see within its lair. Each creature in the area must succeed on a DC 15 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
 
@@ -313,7 +313,7 @@ The lair has the following features:
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-blue-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-blue-dragon-xmm.md)) blue dragon can use one or both of the following additional lair actions while in its lair:
 
 - **Misleading Mirage.** Until initiative count 20 on the next round, at each intersection or branching passage in the lair, a creature other than the dragon has a 50 percent chance of going in a different direction from the direction it intends.  
-- **Sudden Sinkhole.** The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a DC 15 Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking `dice:2d6|noform|noparens|avg|text(7)` (`2d6`) bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit.  
+- **Sudden Sinkhole.** The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a DC 15 Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking 7 (`2d6`) bludgeoning damage and landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit.  
 
 #### Regional Effects
 
@@ -408,7 +408,7 @@ The brass dragon lair shown in map 5.4 is an ancient ruin located within rough, 
 
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-brass-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-brass-dragon-xmm.md)) brass dragon can use one or more of the following additional lair actions while in its lair:
 
-- **Animate Statues.** The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a +7 bonus to hit and dealing `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) bludgeoning damage on a hit.  
+- **Animate Statues.** The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a +7 bonus to hit and dealing 10 (`3d6`) bludgeoning damage on a hit.  
 - **Blast of Wind.** A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet in the wind's direction and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
 - **Obscuring Sand.** Dust and sand fill the air within 120 feet of the dragon, making the area lightly obscured until initiative count 20 on the next round.  
 
@@ -487,8 +487,8 @@ The bronze dragon lair shown on map 5.5 is a set of sea caves that once served a
 
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-bronze-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-bronze-dragon-xmm.md)) bronze dragon can use one or more of the following additional lair actions while in its lair:
 
-- **Ocean's Call.** The dragon conjures a swarm of spectral dolphins. Each creature in the water within 120 feet of the dragon must succeed on a DC 15 Dexterity saving throw or take `dice:1d10|noform|noparens|avg|text(5)` (`d10`) slashing damage; then the swarm vanishes.  
-- **Salt Burst.** The dragon chooses a point it can see in the lair. The air in a 20-foot-radius sphere centered on that point bursts with abrasive salt crystals. Each creature in that area must succeed on a DC 15 Dexterity saving throw or take `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) slashing damage.  
+- **Ocean's Call.** The dragon conjures a swarm of spectral dolphins. Each creature in the water within 120 feet of the dragon must succeed on a DC 15 Dexterity saving throw or take 5 (`d10`) slashing damage; then the swarm vanishes.  
+- **Salt Burst.** The dragon chooses a point it can see in the lair. The air in a 20-foot-radius sphere centered on that point bursts with abrasive salt crystals. Each creature in that area must succeed on a DC 15 Dexterity saving throw or take 10 (`3d6`) slashing damage.  
 - **Whelming Water.** The dragon causes a strong current to course through the water in its lair. The dragon chooses any number of creatures it can see that are standing or swimming in water within 120 feet of it. Each chosen creature must succeed on a DC 15 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
 
 #### Regional Effects
@@ -792,7 +792,7 @@ As they are presented in the "Monster Manual", dragon turtles don't have access 
 
 - **Blasting Current.** A strong water current moves through the dragon turtle's lair. Each creature within 30 feet of the dragon turtle must succeed on a DC 15 Strength saving throw or be moved 30 feet in a direction of the dragon turtle's choice. On a success, the creature is moved 10 feet instead.  
 - **Entangling Kelp.** Strands of spectral kelp reach out to ensnare creatures in a 20-foot-radius sphere centered on a point in the lair that the dragon turtle can see. Each creature in that area must succeed on a DC 15 Strength saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until the end of its next turn.  
-- **Steam Eruption.** Steam erupts in a 15-foot cone from a point on the ground the dragon turtle can see within 120 feet of it. Each creature in that area must make a DC 15 Constitution saving throw, taking `dice:6d6|noform|noparens|avg|text(21)` (`6d6`) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant creatures resistance to this damage.  
+- **Steam Eruption.** Steam erupts in a 15-foot cone from a point on the ground the dragon turtle can see within 120 feet of it. Each creature in that area must make a DC 15 Constitution saving throw, taking 21 (`6d6`) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant creatures resistance to this damage.  
 
 #### Regional Effects
 
@@ -802,7 +802,7 @@ The region containing a dragon turtle's lair can be transformed by its presence,
 - **Elemental Portals.** Crevasses on the ocean floor within 1 mile of the dragon turtle's lair form two-way portals to the Elemental Plane of Water, allowing creatures of elemental water into the world to dwell nearby.  
 - **Hot Water.** Geothermal vents heat the water within 6 miles of the dragon turtle's lair to 100 degrees Fahrenheit.  
 
-If the dragon turtle dies, these effects fade over the course of `dice:1d10|noform|noparens|avg` (`d10`) days.
+If the dragon turtle dies, these effects fade over the course of `d10` days.
 
 > [!note] Aremag
 > 
@@ -953,7 +953,7 @@ The region containing a faerie dragon's lair can be transformed by its presence,
 - **Malleable Time.** Time is fluid within 1 mile of the faerie dragon's lair, flowing somewhere between half and twice its normal speed.  
 - **Mischief Afoot.** Sapient creatures that spend a year within 5 miles of the faerie dragon's lair feel the persistent urge to play pranks on others.  
 
-If the faerie dragon dies, these effects fade over the course of `dice:1d10|noform|noparens|avg` (`d10`) days.
+If the faerie dragon dies, these effects fade over the course of `d10` days.
 
 ### Faerie Dragon Treasures
 
@@ -1120,7 +1120,7 @@ The lair has the following features:
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-green-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-green-dragon-xmm.md)) green dragon can use one or both of the following additional lair actions while in its lair:
 
 - **Creeper Vines.** The dragon can use the vines and roots within its lair to animate up to three Humanoid corpses, which become [zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) (see their entry in the "Monster Manual"). The zombies take their turn immediately after this lair action. Each one reverts to an inanimate corpse after 1 minute, when the dragon uses this lair action again, or when the zombie is destroyed.  
-- **Lashing Root.** One large root or branch that is part of the lair makes a melee attack roll against a creature within 10 feet of it. It has a +7 bonus to hit and deals `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) bludgeoning damage on a hit. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
+- **Lashing Root.** One large root or branch that is part of the lair makes a melee attack roll against a creature within 10 feet of it. It has a +7 bonus to hit and deals 10 (`3d6`) bludgeoning damage on a hit. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
 
 #### Regional Effects
 
@@ -1261,7 +1261,7 @@ The lair has the following features:
 At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/bestiary/dragon/adult-red-dragon-xmm.md) or [ancient](Інструменти%20ДМ/CLI/bestiary/dragon/ancient-red-dragon-xmm.md)) red dragon can use one or both of the following additional lair actions while in its lair:
 
 - **Noxious Smoke.** A cloud of thick, dark smoke fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is heavily obscured. A creature other than the dragon that starts its turn in the cloud or enters it for the first time on its turn must succeed on a DC 15 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) until the end of its turn. The cloud lasts until initiative count 20 on the next round.  
-- **Searing Heat.** Searing heat spreads out in a 15-foot-radius sphere centered on a point the dragon can see within 120 feet of it. Any creature that enters the affected area or starts its turn there must make a DC 15 Constitution saving throw, taking `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) fire damage on a failed save, or half as much damage on a successful one. The heat lasts until initiative count 20 on the next round.  
+- **Searing Heat.** Searing heat spreads out in a 15-foot-radius sphere centered on a point the dragon can see within 120 feet of it. Any creature that enters the affected area or starts its turn there must make a DC 15 Constitution saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one. The heat lasts until initiative count 20 on the next round.  
 
 #### Regional Effects
 

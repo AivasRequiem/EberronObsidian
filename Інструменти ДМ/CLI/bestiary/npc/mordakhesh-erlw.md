@@ -59,7 +59,7 @@ Many of the horrors of the Last War were instigated—or at least encouraged—b
 "languages": "Common, Infernal"
 "cr": "15"
 "traits":
-  - "desc": "Mordakhesh's spellcasting ability is Charisma (spell save DC 18, dice:1d20+10|noform|noparens|text(+10)\
+  - "desc": "Mordakhesh's spellcasting ability is Charisma (spell save DC 18, +10\
       \ to hit with spell attacks). Mordakhesh can innately cast the following spells,\
       \ requiring no material components:\n\nAt will: [chromatic orb](Інструме\
       нти%20ДМ/CLI/spells/chromatic-orb-xphb.md) (see \"Actions\" below), [detect\
@@ -79,14 +79,11 @@ Many of the horrors of the Last War were instigated—or at least encouraged—b
 "actions":
   - "desc": "Mordakhesh makes three greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
-      \ (2d6 + 5) slashing damage plus dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ force damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 12 (2d6 + 5) slashing damage plus 5 (d10) force damage."
     "name": "Greatsword"
-  - "desc": "Ranged Spell Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ range 120 ft., one creature. Hit: dice:3d8|noform|noparens|avg|text(13)\
-      \ (3d8) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning,\
+  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one creature. Hit:\
+      \ 13 (3d8) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning,\
       \ poison, or thunder."
     "name": "Chromatic Orb"
 "legendary_actions":

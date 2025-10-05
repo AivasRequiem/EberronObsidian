@@ -35,9 +35,9 @@ aliases:
 
 Swarming locusts fill a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on a point you choose within range. The [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) remains for the duration, and its area is [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md) and [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).
 
-When the swarm appears, each creature in it makes a Constitution saving throw, taking `dice:4d10|noform|noparens|avg` (`4d10`) Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
+When the swarm appears, each creature in it makes a Constitution saving throw, taking `4d10` Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d10|noform|noparens|avg|text(d10)` for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The damage increases by `d10` for each spell slot level above 5.
 
 **Classes**: [Warlock (Fiend Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fiend-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Ranger (Swarmkeeper)](Інструменти%20ДМ/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB")
 

@@ -51,17 +51,14 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
 "actions":
   - "desc": "The grafter makes one Claw attack and one Greatclub attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
-      \ (1d8 + 3) slashing damage plus dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 7 (1d8 + 3) slashing damage plus 5 (d10) poison damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
-      \ (2d8 + 3) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 12 (2d8 + 3) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The grafter retches forth a spray of acidic bile in a 30-foot cone. Each\
-      \ creature in that area must make a DC 12 Dexterity saving throw, taking dice:4d6|noform|noparens|avg|text(14)\
+      \ creature in that area must make a DC 12 Dexterity saving throw, taking 14\
       \ (4d6) acid damage on a failed save, or half as much damage on a successful\
       \ one."
     "name": "Acid Retch (Recharge 5-6)"

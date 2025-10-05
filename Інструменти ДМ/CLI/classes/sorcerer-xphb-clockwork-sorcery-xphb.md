@@ -83,7 +83,7 @@ In addition, consult the Manifestations of Order table and choose or randomly de
 
 ### Restore Balance (Level 3)
 
-Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of yourself is about to roll a `dice:d20|noform|noparens|avg` (`d20`) with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) or [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md), you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to prevent the roll from being affected by [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) and [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md).
+Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of yourself is about to roll a `d20` with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) or [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md), you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to prevent the roll from being affected by [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) and [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md).
 
 You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
@@ -95,7 +95,7 @@ The ward lasts until you finish a [Long Rest](Інструменти%20ДМ/CLI/
 
 ### Trance of Order (Level 14)
 
-You gain the ability to align your consciousness with the endless calculations of Mechanus. As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md), and whenever you make a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can treat a roll of 9 or lower on the `dice:d20|noform|noparens|avg` (`d20`) as a 10.
+You gain the ability to align your consciousness with the endless calculations of Mechanus. As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md), and whenever you make a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can treat a roll of 9 or lower on the `d20` as a 10.
 
 Once you use this feature, you can't use it again until you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) unless you spend 5 Sorcery Points (no action required) to restore your use of it.
 

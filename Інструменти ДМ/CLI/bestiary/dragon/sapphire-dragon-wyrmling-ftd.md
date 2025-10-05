@@ -150,15 +150,13 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
       \ and can leave a 5-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
-      \ (1d10 + 3) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
-      \ thunder damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d10 + 3) piercing damage plus 3 (d6) thunder damage."
     "name": "Bite"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
       \ a 15-foot cone. Each creature in that area must make a DC 13 Constitution\
-      \ saving throw. On a failed save, the creature takes dice:4d10|noform|noparens|avg|text(22)\
-      \ (4d10) thunder damage and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ saving throw. On a failed save, the creature takes 22 (4d10) thunder damage\
+      \ and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ until the end of its next turn. On a successful save, the creature takes half\
       \ as much damage and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Debilitating Breath (Recharge 5-6)"

@@ -84,27 +84,22 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
 "actions":
   - "desc": "The elder oblex makes two Pseudopod attacks, and it uses Eat Memories."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:4d6+3|noform|noparens|avg|text(17)\
-      \ (4d6 + 3) bludgeoning damage plus dice:4d6|noform|noparens|avg|text(14)\
-      \ (4d6) psychic damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 17 (4d6 + 3) bludgeoning damage plus 14 (4d6) psychic damage."
     "name": "Pseudopod"
   - "desc": "The oblex targets one creature it can see within 5 feet of it. The target\
-      \ must succeed on a DC 18 Wisdom saving throw or take dice:8d10|noform|noparens|avg|text(44)\
-      \ (8d10) psychic damage and become memory drained until it finishes a short\
-      \ or long rest or until it benefits from the [greater restoration](Інструмен\
-      ти%20ДМ/CLI/spells/greater-restoration-xphb.md) or [heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md)\
-      \ spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.\n\
-      \nWhile memory drained, the target must roll a dice:d4|noform|noparens|avg\
-      \ (d4) and subtract the number rolled from any ability check or attack roll\
-      \ it makes. Each time the target is memory drained beyond the first, the die\
-      \ size increases by one: the dice:d4|noform|noparens|avg (d4) becomes a\
-      \ dice:d6|noform|noparens|avg (d6), the dice:d6|noform|noparens|avg (d6)\
-      \ becomes a dice:d8|noform|noparens|avg (d8), and so on until the die becomes\
-      \ a dice:d20|noform|noparens|avg (d20), at which point the target becomes\
-      \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) for 1\
-      \ hour. The effect then ends.\n\nThe oblex learns all the languages a memory-drained\
-      \ target knows and gains all its skill proficiencies."
+      \ must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage\
+      \ and become memory drained until it finishes a short or long rest or until\
+      \ it benefits from the [greater restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md)\
+      \ or [heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md) spell. Constructs, Oozes,\
+      \ Plants, and Undead succeed on the save automatically.\n\nWhile memory drained,\
+      \ the target must roll a d4 and subtract the number rolled from any ability\
+      \ check or attack roll it makes. Each time the target is memory drained beyond\
+      \ the first, the die size increases by one: the d4 becomes a d6, the d6\
+      \ becomes a d8, and so on until the die becomes a d20, at which point the\
+      \ target becomes [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
+      \ for 1 hour. The effect then ends.\n\nThe oblex learns all the languages a\
+      \ memory-drained target knows and gains all its skill proficiencies."
     "name": "Eat Memories"
   - "desc": "The oblex casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
@@ -119,13 +114,13 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   - "desc": "The oblex extrudes a piece of itself that assumes the appearance of one\
       \ Medium or smaller creature whose memories it has stolen. This simulacrum appears,\
       \ feels, and sounds exactly like the creature it impersonates, though it smells\
-      \ faintly of sulfur. The oblex can impersonate dice:2d6+1|noform|noparens|avg\
-      \ (2d6 + 1) different creatures, each one tethered to its body by a strand\
-      \ of slime that can extend up to 120 feet away. The simulacrum is an extension\
-      \ of the oblex, meaning that the oblex occupies its space and the simulacrum's\
-      \ space simultaneously. The tether is immune to damage, but it is severed if\
-      \ there is no opening at least 1 inch wide between the oblex and the simulacrum.\
-      \ The simulacrum disappears if the tether is severed."
+      \ faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures,\
+      \ each one tethered to its body by a strand of slime that can extend up to 120\
+      \ feet away. The simulacrum is an extension of the oblex, meaning that the oblex\
+      \ occupies its space and the simulacrum's space simultaneously. The tether is\
+      \ immune to damage, but it is severed if there is no opening at least 1 inch\
+      \ wide between the oblex and the simulacrum. The simulacrum disappears if the\
+      \ tether is severed."
     "name": "Sulfurous Impersonation"
 "source":
   - "MPMM"

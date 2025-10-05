@@ -36,7 +36,7 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 |-----------|----------------------------|
 | 1 | Evidence of previous occupants, like bandits, wolves, or dragons. |
 | 2 | Heaps of regurgitated pellets studded with coins or other treasure. |
-| 3 | A nest with `dice:1d6\|noform\|noparens\|avg` (`d6`) owlbear eggs. |
+| 3 | A nest with `d6` owlbear eggs. |
 | 4 | Passages through the earth or hollow trees. |
 ^owlbear-den-features
 
@@ -66,8 +66,7 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 "actions":
   - "desc": "The owlbear makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Slashing\
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing\
       \ damage."
     "name": "Rend"
 "source":

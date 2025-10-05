@@ -51,21 +51,19 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "traits":
   - "desc": "When the draconian is reduced to 0 hit points, it bursts into flames\
       \ and is reduced to ashes. Each creature in a 10-foot-radius sphere centered\
-      \ on the draconian must succeed on a DC 13 Dexterity saving throw or take dice:3d6|noform|noparens|avg|text(10)\
+      \ on the draconian must succeed on a DC 13 Dexterity saving throw or take 10\
       \ (3d6) fire damage."
     "name": "Death Throes"
 "actions":
   - "desc": "The draconian makes two Serrated Sword attacks and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
       \ (2d8 + 4) slashing damage."
     "name": "Serrated Sword"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
-      \ + 4) bludgeoning damage. If the target is a Large or smaller creature, it\
-      \ must succeed on a DC 14 Strength saving throw or be knocked [prone](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) bludgeoning damage. If the target is a Large or smaller creature,\
+      \ it must succeed on a DC 14 Strength saving throw or be knocked [prone](Інс\
+      трументи%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
 "reactions":
   - "desc": "After the draconian kills a Medium or smaller Humanoid, the draconian\

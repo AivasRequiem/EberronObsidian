@@ -56,8 +56,8 @@ Axe beaks are difficult to train, but those hatched and raised in captivity can 
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+      \ damage."
     "name": "Beak"
 "source":
   - "XMM"

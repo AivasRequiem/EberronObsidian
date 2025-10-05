@@ -57,8 +57,7 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "cr": "7"
 "traits":
   - "desc": "When the troll takes damage of any type but psychic, each creature within\
-      \ 5 feet of the troll takes dice:2d8|noform|noparens|avg|text(9) (2d8) poison\
-      \ damage."
+      \ 5 feet of the troll takes 9 (2d8) poison damage."
     "name": "Poison Splash"
   - "desc": "The troll regains 10 hit points at the start of each of its turns. If\
       \ the troll takes acid or fire damage, this trait doesn't function at the start\
@@ -68,22 +67,18 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "actions":
   - "desc": "The troll makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
-      \ + 4) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8) poison\
-      \ damage, and the creature is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ until the start of the troll's next turn."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) piercing damage plus 4 (d8) poison damage, and the creature\
+      \ is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) until the\
+      \ start of the troll's next turn."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
-      \ (2d6 + 4) slashing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage plus 4 (d8) poison damage."
     "name": "Claws"
   - "desc": "The troll slices itself with a claw, releasing a spray of poison in a\
-      \ 15-foot cube. The troll takes dice:2d6|noform|noparens|avg|text(7) (2d6)\
-      \ slashing damage (this damage can't be reduced in any way). Each creature in\
-      \ the area must make a DC 16 Constitution saving throw. On a failed save, a\
-      \ creature takes dice:4d8|noform|noparens|avg|text(18) (4d8) poison damage\
+      \ 15-foot cube. The troll takes 7 (2d6) slashing damage (this damage can't\
+      \ be reduced in any way). Each creature in the area must make a DC 16 Constitution\
+      \ saving throw. On a failed save, a creature takes 18 (4d8) poison damage\
       \ and is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1\
       \ minute. On a successful save, the creature takes half as much damage and isn't\
       \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned). A [poisoned](І\

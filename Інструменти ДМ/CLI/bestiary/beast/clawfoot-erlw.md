@@ -59,13 +59,11 @@ Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains
 "actions":
   - "desc": "The clawfoot makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) slashing damage."
     "name": "Claws"
 "source":
   - "ERLW"

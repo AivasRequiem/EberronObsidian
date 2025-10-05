@@ -55,10 +55,9 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
-      \ (1d6 + 2) piercing damage, or dice:1d8+2|noform|noparens|avg|text(6) (1d8\
-      \ + 2) piercing damage if used with two hands to make a melee attack."
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+      \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "GGR"

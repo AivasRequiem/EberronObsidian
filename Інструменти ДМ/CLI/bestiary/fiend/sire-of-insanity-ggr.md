@@ -70,14 +70,13 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "cr": "12"
 "traits":
   - "desc": "The sire's innate spellcasting ability is Charisma (spell save DC 18,\
-      \ dice:1d20+10|noform|noparens|text(+10) to hit with spell attacks). The sire\
-      \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
-      \ [crown of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md),\
-      \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md), [suggestion](І\
-      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n1/day each: [confusion](І\
-      нструменти%20ДМ/CLI/spells/confusion-xphb.md), [mass suggestion](Інструменти\
-      %20ДМ/CLI/spells/mass-suggestion-xphb.md)"
+      \ +10 to hit with spell attacks). The sire can innately cast the following\
+      \ spells, requiring no material components:\n\nAt will: [clairvoyance](І\
+      нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [crown of madness](Інструм\
+      енти%20ДМ/CLI/spells/crown-of-madness-xphb.md), [major image](Інструменти%20Д\
+      М/CLI/spells/major-image-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\
+      \n1/day each: [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md),\
+      \ [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "Any creature that starts its turn within 30 feet of the sire must make\
       \ a DC 18 Wisdom saving throw. On a successful save, the creature is immune\
@@ -92,15 +91,11 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "actions":
   - "desc": "The sire makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:3d12+6|noform|noparens|avg|text(25)\
-      \ (3d12 + 6) piercing damage plus dice:3d10|noform|noparens|avg|text(16)\
-      \ (3d10) psychic damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit:\
+      \ 25 (3d12 + 6) piercing damage plus 16 (3d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d8+6|noform|noparens|avg|text(10)\
-      \ (1d8 + 6) slashing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 10 (1d8 + 6) slashing damage plus 9 (2d8) psychic damage."
     "name": "Claws"
 "source":
   - "GGR"

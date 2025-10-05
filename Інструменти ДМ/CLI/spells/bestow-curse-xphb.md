@@ -36,7 +36,7 @@ You touch a creature, which must succeed on a Wisdom saving throw or become curs
 - Choose one ability. The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks and saving throws made with that ability.  
 - The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on attack rolls against you.  
 - In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the [Dodge](Інструменти%20ДМ/CLI/rules/actions.md#Dodge) action on that turn.  
-- If you deal damage to the target with an attack roll or a spell, the target takes an extra `dice:1d8|noform|noparens|avg` (`d8`) Necrotic damage.  
+- If you deal damage to the target with an attack roll or a spell, the target takes an extra `d8` Necrotic damage.  
 
 **Using a Higher-Level Spell Slot.** If you cast this spell using a level 4 spell slot, you can maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration) on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration), and the duration becomes 8 hours (level 5-6 slot) or 24 hours (level 7-8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.
 

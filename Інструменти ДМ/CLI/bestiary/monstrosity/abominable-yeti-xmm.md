@@ -70,25 +70,22 @@ Due to yetis' elusiveness, folktales about yetis are more common than sightings.
   - "desc": "The yeti can use its Chilling Gaze and makes two attacks, using Claw\
       \ or Ice Throw in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
-      \ 5 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Cold damage."
+  - "desc": "Melee Attack Roll: +11, reach 5 ft. Hit: 14 (2d6 + 7) Slashing\
+      \ damage plus 7 (2d6) Cold damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: dice:1d20+11|noform|noparens|text(+11), range\
-      \ 60/240 ft. Hit: dice:2d4+7|noform|noparens|avg|text(12) (2d4 + 7) Bludgeoning\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Cold damage."
+  - "desc": "Ranged Attack Roll: +11, range 60/240 ft. Hit: 12 (2d4 + 7) Bludgeoning\
+      \ damage plus 7 (2d6) Cold damage."
     "name": "Ice Throw"
   - "desc": "Constitution Saving Throw: DC 18, one creature the yeti can see within\
-      \ 30 feet. Failure: dice:6d6|noform|noparens|avg|text(21) (6d6) Cold damage,\
-      \ and the target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
-      \ condition until the start of the yeti's next turn unless the target has [Immunity](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. Success:\
-      \ The target is immune to this yeti's Chilling Gaze for 1 hour."
+      \ 30 feet. Failure: 21 (6d6) Cold damage, and the target has the [Paralyzed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the start\
+      \ of the yeti's next turn unless the target has [Immunity](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. Success: The target\
+      \ is immune to this yeti's Chilling Gaze for 1 hour."
     "name": "Chilling Gaze"
   - "desc": "Constitution Saving Throw: DC 18, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:10d8|noform|noparens|avg|text(45) (10d8) Cold damage. Success:\
-      \ Half damage."
+      \ 45 (10d8) Cold damage. Success: Half damage."
     "name": "Cold Breath (Recharge 6)"
 "source":
   - "XMM"

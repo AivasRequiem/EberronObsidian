@@ -37,7 +37,7 @@ You have advantage on all Intelligence, Wisdom, and Charisma saving throws.
 
 You are proficient in one of the following skills of your choice: [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), [History](Інструменти%20ДМ/CLI/rules/skills.md#History), [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), [Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine), [Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance), or [Sleight of Hand](Інструменти%20ДМ/CLI/rules/skills.md#Sleight%20of%20Hand). You are also proficient with one "tool" of your choice.
 
-Whenever you make an ability check with the chosen skill or tool, roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the check's total.
+Whenever you make an ability check with the chosen skill or tool, roll a `d4` and add the number rolled to the check's total.
 
 ### Partially Amphibious
 

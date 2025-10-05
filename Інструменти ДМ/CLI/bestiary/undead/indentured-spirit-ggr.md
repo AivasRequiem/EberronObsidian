@@ -50,13 +50,12 @@ An indentured spirit is an incorporeal being draped in ghostly black robes and a
 "cr": "1"
 "traits":
   - "desc": "The spirit can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ force damage if it ends its turn inside an object."
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10\
+      \ (3d6) necrotic damage."
     "name": "Withering Touch"
 "source":
   - "GGR"

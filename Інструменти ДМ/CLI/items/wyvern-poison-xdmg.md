@@ -15,6 +15,6 @@ aliases:
 - **Properties**: [Poison](Інструменти%20ДМ/CLI/rules/item-properties.md#Poison)
 - **Cost**: 1,200 gp
 
-A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking `dice:7d6|noform|noparens|avg|text(24)` (`7d6`) Poison damage on a failed save or half as much damage on a successful one.
+A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (`7d6`) Poison damage on a failed save or half as much damage on a successful one.
 
 *Source: Dungeon Master's Guide (2024) p. 91. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

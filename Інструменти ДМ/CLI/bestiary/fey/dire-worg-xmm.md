@@ -63,19 +63,16 @@ Sometimes mistaken at first for giant wolves, worgs are vicious hunters. These s
 "actions":
   - "desc": "The worg makes three Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
-      \ 5 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Piercing\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage,\
-      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition until the start of the worg's next turn. While [Poisoned](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Poisoned), the target can't regain [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Piercing\
+      \ damage plus 7 (2d6) Poison damage, and the target has the [Poisoned](Інс\
+      трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
+      \ the worg's next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+      \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Bite"
   - "desc": "Wisdom Saving Throw: DC 16, each creature within 30 feet that isn't\
-      \ a worg. Failure: dice:8d8|noform|noparens|avg|text(36) (8d8) Psychic\
-      \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the start of the worg's next turn. Success: Half damage\
-      \ only."
+      \ a worg. Failure: 36 (8d8) Psychic damage, and the target has the [Frightened](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the start\
+      \ of the worg's next turn. Success: Half damage only."
     "name": "Dreadful Howl (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The worg teleports, along with a willing creature of its choice within\

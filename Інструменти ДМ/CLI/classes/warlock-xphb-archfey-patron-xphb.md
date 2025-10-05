@@ -73,7 +73,7 @@ In addition, whenever you cast that spell, you can choose one of the following a
 
 #### Refreshing Step
 
-Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains `dice:1d10|noform|noparens|avg` (`d10`) [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).
+Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains `d10` [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).
 
 #### Taunting Step
 
@@ -91,7 +91,7 @@ You have the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#I
 
 #### Dreadful Step
 
-Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take `dice:2d10|noform|noparens|avg` (`2d10`) Psychic damage.
+Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take `2d10` Psychic damage.
 
 ### Beguiling Defenses (Level 10)
 

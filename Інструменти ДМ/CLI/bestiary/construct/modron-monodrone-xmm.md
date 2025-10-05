@@ -84,11 +84,10 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
       \ it was wearing or carrying."
     "name": "Disintegration"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Force damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Force damage."
     "name": "Gear"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 120\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Force damage."
+  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 6 (1d8 + 2) Force\
+      \ damage."
     "name": "Gear Flinger"
 "source":
   - "XMM"

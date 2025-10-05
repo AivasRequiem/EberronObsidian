@@ -54,8 +54,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ its Strength."
     "name": "Jumper"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: 1 Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
     "name": "Scratch"
 "source":
   - "XMM"

@@ -26,7 +26,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) must be contiguous with at least one other [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md). Each creature in the area makes a Dexterity saving throw, taking `dice:7d10|noform|noparens|avg` (`7d10`) Fire damage on a failed save or half as much damage on a successful one.
+A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) must be contiguous with at least one other [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md). Each creature in the area makes a Dexterity saving throw, taking `7d10` Fire damage on a failed save or half as much damage on a successful one.
 
 Flammable objects in the area that aren't being worn or carried start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
 

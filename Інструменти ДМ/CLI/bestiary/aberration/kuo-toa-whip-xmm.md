@@ -112,14 +112,12 @@ Kuo-toa typically organize their communities around sites they believe to be imp
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 10\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Piercing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12). Until\
-      \ the grapple ends, the kuo-toa can't make Pincer Staff attacks."
+  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Piercing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12).\
+      \ Until the grapple ends, the kuo-toa can't make Pincer Staff attacks."
     "name": "Pincer Staff"
-  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 60\
-      \ ft. Hit: dice:3d4+2|noform|noparens|avg|text(9) (3d4 + 2) Acid damage."
+  - "desc": "Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage."
     "name": "Conjure Slimy Glob"
 "bonus_actions":
   - "desc": "The kuo-toa casts [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md),\

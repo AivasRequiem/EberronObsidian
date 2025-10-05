@@ -81,12 +81,10 @@ Many grells pursue methods of traveling between worlds and planes of existence. 
 "actions":
   - "desc": "The grell makes one Beak attack and one Paralyzing Tentacles attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Piercing\
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Piercing\
       \ damage."
     "name": "Beak"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 10\
-      \ ft. Hit: dice:1d10+2|noform|noparens|avg|text(7) (1d10 + 2) Piercing\
+  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 7 (1d10 + 2) Piercing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12) from\
       \ two of ten tentacles. The target is also subjected to the following effect.\

@@ -68,12 +68,10 @@ aliases:
 "actions":
   - "desc": "The felidar makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d8+4|noform|noparens|avg|text(17)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
       \ (3d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:3d6+4|noform|noparens|avg|text(14)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
       \ (3d6 + 4) slashing damage."
     "name": "Claws"
 "source":

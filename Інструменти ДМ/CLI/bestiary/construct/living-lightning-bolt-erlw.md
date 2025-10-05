@@ -84,14 +84,13 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
 "actions":
   - "desc": "The living spell makes two Magical Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:5d6+4|noform|noparens|avg|text(21)\
+  - "desc": "Melee Spell Attack: +7 to hit, reach 10 ft., one target. Hit: 21\
       \ (5d6 + 4) lightning damage."
     "name": "Magical Strike"
   - "desc": "The living spell unleashes a stroke of lightning in a line 100 feet long\
       \ and 5 feet wide. Each creature in the line must make a DC 15 Dexterity saving\
-      \ throw, taking dice:8d6|noform|noparens|avg|text(28) (8d6) lightning damage\
-      \ on a failed save, or half as much damage on a successful one."
+      \ throw, taking 28 (8d6) lightning damage on a failed save, or half as much\
+      \ damage on a successful one."
     "name": "Spell Mimicry (Recharge 5-6)"
 "source":
   - "ERLW"

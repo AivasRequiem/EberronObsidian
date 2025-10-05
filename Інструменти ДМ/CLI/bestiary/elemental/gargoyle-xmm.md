@@ -100,8 +100,8 @@ Gargoyles seek to ambush foes or creatures that trespass on their territories. W
 "actions":
   - "desc": "The gargoyle makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
+      \ damage."
     "name": "Claw"
 "source":
   - "XMM"

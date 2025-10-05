@@ -61,9 +61,8 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage\
-      \ plus dice:2d4|noform|noparens|avg|text(5) (2d4) Psychic damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
+      \ damage plus 5 (2d4) Psychic damage."
     "name": "Claw"
   - "desc": "The quaggoth casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\nAt will:\

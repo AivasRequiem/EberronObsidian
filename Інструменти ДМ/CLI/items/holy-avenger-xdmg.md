@@ -74,7 +74,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/holy-avenger.webp#right)
 
 
-You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Fiend or an Undead with it, that creature takes an extra `dice:2d10|noform|noparens|avg` (`2d10`) Radiant damage.
+You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Fiend or an Undead with it, that creature takes an extra `2d10` Radiant damage.
 
 While you hold the drawn weapon, it creates a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from you. You and all creatures [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you in the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) increases to 30 feet.
 

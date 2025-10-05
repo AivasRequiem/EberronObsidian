@@ -83,13 +83,11 @@ The drive to subjugate and pillage is part of hobgoblins' supernatural nature, t
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:2d10+1|noform|noparens|avg|text(12) (2d10 + 1) Slashing\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing\
       \ damage."
     "name": "Longsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 150/600\
-      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Piercing damage\
-      \ plus dice:3d4|noform|noparens|avg|text(7) (3d4) Poison damage."
+  - "desc": "Ranged Attack Roll: +3, range 150/600 ft. Hit: 5 (1d8 + 1) Piercing\
+      \ damage plus 7 (3d4) Poison damage."
     "name": "Longbow"
 "source":
   - "XMM"

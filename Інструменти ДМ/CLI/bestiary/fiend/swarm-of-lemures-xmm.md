@@ -60,10 +60,9 @@ The least of all devils, lemures arise from wicked souls, their mortal memories 
 "cr": "3"
 "traits":
   - "desc": "If the swarm dies in the Nine Hells, it revives with all its [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) in dice:1d10|noform|noparens|avg\
-      \ (d10) days unless it is killed by a creature under the effects of a [Bless](І\
-      нструменти%20ДМ/CLI/spells/bless-xphb.md) spell or its remains are sprinkled\
-      \ with Holy Water."
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) in d10 days unless\
+      \ it is killed by a creature under the effects of a [Bless](Інструменти%20ДМ\
+      /CLI/spells/bless-xphb.md) spell or its remains are sprinkled with Holy Water."
     "name": "Hellish Restoration"
   - "desc": "The swarm can occupy another creature's space and vice versa, and the\
       \ swarm can move through an opening large enough for a Medium creature. The\
@@ -73,10 +72,9 @@ The least of all devils, lemures arise from wicked souls, their mortal memories 
 "actions":
   - "desc": "The swarm makes two Vile Slime attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Poison damage,\
-      \ or dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Poison damage if the\
-      \ swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Poison damage,\
+      \ or 9 (2d6 + 2) Poison damage if the swarm is [Bloodied](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Bloodied)."
     "name": "Vile Slime"
 "source":
   - "XMM"

@@ -56,20 +56,19 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
 "cr": "4"
 "traits":
   - "desc": "The kraul's innate spellcasting ability is Wisdom (spell save DC 12,\
-      \ dice:1d20+4|noform|noparens|text(+4) to hit with spell attacks). The kraul\
-      \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md),\
-      \ [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md)\n\n3/day\
-      \ each: [ray of enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md),\
-      \ [ray of sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n\
-      1/day each: [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
-      \ [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [vampiric touch](Інс\
-      трументи%20ДМ/CLI/spells/vampiric-touch-xphb.md)"
+      \ +4 to hit with spell attacks). The kraul can innately cast the following\
+      \ spells, requiring no material components:\n\nAt will: [chill touch](Ін\
+      струменти%20ДМ/CLI/spells/chill-touch-xphb.md), [poison spray](Інструменти%20Д\
+      М/CLI/spells/poison-spray-xphb.md)\n\n3/day each: [ray of enfeeblement](І\
+      нструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md), [ray of sickness](І\
+      нструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n1/day each: [animate\
+      \ dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md), [blight](Інструме\
+      нти%20ДМ/CLI/spells/blight-xphb.md), [vampiric touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When a creature within 30 feet of the kraul drops to 0 hit points, the\
-      \ kraul or another creature of its choice within 30 feet of it gains dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) temporary hit points, provided the kraul isn't [incapacitated](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Incapacitated)."
+      \ kraul or another creature of its choice within 30 feet of it gains 5 (d10)\
+      \ temporary hit points, provided the kraul isn't [incapacitated](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Feed on Death"
   - "desc": "The kraul is immune to the [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ and [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) conditions\
@@ -86,10 +85,9 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
   - "desc": "The kraul makes one attack with its quarterstaff and casts one of its\
       \ spells with a casting time of 1 action."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) bludgeoning damage, or dice:1d8+3|noform|noparens|avg|text(7) (1d8\
-      \ + 3) bludgeoning damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used\
+      \ with two hands."
     "name": "Quarterstaff"
 "source":
   - "GGR"

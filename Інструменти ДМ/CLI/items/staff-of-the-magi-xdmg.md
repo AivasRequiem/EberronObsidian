@@ -55,7 +55,7 @@ While holding the staff, you can cast one of the spells on the following table f
 
 ## Regaining Charges
 
-The staff regains `dice:4d6+2|noform|noparens|avg` (`4d6 + 2`) expended charges daily at dawn. If you expend the last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 20, the staff regains `dice:1d12+1|noform|noparens|avg` (`1d12 + 1`) charges.
+The staff regains `4d6 + 2` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 20, the staff regains `1d12 + 1` charges.
 
 ## Retributive Strike
 

@@ -152,19 +152,16 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
-      \ (2d10 + 5) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
-      \ thunder damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 16 (2d10 + 5) piercing damage plus 4 (d8) thunder damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6\
-      \ + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
       \ a 30-foot cone. Each creature in that area must make a DC 17 Constitution\
-      \ saving throw. On a failed save, the creature takes dice:6d10|noform|noparens|avg|text(33)\
-      \ (6d10) thunder damage and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ saving throw. On a failed save, the creature takes 33 (6d10) thunder damage\
+      \ and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ until the end of its next turn. On a successful save, the creature takes half\
       \ as much damage and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Debilitating Breath (Recharge 5-6)"

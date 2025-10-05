@@ -54,13 +54,11 @@ Shifters are tied to primal spirits, which most of them refer to as the beast wi
       \ of its turns while in its bestial form."
     "name": "Shifting (Recharges after a Short or Long Rest)"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
-      \ + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
-      \ (1d4 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d4 + 3) piercing damage."
     "name": "Bite"
 "source":
   - "ERLW"

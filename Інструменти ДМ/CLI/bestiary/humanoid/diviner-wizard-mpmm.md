@@ -53,17 +53,15 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The diviner makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+7|noform|noparens|text(+7)\
-      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:3d10+4|noform|noparens|avg|text(20)\
-      \ (3d10 + 4) radiant damage."
+  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. Hit: 20 (3d10 + 4) radiant damage."
     "name": "Arcane Burst"
   - "desc": "The diviner magically creates a burst of illumination in a 10-foot-radius\
       \ sphere centered on a point within 120 feet of it. Each creature in that area\
       \ must make a DC 15 Wisdom saving throw. On a failed save, a creature takes\
-      \ dice:10d8|noform|noparens|avg|text(45) (10d8) psychic damage and is [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) until the end of the diviner's\
-      \ next turn. On a successful save, the creature takes half as much damage and\
-      \ isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
+      \ 45 (10d8) psychic damage and is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ until the end of the diviner's next turn. On a successful save, the creature\
+      \ takes half as much damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
     "name": "Overwhelming Revelation (Recharge 5-6)"
   - "desc": "The diviner casts one of the following spells, using Intelligence as\
       \ the spellcasting ability (spell save DC 15):\n\nAt will: [mage hand](І\
@@ -80,9 +78,9 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
     "name": "Spellcasting"
 "reactions":
   - "desc": "When the diviner or a creature it can see makes an attack roll, a saving\
-      \ throw, or an ability check, the diviner rolls a dice:d20|noform|noparens|avg\
-      \ (d20) and chooses whether to use that roll in place of the dice:d20|noform|noparens|avg\
-      \ (d20) rolled for the attack roll, saving throw, or ability check. "
+      \ throw, or an ability check, the diviner rolls a d20 and chooses whether\
+      \ to use that roll in place of the d20 rolled for the attack roll, saving\
+      \ throw, or ability check. "
     "name": "Portent (3/Day)"
 "source":
   - "MPMM"

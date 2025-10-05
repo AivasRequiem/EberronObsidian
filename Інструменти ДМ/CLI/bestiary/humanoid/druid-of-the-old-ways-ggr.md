@@ -55,18 +55,17 @@ The druids of the Old Ways believe that civilization will never be eradicated by
 "cr": "7"
 "traits":
   - "desc": "The druid is a 12th-level Gruul spellcaster. Its spellcasting ability\
-      \ is Wisdom (spell save DC 16, dice:1d20+8|noform|noparens|text(+8) to hit\
-      \ with spell attacks). It has the following druid spells prepared:\n\nCantrips\
-      \ (at will): [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md),\
-      \ [produce flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md), [resistance](І\
-      нструменти%20ДМ/CLI/spells/resistance-xphb.md), [thorn whip](Інструменти%20Д\
-      М/CLI/spells/thorn-whip-xphb.md)\n\n1st level (4 slots): [cure wounds](І\
-      нструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [faerie fire](Інструменти%20Д\
-      М/CLI/spells/faerie-fire-xphb.md), [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\
-      \n2nd level (3 slots): [beast sense](Інструменти%20ДМ/CLI/spells/beast-sense-xphb.md),\
-      \ [flame blade](Інструменти%20ДМ/CLI/spells/flame-blade-xphb.md), [pass without\
-      \ trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md)\n\n3rd level\
-      \ (3 slots): [conjure animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md),\
+      \ is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following\
+      \ druid spells prepared:\n\nCantrips (at will): [druidcraft](Інструменти\
+      %20ДМ/CLI/spells/druidcraft-xphb.md), [produce flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md),\
+      \ [resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md), [thorn whip](І\
+      нструменти%20ДМ/CLI/spells/thorn-whip-xphb.md)\n\n1st level (4 slots): [cure\
+      \ wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [faerie fire](Ін\
+      струменти%20ДМ/CLI/spells/faerie-fire-xphb.md), [thunderwave](Інструменти%20Д\
+      М/CLI/spells/thunderwave-xphb.md)\n\n2nd level (3 slots): [beast sense](І\
+      нструменти%20ДМ/CLI/spells/beast-sense-xphb.md), [flame blade](Інструменти%20Д\
+      М/CLI/spells/flame-blade-xphb.md), [pass without trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md)\n\
+      \n3rd level (3 slots): [conjure animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [plant growth](І\
       нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n4th level (3 slots):\
       \ [dominate beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md), [freedom\
@@ -84,10 +83,9 @@ The druids of the Old Ways believe that civilization will never be eradicated by
       \ language."
     "name": "Speak with Beasts and Plants"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6|noform|noparens|avg|text(3) (d6)\
-      \ bludgeoning damage, or dice:1d8|noform|noparens|avg|text(4) (d8) bludgeoning\
-      \ damage if used with two hands."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+      \ hands."
     "name": "Quarterstaff"
 "source":
   - "GGR"

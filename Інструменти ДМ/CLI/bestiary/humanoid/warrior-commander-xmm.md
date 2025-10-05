@@ -86,8 +86,7 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
 "actions":
   - "desc": "The warrior makes three attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:4d6+5|noform|noparens|avg|text(19) (4d6 + 5) Slashing\
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (4d6 + 5) Slashing\
       \ damage. The warrior also creates one of the following effects:\n\n- Sap.\
       \ The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on its next attack roll before the start of the warrior's next turn.  \n-\
@@ -97,8 +96,7 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \  "
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 150/600\
-      \ ft. Hit: dice:3d8+5|noform|noparens|avg|text(18) (3d8 + 5) Piercing\
+  - "desc": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 18 (3d8 + 5) Piercing\
       \ damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ decreases by 10 feet until the end of the target's next turn."
     "name": "Longbow"

@@ -26,7 +26,7 @@ aliases:
 - **Components:** V
 - **Duration:** Instantaneous
 
-You compel one creature you can see within range to die. If the target has 100 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer, it dies. Otherwise, it takes `dice:12d12|noform|noparens|avg` (`12d12`) Psychic damage.
+You compel one creature you can see within range to die. If the target has 100 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer, it dies. Otherwise, it takes `12d12` Psychic damage.
 
 **Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
 

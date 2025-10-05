@@ -89,4 +89,4 @@ If an effect forces a [saving throw](Інструменти%20ДМ/CLI/rules/var
 
 ## Damage Notation
 
-A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal `dice:1d4+2|noform|noparens|avg|text(4)` (`1d4 + 2`) damage on a hit. The DM determines whether you use the static number or the die expression in parentheses; you don't use both.
+A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4 (`1d4 + 2`) damage on a hit. The DM determines whether you use the static number or the die expression in parentheses; you don't use both.

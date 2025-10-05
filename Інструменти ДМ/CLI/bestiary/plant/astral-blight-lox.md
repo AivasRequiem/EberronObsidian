@@ -45,13 +45,12 @@ aliases:
 "actions":
   - "desc": "The blight makes two Heat-Draining Vine attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
-      \ (1d6 + 3) radiant damage, and if the target is a Large or smaller creature,\
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 6 (1d6 + 3) radiant damage, and if the target is a Large or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
-      \ DC 13). Until this grapple ends, the target takes dice:1d6|noform|noparens|avg|text(3)\
-      \ (d6) cold damage at the start of each of its turns. The blight has two vines,\
-      \ each of which can grapple one creature."
+      \ DC 13). Until this grapple ends, the target takes 3 (d6) cold damage at\
+      \ the start of each of its turns. The blight has two vines, each of which can\
+      \ grapple one creature."
     "name": "Heat-Draining Vine"
 "source":
   - "LoX"

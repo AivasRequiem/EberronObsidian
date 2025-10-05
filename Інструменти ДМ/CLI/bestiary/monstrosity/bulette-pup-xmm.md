@@ -52,8 +52,7 @@ Also called "land sharks," bulettes are single-minded predators that burrow unde
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:2d10+3|noform|noparens|avg|text(14) (2d10 + 3) Piercing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 14 (2d10 + 3) Piercing\
       \ damage."
     "name": "Bite"
 "bonus_actions":

@@ -62,28 +62,23 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
 "actions":
   - "desc": "The sea serpent makes one Bite attack and one Constrict or Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d12+7|noform|noparens|avg|text(20)\
-      \ (2d12 + 7) piercing damage plus dice:1d12|noform|noparens|avg|text(6)\
-      \ (d12) cold damage."
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
+      \ 20 (2d12 + 7) piercing damage plus 6 (d12) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
-      \ reach 20 ft., one creature. Hit: dice:4d10+7|noform|noparens|avg|text(29)\
-      \ (4d10 + 7) bludgeoning damage, and the target is [grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 20). Until this grapple ends,\
-      \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one creature. Hit:\
+      \ 29 (4d10 + 7) bludgeoning damage, and the target is [grappled](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 20). Until this grapple\
+      \ ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ and the sea serpent can't constrict another target."
     "name": "Constrict"
-  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
-      \ reach 20 ft., one target. Hit: dice:1d12+7|noform|noparens|avg|text(13)\
-      \ (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit:\
+      \ 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be pushed up to 30 feet away from the\
       \ sea serpent and knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The sea serpent exhales a 60-foot cone of cold. Each creature in that\
-      \ area must make a DC 18 Constitution saving throw, taking dice:9d10|noform|noparens|avg|text(49)\
-      \ (9d10) cold damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ area must make a DC 18 Constitution saving throw, taking 49 (9d10) cold\
+      \ damage on a failed save, or half as much damage on a successful one."
     "name": "Rime Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The sea serpent makes one Tail attack."

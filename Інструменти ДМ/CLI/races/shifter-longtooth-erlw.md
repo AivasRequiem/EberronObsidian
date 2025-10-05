@@ -53,7 +53,7 @@ You have proficiency in the [Intimidation](Інструменти%20ДМ/CLI/rul
 
 ### Shifting Feature
 
-While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to `dice:1d6|noform|noparens|avg` (`d6`) + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to `d6` + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
 
 ## Description
 

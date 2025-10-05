@@ -68,14 +68,12 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing\
       \ damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 13, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:4d8|noform|noparens|avg|text(18) (4d8) Cold damage. Success: Half\
-      \ damage."
+      \ 18 (4d8) Cold damage. Success: Half damage."
     "name": "Cold Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 13, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). 1st Failure:\

@@ -74,29 +74,27 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
       \ use of Spellcasting to cast [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md)\
       \ (level 4 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+15|noform|noparens|text(+15), reach\
-      \ 15 ft. Hit: dice:2d8+8|noform|noparens|avg|text(17) (2d8 + 8) Slashing\
-      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Acid damage."
+  - "desc": "Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing\
+      \ damage plus 9 (2d8) Acid damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 22, each creature in a 90-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: dice:15d8|noform|noparens|avg|text(67) (15d8) Acid damage.\
-      \ Success: Half damage."
+      \ Failure: 67 (15d8) Acid damage. Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21, dice:1d20+13|noform|noparens|text(+13)\
-      \ to hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20Д\
-      М/CLI/spells/detect-magic-xphb.md), [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md),\
-      \ [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md)\
-      \ (level 4 version)\n\n1/day each: [Create Undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 21, +13 to\
+      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md), [Melf's Acid Arrow](Інст\
+      рументи%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md) (level 4 version)\n\n1/day\
+      \ each: [Create Undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md),\
       \ [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md), [Vitriolic\
       \ Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md) (level 5 version)"
     "name": "Spellcasting"
 "legendary_actions":
   - "desc": "Dexterity Saving Throw: DC 21, one creature the dragon can see within\
-      \ 120 feet. Failure: dice:6d10|noform|noparens|avg|text(33) (6d10) Poison\
-      \ damage, and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
-      \ on saving throws to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\
+      \ 120 feet. Failure: 33 (6d10) Poison damage, and the target has [Disadvantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on saving throws\
+      \ to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\
       \ until the end of its next turn. Failure or Success: The dragon can't take\
       \ this action again until the start of its next turn."
     "name": "Cloud of Insects"

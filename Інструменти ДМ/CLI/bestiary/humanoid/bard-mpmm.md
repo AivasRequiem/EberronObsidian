@@ -72,18 +72,16 @@ Each bard is a master of at least one type of performance. You may choose a bard
   - "desc": "The bard makes two Shortsword or Shortbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
-      \ + 2) piercing damage."
-    "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 80/320 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
       \ (1d6 + 2) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
   - "desc": "Each creature in a 15-foot cube originating from the bard must make a\
-      \ DC 12 Constitution saving throw. On a failed save, a creature takes dice:2d8|noform|noparens|avg|text(9)\
-      \ (2d8) thunder damage and is pushed up to 10 feet away from the bard. On\
-      \ a successful save, a creature takes half as much damage and isn't pushed."
+      \ DC 12 Constitution saving throw. On a failed save, a creature takes 9 (2d8)\
+      \ thunder damage and is pushed up to 10 feet away from the bard. On a successful\
+      \ save, a creature takes half as much damage and isn't pushed."
     "name": "Cacophony (Recharge 4-6)"
   - "desc": "The bard casts one of the following spells, using Charisma as the spellcasting\
       \ ability (spell save DC 12):\n\nAt will: [dancing lights](Інструменти%20Д\

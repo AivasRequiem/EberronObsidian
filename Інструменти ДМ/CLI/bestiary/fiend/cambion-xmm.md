@@ -83,12 +83,11 @@ Cambions come into being in disparate ways. Roll on or choose a result from the 
 "actions":
   - "desc": "The cambion makes two attacks, using Claw or Fire Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
-      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Fire damage."
+  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
+      \ damage plus 7 (2d6) Fire damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 120\
-      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Fire damage."
+  - "desc": "Ranged Attack Roll: +7, range 120 ft. Hit: 13 (3d6 + 3) Fire\
+      \ damage."
     "name": "Fire Ray"
   - "desc": "The cambion casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\

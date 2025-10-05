@@ -48,9 +48,8 @@ A thrull doesn't require air, food, drink, or sleep.
 "languages": "understands Common but can't speak"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
-      \ + 1) slashing damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage."
     "name": "Claws"
 "reactions":
   - "desc": "When a creature within 5 feet of the thrull is hit by an attack, the\

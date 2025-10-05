@@ -63,10 +63,9 @@ Larvae that survive on the Lower Planes long enough can eventually transform int
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Necrotic damage,\
-      \ or dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Necrotic damage if\
-      \ the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Necrotic\
+      \ damage, or 7 (2d4 + 2) Necrotic damage if the swarm is [Bloodied](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Bites"
 "source":
   - "XMM"

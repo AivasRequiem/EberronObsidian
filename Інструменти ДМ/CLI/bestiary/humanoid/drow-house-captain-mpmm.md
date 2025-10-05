@@ -66,18 +66,14 @@ Among Lolth's devotees in the city of Menzoberranzan in the Forgotten Realms, ea
 "actions":
   - "desc": "The drow makes two Scimitar attacks and one Whip or Hand Crossbow attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
-      \ + 4) slashing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
-      \ poison damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) slashing damage plus 14 (4d6) poison damage."
     "name": "Scimitar"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 10 ft., one target. Hit: dice:1d4+4|noform|noparens|avg|text(6)\
-      \ (1d4 + 4) slashing damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 6 (1d4 + 4) slashing damage."
     "name": "Whip"
-  - "desc": "Ranged Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ range 30/120 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
-      \ (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
+  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit:\
+      \ 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Unconscious) while [poisoned](Інстру\

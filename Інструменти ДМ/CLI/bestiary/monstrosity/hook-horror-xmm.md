@@ -54,8 +54,7 @@ Hook horrors feed opportunistically on plants, fungi, and any creatures that com
 "actions":
   - "desc": "The hook horror makes two Hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
-      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
       \ damage. If the target is a Large or smaller creature, the hook horror moves\
       \ the target 5 feet straight toward or away from itself."
     "name": "Hook"

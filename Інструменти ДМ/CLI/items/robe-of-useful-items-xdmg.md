@@ -23,7 +23,7 @@ The robe has two of each of the following patches:
 - [Rope](Інструменти%20ДМ/CLI/items/rope-xphb.md) (coiled)  
 - [Sack](Інструменти%20ДМ/CLI/items/sack-xphb.md)  
 
-In addition, the robe has `dice:4d4|noform|noparens|avg` (`4d4`) other patches. The DM chooses the patches or determines them randomly by rolling on the following table.
+In addition, the robe has `4d4` other patches. The DM chooses the patches or determines them randomly by rolling on the following table.
 
 `dice: [](robe-of-useful-items-xdmg.md#^1-patch)`
 

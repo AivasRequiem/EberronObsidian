@@ -50,7 +50,7 @@ You can refine the trigger so that only creatures of certain types activate it (
 
 ## Explosive Rune
 
-When triggered, the glyph erupts with magical energy in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes `dice:5d8|noform|noparens|avg` (`5d8`) Acid, Cold, Fire, Lightning, or Thunder damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.
+When triggered, the glyph erupts with magical energy in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes `5d8` Acid, Cold, Fire, Lightning, or Thunder damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.
 
 ## Spell Glyph
 
@@ -60,7 +60,7 @@ When the glyph is triggered, the stored spell takes effect. If the spell has a t
 
 ## Using a Higher-Level Spell Slot
 
-The damage of an explosive rune increases by `dice:1d8|noform|noparens|avg|text(d8)` for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the Glyph of Warding.
+The damage of an explosive rune increases by `d8` for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the Glyph of Warding.
 
 ## Summary
 

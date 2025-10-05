@@ -98,19 +98,17 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The vampire makes two Claw attacks and uses Bite."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4 + 3) Slashing damage.\
-      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing\
+      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two claws."
     "name": "Claw"
   - "desc": "Constitution Saving Throw: DC 14, one creature within 5 feet that is\
       \ willing or that has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition.\
-      \ Failure: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage\
-      \ plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage. The\
-      \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage.\
+      \ The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the Necrotic damage taken, and the\
       \ vampire regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ equal to that amount."

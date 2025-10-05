@@ -131,13 +131,10 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
-      \ (2d10 + 4) piercing damage plus dice:1d10|noform|noparens|avg|text(5)\
-      \ (d10) radiant damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 15 (2d10 + 4) piercing damage plus 5 (d10) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
@@ -147,9 +144,8 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
       \ for a creature if the creature takes damage or someone uses an action to wake\
       \ it.  \n- Moonlight Breath. The dragon exhales a beam of moonlight in a\
       \ 60-foot line that is 5 feet wide. Each creature in that area must make a DC\
-      \ 14 Dexterity saving throw, taking dice:7d10|noform|noparens|avg|text(38)\
-      \ (7d10) radiant damage on a failed save, or half as much damage on a successful\
-      \ one.  "
+      \ 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save,\
+      \ or half as much damage on a successful one.  "
     "name": "Breath Weapon (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n1/day\

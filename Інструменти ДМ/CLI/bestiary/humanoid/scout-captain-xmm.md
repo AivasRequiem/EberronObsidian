@@ -59,15 +59,13 @@ Scouts are warriors of the wilderness, trained in hunting and tracking. They mig
 "actions":
   - "desc": "The scout makes two attacks, using Shortsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage,\
-      \ plus dice:3d6|noform|noparens|avg|text(10) (3d6) Piercing damage if the\
-      \ attack was made with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+      \ damage, plus 10 (3d6) Piercing damage if the attack was made with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 150/600\
-      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage,\
-      \ plus dice:3d6|noform|noparens|avg|text(10) (3d6) Piercing damage if the\
-      \ attack was made with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
+  - "desc": "Ranged Attack Roll: +5, range 150/600 ft. Hit: 7 (1d8 + 3) Piercing\
+      \ damage, plus 10 (3d6) Piercing damage if the attack was made with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Longbow"
 "bonus_actions":
   - "desc": "The scout has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\

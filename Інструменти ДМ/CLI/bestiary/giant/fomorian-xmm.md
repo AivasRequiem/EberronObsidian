@@ -70,14 +70,13 @@ Once infamous for their magical aptitude, fomorians are giants afflicted with a 
   - "desc": "The fomorian makes two Stone Club attacks. It can replace one attack\
       \ with a use of Warping Hex if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 15\
-      \ ft. Hit: dice:4d8+6|noform|noparens|avg|text(24) (4d8 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 24 (4d8 + 6) Bludgeoning\
       \ damage."
     "name": "Stone Club"
   - "desc": "Wisdom Saving Throw: DC 16, one creature the fomorian can see within\
-      \ 120 feet. Failure: dice:6d6|noform|noparens|avg|text(21) (6d6) Psychic\
-      \ damage, and the target gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
-      \ level. Success: Half damage only."
+      \ 120 feet. Failure: 21 (6d6) Psychic damage, and the target gains 1 [Exhaustion](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level. Success: Half damage\
+      \ only."
     "name": "Warping Hex (Recharge 4-6)"
 "source":
   - "XMM"

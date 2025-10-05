@@ -52,8 +52,7 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
       \ on attack rolls and saving throws."
     "name": "Bloodied Frenzy"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d12+3|noform|noparens|avg|text(9) (1d12 + 3) Slashing\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing\
       \ damage."
     "name": "Greataxe"
 "source":

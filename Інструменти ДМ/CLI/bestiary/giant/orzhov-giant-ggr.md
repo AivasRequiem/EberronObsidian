@@ -49,22 +49,19 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - "desc": "As a bonus action, the giant can target a creature it can see within\
       \ 30 feet of it and make that creature its focus. The target remains the giant's\
       \ focus for 1 minute, or until either the target or the giant drops to 0 hit\
-      \ points. When the giant makes an attack roll against its focus, it adds a dice:d4|noform|noparens|avg\
-      \ (d4) to its attack roll. If the giant attacks a different target while it\
-      \ has a focus, it subtracts a dice:d4|noform|noparens|avg (d4) from its\
-      \ attack roll."
+      \ points. When the giant makes an attack roll against its focus, it adds a d4\
+      \ to its attack roll. If the giant attacks a different target while it has a\
+      \ focus, it subtracts a d4 from its attack roll."
     "name": "Focus"
 "actions":
   - "desc": "The giant makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 10 ft., one target. Hit: dice:3d12+6|noform|noparens|avg|text(25)\
-      \ (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit, it\
-      \ rolls the damage dice three times, instead of twice."
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 25 (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit,\
+      \ it rolls the damage dice three times, instead of twice."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ range 60/240 ft., one target. Hit: dice:4d10+6|noform|noparens|avg|text(28)\
-      \ (4d10 + 6) bludgeoning damage."
+  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+      \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
 "source":
   - "GGR"

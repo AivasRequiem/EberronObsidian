@@ -72,14 +72,13 @@ Gladiators are professional fighters who pit themselves against one another, mon
   - "desc": "The gladiator makes three Spear attacks. It can replace one attack with\
       \ a use of Shield Bash."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
-      \ reach 5 ft. or range 20/60 ft. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
-      \ (2d6 + 4) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
+      \ Hit: 11 (2d6 + 4) Piercing damage."
     "name": "Spear"
   - "desc": "Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator\
-      \ can see. Failure: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Bludgeoning\
-      \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+      \ can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium\
+      \ or smaller creature, it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition."
     "name": "Shield Bash"
 "reactions":
   - "desc": "Trigger: The gladiator is hit by a melee attack roll while holding a\

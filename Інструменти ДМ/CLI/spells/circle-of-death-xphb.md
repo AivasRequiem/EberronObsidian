@@ -26,9 +26,9 @@ aliases:
 - **Components:** V, S, M (the powder of a crushed black pearl worth 500+ GP)
 - **Duration:** Instantaneous
 
-Negative energy ripples out in a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking `dice:8d8|noform|noparens|avg` (`8d8`) Necrotic damage on a failed save or half as much damage on a successful one.
+Negative energy ripples out in a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking `8d8` Necrotic damage on a failed save or half as much damage on a successful one.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `dice:2d8|noform|noparens|avg|text(2d8)` for each spell slot level above 6.
+**Using a Higher-Level Spell Slot.** The damage increases by `2d8` for each spell slot level above 6.
 
 **Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
 

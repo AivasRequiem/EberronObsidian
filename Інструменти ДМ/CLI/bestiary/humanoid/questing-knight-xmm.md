@@ -70,13 +70,11 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
 "actions":
   - "desc": "The knight makes three attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
-      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
-      \ damage plus dice:5d8|noform|noparens|avg|text(22) (5d8) Radiant damage."
+  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+      \ damage plus 22 (5d8) Radiant damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 150/600\
-      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Piercing\
-      \ damage plus dice:5d8|noform|noparens|avg|text(22) (5d8) Radiant damage."
+  - "desc": "Ranged Attack Roll: +7, range 150/600 ft. Hit: 12 (2d8 + 3) Piercing\
+      \ damage plus 22 (5d8) Radiant damage."
     "name": "Longbow"
   - "desc": "The knight casts one of the following spells, using Charisma as the spellcasting\
       \ ability (spell save DC 16):\n\n1/day each: [Daylight](Інструменти%20ДМ\

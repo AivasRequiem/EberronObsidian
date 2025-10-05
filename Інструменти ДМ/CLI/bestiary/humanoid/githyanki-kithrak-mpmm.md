@@ -57,10 +57,8 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes three Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
-      \ (2d6 + 4) slashing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6)\
-      \ psychic damage."
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage plus 17 (5d6) psychic damage."
     "name": "Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\

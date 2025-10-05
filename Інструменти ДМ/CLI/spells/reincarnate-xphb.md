@@ -22,7 +22,7 @@ aliases:
 - **Components:** V, S, M (rare oils worth 1,000+ GP, which the spell consumes)
 - **Duration:** Instantaneous
 
-You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll `dice:1d10|noform|noparens|avg` (`d10`) and consult the table below to determine the body's species, or the DM chooses another playable species.
+You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll `d10` and consult the table below to determine the body's species, or the DM chooses another playable species.
 
 `dice: [](reincarnate-xphb.md#^1-species)`
 

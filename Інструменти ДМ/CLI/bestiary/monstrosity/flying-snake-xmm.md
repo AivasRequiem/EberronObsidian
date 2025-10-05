@@ -46,9 +46,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: 1 Piercing damage plus dice:2d4|noform|noparens|avg|text(5) (2d4)\
-      \ Poison damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus\
+      \ 5 (2d4) Poison damage."
     "name": "Bite"
 "source":
   - "XMM"

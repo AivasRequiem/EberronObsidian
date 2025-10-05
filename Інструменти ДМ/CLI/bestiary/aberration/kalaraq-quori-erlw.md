@@ -62,7 +62,7 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "languages": "all, telepathy 120 ft."
 "cr": "19"
 "traits":
-  - "desc": "The quori's spellcasting ability is Charisma (spell save DC 21, dice:1d20+13|noform|noparens|text(+13)\
+  - "desc": "The quori's spellcasting ability is Charisma (spell save DC 21, +13\
       \ to hit with spell attacks). It can innately cast the following spells, requiring\
       \ no components:\n\nAt will: [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md)\n\
       \n3/day each: [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
@@ -73,8 +73,8 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
       \ while it isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "All-Around Vision"
   - "desc": "The quori can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
-      \ force damage if it ends its turn inside an object."
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The quori has advantage on saving throws against spells and other magical\
       \ effects."
@@ -83,12 +83,10 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori makes two Soul Binding attacks. Alternatively, it can make\
       \ four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
-      \ range 120 ft., one target. Hit: dice:1d10+7|noform|noparens|avg|text(12)\
-      \ (1d10 + 7) force damage."
+  - "desc": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit:\
+      \ 12 (1d10 + 7) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Spell Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
-      \ reach 5 ft., one target. Hit: dice:4d10+7|noform|noparens|avg|text(29)\
+  - "desc": "Melee Spell Attack: +13 to hit, reach 5 ft., one target. Hit: 29\
       \ (4d10 + 7) necrotic damage. A creature reduced to 0 hit points from this\
       \ attack dies and has its soul imprisoned in one of the quori's eyes. The target\
       \ can't be revived by any means short of a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
@@ -109,12 +107,11 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori creates a swarm of spectral eyes that fills a 30-foot-radius\
       \ sphere centered on a point it can see within 60 feet of it. Each creature\
       \ in that area must make a DC 21 Wisdom saving throw. On a failure, a creature\
-      \ takes dice:10d8|noform|noparens|avg|text(45) (10d8) psychic damage, and\
-      \ it is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) for 1 minute.\
-      \ On a success, a creature takes half as much damage and isn't [blinded](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Blinded). A [blinded](Інструменти%20ДМ\
-      /CLI/rules/conditions.md#Blinded) creature can repeat the saving throw at the\
-      \ end of each of its turns, ending the effect on itself on a success."
+      \ takes 45 (10d8) psychic damage, and it is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ for 1 minute. On a success, a creature takes half as much damage and isn't\
+      \ [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded). A [blinded](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Blinded) creature can repeat the saving\
+      \ throw at the end of each of its turns, ending the effect on itself on a success."
     "name": "Swarm of Eyes (Recharge 6)"
   - "desc": "One humanoid that the quori can see within 5 feet of it must succeed\
       \ on a DC 21 Charisma saving throw or be possessed by the quori; the quori then\

@@ -77,20 +77,18 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
 "actions":
   - "desc": "Yeenoghu makes three Flail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 15 ft., one target. Hit: dice:2d12+9|noform|noparens|avg|text(22)\
-      \ (2d12 + 9) force damage. If it's his turn, Yeenoghu can cause the target\
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+      \ 22 (2d12 + 9) force damage. If it's his turn, Yeenoghu can cause the target\
       \ to suffer one of the following additional effects, each of which he can apply\
       \ only once per turn\n\n- Confusion. The target must succeed on a DC 17\
       \ Wisdom saving throw or be affected by the confusion spell until the start\
-      \ of Yeenoghu's next turn.  \n- Force. The target takes an extra dice:2d12|noform|noparens|avg|text(13)\
-      \ (2d12) force damage.  \n- Paralysis. The target must succeed on a DC\
-      \ 17 Constitution saving throw or be [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
+      \ of Yeenoghu's next turn.  \n- Force. The target takes an extra 13 (2d12)\
+      \ force damage.  \n- Paralysis. The target must succeed on a DC 17 Constitution\
+      \ saving throw or be [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ until the start of Yeenoghu's next turn.  "
     "name": "Flail"
-  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+9|noform|noparens|avg|text(20)\
-      \ (2d10 + 9) acid damage."
+  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+      \ 20 (2d10 + 9) acid damage."
     "name": "Bite"
   - "desc": "Yeenoghu casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\
@@ -126,8 +124,8 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
       \ them.  \n- Iron Spike. Yeenoghu causes an iron spike—5 feet tall and 1\
       \ inch in diameter—to burst from the ground at a point he can see within 100\
       \ feet of him. Any creature in the space where the spike emerges must make a\
-      \ DC 24 Dexterity saving throw. On a failed save, the creature takes dice:6d8|noform|noparens|avg|text(27)\
-      \ (6d8) piercing damage and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8)\
+      \ piercing damage and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ by being impaled on the spike. A creature can use an action to remove itself\
       \ (or a creature it can reach) from the spike, ending the restrained condition.\
       \  \n- Pack Rush. Each gnoll or hyena that Yeenoghu can see can use its\
@@ -143,7 +141,7 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
       - Spiky Terrain. Within 1 mile of the lair, large iron spikes grow out of\
       \ the ground and stone surfaces. Yeenoghu impales the bodies of the slain on\
       \ these spikes.  \n- If Yeenoghu dies, these effects fade over the course of\
-      \ dice:1d10|noform|noparens|avg (d10) days.  "
+      \ d10 days.  "
     "name": ""
 "source":
   - "MPMM"

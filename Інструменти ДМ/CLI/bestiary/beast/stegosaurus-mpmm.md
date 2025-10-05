@@ -41,9 +41,8 @@ This heavily built dinosaur has rows of plates on its back and a flexible, spike
 "languages": ""
 "cr": "4"
 "actions":
-  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ reach 10 ft., one target. Hit: dice:6d6+5|noform|noparens|avg|text(26)\
-      \ (6d6 + 5) piercing damage."
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 26 (6d6 + 5) piercing damage."
     "name": "Tail"
 "source":
   - "MPMM"

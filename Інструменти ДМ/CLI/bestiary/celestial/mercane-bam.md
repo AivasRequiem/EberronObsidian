@@ -59,8 +59,7 @@ Mercanes will conduct business with anyone, fairly and reliably, provided the ot
 "actions":
   - "desc": "The mercane makes three Psi-Imbued Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
       \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
       \ on a DC 15 Wisdom saving throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of the mercane until the end of the target's next turn."

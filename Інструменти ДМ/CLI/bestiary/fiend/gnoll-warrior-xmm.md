@@ -55,11 +55,10 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
 "languages": "Gnoll"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+      \ damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 150/600\
-      \ ft. Hit: dice:1d10+1|noform|noparens|avg|text(6) (1d10 + 1) Piercing\
+  - "desc": "Ranged Attack Roll: +3, range 150/600 ft. Hit: 6 (1d10 + 1) Piercing\
       \ damage."
     "name": "Bone Bow"
 "bonus_actions":

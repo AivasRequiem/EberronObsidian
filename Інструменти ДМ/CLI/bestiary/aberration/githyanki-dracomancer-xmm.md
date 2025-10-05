@@ -69,19 +69,17 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
 "actions":
   - "desc": "The githyanki makes three Draconic Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10),\
-      \ reach 10 ft. or range 120 ft. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
-      \ (2d6 + 5) Slashing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6)\
-      \ Fire damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Melee  or Ranged Attack Roll: +10, reach 10 ft. or range 120 ft.\
+      \ Hit: 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the\
+      \ target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the githyanki's next turn."
     "name": "Draconic Strike"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 90-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:6d8|noform|noparens|avg|text(27) (6d8) Fire damage plus dice:6d8|noform|noparens|avg|text(27)\
-      \ (6d8) Force damage. Success: Half damage."
+      \ 27 (6d8) Fire damage plus 27 (6d8) Force damage. Success: Half damage."
     "name": "Conjured Dragon's Breath (Recharge 5-6)"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability (spell save DC 18, dice:1d20+10|noform|noparens|text(+10)\
+      \ and using Intelligence as the spellcasting ability (spell save DC 18, +10\
       \ to hit with spell attacks):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
       \ (the hand is Invisible)\n\n2/day each: [Nondetection](Інструменти%20ДМ\
       /CLI/spells/nondetection-xphb.md) (self only), [Plane Shift](Інструменти%20Д\

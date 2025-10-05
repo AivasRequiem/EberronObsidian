@@ -47,9 +47,8 @@ aliases:
       \ feet. Hit: 1d6 + 4 + the spell's level Piercing damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC equals your spell save DC, each creature\
-      \ in a 30-foot Cone. Failure: dice:2d6|noform|noparens|avg (2d6) damage\
-      \ of a type this spirit has Resistance to (your choice when you cast the spell).\
-      \ Success: Half damage."
+      \ in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance\
+      \ to (your choice when you cast the spell). Success: Half damage."
     "name": "Breath Weapon"
 "source":
   - "XPHB"

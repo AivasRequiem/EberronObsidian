@@ -57,23 +57,21 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
 "actions":
   - "desc": "The sorrowsworn makes two Arm Spike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 10 ft., one target. Hit: dice:2d10+3|noform|noparens|avg|text(14)\
-      \ (2d10 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 14 (2d10 + 3) piercing damage."
     "name": "Arm Spike"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:4d10+3|noform|noparens|avg|text(25)\
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25\
       \ (4d10 + 3) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Medium or smaller\
       \ creature. Until the grapple ends, the target is [frightened](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Frightened), and it takes dice:6d8|noform|noparens|avg|text(27)\
-      \ (6d8) psychic damage at the end of each of its turns. The sorrowsworn can\
-      \ grapple only one creature at a time."
+      М/CLI/rules/conditions.md#Frightened), and it takes 27 (6d8) psychic damage\
+      \ at the end of each of its turns. The sorrowsworn can grapple only one creature\
+      \ at a time."
     "name": "Embrace (Recharge 4-6)"
 "reactions":
   - "desc": "If the sorrowsworn takes damage, the creature [grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) by Embrace takes dice:4d8|noform|noparens|avg|text(18)\
-      \ (4d8) psychic damage."
+      %20ДМ/CLI/rules/conditions.md#Grappled) by Embrace takes 18 (4d8) psychic\
+      \ damage."
     "name": "Tightening Embrace"
 "source":
   - "MPMM"

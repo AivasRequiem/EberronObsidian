@@ -57,7 +57,7 @@ You gain one of the following feature options of your choice. Whenever you finis
 
 #### Colossus Slayer
 
-Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra `dice:1d8|noform|noparens|avg` (`d8`) damage to the target if it's missing any of its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). You can deal this extra damage only once per turn.
+Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra `d8` damage to the target if it's missing any of its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). You can deal this extra damage only once per turn.
 
 #### Horde Breaker
 

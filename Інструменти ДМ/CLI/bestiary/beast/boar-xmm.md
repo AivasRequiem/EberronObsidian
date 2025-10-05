@@ -47,11 +47,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ on attack rolls."
     "name": "Bloodied Fury"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
-      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Piercing damage.\
-      \ If the target is a Medium or smaller creature and the boar moved 20+ feet\
-      \ straight toward it immediately before the hit, the target takes an extra dice:1d6|noform|noparens|avg|text(3)\
-      \ (d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing\
+      \ damage. If the target is a Medium or smaller creature and the boar moved 20+\
+      \ feet straight toward it immediately before the hit, the target takes an extra\
+      \ 3 (d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ condition."
     "name": "Gore"
 "source":

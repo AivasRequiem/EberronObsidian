@@ -59,12 +59,10 @@ Most cloud giants inhabit citadels crowning tremendous mountains or magical pala
       \ any combination. It can replace one attack with a use of Spellcasting to cast\
       \ [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
-      \ 10 ft. Hit: dice:3d8+8|noform|noparens|avg|text(21) (3d8 + 8) Bludgeoning\
-      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Thunder damage."
+  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning\
+      \ damage plus 7 (2d6) Thunder damage."
     "name": "Thunderous Mace"
-  - "desc": "Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12), range\
-      \ 240 ft. Hit: dice:3d6+8|noform|noparens|avg|text(18) (3d6 + 8) Thunder\
+  - "desc": "Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder\
       \ damage, and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the end of its next turn."
     "name": "Thundercloud"

@@ -45,12 +45,11 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the elk moved 20+\
       \ feet straight toward it immediately before the hit, the target takes an extra\
-      \ dice:1d6|noform|noparens|avg|text(3) (d6) Bludgeoning damage and has the\
-      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+      \ 3 (d6) Bludgeoning damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition."
     "name": "Ram"
 "source":
   - "XMM"

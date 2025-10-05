@@ -86,12 +86,10 @@ Shadows might resemble the silhouettes of who they were in life or take on more 
       \ on [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Necrotic damage,\
-      \ and the target's Strength score decreases by dice:1d4|noform|noparens|avg\
-      \ (d4). The target dies if this reduces that score to 0. If a Humanoid is\
-      \ slain by this attack, a Shadow rises from the corpse dice:1d4|noform|noparens|avg\
-      \ (d4) hours later."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic\
+      \ damage, and the target's Strength score decreases by d4. The target dies\
+      \ if this reduces that score to 0. If a Humanoid is slain by this attack, a\
+      \ Shadow rises from the corpse d4 hours later."
     "name": "Draining Swipe"
 "bonus_actions":
   - "desc": "While in [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\

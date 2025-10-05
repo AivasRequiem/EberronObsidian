@@ -79,17 +79,15 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "actions":
   - "desc": "The bandit makes three Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
-      \ reach 5 ft. or range 20/60 ft. Hit: dice:2d4+3|noform|noparens|avg|text(8)\
-      \ (2d4 + 3) Piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ Poison damage."
+  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft.\
+      \ Hit: 8 (2d4 + 3) Piercing damage plus 10 (3d6) Poison damage."
     "name": "Dagger"
   - "desc": "Constitution Saving Throw: DC 14, each creature in a 10-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the bandit can see within 120 feet. Failure: dice:3d6+3|noform|noparens|avg|text(13)\
-      \ (3d6 + 3) Radiant damage, and the target has the [Blinded](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Blinded) condition until the start of the bandit's\
-      \ next turn. Success: Half damage only."
+      \ centered on a point the bandit can see within 120 feet. Failure: 13 (3d6\
+      \ + 3) Radiant damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ condition until the start of the bandit's next turn. Success: Half damage\
+      \ only."
     "name": "Blinding Flash (Recharge 4-6)"
   - "desc": "The bandit casts one of the following spells, using Intelligence as the\
       \ spellcasting ability (spell save DC 14):\n\nAt will: [Disguise Self](І\

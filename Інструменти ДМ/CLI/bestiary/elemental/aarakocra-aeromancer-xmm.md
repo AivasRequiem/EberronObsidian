@@ -62,10 +62,8 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
   - "desc": "The aarakocra makes two Wind Staff attacks, and it can use Spellcasting\
       \ to cast [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
-      \ (1d8 + 3) Bludgeoning damage plus dice:2d10|noform|noparens|avg|text(11)\
-      \ (2d10) Lightning damage."
+  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
+      \ 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage."
     "name": "Wind Staff"
   - "desc": "The aarakocra casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\

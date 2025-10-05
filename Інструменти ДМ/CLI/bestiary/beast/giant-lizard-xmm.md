@@ -50,8 +50,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
+      \ damage."
     "name": "Bite"
 "source":
   - "XMM"

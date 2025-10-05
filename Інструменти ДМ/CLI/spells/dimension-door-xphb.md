@@ -41,7 +41,7 @@ You teleport to a location within range. You arrive at exactly the spot desired.
 
 You can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.
 
-If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take `dice:4d6|noform|noparens|avg` (`4d6`) Force damage, and the teleportation fails.
+If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take `4d6` Force damage, and the teleportation fails.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Vengeance)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-vengeance-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Ranger (Fey Wanderer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fey-wanderer-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Trickery Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-trickery-domain-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
 

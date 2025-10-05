@@ -66,12 +66,12 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "traits":
   - "desc": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each\
       \ creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) Bludgeoning damage. Success: Half damage."
+      \ originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success:\
+      \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Slashing damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
+      \ damage."
     "name": "Claw"
   - "desc": "Dexterity Saving Throw: DC 10, each creature in a 15-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

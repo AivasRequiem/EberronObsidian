@@ -68,21 +68,19 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
     "name": "Blurred Form"
   - "desc": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each\
       \ creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: dice:2d4|noform|noparens|avg|text(5)\
-      \ (2d4) Fire damage. Success: Half damage."
+      \ originating from the mephit. Failure: 5 (2d4) Fire damage. Success:\
+      \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
-      \ ft. Hit: dice:1d4|noform|noparens|avg|text(2) (d4) Slashing damage plus\
-      \ dice:1d4|noform|noparens|avg|text(2) (d4) Fire damage."
+  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (d4) Slashing damage\
+      \ plus 2 (d4) Fire damage."
     "name": "Claw"
   - "desc": "Constitution Saving Throw: DC 10, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:2d4|noform|noparens|avg|text(5) (2d4) Fire damage, and the target's\
-      \ [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases\
-      \ by 10 feet until the end of the mephit's next turn. Success: Half damage\
-      \ only. Failure or Success: Being underwater doesn't grant [Resistance](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to this Fire damage."
+      \ 5 (2d4) Fire damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ decreases by 10 feet until the end of the mephit's next turn. Success: Half\
+      \ damage only. Failure or Success: Being underwater doesn't grant [Resistance](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to this Fire damage."
     "name": "Steam Breath (Recharge 6)"
 "source":
   - "XMM"

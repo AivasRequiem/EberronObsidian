@@ -46,9 +46,8 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "actions":
   - "desc": "The hybrid makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
-      \ + 4) slashing damage."
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) slashing damage."
     "name": "Claw"
 "source":
   - "GGR"

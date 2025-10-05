@@ -66,12 +66,11 @@ Kobolds' scales resemble those of chromatic dragons that live near their warrens
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage."
+  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+      \ damage."
     "name": "Dragon-Tooth Blade"
-  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 30\
-      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) damage of\
-      \ a type chosen by the kobold: Acid, Cold, Fire, Lightning, or Poison."
+  - "desc": "Ranged Attack Roll: +5, range 30 ft. Hit: 6 (1d6 + 3) damage\
+      \ of a type chosen by the kobold: Acid, Cold, Fire, Lightning, or Poison."
     "name": "Chromatic Spittle"
 "source":
   - "XMM"

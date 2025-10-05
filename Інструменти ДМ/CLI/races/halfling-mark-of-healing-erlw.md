@@ -44,7 +44,7 @@ You can speak, read, and write Common and Halfling. The Halfling language isn't 
 
 ### Medical Intuition
 
-When you make a Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check or an ability check using an [herbalism kit](Інструменти%20ДМ/CLI/items/herbalism-kit-xphb.md), you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
+When you make a Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check or an ability check using an [herbalism kit](Інструменти%20ДМ/CLI/items/herbalism-kit-xphb.md), you can roll a `d4` and add the number rolled to the ability check.
 
 ### Healing Touch
 

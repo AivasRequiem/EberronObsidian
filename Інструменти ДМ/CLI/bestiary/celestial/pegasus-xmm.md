@@ -76,9 +76,8 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
 "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
-      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Radiant damage."
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+      \ damage plus 5 (2d4) Radiant damage."
     "name": "Hooves"
 "source":
   - "XMM"

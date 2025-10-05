@@ -67,9 +67,8 @@ Dimir mind mages are among the most feared spellcasters in Ravnica, thanks in la
       \ (see chapter 5)."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
-      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
-      \ (1d4 + 2) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "GGR"

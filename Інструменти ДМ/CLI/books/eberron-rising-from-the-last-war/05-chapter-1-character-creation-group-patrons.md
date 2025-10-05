@@ -256,7 +256,7 @@ The city of Sharn is unusual in that it is home to no less than four powerful sy
 
 **The Tyrants**. The Tyrants are a mysterious group of shapeshifters who traffic in all manner of information. They sell secrets, blackmail powerful people, and forge everything from identification papers to coins and works of art.
 
-**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `dice:3d6|noform|noparens|avg` (`3d6`) criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `dice:1d6|noform|noparens|avg` (`d6`) gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
+**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `3d6` criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `d6` gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
 
 ## Dragonmarked House
 
@@ -839,7 +839,7 @@ Every nation in Khorvaire has its military forces. In addition to the Redcloak B
 
 #### Running Your Own
 
-Rather than join an existing force, you might choose to form your own mercenary outfit. You can assemble a unit of `dice:3d10|noform|noparens|avg` (`3d10`) soldiers housed in a headquarters with an armory, barracks, and private quarters for you and any other officers. Your group earns `dice:3d20|noform|noparens|avg` (`3d20`) gp per month, plus enough money to maintain your headquarters. You might be able to acquire weapons and armor through an arms dealer at a 20 percent discount, at the DM's discretion. You give the orders to those beneath you and take orders from no one, but that means that you are ultimately responsible for the activities of everyone in your outfit.
+Rather than join an existing force, you might choose to form your own mercenary outfit. You can assemble a unit of `3d10` soldiers housed in a headquarters with an armory, barracks, and private quarters for you and any other officers. Your group earns `3d20` gp per month, plus enough money to maintain your headquarters. You might be able to acquire weapons and armor through an arms dealer at a 20 percent discount, at the DM's discretion. You give the orders to those beneath you and take orders from no one, but that means that you are ultimately responsible for the activities of everyone in your outfit.
 
 You can use the Running a Business downtime activity to direct the activities of your unit and potentially increase your earnings, as described at the start of this section.
 
@@ -963,7 +963,7 @@ Besides the well-respected *Korranberg Chronicle*, other newspapers in Khorvaire
 
 #### Running Your Own
 
-Rather than work for an existing outlet, you can run your own newspaper. You own a small office and a printing press, and keep `dice:2d4|noform|noparens|avg` (`2d4`) employees to manage daily tasks and keep the paper going to press. You gain the benefit of press access as described earlier. Additionally, you can use the Running a Business downtime activity to direct the activities of your paper in hopes of increasing your earnings, as described at the start of this section.
+Rather than work for an existing outlet, you can run your own newspaper. You own a small office and a printing press, and keep `2d4` employees to manage daily tasks and keep the paper going to press. You gain the benefit of press access as described earlier. Additionally, you can use the Running a Business downtime activity to direct the activities of your paper in hopes of increasing your earnings, as described at the start of this section.
 
 ## Religious Order
 

@@ -68,8 +68,7 @@ Water weirds might protect a site for generations and learn much about their sur
       \ that water is destroyed."
     "name": "Water Bound"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
-      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Cold damage.\
+  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 13 (3d6 + 3) Cold damage.\
       \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13), and\
       \ it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\

@@ -37,7 +37,7 @@ aliases:
 - **Components:** V, S, M (a drop of alcohol)
 - **Duration:** Instantaneous
 
-You gain `dice:2d4+4|noform|noparens|avg` (`2d4 + 4`) [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).
+You gain `2d4 + 4` [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).
 
 **Using a Higher-Level Spell Slot.** You gain 5 additional [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) for each spell slot level above 1.
 

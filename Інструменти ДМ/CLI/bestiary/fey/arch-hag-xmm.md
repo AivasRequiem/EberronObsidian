@@ -111,25 +111,24 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
       \ it dies only if it is within 30 feet of its anathema (a thing the DM chooses\
       \ as the hag's most hated thing). Otherwise, the hag drops to 1 [Hit Point](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) and teleports to\
-      \ a harmless demiplane, and it can't return to the plane it left for dice:2d6|noform|noparens|avg\
-      \ (2d6) days. When the hag teleports away, each creature within 60 feet of\
-      \ the space it left is cursed. Until the curse ends, a creature has [Disadvantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks\
-      \ and saving throws, and the hag knows its location anywhere in the multiverse."
+      \ a harmless demiplane, and it can't return to the plane it left for 2d6 days.\
+      \ When the hag teleports away, each creature within 60 feet of the space it\
+      \ left is cursed. Until the curse ends, a creature has [Disadvantage](Інстру\
+      менти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on ability checks and\
+      \ saving throws, and the hag knows its location anywhere in the multiverse."
     "name": "Spiteful Escape"
 "actions":
   - "desc": "The hag makes two Spectral Claw attacks and uses Crackling Wave."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+14|noform|noparens|text(+14),\
-      \ reach 10 ft. or range 60 ft. Hit: dice:3d6+7|noform|noparens|avg|text(17)\
-      \ (3d6 + 7) Force damage. If the target is a Large or smaller creature, it\
-      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee  or Ranged Attack Roll: +14, reach 10 ft. or range 60 ft. Hit:\
+      \ 17 (3d6 + 7) Force damage. If the target is a Large or smaller creature,\
+      \ it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Spectral Claw"
   - "desc": "Dexterity Saving Throw: DC 22, each creature in a 60-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:5d12|noform|noparens|avg|text(32) (5d12) Lightning damage. Success:\
-      \ Half damage. Failure or Success: The target is cursed until the end of the\
-      \ hag's next turn. The target can't take Reactions until the curse ends."
+      \ 32 (5d12) Lightning damage. Success: Half damage. Failure or Success:\
+      \ The target is cursed until the end of the hag's next turn. The target can't\
+      \ take Reactions until the curse ends."
     "name": "Crackling Wave"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
@@ -142,8 +141,8 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
       нструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
-  - "desc": "Each creature cursed by the hag and within 60 feet of it takes dice:4d6|noform|noparens|avg|text(14)\
-      \ (4d6) Lightning damage."
+  - "desc": "Each creature cursed by the hag and within 60 feet of it takes 14 (4d6)\
+      \ Lightning damage."
     "name": "Witch Strike"
 "reactions":
   - "desc": "The hag casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
@@ -164,10 +163,10 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
       \ creating the following effects:"
     "name": ""
   - "desc": "- Lapsus Linguae. Creatures (excluding the hag and its allies) within\
-      \ 1 mile of the lair subtract dice:1d10|noform|noparens|avg (d10) from any\
-      \ ability check they make when they take the [Influence](Інструменти%20ДМ/CLI/rules/actions.md#Influence)\
-      \ action.  \n- Meddlesome Magic. Whenever a creature other than the hag\
-      \ or its allies finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
+      \ 1 mile of the lair subtract d10 from any ability check they make when they\
+      \ take the [Influence](Інструменти%20ДМ/CLI/rules/actions.md#Influence) action.\
+      \  \n- Meddlesome Magic. Whenever a creature other than the hag or its allies\
+      \ finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
       \ while within 1 mile of the lair, the next time that creature casts a spell\
       \ using a spell slot, it also casts [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md)\
       \ centered on itself. The spell uses the creature's spellcasting ability and\

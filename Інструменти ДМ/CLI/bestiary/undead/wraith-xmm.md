@@ -80,15 +80,13 @@ Wraiths might arise from a single powerfully evil soul or other baleful forces. 
 "traits":
   - "desc": "The wraith can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
-      \ ends its turn inside an object."
+      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in sunlight, the wraith has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
-      \ ft. Hit: dice:4d8+3|noform|noparens|avg|text(21) (4d8 + 3) Necrotic\
+  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic\
       \ damage. If the target is a creature, its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the damage taken."
     "name": "Life Drain"

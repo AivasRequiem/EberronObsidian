@@ -88,24 +88,22 @@ Trostani spends most of her time in the towering tree of Vitu-Ghazi, the Selesny
   - "desc": "Trostani takes three actions: she uses Constrict and Touch of Order,\
       \ and she casts a spell with a casting time of 1 action."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
-      \ (3d6 + 5) bludgeoning damage, and the target is [grappled](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Grappled) (escape DC 19). Until this grapple ends,\
-      \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one creature. Hit:\
+      \ 15 (3d6 + 5) bludgeoning damage, and the target is [grappled](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 19). Until this grapple\
+      \ ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
       \ Trostani can grapple no more than three targets at a time."
     "name": "Constrict"
-  - "desc": "Melee Spell Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
-      \ reach 5 ft., one creature. Hit: dice:3d8+10|noform|noparens|avg|text(23)\
-      \ (3d8 + 10) radiant damage, and Trostani can choose one magic item she can\
-      \ see in the target's possession. Unless it's an artifact, the item's magic\
+  - "desc": "Melee Spell Attack: +16 to hit, reach 5 ft., one creature. Hit:\
+      \ 23 (3d8 + 10) radiant damage, and Trostani can choose one magic item she\
+      \ can see in the target's possession. Unless it's an artifact, the item's magic\
       \ is suppressed until the start of Trostani's next turn."
     "name": "Touch of Order"
   - "desc": "Trostani conjures a momentary whirl of branches and vines at a point\
       \ she can see within 60 feet of her. Each creature in a 30-foot cube on that\
-      \ point must make a DC 24 Dexterity saving throw, taking dice:6d6|noform|noparens|avg|text(21)\
-      \ (6d6) bludgeoning damage and dice:6d6|noform|noparens|avg|text(21) (6d6)\
-      \ slashing damage on a failed save, or half as much damage on a successful one."
+      \ point must make a DC 24 Dexterity saving throw, taking 21 (6d6) bludgeoning\
+      \ damage and 21 (6d6) slashing damage on a failed save, or half as much damage\
+      \ on a successful one."
     "name": "Wrath of Mat'Selesnya (Recharge 5-6)"
 "legendary_actions":
   - "desc": "Trostani makes one melee attack, with advantage on the attack roll."

@@ -85,17 +85,16 @@ Ultroloths strive to achieve planes-spanning plots. Roll on or choose a result f
 "actions":
   - "desc": "The ultroloth uses Hypnotic Gaze and makes two Mercurial Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 15\
-      \ ft. Hit: dice:6d6+4|noform|noparens|avg|text(25) (6d6 + 4) Force damage,\
+  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 25 (6d6 + 4) Force damage,\
       \ and the ultroloth can teleport the target up to 10 feet to an unoccupied space\
       \ the ultroloth can see that isn't in the air."
     "name": "Mercurial Whip"
   - "desc": "Wisdom Saving Throw: DC 17, each creature in a 30-foot [Cone](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ dice:3d6|noform|noparens|avg|text(10) (3d6) Psychic damage, and the target\
-      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the start of the ultroloth's next turn. Success: The target is immune\
-      \ to this ultroloth's Hypnotic Gaze for 24 hours."
+      \ 10 (3d6) Psychic damage, and the target has the [Stunned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Stunned) condition until the start of the ultroloth's\
+      \ next turn. Success: The target is immune to this ultroloth's Hypnotic Gaze\
+      \ for 24 hours."
     "name": "Hypnotic Gaze"
   - "desc": "The ultroloth casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\

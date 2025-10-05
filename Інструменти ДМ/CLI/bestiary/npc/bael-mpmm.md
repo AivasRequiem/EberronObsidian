@@ -84,10 +84,8 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
 "actions":
   - "desc": "Bael makes two Hellish Morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
-      \ reach 20 ft., one target. Hit: dice:2d8+7|noform|noparens|avg|text(16)\
-      \ (2d8 + 7) force damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
-      \ necrotic damage."
+  - "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit:\
+      \ 16 (2d8 + 7) force damage plus 9 (2d8) necrotic damage."
     "name": "Hellish Morningstar"
   - "desc": "Each of Bael's allies within 60 feet of him can't be [charmed](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ\

@@ -56,10 +56,9 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
 "actions":
   - "desc": "The speaker makes two Thunder Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5)\
-      \ to hit, reach 5 ft. or range 60 ft., one target. Hit: dice:3d8|noform|noparens|avg|text(13)\
-      \ (3d8) thunder damage, and the target is pushed horizontally up to 10 feet\
-      \ away from the speaker."
+  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60\
+      \ ft., one target. Hit: 13 (3d8) thunder damage, and the target is pushed\
+      \ horizontally up to 10 feet away from the speaker."
     "name": "Thunder Bolt"
   - "desc": "The speaker casts one of the following spells, using Charisma as the\
       \ spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](І\
@@ -70,8 +69,8 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
     "name": "Spellcasting"
 "reactions":
   - "desc": "When a creature the speaker can see within 60 feet of it makes a damage\
-      \ roll, the speaker can roll a dice:d6|noform|noparens|avg (d6) and subtract\
-      \ the number rolled from that damage roll."
+      \ roll, the speaker can roll a d6 and subtract the number rolled from that\
+      \ damage roll."
     "name": "Disarming Words (3/Day)"
 "source":
   - "FTD"

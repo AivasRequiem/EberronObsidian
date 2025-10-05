@@ -50,13 +50,11 @@ The first gnolls were hyenas transformed by magic. Many of them were then corrup
 "actions":
   - "desc": "The gnoll makes one Bite attack and two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4\
-      \ + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
-      \ + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
   - "desc": "Until the end of the turn, the gnoll's speed increases by 60 feet and\
       \ it doesn't provoke [opportunity attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."

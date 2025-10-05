@@ -27,11 +27,11 @@ Whenever you end your turn with 0 hit points, the docent can make a Wisdom ([Med
 
 A docent has the following properties:
 
-**Languages**. The docent knows Common, Giant, and `dice:1d4|noform|noparens|avg` (`d4`) additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.
+**Languages**. The docent knows Common, Giant, and `d4` additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.
 
-**Skills**. The docent has a +7 bonus to one of the following skills (roll a `dice:d4|noform|noparens|avg` (`d4`)): (1) [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), (2) [History](Інструменти%20ДМ/CLI/rules/skills.md#History), (3) [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), or (4) [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature).
+**Skills**. The docent has a +7 bonus to one of the following skills (roll a `d4`): (1) [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), (2) [History](Інструменти%20ДМ/CLI/rules/skills.md#History), (3) [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), or (4) [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature).
 
-**Spells**. The docent knows one of the following spells and can cast it at will, requiring no components (roll a `dice:d6|noform|noparens|avg` (`d6`)): (1–2) [detect evil and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md) or (3–6) [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md). The docent decides when to cast the spell.
+**Spells**. The docent knows one of the following spells and can cast it at will, requiring no components (roll a `d6`): (1–2) [detect evil and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md) or (3–6) [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md). The docent decides when to cast the spell.
 
 ## Personality
 

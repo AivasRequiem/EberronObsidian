@@ -72,16 +72,12 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "actions":
   - "desc": "The elf makes two Longsword or Longbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
-      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
-      \ + 1) slashing damage, or dice:1d10+1|noform|noparens|avg|text(6) (1d10\
-      \ + 1) slashing damage when used with two hands, plus dice:3d6|noform|noparens|avg|text(10)\
-      \ (3d6) radiant damage."
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with\
+      \ two hands, plus 10 (3d6) radiant damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
-      \ range 150/600 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6)\
-      \ (1d8 + 2) piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ radiant damage."
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage plus 10 (3d6) radiant damage."
     "name": "Longbow"
 "source":
   - "BAM"

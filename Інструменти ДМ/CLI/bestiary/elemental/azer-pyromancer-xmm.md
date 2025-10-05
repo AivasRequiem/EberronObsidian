@@ -61,8 +61,8 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 "traits":
   - "desc": "At the end of each of the azer's turns, each creature of the azer's choice\
       \ in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the azer takes dice:2d10|noform|noparens|avg|text(11) (2d10)\
-      \ Fire damage unless the azer has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ originating from the azer takes 11 (2d10) Fire damage unless the azer has\
+      \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition."
     "name": "Fire Aura"
   - "desc": "The azer sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
@@ -72,9 +72,8 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 "actions":
   - "desc": "The azer makes two Flame Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
-      \ reach 5 ft. or range 120 ft. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
-      \ (2d10 + 4) Fire damage."
+  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit:\
+      \ 15 (2d10 + 4) Fire damage."
     "name": "Flame Burst"
   - "desc": "The azer casts one of the following spells, requiring no Material components\
       \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\

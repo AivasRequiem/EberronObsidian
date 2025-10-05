@@ -76,22 +76,21 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes three Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
-      \ reach 5 ft. or range 20/60 ft. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
-      \ (2d8 + 4) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
+      \ Hit: 13 (2d8 + 4) Piercing damage."
     "name": "Trident"
 "reactions":
   - "desc": "Trigger: The sahuagin takes Piercing or Slashing damage. _Response—_Constitution\
       \ Saving Throw: DC 14, each creature of the sahuagin's choice in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the sahuagin. Failure: dice:3d6|noform|noparens|avg|text(10) (3d6)\
-      \ Acid damage, and the target is cursed until it finishes a [Short](Інструме\
-      нти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструме\
-      нти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). While cursed, the target\
-      \ can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\
-      \ condition, its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ decreases by 10 feet, and all Fiends within 120 feet of the target can sense\
-      \ its location regardless of interposing obstacles."
+      \ from the sahuagin. Failure: 10 (3d6) Acid damage, and the target is cursed\
+      \ until it finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
+      \ or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).\
+      \ While cursed, the target can't benefit from the [Invisible](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Invisible) condition, its [Speed](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/speed-xphb.md) decreases by 10 feet, and all Fiends\
+      \ within 120 feet of the target can sense its location regardless of interposing\
+      \ obstacles."
     "name": "Fiendish Blood"
 "source":
   - "XMM"

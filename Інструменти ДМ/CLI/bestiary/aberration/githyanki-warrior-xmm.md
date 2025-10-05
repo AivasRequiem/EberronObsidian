@@ -63,9 +63,8 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
 "actions":
   - "desc": "The githyanki makes two Psi Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
-      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Slashing damage\
-      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Psychic damage."
+  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing\
+      \ damage plus 7 (2d6) Psychic damage."
     "name": "Psi Blade"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability:\n\nAt will: [Mage\

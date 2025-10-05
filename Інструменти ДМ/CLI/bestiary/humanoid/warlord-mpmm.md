@@ -78,13 +78,11 @@ Warlords urge their troops into the fray with shouted exhortations. You can roll
 "actions":
   - "desc": "The warlord makes two Greatsword or Short bow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
-      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
       \ (2d6 + 5) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
-      \ range 80/320 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
-      \ (1d6 + 3) piercing damage."
+  - "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
 "legendary_actions":
   - "desc": "The warlord targets one ally it can see within 30 feet of it. If the\
