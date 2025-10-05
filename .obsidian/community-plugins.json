@@ -9,8 +9,14 @@
   "templater-obsidian",
   "obsidian-custom-frames",
   "obsidian-git",
-  "copy-url-in-preview",
   "obsidian-admonition",
   "initiative-tracker",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "folder-notes",
+  "obsidian-view-mode-by-frontmatter",
+  "new-tab-default-page",
+  "obsidian-icon-folder",
+  "image-converter",
+  "image-window",
+  "various-complements"
 ]
