@@ -9,4 +9,5 @@ aliases:
 ---
 # Two-Weapon Fighting
 *Source: Player's Handbook (2024) p. 210. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*  
+
 When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.

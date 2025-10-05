@@ -82,7 +82,8 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "traits":
   - "desc": "At the end of each of the gorgon's turns, each creature in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the gorgon takes 13 (3d8) Fire damage."
+      \ from the gorgon takes dice:3d8|noform|noparens|avg|text(13) (3d8) Fire\
+      \ damage."
     "name": "Flame Aura"
   - "desc": "The gorgon sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
       \ in a 10-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\
@@ -91,22 +92,25 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "actions":
   - "desc": "The gorgon makes two Gore attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
-      \ damage plus 10 (3d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Fire damage."
     "name": "Gore"
   - "desc": "The gorgon moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks and can move through the spaces of Medium\
-      \ or smaller creatures. Each time the gorgon enters a creature's space for the\
-      \ first time during this move, that target is subjected to the following effect.\
-      \ Dexterity Saving Throw: DC 16. Failure: 13 (2d8 + 4) Piercing damage\
-      \ plus 13 (3d8) Fire damage, and the target is pulled into the gorgon's space\
-      \ and has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14); if the gorgon already has a creature [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled), the target has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition instead. Until the\
-      \ grapple ends, the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition. When the gorgon moves, the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ target moves with it, costing no extra movement."
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ and can move through the spaces of Medium or smaller creatures. Each time\
+      \ the gorgon enters a creature's space for the first time during this move,\
+      \ that target is subjected to the following effect. Dexterity Saving Throw:\
+      \ DC 16. Failure: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Piercing\
+      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Fire damage, and\
+      \ the target is pulled into the gorgon's space and has the [Grappled](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14); if the\
+      \ gorgon already has a creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
+      \ the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition instead. Until the grapple ends, the target has the [Restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition. When the gorgon\
+      \ moves, the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) target\
+      \ moves with it, costing no extra movement."
     "name": "Smelting Charge (Recharge 5-6)"
 "source":
   - "XMM"

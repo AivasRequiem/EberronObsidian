@@ -89,13 +89,14 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
 "actions":
   - "desc": "The sphinx makes three Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
+      \ ft. Hit: dice:3d6+4|noform|noparens|avg|text(14) (3d6 + 4) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "Wisdom Saving Throw: DC 16, each enemy in a 300-foot [Emanation](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has\
-      \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ from the sphinx. Failure: dice:10d6|noform|noparens|avg|text(35) (10d6)\
+      \ Psychic damage, and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the start of the sphinx's next turn."
     "name": "Mind-Rending Roar (Recharge 5-6)"
   - "desc": "The sphinx casts one of the following spells, requiring no Material components\
@@ -117,8 +118,9 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
   - "desc": "Constitution Saving Throw: DC 16, one creature the sphinx can see within\
       \ 120 feet. Failure: The target gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
       \ level. While the target has any [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
-      \ levels, it appears 3d10 years older. Failure or Success: The sphinx can't\
-      \ take this action again until the start of its next turn."
+      \ levels, it appears dice:3d10|noform|noparens|avg (3d10) years older. Failure\
+      \ or Success: The sphinx can't take this action again until the start of its\
+      \ next turn."
     "name": "Weight of Years"
 "regional_effects":
   - "desc": "The region containing a sphinx of lore's or sphinx of valor's lair is\
@@ -129,8 +131,8 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
       \ and using the same spellcasting ability as its Spellcasting action. When cast\
       \ this way, the spell's range is 1 mile.  \n- Infusion of Knowledge. Whenever\
       \ the sphinx or one of its allies takes a [Study](Інструменти%20ДМ/CLI/rules/actions.md#Study)\
-      \ action while within 1 mile of the lair, it adds d6 to any ability check\
-      \ it makes for that action.  "
+      \ action while within 1 mile of the lair, it adds dice:1d6|noform|noparens|avg\
+      \ (d6) to any ability check it makes for that action.  "
     "name": ""
   - "desc": "If the sphinx dies or moves its lair elsewhere, these effects end immediately."
     "name": ""

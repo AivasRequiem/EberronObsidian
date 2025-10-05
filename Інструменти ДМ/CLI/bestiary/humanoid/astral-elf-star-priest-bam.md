@@ -53,9 +53,9 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+8"
-  - "charisma": "+6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)"
     "desc": "+8"
@@ -75,13 +75,15 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
   - "desc": "The elf makes two Morningstar attacks. It can use Rain of Radiance in\
       \ place of one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) piercing damage plus 17 (5d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8|noform|noparens|avg|text(4) (d8)\
+      \ piercing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6) radiant\
+      \ damage."
     "name": "Morningstar"
   - "desc": "Magical, flame-like radiance rains down on a creature that the elf can\
       \ see within 60 feet of itself. The target must make a DC 16 Dexterity saving\
-      \ throw, taking 22 (5d8) radiant damage on a failed save, or half as much\
-      \ damage on a successful one."
+      \ throw, taking dice:5d8|noform|noparens|avg|text(22) (5d8) radiant damage\
+      \ on a failed save, or half as much damage on a successful one."
     "name": "Rain of Radiance"
   - "desc": "The elf casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 16):\n\n2/day each: [cure wounds](Інструменти%20Д\

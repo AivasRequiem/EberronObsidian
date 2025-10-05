@@ -60,7 +60,8 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
 "actions":
   - "desc": "The cloaker makes one Attach attack and two Tail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Piercing\
       \ damage. If the target is a Large or smaller creature, the cloaker attaches\
       \ to it. While the cloaker is attached, the target has the [Blinded](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Blinded) condition, and the cloaker can't\
@@ -71,7 +72,8 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
       \ the cloaker, doing so by succeeding on a DC 14 Strength ([Athletics](Інстр\
       ументи%20ДМ/CLI/rules/skills.md#Athletics)) check."
     "name": "Attach"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
+      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
       \ damage."
     "name": "Tail"
 "bonus_actions":

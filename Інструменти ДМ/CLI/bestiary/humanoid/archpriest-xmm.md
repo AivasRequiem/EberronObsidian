@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/12
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/cleric
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "name": "Archpriest (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "cleric"
 "alignment": "Neutral"
 "ac": !!int "16"
 "hp": !!int "240"
@@ -69,10 +70,10 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "intelligence": "+6"
-  - "wisdom": "+9"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -88,14 +89,16 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The archpriest makes three Radiant Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 60 ft. Hit:\
-      \ 27 (4d10 + 5) Radiant damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
+      \ reach 5 ft. or range 60 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
+      \ (4d10 + 5) Radiant damage."
     "name": "Radiant Burst"
   - "desc": "Wisdom Saving Throw: DC 17, each enemy in a 20-foot [Emanation](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the archpriest. Failure: 21 (6d6) Radiant damage, and the target\
-      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the end of the archpriest's next turn. Success: Half damage only."
+      \ from the archpriest. Failure: dice:6d6|noform|noparens|avg|text(21) (6d6)\
+      \ Radiant damage, and the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ condition until the end of the archpriest's next turn. Success: Half damage\
+      \ only."
     "name": "Holy Word (Recharge 4-6)"
   - "desc": "The archpriest casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 17):\n\
@@ -106,22 +109,7 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
       \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md), [Zone of Truth](Інс\
       трументи%20ДМ/CLI/spells/zone-of-truth-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
-      \ [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [Healing\
-      \ Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Lesser Restoration](І\
-      нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md), using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Divine Aid (3/Day)"
 "bonus_actions":
-  - "desc": "The archpriest casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](І\
-      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day each: [Flame Strike](І\
-      нструменти%20ДМ/CLI/spells/flame-strike-xphb.md) (level 6 version), [Greater\
-      \ Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md), [Raise\
-      \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md), [Zone of Truth](Інс\
-      трументи%20ДМ/CLI/spells/zone-of-truth-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
       \ [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [Healing\
       \ Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Lesser Restoration](І\

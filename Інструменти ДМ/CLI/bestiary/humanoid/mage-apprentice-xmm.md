@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/2
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/wizard
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "name": "Mage Apprentice (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "wizard"
 "alignment": "Neutral"
 "ac": !!int "15"
 "hp": !!int "49"
@@ -69,8 +70,8 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -80,16 +81,18 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "languages": "Common plus one other language"
 "cr": "2"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
-      \ 14 (2d10 + 3) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:2d10+3|noform|noparens|avg|text(14)\
+      \ (2d10 + 3) Force damage."
     "name": "Arcane Burst"
   - "desc": "The mage casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 13, +5 to hit with spell attacks):\n\
-      \nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [Disguise\
-      \ Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Ice Knife](Інст\
-      рументи%20ДМ/CLI/spells/ice-knife-xphb.md), [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\
-      \ (included in AC), [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)"
+      \ spellcasting ability (spell save DC 13, dice:1d20+5|noform|noparens|text(+5)\
+      \ to hit with spell attacks):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
+      \n1/day each: [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
+      \ [Ice Knife](Інструменти%20ДМ/CLI/spells/ice-knife-xphb.md), [Mage Armor](І\
+      нструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in AC), [Thunderwave](І\
+      нструменти%20ДМ/CLI/spells/thunderwave-xphb.md)"
     "name": "Spellcasting"
 "source":
   - "XMM"

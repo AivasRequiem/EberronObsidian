@@ -165,7 +165,7 @@ The youngest and most recently appointed member of the "Circle of Eight" (see "c
 
 ## Kas the Betrayer
 
-Kas *(KOSS)* is a vampire, legendary swordfighter, and ruthless warlord. He once served as the leader of "Vecna"'s armies and the lich's most trusted lieutenant, and he wielded a sword made for him (the [Sword of Kas](Інструменти%20ДМ/CLI/items/sword-of-kas-xdmg.md), described in "chapter 7") by his liege. But the evil sword convinced Kas to betray Vecna, and now Kas is driven primarily by his hatred for his former lord.
+Kas *(KOSS)* is a vampire, legendary sword-fighter, and ruthless warlord. He once served as the leader of "Vecna"'s armies and the lich's most trusted lieutenant, and he wielded a sword made for him (the [Sword of Kas](Інструменти%20ДМ/CLI/items/sword-of-kas-xdmg.md), described in "chapter 7") by his liege. But the evil sword convinced Kas to betray Vecna, and now Kas is driven primarily by his hatred for his former lord.
 
 ## Keraptis
 
@@ -313,7 +313,7 @@ Undermountain is the largest, deepest dungeon in the Forgotten Realms setting. I
 
 ## Vajra Safahr
 
-Vajra Safahr *(VAWJ-rah sah-FAR)* is a human Wizard in her midthirties, making her the youngest person ever to hold the position of Blackstaff—the chief mage of "Waterdeep" and the head of Blackstaff Academy, a school for mages. Several of the older and more seasoned mages of Waterdeep consider Vajra an upstart, but they are smart enough not to challenge her. As the badge of her office, she carries the *Blackstaff*, an Artifact that holds the spirits of all her predecessors.
+Vajra Safahr *(VAWJ-rah sah-FAR)* is a human Wizard in her mid-thirties, making her the youngest person ever to hold the position of Blackstaff—the chief mage of "Waterdeep" and the head of Blackstaff Academy, a school for mages. Several of the older and more seasoned mages of Waterdeep consider Vajra an upstart, but they are smart enough not to challenge her. As the badge of her office, she carries the *Blackstaff*, an Artifact that holds the spirits of all her predecessors.
 
 ## Valor's Call
 

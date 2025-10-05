@@ -46,9 +46,9 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "19"
 "speed": "30 ft., fly 50 ft."
 "saves":
-  - "strength": "+12"
-  - "constitution": "+10"
-  - "wisdom": "+8"
+  - "strength": !!int "12"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+10"
@@ -73,11 +73,15 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes one Bite attack and one Claw attack, and it can use\
       \ Frightful Presence or Incite Fanaticism."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:3d10+6|noform|noparens|avg|text(22)\
+      \ (3d10 + 6) piercing damage plus dice:7d10|noform|noparens|avg|text(38)\
+      \ (7d10) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 17 (2d10 + 6) force damage plus 11 (2d10) fire damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
+      \ (2d10 + 6) force damage plus dice:2d10|noform|noparens|avg|text(11) (2d10)\
+      \ fire damage."
     "name": "Claw"
   - "desc": "Each creature of the abishai's choice that is within 120 feet and aware\
       \ of the abishai must succeed on a DC 18 Wisdom saving throw or become [frightened](І\

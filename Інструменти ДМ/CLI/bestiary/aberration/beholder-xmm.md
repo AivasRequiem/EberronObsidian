@@ -54,8 +54,8 @@ Beholders lurk in cavern complexes they've carved using their eye rays deep in t
   - !!int "17"
 "speed": "5 ft., fly 40 ft. (hover)"
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+7"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+12"
@@ -69,32 +69,35 @@ Beholders lurk in cavern complexes they've carved using their eye rays deep in t
 "actions":
   - "desc": "The beholder uses Eye Rays three times."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 13 (3d6 + 3) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
+      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The beholder randomly shoots one of the following magical rays at a target\
-      \ it can see within 120 feet of itself (roll d10; reroll if the beholder has\
-      \ already used that ray during this turn):\n\n- 1 Charm Ray. Wisdom Saving\
-      \ Throw: DC 16. Failure: 13 (3d8) Psychic damage, and the target has the\
-      \ [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition for\
-      \ 1 hour or until it takes damage. Success: Half damage only.  \n- 2 Paralyzing\
-      \ Ray. Constitution Saving Throw: DC 16. Failure: The target has the [Paralyzed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition and repeats the\
-      \ save at the end of each of its turns, ending the effect on itself on a success.\
-      \ After 1 minute, it succeeds automatically.  \n- 3 Fear Ray. Wisdom Saving\
-      \ Throw: DC 16. Failure: 14 (4d6) Psychic damage, and the target has the\
-      \ [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition\
-      \ until the end of its next turn. Success: Half damage only.  \n- 4 Slowing\
-      \ Ray. Constitution Saving Throw: DC 16. Failure: 18 (4d8) Necrotic\
-      \ damage. Until the end of the target's next turn, the target's [Speed](Інст\
-      рументи%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved; the target can't\
-      \ take Reactions; and it can take either an action or a [Bonus Action](Інстр\
-      ументи%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on its turn, not both.\
-      \ Success: Half damage only.  \n- 5 Enervation Ray. Constitution Saving\
-      \ Throw: DC 16. Failure: 13 (3d8) Poison damage, and the target has the\
-      \ [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until\
-      \ the end of its next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
-      \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+      \ it can see within 120 feet of itself (roll dice:1d10|noform|noparens|avg\
+      \ (d10); reroll if the beholder has already used that ray during this turn):\n\
+      \n- 1 Charm Ray. Wisdom Saving Throw: DC 16. Failure: dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) Psychic damage, and the target has the [Charmed](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Charmed) condition for 1 hour or until it takes damage.\
+      \ Success: Half damage only.  \n- 2 Paralyzing Ray. Constitution Saving\
+      \ Throw: DC 16. Failure: The target has the [Paralyzed](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Paralyzed) condition and repeats the save at the end\
+      \ of each of its turns, ending the effect on itself on a success. After 1 minute,\
+      \ it succeeds automatically.  \n- 3 Fear Ray. Wisdom Saving Throw: DC\
+      \ 16. Failure: dice:4d6|noform|noparens|avg|text(14) (4d6) Psychic damage,\
+      \ and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition until the end of its next turn. Success: Half damage only.  \n\
+      - 4 Slowing Ray. Constitution Saving Throw: DC 16. Failure: dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) Necrotic damage. Until the end of the target's next turn, the target's\
+      \ [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved;\
+      \ the target can't take Reactions; and it can take either an action or a [Bonus\
+      \ Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on\
+      \ its turn, not both. Success: Half damage only.  \n- 5 Enervation Ray.\
+      \ Constitution Saving Throw: DC 16. Failure: dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) Poison damage, and the target has the [Poisoned](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Poisoned) condition until the end of its next turn.\
+      \ While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target\
+      \ can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \ Success: Half damage only.  \n- 6 Telekinetic Ray. Strength Saving\
       \ Throw: DC 16 (the target succeeds automatically if it is Gargantuan). Failure:\
       \ The beholder moves the target up to 30 feet in any direction. The target has\
@@ -115,14 +118,16 @@ Beholders lurk in cavern complexes they've carved using their eye rays deep in t
       \ [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) condition\
       \ instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition.  \n- 9 Disintegration Ray. Dexterity Saving Throw: DC 16.\
-      \ Failure: 36 (8d8) Force damage. If the target is a nonmagical object or\
-      \ a creation of magical force, a 10-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
+      \ Failure: dice:8d8|noform|noparens|avg|text(36) (8d8) Force damage. If\
+      \ the target is a nonmagical object or a creation of magical force, a 10-foot\
+      \ [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
       \ of it disintegrates into dust. Success: Half damage. Failure or Success:\
       \ If the target is a creature and this damage reduces it to 0 [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it disintegrates\
       \ into dust.  \n- 10 Death Ray. Dexterity Saving Throw: DC 16. Failure:\
-      \ 55 (10d10) Necrotic damage. Success: Half damage. Failure or Success:\
-      \ The target dies if the ray reduces it to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+      \ dice:10d10|noform|noparens|avg|text(55) (10d10) Necrotic damage. Success:\
+      \ Half damage. Failure or Success: The target dies if the ray reduces it to\
+      \ 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \  "
     "name": "Eye Rays"
 "bonus_actions":

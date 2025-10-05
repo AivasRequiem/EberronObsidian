@@ -55,17 +55,19 @@ The dank, sunless Underdark is a fertile breeding ground for weird and dangerous
 "traits":
   - "desc": "The gas spore bursts when it dies. Constitution Saving Throw: DC 10,\
       \ each creature in a 20-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the gas spore. Failure: The target takes 10 (3d6) Poison\
-      \ damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition for d12 hours. Unless the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition is removed, the target dies at the end of that time and sprouts\
-      \ 2d4 Tiny Gas Spore Fungi (each with 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)).\
-      \ After 2d6 days, they become Large and have 13 [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md)."
+      \ originating from the gas spore. Failure: The target takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Poison damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition for dice:1d12|noform|noparens|avg (d12) hours. Unless the [Poisoned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition is removed, the\
+      \ target dies at the end of that time and sprouts dice:2d4|noform|noparens|avg\
+      \ (2d4) Tiny Gas Spore Fungi (each with 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)).\
+      \ After dice:2d6|noform|noparens|avg (2d6) days, they become Large and have\
+      \ 13 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +0, reach 5 ft. Hit: 3 (d6) Poison damage,\
-      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee Attack Roll: dice:1d20+0|noform|noparens|text(+0), reach 5\
+      \ ft. Hit: dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage, and\
+      \ the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the end of its next turn."
     "name": "Tendril"
 "source":

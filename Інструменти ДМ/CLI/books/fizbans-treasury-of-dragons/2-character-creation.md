@@ -66,7 +66,7 @@ At 3rd level, a monk gains the Monastic Tradition class feature and a ranger gai
 
 > [!gallery]
 > ![A human monk practices a f...](Інструменти%20ДМ/CLI/books/fizbans-treasury-of-dragons/img/dragon-monk.webp#gallery "A human monk practices a form inspired by dragon flight")
-> ![A dragonborn drakewarden s...](Інструменти%20ДМ/CLI/books/fizbans-treasury-of-dragons/img/drakewarden-ranger.webp#gallery "A dragonborn drakewarden shares affection with her drake companion")
+> ![A dragonborn Drakewarden s...](Інструменти%20ДМ/CLI/books/fizbans-treasury-of-dragons/img/drakewarden-ranger.webp#gallery "A dragonborn Drakewarden shares affection with her drake companion")
 
 ## Heroes of the Dragon
 

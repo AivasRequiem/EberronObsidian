@@ -82,12 +82,13 @@ While many hydras claim their own territories, wicked deities might use them to 
     "name": "Multiple Heads"
   - "desc": "For each head the hydra has beyond one, it gets an extra [Reaction](І\
       нструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) that can be used only\
-      \ for Opportunity Attacks."
+      \ for [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Reactive Heads"
 "actions":
   - "desc": "The hydra makes as many Bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Piercing\
       \ damage."
     "name": "Bite"
 "source":

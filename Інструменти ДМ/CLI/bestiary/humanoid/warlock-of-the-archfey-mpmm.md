@@ -44,8 +44,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+6"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+2"
@@ -62,13 +62,16 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes two Rapier attacks, or it uses Bewildering Word twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 7 (2d6) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ force damage."
     "name": "Rapier"
   - "desc": "The warlock utters a magical bewilderment, targeting one creature it\
       \ can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving\
-      \ throw or take 9 (2d8) psychic damage and have disadvantage on attack rolls\
-      \ until the end of the warlock's next turn."
+      \ throw or take dice:2d8|noform|noparens|avg|text(9) (2d8) psychic damage\
+      \ and have disadvantage on attack rolls until the end of the warlock's next\
+      \ turn."
     "name": "Bewildering Word"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
       \ spellcasting ability (spell save DC 14): \n\nAt will: [dancing lights](І\

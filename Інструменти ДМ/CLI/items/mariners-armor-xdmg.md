@@ -28,7 +28,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/mariners-armor.webp#right)
 
 
-While wearing this armor, you have a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md) equal to your [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md). In addition, if you start your turn underwater with 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you immediately regain `d4` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). The armor can't heal anyone again until the next dawn.
+While wearing this armor, you have a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md) equal to your [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md). In addition, if you start your turn underwater with 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you immediately regain `dice:1d4|noform|noparens|avg` (`d4`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). The armor can't heal anyone again until the next dawn.
 
 The armor is decorated with fish and shell motifs.
 

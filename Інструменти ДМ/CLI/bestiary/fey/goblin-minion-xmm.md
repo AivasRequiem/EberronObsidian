@@ -66,8 +66,9 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
 "languages": "Common, Goblin"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d4 + 2) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
+      \ (1d4 + 2) Piercing damage."
     "name": "Dagger"
 "bonus_actions":
   - "desc": "The goblin takes the Disengage or Hide action."

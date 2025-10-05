@@ -48,8 +48,8 @@ Titanic purple worms burrow through the earth and sand. Ever ravenous, they devo
   - !!int "4"
 "speed": "50 ft., burrow 50 ft."
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+4"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "4"
 "senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9"
 "languages": ""
 "cr": "15"
@@ -61,14 +61,16 @@ Titanic purple worms burrow through the earth and sand. Ever ravenous, they devo
 "actions":
   - "desc": "The worm makes one Bite attack and one Tail Stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 22 (3d8 + 9) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:3d8+9|noform|noparens|avg|text(22) (3d8 + 9) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 19),\
       \ and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 16 (2d6 + 9) Piercing\
-      \ damage plus 35 (10d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:2d6+9|noform|noparens|avg|text(16) (2d6 + 9) Piercing\
+      \ damage plus dice:10d6|noform|noparens|avg|text(35) (10d6) Poison damage."
     "name": "Tail Stinger"
 "bonus_actions":
   - "desc": "Strength Saving Throw: DC 19, one Large or smaller creature [Grappled](І\
@@ -78,14 +80,14 @@ Titanic purple worms burrow through the earth and sand. Ever ravenous, they devo
       \ condition ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\
       \ has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
-      \ against attacks and other effects outside the worm, and takes 17 (5d6) Acid\
-      \ damage at the start of each of the worm's turns.\n\nIf the worm takes 30 damage\
-      \ or more on a single turn from a creature inside it, the worm must succeed\
-      \ on a DC 21 Constitution saving throw at the end of that turn or regurgitate\
-      \ all swallowed creatures, each of which falls in a space within 5 feet of the\
-      \ worm and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\
-      \ If the worm dies, any swallowed creature no longer has the [Restrained](Ін\
-      струменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and can escape\
+      \ against attacks and other effects outside the worm, and takes dice:5d6|noform|noparens|avg|text(17)\
+      \ (5d6) Acid damage at the start of each of the worm's turns.\n\nIf the worm\
+      \ takes 30 damage or more on a single turn from a creature inside it, the worm\
+      \ must succeed on a DC 21 Constitution saving throw at the end of that turn\
+      \ or regurgitate all swallowed creatures, each of which falls in a space within\
+      \ 5 feet of the worm and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition. If the worm dies, any swallowed creature no longer has the [Restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and can escape\
       \ from the corpse using 20 feet of movement, exiting [Prone](Інструменти%20Д\
       М/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"

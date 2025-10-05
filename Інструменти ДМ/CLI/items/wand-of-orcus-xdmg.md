@@ -22,11 +22,11 @@ Crafted and wielded by [Orcus](Інструменти%20ДМ/CLI/bestiary/npc/or
 
 The wand is topped with a skull that once belonged to a human hero slain by Orcus. The wand can magically change in size to better conform to the grip of its user. All Holy Water within 10 feet of the wand is destroyed.
 
-Any creature besides Orcus that tries to attune to the wand makes a DC 17 Constitution saving throw. On a successful save, the creature takes `10d6` Necrotic damage. On a failed save, the creature dies and, if it is a Humanoid, turns into a [Zombie](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md).
+Any creature besides Orcus that tries to attune to the wand makes a DC 17 Constitution saving throw. On a successful save, the creature takes `dice:10d6|noform|noparens|avg` (`10d6`) Necrotic damage. On a failed save, the creature dies and, if it is a Humanoid, turns into a [Zombie](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md).
 
 ## Magic Weapon
 
-You can wield the wand as a magic [Mace](Інструменти%20ДМ/CLI/items/mace-xphb.md) that grants a +3 bonus to attack rolls and damage rolls made with it. The wand deals an extra `2d12` Necrotic damage on a hit.
+You can wield the wand as a magic [Mace](Інструменти%20ДМ/CLI/items/mace-xphb.md) that grants a +3 bonus to attack rolls and damage rolls made with it. The wand deals an extra `dice:2d12|noform|noparens|avg` (`2d12`) Necrotic damage on a hit.
 
 ## Random Properties
 
@@ -45,7 +45,7 @@ You gain a +3 bonus to [Armor Class](Інструменти%20ДМ/CLI/rules/var
 
 ## Spells
 
-The wand has 7 charges and regains `1d4 + 3` expended charges daily at dawn. While holding the wand, you can cast one of the spells on the following table from it (save DC 18). The table indicates how many charges you must expend to cast the spell.
+The wand has 7 charges and regains `dice:1d4+3|noform|noparens|avg` (`1d4 + 3`) expended charges daily at dawn. While holding the wand, you can cast one of the spells on the following table from it (save DC 18). The table indicates how many charges you must expend to cast the spell.
 
 | Spell | Charge Cost |
 |-------|-------------|

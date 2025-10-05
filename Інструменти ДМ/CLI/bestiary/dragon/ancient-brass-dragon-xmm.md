@@ -53,8 +53,8 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
   - !!int "22"
 "speed": "40 ft., burrow 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+8"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+9"
@@ -76,12 +76,14 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
       \ use of (A) Sleep Breath or (B) Spellcasting to cast [Scorching Ray](Інстру\
       менти%20ДМ/CLI/spells/scorching-ray-xphb.md) (level 3 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 15 ft. Hit: 19 (2d10 + 8) Slashing\
-      \ damage plus 7 (2d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 15 ft. Hit: dice:2d10+8|noform|noparens|avg|text(19) (2d10 + 8) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Fire damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 21, each creature in a 90-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 58 (13d8) Fire damage. Success: Half damage."
+      \ Failure: dice:13d8|noform|noparens|avg|text(58) (13d8) Fire damage.\
+      \ Success: Half damage."
     "name": "Fire Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 21, each creature in a 90-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
@@ -112,10 +114,10 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
       \ and it makes one Rend attack."
     "name": "Pounce"
   - "desc": "Dexterity Saving Throw: DC 20, one creature the dragon can see within\
-      \ 120 feet. Failure: 36 (8d8) Fire damage, and the target's [Speed](Інст\
-      рументи%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved until the end\
-      \ of its next turn. Failure or Success: The dragon can't take this action\
-      \ again until the start of its next turn."
+      \ 120 feet. Failure: dice:8d8|noform|noparens|avg|text(36) (8d8) Fire\
+      \ damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ is halved until the end of its next turn. Failure or Success: The dragon\
+      \ can't take this action again until the start of its next turn."
     "name": "Scorching Sands"
 "regional_effects":
   - "desc": "The area containing an adult or ancient brass dragon's lair is altered\
@@ -127,8 +129,9 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
       \ the spell this way, the spell's range is 1 mile, and the dragon doesn't need\
       \ to see the spot where the illusion appears.  \n- Refreshing Water. Water\
       \ within 1 mile of the lair is magically refreshing. A creature that drinks\
-      \ such water gains 2d4 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md),\
-      \ and the dragon is immediately aware of the creature's presence.  "
+      \ such water gains dice:2d4|noform|noparens|avg (2d4) [Temporary Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md), and the\
+      \ dragon is immediately aware of the creature's presence.  "
     "name": ""
   - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
     "name": ""

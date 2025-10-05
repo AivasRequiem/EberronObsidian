@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 48*  
 
 
-- **Ability Scores**: Constitution +2; Wisdom +1
+- **Ability Scores**: con +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom
@@ -32,7 +32,7 @@ You can speak, read, and write Common and one extra language of your choice. Hum
 
 ### Sentinel's Intuition
 
-When you make a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) or Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check, you can roll a `d4` and add the number rolled to the ability check.
+When you make a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) or Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Guardian's Shield
 

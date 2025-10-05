@@ -20,7 +20,7 @@ aliases:
 > 
 > There are many reasons to avoid the way of the lich. An impermanent solution is paradoxical. Take alhoons. They require souls to keep from shriveling. I fail to see the appeal.
 
-Mind flayers that pursue arcane magic are exiled as deviants, and for them no everlasting communion with an elder brain is possible. The road to lichdom offers an alternative way to escape the permanency of death, but that path is long and fraught with barriers. Alhoons are mind flayers who have used a shortcut to attain a lichlike state.
+Mind flayers that pursue arcane magic are exiled as deviants, and for them no everlasting communion with an elder brain is possible. The road to lichdom offers an alternative way to escape the permanency of death, but that path is long and fraught with barriers. Alhoons are mind flayers who have used a shortcut to attain a lich-like state.
 
 Elder brains forbid mind flayers from pursuing magic power aside from psionics, but it isn't an interdiction they must often enforce. Illithids brook no masters but members of their own kind, so it isn't in their nature to bow to any god or otherworldly patron. However, wizardry remains a temptation. In the pages of a spellbook, an illithid sees a system to acquire authority. Through the writings of the wizard who penned it, the illithid perceives the workings of a highly intelligent mind. Most mind flayers who find a spellbook react with abhorrence or indifference, but for some, a spellbook is a gateway to a new way of thinking.
 
@@ -62,10 +62,10 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
   - !!int "17"
 "speed": "30 ft., fly 15 ft. (hover)"
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -98,14 +98,16 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
 "actions":
   - "desc": "The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
-      \ (4d6) cold damage, and the alhoon regains 14 hit points."
+  - "desc": "Melee Spell Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ cold damage, and the alhoon regains 14 hit points."
     "name": "Chilling Grasp"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit:\
-      \ 28 (8d6) force damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ range 120 ft., one target. Hit: dice:8d6|noform|noparens|avg|text(28)\
+      \ (8d6) force damage."
     "name": "Arcane Bolt"
   - "desc": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature\
-      \ in that area must succeed on a DC 16 Intelligence saving throw or take 22\
+      \ in that area must succeed on a DC 16 Intelligence saving throw or take dice:4d8+4|noform|noparens|avg|text(22)\
       \ (4d8 + 4) psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. A target can repeat the saving throw at the end of each of its\
       \ turns, ending the effect on itself on a success."

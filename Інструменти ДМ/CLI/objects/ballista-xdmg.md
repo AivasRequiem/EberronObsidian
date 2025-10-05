@@ -30,6 +30,6 @@ title: Ballista
 
 ## Actions
 
-***Ballista Bolt (Requires Load and Aim).*** *Ranged Attack Roll:* `+6`, range 120/480 ft. *Hit:* 16 (`3d10`) Piercing damage.
+***Ballista Bolt (Requires Load and Aim).*** *Ranged Attack Roll:* `dice:1d20+6|noform|noparens|text(+6)`, range 120/480 ft. *Hit:* `dice:3d10|noform|noparens|avg|text(16)` (`3d10`) Piercing damage.
 ```
 ^statblock

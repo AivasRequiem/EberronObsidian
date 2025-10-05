@@ -22,7 +22,7 @@ aliases:
 - **Habitat.** Underdark  
 - **Treasure.** None  
 
-Hook horrors are beaked predators whose forelimbs end in massive, hooklike claws. They flourish in the cavernous mazes of the Underdark, with its miles-deep trenches and stalactite forests suspended over empty darkness, where they barrel through caves and swing across cavern ceilings.
+Hook horrors are beaked predators whose forelimbs end in massive, hook-like claws. They flourish in the cavernous mazes of the Underdark, with its miles-deep trenches and stalactite forests suspended over empty darkness, where they barrel through caves and swing across cavern ceilings.
 
 Hook horrors feed opportunistically on plants, fungi, and any creatures that come close enough to hook. To perceive their surroundings, hook horrors echolocate via a range of noises, from banging on rocks and their own bodies to vocalizations that sound like strange squawks, screams, or clicks. Only hook horrors know the meaning of these noises, but many people who explore the Underdark or live near deep-reaching caves have sought the sources of such sounds only to fall victim to hungry hook horrors.
 
@@ -44,7 +44,7 @@ Hook horrors feed opportunistically on plants, fungi, and any creatures that com
   - !!int "7"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "constitution": "+4"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -54,7 +54,8 @@ Hook horrors feed opportunistically on plants, fungi, and any creatures that com
 "actions":
   - "desc": "The hook horror makes two Hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
       \ damage. If the target is a Large or smaller creature, the hook horror moves\
       \ the target 5 feet straight toward or away from itself."
     "name": "Hook"

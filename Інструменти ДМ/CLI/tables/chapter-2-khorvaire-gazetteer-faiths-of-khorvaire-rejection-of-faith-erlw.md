@@ -4,14 +4,14 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire; Rejection of Faith
+- Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire; Rejection of Faith
 ---
-# Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire; Rejection of Faith
+# Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire; Rejection of Faith
 *Source: Eberron: Rising from the Last War p. 140* 
 
 **Rejection of Faith**
 
-`dice: [](chapter-2-khorvaire-gazeteer-faiths-of-khorvaire-rejection-of-faith-erlw.md#^rejection-of-faith)`
+`dice: [](chapter-2-khorvaire-gazetteer-faiths-of-khorvaire-rejection-of-faith-erlw.md#^rejection-of-faith)`
 
 | dice: d6 | Rejection |
 |----------|-----------|

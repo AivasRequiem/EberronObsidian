@@ -15,7 +15,7 @@ aliases:
 
 | dice: d8 | Trait |
 |----------|-------|
-| 1 | Some people say I have a short attention span, and that I'm easily distractable, but they don't... oh wow, is that a lute? |
+| 1 | Some people say I have a short attention span, and that I'm easily distractible, but they don't... oh wow, is that a lute? |
 | 2 | I do not constantly steal food. If you can't keep track of your rations, that's really a personal failing. |
 | 3 | I'm much smarter than I look, and if you can't say the same, this is going to be a short conversation. |
 | 4 | Elf, dwarf, horse—you non-dragons all look the same to me. No offense. |

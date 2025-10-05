@@ -18,7 +18,7 @@ Reigar were once cephalopods similar to octopi. They inhabited the stormy seas o
 
 Gifted with audacious hearts, reigar emerged from the Ysgardian seas to test their mettle on land. When the endless battles there grew tiresome, some reigar ventured to the Astral Sea and Wildspace in search of glory. Many are driven by artistic pursuits, but each reigar has their own notion of what constitutes art. For some, warfare is the highest form of artistic endeavor. Other reigar create art of a more benign nature.
 
-Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, traveling in symbiotic organic ships that they create (see "Esthetic"). Each reigar possesses a magic item called a talarith, which the reigar created and to which they alone can attune. If this object is lost or destroyed, it takes `1d10 + 20` days for the reigar to craft another one.
+Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, traveling in symbiotic organic ships that they create (see "Esthetic"). Each reigar possesses a magic item called a talarith, which the reigar created and to which they alone can attune. If this object is lost or destroyed, it takes `dice:1d10+20|noform|noparens|avg` (`1d10 + 20`) days for the reigar to craft another one.
 
 ```statblock
 "name": "Reigar (BAM)"
@@ -39,10 +39,10 @@ Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, tr
   - !!int "24"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+4"
-  - "wisdom": "+6"
-  - "charisma": "+10"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -65,14 +65,17 @@ Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, tr
 "actions":
   - "desc": "The reigar makes two Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
-      \ damage if used with two hands to make a melee attack, plus 3 (d6) force\
-      \ damage if the reigar is wearing its talarith."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
+      \ (1d6 + 4) piercing damage, or dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) piercing damage if used with two hands to make a melee attack, plus\
+      \ dice:1d6|noform|noparens|avg|text(3) (d6) force damage if the reigar is\
+      \ wearing its talarith."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 90 ft., one target. Hit:\
-      \ 22 (5d8) damage of a type chosen by the reigar from the following list:\
-      \ cold, fire, lightning, or radiant."
+  - "desc": "Ranged Spell Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ range 90 ft., one target. Hit: dice:5d8|noform|noparens|avg|text(22) (5d8)\
+      \ damage of a type chosen by the reigar from the following list: cold, fire,\
+      \ lightning, or radiant."
     "name": "Chromatic Bolt"
   - "desc": "Using its talarith, the reigar summons a duplicate of itself. The duplicate\
       \ obeys the reigar's commands and uses the reigar's statistics, except it is\

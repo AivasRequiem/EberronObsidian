@@ -116,9 +116,9 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
   - !!int "12"
 "speed": "20 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+8"
-  - "wisdom": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "5"
 "damage_resistances": "fire"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Aquan, Draconic"
@@ -129,16 +129,19 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
 "actions":
   - "desc": "The dragon turtle makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (1d12 + 5) piercing damage plus 6 (d12) lightning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d12+5|noform|noparens|avg|text(11)\
+      \ (1d12 + 5) piercing damage plus dice:1d12|noform|noparens|avg|text(6)\
+      \ (d12) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
-      \ (1d8 + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8\
+      \ + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon turtle exhales steam in a 30-foot cone. Each creature in that\
-      \ area must make a DC 16 Constitution saving throw, taking 42 (12d6) fire\
-      \ damage on a failed save, or half as much damage on a successful one. Being\
-      \ underwater doesn't grant resistance against this damage."
+      \ area must make a DC 16 Constitution saving throw, taking dice:12d6|noform|noparens|avg|text(42)\
+      \ (12d6) fire damage on a failed save, or half as much damage on a successful\
+      \ one. Being underwater doesn't grant resistance against this damage."
     "name": "Steam Breath (Recharge 5-6)"
 "source":
   - "FTD"

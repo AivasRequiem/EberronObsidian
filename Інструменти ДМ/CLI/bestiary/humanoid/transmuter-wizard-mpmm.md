@@ -40,8 +40,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -64,8 +64,9 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The transmuter makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 19 (3d10 + 3) acid damage."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6)\
+      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:3d10+3|noform|noparens|avg|text(19)\
+      \ (3d10 + 3) acid damage."
     "name": "Arcane Burst"
   - "desc": "The transmuter casts one of the following spells, using Intelligence\
       \ as the spellcasting ability (spell save DC 14):\n\nAt will: [light](Ін\

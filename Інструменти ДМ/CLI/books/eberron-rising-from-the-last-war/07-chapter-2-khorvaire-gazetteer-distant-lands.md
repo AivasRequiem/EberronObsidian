@@ -4,9 +4,9 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 2: Khorvaire Gazeteer - Distant Lands
+- Chapter 2: Khorvaire Gazetteer - Distant Lands
 ---
-# Chapter 2: Khorvaire Gazeteer - Distant Lands
+# Chapter 2: Khorvaire Gazetteer - Distant Lands
 *Source: Eberron: Rising from the Last War, p. 132* 
 
 This section of the gazetteer provides a glimpse of the wonder and adventure found in the lands beyond Khorvaire's horizon. Use these entries to inspire adventures that take place in these distant lands, and to introduce trinkets or relics from foreign realms into Khorvaire.

@@ -50,12 +50,14 @@ A braxat projects an invisible psychic barrier around itself that enhances its n
 "actions":
   - "desc": "The braxat makes two Greatclub attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 21 (3d8 + 8) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d8+8|noform|noparens|avg|text(21)\
+      \ (3d8 + 8) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The braxat exhales a 15-foot cone of acid. Each creature in the cone\
-      \ must make a DC 18 Constitution saving throw, taking 26 (4d12) acid damage\
-      \ on a failed save, or half as much damage on a successful one."
+      \ must make a DC 18 Constitution saving throw, taking dice:4d12|noform|noparens|avg|text(26)\
+      \ (4d12) acid damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Acid Breath (Recharge 6)"
   - "desc": "The braxat casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\

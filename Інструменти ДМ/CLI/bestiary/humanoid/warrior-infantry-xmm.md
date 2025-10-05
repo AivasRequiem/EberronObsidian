@@ -78,8 +78,9 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d6 + 1) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
+      \ (1d6 + 1) Piercing damage."
     "name": "Spear"
 "source":
   - "XMM"

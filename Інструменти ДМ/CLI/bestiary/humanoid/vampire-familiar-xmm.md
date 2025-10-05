@@ -72,8 +72,8 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - !!int "14"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+2"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -95,12 +95,14 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The familiar makes two Umbral Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the\
-      \ target is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ by this attack, the target becomes [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md)\
-      \ but has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition for 1 hour. While it has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
+      \ (1d4 + 3) Piercing damage plus dice:3d4|noform|noparens|avg|text(7) (3d4)\
+      \ Necrotic damage. If the target is reduced to 0 [Hit Points](Інструменти%20Д\
+      М/CLI/rules/variant-rules/hit-points-xphb.md) by this attack, the target becomes\
+      \ [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md) but has\
+      \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
+      \ for 1 hour. While it has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition, the target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ condition."
     "name": "Umbral Dagger"

@@ -40,11 +40,11 @@ You decide what triggers the glyph when you cast the spell. For glyphs inscribed
 
 You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
 
-Once triggered, the glyph glows, filling a 60-foot-radius Sphere with [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn.
+Once triggered, the glyph glows, filling a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) with [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for 10 minutes, after which time the spell ends. Each creature in the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) when the glyph activates is targeted by its effect, as is a creature that enters the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) for the first time on a turn or ends its turn there. A creature is targeted only once per turn.
 
 ## Death
 
-Each target makes a Constitution saving throw, taking `10d10` Necrotic damage on a failed save or half as much damage on a successful save.
+Each target makes a Constitution saving throw, taking `dice:10d10|noform|noparens|avg` (`10d10`) Necrotic damage on a failed save or half as much damage on a successful save.
 
 ## Discord
 

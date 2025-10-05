@@ -46,8 +46,8 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
   - !!int "12"
 "speed": "20 ft., fly 50 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+3"
@@ -62,8 +62,10 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
   - "desc": "The aarakocra makes two Wind Staff attacks, and it can use Spellcasting\
       \ to cast [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
-      \ 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
+      \ (1d8 + 3) Bludgeoning damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) Lightning damage."
     "name": "Wind Staff"
   - "desc": "The aarakocra casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\
@@ -72,18 +74,7 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
       \n1/day: [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The aarakocra casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ in response to that spell's trigger, using the same spellcasting ability as\
-      \ Spellcasting.\n"
-    "name": "Feather Fall (1/Day)"
 "reactions":
-  - "desc": "The aarakocra casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\
-      \nAt will: [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md),\
-      \ [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md), [Mage Hand](І\
-      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
-      \n1/day: [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The aarakocra casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
       \ in response to that spell's trigger, using the same spellcasting ability as\
       \ Spellcasting.\n"

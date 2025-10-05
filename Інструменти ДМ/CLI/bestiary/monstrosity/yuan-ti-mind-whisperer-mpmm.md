@@ -41,8 +41,8 @@ Mind whisperers are elusive, manipulative, unpredictable, and willing to cheat o
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -67,14 +67,18 @@ Mind whisperers are elusive, manipulative, unpredictable, and willing to cheat o
   - "desc": "The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes\
       \ two Spectral Fangs attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
+      \ + 3) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) slashing damage."
     "name": "Scimitar (Yuan-ti Form Only)"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
-      \ 16 (3d8 + 3) psychic damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 120 ft., one target. Hit: dice:3d8+3|noform|noparens|avg|text(16)\
+      \ (3d8 + 3) psychic damage."
     "name": "Spectral Fangs"
   - "desc": "The yuan-ti casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 13):\n\

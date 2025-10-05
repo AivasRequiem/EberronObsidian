@@ -20,7 +20,6 @@ aliases:
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") 
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") 
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") 
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") 
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") 
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") 
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") 

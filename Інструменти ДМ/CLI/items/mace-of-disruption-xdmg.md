@@ -17,7 +17,7 @@ aliases:
 - **Damage**: 1d6 bludgeoning
 - **Weight**: 4.0 lbs.
 
-When you hit a Fiend or an Undead with this magic weapon, that creature takes an extra `2d6` Radiant damage. If the target has 25 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end of your next turn.
+When you hit a Fiend or an Undead with this magic weapon, that creature takes an extra `dice:2d6|noform|noparens|avg` (`2d6`) Radiant damage. If the target has 25 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end of your next turn.
 
 ## Light
 

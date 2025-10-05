@@ -39,8 +39,8 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - !!int "5"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+4"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -64,9 +64,11 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - "desc": "The egg hunter makes two Barbed Proboscis attacks, and it can use Torpor\
       \ Spores if it's available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage, and the egg hunter\
-      \ regains hit points equal to the necrotic damage dealt."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6\
+      \ + 5) piercing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
+      \ necrotic damage, and the egg hunter regains hit points equal to the necrotic\
+      \ damage dealt."
     "name": "Barbed Proboscis"
   - "desc": "The egg hunter releases a billow of sparkling blue spores. Each creature\
       \ in a 30-foot-radius sphere centered on the egg hunter must succeed on a DC\

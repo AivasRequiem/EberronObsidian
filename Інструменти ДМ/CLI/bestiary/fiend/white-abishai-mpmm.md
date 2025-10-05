@@ -45,8 +45,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "13"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+7"
+  - "strength": !!int "6"
+  - "constitution": !!int "7"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "damage_immunities": "cold, fire, poison"
@@ -69,15 +69,19 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes one Bite attack, one Claw attack, and one Longsword\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage plus 3 (d6) cold damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
+      \ + 3) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6) cold\
+      \ damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
       \ (1d10 + 3) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) force damage, or 8 (1d10 + 3) force damage if used with two\
-      \ hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) force damage, or dice:1d10+3|noform|noparens|avg|text(8) (1d10 +\
+      \ 3) force damage if used with two hands."
     "name": "Longsword"
 "reactions":
   - "desc": "In response to taking damage, the abishai makes one Bite attack against\

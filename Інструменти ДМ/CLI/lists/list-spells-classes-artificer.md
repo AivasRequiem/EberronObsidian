@@ -73,7 +73,7 @@ aliases:
 
 ## 3rd Level
 
-- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD")
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") (\*)
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
 - [Create Food and Water](Інструменти%20ДМ/CLI/spells/create-food-and-water-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")

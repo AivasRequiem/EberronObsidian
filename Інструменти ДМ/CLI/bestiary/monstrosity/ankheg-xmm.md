@@ -41,10 +41,10 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
 |-----------|--------------------------------|
 | 1 | Another tunnel (either natural or of worked stone) that extends into the Underdark. |
 | 2 | A buried ruin or grave exposed by the tunnel. |
-| 3 | A cluster of `d4` fresh ankheg eggs that can be broken and used as vials of Acid. |
+| 3 | A cluster of `dice:1d4\|noform\|noparens\|avg` (`d4`) fresh ankheg eggs that can be broken and used as vials of Acid. |
 | 4 | A dead ankheg and evidence of a deadlier subterranean predator. |
 | 5 | A piece of ankheg carapace usable as a Shield. |
-| 6 | A pouch with `2d6` GP near a puddle of acid. |
+| 6 | A pouch with `dice:2d6\|noform\|noparens\|avg` (`2d6`) GP near a puddle of acid. |
 | 7 | A stray farm or woodland animal. |
 | 8 | A viciously mauled scarecrow. |
 ^ankheg-tunnel-discoveries
@@ -75,15 +75,18 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
       \ tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 3 (d6)\
-      \ Acid damage. If the target is a Large or smaller creature, it has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13)."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5) (with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target is\
+      \ [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the ankheg),\
+      \ reach 5 ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
+      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Acid damage. If\
+      \ the target is a Large or smaller creature, it has the [Grappled](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13)."
     "name": "Bite"
   - "desc": "Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 14 (4d6) Acid damage. Success: Half damage."
+      \ Failure: dice:4d6|noform|noparens|avg|text(14) (4d6) Acid damage. Success:\
+      \ Half damage."
     "name": "Acid Spray (Recharge 6)"
 "source":
   - "XMM"

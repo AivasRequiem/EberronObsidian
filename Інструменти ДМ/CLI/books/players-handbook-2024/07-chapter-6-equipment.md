@@ -203,102 +203,119 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 #### Alchemist's Supplies (50 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 8 lb.  
 - **Utilize.** Identify a substance (DC 15), or start a fire (DC 15)  
 - **Craft.** [Acid](Інструменти%20ДМ/CLI/items/acid-xphb.md), [Alchemist's Fire](Інструменти%20ДМ/CLI/items/alchemists-fire-xphb.md), [Component Pouch](Інструменти%20ДМ/CLI/items/component-pouch-xphb.md), [Oil](Інструменти%20ДМ/CLI/items/oil-xphb.md), [Paper](Інструменти%20ДМ/CLI/items/paper-xphb.md), [Perfume](Інструменти%20ДМ/CLI/items/perfume-xphb.md)  
 
 #### Brewer's Supplies (20 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 9 lb.  
 - **Utilize.** Detect poisoned drink (DC 15), or identify alcohol (DC 10)  
 - **Craft.** [Antitoxin](Інструменти%20ДМ/CLI/items/antitoxin-xphb.md)  
 
 #### Calligrapher's Supplies (10 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Write text with impressive flourishes that guard against forgery (DC 15)  
 - **Craft.** [Ink](Інструменти%20ДМ/CLI/items/ink-xphb.md), [Spell Scroll](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md)  
 
 #### Carpenter's Tools (8 GP)
 
 - **Ability.** Strength  
+- **Weight.** 6 lb.  
 - **Utilize.** Seal or pry open a door or container (DC 20)  
 - **Craft.** [Club](Інструменти%20ДМ/CLI/items/club-xphb.md), [Greatclub](Інструменти%20ДМ/CLI/items/greatclub-xphb.md), [Quarterstaff](Інструменти%20ДМ/CLI/items/quarterstaff-xphb.md), [Barrel](Інструменти%20ДМ/CLI/items/barrel-xphb.md), [Chest](Інструменти%20ДМ/CLI/items/chest-xphb.md), [Ladder](Інструменти%20ДМ/CLI/items/ladder-xphb.md), [Pole](Інструменти%20ДМ/CLI/items/pole-xphb.md), [Portable Ram](Інструменти%20ДМ/CLI/items/portable-ram-xphb.md), [Torch](Інструменти%20ДМ/CLI/items/torch-xphb.md)  
 
 #### Cartographer's Tools (15 GP)
 
 - **Ability.** Wisdom  
+- **Weight.** 6 lb.  
 - **Utilize.** Draft a map of a small area (DC 15)  
 - **Craft.** [Map](Інструменти%20ДМ/CLI/items/map-xphb.md)  
 
 #### Cobbler's Tools (5 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Modify footwear to give [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the wearer's next Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check (DC 10)  
 - **Craft.** [Climber's Kit](Інструменти%20ДМ/CLI/items/climbers-kit-xphb.md)  
 
 #### Cook's Utensils (1 GP)
 
 - **Ability.** Wisdom  
+- **Weight.** 8 lb.  
 - **Utilize.** Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)  
 - **Craft.** [Rations](Інструменти%20ДМ/CLI/items/rations-xphb.md)  
 
 #### Glassblower's Tools (30 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 5 lb.  
 - **Utilize.** Discern what a glass object held in the past 24 hours (DC 15)  
 - **Craft.** [Glass Bottle](Інструменти%20ДМ/CLI/items/glass-bottle-xphb.md), [Magnifying Glass](Інструменти%20ДМ/CLI/items/magnifying-glass-xphb.md), [Spyglass](Інструменти%20ДМ/CLI/items/spyglass-xphb.md), [Vial](Інструменти%20ДМ/CLI/items/vial-xphb.md)  
 
 #### Jeweler's Tools (25 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 2 lb.  
 - **Utilize.** Discern a gem's value (DC 15)  
 - **Craft.** [Arcane Focus](Інструменти%20ДМ/CLI/items/arcane-focus-xphb.md), [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md)  
 
 #### Leatherworker's Tools (5 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Add a design to a leather item (DC 10)  
 - **Craft.** [Sling](Інструменти%20ДМ/CLI/items/sling-xphb.md), [Whip](Інструменти%20ДМ/CLI/items/whip-xphb.md), [Hide Armor](Інструменти%20ДМ/CLI/items/hide-armor-xphb.md), [Leather Armor](Інструменти%20ДМ/CLI/items/leather-armor-xphb.md), [Studded Leather Armor](Інструменти%20ДМ/CLI/items/studded-leather-armor-xphb.md), [Backpack](Інструменти%20ДМ/CLI/items/backpack-xphb.md), [Crossbow Bolt Case](Інструменти%20ДМ/CLI/items/crossbow-bolt-case-xphb.md), [Map or Scroll Case](Інструменти%20ДМ/CLI/items/map-or-scroll-case-xphb.md), [Parchment](Інструменти%20ДМ/CLI/items/parchment-xphb.md), [Pouch](Інструменти%20ДМ/CLI/items/pouch-xphb.md), [Quiver](Інструменти%20ДМ/CLI/items/quiver-xphb.md), [Waterskin](Інструменти%20ДМ/CLI/items/waterskin-xphb.md)  
 
 #### Mason's Tools (10 GP)
 
 - **Ability.** Strength  
+- **Weight.** 8 lb.  
 - **Utilize.** Chisel a symbol or hole in stone (DC 10)  
 - **Craft.** [Block and Tackle](Інструменти%20ДМ/CLI/items/block-and-tackle-xphb.md)  
 
 #### Painter's Supplies (10 GP)
 
 - **Ability.** Wisdom  
+- **Weight.** 5 lb.  
 - **Utilize.** Paint a recognizable image of something you've seen (DC 10)  
 - **Craft.** [Druidic Focus](Інструменти%20ДМ/CLI/items/druidic-focus-xphb.md), [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md)  
 
 #### Potter's Tools (10 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 3 lb.  
 - **Utilize.** Discern what a ceramic object held in the past 24 hours (DC 15)  
 - **Craft.** [Jug](Інструменти%20ДМ/CLI/items/jug-xphb.md), [Lamp](Інструменти%20ДМ/CLI/items/lamp-xphb.md)  
 
 #### Smith's Tools (20 GP)
 
 - **Ability.** Strength  
+- **Weight.** 8 lb.  
 - **Utilize.** Pry open a door or container (DC 20)  
 - **Craft.** Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, [Ball Bearings](Інструменти%20ДМ/CLI/items/ball-bearings-xphb.md), [Bucket](Інструменти%20ДМ/CLI/items/bucket-xphb.md), [Caltrops](Інструменти%20ДМ/CLI/items/caltrops-xphb.md), [Chain](Інструменти%20ДМ/CLI/items/chain-xphb.md), [Crowbar](Інструменти%20ДМ/CLI/items/crowbar-xphb.md), [Firearm Bullets](Інструменти%20ДМ/CLI/items/firearm-bullets-10-xphb.md), [Grappling Hook](Інструменти%20ДМ/CLI/items/grappling-hook-xphb.md), [Iron Pot](Інструменти%20ДМ/CLI/items/iron-pot-xphb.md), [Iron Spikes](Інструменти%20ДМ/CLI/items/iron-spikes-xphb.md), [Sling Bullets](Інструменти%20ДМ/CLI/items/sling-bullet-xphb.md)  
 
 #### Tinker's Tools (50 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 10 lb.  
 - **Utilize.** Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)  
 - **Craft.** [Musket](Інструменти%20ДМ/CLI/items/musket-xphb.md), [Pistol](Інструменти%20ДМ/CLI/items/pistol-xphb.md), [Bell](Інструменти%20ДМ/CLI/items/bell-xphb.md), [Bullseye Lantern](Інструменти%20ДМ/CLI/items/bullseye-lantern-xphb.md), [Flask](Інструменти%20ДМ/CLI/items/flask-xphb.md), [Hooded Lantern](Інструменти%20ДМ/CLI/items/hooded-lantern-xphb.md), [Hunter's Trap](Інструменти%20ДМ/CLI/items/hunting-trap-xphb.md), [Lock](Інструменти%20ДМ/CLI/items/lock-xphb.md), [Manacles](Інструменти%20ДМ/CLI/items/manacles-xphb.md), [Mirror](Інструменти%20ДМ/CLI/items/mirror-xphb.md), [Shovel](Інструменти%20ДМ/CLI/items/shovel-xphb.md), [Signal Whistle](Інструменти%20ДМ/CLI/items/signal-whistle-xphb.md), [Tinderbox](Інструменти%20ДМ/CLI/items/tinderbox-xphb.md)  
 
 #### Weaver's Tools (1 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)  
 - **Craft.** [Padded Armor](Інструменти%20ДМ/CLI/items/padded-armor-xphb.md), [Basket](Інструменти%20ДМ/CLI/items/basket-xphb.md), [Bedroll](Інструменти%20ДМ/CLI/items/bedroll-xphb.md), [Blanket](Інструменти%20ДМ/CLI/items/blanket-xphb.md), [Fine Clothes](Інструменти%20ДМ/CLI/items/fine-clothes-xphb.md), [Net](Інструменти%20ДМ/CLI/items/net-xphb.md), [Robe](Інструменти%20ДМ/CLI/items/robe-xphb.md), [Rope](Інструменти%20ДМ/CLI/items/rope-xphb.md), [Sack](Інструменти%20ДМ/CLI/items/sack-xphb.md), [String](Інструменти%20ДМ/CLI/items/string-xphb.md), [Tent](Інструменти%20ДМ/CLI/items/tent-xphb.md), [Traveler's Clothes](Інструменти%20ДМ/CLI/items/travelers-clothes-xphb.md)  
 
 #### Woodcarver's Tools (1 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Carve a pattern in wood (DC 10)  
 - **Craft.** [Club](Інструменти%20ДМ/CLI/items/club-xphb.md), [Greatclub](Інструменти%20ДМ/CLI/items/greatclub-xphb.md), [Quarterstaff](Інструменти%20ДМ/CLI/items/quarterstaff-xphb.md), Ranged weapons (except Pistol, Musket, and Sling), [Arcane Focus](Інструменти%20ДМ/CLI/items/arcane-focus-xphb.md), [Arrows](Інструменти%20ДМ/CLI/items/arrows-20-xphb.md), [Bolts](Інструменти%20ДМ/CLI/items/bolts-20-xphb.md), [Druidic Focus](Інструменти%20ДМ/CLI/items/druidic-focus-xphb.md), [Ink Pen](Інструменти%20ДМ/CLI/items/ink-pen-xphb.md), [Needles](Інструменти%20ДМ/CLI/items/needles-50-xphb.md)  
 
@@ -309,46 +326,54 @@ These tools support adventure and other pursuits.
 #### Disguise Kit (25 GP)
 
 - **Ability.** Charisma  
+- **Weight.** 3 lb.  
 - **Utilize.** Apply makeup (DC 10)  
 - **Craft.** [Costume](Інструменти%20ДМ/CLI/items/costume-xphb.md)  
 
 #### Forgery Kit (15 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 5 lb.  
 - **Utilize.** Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)  
 
 #### Gaming Set (Varies)
 
 - **Ability.** Wisdom  
+- **Weight.** —  
 - **Utilize.** Discern whether someone is cheating (DC 10), or win the game (DC 20)  
 - **Variants.** [Dice](Інструменти%20ДМ/CLI/items/dice-set-xphb.md) (1 SP), [dragonchess](Інструменти%20ДМ/CLI/items/dragonchess-set-xphb.md) (1 GP), [playing cards](Інструменти%20ДМ/CLI/items/playing-cards-xphb.md) (5 SP), [three-dragon ante](Інструменти%20ДМ/CLI/items/three-dragon-ante-set-xphb.md) (1 GP)  
 
 #### Herbalism Kit (5 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 3 lb.  
 - **Utilize.** Identify a plant (DC 10)  
 - **Craft.** [Antitoxin](Інструменти%20ДМ/CLI/items/antitoxin-xphb.md), [Candle](Інструменти%20ДМ/CLI/items/candle-xphb.md), [Healer's Kit](Інструменти%20ДМ/CLI/items/healers-kit-xphb.md), [Potion of Healing](Інструменти%20ДМ/CLI/items/potion-of-healing-xdmg.md)  
 
 #### Musical Instrument (Varies)
 
 - **Ability.** Charisma  
+- **Weight.** Varies  
 - **Utilize.** Play a known tune (DC 10), or improvise a song (DC 15)  
 - **Variants.** [Bagpipes](Інструменти%20ДМ/CLI/items/bagpipes-xphb.md) (30 GP, 6 lb.), [drum](Інструменти%20ДМ/CLI/items/drum-xphb.md) (6 GP, 3 lb.), [dulcimer](Інструменти%20ДМ/CLI/items/dulcimer-xphb.md) (25 GP, 10 lb.), [flute](Інструменти%20ДМ/CLI/items/flute-xphb.md) (2 GP, 1 lb.), horn (3 GP, 2 lb.), [lute](Інструменти%20ДМ/CLI/items/lute-xphb.md) (35 GP, 2 lb.), [lyre](Інструменти%20ДМ/CLI/items/lyre-xphb.md) (30 GP, 2 lb.), [pan flute](Інструменти%20ДМ/CLI/items/pan-flute-xphb.md) (12 GP, 2 lb.), [shawm](Інструменти%20ДМ/CLI/items/shawm-xphb.md) (2 GP, 1 lb.), [viol](Інструменти%20ДМ/CLI/items/viol-xphb.md) (30 GP, 1 lb.)  
 
 #### Navigator's Tools (25 GP)
 
 - **Ability.** Wisdom  
+- **Weight.** 2 lb.  
 - **Utilize.** Plot a course (DC 10), or determine position by stargazing (DC 15)  
 
 #### Poisoner's Kit (50 GP)
 
 - **Ability.** Intelligence  
+- **Weight.** 2 lb.  
 - **Utilize.** Detect a poisoned object (DC 10)  
 - **Craft.** [Basic Poison](Інструменти%20ДМ/CLI/items/basic-poison-xphb.md)  
 
 #### Thieves' Tools (25 GP)
 
 - **Ability.** Dexterity  
+- **Weight.** 1 lb.  
 - **Utilize.** Pick a lock (DC 15), or disarm a trap (DC 15)  
 
 ## Adventuring Gear
@@ -361,11 +386,11 @@ The Adventuring Gear table in this section includes gear that adventurers often 
 
 ### Acid (25 GP)
 
-When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `2d6` Acid damage.
+When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `dice:2d6|noform|noparens|avg` (`2d6`) Acid damage.
 
 ### Alchemist's Fire (50 GP)
 
-When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `d4` Fire damage and start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
+When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `dice:1d4|noform|noparens|avg` (`d4`) Fire damage and start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
 
 ### Ammunition (Varies)
 
@@ -523,11 +548,11 @@ The table indicates whether a Holy Symbol needs to be held, worn, or borne on fa
 
 ### Holy Water (25 GP)
 
-When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `2d8` Radiant damage if it is a Fiend or an Undead.
+When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `dice:2d8|noform|noparens|avg` (`2d8`) Radiant damage if it is a Fiend or an Undead.
 
 ### Hunting Trap (5 GP)
 
-As a [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take `d4` Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
+As a [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take `dice:1d4|noform|noparens|avg` (`d4`) Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
 
 ### Ink (10 GP)
 
@@ -617,7 +642,7 @@ Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, 
 
 ### Poison, Basic (100 GP)
 
-As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra `d4` Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
+As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra `dice:1d4|noform|noparens|avg` (`d4`) Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
 
 ### Pole (5 CP)
 
@@ -629,7 +654,7 @@ An Iron Pot holds up to 1 gallon.
 
 ### Potion of Healing (50 GP)
 
-This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains `2d4 + 2` Hit Points.
+This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains `dice:2d4+2|noform|noparens|avg` (`2d4 + 2`) Hit Points.
 
 ### Pouch (5 SP)
 

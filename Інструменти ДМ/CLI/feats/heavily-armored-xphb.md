@@ -9,10 +9,11 @@ aliases:
 ---
 # Heavily Armored
 *Source: Player's Handbook (2024) p. 204*  
+
 **Prerequisite**: 4th, Proficiency with medium armor
-**Ability Score Increase**: Increase your Constitution or Strength by 1, to a maximum of 20.
+
 You gain the following benefits.
 
-## Armor Training
+**Ability Score Increase.** Increase your Constitution or Strength by 1, to a maximum of 20.
 
-You gain training with Heavy armor.
+**Armor Training.** You gain training with Heavy armor.

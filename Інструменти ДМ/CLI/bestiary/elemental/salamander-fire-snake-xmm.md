@@ -17,7 +17,7 @@ aliases:
 # [Salamander Fire Snake](Інструменти ДМ\CLI\bestiary\elemental/salamander-fire-snake-xmm.md)
 *Source: Monster Manual (2024) p. 266*  
 
-Juvenile salamanders emerge from burning hot, two-foot-diameter eggs. Called fire snakes, these serpentlike creatures slither through the Plane of Fire and other intensely hot places. After consuming the proper fuels and exposing themselves to fiery extremes, fire snakes grow into salamanders.
+Juvenile salamanders emerge from burning hot, two-foot-diameter eggs. Called fire snakes, these serpent-like creatures slither through the Plane of Fire and other intensely hot places. After consuming the proper fuels and exposing themselves to fiery extremes, fire snakes grow into salamanders.
 
 ## Salamanders
 
@@ -60,11 +60,13 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 "traits":
   - "desc": "At the end of each of the salamander's turns, each creature of the salamander's\
       \ choice in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the salamander takes 3 (d6) Fire damage."
+      \ originating from the salamander takes dice:1d6|noform|noparens|avg|text(3)\
+      \ (d6) Fire damage."
     "name": "Fire Aura"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
     "name": "Bite"
 "source":
   - "XMM"

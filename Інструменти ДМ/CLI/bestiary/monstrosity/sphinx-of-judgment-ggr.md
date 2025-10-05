@@ -50,21 +50,22 @@ aliases:
 "cr": "11"
 "traits":
   - "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
-      \ (spell save DC 16, +8 to hit with spell attacks). It requires no material\
-      \ components to cast its spells. The sphinx has the following wizard spells\
-      \ prepared:\n\nCantrips (at will): [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md),\
-      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інст\
-      рументи%20ДМ/CLI/spells/message-xphb.md)\n\n1st level (4 slots): [command](І\
-      нструменти%20ДМ/CLI/spells/command-xphb.md), [ensnaring strike](Інструменти\
-      %20ДМ/CLI/spells/ensnaring-strike-xphb.md), [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)\n\
-      \n2nd level (3 slots): [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
-      \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [suggestion](І\
-      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n3rd level (3 slots): [clairvoyance](І\
-      нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [counterspell](Інструменти\
-      %20ДМ/CLI/spells/counterspell-xphb.md), [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\
-      \n4th level (3 slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
-      \ [divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md)\n\n5th level\
-      \ (1 slots): [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
+      \ (spell save DC 16, dice:1d20+8|noform|noparens|text(+8) to hit with spell\
+      \ attacks). It requires no material components to cast its spells. The sphinx\
+      \ has the following wizard spells prepared:\n\nCantrips (at will): [friends](І\
+      нструменти%20ДМ/CLI/spells/friends-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n1st level (4 slots):\
+      \ [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [ensnaring strike](І\
+      нструменти%20ДМ/CLI/spells/ensnaring-strike-xphb.md), [shield](Інструменти%20Д\
+      М/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [calm emotions](Інс\
+      трументи%20ДМ/CLI/spells/calm-emotions-xphb.md), [hold person](Інструменти%20Д\
+      М/CLI/spells/hold-person-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\
+      \n3rd level (3 slots): [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
+      \ [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md), [dispel\
+      \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\n4th level (3\
+      \ slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md), [divination](І\
+      нструменти%20ДМ/CLI/spells/divination-xphb.md)\n\n5th level (1 slots): [dominate\
+      \ person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
     "name": "Spellcasting"
   - "desc": "The sphinx is immune to any effect that would sense its emotions or read\
       \ its thoughts, as well as any divination spell that it refuses. Wisdom ([Insight](І\
@@ -76,7 +77,8 @@ aliases:
 "actions":
   - "desc": "The sphinx makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
 "legendary_actions":

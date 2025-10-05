@@ -89,8 +89,9 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
   - "desc": "The yuan-ti makes two Bite attacks, and it can use Spellcasting to cast\
       \ [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Bite"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\

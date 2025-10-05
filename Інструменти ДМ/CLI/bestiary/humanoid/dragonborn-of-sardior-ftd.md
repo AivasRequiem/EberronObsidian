@@ -41,10 +41,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "12"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -66,25 +66,27 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes three Mind Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic\
-      \ damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+4|noform|noparens|avg|text(6)\
+      \ (1d4 + 4) piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ psychic damage."
     "name": "Mind Blade"
   - "desc": "The dragonborn exhales a wave of intense heat in a 30-foot cone. Each\
       \ creature in that area must make a DC 14 Constitution saving throw, taking\
-      \ 27 (6d8) fire damage on a failed save, or half as much damage on a successful\
-      \ one. Metal objects in that area glow red-hot until the end of the dragonborn's\
-      \ next turn. Any creature in physical contact with a heated object at the start\
-      \ of its turn must make a DC 14 Constitution saving throw. On a failed save,\
-      \ the creature takes 9 (2d8) fire damage and has disadvantage on attack rolls\
-      \ until the start of its next turn."
+      \ dice:6d8|noform|noparens|avg|text(27) (6d8) fire damage on a failed save,\
+      \ or half as much damage on a successful one. Metal objects in that area glow\
+      \ red-hot until the end of the dragonborn's next turn. Any creature in physical\
+      \ contact with a heated object at the start of its turn must make a DC 14 Constitution\
+      \ saving throw. On a failed save, the creature takes dice:2d8|noform|noparens|avg|text(9)\
+      \ (2d8) fire damage and has disadvantage on attack rolls until the start of\
+      \ its next turn."
     "name": "Heat Breath (Recharge 6)"
   - "desc": "The dragonborn casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15, +7 to hit with spell attacks):\n\n1/day each: [Bigby's hand](І\
-      нструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md), [hypnotic pattern](Інструме\
-      нти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md), [telekinesis](Інструменти%20Д\
-      М/CLI/spells/telekinesis-xphb.md)"
+      \ DC 15, dice:1d20+7|noform|noparens|text(+7) to hit with spell attacks):\n\
+      \n1/day each: [Bigby's hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md),\
+      \ [hypnotic pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md),\
+      \ [telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "source":
   - "FTD"

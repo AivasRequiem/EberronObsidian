@@ -63,14 +63,15 @@ Howlers rely on speed, numbers, and their mind-numbing howling to corner prey be
 "actions":
   - "desc": "The howler makes two Rending Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) piercing damage, plus 22 (4d10) psychic damage if the target\
-      \ is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened). This\
-      \ attack ignores damage resistance."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+      \ (2d6 + 3) piercing damage, plus dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) psychic damage if the target is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).\
+      \ This attack ignores damage resistance."
     "name": "Rending Bite"
   - "desc": "The howler emits a keening howl in a 60-foot cone. Each creature in that\
-      \ area must succeed on a DC 13 Wisdom saving throw or take 16 (3d10) psychic\
-      \ damage and be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ area must succeed on a DC 13 Wisdom saving throw or take dice:3d10|noform|noparens|avg|text(16)\
+      \ (3d10) psychic damage and be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ until the end of the howler's next turn. While a creature is [frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) in this way, its speed is\
       \ halved, and it is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated).\

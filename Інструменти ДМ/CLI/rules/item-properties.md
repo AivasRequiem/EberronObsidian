@@ -82,7 +82,7 @@ You can fire only one piece of ammunition from a Loading weapon when you use an 
 
 ### Reach
 _Source: Player's Handbook (2024) p. 214. Available in the Free Rules (2024)_
-A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it.
+A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack) with it.
 
 ### Reload
 _Source: Dungeon Master's Guide (2024) p. 72_
@@ -167,4 +167,4 @@ In some settings, laws prohibit the possession and use of poison, but an illicit
 
 ### Harvesting Poison
 
-A character can attempt to harvest poison from a venomous creature that is dead or has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. The effort takes `d6` minutes, after which the character makes a DC 20 Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check using a [Poisoner's Kit](Інструменти%20ДМ/CLI/items/poisoners-kit-xphb.md). On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
+A character can attempt to harvest poison from a venomous creature that is dead or has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. The effort takes `dice:1d6|noform|noparens|avg` (`d6`) minutes, after which the character makes a DC 20 Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check using a [Poisoner's Kit](Інструменти%20ДМ/CLI/items/poisoners-kit-xphb.md). On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.

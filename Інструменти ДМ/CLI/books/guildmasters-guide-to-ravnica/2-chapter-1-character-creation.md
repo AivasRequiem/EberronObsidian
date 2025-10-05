@@ -128,7 +128,7 @@ The word "drow" isn't used on Ravnica, but the Devkarin elves are sometimes call
 
 #### Elf Names
 
-If the tradition of using child names for young elves, as described in the "Player's Handbook" , was ever practiced on Ravnica, it has long since died out. Some traditional Elvish names remain in use, often modified by the influence of human names. Most elves don't use family names.
+If the tradition of using child names for young elves, as described in the "Player's Handbook", was ever practiced on Ravnica, it has long since died out. Some traditional Elvish names remain in use, often modified by the influence of human names. Most elves don't use family names.
 
 - **Male Names.** Alcarus, Aramin, Beryan, Carric, Ezoc, Gurras, Immeral, Jarad, Laucian, Mihas, Mandor, Molander, Peren, Suniel, Theren, Varis  
 - **Female Names.** Arin, Bethrynna, Cevraya, Dainya, Drusilia, Elga, Emmara, Fonn, Ielenya, Iveta, Karissa, Kirce, Meriele, Nayine, Niszka, Svania, Veszka, Yeva  

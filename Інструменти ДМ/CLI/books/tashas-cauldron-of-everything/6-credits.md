@@ -18,7 +18,7 @@ aliases:
         - **Lead Graphic Designer.** Trish Yochum    
         - **Graphic Designers.** Trystan Falcone, Emi Tanji    
         - **Cover Illustrators.** Wylie Beckert, Magali Villeneuve    
-        - **Interior Illustrators.** Mark Behm, Eric Belisle, Zoltan Boros, Christopher Burdett, Sidharth Chaturvedi, David René Christensen, Nikki Dawes, Olga Drebas, Caroline Gariba, Sam Keiser, Julian Kok, Titus Lunter, Andrew Mar, Marcela Medeiros, Brynn Metheney, Robson Michel, Scott Murphy, Irina Nordsol, Robin Olausson, Claudio Pozas, Livia Prima, April Prime, David Sladek, Crystal Sully, Brian Valeza, Svetlin Velinov, Anna Veltkamp, Shawn Wood, Zuzanna Wuzyk, Kieran Yanner    
+        - **Interior Illustrators.** Mark Behm, Eric Belisle, Zoltan Boros, Christopher Burdett, Sidharth Chaturvedi, David René Christensen, Nikki Dawes, Olga Drebas, Caroline Gariba, Sam Keiser, Julian Kok, Titus Lunter, Andrew Mar, Marcela Medeiros, Brynn Metheney, Robson Michel, Scott Murphy, Irina Nordsol, Robin Olausson, Claudio Pozas, Livia Prima, April Prime, David Sladek, Crystal Sully, Brian Valeza, Svetlin Velinov, Anna Veltkamp, Shawn Wood, Zuzanna Wužyk, Kieran Yanner    
         - **Concept Illustrator.** Shawn Wood    
         - **Project Engineer.** Cynda Callaway    
         - **Imaging Technicians.** Kevin Yee    
@@ -45,3 +45,6 @@ This book contains some content that originally appeared in "Sword Coast Adventu
 > [!gallery]
 > ![On the Cover: Spellbook in...](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/credits2.webp#gallery "On the Cover: Spellbook in hand, the wizard Tasha casts a spell on a brew bubbling in her magic cauldron, in this painting by Magali Villeneuve.")
 > ![On the Alt-Cover: Artist W...](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/credits3.webp#gallery "On the Alt-Cover: Artist Wylie Beckert shows Tasha conjuring images of her past and future, wielding an incantation taught by her mother, Baba Yaga, while the abyssal lord Graz'zt looks on.")
+
+> [!note]
+> Disclaimer: Contained herein are the observations of the archmage Tasha. Later known as the Witch Queen and then Iggwilv, she is one of the greatest wizards in the history of the multiverse. We fear there is an incantation hidden within these notes and have therefore bound this tome with powerful wards. If you are reading this, the first ward has already been broken! If you dare read any further, we cannot guarantee the safety of your soul or that you won't open a portal to another plane of existence. If a portal does appear, pray that nothing worse than Tasha's mother Baba Yaga appears. And if the mother of hags arrives, be sure to offer only praises of her daughter. Or offer muffins. She loves muffins.

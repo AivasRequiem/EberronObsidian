@@ -62,9 +62,10 @@ The curse affecting kenku allows them to vocally communicate only by mimicking s
       \ Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
-      \ 6 (1d6 + 3) Necrotic damage. Hit or Miss: The blade magically returns\
-      \ to the kenku's hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 60 ft. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
+      \ (1d6 + 3) Necrotic damage. Hit or Miss: The blade magically returns to\
+      \ the kenku's hand immediately after a ranged attack."
     "name": "Shadow Blade"
 "bonus_actions":
   - "desc": "The kenku casts [Faerie Fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md),\

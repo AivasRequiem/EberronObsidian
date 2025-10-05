@@ -54,9 +54,9 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "wisdom": "+7"
-  - "charisma": "+5"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -86,18 +86,19 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "actions":
   - "desc": "The shadar-kai makes two Shadow Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic\
-      \ damage, and the target has disadvantage on saving throws until the end of\
-      \ the shadar-kai's next turn. Hit or Miss: The dagger magically returns to\
-      \ the shadar-kai's hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:4d4+3|noform|noparens|avg|text(13)\
+      \ (4d4 + 3) piercing damage plus dice:3d12|noform|noparens|avg|text(19)\
+      \ (3d12) necrotic damage, and the target has disadvantage on saving throws\
+      \ until the end of the shadar-kai's next turn. Hit or Miss: The dagger magically\
+      \ returns to the shadar-kai's hand immediately after a ranged attack."
     "name": "Shadow Dagger"
   - "desc": "The shadar-kai emits weariness in a 60-foot cube. Each creature in that\
       \ area must make a DC 16 Constitution saving throw. On a failed save, a creature\
-      \ takes 45 (10d8) psychic damage and suffers 1 level of [exhaustion](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Exhaustion). On a successful save, it takes\
-      \ half as much damage and doesn't gain a level of [exhaustion](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Exhaustion)."
+      \ takes dice:10d8|noform|noparens|avg|text(45) (10d8) psychic damage and\
+      \ suffers 1 level of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion).\
+      \ On a successful save, it takes half as much damage and doesn't gain a level\
+      \ of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)."
     "name": "Wave of Weariness (Recharge 4-6)"
   - "desc": "The shadar-kai casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\

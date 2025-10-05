@@ -28,9 +28,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take `d8` Radiant damage. The target gains no benefit from Half [Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md) or Three-Quarters [Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md) for this save.
+Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take `dice:1d8|noform|noparens|avg` (`d8`) Radiant damage. The target gains no benefit from Half [Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md) or Three-Quarters [Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md) for this save.
 
-**Cantrip Upgrade.** The damage increases by `d8` when you reach levels 5 (`2d8`), 11 (`3d8`), and 17 (`4d8`).
+**Cantrip Upgrade.** The damage increases by `dice:1d8|noform|noparens|avg` (`d8`) when you reach levels 5 (`dice:2d8|noform|noparens|avg` (`2d8`)), 11 (`dice:3d8|noform|noparens|avg` (`3d8`)), and 17 (`dice:4d8|noform|noparens|avg` (`4d8`)).
 
 **Classes**: [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Warlock (Celestial Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-celestial-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

@@ -48,7 +48,7 @@ Like sharks in water, vampiric mists can scent blood from up to a mile away. Any
   - !!int "7"
 "speed": "0 ft., fly 30 ft. (hover)"
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "damage_resistances": "acid; cold; lightning; necrotic; thunder; bludgeoning, piercing,\
   \ slashing from nonmagical attacks"
 "damage_immunities": "poison"
@@ -82,10 +82,11 @@ Like sharks in water, vampiric mists can scent blood from up to a mile away. Any
 "actions":
   - "desc": "The mist touches one creature in its space. The target must succeed on\
       \ a DC 13 Constitution saving throw (Undead and Constructs automatically succeed),\
-      \ or it takes 10 (2d6 + 3) necrotic damage, the mist regains 10 hit points,\
-      \ and the target's hit point maximum is reduced by an amount equal to the necrotic\
-      \ damage taken. This reduction lasts until the target finishes a long rest.\
-      \ The target dies if its hit point maximum is reduced to 0."
+      \ or it takes dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) necrotic\
+      \ damage, the mist regains 10 hit points, and the target's hit point maximum\
+      \ is reduced by an amount equal to the necrotic damage taken. This reduction\
+      \ lasts until the target finishes a long rest. The target dies if its hit point\
+      \ maximum is reduced to 0."
     "name": "Life Drain"
 "source":
   - "MPMM"

@@ -72,6 +72,7 @@ cssclasses: json5e-note
 - [Oinoloth](./oinoloth-mpmm.md)
 - [Oni](./oni-xmm.md)
 - [Orthon](./orthon-mpmm.md)
+- [Otherworldly Steed (Fiend)](./otherworldly-steed-fiend-xphb.md)
 - [Pit Fiend](./pit-fiend-xmm.md)
 - [Quasit](./quasit-xmm.md)
 - [Rakshasa](./rakshasa-xmm.md)

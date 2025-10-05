@@ -18,7 +18,7 @@ Civilization is weakness and brutality is strength in the credo of Baphomet, the
 
 Cults devoted to Baphomet use mazes and complex knots as their emblems. They create secret places to indulge themselves, including labyrinths of the sort their master favors. Bloodstained crowns and weapons of iron and brass decorate their profane altars.
 
-Over time, a mpmm becomes tainted by his influence, gaining bloodshot eyes and coarse, thickening hair. Small horns eventually sprout from the cultist's forehead. In time, a devoted cultist might transform entirely into a minotaur, which is considered the greatest gift of the Prince of Beasts.
+Over time, a MPMM becomes tainted by his influence, gaining bloodshot eyes and coarse, thickening hair. Small horns eventually sprout from the cultist's forehead. In time, a devoted cultist might transform entirely into a minotaur, which is considered the greatest gift of the Prince of Beasts.
 
 Baphomet appears as a fearsome, 20-foot-tall minotaur with six iron horns. A fiendish light burns in his red eyes. Although he is filled with bestial blood lust, there lies within him a cruel and cunning intellect devoted to subverting all civilization.
 
@@ -31,7 +31,7 @@ Baphomet wields a great glaive called Heartcleaver. He also charges his enemies 
 
 ## Baphomet's Lair
 
-Baphomet's lair is his palace, the Lyktion, which is on the layer of the Abyss called the Endless Maze. Nestled within the twisting passages of the planewide labyrinth, the Lyktion is immaculately maintained and surrounded by a moat constructed in the fashion of a three-dimensional maze. The palace is a towering structure whose interior is as labyrinthine as the plane on which it stands; it is populated by [minotaurs](Інструменти%20ДМ/CLI/bestiary/monstrosity/minotaur-of-baphomet-xmm.md), [goristros](Інструменти%20ДМ/CLI/bestiary/fiend/goristro-xmm.md), and [quasits](Інструменти%20ДМ/CLI/bestiary/fiend/quasit-xmm.md).
+Baphomet's lair is his palace, the Lyktion, which is on the layer of the Abyss called the Endless Maze. Nestled within the twisting passages of the plane-wide labyrinth, the Lyktion is immaculately maintained and surrounded by a moat constructed in the fashion of a three-dimensional maze. The palace is a towering structure whose interior is as labyrinthine as the plane on which it stands; it is populated by [minotaurs](Інструменти%20ДМ/CLI/bestiary/monstrosity/minotaur-of-baphomet-xmm.md), [goristros](Інструменти%20ДМ/CLI/bestiary/fiend/goristro-xmm.md), and [quasits](Інструменти%20ДМ/CLI/bestiary/fiend/quasit-xmm.md).
 
 ```statblock
 "name": "Baphomet (MPMM)"
@@ -53,9 +53,9 @@ Baphomet's lair is his palace, the Lyktion, which is on the layer of the Abyss c
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+15"
-  - "wisdom": "+14"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "14"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+17"
@@ -83,18 +83,21 @@ Baphomet's lair is his palace, the Lyktion, which is on the layer of the Abyss c
   - "desc": "Baphomet makes one Bite attack, one Gore attack, and one Heartcleaver\
       \ attack. He also uses Frightful Presence."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
-      \ 19 (2d8 + 10) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d8+10|noform|noparens|avg|text(19)\
+      \ (2d8 + 10) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d6 + 10) piercing damage. If Baphomet moved at least 10 feet straight\
-      \ toward the target immediately before the hit, the target takes an extra 16\
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+10|noform|noparens|avg|text(17)\
+      \ (2d6 + 10) piercing damage. If Baphomet moved at least 10 feet straight\
+      \ toward the target immediately before the hit, the target takes an extra dice:3d10|noform|noparens|avg|text(16)\
       \ (3d10) piercing damage. If the target is a creature, it must succeed on\
       \ a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
-      \ 21 (2d10 + 10) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+10|noform|noparens|avg|text(21)\
+      \ (2d10 + 10) force damage."
     "name": "Heartcleaver"
   - "desc": "Each creature of Baphomet's choice within 120 feet of him and aware of\
       \ him must succeed on a DC 18 Wisdom saving throw or become [frightened](Інс\
@@ -155,7 +158,8 @@ Baphomet's lair is his palace, the Lyktion, which is on the layer of the Abyss c
       \ and disoriented, as though constantly under threat of being hunted, and might\
       \ lash out or panic even when no visible threat is nearby.  "
     "name": ""
-  - "desc": "If Baphomet dies, these effects fade over the course of d10 days."
+  - "desc": "If Baphomet dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
+      \ (d10) days."
     "name": ""
 "source":
   - "MPMM"

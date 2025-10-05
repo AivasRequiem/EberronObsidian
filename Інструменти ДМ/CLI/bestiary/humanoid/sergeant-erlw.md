@@ -41,9 +41,10 @@ aliases:
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
-      \ damage if used with two hands to make a melee attack."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+3|noform|noparens|text(+3)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
+      \ (1d6 + 1) piercing damage, or dice:1d8+1|noform|noparens|avg|text(5) (1d8\
+      \ + 1) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "ERLW"

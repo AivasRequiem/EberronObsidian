@@ -17,7 +17,7 @@ A Spell Scroll bears the words of a single spell, written in a mystical cipher. 
 
 If the spell is on your spell list but of a higher level than you can normally cast, you make a DC 19 ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.
 
-If the spell requires a saving throw or an attack roll, the spell save DC is 19, and the attack bonus is `+11`.
+If the spell requires a saving throw or an attack roll, the spell save DC is 19, and the attack bonus is `dice:1d20+11|noform|noparens|text(+11)`.
 
 ## Copying a Scroll into a Spellbook
 

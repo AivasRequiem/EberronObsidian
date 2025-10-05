@@ -51,8 +51,8 @@ Bronze dragons usually make their homes near or under the sea.
   - !!int "17"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+3"
-  - "wisdom": "+4"
+  - "dexterity": !!int "3"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+4"
@@ -71,12 +71,14 @@ Bronze dragons usually make their homes near or under the sea.
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Repulsion Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 49 (9d10) Lightning damage. Success: Half damage."
+      \ Failure: dice:9d10|noform|noparens|avg|text(49) (9d10) Lightning damage.\
+      \ Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
   - "desc": "Strength Saving Throw: DC 15, each creature in a 30-foot [Cone](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\

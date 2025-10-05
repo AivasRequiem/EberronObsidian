@@ -44,9 +44,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A creature you touch regains a number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to `2d8` plus your spellcasting ability modifier.
+A creature you touch regains a number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to `dice:2d8|noform|noparens|avg` (`2d8`) plus your spellcasting ability modifier.
 
-**Using a Higher-Level Spell Slot.** The healing increases by `2d8` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The healing increases by `dice:2d8|noform|noparens|avg|text(2d8)` for each spell slot level above 1.
 
 **Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Warlock (Celestial Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-celestial-patron-xphb.md "subclass=XPHB;class=XPHB"); [Druid (Circle of Wildfire)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md)
 

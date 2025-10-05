@@ -52,8 +52,9 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
       \ The myconid dies if it spends more than 1 hour in sunlight."
     "name": "Sun Sickness"
 "actions":
-  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Bludgeoning\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+1|noform|noparens|text(+1), reach 5\
+      \ ft. Hit: dice:1d4-1|noform|noparens|avg|text(1) (1d4 - 1) Bludgeoning\
+      \ damage plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage."
     "name": "Slam"
   - "desc": "The myconid expels spores in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
       \ originating from itself. Creatures in that area with an Intelligence score\

@@ -55,8 +55,9 @@ Guards protect people, places, and things, either for pay or from a sense of dut
 "languages": "Common"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d6 + 1) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
+      \ (1d6 + 1) Piercing damage."
     "name": "Spear"
 "source":
   - "XMM"

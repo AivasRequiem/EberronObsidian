@@ -52,10 +52,10 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+4"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -78,12 +78,16 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "actions":
   - "desc": "The elf makes two Longsword or Longbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with\
-      \ two hands, plus 14 (4d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
+      \ + 1) slashing damage, or dice:1d10+1|noform|noparens|avg|text(6) (1d10\
+      \ + 1) slashing damage when used with two hands, plus dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) radiant damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
-      \ 6 (1d8 + 2) piercing damage plus 14 (4d6) radiant damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 150/600 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6)\
+      \ (1d8 + 2) piercing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ radiant damage."
     "name": "Longbow"
   - "desc": "The elf casts the following spell, using Wisdom as the spellcasting ability:\n\
       \n2/day: [teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"

@@ -35,8 +35,8 @@ Hadozee explorers scour Wildspace systems for riches and adventure. They often s
   - !!int "14"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "constitution": "+3"
-  - "wisdom": "+5"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+2"
@@ -57,11 +57,13 @@ Hadozee explorers scour Wildspace systems for riches and adventure. They often s
 "actions":
   - "desc": "The hadozee makes two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
-      \ 16 (2d12 + 3) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 40/120 ft., one target. Hit: dice:2d12+3|noform|noparens|avg|text(16)\
+      \ (2d12 + 3) piercing damage."
     "name": "Musket"
 "bonus_actions":
   - "desc": "The hadozee takes the Disengage or Hide action."

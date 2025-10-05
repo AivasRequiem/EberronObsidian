@@ -114,8 +114,9 @@ Kuo-toa typically organize their communities around sites they believe to be imp
 "actions":
   - "desc": "The kuo-toa makes three Strange Scepter attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit:\
-      \ 20 (5d6 + 3) Lightning damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:5d6+3|noform|noparens|avg|text(20)\
+      \ (5d6 + 3) Lightning damage."
     "name": "Strange Scepter"
   - "desc": "The kuo-toa casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 14):\n\
@@ -126,19 +127,7 @@ Kuo-toa typically organize their communities around sites they believe to be imp
       нструменти%20ДМ/CLI/spells/hold-monster-xphb.md) (level 6 version), [Scrying](І\
       нструменти%20ДМ/CLI/spells/scrying-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The kuo-toa casts [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Shield of Faith (2/Day)"
 "bonus_actions":
-  - "desc": "The kuo-toa casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day\
-      \ each: [Destructive Wave](Інструменти%20ДМ/CLI/spells/destructive-wave-xphb.md),\
-      \ [Divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md), [Hold Monster](І\
-      нструменти%20ДМ/CLI/spells/hold-monster-xphb.md) (level 6 version), [Scrying](І\
-      нструменти%20ДМ/CLI/spells/scrying-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The kuo-toa casts [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md),\
       \ using the same spellcasting ability as Spellcasting.\n"
     "name": "Shield of Faith (2/Day)"

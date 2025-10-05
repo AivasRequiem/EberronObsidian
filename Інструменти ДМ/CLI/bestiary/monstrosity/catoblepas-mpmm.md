@@ -61,15 +61,16 @@ Sages say that gods of pestilence and rot created catoblepases as embodiments of
       \ immune to the Stench of any catoblepas for 1 hour."
     "name": "Stench"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 21 (5d6 + 4) bludgeoning damage, and the target must succeed on a DC 16\
-      \ Constitution saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 10 ft., one target. Hit: dice:5d6+4|noform|noparens|avg|text(21)\
+      \ (5d6 + 4) bludgeoning damage, and the target must succeed on a DC 16 Constitution\
+      \ saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until the start of the catoblepas's next turn."
     "name": "Tail"
   - "desc": "The catoblepas targets one creature it can see within 30 feet of it.\
-      \ The target must make a DC 16 Constitution saving throw, taking 36 (8d8)\
-      \ necrotic damage on a failed save, or half as much damage on a successful one.\
-      \ If the saving throw fails by 5 or more, the target instead takes 64 necrotic\
+      \ The target must make a DC 16 Constitution saving throw, taking dice:8d8|noform|noparens|avg|text(36)\
+      \ (8d8) necrotic damage on a failed save, or half as much damage on a successful\
+      \ one. If the saving throw fails by 5 or more, the target instead takes 64 necrotic\
       \ damage. The target dies if reduced to 0 hit points by this ray."
     "name": "Death Ray (Recharge 5-6)"
 "source":

@@ -42,8 +42,8 @@ An allip might attempt to share its lore to escape its curse and enter the after
   - !!int "16"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+5"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -64,24 +64,25 @@ An allip might attempt to share its lore to escape its curse and enter the after
 "cr": "5"
 "traits":
   - "desc": "The allip can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
-      \ an object."
+      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The allip doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "Melee Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d6+3|noform|noparens|avg|text(17)\
       \ (4d6 + 3) psychic damage."
     "name": "Maddening Touch"
   - "desc": "Each creature within 30 feet of the allip that can hear it must make\
-      \ a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3)\
-      \ psychic damage, and it is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ a DC 14 Wisdom saving throw. On a failed save, a target takes dice:2d8+3|noform|noparens|avg|text(12)\
+      \ (2d8 + 3) psychic damage, and it is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until the end of its next turn. On a successful save, it takes half as much\
       \ damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned).\
       \ Constructs and Undead are immune to this effect."
     "name": "Howling Babble (Recharge 6)"
   - "desc": "The allip chooses up to three creatures it can see within 60 feet of\
-      \ it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 12\
+      \ it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes dice:2d8+3|noform|noparens|avg|text(12)\
       \ (2d8 + 3) psychic damage and must use its reaction to make a melee weapon\
       \ attack against one creature of the allip's choice that the allip can see.\
       \ Constructs and Undead are immune to this effect."

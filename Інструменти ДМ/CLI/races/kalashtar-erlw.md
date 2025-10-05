@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 29*  
 ![](Інструменти%20ДМ/CLI/races/img/kalashtar.webp#right)
 
-- **Ability Scores**: Wisdom +2; Charisma +1
+- **Ability Scores**: wis +2 cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

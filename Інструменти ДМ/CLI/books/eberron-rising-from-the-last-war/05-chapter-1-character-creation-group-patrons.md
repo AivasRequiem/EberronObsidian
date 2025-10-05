@@ -96,7 +96,7 @@ Relationships with most of the guild's allies are based on business and built on
 
 **House Sivis**. A Speakers' Guild enclave in Clifftop specializes in translating texts from Xen'drik. It also provides legal services for adventurers in trouble.
 
-**House Tharashk**. The Tharashk enclave in Clifftop provides the services of guides with extensive experience exploring Xend'rik, and it is careful to retain only guides who receive positive referrals from guild members. House Tharashk also uses the guild as a means to hire adventurers to serve as bodyguards on their own prospecting expeditions.
+**House Tharashk**. The Tharashk enclave in Clifftop provides the services of guides with extensive experience exploring Xen'drik, and it is careful to retain only guides who receive positive referrals from guild members. House Tharashk also uses the guild as a means to hire adventurers to serve as bodyguards on their own prospecting expeditions.
 
 #### Enemies
 
@@ -256,7 +256,7 @@ The city of Sharn is unusual in that it is home to no less than four powerful sy
 
 **The Tyrants**. The Tyrants are a mysterious group of shapeshifters who traffic in all manner of information. They sell secrets, blackmail powerful people, and forge everything from identification papers to coins and works of art.
 
-**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `3d6` criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `d6` gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
+**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `dice:3d6|noform|noparens|avg` (`3d6`) criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `dice:1d6|noform|noparens|avg` (`d6`) gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
 
 ## Dragonmarked House
 
@@ -411,7 +411,7 @@ Espionage agents are typically both highly trained and tightly specialized. The 
 
 **Chameleon**. A master of disguise, sleight of hand, and deception, the Chameleon can perform the work of the Investigator or a Confiscator right under a target's nose—or provide cover to agents with different specialties as they do their jobs. A high Charisma, proficiency with the disguise kit (or access to spells that cloak or disguise one's appearance), and proficiency with skills such as [Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception), [Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance), and [Sleight of Hand](Інструменти%20ДМ/CLI/rules/skills.md#Sleight%20of%20Hand) all greatly benefit the Chameleon. Bards and rogues, as well as characters with the charlatan, entertainer, or urchin background, often excel in this role.
 
-> [!readaloud] Breland Ledger—Lies on trial! karrn Spy faces justice
+> [!readaloud] Breland Ledger—Lies on trial! Karrn Spy faces justice
 > 
 > In a courthouse surrounded by agents of the King's Citadel and thronged by reporters, judge Haliss ir'Cronn took her seat for the first session in what some are calling the "trial of the century."
 > 
@@ -517,7 +517,7 @@ With a head of state as your group's patron, you gain the following benefits:
 
 A head of state like Prince Oargev requires a variety of adventurers to do the range of tasks they require. Depending on the kinds of work you do, your party might include some or all of these roles:
 
-![Prince Oargev Ir'wynarn](Інструменти%20ДМ/CLI/books/eberron-rising-from-the-last-war/img/061-1-46.webp#center)
+![Prince Oargev ir'Wynarn](Інструменти%20ДМ/CLI/books/eberron-rising-from-the-last-war/img/061-1-46.webp#center)
 
 **Civil Servant**. The vast majority of work performed on behalf of a head of state has very little to do with deadly adventure: it's about prosecuting and judging criminals in the courts of law, hearing the petitions and complaints of citizens, collecting taxes, and interminable amounts of paperwork. Once in a while, though, a faithful Civil Servant gets forcefully pulled from this work and thrust into life-or-death situations, with or without help from more hardened adventurers. The knowledge and experience of a Civil Servant can often be useful, with some developing skills as clerics, rogues, wizards, or other classes. Such characters often come from the sage background and have proficiency in skills that reflect their studies, such as [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), [History](Інструменти%20ДМ/CLI/rules/skills.md#History), [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature), and [Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion).
 
@@ -839,7 +839,7 @@ Every nation in Khorvaire has its military forces. In addition to the Redcloak B
 
 #### Running Your Own
 
-Rather than join an existing force, you might choose to form your own mercenary outfit. You can assemble a unit of `3d10` soldiers housed in a headquarters with an armory, barracks, and private quarters for you and any other officers. Your group earns `3d20` gp per month, plus enough money to maintain your headquarters. You might be able to acquire weapons and armor through an arms dealer at a 20 percent discount, at the DM's discretion. You give the orders to those beneath you and take orders from no one, but that means that you are ultimately responsible for the activities of everyone in your outfit.
+Rather than join an existing force, you might choose to form your own mercenary outfit. You can assemble a unit of `dice:3d10|noform|noparens|avg` (`3d10`) soldiers housed in a headquarters with an armory, barracks, and private quarters for you and any other officers. Your group earns `dice:3d20|noform|noparens|avg` (`3d20`) gp per month, plus enough money to maintain your headquarters. You might be able to acquire weapons and armor through an arms dealer at a 20 percent discount, at the DM's discretion. You give the orders to those beneath you and take orders from no one, but that means that you are ultimately responsible for the activities of everyone in your outfit.
 
 You can use the Running a Business downtime activity to direct the activities of your unit and potentially increase your earnings, as described at the start of this section.
 
@@ -963,7 +963,7 @@ Besides the well-respected *Korranberg Chronicle*, other newspapers in Khorvaire
 
 #### Running Your Own
 
-Rather than work for an existing outlet, you can run your own newspaper. You own a small office and a printing press, and keep `2d4` employees to manage daily tasks and keep the paper going to press. You gain the benefit of press access as described earlier. Additionally, you can use the Running a Business downtime activity to direct the activities of your paper in hopes of increasing your earnings, as described at the start of this section.
+Rather than work for an existing outlet, you can run your own newspaper. You own a small office and a printing press, and keep `dice:2d4|noform|noparens|avg` (`2d4`) employees to manage daily tasks and keep the paper going to press. You gain the benefit of press access as described earlier. Additionally, you can use the Running a Business downtime activity to direct the activities of your paper in hopes of increasing your earnings, as described at the start of this section.
 
 ## Religious Order
 

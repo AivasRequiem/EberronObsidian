@@ -19,7 +19,7 @@ aliases:
 
 With snakes for arms, pit masters are yuan-ti malison priests who have made a pact with the god Merrshaulk and seek to rouse him from his slumber by sacrificing Humanoids to him. They are the most traditionalist yuan-ti and believe that they are best equipped to achieve the goals of their people.
 
-Pit masters are deeply involved in yuan-ti's longterm plan to take over Humanoid governments, as well as in the ongoing effort to protect their cities from discovery or attacks by hostiles. They oppose reckless behavior and argue for a slow, cautious approach in all matters.
+Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoid governments, as well as in the ongoing effort to protect their cities from discovery or attacks by hostiles. They oppose reckless behavior and argue for a slow, cautious approach in all matters.
 
 ```statblock
 "name": "Yuan-ti Pit Master (MPMM)"
@@ -41,8 +41,8 @@ Pit masters are deeply involved in yuan-ti's longterm plan to take over Humanoid
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -63,11 +63,14 @@ Pit masters are deeply involved in yuan-ti's longterm plan to take over Humanoid
 "actions":
   - "desc": "The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
+      \ + 3) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ poison damage."
     "name": "Bite"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 16 (3d8 + 3) poison damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ range 120 ft., one target. Hit: dice:3d8+3|noform|noparens|avg|text(16)\
+      \ (3d8 + 3) poison damage."
     "name": "Spectral Fangs"
   - "desc": "The yuan-ti targets up to five creatures that it can see within 60 feet\
       \ of it. Each target must succeed on a DC 13 Constitution saving throw or fall\

@@ -54,7 +54,8 @@ The lowest form of demons, manes appear when truly loathsome souls are condemned
 "languages": "understands Abyssal but can't speak"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Slashing damage."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: dice:2d4|noform|noparens|avg|text(5) (2d4) Slashing damage."
     "name": "Claw"
 "source":
   - "XMM"

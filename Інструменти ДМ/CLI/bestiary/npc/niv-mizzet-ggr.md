@@ -16,7 +16,7 @@ aliases:
 
 Possessed of arrogance and vanity that matches his vast intellect and tremendous power, Niv-Mizzet is the ancient dragon who founded and continues to control the Izzet League. From his private laboratory at the top of the Izzet guildhall, Niv-Mizzet directs the research and experiments of his countless underlings. He coordinates a tremendous number of apparently unrelated projects, working toward some mysterious end.
 
-There can be little doubt that this ancient dragon is one of the most intelligent beings on Ravnica and one of the world's most powerful spellcasters. He is just as acquisitive as any dragon, but his treasure is scientific and magical knowledge. His ambition is a looming threat in the minds of all the other guildmasters, but confronting him directly is almost unthinkable thanks to the combination of his awesome magical power and the sheer physical threat of a fire-breathing, swordtoothed dragon.
+There can be little doubt that this ancient dragon is one of the most intelligent beings on Ravnica and one of the world's most powerful spellcasters. He is just as acquisitive as any dragon, but his treasure is scientific and magical knowledge. His ambition is a looming threat in the minds of all the other guildmasters, but confronting him directly is almost unthinkable thanks to the combination of his awesome magical power and the sheer physical threat of a fire-breathing, sword-toothed dragon.
 
 ```statblock
 "name": "Niv-Mizzet (GGR)"
@@ -37,9 +37,9 @@ There can be little doubt that this ancient dragon is one of the most intelligen
   - !!int "25"
 "speed": "40 ft., climb 30 ft., fly 80 ft."
 "saves":
-  - "constitution": "+17"
-  - "intelligence": "+18"
-  - "wisdom": "+11"
+  - "constitution": !!int "17"
+  - "intelligence": !!int "18"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+18"
@@ -55,21 +55,22 @@ There can be little doubt that this ancient dragon is one of the most intelligen
 "cr": "26"
 "traits":
   - "desc": "Niv-Mizzet is a 20th-level Izzet spellcaster. His spellcasting ability\
-      \ is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [fire bolt](І\
-      нструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md),\
-      \ [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md), [shocking\
-      \ grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st level\
-      \ (4 slots): [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [shield](І\
-      нструменти%20ДМ/CLI/spells/shield-xphb.md), [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md),\
-      \ [unseen servant](Інструменти%20ДМ/CLI/spells/unseen-servant-xphb.md)\n\n2nd\
-      \ level (3 slots): [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [enlarge/reduce](І\
-      нструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md), [flaming sphere](Інструм\
-      енти%20ДМ/CLI/spells/flaming-sphere-xphb.md), [hold person](Інструменти%20ДМ\
-      /CLI/spells/hold-person-xphb.md), [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\
-      \n3rd level (3 slots): [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
+      \ is Intelligence (spell save DC 26, dice:1d20+18|noform|noparens|text(+18)\
+      \ to hit with spell attacks). He has the following wizard spells prepared:\n\
+      \nCantrips (at will): [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md),\
+      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [prestidigitation](Інс\
+      трументи%20ДМ/CLI/spells/prestidigitation-xphb.md), [ray of frost](Інструмен\
+      ти%20ДМ/CLI/spells/ray-of-frost-xphb.md), [shocking grasp](Інструменти%20ДМ\
+      /CLI/spells/shocking-grasp-xphb.md)\n\n1st level (4 slots): [detect magic](І\
+      нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [magic missile](Інструмент\
+      и%20ДМ/CLI/spells/magic-missile-xphb.md), [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md),\
+      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md), [unseen servant](І\
+      нструменти%20ДМ/CLI/spells/unseen-servant-xphb.md)\n\n2nd level (3 slots):\
+      \ [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [enlarge/reduce](Інструм\
+      енти%20ДМ/CLI/spells/enlarge-reduce-xphb.md), [flaming sphere](Інструменти%20Д\
+      М/CLI/spells/flaming-sphere-xphb.md), [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
+      \ [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\n3rd\
+      \ level (3 slots): [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [lightning bolt](І\
       нструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [slow](Інструменти%20ДМ\
       /CLI/spells/slow-xphb.md)\n\n4th level (3 slots): [confusion](Інструмент\
@@ -105,18 +106,23 @@ There can be little doubt that this ancient dragon is one of the most intelligen
 "actions":
   - "desc": "Niv-Mizzet makes three attacks: one with his bite and two with his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
-      \ 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d8+9|noform|noparens|avg|text(18)\
+      \ (2d8 + 9) piercing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
-      \ 14 (2d4 + 9) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d4+9|noform|noparens|avg|text(14)\
+      \ (2d4 + 9) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
-      \ 16 (2d6 + 9) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 20 ft., one target. Hit: dice:2d6+9|noform|noparens|avg|text(16)\
+      \ (2d6 + 9) bludgeoning damage."
     "name": "Tail"
   - "desc": "Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area\
-      \ must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on\
-      \ a failed save, or half as much damage on a successful one."
+      \ must make a DC 25 Dexterity saving throw, taking dice:26d6|noform|noparens|avg|text(91)\
+      \ (26d6) fire damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Fire Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "Niv-Mizzet casts one of his cantrips."
@@ -124,8 +130,8 @@ There can be little doubt that this ancient dragon is one of the most intelligen
   - "desc": "Niv-Mizzet makes a tail attack."
     "name": "Tail Attack"
   - "desc": "Niv-Mizzet beats his wings. Each creature within 15 feet of him must\
-      \ succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning\
-      \ damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
+      \ succeed on a DC 25 Dexterity saving throw or take dice:2d4+9|noform|noparens|avg|text(14)\
+      \ (2d4 + 9) bludgeoning damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
       \ Niv-Mizzet can then fly up to half his flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
   - "desc": "Niv-Mizzet regains a spell slot of 3rd level or lower."

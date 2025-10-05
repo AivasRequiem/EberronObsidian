@@ -67,11 +67,11 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "languages": "Common, Thieves' cant"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3), range 80/320\
+      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Piercing damage."
     "name": "Light Crossbow"
 "source":
   - "XMM"

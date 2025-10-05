@@ -80,11 +80,12 @@ Driders also appear when whole communities are transformed by a wicked god's wra
   - "desc": "The drider makes three attacks, using Foreleg or Poison Burst in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Piercing\
       \ damage."
     "name": "Foreleg"
-  - "desc": "Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 120\
+      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Poison damage."
     "name": "Poison Burst"
 "bonus_actions":
   - "desc": "The drider casts [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\

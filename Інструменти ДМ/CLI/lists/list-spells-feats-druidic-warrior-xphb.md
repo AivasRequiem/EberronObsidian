@@ -13,7 +13,6 @@ aliases:
 - [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md "XPHB") 
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB") 
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB") 
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") 
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB") 
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB") 
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB") 

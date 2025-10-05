@@ -93,8 +93,8 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+6"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+6"
@@ -109,13 +109,14 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes three attacks, using Dread Scythe or Deathly Ray in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (1d10 + 4) Slashing\
-      \ damage plus 11 (2d10) Necrotic damage, and the target can't regain [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) until\
-      \ the end of its next turn."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Slashing\
+      \ damage plus dice:2d10|noform|noparens|avg|text(11) (2d10) Necrotic damage,\
+      \ and the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ until the end of its next turn."
     "name": "Dread Scythe"
-  - "desc": "Ranged Attack Roll: +6, range 120 ft. Hit: 22 (4d10) Necrotic\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 120\
+      \ ft. Hit: dice:4d10|noform|noparens|avg|text(22) (4d10) Necrotic damage."
     "name": "Deathly Ray"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 14):\n\nAt will: [Speak with Dead](Інструменти\
@@ -124,9 +125,9 @@ Cults can organize around any mystical tradition, but many serve supernatural be
 "bonus_actions":
   - "desc": "Wisdom Saving Throw: DC 14, each creature in a 20-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the cultist. Failure: 14 (4d6) Psychic damage, and the target has\
-      \ the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition\
-      \ until the end of its next turn. Success: Half damage only."
+      \ from the cultist. Failure: dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ Psychic damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition until the end of its next turn. Success: Half damage only."
     "name": "Spirit Wail (Recharge 5-6)"
 "source":
   - "XMM"

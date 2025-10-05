@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 47*  
 
 
-- **Ability Scores**: Charisma +1
+- **Ability Scores**: cha +1
 - **Size**: Small
 - **Speed**: 25 ft.
 - **Spellcasting**: Intelligence
@@ -40,7 +40,7 @@ You can speak, read, and write Common and Gnomish. The Gnomish language, which u
 
 ### Gifted Scribe
 
-When you make an Intelligence ([History](Інструменти%20ДМ/CLI/rules/skills.md#History)) check or an ability check using [calligrapher's supplies](Інструменти%20ДМ/CLI/items/calligraphers-supplies-xphb.md), you can roll a `d4` and add the number rolled to the ability check.
+When you make an Intelligence ([History](Інструменти%20ДМ/CLI/rules/skills.md#History)) check or an ability check using [calligrapher's supplies](Інструменти%20ДМ/CLI/items/calligraphers-supplies-xphb.md), you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Scribe's Insight
 

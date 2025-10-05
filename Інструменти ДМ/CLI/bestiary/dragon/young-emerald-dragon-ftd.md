@@ -124,10 +124,10 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - !!int "16"
 "speed": "40 ft., burrow 30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -148,18 +148,22 @@ Emerald dragons generally go out of their way to avoid interacting with other in
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 3 (d6) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
+      \ (2d10 + 5) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
+      \ psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d6 + 5) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6\
+      \ + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each\
       \ creature in that area must make a DC 15 Intelligence saving throw. On a failed\
-      \ save, the creature takes 31 (9d6) psychic damage, and until the end of its\
-      \ next turn, when the creature makes an attack roll or an ability check, it\
-      \ must roll a d6 and reduce the total by the number rolled. On a successful\
-      \ save, the creature takes half as much damage with no additional effects."
+      \ save, the creature takes dice:9d6|noform|noparens|avg|text(31) (9d6) psychic\
+      \ damage, and until the end of its next turn, when the creature makes an attack\
+      \ roll or an ability check, it must roll a dice:d6|noform|noparens|avg (d6)\
+      \ and reduce the total by the number rolled. On a successful save, the creature\
+      \ takes half as much damage with no additional effects."
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\

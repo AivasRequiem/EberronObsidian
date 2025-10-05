@@ -9,7 +9,9 @@ aliases:
 ---
 # Lessons of the First Ones
 *Source: Player's Handbook (2024) p. 156*  
-**Prerequisite**: 2nd Warlock
+
+**Prerequisite**: Level 2
+
 You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.
 
 ## Repeatable

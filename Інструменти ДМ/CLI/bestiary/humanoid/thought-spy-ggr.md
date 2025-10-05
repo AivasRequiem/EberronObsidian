@@ -68,11 +68,13 @@ Thought spies form the backbone of House Dimir's covert operations. They are tra
   - "desc": "The thought spy makes two melee attacks, or it makes three ranged attacks\
       \ with its daggers."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
+      \ (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) piercing damage."
     "name": "Rapier"
 "source":
   - "GGR"

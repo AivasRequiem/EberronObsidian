@@ -64,10 +64,10 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
   - !!int "17"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -90,18 +90,20 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
 "actions":
   - "desc": "The mind flayer makes three Arcane Tentacles attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit:\
-      \ 27 (4d10 + 5) Psychic damage, and the mind flayer can teleport the target\
-      \ up to 30 feet to an unoccupied space the mind flayer can see on a surface\
-      \ or liquid large enough to support the target. If this damage reduces the target\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
+      \ (4d10 + 5) Psychic damage, and the mind flayer can teleport the target up\
+      \ to 30 feet to an unoccupied space the mind flayer can see on a surface or\
+      \ liquid large enough to support the target. If this damage reduces the target\
       \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ the mind flayer kills it and magically devours its brain."
     "name": "Arcane Tentacles"
   - "desc": "Intelligence Saving Throw: DC 17, each creature in a 40-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target\
-      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the end of the mind flayer's next turn. Success: Half damage only."
+      \ from the mind flayer. Failure: dice:8d8+5|noform|noparens|avg|text(41)\
+      \ (8d8 + 5) Psychic damage, and the target has the [Stunned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Stunned) condition until the end of the mind flayer's\
+      \ next turn. Success: Half damage only."
     "name": "Mind Burst (Recharge 5-6)"
   - "desc": "The mind flayer casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
@@ -116,24 +118,7 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
       \ Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self only), [Sending](І\
       нструменти%20ДМ/CLI/spells/sending-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The mind flayer casts [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)\
-      \ in response to that spell's trigger, using the same spellcasting ability as\
-      \ Spellcasting.\n"
-    "name": "Shield (2/Day)"
 "reactions":
-  - "desc": "The mind flayer casts one of the following spells, requiring no spell\
-      \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 17):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise\
-      \ Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Mage Hand](Інст\
-      рументи%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n1/day\
-      \ each: [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
-      \ [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [Fireball](І\
-      нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 5 version), [Lightning Bolt](І\
-      нструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md) (level 5 version), [Plane\
-      \ Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self only), [Sending](І\
-      нструменти%20ДМ/CLI/spells/sending-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The mind flayer casts [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)\
       \ in response to that spell's trigger, using the same spellcasting ability as\
       \ Spellcasting.\n"

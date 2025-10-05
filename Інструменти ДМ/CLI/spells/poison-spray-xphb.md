@@ -42,9 +42,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes `d12` Poison damage.
+You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes `dice:1d12|noform|noparens|avg` (`d12`) Poison damage.
 
-**Cantrip Upgrade.** The damage increases by `d12` when you reach levels 5 (`2d12`), 11 (`3d12`), and 17 (`4d12`).
+**Cantrip Upgrade.** The damage increases by `dice:1d12|noform|noparens|avg` (`d12`) when you reach levels 5 (`dice:2d12|noform|noparens|avg` (`2d12`)), 11 (`dice:3d12|noform|noparens|avg` (`3d12`)), and 17 (`dice:4d12|noform|noparens|avg` (`4d12`)).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md)
 

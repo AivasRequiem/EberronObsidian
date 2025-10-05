@@ -34,8 +34,8 @@ Hadozee shipmates make up much of the crew aboard some spelljamming ships.
   - !!int "12"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+2"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "2"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -50,8 +50,9 @@ Hadozee shipmates make up much of the crew aboard some spelljamming ships.
       \ up to 5 feet horizontally for every 1 foot it descends in the air."
     "name": "Glide"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
+      \ (1d4 + 2) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "When it would take damage from a fall, the hadozee extends its skin membranes\

@@ -69,10 +69,10 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "dexterity": "+9"
-  - "constitution": "+8"
-  - "wisdom": "+7"
+  - "strength": !!int "9"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -86,22 +86,26 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
 "actions":
   - "desc": "The warrior makes three attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (4d6 + 5) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ ft. Hit: dice:4d6+5|noform|noparens|avg|text(19) (4d6 + 5) Slashing\
       \ damage. The warrior also creates one of the following effects:\n\n- Sap.\
       \ The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on its next attack roll before the start of the warrior's next turn.  \n-\
       \ Maneuver. One ally who can see or hear the warrior can take a [Reaction](І\
       нструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to move up to half\
       \ the ally's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks.  "
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
+      \  "
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 18 (3d8 + 5) Piercing\
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 150/600\
+      \ ft. Hit: dice:3d8+5|noform|noparens|avg|text(18) (3d8 + 5) Piercing\
       \ damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ decreases by 10 feet until the end of the target's next turn."
     "name": "Longbow"
 "bonus_actions":
   - "desc": "The warrior moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ straight toward an enemy it can see without provoking Opportunity Attacks."
+      \ straight toward an enemy it can see without provoking [Opportunity Attacks](І\
+      нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Tactical Charge"
 "reactions":
   - "desc": "Trigger: The warrior is hit by an attack roll. _Response:_ The warrior\

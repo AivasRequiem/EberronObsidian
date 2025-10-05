@@ -28,7 +28,7 @@ You can move through the space of any creature that is a size larger than you, b
 
 ### Luck
 
-When you roll a 1 on the `d20` of a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can reroll the die, and you must use the new roll.
+When you roll a 1 on the `dice:d20|noform|noparens|avg` (`d20`) of a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can reroll the die, and you must use the new roll.
 
 ### Naturally Stealthy
 

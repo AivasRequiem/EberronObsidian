@@ -40,10 +40,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "17"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+4"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "4"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -61,24 +61,26 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes three Longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
-      \ two hands, plus 13 (3d8) radiant damage. The dragonborn can cause the sword\
-      \ to flare with bright light, and the target must succeed on a DC 14 Constitution\
-      \ saving throw or be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ until the start of the dragonborn's next turn. The sword can flare in this\
-      \ way only once per turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) slashing damage, or dice:1d10+4|noform|noparens|avg|text(9) (1d10\
+      \ + 4) slashing damage if used with two hands, plus dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) radiant damage. The dragonborn can cause the sword to flare with bright\
+      \ light, and the target must succeed on a DC 14 Constitution saving throw or\
+      \ be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the start\
+      \ of the dragonborn's next turn. The sword can flare in this way only once per\
+      \ turn."
     "name": "Longsword"
   - "desc": "The dragonborn touches another creature within 5 feet of it. The target\
       \ magically regains 40 hit points. In addition, all diseases and poisons affecting\
       \ the target are removed."
     "name": "Healing Touch (1/Day)"
   - "desc": "The dragonborn exhales fiery radiance in a 30-foot cone. Each creature\
-      \ in that area must make a DC 15 Dexterity saving throw, taking 44 (8d10)\
-      \ radiant damage on a failed save, or half as much damage on a successful one.\
-      \ When the dragonborn uses this action, it can choose up to three creatures\
+      \ in that area must make a DC 15 Dexterity saving throw, taking dice:8d10|noform|noparens|avg|text(44)\
+      \ (8d10) radiant damage on a failed save, or half as much damage on a successful\
+      \ one. When the dragonborn uses this action, it can choose up to three creatures\
       \ in the cone. These creatures take no damage from the radiance and instead\
-      \ regain 22 (4d10) hit points each."
+      \ regain dice:4d10|noform|noparens|avg|text(22) (4d10) hit points each."
     "name": "Radiant Breath (Recharge 6)"
 "source":
   - "FTD"

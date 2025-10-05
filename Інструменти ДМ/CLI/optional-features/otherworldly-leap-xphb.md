@@ -9,5 +9,7 @@ aliases:
 ---
 # Otherworldly Leap
 *Source: Player's Handbook (2024) p. 156. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
-**Prerequisite**: 2nd Warlock
+
+**Prerequisite**: Level 2
+
 You can cast [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md) on yourself without expending a spell slot.

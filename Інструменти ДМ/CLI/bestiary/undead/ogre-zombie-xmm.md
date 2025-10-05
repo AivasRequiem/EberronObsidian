@@ -54,7 +54,7 @@ Zombies are usually created from Humanoid corpses, but the remains of other crea
   - !!int "5"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
@@ -69,7 +69,8 @@ Zombies are usually created from Humanoid corpses, but the remains of other crea
       \ instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
       \ damage."
     "name": "Slam"
 "source":

@@ -36,7 +36,7 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 |-----------|----------------------------|
 | 1 | Evidence of previous occupants, like bandits, wolves, or dragons. |
 | 2 | Heaps of regurgitated pellets studded with coins or other treasure. |
-| 3 | A nest with `d6` owlbear eggs. |
+| 3 | A nest with `dice:1d6\|noform\|noparens\|avg` (`d6`) owlbear eggs. |
 | 4 | Passages through the earth or hollow trees. |
 ^owlbear-den-features
 
@@ -58,8 +58,8 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
   - !!int "7"
 "speed": "40 ft., climb 40 ft., fly 5 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+5"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+8"
@@ -73,16 +73,17 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 "actions":
   - "desc": "The owlbear makes two Ravage attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d8 + 6) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Slashing\
       \ damage. If the target is a Huge or smaller creature and the owlbear moved\
       \ 20+ feet straight toward it immediately before the hit, the target takes an\
-      \ extra 9 (2d8) Slashing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+      \ extra dice:2d8|noform|noparens|avg|text(9) (2d8) Slashing damage and has\
+      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Ravage"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the owlbear. Failure: 27 (6d8) Thunder damage, and the target has\
-      \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ from the owlbear. Failure: dice:6d8|noform|noparens|avg|text(27) (6d8)\
+      \ Thunder damage, and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the end of its next turn. Success: Half damage only."
     "name": "Screech (Recharge 5-6)"
 "source":

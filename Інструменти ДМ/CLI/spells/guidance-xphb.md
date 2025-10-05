@@ -34,7 +34,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You touch a willing creature and choose a skill. Until the spell ends, the creature adds `d4` to any ability check using the chosen skill.
+You touch a willing creature and choose a skill. Until the spell ends, the creature adds `dice:1d4|noform|noparens|avg` (`d4`) to any ability check using the chosen skill.
 
 **Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Druid (Circle of the Stars)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-stars-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

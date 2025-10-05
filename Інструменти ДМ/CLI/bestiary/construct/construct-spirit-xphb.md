@@ -38,13 +38,14 @@ aliases:
 "languages": "Understands the languages you know"
 "traits":
   - "desc": "A creature that hits the spirit with a melee attack or that starts its\
-      \ turn in a grapple with the spirit takes d10 Fire damage."
+      \ turn in a grapple with the spirit takes dice:1d10|noform|noparens|avg (d10)\
+      \ Fire damage."
     "name": "Heated Body (Metal Only)"
   - "desc": "When a creature starts its turn within 10 feet of the spirit, the spirit\
       \ can target it with magical energy if the spirit can see it. Wisdom Saving\
       \ Throw: DC equals your spell save DC, the target. Failure: Until the start\
-      \ of its next turn, the target can't make Opportunity Attacks, and its Speed\
-      \ is halved."
+      \ of its next turn, the target can't make [Opportunity Attacks](Інструменти\
+      %20ДМ/CLI/rules/actions.md#Opportunity%20Attack), and its Speed is halved."
     "name": "Stony Lethargy (Stone Only)"
 "actions":
   - "desc": "The spirit makes a number of Slam attacks equal to half this spell's\
@@ -56,7 +57,8 @@ aliases:
 "reactions":
   - "desc": "Trigger: The spirit takes damage from a creature. _Response:_ The spirit\
       \ makes a Slam attack against that creature if possible, or the spirit moves\
-      \ up to half its Speed toward that creature without provoking Opportunity Attacks."
+      \ up to half its Speed toward that creature without provoking [Opportunity Attacks](І\
+      нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Berserk Lashing (Clay Only)"
 "source":
   - "XPHB"

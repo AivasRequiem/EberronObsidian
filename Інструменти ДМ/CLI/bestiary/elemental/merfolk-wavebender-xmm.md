@@ -45,10 +45,10 @@ Beneath the waves dwell merfolk, mysterious creatures that merge the features of
   - !!int "15"
 "speed": "10 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+5"
-  - "wisdom": "+7"
-  - "charisma": "+5"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -62,9 +62,10 @@ Beneath the waves dwell merfolk, mysterious creatures that merge the features of
 "actions":
   - "desc": "The merfolk makes two Aquatic Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft. Hit:\
-      \ 20 (3d10 + 4) Cold damage. If the target is a Large or smaller creature,\
-      \ it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 60 ft. Hit: dice:3d10+4|noform|noparens|avg|text(20)\
+      \ (3d10 + 4) Cold damage. If the target is a Large or smaller creature, it\
+      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Aquatic Burst"
   - "desc": "The merfolk casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\
@@ -76,8 +77,9 @@ Beneath the waves dwell merfolk, mysterious creatures that merge the features of
 "reactions":
   - "desc": "Trigger: An enemy the merfolk can see enters a space within 5 feet of\
       \ the merfolk. _Response—_Strength Saving Throw: DC 15, the triggering enemy.\
-      \ Failure: 14 (4d6) Cold damage. If the target is Large or smaller, it is\
-      \ pushed up to 30 feet straight away from the merfolk by conjured water."
+      \ Failure: dice:4d6|noform|noparens|avg|text(14) (4d6) Cold damage. If\
+      \ the target is Large or smaller, it is pushed up to 30 feet straight away from\
+      \ the merfolk by conjured water."
     "name": "Watery Rebuke"
 "source":
   - "XMM"

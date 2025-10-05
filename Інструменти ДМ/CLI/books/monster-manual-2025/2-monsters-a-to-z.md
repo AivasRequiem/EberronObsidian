@@ -660,10 +660,10 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
 |-----------|--------------------------------|
 | 1 | Another tunnel (either natural or of worked stone) that extends into the Underdark. |
 | 2 | A buried ruin or grave exposed by the tunnel. |
-| 3 | A cluster of `d4` fresh ankheg eggs that can be broken and used as vials of Acid. |
+| 3 | A cluster of `dice:1d4\|noform\|noparens\|avg` (`d4`) fresh ankheg eggs that can be broken and used as vials of Acid. |
 | 4 | A dead ankheg and evidence of a deadlier subterranean predator. |
 | 5 | A piece of ankheg carapace usable as a Shield. |
-| 6 | A pouch with `2d6` GP near a puddle of acid. |
+| 6 | A pouch with `dice:2d6\|noform\|noparens\|avg` (`2d6`) GP near a puddle of acid. |
 | 7 | A stray farm or woodland animal. |
 | 8 | A viciously mauled scarecrow. |
 ^ankheg-tunnel-discoveries
@@ -1392,7 +1392,7 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
 - **Habitat.** Grassland, Hill, Mountain  
 - **Treasure.** None  
 
-Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just belowground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
+Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just below ground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
 
 > [!embed-monster]- Bulette
 > ![Bulette](Інструменти%20ДМ/CLI/bestiary/monstrosity/bulette-xmm.md#^statblock)
@@ -1770,7 +1770,7 @@ Relentlessly friendly and curious, most copper dragons view the world as a place
 
 Copper dragons typically live in caverns amid picturesque hills and rock formations—particularly those that are prominent landmarks. These dragons collect gifts, though they have little interest in treasure without meaning, no matter how valuable it is. To them, thoughtfully given presents and the feelings or memories they symbolize are more important than masterpieces or magical relics.
 
-**Copper Dragon Lairs.** Copper dragons typically inhabit multichamber caves and renovated ruins.
+**Copper Dragon Lairs.** Copper dragons typically inhabit multi-chamber caves and renovated ruins.
 
 > [!embed-monster]- Copper Dragon Wyrmling
 > ![Copper Dragon Wyrmling](Інструменти%20ДМ/CLI/bestiary/dragon/copper-dragon-wyrmling-xmm.md#^statblock)
@@ -2310,7 +2310,7 @@ Guardians of the woodlands, dryads magically flit from tree to tree and from roo
 | dice: 1d6 | The Dryad Dwells in and Protects... |
 |-----------|-------------------------------------|
 | 1 | An acres-large clonal colony—a stand of identical, interconnected trees. |
-| 2 | A fortresslike tree, like a baobab or sequoia. |
+| 2 | A fortress-like tree, like a baobab or sequoia. |
 | 3 | A living lock—a plant that seals evil below or blocks the path to a dungeon. |
 | 4 | A lonely tree that stands atop a windswept mountain or amid a [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) forest. |
 | 5 | A plant with magic fruit or remarkable seeds. |
@@ -2994,7 +2994,7 @@ Githyanki were once an ordinary people, but the deeds of a vile mind flayer empi
 
 **History of the Gith.** Ages ago, a humanlike people were conquered by an empire of mind flayers. The illithids manipulated this forgotten people through untold horrors, forced evolution, and psychic reshaping. Eventually one named Gith rose from among the captives and led a rebellion against their oppressors. Gith's followers, who became known as the gith, defeated the mind flayers and shattered their vast empire.
 
-The victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith's drive for vengeance and new conquests was evidence of species-wide mental programing laid by the mind flayers, biological manipulation that condemned her people to continued servitude. This claim split the gith into Gith's followers, the githyanki (meaning "followers of Gith"), and Zerthimon's followers, the githzerai (meaning "those who spurn Gith"), and sparked an ongoing conflict.
+The victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith's drive for vengeance and new conquests was evidence of species-wide mental programming laid by the mind flayers, biological manipulation that condemned her people to continued servitude. This claim split the gith into Gith's followers, the githyanki (meaning "followers of Gith"), and Zerthimon's followers, the githzerai (meaning "those who spurn Gith"), and sparked an ongoing conflict.
 
 When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaakith's line has continued to the githyanki's current ruler, Vlaakith the Lich-Queen. This undead tyrant compels her people to wage endless wars against mind flayers, githzerai, and any others that threaten githyanki supremacy.
 
@@ -3673,7 +3673,7 @@ Hippogriff migrations might take months or years, and sages frequently predict t
 
 ### Hobgoblins
 
-**Hobgoblins.** *Conquerers of Every Horizon*
+**Hobgoblins.** *Conquerors of Every Horizon*
 
 - **Habitat.** Desert, Forest, Grassland, Hill, Mountain, Planar (Acheron), Underdark  
 - **Treasure.** Armaments, Individual  
@@ -3750,7 +3750,7 @@ A homunculus's appearance reflects its creator's tastes. Roll on or choose a res
 - **Habitat.** Underdark  
 - **Treasure.** None  
 
-Hook horrors are beaked predators whose forelimbs end in massive, hooklike claws. They flourish in the cavernous mazes of the Underdark, with its miles-deep trenches and stalactite forests suspended over empty darkness, where they barrel through caves and swing across cavern ceilings.
+Hook horrors are beaked predators whose forelimbs end in massive, hook-like claws. They flourish in the cavernous mazes of the Underdark, with its miles-deep trenches and stalactite forests suspended over empty darkness, where they barrel through caves and swing across cavern ceilings.
 
 Hook horrors feed opportunistically on plants, fungi, and any creatures that come close enough to hook. To perceive their surroundings, hook horrors echolocate via a range of noises, from banging on rocks and their own bodies to vocalizations that sound like strange squawks, screams, or clicks. Only hook horrors know the meaning of these noises, but many people who explore the Underdark or live near deep-reaching caves have sought the sources of such sounds only to fall victim to hungry hook horrors.
 
@@ -4385,7 +4385,7 @@ The lowest form of demons, manes appear when truly loathsome souls are condemned
 - **Habitat.** Arctic, Coastal, Grassland, Hill, Mountain  
 - **Treasure.** Any  
 
-With lionlike claws, leathery wings, and broad jaws filled with rows of sharp teeth, manticores ambush travelers from above and devour them. Manticores crave the taste of humans, but lacking their favored prey, they eagerly consume other peoples and livestock.
+With lion-like claws, leathery wings, and broad jaws filled with rows of sharp teeth, manticores ambush travelers from above and devour them. Manticores crave the taste of humans, but lacking their favored prey, they eagerly consume other peoples and livestock.
 
 Manticores have tails bristling with detachable spikes. These monsters launch their tail spikes at their prey, skewering those on the ground or knocking flying creatures from the air.
 
@@ -4435,7 +4435,7 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
 - **Habitat.** Planar (Abyss)  
 - **Treasure.** Armaments  
 
-Mariliths are six-armed, serpentlike demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
+Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
 
 ![Marilith](Інструменти%20ДМ/CLI/books/monster-manual-2025/img/196-13-006-mariliths.webp#center)
 
@@ -4738,7 +4738,7 @@ Beings of magic and machinery, modrons embody absolute law. These inhabitants of
 
 Modrons are parts of a vast hierarchy, spanning from quirky monodrones to the leader of their kind, the godlike Primus. Every modron carries out tasks assigned to it by higher-ranking modrons, doing so without question. Generally, modrons communicate only with other modrons of their own rank or the ranks immediately above and below them. Those more than one rank away tend to be either too advanced or too simple for them to understand.
 
-Modrons excel at tasks that require patience and precision, but they have little understanding of nonliteral concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
+Modrons excel at tasks that require patience and precision, but they have little understanding of non-literal concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
 
 In rare cases, a modron goes rogue and develops its own will. In these cases, other modrons are sent to recover or destroy their malfunctioning kin.
 
@@ -4995,7 +4995,7 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 | 2 | Broken dragonborn or tiefling horns. |
 | 3 | An ornate prosthetic limb. |
 | 4 | The skeleton of an explorer's pet (perhaps a small dog, monkey, or parrot). |
-| 5 | A skull with gold teeth worth `d4` GP. |
+| 5 | A skull with gold teeth worth `dice:1d4\|noform\|noparens\|avg` (`d4`) GP. |
 | 6 | A spotless suit of metal armor. |
 ^ochre-jelly-leftovers
 
@@ -5098,7 +5098,7 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 |-----------|----------------------------|
 | 1 | Evidence of previous occupants, like bandits, wolves, or dragons. |
 | 2 | Heaps of regurgitated pellets studded with coins or other treasure. |
-| 3 | A nest with `d6` owlbear eggs. |
+| 3 | A nest with `dice:1d6\|noform\|noparens\|avg` (`d6`) owlbear eggs. |
 | 4 | Passages through the earth or hollow trees. |
 ^owlbear-den-features
 
@@ -5692,7 +5692,7 @@ Rocs nest amid remote heights. Their nests are typically littered with treasure 
 | 1 | The burial litter of a lost hero. |
 | 2 | A caravan wagon full of trade goods. |
 | 3 | A live elephant. |
-| 4 | `d4` eggs larger than adult humans. |
+| 4 | `dice:1d4\|noform\|noparens\|avg` (`d4`) eggs larger than adult humans. |
 | 5 | Someone marooned in the nest. |
 | 6 | A statue of a knight riding a rearing steed. |
 ^roc-nest-remnants
@@ -6116,7 +6116,7 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 > 
 > A slaad born from the Spawning Stone has a magical control gem embedded in its head. If a creature claims the gem, the slaad has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition and obeys the gem's bearer. The slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) if it is harmed by the gem's bearer or the bearer's allies or if the gem is returned to the slaad. A [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) spell cast on a slaad destroys the gem, and the slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed).
 > 
-> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals 22 (`4d10`) Piercing damage to the slaad.
+> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals `dice:4d10|noform|noparens|avg|text(22)` (`4d10`) Piercing damage to the slaad.
 ^slaad-control-gems
 
 > [!quote] A quote from Jebeel Sloom  
@@ -7047,7 +7047,7 @@ Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a
 
 ### Winter Wolf
 
-**Winter Wolf.** *Coldhearted Pack Hunter*
+**Winter Wolf.** *Cold-hearted Pack Hunter*
 
 - **Habitat.** Arctic  
 - **Treasure.** None  

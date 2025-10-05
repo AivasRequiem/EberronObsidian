@@ -52,8 +52,8 @@ Every harpy sings a distinct song. While some songs are said to be heartbreaking
 "languages": "Common"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:2d4+1|noform|noparens|avg|text(6) (2d4 + 1) Slashing damage."
     "name": "Claw"
   - "desc": "The harpy sings a magical melody, which lasts until the harpy's [Concentration](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Concentration) ends on it. Wisdom Saving\
@@ -66,10 +66,11 @@ Every harpy sings a distinct song. While some songs are said to be heartbreaking
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition and ignores\
       \ the Luring Song of other harpies. If the target is more than 5 feet from the\
       \ harpy, the target moves on its turn toward the harpy by the most direct route,\
-      \ trying to get within 5 feet of the harpy. It doesn't avoid Opportunity Attacks;\
-      \ however, before moving into damaging terrain (such as lava or a pit) and whenever\
-      \ it takes damage from a source other than the harpy, the target repeats the\
-      \ save. Success: The target is immune to this harpy's Luring Song for 24 hours."
+      \ trying to get within 5 feet of the harpy. It doesn't avoid [Opportunity Attacks](І\
+      нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack); however, before\
+      \ moving into damaging terrain (such as lava or a pit) and whenever it takes\
+      \ damage from a source other than the harpy, the target repeats the save. Success:\
+      \ The target is immune to this harpy's Luring Song for 24 hours."
     "name": "Luring Song"
 "source":
   - "XMM"

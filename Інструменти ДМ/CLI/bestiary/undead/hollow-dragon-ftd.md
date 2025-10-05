@@ -41,10 +41,10 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   - !!int "21"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "constitution": "+11"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+11"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -68,20 +68,23 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   - "desc": "When the hollow dragon is reduced to 0 hit points, its body breaks into\
       \ nine pieces: two arms, two legs, two wings, a tail, a torso, and a head. Each\
       \ piece is a Large object with AC 19, 27 hit points, and immunity to psychic\
-      \ and poison damage. After d6 days, if all pieces are still within 6 miles\
-      \ of each other, they all teleport to the location of the head piece and merge\
-      \ with it, whereupon the hollow dragon regains all its hit points and becomes\
-      \ active again."
+      \ and poison damage. After dice:1d6|noform|noparens|avg (d6) days, if all\
+      \ pieces are still within 6 miles of each other, they all teleport to the location\
+      \ of the head piece and merge with it, whereupon the hollow dragon regains all\
+      \ its hit points and becomes active again."
     "name": "Reconstruction"
 "actions":
   - "desc": "The hollow dragon makes one Bite attack and two Claw attacks, and it\
       \ can use Sapping Presence."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 9 (2d8) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
+      \ (2d10 + 6) piercing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
+      \ radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 13 (2d6 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+6|noform|noparens|avg|text(13)\
+      \ (2d6 + 6) slashing damage."
     "name": "Claw"
   - "desc": "Each creature of the hollow dragon's choice within 60 feet of it must\
       \ make a DC 19 Wisdom saving throw. On a failed save, the creature's speed is\
@@ -90,8 +93,9 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
       \ Presence for 24 hours."
     "name": "Sapping Presence"
   - "desc": "The hollow dragon exhales radiant flames in a 60-foot cone. Each creature\
-      \ in that area must make a DC 19 Dexterity saving throw, taking 54 (12d8)\
-      \ radiant damage on a failed save, or half as much damage on a successful one."
+      \ in that area must make a DC 19 Dexterity saving throw, taking dice:12d8|noform|noparens|avg|text(54)\
+      \ (12d8) radiant damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Radiant Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The hollow dragon makes one Claw attack."
@@ -103,8 +107,9 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
     "name": "Ghostly Binding (Costs 2 Actions)"
   - "desc": "A sudden loud ringing noise, painfully intense, erupts from the hollow\
       \ dragon's frame. Each creature within 10 feet of the hollow dragon must make\
-      \ a DC 19 Constitution saving throw, taking 24 (7d6) thunder damage on a failed\
-      \ save, or half as much damage on a successful one."
+      \ a DC 19 Constitution saving throw, taking dice:7d6|noform|noparens|avg|text(24)\
+      \ (7d6) thunder damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Booming Scales (Costs 3 Actions)"
 "source":
   - "FTD"

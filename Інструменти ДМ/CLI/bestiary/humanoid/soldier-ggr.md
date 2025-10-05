@@ -54,9 +54,10 @@ Soldiers are found in many of Ravnica's guilds. The soldier stat block represent
 "actions":
   - "desc": "The soldier makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
-      \ two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) slashing damage, or dice:1d10+2|noform|noparens|avg|text(7) (1d10\
+      \ + 2) slashing damage if used with two hands."
     "name": "Longsword"
 "source":
   - "GGR"

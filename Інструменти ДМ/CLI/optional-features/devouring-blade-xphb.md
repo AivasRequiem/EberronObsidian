@@ -9,5 +9,7 @@ aliases:
 ---
 # Devouring Blade
 *Source: Player's Handbook (2024) p. 155*  
-**Prerequisite**: 12th Warlock
+
+**Prerequisite**: Level 12
+
 The Extra Attack of your [Thirsting Blade](Інструменти%20ДМ/CLI/optional-features/thirsting-blade-xphb.md) invocation confers two extra attacks rather than one.

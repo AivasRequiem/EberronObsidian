@@ -42,9 +42,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes `d8` Cold damage, and its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is reduced by 10 feet until the start of your next turn.
+A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes `dice:1d8|noform|noparens|avg` (`d8`) Cold damage, and its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is reduced by 10 feet until the start of your next turn.
 
-**Cantrip Upgrade.** The damage increases by `d8` when you reach levels 5 (`2d8`), 11 (`3d8`), and 17 (`4d8`).
+**Cantrip Upgrade.** The damage increases by `dice:1d8|noform|noparens|avg` (`d8`) when you reach levels 5 (`dice:2d8|noform|noparens|avg` (`2d8`)), 11 (`dice:3d8|noform|noparens|avg` (`3d8`)), and 17 (`dice:4d8|noform|noparens|avg` (`4d8`)).
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Druid (Circle of the Sea)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-sea-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

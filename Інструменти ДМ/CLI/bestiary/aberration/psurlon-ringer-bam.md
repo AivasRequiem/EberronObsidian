@@ -44,12 +44,15 @@ A psurlon can use magic to assume the form of a specific Medium Humanoid. First,
   - "desc": "Magic can't read the psurlon's thoughts or put the psurlon to sleep."
     "name": "Aberrant Mind"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage plus 4 (d8) psychic damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+2|noform|noparens|text(+2)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4|noform|noparens|avg|text(2)\
+      \ (d4) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
+      \ psychic damage."
     "name": "Dagger"
   - "desc": "The psurlon targets one creature it can see within 120 feet of itself.\
-      \ The target must make a DC 13 Wisdom saving throw, taking 12 (3d8 + 3) psychic\
-      \ damage on a failed save, or half as much damage on a successful one."
+      \ The target must make a DC 13 Wisdom saving throw, taking dice:3d8+3|noform|noparens|avg|text(12)\
+      \ (3d8 + 3) psychic damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Psychic Crush"
   - "desc": "The psurlon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\

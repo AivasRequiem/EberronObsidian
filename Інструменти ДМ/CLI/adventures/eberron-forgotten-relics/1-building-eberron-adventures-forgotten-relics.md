@@ -281,7 +281,7 @@ Caden d'Orien (noncombatant) is kept manacled hand and foot in a filthy, 15-foot
 
 Caden's manacles, originally designed to bind goblins, are sturdy but old. A character who makes a successful DC 15 Dexterity check with [thieves' tools](Інструменти%20ДМ/CLI/items/thieves-tools-xphb.md) picks the manacles' lock, and a character who succeeds on a DC 17 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check breaks the manacles loose.
 
-A character who succeeds on a DC 11 Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check finds the manacles' lock is smeared with oil of taggit. Any character that attempts to pick the lock without gloves is exposed to the poison and must succeed on a DC 13 Constitution saving throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 24 hours. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature is [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious). It wakes up if it takes damage.
+A character who succeeds on a DC 11 Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check finds the manacles' lock is smeared with [oil of taggit](Інструменти%20ДМ/CLI/items/oil-of-taggit-xdmg.md). Any character that attempts to pick the lock without gloves is exposed to the poison and must succeed on a DC 13 Constitution saving throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 24 hours. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature is [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious). It wakes up if it takes damage.
 
 ##### Roleplaying Caden
 
@@ -289,7 +289,7 @@ Caden is nearly catatonic from his ordeal. If freed, the six-year-old simply sit
 
 #### Treasure
 
-Each goblin carries `d6` gp and `d6` sp in a pouch. One goblin (determined randomly) also wears a cheap necklace that consists of a [banded agate](Інструменти%20ДМ/CLI/items/banded-agate-xdmg.md) (10 gp) tied to a loop of rope.
+Each goblin carries `dice:1d6|noform|noparens|avg` (`d6`) gp and `dice:1d6|noform|noparens|avg` (`d6`) sp in a pouch. One goblin (determined randomly) also wears a cheap necklace that consists of a [banded agate](Інструменти%20ДМ/CLI/items/banded-agate-xdmg.md) (10 gp) tied to a loop of rope.
 
 ### Optional Encounter: Ghost of Pfingston Nezzelech
 
@@ -377,7 +377,7 @@ Use the "Falling in Sharn table" in "chapter 3" when a creature falls through a 
 
 ### Sharn Watch Guards
 
-The Sharn Watch has a modest presence in Terminus. Its guards defend wealthy visitors and the holdings of House Orien. If combat breaks out in the streets or if a bystander calls for the Sharn Watch, roll a `d20` on initiative count 0 during each round the disturbance occurs. On a result of 18 or higher, `d4` Sharn Watch [guards](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) arrive and attempt to arrest anyone involved in a crime.
+The Sharn Watch has a modest presence in Terminus. Its guards defend wealthy visitors and the holdings of House Orien. If combat breaks out in the streets or if a bystander calls for the Sharn Watch, roll a `dice:d20|noform|noparens|avg` (`d20`) on initiative count 0 during each round the disturbance occurs. On a result of 18 or higher, `dice:1d4|noform|noparens|avg` (`d4`) Sharn Watch [guards](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) arrive and attempt to arrest anyone involved in a crime.
 
 ### Daask Forces
 
@@ -408,7 +408,7 @@ The following encounter locations are keyed to map 4.14. This map does not depic
 > shaped prow is chained to the south platform.
 ^4ad
 
-A crowd of `2d8` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `d4` [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) is gathered on the platform waiting to hire skycoaches.
+A crowd of `dice:2d8|noform|noparens|avg` (`2d8`) [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `dice:1d4|noform|noparens|avg` (`d4`) [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) is gathered on the platform waiting to hire skycoaches.
 
 The docked skycoach belongs to an off-duty professional driver named Belga Twillo. The chain anchoring the skycoach to the dock has AC 19, 10 hit points, and immunity to poison and psychic damage. A character who makes a successful DC 17 Dexterity check with [thieves' tools](Інструменти%20ДМ/CLI/items/thieves-tools-xphb.md) picks the chain's lock. A bystander who catches a character trying to steal the skycoach shouts for the Sharn Watch (see ""Sharn Watch Personalities"").
 
@@ -456,7 +456,7 @@ When the characters enter this area, read the following boxed text to the player
 
 Nur, a Daask [gnoll](Інструменти%20ДМ/CLI/bestiary/fiend/gnoll-warrior-xmm.md), is burning Garra's documents as ordered by the half-ogre. Of the documents that remain on the floor, two are of interest. One is a receipt for a lightning rail ticket, indicating the time, date, and journey of Garra's lightning rail trip to Wroat. The other document contains a list of the names and addresses of the warforged hired to work in the ruins of Old Sharn. You can add other documents that could act as story hooks for future adventures.
 
-Sergeant Germaine Vilroy (neutral female Brelish human [veteran](Інструменти%20ДМ/CLI/bestiary/humanoid/warrior-veteran-xmm.md)) is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) and [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) and currently has 5 hit points remaining. After getting the information she needed from Germaine, [Garra](Інструменти%20ДМ/CLI/bestiary/npc/garra-erlw.md) knocked her out using oil of taggit (see ""Caden d'Orien"" earlier in this adventure). A character can remove the ropes binding the sergeant as an action. If the characters wake up Germaine, she tells the characters to continue pursuing Garra and that she can get help for herself.
+Sergeant Germaine Vilroy (neutral female Brelish human [veteran](Інструменти%20ДМ/CLI/bestiary/humanoid/warrior-veteran-xmm.md)) is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) and [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) and currently has 5 hit points remaining. After getting the information she needed from Germaine, [Garra](Інструменти%20ДМ/CLI/bestiary/npc/garra-erlw.md) knocked her out using [oil of taggit](Інструменти%20ДМ/CLI/items/oil-of-taggit-xdmg.md) (see ""Caden d'Orien"" earlier in this adventure). A character can remove the ropes binding the sergeant as an action. If the characters wake up Germaine, she tells the characters to continue pursuing Garra and that she can get help for herself.
 
 ### T5. Lower-Level Apartments
 
@@ -469,7 +469,7 @@ The lower-level apartments have similar layouts to the ones in "area T4" but hou
 | dice: d12 | Occupants |
 |-----------|-----------|
 | 1–6 | No current occupants |
-| 7–9 | A family of `d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) |
+| 7–9 | A family of `dice:1d4\|noform\|noparens\|avg` (`d4`) [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) |
 | 10 | A [shifter](Інструменти%20ДМ/CLI/bestiary/humanoid/shifter-erlw.md) (see "chapter 6") |
 | 11 | A [warforged soldier](Інструменти%20ДМ/CLI/bestiary/humanoid/warforged-soldier-erlw.md) (see "chapter 6") |
 | 12 | A [changeling](Інструменти%20ДМ/CLI/bestiary/humanoid/changeling-erlw.md) (see "chapter 6") |
@@ -477,7 +477,7 @@ The lower-level apartments have similar layouts to the ones in "area T4" but hou
 
 ### T6. Skybridge
 
-This stone skybridge connects the tenement building to the building containing the lift. A Daask [harpy](Інструменти%20ДМ/CLI/bestiary/monstrosity/harpy-xmm.md) and a group of `d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) loiter on the bridge when the characters arrive. The commoners pose no threat, but the harpy attacks the characters on sight, using her Luring Song to bring them to her if they flee.
+This stone skybridge connects the tenement building to the building containing the lift. A Daask [harpy](Інструменти%20ДМ/CLI/bestiary/monstrosity/harpy-xmm.md) and a group of `dice:1d4|noform|noparens|avg` (`d4`) [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) loiter on the bridge when the characters arrive. The commoners pose no threat, but the harpy attacks the characters on sight, using her Luring Song to bring them to her if they flee.
 
 ### T7. Graffiti Hall
 
@@ -512,7 +512,7 @@ Corrin Delmaco is a male lightfoot halfling who works for the Boromar Clan. The 
 
 [Corrin](Інструменти%20ДМ/CLI/bestiary/npc/corrin-delmaco-erlw.md) is a lawful evil [spy](Інструменти%20ДМ/CLI/bestiary/humanoid/spy-xmm.md) with the following changes:
 
-- He is Small, has a hit point maximum of 21 (`6d6`), and has 10 hit points remaining.  
+- He is Small, has a hit point maximum of `dice:6d6|noform|noparens|avg|text(21)` (`6d6`), and has 10 hit points remaining.  
 - He has the following racial traits: He can move through the space of a Medium or larger creature. He has advantage on saving throws against being [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened). He speaks Common, Halfling, and thieves' cant.  
 
 Corrin claims to have no idea why Daask abducted him and begs for the characters to free him. A character who succeeds on a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check contested by Corrin's Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)) check knows the halfling is lying. If pressed, Corrin admits his connection to the Boromar Clan, and tells the characters it would be mean a lot to the powerful halfling family if they freed him.
@@ -547,15 +547,15 @@ The bathroom contains six stalls, each with a toilet, and a 3-foot-high pillar a
 > The sound of lightning rail trains stopping and starting elsewhere in Terminus Station echoes throughout the platform. A crowd of people is gathered near a lightning rail train crackling with arcs of blue energy. "If you're headed to Wroat, you'll have to catch the next one!" cries a conductor in the livery of House Orien as the train begins moving out of the station.
 ^4c5
 
-A crowd of `2d10` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `2d4` [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) gathers on the platform along with six hostile human [bandits](Інструменти%20ДМ/CLI/bestiary/humanoid/bandit-xmm.md) who belong to Daask. The bandits are here to cover Garra's escape and attack characters who try to board the departing train.
+A crowd of `dice:2d10|noform|noparens|avg` (`2d10`) [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `dice:2d4|noform|noparens|avg` (`2d4`) [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) gathers on the platform along with six hostile human [bandits](Інструменти%20ДМ/CLI/bestiary/humanoid/bandit-xmm.md) who belong to Daask. The bandits are here to cover Garra's escape and attack characters who try to board the departing train.
 
 To catch [Garra](Інструменти%20ДМ/CLI/bestiary/npc/garra-erlw.md), the characters need to board the lightning rail train leaving the station. The coach has ten cars: a helm car (at the front), a first-class car, a galley car, a dining car, two standard cars, two sleeper cars, a steerage car, and a cargo car (at the rear).
 
-The characters have 30 seconds (5 rounds) to catch the coach before it leaves Terminus Station. A character can jump onto a lightning rail car by making a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails this check takes 3 (`d6`) bludgeoning damage and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the platform. At the start of round six, the coach moves 20 feet per round for three rounds before accelerating to top speed.
+The characters have 30 seconds (5 rounds) to catch the coach before it leaves Terminus Station. A character can jump onto a lightning rail car by making a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails this check takes `dice:1d6|noform|noparens|avg|text(3)` (`d6`) bludgeoning damage and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the platform. At the start of round six, the coach moves 20 feet per round for three rounds before accelerating to top speed.
 
 #### Left at the Station
 
-If none of the characters board the lightning rail train, Garra gets away with the books and schemas found in Old Sharn's ruins. A more likely scenario is that one or more characters are left behind as the others board the train. In this case, keep the initiative order and alternate between the characters stuck on the platform with the Daask bandits and the characters exploring the train. The characters who remain at the station can seek out an adventurous skycoach driver and bribe them to fly after the train before making a DC 13 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to leap onto the roof of a train car safely. Characters who fail the check take fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof of the car and take bludgeoning damage based on the distance fallen (`d6` per 10 feet).
+If none of the characters board the lightning rail train, Garra gets away with the books and schemas found in Old Sharn's ruins. A more likely scenario is that one or more characters are left behind as the others board the train. In this case, keep the initiative order and alternate between the characters stuck on the platform with the Daask bandits and the characters exploring the train. The characters who remain at the station can seek out an adventurous skycoach driver and bribe them to fly after the train before making a DC 13 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to leap onto the roof of a train car safely. Characters who fail the check take fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof of the car and take bludgeoning damage based on the distance fallen (`dice:1d6|noform|noparens|avg` (`d6`) per 10 feet).
 
 ## Lightning Rail to Wroat
 
@@ -569,11 +569,11 @@ If the characters move outside the coach, they must either move along the roof o
 
 #### Walking on Rooftops
 
-A creature moving across the train car roofs must succeed on a DC 10 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to keep its balance. A creature that fails this check by 4 or less slips and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof. A creature that fails this check by 5 or more falls off the train and takes 7 (`2d6`) bludgeoning damage.
+A creature moving across the train car roofs must succeed on a DC 10 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to keep its balance. A creature that fails this check by 4 or less slips and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof. A creature that fails this check by 5 or more falls off the train and takes `dice:2d6|noform|noparens|avg|text(7)` (`2d6`) bludgeoning damage.
 
 #### Climbing the Sides
 
-A creature climbing along the sides of the cars must succeed on a DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to hang on. A creature that fails this check almost loses its grip and makes no progress. A creature that fails this check by 5 or more falls off the train and takes 7 (`2d6`) bludgeoning damage.
+A creature climbing along the sides of the cars must succeed on a DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to hang on. A creature that fails this check almost loses its grip and makes no progress. A creature that fails this check by 5 or more falls off the train and takes `dice:2d6|noform|noparens|avg|text(7)` (`2d6`) bludgeoning damage.
 
 ### Confronting Garra
 

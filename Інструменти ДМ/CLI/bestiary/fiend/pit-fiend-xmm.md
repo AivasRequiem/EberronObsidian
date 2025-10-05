@@ -48,8 +48,8 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
   - !!int "24"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+10"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+10"
@@ -84,21 +84,24 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
   - "desc": "The pit fiend makes one Bite attack, two Devilish Claw attacks, and one\
       \ Fiery Mace attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 18 (3d6 + 8) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:3d6+8|noform|noparens|avg|text(18) (3d6 + 8) Piercing\
       \ damage. If the target is a creature, it must make the following saving throw.\
       \ Constitution Saving Throw: DC 21. Failure: The target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition. While [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target can't regain [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) and takes\
-      \ 21 (6d6) Poison damage at the start of each of its turns, and it repeats\
-      \ the save at the end of each of its turns, ending the effect on itself on a\
-      \ success. After 1 minute, it succeeds automatically."
+      \ dice:6d6|noform|noparens|avg|text(21) (6d6) Poison damage at the start\
+      \ of each of its turns, and it repeats the save at the end of each of its turns,\
+      \ ending the effect on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 26 (4d8 + 8) Necrotic\
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:4d8+8|noform|noparens|avg|text(26) (4d8 + 8) Necrotic\
       \ damage."
     "name": "Devilish Claw"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 22 (4d6 + 8) Force\
-      \ damage plus 21 (6d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:4d6+8|noform|noparens|avg|text(22) (4d6 + 8) Force\
+      \ damage plus dice:6d6|noform|noparens|avg|text(21) (6d6) Fire damage."
     "name": "Fiery Mace"
   - "desc": "The pit fiend casts [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)\
       \ (level 5 version) twice, requiring no Material components and using Charisma\

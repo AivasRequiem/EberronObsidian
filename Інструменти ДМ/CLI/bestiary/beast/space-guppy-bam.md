@@ -45,8 +45,8 @@ Space guppies are 2- to 3-foot-long, fish-like creatures that glide through Wild
       \ enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
-      \ bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: 1 bludgeoning damage."
     "name": "Tail Slap"
 "source":
   - "BAM"

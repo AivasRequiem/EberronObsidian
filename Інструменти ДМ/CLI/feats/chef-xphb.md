@@ -9,18 +9,15 @@ aliases:
 ---
 # Chef
 *Source: Player's Handbook (2024) p. 202*  
+
 **Prerequisite**: 4th
-**Ability Score Increase**: Increase your Constitution or Wisdom by 1, to a maximum of 20.
+
 You gain the following benefits.
 
-## Cook's Utensils
+**Ability Score Increase.** Increase your Constitution or Wisdom by 1, to a maximum of 20.
 
-You gain proficiency with Cook's Utensils if you don't already have it.
+**Cook's Utensils.** You gain proficiency with Cook's Utensils if you don't already have it.
 
-## Replenishing Meal
+**Replenishing Meal.** As part of a Short Rest, you can cook special food if you have ingredients and Cook's Utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 plus your Proficiency Bonus. At the end of the Short Rest, any creature who eats the food and spends one or more Hit Dice to regain Hit Points regains an extra `dice:1d8|noform|noparens|avg` (`d8`) Hit Points.
 
-As part of a Short Rest, you can cook special food if you have ingredients and Cook's Utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 plus your Proficiency Bonus. At the end of the Short Rest, any creature who eats the food and spends one or more Hit Dice to regain Hit Points regains an extra `d8` Hit Points.
-
-## Bolstering Treats
-
-With 1 hour of work or when you finish a Long Rest, you can cook a number of treats equal to your Proficiency Bonus if you have ingredients and Cook's Utensils on hand. These special treats last 8 hours after being made. A creature can use a Bonus Action to eat one of those treats to gain a number of Temporary Hit Points equal to your Proficiency Bonus.
+**Bolstering Treats.** With 1 hour of work or when you finish a Long Rest, you can cook a number of treats equal to your Proficiency Bonus if you have ingredients and Cook's Utensils on hand. These special treats last 8 hours after being made. A creature can use a Bonus Action to eat one of those treats to gain a number of Temporary Hit Points equal to your Proficiency Bonus.

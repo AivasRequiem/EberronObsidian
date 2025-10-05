@@ -60,10 +60,10 @@ These angels act where they can against overwhelming evil, but to avoid the atte
   - !!int "25"
 "speed": "40 ft., fly 120 ft. (hover)"
 "saves":
-  - "strength": "+12"
-  - "constitution": "+12"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "strength": !!int "12"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+11"
@@ -87,13 +87,14 @@ These angels act where they can against overwhelming evil, but to avoid the atte
 "actions":
   - "desc": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing\
-      \ damage plus 18 (4d8) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
+      \ 10 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
+      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Radiant damage."
     "name": "Radiant Sword"
   - "desc": "Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant\
-      \ damage. Success: Half damage."
+      \ on a point the planetar can see within 120 feet. Failure: dice:7d6|noform|noparens|avg|text(24)\
+      \ (7d6) Radiant damage. Success: Half damage."
     "name": "Holy Burst"
   - "desc": "The planetar casts one of the following spells, requiring no Material\
       \ components and using Charisma as spellcasting ability (spell save DC 20):\n\
@@ -103,21 +104,7 @@ These angels act where they can against overwhelming evil, but to avoid the atte
       \ and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md), [Raise\
       \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The planetar casts [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
-      \ [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Lesser\
-      \ Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md), or [Remove\
-      \ Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md), using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Divine Aid (2/Day)"
 "bonus_actions":
-  - "desc": "The planetar casts one of the following spells, requiring no Material\
-      \ components and using Charisma as spellcasting ability (spell save DC 20):\n\
-      \nAt will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
-      \n1/day each: [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Control\
-      \ Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md), [Dispel Evil\
-      \ and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md), [Raise\
-      \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The planetar casts [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
       \ [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Lesser\
       \ Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md), or [Remove\

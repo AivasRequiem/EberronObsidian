@@ -59,10 +59,12 @@ Guards protect people, places, and things, either for pay or from a sense of dut
 "actions":
   - "desc": "The guard makes two attacks, using Javelin or Longsword in any combination."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 14 (3d6 + 4) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
+      \ reach 5 ft. or range 30/120 ft. Hit: dice:3d6+4|noform|noparens|avg|text(14)\
+      \ (3d6 + 4) Piercing damage."
     "name": "Javelin"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Slashing\
       \ damage."
     "name": "Longsword"
 "source":

@@ -57,10 +57,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   - !!int "26"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "strength": "+17"
-  - "constitution": "+16"
-  - "wisdom": "+14"
-  - "charisma": "+16"
+  - "strength": !!int "17"
+  - "constitution": !!int "16"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "16"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+17"
@@ -97,17 +97,19 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
       \ magical effects."
     "name": "Magic Resistance"
   - "desc": "A magical aura of weapons surrounds Rak Tulkhesh in a 10 foot radius.\
-      \ At the start of each of his turns, any other creature in the aura takes 14\
+      \ At the start of each of his turns, any other creature in the aura takes dice:4d6|noform|noparens|avg|text(14)\
       \ (4d6) force damage."
     "name": "Whirlwind of Weapons"
 "actions":
   - "desc": "Rak Tulkhesh makes four weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
-      \ 28 (3d12 + 9) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d12+9|noform|noparens|avg|text(28)\
+      \ (3d12 + 9) force damage."
     "name": "Spawned Melee Weapon"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target.\
-      \ Hit: 17 (3d8 + 4) force damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ range 150/600 ft., one target. Hit: dice:3d8+4|noform|noparens|avg|text(17)\
+      \ (3d8 + 4) force damage."
     "name": "Spawned Ranged Weapon"
   - "desc": "Rak Tulkhesh magically polymorphs into a humanoid, beast, or giant that\
       \ has a challenge rating no higher than his own, or back into his true form.\

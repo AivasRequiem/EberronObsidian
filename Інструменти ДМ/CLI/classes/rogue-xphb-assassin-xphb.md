@@ -81,7 +81,7 @@ Your [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md
 
 ### Envenom Weapons (Level 13)
 
-When you use the Poison option of your Cunning Strike, the target also takes `2d6` Poison damage whenever it fails the saving throw. This damage ignores [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Poison damage.
+When you use the Poison option of your Cunning Strike, the target also takes `dice:2d6|noform|noparens|avg` (`2d6`) Poison damage whenever it fails the saving throw. This damage ignores [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Poison damage.
 
 ### Death Strike (Level 17)
 

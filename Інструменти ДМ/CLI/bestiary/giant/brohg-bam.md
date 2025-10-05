@@ -49,19 +49,21 @@ B'rohgs are accustomed to eking out a meager existence in their natural habitat,
 "actions":
   - "desc": "The b'rohg makes four Fist attacks or two Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 12 (2d6 + 5) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit:\
-      \ 23 (4d8 + 5) bludgeoning damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 60/240 ft., one target. Hit: dice:4d8+5|noform|noparens|avg|text(23)\
+      \ (4d8 + 5) bludgeoning damage."
     "name": "Rock"
   - "desc": "The b'rohg uses all four of its hands to target one Large or smaller\
       \ creature it can see within 10 feet of itself. The target must succeed on a\
       \ DC 16 Dexterity saving throw or be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the b'rohg can't make Fist attacks\
-      \ or Rock attacks, and the target takes 49 (8d10 + 5) bludgeoning damage at\
-      \ the start of each of its turns. A creature reduced to 0 hit points by this\
-      \ damage is ripped into four pieces."
+      \ or Rock attacks, and the target takes dice:8d10+5|noform|noparens|avg|text(49)\
+      \ (8d10 + 5) bludgeoning damage at the start of each of its turns. A creature\
+      \ reduced to 0 hit points by this damage is ripped into four pieces."
     "name": "Hideous Rend"
 "source":
   - "BAM"

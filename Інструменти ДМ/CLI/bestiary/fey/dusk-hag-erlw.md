@@ -53,8 +53,8 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -75,8 +75,9 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
       \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n3/day\
       \ each: [dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md), [hypnotic pattern](І\
       нструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md), [sleep](Інструменти%20Д\
-      М/CLI/spells/sleep-xphb.md) (9d8)\n\n1/day each: [legend lore](Інструм\
-      енти%20ДМ/CLI/spells/legend-lore-xphb.md), [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)"
+      М/CLI/spells/sleep-xphb.md) (dice:9d8|noform|noparens|avg (9d8))\n\n1/day\
+      \ each: [legend lore](Інструменти%20ДМ/CLI/spells/legend-lore-xphb.md), [scrying](І\
+      нструменти%20ДМ/CLI/spells/scrying-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The hag has advantage on saving throws against spells and other magical\
       \ effects."
@@ -84,22 +85,25 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
 "actions":
   - "desc": "The hag makes two Nightmare Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:\
-      \ 18 (4d6 + 4) psychic damage. If the target is [unconscious](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Unconscious), it takes an extra 10 (3d6) psychic\
-      \ damage and is cursed until the hag dies or the curse is removed. The cursed\
-      \ creature's hit point maximum decreases by 5 (d10) whenever it finishes a\
-      \ long rest."
+  - "desc": "Melee Spell Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
+      \ (4d6 + 4) psychic damage. If the target is [unconscious](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Unconscious), it takes an extra dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) psychic damage and is cursed until the hag dies or the curse is removed.\
+      \ The cursed creature's hit point maximum decreases by dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) whenever it finishes a long rest."
     "name": "Nightmare Touch"
 "reactions":
   - "desc": "When an [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ creature the hag can see within 30 feet of her regains consciousness, the\
       \ hag can force the creature to make a DC 15 Wisdom saving throw. Unless the\
-      \ save succeeds, the creature takes 11 (2d10) psychic damage, and the hag\
-      \ regains hit points equal to the amount of damage taken."
+      \ save succeeds, the creature takes dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) psychic damage, and the hag regains hit points equal to the amount\
+      \ of damage taken."
     "name": "Dream Eater"
 "source":
   - "ERLW"

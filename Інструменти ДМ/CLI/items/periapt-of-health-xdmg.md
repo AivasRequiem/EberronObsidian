@@ -14,7 +14,7 @@ aliases:
 
 - **Weight**: 1.0 lbs.
 
-While wearing this pendant, you can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to regain `2d4 + 2` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Once used, this property can't be used again until the next dawn.
+While wearing this pendant, you can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to regain `dice:2d4+2|noform|noparens|avg` (`2d4 + 2`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Once used, this property can't be used again until the next dawn.
 
 In addition, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on saving throws to avoid or end the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition while you wear this pendant.
 

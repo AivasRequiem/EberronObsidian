@@ -37,16 +37,17 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "7"
 "speed": "60 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "senses": "passive Perception 11"
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the horse moved 20+\
       \ feet straight toward it immediately before the hit, the target takes an extra\
-      \ 5 (2d4) Bludgeoning damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+      \ dice:2d4|noform|noparens|avg|text(5) (2d4) Bludgeoning damage and has\
+      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Hooves"
 "source":
   - "XMM"

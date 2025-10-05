@@ -35,8 +35,8 @@ A ship of vampirates needs a spellcaster to operate the spelljamming helm. A vam
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold, necrotic, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -48,7 +48,7 @@ A ship of vampirates needs a spellcaster to operate the spelljamming helm. A vam
 "traits":
   - "desc": "When the mage is reduced to 0 hit points, it explodes in a cloud of ash.\
       \ Any creature within 5 feet of it must succeed on a DC 14 Constitution saving\
-      \ throw or take 11 (2d10) necrotic damage."
+      \ throw or take dice:2d10|noform|noparens|avg|text(11) (2d10) necrotic damage."
     "name": "Explode"
   - "desc": "The mage can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
@@ -58,13 +58,14 @@ A ship of vampirates needs a spellcaster to operate the spelljamming helm. A vam
 "actions":
   - "desc": "The mage makes two Ray of Cold attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced\
-      \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
-      \ shadow under the DM's control."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5)\
+      \ to hit, reach 5 ft. or range 30 ft., one creature. Hit: dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack\
+      \ dies and instantly transforms into a free-willed shadow under the DM's control."
     "name": "Energy Drain"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
-      \ 11 (2d8 + 2) cold damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 120 ft., one target. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
+      \ (2d8 + 2) cold damage."
     "name": "Ray of Cold"
   - "desc": "The mage casts one of the following spells, using Charisma as the spellcasting\
       \ ability (spell save DC 13):\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\

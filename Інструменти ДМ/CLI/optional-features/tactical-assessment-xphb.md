@@ -9,4 +9,5 @@ aliases:
 ---
 # Tactical Assessment
 *Source: Player's Handbook (2024) p. 95*  
+
 When you make an Intelligence ([History](Інструменти%20ДМ/CLI/rules/skills.md#History) or [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check or a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check, you can expend one Superiority Die and add that die to the ability check.

@@ -61,12 +61,13 @@ Sprites oppose any creatures that seek to harm places of natural magic and beaut
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Piercing damage."
     "name": "Needle Sword"
-  - "desc": "Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage,\
-      \ and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ condition until the start of the sprite's next turn."
+  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 40/160\
+      \ ft. Hit: 1 Piercing damage, and the target has the [Charmed](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Charmed) condition until the start of the sprite's\
+      \ next turn."
     "name": "Enchanting Bow"
   - "desc": "Charisma Saving Throw: DC 10, one creature within 5 feet the sprite\
       \ can see (Celestials, Fiends, and Undead automatically fail the save). Failure:\

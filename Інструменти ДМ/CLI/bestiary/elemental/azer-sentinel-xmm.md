@@ -46,7 +46,7 @@ Azers are living bronze folk who work the primal elements of creation to craft w
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
+  - "constitution": !!int "4"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
 "senses": "passive Perception 11"
@@ -55,8 +55,8 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 "traits":
   - "desc": "At the end of each of the azer's turns, each creature of the azer's choice\
       \ in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the azer takes 5 (d10) Fire damage unless the azer has\
-      \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ originating from the azer takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ Fire damage unless the azer has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition."
     "name": "Fire Aura"
   - "desc": "The azer sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
@@ -64,8 +64,9 @@ Azers are living bronze folk who work the primal elements of creation to craft w
       \ for an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Bludgeoning\
+      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
     "name": "Burning Hammer"
 "source":
   - "XMM"

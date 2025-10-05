@@ -62,13 +62,16 @@ In the Feywild, many archfey seek to bolster their armies' might with the servic
 "actions":
   - "desc": "The hobgoblin makes two Quarterstaff or Devastating Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used\
-      \ with two hands, plus 13 (3d8) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
+      \ + 1) bludgeoning damage, or dice:1d8+1|noform|noparens|avg|text(5) (1d8\
+      \ + 1) bludgeoning damage if used with two hands, plus dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) force damage."
     "name": "Quarterstaff"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
-      \ 21 (4d8 + 3) force damage, and the target is knocked [prone](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 60 ft., one target. Hit: dice:4d8+3|noform|noparens|avg|text(21)\
+      \ (4d8 + 3) force damage, and the target is knocked [prone](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Prone)."
     "name": "Devastating Bolt"
   - "desc": "The hobgoblin casts one of the following spells, using Intelligence as\
       \ the spellcasting ability (spell save DC 13):\n\nAt will: [mage hand](І\

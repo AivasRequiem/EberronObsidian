@@ -36,9 +36,9 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
   - !!int "19"
 "speed": "40 ft., fly 80 ft. (hover)"
 "saves":
-  - "constitution": "+13"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+14"
@@ -58,8 +58,8 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
 "cr": "17"
 "traits":
   - "desc": "The ghost dragon can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
-      \ inside an object."
+      \ were difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "If the ghost dragon fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -68,26 +68,28 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
 "actions":
   - "desc": "The ghost dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 32 (6d8 + 5) cold damage, and the target's speed is halved until the start\
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 10 ft., one target. Hit: dice:6d8+5|noform|noparens|avg|text(32)\
+      \ (6d8 + 5) cold damage, and the target's speed is halved until the start\
       \ of the dragon's next turn."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
-      \ 14 (2d8 + 5) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+5|noform|noparens|avg|text(14)\
+      \ (2d8 + 5) necrotic damage."
     "name": "Claw"
   - "desc": "The ghost dragon exhales shadowy mist in a 90-foot cone. Each creature\
       \ in that area must make a DC 21 Constitution saving throw. On a failed save,\
-      \ the creature takes 40 (9d8) cold damage and is [frightened](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Frightened) of the ghost dragon for 1 minute.\
-      \ On a successful save, the creature takes half as much damage and isn't [frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened).\n\nWhile [frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened) of the ghost dragon, a creature\
-      \ is [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed). The [frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened) creature can repeat the\
-      \ saving throw at the end of each of its turns, ending the effect on itself\
-      \ on a success.\n\nIf a creature's saving throw is successful or the effect\
-      \ ends for it, the creature is immune to this ghost dragon's Terrifying Breath\
-      \ for the next 24 hours."
+      \ the creature takes dice:9d8|noform|noparens|avg|text(40) (9d8) cold damage\
+      \ and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) of\
+      \ the ghost dragon for 1 minute. On a successful save, the creature takes half\
+      \ as much damage and isn't [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).\n\
+      \nWhile [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) of\
+      \ the ghost dragon, a creature is [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed).\
+      \ The [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) creature\
+      \ can repeat the saving throw at the end of each of its turns, ending the effect\
+      \ on itself on a success.\n\nIf a creature's saving throw is successful or the\
+      \ effect ends for it, the creature is immune to this ghost dragon's Terrifying\
+      \ Breath for the next 24 hours."
     "name": "Terrifying Breath (Recharge 6)"
 "source":
   - "FTD"

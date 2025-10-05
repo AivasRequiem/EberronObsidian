@@ -86,20 +86,22 @@ Wights might return from the dead for a multitude of sinister reasons. Roll on o
   - "desc": "The wight makes two attacks, using Necrotic Sword or Necrotic Bow in\
       \ any combination. It can replace one attack with a use of Life Drain."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
-      \ damage plus 4 (d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Slashing damage\
+      \ plus dice:1d8|noform|noparens|avg|text(4) (d8) Necrotic damage."
     "name": "Necrotic Sword"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage plus 4 (d8) Necrotic damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 150/600\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage\
+      \ plus dice:1d8|noform|noparens|avg|text(4) (d8) Necrotic damage."
     "name": "Necrotic Bow"
   - "desc": "Constitution Saving Throw: DC 13, one creature within 5 feet. Failure:\
-      \ 6 (1d8 + 2) Necrotic damage, and the target's [Hit Point](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an amount\
-      \ equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours\
-      \ later as a [Zombie](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) under\
-      \ the wight's control, unless the Humanoid is restored to life or its body is\
-      \ destroyed. The wight can have no more than twelve zombies under its control\
-      \ at a time."
+      \ dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Necrotic damage, and\
+      \ the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain\
+      \ by this attack rises 24 hours later as a [Zombie](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md)\
+      \ under the wight's control, unless the Humanoid is restored to life or its\
+      \ body is destroyed. The wight can have no more than twelve zombies under its\
+      \ control at a time."
     "name": "Life Drain"
 "source":
   - "XMM"

@@ -41,9 +41,9 @@ Each narzugon claims a [nightmare](Інструменти%20ДМ/CLI/bestiary/fi
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+8"
-  - "charisma": "+9"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "8"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+12"
@@ -68,14 +68,16 @@ Each narzugon claims a [nightmare](Інструменти%20ДМ/CLI/bestiary/fi
   - "desc": "The narzugon makes three Hellfire Lance attacks. It also uses Infernal\
       \ Command or Terrifying Command."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage\
-      \ kills a creature with a soul, the soul rises from the River Styx as a [lemure](І\
-      нструменти%20ДМ/CLI/bestiary/fiend/lemure-xmm.md) in Avernus in d4 hours.\
-      \ If the creature isn't revived before then, only a [wish](Інструменти%20ДМ\
-      /CLI/spells/wish-xphb.md) spell or killing the lemure and casting true resurrection\
-      \ on the creature's original body can restore it to life. Constructs and devils\
-      \ are immune to this effect."
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d12+5|noform|noparens|avg|text(11)\
+      \ (1d12 + 5) piercing damage plus dice:3d10|noform|noparens|avg|text(16)\
+      \ (3d10) fire damage. If this damage kills a creature with a soul, the soul\
+      \ rises from the River Styx as a [lemure](Інструменти%20ДМ/CLI/bestiary/fiend/lemure-xmm.md)\
+      \ in Avernus in dice:1d4|noform|noparens|avg (d4) hours. If the creature\
+      \ isn't revived before then, only a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
+      \ spell or killing the lemure and casting true resurrection on the creature's\
+      \ original body can restore it to life. Constructs and devils are immune to\
+      \ this effect."
     "name": "Hellfire Lance"
   - "desc": "Each ally of the narzugon within 60 feet of it can't be [charmed](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20Д\

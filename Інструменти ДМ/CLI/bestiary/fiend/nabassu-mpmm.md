@@ -43,8 +43,8 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
   - !!int "17"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "strength": "+11"
-  - "dexterity": "+7"
+  - "strength": !!int "11"
+  - "dexterity": !!int "7"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -65,9 +65,10 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
       \ after which it gains a number of Hit Dice (d8s) equal to half the creature's\
       \ number of Hit Dice. Roll those dice, and increase the nabassu's hit points\
       \ by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way,\
-      \ its attacks deal an extra 3 (d6) damage on a hit. The nabassu retains these\
-      \ benefits for 6 days. A creature devoured by a nabassu can be restored to life\
-      \ only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell."
+      \ its attacks deal an extra dice:1d6|noform|noparens|avg|text(3) (d6) damage\
+      \ on a hit. The nabassu retains these benefits for 6 days. A creature devoured\
+      \ by a nabassu can be restored to life only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
+      \ spell."
     "name": "Devour Soul"
   - "desc": "The nabassu has advantage on saving throws against spells and other magical\
       \ effects."
@@ -76,21 +77,23 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
   - "desc": "The nabassu makes one Bite attack and one Claw attack, and it uses Soul-Stealing\
       \ Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
-      \ 38 (5d12 + 6) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 5 ft., one target. Hit: dice:5d12+6|noform|noparens|avg|text(38)\
+      \ (5d12 + 6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
-      \ 28 (4d10 + 6) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d10+6|noform|noparens|avg|text(28)\
+      \ (4d10 + 6) force damage."
     "name": "Claw"
   - "desc": "The nabassu targets one creature it can see within 30 feet of it. If\
       \ the target isn't a Construct or an Undead, it must succeed on a DC 16 Charisma\
-      \ saving throw or take 13 (2d12) necrotic damage. The target's hit point maximum\
-      \ is reduced by an amount equal to the necrotic damage dealt, and the nabassu\
-      \ regains hit points equal to half that amount. This reduction lasts until the\
-      \ target finishes a short or long rest. The target dies if its hit point maximum\
-      \ is reduced to 0, and if the target is a Humanoid, it immediately rises as\
-      \ a [ghoul](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) under the nabassu's\
-      \ control."
+      \ saving throw or take dice:2d12|noform|noparens|avg|text(13) (2d12) necrotic\
+      \ damage. The target's hit point maximum is reduced by an amount equal to the\
+      \ necrotic damage dealt, and the nabassu regains hit points equal to half that\
+      \ amount. This reduction lasts until the target finishes a short or long rest.\
+      \ The target dies if its hit point maximum is reduced to 0, and if the target\
+      \ is a Humanoid, it immediately rises as a [ghoul](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md)\
+      \ under the nabassu's control."
     "name": "Soul-Stealing Gaze"
 "source":
   - "MPMM"

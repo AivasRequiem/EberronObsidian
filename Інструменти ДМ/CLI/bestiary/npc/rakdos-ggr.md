@@ -38,10 +38,10 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
   - !!int "30"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "strength": "+15"
-  - "constitution": "+13"
-  - "wisdom": "+11"
-  - "charisma": "+17"
+  - "strength": !!int "15"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "17"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+17"
@@ -82,11 +82,14 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
 "actions":
   - "desc": "Rakdos makes two attacks with his Curtain-Call Scythe or his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
-      \ 24 (3d10 + 8) slashing damage plus 13 (3d8) fire damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d10+8|noform|noparens|avg|text(24)\
+      \ (3d10 + 8) slashing damage plus dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) fire damage."
     "name": "Curtain-Call Scythe"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d8 + 8) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d8+8|noform|noparens|avg|text(17)\
+      \ (2d8 + 8) slashing damage."
     "name": "Claw"
 "legendary_actions":
   - "desc": "Each creature within 60 feet of Rakdos that is his ally or is [charmed](І\

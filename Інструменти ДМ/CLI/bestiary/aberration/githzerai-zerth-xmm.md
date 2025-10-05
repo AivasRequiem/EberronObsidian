@@ -73,10 +73,10 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+7"
-  - "intelligence": "+6"
-  - "wisdom": "+6"
+  - "strength": !!int "4"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -90,8 +90,9 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
 "actions":
   - "desc": "The githzerai makes two Psi Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning\
-      \ damage plus 13 (3d8) Psychic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Bludgeoning\
+      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Psychic damage."
     "name": "Psi Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\nAt will:\
@@ -100,41 +101,11 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
       \ (level 6 version), [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
       \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
-      \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Psi-Powered Leap (2/Day)"
-  - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, requiring no spell components and using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Psionic Defense (2/Day)"
 "bonus_actions":
-  - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\nAt will:\
-      \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\
-      \n1/day each: [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md)\
-      \ (level 6 version), [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
-      \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
       \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
     "name": "Psi-Powered Leap (2/Day)"
-  - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, requiring no spell components and using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Psionic Defense (2/Day)"
 "reactions":
-  - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\nAt will:\
-      \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\
-      \n1/day each: [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md)\
-      \ (level 6 version), [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
-      \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
-    "name": "Spellcasting"
-  - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
-      \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Psi-Powered Leap (2/Day)"
   - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
       \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
       \ spell's trigger, requiring no spell components and using the same spellcasting\

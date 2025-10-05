@@ -35,8 +35,8 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
   - !!int "15"
 "speed": "40 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+4"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -52,12 +52,14 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
 "actions":
   - "desc": "The fire eater makes two attacks with its bladed chain."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
-      \ 6 (1d6 + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
+      \ (1d6 + 3) slashing damage."
     "name": "Bladed Chain"
   - "desc": "The fire eater exhales flames. Each creature in a 15-foot cone must make\
-      \ a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save,\
-      \ or half as much damage on a successful one."
+      \ a DC 13 Dexterity saving throw, taking dice:2d8|noform|noparens|avg|text(9)\
+      \ (2d8) fire damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Spew Flame (Recharge 4-6)"
 "source":
   - "GGR"

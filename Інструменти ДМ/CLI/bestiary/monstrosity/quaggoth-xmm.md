@@ -54,16 +54,17 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "languages": "Undercommon"
 "cr": "2"
 "traits":
-  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md),\
+  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
       \ the quaggoth has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on attack rolls."
     "name": "Bloodied Fury"
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
-      \ damage, or 13 (3d6 + 3) Slashing damage if the quaggoth is [Bloodied](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage,\
+      \ or dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Slashing damage if\
+      \ the quaggoth is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Claw"
 "source":
   - "XMM"

@@ -47,9 +47,9 @@ The challenge rating of a legendary moonstone dragon increases by 1 when it's en
   - !!int "26"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+13"
-  - "charisma": "+15"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+13"
@@ -67,14 +67,18 @@ The challenge rating of a legendary moonstone dragon increases by 1 when it's en
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 11 (2d10) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
+      \ (2d10 + 6) piercing damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
-      \ 13 (2d6 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+6|noform|noparens|avg|text(13)\
+      \ (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit:\
-      \ 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
+      \ reach 20 ft., one target. Hit: dice:1d8+6|noform|noparens|avg|text(10)\
+      \ (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 21 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
@@ -84,8 +88,9 @@ The challenge rating of a legendary moonstone dragon increases by 1 when it's en
       \ for a creature if the creature takes damage or someone uses an action to wake\
       \ it.  \n- Moonlight Breath. The dragon exhales a beam of moonlight in a\
       \ 120-foot line that is 10 feet wide. Each creature in that area must make a\
-      \ DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed\
-      \ save, or half as much damage on a successful one.  "
+      \ DC 21 Dexterity saving throw, taking dice:11d10|noform|noparens|avg|text(60)\
+      \ (11d10) radiant damage on a failed save, or half as much damage on a successful\
+      \ one.  "
     "name": "Breath Weapon (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\

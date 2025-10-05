@@ -80,16 +80,18 @@ Mezzoloths typically form mercenary bands with others of their kind. These force
   - "desc": "The mezzoloth makes two attacks, using Claws or Mercurial Trident in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (2d4 + 4) Slashing\
-      \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
-      \ two of four claws, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Slashing damage.\
+      \ If the target is a Large or smaller creature, it has the [Grappled](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from two\
+      \ of four claws, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Claws"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 8 (1d8 + 4) Piercing damage plus 10 (3d6) Force damage. Hit or\
-      \ Miss: The trident magically returns to the mezzoloth's claw immediately after\
-      \ a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d8+4|noform|noparens|avg|text(8)\
+      \ (1d8 + 4) Piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ Force damage. Hit or Miss: The trident magically returns to the mezzoloth's\
+      \ claw immediately after a ranged attack."
     "name": "Mercurial Trident"
   - "desc": "The mezzoloth casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\

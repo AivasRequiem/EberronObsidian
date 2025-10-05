@@ -43,8 +43,8 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - !!int "6"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
@@ -64,20 +64,24 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - "desc": "The abomination makes three attacks using Claw, Acidic Spit, or a combination\
       \ of them. It can replace one of the attacks with a Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 8 (1d8 + 4) slashing damage plus 5 (d10) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8)\
+      \ (1d8 + 4) slashing damage plus dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ poison damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit:\
-      \ 10 (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 15 ft., one target. Hit: dice:1d12+4|noform|noparens|avg|text(10)\
+      \ (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit:\
-      \ 10 (3d6) acid damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 60 ft., one target. Hit: dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ acid damage."
     "name": "Acidic Spit"
   - "desc": "The abomination belches forth a cloud of acidic gas in a 30-foot cone.\
       \ Each creature in that area must make a DC 14 Constitution saving throw, taking\
-      \ 28 (8d6) acid damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ dice:8d6|noform|noparens|avg|text(28) (8d6) acid damage on a failed save,\
+      \ or half as much damage on a successful one."
     "name": "Acid Belch (Recharge 5-6)"
 "source":
   - "FTD"

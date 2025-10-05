@@ -68,7 +68,8 @@ Skeletons rise at the summons of necromancers and foul spirits. Whether they're 
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the skeleton moved\
       \ 20+ feet straight toward it immediately before the hit, the target has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."

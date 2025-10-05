@@ -128,7 +128,8 @@ Youngster
       \ it makes an ability check using that skill."
     "name": "Training"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (d4) Bludgeoning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: dice:1d4|noform|noparens|avg|text(2) (d4) Bludgeoning damage."
     "name": "Club"
 "source":
   - "XMM"

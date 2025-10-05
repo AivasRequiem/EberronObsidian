@@ -50,9 +50,9 @@ Frost giants often travel far to find food and goods. This leads many to become 
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -65,19 +65,22 @@ Frost giants often travel far to find food and goods. This leads many to become 
 "actions":
   - "desc": "The giant makes two attacks, using Frost Axe or Great Bow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slashing\
-      \ damage plus 9 (2d8) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 10\
+      \ ft. Hit: dice:2d12+6|noform|noparens|avg|text(19) (2d12 + 6) Slashing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Cold damage."
     "name": "Frost Axe"
-  - "desc": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6)\
-      \ Piercing damage plus 7 (2d6) Cold damage, and the target's [Speed](Інстр\
-      ументи%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases by 10 feet until\
-      \ the end of its next turn."
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 150/600\
+      \ ft. Hit: dice:2d10+6|noform|noparens|avg|text(17) (2d10 + 6) Piercing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Cold damage, and\
+      \ the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ decreases by 10 feet until the end of its next turn."
     "name": "Great Bow"
 "bonus_actions":
   - "desc": "The giant or one creature of its choice that can see or hear it gains\
-      \ 16 (2d10 + 5) [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
-      \ and has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ on attack rolls until the start of the giant's next turn."
+      \ dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) [Temporary Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) and has\
+      \ [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on\
+      \ attack rolls until the start of the giant's next turn."
     "name": "War Cry (Recharge 5-6)"
 "source":
   - "XMM"

@@ -47,8 +47,8 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
   - !!int "11"
 "speed": "50 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -62,11 +62,13 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
 "actions":
   - "desc": "The centaur makes two attacks, using Forest Staff or Sun Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
-      \ damage plus 14 (4d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
+      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) Poison damage."
     "name": "Forest Staff"
-  - "desc": "Ranged Attack Roll: +7, range 90 ft. Hit: 14 (3d6 + 4) Radiant\
-      \ damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 90\
+      \ ft. Hit: dice:3d6+4|noform|noparens|avg|text(14) (3d6 + 4) Radiant damage,\
+      \ and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ condition until the start of the centaur's next turn."
     "name": "Sun Ray"
   - "desc": "The centaur casts one of the following spells, using Wisdom as the spellcasting\
@@ -75,11 +77,12 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The centaur moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks. Each creature within 5 feet of the\
-      \ centaur as it moves is targeted once by the following effect. Strength Saving\
-      \ Throw: DC 15. Failure: 11 (2d6 + 4) Bludgeoning damage, and the target\
-      \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition until the end of its next turn."
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
+      \ Each creature within 5 feet of the centaur as it moves is targeted once by\
+      \ the following effect. Strength Saving Throw: DC 15. Failure: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) Bludgeoning damage, and the target has the [Restrained](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the end of its\
+      \ next turn."
     "name": "Entangling Trail (Recharge 5-6)"
 "source":
   - "XMM"

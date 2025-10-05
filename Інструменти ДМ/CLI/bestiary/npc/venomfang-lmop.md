@@ -33,10 +33,10 @@ aliases:
   - !!int "15"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -55,15 +55,19 @@ aliases:
 "actions":
   - "desc": "Venomfang makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
+      \ (2d10 + 4) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "Venomfang exhales poisonous gas in a 30-foot cone. Each creature in that\
-      \ area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison\
-      \ damage on a failed save, or half as much damage on a successful one."
+      \ area must make a DC 14 Constitution saving throw, taking dice:12d6|noform|noparens|avg|text(42)\
+      \ (12d6) poison damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Poison Breath (Recharge 5-6)"
 "source":
   - "LMoP"

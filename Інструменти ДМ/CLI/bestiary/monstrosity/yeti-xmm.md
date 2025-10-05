@@ -68,19 +68,21 @@ Due to yetis' elusiveness, folktales about yetis are more common than sightings.
   - "desc": "The yeti can use its Chilling Gaze and makes two attacks, using Claw\
       \ or Ice Throw in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Slashing\
-      \ damage plus 3 (d6) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Cold damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning\
-      \ damage plus 2 (d4) Cold damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6), range 30/120\
+      \ ft. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4 + 4) Bludgeoning\
+      \ damage plus dice:1d4|noform|noparens|avg|text(2) (d4) Cold damage."
     "name": "Ice Throw"
   - "desc": "Constitution Saving Throw: DC 13, one creature the yeti can see within\
-      \ 30 feet. Failure: 5 (2d4) Cold damage, and the target has the [Paralyzed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the start\
-      \ of the yeti's next turn unless the target has [Immunity](Інструменти%20ДМ\
-      /CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. Success: The target\
-      \ is immune to the Chilling Gaze of all yetis (but not abominable yetis) for\
-      \ 1 hour."
+      \ 30 feet. Failure: dice:2d4|noform|noparens|avg|text(5) (2d4) Cold damage,\
+      \ and the target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
+      \ condition until the start of the yeti's next turn unless the target has [Immunity](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. Success:\
+      \ The target is immune to the Chilling Gaze of all yetis (but not abominable\
+      \ yetis) for 1 hour."
     "name": "Chilling Gaze"
 "source":
   - "XMM"

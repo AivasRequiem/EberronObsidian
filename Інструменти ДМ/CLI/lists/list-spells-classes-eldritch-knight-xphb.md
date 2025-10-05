@@ -19,7 +19,6 @@ aliases:
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") at class level 3
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") at class level 3
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") at class level 3
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") at class level 3
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") at class level 3
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") at class level 3
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") at class level 3

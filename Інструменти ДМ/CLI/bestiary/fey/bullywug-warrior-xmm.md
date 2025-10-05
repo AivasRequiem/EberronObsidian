@@ -56,8 +56,9 @@ Fey embodiments of swamplands, bullywugs protect the murky wilds and consider th
       \ it speaks in Bullywug."
     "name": "Speak with Frogs and Toads"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage\
+      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage."
     "name": "Insectile Rapier"
 "bonus_actions":
   - "desc": "The bullywug can jump up to 30 feet by spending 10 feet of movement."

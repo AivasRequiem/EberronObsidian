@@ -39,9 +39,9 @@ No two autognomes are necessarily made of the same materials; magic is what give
   - !!int "6"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+2"
-  - "charisma": "+0"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
@@ -51,10 +51,10 @@ No two autognomes are necessarily made of the same materials; magic is what give
 "cr": "2"
 "traits":
   - "desc": "Whenever the autognome takes 15 damage or more from a single source and\
-      \ isn't reduced to 0 hit points by that damage, roll a d20 to determine if\
-      \ it suffers a malfunction:\n\n- 1-10 \"All Fine Here!\". No malfunction\
-      \ occurs.  \n- 11-12 \"My Mind Is Going. I Can Feel It.\". The autognome\
-      \ is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ isn't reduced to 0 hit points by that damage, roll a dice:d20|noform|noparens|avg\
+      \ (d20) to determine if it suffers a malfunction:\n\n- 1-10 \"All Fine Here!\"\
+      . No malfunction occurs.  \n- 11-12 \"My Mind Is Going. I Can Feel It.\"\
+      . The autognome is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ for 1 minute.  \n- 13-14 \"You've Disarmed Me!\". One of the autognome's\
       \ arms falls off, reducing the number of Shock attacks it can make by 1 until\
       \ a creature uses an action to reattach the arm.  \n- 15-16 \"Who Turned Out\
@@ -64,15 +64,16 @@ No two autognomes are necessarily made of the same materials; magic is what give
       \ creature uses an action to reattach the head, which reactivates it.  \n- 17-20\
       \ \"Have a Magical Day!\". The autognome explodes and is destroyed. Each creature\
       \ within 20 feet of the exploding autognome must make a DC 11 Dexterity saving\
-      \ throw, taking 22 (4d10) slashing damage on a failed save, or half as much\
-      \ damage on a successful one.  \n- Unusual Nature. The autognome doesn't\
-      \ require air, food, drink, or sleep.  "
+      \ throw, taking dice:4d10|noform|noparens|avg|text(22) (4d10) slashing damage\
+      \ on a failed save, or half as much damage on a successful one.  \n- Unusual\
+      \ Nature. The autognome doesn't require air, food, drink, or sleep.  "
     "name": "Malfunction"
 "actions":
   - "desc": "The autognome makes two Shock attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 7 (2d6) lightning damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+3|noform|noparens|text(+3)\
+      \ to hit, reach 5 ft. or range 60 ft., one target. Hit: dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) lightning damage."
     "name": "Shock"
 "source":
   - "BAM"

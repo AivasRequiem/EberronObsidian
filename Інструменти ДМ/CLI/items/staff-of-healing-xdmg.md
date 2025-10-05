@@ -31,6 +31,6 @@ This staff has 10 charges. While holding the staff, you can cast one of the spel
 
 ## Regaining Charges
 
-The staff regains `1d6 + 4` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, the staff vanishes in a flash of light, lost forever.
+The staff regains `dice:1d6+4|noform|noparens|avg` (`1d6 + 4`) expended charges daily at dawn. If you expend the last charge, roll `dice:1d20|noform|noparens|avg` (`d20`). On a 1, the staff vanishes in a flash of light, lost forever.
 
 *Source: Dungeon Master's Guide (2024) p. 308. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

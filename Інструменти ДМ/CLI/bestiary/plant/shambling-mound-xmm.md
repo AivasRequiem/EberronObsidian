@@ -77,21 +77,23 @@ Strange circumstances might give rise to shambling mounds, transforming vegetati
   - "desc": "The shambling mound makes three Charged Tendril attacks. It can replace\
       \ one attack with a use of Engulf."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Bludgeoning\
-      \ damage plus 5 (2d4) Lightning damage. If the target is a Medium or smaller\
-      \ creature, the shambling mound pulls the target 5 feet straight toward itself."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
+      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Lightning damage.\
+      \ If the target is a Medium or smaller creature, the shambling mound pulls the\
+      \ target 5 feet straight toward itself."
     "name": "Charged Tendril"
   - "desc": "Strength Saving Throw: DC 15, one Medium or smaller creature within\
       \ 5 feet. Failure: The target is pulled into the shambling mound's space and\
       \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 14). Until the grapple ends, the target has the [Blinded](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Blinded) and [Restrained](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Restrained) conditions, and it takes 10 (3d6) Lightning\
-      \ damage at the start of each of its turns. When the shambling mound moves,\
-      \ the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) target moves\
-      \ with it, costing it no extra movement. The shambling mound can have only one\
-      \ creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by\
-      \ this action at a time."
+      М/CLI/rules/conditions.md#Restrained) conditions, and it takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Lightning damage at the start of each of its turns. When the shambling\
+      \ mound moves, the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ target moves with it, costing it no extra movement. The shambling mound can\
+      \ have only one creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ by this action at a time."
     "name": "Engulf"
 "source":
   - "XMM"

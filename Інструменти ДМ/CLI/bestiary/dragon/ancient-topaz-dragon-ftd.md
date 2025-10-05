@@ -58,10 +58,10 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
   - !!int "20"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+12"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+17"
@@ -84,19 +84,23 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 10 (3d6) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
+      \ (2d10 + 6) piercing damage plus dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 13 (2d6 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+6|noform|noparens|avg|text(13)\
+      \ (2d6 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales yellowish necrotic energy in a 90-foot cone. Each\
       \ creature in that area must make a DC 20 Constitution saving throw. On a failed\
-      \ save, the creature takes 49 (14d6) necrotic damage and is weakened until\
-      \ the end of its next turn. A weakened creature has disadvantage on Strength-based\
-      \ ability checks and Strength saving throws, and the creature's weapon attacks\
-      \ that rely on Strength deal half damage. On a successful save, the creature\
-      \ takes half as much damage and isn't weakened."
+      \ save, the creature takes dice:14d6|noform|noparens|avg|text(49) (14d6)\
+      \ necrotic damage and is weakened until the end of its next turn. A weakened\
+      \ creature has disadvantage on Strength-based ability checks and Strength saving\
+      \ throws, and the creature's weapon attacks that rely on Strength deal half\
+      \ damage. On a successful save, the creature takes half as much damage and isn't\
+      \ weakened."
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 19):\n\n\
@@ -121,8 +125,9 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
     "name": "Psionics (Costs 2 Actions)"
   - "desc": "The dragon targets a creature or an object not being worn or carried\
       \ that it can see within 60 feet of it. The target must succeed on a DC 19 Constitution\
-      \ saving throw or take 40 (9d8) necrotic damage. If this damage reduces the\
-      \ target to 0 hit points, it crumbles to dust."
+      \ saving throw or take dice:9d8|noform|noparens|avg|text(40) (9d8) necrotic\
+      \ damage. If this damage reduces the target to 0 hit points, it crumbles to\
+      \ dust."
     "name": "Essential Reduction (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -138,7 +143,7 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
       \ the creature.  \n- Cancellation. The dragon chooses an active spell of\
       \ 5th level or lower that it's aware of in the lair and ends the spell.  \n\
       - Negative Energy Infusion. Up to two creatures the dragon can see within\
-      \ the lair must each succeed on a DC 15 Constitution saving throw or take 14\
+      \ the lair must each succeed on a DC 15 Constitution saving throw or take dice:4d6|noform|noparens|avg|text(14)\
       \ (4d6) necrotic damage. Negative energy then infuses the lair until initiative\
       \ count 20 on the next round. While the infusion lasts, creatures in the lair\
       \ other than the dragon can't regain hit points.  "
@@ -162,8 +167,9 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
       \ region.  "
     "name": ""
   - "desc": "If the dragon dies, the population of giant squid in the region returns\
-      \ to normal levels over the course of d10 days. The existing abundance of\
-      \ crystals and topazes remains, but new ones form at a normal rate."
+      \ to normal levels over the course of dice:1d10|noform|noparens|avg (d10)\
+      \ days. The existing abundance of crystals and topazes remains, but new ones\
+      \ form at a normal rate."
     "name": ""
 "source":
   - "FTD"

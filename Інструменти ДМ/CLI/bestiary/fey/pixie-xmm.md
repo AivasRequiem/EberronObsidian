@@ -58,10 +58,11 @@ Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They i
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft. Hit:\
-      \ 1 Radiant damage, and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ or [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
-      \ (pixie's choice) until the start of the pixie's next turn."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
+      \ reach 5 ft. or range 60 ft. Hit: 1 Radiant damage, and the target has the\
+      \ [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [Poisoned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition (pixie's choice)\
+      \ until the start of the pixie's next turn."
     "name": "Faerie Dust"
   - "desc": "The pixie casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\

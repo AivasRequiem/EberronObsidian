@@ -14,7 +14,7 @@ aliases:
 
 - **Weight**: 0.5 lbs.
 
-When you drink this potion, it removes any [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels you have and ends the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition on you. For the next 24 hours, you regain the maximum number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) for any [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) Die you spend.
+When you drink this potion, it removes any [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels you have and ends the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition on you. For the next 24 hours, you regain the maximum number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) for any [Hit Point Die](Інструменти%20ДМ/CLI/rules/variant-rules/hit-point-dice-xphb.md) you spend.
 
 This potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.
 

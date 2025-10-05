@@ -34,9 +34,9 @@ You conjure nature spirits that appear as a Large pack of spectral, intangible a
 
 You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.
 
-Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes `3d10` Slashing damage. A creature makes this save only once per turn.
+Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes `dice:3d10|noform|noparens|avg` (`3d10`) Slashing damage. A creature makes this save only once per turn.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d10` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d10|noform|noparens|avg|text(d10)` for each spell slot level above 3.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

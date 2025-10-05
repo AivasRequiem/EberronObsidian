@@ -39,10 +39,10 @@ aliases:
     "name": "Primal Bond"
 "actions":
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage\
-      \ (your choice when you summon the beast), and the target has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC equals\
-      \ your spell save DC)."
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg (1d6 + 2) plus your Wisdom modifier\
+      \ Bludgeoning or Piercing damage (your choice when you summon the beast), and\
+      \ the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC equals your spell save DC)."
     "name": "Beast's Strike"
 "source":
   - "XPHB"

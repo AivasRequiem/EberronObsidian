@@ -391,13 +391,13 @@ For a speedier journey through the streets, House Orien manages a system of carr
 
 ![Above and Below Sharn: Important Districts](Інструменти%20ДМ/CLI/tables/above-and-below-sharn-important-districts-erlw.md)
 
-> [!readaloud] The Sharn Inquisitive—Who owns sharn? Portrait of The ir'Tains and the 60 Families
+> [!readaloud] The Sharn Inquisitive—Who owns Sharn? Portrait of The ir'Tains and the 60 Families
 > 
 > If you've read more than two issues of the *Sharn Inquisitive*, you've seen at least two stories about the ir'Tain family. King Boranel might rule Breland, and the Lord Mayor might be our highest appointed official, but the ir'Tains are the true royalty of our city. What citizen of Sharn doesn't have an opinion about the fate of Lord Dalian ir'Tain, lost at sea a decade ago? Many are sure that he's a prisoner of the sahuagin, which would explain why Lady Celyria has been funding expeditions into the sahuagin realms. Another camp maintains that Lord Dalian staged his death so he could embrace a swashbuckling life as a pirate king. If the truth ever comes out, you can be sure you'll read about it here!
 > 
 > Matriarch Lady Celyria ir'Tain is the queen of high society in Sharn. Her activities and those of the ir'Tain children account for just as much newsprint as their father used to. Dalian's eldest son, Dalas ir'Tain, shocked society last week when he publicly denounced the Brelish monarchy. The dalliances of younger siblings Cyra and Daral sell more issues of the *Inquisitive* whenever such are reported, and the wedding of middle sister Cariana ir'Tain and Mayne Jhaelian of Aerenal will surely be the biggest social event of 998 YK.
 > 
-> The ir'Tain fortune is tied to the City of Towers. Tain gold funded the construction of many of the towers of Sharn, and the family owns vast sections of the city. You've likely heard of the Sixty Families of Sharn, considered the guiding lights of the city. Most assume that these luminaries are ancient and established, their status tied to a royal decree. In fact, when the Tains built their mansion on Skyway, they ordered the architects to design a banquet hall that would seat sixty families and their servants. The original Sixty Families were those that received standing invitations to the first Tain Gala. Though the list has remained generally stable through the years, just last year Celyria expelled the ir'Moros family and gave their place to Saiden Boromar—a surprising advancement for a family that began as Cliffside hooligans.
+> The ir'Tain fortune is tied to the City of Towers. Tain gold funded the construction of many of the towers of Sharn, and the family owns vast sections of the city. You've likely heard of the Sixty Families of Sharn, considered the guiding lights of the city. Most assume that these luminaries are ancient and established, their status tied to a royal decree. In fact, when the ir'Tains built their mansion on Skyway, they ordered the architects to design a banquet hall that would seat sixty families and their servants. The original Sixty Families were those that received standing invitations to the first Tain Gala. Though the list has remained generally stable through the years, just last year Celyria expelled the ir'Moros family and gave their place to Saiden Boromar—a surprising advancement for a family that began as Cliffside hooligans.
 > 
 > Anyone who strives to rise in Sharn society must earn the favor of the Sixty. Similarly, those who seek to explore and adventure in the wake of the Last War can surely find patrons among these elite. And from our desks, we will be watching to see which families will be next to rise and fall.
 ^the-sharn-inquisitivewho-owns-sharn-portrait-of-the-irtains-and-the-60-families
@@ -464,7 +464,7 @@ Middle Dura caters to the working class. Its taverns are modestly priced, but th
 
 The Bazaar of Dura is the largest commercial district in Sharn. In addition to the dozens of permanent shops and smithies, the streets of the bazaar are an ever-changing tapestry of stalls and tents. It's said that you can find anything here, if you're not too worried about where it came from and if you're prepared to contend with the cutpurses that prey on the crowds.
 
-A small selection of merchants that regularly do business at the bazaar is given on the Bazaar Merchants table; roll a `d10`, or choose a location of interest.
+A small selection of merchants that regularly do business at the bazaar is given on the Bazaar Merchants table; roll a `dice:d10|noform|noparens|avg` (`d10`), or choose a location of interest.
 
 ![Middle Dura; Bazaar Merchants](Інструменти%20ДМ/CLI/tables/middle-dura-bazaar-merchants-erlw.md)
 
@@ -564,7 +564,7 @@ The Northedge residential area is the quietest quarter of Sharn. At first glance
 > 
 > Who is the playwright of the Diamond Theater responsible for these stirring stories? Her name is Luca Syara, but beyond that, she's an enigma. There's no such person on the rolls of the bardic colleges of Breland, and House Phiarlan and House Thuranni claim to know nothing about her. Syara shuns the spotlight and refuses all interviews. While her works are being debated and celebrated in classrooms and taverns, the artist spends her days in the dingy back rooms of the Diamond Theater. This seclusion has led to a number of fanciful rumors. Some say Syara fought in the Last War and that she was in Metrol on the Day of Mourning. A wilder rumor maintains that she is an exile from the Faerie Court of Thelanis, an archfey bound to human form.
 > 
-> While we wait for answers to this mystery, we encourage you to sample Syara's latest work. *Five Lives* is a gutwrenching tragedy that forces us to look at our darkest hours, and to consider the suffering of our enemies and the common threads that unite us all. If you're looking to forget your troubles, by all means, go see *Facade* or *The Late Count*. But if you want to take in a performance that might make you a better person, do whatever it takes to get tickets to *Five Lives*.
+> While we wait for answers to this mystery, we encourage you to sample Syara's latest work. *Five Lives* is a gut-wrenching tragedy that forces us to look at our darkest hours, and to consider the suffering of our enemies and the common threads that unite us all. If you're looking to forget your troubles, by all means, go see *Facade* or *The Late Count*. But if you want to take in a performance that might make you a better person, do whatever it takes to get tickets to *Five Lives*.
 ^the-sharn-inquisitiveenigma-of-the-diamond-voice
 
 Upper Northedge is the perfect place for the noble who can afford a manor in the clouds but wants to avoid the bustle of Upper Central. The districts of Crystal Bridge and Oak Towers are filled with spire-topped manors and grand estates. A host of rooftop parks and gardens provide lovely spaces to sit and reflect.
@@ -577,7 +577,7 @@ Other points of interest in Shae Lias include the Oaks, one of the finest restau
 
 This ward caters to the middle class of Sharn, offering a wide range of comfortable housing. Dwarves make up most of the population, with the highest concentration in the district of Holdfast. In contrast to the residents of Highhold in Upper Dura, the dwarves of Holdfast have deep roots in Sharn and feel no strong connection to the Mror Holds or its traditions.
 
-High Hope is a temple district; although the city's most impressive churches and shrines are located in Upper Central, it's commonly known that if you're looking for a truly devoted priest, you should go to High Hope. The most notable feature of the district is Daca's Watch. Twelve feet high, this pillar is thought to have once held a statue or monument. Over a century ago, a gnome named Daca climbed atop the pedastal. She has remained there ever since, and shouts advice to anyone who passes by. Although Daca doesn't claim to be a priest, the people of the community say that she's blessed by the god Boldrei and speaks with the Sovereign's voice. True or not, Daca's advice has proven to be remarkably sound, and she and her pillar have become a tourist attraction.
+High Hope is a temple district; although the city's most impressive churches and shrines are located in Upper Central, it's commonly known that if you're looking for a truly devoted priest, you should go to High Hope. The most notable feature of the district is Daca's Watch. Twelve feet high, this pillar is thought to have once held a statue or monument. Over a century ago, a gnome named Daca climbed atop the pedestal. She has remained there ever since, and shouts advice to anyone who passes by. Although Daca doesn't claim to be a priest, the people of the community say that she's blessed by the god Boldrei and speaks with the Sovereign's voice. True or not, Daca's advice has proven to be remarkably sound, and she and her pillar have become a tourist attraction.
 
 ### Lower Northedge
 
@@ -641,7 +641,7 @@ These days, Lower Tavick's Landing is best known for High Walls, a former reside
 
 ### Things to Do in Tavick's Landing
 
-> [!readaloud] Voice of Breland—is your Neighbor a cyran invader?
+> [!readaloud] Voice of Breland—is your Neighbor a Cyran invader?
 > 
 > In the wake of the Mourning, our king welcomed the survivors of that tragedy into our cities. In Sharn, High Walls alone holds more Cyran refugees than Karrnath has allowed across its borders. If you read the Sharn Inquisitive or the Korranberg Chronicle, you've heard the endless litany of how difficult life is, tales of overcrowding, starvation, and disease. Although we at the Voice of Breland sympathize with all who suffer, we refuse to ignore the deadly threat in our midst. The majority of Cyrans who survived the Mourning did so because they were beyond the borders of their nation. And why is that? Because they were soldiers.
 > 
@@ -837,7 +837,7 @@ As veterans and heroes of the Last War, many of the Redcloaks are unfriendly tow
 
 Officers of the watch can levy fines on the spot when they catch culprits, which is the typical way that minor crimes are dealt with. For a serious offense, the perpetrator is taken to a garrison and held until a trial can be arranged. A criminal who is considered to be a serious flight risk will be taken to the most secure facility in Sharn—the King's Citadel headquarters.
 
-Typically, a prisoner's case comes to the attention of a local magistrate within `d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
+Typically, a prisoner's case comes to the attention of a local magistrate within `dice:1d4|noform|noparens|avg` (`d4`) days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
 
 Punishment for convicted criminals varies, but long-term imprisonment is quite rare. Prisoners who deemed to be too dangerous to be allowed to roam free are more likely to be executed than imprisoned. Typically, a long prison sentence is used only for criminals who can't be allowed to go free, but whose deaths would have negative diplomatic repercussions.
 

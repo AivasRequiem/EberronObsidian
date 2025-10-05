@@ -46,7 +46,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Rend"

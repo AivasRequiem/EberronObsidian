@@ -12,7 +12,7 @@ aliases:
 
 This trap uses a trip wire to collapse an unstable section of ceiling. The trip wire is 3 inches off the ground and stretches between two weak supports that topple when the trip wire is pulled.
 
-The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking 11 (`2d10`) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).
+The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).
 
 ## Detect and Disarm
 
@@ -24,9 +24,9 @@ You can scale the trap for higher levels by increasing the damage and the save D
 
 | Levels | Bludgeoning Damage | Save DC |
 |--------|--------------------|---------|
-| 5–10 | 22 (`4d10`) | 15 |
-| 11–16 | 55 (`10d10`) | 17 |
-| 17–20 | 99 (`18d10`) | 19 |
+| 5–10 | 22 (`dice:4d10\|noform\|noparens\|avg` (`4d10`)) | 15 |
+| 11–16 | 55 (`dice:10d10\|noform\|noparens\|avg` (`10d10`)) | 17 |
+| 17–20 | 99 (`dice:18d10\|noform\|noparens\|avg` (`18d10`)) | 19 |
 ^levels-bludgeoning-damage-save-dc
 
 *Source: Dungeon Master's Guide (2024) p. 100. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

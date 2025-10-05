@@ -25,7 +25,7 @@ aliases:
 - **Components:** V
 - **Duration:** Concentration, up to 1 hour
 
-You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra `d6` Force damage to the target whenever you hit it with an attack roll. You also have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on any Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception) or [Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check you make to find it.
+You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra `dice:1d6|noform|noparens|avg` (`d6`) Force damage to the target whenever you hit it with an attack roll. You also have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on any Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception) or [Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check you make to find it.
 
 If the target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) before this spell ends, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to move the mark to a new creature you can see within range.
 

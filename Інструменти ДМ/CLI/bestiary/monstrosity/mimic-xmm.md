@@ -131,17 +131,20 @@ Weapon rack
       \ [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)."
     "name": "Adhesive (Object Form Only)"
 "actions":
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5) (with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target is\
+      \ [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the mimic),\
+      \ reach 5 ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing\
+      \ damage—or dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Piercing damage\
       \ if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the mimic), reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage—or 12 (2d8\
-      \ + 3) Piercing damage if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the mimic—plus 4 (d8) Acid damage."
+      \ by the mimic—plus dice:1d8|noform|noparens|avg|text(4) (d8) Acid damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning\
-      \ damage plus 4 (d8) Acid damage. If the target is a Large or smaller creature,\
-      \ it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
-      \ (escape DC 13). Ability checks made to escape this grapple have [Disadvantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Bludgeoning\
+      \ damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Acid damage. If\
+      \ the target is a Large or smaller creature, it has the [Grappled](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13). Ability\
+      \ checks made to escape this grapple have [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)."
     "name": "Pseudopod"
 "bonus_actions":
   - "desc": "The mimic shape-shifts to resemble a Medium or Small object while retaining\

@@ -53,8 +53,9 @@ A wraith is the incorporeal remnant of a particularly hateful being. Most wraith
       \ that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
-      \ 16 (3d8 + 3) necrotic damage, and the target must succeed on a DC 13 Constitution\
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:3d8+3|noform|noparens|avg|text(16)\
+      \ (3d8 + 3) necrotic damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. If this attack reduces the target's hit point maximum to 0,\
       \ the target dies. This reduction to the target's hit point maximum lasts until\

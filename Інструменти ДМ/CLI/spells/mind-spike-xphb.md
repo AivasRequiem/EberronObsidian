@@ -34,9 +34,9 @@ aliases:
 - **Components:** S
 - **Duration:** Concentration, up to 1 hour
 
-You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking `3d8` Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition, it gains no benefit from that condition against you.
+You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking `dice:3d8|noform|noparens|avg` (`3d8`) Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition, it gains no benefit from that condition against you.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 2.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d8|noform|noparens|avg|text(d8)` for each spell slot level above 2.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Diviner)](Інструменти%20ДМ/CLI/lists/list-spells-classes-diviner-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

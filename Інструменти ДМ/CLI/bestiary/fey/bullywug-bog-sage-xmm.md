@@ -44,9 +44,9 @@ Fey embodiments of swamplands, bullywugs protect the murky wilds and consider th
   - !!int "12"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+5"
-  - "charisma": "+3"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)"
     "desc": "+4"
@@ -65,16 +65,17 @@ Fey embodiments of swamplands, bullywugs protect the murky wilds and consider th
   - "desc": "The bullywug makes two Bog Staff attacks. It can replace any attack with\
       \ a use of Spellcasting to cast [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning\
-      \ damage plus 10 (3d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Bludgeoning\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Poison damage."
     "name": "Bog Staff"
   - "desc": "The bullywug casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 13, +5 to hit with spell attacks):\n\nAt will:\
-      \ [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [Druidcraft](І\
-      нструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [Ray of Sickness](Інструмент\
-      и%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n1/day each: [Speak with Plants](І\
-      нструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md), [Vitriolic Sphere](Ін\
-      струменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md)"
+      \ ability (spell save DC 13, dice:1d20+5|noform|noparens|text(+5) to hit with\
+      \ spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [Ray of Sickness](І\
+      нструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n1/day each: [Speak\
+      \ with Plants](Інструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md), [Vitriolic\
+      \ Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The bullywug can jump up to 30 feet by spending 10 feet of movement."

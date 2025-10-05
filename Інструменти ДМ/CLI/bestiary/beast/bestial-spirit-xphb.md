@@ -33,8 +33,8 @@ aliases:
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "understands the languages you know"
 "traits":
-  - "desc": "The spirit doesn't provoke Opportunity Attacks when it flies out of an\
-      \ enemy's reach."
+  - "desc": "The spirit doesn't provoke [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it flies out of an enemy's reach."
     "name": "Flyby (Air Only)"
   - "desc": "The spirit has Advantage on an attack roll against a creature if at least\
       \ one of the spirit's allies is within 5 feet of the creature and the ally doesn't\

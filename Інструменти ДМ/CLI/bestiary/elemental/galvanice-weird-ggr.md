@@ -57,14 +57,16 @@ An Izzet weird doesn't require air, food, drink, or sleep.
 "traits":
   - "desc": "When the galvanice weird dies, it explodes in a burst of ice and lightning.\
       \ Each creature within 10 feet of the exploding weird must make a DC 13 Dexterity\
-      \ saving throw, taking 7 (2d6) lightning damage on a failed save, or half\
-      \ as much damage on a successful one."
+      \ saving throw, taking dice:2d6|noform|noparens|avg|text(7) (2d6) lightning\
+      \ damage on a failed save, or half as much damage on a successful one."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. If the target\
-      \ is a creature, it must succeed on a DC 13 Constitution saving throw or lose\
-      \ the ability to use reactions until the start of the weird's next turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) bludgeoning damage plus dice:2d4|noform|noparens|avg|text(5) (2d4)\
+      \ lightning damage. If the target is a creature, it must succeed on a DC 13\
+      \ Constitution saving throw or lose the ability to use reactions until the start\
+      \ of the weird's next turn."
     "name": "Slam"
 "source":
   - "GGR"

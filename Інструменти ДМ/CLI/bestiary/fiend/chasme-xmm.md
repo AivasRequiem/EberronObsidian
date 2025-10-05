@@ -44,8 +44,8 @@ Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitat
   - !!int "10"
 "speed": "20 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -67,10 +67,11 @@ Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitat
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (4d6 + 2) Piercing\
-      \ damage plus 21 (6d6) Necrotic damage. If the target is a creature, its [Hit\
-      \ Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum\
-      \ decreases by an amount equal to the Necrotic damage taken."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:4d6+2|noform|noparens|avg|text(16) (4d6 + 2) Piercing\
+      \ damage plus dice:6d6|noform|noparens|avg|text(21) (6d6) Necrotic damage.\
+      \ If the target is a creature, its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by an amount equal to the Necrotic damage taken."
     "name": "Proboscis"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 12, each creature in a 30-foot [Emanation](І\

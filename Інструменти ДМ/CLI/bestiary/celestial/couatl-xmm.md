@@ -49,8 +49,8 @@ Each couatl goes through a period of renewal at the end of an age. In a couatl's
   - !!int "18"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "7"
 "damage_resistances": "bludgeoning, piercing, slashing"
 "damage_immunities": "psychic, radiant"
 "senses": "truesight 120 ft., passive Perception 15"
@@ -61,15 +61,17 @@ Each couatl goes through a period of renewal at the end of an age. In a couatl's
       \ can communicate with it telepathically only if it allows them."
     "name": "Shielded Mind"
 "actions":
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:1d12+5|noform|noparens|avg|text(11) (1d12 + 5) Piercing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the end of the couatl's next turn."
     "name": "Bite"
   - "desc": "Strength Saving Throw: DC 15, one Medium or smaller creature the couatl\
-      \ can see within 5 feet. Failure: 8 (1d6 + 5) Bludgeoning damage. The target\
-      \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
-      \ (escape DC 13), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition until the grapple ends."
+      \ can see within 5 feet. Failure: dice:1d6+5|noform|noparens|avg|text(8)\
+      \ (1d6 + 5) Bludgeoning damage. The target has the [Grappled](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13), and it has\
+      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
+      \ until the grapple ends."
     "name": "Constrict"
   - "desc": "The couatl casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\
@@ -86,27 +88,7 @@ Each couatl goes through a period of renewal at the end of an age. In a couatl's
       \ [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), [Sleep](Інструмент\
       и%20ДМ/CLI/spells/sleep-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The couatl casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
-      \ [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md),\
-      \ or [Sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md), requiring no\
-      \ spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Divine Aid (2/Day)"
 "bonus_actions":
-  - "desc": "The couatl casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\
-      \ [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
-      \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Detect\
-      \ Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Shapechange](І\
-      нструменти%20ДМ/CLI/spells/shapechange-xphb.md) (Beast or Humanoid form only,\
-      \ no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
-      \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
-      рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
-      \ to maintain the spell)\n\n1/day each: [Create Food and Water](Інструме\
-      нти%20ДМ/CLI/spells/create-food-and-water-xphb.md), [Dream](Інструменти%20ДМ\
-      /CLI/spells/dream-xphb.md), [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md),\
-      \ [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), [Sleep](Інструмент\
-      и%20ДМ/CLI/spells/sleep-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The couatl casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
       \ [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md),\
       \ or [Sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md), requiring no\

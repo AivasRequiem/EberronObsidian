@@ -19,7 +19,6 @@ aliases:
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") 
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") 
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") 
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") 
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") 
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") 
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") 
@@ -39,7 +38,6 @@ aliases:
 ## 1st Level
 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") 
-- [Chaos Bolt](Інструменти%20ДМ/CLI/spells/chaos-bolt-xge.md "XGE") 
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB") 
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") 
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") 

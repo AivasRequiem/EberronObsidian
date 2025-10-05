@@ -11,8 +11,8 @@ aliases:
 
 **Above and Below Sharn: Noteworthy Locations**
 
-| Location | Deascription | District |
-|----------|--------------|----------|
+| Location | Description | District |
+|----------|-------------|----------|
 | The Azure Gateway | This luxurious hotel and restaurant recently replaced an old Ghallanda inn. The menu is a "Galifar fusion," combining styles from across the Five Nations. | Skyway |
 | The Celestial Vista | This legendary restaurant is owned by Skyway's city councilor, Lady Evix ir'Marasha. The floor is studded with crystal windows, allowing diners to look down into the city below. The food isn't incredible, but tourist crowds keep the Vista filled with customers. | Skyway |
 | The Cloud Dragon | This restaurant serves traditional Brelish cuisine, and it does so exceptionally well. It's rarely as crowded as the other venues in Skyway, but locals know its value. | Skyway |

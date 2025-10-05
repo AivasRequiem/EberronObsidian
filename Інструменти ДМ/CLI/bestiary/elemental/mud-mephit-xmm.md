@@ -68,7 +68,8 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
       \ its next turn."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Bludgeoning\
       \ damage."
     "name": "Slam"
   - "desc": "Dexterity Saving Throw: DC 11, one creature the mephit can see within\

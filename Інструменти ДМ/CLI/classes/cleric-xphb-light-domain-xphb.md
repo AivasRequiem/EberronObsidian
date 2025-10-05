@@ -70,7 +70,7 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 ### Radiance of the Dawn (Level 3)
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you present your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) and expend a use of your Channel Divinity to emit a flash of light in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from yourself. Any magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)—such as that created by the [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md) spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to `2d10` plus your Cleric level on a failed save or half as much damage on a successful one.
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you present your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) and expend a use of your Channel Divinity to emit a flash of light in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from yourself. Any magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)—such as that created by the [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md) spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to `dice:2d10|noform|noparens|avg` (`2d10`) plus your Cleric level on a failed save or half as much damage on a successful one.
 
 ### Warding Flare (Level 3)
 
@@ -82,7 +82,7 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 You regain all expended uses of your Warding Flare when you finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
-In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to `2d6` plus your Wisdom modifier.
+In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to `dice:2d6|noform|noparens|avg` (`2d6`) plus your Wisdom modifier.
 
 ### Corona of Light (Level 17)
 

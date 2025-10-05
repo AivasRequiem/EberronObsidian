@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/6
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/wizard
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "name": "Mage (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "wizard"
 "alignment": "Neutral"
 "ac": !!int "15"
 "hp": !!int "81"
@@ -69,8 +70,8 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -84,8 +85,9 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "actions":
   - "desc": "The mage makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit:\
-      \ 16 (3d8 + 3) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:3d8+3|noform|noparens|avg|text(16)\
+      \ (3d8 + 3) Force damage."
     "name": "Arcane Burst"
   - "desc": "The mage casts one of the following spells, using Intelligence as the\
       \ spellcasting ability (spell save DC 14):\n\nAt will: [Detect Magic](Ін\
@@ -98,47 +100,11 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
       \ Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md), [Fly](Інструменти\
       %20ДМ/CLI/spells/fly-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step (3/Day)"
-  - "desc": "The mage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Protective Magic (3/Day)"
 "bonus_actions":
-  - "desc": "The mage casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [Detect Magic](Ін\
-      струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in\
-      \ AC), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fireball](І\
-      нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 4 version), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n1/day each: [Cone of\
-      \ Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md), [Fly](Інструменти\
-      %20ДМ/CLI/spells/fly-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
       \ using the same spellcasting ability as Spellcasting.\n"
     "name": "Misty Step (3/Day)"
-  - "desc": "The mage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Protective Magic (3/Day)"
 "reactions":
-  - "desc": "The mage casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [Detect Magic](Ін\
-      струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in\
-      \ AC), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fireball](І\
-      нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 4 version), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n1/day each: [Cone of\
-      \ Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md), [Fly](Інструменти\
-      %20ДМ/CLI/spells/fly-xphb.md)"
-    "name": "Spellcasting"
-  - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step (3/Day)"
   - "desc": "The mage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
       \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
       \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"

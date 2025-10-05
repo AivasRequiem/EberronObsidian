@@ -40,10 +40,10 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
   - !!int "26"
 "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+19"
-  - "wisdom": "+14"
-  - "charisma": "+17"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "19"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "17"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+26"
@@ -72,26 +72,29 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
 "actions":
   - "desc": "The aspect makes one Bite attack, one Claw attack, and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
-      \ 23 (2d12 + 10) piercing damage plus 19 (3d12) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 20 ft., one target. Hit: dice:2d12+10|noform|noparens|avg|text(23)\
+      \ (2d12 + 10) piercing damage plus dice:3d12|noform|noparens|avg|text(19)\
+      \ (3d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
-      \ 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+10|noform|noparens|avg|text(21)\
+      \ (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The aspect can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
-      \ 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must\
-      \ succeed on a DC 27 Strength saving throw or be knocked [prone](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d12+10|noform|noparens|avg|text(23)\
+      \ (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed\
+      \ on a DC 27 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The aspect exhales multicolored flames in a 300-foot cone. Each creature\
       \ in that area must make a DC 27 Dexterity saving throw. On a failed save, the\
-      \ creature takes 71 (11d12) damage of a type of the aspect's choosing: acid,\
-      \ cold, fire, lightning, or poison. On a successful save, the creature takes\
-      \ half as much damage."
+      \ creature takes dice:11d12|noform|noparens|avg|text(71) (11d12) damage\
+      \ of a type of the aspect's choosing: acid, cold, fire, lightning, or poison.\
+      \ On a successful save, the creature takes half as much damage."
     "name": "Chromatic Flames (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The aspect makes one Claw or Tail attack."

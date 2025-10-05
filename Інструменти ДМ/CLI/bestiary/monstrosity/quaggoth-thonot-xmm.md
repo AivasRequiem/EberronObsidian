@@ -54,15 +54,16 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "languages": "Undercommon"
 "cr": "3"
 "traits":
-  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md),\
+  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
       \ the quaggoth has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on attack rolls."
     "name": "Bloodied Fury"
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
-      \ damage plus 5 (2d4) Psychic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage\
+      \ plus dice:2d4|noform|noparens|avg|text(5) (2d4) Psychic damage."
     "name": "Claw"
   - "desc": "The quaggoth casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\nAt will:\
@@ -70,18 +71,7 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
       \ [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n2/day:\
       \ [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The quaggoth casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, requiring no spell components and using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Psionic Defense (3/Day)"
 "reactions":
-  - "desc": "The quaggoth casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\nAt will:\
-      \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible),\
-      \ [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n2/day:\
-      \ [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The quaggoth casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
       \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
       \ spell's trigger, requiring no spell components and using the same spellcasting\

@@ -52,15 +52,18 @@ When a psurlon dies, other psurlons store the corpse in a safe place. As the cor
 "actions":
   - "desc": "The psurlon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
-      \ 6 (1d8 + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:1d8+2|noform|noparens|avg|text(6)\
+      \ (1d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d4 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4\
+      \ + 2) slashing damage."
     "name": "Claw"
   - "desc": "The psurlon targets one creature it can see within 120 feet of itself.\
-      \ The target must make a DC 13 Wisdom saving throw, taking 14 (2d10 + 3) psychic\
-      \ damage on a failed save, or half as much damage on a successful one."
+      \ The target must make a DC 13 Wisdom saving throw, taking dice:2d10+3|noform|noparens|avg|text(14)\
+      \ (2d10 + 3) psychic damage on a failed save, or half as much damage on a\
+      \ successful one."
     "name": "Psychic Crush"
   - "desc": "The psurlon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\

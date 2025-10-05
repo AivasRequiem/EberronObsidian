@@ -93,8 +93,8 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -109,13 +109,15 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes three attacks, using Elemental Flail or Elemental Claw\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 25 (6d6 + 4) damage of\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:6d6+4|noform|noparens|avg|text(25) (6d6 + 4) damage of\
       \ a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder."
     "name": "Elemental Flail"
-  - "desc": "Ranged Attack Roll: +7, range 120 ft. Hit: 22 (4d10) damage of\
-      \ a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder. If\
-      \ the target is a Medium or smaller creature, the cultist moves the target up\
-      \ to 10 feet straight toward or away from itself."
+  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 120\
+      \ ft. Hit: dice:4d10|noform|noparens|avg|text(22) (4d10) damage of a type\
+      \ chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder. If the target\
+      \ is a Medium or smaller creature, the cultist moves the target up to 10 feet\
+      \ straight toward or away from itself."
     "name": "Elemental Claw"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 15):\n\nAt will: [Elementalism](Інструменти%20Д\

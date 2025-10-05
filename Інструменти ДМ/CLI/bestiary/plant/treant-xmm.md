@@ -68,10 +68,12 @@ Treants defend and are shaped by secrets of the forest. Roll on or choose a resu
 "actions":
   - "desc": "The treant makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:3d6+6|noform|noparens|avg|text(16) (3d6 + 6) Bludgeoning\
       \ damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing\
+  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
+      \ 180 ft. Hit: dice:4d10+6|noform|noparens|avg|text(28) (4d10 + 6) Piercing\
       \ damage."
     "name": "Hail of Bark"
   - "desc": "The treant magically animates up to two trees it can see within 60 feet\

@@ -43,14 +43,16 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The seahorse can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning\
-      \ damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet\
-      \ straight toward the target immediately before the hit."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Bludgeoning\
+      \ damage, or dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Bludgeoning\
+      \ damage if the seahorse moved 20+ feet straight toward the target immediately\
+      \ before the hit."
     "name": "Ram"
 "bonus_actions":
   - "desc": "While underwater, the seahorse moves up to half its [Swim Speed](Інст\
-      рументи%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md) without provoking Opportunity\
-      \ Attacks."
+      рументи%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md) without provoking [Opportunity\
+      \ Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Bubble Dash"
 "source":
   - "XMM"

@@ -18,13 +18,13 @@ aliases:
 - **Properties**: [Two-Handed](Інструменти%20ДМ/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 10.0 lbs.
 
-While you are attuned to this magic weapon, your Strength is 20 unless your Strength is already equal to or greater than that score. The weapon deals an extra `d8` Thunder damage to any creature it hits and an extra `3d8` Thunder damage to objects it hits that aren't being worn or carried.
+While you are attuned to this magic weapon, your Strength is 20 unless your Strength is already equal to or greater than that score. The weapon deals an extra `dice:1d8|noform|noparens|avg` (`d8`) Thunder damage to any creature it hits and an extra `dice:3d8|noform|noparens|avg` (`3d8`) Thunder damage to objects it hits that aren't being worn or carried.
 
 The weapon has the following additional properties.
 
 ## Clap of Thunder
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can strike the weapon against a hard surface to create a loud clap of thunder audible out to 300 feet. You also create a 30-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) of thunderous energy. Each creature in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) must succeed on a DC 15 Strength saving throw or have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Nonmagical objects in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) that aren't being worn or carried take `3d8` Thunder damage.
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can strike the weapon against a hard surface to create a loud clap of thunder audible out to 300 feet. You also create a 30-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) of thunderous energy. Each creature in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) must succeed on a DC 15 Strength saving throw or have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Nonmagical objects in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) that aren't being worn or carried take `dice:3d8|noform|noparens|avg` (`3d8`) Thunder damage.
 
 ## Earthquake
 

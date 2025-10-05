@@ -10,7 +10,7 @@ aliases:
 # Poisoned Needle
 *Generic Hazard*  
 
-A poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes 5 (`d10`) Poison damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for 1 hour. On a successful save, the creature takes half as much damage only.
+A poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes `dice:1d10|noform|noparens|avg|text(5)` (`d10`) Poison damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for 1 hour. On a successful save, the creature takes half as much damage only.
 
 ## Avoid
 
@@ -26,9 +26,9 @@ You can scale the trap for higher levels by increasing the damage and the save D
 
 | Levels | Poison Damage | Save DC |
 |--------|---------------|---------|
-| 5–10 | 11 (`2d10`) | 13 |
-| 11–16 | 22 (`4d10`) | 15 |
-| 17–20 | 55 (`10d10`) | 17 |
+| 5–10 | 11 (`dice:2d10\|noform\|noparens\|avg` (`2d10`)) | 13 |
+| 11–16 | 22 (`dice:4d10\|noform\|noparens\|avg` (`4d10`)) | 15 |
+| 17–20 | 55 (`dice:10d10\|noform\|noparens\|avg` (`10d10`)) | 17 |
 ^levels-poison-damage-save-dc
 
 *Source: Dungeon Master's Guide (2024) p. 102. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

@@ -52,8 +52,8 @@ Blink dogs glimmer with a magic that allows them to teleport, "blinking" from on
 "languages": "understands Elvish and Sylvan but can't speak them"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage."
     "name": "Bite"
 "bonus_actions":
   - "desc": "The dog teleports up to 40 feet to an unoccupied space it can see."

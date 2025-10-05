@@ -7,7 +7,7 @@ tags:
 - ttrpg-cli/monster/environment/forest
 - ttrpg-cli/monster/environment/urban
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/monstrosity
+- ttrpg-cli/monster/type/monstrosity/lycanthrope
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -29,6 +29,7 @@ Wererats can shape-shift from their humanoid forms into giant rats or humanoid-r
 "name": "Wererat (XMM)"
 "size": "Small or Medium"
 "type": "monstrosity"
+"subtype": "lycanthrope"
 "alignment": "Lawful Evil"
 "ac": !!int "13"
 "hp": !!int "60"
@@ -54,19 +55,20 @@ Wererats can shape-shift from their humanoid forms into giant rats or humanoid-r
   - "desc": "The wererat makes two attacks, using Scratch or Hand Crossbow in any\
       \ combination. It can replace one attack with a Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing\
-      \ damage. If the target is a Humanoid, it is subjected to the following effect.\
-      \ Constitution Saving Throw: DC 11. Failure: The target is cursed. If the\
-      \ cursed target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4 + 3) Piercing damage.\
+      \ If the target is a Humanoid, it is subjected to the following effect. Constitution\
+      \ Saving Throw: DC 11. Failure: The target is cursed. If the cursed target\
+      \ drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ it instead becomes a Wererat under the DM's control and has 10 [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success: The\
       \ target is immune to this wererat's curse for 24 hours."
     "name": "Bite (Rat or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Slashing damage."
     "name": "Scratch"
-  - "desc": "Ranged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 30/120\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage."
     "name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
 "bonus_actions":
   - "desc": "The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small\

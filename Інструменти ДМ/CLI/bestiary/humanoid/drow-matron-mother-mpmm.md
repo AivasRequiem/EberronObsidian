@@ -50,9 +50,9 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
   - !!int "22"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+11"
@@ -83,16 +83,19 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
   - "desc": "The drow makes two Demon Staff attacks or one Demon Staff attack and\
       \ three Tentacle Rod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
-      \ 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used\
-      \ with two hands, plus 14 (4d6) psychic damage. The target must succeed on\
-      \ a DC 19 Wisdom saving throw or become [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
+      \ + 4) bludgeoning damage, or dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) bludgeoning damage if used with two hands, plus dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) psychic damage. The target must succeed on a DC 19 Wisdom saving throw\
+      \ or become [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of the drow for 1 minute. The [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Demon Staff"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one creature. Hit:\
-      \ 3 (d6) bludgeoning damage. If the target is hit three times by the [rod](І\
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 15 ft., one creature. Hit: dice:1d6|noform|noparens|avg|text(3)\
+      \ (d6) bludgeoning damage. If the target is hit three times by the [rod](І\
       нструменти%20ДМ/CLI/items/tentacle-rod-xdmg.md) on one turn, the target must\
       \ succeed on a DC 15 Constitution saving throw or suffer the following effects\
       \ for 1 minute: the target's speed is halved, it has disadvantage on Dexterity\
@@ -103,8 +106,9 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
     "name": "Tentacle Rod"
   - "desc": "A 10-foot-radius, 40-foot-high column of divine fire sprouts in an area\
       \ up to 120 feet away from the drow. Each creature in the column must make a\
-      \ DC 20 Dexterity saving throw, taking 14 (4d6) fire damage and 14 (4d6)\
-      \ radiant damage on a failed save, or half as much damage on a successful one."
+      \ DC 20 Dexterity saving throw, taking dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) fire damage and dice:4d6|noform|noparens|avg|text(14) (4d6) radiant\
+      \ damage on a failed save, or half as much damage on a successful one."
     "name": "Divine Flame (2/Day)"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 20):\n\nAt\
@@ -125,8 +129,9 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The drow bestows the Spider Queen's blessing on one ally she can see\
-      \ within 30 feet of her. The ally takes 7 (2d6) psychic damage but has advantage\
-      \ on the next attack roll it makes before the end of its next turn."
+      \ within 30 feet of her. The ally takes dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) psychic damage but has advantage on the next attack roll it makes\
+      \ before the end of its next turn."
     "name": "Lolth's Fickle Favor"
   - "desc": "The drow magically summons a [glabrezu](Інструменти%20ДМ/CLI/bestiary/fiend/glabrezu-xmm.md)\
       \ or a [yochlol](Інструменти%20ДМ/CLI/bestiary/fiend/yochlol-xmm.md). The summoned\
@@ -161,8 +166,9 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
       \ The drow targets one creature she can see within 60 feet of her and attempts\
       \ to expel it from her presence. The target must succeed on a DC 19 Strength\
       \ saving throw or be flung 2d6 × 10 feet through the air. A creature smashed\
-      \ into a solid object takes d6 bludgeoning damage for every 10 feet moved.\
-      \ If released in midair, the creature takes falling damage as normal.  "
+      \ into a solid object takes dice:1d6|noform|noparens|avg (d6) bludgeoning\
+      \ damage for every 10 feet moved. If released in midair, the creature takes\
+      \ falling damage as normal.  "
     "name": ""
 "source":
   - "MPMM"

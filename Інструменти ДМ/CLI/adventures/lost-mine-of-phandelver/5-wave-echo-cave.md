@@ -29,18 +29,18 @@ In this part of the adventure, XP is awarded for overcoming monsters, as in part
 
 Monsters roam through all areas of the mine. Random encounters remind players that monsters aren't necessarily confined to specific areas, and that no part of the dungeon is safe. Encounters with wandering monsters are an effective way to keep the players and characters on their toes, alleviate player boredom, and tax party resources. However, having too many random encounters can become tedious, so use them sparingly.
 
-If the characters spend a long time in a given area, you can check for wandering monsters by rolling a `d20`. On a roll of 17-20, an encounter takes place. Conversely, if the players seem restless, you can decide that an encounter occurs. Roll a `d12` and consult the Wandering Monsters table to determine what the party meets.
+If the characters spend a long time in a given area, you can check for wandering monsters by rolling a `dice:d20|noform|noparens|avg` (`d20`). On a roll of 17-20, an encounter takes place. Conversely, if the players seem restless, you can decide that an encounter occurs. Roll a `dice:d12|noform|noparens|avg` (`d12`) and consult the Wandering Monsters table to determine what the party meets.
 
 **Wandering Monsters**
 
 | Roll | Result |
 |------|--------|
-| 1-3 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`2d4`) |
-| 4-5 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`d4`) |
-| 6 | [Gricks](Інструменти%20ДМ/CLI/bestiary/aberration/grick-xmm.md) (`d4`) |
-| 7-8 | [Bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) (`d4`) |
-| 9 | [Skeletons](Інструменти%20ДМ/CLI/bestiary/undead/skeleton-xmm.md) (`d6`) |
-| 10 | [Zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) (`d6`) |
+| 1-3 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`dice:2d4\|noform\|noparens\|avg` (`2d4`)) |
+| 4-5 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`dice:1d4\|noform\|noparens\|avg` (`d4`)) |
+| 6 | [Gricks](Інструменти%20ДМ/CLI/bestiary/aberration/grick-xmm.md) (`dice:1d4\|noform\|noparens\|avg` (`d4`)) |
+| 7-8 | [Bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) (`dice:1d4\|noform\|noparens\|avg` (`d4`)) |
+| 9 | [Skeletons](Інструменти%20ДМ/CLI/bestiary/undead/skeleton-xmm.md) (`dice:1d6\|noform\|noparens\|avg` (`d6`)) |
+| 10 | [Zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) (`dice:1d6\|noform\|noparens\|avg` (`d6`)) |
 | 11-12 | [Ochre Jelly](Інструменти%20ДМ/CLI/bestiary/ooze/ochre-jelly-xmm.md) (1) |
 ^wandering-monsters
 
@@ -103,7 +103,7 @@ The dwarves' supplies are potentially useful, but not particularly valuable.
 
 ### Open Pit
 
-Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
+Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
 
 ### Treasure
 
@@ -196,7 +196,7 @@ Most of the fungi is harmless, and the green-glowing fungi allow creatures to se
 
 ### Poison Gas
 
-Whenever a creature attempts to cross the cavern, the carpets of fungi that cover most of the floor release poisonous gas into the air. Each creature in the cavern must succeed on a DC 11 Constitution saving throw or take `3d6` poison damage and be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 10 minutes (see the rulebook for more information on the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition). The gas disperses after 1 minute, but until then, any living creature that ends its turn in the cavern must repeat the saving throw.
+Whenever a creature attempts to cross the cavern, the carpets of fungi that cover most of the floor release poisonous gas into the air. Each creature in the cavern must succeed on a DC 11 Constitution saving throw or take `dice:3d6|noform|noparens|avg` (`3d6`) poison damage and be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 10 minutes (see the rulebook for more information on the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition). The gas disperses after 1 minute, but until then, any living creature that ends its turn in the cavern must repeat the saving throw.
 
 ## 9. Great Cavern
 
@@ -211,7 +211,7 @@ Seven [ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) l
 
 They notice any light or noise elsewhere in the cave and quickly bound down to attack. The undead are hungry and fight until destroyed.
 
-The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `d6` bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
+The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
 
 ## 10. Dark Pool
 
@@ -340,7 +340,7 @@ With a successful DC 15 Charisma ([Deception](Інструменти%20ДМ/CLI/
 
 ### Brazier of Green Flame
 
-A successful DC 15 Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](Інструменти%20ДМ/CLI/items/1-weapon-xdmg.md) or [+1 armor](Інструменти%20ДМ/CLI/items/1-armor-xdmg.md), respectively, for `d12` hours. The brazier cannot be removed from the Forge of Spells.
+A successful DC 15 Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](Інструменти%20ДМ/CLI/items/1-weapon-xdmg.md) or [+1 armor](Інструменти%20ДМ/CLI/items/1-armor-xdmg.md), respectively, for `dice:1d12|noform|noparens|avg` (`d12`) hours. The brazier cannot be removed from the Forge of Spells.
 
 ### Northern Room
 
@@ -385,7 +385,7 @@ Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-
 
 ### Rift
 
-The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom.
+The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `dice:1d6|noform|noparens|avg` (`d6`) bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom.
 
 ### Developments
 
@@ -421,7 +421,7 @@ If the [doppelganger](Інструменти%20ДМ/CLI/bestiary/monstrosity/dop
 
 The statue depicts Dumathoin, the dwarven god of mining. Any character who has proficiency in [Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion) recognizes the deity. The statue is beautifully carved, and its emerald eyes appear extremely valuable. However, the jewels are clever fakes made of worthless glass, as close inspection and a successful DC 15 Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check reveals. Nevertheless, a powerful spell protects them, and a [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md) spell reveals a strong aura of abjuration magic surrounding the statue.
 
-A character can climb the statue easily and pry a jewel loose with a successful DC 10 Strength check. However, if either eye is removed, the pillars that line the walls crack, triggering a ceiling collapse. Each creature in the room must make a DC 15 Dexterity saving throw, taking `4d10` bludgeoning damage from falling rubble and falling [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on a failure, or taking only half the damage on a success.
+A character can climb the statue easily and pry a jewel loose with a successful DC 10 Strength check. However, if either eye is removed, the pillars that line the walls crack, triggering a ceiling collapse. Each creature in the room must make a DC 15 Dexterity saving throw, taking `dice:4d10|noform|noparens|avg` (`4d10`) bludgeoning damage from falling rubble and falling [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on a failure, or taking only half the damage on a success.
 
 ### Table
 

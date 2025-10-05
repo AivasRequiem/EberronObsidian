@@ -38,7 +38,7 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 | 2 | Broken dragonborn or tiefling horns. |
 | 3 | An ornate prosthetic limb. |
 | 4 | The skeleton of an explorer's pet (perhaps a small dog, monkey, or parrot). |
-| 5 | A skull with gold teeth worth `d4` GP. |
+| 5 | A skull with gold teeth worth `dice:1d4\|noform\|noparens\|avg` (`d4`) GP. |
 | 6 | A spotless suit of metal armor. |
 ^ochre-jelly-leftovers
 
@@ -78,15 +78,16 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:3d6+2|noform|noparens|avg|text(12) (3d6 + 2) Acid damage."
     "name": "Pseudopod"
 "reactions":
   - "desc": "Trigger: While the jelly is Large or Medium and has 10+ [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it becomes [Bloodied](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md) or is subjected to\
-      \ Lightning or Slashing damage. _Response:_ The jelly splits into two new Ochre\
-      \ Jellies. Each new jelly is one size smaller than the original jelly and acts\
-      \ on its [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md).\
+      нструменти%20ДМ/CLI/rules/conditions.md#Bloodied) or is subjected to Lightning\
+      \ or Slashing damage. _Response:_ The jelly splits into two new Ochre Jellies.\
+      \ Each new jelly is one size smaller than the original jelly and acts on its\
+      \ [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md).\
       \ The original jelly's [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ are divided evenly between the new jellies (round down)."
     "name": "Split"

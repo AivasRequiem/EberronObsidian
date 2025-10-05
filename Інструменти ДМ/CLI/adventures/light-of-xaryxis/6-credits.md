@@ -18,7 +18,7 @@ aliases:
         - **Senior Graphic Designer.** Trish Yochum    
         - **Graphic Designers.** Matt Cole, Trystan Falcone    
         - **Cover Illustrators.** Ekaterina Burmak, Hydro74    
-        - **Interior Illustrators.** Tom Babbey, Mark Behm, Olivier Bernard, Zoltan Boros, Bruce Brenneise, Sidharth Chaturvedi, Nikki Dawes, Simon Dominic, Olga Drebas, Merlin G.G., Suzanne Helmigh, Ralph Horsley, Katerina Ladon, Olly Lawson, Andrew Mar, Robson Michel, Irina Nordsol, Ned Rogers, Craig J Spearing, Cory Trego-Erdner, Randy Vargas, Campbell White, Shawn Wood, Zuzanna Wuzyk    
+        - **Interior Illustrators.** Tom Babbey, Mark Behm, Olivier Bernard, Zoltan Boros, Bruce Brenneise, Sidharth Chaturvedi, Nikki Dawes, Simon Dominic, Olga Drebas, Merlin G.G., Suzanne Helmigh, Ralph Horsley, Katerina Ladon, Olly Lawson, Andrew Mar, Robson Michel, Irina Nordsol, Ned Rogers, Craig J Spearing, Cory Trego-Erdner, Randy Vargas, Campbell White, Shawn Wood, Zuzanna Wužyk    
         - **Cartographers.** CoupleofKooks, Dyson Logos    
         - **Concept Illustrators.** Titus Lunter, Shawn Wood    
         - **Stat Block Analysts.** Makenzie De Armas, Taymoor Rehman    
@@ -53,3 +53,6 @@ aliases:
 > [!gallery]
 > ![On the Cover: Prince Xelet...](Інструменти%20ДМ/CLI/adventures/light-of-xaryxis/img/credits1.webp#gallery "On the Cover: Prince Xeleth, who is determined to become the next leader of the Xaryxian Empire, poses with his solar dragon in Ekaterina Burmak's stunning cover illustration.")
 > ![On the Alt-Cover: Princess...](Інструменти%20ДМ/CLI/adventures/light-of-xaryxis/img/credits2.webp#gallery "On the Alt-Cover: Princess Xedalli, illustrated beautifully by Hydro74, aims to keep her evil brother from inheriting their father's throne. The symbol of the Xaryxian Empire graces the back cover.")
+
+> [!note]
+> Disclaimer: This adventure wreaks havoc with your beautifully imagined, homebrewed campaign world. We hope that your players will care enough about your world to save it, but if not, may we present the Rock of Bral as an alternative? Just remember to leave your vendettas at the docks.

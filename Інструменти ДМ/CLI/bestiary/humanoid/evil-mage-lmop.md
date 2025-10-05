@@ -35,8 +35,8 @@ Evil mages (such as Iarno Albrek and Hamun Kost) hunger for arcane power and dwe
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -47,18 +47,20 @@ Evil mages (such as Iarno Albrek and Hamun Kost) hunger for arcane power and dwe
 "cr": "1"
 "traits":
   - "desc": "The mage is a 4th-level spellcaster that uses Intelligence as its spellcasting\
-      \ ability (spell save DC 13; +5 to hit with spell attacks). The mage knows\
-      \ the following spells from the wizard's spell list:\n\nCantrips (at will):\
-      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](Інструмент\
-      и%20ДМ/CLI/spells/mage-hand-xphb.md), [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\
-      \n1st level (4 slots): [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
-      \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\n\n2nd\
-      \ level (3 slots): [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
-      \ [misty step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md)"
+      \ ability (spell save DC 13; dice:1d20+5|noform|noparens|text(+5) to hit with\
+      \ spell attacks). The mage knows the following spells from the wizard's spell\
+      \ list:\n\nCantrips (at will): [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [shocking grasp](І\
+      нструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st level (4 slots):\
+      \ [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md), [magic missile](І\
+      нструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\n\n2nd level (3 slots):\
+      \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [misty step](І\
+      нструменти%20ДМ/CLI/spells/misty-step-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 3\
-      \ (1d8 - 1) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+1|noform|noparens|text(+1) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8-1|noform|noparens|avg|text(3) (1d8\
+      \ - 1) bludgeoning damage."
     "name": "Quarterstaff"
 "source":
   - "LMoP"

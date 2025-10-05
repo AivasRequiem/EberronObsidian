@@ -10,6 +10,7 @@ tags:
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/circle-of-the-sea
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/the-fathomless
 - ttrpg-cli/spell/subclass/the-genie
@@ -18,6 +19,7 @@ classes:
 - Bard
 - Cleric
 - Druid
+- Druid (Circle of the Sea)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Warlock (The Fathomless)
@@ -35,7 +37,7 @@ aliases:
 - **Components:** V, S, M (a mixture of water and dust)
 - **Duration:** Concentration, up to 10 minutes
 
-Until the spell ends, you control any water inside an area you choose that is a Cube up to 100 feet on a side, using one of the following effects. As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action on your later turns, you can repeat the same effect or choose a different one.
+Until the spell ends, you control any water inside an area you choose that is a [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) up to 100 feet on a side, using one of the following effects. As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action on your later turns, you can repeat the same effect or choose a different one.
 
 ## Flood
 
@@ -53,10 +55,10 @@ You cause flowing water in the area to move in a direction you choose, even if t
 
 ## Whirlpool
 
-You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes `2d8` Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check against your spell save DC.
+You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes `dice:2d8|noform|noparens|avg` (`2d8`) Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check against your spell save DC.
 
 ## Summary
 
-**Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB")
+**Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Sea)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-sea-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 256. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

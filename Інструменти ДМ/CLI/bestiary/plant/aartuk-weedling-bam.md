@@ -55,11 +55,13 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
       \ of each."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
-      \ 8 (2d6 + 2) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+2|noform|noparens|avg|text(8)\
+      \ (2d6 + 2) bludgeoning damage."
     "name": "Branch"
-  - "desc": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit:\
-      \ 7 (3d4 + 1) radiant damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ range 60 ft., one target. Hit: dice:3d4+1|noform|noparens|avg|text(7)\
+      \ (3d4 + 1) radiant damage."
     "name": "Radiant Pellet"
 "bonus_actions":
   - "desc": "The aartuk tries to use its gooey tongue to snare one Medium or smaller\

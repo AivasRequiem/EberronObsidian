@@ -52,17 +52,17 @@ On many worlds, efreet dwell in sweltering deserts and volcanic regions. Those t
   - !!int "19"
 "speed": "40 ft., fly 60 ft. (hover)"
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "damage_immunities": "fire"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Primordial (Ignan)"
 "cr": "11"
 "traits":
   - "desc": "If the efreeti dies outside the Elemental Plane of Fire, its body dissolves\
-      \ into ash, and it gains a new body in d4 days, reviving with all its [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
-      \ on the Plane of Fire."
+      \ into ash, and it gains a new body in dice:1d4|noform|noparens|avg (d4)\
+      \ days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ somewhere on the Plane of Fire."
     "name": "Elemental Restoration"
   - "desc": "The efreeti has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
@@ -78,10 +78,12 @@ On many worlds, efreet dwell in sweltering deserts and volcanic regions. Those t
   - "desc": "The efreeti makes three attacks, using Heated Blade or Hurl Flame in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 13 (2d6 + 6) Slashing\
-      \ damage plus 13 (2d12) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:2d6+6|noform|noparens|avg|text(13) (2d6 + 6) Slashing\
+      \ damage plus dice:2d12|noform|noparens|avg|text(13) (2d12) Fire damage."
     "name": "Heated Blade"
-  - "desc": "Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8), range 120\
+      \ ft. Hit: dice:7d6|noform|noparens|avg|text(24) (7d6) Fire damage."
     "name": "Hurl Flame"
   - "desc": "The efreeti casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\

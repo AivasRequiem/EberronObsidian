@@ -49,10 +49,12 @@ aliases:
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "Agony can move through other creatures and objects as if they were difficult\
-      \ terrain. It takes 5 (d10) force damage if it ends its turn inside an object."
+      \ terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10) force damage\
+      \ if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d6+3|noform|noparens|avg|text(17)\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "Agony enters the Ethereal Plane from the Material Plane, or vice versa.\

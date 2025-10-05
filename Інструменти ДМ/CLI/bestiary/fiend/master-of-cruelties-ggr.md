@@ -52,10 +52,10 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -95,10 +95,11 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "actions":
   - "desc": "The master makes two melee attacks with its spear."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
-      \ piercing damage if used with two hands to make a melee attack, plus 13 (3d8)\
-      \ psychic damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+8|noform|noparens|text(+8)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) piercing damage, or dice:2d8+4|noform|noparens|avg|text(13)\
+      \ (2d8 + 4) piercing damage if used with two hands to make a melee attack,\
+      \ plus dice:3d8|noform|noparens|avg|text(13) (3d8) psychic damage."
     "name": "Spear"
   - "desc": "Each creature within 120 feet of the master must succeed on a DC 17 Wisdom\
       \ saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\

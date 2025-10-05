@@ -19,7 +19,7 @@ Imagine a perfect world: one in which nature and civilization exist in harmony, 
 
 ## Clades and Projects
 
-As a Simic researcher, you are part of a clade—a diverse group of individuals combining disparate talents in pursuit of a common goal—or a researcher on a specialized, short-term project focused on addressing an immediate need. You can roll a `d6` or choose from the options in the Research Options table to determine your area of research.
+As a Simic researcher, you are part of a clade—a diverse group of individuals combining disparate talents in pursuit of a common goal—or a researcher on a specialized, short-term project focused on addressing an immediate need. You can roll a `dice:d6|noform|noparens|avg` (`d6`) or choose from the options in the Research Options table to determine your area of research.
 
 **Research Options**
 

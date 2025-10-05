@@ -43,9 +43,9 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "intelligence": "+8"
-  - "wisdom": "+8"
+  - "constitution": !!int "9"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+9"
@@ -60,12 +60,13 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes two Silver Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical\
-      \ hit against a target in an astral body (as with the [astral projection](Ін\
-      струменти%20ДМ/CLI/spells/astral-projection-xphb.md) spell), the githyanki can\
-      \ cut the silvery cord that tethers the target to its material body, instead\
-      \ of dealing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+7|noform|noparens|avg|text(14)\
+      \ (2d6 + 7) slashing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6)\
+      \ psychic damage. On a critical hit against a target in an astral body (as with\
+      \ the [astral projection](Інструменти%20ДМ/CLI/spells/astral-projection-xphb.md)\
+      \ spell), the githyanki can cut the silvery cord that tethers the target to\
+      \ its material body, instead of dealing damage."
     "name": "Silver Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\

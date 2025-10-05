@@ -68,7 +68,7 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
   - !!int "1"
 "speed": "5 ft., fly 50 ft. (hover)"
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened), [exhaustion](Ін\
@@ -80,8 +80,8 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Slashing damage."
     "name": "Slash"
 "source":
   - "XMM"

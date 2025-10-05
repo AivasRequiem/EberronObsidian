@@ -47,9 +47,9 @@ Stone giants often ponder the mysteries of natural wonders, such as mountain spi
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+8"
-  - "wisdom": "+4"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+12"
@@ -63,19 +63,22 @@ Stone giants often ponder the mysteries of natural wonders, such as mountain spi
 "actions":
   - "desc": "The giant makes two attacks, using Stone Club or Boulder in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 22 (3d10 + 6) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 15\
+      \ ft. Hit: dice:3d10+6|noform|noparens|avg|text(22) (3d10 + 6) Bludgeoning\
       \ damage."
     "name": "Stone Club"
-  - "desc": "Ranged Attack Roll: +9, range 60/240 ft. Hit: 15 (2d8 + 6) Bludgeoning\
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 60/240\
+      \ ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Boulder"
 "reactions":
   - "desc": "Trigger: The giant is hit by a ranged attack roll and takes Bludgeoning,\
       \ Piercing, or Slashing damage from it. _Response:_ The giant reduces the damage\
-      \ it takes from the attack by 11 (1d10 + 6), and if that damage is reduced\
-      \ to 0, the giant can redirect some of the attack's force. Dexterity Saving\
-      \ Throw: DC 17, one creature the giant can see within 60 feet. Failure: 11\
+      \ it takes from the attack by dice:1d10+6|noform|noparens|avg|text(11) (1d10\
+      \ + 6), and if that damage is reduced to 0, the giant can redirect some of\
+      \ the attack's force. Dexterity Saving Throw: DC 17, one creature the giant\
+      \ can see within 60 feet. Failure: dice:1d10+6|noform|noparens|avg|text(11)\
       \ (1d10 + 6) Force damage."
     "name": "Deflect Missile (Recharge 5-6)"
 "source":

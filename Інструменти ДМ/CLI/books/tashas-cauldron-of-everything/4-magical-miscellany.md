@@ -25,7 +25,7 @@ The DM decides how the options in this chapter appear in a campaign and may choo
 
 This section contains new spells that the DM may add to a campaign, making them available to player character and monster spellcasters alike. The Spells table lists the new spells, ordering them by level. The table also notes the school of magic of a spell, whether it requires concentration, whether it bears the ritual tag, and which classes have access to it.
 
- If you'd like to use any of these spells, talk to your DM, who may allow some, all, or none of them.
+If you'd like to use any of these spells, talk to your DM, who may allow some, all, or none of them.
 
 ![Spells](Інструменти%20ДМ/CLI/tables/spells-tce.md)
 
@@ -55,7 +55,7 @@ The Magic Themes table offers just a few suggestions that might inspire you whil
 
 This section presents magic items that can be introduced into any campaign. Here you'll find items of all rarities, including artifacts. Magic spellcasting focuses for every spellcasting class are also available here. And some of the items in this section represent a new type of wondrous item: magic tattoos.
 
- The Magic Items table lists all the magic items in this chapter and notes the rarity of each one. The table also indicates whether an item requires attunement. All the items use the magic items rules in the "Dungeon Master's Guide".
+The Magic Items table lists all the magic items in this chapter and notes the rarity of each one. The table also indicates whether an item requires attunement. All the items use the magic items rules in the "Dungeon Master's Guide".
 
 ![Magic Items](Інструменти%20ДМ/CLI/tables/magic-items-tce.md)
 
@@ -67,7 +67,7 @@ This section presents magic items that can be introduced into any campaign. Here
 
 Blending magic and artistry with ink and needles, magic tattoos imbue their bearers with wondrous abilities. Magic tattoos are initially bound to magic needles, which transfer their magic to a creature.
 
- Once inscribed on a creature's body, damage or injury doesn't impair the tattoo's function, even if the tattoo is defaced. When applying a magic tattoo, a creature can customize the tattoo's appearance. A magic tattoo can look like a brand, scarification, a birthmark, patterns of scale, or any other cosmetic alteration.
+Once inscribed on a creature's body, damage or injury doesn't impair the tattoo's function, even if the tattoo is defaced. When applying a magic tattoo, a creature can customize the tattoo's appearance. A magic tattoo can look like a brand, scarification, a birthmark, patterns of scale, or any other cosmetic alteration.
 
 The rarer a magic tattoo is, the more space it typically occupies on a creature's skin. The Magic Tattoo Coverage table offers guidelines for how large a given tattoo is.
 

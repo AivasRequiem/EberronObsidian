@@ -118,10 +118,10 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
   - !!int "16"
 "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+6"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -139,20 +139,23 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 9 (1d10 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
+      \ (1d10 + 4) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
+      \ poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
+      \ + 4) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a cloud of spores in a 30-foot cone. Each creature\
       \ in that area must make a DC 14 Wisdom saving throw. On a failed save, the\
-      \ creature takes 22 (4d10) psychic damage, and it is [frightened](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Frightened) of the dragon for 1 minute. On\
-      \ a successful save, the creature takes half as much damage with no additional\
-      \ effects. A [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ creature can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success."
+      \ creature takes dice:4d10|noform|noparens|avg|text(22) (4d10) psychic damage,\
+      \ and it is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ of the dragon for 1 minute. On a successful save, the creature takes half\
+      \ as much damage with no additional effects. A [frightened](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Frightened) creature can repeat the saving throw at\
+      \ the end of each of its turns, ending the effect on itself on a success."
     "name": "Nightmare Breath (Recharge 5-6)"
 "source":
   - "FTD"

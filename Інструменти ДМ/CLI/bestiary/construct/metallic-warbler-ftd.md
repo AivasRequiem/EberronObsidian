@@ -39,7 +39,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
   - !!int "12"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "fire"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
@@ -57,8 +57,9 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
       \ telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d4 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4\
+      \ + 2) slashing damage."
     "name": "Claw"
   - "desc": "The warbler releases a calming gas in a 5-foot-radius sphere centered\
       \ on itself. Each creature in that area must succeed on a DC 11 Charisma saving\

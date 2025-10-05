@@ -92,11 +92,11 @@ Most portals from elsewhere reach the first layer of a multilayered plane. This 
 
 The Outer Planes are realms of thought and morality more than merely physical reality, and they can affect visitors on a deeply personal level as well as a physical one.
 
-At your discretion, a creature that spends a long time on an Outer Plane that is not its home plan can begin to take on aspects of that plane's ethos. Visitors to the Upper Planes might feel strange urges to perform deeds of kindness or compassion, while visitors to the Lower Planes might find themselves drawn to acts of cruelty or betrayal. Those who spend time on Mechanus and other lawful planes might feel their ties of loyalty to each other growing stronger, while those who visit Limbo and other chaotic planes might become temporarily more independent or self-absorbed. These tendencies are best handled as DM suggestions and then roleplayed by the players, but you might award Heroic Inspiration to characters who bring these characteristics to life in their characters.
+At your discretion, a creature that spends a long time on an Outer Plane that is not its home plan can begin to take on aspects of that plane's ethos. Visitors to the Upper Planes might feel strange urges to perform deeds of kindness or compassion, while visitors to the Lower Planes might find themselves drawn to acts of cruelty or betrayal. Those who spend time on Mechanus and other lawful planes might feel their ties of loyalty to each other growing stronger, while those who visit Limbo and other chaotic planes might become temporarily more independent or self-absorbed. These tendencies are best handled as DM suggestions and then roleplayed by the players, but you might award [Heroic Inspiration](Інструменти%20ДМ/CLI/rules/variant-rules/heroic-inspiration-xphb.md) to characters who bring these characteristics to life in their characters.
 
 ##### Planar Dissonance
 
-Celestials who visit the Lower Planes and Fiends who visit the Upper Planes experience significant discomfort if their visits last more than a few hours. After finishing a Long Rest on a plane that is alien to its nature, a Celestial or Fiend makes a DC 10 Constitution saving throw. On a failed save, whenever the creature makes a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature must subtract `d4` from the roll. The effect is cumulative with each failed save and ends when the creature finishes a Long Rest on a plane that isn't opposed to its nature.
+Celestials who visit the Lower Planes and Fiends who visit the Upper Planes experience significant discomfort if their visits last more than a few hours. After finishing a Long Rest on a plane that is alien to its nature, a Celestial or Fiend makes a DC 10 Constitution saving throw. On a failed save, whenever the creature makes a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), the creature must subtract `dice:1d4|noform|noparens|avg` (`d4`) from the roll. The effect is cumulative with each failed save and ends when the creature finishes a Long Rest on a plane that isn't opposed to its nature.
 
 ## Planar Travel
 
@@ -114,9 +114,9 @@ Second, portals often have guardians charged with ensuring that certain creature
 
 Finally, most portals aren't open all the time, but open only in particular situations or when a certain requirement is met. A portal can have any requirement, but the following are the most common:
 
-- **Command.** The portal functions only if a particular command is given. A command is usually a word that can be invoked in any language (including a signed language). Sometimes the command must be given as a character passes through the portal (which is otherwise a mundane doorway, window, or similar opening). Other portals open when the command is given within 15 feet of themselves, and they remain open for `d12` minutes.  
+- **Command.** The portal functions only if a particular command is given. A command is usually a word that can be invoked in any language (including a signed language). Sometimes the command must be given as a character passes through the portal (which is otherwise a mundane doorway, window, or similar opening). Other portals open when the command is given within 15 feet of themselves, and they remain open for `dice:1d12|noform|noparens|avg` (`d12`) minutes.  
 - **Key Item.** The portal functions if the traveler carries a particular object; the item acts much like a key to a door. This item can be a common object or a particular one created for that portal. The city of Sigil above the Outlands is known as the City of Doors because it features an overwhelming number of such item-keyed portals.  
-- **Random.** The portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `1d6 + 6` travelers to pass through, then closes for `d6` days.  
+- **Random.** The portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `dice:1d6+6|noform|noparens|avg` (`1d6 + 6`) travelers to pass through, then closes for `dice:1d6|noform|noparens|avg` (`d6`) days.  
 - **Situation.** The portal functions only if a particular condition is met. A situation-keyed portal might open on a clear night, when it rains, or when a certain spell is cast in its vicinity.  
 - **Time.** The portal functions only at particular times on the Material Plane: during a full moon, during the spring equinox or winter solstice, or when the stars are in certain positions. Once it opens, such a portal remains open for a limited time, such as for 3 days following the full moon, for 1 hour, or for 10 minutes.  
 
@@ -221,7 +221,7 @@ The demon lord Graz'zt embodies manipulation and cruelty, tempting mortals with 
 
 Lolth is the Demon Queen of Spiders, whose schemes entangle entire civilizations on worlds across the multiverse. Of all demon lords, she might have the most active interest in the worlds of the Material Plane and in the cultists who do her bidding on those worlds, but her interest lies only in domination.
 
-Lolth's layer is an immense network of thick, magical webbing that forms passageways and cocoonlike chambers. Structures, ships, and other objects are caught in the webbing. The webs conceal random portals that snare objects from demiplanes and Material Plane worlds that figure into the schemes of the Spider Queen. Lolth's servants also build dungeons amid the webbing, trapping and hunting Lolth's hated enemies within crisscrossing corridors of web-mortared stone. Far beneath these dungeons lie the bottomless Demonweb Pits where the Spider Queen dwells with her most loyal servants—yochlol demons created to serve her that outrank mightier demons while in the Spider Queen's realm.
+Lolth's layer is an immense network of thick, magical webbing that forms passageways and cocoon-like chambers. Structures, ships, and other objects are caught in the webbing. The webs conceal random portals that snare objects from demiplanes and Material Plane worlds that figure into the schemes of the Spider Queen. Lolth's servants also build dungeons amid the webbing, trapping and hunting Lolth's hated enemies within crisscrossing corridors of web-mortared stone. Far beneath these dungeons lie the bottomless Demonweb Pits where the Spider Queen dwells with her most loyal servants—yochlol demons created to serve her that outrank mightier demons while in the Spider Queen's realm.
 
 #### Layer 88: The Gaping Maw
 
@@ -333,7 +333,7 @@ A traveler in the Astral Plane can move by simply thinking about moving, but dis
 
 Just as movement is accomplished by the power of thought, all that is required to find one's destination is to think about it. As long as the destination is somewhere in the Astral Plane (or in Wildspace, as described below)—such as "the nearest githyanki outpost," "the nearest color pool leading to the Abyss," or "the Wildspace system of Realmspace"—thinking about a place makes the creature aware of the most direct route to that location. The creature doesn't know how long the journey will take or how perilous it will be, just which direction to go in.
 
-The DM decides how long it takes to get to a desired destination. A trek to a specific location—a particular Wildspace system or Astral outpost, for example—might take `4d6` days. For a more general location, such as a color pool leading to a specified plane, the journey might take `1d4 × 10` hours.
+The DM decides how long it takes to get to a desired destination. A trek to a specific location—a particular Wildspace system or Astral outpost, for example—might take `dice:4d6|noform|noparens|avg` (`4d6`) days. For a more general location, such as a color pool leading to a specified plane, the journey might take `1d4 × 10` hours.
 
 #### Dead Gods
 
@@ -359,7 +359,7 @@ A Wildspace system teems with space-dwelling life-forms, including spores, plank
 
 A psychic wind is a storm of thought that batters travelers' minds rather than their bodies. The storm is made of lost memories, forgotten ideas, and subconscious fears that went astray in the Astral Plane and conglomerated into this powerful force.
 
-A psychic wind is first sensed as a rapid darkening of the silver-gray sky. After `d4` minutes, the area becomes as dark as a moonless night. As the sky darkens, the traveler feels buffeting and shaking, as if the plane were rebelling against the storm. As quickly as it comes, the psychic wind passes, and the sky returns to normal in 1 minute.
+A psychic wind is first sensed as a rapid darkening of the silver-gray sky. After `dice:1d4|noform|noparens|avg` (`d4`) minutes, the area becomes as dark as a moonless night. As the sky darkens, the traveler feels buffeting and shaking, as if the plane were rebelling against the storm. As quickly as it comes, the psychic wind passes, and the sky returns to normal in 1 minute.
 
 A group of travelers journeying together is subjected to one location effect, determined by consulting the Psychic Wind Locations Effects table.
 
@@ -603,7 +603,7 @@ Traveling through the Deep Ethereal is unlike physical travel. Distance is meani
 
 #### Ether Cyclones
 
-An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting everything in its path and carrying the debris for miles. Travelers with a [Passive Perception](Інструменти%20ДМ/CLI/rules/variant-rules/passive-perception-xphb.md) score of 15 or higher receive 1 minute of warning: a deep thrum in the ethereal matter. Travelers who can't reach a curtain or portal leading elsewhere suffer the cyclone's effect. Roll `d20` and consult the Ether Cyclone table to determine the effect on all creatures in the vicinity.
+An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting everything in its path and carrying the debris for miles. Travelers with a [Passive Perception](Інструменти%20ДМ/CLI/rules/variant-rules/passive-perception-xphb.md) score of 15 or higher receive 1 minute of warning: a deep thrum in the ethereal matter. Travelers who can't reach a curtain or portal leading elsewhere suffer the cyclone's effect. Roll `dice:1d20|noform|noparens|avg` (`d20`) and consult the Ether Cyclone table to determine the effect on all creatures in the vicinity.
 
 ![Ether Cyclones; Ether Cyclone](Інструменти%20ДМ/CLI/tables/ether-cyclones-ether-cyclone-xdmg.md)
 
@@ -998,7 +998,7 @@ A jagged spike somewhere in Cocytus, called Howler's Crag, is rumored to have a 
 
 ### Para-elemental Planes
 
-The regions where the Elemental Planes collide and their elemental substances overlap are called Paraelemental Planes.
+The regions where the Elemental Planes collide and their elemental substances overlap are called Para-elemental Planes.
 
 #### Plane of Ash
 
@@ -1052,7 +1052,7 @@ Shadow crossings are locations where the veil between the Material Plane and the
 
 #### Domains of Dread
 
-In a far-flung corner of the Shadowfell drifts a hidden expanse of roiling mist and vague semireality. At this eerie edge of the multiverse, mysterious entities known as the Dark Powers collect the most wicked beings from across ages and worlds within inescapable, mist-shrouded demiplanes. In these shadowy prisons, the villainous beings become Darklords, able to exercise great power but confined to realms that twist their desires, capturing them in cycles of dread and despair.
+In a far-flung corner of the Shadowfell drifts a hidden expanse of roiling mist and vague semi-reality. At this eerie edge of the multiverse, mysterious entities known as the Dark Powers collect the most wicked beings from across ages and worlds within inescapable, mist-shrouded demiplanes. In these shadowy prisons, the villainous beings become Darklords, able to exercise great power but confined to realms that twist their desires, capturing them in cycles of dread and despair.
 
 Mists surround each of the Domains of Dread, making it difficult to leave one domain and even harder to find a path to another. The Mists rise and fall at the whim of the Dark Powers, and they can even slip across the planes to drag people unwittingly into the dread domains. Those who live in these domains ascribe all sorts of sinister stories to the Mists—any supernatural happening, inexplicable disappearance, or malicious force can be blamed on the Mists.
 
@@ -1102,7 +1102,7 @@ At the center of the Outlands, like the axle of a great wheel, is the Spire, a n
 
 Sigil is a trader's paradise. Goods and information come here from across the planes. The city sustains a brisk trade in information about the planes, particularly the commands or items required for the operation of particular portals.
 
-The city is the domain of the inscrutable Lady of Pain, a being whose purpose and goals are unknown to even the sages of her city. She appears almost human, although she most definitely isn't. She wears ornate robes that shroud her body, and a mantle of blades coated in blue-green verdigris surrounds her masklike face. No one is certain who or what exactly the Lady of Pain is, but it's widely accepted she's a being on par with deities. Is Sigil her prison? Is she the fallen creator of the multiverse? No one knows—or if they do, they aren't telling.
+The city is the domain of the inscrutable Lady of Pain, a being whose purpose and goals are unknown to even the sages of her city. She appears almost human, although she most definitely isn't. She wears ornate robes that shroud her body, and a mantle of blades coated in blue-green verdigris surrounds her mask-like face. No one is certain who or what exactly the Lady of Pain is, but it's widely accepted she's a being on par with deities. Is Sigil her prison? Is she the fallen creator of the multiverse? No one knows—or if they do, they aren't telling.
 
 "Planescape: Adventures in the Multiverse" includes extensive information on "Sigil".
 

@@ -37,8 +37,8 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
   - !!int "6"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+5"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -57,12 +57,14 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
 "actions":
   - "desc": "The gem stalker makes four Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
       \ (2d6 + 3) slashing damage."
     "name": "Claw"
 "bonus_actions":
-  - "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit:\
-      \ 7 (1d10 + 2) force damage, and one of the following effects occurs, determined\
+  - "desc": "Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 30 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
+      \ (1d10 + 2) force damage, and one of the following effects occurs, determined\
       \ by the kind of dragon that created the gem stalker:"
     "name": "Crystal Dart"
   - "desc": "The gem stalker can teleport to an unoccupied space it can see within\
@@ -71,8 +73,9 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
   - "desc": "The gem stalker gains a number of temporary hit points equal to the damage\
       \ dealt."
     "name": "Crystal"
-  - "desc": "The target must roll a d4 and subtract the number rolled from the next\
-      \ attack roll it makes before the start of the gem stalker's next turn."
+  - "desc": "The target must roll a dice:d4|noform|noparens|avg (d4) and subtract\
+      \ the number rolled from the next attack roll it makes before the start of the\
+      \ gem stalker's next turn."
     "name": "Emerald"
   - "desc": "The target must succeed on a DC 13 Strength saving throw or be pushed\
       \ horizontally up to 10 feet away from the gem stalker and be knocked [prone](І\
@@ -84,8 +87,8 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
     "name": "Topaz"
 "reactions":
   - "desc": "When another creature the gem stalker can see within 30 feet of it is\
-      \ about to take damage, the gem stalker reduces that damage by 10 (3d6). The\
-      \ gem stalker then takes damage equal to that amount."
+      \ about to take damage, the gem stalker reduces that damage by dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6). The gem stalker then takes damage equal to that amount."
     "name": "Protective Link"
 "source":
   - "FTD"

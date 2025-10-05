@@ -83,15 +83,6 @@ Green hags frequently know strange magic or forgotten secrets, such as the weakn
       \ Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) before using\
       \ this trait to cast that spell again.\n"
     "name": "Coven Magic"
-  - "desc": "The hag casts one of the following spells, requiring no Material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit\
-      \ with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md) (24-hour\
-      \ duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
-      \ (self only, and the hag leaves no tracks while Invisible), [Minor Illusion](І\
-      нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Ray of Sickness](Інстру\
-      менти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (level 3 version)"
-    "name": "Spellcasting"
   - "desc": "The hag can breathe air and water."
     "name": "Amphibious"
   - "desc": "The hag can mimic animal sounds and humanoid voices. A creature that\
@@ -101,25 +92,15 @@ Green hags frequently know strange magic or forgotten secrets, such as the weakn
 "actions":
   - "desc": "The hag makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8 + 4) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
     "name": "Claw"
-  - "desc": "While within 30 feet of at least two hag allies, the hag can cast one\
-      \ of the following spells, requiring no Material components, using the spell's\
-      \ normal casting time, and using Intelligence as the spellcasting ability (spell\
-      \ save DC 11): [Augury](Інструменти%20ДМ/CLI/spells/augury-xphb.md), [Find Familiar](І\
-      нструменти%20ДМ/CLI/spells/find-familiar-xphb.md), [Identify](Інструменти%20Д\
-      М/CLI/spells/identify-xphb.md), [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md),\
-      \ [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), or [Unseen Servant](І\
-      нструменти%20ДМ/CLI/spells/unseen-servant-xphb.md). The hag must finish a [Long\
-      \ Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) before using\
-      \ this trait to cast that spell again.\n"
-    "name": "Coven Magic"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit\
-      \ with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md) (24-hour\
-      \ duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
+      \ and using Wisdom as the spellcasting ability (spell save DC 12, dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20Д\
+      М/CLI/spells/dancing-lights-xphb.md), [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\
+      \ (24-hour duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ (self only, and the hag leaves no tracks while Invisible), [Minor Illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Ray of Sickness](Інстру\
       менти%20ДМ/CLI/spells/ray-of-sickness-xphb.md) (level 3 version)"

@@ -47,16 +47,18 @@ Thri-kreen mystics use psionics to navigate difficult terrain in Wildspace, turn
 "actions":
   - "desc": "The thri-kreen makes two Gythka attacks or four Psychic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+1|noform|noparens|avg|text(10)\
       \ (2d8 + 1) slashing damage."
     "name": "Gythka"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit:\
-      \ 6 (1d6 + 3) psychic damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ range 60 ft., one creature. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
+      \ (1d6 + 3) psychic damage."
     "name": "Psychic Bolt"
   - "desc": "The thri-kreen targets one creature it can see within 30 feet of itself.\
-      \ The target must make a DC 14 Constitution saving throw, taking 32 (5d12)\
-      \ necrotic damage on a failed save, or half as much damage on a successful one.\
-      \ The thri-kreen regains hit points equal to the damage dealt."
+      \ The target must make a DC 14 Constitution saving throw, taking dice:5d12|noform|noparens|avg|text(32)\
+      \ (5d12) necrotic damage on a failed save, or half as much damage on a successful\
+      \ one. The thri-kreen regains hit points equal to the damage dealt."
     "name": "Drain Vitality (Recharges after a Short or Long Rest)"
   - "desc": "The thri-kreen casts one of the following spells, requiring no spell\
       \ components and using Wisdom as the spellcasting ability:\n\nAt will: [levitate](І\

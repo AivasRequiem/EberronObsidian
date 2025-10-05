@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 46*  
 
 
-- **Ability Scores**: Dexterity +2; Apply +1 to one of Strength, Constitution, Intelligence, Wisdom, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Constitution, Intelligence, Wisdom, or Charisma.
 - **Size**: Medium
 - **Speed**: 35 ft.
 - **Spellcasting**: Dexterity
@@ -36,7 +36,7 @@ Your base walking speed increases to 35 feet.
 
 ### Intuitive Motion
 
-When you make a Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check or any ability check to operate or maintain a land vehicle, you can roll a `d4` and add the number rolled to the ability check.
+When you make a Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check or any ability check to operate or maintain a land vehicle, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Magical Passage
 

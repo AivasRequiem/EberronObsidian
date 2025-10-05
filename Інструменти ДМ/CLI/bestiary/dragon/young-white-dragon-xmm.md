@@ -51,8 +51,8 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
   - !!int "12"
 "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+3"
-  - "wisdom": "+3"
+  - "dexterity": !!int "3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -71,12 +71,14 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing\
-      \ damage plus 2 (d4) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Slashing damage\
+      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Cold damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 40 (9d8) Cold damage. Success: Half damage."
+      \ dice:9d8|noform|noparens|avg|text(40) (9d8) Cold damage. Success: Half\
+      \ damage."
     "name": "Cold Breath (Recharge 5-6)"
 "source":
   - "XMM"

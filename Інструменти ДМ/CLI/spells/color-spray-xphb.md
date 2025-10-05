@@ -35,7 +35,7 @@ aliases:
 - **Components:** V, S, M (a pinch of colorful sand)
 - **Duration:** Instantaneous
 
-You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the end of your next turn.
+You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) originating from you must succeed on a Constitution saving throw or have the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the end of your next turn.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB")
 

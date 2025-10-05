@@ -49,8 +49,8 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
   - !!int "10"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+8"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+11"
@@ -63,10 +63,12 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
   - "desc": "The cyclops makes three attacks, using Radiant Strike or Flash of Light\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 22 (3d10 + 6) Radiant\
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 10 ft. Hit: dice:3d10+6|noform|noparens|avg|text(22) (3d10 + 6) Radiant\
       \ damage."
     "name": "Radiant Strike"
-  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 17 (2d10 + 6) Radiant\
+  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
+      \ 120 ft. Hit: dice:2d10+6|noform|noparens|avg|text(17) (2d10 + 6) Radiant\
       \ damage, and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls until the end of the cyclops's next turn."
     "name": "Flash of Light"
@@ -80,8 +82,9 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
 "reactions":
   - "desc": "Trigger: The cyclops or an ally it can see makes a [D20 Test](Інструм\
       енти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md). _Response:_ The cyclops\
-      \ rolls d20 and chooses whether to use that roll in place of the d20 rolled\
-      \ for the [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)."
+      \ rolls dice:1d20|noform|noparens|avg (d20) and chooses whether to use that\
+      \ roll in place of the dice:d20|noform|noparens|avg (d20) rolled for the\
+      \ [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)."
     "name": "Portent (Recharge 4-6)"
 "source":
   - "XMM"

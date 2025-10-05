@@ -52,8 +52,8 @@ Gold dragons make their homes in places of natural and magical wonder.
   - !!int "20"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+5"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+5"
@@ -74,20 +74,22 @@ Gold dragons make their homes in places of natural and magical wonder.
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Weakening Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 17 (2d10 + 6) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 10 ft. Hit: dice:2d10+6|noform|noparens|avg|text(17) (2d10 + 6) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 17, each creature in a 30-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 55 (10d10) Fire damage. Success: Half damage."
+      \ dice:10d10|noform|noparens|avg|text(55) (10d10) Fire damage. Success:\
+      \ Half damage."
     "name": "Fire Breath (Recharge 5-6)"
   - "desc": "Strength Saving Throw: DC 17, each creature that isn't currently affected\
       \ by this breath in a 30-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
       \ Failure: The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on Strength-based [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)\
-      \ and subtracts 3 (d6) from its damage rolls. It repeats the save at the end\
-      \ of each of its turns, ending the effect on itself on a success. After 1 minute,\
-      \ it succeeds automatically."
+      \ and subtracts dice:1d6|noform|noparens|avg|text(3) (d6) from its damage\
+      \ rolls. It repeats the save at the end of each of its turns, ending the effect\
+      \ on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Weakening Breath"
 "source":
   - "XMM"

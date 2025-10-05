@@ -47,8 +47,8 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
       \ or read its thoughts, as well as to all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
-      \ piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: 1 piercing damage."
     "name": "Bite"
 "bonus_actions":
   - "desc": "The cranium rat sheds dim light from its exposed brain in a 5-foot radius\

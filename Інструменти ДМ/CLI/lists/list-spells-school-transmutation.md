@@ -101,7 +101,6 @@ aliases:
 - [Animal Shapes](Інструменти%20ДМ/CLI/spells/animal-shapes-xphb.md "XPHB")
 - [Control Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md "XPHB")
 - [Earthquake](Інструменти%20ДМ/CLI/spells/earthquake-xphb.md "XPHB")
-- [Glibness](Інструменти%20ДМ/CLI/spells/glibness-xphb.md "XPHB")
 
 ## 9th Level
 

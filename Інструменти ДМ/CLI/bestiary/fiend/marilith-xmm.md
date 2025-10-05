@@ -23,7 +23,7 @@ aliases:
 - **Habitat.** Planar (Abyss)  
 - **Treasure.** Armaments  
 
-Mariliths are six-armed, serpentlike demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
+Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
 
 ```statblock
 "name": "Marilith (XMM)"
@@ -44,10 +44,10 @@ Mariliths are six-armed, serpentlike demons that wield lethal, Abyss-forged blad
   - !!int "20"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+10"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "strength": !!int "9"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+8"
@@ -71,14 +71,16 @@ Mariliths are six-armed, serpentlike demons that wield lethal, Abyss-forged blad
 "actions":
   - "desc": "The marilith makes six Pact Blade attacks and uses Constrict."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 10 (1d10 + 5) Slashing\
-      \ damage plus 7 (2d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:1d10+5|noform|noparens|avg|text(10) (1d10 + 5) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage."
     "name": "Pact Blade"
   - "desc": "Strength Saving Throw: DC 17, one Medium or smaller creature the marilith\
-      \ can see within 5 feet. Failure: 15 (2d10 + 4) Bludgeoning damage. The\
-      \ target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition until the grapple ends."
+      \ can see within 5 feet. Failure: dice:2d10+4|noform|noparens|avg|text(15)\
+      \ (2d10 + 4) Bludgeoning damage. The target has the [Grappled](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14), and it has\
+      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
+      \ until the grapple ends."
     "name": "Constrict"
 "bonus_actions":
   - "desc": "The marilith teleports up to 120 feet to an unoccupied space it can see."

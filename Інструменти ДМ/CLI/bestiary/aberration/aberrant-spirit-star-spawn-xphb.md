@@ -36,7 +36,8 @@ aliases:
   - "desc": "At the start of each of the spirit's turns, the spirit emits psionic\
       \ energy if it doesn't have the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition. Wisdom Saving Throw: DC equals your spell save DC, each creature\
-      \ (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage."
+      \ (other than you) within 5 feet of the spirit. Failure: dice:2d6|noform|noparens|avg\
+      \ (2d6) Psychic damage."
     "name": "Whispering Aura"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\

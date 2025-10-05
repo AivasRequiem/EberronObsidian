@@ -11,7 +11,7 @@ aliases:
 
 Each adventuring group is bound together by the quests it embarks on and by the dangers its members face together. This chapter offers another way to bind your party together: a group patron. These patrons provide a strong binding element: an individual or an organization that unites a party as a team in service to a greater purpose. A group patron can help set the tone of your party's entire campaign. For example, a group whose patron is an academic institution is likely to have a very different story from a group that serves a military. A patron can influence characters' relationships, their backstories, and the types of dangers they face.
 
- During character creation, every player has the opportunity to weave connections between their character and the other members of their party. Rather than (or in addition to) creating a web of established relationships, players can work with the DM to choose a group patron. And if you're interested in being your own patron, see the "Being Your Own Patron" section at the end of the chapter.
+During character creation, every player has the opportunity to weave connections between their character and the other members of their party. Rather than (or in addition to) creating a web of established relationships, players can work with the DM to choose a group patron. And if you're interested in being your own patron, see the "Being Your Own Patron" section at the end of the chapter.
 
 ![A group of wizards pledges...](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/059-02-001.webp#center "A group of wizards pledges themselves to their patron, Tasha, the Witch Queen")
 
@@ -19,7 +19,7 @@ Each adventuring group is bound together by the quests it embarks on and by the 
 
 The following sections present several group patron options. The description of each patron provides an overview of the types of organizations the group patron represents, perks of membership, and quests the patron encourages adventurers to undertake.
 
- With the input of your DM, you can customize these patrons to reflect specific establishments in your campaign world or to serve as a launchpad tailored for organizations of your design. For example, the guild group patron could represent the Harpers or the Zhentarim of the Forgotten Realms, the Clifftop Adventurers' Guild in Eberron, or a homebrew league of caravan guards. Or perhaps a criminal syndicate, military force, or other category of patron better fits the party's goals. Choose and customize the group patron that works best for your party and the types of adventures you want to explore.
+With the input of your DM, you can customize these patrons to reflect specific establishments in your campaign world or to serve as a launchpad tailored for organizations of your design. For example, the guild group patron could represent the Harpers or the Zhentarim of the Forgotten Realms, the Clifftop Adventurers' Guild in Eberron, or a homebrew league of caravan guards. Or perhaps a criminal syndicate, military force, or other category of patron better fits the party's goals. Choose and customize the group patron that works best for your party and the types of adventures you want to explore.
 
 ### Group Assistance
 
@@ -29,11 +29,11 @@ Having a group patron gives an adventuring group a common purpose, which inspire
 
 A group patron offers your party a number of perks for your service. These range from standard business arrangements, such as a steady wage and access to staff facilities, to extraordinary boons, such as audiences with powerful figures or exceptions from certain laws. Specific perks are presented in the description of each group patron.
 
- The DM should not feel limited to providing only the perks noted in each group patron's description. Patrons give a party access to solutions and support they wouldn't have otherwise, and a patron can use their varied resources to guide their agents or prepare them for greater adventures.
+The DM should not feel limited to providing only the perks noted in each group patron's description. Patrons give a party access to solutions and support they wouldn't have otherwise, and a patron can use their varied resources to guide their agents or prepare them for greater adventures.
 
 ### Assignments
 
- A more hands-off patron can still significantly motivate your group. Maybe you seek adventures based on what pleases your patron, possibly earning status and rewards within your organization. An academy, for example, might not organize particular missions, so you hunt down ancient artifacts knowing that your patron will reward you for bringing them back. You have the freedom to chart your own destiny, while letting the patron shape the nature of your group and the adventures you undertake.
+A more hands-off patron can still significantly motivate your group. Maybe you seek adventures based on what pleases your patron, possibly earning status and rewards within your organization. An academy, for example, might not organize particular missions, so you hunt down ancient artifacts knowing that your patron will reward you for bringing them back. You have the freedom to chart your own destiny, while letting the patron shape the nature of your group and the adventures you undertake.
 
 ## Example Patrons
 
@@ -56,13 +56,13 @@ Here are some of the most likely patrons for an adventuring group. Presented in 
 
 The world's mysteries are innumerable, but you pursue them with vigor. As operatives for an academy, you seek to unravel the secrets of existence and the deeper riddles beyond.
 
- In your work, you brush shoulders with the wisest in the land, travel to places spoken of in myth, and discover truths beyond imagining. Denying ignorance, you pursue wondrous sights and endlessly unearth new facts. Undiscovered creatures, the covetous dead, and jealous rivals impede your work, but in the pursuit of knowledge, no risk is too great.
+In your work, you brush shoulders with the wisest in the land, travel to places spoken of in myth, and discover truths beyond imagining. Denying ignorance, you pursue wondrous sights and endlessly unearth new facts. Undiscovered creatures, the covetous dead, and jealous rivals impede your work, but in the pursuit of knowledge, no risk is too great.
 
 #### Types of Academies
 
 Any assemblage of scholars and truth-seekers can function as an academy. Generally, an academy unites a network of learned individuals, allowing them to share their knowledge, further their research, and support common goals. Passing on wisdom to the next generation is part of an academy's mandate, but members find opportunities to undertake far-flung research expeditions—only so much can be learned in libraries, after all. An academy's focus can be broad or singular, artistic or scientific, mundane or magical. For every topic with unexplored possibilities, an academy seeks to plumb its depths or elevate its study.
 
- Roll or pick from the Academy Type table to determine the institution with which you're aligned.
+Roll or pick from the Academy Type table to determine the institution with which you're aligned.
 
 ![Academy Type](Інструменти%20ДМ/CLI/tables/academy-type-tce.md)
 
@@ -96,7 +96,7 @@ Because you're associated with the academy, you receive a discount on any educat
 
 How much autonomy you have in choosing your missions and how often you're expected to perform on the academy's behalf depends largely on your place in the institution's hierarchy. As students, new professors, or support staff, you aid the work of a senior professor or entire department. If you are further along in your career, you have your own goals and assistants, but you still take on assignments to further the goals of esteemed experts, deans, or the academy as a whole. In any of these cases, a specific contact manages your relationship to the academy.
 
- Roll or pick from the Academy Contact table to determine who manages the relationship between you and the academy.
+Roll or pick from the Academy Contact table to determine who manages the relationship between you and the academy.
 
 ![Academy Contact](Інструменти%20ДМ/CLI/tables/academy-contact-tce.md)
 
@@ -104,7 +104,7 @@ How much autonomy you have in choosing your missions and how often you're expect
 
 If you have an academy as your patron, you are likely engaged in a scholarly pursuit or support someone who is. Consider being a promising student or a new member of the faculty. While you have a modest course load that you handle behind the scenes (or using any of a variety of downtime activities), your primary interests involve aiding your contact in their research. Alternatively, you might work to further the academy's efforts in another way, perhaps related to security or funding.
 
- The Academy Factotum Roles table provides suggestions for functions you perform within an academy and the backgrounds frequently associated with each role.
+The Academy Factotum Roles table provides suggestions for functions you perform within an academy and the backgrounds frequently associated with each role.
 
 ![Academy Factotum Roles](Інструменти%20ДМ/CLI/tables/academy-factotum-roles-tce.md)
 
@@ -112,7 +112,7 @@ If you have an academy as your patron, you are likely engaged in a scholarly pur
 
 The focus of your study and the academy's research defines the missions you undertake. Academics struggle to keep one step ahead of their scholarly rivals, making many of them suspicious of—even hostile toward—other intellectuals. Beyond rivals within their own profession, academics face challenges from their subjects (whether members of lost civilizations or magical beings) or suspicious anti-intellectuals. Not everyone wants to be the subject of scholarly scrutiny or thinks that solving the world's mysteries is important or desirable.
 
- The Academy Quests table presents a few of the sort of endeavors your work or studies lead you to undertake.
+The Academy Quests table presents a few of the sort of endeavors your work or studies lead you to undertake.
 
 ![Academy Quests](Інструменти%20ДМ/CLI/tables/academy-quests-tce.md)
 
@@ -128,7 +128,7 @@ Your group is bound to the designs of an ancient being of tremendous power and i
 
 From brooding dragons to unfathomable voices whispering from the dark, ancient beings guide and empower mortals for inscrutable reasons. The relationship your group has to its patron might be a clearly defined exchange, or it could be uncertain or forceful. Whatever the nature of the being, as long as your group fulfills its role, the being offers rewards.
 
- Roll or pick from the Ancient Being table to determine the being your group serves.
+Roll or pick from the Ancient Being table to determine the being your group serves.
 
 ![Ancient Being](Інструменти%20ДМ/CLI/tables/ancient-being-tce.md)
 
@@ -140,9 +140,9 @@ With the ancient being as your group's patron, you gain the following perks.
 
 ##### Equipment
 
-Your patron's network has access to certain magic items. You can purchase common magic items from your patron contact. The DM determines the available stock or can call for a group Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check to ascertain if the ancient being's network can successfully locate a desired item. The DC for this check is 10 in a city, 15 in a town, and 20 in a village. If the check fails, `d8` days must pass before the same item can be searched for again in that community.
+Your patron's network has access to certain magic items. You can purchase common magic items from your patron contact. The DM determines the available stock or can call for a group Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check to ascertain if the ancient being's network can successfully locate a desired item. The DC for this check is 10 in a city, 15 in a town, and 20 in a village. If the check fails, `dice:1d8|noform|noparens|avg` (`d8`) days must pass before the same item can be searched for again in that community.
 
- The DM sets the price of a common magic item or determines it randomly: `2d4 × 10` gp, or half as much for a consumable item such as a potion or scroll.
+The DM sets the price of a common magic item or determines it randomly: `2d4 × 10` gp, or half as much for a consumable item such as a potion or scroll.
 
 ##### Research
 
@@ -166,7 +166,7 @@ The organizational contact who dispenses assignments or delivers the word of you
 
 Consider the overarching goals of your group's ancient being patron when determining who they recruit as agents. In what arenas does that being likely hold sway? A powerful lich recruits other ambitious spellcasters, as well as skilled warriors to serve as bodyguards. A dragon values socially adept agents and those who influence society's decision-makers. Consider how your capabilities and interests align directly with those of the ancient being, or how you unwittingly fell into the patron's service.
 
- The Ancient Being Operative Roles table suggests a variety of parts you can play within an ancient being's schemes and the backgrounds frequently associated with each role.
+The Ancient Being Operative Roles table suggests a variety of parts you can play within an ancient being's schemes and the backgrounds frequently associated with each role.
 
 ![Ancient Being Operative Roles](Інструменти%20ДМ/CLI/tables/ancient-being-operative-roles-tce.md)
 
@@ -174,7 +174,7 @@ Consider the overarching goals of your group's ancient being patron when determi
 
 Though their work remains mysterious, ancient beings send their agents to exact their will in myriad ways. Servants of other powerful beings try to stymie your patron's plans, while misguided (or entirely justified) monster hunters seek to rid the world of their ancient foe. An ancient being's lengthy history inspires unusual and potent enemies.
 
- The Ancient Being Quests table presents a few options for the sorts of work your patron expects from you.
+The Ancient Being Quests table presents a few options for the sorts of work your patron expects from you.
 
 ![Ancient Being Quests](Інструменти%20ДМ/CLI/tables/ancient-being-quests-tce.md)
 
@@ -190,7 +190,7 @@ Your group serves at the pleasure of a member of the nobility. Motivated by mone
 
 From the heads of scheming merchant families to immortal sorcerer-queens, each member of the aristocracy holds a measure of wealth and power—and they desire more. The rulers of a barony could struggle to reclaim the influence they once held, while the new head of a business dynasty might seek to catapult their fortunes to new heights. By aligning with such patrons, you stand to benefit enormously from the fruits of their ambition.
 
- Roll or pick from the Aristocrat Types table to determine what kind of noble you serve.
+Roll or pick from the Aristocrat Types table to determine what kind of noble you serve.
 
 ![Aristocrat Types](Інструменти%20ДМ/CLI/tables/aristocrat-types-tce.md)
 
@@ -220,7 +220,7 @@ Your employment under an aristocratic patron brings an income of 1 gp per day, o
 
 Aside from a few exceptions, aristocrats prefer to have someone else handle communication with the hired help. As a result, you communicate with an intermediary who serves as a go-between in your dealings with your patron.
 
- Roll or pick from the Aristocrat Contact table to determine who serves as your patron's proxy.
+Roll or pick from the Aristocrat Contact table to determine who serves as your patron's proxy.
 
 ![Aristocrat Contact](Інструменти%20ДМ/CLI/tables/aristocrat-contact-tce.md)
 
@@ -228,7 +228,7 @@ Aside from a few exceptions, aristocrats prefer to have someone else handle comm
 
 Aristocrats seek agents to pursue business, political, criminal, or personal agendas. In return, you might serve an aristocrat merely for the salary or to gain access to particular tools, information, or political clout. Or you could be a lesser family member, expected to serve the will of family leaders. Regardless of your skills or social standing, aristocratic patrons with enough foresight and imagination find a use for agents from any background.
 
- The Aristocrat Retainer Roles table suggests a variety of parts you might play in an aristocrat's agenda and the backgrounds frequently associated with each role.
+The Aristocrat Retainer Roles table suggests a variety of parts you might play in an aristocrat's agenda and the backgrounds frequently associated with each role.
 
 ![Aristocrat Retainer Roles](Інструменти%20ДМ/CLI/tables/aristocrat-retainer-roles-tce.md)
 
@@ -236,7 +236,7 @@ Aristocrats seek agents to pursue business, political, criminal, or personal age
 
 A missive from your patron proffers a different kind of mission each time. For one assignment, you act as an envoy during delicate trade negotiations; the next, you're sent trekking through mountain passes to gather a favorite flower for a party. Foes are endless, and yesterday's ally might be tomorrow's target. The only things that are certain are the variety of your patron's whims and that tomorrow there will surely be more.
 
- The Aristocrat Quests table presents the sorts of work you might conduct at your highborn patron's request.
+The Aristocrat Quests table presents the sorts of work you might conduct at your highborn patron's request.
 
 ![Aristocrat Quests](Інструменти%20ДМ/CLI/tables/aristocrat-quests-tce.md)
 
@@ -252,9 +252,9 @@ A network of criminals employs your group. You could be full-fledged members in 
 
 Criminal syndicates range from the local thieves' guild, to a corrupt consortium of merchant princes, to a ring of otherworldly invaders infiltrating all levels of society for a nefarious purpose. Whatever form it takes, the syndicate is largely concerned with increasing wealth for its members at the expense of society at large.
 
- Conversely, the syndicate could be an underground organization of good-hearted people fighting against a wicked power structure. Criminal syndicates with a heroic bent include the band of plucky outlaws who hijack taxes from the cruel baron and return them to the downtrodden and a hard-bitten ring of deserters who fight their homeland's invaders.
+Conversely, the syndicate could be an underground organization of good-hearted people fighting against a wicked power structure. Criminal syndicates with a heroic bent include the band of plucky outlaws who hijack taxes from the cruel baron and return them to the downtrodden and a hard-bitten ring of deserters who fight their homeland's invaders.
 
- Roll or pick from the Syndicate Types table to determine what type of criminal organization you serve.
+Roll or pick from the Syndicate Types table to determine what type of criminal organization you serve.
 
 ![Types of Criminal Syndicates; Syndicate Types](Інструменти%20ДМ/CLI/tables/types-of-criminal-syndicates-syndicate-types-tce.md)
 
@@ -286,7 +286,7 @@ The syndicate owns several businesses, primarily as fronts for laundering money.
 
 Each member of the syndicate has a place in the organization. You report to a contact who handles your contribution by giving you assignments, collecting the syndicate's cut of your swag, or seeing that you receive your fee for contract work from outside clients. The contact is your first point of communication if you need to reach out to highly ranked members of the syndicate's hierarchy.
 
- Roll or pick from the Syndicate Contact table to determine your contact within a criminal organization.
+Roll or pick from the Syndicate Contact table to determine your contact within a criminal organization.
 
 ![Criminal Syndicate Contact; Syndicate Contact](Інструменти%20ДМ/CLI/tables/criminal-syndicate-contact-syndicate-contact-tce.md)
 
@@ -296,7 +296,7 @@ Each member of the syndicate has a place in the organization. You report to a co
 
 Whether you're a lifelong scoundrel or an ambitious upstart, you seek to gain wealth, fame, and influence within a criminal syndicate. A syndicate is motivated by profit, employing agents with all manner of talents. Nimbleness and novelty prove vital not just to exploiting untapped prospects but to avoiding the law. You embody rare experience and skill, positioned at the forefront of daring new criminal ventures.
 
- The Criminal Syndicate Member Roles suggests positions you might fill in the organization and the backgrounds frequently associated with each role.
+The Criminal Syndicate Member Roles suggests positions you might fill in the organization and the backgrounds frequently associated with each role.
 
 ![Criminal Syndicate Member Roles](Інструменти%20ДМ/CLI/tables/criminal-syndicate-member-roles-tce.md)
 
@@ -304,7 +304,7 @@ Whether you're a lifelong scoundrel or an ambitious upstart, you seek to gain we
 
 Your work as a syndicate member involves more than simple street swindles or pickpocketing. Someone with your skills cooperates with others for greater purposes that offer both dangerous risks and splendid rewards. The law of the land is your most persistent enemy, but other criminal syndicates challenge you as well—or become your targets.
 
- The Criminal Syndicate Quests table explores what kind of work you do for the organization.
+The Criminal Syndicate Quests table explores what kind of work you do for the organization.
 
 ![Criminal Syndicate Quests](Інструменти%20ДМ/CLI/tables/criminal-syndicate-quests-tce.md)
 
@@ -320,7 +320,7 @@ Your group has ties to a powerful consortium of professionals who work together 
 
 The guild structure covers a swath of business ventures, differentiated by their specialty. A conglomerate of blacksmiths, jewelers, carpenters, tailors, alchemists, scribes, and sages all could organize as a guild. Whatever their trade, these experts share contacts, exchange resources such as materials or tools, and leverage their collective influence to affect politics for their benefit. Alternatively, merchants and other business owners might also organize into guilds. Merchant barons who effectively rule a city or nation through iron-clad control of the economy or a network of innkeepers who share news and supply routes could both represent guild patrons. A guild could even embody a more sinister group, such as one that deals in terrifying wares like deadly monsters, dangerous knowledge, or souls.
 
- Roll or pick from the Guild Types table to determine the general sort of organization you operate within.
+Roll or pick from the Guild Types table to determine the general sort of organization you operate within.
 
 ![Guild Types](Інструменти%20ДМ/CLI/tables/guild-types-tce.md)
 
@@ -350,7 +350,7 @@ The guild retains knowledgeable tutors in subjects pertinent to its interests. W
 
 Even as a member in good standing of the guild, you can't simply stroll up to the guild master and demand their attention. Your superiors within the guild manage work contracts, request the use of guild resources, and facilitate getting your group in contact with the right people to assist their interests.
 
- Roll or pick from the Guild Contact table to determine your immediate contact within the guild.
+Roll or pick from the Guild Contact table to determine your immediate contact within the guild.
 
 ![Guild Contact](Інструменти%20ДМ/CLI/tables/guild-contact-tce.md)
 
@@ -358,7 +358,7 @@ Even as a member in good standing of the guild, you can't simply stroll up to th
 
 As a guild member, you might be a professional who works directly toward the guild's specialty or whose fortunes align with the guild's interests. Alternatively, you could provide the guild with services to which their members aren't suited. For example, guards, explorers, negotiators, and spies can be useful to a guild, whether its interests lie in trade goods, entertainment, or more questionable ventures. Whether a guild operates entirely within the law and how public its interests are also influences which of your skills it deems most valuable.
 
- The Guild Representative Roles table suggests positions you might fill in a guild and the backgrounds frequently associated with each role.
+The Guild Representative Roles table suggests positions you might fill in a guild and the backgrounds frequently associated with each role.
 
 ![Guild Representative Roles](Інструменти%20ДМ/CLI/tables/guild-representative-roles-tce.md)
 
@@ -366,7 +366,7 @@ As a guild member, you might be a professional who works directly toward the gui
 
 As a member of the guild, you're called on to ply your skills in the organization's service. You are required to undertake various tasks, either for the guild's benefit or on behalf of an influential client. Competition is fierce in the business world, and the challenges presented by rivals or circumstances can pressure you into dealings you find distasteful.
 
- The Guild Quests table presents a few options for the sorts of work the guild requires of you.
+The Guild Quests table presents a few options for the sorts of work the guild requires of you.
 
 ![Guild Quests](Інструменти%20ДМ/CLI/tables/guild-quests-tce.md)
 
@@ -382,7 +382,7 @@ Your group serves as a team of soldiers in a larger military force, one dedicate
 
 Military forces represent a variety of organized bands of warriors. They can be the disciplined regiments of a nation's standing army, a fleet of ships comprising a kingdom's armada, or a devastating horde of warriors and magical beasts. A given kingdom's military could be a rigidly ordered force or a blood-soaked throng.
 
- Roll or pick from the Military Force Types table to determine the general type of military patron you serve.
+Roll or pick from the Military Force Types table to determine the general type of military patron you serve.
 
 ![Military Force Types](Інструменти%20ДМ/CLI/tables/military-force-types-tce.md)
 
@@ -424,7 +424,7 @@ Roll or pick from the Military Force Contact table to determine who assigns you 
 
 You might join a military force for a wide range of reasons, or the military has reasons for seeking you out. Those with specialized skills contribute to a range of missions, from infiltration and mystical operations to diplomacy and strategy. Perhaps your past deeds or the will of your family pushes you toward military service, regardless of whether you believe you're suited to such a life.
 
- The Military Force Envoy Roles table suggests a variety of military roles you could fill and the backgrounds frequently associated with each role.
+The Military Force Envoy Roles table suggests a variety of military roles you could fill and the backgrounds frequently associated with each role.
 
 ![Military Force Envoy Roles](Інструменти%20ДМ/CLI/tables/military-force-envoy-roles-tce.md)
 
@@ -432,7 +432,7 @@ You might join a military force for a wide range of reasons, or the military has
 
 The wide-ranging work of a military unit calls for both power and subtlety. Your missions could run the risk of shattering a fragile peace recently established with a rival nation and plunging multiple nations back into war. Or perhaps your group's missions pit you against rival combatants during an active engagement, as you influence the war effort. Rival mercenary companies, armed resistance fighters, and monsters drawn to the presence of bloodshed also present familiar threats.
 
- The Military Quests table provides possible missions you're tasked to accomplish.
+The Military Quests table provides possible missions you're tasked to accomplish.
 
 ![Military Quests](Інструменти%20ДМ/CLI/tables/military-quests-tce.md)
 
@@ -448,7 +448,7 @@ Your group acts in the service of a religious institution. The patronage of a re
 
 Not every religious order represents an alliance of worshipers devoted to godly ideals. Perhaps your group is a team of devotees pursuing a cause for your faith, or maybe you're a bunch of cynics taking advantage of a wealthy congregation. Your collective faith could compel you to hunt evil monsters or stave off otherworldly invasions, to protect the powerless from oppression, or to spread the teachings of your religion in a hostile land. Or perhaps you serve a corrupt hierarchy by making its enemies quietly disappear—though even cynical mercenaries can become true believers when confronted with the miraculous.
 
- Roll or pick from the Religious Order Types table to determine the type of religious patron you serve.
+Roll or pick from the Religious Order Types table to determine the type of religious patron you serve.
 
 ![Religious Order Types](Інструменти%20ДМ/CLI/tables/religious-order-types-tce.md)
 
@@ -482,7 +482,7 @@ Roll or pick from the Religious Order Contact table to determine who relays mess
 
 Your primary duty to a religious order is to further your god's reach. That obligation ranges from proselytizing or performing religious services to meting out divine punishments or recovering lost relics. Beyond that, the needs of your order vary widely. Your patron relies on your group due to your particular skills or, perhaps, because it's divine whim.
 
- The Religious Order Member Roles table suggests positions you might fill in an order and the backgrounds frequently associated with each role.
+The Religious Order Member Roles table suggests positions you might fill in an order and the backgrounds frequently associated with each role.
 
 ![Religious Order Member Roles](Інструменти%20ДМ/CLI/tables/religious-order-member-roles-tce.md)
 
@@ -490,7 +490,7 @@ Your primary duty to a religious order is to further your god's reach. That obli
 
 The services you provide your religious order vary depending on the deity you serve and your party's aptitudes. Regardless, religious orders are opposed by antagonistic faiths, foes whose rivalry with your order emulates the conflict between your respective gods. Some religious orders also hunt and destroy fiends, undead, or other beings they consider abominations, seeking to rid the word of their influence. Others root out heretics, real or imagined, to demonstrate the primacy of their deity.
 
- The Religious Order Quests table presents a few examples of how you can honor and serve your deity.
+The Religious Order Quests table presents a few examples of how you can honor and serve your deity.
 
 ![Religious Order Quests](Інструменти%20ДМ/CLI/tables/religious-order-quests-tce.md)
 
@@ -502,13 +502,13 @@ The services you provide your religious order vary depending on the deity you se
 
 A leader without allies is not long a leader. You serve a sovereign—a national figure or otherwise—and work to achieve their goals no matter the cost.
 
- As agents of a sovereign, you serve as diplomats or enforcers, spies or fixers, bringers of aid or executors of justice. You work within the system to uphold the status quo or step beyond the law to prevent war and worse. Politics, espionage, and mystery are facts of your world, as is hope and the fragile promise of peace.
+As agents of a sovereign, you serve as diplomats or enforcers, spies or fixers, bringers of aid or executors of justice. You work within the system to uphold the status quo or step beyond the law to prevent war and worse. Politics, espionage, and mystery are facts of your world, as is hope and the fragile promise of peace.
 
 #### Types of Sovereigns
 
 Broadly defined, a sovereign ranges from the head of a government to the leader of a powerful, private institution. Queens, chieftains, sultans, and rajahs are ready choices for powerful individuals who patronize a party of adventurers. Those on track to become such individuals—such as cunning senators, royal heirs, or influential celebrities—also fill a sovereign's role. When choosing or creating a sovereign to serve, consider whether that leader commands a government organization or another faction. While this section assumes your patron is the head of a country or other national body, they could oversee a powerful private division, a cult of personality, or an elaborate expedition. Also, consider the scale of your patron's organization. While serving as spies engaging in international intrigues could lead to world-changing escapades, being fixers for the mayor of a struggling town offers a personal connection to a place and its people.
 
- Roll or pick from the Sovereign Types table to determine what sort of liege you serve.
+Roll or pick from the Sovereign Types table to determine what sort of liege you serve.
 
 ![Sovereign Types](Інструменти%20ДМ/CLI/tables/sovereign-types-tce.md)
 
@@ -538,7 +538,7 @@ Your employment under a sovereign patron brings an income of 1 gp per day, or en
 
 You might benefit from direct contact with your group patron. This includes audiences or secret meetings with the sovereign, depending on the nature of your work. Alternatively, the sovereign might purposefully want to keep their distance from you, either due to their busy schedules or to maintain plausible deniability regarding your work. In such cases, an advisor or functionary oversees your assignments, serving as the primary contact between you and the sovereign.
 
- Roll or pick from the Sovereign Contact table to determine who manages the relationship between you and the throne, if not the sovereign directly.
+Roll or pick from the Sovereign Contact table to determine who manages the relationship between you and the throne, if not the sovereign directly.
 
 ![Sovereign Contact](Інструменти%20ДМ/CLI/tables/sovereign-contact-tce.md)
 
@@ -546,7 +546,7 @@ You might benefit from direct contact with your group patron. This includes audi
 
 You serve a sovereign out of national pride, out of tradition, or for your own practical reasons. The needs of a leader potentially embroil you directly in political intrigues, court maneuverings, or threats from national foes. It's up to you and the sovereign to determine whether your work is publicly acknowledged or top secret—and if the latter, what happens if your work is exposed.
 
- The Sovereign Proxy Roles table suggests ways you might serve a sovereign and the backgrounds frequently associated with each role.
+The Sovereign Proxy Roles table suggests ways you might serve a sovereign and the backgrounds frequently associated with each role.
 
 ![Sovereign Proxy Roles](Інструменти%20ДМ/CLI/tables/sovereign-proxy-roles-tce.md)
 
@@ -554,7 +554,7 @@ You serve a sovereign out of national pride, out of tradition, or for your own p
 
 The services you provide a sovereign largely depend on the nature of your group patron and their nation. While some of your missions involve official tasks—missions undertaken in the sovereign's name—others might be covert, making your patron's identity a highly guarded secret. Political rivals, enemy countries, and natural disasters all pose dangers to the sovereign's nation. Yet a sovereign who sows chaos, enacts tyrannical decrees, or jeopardizes a population's way of life is likely to inspire rebellions. In such cases, a sovereign's agents must decide where their loyalties lie.
 
- The Sovereign Quests table presents a few of the sorts of missions you undertake for your liege.
+The Sovereign Quests table presents a few of the sorts of missions you undertake for your liege.
 
 ![Sovereign Quests](Інструменти%20ДМ/CLI/tables/sovereign-quests-tce.md)
 
@@ -564,8 +564,8 @@ The services you provide a sovereign largely depend on the nature of your group 
 
 For some players, the idea of running a crime syndicate, mercenary company, arcane scholars' collective, or other organization is far more exciting than working for someone else. Founding your own organization offers a greater degree of autonomy, though potentially at the cost of support and reliable work.
 
- When you're the boss, the perks of belonging to an organization become expenses you have to worry about; when you run your own mercenary company, for example, you need to stock your own armory, rather than drawing on an existing organization's stockpile. The organization brings in income, but you'll have to spend it to keep the organization running.
+When you're the boss, the perks of belonging to an organization become expenses you have to worry about; when you run your own mercenary company, for example, you need to stock your own armory, rather than drawing on an existing organization's stockpile. The organization brings in income, but you'll have to spend it to keep the organization running.
 
- When you run your own organization, use the <span title="Dungeon Master's Guide">Running a Business</span> downtime activity (described in the "Dungeon Master's Guide") to reflect your organization's ongoing activities. More than one character can take part in this activity at a time. When rolling to determine the business's performance, add the total days spent by the characters to the roll to determine the business's success (still observing the maximum of 30). If the business earns a profit, multiply that profit by 4 + the number of characters who took part in this downtime activity.
+When you run your own organization, use the <span title="Dungeon Master's Guide">Running a Business</span> downtime activity (described in the "Dungeon Master's Guide") to reflect your organization's ongoing activities. More than one character can take part in this activity at a time. When rolling to determine the business's performance, add the total days spent by the characters to the roll to determine the business's success (still observing the maximum of 30). If the business earns a profit, multiply that profit by 4 + the number of characters who took part in this downtime activity.
 
- Don't discount the value of adopting an NPC to serve as your contact within your own organization. A secretary, majordomo, or apprentice keeps up with your group's bureaucracy while you're conducting missions and passes along information that could lead to your next adventure!
+Don't discount the value of adopting an NPC to serve as your contact within your own organization. A secretary, majordomo, or apprentice keeps up with your group's bureaucracy while you're conducting missions and passes along information that could lead to your next adventure!

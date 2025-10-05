@@ -44,8 +44,9 @@ Redbrand ruffians are petty thugs and ruthless enforcers skilled at intimidation
 "actions":
   - "desc": "The ruffian makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) piercing damage."
     "name": "Shortsword"
 "source":
   - "LMoP"

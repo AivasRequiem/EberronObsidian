@@ -33,9 +33,9 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -53,7 +53,8 @@ aliases:
 "actions":
   - "desc": "Vocath makes three Psi-Imbued Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
       \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
       \ on a DC 15 Wisdom saving throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of Vocath until the end of the target's next turn."

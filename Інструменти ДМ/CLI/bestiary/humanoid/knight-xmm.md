@@ -44,8 +44,8 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
 "senses": "passive Perception 10"
 "languages": "Common plus one other language"
@@ -54,11 +54,13 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
   - "desc": "The knight makes two attacks, using Greatsword or Heavy Crossbow in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
-      \ damage plus 4 (d8) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
+      \ damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Radiant damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing\
-      \ damage plus 4 (d8) Radiant damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+2|noform|noparens|text(+2), range 100/400\
+      \ ft. Hit: dice:2d10|noform|noparens|avg|text(11) (2d10) Piercing damage\
+      \ plus dice:1d8|noform|noparens|avg|text(4) (d8) Radiant damage."
     "name": "Heavy Crossbow"
 "reactions":
   - "desc": "Trigger: The knight is hit by a melee attack roll while holding a weapon.\

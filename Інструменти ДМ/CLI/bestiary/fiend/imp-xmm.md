@@ -68,8 +68,9 @@ Imps without masters delight in manipulating other creatures and inflating their
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Sting"
   - "desc": "The imp shape-shifts to resemble a rat ([Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.),\

@@ -33,7 +33,7 @@ aliases:
 - **Components:** V, S, M (ashes from burned mistletoe)
 - **Duration:** Concentration, up to 1 hour
 
-You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks and leave no tracks.
+You radiate a concealing aura in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks and leave no tracks.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Cleric (Trickery Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-trickery-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

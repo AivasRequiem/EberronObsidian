@@ -81,9 +81,10 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
 "actions":
   - "desc": "The swarm makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Slashing\
-      \ damage, or 9 (3d4 + 2) Slashing damage if the swarm is [Bloodied](Інстру\
-      менти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:3d6+2|noform|noparens|avg|text(12) (3d6 + 2) Slashing\
+      \ damage, or dice:3d4+2|noform|noparens|avg|text(9) (3d4 + 2) Slashing damage\
+      \ if the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Rend"
 "source":
   - "XMM"

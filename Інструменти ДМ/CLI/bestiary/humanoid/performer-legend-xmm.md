@@ -111,10 +111,10 @@ Wrestler
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "intelligence": "+6"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "9"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+13"
@@ -132,16 +132,17 @@ Wrestler
 "actions":
   - "desc": "The performer makes three Bejeweled Baton attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Bludgeoning\
-      \ damage plus 10 (3d6) Psychic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ ft. Hit: dice:2d4+5|noform|noparens|avg|text(10) (2d4 + 5) Bludgeoning\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Psychic damage."
     "name": "Bejeweled Baton"
   - "desc": "Wisdom Saving Throw: DC 17, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 120 feet. Failure: 22 (4d8 + 4) Psychic damage, and\
-      \ the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ or [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition\
-      \ (performer's choice) until the end of the performer's next turn. Success:\
-      \ Half damage only."
+      \ on a point within 120 feet. Failure: dice:4d8+4|noform|noparens|avg|text(22)\
+      \ (4d8 + 4) Psychic damage, and the target has the [Charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) or [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition (performer's choice) until the end of the performer's next turn.\
+      \ Success: Half damage only."
     "name": "Majestic Song"
   - "desc": "The performer casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\

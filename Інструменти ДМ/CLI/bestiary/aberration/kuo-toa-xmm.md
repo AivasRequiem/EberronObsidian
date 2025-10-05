@@ -112,8 +112,9 @@ Kuo-toa typically organize their communities around sites they believe to be imp
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 5 (1d8 + 1) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d8+1|noform|noparens|avg|text(5)\
+      \ (1d8 + 1) Piercing damage."
     "name": "Spear"
   - "desc": "Dexterity Saving Throw: DC 10, one Large or smaller creature the kuo-toa\
       \ can see within 15 feet. Failure: The target has the [Restrained](Інструм\

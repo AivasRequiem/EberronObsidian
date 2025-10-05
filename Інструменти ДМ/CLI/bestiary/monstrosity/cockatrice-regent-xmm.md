@@ -44,7 +44,7 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
   - !!int "5"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "wisdom": "+6"
+  - "wisdom": !!int "6"
 "condition_immunities": "[petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)"
 "senses": "darkvision 120 ft., passive Perception 13"
 "languages": ""
@@ -56,7 +56,8 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
 "actions":
   - "desc": "The cockatrice makes one Petrifying Bite attack and two Talons attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Piercing\
       \ damage. If the target is a creature, it is subjected to the following effect.\
       \ Constitution Saving Throw: DC 14. 1st Failure: The target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and repeats the\
@@ -66,13 +67,14 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
       \ condition instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition."
     "name": "Petrifying Bite"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 18 (4d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:4d6+4|noform|noparens|avg|text(18) (4d6 + 4) Slashing\
       \ damage."
     "name": "Talons"
 "reactions":
   - "desc": "Trigger: A creature within 120 feet of the cockatrice deals damage to\
       \ it. _Response—_Dexterity Saving Throw: DC 14, the triggering creature. Failure:\
-      \ 13 (3d6 + 3) Force damage."
+      \ dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Force damage."
     "name": "Magical Backlash"
 "source":
   - "XMM"

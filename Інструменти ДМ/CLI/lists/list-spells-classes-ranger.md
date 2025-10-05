@@ -49,7 +49,7 @@ aliases:
 
 ## 3rd Level
 
-- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD")
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") (\*)
 - [Conjure Animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md "XPHB")
 - [Conjure Barrage](Інструменти%20ДМ/CLI/spells/conjure-barrage-xphb.md "XPHB")
 - [Daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md "XPHB")

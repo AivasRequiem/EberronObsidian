@@ -35,9 +35,9 @@ A giff shock trooper is trained to mount assaults on enemy strongholds. Each one
   - !!int "13"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+7"
-  - "wisdom": "+4"
+  - "strength": !!int "8"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -54,26 +54,28 @@ A giff shock trooper is trained to mount assaults on enemy strongholds. Each one
     "name": "Firearms Knowledge"
   - "desc": "If the giff moves at least 20 feet in a straight line and ends within\
       \ 5 feet of a Large or smaller creature, that creature must succeed on a DC\
-      \ 16 Strength saving throw or take 7 (2d6) bludgeoning damage and be knocked\
-      \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ 16 Strength saving throw or take dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ bludgeoning damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Headfirst Charge"
   - "desc": "The giff deals double damage to objects and structures."
     "name": "Siege Monster"
 "actions":
   - "desc": "The giff makes two Greatsword or Musket attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
       \ (3d6 + 5) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
-      \ 15 (2d12 + 2) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 40/120 ft., one target. Hit: dice:2d12+2|noform|noparens|avg|text(15)\
+      \ (2d12 + 2) piercing damage."
     "name": "Musket"
   - "desc": "The giff lights a grapefruit-sized bomb and throws it at a point up to\
       \ 60 feet away, where it explodes. Each creature within a 10-foot-radius sphere\
-      \ centered on that point must make a DC 15 Dexterity saving throw, taking 18\
+      \ centered on that point must make a DC 15 Dexterity saving throw, taking dice:4d8|noform|noparens|avg|text(18)\
       \ (4d8) thunder damage on a failed save, or half as much damage on a successful\
-      \ one. After the giff throws the bomb, roll a d6; on a roll of 4 or lower,\
-      \ the giff has no more bombs to throw."
+      \ one. After the giff throws the bomb, roll a dice:d6|noform|noparens|avg\
+      \ (d6); on a roll of 4 or lower, the giff has no more bombs to throw."
     "name": "Thunder Bomb"
 "source":
   - "BAM"

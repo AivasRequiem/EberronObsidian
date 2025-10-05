@@ -74,7 +74,7 @@ Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns a
       \ time.\n\nAs an action, a creature within 5 feet of the cube can pull a creature\
       \ or an object out of the cube by succeeding on a DC 12 Strength ([Athletics](І\
       нструменти%20ДМ/CLI/rules/skills.md#Athletics)) check, and the puller takes\
-      \ 10 (3d6) Acid damage."
+      \ dice:3d6|noform|noparens|avg|text(10) (3d6) Acid damage."
     "name": "Ooze Cube"
   - "desc": "Even when the cube is in plain sight, a creature must succeed on a DC\
       \ 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception))\
@@ -82,23 +82,25 @@ Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns a
       \ otherwise act."
     "name": "Transparent"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:3d6+2|noform|noparens|avg|text(12) (3d6 + 2) Acid damage."
     "name": "Pseudopod"
   - "desc": "The cube moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks. The cube can move through the spaces\
-      \ of Large or smaller creatures if it has room inside itself to contain them\
-      \ (see the Ooze [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
+      \ The cube can move through the spaces of Large or smaller creatures if it has\
+      \ room inside itself to contain them (see the Ooze [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
       \ trait). Dexterity Saving Throw: DC 12, each creature whose space the cube\
-      \ enters for the first time during this move. Failure: 10 (3d6) Acid damage,\
-      \ and the target is engulfed. An engulfed target is suffocating, can't cast\
-      \ spells with a Verbal component, has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition, and takes 10 (3d6) Acid damage at the start of each of the cube's\
-      \ turns. When the cube moves, the engulfed target moves with it. An engulfed\
-      \ target can try to escape by taking an action to make a DC 12 Strength ([Athletics](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. On a successful check,\
-      \ the target escapes and enters the nearest unoccupied space. Success: Half\
-      \ damage, and the target moves to an unoccupied space within 5 feet of the cube.\
-      \ If there is no unoccupied space, the target fails the save instead."
+      \ enters for the first time during this move. Failure: dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Acid damage, and the target is engulfed. An engulfed target is suffocating,\
+      \ can't cast spells with a Verbal component, has the [Restrained](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Restrained) condition, and takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Acid damage at the start of each of the cube's turns. When the cube\
+      \ moves, the engulfed target moves with it. An engulfed target can try to escape\
+      \ by taking an action to make a DC 12 Strength ([Athletics](Інструменти%20ДМ\
+      /CLI/rules/skills.md#Athletics)) check. On a successful check, the target escapes\
+      \ and enters the nearest unoccupied space. Success: Half damage, and the target\
+      \ moves to an unoccupied space within 5 feet of the cube. If there is no unoccupied\
+      \ space, the target fails the save instead."
     "name": "Engulf"
 "source":
   - "XMM"

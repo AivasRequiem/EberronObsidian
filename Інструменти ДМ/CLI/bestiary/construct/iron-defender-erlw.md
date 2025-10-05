@@ -62,12 +62,13 @@ Each kind of homunculus has a body constructed from different kinds of materials
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
-      \ on a DC 13 Strength saving throw or take an extra 3 (d6) piercing damage\
-      \ and be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
-      \ DC 13). The defender can have only one creature [grappled](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Grappled) in this way at a time."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage. If the target is a creature, it must succeed on a DC\
+      \ 13 Strength saving throw or take an extra dice:1d6|noform|noparens|avg|text(3)\
+      \ (d6) piercing damage and be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 13). The defender can have only one creature [grappled](Інструм\
+      енти%20ДМ/CLI/rules/conditions.md#Grappled) in this way at a time."
     "name": "Bite"
 "source":
   - "ERLW"

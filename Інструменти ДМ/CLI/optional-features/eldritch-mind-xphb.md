@@ -9,4 +9,5 @@ aliases:
 ---
 # Eldritch Mind
 *Source: Player's Handbook (2024) p. 155*  
+
 You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Constitution saving throws that you make to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration).

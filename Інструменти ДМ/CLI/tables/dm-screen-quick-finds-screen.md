@@ -18,7 +18,7 @@ aliases:
 | 1 | Artwork |
 | 2 | Body |
 | 3 | Food or drink |
-| 4 | Jewelery |
+| 4 | Jewelry |
 | 5 | Key |
 | 6 | Letter |
 | 7 | Magic herbs |

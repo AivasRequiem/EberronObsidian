@@ -74,9 +74,10 @@ Phase spiders are more intelligent than mundane spiders, but most are cowards. T
 "actions":
   - "desc": "The spider makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing\
-      \ damage plus 9 (2d8) Poison damage. If this damage reduces the target to\
-      \ 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Piercing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Poison damage.\
+      \ If this damage reduces the target to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ the target becomes [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md),\
       \ and it has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition for 1 hour. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\

@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/cleric
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "name": "Priest Acolyte (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "cleric"
 "alignment": "Neutral"
 "ac": !!int "13"
 "hp": !!int "11"
@@ -77,25 +78,18 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "languages": "Common"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
-      \ damage plus 2 (d4) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Bludgeoning\
+      \ damage plus dice:1d4|noform|noparens|avg|text(2) (d4) Radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: +4, range 60 ft. Hit: 7 (2d6) Radiant damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 60\
+      \ ft. Hit: dice:2d6|noform|noparens|avg|text(7) (2d6) Radiant damage."
     "name": "Radiant Flame"
   - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
       \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
       \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
-      \ [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Sanctuary](І\
-      нструменти%20ДМ/CLI/spells/sanctuary-xphb.md), using the same spellcasting ability\
-      \ as Spellcasting.\n"
-    "name": "Divine Aid (1/Day)"
 "bonus_actions":
-  - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
       \ [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Sanctuary](І\
       нструменти%20ДМ/CLI/spells/sanctuary-xphb.md), using the same spellcasting ability\

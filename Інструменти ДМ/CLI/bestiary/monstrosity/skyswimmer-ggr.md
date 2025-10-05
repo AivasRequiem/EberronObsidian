@@ -35,7 +35,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
   - !!int "6"
 "speed": "10 ft., fly 60 ft."
 "saves":
-  - "constitution": "+8"
+  - "constitution": !!int "8"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -49,24 +49,26 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
   - "desc": "The skyswimmer makes three attacks: one with its bite and two with its\
       \ slam."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 22 (3d10 + 6) piercing damage. If the target is a Large or smaller creature,\
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d10+6|noform|noparens|avg|text(22)\
+      \ (3d10 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.\
       \ A swallowed creature is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), it\
       \ has total cover against attacks and other effects outside the skyswimmer,\
-      \ and it takes 21 (6d6) acid damage at the start of each of the skyswimmer's\
-      \ turns. If the skyswimmer takes 30 damage or more on a single turn from the\
-      \ swallowed creature, the skyswimmer must succeed on a DC 18 Constitution saving\
-      \ throw at the end of that turn or regurgitate the creature, which falls [prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) in a space within 10 feet of\
-      \ the skyswimmer. If the skyswimmer dies, a swallowed creature is no longer\
-      \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) by it and\
-      \ can escape from the corpse by using 15 feet of movement, exiting [prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ and it takes dice:6d6|noform|noparens|avg|text(21) (6d6) acid damage at\
+      \ the start of each of the skyswimmer's turns. If the skyswimmer takes 30 damage\
+      \ or more on a single turn from the swallowed creature, the skyswimmer must\
+      \ succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate\
+      \ the creature, which falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ in a space within 10 feet of the skyswimmer. If the skyswimmer dies, a swallowed\
+      \ creature is no longer [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ by it and can escape from the corpse by using 15 feet of movement, exiting\
+      \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit:\
-      \ 19 (2d12 + 6) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 30 ft., one target. Hit: dice:2d12+6|noform|noparens|avg|text(19)\
+      \ (2d12 + 6) bludgeoning damage."
     "name": "Slam"
 "source":
   - "GGR"

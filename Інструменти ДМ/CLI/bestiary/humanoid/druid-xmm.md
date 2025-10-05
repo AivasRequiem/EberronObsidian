@@ -69,10 +69,12 @@ Druids use primal magic, traditional teachings, and bonds with animals and eldri
   - "desc": "The druid makes two attacks, using Vine Staff or Verdant Wisp in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Bludgeoning\
+      \ damage plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage."
     "name": "Vine Staff"
-  - "desc": "Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 90\
+      \ ft. Hit: dice:3d6|noform|noparens|avg|text(10) (3d6) Radiant damage."
     "name": "Verdant Wisp"
   - "desc": "The druid casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 13):\n\nAt will: [Druidcraft](Інструменти%20ДМ\

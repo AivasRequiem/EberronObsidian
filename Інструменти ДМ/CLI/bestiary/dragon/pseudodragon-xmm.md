@@ -90,13 +90,13 @@ Many pseudodragons prefer the finer things in life. These diminutive dragons mig
 "actions":
   - "desc": "The pseudodragon makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage."
     "name": "Bite"
   - "desc": "Constitution Saving Throw: DC 12, one creature the pseudodragon can\
-      \ see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has\
-      \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
-      \ for 1 hour. By 5th Failure: While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+      \ see within 5 feet. Failure: dice:2d4|noform|noparens|avg|text(5) (2d4)\
+      \ Poison damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition for 1 hour. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target also has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition, which ends early if the target takes damage or a creature within\
       \ 5 feet of it takes an action to wake it."

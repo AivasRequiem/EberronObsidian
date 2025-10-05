@@ -60,20 +60,23 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 "traits":
   - "desc": "At the end of each of the salamander's turns, each creature of the salamander's\
       \ choice in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the salamander takes 7 (2d6) Fire damage."
+      \ originating from the salamander takes dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) Fire damage."
     "name": "Fire Aura"
 "actions":
   - "desc": "The salamander makes two Flame Spear attacks. It can replace one attack\
       \ with a use of Constrict."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or\
-      \ Miss: The spear magically returns to the salamander's hand immediately after\
-      \ a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
+      \ (2d8 + 4) Piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ Fire damage. Hit or Miss: The spear magically returns to the salamander's\
+      \ hand immediately after a ranged attack."
     "name": "Flame Spear"
   - "desc": "Strength Saving Throw: DC 15, one Large or smaller creature the salamander\
-      \ can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus\
-      \ 7 (2d6) Fire damage. The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ can see within 10 feet. Failure: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) Bludgeoning damage plus dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) Fire damage. The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 14), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Constrict"

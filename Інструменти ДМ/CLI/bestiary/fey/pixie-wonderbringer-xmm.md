@@ -62,9 +62,10 @@ Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They i
 "actions":
   - "desc": "The pixie makes two Faerie Dust attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft. Hit:\
-      \ 15 (2d10 + 4) Radiant damage, and the target has the [Charmed](Інструмен\
-      ти%20ДМ/CLI/rules/conditions.md#Charmed) or [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 60 ft. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
+      \ (2d10 + 4) Radiant damage, and the target has the [Charmed](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Charmed) or [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition (pixie's choice) until the start of the pixie's next turn."
     "name": "Faerie Dust"
   - "desc": "The pixie casts one of the following spells, requiring no Material components\
@@ -75,20 +76,7 @@ Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They i
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Fly](І\
       нструменти%20ДМ/CLI/spells/fly-xphb.md), [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The pixie casts [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md),\
-      \ [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md), or [Tasha's Hideous\
-      \ Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md), requiring\
-      \ no Material components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Burst of Wonder (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "The pixie casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only)\n\n1/day each:\
-      \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Fly](І\
-      нструменти%20ДМ/CLI/spells/fly-xphb.md), [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The pixie casts [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md),\
       \ [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md), or [Tasha's Hideous\
       \ Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md), requiring\

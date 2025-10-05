@@ -84,11 +84,13 @@ Roll on or choose a result from the Ettin Interactions table to inspire how an e
 "actions":
   - "desc": "The ettin makes one Battleaxe attack and one Morningstar attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Battleaxe"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Piercing\
       \ damage, and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on the next attack roll it makes before the end of its next turn."
     "name": "Morningstar"

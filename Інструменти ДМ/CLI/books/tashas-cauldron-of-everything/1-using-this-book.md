@@ -11,7 +11,7 @@ aliases:
 
 *Tasha's Cauldron of Everything* offers a host of new options for Dungeons & Dragons, and our journey through those options is accompanied by the notes of the wizard Tasha. Creator of the spell [Tasha's hideous laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md), Tasha's life is one of the most storied in the D&D multiverse. Raised by Baba Yaga, the Mother of Witches herself, Tasha adventured across the world of Greyhawk and became the friend and sometimes enemy of other famous adventurers, like Mordenkainen. In time, she ruled as the Witch Queen and later changed her name to Iggwilv—a figure of legend who is whispered about, feared, and admired.
 
- Written for players and Dungeon Masters alike, this book offers options to enhance characters and campaigns in any D&D world, whether you're adventuring in Greyhawk, another official D&D setting, or a world of your own creation.
+Written for players and Dungeon Masters alike, this book offers options to enhance characters and campaigns in any D&D world, whether you're adventuring in Greyhawk, another official D&D setting, or a world of your own creation.
 
 ## What You'll Find Within
 
@@ -27,7 +27,7 @@ aliases:
 
 Everything in this book is optional. Each group, guided by the DM, decides which of these options, if any, to incorporate into a campaign. You can use some, all, or none of them. We encourage you to choose the ones that fit best with your campaign's story and with your group's style of play.
 
- Whatever options you choose to use, this book relies on the rules in the "Player's Handbook", "Monster Manual", and "Dungeon Master's Guide", and it can be paired with the options in "Xanathar's Guide to Everything" and other D&D books.
+Whatever options you choose to use, this book relies on the rules in the "Player's Handbook", "Monster Manual", and "Dungeon Master's Guide", and it can be paired with the options in "Xanathar's Guide to Everything" and other D&D books.
 
 > [!note] Unearthed Arcana
 > 
@@ -46,7 +46,7 @@ The rules of D&D cover many of the twists and turns that come up in play, but th
 
 General rules govern each part of the game. For example, the combat rules tell you that melee weapon attacks use Strength and ranged weapon attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
 
- The game also includes elements—class features, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee weapon attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
+The game also includes elements—class features, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee weapon attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
 
 ### 3. Advantage and Disadvantage
 

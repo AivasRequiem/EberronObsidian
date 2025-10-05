@@ -36,7 +36,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.
+You remove poison and rot from nonmagical food and drink in a 5-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on a point within range.
 
 **Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

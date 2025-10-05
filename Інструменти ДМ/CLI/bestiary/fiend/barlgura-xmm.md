@@ -48,8 +48,8 @@ Barlguras vary in appearance, but all have powerful frames and hands capable of 
   - !!int "9"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+6"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -69,10 +69,12 @@ Barlguras vary in appearance, but all have powerful frames and hands capable of 
 "actions":
   - "desc": "The barlgura makes one Tormenting Bite attack and two Thrash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
-      \ damage plus 13 (2d12) Psychic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
+      \ damage plus dice:2d12|noform|noparens|avg|text(13) (2d12) Psychic damage."
     "name": "Tormenting Bite"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Thrash"

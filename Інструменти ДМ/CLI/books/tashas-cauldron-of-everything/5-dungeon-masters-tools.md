@@ -11,7 +11,7 @@ aliases:
 
 The Dungeon Master employs many tools when preparing and running a D&D campaign. As a DM, your tools include your imagination, your ability to discern what entertains your players, your storytelling acumen, your sense of humor, your ability to listen well, your facility with the game's rules, and more. This chapter adds to your toolbox with guidance and optional rules for a variety of situations. The chapter also includes a selection of ready-to-use puzzles, which you can drop into any campaign.
 
- The tools herein build on the material in the "Dungeon Master's Guide" and the "Monster Manual". You may use some, all, or none of these tools, and feel free to customize how they work. Your group's enjoyment is paramount, so make these rules your own, aiming to match your group's tastes.
+The tools herein build on the material in the "Dungeon Master's Guide" and the "Monster Manual". You may use some, all, or none of these tools, and feel free to customize how they work. Your group's enjoyment is paramount, so make these rules your own, aiming to match your group's tastes.
 
 ![Tasha prepares to win anot...](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/090-04-001.webp#center "Tasha prepares to win another game of wizardly chess against her rival Mordenkainen.")
 
@@ -23,7 +23,7 @@ The Dungeon Master employs many tools when preparing and running a D&D campaign.
 
 Before making characters or playing the game, the DM and players can run a special session—colloquially called session zero—to establish expectations, outline the terms of a social contract, and share house rules. Making and sticking to these rules can help ensure that the game is a fun experience for everyone involved.
 
- Often a session zero includes building characters together. As the DM, you can help players during the character creation process by advising them to select options that will serve the adventure or campaign that awaits.
+Often a session zero includes building characters together. As the DM, you can help players during the character creation process by advising them to select options that will serve the adventure or campaign that awaits.
 
 ### Character and Party Creation
 
@@ -38,7 +38,7 @@ During session zero, your role is to let the players build the characters they w
 - What does each character like most about every other member of the adventuring party?  
 - Does the group have a patron? See chapter 2, ""Group Patrons"" for patron examples.  
 
- If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `d6` roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
+If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `dice:d6|noform|noparens|avg` (`d6`) roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
 
 ![Party Formation; Party Origin](Інструменти%20ДМ/CLI/tables/party-formation-party-origin-tce.md)
 
@@ -46,7 +46,7 @@ During session zero, your role is to let the players build the characters they w
 
 A DM running a game for one player should spend part of session zero working with that player to come up with their character's backstory, then let the player decide if they want the character to have a sidekick (see the "Sidekicks" section in this chapter).
 
- You might need to help the player run the sidekick for the first few sessions and should make sure the player understands the functions and limitations of sidekicks:
+You might need to help the player run the sidekick for the first few sessions and should make sure the player understands the functions and limitations of sidekicks:
 
 - Sidekicks are stalwart companions who can perform tasks both in and out of combat, including things such as setting up camp and carrying gear.  
 - Ideally, a sidekick's abilities should complement those of the main character. For example, a spellcaster makes a good sidekick for a fighter or rogue.  
@@ -57,14 +57,14 @@ A DM running a game for one player should spend part of session zero working wit
 
 D&D is first and foremost meant to be a fun-for-all experience. If one or more participants aren't having fun, the game won't last long. Session zero is the perfect time for you and the players to discuss the experience they're hoping for, as well as topics, themes, and behavior they deem inappropriate. Out of this discussion, a social contract begins to form.
 
- Sometimes a social contract takes shape organically, but it's good practice to have a direct conversation during session zero to establish boundaries and expectations. A typical social contract in a D&D group includes implicit or explicit commitments to the following points:
+Sometimes a social contract takes shape organically, but it's good practice to have a direct conversation during session zero to establish boundaries and expectations. A typical social contract in a D&D group includes implicit or explicit commitments to the following points:
 
 - You will respect the players by running a game that is fun, fair, and tailored for them. You will allow every player to contribute to the ongoing story and give every character moments to shine. When a player is talking, you are listening.  
 - The players will respect you and the effort it takes to create a fun game for everyone. The players will allow you to direct the campaign, arbitrate the rules, and settle arguments. When you are talking, the players are listening.  
 - The players will respect one another, listen to one another, support one another, and do their utmost to preserve the cohesion of the adventuring party.  
 - Should you or a player disrespect each other or violate the social contract in some other way, the group may dismiss that person from the table.   
 
- This social contract covers the basics, but individual groups might require additional agreed-upon terms to guarantee a fun play experience for all. And a social contract typically evolves as a group's members learn more about one another.
+This social contract covers the basics, but individual groups might require additional agreed-upon terms to guarantee a fun play experience for all. And a social contract typically evolves as a group's members learn more about one another.
 
 #### Hard and Soft Limits
 
@@ -96,7 +96,7 @@ In addition to shaping the game around the characters in the adventuring party, 
 
 House rules include optional rules, such as those presented in "chapter 9" of the "Dungeon Master's Guide", and rules you create. If you plan to use any house rules, session zero is a good time to discuss those rules with the players and solicit their input.
 
- House rules are best presented as experiments, and time will tell if they're good for your game. If you introduce a house rule in session zero that turns out to have an adverse effect on people's enjoyment of the game, you may jettison or revise the house rule to create a better gaming experience for everyone. Don't feel bad if a house rule doesn't end up working as well as you expected it to. Remember: the goal is to ensure everyone is having fun.
+House rules are best presented as experiments, and time will tell if they're good for your game. If you introduce a house rule in session zero that turns out to have an adverse effect on people's enjoyment of the game, you may jettison or revise the house rule to create a better gaming experience for everyone. Don't feel bad if a house rule doesn't end up working as well as you expected it to. Remember: the goal is to ensure everyone is having fun.
 
 ## Sidekicks
 
@@ -106,24 +106,24 @@ House rules include optional rules, such as those presented in "chapter 9" of th
 
 This section provides a straightforward way to add a special NPC—called a sidekick—to the group of adventurers. These rules take a creature with a low challenge rating and give it levels in one of three simple classes: Expert, Spellcaster, or Warrior.
 
- A sidekick can be incorporated into a group at the party's inception, or a sidekick might join them during the campaign. For example, the characters might meet a villager, an animal, or another creature, forge a friendship, and invite the creature to join them on their adventures.
+A sidekick can be incorporated into a group at the party's inception, or a sidekick might join them during the campaign. For example, the characters might meet a villager, an animal, or another creature, forge a friendship, and invite the creature to join them on their adventures.
 
- You can also use these rules to customize a monster for your own use as DM.
+You can also use these rules to customize a monster for your own use as DM.
 
 ### Creating a Sidekick
 
 A sidekick can be any type of creature with a stat block in the "Monster Manual" or another D&D book, but the challenge rating in its stat block must be 1/2 or lower. You take that stat block and add to it, as explained in the "Gaining a Sidekick Class" section.
 
- To join the adventurers, the sidekick must be the friend of at least one of them. This friendship might be connected to a character's backstory or to events that have transpired in play. For example, a sidekick could be a childhood friend or pet, or it might be a creature the adventurers saved. As DM, you determine whether there is sufficient trust established for the creature to join the group.
+To join the adventurers, the sidekick must be the friend of at least one of them. This friendship might be connected to a character's backstory or to events that have transpired in play. For example, a sidekick could be a childhood friend or pet, or it might be a creature the adventurers saved. As DM, you determine whether there is sufficient trust established for the creature to join the group.
 
- You decide who plays the sidekick. Here are some options:
+You decide who plays the sidekick. Here are some options:
 
 - A player plays the sidekick as their second character—ideal when you have only one or two players.  
 - A player plays the sidekick as their only character—ideal for a player who wants a character who's simpler than a typical player character.  
 - The players jointly play the sidekick.  
 - You play the sidekick.  
 
- There's no limit on the number of sidekicks in a group, but having more than one per player character can noticeably slow down the game. And when estimating the difficulty of an upcoming encounter, count each sidekick as a character.
+There's no limit on the number of sidekicks in a group, but having more than one per player character can noticeably slow down the game. And when estimating the difficulty of an upcoming encounter, count each sidekick as a character.
 
 ### Gaining a Sidekick Class
 
@@ -141,19 +141,19 @@ Whenever a group's average level goes up, the sidekick gains a level. It doesn't
 
 Whenever the sidekick gains a level, it gains one Hit Die, and its hit point maximum increases. To determine the amount of the increase, roll the Hit Die (the type of die appears in the sidekick's stat block), and add its Constitution modifier. It gains a minimum of 1 hit point per level.
 
- If the sidekick drops to 0 hit points and isn't killed outright, it falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) and subsequently makes death saving throws, just like a player character.
+If the sidekick drops to 0 hit points and isn't killed outright, it falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) and subsequently makes death saving throws, just like a player character.
 
 #### Proficiency Bonus
 
 The sidekick's proficiency bonus is determined by its level in its class, as shown in the class's table.
 
- Whenever the sidekick's proficiency bonus increases by 1, add 1 to the to-hit modifier of all the attacks in its stat block, and increase the DCs in its stat block by 1.
+Whenever the sidekick's proficiency bonus increases by 1, add 1 to the to-hit modifier of all the attacks in its stat block, and increase the DCs in its stat block by 1.
 
 #### Ability Score Increases
 
 Whenever the sidekick gains the Ability Score Improvement feature, adjust anything in its stat block that relies on an ability modifier that you increase. For example, if the sidekick has an attack that uses its Strength modifier, increase the attack's modifiers to hit and damage if the Strength modifier increases.
 
- If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either.
+If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either.
 
 - [Expert Sidekick](Інструменти%20ДМ/CLI/classes/expert-sidekick-tce.md)  
 - [Spellcaster Sidekick](Інструменти%20ДМ/CLI/classes/spellcaster-sidekick-tce.md)  
@@ -218,17 +218,17 @@ Adventurers can research what a creature is likely to desire. The Monster Resear
 
 This section explores how to add fantastical challenges to any locale and ways to further bring an adventure's setting to life.
 
- When a creature's name appears in bold in a table herein, that indicates that you can find the creature's stat block in the "Monster Manual".
+When a creature's name appears in bold in a table herein, that indicates that you can find the creature's stat block in the "Monster Manual".
 
 ### Supernatural Regions
 
 Not all lands thrive as nature intended. Magical forces, strange interlopers, or tragic events can alter an area's destiny, fundamentally changing the land. While the flora, fauna, structures, and inhabitants might remain unaffected, the land's innate character takes on new qualities.
 
- A supernatural region is permeated by a preternatural force in an area as large or small as you wish. In the affected area, certain effects and brief encounters reinforce an underlying theme. These effects occur as characters traverse an influenced region or add interest to a specific affected location.
+A supernatural region is permeated by a preternatural force in an area as large or small as you wish. In the affected area, certain effects and brief encounters reinforce an underlying theme. These effects occur as characters traverse an influenced region or add interest to a specific affected location.
 
- The descriptions of the following supernatural regions summarize the region, present a table of potential effects within the affected area, and note triggers for a random effect. Feel free to customize the effects of each region to suit any adventure.
+The descriptions of the following supernatural regions summarize the region, present a table of potential effects within the affected area, and note triggers for a random effect. Feel free to customize the effects of each region to suit any adventure.
 
- The effects of a region occur whenever you please, at the time each description suggests, or under one or more of the following circumstances:
+The effects of a region occur whenever you please, at the time each description suggests, or under one or more of the following circumstances:
 
 - Soon after the party first enters the region  
 - When a creature loses more than half its hit points  
@@ -254,11 +254,11 @@ The grace of the Upper Planes touches this region. Consider rolling on the Bless
 
 As souls travel away from the Material Plane after death, they either dwell in the Astral Plane as spirits or are pulled toward one of the Outer Planes to continue their journey. But some entities find ways to travel beyond the Outer Planes to dwell in the Far Realm. There they transform over eons into abominations or elder evils, seething in a reality with its own laws. All who stay in the Far Realm are eventually twisted into alien shapes by the realm's eldritch forces.
 
- The Far Realm's pernicious influence is often subtle, leaking into the Material Plane through thin places in reality or as invasive thoughts that inspire life to propagate along alien paths.
+The Far Realm's pernicious influence is often subtle, leaking into the Material Plane through thin places in reality or as invasive thoughts that inspire life to propagate along alien paths.
 
- Consider rolling on the Far Realm Effects table when the following circumstances occur in a region touched by the Far Realm:
+Consider rolling on the Far Realm Effects table when the following circumstances occur in a region touched by the Far Realm:
 
-- A warlock whose Otherworldly Patron is a Great Old One rolls a 1 or 20 on the `d20` for an ability check, an attack roll, or a saving throw.  
+- A warlock whose Otherworldly Patron is a Great Old One rolls a 1 or 20 on the `dice:d20|noform|noparens|avg` (`d20`) for an ability check, an attack roll, or a saving throw.  
 - The characters take a short or long rest in the region.  
 - A creature spends more than an hour reading an eldritch tome written by those who have seen or otherwise interacted with the Far Realm.  
 
@@ -270,7 +270,7 @@ As souls travel away from the Material Plane after death, they either dwell in t
 
 Haunted environs include homes burdened by dark deeds, the sites of mass killings, and locations where individuals died while experiencing powerful fear, sorrow, or hatred. Haunted places bear echoes of the past and, like ghosts, harass visitors even as they seek respite from age-old traumas. Few places are meaninglessly haunted, and you can easily customize the general results on the following table to suit all manner of macabre tales.
 
- Consider rolling on the Haunted Effects table when the following circumstances occur in the region:
+Consider rolling on the Haunted Effects table when the following circumstances occur in the region:
 
 - A creature gains the [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition.  
 - Multiple creatures are unable to see.  
@@ -286,9 +286,9 @@ Haunted environs include homes burdened by dark deeds, the sites of mass killing
 
 On many worlds, the biomass of insects radically outweighs that of higher organisms. Mass migrations and deadly insect species can imperil larger creatures, but most insects remain nothing more than an annoyance. However, through wild population booms, magical manipulation, supernatural growth, interbreeding with otherworldly species, or stranger circumstances, insects can overrun an entire region. Swarms of insects become the dominant species in an area, consuming plants and animals, creating elaborate hives or tunnels, and infesting structures and the earth.
 
- The following effects represent a region overrun by insects or hives of similar creatures, likely manipulated by magic, otherworldly intelligence, or environmental factors to infest an area in countless numbers and drive out all competing life.
+The following effects represent a region overrun by insects or hives of similar creatures, likely manipulated by magic, otherworldly intelligence, or environmental factors to infest an area in countless numbers and drive out all competing life.
 
- Consider rolling on the Infested Effects table when the following circumstances occur in the region:
+Consider rolling on the Infested Effects table when the following circumstances occur in the region:
 
 - Webs, cocoons, hives, anthills, or other insect dwellings are disturbed.  
 - A creature attacks an insect swarm or a Small or larger insect, such as a [giant centipede](Інструменти%20ДМ/CLI/bestiary/beast/giant-centipede-xmm.md) or [giant spider](Інструменти%20ДМ/CLI/bestiary/beast/giant-spider-xmm.md), in the region.  
@@ -302,7 +302,7 @@ On many worlds, the biomass of insects radically outweighs that of higher organi
 
 A mirror zone occurs where planar and magical energies converge and create a place of reflections. Creatures, objects, and energy reflect, refract, duplicate, or are transported elsewhere. Such locations arise from the intrusion of a theorized Plane of Mirrors upon the Material Plane, or where powerful magic governing transition, protection, or divination had unexpected results.
 
- Consider rolling on the Mirror Zone Effects table when the following circumstances occur in the region:
+Consider rolling on the Mirror Zone Effects table when the following circumstances occur in the region:
 
 - A creature shatters a mirror.  
 - A creature uses any teleportation magic.  
@@ -317,7 +317,7 @@ A mirror zone occurs where planar and magical energies converge and create a pla
 
 In an area of psychic resonance, magic imposes strange effects on creatures and objects. These manifestations stem from strong emotions combined with magic use or from the presence of psionic creatures.
 
- Consider rolling on the Psychic Resonance Effects table when the following circumstances occur in the region:
+Consider rolling on the Psychic Resonance Effects table when the following circumstances occur in the region:
 
 - A creature endures a powerful emotional experience.  
 - A creature takes an amount of psychic damage greater than its Constitution score.  
@@ -337,7 +337,7 @@ In an area of psychic resonance, magic imposes strange effects on creatures and 
 
 The source of magic is damaged or corrupted in this region. Magic is unpredictable, and strange results occur when a creature casts a spell. Such regions come into being when potent rituals go awry (or if they succeed, in the case of dangerous and destructive undertakings), in the aftermath of cataclysmic magical battles, or where an artifact was destroyed.
 
- Consider rolling on the Unraveling Magic Effects table when the following circumstances occur in the region:
+Consider rolling on the Unraveling Magic Effects table when the following circumstances occur in the region:
 
 - Any charges are expended in a magic item.  
 - A spell slot of 1st level or higher is expended.  
@@ -366,7 +366,7 @@ When magical currents become trapped amid winds and clouds, eldritch storms can 
 
 Occasionally a place becomes infused with the powerful emotions of those who once dwelt, worked, celebrated, or suffered there. Areas with emotional echoes are typically associated with one common emotion, such as joy or sorrow. Such an area might be as small as a room in a house or as large as a forest. Once per day, if a creature within the area expresses even the faintest hint of the prevailing emotion, the land seeks to hold onto that creature and inspire it to produce more of the feeling tied to the emotional echo. The creature is targeted by a [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) spell (DC 16), with the intent of making it linger in the area and perform an act related to its associated emotion. The effect lasts 24 hours.
 
- The following list notes some of the most common emotional echoes, where they tend to appear, and how they typically influence creatures:
+The following list notes some of the most common emotional echoes, where they tend to appear, and how they typically influence creatures:
 
 ##### Boldness
 
@@ -404,11 +404,11 @@ Appears in ruins and swamps, particularly around quicksand, and overwhelms creat
 
 Enchanted springs brim with miraculous waters, whether they tap into magical sources hidden beneath the earth or they're blessed by eldritch beings. Those who find these mystical sites might bathe or drink from the pools and temporarily gain a measure of the waters' magic. All manner of protectors or covetous guardians might lurk around these springs, driving off strangers or demanding a worthy price for access to the mystical waters.
 
- While many enchanted springs bear the blessings of wild gods or fey beings, some are tainted. These might be waters that were long ago polluted by the ichor of an evil entity. As with pristine enchanted springs, folk seek out such defiled places, whether to purify them or claim their foul powers.
+While many enchanted springs bear the blessings of wild gods or fey beings, some are tainted. These might be waters that were long ago polluted by the ichor of an evil entity. As with pristine enchanted springs, folk seek out such defiled places, whether to purify them or claim their foul powers.
 
- Regardless of whether a spring is pure or tainted, creatures might need to drink the water to experience the spring's effects, simply touch the water, or bathe in it for a minute to trigger an effect.
+Regardless of whether a spring is pure or tainted, creatures might need to drink the water to experience the spring's effects, simply touch the water, or bathe in it for a minute to trigger an effect.
 
- Bottling an enchanted spring's water removes its magical properties, unless the bottle is a specially prepared vial blessed by whatever being enchanted the spring in the first place.
+Bottling an enchanted spring's water removes its magical properties, unless the bottle is a specially prepared vial blessed by whatever being enchanted the spring in the first place.
 
 ![Enchanted Spring](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/104-04-015.webp#center)
 
@@ -442,7 +442,7 @@ If the colony's survival is threatened and it thinks it has a chance of survivin
 
 - The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) instead for that duration.  
 - The mimic colony uses the [Help](Інструменти%20ДМ/CLI/rules/actions.md#Help) action, aiding a creature of its choice within 300 feet of it.  
-- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take 13 (`3d8`) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.  
+- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take `dice:3d8|noform|noparens|avg|text(13)` (`3d8`) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.  
 - The mimic colony chooses a cube of nonmagical, inanimate material in physical contact with it. The cube can be up to 15 feet on a side. The colony reshapes that material however it likes. This transformation lasts for 1 hour.  
 
 When determining the difficulty of an encounter with a hostile mimic colony, consider the colony to be one additional creature of challenge rating 2.
@@ -453,9 +453,9 @@ When determining the difficulty of an encounter with a hostile mimic colony, con
 
 In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.
 
- A fruit-bearing plant that is suffused with magic might produce `d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
+A fruit-bearing plant that is suffused with magic might produce `dice:1d6|noform|noparens|avg` (`d6`) pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
 
- As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](Інструменти%20ДМ/CLI/spells/identify-xphb.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
+As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](Інструменти%20ДМ/CLI/spells/identify-xphb.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
 
 ![Tressym fly around a primal tree](Інструменти%20ДМ/CLI/books/tashas-cauldron-of-everything/img/107-04-018.webp#center)
 
@@ -550,7 +550,7 @@ Fit this into your campaign by making the name of the creature the first item on
 > 
 > This gallery is decorated with seven framed paintings of creatures. A few chairs and benches have been placed in front of the art for viewing.
 > 
->  A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within." 
+> A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within." 
 ^3a3
 
 Characters should be free to explore the gallery and inspect the paintings and dedication to discover the parts of the puzzle.
@@ -612,7 +612,7 @@ To safely walk across the room, a character must step on the correct tiles. Step
 
 ##### Traps
 
-Certain tiles (as indicated in this trap's "Solution" section) are trapped. A trapped tile is triggered when more than 20 pounds of weight are placed on it, activating the pressure plate underneath and causing jets of poisonous gas to spout from the cracks between the tiles. Any creature above the trapped floor tile or one of its adjacent tiles must make a DC 15 Constitution saving throw, taking 11 (`2d10`) poison damage on a failed save, or half as much damage on a successful one.
+Certain tiles (as indicated in this trap's "Solution" section) are trapped. A trapped tile is triggered when more than 20 pounds of weight are placed on it, activating the pressure plate underneath and causing jets of poisonous gas to spout from the cracks between the tiles. Any creature above the trapped floor tile or one of its adjacent tiles must make a DC 15 Constitution saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) poison damage on a failed save, or half as much damage on a successful one.
 
 As an action, a character can disable a trap with a successful DC 15 Dexterity check using thieves' tools. If a character fails to disable the trap, the tile's trap can no longer be disabled.
 
@@ -650,12 +650,12 @@ Rather than have the same poison gas trap on every trapped tile, each word can h
 
 - **Magic.** The trap triggers normally, as described in this puzzle's "Traps" section.  
 - **Abjuration.** The trap casts [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md) on each creature in the room, using a 9th-level spell slot.  
-- **Conjuration.** The trap teleports the creature that triggered it back to the entrance of the room. That creature must also make a DC 15 Constitution saving throw, taking 11 (`2d10`) force damage on a failed save, or half as much damage on a successful one.  
+- **Conjuration.** The trap teleports the creature that triggered it back to the entrance of the room. That creature must also make a DC 15 Constitution saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) force damage on a failed save, or half as much damage on a successful one.  
 - **Divination.** The creature that triggered the trap must succeed on a DC 15 Intelligence saving throw or be unable to perceive any of the letters on the tiles by sight or touch. Any magic that ends a curse ends this effect on the character. A player whose character is affected by this trap should not be allowed to reference the accompanying player handout until the effect on that character ends.  
 - **Enchantment.** The trap casts [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap.  
-- **Evocation.** Magical fire erupts from the trapped tile. The creature that triggered this trap must succeed on a DC 15 Dexterity saving throw, taking 11 (`2d10`) fire damage on a failed save, or half as much damage on a successful one.  
+- **Evocation.** Magical fire erupts from the trapped tile. The creature that triggered this trap must succeed on a DC 15 Dexterity saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) fire damage on a failed save, or half as much damage on a successful one.  
 - **Illusion.** A suit of [animated armor](Інструменти%20ДМ/CLI/bestiary/construct/animated-armor-xmm.md) appears in an unoccupied space within 5 feet of the creature that set off this trap. The armor attacks only the creature that summoned it and can't leave the room. It doesn't set off any of the room's traps and disappears if it takes any damage. Otherwise, it lasts for 1 minute.  
-- **Necromancy.** Any creature that triggers this trap hears a banshee's wail in its mind. Unless the creature is a construct or undead, it must succeed on a DC 13 Constitution saving throw. On a failure, the creature drops to 0 hit points. On a success, it takes 10 (`3d6`) psychic damage.  
+- **Necromancy.** Any creature that triggers this trap hears a banshee's wail in its mind. Unless the creature is a construct or undead, it must succeed on a DC 13 Constitution saving throw. On a failure, the creature drops to 0 hit points. On a success, it takes `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) psychic damage.  
 - **Transmutation.** The trap casts [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md) (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a [giant frog](Інструменти%20ДМ/CLI/bestiary/beast/giant-frog-xmm.md).  
 
 ### Skeleton Keys
@@ -670,11 +670,11 @@ This puzzle presents a quick encounter useful for providing treasure or informat
 > 
 > *The spells on these locks are all the same.*
 > 
->  *Though each possesses a unique name.*
+> *Though each possesses a unique name.*
 > 
 > *Count on your answer to unlock the way,*
 > 
->  *But use the wrong key to your dismay.*
+> *But use the wrong key to your dismay.*
 ^3b3
 
 All four locks must be opened before the box's contents (whatever they might be) can be accessed.
@@ -685,7 +685,7 @@ All four locks must be opened before the box's contents (whatever they might be)
 
 Show the players puzzle handout 2 (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.
 
-Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`d4` [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `d4` [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `d4` [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `d4` [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
+Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`dice:1d4|noform|noparens|avg` (`d4`) [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `dice:1d4|noform|noparens|avg` (`d4`) [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `dice:1d4|noform|noparens|avg` (`d4`) [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `dice:1d4|noform|noparens|avg` (`d4`) [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
 
 #### Solution
 
@@ -806,9 +806,9 @@ This map puzzle is designed to lead a party through a dungeon where a roaming be
 > 
 > A disorienting wave sweeps over you. Suddenly, your surroundings are unfamiliar and shrouded in shadows.
 > 
->  Out of the gloom appears a hooded goblin carrying a lantern.
+> Out of the gloom appears a hooded goblin carrying a lantern.
 > 
->  "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter." 
+> "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter." 
 ^3cc
 
 The [goblin](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) is friendly, and its offer is genuine. It's name is Igor (pronounced *eye*-gor), which it reveals only if asked. The characters find themselves in a maze that emits magical darkness that can't be dispelled. No vision can penetrate this darkness, and only the goblin's lantern can illuminate it. Igor's lantern emits light in a 5-foot radius, but only so long as the goblin holds it. The lantern goes dark if any other creature takes custody of it.
@@ -877,11 +877,11 @@ This puzzle is easily situated in a dungeon, a dusty mausoleum, or an abandoned 
 > 
 > *Brave warriors met their demise foretold.*
 > 
->  *Their secret kept shall yet unfold.*
+> *Their secret kept shall yet unfold.*
 > 
 > *If crowns placed correctly on the shrine,*
 > 
->  *Celestial beds for four of nine.*
+> *Celestial beds for four of nine.*
 ^3d8
 
 Solving this puzzle causes a secret compartment in the altar to open, revealing treasure hidden within. The compartment can't be opened in any other way.

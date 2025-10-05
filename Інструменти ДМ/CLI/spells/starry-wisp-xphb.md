@@ -29,9 +29,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes `d8` Radiant damage, and until the end of your next turn, it emits [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) in a 10-foot radius and can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
+You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes `dice:1d8|noform|noparens|avg` (`d8`) Radiant damage, and until the end of your next turn, it emits [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) in a 10-foot radius and can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
 
-**Cantrip Upgrade.** The damage increases by `d8` when you reach levels 5 (`2d8`), 11 (`3d8`), and 17 (`4d8`).
+**Cantrip Upgrade.** The damage increases by `dice:1d8|noform|noparens|avg` (`d8`) when you reach levels 5 (`dice:2d8|noform|noparens|avg` (`2d8`)), 11 (`dice:3d8|noform|noparens|avg` (`3d8`)), and 17 (`dice:4d8|noform|noparens|avg` (`4d8`)).
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

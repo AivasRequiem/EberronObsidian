@@ -45,22 +45,24 @@ One of the most effective weapons in the Rakdos cult's arsenal is satire, and a 
 "cr": "2"
 "traits":
   - "desc": "The lampooner is a 4th-level Rakdos spellcaster. Its spellcasting ability\
-      \ is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the\
-      \ following bard spells:\n\nCantrips (at will): [dancing lights](Інструм\
-      енти%20ДМ/CLI/spells/dancing-lights-xphb.md), [minor illusion](Інструменти%20Д\
-      М/CLI/spells/minor-illusion-xphb.md), [vicious mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md)\n\
-      \n1st level (4 slots): [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md),\
-      \ [dissonant whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md),\
-      \ [silent image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md), [Tasha's\
-      \ hideous laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md),\
-      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n2nd level\
-      \ (3 slots): [crown of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md),\
+      \ is Charisma (spell save DC 14, dice:1d20+6|noform|noparens|text(+6) to hit\
+      \ with spell attacks). It knows the following bard spells:\n\nCantrips (at\
+      \ will): [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [vicious\
+      \ mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md)\n\n1st level\
+      \ (4 slots): [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md), [dissonant\
+      \ whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md), [silent\
+      \ image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md), [Tasha's hideous\
+      \ laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md), [thunderwave](І\
+      нструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n2nd level (3 slots):\
+      \ [crown of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md),\
       \ [enthrall](Інструменти%20ДМ/CLI/spells/enthrall-xphb.md), [suggestion](Інс\
       трументи%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+2|noform|noparens|text(+2) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4|noform|noparens|avg|text(2) (d4)\
+      \ bludgeoning damage."
     "name": "Club"
 "source":
   - "GGR"

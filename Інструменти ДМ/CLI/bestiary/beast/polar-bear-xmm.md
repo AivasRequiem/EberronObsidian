@@ -48,8 +48,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The bear makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8 + 5) Slashing damage."
     "name": "Rend"
 "source":
   - "XMM"

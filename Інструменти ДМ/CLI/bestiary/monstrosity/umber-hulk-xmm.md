@@ -54,16 +54,17 @@ Umber hulks typically lurk in tunnels they've burrowed alongside other passages.
 "actions":
   - "desc": "The umber hulk makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
       \ damage."
     "name": "Rend"
 "bonus_actions":
   - "desc": "Wisdom Saving Throw: DC 14, each creature in a 30-foot [Cone](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
       \ The target can't take Reactions until the start of the umber hulk's next turn,\
-      \ and the target rolls d8 to determine what it does on its next turn:\n\n\
-      - 1-4. The target does nothing.  \n- 5-6. The target takes no action\
-      \ or [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
+      \ and the target rolls dice:1d8|noform|noparens|avg (d8) to determine what\
+      \ it does on its next turn:\n\n- 1-4. The target does nothing.  \n- 5-6.\
+      \ The target takes no action or [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
       \ and uses all its movement to move in a random direction.  \n- 7-8. The\
       \ target makes a melee attack against a random creature within its reach or\
       \ does nothing if it can't make such an attack.  "

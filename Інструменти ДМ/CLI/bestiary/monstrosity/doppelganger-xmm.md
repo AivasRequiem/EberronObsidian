@@ -76,9 +76,10 @@ A doppelganger's agenda might relate to its mysterious magical origins or to mor
   - "desc": "The doppelganger makes two Slam attacks and uses Unsettling Visage if\
       \ available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ during the first round of each combat), reach 5 ft. Hit: 11 (2d6 + 4)\
-      \ Bludgeoning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6) (with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) during the first\
+      \ round of each combat), reach 5 ft. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) Bludgeoning damage."
     "name": "Slam"
   - "desc": "Wisdom Saving Throw: DC 12, each creature in a 15-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\

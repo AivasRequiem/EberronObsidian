@@ -45,10 +45,10 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
   - !!int "21"
 "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+11"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+10"
@@ -69,14 +69,18 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+6|noform|noparens|avg|text(17)\
+      \ (2d10 + 6) piercing damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 13 (2d6 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+6|noform|noparens|avg|text(13)\
+      \ (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
-      \ 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 15 ft., one target. Hit: dice:1d8+6|noform|noparens|avg|text(10)\
+      \ (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The dragon magically transforms into any creature that is Medium or Small,\
@@ -85,28 +89,29 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
     "name": "Change Shape"
   - "desc": "The dragon exhales a cloud of spores in a 90-foot cone. Each creature\
       \ in that area must make a DC 19 Wisdom saving throw. On a failed save, the\
-      \ creature takes 49 (9d10) psychic damage, and it is [frightened](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Frightened) of the dragon for 1 minute. On\
-      \ a successful save, the creature takes half as much damage with no additional\
-      \ effects. A [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ creature can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success."
+      \ creature takes dice:9d10|noform|noparens|avg|text(49) (9d10) psychic damage,\
+      \ and it is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ of the dragon for 1 minute. On a successful save, the creature takes half\
+      \ as much damage with no additional effects. A [frightened](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Frightened) creature can repeat the saving throw at\
+      \ the end of each of its turns, ending the effect on itself on a success."
     "name": "Nightmare Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The dragon releases spores around a creature within 30 feet of it that\
       \ it can see. The target must succeed on a DC 19 Wisdom saving throw or use\
       \ its reaction to make a melee weapon attack against a random creature within\
       \ reach. If no creatures are within reach, or the target can't take a reaction,\
-      \ it takes 11 (2d10) psychic damage."
+      \ it takes dice:2d10|noform|noparens|avg|text(11) (2d10) psychic damage."
     "name": "Commanding Spores"
   - "desc": "The dragon makes one Tail attack."
     "name": "Tail"
   - "desc": "The dragon releases poisonous spores around a creature within 30 feet\
       \ of it that it can see. The target must succeed on a DC 19 Constitution saving\
-      \ throw or take 28 (8d6) poison damage and become [poisoned](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Poisoned) for 1 minute. The [poisoned](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Poisoned) creature can repeat the saving throw\
-      \ at the end of each of its turns, ending the effect on itself on a success."
+      \ throw or take dice:8d6|noform|noparens|avg|text(28) (8d6) poison damage\
+      \ and become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for\
+      \ 1 minute. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
     "name": "Spore Salvo (Costs 2 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -121,8 +126,8 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
       \ and walls of the lair become difficult terrain until initiative count 20 on\
       \ the next round.  \n- Toxic Spores. The dragon fills a 20-foot cube it\
       \ can see within 120 feet of itself with toxic spores. Each creature in that\
-      \ area must succeed on a DC 15 Constitution saving throw or take 14 (4d6)\
-      \ poison damage and be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ area must succeed on a DC 15 Constitution saving throw or take dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) poison damage and be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn.  "
     "name": ""
 "regional_effects":
@@ -141,7 +146,8 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
       \ area than they normally would. Foraging in this area yields twice the usual\
       \ amount of food.  "
     "name": ""
-  - "desc": "If the dragon dies, these effects fade over the course of d10 days."
+  - "desc": "If the dragon dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
+      \ (d10) days."
     "name": ""
 "source":
   - "FTD"

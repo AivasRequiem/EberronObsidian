@@ -43,8 +43,8 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
   - !!int "16"
 "speed": "0 ft., swim 60 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -59,15 +59,16 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
 "actions":
   - "desc": "The dolphin makes two Dazzling Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) bludgeoning damage plus 7 (2d6) psychic damage, and the target\
-      \ is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the start\
-      \ of the dolphin's next turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) bludgeoning damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ psychic damage, and the target is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ until the start of the dolphin's next turn."
     "name": "Dazzling Slam"
 "bonus_actions":
   - "desc": "The dolphin magically emanates light in a 10-foot radius for a moment.\
-      \ The dolphin and each creature of its choice in that light gain 11 (2d10)\
-      \ temporary hit points."
+      \ The dolphin and each creature of its choice in that light gain dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) temporary hit points."
     "name": "Delightful Light (Recharge 5-6)"
   - "desc": "The dolphin teleports up to 30 feet to an unoccupied space it can see.\
       \ Immediately before teleporting, the dolphin can choose one creature within\

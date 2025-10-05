@@ -51,8 +51,8 @@ Rust monsters roam the Underdark searching for ferrous metal. When they find thi
 "actions":
   - "desc": "The rust monster makes one Bite attack and uses Antennae twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Piercing damage."
     "name": "Bite"
   - "desc": "The rust monster targets one nonmagical metal object—armor or a weapon—\
       worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw:\

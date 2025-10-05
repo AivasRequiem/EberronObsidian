@@ -141,7 +141,7 @@ The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among
 
 House Tharashk traditionally licenses inquisitives and bounty hunters. Recently the house's Finder's Guild has expanded into dragonshard prospecting. As dragonshards are the lifeblood of the magical economy, the house's talent has given them new wealth and influence.
 
-Tharashk is the youngest of the dragonmarked houses and hasn't embraced all the customs of the others. The distinct clans that united to form the house remain important, and heirs of the family usually retain their family names rather than adopting "d'Tharashk" as tradition dictates. Each of the three major clans—the Aashta, the Torrn, and the Velderan—has a representative on the Triumvirate that governs the house, and the city of Zarash'ak in the Shadow Marches. Together, they stand as one under the emblem of the dragonne (a lion-dragon hybrid).
+Tharashk is the youngest of the dragonmarked houses and hasn't embraced all the customs of the others. The distinct clans that united to form the house remain important, and heirs of the family usually retain their family names rather than adopting "d'Tharashk" as tradition dictates. Each of the three major clans—the Aashta, the Torrn, and the Velderan—has a representative on the Triumvirate that governs the house, and the city of Zarash'ak in the Shadow Marches. Together, they stand as one under the emblem of the [dragonne](Інструменти%20ДМ/CLI/bestiary/monstrosity/liondrake-ftd.md) (a lion-dragon hybrid).
 
 ### Variant Half-Orc or Human: Mark of Finding
 
@@ -357,7 +357,7 @@ The Mark of Shadow lets an elf weave illusions, crafting magic to distract or de
 
 Elves have carried the Mark of Shadow for thousands of years. The mark's bearers left Aerenal after the conflict that wiped out the Mark of Death and established House Phiarlan in Khorvaire. These elves are expert entertainers, giving them access to all manner of places and secrets. Known to few, there has always been an elite force of spies and assassins within House Phiarlan. Only special clients—nobles, merchant lords, and the like—have access to these spies.
 
-Toward the end of the Last War, a bitter feud broke out between the major families of the house. Known as the Shadow Schism, it resulted in a split withinin Phiarlan—and the foundation of House Thuranni. House Phiarlan continues to offer entertainment and espionage in the lands west of the Mournland, while Thuranni operates in the eastern lands. As a rule, Phiarlan elves are the better spies and Thuranni agents are superior assassins. Thuranni and Phiarlan maintain a peaceful relationship, but rivalries run deep.
+Toward the end of the Last War, a bitter feud broke out between the major families of the house. Known as the Shadow Schism, it resulted in a split within Phiarlan—and the foundation of House Thuranni. House Phiarlan continues to offer entertainment and espionage in the lands west of the Mournland, while Thuranni operates in the eastern lands. As a rule, Phiarlan elves are the better spies and Thuranni agents are superior assassins. Thuranni and Phiarlan maintain a peaceful relationship, but rivalries run deep.
 
 Baron Elar d'Thuranni is said to be responsible for the Shadow Schism. Ruling the house from an enclave in Regalport, he is always accompanied by a shadowy pair, rumored to be embodiments of shadow itself. The displacer beast serves as the young house's emblem.
 

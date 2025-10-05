@@ -47,9 +47,10 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
       \ scarab is animate."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage. If the target is a creature, it has disadvantage\
-      \ on attack rolls until the start of its next turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4\
+      \ + 3) piercing damage. If the target is a creature, it has disadvantage on\
+      \ attack rolls until the start of its next turn."
     "name": "Bite"
 "bonus_actions":
   - "desc": "The scarab releases magical glittering dust from its wings. Each creature\

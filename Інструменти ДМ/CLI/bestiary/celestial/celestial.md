@@ -25,6 +25,7 @@ cssclasses: json5e-note
 - [Ki-rin](./ki-rin-mpmm.md)
 - [Kindori](./kindori-bam.md)
 - [Mercane](./mercane-bam.md)
+- [Otherworldly Steed (Celestial)](./otherworldly-steed-celestial-xphb.md)
 - [Pegasus](./pegasus-xmm.md)
 - [Planetar](./planetar-xmm.md)
 - [Radiant Idol](./radiant-idol-erlw.md)

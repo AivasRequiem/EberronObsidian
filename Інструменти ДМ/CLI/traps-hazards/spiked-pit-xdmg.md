@@ -12,7 +12,7 @@ aliases:
 
 A 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit, which has sharpened wooden or metal spikes at the bottom. The lid remains open thereafter.
 
-A creature that falls into the pit lands at the bottom and takes 3 (`d6`) Bludgeoning damage from the fall plus 9 (`2d8`) Piercing damage from the spikes.
+A creature that falls into the pit lands at the bottom and takes `dice:1d6|noform|noparens|avg|text(3)` (`d6`) Bludgeoning damage from the fall plus `dice:2d8|noform|noparens|avg|text(9)` (`2d8`) Piercing damage from the spikes.
 
 ## Detect and Disarm
 
@@ -28,9 +28,9 @@ You can scale the trap for higher levels by increasing the pit's depth and damag
 
 | Levels | Pit Depth | Damage |
 |--------|-----------|--------|
-| 5–10 | 30 feet | 10 (`3d6`) Bludgeoning plus 13 (`3d8`) Piercing |
-| 11–16 | 60 feet | 21 (`6d6`) Bludgeoning plus 36 (`8d8`) Piercing |
-| 17–20 | 120 feet | 42 (`12d6`) Bludgeoning plus 57 (`13d8`) Piercing |
+| 5–10 | 30 feet | 10 (`dice:3d6\|noform\|noparens\|avg` (`3d6`)) Bludgeoning plus `dice:3d8\|noform\|noparens\|avg\|text(13)` (`3d8`) Piercing |
+| 11–16 | 60 feet | 21 (`dice:6d6\|noform\|noparens\|avg` (`6d6`)) Bludgeoning plus `dice:8d8\|noform\|noparens\|avg\|text(36)` (`8d8`) Piercing |
+| 17–20 | 120 feet | 42 (`dice:12d6\|noform\|noparens\|avg` (`12d6`)) Bludgeoning plus `dice:13d8\|noform\|noparens\|avg\|text(57)` (`13d8`) Piercing |
 ^levels-pit-depth-damage
 
 *Source: Dungeon Master's Guide (2024) p. 103. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

@@ -29,7 +29,7 @@ Beings of magic and machinery, modrons embody absolute law. These inhabitants of
 
 Modrons are parts of a vast hierarchy, spanning from quirky monodrones to the leader of their kind, the godlike Primus. Every modron carries out tasks assigned to it by higher-ranking modrons, doing so without question. Generally, modrons communicate only with other modrons of their own rank or the ranks immediately above and below them. Those more than one rank away tend to be either too advanced or too simple for them to understand.
 
-Modrons excel at tasks that require patience and precision, but they have little understanding of nonliteral concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
+Modrons excel at tasks that require patience and precision, but they have little understanding of non-literal concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
 
 In rare cases, a modron goes rogue and develops its own will. In these cases, other modrons are sent to recover or destroy their malfunctioning kin.
 
@@ -89,9 +89,11 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes five Slam attacks or five Electrical Discharge attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Force damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Force damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 5 (1d6 + 2) Lightning\
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 120\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Lightning\
       \ damage."
     "name": "Electrical Discharge"
   - "desc": "Constitution Saving Throws: DC 11, each creature in a 30-foot [Cone](І\

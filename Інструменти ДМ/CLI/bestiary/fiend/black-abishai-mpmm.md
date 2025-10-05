@@ -45,8 +45,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "11"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+6"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -69,11 +69,14 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "actions":
   - "desc": "The abishai makes one Bite attack and two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 9 (2d8) acid damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
+      \ (1d10 + 3) piercing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
+      \ acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) force damage."
     "name": "Scimitar"
   - "desc": "The abishai casts [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\
       \ at a point within 120 feet of it, requiring no spell components or [concentration](І\

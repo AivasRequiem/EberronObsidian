@@ -47,7 +47,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: 1 Bludgeoning damage."
     "name": "Claw"
 "source":
   - "XMM"

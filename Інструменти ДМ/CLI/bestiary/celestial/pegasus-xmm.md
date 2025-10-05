@@ -65,10 +65,10 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
   - !!int "13"
 "speed": "60 ft., fly 90 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+3"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -76,8 +76,9 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
 "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
-      \ damage plus 5 (2d4) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Bludgeoning\
+      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Radiant damage."
     "name": "Hooves"
 "source":
   - "XMM"

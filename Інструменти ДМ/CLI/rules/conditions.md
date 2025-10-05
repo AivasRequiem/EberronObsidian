@@ -17,6 +17,11 @@ While you have the Blinded condition, you experience the following effects.
 
 **Attacks Affected.** [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) rolls against you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md), and your attack rolls have [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md).
 
+## Bloodied
+_Source: Player's Handbook (2024) p. 362. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)_
+
+A creature is Bloodied while it has half its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer remaining.
+
 ## Charmed
 _Source: Player's Handbook (2024) p. 361. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)_
 

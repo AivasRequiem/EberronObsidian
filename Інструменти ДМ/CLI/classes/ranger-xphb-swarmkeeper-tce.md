@@ -72,7 +72,7 @@ A swarm of intangible nature spirits has bonded itself to you and can assist you
 
 Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack:
 
-- The attack's target takes `d6` piercing damage from the swarm.  
+- The attack's target takes `dice:1d6|noform|noparens|avg` (`d6`) piercing damage from the swarm.  
 - The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice.  
 - You are moved by the swarm 5 feet horizontally in a direction of your choice.  
 
@@ -116,7 +116,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 Your Gathered Swarm grows mightier in the following ways:
 
-- The damage of Gathered Swarm increases to `d8`.  
+- The damage of Gathered Swarm increases to `dice:1d8|noform|noparens|avg` (`d8`).  
 - If a creature fails its saving throw against being moved by Gathered Swarm, you can also cause the swarm to knock the creature [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
 - When you are moved by Gathered Swarm, it gives you half cover until the start of your next turn.  
 

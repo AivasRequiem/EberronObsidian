@@ -14,7 +14,7 @@ aliases:
 # [Blistercoil Weird](Інструменти ДМ\CLI\bestiary\elemental/blistercoil-weird-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 207*  
 
-A blistercoil weird is an anthropomorphic brute formed from water and molten rock. It absorbs energy from magical fire, causing its oozelike body to increase in size. During one disastrous experiment, Izzet researchers observed a blistercoil weird expanding to fill a six-story workshop before it released all its excess energy in an enormous explosion and returned to its original size.
+A blistercoil weird is an anthropomorphic brute formed from water and molten rock. It absorbs energy from magical fire, causing its ooze-like body to increase in size. During one disastrous experiment, Izzet researchers observed a blistercoil weird expanding to fill a six-story workshop before it released all its excess energy in an enormous explosion and returned to its original size.
 
 ## Izzet Weirds
 
@@ -60,28 +60,33 @@ An Izzet weird doesn't require air, food, drink, or sleep.
       \ While the weird is Large or bigger, it makes Strength checks and saving throws\
       \ with advantage. If the weird starts its turn at Gargantuan size, the weird\
       \ releases energy in an explosion. Each creature within 30 feet of the weird\
-      \ must make a DC 12 Dexterity saving throw, taking 28 (8d6) fire damage on\
-      \ a failed save, or half as much damage on a successful one. The explosion ignites\
-      \ flammable objects in the area that aren't being worn or carried. The weird's\
-      \ size then becomes Medium."
+      \ must make a DC 12 Dexterity saving throw, taking dice:8d6|noform|noparens|avg|text(28)\
+      \ (8d6) fire damage on a failed save, or half as much damage on a successful\
+      \ one. The explosion ignites flammable objects in the area that aren't being\
+      \ worn or carried. The weird's size then becomes Medium."
     "name": "Feed on Fire"
   - "desc": "The weird can move through a space as narrow as 1 inch wide without squeezing.\
       \ In addition, the weird can enter a hostile creature's space and stop there.\
       \ The first time the weird enters another creature's space on a turn, that creature\
-      \ takes 5 (d10) fire damage and catches fire; until someone takes an action\
-      \ to douse the fire, the burning creature takes 5 (d10) fire damage at the\
-      \ start of each of its turns."
+      \ takes dice:1d10|noform|noparens|avg|text(5) (d10) fire damage and catches\
+      \ fire; until someone takes an action to douse the fire, the burning creature\
+      \ takes dice:1d10|noform|noparens|avg|text(5) (d10) fire damage at the start\
+      \ of each of its turns."
     "name": "Form of Fire and Water"
   - "desc": "A creature that touches the weird or hits it with a melee attack while\
-      \ within 5 feet of it takes 5 (d10) fire damage."
+      \ within 5 feet of it takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ fire damage."
     "name": "Heated Body"
   - "desc": "The weird sheds bright light in a 30-foot radius and dim light for an\
       \ additional 30 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3)\
-      \ bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) bludgeoning damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ fire damage, or dice:2d8+3|noform|noparens|avg|text(11) (2d8 + 3) bludgeoning\
+      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) fire damage if\
+      \ the weird is Large or bigger."
     "name": "Slam"
 "source":
   - "GGR"

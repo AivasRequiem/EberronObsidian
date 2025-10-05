@@ -57,9 +57,10 @@ Specialized shamans called horncallers use their magic to call wild beasts to fi
   - "desc": "The horncaller makes two melee attacks with its staff and uses One with\
       \ the Worldsoul."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with\
-      \ two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
+      \ + 1) piercing damage, or dice:1d8+1|noform|noparens|avg|text(5) (1d8 +\
+      \ 1) bludgeoning damage if used with two hands."
     "name": "Staff"
   - "desc": "The horncaller chooses one beast it can see within 30 feet of it. If\
       \ the beast can hear the horncaller, the beast uses its reaction to make one\

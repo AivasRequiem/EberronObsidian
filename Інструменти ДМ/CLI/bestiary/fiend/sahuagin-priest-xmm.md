@@ -74,8 +74,9 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes two Spectral Jaws attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft. Hit:\
-      \ 11 (2d8 + 2) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
+      \ (2d8 + 2) Force damage."
     "name": "Spectral Jaws"
   - "desc": "The sahuagin casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\
@@ -83,17 +84,7 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
       \n2/day each: [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
       \ [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The sahuagin casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md)\
-      \ or [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), using\
-      \ the same spellcasting ability as Spellcasting.\n"
-    "name": "Fiendish Aid (2/Day)"
 "bonus_actions":
-  - "desc": "The sahuagin casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n2/day each: [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
-      \ [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The sahuagin casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md)\
       \ or [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), using\
       \ the same spellcasting ability as Spellcasting.\n"

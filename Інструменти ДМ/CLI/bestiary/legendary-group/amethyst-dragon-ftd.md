@@ -28,4 +28,4 @@ The region surrounding a legendary amethyst dragon's lair is altered by the drag
 - **Thriving Wildlife.** Fish and other aquatic Beasts reproduce rapidly and thrive in bodies of water within 6 miles of the lair. Foraging in these waters yields twice the usual amount of food.  
 - **Watery Sight.** Water within 6 miles of the lair is a conduit for the dragon's psionic presence. As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md) spell, requiring no spell components and targeting any body of water in that region.  
 
-If the dragon dies, the populations of aquatic life near the lair return to normal levels over the course of `d10` days. The existing abundance of amethysts remains, but new crystals and geodes form at a normal rate.
+If the dragon dies, the populations of aquatic life near the lair return to normal levels over the course of `dice:1d10|noform|noparens|avg` (`d10`) days. The existing abundance of amethysts remains, but new crystals and geodes form at a normal rate.

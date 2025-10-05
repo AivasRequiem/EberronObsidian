@@ -37,8 +37,8 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+4"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+3"
@@ -58,15 +58,18 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
       \ is a critical hit."
     "name": "Assassinate"
   - "desc": "Any creature that touches the hybrid or hits it with a melee attack while\
-      \ within 5 feet of it takes 3 (d6) poison damage."
+      \ within 5 feet of it takes dice:1d6|noform|noparens|avg|text(3) (d6) poison\
+      \ damage."
     "name": "Poisonous Skin"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution\
-      \ saving throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ bludgeoning damage, and the target must succeed on a DC 12 Constitution saving\
+      \ throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. At the end of each of the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ target's turns, it must repeat the save, taking 3 (d6) poison damage on\
-      \ a failed save, or ending the effect on itself on a successful one."
+      \ target's turns, it must repeat the save, taking dice:1d6|noform|noparens|avg|text(3)\
+      \ (d6) poison damage on a failed save, or ending the effect on itself on a\
+      \ successful one."
     "name": "Toxic Touch"
 "source":
   - "GGR"

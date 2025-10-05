@@ -38,9 +38,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes `2d8` Poison damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the end of your next turn.
+You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes `dice:2d8|noform|noparens|avg` (`2d8`) Poison damage and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the end of your next turn.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d8|noform|noparens|avg|text(d8)` for each spell slot level above 1.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

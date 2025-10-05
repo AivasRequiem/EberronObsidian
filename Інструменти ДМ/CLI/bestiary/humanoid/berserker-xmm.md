@@ -47,12 +47,13 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
 "languages": "Common"
 "cr": "2"
 "traits":
-  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md),\
+  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
       \ the berserker has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on attack rolls and saving throws."
     "name": "Bloodied Frenzy"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d12+3|noform|noparens|avg|text(9) (1d12 + 3) Slashing\
       \ damage."
     "name": "Greataxe"
 "source":

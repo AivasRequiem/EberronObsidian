@@ -48,7 +48,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ enemy's reach."
     "name": "Agile"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (d4) Bludgeoning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: dice:1d4|noform|noparens|avg|text(2) (d4) Bludgeoning damage."
     "name": "Ram"
 "source":
   - "XMM"

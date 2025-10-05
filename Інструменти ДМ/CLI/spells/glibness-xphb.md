@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/level/8th-level
-- ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/school/enchantment
 classes:
 - Bard
 - Warlock
@@ -14,7 +14,7 @@ aliases:
 - Glibness
 ---
 # Glibness
-*8th-level, Transmutation*  
+*8th-level, Enchantment*  
 
 
 - **Casting time:** 1 Action

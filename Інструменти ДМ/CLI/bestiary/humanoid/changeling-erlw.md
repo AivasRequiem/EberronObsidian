@@ -59,8 +59,9 @@ Changelings are a humanoid race of shapechangers who conceal their true identiti
 "actions":
   - "desc": "The changeling makes two attacks with its dagger."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
+      \ (1d4 + 2) piercing damage."
     "name": "Dagger"
   - "desc": "Each creature within 30 feet of the changeling must succeed on a DC 13\
       \ Wisdom saving throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\

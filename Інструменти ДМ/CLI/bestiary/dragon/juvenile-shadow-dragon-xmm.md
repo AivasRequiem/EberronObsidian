@@ -57,7 +57,7 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
   - !!int "15"
 "speed": "30 ft., climb 30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -80,16 +80,18 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Slashing\
-      \ damage plus 3 (d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Necrotic damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 13, each creature in a 30-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 17 (5d6) Necrotic damage. Success: Half damage. Failure or Success:\
-      \ A Humanoid reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ by this damage dies, and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md)\
-      \ rises from its corpse. The shadow is under the dragon's control and shares\
-      \ the dragon's [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md)\
+      \ dice:5d6|noform|noparens|avg|text(17) (5d6) Necrotic damage. Success:\
+      \ Half damage. Failure or Success: A Humanoid reduced to 0 [Hit Points](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage dies,\
+      \ and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md) rises from\
+      \ its corpse. The shadow is under the dragon's control and shares the dragon's\
+      \ [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md)\
       \ count but acts immediately after the dragon."
     "name": "Shadow Breath (Recharge 5-6)"
 "bonus_actions":

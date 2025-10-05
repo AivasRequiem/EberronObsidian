@@ -9,4 +9,5 @@ aliases:
 ---
 # Blind Fighting
 *Source: Player's Handbook (2024) p. 209*  
+
 You have [Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) with a range of 10 feet.

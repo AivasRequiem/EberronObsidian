@@ -46,11 +46,11 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking `3d6` Fire damage on a failed save or half as much damage on a successful one.
+A thin sheet of flames shoots forth from you. Each creature in a 15-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) makes a Dexterity saving throw, taking `dice:3d6|noform|noparens|avg` (`3d6`) Fire damage on a failed save or half as much damage on a successful one.
 
-Flammable objects in the Cone that aren't being worn or carried start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
+Flammable objects in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) that aren't being worn or carried start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 1.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (Fiend Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fiend-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB"); [Druid (Circle of Wildfire)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Light Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-light-domain-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

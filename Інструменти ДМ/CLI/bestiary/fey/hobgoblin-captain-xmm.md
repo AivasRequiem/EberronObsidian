@@ -26,7 +26,7 @@ Hobgoblin captains are battlefield tacticians. They lead their allies to victory
 
 ## Hobgoblins
 
-*Conquerers of Every Horizon*
+*Conquerors of Every Horizon*
 
 - **Habitat.** Desert, Forest, Grassland, Hill, Mountain, Planar (Acheron), Underdark  
 - **Treasure.** Armaments, Individual  
@@ -86,11 +86,13 @@ The drive to subjugate and pillage is part of hobgoblins' supernatural nature, t
 "actions":
   - "desc": "The hobgoblin makes two attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage plus 5 (2d4) Poison damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 150/600\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage\
+      \ plus dice:2d4|noform|noparens|avg|text(5) (2d4) Poison damage."
     "name": "Longbow"
 "source":
   - "XMM"

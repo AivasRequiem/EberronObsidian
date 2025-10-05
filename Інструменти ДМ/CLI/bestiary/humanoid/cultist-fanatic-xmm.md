@@ -93,7 +93,7 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+3"
@@ -105,27 +105,18 @@ Cults can organize around any mystical tradition, but many serve supernatural be
 "languages": "Common"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
-      \ damage plus 7 (2d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Slashing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage."
     "name": "Pact Blade"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt will:\
-      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](Інструме\
-      нти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n2/day: [Command](Інструменти\
-      %20ДМ/CLI/spells/command-xphb.md)\n\n1/day: [Hold Person](Інструменти%20Д\
-      М/CLI/spells/hold-person-xphb.md)"
+      \ ability (spell save DC 12, dice:1d20+4|noform|noparens|text(+4) to hit with\
+      \ spell attacks):\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n2/day:\
+      \ [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md)\n\n1/day: [Hold\
+      \ Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The cultist casts the [Spiritual Weapon](Інструменти%20ДМ/CLI/spells/spiritual-weapon-xphb.md)\
-      \ spell, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Spiritual Weapon (2/Day)"
 "bonus_actions":
-  - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt will:\
-      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](Інструме\
-      нти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n2/day: [Command](Інструменти\
-      %20ДМ/CLI/spells/command-xphb.md)\n\n1/day: [Hold Person](Інструменти%20Д\
-      М/CLI/spells/hold-person-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The cultist casts the [Spiritual Weapon](Інструменти%20ДМ/CLI/spells/spiritual-weapon-xphb.md)\
       \ spell, using the same spellcasting ability as Spellcasting.\n"
     "name": "Spiritual Weapon (2/Day)"

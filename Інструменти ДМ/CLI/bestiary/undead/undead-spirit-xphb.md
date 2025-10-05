@@ -44,8 +44,8 @@ aliases:
     "name": "Festering Aura (Putrid Only)"
   - "desc": "The spirit can move through other creatures and objects as if they were\
       \ Difficult Terrain. If it ends its turn inside an object, it is shunted to\
-      \ the nearest unoccupied space and takes d10 Force damage for every 5 feet\
-      \ traveled."
+      \ the nearest unoccupied space and takes dice:1d10|noform|noparens|avg (d10)\
+      \ Force damage for every 5 feet traveled."
     "name": "Incorporeal Passage (Ghostly Only)"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\

@@ -40,9 +40,9 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
   - !!int "18"
 "speed": "40 ft., fly 30 ft. (hover)"
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+10"
-  - "charisma": "+12"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+10"

@@ -46,8 +46,8 @@ Ghasts are reeking, undying corpses closely related to ghouls. They hunger for t
   - !!int "8"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+5"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "5"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [poisoned](І\
@@ -66,14 +66,16 @@ Ghasts are reeking, undying corpses closely related to ghouls. They hunger for t
   - "desc": "The ghast makes two Horrific Necrosis attacks. It can replace one attack\
       \ with a Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:3d6+3|noform|noparens|avg|text(13) (3d6 + 3) Slashing\
       \ damage. If the target isn't an Undead, it has the [Paralyzed](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the end of its next\
       \ turn."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit:\
-      \ 15 (2d10 + 4) Necrotic damage, and the target has the [Frightened](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end of its\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
+      \ (2d10 + 4) Necrotic damage, and the target has the [Frightened](Інструме\
+      нти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end of its\
       \ next turn."
     "name": "Horrific Necrosis"
   - "desc": "The ghast casts one of the following spells, requiring no Material components\

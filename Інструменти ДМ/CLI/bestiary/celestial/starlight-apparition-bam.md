@@ -57,18 +57,18 @@ A starlight apparition is different from a ghost. While a ghost is doomed to hau
       \ in a 20-foot radius and dim light for an additional 20 feet."
     "name": "Illumination"
   - "desc": "The apparition can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
-      \ inside an object."
+      \ were difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The apparition doesn't require air, drink, food, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (5d6 + 3) radiant damage, and if the target is\
-      \ a creature, it must succeed on a DC 14 Wisdom saving throw or be [blinded](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Blinded) for 1 minute. The target can\
-      \ repeat the saving throw at the end of each of its turns, ending the effect\
-      \ on itself on a success."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6)\
+      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:5d6+3|noform|noparens|avg|text(20)\
+      \ (5d6 + 3) radiant damage, and if the target is a creature, it must succeed\
+      \ on a DC 14 Wisdom saving throw or be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
     "name": "Radiant Eruption"
   - "desc": "One Humanoid that the apparition can see within 5 feet of itself must\
       \ succeed on a DC 14 Charisma saving throw or be possessed by the apparition;\

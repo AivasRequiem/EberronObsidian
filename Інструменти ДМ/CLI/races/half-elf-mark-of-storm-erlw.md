@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 50*  
 
 
-- **Ability Scores**: Charisma +2; Dexterity +1
+- **Ability Scores**: cha +2 dex +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma
@@ -36,7 +36,7 @@ You have advantage on saving throws against being [charmed](Інструмент
 
 ### Windwright's Intuition
 
-When you make a Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check or any ability check involving [navigator's tools](Інструменти%20ДМ/CLI/items/navigators-tools-xphb.md), you can roll a `d4` and add the number rolled to the ability check.
+When you make a Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check or any ability check involving [navigator's tools](Інструменти%20ДМ/CLI/items/navigators-tools-xphb.md), you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Languages
 

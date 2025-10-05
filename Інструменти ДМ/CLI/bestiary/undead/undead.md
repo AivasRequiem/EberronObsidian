@@ -7,7 +7,6 @@ cssclasses: json5e-note
 - [Alhoon](./alhoon-mpmm.md)
 - [Allip](./allip-mpmm.md)
 - [Ash Zombie](./ash-zombie-lmop.md)
-- [Avatar of Death](./avatar-of-death-dmg.md)
 - [Avatar of Death](./avatar-of-death-xdmg.md)
 - [Banshee](./banshee-xmm.md)
 - [Beholder Zombie](./beholder-zombie-xmm.md)

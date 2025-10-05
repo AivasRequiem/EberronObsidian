@@ -60,14 +60,16 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
   - "desc": "The bugbear needn't spend extra movement to move a creature it is grappling."
     "name": "Abduct"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 10\
+      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12)."
     "name": "Grab"
-  - "desc": "Melee  or Ranged Attack Roll: +4 (with [Advantage](Інструменти%20Д\
-      М/CLI/rules/variant-rules/advantage-xphb.md) if the target is [Grappled](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Grappled) by the bugbear), reach 10 ft.\
-      \ or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4)\
+      \ (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ by the bugbear), reach 10 ft. or range 20/60 ft. Hit: dice:3d4+2|noform|noparens|avg|text(9)\
+      \ (3d4 + 2) Bludgeoning damage."
     "name": "Light Hammer"
 "source":
   - "XMM"

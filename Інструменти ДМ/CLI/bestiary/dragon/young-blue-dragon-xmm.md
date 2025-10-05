@@ -54,8 +54,8 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - !!int "17"
 "speed": "40 ft., burrow 20 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+5"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+9"
@@ -68,12 +68,14 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 5 (d10) Lightning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 10\
+      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:1d10|noform|noparens|avg|text(5) (d10) Lightning damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 55 (10d10) Lightning damage. Success: Half damage."
+      \ Failure: dice:10d10|noform|noparens|avg|text(55) (10d10) Lightning damage.\
+      \ Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
 "source":
   - "XMM"

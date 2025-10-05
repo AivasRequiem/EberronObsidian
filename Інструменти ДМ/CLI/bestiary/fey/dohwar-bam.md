@@ -38,8 +38,8 @@ Dohwars prefer to communicate through a form of telepathy they call merging, in 
   - !!int "13"
 "speed": "20 ft., swim 20 ft."
 "saves":
-  - "dexterity": "+3"
-  - "wisdom": "+4"
+  - "dexterity": !!int "3"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+3"
@@ -56,8 +56,9 @@ Dohwars prefer to communicate through a form of telepathy they call merging, in 
       \ of one another."
     "name": "Merging"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (1d4 + 1) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+1|noform|noparens|avg|text(3) (1d4\
+      \ + 1) piercing damage."
     "name": "Bite"
   - "desc": "The dohwar casts the following spell, requiring no spell components and\
       \ using Charisma as the spellcasting ability (spell save DC 11):\n\n3/day:\

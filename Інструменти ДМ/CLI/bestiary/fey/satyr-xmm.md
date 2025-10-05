@@ -60,12 +60,14 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, the satyr pushes the\
       \ target up to 10 feet straight away from itself."
     "name": "Hooves"
   - "desc": "Wisdom Saving Throw: DC 12, one creature the satyr can see within 90\
-      \ feet. Failure: 5 (1d6 + 2) Psychic damage."
+      \ feet. Failure: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Psychic\
+      \ damage."
     "name": "Mockery"
 "source":
   - "XMM"

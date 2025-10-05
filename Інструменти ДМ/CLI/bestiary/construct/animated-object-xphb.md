@@ -33,9 +33,8 @@ aliases:
 "languages": "understands the languages you know"
 "actions":
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: Force damage equal to 1d4 + 3, 2d6 + 3 + your spellcasting\
-      \ ability modifier (Large), or 2d12 + 3 + your spellcasting ability modifier\
-      \ (Huge)."
+      \ ft. Hit: Force damage equal to 1d4 + 3, 2d6 + 3 + your spellcasting ability\
+      \ modifier (Large), or 2d12 + 3 + your spellcasting ability modifier (Huge)."
     "name": "Slam"
 "source":
   - "XPHB"

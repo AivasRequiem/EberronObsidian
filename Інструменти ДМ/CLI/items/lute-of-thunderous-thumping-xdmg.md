@@ -17,7 +17,7 @@ aliases:
 - **Properties**: [Light](Інструменти%20ДМ/CLI/rules/item-properties.md#Light)
 - **Weight**: 2.0 lbs.
 
-This reinforced [lute](Інструменти%20ДМ/CLI/items/lute-xphb.md) can be wielded as a magic Club that deals an extra `2d8` Thunder damage on a hit.
+This reinforced [lute](Інструменти%20ДМ/CLI/items/lute-xphb.md) can be wielded as a magic Club that deals an extra `dice:2d8|noform|noparens|avg` (`2d8`) Thunder damage on a hit.
 
 ## Sing and Swing
 

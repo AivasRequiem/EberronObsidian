@@ -54,9 +54,10 @@ Sometimes mistaken at first for giant wolves, worgs are vicious hunters. These s
 "languages": "Goblin, Worg"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage, and the next attack roll made against the target before the start\
-      \ of the worg's next turn has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage,\
+      \ and the next attack roll made against the target before the start of the worg's\
+      \ next turn has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Bite"
 "source":
   - "XMM"

@@ -77,29 +77,23 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
 "traits":
   - "desc": "The empyrean can move through other creatures and objects as if they\
       \ were [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
+      \ ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The empyrean has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft. Hit:\
-      \ 7 (1d8 + 3) Necrotic or Radiant damage (empyrean's choice)."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 30 ft. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
+      \ (1d8 + 3) Necrotic or Radiant damage (empyrean's choice)."
     "name": "Otherworldly Strike"
   - "desc": "The empyrean casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability:\n\n1/day each:\
       \ [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [Lesser Restoration](І\
       нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) (as an action)"
     "name": "Spellcasting"
-  - "desc": "The empyrean casts [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Healing Word (1/Day)"
 "bonus_actions":
-  - "desc": "The empyrean casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability:\n\n1/day each:\
-      \ [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [Lesser Restoration](І\
-      нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) (as an action)"
-    "name": "Spellcasting"
   - "desc": "The empyrean casts [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md),\
       \ using the same spellcasting ability as Spellcasting.\n"
     "name": "Healing Word (1/Day)"

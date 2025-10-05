@@ -43,8 +43,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -59,18 +59,21 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "cr": "7"
 "traits":
   - "desc": "When the warlock makes an ability check or saving throw, it can add a\
-      \ d10 to the roll. It can do this after the roll is made but before any of\
-      \ the roll's effects occur."
+      \ dice:d10|noform|noparens|avg (d10) to the roll. It can do this after the\
+      \ roll is made but before any of the roll's effects occur."
     "name": "Dark One's Own Luck (Recharges after a Short or Long Rest)"
 "actions":
   - "desc": "The warlock makes three Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) slashing damage plus 14 (4d6) fire damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) slashing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ fire damage."
     "name": "Scimitar"
   - "desc": "Green flame explodes in a 10-foot-radius sphere centered on a point within\
       \ 120 feet of the warlock. Each creature in that area must make a DC 15 Dexterity\
-      \ saving throw, taking 16 (3d10) fire damage and 11 (2d10) necrotic damage\
+      \ saving throw, taking dice:3d10|noform|noparens|avg|text(16) (3d10) fire\
+      \ damage and dice:2d10|noform|noparens|avg|text(11) (2d10) necrotic damage\
       \ on a failed save, or half as much damage on a successful one."
     "name": "Hellfire"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
@@ -85,8 +88,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "reactions":
   - "desc": "In response to being damaged by a visible creature within 60 feet of\
       \ it, the warlock forces that creature to make a DC 15 Constitution saving throw,\
-      \ taking 22 (4d10) necrotic damage on a failed save, or half as much damage\
-      \ on a successful one."
+      \ taking dice:4d10|noform|noparens|avg|text(22) (4d10) necrotic damage on\
+      \ a failed save, or half as much damage on a successful one."
     "name": "Fiendish Rebuke (3/Day)"
 "source":
   - "MPMM"

@@ -14,7 +14,7 @@ aliases:
 
 This object looks like a feather.
 
-You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to throw the token to a point within 10 feet of yourself. The token disappears, and a floating whip takes its place. You can then take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes `1d6 + 5` Force damage.
+You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to throw the token to a point within 10 feet of yourself. The token disappears, and a floating whip takes its place. You can then take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes `dice:1d6+5|noform|noparens|avg` (`1d6 + 5`) Force damage.
 
 As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of the whip. The whip disappears after 1 hour, when you take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to dismiss it, or when you die or have the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition.
 

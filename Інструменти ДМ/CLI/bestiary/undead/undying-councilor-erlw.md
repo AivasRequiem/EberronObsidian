@@ -59,9 +59,9 @@ An undying doesn't require air, food, drink, or sleep.
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+9"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -84,21 +84,21 @@ An undying doesn't require air, food, drink, or sleep.
 "cr": "10"
 "traits":
   - "desc": "The councilor is a 13th-level spellcaster. Its spellcasting ability is\
-      \ Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](Інструменти\
-      %20ДМ/CLI/spells/guidance-xphb.md), [mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md),\
-      \ [sacred flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md), [spare the\
-      \ dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md), [thaumaturgy](І\
-      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1st level (4 slots):\
-      \ [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [command](Інструменти\
-      %20ДМ/CLI/spells/command-xphb.md), [create or destroy water](Інструменти%20Д\
-      М/CLI/spells/create-or-destroy-water-xphb.md)\n\n2nd level (3 slots): [augury](І\
-      нструменти%20ДМ/CLI/spells/augury-xphb.md), [calm emotions](Інструменти%20ДМ\
-      /CLI/spells/calm-emotions-xphb.md), [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md)\n\
-      \n3rd level (3 slots): [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md),\
-      \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [spirit\
-      \ guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\n4th\
-      \ level (3 slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
+      \ Wisdom (spell save DC 17, dice:1d20+9|noform|noparens|text(+9) to hit with\
+      \ spell attacks). It has the following cleric spells prepared:\n\nCantrips\
+      \ (at will): [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md), [mending](І\
+      нструменти%20ДМ/CLI/spells/mending-xphb.md), [sacred flame](Інструменти%20ДМ\
+      /CLI/spells/sacred-flame-xphb.md), [spare the dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md),\
+      \ [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1st level\
+      \ (4 slots): [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [command](І\
+      нструменти%20ДМ/CLI/spells/command-xphb.md), [create or destroy water](Інстр\
+      ументи%20ДМ/CLI/spells/create-or-destroy-water-xphb.md)\n\n2nd level (3 slots):\
+      \ [augury](Інструменти%20ДМ/CLI/spells/augury-xphb.md), [calm emotions](Інст\
+      рументи%20ДМ/CLI/spells/calm-emotions-xphb.md), [hold person](Інструменти%20Д\
+      М/CLI/spells/hold-person-xphb.md)\n\n3rd level (3 slots): [daylight](Інс\
+      трументи%20ДМ/CLI/spells/daylight-xphb.md), [dispel magic](Інструменти%20ДМ\
+      /CLI/spells/dispel-magic-xphb.md), [spirit guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\
+      \n4th level (3 slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
       \ [divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md), [guardian of\
       \ faith](Інструменти%20ДМ/CLI/spells/guardian-of-faith-xphb.md)\n\n5th level\
       \ (2 slots): [dispel evil and good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
@@ -120,20 +120,22 @@ An undying doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The councilor makes two Radiant Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "Melee Spell Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one target. Hit: dice:3d6+5|noform|noparens|avg|text(15)\
       \ (3d6 + 5) radiant damage."
     "name": "Radiant Touch"
   - "desc": "The councilor touches another creature. The target magically regains\
-      \ 18 (3d8 + 5) hit points and is freed from one curse afflicting it (councilor's\
-      \ choice)."
+      \ dice:3d8+5|noform|noparens|avg|text(18) (3d8 + 5) hit points and is freed\
+      \ from one curse afflicting it (councilor's choice)."
     "name": "Healing Touch (3/Day)"
   - "desc": "The councilor chooses a point it can see within 60 feet of it. Each creature\
       \ in a 10-foot-radius, 40-foot-high cylinder centered on that point must make\
-      \ a DC 17 Dexterity saving throw. A creature takes 14 (4d6) fire damage and\
-      \ 14 (4d6) radiant damage on a failed save, or half as much damage on a successful\
-      \ one. If the councilor casts this spell using a spell slot of 6th level or\
-      \ higher, the fire damage or the radiant damage (its choice) increases by d6\
-      \ for each slot level above 5th."
+      \ a DC 17 Dexterity saving throw. A creature takes dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) fire damage and dice:4d6|noform|noparens|avg|text(14) (4d6) radiant\
+      \ damage on a failed save, or half as much damage on a successful one. If the\
+      \ councilor casts this spell using a spell slot of 6th level or higher, the\
+      \ fire damage or the radiant damage (its choice) increases by dice:1d6|noform|noparens|avg\
+      \ (d6) for each slot level above 5th."
     "name": "Flame Strike (5th-Level Spell; Requires a Spell Slot)"
 "legendary_actions":
   - "desc": "The councilor makes one attack with its Radiant Touch."

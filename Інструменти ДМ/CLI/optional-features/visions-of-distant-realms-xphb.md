@@ -9,5 +9,7 @@ aliases:
 ---
 # Visions of Distant Realms
 *Source: Player's Handbook (2024) p. 157. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
-**Prerequisite**: 9th Warlock
+
+**Prerequisite**: Level 9
+
 You can cast [Arcane Eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md) without expending a spell slot.

@@ -56,8 +56,9 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ the location of any other creature in contact with the same web."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Bite"
   - "desc": "Dexterity Saving Throw: DC 13, one creature the spider can see within\
       \ 60 feet. Failure: The target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\

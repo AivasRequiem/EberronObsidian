@@ -40,8 +40,8 @@ The training to which a deep scion is subjected rids it of empathy for those the
   - !!int "14"
 "speed": "30 ft. (20 ft. and swim 40 ft. in hybrid form)"
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -61,15 +61,18 @@ The training to which a deep scion is subjected rids it of empathy for those the
   - "desc": "The deep scion makes two Battleaxe attacks, or it makes one Bite attack\
       \ and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
-      \ two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) slashing damage, or dice:1d10+4|noform|noparens|avg|text(9) (1d10\
+      \ + 4) slashing damage if used with two hands."
     "name": "Battleaxe"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
-      \ 6 (1d4 + 4) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:1d4+4|noform|noparens|avg|text(6)\
+      \ (1d4 + 4) piercing damage."
     "name": "Bite (Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
+      \ + 4) slashing damage."
     "name": "Claw (Hybrid Form Only)"
   - "desc": "The deep scion emits a terrible scream audible within 300 feet. Creatures\
       \ within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw\

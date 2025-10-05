@@ -61,8 +61,9 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d6 + 1) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6\
+      \ + 1) piercing damage."
     "name": "Shortsword"
 "source":
   - "FTD"

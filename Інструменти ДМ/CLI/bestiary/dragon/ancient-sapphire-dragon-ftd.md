@@ -58,10 +58,10 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
   - !!int "20"
 "speed": "40 ft., burrow 40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+15"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+12"
@@ -88,16 +88,19 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
-      \ 19 (2d10 + 8) piercing damage plus 11 (2d10) thunder damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+8|noform|noparens|avg|text(19)\
+      \ (2d10 + 8) piercing damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) thunder damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
-      \ 15 (2d6 + 8) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+8|noform|noparens|avg|text(15)\
+      \ (2d6 + 8) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
       \ a 90-foot cone. Each creature in that area must make a DC 23 Constitution\
-      \ saving throw. On a failed save, the creature takes 55 (10d10) thunder damage\
-      \ and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ saving throw. On a failed save, the creature takes dice:10d10|noform|noparens|avg|text(55)\
+      \ (10d10) thunder damage and is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ until the end of its next turn. On a successful save, the creature takes half\
       \ as much damage and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Debilitating Breath (Recharge 5-6)"
@@ -126,8 +129,8 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
   - "desc": "The dragon chooses one Medium or smaller object that isn't being worn\
       \ or carried that it can see within 60 feet of it, and it magically hurls the\
       \ object at a creature it can see within 60 feet of the object. The target must\
-      \ succeed on a DC 20 Dexterity saving throw or take 42 (12d6) bludgeoning\
-      \ damage."
+      \ succeed on a DC 20 Dexterity saving throw or take dice:12d6|noform|noparens|avg|text(42)\
+      \ (12d6) bludgeoning damage."
     "name": "Telekinetic Fling (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -137,17 +140,18 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
   - "desc": "- Awesome Thunder. A thunderous detonation of sound that can be heard\
       \ up to 300 feet away surrounds one creature in the lair that the dragon can\
       \ see. That creature must succeed on a DC 15 Constitution saving throw or take\
-      \ 13 (3d8) thunder damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ until the end of its next turn.  \n- Beguiling Whisper. The dragon telepathically\
-      \ whispers to one creature within range of the dragon's telepathy. The creature\
-      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
-      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ in this way obeys to the best of its ability any command the dragon issues\
-      \ that isn't directly harmful to the creature.  \n- Stone Passage. The dragon\
-      \ touches a section of stone up to 30 feet in any dimension. The dragon can\
-      \ shape the stone to open or close a passage through a wall, as long as the\
-      \ wall is less than 10 feet thick.  "
+      \ dice:3d8|noform|noparens|avg|text(13) (3d8) thunder damage and be [stunned](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) until the end of its next turn.\
+      \  \n- Beguiling Whisper. The dragon telepathically whispers to one creature\
+      \ within range of the dragon's telepathy. The creature must succeed on a DC\
+      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
+      \ of its ability any command the dragon issues that isn't directly harmful to\
+      \ the creature.  \n- Stone Passage. The dragon touches a section of stone\
+      \ up to 30 feet in any dimension. The dragon can shape the stone to open or\
+      \ close a passage through a wall, as long as the wall is less than 10 feet thick.\
+      \  "
     "name": ""
 "regional_effects":
   - "desc": "The region surrounding a legendary sapphire dragon's lair is altered\
@@ -169,9 +173,10 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
       \ of the lair and settle there in large numbers.  "
     "name": ""
   - "desc": "If the dragon dies, the population of giant spiders in the region returns\
-      \ to normal levels over the course of d10 days. The enhancement of telepathic\
-      \ abilities ends immediately. The existing abundance of crystals and sapphires\
-      \ remains, but new ones form at a normal rate."
+      \ to normal levels over the course of dice:1d10|noform|noparens|avg (d10)\
+      \ days. The enhancement of telepathic abilities ends immediately. The existing\
+      \ abundance of crystals and sapphires remains, but new ones form at a normal\
+      \ rate."
     "name": ""
 "source":
   - "FTD"

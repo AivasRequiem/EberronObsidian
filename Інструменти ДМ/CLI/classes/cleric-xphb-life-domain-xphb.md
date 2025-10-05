@@ -74,7 +74,7 @@ When a spell you cast with a spell slot restores [Hit Points](Інструмен
 
 ### Preserve Life (Level 3)
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you present your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) and expend a use of your Channel Divinity to evoke healing energy that can restore a number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to five times your Cleric level. Choose [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md) creatures within 30 feet of yourself (which can include you), and divide those [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) among them. This feature can restore a creature to no more than half its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum.
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you present your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) and expend a use of your Channel Divinity to evoke healing energy that can restore a number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to five times your Cleric level. Choose [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied) creatures within 30 feet of yourself (which can include you), and divide those [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) among them. This feature can restore a creature to no more than half its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum.
 
 ### Blessed Healer (Level 6)
 
@@ -82,4 +82,4 @@ The healing spells you cast on others heal you as well. Immediately after you ca
 
 ### Supreme Healing (Level 17)
 
-When you would normally roll one or more dice to restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring `2d6` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell, you restore 12.
+When you would normally roll one or more dice to restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring `dice:2d6|noform|noparens|avg` (`2d6`) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to a creature with a spell, you restore 12.

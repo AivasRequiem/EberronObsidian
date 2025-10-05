@@ -41,7 +41,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "5"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+3"
+  - "dexterity": !!int "3"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
@@ -50,8 +50,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

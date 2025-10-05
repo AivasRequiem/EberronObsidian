@@ -47,11 +47,13 @@ Thri-kreen hunters are skilled foragers and stalkers. A thri-kreen hunter encoun
 "actions":
   - "desc": "The thri-kreen makes two Gythka or Chatkcha attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) slashing damage."
     "name": "Gythka"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit:\
-      \ 6 (1d6 + 3) slashing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ range 30/120 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
+      \ (1d6 + 3) slashing damage."
     "name": "Chatkcha"
 "bonus_actions":
   - "desc": "The thri-kreen changes the color of its carapace to match the color and\

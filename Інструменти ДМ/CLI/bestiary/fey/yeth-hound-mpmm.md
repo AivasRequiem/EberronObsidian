@@ -66,9 +66,10 @@ A pack of yeth hounds can be created by powerful Fey such as the Queen of Air an
       \ telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
-      \ (2d6 + 4) piercing damage, plus 14 (4d6) psychic damage if the target\
-      \ is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) piercing damage, plus dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) psychic damage if the target is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)."
     "name": "Bite"
   - "desc": "The yeth hound bays magically. Every enemy within 300 feet of the hound\
       \ that can hear it must succeed on a DC 13 Wisdom saving throw or be [frightened](І\

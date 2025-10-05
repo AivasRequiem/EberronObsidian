@@ -11,7 +11,7 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 17*  
 ![](Інструменти%20ДМ/CLI/races/img/loxodon.webp#right)
 
-- **Ability Scores**: Constitution +2; Wisdom +1
+- **Ability Scores**: con +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

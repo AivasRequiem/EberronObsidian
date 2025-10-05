@@ -63,7 +63,8 @@ While some folk hunt cave fishers to kill them to harvest their filaments, shell
 "actions":
   - "desc": "The cave fisher makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
       \ (2d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "One Large or smaller creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\

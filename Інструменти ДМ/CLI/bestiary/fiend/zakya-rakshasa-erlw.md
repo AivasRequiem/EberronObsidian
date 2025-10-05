@@ -63,22 +63,24 @@ Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They a
   - "desc": "The rakshasa's weapon attacks are magical."
     "name": "Magic Weapons"
   - "desc": "When the rakshasa hits a creature with a melee weapon attack, the attack\
-      \ deals an extra 11 (2d10) damage of the weapon's type, and the creature must\
-      \ make a DC 15 Strength saving throw. On a failure, the rakshasa can push the\
-      \ creature up to 10 feet away from it, knock the creature [prone](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Prone), or make the creature drop one item it\
-      \ is holding of the rakshasa's choice."
+      \ deals an extra dice:2d10|noform|noparens|avg|text(11) (2d10) damage of\
+      \ the weapon's type, and the creature must make a DC 15 Strength saving throw.\
+      \ On a failure, the rakshasa can push the creature up to 10 feet away from it,\
+      \ knock the creature [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
+      \ or make the creature drop one item it is holding of the rakshasa's choice."
     "name": "Martial Prowess (1/Turn)"
 "actions":
   - "desc": "The rakshasa makes three melee weapon attacks. Alternatively, it can\
       \ make two ranged attacks with its javelins."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
-      \ two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) slashing damage, or dice:1d10+4|noform|noparens|avg|text(9) (1d10\
+      \ + 4) slashing damage if used with two hands."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7)\
+      \ to hit, reach 5 ft. or range 30/120 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
+      \ (1d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "ERLW"

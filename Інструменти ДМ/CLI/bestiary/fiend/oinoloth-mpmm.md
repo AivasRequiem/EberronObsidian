@@ -40,8 +40,8 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
   - !!int "19"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+7"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+8"
@@ -63,8 +63,10 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
 "actions":
   - "desc": "The oinoloth makes two Claw attacks, and it uses Spellcasting or Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
-      \ (3d6 + 4) slashing damage plus 22 (4d10) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:3d6+4|noform|noparens|avg|text(14)\
+      \ (3d6 + 4) slashing damage plus dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) necrotic damage."
     "name": "Claw"
   - "desc": "The oinoloth touches one willing creature within 5 feet of it. The target\
       \ regains all its hit points. In addition, the oinoloth can end one disease\
@@ -73,9 +75,9 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
       М/CLI/rules/conditions.md#Deafened), [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
       \ or [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned). The target\
       \ then gains 1 level of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
-      \ and its hit point maximum is reduced by 7 (2d6). This reduction can be removed\
-      \ only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell or by casting\
-      \ [greater restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md)\
+      \ and its hit point maximum is reduced by dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6). This reduction can be removed only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
+      \ spell or by casting [greater restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md)\
       \ on the target three times within the same hour. The target dies if its hit\
       \ point maximum is reduced to 0."
     "name": "Corrupted Healing (Recharge 6)"
@@ -96,13 +98,13 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
       \ itself. The blight lasts for 24 hours. While the area is blighted, all normal\
       \ plants there wither and die.\n\nFurthermore, when a creature moves into the\
       \ blighted area or starts its turn there, that creature must make a DC 16 Constitution\
-      \ saving throw. On a failed save, the creature takes 14 (4d6) poison damage\
-      \ and is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned). On a\
-      \ successful save, the creature is immune to the oinoloth's Bringer of Plagues\
-      \ for the next 24 hours.\n\nThe [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ saving throw. On a failed save, the creature takes dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) poison damage and is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned).\
+      \ On a successful save, the creature is immune to the oinoloth's Bringer of\
+      \ Plagues for the next 24 hours.\n\nThe [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ creature can't regain hit points. After every 24 hours that elapse, the [poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature can repeat the saving\
-      \ throw. On a failed save, the creature's hit point maximum is reduced by 5\
+      \ throw. On a failed save, the creature's hit point maximum is reduced by dice:1d10|noform|noparens|avg|text(5)\
       \ (d10). This reduction lasts until the poison ends, and the target dies if\
       \ its hit point maximum is reduced to 0. The poison ends after the creature\
       \ successfully saves against it three times."

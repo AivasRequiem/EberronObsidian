@@ -80,26 +80,29 @@ Fire elementals might burn in distinctive ways. Roll on or choose a result from 
 "traits":
   - "desc": "At the end of each of the elemental's turns, each creature in a 10-foot\
       \ [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the elemental takes 5 (d10) Fire damage. Creatures and\
-      \ flammable objects in the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
+      \ originating from the elemental takes dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) Fire damage. Creatures and flammable objects in the [Emanation](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) start\
+      \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Fire Aura"
   - "desc": "The elemental can move through a space as narrow as 1 inch without expending\
       \ extra movement to do so, and it can enter a creature's space and stop there.\
       \ The first time it enters a creature's space on a turn, that creature takes\
-      \ 5 (d10) Fire damage."
+      \ dice:1d10|noform|noparens|avg|text(5) (d10) Fire damage."
     "name": "Fire Form"
   - "desc": "The elemental sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
       \ in a 30-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\
       \ for an additional 30 feet."
     "name": "Illumination"
-  - "desc": "The elemental takes 3 (d6) Cold damage for every 5 feet the elemental\
-      \ moves in water or for every gallon of water splashed on it."
+  - "desc": "The elemental takes dice:1d6|noform|noparens|avg|text(3) (d6) Cold\
+      \ damage for every 5 feet the elemental moves in water or for every gallon of\
+      \ water splashed on it."
     "name": "Water Susceptibility"
 "actions":
   - "desc": "The elemental makes two Burn attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Fire damage.\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Fire damage.\
       \ If the target is a creature or a flammable object, it starts [burning](Інс\
       трументи%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Burn"

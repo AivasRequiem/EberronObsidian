@@ -41,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -55,8 +55,9 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The necromancer makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 25 (4d10 + 3) necrotic damage."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+7|noform|noparens|text(+7)\
+      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:4d10+3|noform|noparens|avg|text(25)\
+      \ (4d10 + 3) necrotic damage."
     "name": "Arcane Burst"
   - "desc": "The necromancer casts one of the following spells, using Intelligence\
       \ as the spellcasting ability (spell save DC 15):\n\nAt will: [dancing lights](І\
@@ -78,7 +79,7 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
     "name": "Summon Undead (1/Day)"
 "reactions":
   - "desc": "When the necromancer kills a creature with necrotic damage, the necromancer\
-      \ regains 9 (2d8) hit points. "
+      \ regains dice:2d8|noform|noparens|avg|text(9) (2d8) hit points. "
     "name": "Grim Harvest (1/Turn)"
 "source":
   - "MPMM"

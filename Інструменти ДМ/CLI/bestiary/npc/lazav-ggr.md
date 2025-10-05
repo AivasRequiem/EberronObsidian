@@ -36,10 +36,10 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
   - !!int "22"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+13"
-  - "intelligence": "+12"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "dexterity": !!int "13"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+18"
@@ -63,8 +63,8 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
       \nAt will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [encode thoughts](Інструменти%20ДМ/CLI/spells/encode-thoughts-ggr.md) (see\
       \ chapter 2), [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md),\
-      \ [vicious mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md) (4d4\
-      \ psychic damage)\n\n3/day each: [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
+      \ [vicious mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md) (dice:4d4|noform|noparens|avg\
+      \ (4d4) psychic damage)\n\n3/day each: [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
       \ [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [mirror image](І\
       нструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n1/day each: [modify\
       \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md), [Rary's telepathic\
@@ -87,9 +87,11 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
 "actions":
   - "desc": "Lazav makes three shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
-      \ 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target\
-      \ has disadvantage on the next attack roll it makes before Lazav's next turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+13|noform|noparens|text(+13) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+7|noform|noparens|avg|text(10)\
+      \ (1d6 + 7) piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ psychic damage, and the target has disadvantage on the next attack roll it\
+      \ makes before Lazav's next turn."
     "name": "Shortsword"
 "legendary_actions":
   - "desc": "Lazav makes a weapon attack."
@@ -98,8 +100,9 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
     "name": "Cast a Spell (Costs 2 Actions)"
   - "desc": "Lazav rapidly takes the form of several nightmarish creatures, lashing\
       \ out at all nearby. Each creature within 10 feet of Lazav must succeed on a\
-      \ DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by\
-      \ Lazav: acid, cold, fire, lightning, or necrotic."
+      \ DC 21 Dexterity saving throw or take dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or\
+      \ necrotic."
     "name": "Shifting Nightmare (Costs 3 Actions)"
 "source":
   - "GGR"

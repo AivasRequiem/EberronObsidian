@@ -60,7 +60,7 @@ You gain the service of a [Knight](Інструменти%20ДМ/CLI/bestiary/hu
 
 ### Moon
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-11-moon.webp#card)
-You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `d3` times.
+You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `dice:1d3|noform|noparens|avg` (`d3`) times.
 
 ### Rogue
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-06-rogue.webp#card)

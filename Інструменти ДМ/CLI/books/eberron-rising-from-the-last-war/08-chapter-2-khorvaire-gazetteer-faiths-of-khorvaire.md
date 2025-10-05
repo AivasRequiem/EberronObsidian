@@ -4,9 +4,9 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire
+- Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire
 ---
-# Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire
+# Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire
 *Source: Eberron: Rising from the Last War, p. 140* 
 
 Religion plays an important role in Eberron. The gods don't manifest physically, but people of faith believe that divine forces shape everyday life. Shared beliefs unite communities and can provide hope in difficult times.
@@ -17,9 +17,9 @@ Religion is especially important for a paladin, cleric, or druid, yet any charac
 
 Conversely, a lack of faith can also be a meaningful part of your story. If you don't believe in any divine power, what caused such doubt? The Rejection of Faith table offers ideas that can help shape your story.
 
-![Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire; Foundation of Faith](Інструменти%20ДМ/CLI/tables/chapter-2-khorvaire-gazeteer-faiths-of-khorvaire-foundation-of-faith-erlw.md)
+![Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire; Foundation of Faith](Інструменти%20ДМ/CLI/tables/chapter-2-khorvaire-gazetteer-faiths-of-khorvaire-foundation-of-faith-erlw.md)
 
-![Chapter 2: Khorvaire Gazeteer - Faiths of Khorvaire; Rejection of Faith](Інструменти%20ДМ/CLI/tables/chapter-2-khorvaire-gazeteer-faiths-of-khorvaire-rejection-of-faith-erlw.md)
+![Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire; Rejection of Faith](Інструменти%20ДМ/CLI/tables/chapter-2-khorvaire-gazetteer-faiths-of-khorvaire-rejection-of-faith-erlw.md)
 
 ## Deities of Eberron
 
@@ -284,7 +284,7 @@ The nation of Adar in Sarlona is home to vast fortress monasteries devoted to th
 - You have been chosen by a hero. Live your life as they lived theirs, letting their instincts guide you.  
 - Treasure our past and the stories of our people. You are the vessel through which new legends will arise.  
 
-> [!readaloud] Voice of Breland—The KaLashtar prophecy you can't ignore!
+> [!readaloud] Voice of Breland—The Kalashtar prophecy you can't ignore!
 > 
 > Many of the people of Khorvaire have never met a kalashtar. Some say these people are in contact with celestial spirits; here at the *Voice of Breland*, we say they're a rare type of lunatic we've imported from Sarlona. So it was a special treat for tourists when one of the spiritual leaders of the kalashtar of Sharn made an unexpected appearance in the grand plaza of Hope's Peak. The enlightened Havakhad—that's what he calls himself—issued a warning that "darkness was gathering" and that "a terrible time lies just ahead." He beseeched the assembled crowds to show kindness to neighbor and stranger alike, and not to let "fear cause strife in the hard days to come." Apparently Havakhad hasn't heard the news that we're winning the war. But if the world does end tomorrow, you read it here first!
 ^voice-of-brelandthe-kalashtar-prophecy-you-cant-ignore

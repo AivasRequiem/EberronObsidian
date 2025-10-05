@@ -47,12 +47,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The bear makes one Bite attack and one Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing\
-      \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Slashing damage.\
+      \ If the target is a Large or smaller creature, it has the [Prone](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Claw"
 "source":
   - "XMM"

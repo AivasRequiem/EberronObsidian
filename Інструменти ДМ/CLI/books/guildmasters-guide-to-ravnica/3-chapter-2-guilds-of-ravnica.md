@@ -105,7 +105,7 @@ As you're playing a character associated with one of the guilds, think about you
 
 ### Membership and Independence
 
-Some adventurers do exactly what they're told, spending their careers doing the bidding of their guild superiors. Most adventuring characters, though, prefer more independence. You can roll a `d6` or choose from the options in the table below to establish a reason for the freedom enjoyed by your character.
+Some adventurers do exactly what they're told, spending their careers doing the bidding of their guild superiors. Most adventuring characters, though, prefer more independence. You can roll a `dice:d6|noform|noparens|avg` (`d6`) or choose from the options in the table below to establish a reason for the freedom enjoyed by your character.
 
 ![Membership and Independence](Інструменти%20ДМ/CLI/tables/membership-and-independence-ggr.md)
 
@@ -240,7 +240,7 @@ Your new title depends on your previous role as an official in the Azorius Senat
 - If you are an officer, you become an imperator.  
 - If you are a scribe, you become an emissary.  
 
-You are recognized as an authority in your field. You gain an [Azorius charm](Інструменти%20ДМ/CLI/rewards/azorius-charm-ggr.md) (described in "chapter 5") at the start of each mission you undertake on the guild's behalf. At the start of any such mission, you can secure the assistance of a squad of `d4` arresters (use the [soldier](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) stat block) plus one [lawmage](Інструменти%20ДМ/CLI/bestiary/humanoid/lawmage-ggr.md). These individuals remain with you until the mission ends.
+You are recognized as an authority in your field. You gain an [Azorius charm](Інструменти%20ДМ/CLI/rewards/azorius-charm-ggr.md) (described in "chapter 5") at the start of each mission you undertake on the guild's behalf. At the start of any such mission, you can secure the assistance of a squad of `dice:1d4|noform|noparens|avg` (`d4`) arresters (use the [soldier](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) stat block) plus one [lawmage](Інструменти%20ДМ/CLI/bestiary/humanoid/lawmage-ggr.md). These individuals remain with you until the mission ends.
 
 Between adventures, you earn enough money pursuing your duties to support yourself at a comfortable lifestyle.
 
@@ -254,7 +254,7 @@ Your new title depends on your broader interests as they relate to one of the th
 - If your interests concern the judiciary, you become a judge within the Sova Column.  
 - If you want a position on the legislative body of the Jelenn Column, you become a senator.  
 
-Regardless of your specific title, you can secure the aid of up to `3d4` [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) and one or two [lawmages](Інструменти%20ДМ/CLI/bestiary/humanoid/lawmage-ggr.md) whenever you set out on a guild-approved mission.
+Regardless of your specific title, you can secure the aid of up to `dice:3d4|noform|noparens|avg` (`3d4`) [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) and one or two [lawmages](Інструменти%20ДМ/CLI/bestiary/humanoid/lawmage-ggr.md) whenever you set out on a guild-approved mission.
 
 Between adventures, your responsibilities to the guild—including supervising arresters, judging legal cases, or writing laws—earns you enough money to support yourself at a wealthy lifestyle.
 
@@ -295,7 +295,7 @@ Of course, whenever the members of another guild decide to operate within the la
 
 ![](Інструменти%20ДМ/CLI/books/guildmasters-guide-to-ravnica/img/019-206.webp#center)
 
-> [!quote] A quote from Doug Beyer, Return to Ravnica: The Secretist  
+> [!quote] A quote from Doug Beyer  
 > 
 > A brown-bearded, broad-chested man clad in massive-shouldered plate armor led a battalion of soldiers, the symbol of the Boros Legion emblazoned on white cloth draped over their armor. Their soldiers were a variety of races, including humans, a minotaur with a permanent scowl on her face, an impatient-looking goblin, and even some kind of humanoid fire elemental, whose Boros armor floated in protective positions over its animate flame.
 
@@ -383,7 +383,7 @@ In addition, certain positions become available to you when both your renown and
 
 *Prerequisite: Renown 3 or higher in the Boros Legion*
 
-At this rank, you gain some authority over lower-ranking soldiers. When you undertake a mission on the guild's behalf that requires military strength, a squad of `d4` [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) accompanies and assists you for the duration of the mission.
+At this rank, you gain some authority over lower-ranking soldiers. When you undertake a mission on the guild's behalf that requires military strength, a squad of `dice:1d4|noform|noparens|avg` (`d4`) [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md) accompanies and assists you for the duration of the mission.
 
 Your salary at this rank is enough to maintain a modest lifestyle, including private quarters in the garrison.
 
@@ -423,7 +423,7 @@ Members of the Sunhome Guard are responsible for the defense of Sunhome, the Bor
 
 *Prerequisite: Rank 2 and renown 25 or higher in the Boros Legion*
 
-As a captain in the Boros Legion, you gain command of a small garrison and the responsibility for maintaining order and protecting people in part of a city district. You have four brigades under your command. As described for rank 3, each brigade has six squads of five soldiers (including a sergeant) reporting to them. One additional squad of `2d4` soldiers is your personal retinue.
+As a captain in the Boros Legion, you gain command of a small garrison and the responsibility for maintaining order and protecting people in part of a city district. You have four brigades under your command. As described for rank 3, each brigade has six squads of five soldiers (including a sergeant) reporting to them. One additional squad of `dice:2d4|noform|noparens|avg` (`2d4`) soldiers is your personal retinue.
 
 You regularly receive communications from warleader angels who coordinate the efforts of the smaller garrisons. They keep you informed of the goals and concerns of the legion's mortal and angelic leaders and can help you address them. You are then responsible for giving orders to your brigadiers, and you must answer to your commander for the troops' success or failure in achieving the guild's strategic goals.
 
@@ -441,7 +441,7 @@ You continue to draw a salary sufficient to maintain a comfortable lifestyle.
 
 #### Enemies and Allies
 
-In general, the Boros find some common ground with other guilds that value order and structure: Azorius, Selensya, and (to a lesser extent) Orzhov. The [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md), Gruul, and Izzet might share the zeal and energy of the Boros, but they represent the more chaotic aspect of those qualities, which threatens the stability of all Ravnica.
+In general, the Boros find some common ground with other guilds that value order and structure: Azorius, Selesnya, and (to a lesser extent) Orzhov. The [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md), Gruul, and Izzet might share the zeal and energy of the Boros, but they represent the more chaotic aspect of those qualities, which threatens the stability of all Ravnica.
 
 The legion is dedicated to combating the influence of Dimir spies and infiltrators, containing the brutal chaos of the [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md), and halting the schemes of the Golgari. But any guild can become an enemy of Boros if its aims and activities lead to crime, chaos, injustice, or harm to the innocent citizens of Ravnica. Even the Azorius can become so obsessive in creating and enforcing laws that they overreach the bounds of justice.
 
@@ -788,7 +788,7 @@ You might enjoy playing a character who belongs to the Gruul Clans if one or mor
 
 You might have been born and raised among the Gruul, like many of the guild's members. Or you could be an outcast, a refugee, or a fugitive from civilized society, shunned for your violent ways or for fleeing the hand of justice. As long as you are strong enough to survive among the Gruul, you are welcome, no matter what secrets haunt your past.
 
-The Gruul "guild" is actually a collection of different, independent clans loosely united under one powerful leader. When you decide to join the Gruul, you join a specific clan, not the guild as a whole. You can roll a `d8` or choose from the options in the Gruul Clan Options table to determine your character's clan allegiance.
+The Gruul "guild" is actually a collection of different, independent clans loosely united under one powerful leader. When you decide to join the Gruul, you join a specific clan, not the guild as a whole. You can roll a `dice:d8|noform|noparens|avg` (`d8`) or choose from the options in the Gruul Clan Options table to determine your character's clan allegiance.
 
 ![Joining the Gruul Clans; Gruul Clan Options](Інструменти%20ДМ/CLI/tables/joining-the-gruul-clans-gruul-clan-options-ggr.md)
 
@@ -816,7 +816,7 @@ Renown among the Gruul could also be called glory—when you prove yourself in b
 
 *Prerequisite: Renown 3 or higher in your clan*
 
-With several battles under your belt, you have demonstrated service to your clan and earned the recognition of your peers. You have the right to tattoo your body to commemorate your triumphs in battle and demonstrate your loyalty to the Gruul. You don't yet have authority over others, but when you go into battle with your clan, your fellow warriors fight near you, acknowledging your prowess. Your clan chieftain knows your name and might decide to single you out, offering you an opportunity to prove yourself by performing a special task. Depending on the nature of the task, the chieftain might send `d4` [anarchs](Інструменти%20ДМ/CLI/bestiary/humanoid/anarch-ggr.md) along to help you.
+With several battles under your belt, you have demonstrated service to your clan and earned the recognition of your peers. You have the right to tattoo your body to commemorate your triumphs in battle and demonstrate your loyalty to the Gruul. You don't yet have authority over others, but when you go into battle with your clan, your fellow warriors fight near you, acknowledging your prowess. Your clan chieftain knows your name and might decide to single you out, offering you an opportunity to prove yourself by performing a special task. Depending on the nature of the task, the chieftain might send `dice:1d4|noform|noparens|avg` (`d4`) [anarchs](Інструменти%20ДМ/CLI/bestiary/humanoid/anarch-ggr.md) along to help you.
 
 #### Beast-Friend
 
@@ -830,7 +830,7 @@ In addition, when you carry out a raid on the guild's behalf, a druid of your cl
 
 *Prerequisite: Renown 25 or higher in your clan*
 
-You are a hero in your clan, and your reputation extends to other clans as well. You can count on the aid of your clan in most situations. Your clan's druids cast spells for you, and you lead a warband that consists of `3d4` [anarchs](Інструменти%20ДМ/CLI/bestiary/humanoid/anarch-ggr.md) plus three [berserkers](Інструменти%20ДМ/CLI/bestiary/humanoid/berserker-xmm.md) or [ogres](Інструменти%20ДМ/CLI/bestiary/giant/ogre-xmm.md) (see the "Monster Manual" for their stat blocks).
+You are a hero in your clan, and your reputation extends to other clans as well. You can count on the aid of your clan in most situations. Your clan's druids cast spells for you, and you lead a warband that consists of `dice:3d4|noform|noparens|avg` (`3d4`) [anarchs](Інструменти%20ДМ/CLI/bestiary/humanoid/anarch-ggr.md) plus three [berserkers](Інструменти%20ДМ/CLI/bestiary/humanoid/berserker-xmm.md) or [ogres](Інструменти%20ДМ/CLI/bestiary/giant/ogre-xmm.md) (see the "Monster Manual" for their stat blocks).
 
 Your chieftain keeps an eye on you, aware that you're a potential challenger for leadership of the clan.
 
@@ -975,7 +975,7 @@ Renown within the Izzet League brings with it more responsibility in your chosen
 
 When you have advanced the guild's interests and survived a few magical experiments, you graduate into a position where you can conduct experiments yourself. Only a spellcaster can craft and operate the laboratory equipment involved in Izzet experiments.
 
-As a researcher, you can request equipment for use in your experiments and during adventures. You can secure the aid of `d4` barely competent attendants to assist you. Your attendants use the [commoner](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) stat block in the "Monster Manual".
+As a researcher, you can request equipment for use in your experiments and during adventures. You can secure the aid of `dice:1d4|noform|noparens|avg` (`d4`) barely competent attendants to assist you. Your attendants use the [commoner](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) stat block in the "Monster Manual".
 
 When you achieve this rank, you can help create your own [mizzium apparatus](Інструменти%20ДМ/CLI/items/mizzium-apparatus-ggr.md) (described in "chapter 5"). To do so, you must spend 10 days of downtime in an Izzet workshop, assisting a more experienced researcher in the construction of the device. The apparatus is given to you at the end of this time. If your apparatus is lost or destroyed, you can create a replacement by spending 50 gp and another 10 days of downtime.
 
@@ -999,7 +999,7 @@ As a supervisor, you earn a salary sufficient to maintain a modest lifestyle.
 
 *Prerequisite: Rank 1 and renown 10 or higher in the Izzet League, Spellcasting or Pact Magic class feature*
 
-Not every researcher chooses to advance through the ranks of management to become a supervisor. As an independent researcher, you can use the resources of your laboratory to conduct any kind of experiment. Assisting you in your research are `2d6` competent attendants (use the [commoner](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) stat block in the "Monster Manual", and give them proficiency in the [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana) skill).
+Not every researcher chooses to advance through the ranks of management to become a supervisor. As an independent researcher, you can use the resources of your laboratory to conduct any kind of experiment. Assisting you in your research are `dice:2d6|noform|noparens|avg` (`2d6`) competent attendants (use the [commoner](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) stat block in the "Monster Manual", and give them proficiency in the [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana) skill).
 
 In addition, you can create your own [Izzet charm](Інструменти%20ДМ/CLI/rewards/izzet-charm-ggr.md) (described in "chapter 5"), given 5 days of work and access to your laboratory. When you do so, any other charms you have created vanish.
 
@@ -1156,13 +1156,13 @@ When you're sent on a mission that poses a potential threat, your superior besto
 
 The rank of ministrant is the highest position anyone can hope to attain without being born into the guild. As a ministrant, you study finance, while managing the syndics and knights under your control. Between adventures, you can now maintain a wealthy lifestyle.
 
-You are given a [servitor thrull](Інструменти%20ДМ/CLI/bestiary/construct/servitor-thrull-ggr.md) that is yours to command. If it is killed, your pontiff gives you a new one at their discretion, possibly up to `d4` weeks later. You also have a staff of `2d4` knights and `4d8` syndics under your command. You can order them only to carry out tasks that contribute to the work your pontiff assigns to you. The duty of protecting you from physical harm is always appropriate service for your knights, however. Your knights can be [knights](Інструменти%20ДМ/CLI/bestiary/humanoid/knight-xmm.md) or [priests](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-xmm.md), and your syndics are either [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) or [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md) (stat blocks for them appear in the "Monster Manual").
+You are given a [servitor thrull](Інструменти%20ДМ/CLI/bestiary/construct/servitor-thrull-ggr.md) that is yours to command. If it is killed, your pontiff gives you a new one at their discretion, possibly up to `dice:1d4|noform|noparens|avg` (`d4`) weeks later. You also have a staff of `dice:2d4|noform|noparens|avg` (`2d4`) knights and `dice:4d8|noform|noparens|avg` (`4d8`) syndics under your command. You can order them only to carry out tasks that contribute to the work your pontiff assigns to you. The duty of protecting you from physical harm is always appropriate service for your knights, however. Your knights can be [knights](Інструменти%20ДМ/CLI/bestiary/humanoid/knight-xmm.md) or [priests](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-xmm.md), and your syndics are either [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) or [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md) (stat blocks for them appear in the "Monster Manual").
 
 #### Rank 4: Pontiff
 
 *Prerequisite: Rank 3 and renown 50 or higher in the Orzhov Syndicate, Orzhov birth*
 
-As a pontiff, you are one of the executive managers in charge of enacting the will of the Ghost Council. For that purpose, you have a staff of `2d6` ministrants (use the [mage](Інструменти%20ДМ/CLI/bestiary/humanoid/mage-xmm.md) or [priest](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-xmm.md) stat blocks from the "Monster Manual" to represent them), with their attendant knights and syndics as described for rank 3. You have access to `2d4` [servitor thrulls](Інструменти%20ДМ/CLI/bestiary/construct/servitor-thrull-ggr.md) and [winged thrulls](Інструменти%20ДМ/CLI/bestiary/construct/winged-thrull-ggr.md) at any given time, to carry messages and perform menial tasks for you. You also gain the occasional privilege of speaking with members of the Obzedat. Between adventures, you can maintain an aristocratic lifestyle.
+As a pontiff, you are one of the executive managers in charge of enacting the will of the Ghost Council. For that purpose, you have a staff of `dice:2d6|noform|noparens|avg` (`2d6`) ministrants (use the [mage](Інструменти%20ДМ/CLI/bestiary/humanoid/mage-xmm.md) or [priest](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-xmm.md) stat blocks from the "Monster Manual" to represent them), with their attendant knights and syndics as described for rank 3. You have access to `dice:2d4|noform|noparens|avg` (`2d4`) [servitor thrulls](Інструменти%20ДМ/CLI/bestiary/construct/servitor-thrull-ggr.md) and [winged thrulls](Інструменти%20ДМ/CLI/bestiary/construct/winged-thrull-ggr.md) at any given time, to carry messages and perform menial tasks for you. You also gain the occasional privilege of speaking with members of the Obzedat. Between adventures, you can maintain an aristocratic lifestyle.
 
 ![](Інструменти%20ДМ/CLI/books/guildmasters-guide-to-ravnica/img/045-232.webp#center)
 
@@ -1274,7 +1274,7 @@ You have proven yourself both useful and talented and have earned a place on sta
 
 You have gained a reputation both within the Cult of Rakdos and (to some extent) outside it, though you are still a long way from achieving top billing. You might stage performances in back alleys and abandoned warehouses, with a handful of other performers helping to bring your vision to life.
 
-When you go on an adventure, you can call on `d4` helpers—a mix of [cacklers](Інструменти%20ДМ/CLI/bestiary/fiend/cackler-ggr.md), stage hands, or extras—to help you complete it. Use the stat blocks of [cultists](Інструменти%20ДМ/CLI/bestiary/humanoid/cultist-xmm.md) and [thugs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) from the "Monster Manual" for the stage hands and extras, respectively.
+When you go on an adventure, you can call on `dice:1d4|noform|noparens|avg` (`d4`) helpers—a mix of [cacklers](Інструменти%20ДМ/CLI/bestiary/fiend/cackler-ggr.md), stage hands, or extras—to help you complete it. Use the stat blocks of [cultists](Інструменти%20ДМ/CLI/bestiary/humanoid/cultist-xmm.md) and [thugs](Інструменти%20ДМ/CLI/bestiary/humanoid/tough-xmm.md) from the "Monster Manual" for the stage hands and extras, respectively.
 
 Your status also means that you can venture into the depths of Rix Maadi, the lair of [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md), to petition for a [Rakdos charm](Інструменти%20ДМ/CLI/rewards/rakdos-charm-ggr.md) (described in "chapter 5"). [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) can grant a charm with barely a thought, but your station in the guild doesn't guarantee safe passage to and from the demon's presence.
 
@@ -1292,13 +1292,13 @@ When you become a blood witch, you are assigned to torment a particular enemy of
 
 At last, you have the opportunity to display your genius to the masses. When you perform, you're the star of the show, the climax of a night of revelry. The rest of the guild regards you with admiration and more than a little envy, since crowds pack whatever venues you choose for your shows. [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) himself might even come to watch. You can count on the support of your ringmaster, and you can call on the aid of other performers in your troupe—just be careful not to turn your back on the ones who would kill in return for a moment in your spotlight.
 
-You can bring `2d4` [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) and `d4` [Rakdos lampooners](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-lampooner-ggr.md) with you when you're going on stage or heading out to riot on the streets.
+You can bring `dice:2d4|noform|noparens|avg` (`2d4`) [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) and `dice:1d4|noform|noparens|avg` (`d4`) [Rakdos lampooners](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-lampooner-ggr.md) with you when you're going on stage or heading out to riot on the streets.
 
 #### Ringmaster
 
 *Prerequisite: Renown 50 or higher in the Cult of Rakdos*
 
-The show is yours to command. You determine what performers take center stage and when, and you design the exciting and bloody final act of the show—meaning that you decide who lives and who dies. You might adopt an ominous or overwrought title, such as Choreographer of Flame or the Dramaturge. A troupe of `3d10 + 20` [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) is at your service, and you can call on `2d4` [blood witches](Інструменти%20ДМ/CLI/bestiary/humanoid/blood-witch-ggr.md) to aid you with their magic. You're probably also considered a significant public enemy by the Azorius, but they can't arrest you if they can't catch you.
+The show is yours to command. You determine what performers take center stage and when, and you design the exciting and bloody final act of the show—meaning that you decide who lives and who dies. You might adopt an ominous or overwrought title, such as Choreographer of Flame or the Dramaturge. A troupe of `dice:3d10+20|noform|noparens|avg` (`3d10 + 20`) [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](Інструменти%20ДМ/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) is at your service, and you can call on `dice:2d4|noform|noparens|avg` (`2d4`) [blood witches](Інструменти%20ДМ/CLI/bestiary/humanoid/blood-witch-ggr.md) to aid you with their magic. You're probably also considered a significant public enemy by the Azorius, but they can't arrest you if they can't catch you.
 
 #### Enemies and Allies
 
@@ -1420,7 +1420,7 @@ When you become an evangel, you gain one additional contact from a guild other t
 
 Votaries are soldiers who protect the vernadi gardens in the area immediately around its central tree. As a votary, you are usually assigned to guard duty, but your voda might also assign you to special missions that require strength of arms.
 
-While you are in the garden you're sworn to protect, the plants obey your word, allowing you to transform the foliage into `d6` [awakened shrubs](Інструменти%20ДМ/CLI/bestiary/plant/awakened-shrub-xmm.md) or 1 [awakened tree](Інструменти%20ДМ/CLI/bestiary/plant/awakened-tree-xmm.md) (both described in the "Monster Manual") for as long as a threat to the garden persists. These awakened plants won't leave the garden.
+While you are in the garden you're sworn to protect, the plants obey your word, allowing you to transform the foliage into `dice:1d6|noform|noparens|avg` (`d6`) [awakened shrubs](Інструменти%20ДМ/CLI/bestiary/plant/awakened-shrub-xmm.md) or 1 [awakened tree](Інструменти%20ДМ/CLI/bestiary/plant/awakened-tree-xmm.md) (both described in the "Monster Manual") for as long as a threat to the garden persists. These awakened plants won't leave the garden.
 
 #### Sagittar (Special Role)
 
@@ -1450,7 +1450,7 @@ Your mount effectively belongs to you, entrusted to your care. If it comes to ha
 
 The ranks of the Selesnya clergy aren't hierarchical, yet you are honored with the title of hierarch. Hierarchs lead rites that invoke the blessing of Mat'Selesnya, bringing Selesnya's initiates into closer communion with the Worldsoul and with each other. They are assisted in these rites by less experienced clergy.
 
-As a hierarch, you can call on the aid of `d4` [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md) (see the stat block in the "Monster Manual"), even leading them on missions.
+As a hierarch, you can call on the aid of `dice:1d4|noform|noparens|avg` (`d4`) [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md) (see the stat block in the "Monster Manual"), even leading them on missions.
 
 You have an important voice in decision-making for your vernadi, and you are expected to offer advice and opinions to your voda when requested.
 
@@ -1466,7 +1466,7 @@ The Ledev guardians are knights who were originally protectors of Ravnica's road
 
 *Prerequisite: Renown 50 or higher in the Selesnya Conclave*
 
-Chosen by [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md) herself, dignitaries act as emissaries in dealing with other guilds. As a dignitary, you must be available when [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md) has need of your service, but you have great latitude to pursue your vision of the guild's goals. You can call on `10d10` Selesnya initiates to support you in your missions for [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md), and `8d10` initiates for a mission of your own devising. These initiates are [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md), [scouts](Інструменти%20ДМ/CLI/bestiary/humanoid/scout-xmm.md) (both described in the "Monster Manual"), or [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md).
+Chosen by [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md) herself, dignitaries act as emissaries in dealing with other guilds. As a dignitary, you must be available when [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md) has need of your service, but you have great latitude to pursue your vision of the guild's goals. You can call on `dice:10d10|noform|noparens|avg` (`10d10`) Selesnya initiates to support you in your missions for [Trostani](Інструменти%20ДМ/CLI/bestiary/npc/trostani-ggr.md), and `dice:8d10|noform|noparens|avg` (`8d10`) initiates for a mission of your own devising. These initiates are [acolytes](Інструменти%20ДМ/CLI/bestiary/humanoid/priest-acolyte-xmm.md), [scouts](Інструменти%20ДМ/CLI/bestiary/humanoid/scout-xmm.md) (both described in the "Monster Manual"), or [soldiers](Інструменти%20ДМ/CLI/bestiary/humanoid/soldier-ggr.md).
 
 Your position gives you access to the best food and lodging, the equivalent of a wealthy lifestyle.
 
@@ -1582,7 +1582,7 @@ Tiers of responsibility and importance—functional ranks—create a hierarchy a
 
 As a technician, you can begin performing experiments, following the instructions of a researcher as you operate instruments, care for experimental subjects, extract samples of bodily fluids, and run errands up and down the zonot and out into the city. Such errands can bring you into contact with members of other guilds and lead to adventures.
 
-If you have any kind of pet, familiar, mount, or animal companion, you can add one random adaptation to it from the [Minor Adaptations](Інструменти%20ДМ/CLI/tables/minor-adaptations-ggr.md) table. Doing so requires `d6` days of work (8 hours per day) for each creature, and the work must be done in a Simicfacility.
+If you have any kind of pet, familiar, mount, or animal companion, you can add one random adaptation to it from the [Minor Adaptations](Інструменти%20ДМ/CLI/tables/minor-adaptations-ggr.md) table. Doing so requires `dice:1d6|noform|noparens|avg` (`d6`) days of work (8 hours per day) for each creature, and the work must be done in a Simic facility.
 
 ![](Інструменти%20ДМ/CLI/books/guildmasters-guide-to-ravnica/img/060-245.webp#center)
 
@@ -1602,13 +1602,13 @@ As a guardian, deepsage, or other non-scientist within the Simic, you don't prog
 
 If your work for the guild requires it, a project leader, clade leader, or other superior can equip you with a [Simic charm](Інструменти%20ДМ/CLI/rewards/simic-charm-ggr.md) (described in "chapter 5") before you undertake a mission or an experiment on the guild's behalf.
 
-In addition, when you're on guild business, you can call on the following Simic hybrid agents to assist you: one [hybrid brute](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-brute-ggr.md) or [hybrid flier](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-flier-ggr.md), up to two [hybrid poisoners](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-poisoner-ggr.md) or [hybrid shockers](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-shocker-ggr.md), or `d4` [hybrid spies](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-spy-ggr.md).
+In addition, when you're on guild business, you can call on the following Simic hybrid agents to assist you: one [hybrid brute](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-brute-ggr.md) or [hybrid flier](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-flier-ggr.md), up to two [hybrid poisoners](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-poisoner-ggr.md) or [hybrid shockers](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-shocker-ggr.md), or `dice:1d4|noform|noparens|avg` (`d4`) [hybrid spies](Інструменти%20ДМ/CLI/bestiary/humanoid/hybrid-spy-ggr.md).
 
 #### Rank 3: Project Leader
 
 *Prerequisite: Rank 2 and renown 25 or higher in the Simic Combine*
 
-A proven researcher, you are eligible to oversee your own project, directing the efforts of other researchers toward the solution of some problem facing the guild. The Speaker of your zonot gives you laboratory space, and you have a staff of `3d12` researchers (which use the stat blocks of [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) or [merfolk](Інструменти%20ДМ/CLI/bestiary/elemental/merfolk-skirmisher-xmm.md) from the "Monster Manual"). You can have this staff work on projects for you, which can include the creation of a [category 2 krasis](Інструменти%20ДМ/CLI/bestiary/monstrosity/category-2-krasis-ggr.md) (with [minor](Інструменти%20ДМ/CLI/tables/minor-adaptations-ggr.md) or [major](Інструменти%20ДМ/CLI/tables/major-adaptations-ggr.md) adaptations of your choosing, which you can then bring outside the laboratory on important business, ideally under carefully controlled conditions.
+A proven researcher, you are eligible to oversee your own project, directing the efforts of other researchers toward the solution of some problem facing the guild. The Speaker of your zonot gives you laboratory space, and you have a staff of `dice:3d12|noform|noparens|avg` (`3d12`) researchers (which use the stat blocks of [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) or [merfolk](Інструменти%20ДМ/CLI/bestiary/elemental/merfolk-skirmisher-xmm.md) from the "Monster Manual"). You can have this staff work on projects for you, which can include the creation of a [category 2 krasis](Інструменти%20ДМ/CLI/bestiary/monstrosity/category-2-krasis-ggr.md) (with [minor](Інструменти%20ДМ/CLI/tables/minor-adaptations-ggr.md) or [major](Інструменти%20ДМ/CLI/tables/major-adaptations-ggr.md) adaptations of your choosing, which you can then bring outside the laboratory on important business, ideally under carefully controlled conditions.
 
 Hosting the work of a successful and important project reflects well on the Speaker of a zonot, so your Speaker keeps a close eye on your work. On the positive side, you can count on access to the considerable resources of the zonot as long as your research is going well. On the other hand, you can expect your Speaker to try to meddle in your work to ensure that your efforts remain relevant to the overall goals of the Simic Combine.
 
@@ -1616,7 +1616,7 @@ Hosting the work of a successful and important project reflects well on the Spea
 
 *Prerequisite: Rank 2 and renown 50 or higher in the Simic Combine*
 
-As a famous researcher or a successful project leader, you stand ready to take on a supervisory role for an entire clade. New clades rarely form, so you must wait for your clade leader to retire (one way or another) before a position exists for you to fill, except in truly exceptional circumstances. Similar to a project leader, you are responsible for directing the efforts of researchers exploring a wide variety of projects related to the focus of your clade. Unless an experiment turns out to be especially interesting, these efforts can carry on without your supervision. If you need to, you can enlist the aid of `5d12` researchers (which use the stat blocks of [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) or [merfolk](Інструменти%20ДМ/CLI/bestiary/elemental/merfolk-skirmisher-xmm.md) from the "Monster Manual"), and you can also request the support of hybrids, krasis, or any other creature associated with the Simic Combine (see the list in "chapter 6") from the Speaker of any zonot where the members of your clade live and work.
+As a famous researcher or a successful project leader, you stand ready to take on a supervisory role for an entire clade. New clades rarely form, so you must wait for your clade leader to retire (one way or another) before a position exists for you to fill, except in truly exceptional circumstances. Similar to a project leader, you are responsible for directing the efforts of researchers exploring a wide variety of projects related to the focus of your clade. Unless an experiment turns out to be especially interesting, these efforts can carry on without your supervision. If you need to, you can enlist the aid of `dice:5d12|noform|noparens|avg` (`5d12`) researchers (which use the stat blocks of [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) or [merfolk](Інструменти%20ДМ/CLI/bestiary/elemental/merfolk-skirmisher-xmm.md) from the "Monster Manual"), and you can also request the support of hybrids, krasis, or any other creature associated with the Simic Combine (see the list in "chapter 6") from the Speaker of any zonot where the members of your clade live and work.
 
 Because most clades span multiple zonots, you have status equal to the Speakers of the zonots. You have no voice on the Speakers' Chamber, unless you can persuade one or more of its members to speak on your behalf.
 

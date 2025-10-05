@@ -37,9 +37,9 @@ The captain is often accompanied by an undying companion, such as a crawling cla
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold, necrotic, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -51,7 +51,8 @@ The captain is often accompanied by an undying companion, such as a crawling cla
 "traits":
   - "desc": "When the captain is reduced to 0 hit points, it explodes in a cloud of\
       \ ash. Any creature within 5 feet of it must succeed on a DC 15 Constitution\
-      \ saving throw or take 16 (3d10) necrotic damage."
+      \ saving throw or take dice:3d10|noform|noparens|avg|text(16) (3d10) necrotic\
+      \ damage."
     "name": "Explode"
   - "desc": "The captain can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
@@ -59,13 +60,15 @@ The captain is often accompanied by an undying companion, such as a crawling cla
   - "desc": "The captain doesn't require air or drink."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced\
-      \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
-      \ shadow or vampirate (captain's choice) under the DM's control."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6)\
+      \ to hit, reach 5 ft. or range 30 ft., one creature. Hit: dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack\
+      \ dies and instantly transforms into a free-willed shadow or vampirate (captain's\
+      \ choice) under the DM's control."
     "name": "Energy Drain"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit:\
-      \ 19 (3d10 + 3) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ range 100/400 ft., one target. Hit: dice:3d10+3|noform|noparens|avg|text(19)\
+      \ (3d10 + 3) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "A ship upon which the captain stands, along with all creatures and objects\
       \ aboard it, becomes [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\

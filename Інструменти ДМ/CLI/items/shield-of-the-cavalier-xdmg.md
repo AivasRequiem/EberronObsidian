@@ -22,7 +22,7 @@ The Shield has the following additional properties that you can use while holdin
 
 ## Forceful Bash
 
-When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack), you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md) and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to `2d6 + 2` plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.
+When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack), you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md) and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to `dice:2d6+2|noform|noparens|avg` (`2d6 + 2`) plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.
 
 ## Protective Field
 

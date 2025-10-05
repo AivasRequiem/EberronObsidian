@@ -9,14 +9,13 @@ aliases:
 ---
 # Boon of the Night Spirit
 *Source: Player's Handbook (2024) p. 211. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*  
+
 **Prerequisite**: 19th
-**Ability Score Increase**: Increase one ability score of your choice by 1, to a maximum of 30.
+
 You gain the following benefits.
 
-## Merge with Shadows
+**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.
 
-While within Dim Light or Darkness, you can give yourself the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
+**Merge with Shadows.** While within Dim Light or Darkness, you can give yourself the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
 
-## Shadowy Form
-
-While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.
+**Shadowy Form.** While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.

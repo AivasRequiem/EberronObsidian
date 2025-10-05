@@ -66,8 +66,9 @@ Kobolds' scales resemble those of chromatic dragons that live near their warrens
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d4 + 2) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d4+2|noform|noparens|avg|text(4)\
+      \ (1d4 + 2) Piercing damage."
     "name": "Dagger"
 "source":
   - "XMM"

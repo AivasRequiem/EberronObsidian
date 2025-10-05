@@ -32,7 +32,7 @@ If the weapon is on your person, you can call on its luck (no action required) t
 
 ## Wish
 
-The weapon has `d3` charges. While holding it, you can expend 1 charge and cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.
+The weapon has `dice:1d3|noform|noparens|avg` (`d3`) charges. While holding it, you can expend 1 charge and cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.
 
 **Variants**:
 - [Luck Glaive](#Luck%20Glaive)

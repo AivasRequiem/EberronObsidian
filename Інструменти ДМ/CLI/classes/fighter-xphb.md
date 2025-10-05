@@ -77,7 +77,7 @@ Whenever you gain a Fighter level, you can replace the feat you chose with a dif
 
 ### Second Wind (Level 1)
 
-You have a limited well of physical and mental stamina that you can draw on. As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can use it to regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to `d10` plus your Fighter level.
+You have a limited well of physical and mental stamina that you can draw on. As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you can use it to regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to `dice:1d10|noform|noparens|avg` (`d10`) plus your Fighter level.
 
 You can use this feature twice. You regain one expended use when you finish a [Short Rest](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
@@ -97,7 +97,7 @@ Once you use this feature, you can't do so again until you finish a [Short](Ін
 
 ### Tactical Mind (Level 2)
 
-You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you roll `d10` and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
+You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you roll `dice:1d10|noform|noparens|avg` (`d10`) and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
 
 ### Fighter Subclass (Level 3)
 

@@ -64,9 +64,9 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
   - !!int "24"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "constitution": "+12"
-  - "intelligence": "+15"
-  - "wisdom": "+12"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "15"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -91,18 +91,19 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
 "cr": "22"
 "traits":
   - "desc": "Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence\
-      \ (spell save DC 23, +15 to hit with spell attacks). Illmarrow has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [chill touch](Інструмен\
-      ти%20ДМ/CLI/spells/chill-touch-xphb.md) (see \"Actions\" below), [fire bolt](І\
-      нструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [mage hand](Інструменти%20ДМ\
-      /CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md),\
-      \ [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md)\n\n1st\
-      \ level (4 slots): [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md),\
-      \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md), [sleep](Інструменти\
-      %20ДМ/CLI/spells/sleep-xphb.md)\n\n2nd level (3 slots): [blur](Інструмен\
-      ти%20ДМ/CLI/spells/blur-xphb.md), [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n3rd\
-      \ level (3 slots): [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \ (spell save DC 23, dice:1d20+15|noform|noparens|text(+15) to hit with spell\
+      \ attacks). Illmarrow has the following wizard spells prepared:\n\nCantrips\
+      \ (at will): [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md)\
+      \ (see \"Actions\" below), [fire bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md),\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md), [ray of frost](Інструм\
+      енти%20ДМ/CLI/spells/ray-of-frost-xphb.md)\n\n1st level (4 slots): [magic\
+      \ missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [shield](Інст\
+      рументи%20ДМ/CLI/spells/shield-xphb.md), [sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md)\n\
+      \n2nd level (3 slots): [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
+      \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [mirror\
+      \ image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n3rd level (3\
+      \ slots): [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md), [fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\n\n4th\
@@ -129,29 +130,33 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
       \ effects."
     "name": "Magic Resistance"
   - "desc": "Illmarrow's body turns to dust when she drops to 0 hit points, and her\
-      \ equipment is left behind. She gains a new body after d10 days, regaining\
-      \ all her hit points and becoming active again. The new body appears within\
-      \ two hundred miles of the location at which she was destroyed."
+      \ equipment is left behind. She gains a new body after dice:1d10|noform|noparens|avg\
+      \ (d10) days, regaining all her hit points and becoming active again. The\
+      \ new body appears within two hundred miles of the location at which she was\
+      \ destroyed."
     "name": "Rejuvenation"
 "actions":
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one creature. Hit:\
-      \ 18 (4d8) necrotic damage, and the target can't regain hit points until the\
+  - "desc": "Ranged Spell Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ range 120 ft., one creature. Hit: dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) necrotic damage, and the target can't regain hit points until the\
       \ start of Illmarrow's next turn. If the target is undead, it also has disadvantage\
       \ on attack rolls against Illmarrow until the end of her next turn."
     "name": "Chill Touch (Cantrip)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit:\
-      \ 13 (3d6 + 3) slashing damage plus 10 (3d6) cold damage, and the target\
-      \ must succeed on a DC 20 Constitution saving throw or be [paralyzed](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Paralyzed) for 1 minute. The target can repeat\
-      \ the saving throw at the end of each of its turns, ending the effect on itself\
-      \ on a success."
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
+      \ (3d6 + 3) slashing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ cold damage, and the target must succeed on a DC 20 Constitution saving throw\
+      \ or be [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) for\
+      \ 1 minute. The target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
     "name": "Paralyzing Claw"
   - "desc": "Illmarrow exhales poisonous gas in a 30-foot cone. Each creature in that\
       \ area must make a DC 20 Constitution saving throw. On a failed save, a creature\
-      \ takes 35 (10d6) poison damage and is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ for 1 minute. While [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ in this way, the creature can't regain hit points. On a successful save, the\
-      \ creature takes half as much damage and isn't [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned).\n\
+      \ takes dice:10d6|noform|noparens|avg|text(35) (10d6) poison damage and\
+      \ is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute.\
+      \ While [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) in this\
+      \ way, the creature can't regain hit points. On a successful save, the creature\
+      \ takes half as much damage and isn't [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned).\n\
       \nA humanoid reduced to 0 hit points by this damage dies and rises at the start\
       \ of Illmarrow's next turn as a zombie. The zombie acts immediately after Illmarrow\
       \ in the initiative count and is permanently under her command, following her\

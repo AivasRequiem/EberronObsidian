@@ -38,8 +38,8 @@ Blood witches strive both to protect the cult from external interference and to 
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+2"
-  - "charisma": "+7"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -55,19 +55,19 @@ Blood witches strive both to protect the cult from external interference and to 
 "cr": "7"
 "traits":
   - "desc": "The witch's innate spellcasting ability is Charisma (spell save DC 15,\
-      \ +7 to hit with spell attacks). The witch can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [alter self](Інс\
-      трументи%20ДМ/CLI/spells/alter-self-xphb.md), [detect magic](Інструменти%20Д\
-      М/CLI/spells/detect-magic-xphb.md), [eldritch blast](Інструменти%20ДМ/CLI/spells/eldritch-blast-xphb.md)\
-      \ (at 11th level), [false life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md),\
-      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only), [mage\
-      \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only)\n\n3/day\
-      \ each: [hellish rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md),\
-      \ [hex](Інструменти%20ДМ/CLI/spells/hex-xphb.md), [scorching ray](Інструмент\
-      и%20ДМ/CLI/spells/scorching-ray-xphb.md) (at 3rd level)\n\n1/day each: [circle\
-      \ of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md), [enthrall](І\
-      нструменти%20ДМ/CLI/spells/enthrall-xphb.md), [suggestion](Інструменти%20ДМ\
-      /CLI/spells/suggestion-xphb.md)"
+      \ dice:1d20+7|noform|noparens|text(+7) to hit with spell attacks). The witch\
+      \ can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
+      \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [eldritch\
+      \ blast](Інструменти%20ДМ/CLI/spells/eldritch-blast-xphb.md) (at 11th level),\
+      \ [false life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md), [levitate](І\
+      нструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only), [mage armor](Інстр\
+      ументи%20ДМ/CLI/spells/mage-armor-xphb.md) (self only)\n\n3/day each: [hellish\
+      \ rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md), [hex](Інструм\
+      енти%20ДМ/CLI/spells/hex-xphb.md), [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md)\
+      \ (at 3rd level)\n\n1/day each: [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
+      \ [enthrall](Інструменти%20ДМ/CLI/spells/enthrall-xphb.md), [suggestion](Інс\
+      трументи%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The witch can use a bonus action to control the movement of one creature\
       \ cursed by its [hex](Інструменти%20ДМ/CLI/spells/hex-xphb.md) spell that it\
@@ -81,11 +81,13 @@ Blood witches strive both to protect the cult from external interference and to 
   - "desc": "The witch makes two attacks: one with its longsword and one with its\
       \ shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) slashing damage."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage."
     "name": "Shortsword"
 "source":
   - "GGR"

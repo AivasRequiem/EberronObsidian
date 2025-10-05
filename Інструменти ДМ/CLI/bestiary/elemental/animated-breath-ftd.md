@@ -52,27 +52,31 @@ An animated breath is a bipedal creature formed from the same energy as the brea
       \ determines the creature's AC, damage resistance, traits, and attacks."
     "name": "Chromatic Form"
   - "desc": "At the start of each of the animated breath's turns, each creature within\
-      \ 5 feet of it takes 3 (d6) fire damage, and flammable objects in the aura\
-      \ that aren't being worn or carried ignite. A creature that touches the animated\
-      \ breath or hits it with a melee attack takes 3 (d6) fire damage."
+      \ 5 feet of it takes dice:1d6|noform|noparens|avg|text(3) (d6) fire damage,\
+      \ and flammable objects in the aura that aren't being worn or carried ignite.\
+      \ A creature that touches the animated breath or hits it with a melee attack\
+      \ takes dice:1d6|noform|noparens|avg|text(3) (d6) fire damage."
     "name": "Fire Aura (Fire Form Only)"
   - "desc": "A creature that starts its turn within 5 feet of the animated breath\
       \ must succeed on a DC 15 Constitution saving throw or be [poisoned](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Poisoned) until the start of its next turn.\
       \ A creature that touches the animated breath or hits it with a melee attack\
-      \ takes 3 (d6) acid damage."
+      \ takes dice:1d6|noform|noparens|avg|text(3) (d6) acid damage."
     "name": "Putrid Aura (Acid and Poison Forms Only)"
 "actions":
   - "desc": "The animated breath makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
-      \ (2d8 + 4) bludgeoning damage plus 11 (2d10) damage of a type determined\
-      \ by the animated breath's form: acid, cold, fire, lightning, or poison."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
+      \ (2d8 + 4) bludgeoning damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) damage of a type determined by the animated breath's form: acid,\
+      \ cold, fire, lightning, or poison."
     "name": "Slam"
 "bonus_actions":
   - "desc": "The animated breath magically teleports to an unoccupied space it can\
       \ see within 30 feet of it. Each creature within 5 feet of the animated breath\
-      \ after it teleports takes 3 (d6) lightning damage."
+      \ after it teleports takes dice:1d6|noform|noparens|avg|text(3) (d6) lightning\
+      \ damage."
     "name": "Lightning Burst (Lightning Form Only)"
 "source":
   - "FTD"

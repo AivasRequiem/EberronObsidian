@@ -64,14 +64,16 @@ Minotaurs of Baphomet often dwell in mazes, leading their allies to hidden desti
 "languages": "Abyssal"
 "cr": "3"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 10 (1d12 + 4) Slashing\
-      \ damage plus 10 (3d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
+      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage."
     "name": "Abyssal Glaive"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:4d6+4|noform|noparens|avg|text(18) (4d6 + 4) Piercing\
       \ damage. If the target is a Large or smaller creature and the minotaur moved\
       \ 10+ feet straight toward it immediately before the hit, the target takes an\
-      \ extra 10 (3d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+      \ extra dice:3d6|noform|noparens|avg|text(10) (3d6) Piercing damage and\
+      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Gore (Recharge 5-6)"
 "source":
   - "XMM"

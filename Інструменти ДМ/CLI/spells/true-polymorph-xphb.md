@@ -32,7 +32,7 @@ An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn
 
 If you turn a creature into another kind of creature, the new form can be any kind you choose that has a [Challenge Rating](Інструменти%20ДМ/CLI/rules/variant-rules/challenge-rating-xphb.md) equal to or less than the target's [Challenge Rating](Інструменти%20ДМ/CLI/rules/variant-rules/challenge-rating-xphb.md) or level. The target's game statistics are replaced by the stat block of the new form, but it retains its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), [Hit Point Dice](Інструменти%20ДМ/CLI/rules/variant-rules/hit-point-dice-xphb.md), alignment, and personality.
 
-The target gains a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to the [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) of the new form. These [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) vanish if any remain when the spell ends. The spell ends early on the target if it has no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) left.
+The target gains a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to the [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) of the new form. These [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) vanish if any remain when the spell ends.
 
 The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.
 
@@ -40,9 +40,9 @@ The target's gear melds into the new form. The creature can't use or otherwise b
 
 ## Object into Creature
 
-You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a [Challenge Rating](Інструменти%20ДМ/CLI/rules/variant-rules/challenge-rating-xphb.md) of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.
+You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a [Challenge Rating](Інструменти%20ДМ/CLI/rules/variant-rules/challenge-rating-xphb.md) of 9 or lower. The creature is [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.
 
-If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.
+If the spell lasts more than an hour, you no longer control the creature. It might remain [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you, depending on how you have treated it.
 
 ## Creature into Object
 

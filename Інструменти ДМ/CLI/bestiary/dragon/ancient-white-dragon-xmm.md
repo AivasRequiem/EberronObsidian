@@ -51,8 +51,8 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
   - !!int "18"
 "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+13"
@@ -73,18 +73,20 @@ White dragons brood in bitterly cold lairs clawed from stone and ice.
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing\
-      \ damage plus 7 (2d6) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 15 ft. Hit: dice:2d8+8|noform|noparens|avg|text(17) (2d8 + 8) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Cold damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 22, each creature in a 90-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 63 (14d8) Cold damage. Success: Half damage."
+      \ dice:14d8|noform|noparens|avg|text(63) (14d8) Cold damage. Success:\
+      \ Half damage."
     "name": "Cold Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "Constitution Saving Throw: DC 20, each creature in a 30-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 120 feet. Failure: 14 (4d6)\
-      \ Cold damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ centered on a point the dragon can see within 120 feet. Failure: dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) Cold damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ is 0 until the end of the target's next turn. Failure or Success: The dragon\
       \ can't take this action again until the start of its next turn."
     "name": "Freezing Burst"

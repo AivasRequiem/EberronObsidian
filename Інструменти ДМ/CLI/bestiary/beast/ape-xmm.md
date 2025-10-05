@@ -47,10 +47,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The ape makes two Fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Bludgeoning\
       \ damage."
     "name": "Fist"
-  - "desc": "Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning\
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 25/50\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Bludgeoning\
       \ damage."
     "name": "Rock (Recharge 6)"
 "source":

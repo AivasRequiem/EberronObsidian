@@ -40,8 +40,8 @@ aliases:
   - "desc": "When a creature starts its turn within 10 feet of the spirit, the spirit\
       \ can target it with magical energy if the spirit can see it. Wisdom Saving\
       \ Throw: DC equals your spell save DC, the target. Failure: Until the start\
-      \ of its next turn, the target can't make Opportunity Attacks, and its Speed\
-      \ is halved."
+      \ of its next turn, the target can't make [Opportunity Attacks](Інструменти\
+      %20ДМ/CLI/rules/actions.md#Opportunity%20Attack), and its Speed is halved."
     "name": "Stony Lethargy"
 "actions":
   - "desc": "The spirit makes a number of Slam attacks equal to half this spell's\

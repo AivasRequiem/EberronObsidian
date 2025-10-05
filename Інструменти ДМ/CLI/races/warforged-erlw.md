@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 35*  
 ![](Інструменти%20ДМ/CLI/races/img/warforged.webp#right)
 
-- **Ability Scores**: Constitution +2; Apply +1 to one of Strength, Dexterity, Intelligence, Wisdom, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Intelligence, Wisdom, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 

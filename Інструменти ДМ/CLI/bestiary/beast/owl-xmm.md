@@ -47,11 +47,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "0"
 "traits":
-  - "desc": "The owl doesn't provoke Opportunity Attacks when it flies out of an enemy's\
-      \ reach."
+  - "desc": "The owl doesn't provoke [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it flies out of an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: 1 Slashing damage."
     "name": "Talons"
 "source":
   - "XMM"

@@ -56,8 +56,8 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
@@ -69,15 +69,17 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
 "actions":
   - "desc": "The war priest makes two Maul attacks, and it uses Holy Fire."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) bludgeoning damage  plus Hit: 10 (3d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+      \ (2d6 + 3) bludgeoning damage  plus Hit: dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) radiant damage."
     "name": "Maul"
   - "desc": "The war priest targets one creature it can see within 60 feet of it.\
       \ The target must make a DC 15 Wisdom saving throw. On a failed save, the target\
-      \ takes 12 (2d8 + 3) radiant damage, and it is [blinded](Інструменти%20ДМ\
-      /CLI/rules/conditions.md#Blinded) until the start of the war priest's next turn.\
-      \ On a successful save, the target takes half as much damage and isn't [blinded](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
+      \ takes dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) radiant damage,\
+      \ and it is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until\
+      \ the start of the war priest's next turn. On a successful save, the target\
+      \ takes half as much damage and isn't [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
     "name": "Holy Fire"
   - "desc": "The war priest casts one of the following spells, using Wisdom as the\
       \ spellcasting ability (spell save DC 15):\n\nAt will: [light](Інструмен\
@@ -93,7 +95,7 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The war priest or one creature of its choice within 60 feet of it regains\
-      \ 12 (2d8 + 3) hit points."
+      \ dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) hit points."
     "name": "Healing Light (Recharge 4-6)"
 "source":
   - "MPMM"

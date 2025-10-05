@@ -46,11 +46,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "0"
 "traits":
-  - "desc": "The rat doesn't provoke Opportunity Attacks when it moves out of an enemy's\
-      \ reach."
+  - "desc": "The rat doesn't provoke [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it moves out of an enemy's reach."
     "name": "Agile"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

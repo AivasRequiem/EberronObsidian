@@ -41,8 +41,8 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
   - !!int "10"
 "speed": "10 ft., swim 40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -60,23 +60,28 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
 "actions":
   - "desc": "The sea serpent makes one Bite attack and one Constrict or Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 15 (2d10 + 4) piercing damage plus 5 (d10) cold damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
+      \ (2d10 + 4) piercing damage plus dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 20 ft., one creature. Hit:\
-      \ 22 (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is\
-      \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 15).\
-      \ Until this grapple ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 20 ft., one creature. Hit: dice:4d8+4|noform|noparens|avg|text(22)\
+      \ (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is [grappled](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 15). Until this\
+      \ grapple ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ and the sea serpent can't constrict another target."
     "name": "Constrict"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit:\
-      \ 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 15 ft., one target. Hit: dice:1d10+4|noform|noparens|avg|text(9)\
+      \ (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Strength saving throw or be pushed up to 20 feet away and knocked\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The sea serpent exhales a 30-foot cone of cold. Each creature in that\
-      \ area must make a DC 14 Constitution saving throw, taking 38 (7d10) cold\
-      \ damage on a failed save, or half as much damage on a successful one."
+      \ area must make a DC 14 Constitution saving throw, taking dice:7d10|noform|noparens|avg|text(38)\
+      \ (7d10) cold damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Rime Breath (Recharge 5-6)"
 "source":
   - "FTD"

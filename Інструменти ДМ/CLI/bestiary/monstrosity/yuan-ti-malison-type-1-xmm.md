@@ -90,11 +90,12 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
       \ and it can use Spellcasting to cast [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Bite"
-  - "desc": "Ranged Attack Roll: +5, range 120 ft. Hit: 12 (2d8 + 3) Poison\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 120\
+      \ ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3) Poison damage."
     "name": "Poison Ray (Yuan-ti Form Only)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\

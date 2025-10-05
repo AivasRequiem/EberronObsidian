@@ -48,8 +48,8 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
   - !!int "18"
 "speed": "30 ft., fly 60 ft., swim 90 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+8"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "8"
 "damage_resistances": "acid, cold, lightning"
 "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
 "languages": "Primordial (Aquan)"
@@ -58,9 +58,9 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
   - "desc": "The marid can breathe air and water."
     "name": "Amphibious"
   - "desc": "If the marid dies outside the Elemental Plane of Water, its body dissolves\
-      \ into brine, and it gains a new body in d4 days, reviving with all its [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
-      \ on the Plane of Water."
+      \ into brine, and it gains a new body in dice:1d4|noform|noparens|avg (d4)\
+      \ days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ somewhere on the Plane of Water."
     "name": "Elemental Restoration"
   - "desc": "The marid has a 30 percent chance of knowing the [Wish](Інструменти%20Д\
       М/CLI/spells/wish-xphb.md) spell. If the marid knows it, the marid can cast\
@@ -72,15 +72,16 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
 "actions":
   - "desc": "The marid makes three Aquatic Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 15 ft. Hit: 15 (2d8 + 6) Slashing\
-      \ damage plus 9 (2d8) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 15 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Slashing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Cold damage."
     "name": "Aquatic Lash"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature,\
-      \ it is pushed up to 20 feet straight away from the marid and has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success: Half damage\
-      \ only."
+      \ Failure: dice:9d6|noform|noparens|avg|text(31) (9d6) Cold damage. If\
+      \ the target is a Huge or smaller creature, it is pushed up to 20 feet straight\
+      \ away from the marid and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition. Success: Half damage only."
     "name": "Water Jet"
   - "desc": "The marid casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
@@ -93,21 +94,7 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Plane Shift](Інструменти\
       %20ДМ/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The marid casts [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Veil (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "The marid casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Create or Destroy Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md),\
-      \ [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
-      \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Purify\
-      \ Food and Drink](Інструменти%20ДМ/CLI/spells/purify-food-and-drink-xphb.md)\n\
-      \n1/day each: [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md),\
-      \ [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Plane Shift](Інструменти\
-      %20ДМ/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The marid casts [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md),\
       \ using the same spellcasting ability as Spellcasting.\n"
     "name": "Misty Veil (Recharge 5-6)"

@@ -49,9 +49,9 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
   - !!int "25"
 "speed": "40 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+15"
-  - "wisdom": "+13"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "13"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -84,14 +84,19 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
 "actions":
   - "desc": "Orcus makes three Wand of Orcus, Tail, or Necrotic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit:\
-      \ 24 (3d8 + 11) bludgeoning damage plus 13 (2d12) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d8+11|noform|noparens|avg|text(24)\
+      \ (3d8 + 11) bludgeoning damage plus dice:2d12|noform|noparens|avg|text(13)\
+      \ (2d12) necrotic damage."
     "name": "Wand of Orcus"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
-      \ 21 (3d8 + 8) force damage plus 9 (2d8) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d8+8|noform|noparens|avg|text(21)\
+      \ (3d8 + 8) force damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
+      \ poison damage."
     "name": "Tail"
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one target. Hit:\
-      \ 29 (5d8 + 7) necrotic damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ range 120 ft., one target. Hit: dice:5d8+7|noform|noparens|avg|text(29)\
+      \ (5d8 + 7) necrotic damage."
     "name": "Necrotic Bolt"
   - "desc": "While holding the [Wand of Orcus](Інструменти%20ДМ/CLI/items/wand-of-orcus-xdmg.md),\
       \ Orcus conjures Undead creatures whose combined average hit points don't exceed\
@@ -108,26 +113,11 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
   - "desc": "While holding the [Wand of Orcus](Інструменти%20ДМ/CLI/items/wand-of-orcus-xdmg.md),\
       \ Orcus casts one of the following spells (spell save DC 18), some of which\
       \ require charges; the wand has 7 charges to fuel these spells, and it regains\
-      \ 1d4 + 3 charges daily at dawn:\n\nAt will: [animate dead](Інструмент\
-      и%20ДМ/CLI/spells/animate-dead-xphb.md) (as an action), [blight](Інструменти\
-      %20ДМ/CLI/spells/blight-xphb.md), [speak with dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\
-      \n2e charge2e charge: [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md)\n\
-      \n1e charge1e charge: [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
-      \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
-    "name": "Wand Spellcasting"
-  - "desc": "Orcus casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\
-      \ will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\
-      \n3/day: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\
-      \n1/day: [time stop](Інструменти%20ДМ/CLI/spells/time-stop-xphb.md)"
-    "name": "Spellcasting"
-  - "desc": "While holding the [Wand of Orcus](Інструменти%20ДМ/CLI/items/wand-of-orcus-xdmg.md),\
-      \ Orcus casts one of the following spells (spell save DC 18), some of which\
-      \ require charges; the wand has 7 charges to fuel these spells, and it regains\
-      \ 1d4 + 3 charges daily at dawn:\n\nAt will: [animate dead](Інструмент\
-      и%20ДМ/CLI/spells/animate-dead-xphb.md) (as an action), [blight](Інструменти\
-      %20ДМ/CLI/spells/blight-xphb.md), [speak with dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\
-      \n2e charge2e charge: [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md)\n\
+      \ dice:1d4+3|noform|noparens|avg (1d4 + 3) charges daily at dawn:\n\nAt\
+      \ will: [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md) (as\
+      \ an action), [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [speak with\
+      \ dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\n2e charge2e\
+      \ charge: [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md)\n\
       \n1e charge1e charge: [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
       \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Wand Spellcasting"
@@ -173,7 +163,8 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
       \ Beasts periodically animate as Undead mockeries of their former selves. Skeletal\
       \ and zombie versions of local wildlife are commonly seen in the area.  "
     "name": ""
-  - "desc": "If Orcus dies, these effects fade over the course of d10 days."
+  - "desc": "If Orcus dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
+      \ (d10) days."
     "name": ""
 "source":
   - "MPMM"

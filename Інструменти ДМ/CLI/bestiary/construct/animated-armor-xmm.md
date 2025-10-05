@@ -80,7 +80,8 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 "actions":
   - "desc": "The armor makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Bludgeoning\
       \ damage."
     "name": "Slam"
 "source":

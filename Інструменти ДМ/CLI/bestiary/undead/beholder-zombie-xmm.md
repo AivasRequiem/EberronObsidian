@@ -56,7 +56,7 @@ Zombies are usually created from Humanoid corpses, but the remains of other crea
   - !!int "5"
 "speed": "5 ft., fly 20 ft. (hover)"
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
@@ -74,26 +74,29 @@ Zombies are usually created from Humanoid corpses, but the remains of other crea
 "actions":
   - "desc": "The zombie uses Eye Rays twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (4d6 + 2) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:4d6+2|noform|noparens|avg|text(16) (4d6 + 2) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The zombie randomly shoots one of the following magical rays at a target\
-      \ it can see within 120 feet of itself (roll d4; reroll if the zombie has\
-      \ already used that ray during this turn):\n\n- 1 Paralyzing Ray. Constitution\
-      \ Saving Throw: DC 14. Failure: The target has the [Paralyzed](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Paralyzed) condition and repeats the save at\
-      \ the end of each of its turns, ending the effect on itself on a success. After\
-      \ 1 minute, it succeeds automatically.  \n- 2 Fear Ray. Wisdom Saving Throw:\
-      \ DC 14. Failure: 13 (3d8) Psychic damage, and the target has the [Frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end\
-      \ of its next turn.  \n- 3 Enervation Ray. Constitution Saving Throw:\
-      \ DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the end of\
-      \ its next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+      \ it can see within 120 feet of itself (roll dice:1d4|noform|noparens|avg\
+      \ (d4); reroll if the zombie has already used that ray during this turn):\n\
+      \n- 1 Paralyzing Ray. Constitution Saving Throw: DC 14. Failure: The\
+      \ target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
+      \ condition and repeats the save at the end of each of its turns, ending the\
+      \ effect on itself on a success. After 1 minute, it succeeds automatically.\
+      \  \n- 2 Fear Ray. Wisdom Saving Throw: DC 14. Failure: dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) Psychic damage, and the target has the [Frightened](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Frightened) condition until the end of its next turn.\
+      \  \n- 3 Enervation Ray. Constitution Saving Throw: DC 14. Failure:\
+      \ dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage, and the target\
+      \ has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
+      \ until the end of its next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \ Success: Half damage only.  \n- 4 Disintegration Ray. Dexterity Saving\
-      \ Throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical\
-      \ object or a creation of magical force, a 10-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
+      \ Throw: DC 14. Failure: dice:5d10|noform|noparens|avg|text(27) (5d10)\
+      \ Force damage. If the target is a nonmagical object or a creation of magical\
+      \ force, a 10-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
       \ of it disintegrates into dust. Success: Half damage. Failure or Success:\
       \ If the target is a creature and this damage reduces it to 0 [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it disintegrates\

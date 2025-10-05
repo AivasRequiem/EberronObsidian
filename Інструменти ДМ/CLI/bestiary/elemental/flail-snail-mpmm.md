@@ -59,14 +59,16 @@ A flail snail shell can also be used to make a [robe of scintillating colors](І
       \ roll misses it, the snail's shell converts some of the spell's energy into\
       \ a burst of destructive force if the spell is of 1st level or higher; each\
       \ creature within 30 feet of the snail must make a DC 15 Constitution saving\
-      \ throw, taking 3 (d6) force damage per level of the spell on a failed save,\
-      \ or half as much damage on a successful one."
+      \ throw, taking dice:1d6|noform|noparens|avg|text(3) (d6) force damage per\
+      \ level of the spell on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Antimagic Shell"
 "actions":
   - "desc": "The snail makes five Flail Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
-      \ 5 (1d4 + 3) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
+      \ (1d4 + 3) bludgeoning damage."
     "name": "Flail Tentacle"
   - "desc": "The snail's shell emits dazzling, colored light until the end of the\
       \ snail's next turn. During this time, the shell sheds bright light in a 30-foot\

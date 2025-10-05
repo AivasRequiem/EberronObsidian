@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 51*  
 
 
-- **Ability Scores**: Intelligence +1
+- **Ability Scores**: int +1
 - **Size**: Medium
 - **Speed**: 25 ft.
 - **Spellcasting**: Intelligence
@@ -56,7 +56,7 @@ You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard con
 
 ### Warder's Intuition
 
-When you make an Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check or an ability check using [thieves' tools](Інструменти%20ДМ/CLI/items/thieves-tools-xphb.md), you can roll a `d4` and add the number rolled to the ability check.
+When you make an Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check or an ability check using [thieves' tools](Інструменти%20ДМ/CLI/items/thieves-tools-xphb.md), you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Wards and Seals
 

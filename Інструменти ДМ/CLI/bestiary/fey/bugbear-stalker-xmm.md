@@ -49,8 +49,8 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+3"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
@@ -65,12 +65,15 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
 "actions":
   - "desc": "The bugbear makes two Javelin or Morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft.\
-      \ Hit: 13 (3d6 + 3) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 10 ft. or range 30/120 ft. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
+      \ (3d6 + 3) Piercing damage."
     "name": "Javelin"
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5) (with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target is\
+      \ [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the bugbear),\
+      \ reach 10 ft. Hit: dice:2d8+3|noform|noparens|avg|text(12) (2d8 + 3)\
+      \ Piercing damage."
     "name": "Morningstar"
 "bonus_actions":
   - "desc": "Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear\

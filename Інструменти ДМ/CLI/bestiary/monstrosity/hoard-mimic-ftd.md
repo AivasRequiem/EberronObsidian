@@ -37,8 +37,8 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+6"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)"
     "desc": "+3"
@@ -58,21 +58,25 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
 "actions":
   - "desc": "The mimic makes one Bite attack and two Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:2d10+5|noform|noparens|avg|text(16)\
+      \ (2d10 + 5) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A\
-      \ creature adhered to the mimic is also [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A creature\
+      \ adhered to the mimic is also [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by it (escape DC 16). Until this grapple ends, the target is [restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained). Ability checks made to\
       \ escape this grapple have disadvantage."
     "name": "Pseudopod"
   - "desc": "The mimic sprays a fine mist of acid in a 30-foot cone. Each creature\
       \ in that area must make a DC 14 Dexterity saving throw. On a failed save, the\
-      \ creature takes 27 (6d8) acid damage and is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ until the end of its next turn. On a successful save, the creature takes half\
-      \ as much damage and isn't [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
+      \ creature takes dice:6d8|noform|noparens|avg|text(27) (6d8) acid damage\
+      \ and is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the\
+      \ end of its next turn. On a successful save, the creature takes half as much\
+      \ damage and isn't [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
     "name": "Caustic Mist (Recharge 5-6)"
   - "desc": "The mimic transforms into a hoard or back into its true, amorphous form.\
       \ Its statistics are the same in each form. Any equipment it is wearing or carrying\

@@ -75,10 +75,11 @@ Jackalweres dwell in inhospitable wildernesses and pride themselves on their cle
 "actions":
   - "desc": "The jackalwere makes two Rend or Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage."
     "name": "Rend (Jackal or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Bludgeoning\
       \ damage."
     "name": "Slam (Human or Hybrid Form Only)"
   - "desc": "Wisdom Saving Throw: DC 10, one creature the jackalwere can see within\

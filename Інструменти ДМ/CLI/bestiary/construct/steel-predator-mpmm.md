@@ -71,20 +71,22 @@ If all goes according to plan, a steel predator slays its target and then volunt
 "actions":
   - "desc": "The steel predator makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 18 (2d10 + 7) lightning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d10+7|noform|noparens|avg|text(18)\
+      \ (2d10 + 7) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 16 (2d8 + 7) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+7|noform|noparens|avg|text(16)\
+      \ (2d8 + 7) force damage."
     "name": "Claw"
   - "desc": "The steel predator emits a roar in a 60-foot cone. Each creature in that\
       \ area must make a DC 19 Constitution saving throw. On a failed save, a creature\
-      \ takes 33 (6d10) thunder damage, drops everything it's holding, and is [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) for 1 minute. The [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned) creature can repeat the saving\
-      \ throw at the end of each of its turns, ending the effect on itself on a success.\
-      \ On a successful save, a creature takes half as much damage and isn't [stunned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
+      \ takes dice:6d10|noform|noparens|avg|text(33) (6d10) thunder damage, drops\
+      \ everything it's holding, and is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. The [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success. On a successful save, a creature takes\
+      \ half as much damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
     "name": "Stunning Roar (Recharge 5-6)"
   - "desc": "The steel predator casts one of the following spells, requiring no spell\
       \ components and using Wisdom as the spellcasting ability:\n\n3/day each:\

@@ -89,13 +89,14 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
   - "desc": "The yuan-ti makes two Poison Burst attacks, and it can use Spellcasting\
       \ to cast [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
-      \ 12 (2d8 + 3) Poison damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
+      \ (2d8 + 3) Poison damage."
     "name": "Poison Burst (Yuan-ti Form Only)"
   - "desc": "Strength Saving Throw: DC 13, one Medium or smaller creature within\
-      \ 5 feet. Failure: 21 (4d8 + 3) Bludgeoning damage. The target has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13),\
-      \ and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ 5 feet. Failure: dice:4d8+3|noform|noparens|avg|text(21) (4d8 + 3) Bludgeoning\
+      \ damage. The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 13), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Constrict"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\

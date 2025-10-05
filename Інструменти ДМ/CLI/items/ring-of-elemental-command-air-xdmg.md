@@ -27,6 +27,6 @@ While wearing the ring, you benefit from additional properties corresponding to 
 
 ## Spellcasting
 
-The ring has 5 charges and regains `1d4 + 1` expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: [Chain Lightning](Інструменти%20ДМ/CLI/spells/chain-lightning-xphb.md) (3 charges), [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md) (0 charges), [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md) (2 charges), [Wind Wall](Інструменти%20ДМ/CLI/spells/wind-wall-xphb.md) (1 charge)
+The ring has 5 charges and regains `dice:1d4+1|noform|noparens|avg` (`1d4 + 1`) expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: [Chain Lightning](Інструменти%20ДМ/CLI/spells/chain-lightning-xphb.md) (3 charges), [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md) (0 charges), [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md) (2 charges), [Wind Wall](Інструменти%20ДМ/CLI/spells/wind-wall-xphb.md) (1 charge)
 
 *Source: Dungeon Master's Guide (2024) p. 292. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

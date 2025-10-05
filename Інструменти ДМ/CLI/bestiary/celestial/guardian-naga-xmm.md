@@ -63,11 +63,11 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
   - !!int "18"
 "speed": "40 ft., climb 40 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+7"
-  - "intelligence": "+7"
-  - "wisdom": "+8"
-  - "charisma": "+8"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+11"
@@ -84,8 +84,8 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
 "languages": "Celestial, Common"
 "cr": "10"
 "traits":
-  - "desc": "If the naga dies, it returns to life in d6 days and regains all its\
-      \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+  - "desc": "If the naga dies, it returns to life in dice:1d6|noform|noparens|avg\
+      \ (d6) days and regains all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ unless [Dispel Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md)\
       \ is cast on its remains."
     "name": "Celestial Restoration"
@@ -93,13 +93,15 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
   - "desc": "The naga makes two Bite attacks. It can replace any attack with a use\
       \ of Poisonous Spittle."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing\
-      \ damage plus 22 (4d10) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d12+4|noform|noparens|avg|text(17) (2d12 + 4) Piercing\
+      \ damage plus dice:4d10|noform|noparens|avg|text(22) (4d10) Poison damage."
     "name": "Bite"
   - "desc": "Constitution Saving Throw: DC 16, one creature the naga can see within\
-      \ 60 feet. Failure: 31 (7d8) Poison damage, and the target has the [Blinded](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the start of\
-      \ the naga's next turn. Success: Half damage only."
+      \ 60 feet. Failure: dice:7d8|noform|noparens|avg|text(31) (7d8) Poison\
+      \ damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ condition until the start of the naga's next turn. Success: Half damage\
+      \ only."
     "name": "Poisonous Spittle"
   - "desc": "The naga casts one of the following spells, requiring no Somatic or Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 16):\n\

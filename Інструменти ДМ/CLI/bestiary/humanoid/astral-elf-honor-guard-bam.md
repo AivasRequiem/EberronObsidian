@@ -52,8 +52,8 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+6"
@@ -74,12 +74,15 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "actions":
   - "desc": "The elf makes two Longsword or Radiant Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
-      \ (2d8 + 2) slashing damage, or 13 (2d10 + 2) slashing damage when used\
-      \ with two hands, plus 10 (3d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
+      \ (2d8 + 2) slashing damage, or dice:2d10+2|noform|noparens|avg|text(13)\
+      \ (2d10 + 2) slashing damage when used with two hands, plus dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) radiant damage."
     "name": "Longsword"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 22 (4d10) radiant damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ range 120 ft., one target. Hit: dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) radiant damage."
     "name": "Radiant Ray"
 "source":
   - "BAM"

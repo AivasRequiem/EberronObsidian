@@ -77,14 +77,17 @@ Iron golems preserve and protect their charges for generations. Roll on or choos
 "actions":
   - "desc": "The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 20 (3d8 + 7) Slashing\
-      \ damage plus 10 (3d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
+      \ 10 ft. Hit: dice:3d8+7|noform|noparens|avg|text(20) (3d8 + 7) Slashing\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Fire damage."
     "name": "Bladed Arm"
-  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
+      \ 120 ft. Hit: dice:8d8|noform|noparens|avg|text(36) (8d8) Fire damage."
     "name": "Fiery Bolt"
   - "desc": "Constitution Saving Throw: DC 18, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 55 (10d10) Poison damage. Success: Half damage."
+      \ dice:10d10|noform|noparens|avg|text(55) (10d10) Poison damage. Success:\
+      \ Half damage."
     "name": "Poison Breath (Recharge 6)"
 "source":
   - "XMM"

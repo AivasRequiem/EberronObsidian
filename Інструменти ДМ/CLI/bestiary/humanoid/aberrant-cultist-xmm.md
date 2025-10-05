@@ -93,8 +93,8 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+7"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -109,33 +109,26 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes two Tentacle Lash attacks. It can replace any attack\
       \ with a use of Mind Rot."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Slashing\
-      \ damage plus 14 (4d6) Psychic damage. If the target is a Large or smaller\
-      \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14) from one of two tentacles, and it has the [Restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the grapple\
-      \ ends."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4) Slashing damage\
+      \ plus dice:4d6|noform|noparens|avg|text(14) (4d6) Psychic damage. If the\
+      \ target is a Large or smaller creature, it has the [Grappled](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from one of two\
+      \ tentacles, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition until the grapple ends."
     "name": "Tentacle Lash"
   - "desc": "Wisdom Saving Throw: DC 15, one creature the cultist can see within\
-      \ 90 feet. Failure: 27 (6d8) Psychic damage, and the target has the [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start\
-      \ of the cultist's next turn. Success: Half damage only."
+      \ 90 feet. Failure: dice:6d8|noform|noparens|avg|text(27) (6d8) Psychic\
+      \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the start of the cultist's next turn. Success: Half damage\
+      \ only."
     "name": "Mind Rot"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
       \ ability (spell save DC 15):\n\nAt will: [Detect Thoughts](Інструменти\
       %20ДМ/CLI/spells/detect-thoughts-xphb.md), [Minor Illusion](Інструменти%20ДМ\
       /CLI/spells/minor-illusion-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The cultist casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
-      \ in response to that spell's trigger, using the same spellcasting ability as\
-      \ Spellcasting.\n"
-    "name": "Counterspell (2/Day)"
 "reactions":
-  - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15):\n\nAt will: [Detect Thoughts](Інструменти\
-      %20ДМ/CLI/spells/detect-thoughts-xphb.md), [Minor Illusion](Інструменти%20ДМ\
-      /CLI/spells/minor-illusion-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The cultist casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
       \ in response to that spell's trigger, using the same spellcasting ability as\
       \ Spellcasting.\n"

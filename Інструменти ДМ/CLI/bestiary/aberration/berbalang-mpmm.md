@@ -42,8 +42,8 @@ The knowledge that berbalangs accumulate makes them great sources of information
   - !!int "10"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+5"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -61,11 +61,14 @@ The knowledge that berbalangs accumulate makes them great sources of information
 "actions":
   - "desc": "The berbalang makes one Bite attack and one\n\nClaw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 4 (d8) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
+      \ (1d10 + 3) piercing damage plus dice:1d8|noform|noparens|avg|text(4) (d8)\
+      \ psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (2d4 + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4\
+      \ + 3) slashing damage."
     "name": "Claw"
   - "desc": "The berbalang casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability:\n\nAt will:\

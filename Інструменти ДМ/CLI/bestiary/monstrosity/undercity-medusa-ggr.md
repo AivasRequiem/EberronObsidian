@@ -64,14 +64,15 @@ Not all gorgons are so ambitious; some prefer to simply stalk the endless shadow
     "name": "Magic Resistance"
   - "desc": "During the first round of combat, the medusa has advantage on attack\
       \ rolls against any creature that is [surprised](Інструменти%20ДМ/CLI/rules/conditions.md#Surprised),\
-      \ and it deals an extra 10 (3d6) damage each time it hits such a creature\
-      \ with an attack."
+      \ and it deals an extra dice:3d6|noform|noparens|avg|text(10) (3d6) damage\
+      \ each time it hits such a creature with an attack."
     "name": "Surprise Attack"
 "actions":
   - "desc": "The medusa makes two claw attacks. It can also use Petrifying Gaze before\
       \ or after making these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The medusa fixes its gaze on one creature within 60 feet of it that it\

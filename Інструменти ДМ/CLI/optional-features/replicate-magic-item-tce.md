@@ -9,6 +9,7 @@ aliases:
 ---
 # Replicate Magic Item
 *Source: Tasha's Cauldron of Everything p. 22, Eberron: Rising from the Last War p. 63*  
+
 Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.
 
 In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the "Dungeon Master's Guide" for more information about it, including the type of object required for its making.
@@ -46,7 +47,7 @@ In the tables, an item's entry tells you whether the item requires attunement. S
 | Magic Item | Attunement |
 |------------|------------|
 | [Boots of striding and springing](Інструменти%20ДМ/CLI/items/boots-of-striding-and-springing-xdmg.md) | Yes |
-| [Boots of the winterlands](Інструменти%20ДМ/CLI/items/boots-of-the-winterlands-xdmg.md) | Yes |
+| [Boots of the Winterlands](Інструменти%20ДМ/CLI/items/boots-of-the-winterlands-xdmg.md) | Yes |
 | [Bracers of archery](Інструменти%20ДМ/CLI/items/bracers-of-archery-xdmg.md) | Yes |
 | [Brooch of shielding](Інструменти%20ДМ/CLI/items/brooch-of-shielding-xdmg.md) | Yes |
 | [Cloak of protection](Інструменти%20ДМ/CLI/items/cloak-of-protection-xdmg.md) | Yes |

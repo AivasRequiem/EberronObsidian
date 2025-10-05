@@ -50,7 +50,7 @@ Horrors share some common body types but vary wildly in other characteristics. A
 | 1 | Avoidance. If the horror is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. |
 | 2 | Damage Resistances. The horror has resistance to necrotic and psychic damage. |
 | 3 | Innate Spellcasting. The horror's innate spellcasting ability is Charisma (spell save DC 13 for flying horror, DC 16 for shadow horror, and DC 17 for skittering horror). It can innately cast the following spells, requiring no material components: 3/day: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md) 1/day each: [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) (shadow horror and skittering horror only), [phantasmal killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md) (skittering horror only) |
-| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
+| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes `dice:1d6\|noform\|noparens\|avg\|text(3)` (`d6`) psychic damage (flying horror), `dice:2d6\|noform\|noparens\|avg\|text(7)` (`2d6`) psychic damage (shadow horror), or `dice:3d6\|noform\|noparens\|avg\|text(10)` (`3d6`) psychic damage (skittering horror). |
 ^primary-features
 
 **Secondary Features**
@@ -94,8 +94,8 @@ Horrors share some common body types but vary wildly in other characteristics. A
 "cr": "9"
 "traits":
   - "desc": "The horror can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
-      \ an object."
+      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in dim light or darkness, the horror can take the Hide action as\
       \ a bonus action."
@@ -112,16 +112,19 @@ Horrors share some common body types but vary wildly in other characteristics. A
 "actions":
   - "desc": "The horror makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 21\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d8+3|noform|noparens|avg|text(21)\
       \ (4d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
       \ (3d6 + 3) slashing damage, and the target must succeed on a DC 16 Wisdom\
       \ saving throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of the horror until the end of the target's next turn."
     "name": "Claw"
   - "desc": "Each creature within 60 feet of the horror, except other horrors, must\
-      \ succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage."
+      \ succeed on a DC 16 Dexterity saving throw or take dice:6d8|noform|noparens|avg|text(27)\
+      \ (6d8) necrotic damage."
     "name": "Lashing Shadows (Recharge 5-6)"
 "source":
   - "GGR"

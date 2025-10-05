@@ -9,14 +9,13 @@ aliases:
 ---
 # Boon of Speed
 *Source: Player's Handbook (2024) p. 211*  
+
 **Prerequisite**: 19th
-**Ability Score Increase**: Increase one ability score of your choice by 1, to a maximum of 30.
+
 You gain the following benefits.
 
-## Escape Artist
+**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.
 
-As a Bonus Action, you can take the [Disengage](Інструменти%20ДМ/CLI/rules/actions.md#Disengage) action, which also ends the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition on you.
+**Escape Artist.** As a Bonus Action, you can take the [Disengage](Інструменти%20ДМ/CLI/rules/actions.md#Disengage) action, which also ends the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition on you.
 
-## Quickness
-
-Your Speed increases by 30 feet.
+**Quickness.** Your Speed increases by 30 feet.

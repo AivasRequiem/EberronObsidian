@@ -50,10 +50,11 @@ This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although
       \ reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
-      \ 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew least 30 feet toward\
-      \ the target immediately before the hit, the target takes an extra 10 (3d6)\
-      \ piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 10 ft., one creature. Hit: dice:3d6+2|noform|noparens|avg|text(12)\
+      \ (3d6 + 2) piercing damage. If the quetzalcoatlus flew least 30 feet toward\
+      \ the target immediately before the hit, the target takes an extra dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) piercing damage."
     "name": "Bite"
 "source":
   - "MPMM"

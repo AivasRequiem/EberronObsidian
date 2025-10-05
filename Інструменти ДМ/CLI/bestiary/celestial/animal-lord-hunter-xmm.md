@@ -34,8 +34,8 @@ aliases:
   - !!int "22"
 "speed": "60 ft., fly 60 ft. (hover), swim 60 ft."
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+12"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+13"
@@ -71,18 +71,21 @@ aliases:
   - "desc": "The animal lord makes two attacks, using Rend or Radiant Ray in any combination,\
       \ and uses Animal Spirit."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 14 (2d6 + 7) Slashing\
-      \ damage plus 7 (2d6) Force damage."
+  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
+      \ 5 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Force damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: +12, range 120 ft. Hit: 20 (4d6 + 6) Radiant\
+  - "desc": "Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12), range\
+      \ 120 ft. Hit: dice:4d6+6|noform|noparens|avg|text(20) (4d6 + 6) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The animal lord conjures an animal spirit that strikes at a creature\
       \ and then disappears. Dexterity Saving Throw: DC 20, one creature the animal\
-      \ lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success:\
-      \ Half damage. Failure or Success: The animal lord has [Advantage](Інструм\
-      енти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on attack rolls against\
-      \ the target until the start of the animal lord's next turn."
+      \ lord can see within 120 feet. Failure: dice:4d10+6|noform|noparens|avg|text(28)\
+      \ (4d10 + 6) Radiant damage. Success: Half damage. Failure or Success:\
+      \ The animal lord has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ on attack rolls against the target until the start of the animal lord's next\
+      \ turn."
     "name": "Animal Spirit"
   - "desc": "The animal lord casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 20):\n\
@@ -102,7 +105,8 @@ aliases:
     "name": "Shape-Shift"
 "legendary_actions":
   - "desc": "The animal lord moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks, and it makes one Rend attack."
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack),\
+      \ and it makes one Rend attack."
     "name": "Feral Strike"
   - "desc": "The animal lord makes one Radiant Ray attack."
     "name": "Radiant Strike"

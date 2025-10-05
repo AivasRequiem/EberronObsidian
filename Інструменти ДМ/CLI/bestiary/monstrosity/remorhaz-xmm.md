@@ -50,14 +50,17 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
 "traits":
   - "desc": "At the end of each of the remorhaz's turns, each creature in a 5-foot\
       \ [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the remorhaz takes 16 (3d10) Fire damage."
+      \ originating from the remorhaz takes dice:3d10|noform|noparens|avg|text(16)\
+      \ (3d10) Fire damage."
     "name": "Heat Aura"
 "actions":
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 18 (2d10 + 7) Piercing\
-      \ damage plus 14 (4d6) Fire damage. If the target is a Large or smaller creature,\
-      \ it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
-      \ (escape DC 17), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition until the grapple ends."
+  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
+      \ 10 ft. Hit: dice:2d10+7|noform|noparens|avg|text(18) (2d10 + 7) Piercing\
+      \ damage plus dice:4d6|noform|noparens|avg|text(14) (4d6) Fire damage. If\
+      \ the target is a Large or smaller creature, it has the [Grappled](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 17), and it has\
+      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
+      \ until the grapple ends."
     "name": "Bite"
 "bonus_actions":
   - "desc": "Strength Saving Throw: DC 19, one Large or smaller creature [Grappled](І\
@@ -67,16 +70,17 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
       \ condition ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\
       \ it has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
-      \ against attacks and other effects outside the remorhaz, and it takes 10 (3d6)\
-      \ Acid damage plus 10 (3d6) Fire damage at the start of each of the remorhaz's\
-      \ turns.\n\nIf the remorhaz takes 30 damage or more on a single turn from a\
-      \ creature inside it, the remorhaz must succeed on a DC 15 Constitution saving\
-      \ throw at the end of that turn or regurgitate all swallowed creatures, each\
-      \ of which falls in a space within 5 feet of the remorhaz and has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. If the remorhaz dies,\
-      \ any swallowed creature no longer has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition and can escape from the corpse by using 15 feet of movement, exiting\
-      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ against attacks and other effects outside the remorhaz, and it takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Acid damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Fire\
+      \ damage at the start of each of the remorhaz's turns.\n\nIf the remorhaz takes\
+      \ 30 damage or more on a single turn from a creature inside it, the remorhaz\
+      \ must succeed on a DC 15 Constitution saving throw at the end of that turn\
+      \ or regurgitate all swallowed creatures, each of which falls in a space within\
+      \ 5 feet of the remorhaz and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ condition. If the remorhaz dies, any swallowed creature no longer has the\
+      \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition\
+      \ and can escape from the corpse by using 15 feet of movement, exiting [Prone](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
 "source":
   - "XMM"

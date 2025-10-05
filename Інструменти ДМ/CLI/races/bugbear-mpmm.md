@@ -44,7 +44,7 @@ You are proficient in the [Stealth](Інструменти%20ДМ/CLI/rules/skil
 
 ### Surprise Attack
 
-If you hit a creature with an attack roll, the creature takes an extra `2d6` damage if it hasn't taken a turn yet in the current combat.
+If you hit a creature with an attack roll, the creature takes an extra `dice:2d6|noform|noparens|avg` (`2d6`) damage if it hasn't taken a turn yet in the current combat.
 
 ## Description
 

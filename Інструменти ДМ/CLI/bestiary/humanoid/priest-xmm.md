@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/2
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/cleric
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "name": "Priest (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "cleric"
 "alignment": "Neutral"
 "ac": !!int "13"
 "hp": !!int "38"
@@ -81,28 +82,19 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The priest makes two attacks, using Mace or Radiant Flame in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
-      \ damage plus 5 (2d4) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
+      \ damage plus dice:2d4|noform|noparens|avg|text(5) (2d4) Radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: +5, range 60 ft. Hit: 11 (2d10) Radiant damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 60\
+      \ ft. Hit: dice:2d10|noform|noparens|avg|text(11) (2d10) Radiant damage."
     "name": "Radiant Flame"
   - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
       \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
       \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day:\
       \ [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
-      \ [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [Healing\
-      \ Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Lesser Restoration](І\
-      нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md), using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Divine Aid (3/Day)"
 "bonus_actions":
-  - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day:\
-      \ [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The priest casts [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
       \ [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [Healing\
       \ Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), or [Lesser Restoration](І\

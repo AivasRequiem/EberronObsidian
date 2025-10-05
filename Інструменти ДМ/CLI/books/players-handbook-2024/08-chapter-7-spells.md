@@ -115,7 +115,7 @@ A Verbal component is the chanting of esoteric words that sound like nonsense to
 
 > [!note] Creating Verbal Components
 > 
-> If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second *l* from [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) and rearrange the remaining letters to create *Ber Fila* or*Fel Bira*.
+> If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second *l* from [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) and rearrange the remaining letters to create *Ber Fila* or *Fel Bira*.
 ^creating-verbal-components
 
 #### Somatic (S)

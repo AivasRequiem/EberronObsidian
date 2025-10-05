@@ -21,9 +21,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking `2d10` Fire damage on a failed save or half as much damage on a successful one.
+The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking `dice:2d10|noform|noparens|avg` (`2d10`) Fire damage on a failed save or half as much damage on a successful one.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d10` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d10|noform|noparens|avg|text(d10)` for each spell slot level above 1.
 
 **Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md)
 

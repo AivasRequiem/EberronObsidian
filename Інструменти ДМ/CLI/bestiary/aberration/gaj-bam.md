@@ -48,19 +48,20 @@ A gaj's head is a spongy globe about 2 feet in diameter, with three feathery ant
   - "desc": "The gaj makes one Mandibles attack and uses Mind-Probing Antennae or\
       \ Paralyze (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
-      \ 10 (2d6 + 3) slashing damage, and the target is [grappled](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Grappled) (escape DC 11). Until the grapple ends,\
-      \ the target takes 10 (2d6 + 3) slashing damage at the start of each of the\
-      \ gaj's turns. While it is grappling a creature, the gaj can't use its mandibles\
-      \ to attack other creatures."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
+      \ (2d6 + 3) slashing damage, and the target is [grappled](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Grappled) (escape DC 11). Until the grapple ends, the\
+      \ target takes dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) slashing\
+      \ damage at the start of each of the gaj's turns. While it is grappling a creature,\
+      \ the gaj can't use its mandibles to attack other creatures."
     "name": "Mandibles"
   - "desc": "The gaj targets one creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by it. The target must make a DC 12 Wisdom saving throw. On a failed save,\
-      \ the target takes 16 (3d10) psychic damage, and the gaj magically pulls one\
-      \ piece of information from the target's mind that the gaj wants to know. On\
-      \ a successful save, the target takes half as much damage, and the gaj learns\
-      \ nothing."
+      \ the target takes dice:3d10|noform|noparens|avg|text(16) (3d10) psychic\
+      \ damage, and the gaj magically pulls one piece of information from the target's\
+      \ mind that the gaj wants to know. On a successful save, the target takes half\
+      \ as much damage, and the gaj learns nothing."
     "name": "Mind-Probing Antennae"
   - "desc": "The gaj magically targets one creature it can see within 60 feet of itself.\
       \ The target must succeed on a DC 12 Wisdom saving throw or be [paralyzed](І\

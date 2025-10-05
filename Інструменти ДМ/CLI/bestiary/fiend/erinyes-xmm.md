@@ -48,9 +48,9 @@ When not in the service of a diabolical master, erinyes hunt wicked souls. They 
   - !!int "18"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+8"
-  - "charisma": "+8"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "8"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -84,14 +84,16 @@ When not in the service of a diabolical master, erinyes hunt wicked souls. They 
   - "desc": "The erinyes makes three Withering Sword attacks and can use Entangling\
       \ Rope."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
-      \ damage plus 11 (2d10) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Slashing\
+      \ damage plus dice:2d10|noform|noparens|avg|text(11) (2d10) Necrotic damage."
     "name": "Withering Sword"
   - "desc": "Strength Saving Throw: DC 16, one creature the erinyes can see within\
-      \ 120 feet. Failure: 14 (4d6) Force damage, and the target has the [Restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the rope\
-      \ is destroyed, the erinyes uses a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
-      \ to release the target, or the erinyes uses Entangling Rope again."
+      \ 120 feet. Failure: dice:4d6|noform|noparens|avg|text(14) (4d6) Force\
+      \ damage, and the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition until the rope is destroyed, the erinyes uses a [Bonus Action](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to release the\
+      \ target, or the erinyes uses Entangling Rope again."
     "name": "Entangling Rope (Requires Magic Rope)"
 "reactions":
   - "desc": "Trigger: The erinyes is hit by a melee attack roll while holding a weapon.\

@@ -45,9 +45,9 @@ An archon doesn't require food, drink, or sleep.
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+10"
-  - "charisma": "+9"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -62,10 +62,11 @@ An archon doesn't require food, drink, or sleep.
 "cr": "14"
 "traits":
   - "desc": "The archon's innate spellcasting ability is Wisdom (spell save DC 18,\
-      \ +10 to hit with spell attacks). The archon can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [calm emotions](І\
-      нструменти%20ДМ/CLI/spells/calm-emotions-xphb.md), [command](Інструменти%20Д\
-      М/CLI/spells/command-xphb.md), [compelled duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md)"
+      \ dice:1d20+10|noform|noparens|text(+10) to hit with spell attacks). The archon\
+      \ can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
+      \ [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [compelled duel](І\
+      нструменти%20ДМ/CLI/spells/compelled-duel-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "As a bonus action, the archon can target a creature it can see within\
       \ 120 feet of it and determine which laws that creature has broken in the last\
@@ -84,10 +85,11 @@ An archon doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The archon makes two Hammer of Justice attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
-      \ 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage. If the target\
-      \ is a creature, it must succeed on a DC 18 Strength saving throw or be knocked\
-      \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) bludgeoning damage plus dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) force damage. If the target is a creature, it must succeed on a DC\
+      \ 18 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Hammer of Justice"
   - "desc": "Each creature of the archon's choice that the archon can see within 120\
       \ feet of it must succeed on a DC 18 Wisdom saving throw, or else the target\

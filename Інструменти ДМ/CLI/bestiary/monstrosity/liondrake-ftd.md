@@ -45,12 +45,14 @@ Liondrakes are voracious hunters that range across well-established territories.
 "actions":
   - "desc": "The liondrake makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d10+4|noform|noparens|avg|text(15)\
       \ (2d10 + 4) piercing damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The liondrake lets out a terrifying roar audible out to 300 feet. Any\

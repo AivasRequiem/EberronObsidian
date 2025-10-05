@@ -6,7 +6,7 @@ tags:
 - ttrpg-cli/monster/cr/12
 - ttrpg-cli/monster/environment/any
 - ttrpg-cli/monster/size/small-or-medium
-- ttrpg-cli/monster/type/humanoid
+- ttrpg-cli/monster/type/humanoid/wizard
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
@@ -55,6 +55,7 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "name": "Archmage (XMM)"
 "size": "Small or Medium"
 "type": "humanoid"
+"subtype": "wizard"
 "alignment": "Neutral"
 "ac": !!int "17"
 "hp": !!int "170"
@@ -69,8 +70,8 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+6"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -91,8 +92,9 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "actions":
   - "desc": "The archmage makes four Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit:\
-      \ 27 (4d10 + 5) Force damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9),\
+      \ reach 5 ft. or range 150 ft. Hit: dice:4d10+5|noform|noparens|avg|text(27)\
+      \ (4d10 + 5) Force damage."
     "name": "Arcane Burst"
   - "desc": "The archmage casts one of the following spells, using Intelligence as\
       \ the spellcasting ability (spell save DC 17):\n\nAt will: [Detect Magic](І\
@@ -109,55 +111,11 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
       \ (cast before combat), [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md),\
       \ [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step (3/Day)"
-  - "desc": "The archmage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Protective Magic (3/Day)"
 "bonus_actions":
-  - "desc": "The archmage casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 17):\n\nAt will: [Detect Magic](І\
-      нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Detect Thoughts](Інструме\
-      нти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise Self](Інструменти%20Д\
-      М/CLI/spells/disguise-self-xphb.md), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
-      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Mage Armor](Інструмен\
-      ти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in AC), [Mage Hand](Інструм\
-      енти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](Інструменти%20ДМ\
-      /CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fly](Інструменти%20Д\
-      М/CLI/spells/fly-xphb.md), [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\
-      \ (level 7 version)\n\n1/day each: [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md)\
-      \ (level 9 version), [Mind Blank](Інструменти%20ДМ/CLI/spells/mind-blank-xphb.md)\
-      \ (cast before combat), [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md),\
-      \ [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
       \ using the same spellcasting ability as Spellcasting.\n"
     "name": "Misty Step (3/Day)"
-  - "desc": "The archmage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Protective Magic (3/Day)"
 "reactions":
-  - "desc": "The archmage casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 17):\n\nAt will: [Detect Magic](І\
-      нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Detect Thoughts](Інструме\
-      нти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise Self](Інструменти%20Д\
-      М/CLI/spells/disguise-self-xphb.md), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
-      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Mage Armor](Інструмен\
-      ти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in AC), [Mage Hand](Інструм\
-      енти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](Інструменти%20ДМ\
-      /CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fly](Інструменти%20Д\
-      М/CLI/spells/fly-xphb.md), [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\
-      \ (level 7 version)\n\n1/day each: [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md)\
-      \ (level 9 version), [Mind Blank](Інструменти%20ДМ/CLI/spells/mind-blank-xphb.md)\
-      \ (cast before combat), [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md),\
-      \ [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
-    "name": "Spellcasting"
-  - "desc": "The mage casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
-      \ using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step (3/Day)"
   - "desc": "The archmage casts [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md)\
       \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
       \ spell's trigger, using the same spellcasting ability as Spellcasting.\n"

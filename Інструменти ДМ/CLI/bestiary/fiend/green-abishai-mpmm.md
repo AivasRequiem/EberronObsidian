@@ -45,8 +45,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "19"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "intelligence": "+8"
-  - "charisma": "+9"
+  - "intelligence": !!int "8"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -74,13 +74,14 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes two Fiendish Claw attacks, or it makes one Fiendish\
       \ Claw attack and uses Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+3|noform|noparens|avg|text(12)\
       \ (2d8 + 3) force damage. If the target is a creature, it must succeed on\
-      \ a DC 16 Constitution saving throw or take 16 (3d10) poison damage and become\
-      \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute.\
-      \ The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target can\
-      \ repeat the saving throw at the end of each of its turns, ending the effect\
-      \ on itself on a success."
+      \ a DC 16 Constitution saving throw or take dice:3d10|noform|noparens|avg|text(16)\
+      \ (3d10) poison damage and become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
     "name": "Fiendish Claw"
   - "desc": "The abishai casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\

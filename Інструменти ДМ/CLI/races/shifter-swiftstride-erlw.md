@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 34*  
 ![](Інструменти%20ДМ/CLI/races/img/shifter-001.webp#right)
 
-- **Ability Scores**: Dexterity +2; Charisma +1
+- **Ability Scores**: dex +2 cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

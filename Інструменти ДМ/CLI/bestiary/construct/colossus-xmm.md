@@ -47,8 +47,8 @@ Most colossi were created in ages past and now lie dormant in secluded wildernes
   - !!int "8"
 "speed": "60 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+8"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "8"
 "damage_resistances": "necrotic, radiant"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -73,27 +73,30 @@ Most colossi were created in ages past and now lie dormant in secluded wildernes
 "actions":
   - "desc": "The colossus makes three attacks, using Slam or Radiant Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +18, reach 20 ft. Hit: 32 (4d10 + 10) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+18|noform|noparens|text(+18), reach\
+      \ 20 ft. Hit: dice:4d10+10|noform|noparens|avg|text(32) (4d10 + 10) Bludgeoning\
       \ damage, and the colossus pushes the target up to 20 feet straight away from\
       \ itself."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +18, range 300 ft. Hit: 22 (4d10) Radiant\
-      \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Ranged Attack Roll: dice:1d20+18|noform|noparens|text(+18), range\
+      \ 300 ft. Hit: dice:4d10|noform|noparens|avg|text(22) (4d10) Radiant damage.\
+      \ If the target is a Large or smaller creature, it has the [Prone](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Radiant Ray"
   - "desc": "Dexterity Saving Throw: DC 26, each creature in a 300-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 65 (10d12) Radiant damage. Success: Half damage. Failure or\
-      \ Success: A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ by this beam disintegrates into dust, leaving behind any magic items it was\
-      \ wearing or carrying."
+      \ Failure: dice:10d12|noform|noparens|avg|text(65) (10d12) Radiant damage.\
+      \ Success: Half damage. Failure or Success: A creature reduced to 0 [Hit\
+      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this\
+      \ beam disintegrates into dust, leaving behind any magic items it was wearing\
+      \ or carrying."
     "name": "Divine Beam (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The colossus makes one Radiant Ray attack."
     "name": "Smite"
   - "desc": "The colossus moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks, and it can make one Slam attack at\
-      \ any point during that move."
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack),\
+      \ and it can make one Slam attack at any point during that move."
     "name": "Stomp"
 "source":
   - "XMM"

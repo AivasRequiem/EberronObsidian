@@ -57,7 +57,8 @@ Shadow mastiffs—hounds of the Shadowfell—move invisibly through the shadows,
       \ on attack rolls, ability checks, and saving throws."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+3|noform|noparens|avg|text(10)\
       \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

@@ -65,7 +65,8 @@ Chuuls don't age and can lie dormant in hidden places for millennia before threa
 "actions":
   - "desc": "The chuul makes two Pincer attacks and uses Paralyzing Tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
+      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of two pincers."

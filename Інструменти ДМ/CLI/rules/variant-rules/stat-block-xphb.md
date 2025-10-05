@@ -9,7 +9,7 @@ aliases:
 # Stat Block
 *Source: Player's Handbook (2024) p. 374. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)* 
 
-A stat block contains the game slatistics of a [monster](Інструменти%20ДМ/CLI/rules/variant-rules/monster-xphb.md). Each stat block includes the following information presented after the [monster's](Інструменти%20ДМ/CLI/rules/variant-rules/monster-xphb.md) name.
+A stat block contains the game statistics of a [monster](Інструменти%20ДМ/CLI/rules/variant-rules/monster-xphb.md). Each stat block includes the following information presented after the [monster's](Інструменти%20ДМ/CLI/rules/variant-rules/monster-xphb.md) name.
 
 ## Size
 
@@ -89,4 +89,4 @@ If an effect forces a [saving throw](Інструменти%20ДМ/CLI/rules/var
 
 ## Damage Notation
 
-A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4 (`1d4 + 2`) damage on a hit. The DM determines whether you use the static number or the die expression in parentheses; you don't use both.
+A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal `dice:1d4+2|noform|noparens|avg|text(4)` (`1d4 + 2`) damage on a hit. The DM determines whether you use the static number or the die expression in parentheses; you don't use both.

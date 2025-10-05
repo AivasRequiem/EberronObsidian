@@ -82,13 +82,14 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) fire damage."
+  - "desc": "Melee Spell Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) fire damage."
     "name": "Magical Strike"
   - "desc": "The living spell unleashes a thin sheet of flames in a 15-foot cone.\
       \ Each creature in that area must make a DC 13 Dexterity saving throw, taking\
-      \ 10 (3d6) fire damage on a failed save, or half as much damage on a successful\
-      \ one."
+      \ dice:3d6|noform|noparens|avg|text(10) (3d6) fire damage on a failed save,\
+      \ or half as much damage on a successful one."
     "name": "Spell Mimicry (Recharge 5-6)"
 "source":
   - "ERLW"

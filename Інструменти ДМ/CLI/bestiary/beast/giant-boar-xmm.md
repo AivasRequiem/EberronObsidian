@@ -39,20 +39,21 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "5"
 "speed": "40 ft."
 "saves":
-  - "strength": "+5"
+  - "strength": !!int "5"
 "senses": "passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
   - "desc": "The boar has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ on melee attack rolls while it is [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)."
+      \ on melee attack rolls while it is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Bloodied Fury"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Piercing\
       \ damage. If the target is a Large or smaller creature and the boar moved 20+\
       \ feet straight toward it immediately before the hit, the target takes an extra\
-      \ 7 (2d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+      \ dice:2d6|noform|noparens|avg|text(7) (2d6) Piercing damage and has the\
+      \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Gore"
 "source":
   - "XMM"

@@ -66,10 +66,10 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "strength": "+3"
-  - "dexterity": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "strength": !!int "3"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -81,11 +81,13 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
 "actions":
   - "desc": "The pirate makes three attacks, using Rapier or Pistol in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Piercing\
       \ damage, and the pirate has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on the next attack roll it makes before the end of this turn."
     "name": "Rapier"
-  - "desc": "Ranged Attack Roll: +7, range 30/90 ft. Hit: 15 (2d10 + 4) Piercing\
+  - "desc": "Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7), range 30/90\
+      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Piercing\
       \ damage."
     "name": "Pistol"
 "bonus_actions":

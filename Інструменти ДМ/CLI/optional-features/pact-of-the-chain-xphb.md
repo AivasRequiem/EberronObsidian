@@ -9,6 +9,7 @@ aliases:
 ---
 # Pact of the Chain
 *Source: Player's Handbook (2024) p. 157. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
+
 You learn the [Find Familiar](Інструменти%20ДМ/CLI/spells/find-familiar-xphb.md) spell and can cast it as a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action without expending a spell slot.
 
 When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: [Imp](Інструменти%20ДМ/CLI/bestiary/fiend/imp-xmm.md), [Pseudodragon](Інструменти%20ДМ/CLI/bestiary/dragon/pseudodragon-xmm.md), [Quasit](Інструменти%20ДМ/CLI/bestiary/fiend/quasit-xmm.md), [Skeleton](Інструменти%20ДМ/CLI/bestiary/undead/skeleton-xmm.md), [Slaad Tadpole](Інструменти%20ДМ/CLI/bestiary/aberration/slaad-tadpole-xmm.md), [Sphinx of Wonder](Інструменти%20ДМ/CLI/bestiary/celestial/sphinx-of-wonder-xmm.md), [Sprite](Інструменти%20ДМ/CLI/bestiary/fey/sprite-xmm.md), or [Venomous Snake](Інструменти%20ДМ/CLI/bestiary/beast/venomous-snake-xmm.md) (see appendix B for the familiar's stat block).

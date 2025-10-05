@@ -89,14 +89,15 @@ In rare cases, an invisible stalker lingers in the world without a spellcaster c
   - "desc": "The stalker makes three Wind Swipe attacks. It can replace one attack\
       \ with a use of Vortex."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Force damage."
     "name": "Wind Swipe"
   - "desc": "Constitution Saving Throw: DC 14, one Large or smaller creature in\
-      \ the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target\
-      \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
-      \ (escape DC 13). Until the grapple ends, the target can't cast spells with\
-      \ a Verbal component and takes 7 (2d6) Thunder damage at the start of each\
-      \ of the stalker's turns."
+      \ the stalker's space. Failure: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) Thunder damage, and the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ condition (escape DC 13). Until the grapple ends, the target can't cast spells\
+      \ with a Verbal component and takes dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ Thunder damage at the start of each of the stalker's turns."
     "name": "Vortex"
 "source":
   - "XMM"

@@ -60,9 +60,9 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -85,21 +85,24 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "actions":
   - "desc": "The mage makes three Slam or Eldritch Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 19 Constitution\
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7)\
+      \ (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 19 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
-      \ 19 (3d10 + 3) force damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ range 60 ft., one target. Hit: dice:3d10+3|noform|noparens|avg|text(19)\
+      \ (3d10 + 3) force damage."
     "name": "Eldritch Bolt"
   - "desc": "Each creature other than a star spawn within 10 feet of the mage must\
-      \ succeed on a DC 19 Dexterity saving throw or take 22 (5d8) necrotic damage\
-      \ and be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) and [restrained](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) by masses of swarming worms.\
-      \ The affected creature takes 22 (5d8) necrotic damage at the start of each\
-      \ of the mage's turns. The creature can repeat the saving throw at the end of\
-      \ each of its turns, ending the effect on itself on a success."
+      \ succeed on a DC 19 Dexterity saving throw or take dice:5d8|noform|noparens|avg|text(22)\
+      \ (5d8) necrotic damage and be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ and [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) by masses\
+      \ of swarming worms. The affected creature takes dice:5d8|noform|noparens|avg|text(22)\
+      \ (5d8) necrotic damage at the start of each of the mage's turns. The creature\
+      \ can repeat the saving throw at the end of each of its turns, ending the effect\
+      \ on itself on a success."
     "name": "Plague of Worms (Recharge 6)"
   - "desc": "The mage casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
@@ -118,8 +121,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - "desc": "The mage makes one Eldritch Bolt attack."
     "name": "Eldritch Bolt (Costs 2 Actions)"
   - "desc": "Each creature [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ by the mage's Plague of Worms takes 13 (3d8) necrotic damage, and the mage\
-      \ gains 6 temporary hit points."
+      \ by the mage's Plague of Worms takes dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) necrotic damage, and the mage gains 6 temporary hit points."
     "name": "Feed (Costs 3 Actions)"
 "source":
   - "MPMM"

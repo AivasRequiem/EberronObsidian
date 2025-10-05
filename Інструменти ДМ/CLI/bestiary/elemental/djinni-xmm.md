@@ -47,17 +47,17 @@ While many djinn create airy palaces on stormy coasts or high in the clouds, unt
   - !!int "20"
 "speed": "30 ft., fly 90 ft. (hover)"
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
 "damage_immunities": "lightning, thunder"
 "senses": "darkvision 120 ft., passive Perception 13"
 "languages": "Primordial (Auran)"
 "cr": "11"
 "traits":
   - "desc": "If the djinni dies outside the Elemental Plane of Air, its body dissolves\
-      \ into mist, and it gains a new body in d4 days, reviving with all its [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
-      \ on the Plane of Air."
+      \ into mist, and it gains a new body in dice:1d4|noform|noparens|avg (d4)\
+      \ days, reviving with all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ somewhere on the Plane of Air."
     "name": "Elemental Restoration"
   - "desc": "The djinni has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
@@ -73,12 +73,14 @@ While many djinn create airy palaces on stormy coasts or high in the clouds, unt
   - "desc": "The djinni makes three attacks, using Storm Blade or Storm Bolt in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 feet. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 7 (2d6) Lightning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ feet. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Lightning damage."
     "name": "Storm Blade"
-  - "desc": "Ranged Attack Roll: +9, range 120 feet. Hit: 13 (3d8) Thunder\
-      \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 120\
+      \ feet. Hit: dice:3d8|noform|noparens|avg|text(13) (3d8) Thunder damage.\
+      \ If the target is a Large or smaller creature, it has the [Prone](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Storm Bolt"
   - "desc": "The djinni conjures a whirlwind at a point it can see within 120 feet.\
       \ The whirlwind fills a 20-foot-radius, 60-foot-high [Cylinder](Інструменти\
@@ -92,8 +94,9 @@ While many djinn create airy palaces on stormy coasts or high in the clouds, unt
       \ Failure: While in the whirlwind, the target has the [Restrained](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Restrained) condition and moves with the whirlwind.\
       \ At the start of each of its turns, the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ target takes 21 (6d6) Thunder damage. At the end of each of its turns, the\
-      \ target repeats the save, ending the effect on itself on a success."
+      \ target takes dice:6d6|noform|noparens|avg|text(21) (6d6) Thunder damage.\
+      \ At the end of each of its turns, the target repeats the save, ending the effect\
+      \ on itself on a success."
     "name": "Create Whirlwind"
   - "desc": "The djinni casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\

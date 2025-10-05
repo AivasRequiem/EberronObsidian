@@ -93,8 +93,8 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -109,10 +109,12 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes three attacks, using Pact Blade or Radiant Ray in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 18 (4d8) Radiant damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Radiant damage."
     "name": "Pact Blade"
-  - "desc": "Ranged Attack Roll: +9, range 120 ft. Hit: 31 (4d12 + 5) Radiant\
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 120\
+      \ ft. Hit: dice:4d12+5|noform|noparens|avg|text(31) (4d12 + 5) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The cultist casts one of the following spells, using Charisma as the\

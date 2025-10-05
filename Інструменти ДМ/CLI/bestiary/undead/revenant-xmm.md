@@ -46,10 +46,10 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -76,7 +76,8 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
 "actions":
   - "desc": "The revenant uses Vengeful Glare and makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Necrotic\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Necrotic\
       \ damage."
     "name": "Slam"
   - "desc": "Wisdom Saving Throw: DC 15, one creature the revenant can see within\

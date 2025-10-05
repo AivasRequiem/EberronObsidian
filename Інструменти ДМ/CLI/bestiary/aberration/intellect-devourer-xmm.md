@@ -63,13 +63,14 @@ Intellect devourers serve their mind flayer creators by consuming other creature
 "actions":
   - "desc": "The intellect devourer makes one Claw attack and uses Devour Intellect."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Slashing damage."
     "name": "Claw"
   - "desc": "Intelligence Saving Throw: DC 12, one creature the intellect devourer\
-      \ can see within 5 feet. Failure: 11 (2d10) Psychic damage, and the target\
-      \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the end of the intellect devourer's next turn."
+      \ can see within 5 feet. Failure: dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) Psychic damage, and the target has the [Stunned](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Stunned) condition until the end of the intellect devourer's\
+      \ next turn."
     "name": "Devour Intellect"
   - "desc": "Intelligence Saving Throw: DC 12, one Small or Medium creature within\
       \ 5 feet that has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\

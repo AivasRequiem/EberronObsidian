@@ -124,10 +124,10 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - !!int "16"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+9"
@@ -145,19 +145,22 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
-      \ 14 (2d10 + 3) piercing damage plus 3 (d6) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+3|noform|noparens|avg|text(14)\
+      \ (2d10 + 3) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
+      \ necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales yellowish necrotic energy in a 30-foot cone. Each\
       \ creature in that area must make a DC 13 Constitution saving throw. On a failed\
-      \ save, the creature takes 28 (8d6) necrotic damage and is weakened until\
-      \ the end of its next turn. A weakened creature has disadvantage on Strength-based\
-      \ ability checks and Strength saving throws, and the creature's weapon attacks\
-      \ that rely on Strength deal half damage. On a successful save, the creature\
-      \ takes half as much damage and isn't weakened."
+      \ save, the creature takes dice:8d6|noform|noparens|avg|text(28) (8d6) necrotic\
+      \ damage and is weakened until the end of its next turn. A weakened creature\
+      \ has disadvantage on Strength-based ability checks and Strength saving throws,\
+      \ and the creature's weapon attacks that rely on Strength deal half damage.\
+      \ On a successful save, the creature takes half as much damage and isn't weakened."
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\

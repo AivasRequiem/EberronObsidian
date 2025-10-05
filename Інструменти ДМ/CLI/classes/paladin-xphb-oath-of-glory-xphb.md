@@ -74,7 +74,7 @@ The magic of your oath ensures you always have certain spells ready; when you re
 
 ### Inspiring Smite (Level 3)
 
-Immediately after you cast [Divine Smite](Інструменти%20ДМ/CLI/spells/divine-smite-xphb.md), you can expend one use of your Channel Divinity and distribute [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) to creatures of your choice within 30 feet of yourself, which can include you. The total number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equals `2d8` plus your Paladin level, divided among the chosen creatures however you like.
+Immediately after you cast [Divine Smite](Інструменти%20ДМ/CLI/spells/divine-smite-xphb.md), you can expend one use of your Channel Divinity and distribute [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) to creatures of your choice within 30 feet of yourself, which can include you. The total number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equals `dice:2d8|noform|noparens|avg` (`2d8`) plus your Paladin level, divided among the chosen creatures however you like.
 
 ### Peerless Athlete (Level 3)
 

@@ -27,11 +27,11 @@ aliases:
 - **Components:** V, S, M (a prayer scroll)
 - **Duration:** Concentration, up to 10 minutes
 
-Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
+Protective spirits flit around you in a 15-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
 
-When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes `3d8` Radiant damage (if you are good or neutral) or `3d8` Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.
+When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved in the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md), and whenever the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) enters a creature's space and whenever a creature enters the [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes `dice:3d8|noform|noparens|avg` (`3d8`) Radiant damage (if you are good or neutral) or `dice:3d8|noform|noparens|avg` (`3d8`) Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d8|noform|noparens|avg|text(d8)` for each spell slot level above 3.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric (War Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-war-domain-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

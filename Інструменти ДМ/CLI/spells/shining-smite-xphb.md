@@ -22,9 +22,9 @@ aliases:
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
 
-The target hit by the strike takes an extra `2d6` Radiant damage from the attack. Until the spell ends, the target sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 5-foot radius, attack rolls against it have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md), and it can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
+The target hit by the strike takes an extra `dice:2d6|noform|noparens|avg` (`2d6`) Radiant damage from the attack. Until the spell ends, the target sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 5-foot radius, attack rolls against it have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md), and it can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 2.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 2.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Artificer (Battle Smith)](Інструменти%20ДМ/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE")
 

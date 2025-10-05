@@ -72,10 +72,10 @@ Kraken lairs tend to be sunken temples, eldritch ritual sites, or primeval place
   - !!int "20"
 "speed": "30 ft., swim 120 ft."
 "saves":
-  - "strength": "+17"
-  - "dexterity": "+7"
-  - "constitution": "+15"
-  - "wisdom": "+11"
+  - "strength": !!int "17"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+13"
@@ -101,7 +101,8 @@ Kraken lairs tend to be sunken temples, eldritch ritual sites, or primeval place
   - "desc": "The kraken makes two Tentacle attacks and uses Fling, Lightning Strike,\
       \ or Swallow."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +17, reach 30 ft. Hit: 24 (4d6 + 10) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+17|noform|noparens|text(+17), reach\
+      \ 30 ft. Hit: dice:4d6+10|noform|noparens|avg|text(24) (4d6 + 10) Bludgeoning\
       \ damage. The target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 20) from one of ten tentacles, and it has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the grapple\
@@ -110,24 +111,25 @@ Kraken lairs tend to be sunken temples, eldritch ritual sites, or primeval place
   - "desc": "The kraken throws a Large or smaller creature [Grappled](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Grappled) by it to a space it can see within 60\
       \ feet of itself that isn't in the air. Dexterity Saving Throw: DC 25, the\
-      \ creature thrown and each creature in the destination space. Failure: 18\
+      \ creature thrown and each creature in the destination space. Failure: dice:4d8|noform|noparens|avg|text(18)\
       \ (4d8) Bludgeoning damage, and the target has the [Prone](Інструменти%20Д\
       М/CLI/rules/conditions.md#Prone) condition. Success: Half damage only."
     "name": "Fling"
   - "desc": "Dexterity Saving Throw: DC 23, one creature the kraken can see within\
-      \ 120 feet. Failure: 33 (6d10) Lightning damage. Success: Half damage."
+      \ 120 feet. Failure: dice:6d10|noform|noparens|avg|text(33) (6d10) Lightning\
+      \ damage. Success: Half damage."
     "name": "Lightning Strike"
   - "desc": "Dexterity Saving Throw: DC 25, one creature [Grappled](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Grappled) by the kraken (it can have up to four\
-      \ creatures swallowed at a time). Failure: 23 (3d8 + 10) Piercing damage.\
-      \ If the target is Large or smaller, it is swallowed and no longer [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled). A swallowed creature has\
-      \ the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition,\
-      \ has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
-      \ against attacks and other effects outside the kraken, and takes 24 (7d6)\
-      \ Acid damage at the start of each of its turns.\n\nIf the kraken takes 50 damage\
-      \ or more on a single turn from a creature inside it, the kraken must succeed\
-      \ on a DC 25 Constitution saving throw at the end of that turn or regurgitate\
+      \ creatures swallowed at a time). Failure: dice:3d8+10|noform|noparens|avg|text(23)\
+      \ (3d8 + 10) Piercing damage. If the target is Large or smaller, it is swallowed\
+      \ and no longer [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled).\
+      \ A swallowed creature has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ condition, has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
+      \ against attacks and other effects outside the kraken, and takes dice:7d6|noform|noparens|avg|text(24)\
+      \ (7d6) Acid damage at the start of each of its turns.\n\nIf the kraken takes\
+      \ 50 damage or more on a single turn from a creature inside it, the kraken must\
+      \ succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate\
       \ all swallowed creatures, each of which falls in a space within 10 feet of\
       \ the kraken with the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ condition. If the kraken dies, any swallowed creature no longer has the [Restrained](І\

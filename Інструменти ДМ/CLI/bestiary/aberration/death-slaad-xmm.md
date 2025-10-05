@@ -33,7 +33,7 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 > 
 > A slaad born from the Spawning Stone has a magical control gem embedded in its head. If a creature claims the gem, the slaad has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition and obeys the gem's bearer. The slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) if it is harmed by the gem's bearer or the bearer's allies or if the gem is returned to the slaad. A [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) spell cast on a slaad destroys the gem, and the slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed).
 > 
-> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals 22 (`4d10`) Piercing damage to the slaad.
+> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals `dice:4d10|noform|noparens|avg|text(22)` (`4d10`) Piercing damage to the slaad.
 ^slaad-control-gems
 
 > [!quote] A quote from Jebeel Sloom  
@@ -78,13 +78,15 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes two Chaos Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 11 (1d12 + 5) Slashing\
-      \ damage plus 10 (3d6) Necrotic damage. Until the start of the slaad's next\
-      \ turn, the target has a condition determined by rolling d4: on a 1, [Charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed); on a 2, [Frightened](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Frightened); on a 3, [Poisoned](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Poisoned); or on a 4, [Incapacitated](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Incapacitated)."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 10\
+      \ ft. Hit: dice:1d12+5|noform|noparens|avg|text(11) (1d12 + 5) Slashing\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage.\
+      \ Until the start of the slaad's next turn, the target has a condition determined\
+      \ by rolling dice:1d4|noform|noparens|avg (d4): on a 1, [Charmed](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Charmed); on a 2, [Frightened](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Frightened); on a 3, [Poisoned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Poisoned); or on a 4, [Incapacitated](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Chaos Blade"
   - "desc": "The slaad casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\

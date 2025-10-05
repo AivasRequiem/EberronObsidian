@@ -32,8 +32,8 @@ aliases:
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "understands the languages you know"
 "traits":
-  - "desc": "The spirit doesn't provoke Opportunity Attacks when it flies out of an\
-      \ enemy's reach."
+  - "desc": "The spirit doesn't provoke [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it flies out of an enemy's reach."
     "name": "Flyby"
 "actions":
   - "desc": "The spirit makes a number of Rend attacks equal to half this spell's\

@@ -48,9 +48,9 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - !!int "14"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+6"
-  - "wisdom": "+3"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+4"
@@ -84,27 +84,29 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
 "actions":
   - "desc": "The vampire makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature,\
-      \ or a creature that is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the vampire, [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
-      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). Hit:\
-      \ 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. The target's\
-      \ hit point maximum is reduced by an amount equal to the necrotic damage taken,\
-      \ and the vampire regains hit points equal to that amount. The reduction lasts\
-      \ until the target finishes a long rest. The target dies if its hit point maximum\
-      \ is reduced to 0."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one willing creature, or a creature that is [grappled](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Grappled) by the vampire, [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or [restrained](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Restrained). Hit: dice:1d6+4|noform|noparens|avg|text(7)\
+      \ (1d6 + 4) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ necrotic damage. The target's hit point maximum is reduced by an amount equal\
+      \ to the necrotic damage taken, and the vampire regains hit points equal to\
+      \ that amount. The reduction lasts until the target finishes a long rest. The\
+      \ target dies if its hit point maximum is reduced to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d8 + 4) bludgeoning damage. The vampire can also grapple the target (escape\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8) (1d8\
+      \ + 4) bludgeoning damage. The vampire can also grapple the target (escape\
       \ DC 13) if it is a creature and the vampire has a hand free."
     "name": "Unarmed Strike"
   - "desc": "The vampire targets a creature it can see within 30 feet of it. The target\
       \ must make a DC 14 Intelligence saving throw, with disadvantage if the vampire\
       \ has previously consumed the target's blood. On a failed save, the target takes\
-      \ 28 (8d6) psychic damage, and the vampire discerns the target's surface emotions\
-      \ and thoughts. On a successful save, the target takes half as much damage,\
-      \ and the vampire discerns the target's general emotional state but not its\
-      \ thoughts."
+      \ dice:8d6|noform|noparens|avg|text(28) (8d6) psychic damage, and the vampire\
+      \ discerns the target's surface emotions and thoughts. On a successful save,\
+      \ the target takes half as much damage, and the vampire discerns the target's\
+      \ general emotional state but not its thoughts."
     "name": "Mind Siphon (Recharge 5-6)"
 "source":
   - "GGR"

@@ -128,9 +128,9 @@ If a Channel Divinity effect requires a saving throw, the DC equals the spell sa
 
 ### Divine Spark (Level 2)
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you point your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll `d8` and add your Wisdom modifier. You either restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you point your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll `dice:1d8|noform|noparens|avg` (`d8`) and add your Wisdom modifier. You either restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
 
-You roll an additional `d8` when you reach Cleric levels 7 (`2d8`), 13 (`3d8`), and 18 (`4d8`).
+You roll an additional `dice:d8|noform|noparens|avg` (`d8`) when you reach Cleric levels `dice:2d8|noform|noparens|avg|text(7)` (`2d8`), `dice:3d8|noform|noparens|avg|text(13)` (`3d8`), and `dice:4d8|noform|noparens|avg|text(18)` (`4d8`).
 
 ### Turn Undead (Level 2)
 
@@ -146,7 +146,7 @@ You gain the [Ability Score Improvement](Інструменти%20ДМ/CLI/feats
 
 ### Sear Undead (Level 5)
 
-Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of `d8`) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
+Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of `dice:1d8|noform|noparens|avg` (`d8`)) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
 
 ### Subclass Feature (Level 6)
 
@@ -158,7 +158,7 @@ Divine power infuses you in battle. You gain one of the following options of you
 
 ### Divine Strike (Level 7)
 
-Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra `d8` Necrotic or Radiant damage (your choice).
+Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra `dice:1d8|noform|noparens|avg` (`d8`) Necrotic or Radiant damage (your choice).
 
 ### Potent Spellcasting (Level 7)
 
@@ -182,7 +182,7 @@ The option you chose for Blessed Strikes grows more powerful.
 
 #### Divine Strike
 
-The extra damage of your Divine Strike increases to `2d8`.
+The extra damage of your Divine Strike increases to `dice:2d8|noform|noparens|avg` (`2d8`).
 
 #### Potent Spellcasting
 
@@ -202,4 +202,4 @@ You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
 ### Greater Divine Intervention (Level 20)
 
-You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) when you select a spell. If you do so, you can't use Divine Intervention again until you finish `2d4` Long Rests.
+You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) when you select a spell. If you do so, you can't use Divine Intervention again until you finish `dice:2d4|noform|noparens|avg` (`2d4`) Long Rests.

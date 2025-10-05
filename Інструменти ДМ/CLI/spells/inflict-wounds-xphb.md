@@ -26,9 +26,9 @@ aliases:
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A creature you touch makes a Constitution saving throw, taking `2d10` Necrotic damage on a failed save or half as much damage on a successful one.
+A creature you touch makes a Constitution saving throw, taking `dice:2d10|noform|noparens|avg` (`2d10`) Necrotic damage on a failed save or half as much damage on a successful one.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d10` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d10|noform|noparens|avg|text(d10)` for each spell slot level above 1.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

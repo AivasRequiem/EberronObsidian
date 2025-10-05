@@ -38,7 +38,7 @@ One creature of your choice that you can see within range makes a Wisdom saving 
 
 At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the save if the save is triggered by damage. On a successful save, the spell ends.
 
-**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level about 1.
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (Great Old One Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-great-old-one-patron-xphb.md "subclass=XPHB;class=XPHB")
 

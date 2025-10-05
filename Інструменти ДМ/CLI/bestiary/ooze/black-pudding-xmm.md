@@ -71,8 +71,8 @@ Various supernatural conditions might bring black puddings into being. Roll on o
   - "desc": "The pudding can move through a space as narrow as 1 inch without expending\
       \ extra movement to do so."
     "name": "Amorphous"
-  - "desc": "A creature that hits the pudding with a melee attack roll takes 4 (d8)\
-      \ Acid damage. Nonmagical ammunition is destroyed immediately after hitting\
+  - "desc": "A creature that hits the pudding with a melee attack roll takes dice:1d8|noform|noparens|avg|text(4)\
+      \ (d8) Acid damage. Nonmagical ammunition is destroyed immediately after hitting\
       \ the pudding and dealing any damage. Any nonmagical weapon takes a cumulative\
       \ -1 penalty to attack rolls immediately after dealing damage to the pudding\
       \ and coming into contact with it. The weapon is destroyed if the penalty reaches\
@@ -84,7 +84,8 @@ Various supernatural conditions might bring black puddings into being. Roll on o
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 17 (4d6 + 3) Acid damage.\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
+      \ ft. Hit: dice:4d6+3|noform|noparens|avg|text(17) (4d6 + 3) Acid damage.\
       \ Nonmagical armor worn by the target takes a -1 penalty to the AC it offers.\
       \ The armor is destroyed if the penalty reduces its AC to 10. The penalty can\
       \ be removed by casting the [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md)\
@@ -93,10 +94,10 @@ Various supernatural conditions might bring black puddings into being. Roll on o
 "reactions":
   - "desc": "Trigger: While the pudding is Large or Medium and has 10+ [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it becomes [Bloodied](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md) or is subjected to\
-      \ Lightning or Slashing damage. _Response:_ The pudding splits into two new\
-      \ Black Puddings. Each new pudding is one size smaller than the original pudding\
-      \ and acts on its [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md).\
+      нструменти%20ДМ/CLI/rules/conditions.md#Bloodied) or is subjected to Lightning\
+      \ or Slashing damage. _Response:_ The pudding splits into two new Black Puddings.\
+      \ Each new pudding is one size smaller than the original pudding and acts on\
+      \ its [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md).\
       \ The original pudding's [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ are divided evenly between the new puddings (round down)."
     "name": "Split"

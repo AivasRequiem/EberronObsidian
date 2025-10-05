@@ -36,7 +36,7 @@ An Orb of Dragonkind has the following random properties:
 
 ## Spells
 
-The orb has 7 charges and regains `1d4 + 3` expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
+The orb has 7 charges and regains `dice:1d4+3|noform|noparens|avg` (`1d4 + 3`) expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
 
 | Spell | Charge Cost |
 |-------|-------------|

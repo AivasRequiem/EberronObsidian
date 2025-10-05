@@ -50,10 +50,10 @@ Thri-kreen are mantis-like wanderers who harness their innate camouflage and psy
   - !!int "11"
 "speed": "40 ft., fly 20 ft. (hover)"
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+5"
-  - "constitution": "+5"
-  - "intelligence": "+7"
+  - "strength": !!int "7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "7"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -66,8 +66,9 @@ Thri-kreen are mantis-like wanderers who harness their innate camouflage and psy
 "actions":
   - "desc": "The thri-kreen makes three Psionic Lance attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 10 ft. or range 120 ft. Hit:\
-      \ 18 (4d6 + 4) Psychic damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 10 ft. or range 120 ft. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
+      \ (4d6 + 4) Psychic damage."
     "name": "Psionic Lance"
   - "desc": "The thri-kreen casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\

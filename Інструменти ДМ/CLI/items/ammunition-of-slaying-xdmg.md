@@ -22,7 +22,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/ammunition-of-slaying.webp#right)
 
 
-This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra `6d10` Force damage on a failed save or half as much extra damage on a successful one.
+This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra `dice:6d10|noform|noparens|avg` (`6d10`) Force damage on a failed save or half as much extra damage on a successful one.
 
 After dealing its extra damage to a creature, the ammunition becomes nonmagical.
 

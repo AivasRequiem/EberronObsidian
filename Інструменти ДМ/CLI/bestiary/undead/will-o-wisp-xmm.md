@@ -79,17 +79,19 @@ Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a
     "name": "Illumination"
   - "desc": "The wisp can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
+      \ ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Lightning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Lightning\
       \ damage."
     "name": "Shock"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 10, one living creature the wisp can\
       \ see within 5 feet that has 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
-      \ Failure: The target dies, and the wisp regains 10 (3d6) [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+      \ Failure: The target dies, and the wisp regains dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Consume Life"
   - "desc": "The wisp and its light have the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\
       \ condition until the wisp's [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\

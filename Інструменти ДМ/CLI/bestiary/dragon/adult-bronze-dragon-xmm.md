@@ -51,8 +51,8 @@ Bronze dragons usually make their homes near or under the sea.
   - !!int "20"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+7"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -74,12 +74,14 @@ Bronze dragons usually make their homes near or under the sea.
       \ use of (A) Repulsion Breath or (B) Spellcasting to cast [Guiding Bolt](Інс\
       трументи%20ДМ/CLI/spells/guiding-bolt-xphb.md) (level 2 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing\
-      \ damage plus 5 (d10) Lightning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
+      \ 10 ft. Hit: dice:2d8+7|noform|noparens|avg|text(16) (2d8 + 7) Slashing\
+      \ damage plus dice:1d10|noform|noparens|avg|text(5) (d10) Lightning damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 55 (10d10) Lightning damage. Success: Half damage."
+      \ Failure: dice:10d10|noform|noparens|avg|text(55) (10d10) Lightning damage.\
+      \ Success: Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
   - "desc": "Strength Saving Throw: DC 19, each creature in a 30-foot [Cone](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
@@ -87,11 +89,11 @@ Bronze dragons usually make their homes near or under the sea.
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Repulsion Breath"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 17, +10 to\
-      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Guiding Bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (level 2\
-      \ version), [Shapechange](Інструменти%20ДМ/CLI/spells/shapechange-xphb.md) (Beast\
-      \ or Humanoid form only, no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 17, dice:1d20+10|noform|noparens|text(+10)\
+      \ to hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20Д\
+      М/CLI/spells/detect-magic-xphb.md), [Guiding Bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md)\
+      \ (level 2 version), [Shapechange](Інструменти%20ДМ/CLI/spells/shapechange-xphb.md)\
+      \ (Beast or Humanoid form only, no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
       \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
       \ to maintain the spell), [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md),\
@@ -108,9 +110,9 @@ Bronze dragons usually make their homes near or under the sea.
     "name": "Pounce"
   - "desc": "Constitution Saving Throw: DC 17, each creature in a 20-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 90 feet. Failure: 10 (3d6)\
-      \ Thunder damage, and the target has the [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened)\
-      \ condition until the end of its next turn."
+      \ centered on a point the dragon can see within 90 feet. Failure: dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Thunder damage, and the target has the [Deafened](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Deafened) condition until the end of its next turn."
     "name": "Thunderclap"
 "regional_effects":
   - "desc": "The region containing an adult or ancient bronze dragon's lair is changed\

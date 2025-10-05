@@ -61,8 +61,9 @@ These scavengers avoid ingesting inorganic material. Crypts with funeral armors 
 "actions":
   - "desc": "The carrion crawler uses Paralyzing Tentacles and makes one Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4 + 2) Piercing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage."
     "name": "Bite"
   - "desc": "Constitution Saving Throw: DC 12, one creature the carrion crawler\
       \ can see within 10 feet. Failure: The target has the [Poisoned](Інструмен\

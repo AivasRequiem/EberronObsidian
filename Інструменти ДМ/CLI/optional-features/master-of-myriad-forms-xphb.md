@@ -9,5 +9,7 @@ aliases:
 ---
 # Master of Myriad Forms
 *Source: Player's Handbook (2024) p. 156. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
-**Prerequisite**: 5th Warlock
+
+**Prerequisite**: Level 5
+
 You can cast [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) without expending a spell slot.

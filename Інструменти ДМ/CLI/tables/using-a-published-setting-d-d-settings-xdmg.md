@@ -13,7 +13,7 @@ aliases:
 
 | Setting | Description |
 |---------|-------------|
-| Dark Sun | Heroes make their mark on a postapocalyptic world defiled by magic and forsaken by the gods. |
+| Dark Sun | Heroes make their mark on a post-apocalyptic world defiled by magic and forsaken by the gods. |
 | Dragonlance | The forces of good battle the evil queen of dragons and her armies in the world-shaking War of the Lance. |
 | "Eberron" | In the aftermath of a deadly war, magically advanced nations rebuild as a cold war threatens lasting peace. |
 | "Exandria" | Heroes make names for themselves in the world made popular by the streaming show Critical Role. |

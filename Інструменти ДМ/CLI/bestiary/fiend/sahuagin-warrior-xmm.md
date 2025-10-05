@@ -72,8 +72,8 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d6+1|noform|noparens|avg|text(4) (1d6 + 1) Slashing damage."
     "name": "Claw"
 "bonus_actions":
   - "desc": "The sahuagin swims up to its [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md)\

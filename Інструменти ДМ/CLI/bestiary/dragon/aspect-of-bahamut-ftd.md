@@ -40,10 +40,10 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
   - !!int "30"
 "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft."
 "saves":
-  - "constitution": "+18"
-  - "intelligence": "+16"
-  - "wisdom": "+18"
-  - "charisma": "+19"
+  - "constitution": !!int "18"
+  - "intelligence": !!int "16"
+  - "wisdom": !!int "18"
+  - "charisma": !!int "19"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+18"
@@ -73,30 +73,33 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
 "actions":
   - "desc": "The aspect makes one Bite attack, one Claw attack, and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
-      \ 23 (2d12 + 10) piercing damage plus 22 (4d10) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 20 ft., one target. Hit: dice:2d12+10|noform|noparens|avg|text(23)\
+      \ (2d12 + 10) piercing damage plus dice:4d10|noform|noparens|avg|text(22)\
+      \ (4d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
-      \ 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+10|noform|noparens|avg|text(21)\
+      \ (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The aspect can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
-      \ 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must\
-      \ succeed on a DC 27 Strength saving throw or be knocked [prone](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Prone)."
+  - "desc": "Melee Weapon Attack: dice:1d20+19|noform|noparens|text(+19) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d12+10|noform|noparens|avg|text(23)\
+      \ (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed\
+      \ on a DC 27 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
   - "desc": "The aspect uses one of the following breath weapons:\n\n- Exalting\
       \ Breath. The aspect exhales the restoring winds of Mount Celestia in a 300-foot\
-      \ cone. Each creature in that area of the aspect's choice regains 71 (13d10)\
-      \ hit points, and each creature in that area of the aspect's choice that has\
-      \ been dead for no longer than 1 hour is restored to life with all its hit points.\
-      \  \n- Platinum Breath. The aspect exhales radiant platinum flames in a\
-      \ 300-foot cone. Each creature in that area must make a DC 26 Dexterity saving\
-      \ throw, taking 66 (12d10) radiant damage on a failed save, or half as much\
-      \ damage on a successful one.  "
+      \ cone. Each creature in that area of the aspect's choice regains dice:13d10|noform|noparens|avg|text(71)\
+      \ (13d10) hit points, and each creature in that area of the aspect's choice\
+      \ that has been dead for no longer than 1 hour is restored to life with all\
+      \ its hit points.  \n- Platinum Breath. The aspect exhales radiant platinum\
+      \ flames in a 300-foot cone. Each creature in that area must make a DC 26 Dexterity\
+      \ saving throw, taking dice:12d10|noform|noparens|avg|text(66) (12d10) radiant\
+      \ damage on a failed save, or half as much damage on a successful one.  "
     "name": "Breath Weapon (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The aspect magically transforms into any Humanoid or Beast, while retaining\

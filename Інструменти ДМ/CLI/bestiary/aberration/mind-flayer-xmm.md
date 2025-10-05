@@ -64,10 +64,10 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
   - !!int "17"
 "speed": "30 ft., fly 15 ft. (hover)"
 "saves":
-  - "dexterity": "+4"
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -86,24 +86,26 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 22 (4d8 + 4) Psychic\
-      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:4d8+4|noform|noparens|avg|text(22) (4d8 + 4) Psychic damage.\
+      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ all the mind flayer's tentacles, and the target has the [Stunned](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Stunned) condition until the grapple ends."
     "name": "Tentacles"
   - "desc": "Constitution Saving Throw: DC 15, one creature that is [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the mind flayer's Tentacles.\
-      \ Failure: 55 (10d10) Piercing damage. Success: Half damage. Failure\
-      \ or Success: If this damage reduces the target to 0 [Hit Points](Інструмен\
-      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), the mind flayer kills it\
-      \ and devours its brain."
+      \ Failure: dice:10d10|noform|noparens|avg|text(55) (10d10) Piercing damage.\
+      \ Success: Half damage. Failure or Success: If this damage reduces the target\
+      \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
+      \ the mind flayer kills it and devours its brain."
     "name": "Extract Brain"
   - "desc": "Intelligence Saving Throw: DC 15, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 31 (6d8 + 4) Psychic damage, and the target has the [Stunned](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Stunned) condition until the end of the mind\
-      \ flayer's next turn. Success: Half damage only."
+      \ dice:6d8+4|noform|noparens|avg|text(31) (6d8 + 4) Psychic damage, and\
+      \ the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ condition until the end of the mind flayer's next turn. Success: Half damage\
+      \ only."
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The mind flayer casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\

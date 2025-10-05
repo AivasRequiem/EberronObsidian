@@ -17,7 +17,7 @@ aliases:
 
 An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.
 
-If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by `d4` (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.
+If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by `dice:1d4|noform|noparens|avg` (`d4`) (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.
 
 **Orb of Shielding**
 
@@ -25,7 +25,7 @@ If you're holding the orb when you take damage of the type associated with the o
 |-----------------|-------------|
 | [Fernian basalt](Інструменти%20ДМ/CLI/items/orb-of-shielding-fernian-basalt-erlw.md) | Fire |
 | [Irian quartz](Інструменти%20ДМ/CLI/items/orb-of-shielding-irian-quartz-erlw.md) | Radiant |
-| [Kythrian skarn](Інструменти%20ДМ/CLI/items/orb-of-shielding-kythrian-skarn-erlw.md) | Acid and poison |
+| [Kythrian Skarn](Інструменти%20ДМ/CLI/items/orb-of-shielding-kythrian-skarn-erlw.md) | Acid and poison |
 | [Lamannian flint](Інструменти%20ДМ/CLI/items/orb-of-shielding-lamannian-flint-erlw.md) | Lightning and thunder |
 | [Mabaran obsidian](Інструменти%20ДМ/CLI/items/orb-of-shielding-mabaran-obsidian-erlw.md) | Necrotic |
 | [Risian shale](Інструменти%20ДМ/CLI/items/orb-of-shielding-risian-shale-erlw.md) | Cold |

@@ -38,9 +38,9 @@ aliases:
 - **Components:** V, M (bat fur and a piece of coal)
 - **Duration:** Concentration, up to 10 minutes
 
-For the duration, magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md) spreads from a point within range and fills a 15-foot-radius Sphere. [Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) can't see through it, and nonmagical light can't illuminate it.
+For the duration, magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md) spreads from a point within range and fills a 15-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md). [Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) can't see through it, and nonmagical light can't illuminate it.
 
-Alternatively, you cast the spell on an object that isn't being worn or carried, causing the [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md) to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md).
+Alternatively, you cast the spell on an object that isn't being worn or carried, causing the [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md) to fill a 15-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md).
 
 If any of this spell's area overlaps with an area of [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) or [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) created by a spell of level 2 or lower, that other spell is dispelled.
 

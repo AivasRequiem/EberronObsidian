@@ -48,20 +48,21 @@ A void scavver can emit an invisible ray from its eye that causes its target to 
   - "desc": "The scavver doesn't require air."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
-      \ 45 (6d12 + 6) piercing damage. If the target is a Large or smaller creature,\
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 10 ft., one target. Hit: dice:6d12+6|noform|noparens|avg|text(45)\
+      \ (6d12 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 16 Dexterity saving throw or be swallowed by the scavver.\
       \ The scavver can have one creature swallowed at a time.\n\nA swallowed creature\
       \ is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) and [restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained), has total cover against\
-      \ attacks and other effects outside the scavver, and takes 11 (2d10) acid\
-      \ damage at the start of each of the scavver's turns from the digestive juices\
-      \ in the scavver's gullet.\n\nIf the scavver takes 25 damage or more on a single\
-      \ turn from a creature inside it, the scavver must succeed on a DC 20 Constitution\
-      \ saving throw at the end of that turn or regurgitate the swallowed creature,\
-      \ which falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) in a space\
-      \ within 10 feet of the scavver. If the scavver dies, a swallowed creature is\
-      \ no longer [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ attacks and other effects outside the scavver, and takes dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) acid damage at the start of each of the scavver's turns from the\
+      \ digestive juices in the scavver's gullet.\n\nIf the scavver takes 25 damage\
+      \ or more on a single turn from a creature inside it, the scavver must succeed\
+      \ on a DC 20 Constitution saving throw at the end of that turn or regurgitate\
+      \ the swallowed creature, which falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ in a space within 10 feet of the scavver. If the scavver dies, a swallowed\
+      \ creature is no longer [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ by it and can escape from the corpse by using 10 feet of movement, exiting\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Swallowing Bite"

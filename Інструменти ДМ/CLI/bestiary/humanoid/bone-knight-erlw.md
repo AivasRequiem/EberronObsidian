@@ -46,8 +46,8 @@ During the Last War, many bone knights took service with the Order of the Emeral
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -61,15 +61,16 @@ During the Last War, many bone knights took service with the Order of the Emeral
 "cr": "5"
 "traits":
   - "desc": "The knight is an 8th-level spellcaster. Its spellcasting ability is Charisma\
-      \ (spell save DC 14, +6 to hit with spell attacks). It has the following paladin\
-      \ spells prepared:\n\n1st level (4 slots): [command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
-      \ [compelled duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md), [hellish\
-      \ rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md), [wrathful smite](І\
-      нструменти%20ДМ/CLI/spells/wrathful-smite-xphb.md)\n\n2nd level (3 slots):\
-      \ [branding smite](Інструменти%20ДМ/CLI/spells/shining-smite-xphb.md), [crown\
-      \ of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md), [darkness](І\
-      нструменти%20ДМ/CLI/spells/darkness-xphb.md), [find steed](Інструменти%20ДМ\
-      /CLI/spells/find-steed-xphb.md), [magic weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md)"
+      \ (spell save DC 14, dice:1d20+6|noform|noparens|text(+6) to hit with spell\
+      \ attacks). It has the following paladin spells prepared:\n\n1st level (4\
+      \ slots): [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [compelled\
+      \ duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md), [hellish rebuke](І\
+      нструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md), [wrathful smite](Інструм\
+      енти%20ДМ/CLI/spells/wrathful-smite-xphb.md)\n\n2nd level (3 slots): [branding\
+      \ smite](Інструменти%20ДМ/CLI/spells/shining-smite-xphb.md), [crown of madness](І\
+      нструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md), [darkness](Інструменти\
+      %20ДМ/CLI/spells/darkness-xphb.md), [find steed](Інструменти%20ДМ/CLI/spells/find-steed-xphb.md),\
+      \ [magic weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md)"
     "name": "Spellcasting"
   - "desc": "As a bonus action, the knight can target one skeleton or zombie it can\
       \ see within 30 feet of it. The target must make a DC 14 Wisdom saving throw.\
@@ -83,11 +84,13 @@ During the Last War, many bone knights took service with the Order of the Emeral
 "actions":
   - "desc": "The knight attacks twice with one of its weapons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
       \ (2d6 + 4) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
-      \ 5 (1d8 + 1) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ range 150/600 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5)\
+      \ (1d8 + 1) piercing damage."
     "name": "Longbow"
 "source":
   - "ERLW"

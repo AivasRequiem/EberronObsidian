@@ -66,8 +66,8 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+4"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "4"
 "senses": "passive Perception 11"
 "languages": "Common plus one other language"
 "cr": "1"
@@ -75,8 +75,9 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
   - "desc": "The pirate makes two Dagger attacks. It can replace one attack with a\
       \ use of Enthralling Panache."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 5 (1d4 + 3) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5),\
+      \ reach 5 ft. or range 20/60 ft. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
+      \ (1d4 + 3) Piercing damage."
     "name": "Dagger"
   - "desc": "Wisdom Saving Throw: DC 12, one creature the pirate can see within\
       \ 30 feet. Failure: The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\

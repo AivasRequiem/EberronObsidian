@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 34*  
 ![](Інструменти%20ДМ/CLI/races/img/shifter-001.webp#right)
 
-- **Ability Scores**: Constitution +2; Strength +1
+- **Ability Scores**: con +2 str +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 
@@ -53,7 +53,7 @@ You have proficiency in the [Athletics](Інструменти%20ДМ/CLI/rules/
 
 ### Shifting Feature
 
-Whenever you shift, you gain `d6` additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.
+Whenever you shift, you gain `dice:1d6|noform|noparens|avg` (`d6`) additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.
 
 ## Description
 

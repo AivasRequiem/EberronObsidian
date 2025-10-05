@@ -75,8 +75,8 @@ Here are definitions of various rules.
 > [!embed-sense]- Blindsight
 > ![Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight)
 
-> [!embed-variantrule]- Bloodied
-> ![Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)
+> [!embed-status]- Bloodied
+> ![Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)
 
 > [!embed-variantrule]- Bonus Action
 > ![Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)

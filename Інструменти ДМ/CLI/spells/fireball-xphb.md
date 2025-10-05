@@ -42,11 +42,11 @@ aliases:
 - **Components:** V, S, M (a ball of bat guano and sulfur)
 - **Duration:** Instantaneous
 
-A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking `8d6` Fire damage on a failed save or half as much damage on a successful one.
+A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes a Dexterity saving throw, taking `dice:8d6|noform|noparens|avg` (`8d6`) Fire damage on a failed save or half as much damage on a successful one.
 
 Flammable objects in the area that aren't being worn or carried start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 3.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Artificer (Artillerist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (Fiend Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-fiend-patron-xphb.md "subclass=XPHB;class=XPHB"); [Cleric (Light Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-light-domain-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of the Land)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-land-xphb.md "subclass=XPHB;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

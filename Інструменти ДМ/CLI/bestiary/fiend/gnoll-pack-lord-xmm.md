@@ -58,11 +58,11 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
   - "desc": "The gnoll makes two attacks, using Bone Whip or Bone Javelin in any combination,\
       \ and it uses Incite Rampage if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (2d4 + 3) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
+      \ ft. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4 + 3) Slashing damage."
     "name": "Bone Whip"
-  - "desc": "Ranged Attack Roll: +5, range 30/120 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 30/120\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage."
     "name": "Bone Javelin"
   - "desc": "The gnoll targets another creature it can see within 60 feet of itself\
       \ that has the Rampage [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md).\
@@ -71,9 +71,9 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
     "name": "Incite Rampage (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Immediately after dealing damage to a creature that is already [Bloodied](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md), the gnoll moves up\
-      \ to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
-      \ and it makes one Bone Whip attack."
+      нструменти%20ДМ/CLI/rules/conditions.md#Bloodied), the gnoll moves up to half\
+      \ its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md), and it\
+      \ makes one Bone Whip attack."
     "name": "Rampage (2/Day)"
 "source":
   - "XMM"

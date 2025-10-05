@@ -36,8 +36,8 @@ Nearly all the innovation and advancement in Simic bioengineering comes from the
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+6"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -48,13 +48,13 @@ Nearly all the innovation and advancement in Simic bioengineering comes from the
 "cr": "10"
 "traits":
   - "desc": "The biomancer is a 16th-level Simic spellcaster. Its spellcasting ability\
-      \ is Intelligence (spell save DC 17, +9 to hit with spell attacks). The biomancer\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [acid\
-      \ splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [light](Інструме\
-      нти%20ДМ/CLI/spells/light-xphb.md), [mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md),\
-      \ [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md), [shocking\
-      \ grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st level\
-      \ (4 slots): [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ is Intelligence (spell save DC 17, dice:1d20+9|noform|noparens|text(+9)\
+      \ to hit with spell attacks). The biomancer has the following wizard spells\
+      \ prepared:\n\nCantrips (at will): [acid splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md),\
+      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mending](Інструменти\
+      %20ДМ/CLI/spells/mending-xphb.md), [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md),\
+      \ [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st\
+      \ level (4 slots): [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [grease](Інструменти%20ДМ/CLI/spells/grease-xphb.md), [shield](Інструменти\
       %20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [alter self](Ін\
       струменти%20ДМ/CLI/spells/alter-self-xphb.md), [darkvision](Інструменти%20ДМ\
@@ -76,15 +76,16 @@ Nearly all the innovation and advancement in Simic bioengineering comes from the
       8th level (1 slots): [control weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md)"
     "name": "Spellcasting"
   - "desc": "The biomancer magically emanates life-giving energy within 30 feet of\
-      \ itself. Any ally of the biomancer that starts its turn there regains 5 (d10)\
-      \ hit points."
+      \ itself. Any ally of the biomancer that starts its turn there regains dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) hit points."
     "name": "Bolstering Presence"
   - "desc": "The biomancer has advantage on saving throws against spells and other\
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) slashing damage."
     "name": "Scimitar"
 "source":
   - "GGR"

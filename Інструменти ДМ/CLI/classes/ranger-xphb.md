@@ -160,7 +160,7 @@ Primal forces now help fuel you on your journeys, granting you the following ben
 
 #### Temporary Hit Points
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can give yourself a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to `d8` plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can give yourself a number of [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) equal to `dice:1d8|noform|noparens|avg` (`d8`) plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
 #### Decrease Exhaustion
 
@@ -206,4 +206,4 @@ You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
 ### Foe Slayer (Level 20)
 
-The damage die of your Hunter's Mark is a `d10` rather than a `d6`.
+The damage die of your Hunter's Mark is a `dice:d10|noform|noparens|avg` (`d10`) rather than a `dice:d6|noform|noparens|avg` (`d6`).

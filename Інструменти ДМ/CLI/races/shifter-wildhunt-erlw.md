@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 34*  
 ![](Інструменти%20ДМ/CLI/races/img/shifter-wildhunt.webp#right)
 
-- **Ability Scores**: Wisdom +2; Dexterity +1
+- **Ability Scores**: wis +2 dex +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

@@ -35,9 +35,9 @@ Thri-kreen gladiators relish opportunities to test their mettle in combat and of
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+7"
-  - "wisdom": "+5"
+  - "strength": !!int "7"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -52,13 +52,15 @@ Thri-kreen gladiators relish opportunities to test their mettle in combat and of
 "actions":
   - "desc": "The thri-kreen makes two Gythka attacks and one Chatkcha attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit (with advantage if the thri-kreen\
-      \ is missing any hit points), reach 5 ft., one target. Hit: 13 (2d8 + 4)\
-      \ slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit\
+      \ (with advantage if the thri-kreen is missing any hit points), reach 5 ft.,\
+      \ one target. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) slashing\
+      \ damage."
     "name": "Gythka"
-  - "desc": "Ranged Weapon Attack: +7 to hit (with advantage if the thri-kreen\
-      \ is missing any hit points), range 30/120 ft., one target. Hit: 7 (1d6 +\
-      \ 4) slashing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit\
+      \ (with advantage if the thri-kreen is missing any hit points), range 30/120\
+      \ ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6 + 4)\
+      \ slashing damage."
     "name": "Chatkcha"
 "bonus_actions":
   - "desc": "The thri-kreen leaps up to 20 feet in any direction, provided its speed\

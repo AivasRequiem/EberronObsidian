@@ -37,8 +37,8 @@ Cyclopes serve the Izzet league as workshop guardians, personal protectors, and 
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+3"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "3"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
@@ -55,8 +55,9 @@ Cyclopes serve the Izzet league as workshop guardians, personal protectors, and 
 "actions":
   - "desc": "The cyclops makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
-      \ 23 (3d10 + 7) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d10+7|noform|noparens|avg|text(23)\
+      \ (3d10 + 7) bludgeoning damage."
     "name": "Slam"
 "reactions":
   - "desc": "Immediately after a creature casts a spell of 1st level or higher within\

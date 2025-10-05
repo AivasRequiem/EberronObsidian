@@ -54,17 +54,18 @@ The dank, sunless Underdark is a fertile breeding ground for weird and dangerous
 "actions":
   - "desc": "The necrohulk makes two Rotting Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning\
-      \ damage plus 7 (2d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:1d10+4|noform|noparens|avg|text(9) (1d10 + 4) Bludgeoning\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Necrotic damage."
     "name": "Rotting Slam"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 20-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the necrohulk can see within 60 feet. Failure: 28 (8d6)\
-      \ Necrotic damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition until the start of the necrohulk's next turn. While [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target can't regain [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success:\
-      \ Half damage only."
+      \ centered on a point the necrohulk can see within 60 feet. Failure: dice:8d6|noform|noparens|avg|text(28)\
+      \ (8d6) Necrotic damage, and the target has the [Poisoned](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Poisoned) condition until the start of the necrohulk's\
+      \ next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
+      \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+      \ Success: Half damage only."
     "name": "Spore Bomb (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Strength Saving Throw: DC 15, one Medium or Small creature the necrohulk\

@@ -33,7 +33,7 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 > 
 > A slaad born from the Spawning Stone has a magical control gem embedded in its head. If a creature claims the gem, the slaad has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition and obeys the gem's bearer. The slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) if it is harmed by the gem's bearer or the bearer's allies or if the gem is returned to the slaad. A [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) spell cast on a slaad destroys the gem, and the slaad ceases to be [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed).
 > 
-> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals 22 (`4d10`) Piercing damage to the slaad.
+> One can obtain a slaad's control gem using a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) or [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md) spell. If the slaad fails its saving throw against [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md), the caster gains the gem, and the slaad isn't imprisoned. An [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) slaad's control gem can be removed by spending 1 minute and succeeding on a DC 20 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. Failing this check deals `dice:4d10|noform|noparens|avg|text(22)` (`4d10`) Piercing damage to the slaad.
 ^slaad-control-gems
 
 > [!quote] A quote from Jebeel Sloom  
@@ -76,15 +76,17 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes three Mutating Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 3 (d6) Poison damage. If the target is a Humanoid not cursed\
-      \ by a slaad, it is subjected to the following effect. Constitution Saving\
-      \ Throw: DC 15. Failure: The target is cursed. The cursed target can't regain\
-      \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Poison damage. If\
+      \ the target is a Humanoid not cursed by a slaad, it is subjected to the following\
+      \ effect. Constitution Saving Throw: DC 15. Failure: The target is cursed.\
+      \ The cursed target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by 10 (3d6) after every 24 hours and doesn't return to\
-      \ normal after finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).\
-      \ If the curse reduces the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by dice:3d6|noform|noparens|avg|text(10) (3d6) after\
+      \ every 24 hours and doesn't return to normal after finishing a [Long Rest](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). If the curse reduces\
+      \ the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum to 0, the curse ends, and instead of dying, the target instantly transforms\
       \ into a [Red Slaad](Інструменти%20ДМ/CLI/bestiary/aberration/red-slaad-xmm.md)\
       \ or, if it can cast spells of level 3 or higher, a [Green Slaad](Інструмент\

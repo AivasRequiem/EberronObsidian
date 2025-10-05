@@ -51,7 +51,8 @@ A ship crewed by vampirates usually has one or more shadows aboard—the Undead 
 "traits":
   - "desc": "When the vampirate is reduced to 0 hit points, it explodes in a cloud\
       \ of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution\
-      \ saving throw or take 5 (d10) necrotic damage."
+      \ saving throw or take dice:1d10|noform|noparens|avg|text(5) (d10) necrotic\
+      \ damage."
     "name": "Explode"
   - "desc": "The vampirate can climb difficult surfaces, including upside down on\
       \ ceilings, without needing to make an ability check."
@@ -59,13 +60,14 @@ A ship crewed by vampirates usually has one or more shadows aboard—the Undead 
   - "desc": "The vampirate doesn't require air or drink."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 11 (2d10) necrotic damage. A Humanoid reduced\
-      \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
-      \ shadow under the DM's control."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 30 ft., one creature. Hit: dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack\
+      \ dies and instantly transforms into a free-willed shadow under the DM's control."
     "name": "Energy Drain"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-      \ 11 (2d8 + 2) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ range 80/320 ft., one target. Hit: dice:2d8+2|noform|noparens|avg|text(11)\
+      \ (2d8 + 2) piercing damage."
     "name": "Light Crossbow"
 "source":
   - "BAM"

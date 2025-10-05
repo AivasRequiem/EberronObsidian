@@ -13,7 +13,6 @@ aliases:
 - [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md "XPHB")
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB")
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB")
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE")
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB")
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB")
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB")
@@ -131,7 +130,7 @@ aliases:
 - [Planar Binding](Інструменти%20ДМ/CLI/spells/planar-binding-xphb.md "XPHB")
 - [Reincarnate](Інструменти%20ДМ/CLI/spells/reincarnate-xphb.md "XPHB")
 - [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md "XPHB")
-- [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB")
+- [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB") (\*)
 - [Tree Stride](Інструменти%20ДМ/CLI/spells/tree-stride-xphb.md "XPHB")
 - [Wall of Stone](Інструменти%20ДМ/CLI/spells/wall-of-stone-xphb.md "XPHB")
 
@@ -150,7 +149,7 @@ aliases:
 
 ## 7th Level
 
-- [Draconic Transformation](Інструменти%20ДМ/CLI/spells/draconic-transformation-ftd.md "FTD")
+- [Draconic Transformation](Інструменти%20ДМ/CLI/spells/draconic-transformation-ftd.md "FTD") (\*)
 - [Fire Storm](Інструменти%20ДМ/CLI/spells/fire-storm-xphb.md "XPHB")
 - [Mirage Arcane](Інструменти%20ДМ/CLI/spells/mirage-arcane-xphb.md "XPHB")
 - [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md "XPHB")

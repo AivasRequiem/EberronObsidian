@@ -31,7 +31,7 @@ Githyanki were once an ordinary people, but the deeds of a vile mind flayer empi
 
 Ages ago, a humanlike people were conquered by an empire of mind flayers. The illithids manipulated this forgotten people through untold horrors, forced evolution, and psychic reshaping. Eventually one named Gith rose from among the captives and led a rebellion against their oppressors. Gith's followers, who became known as the gith, defeated the mind flayers and shattered their vast empire.
 
-The victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith's drive for vengeance and new conquests was evidence of species-wide mental programing laid by the mind flayers, biological manipulation that condemned her people to continued servitude. This claim split the gith into Gith's followers, the githyanki (meaning "followers of Gith"), and Zerthimon's followers, the githzerai (meaning "those who spurn Gith"), and sparked an ongoing conflict.
+The victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith's drive for vengeance and new conquests was evidence of species-wide mental programming laid by the mind flayers, biological manipulation that condemned her people to continued servitude. This claim split the gith into Gith's followers, the githyanki (meaning "followers of Gith"), and Zerthimon's followers, the githzerai (meaning "those who spurn Gith"), and sparked an ongoing conflict.
 
 When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaakith's line has continued to the githyanki's current ruler, Vlaakith the Lich-Queen. This undead tyrant compels her people to wage endless wars against mind flayers, githzerai, and any others that threaten githyanki supremacy.
 
@@ -54,10 +54,10 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
   - !!int "18"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+9"
-  - "intelligence": "+10"
-  - "wisdom": "+8"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "9"
+  - "intelligence": !!int "10"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -69,33 +69,25 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
 "actions":
   - "desc": "The githyanki makes three Draconic Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +10, reach 10 ft. or range 120 ft.\
-      \ Hit: 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the\
-      \ target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10),\
+      \ reach 10 ft. or range 120 ft. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) Slashing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6)\
+      \ Fire damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the githyanki's next turn."
     "name": "Draconic Strike"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 90-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 27 (6d8) Fire damage plus 27 (6d8) Force damage. Success: Half damage."
+      \ dice:6d8|noform|noparens|avg|text(27) (6d8) Fire damage plus dice:6d8|noform|noparens|avg|text(27)\
+      \ (6d8) Force damage. Success: Half damage."
     "name": "Conjured Dragon's Breath (Recharge 5-6)"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability (spell save DC 18, +10\
+      \ and using Intelligence as the spellcasting ability (spell save DC 18, dice:1d20+10|noform|noparens|text(+10)\
       \ to hit with spell attacks):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
       \ (the hand is Invisible)\n\n2/day each: [Nondetection](Інструменти%20ДМ\
       /CLI/spells/nondetection-xphb.md) (self only), [Plane Shift](Інструменти%20Д\
       М/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The githyanki casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
-      \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step (3/Day)"
 "bonus_actions":
-  - "desc": "The githyanki casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability (spell save DC 18, +10\
-      \ to hit with spell attacks):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
-      \ (the hand is Invisible)\n\n2/day each: [Nondetection](Інструменти%20ДМ\
-      /CLI/spells/nondetection-xphb.md) (self only), [Plane Shift](Інструменти%20Д\
-      М/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The githyanki casts [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md),\
       \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
     "name": "Misty Step (3/Day)"

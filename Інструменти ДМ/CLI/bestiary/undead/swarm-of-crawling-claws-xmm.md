@@ -69,11 +69,12 @@ Crawling claws are severed hands that move and act of their own murderous accord
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic\
-      \ damage, or 11 (2d8 + 2) Necrotic damage if the swarm is [Bloodied](Інстр\
-      ументи%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md). If the target is a Medium\
-      \ or smaller creature, it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:4d8+2|noform|noparens|avg|text(20) (4d8 + 2) Necrotic\
+      \ damage, or dice:2d8+2|noform|noparens|avg|text(11) (2d8 + 2) Necrotic\
+      \ damage if the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied).\
+      \ If the target is a Medium or smaller creature, it has the [Prone](Інструме\
+      нти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Swarm of Grasping Hands"
 "source":
   - "XMM"

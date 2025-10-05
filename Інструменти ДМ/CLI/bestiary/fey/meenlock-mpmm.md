@@ -25,7 +25,7 @@ A meenlock can supernaturally sense areas of darkness and shadow in its vicinity
 
 ## Telepathic Torment
 
-Up to four meenlocks can telepathically torment one [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) creature, filling its mind with disturbing sounds and dreadful imagery. Participating meenlocks can't use their telepathy for any other purpose during this time, though they can move about and take actions and reactions as normal. This torment has no effect on a creature that is immune to the [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition. If the creature is susceptible and remains [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) for 1 hour, the creature must make a Wisdom saving throw, taking 10 (`3d6`) psychic damage on a failed save, or half as much damage on a successful one. The save DC is 10 + the number of meenlocks participating in the torment, considering only those that remain within sight of the victim for the entire hour and aren't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) during it. The process can be repeated. A Humanoid that drops to 0 hit points as a result of this damage instantly transforms into a meenlock at full health and under the DM's control. Only a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell or divine intervention can restore a transformed creature to its former state.
+Up to four meenlocks can telepathically torment one [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) creature, filling its mind with disturbing sounds and dreadful imagery. Participating meenlocks can't use their telepathy for any other purpose during this time, though they can move about and take actions and reactions as normal. This torment has no effect on a creature that is immune to the [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition. If the creature is susceptible and remains [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) for 1 hour, the creature must make a Wisdom saving throw, taking `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) psychic damage on a failed save, or half as much damage on a successful one. The save DC is 10 + the number of meenlocks participating in the torment, considering only those that remain within sight of the victim for the entire hour and aren't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) during it. The process can be repeated. A Humanoid that drops to 0 hit points as a result of this damage instantly transforms into a meenlock at full health and under the DM's control. Only a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell or divine intervention can restore a transformed creature to its former state.
 
 ```statblock
 "name": "Meenlock (MPMM)"
@@ -67,8 +67,9 @@ Up to four meenlocks can telepathically torment one [incapacitated](Інстру
       \ checks that rely on sight."
     "name": "Light Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (2d4 + 2) slashing damage, and the target must succeed on a DC 11 Constitution\
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4\
+      \ + 2) slashing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."

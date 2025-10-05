@@ -36,8 +36,8 @@ Sildar Hallwinter is a retired soldier and sellsword who hails from the city of 
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "strength": "+3"
-  - "constitution": "+3"
+  - "strength": !!int "3"
+  - "constitution": !!int "3"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -47,16 +47,19 @@ Sildar Hallwinter is a retired soldier and sellsword who hails from the city of 
 "actions":
   - "desc": "Sildar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d8 + 1) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
+      \ + 1) slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+2|noform|noparens|text(+2) to hit,\
+      \ range 100/400 ft., one target. Hit: dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) piercing damage."
     "name": "Heavy Crossbow"
 "reactions":
   - "desc": "When an attacker hits Sildar with a melee attack and Sildar can see the\
-      \ attacker, he can roll d6 and add the number rolled to his AC against the\
-      \ triggering attack, provided that he's wielding a melee weapon."
+      \ attacker, he can roll dice:1d6|noform|noparens|avg (d6) and add the number\
+      \ rolled to his AC against the triggering attack, provided that he's wielding\
+      \ a melee weapon."
     "name": "Parry"
 "source":
   - "LMoP"

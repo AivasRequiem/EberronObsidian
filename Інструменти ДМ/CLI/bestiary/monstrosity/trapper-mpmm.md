@@ -60,12 +60,13 @@ A trapper needs to eat a [halfling](Інструменти%20ДМ/CLI/races/half
 "actions":
   - "desc": "One Large or smaller creature within 10 feet of the trapper must succeed\
       \ on a DC 13 Dexterity saving throw or be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ (escape DC 14). Until the grapple ends, the target takes 13 (3d6 + 3) bludgeoning\
-      \ damage plus 3 (d6) acid damage at the start of each of its turns. While\
-      \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) in this way,\
-      \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
-      \ [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded), and deprived\
-      \ of air. The trapper can smother only one creature at a time."
+      \ (escape DC 14). Until the grapple ends, the target takes dice:3d6+3|noform|noparens|avg|text(13)\
+      \ (3d6 + 3) bludgeoning damage plus dice:1d6|noform|noparens|avg|text(3)\
+      \ (d6) acid damage at the start of each of its turns. While [grappled](Інс\
+      трументи%20ДМ/CLI/rules/conditions.md#Grappled) in this way, the target is [restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained), [blinded](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Blinded), and deprived of air. The trapper can smother\
+      \ only one creature at a time."
     "name": "Smother"
 "source":
   - "MPMM"

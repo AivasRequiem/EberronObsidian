@@ -29,7 +29,7 @@ Beings of magic and machinery, modrons embody absolute law. These inhabitants of
 
 Modrons are parts of a vast hierarchy, spanning from quirky monodrones to the leader of their kind, the godlike Primus. Every modron carries out tasks assigned to it by higher-ranking modrons, doing so without question. Generally, modrons communicate only with other modrons of their own rank or the ranks immediately above and below them. Those more than one rank away tend to be either too advanced or too simple for them to understand.
 
-Modrons excel at tasks that require patience and precision, but they have little understanding of nonliteral concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
+Modrons excel at tasks that require patience and precision, but they have little understanding of non-literal concepts such as art or humor. They have no egos; they have only their work and the certainty that multiversal law depends on their efficacy.
 
 In rare cases, a modron goes rogue and develops its own will. In these cases, other modrons are sent to recover or destroy their malfunctioning kin.
 
@@ -86,9 +86,10 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes three Clockwork Spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 120 ft. Hit:\
-      \ 4 (1d6 + 1) Force damage. Hit or Miss: The spear magically returns to\
-      \ the modron's hand immediately after a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+3|noform|noparens|text(+3),\
+      \ reach 5 ft. or range 120 ft. Hit: dice:1d6+1|noform|noparens|avg|text(4)\
+      \ (1d6 + 1) Force damage. Hit or Miss: The spear magically returns to the\
+      \ modron's hand immediately after a ranged attack."
     "name": "Clockwork Spear"
 "source":
   - "XMM"

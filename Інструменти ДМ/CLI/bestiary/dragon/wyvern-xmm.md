@@ -55,13 +55,15 @@ Once wyverns overpower a quarry, they carry it to their cavernous lairs to eithe
 "actions":
   - "desc": "The wyvern makes one Bite attack and one Sting attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
-      \ damage plus 24 (7d6) Poison damage, and the target has the [Poisoned](Ін\
-      струменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
-      \ the wyvern's next turn."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
+      \ damage plus dice:7d6|noform|noparens|avg|text(24) (7d6) Poison damage,\
+      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the start of the wyvern's next turn."
     "name": "Sting"
 "source":
   - "XMM"

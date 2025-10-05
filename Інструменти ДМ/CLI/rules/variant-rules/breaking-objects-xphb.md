@@ -36,10 +36,10 @@ An object is destroyed when it has 0 Hit Points. The Object Hit Points table sug
 
 | Size | Fragile | Resilient |
 |------|---------|-----------|
-| Tiny (bottle, lock) | 2 (`d4`) | 5 (`2d4`) |
-| Small (chest, lute) | 3 (`d6`) | 10 (`3d6`) |
-| Medium (barrel, chandelier) | 4 (`d8`) | 18 (`4d8`) |
-| Large (cart, dining table) | 5 (`d10`) | 27 (`5d10`) |
+| Tiny (bottle, lock) | 2 (`dice:1d4\|noform\|noparens\|avg` (`d4`)) | 5 (`dice:2d4\|noform\|noparens\|avg` (`2d4`)) |
+| Small (chest, lute) | 3 (`dice:1d6\|noform\|noparens\|avg` (`d6`)) | 10 (`dice:3d6\|noform\|noparens\|avg` (`3d6`)) |
+| Medium (barrel, chandelier) | 4 (`dice:1d8\|noform\|noparens\|avg` (`d8`)) | 18 (`dice:4d8\|noform\|noparens\|avg` (`4d8`)) |
+| Large (cart, dining table) | 5 (`dice:1d10\|noform\|noparens\|avg` (`d10`)) | 27 (`dice:5d10\|noform\|noparens\|avg` (`5d10`)) |
 ^object-hit-points
 
 ## Damage Types and Objects

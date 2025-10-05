@@ -16,7 +16,7 @@ aliases:
 # [Kuo-toa Whip](Інструменти ДМ\CLI\bestiary\aberration/kuo-toa-whip-xmm.md)
 *Source: Monster Manual (2024) p. 190*  
 
-The servants of kuo-toa archpriests, kuo-toa whips—so named for their role in enforcing order among other kuo-toa—lead war bands in carrying out the commands of their superiors. In return for their zeal, these kuo-toa are granted minor magical abilities and pincerlike weapons for subduing foes. In battle, whips drive on other kuo-toa with threats of violence and burbling chants.
+The servants of kuo-toa archpriests, kuo-toa whips—so named for their role in enforcing order among other kuo-toa—lead war bands in carrying out the commands of their superiors. In return for their zeal, these kuo-toa are granted minor magical abilities and pincer-like weapons for subduing foes. In battle, whips drive on other kuo-toa with threats of violence and burbling chants.
 
 ## Kuo-toa
 
@@ -112,12 +112,14 @@ Kuo-toa typically organize their communities around sites they believe to be imp
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Piercing\
-      \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12).\
-      \ Until the grapple ends, the kuo-toa can't make Pincer Staff attacks."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 10\
+      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Piercing damage.\
+      \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12). Until\
+      \ the grapple ends, the kuo-toa can't make Pincer Staff attacks."
     "name": "Pincer Staff"
-  - "desc": "Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 60\
+      \ ft. Hit: dice:3d4+2|noform|noparens|avg|text(9) (3d4 + 2) Acid damage."
     "name": "Conjure Slimy Glob"
 "bonus_actions":
   - "desc": "The kuo-toa casts [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md),\

@@ -7,7 +7,7 @@ aliases:
 - Weapon Mastery Properties
 ---
 # Weapon Mastery Properties
-*Source: Player's Handbook (2024) p. 214* 
+*Source: Player's Handbook (2024) p. 214. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)* 
 
 Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below.
 

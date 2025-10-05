@@ -9,18 +9,15 @@ aliases:
 ---
 # Athlete
 *Source: Player's Handbook (2024) p. 202*  
+
 **Prerequisite**: 4th; Strength 13 or higher or 4th; Dexterity 13 or higher
-**Ability Score Increase**: Increase your Strength or Dexterity by 1, to a maximum of 20.
+
 You gain the following benefits.
 
-## Climb Speed
+**Ability Score Increase.** Increase your Strength or Dexterity by 1, to a maximum of 20.
 
-You gain a Climb Speed equal to your Speed.
+**Climb Speed.** You gain a Climb Speed equal to your Speed.
 
-## Hop Up
+**Hop Up.** When you have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, you can right yourself with only 5 feet of movement.
 
-When you have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, you can right yourself with only 5 feet of movement.
-
-## Jumping
-
-You can make a running Long or High Jump after moving only 5 feet.
+**Jumping.** You can make a running Long or High Jump after moving only 5 feet.

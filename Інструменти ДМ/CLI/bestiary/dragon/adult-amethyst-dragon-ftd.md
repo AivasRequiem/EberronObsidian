@@ -56,10 +56,10 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
   - !!int "21"
 "speed": "40 ft., fly 80 ft. (hover), swim 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+12"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -83,15 +83,18 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 18 (2d10 + 7) piercing damage plus 9 (2d8) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d10+7|noform|noparens|avg|text(18)\
+      \ (2d10 + 7) piercing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8)\
+      \ force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (1d8 + 7) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+12|noform|noparens|text(+12) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d8+7|noform|noparens|avg|text(11)\
+      \ (1d8 + 7) slashing damage."
     "name": "Claw"
   - "desc": "The dragon creates a shining bead of gravitational force in its mouth,\
       \ then releases the energy in a 90-foot cone. Each creature in that area must\
-      \ make a DC 20 Strength saving throw. On a failed save, the creature takes 45\
+      \ make a DC 20 Strength saving throw. On a failed save, the creature takes dice:10d8|noform|noparens|avg|text(45)\
       \ (10d8) force damage, and its speed becomes 0 until the start of the dragon's\
       \ next turn. On a successful save, the creature takes half as much damage, and\
       \ its speed isn't reduced."
@@ -120,8 +123,8 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
     "name": "Psionics (Costs 2 Actions)"
   - "desc": "The dragon spits an amethyst that that explodes at a point it can see\
       \ within 60 feet of it. Each creature within a 20-foot-radius sphere centered\
-      \ on that point must succeed on a DC 20 Dexterity saving throw or take 13 (3d8)\
-      \ force damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
+      \ on that point must succeed on a DC 20 Dexterity saving throw or take dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) force damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Explosive Crystal (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
@@ -162,8 +165,9 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
       \ region.  "
     "name": ""
   - "desc": "If the dragon dies, the populations of aquatic life near the lair return\
-      \ to normal levels over the course of d10 days. The existing abundance of\
-      \ amethysts remains, but new crystals and geodes form at a normal rate."
+      \ to normal levels over the course of dice:1d10|noform|noparens|avg (d10)\
+      \ days. The existing abundance of amethysts remains, but new crystals and geodes\
+      \ form at a normal rate."
     "name": ""
 "source":
   - "FTD"

@@ -64,16 +64,18 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "traits":
   - "desc": "The mephit explodes when it dies. Dexterity Saving Throw: DC 11, each\
       \ creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: 7 (2d6) Fire damage. Success:\
-      \ Half damage."
+      \ originating from the mephit. Failure: dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) Fire damage. Success: Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d4+1|noform|noparens|avg|text(3) (1d4 + 1) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
     "name": "Claw"
   - "desc": "Dexterity Saving Throw: DC 11, each creature in a 15-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 7 (2d6) Fire damage. Success: Half damage."
+      \ dice:2d6|noform|noparens|avg|text(7) (2d6) Fire damage. Success: Half\
+      \ damage."
     "name": "Fire Breath (Recharge 6)"
 "source":
   - "XMM"

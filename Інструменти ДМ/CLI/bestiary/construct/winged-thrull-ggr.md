@@ -42,7 +42,7 @@ A thrull doesn't require air, food, drink, or sleep.
   - !!int "8"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
@@ -50,11 +50,13 @@ A thrull doesn't require air, food, drink, or sleep.
 "languages": "understands Common but can't speak"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (2d4 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d4+2|noform|noparens|avg|text(7) (2d4\
+      \ + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit:\
-      \ 5 (1d6 + 2) bludgeoning damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ range 20/60 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
+      \ (1d6 + 2) bludgeoning damage."
     "name": "Rock"
 "reactions":
   - "desc": "When a creature within 5 feet of the thrull is hit by an attack, the\

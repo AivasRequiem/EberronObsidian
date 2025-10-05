@@ -44,8 +44,8 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -57,29 +57,30 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
 "languages": "Common"
 "cr": "8"
 "traits":
-  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md),\
+  - "desc": "While [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
       \ the berserker has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on attack rolls and saving throws."
     "name": "Bloodied Frenzy"
 "actions":
   - "desc": "The berserker makes three attacks, using Greataxe or Javelin in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing\
-      \ damage, plus 10 (3d6) Thunder damage to the target or another creature within\
-      \ 5 feet of the target."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
+      \ damage, plus dice:3d6|noform|noparens|avg|text(10) (3d6) Thunder damage\
+      \ to the target or another creature within 5 feet of the target."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 18 (4d6 + 4) Piercing damage, and the target's [Speed](Інструмент\
-      и%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases by 5 feet until the\
-      \ start of the berserker's next turn."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+7|noform|noparens|text(+7),\
+      \ reach 5 ft. or range 30/120 ft. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
+      \ (4d6 + 4) Piercing damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ decreases by 5 feet until the start of the berserker's next turn."
     "name": "Javelin"
 "bonus_actions":
   - "desc": "Each ally within 30 feet of the berserker can take a [Reaction](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to move up to half the\
       \ ally's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) without\
-      \ provoking Opportunity Attacks. The berserker can also move up to half its\
-      \ [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) without provoking\
-      \ Opportunity Attacks."
+      \ provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
+      \ The berserker can also move up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Frenzied Rush"
 "source":
   - "XMM"

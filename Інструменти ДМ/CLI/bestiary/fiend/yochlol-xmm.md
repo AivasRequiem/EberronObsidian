@@ -48,10 +48,10 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
   - !!int "17"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "dexterity": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+11"
@@ -81,8 +81,9 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
       \ to cast [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md) or [Dominate Person](І\
       нструменти%20ДМ/CLI/spells/dominate-person-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +8, reach 10 ft. or range 120 ft. Hit:\
-      \ 25 (6d6 + 4) Acid damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+8|noform|noparens|text(+8),\
+      \ reach 10 ft. or range 120 ft. Hit: dice:6d6+4|noform|noparens|avg|text(25)\
+      \ (6d6 + 4) Acid damage."
     "name": "Caustic Lash"
   - "desc": "The yochlol casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\

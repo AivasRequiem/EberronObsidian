@@ -26,7 +26,7 @@ aliases:
 > <tr class="class-progression"><td class"level">5th</td><td class"pb">+3</td><td class"feature"></td></tr>
 > <tr class="class-progression"><td class"level">6th</td><td class"pb">+3</td><td class"feature"><a href='#Steps of Night (Level 6)' class='internal-link'>Steps of Night</a></td></tr>
 > <tr class="class-progression"><td class"level">7th</td><td class"pb">+3</td><td class"feature"></td></tr>
-> <tr class="class-progression"><td class"level">8th</td><td class"pb">+3</td><td class"feature"><a href='#Divine Strike (Level 8)' class='internal-link'>Divine Strike</a>, <a href='#Blessed Strikes (Level 8)' class='internal-link'>Blessed Strikes</a></td></tr>
+> <tr class="class-progression"><td class"level">8th</td><td class"pb">+3</td><td class"feature"></td></tr>
 > <tr class="class-progression"><td class"level">9th</td><td class"pb">+4</td><td class"feature"></td></tr>
 > <tr class="class-progression"><td class"level">10th</td><td class"pb">+4</td><td class"feature"></td></tr>
 > <tr class="class-progression"><td class"level">11th</td><td class"pb">+4</td><td class"feature"></td></tr>
@@ -115,7 +115,7 @@ You can use your Channel Divinity to refresh your allies with soothing twilight.
 
 As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:
 
-- You grant it temporary hit points equal to `d6` plus your cleric level.  
+- You grant it temporary hit points equal to `dice:1d6|noform|noparens|avg` (`d6`) plus your cleric level.  
 - You end one effect on it causing it to be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).  
 
 ### Steps of Night (Level 6)
@@ -123,18 +123,6 @@ As an action, you present your holy symbol, and a sphere of twilight emanates fr
 *6th-level Twilight Domain feature*
 
 You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
-
-### Divine Strike (Level 8)
-
-*8th-level Twilight Domain feature*
-
-You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` radiant damage. When you reach 14th level, the extra damage increases to `2d8`.
-
-### Blessed Strikes (Level 8)
-
-*8th-level cleric [optional feature](Інструменти%20ДМ/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
-
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Twilight Shroud (Level 17)
 

@@ -46,7 +46,8 @@ aliases:
 "reactions":
   - "desc": "Trigger: The spirit takes damage from a creature. _Response:_ The spirit\
       \ makes a Slam attack against that creature if possible, or the spirit moves\
-      \ up to half its Speed toward that creature without provoking Opportunity Attacks."
+      \ up to half its Speed toward that creature without provoking [Opportunity Attacks](І\
+      нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)."
     "name": "Berserk Lashing"
 "source":
   - "XPHB"

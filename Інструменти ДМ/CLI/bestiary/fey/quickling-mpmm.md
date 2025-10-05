@@ -68,8 +68,9 @@ Tricks of that sort are hardly the limit of quicklings' artful malice, however. 
 "actions":
   - "desc": "The quickling makes three Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 8 (1d4 + 6) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+8|noform|noparens|text(+8)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+6|noform|noparens|avg|text(8)\
+      \ (1d4 + 6) piercing damage."
     "name": "Dagger"
 "source":
   - "MPMM"

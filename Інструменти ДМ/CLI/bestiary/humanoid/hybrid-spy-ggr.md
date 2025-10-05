@@ -54,8 +54,9 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "actions":
   - "desc": "The hybrid makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage."
     "name": "Shortsword"
 "source":
   - "GGR"

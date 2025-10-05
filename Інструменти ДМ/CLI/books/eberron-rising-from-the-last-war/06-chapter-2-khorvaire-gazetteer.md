@@ -73,7 +73,7 @@ Apprentices come from all over Khorvaire to train at Arcanix. If you're a wizard
 
 The capital of Aundair is one of the most beautiful cities in Eberron. Stunning displays of magical light and other arcane wonders enhance the exquisite architecture. This is the seat of the University of Wynarn, a prestigious institution that draws students from across Khorvaire. As a noble, entertainer, or sage, you might have your roots in the City of Lights.
 
-> [!readaloud] The Korranberg Chronicle—wizard war brewing at arcanix?
+> [!readaloud] The Korranberg Chronicle—wizard war brewing at Arcanix?
 > 
 > Before the war, the Arcane Congress served all Galifar. The most promising students from across Khorvaire came to study at Arcanix, and students from Khorvaire, Cyre, and Aundair worked together to win honor in the Trials of the Ninefold Path. Known to students simply as the Nine, this contest pits students of the eight traditions against one another in a series of arcane challenges, along with a ninth bracket for those who have yet to select a tradition. Teamwork, independence, memorization, innovation—the Nine challenges competitors on many levels, and the finest wizards of Galifar were invariably champions of the Nine.
 > 
@@ -367,7 +367,7 @@ Known at various times as Greenholt, Newholt, or Kymar's Folly, this outpost has
 > 
 > *We're all going to die.* That thought echoed through my mind as the wagon carried us toward the Great Crag. The diplomats around me intended to speak with the Daughters of Sora Kell. All I could think about was the stories my grandmother used to tell me. *Sora Maenya can crush a giant with her bare hands. She can eat the whole creature and still be hungry. If you're bad, she'll come in the night and carry you away. She'll make a lantern of your skull and torment you until the end of time.* And she's the *least* frightening member of the Daughters of Sora Kell!
 > 
-> When I could set aside my sheer terror, I was learning a great deal about this strange nation. The Daughters invested power in warlords, each of whom rules a territory in their name. It's sort of like Karrnath, except each of the warlords of Droaam is a horrifying monster. We were traveling through the territory of the Prince of Bones, an ancient troll said to be too evil to die. We'd already passed through the domain of Queen Sheska the medusa, where even the trees are turning to stone. Harpies. Gargoyles. There's even a king of the kobolds. Our caravan was being protected by gnolls. Not protected *from* gnolls, protected *by* gnolls. I thought things couldn't get any stranger. I couldn't have been more wrong....
+> When I could set aside my sheer terror, I was learning a great deal about this strange nation. The Daughters invested power in warlords, each of whom rules a territory in their name. It's sort of like Karrnath, except each of the warlords of Droaam is a horrifying monster. We were traveling through the territory of the Prince of Bones, an ancient troll said to be too evil to die. We'd already passed through the domain of Queen Sheshka the medusa, where even the trees are turning to stone. Harpies. Gargoyles. There's even a king of the kobolds. Our caravan was being protected by gnolls. Not protected *from* gnolls, protected *by* gnolls. I thought things couldn't get any stranger. I couldn't have been more wrong....
 ^the-korranberg-chronicledescent-into-droaam-my-trail-to-terror
 
 **Capital**: The Great Crag

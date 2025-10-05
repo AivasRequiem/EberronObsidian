@@ -52,10 +52,10 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+6"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "strength": !!int "6"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -65,8 +65,9 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
 "actions":
   - "desc": "The gnoll makes two Abyssal Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 60 ft. Hit:\
-      \ 20 (5d6 + 3) Poison damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
+      \ reach 5 ft. or range 60 ft. Hit: dice:5d6+3|noform|noparens|avg|text(20)\
+      \ (5d6 + 3) Poison damage."
     "name": "Abyssal Strike"
   - "desc": "The gnoll conjures a 30-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
       \ of magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)\
@@ -74,16 +75,16 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
       \ or until the gnoll's [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\
       \ ends on it. This area is [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
       \ Dexterity Saving Throw: DC 14, any creature that starts its turn in this\
-      \ area or enters it for the first time on a turn. Failure: 28 (8d6) Necrotic\
-      \ damage, and the gnoll or a creature of its choice it can see gains 10 [Temporary\
-      \ Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).\
+      \ area or enters it for the first time on a turn. Failure: dice:8d6|noform|noparens|avg|text(28)\
+      \ (8d6) Necrotic damage, and the gnoll or a creature of its choice it can\
+      \ see gains 10 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).\
       \ Success: Half damage only."
     "name": "Hunger of Yeenoghu (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Immediately after dealing damage to a creature that is already [Bloodied](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md), the gnoll moves up\
-      \ to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
-      \ and it makes one Abyssal Strike attack."
+      нструменти%20ДМ/CLI/rules/conditions.md#Bloodied), the gnoll moves up to half\
+      \ its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md), and it\
+      \ makes one Abyssal Strike attack."
     "name": "Rampage (2/Day)"
 "source":
   - "XMM"

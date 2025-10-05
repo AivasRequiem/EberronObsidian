@@ -45,8 +45,8 @@ The wisest, most visionary angels are responsible for forming and implementing t
   - !!int "18"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)"
     "desc": "+3"
@@ -69,14 +69,17 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks. It also uses Battlefield Inspiration."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
-      \ two hands, plus 18 (4d8) radiant damage. If the target is within 5 feet\
-      \ of any of the angel's allies, the target takes an extra 2 (d4) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) slashing damage, or dice:1d10+3|noform|noparens|avg|text(8) (1d10\
+      \ + 3) slashing damage if used with two hands, plus dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) radiant damage. If the target is within 5 feet of any of the angel's\
+      \ allies, the target takes an extra dice:1d4|noform|noparens|avg|text(2) (d4)\
+      \ radiant damage."
     "name": "Longsword"
   - "desc": "The angel chooses up to three creatures it can see within 30 feet of\
-      \ it. Until the end of the angel's next turn, each target can add a d4 to\
-      \ its attack rolls and saving throws."
+      \ it. Until the end of the angel's next turn, each target can add a dice:d4|noform|noparens|avg\
+      \ (d4) to its attack rolls and saving throws."
     "name": "Battlefield Inspiration"
 "source":
   - "GGR"

@@ -20,7 +20,7 @@ aliases:
 | 31–40 | While attuned to the Artifact, you have Immunity to the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) and [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) conditions. |
 | 41–50 | While attuned to the Artifact, you have Resistance to one damage type of the DM's choice. |
 | 51–60 | While attuned to the Artifact, you can cast one cantrip (chosen by the DM) from it. |
-| 61–70 | While attuned to the Artifact, you can cast one level 1 spell (chosen by the DM) from it. After you cast the spell, roll `d6`. On a roll of 1–5, you can't cast it again in this way until the next dawn. |
+| 61–70 | While attuned to the Artifact, you can cast one level 1 spell (chosen by the DM) from it. After you cast the spell, roll `dice:1d6\|noform\|noparens\|avg` (`d6`). On a roll of 1–5, you can't cast it again in this way until the next dawn. |
 | 71–80 | As 61–70 above, except the spell is level 2. |
 | 81–90 | As 61–70 above, except the spell is level 3. |
 | 91–00 | While attuned to the Artifact, you gain a +1 bonus to Armor Class. |

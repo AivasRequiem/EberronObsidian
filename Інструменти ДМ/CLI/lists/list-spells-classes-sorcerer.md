@@ -19,7 +19,6 @@ aliases:
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB")
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB")
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") (\*)
-- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE")
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB")
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") (\*)
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
@@ -39,7 +38,6 @@ aliases:
 ## 1st Level
 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB")
-- [Chaos Bolt](Інструменти%20ДМ/CLI/spells/chaos-bolt-xge.md "XGE")
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB")
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB")
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB")
@@ -88,9 +86,9 @@ aliases:
 - [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md "XPHB")
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB")
 - [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md "XPHB")
-- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD")
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") (\*)
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
-- [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD")
+- [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD") (\*)
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB")
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
@@ -101,7 +99,7 @@ aliases:
 
 ## 3rd Level
 
-- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD")
+- [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") (\*)
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
 - [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md "XPHB")
 - [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md "XPHB")
@@ -137,7 +135,7 @@ aliases:
 - [Greater Invisibility](Інструменти%20ДМ/CLI/spells/greater-invisibility-xphb.md "XPHB")
 - [Ice Storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md "XPHB")
 - [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md "XPHB")
-- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD")
+- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD") (\*)
 - [Stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md "XPHB")
 - [Vitriolic Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md "XPHB")
 - [Wall of Fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md "XPHB")
@@ -153,7 +151,7 @@ aliases:
 - [Hold Monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md "XPHB")
 - [Insect Plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md "XPHB")
 - [Seeming](Інструменти%20ДМ/CLI/spells/seeming-xphb.md "XPHB")
-- [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB")
+- [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB") (\*)
 - [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md "XPHB")
 - [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md "XPHB")
 - [Teleportation Circle](Інструменти%20ДМ/CLI/spells/teleportation-circle-xphb.md "XPHB")
@@ -166,7 +164,7 @@ aliases:
 - [Circle of Death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md "XPHB")
 - [Disintegrate](Інструменти%20ДМ/CLI/spells/disintegrate-xphb.md "XPHB")
 - [Eyebite](Інструменти%20ДМ/CLI/spells/eyebite-xphb.md "XPHB")
-- [Fizban's Platinum Shield](Інструменти%20ДМ/CLI/spells/fizbans-platinum-shield-ftd.md "FTD")
+- [Fizban's Platinum Shield](Інструменти%20ДМ/CLI/spells/fizbans-platinum-shield-ftd.md "FTD") (\*)
 - [Flesh to Stone](Інструменти%20ДМ/CLI/spells/flesh-to-stone-xphb.md "XPHB") (\*)
 - [Globe of Invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md "XPHB")
 - [Mass Suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md "XPHB")
@@ -179,7 +177,7 @@ aliases:
 ## 7th Level
 
 - [Delayed Blast Fireball](Інструменти%20ДМ/CLI/spells/delayed-blast-fireball-xphb.md "XPHB")
-- [Draconic Transformation](Інструменти%20ДМ/CLI/spells/draconic-transformation-ftd.md "FTD")
+- [Draconic Transformation](Інструменти%20ДМ/CLI/spells/draconic-transformation-ftd.md "FTD") (\*)
 - [Dream of the Blue Veil](Інструменти%20ДМ/CLI/spells/dream-of-the-blue-veil-tce.md "TCE") (\*)
 - [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md "XPHB")
 - [Finger of Death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md "XPHB")

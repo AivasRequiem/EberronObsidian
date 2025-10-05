@@ -44,8 +44,8 @@ Balors embody demons' ruinous fury and hatred. Towering, winged terrors, these d
   - !!int "22"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "constitution": "+12"
-  - "wisdom": "+9"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+9"
@@ -60,15 +60,17 @@ Balors embody demons' ruinous fury and hatred. Towering, winged terrors, these d
 "traits":
   - "desc": "The balor explodes when it dies. Dexterity Saving Throw: DC 20, each\
       \ creature in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6)\
-      \ Force damage. Success: Half damage. Failure or Success: If the balor dies\
-      \ outside the Abyss, it gains a new body instantly, reviving with all its [Hit\
-      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
-      \ in the Abyss."
+      \ originating from the balor. Failure: dice:9d6|noform|noparens|avg|text(31)\
+      \ (9d6) Fire damage plus dice:9d6|noform|noparens|avg|text(31) (9d6) Force\
+      \ damage. Success: Half damage. Failure or Success: If the balor dies outside\
+      \ the Abyss, it gains a new body instantly, reviving with all its [Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere in the\
+      \ Abyss."
     "name": "Death Throes"
   - "desc": "At the end of each of the balor's turns, each creature in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the balor takes 13 (3d8) Fire damage."
+      \ from the balor takes dice:3d8|noform|noparens|avg|text(13) (3d8) Fire\
+      \ damage."
     "name": "Fire Aura"
   - "desc": "If the balor fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -78,14 +80,17 @@ Balors embody demons' ruinous fury and hatred. Towering, winged terrors, these d
 "actions":
   - "desc": "The balor makes one Flame Whip attack and one Lightning Blade attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 30 ft. Hit: 18 (3d6 + 8) Force\
-      \ damage plus 17 (5d6) Fire damage. If the target is a Huge or smaller creature,\
-      \ the balor pulls the target up to 25 feet straight toward itself, and the target\
-      \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 30 ft. Hit: dice:3d6+8|noform|noparens|avg|text(18) (3d6 + 8) Force\
+      \ damage plus dice:5d6|noform|noparens|avg|text(17) (5d6) Fire damage. If\
+      \ the target is a Huge or smaller creature, the balor pulls the target up to\
+      \ 25 feet straight toward itself, and the target has the [Prone](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Flame Whip"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 21 (3d8 + 8) Force\
-      \ damage plus 22 (4d10) Lightning damage, and the target can't take Reactions\
-      \ until the start of the balor's next turn."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:3d8+8|noform|noparens|avg|text(21) (3d8 + 8) Force\
+      \ damage plus dice:4d10|noform|noparens|avg|text(22) (4d10) Lightning damage,\
+      \ and the target can't take Reactions until the start of the balor's next turn."
     "name": "Lightning Blade"
 "bonus_actions":
   - "desc": "The balor teleports itself or a willing demon within 10 feet of itself\

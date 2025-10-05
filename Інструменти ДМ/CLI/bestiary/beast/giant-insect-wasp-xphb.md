@@ -40,8 +40,8 @@ aliases:
       \ (round down)."
     "name": "Multiattack"
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 10\
-      \ ft. Hit: 1d6 + 3 + the spell's level Piercing damage plus d4 Poison\
-      \ damage."
+      \ ft. Hit: 1d6 + 3 + the spell's level Piercing damage plus dice:1d4|noform|noparens|avg\
+      \ (d4) Poison damage."
     "name": "Poison Jab"
 "source":
   - "XPHB"

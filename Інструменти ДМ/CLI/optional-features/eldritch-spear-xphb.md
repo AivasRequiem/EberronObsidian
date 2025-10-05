@@ -9,7 +9,9 @@ aliases:
 ---
 # Eldritch Spear
 *Source: Player's Handbook (2024) p. 155. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
-**Prerequisite**: 2nd Warlock, a Warlock Cantrip That Deals Damage
+
+**Prerequisite**: Level 2, a Warlock Cantrip That Deals Damage
+
 Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.
 
 ## Repeatable

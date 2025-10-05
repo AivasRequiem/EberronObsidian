@@ -54,8 +54,8 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
   - !!int "22"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+6"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+8"
@@ -75,12 +75,14 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
       \ use of (A) Paralyzing Breath or (B) Spellcasting to cast [Ice Knife](Інстр\
       ументи%20ДМ/CLI/spells/ice-knife-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 17 (2d8 + 8) Slashing\
-      \ damage plus 4 (d8) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
+      \ 10 ft. Hit: dice:2d8+8|noform|noparens|avg|text(17) (2d8 + 8) Slashing\
+      \ damage plus dice:1d8|noform|noparens|avg|text(4) (d8) Cold damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 20, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 54 (12d8) Cold damage. Success: Half damage."
+      \ dice:12d8|noform|noparens|avg|text(54) (12d8) Cold damage. Success:\
+      \ Half damage."
     "name": "Cold Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 20, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). 1st Failure:\
@@ -91,12 +93,12 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
       \ the effect on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Paralyzing Breath"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 19, +11 to\
-      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Hold Monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md), [Ice Knife](І\
-      нструменти%20ДМ/CLI/spells/ice-knife-xphb.md), [Shapechange](Інструменти%20Д\
-      М/CLI/spells/shapechange-xphb.md) (Beast or Humanoid form only, no [Temporary\
-      \ Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 19, dice:1d20+11|noform|noparens|text(+11)\
+      \ to hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20Д\
+      М/CLI/spells/detect-magic-xphb.md), [Hold Monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md),\
+      \ [Ice Knife](Інструменти%20ДМ/CLI/spells/ice-knife-xphb.md), [Shapechange](І\
+      нструменти%20ДМ/CLI/spells/shapechange-xphb.md) (Beast or Humanoid form only,\
+      \ no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
       \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
       \ to maintain the spell)\n\n1/day each: [Ice Storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md)\
@@ -109,9 +111,10 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
     "name": "Chill"
   - "desc": "Dexterity Saving Throw: DC 19, each creature in a 60-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet\
-      \ straight away from the dragon. Success: Half damage only. Failure or Success:\
-      \ The dragon can't take this action again until the start of its next turn."
+      \ Failure: dice:4d6|noform|noparens|avg|text(14) (4d6) Cold damage, and\
+      \ the target is pushed up to 30 feet straight away from the dragon. Success:\
+      \ Half damage only. Failure or Success: The dragon can't take this action\
+      \ again until the start of its next turn."
     "name": "Cold Gale"
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."

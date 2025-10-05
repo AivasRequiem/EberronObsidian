@@ -109,8 +109,8 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
   - !!int "22"
 "speed": "60 ft., fly 60 ft. (hover), swim 60 ft."
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+12"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+13"
@@ -142,10 +142,10 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
       \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition.  \n- Fearful (Hunter Only). The target has the [Frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end\
-      \ of its next turn.  \n- Mired (Sage Only). The target takes 10 (3d6)\
-      \ Psychic damage, and the target is magically bewildered until the end of its\
-      \ next turn. While bewildered, the target subtracts d4 from its saving throws.\
-      \  "
+      \ of its next turn.  \n- Mired (Sage Only). The target takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Psychic damage, and the target is magically bewildered until the end\
+      \ of its next turn. While bewildered, the target subtracts dice:1d4|noform|noparens|avg\
+      \ (d4) from its saving throws.  "
     "name": "Lordly Presence"
   - "desc": "The animal lord has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
@@ -154,20 +154,22 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
   - "desc": "The animal lord makes two attacks, using Rend or Radiant Ray in any combination,\
       \ and uses Animal Spirit."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 14 (2d6 + 7) Slashing\
-      \ damage plus 7 (2d6) Force damage."
+  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
+      \ 5 ft. Hit: dice:2d6+7|noform|noparens|avg|text(14) (2d6 + 7) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Force damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: +12, range 120 ft. Hit: 20 (4d6 + 6) Radiant\
+  - "desc": "Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12), range\
+      \ 120 ft. Hit: dice:4d6+6|noform|noparens|avg|text(20) (4d6 + 6) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The animal lord conjures an animal spirit that strikes at a creature\
       \ and then disappears. Dexterity Saving Throw: DC 20, one creature the animal\
-      \ lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success:\
-      \ Half damage. Failure or Success: One of the following effects occurs:\n\n\
-      - Fortify (Forager Only). The animal lord gains 20 [Temporary Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).  \n-\
-      \ Marked as Prey (Hunter Only). The animal lord has [Advantage](Інструме\
-      нти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on attack rolls against\
+      \ lord can see within 120 feet. Failure: dice:4d10+6|noform|noparens|avg|text(28)\
+      \ (4d10 + 6) Radiant damage. Success: Half damage. Failure or Success:\
+      \ One of the following effects occurs:\n\n- Fortify (Forager Only). The\
+      \ animal lord gains 20 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).\
+      \  \n- Marked as Prey (Hunter Only). The animal lord has [Advantage](Інс\
+      трументи%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on attack rolls against\
       \ the target until the start of the animal lord's next turn.  \n- Pesky Swarm\
       \ (Sage Only). The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls and ability checks until the end of its next turn.  "
@@ -190,7 +192,8 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
     "name": "Shape-Shift"
 "legendary_actions":
   - "desc": "The animal lord moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ without provoking Opportunity Attacks, and it makes one Rend attack."
+      \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack),\
+      \ and it makes one Rend attack."
     "name": "Feral Strike"
   - "desc": "The animal lord makes one Radiant Ray attack."
     "name": "Radiant Strike"

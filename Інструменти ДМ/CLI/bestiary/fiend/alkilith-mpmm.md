@@ -42,8 +42,8 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
   - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+10"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "10"
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
@@ -58,8 +58,8 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
 "cr": "11"
 "traits":
   - "desc": "If the alkilith surrounds a door, window, or similar opening continuously\
-      \ for 6d6 days, the opening becomes a permanent portal to a random layer of\
-      \ the Abyss."
+      \ for dice:6d6|noform|noparens|avg (6d6) days, the opening becomes a permanent\
+      \ portal to a random layer of the Abyss."
     "name": "Abyssal Rift"
   - "desc": "The alkilith can move through a space as narrow as 1 inch wide without\
       \ squeezing."
@@ -91,8 +91,9 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
 "actions":
   - "desc": "The alkilith makes three Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
-      \ 18 (4d6 + 4) acid damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 15 ft., one target. Hit: dice:4d6+4|noform|noparens|avg|text(18)\
+      \ (4d6 + 4) acid damage."
     "name": "Tentacle"
 "source":
   - "MPMM"

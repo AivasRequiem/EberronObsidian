@@ -44,9 +44,9 @@ Screeching, vulturelike demons, vrocks soar from the Abyss to spread ruin and sl
   - !!int "8"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+2"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "2"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
@@ -64,23 +64,25 @@ Screeching, vulturelike demons, vrocks soar from the Abyss to spread ruin and sl
 "actions":
   - "desc": "The vrock makes two Shred attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
-      \ damage plus 10 (3d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Piercing\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Poison damage."
     "name": "Shred"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 20-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
       \ from the vrock. Failure: The target has the [Poisoned](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Poisoned) condition and repeats the save at the end\
       \ of each of its turns, ending the effect on itself on a success. While [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target takes 5 (d10)\
-      \ Poison damage at the start of each of its turns. Emptying a flask of Holy\
-      \ Water on the target ends the effect early."
+      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target takes dice:1d10|noform|noparens|avg|text(5)\
+      \ (d10) Poison damage at the start of each of its turns. Emptying a flask\
+      \ of Holy Water on the target ends the effect early."
     "name": "Spores (Recharge 6)"
   - "desc": "Constitution Saving Throw: DC 15, each creature in a 20-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder\
-      \ damage, and the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ condition until the end of the vrock's next turn."
+      \ from the vrock (demons succeed automatically). Failure: dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Thunder damage, and the target has the [Stunned](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Stunned) condition until the end of the vrock's next\
+      \ turn."
     "name": "Stunning Screech (1/Day)"
 "source":
   - "XMM"

@@ -25,7 +25,7 @@ The artifact has the following random properties, which you can determine by rol
 
 ## Spells
 
-The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [aura of life](Інструменти%20ДМ/CLI/spells/aura-of-life-xphb.md) (2 charges), [aura of purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md) (2 charges), [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md) (1 charge), [beacon of hope](Інструменти%20ДМ/CLI/spells/beacon-of-hope-xphb.md) (1 charge), [mass cure wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md) (3 charges). The crook regains `d6` expended charges daily at dawn.
+The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [aura of life](Інструменти%20ДМ/CLI/spells/aura-of-life-xphb.md) (2 charges), [aura of purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md) (2 charges), [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md) (1 charge), [beacon of hope](Інструменти%20ДМ/CLI/spells/beacon-of-hope-xphb.md) (1 charge), [mass cure wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md) (3 charges). The crook regains `dice:1d6|noform|noparens|avg` (`d6`) expended charges daily at dawn.
 
 ## Absolute Banishment
 
@@ -46,9 +46,9 @@ When the Crook was last used against Iggwilv, the Witch Queen lashed out at the 
 | dice: d100 | Effect |
 |------------|--------|
 | 1-25 | A portal to a random plane opens. The portal closes after 5 minutes. |
-| 26-45 | `2d4` [imps](Інструменти%20ДМ/CLI/bestiary/fiend/imp-xmm.md) and `2d4` [quasits](Інструменти%20ДМ/CLI/bestiary/fiend/quasit-xmm.md) appear. |
-| 46-60 | `d8` [succubi](Інструменти%20ДМ/CLI/bestiary/fiend/succubus-xmm.md)/[incubi](Інструменти%20ДМ/CLI/bestiary/fiend/incubus-xmm.md) appear. |
-| 61-70 | `d10` [barbed devils](Інструменти%20ДМ/CLI/bestiary/fiend/barbed-devil-xmm.md) and `d10` [vrocks](Інструменти%20ДМ/CLI/bestiary/fiend/vrock-xmm.md) appear. |
+| 26-45 | `dice:2d4\|noform\|noparens\|avg` (`2d4`) [imps](Інструменти%20ДМ/CLI/bestiary/fiend/imp-xmm.md) and `dice:2d4\|noform\|noparens\|avg` (`2d4`) [quasits](Інструменти%20ДМ/CLI/bestiary/fiend/quasit-xmm.md) appear. |
+| 46-60 | `dice:1d8\|noform\|noparens\|avg` (`d8`) [succubi](Інструменти%20ДМ/CLI/bestiary/fiend/succubus-xmm.md)/[incubi](Інструменти%20ДМ/CLI/bestiary/fiend/incubus-xmm.md) appear. |
+| 61-70 | `dice:1d10\|noform\|noparens\|avg` (`d10`) [barbed devils](Інструменти%20ДМ/CLI/bestiary/fiend/barbed-devil-xmm.md) and `dice:1d10\|noform\|noparens\|avg` (`d10`) [vrocks](Інструменти%20ДМ/CLI/bestiary/fiend/vrock-xmm.md) appear. |
 | 71-80 | 1 [arcanaloth](Інструменти%20ДМ/CLI/bestiary/fiend/arcanaloth-xmm.md), 1 [night hag](Інструменти%20ДМ/CLI/bestiary/fiend/night-hag-xmm.md), and 1 [rakshasa](Інструменти%20ДМ/CLI/bestiary/fiend/rakshasa-xmm.md) appear. |
 | 81-85 | 1 [ice devil](Інструменти%20ДМ/CLI/bestiary/fiend/ice-devil-xmm.md) and 1 [marilith](Інструменти%20ДМ/CLI/bestiary/fiend/marilith-xmm.md) appear. |
 | 86-90 | 1 [balor](Інструменти%20ДМ/CLI/bestiary/fiend/balor-xmm.md) and 1 [pit fiend](Інструменти%20ДМ/CLI/bestiary/fiend/pit-fiend-xmm.md) appear. At the DM's discretion, a portal opens into the presence of an archdevil or demon lord instead, then closes after 5 minutes. |

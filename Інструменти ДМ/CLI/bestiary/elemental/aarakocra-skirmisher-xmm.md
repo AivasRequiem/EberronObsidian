@@ -52,14 +52,17 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
 "languages": "Aarakocra, Primordial (Auran)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
-      \ damage, or 9 (3d4 + 2) Slashing damage if the aarakocra moved 30+ feet straight\
-      \ toward the target immediately before the hit."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Slashing damage,\
+      \ or dice:3d4+2|noform|noparens|avg|text(9) (3d4 + 2) Slashing damage if\
+      \ the aarakocra moved 30+ feet straight toward the target immediately before\
+      \ the hit."
     "name": "Talons"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 5 (1d6 + 2) Piercing damage plus 2 (d4) Thunder damage. Hit or\
-      \ Miss: The javelin magically returns to the aarakocra's hand immediately after\
-      \ a ranged attack."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4),\
+      \ reach 5 ft. or range 30/120 ft. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
+      \ (1d6 + 2) Piercing damage plus dice:1d4|noform|noparens|avg|text(2) (d4)\
+      \ Thunder damage. Hit or Miss: The javelin magically returns to the aarakocra's\
+      \ hand immediately after a ranged attack."
     "name": "Wind Javelin"
 "source":
   - "XMM"

@@ -66,16 +66,18 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "traits":
   - "desc": "The mephit explodes when it dies. Constitution Saving Throw: DC 10,\
       \ each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: 5 (2d4) Cold damage. Success:\
-      \ Half damage."
+      \ originating from the mephit. Failure: dice:2d4|noform|noparens|avg|text(5)\
+      \ (2d4) Cold damage. Success: Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing\
-      \ damage plus 2 (d4) Cold damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d4+1|noform|noparens|avg|text(3) (1d4 + 1) Slashing damage\
+      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Cold damage."
     "name": "Claw"
   - "desc": "Constitution Saving Throw: DC 10, each creature in a 15-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 7 (3d4) Cold damage. Success: Half damage."
+      \ dice:3d4|noform|noparens|avg|text(7) (3d4) Cold damage. Success: Half\
+      \ damage."
     "name": "Frost Breath (Recharge 6)"
   - "desc": "The mephit casts [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md),\
       \ requiring no spell components and using Charisma as the spellcasting ability.\n"

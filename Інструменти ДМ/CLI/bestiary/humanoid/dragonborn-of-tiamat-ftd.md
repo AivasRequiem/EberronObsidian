@@ -39,10 +39,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+7"
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "strength": !!int "8"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -60,17 +60,20 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes two Greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
-      \ (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d12+5|noform|noparens|avg|text(11)\
+      \ (1d12 + 5) slashing damage plus dice:3d8|noform|noparens|avg|text(13)\
+      \ (3d8) necrotic damage."
     "name": "Greataxe"
   - "desc": "The dragonborn exhales shadowy fire in a 30-foot cone. Each creature\
       \ in that area must make a DC 15 Wisdom saving throw. On a failed save, the\
-      \ creature takes 36 (8d8) necrotic damage and is [frightened](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Frightened) of the dragonborn for 1 minute. On\
-      \ a successful save, the creature takes half as much damage and isn't [frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened). A [frightened](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Frightened) creature can repeat the saving\
-      \ throw at end of each of its turns, ending the effect on itself on a success."
+      \ creature takes dice:8d8|noform|noparens|avg|text(36) (8d8) necrotic damage\
+      \ and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) of\
+      \ the dragonborn for 1 minute. On a successful save, the creature takes half\
+      \ as much damage and isn't [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).\
+      \ A [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) creature\
+      \ can repeat the saving throw at end of each of its turns, ending the effect\
+      \ on itself on a success."
     "name": "Necrotic Breath (Recharge 6)"
 "source":
   - "FTD"

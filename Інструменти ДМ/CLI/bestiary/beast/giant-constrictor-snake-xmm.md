@@ -48,13 +48,14 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The snake makes one Bite attack and uses Constrict."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 10\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "Strength Saving Throw: DC 14, one Large or smaller creature the snake\
-      \ can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and\
-      \ the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ condition (escape DC 14)."
+      \ can see within 10 feet. Failure: dice:2d8+4|noform|noparens|avg|text(13)\
+      \ (2d8 + 4) Bludgeoning damage, and the target has the [Grappled](Інструме\
+      нти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14)."
     "name": "Constrict"
 "source":
   - "XMM"

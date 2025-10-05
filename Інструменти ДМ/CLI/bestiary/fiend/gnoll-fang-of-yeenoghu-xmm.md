@@ -52,28 +52,29 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
-  - "charisma": "+3"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "3"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Abyssal, Gnoll"
 "cr": "4"
 "actions":
   - "desc": "The gnoll makes one Bite attack and two Bone Flail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
-      \ damage plus 7 (2d6) Poison damage, and the target has the [Poisoned](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
-      \ the gnoll's next turn."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Piercing damage\
+      \ plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage, and the\
+      \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the start of the gnoll's next turn."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 10\
+      \ ft. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8 + 3) Piercing damage."
     "name": "Bone Flail"
 "bonus_actions":
   - "desc": "Immediately after dealing damage to a creature that is already [Bloodied](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md), the gnoll moves up\
-      \ to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
-      \ and it makes one Bite attack."
+      нструменти%20ДМ/CLI/rules/conditions.md#Bloodied), the gnoll moves up to half\
+      \ its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md), and it\
+      \ makes one Bite attack."
     "name": "Rampage (2/Day)"
 "source":
   - "XMM"

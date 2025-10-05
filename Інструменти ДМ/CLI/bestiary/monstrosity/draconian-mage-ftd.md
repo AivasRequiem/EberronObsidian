@@ -45,16 +45,17 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+2"
-  - "wisdom": "+2"
-  - "charisma": "+4"
+  - "intelligence": !!int "2"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "4"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
 "traits":
   - "desc": "When the draconian is reduced to 0 hit points, its scales and flesh immediately\
       \ shrivel away and its bones explode. Each creature within 10 feet of it must\
-      \ succeed on a DC 10 Dexterity saving throw or take 9 (2d8) force damage."
+      \ succeed on a DC 10 Dexterity saving throw or take dice:2d8|noform|noparens|avg|text(9)\
+      \ (2d8) force damage."
     "name": "Death Throes"
   - "desc": "When the draconian falls and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
       \ it subtracts up to 100 feet from the fall when calculating the fall's damage,\
@@ -63,12 +64,14 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Trident or Necrotic Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
-      \ damage if used with two hands to make a melee attack."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
+      \ (1d6 + 2) piercing damage, or dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) piercing damage if used with two hands to make a melee attack."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
-      \ 10 (3d6) necrotic damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ range 60 ft., one target. Hit: dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ necrotic damage."
     "name": "Necrotic Ray"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\

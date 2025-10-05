@@ -101,7 +101,7 @@ You can also play D&D anywhere you might come together in an online space, from 
 
 ### Dice
 
-You need a full set of polyhedral dice: `d4`, `d6`, `d8`, `d10`, `d12`, and `d20`. It's helpful to have at least two of each kind. Ideally, each player should also have their own set of polyhedral dice.
+You need a full set of polyhedral dice: `dice:d4|noform|noparens|avg` (`d4`), `dice:d6|noform|noparens|avg` (`d6`), `dice:d8|noform|noparens|avg` (`d8`), `dice:d10|noform|noparens|avg` (`d10`), `dice:d12|noform|noparens|avg` (`d12`), and `dice:d20|noform|noparens|avg` (`d20`). It's helpful to have at least two of each kind. Ideally, each player should also have their own set of polyhedral dice.
 
 Lots of digital dice rollers exist. Simple, browser-based dice rollers are easily found on the internet. Specialized dice apps can be found in app stores, and virtual tabletops typically have dice-rolling functionality built in.
 
@@ -147,7 +147,7 @@ Some players and DMs find it helpful to have information available in the form o
 
 ## Preparing a Session
 
-The more you prepare before your game, the more smoothly the game will go—to a certain point. To avoid being either under- or overprepared, use the one-hour guideline below and prioritize what to prepare depending on the time you have available.
+The more you prepare before your game, the more smoothly the game will go—to a certain point. To avoid being either under- or over-prepared, use the one-hour guideline below and prioritize what to prepare depending on the time you have available.
 
 ### The One-Hour Guideline
 
@@ -355,7 +355,7 @@ The DM starts by asking the players to recap the action of the previous session,
 - **Maeve.** The shrub things need to make Dexterity saving throws. The DC is 14.  
 
 - **Jared.** And how much damage do they take?  
-- **Maeve.** *(Maeve rolls `3d6` for the spell's damage.)* 13 Fire damage if they fail the save, 6 if they succeed.  
+- **Maeve.** *(Maeve rolls `dice:3d6|noform|noparens|avg` (`3d6`) for the spell's damage.)* 13 Fire damage if they fail the save, 6 if they succeed.  
 - **Jared.** Magical fire tears through them and leaves smears of ash behind! Anything else, Mirabella?  
 
 - **Maeve.** My work here is done. *(She mimes blowing smoke away from her fingertips.)*  
@@ -396,7 +396,7 @@ Here are some questions that can help you define your unique style as a DM and t
 
 - **Hack and Slash or Immersive Roleplaying?.** Does the game focus on combat and action or on a rich story with detailed NPCs?  
 - **All Ages or Mature Themes?.** Is the game for all ages, or does it involve mature themes?  
-- **Gritty or Cinematic?.** Do you prefer gritty realism, or are you more focused on making the game feel cinematic and superheroic?  
+- **Gritty or Cinematic?.** Do you prefer gritty realism, or are you more focused on making the game feel cinematic and super-heroic?  
 - **Serious or Silly?.** Do you want to maintain a serious tone, or is humor your goal?  
 - **Preplanned or Improvised?.** Do you like to plan thoroughly, or do you prefer to improvise?  
 - **General or Thematic?.** Is the game a mixture of themes and genres, or does it center on a particular theme or a genre such as horror?  
@@ -488,7 +488,7 @@ Beyond the general themes and flavors of fantasy you're interested in exploring 
 
 DMs and players can have phobias or triggers that others might not be aware of. Any in-game topic or theme that makes a member of the gaming group feel unsafe (a hard limit) must be avoided. If a topic or theme makes one or more players nervous but they consent to include it in-game (a soft limit), incorporate it with care, if at all, and be ready to quickly veer away from it if needed.
 
-Common in-game limits apply to topics such as intraparty romance, sex, exploitation, racism, enslavement, and violence toward children and animals. Limits can also apply to certain creatures, such as spiders, snakes, rats, and demons. It's also important to discuss limits around what harm might befall characters, including mind-control magic, helplessness, and death.
+Common in-game limits apply to topics such as intra-party romance, sex, exploitation, racism, enslavement, and violence toward children and animals. Limits can also apply to certain creatures, such as spiders, snakes, rats, and demons. It's also important to discuss limits around what harm might befall characters, including mind-control magic, helplessness, and death.
 
 That said, D&D is a game that has in-world conflicts and mayhem. Certain core elements of the game are difficult to ignore. For example, taking damage isn't a limit you can work around easily. Similarly, character death is something that happens from time to time, though the game has ways to counteract or avoid it (see ""Death"" in "chapter 3" for suggestions).
 
@@ -610,7 +610,7 @@ If this behavior comes up in your game, it might be time to reopen the conversat
 
 ##### Evil Characters
 
-Players who want to play evil characters might be looking to carry out antisocial behavior in the game. If a player asks for permission to play an evil character or comes to the table with one already made, talk to that player about what they have in mind and make sure their plans square with the group's expectations for your game. Sometimes a player wants to explore playing an evil character for perfectly good (and nondisruptive) reasons, and sometimes a whole group decides it might be fun to play evil characters together. These are valid options, as long as everyone's on the same page about how the campaign will go.
+Players who want to play evil characters might be looking to carry out antisocial behavior in the game. If a player asks for permission to play an evil character or comes to the table with one already made, talk to that player about what they have in mind and make sure their plans square with the group's expectations for your game. Sometimes a player wants to explore playing an evil character for perfectly good (and non-disruptive) reasons, and sometimes a whole group decides it might be fun to play evil characters together. These are valid options, as long as everyone's on the same page about how the campaign will go.
 
 #### Players Exploiting the Rules
 

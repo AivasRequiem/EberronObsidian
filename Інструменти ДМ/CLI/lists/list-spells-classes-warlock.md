@@ -88,7 +88,7 @@ aliases:
 - [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB")
 - [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md "XPHB")
 - [Hallucinatory Terrain](Інструменти%20ДМ/CLI/spells/hallucinatory-terrain-xphb.md "XPHB")
-- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD")
+- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD") (\*)
 - [Summon Aberration](Інструменти%20ДМ/CLI/spells/summon-aberration-xphb.md "XPHB") (\*)
 
 ## 5th Level

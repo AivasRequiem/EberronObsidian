@@ -55,10 +55,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The swarm can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ if the target doesn't have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
-      \ reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing\
-      \ damage if the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5) (with [Advantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the target doesn't\
+      \ have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
+      \ reach 5 ft. Hit: dice:2d4+3|noform|noparens|avg|text(8) (2d4 + 3) Piercing\
+      \ damage, or dice:1d4+3|noform|noparens|avg|text(5) (1d4 + 3) Piercing damage\
+      \ if the swarm is [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Bites"
 "source":
   - "XMM"

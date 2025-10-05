@@ -380,7 +380,7 @@ The Dream Adventures table puts these principles together and suggests hooks int
 
 #### Dying in Dreams
 
-Death in dreams is less severe than in reality, but it's not without consequence. Of course, characters who are mere figments of a dreamer's imagination are simply removed from the dream. But a character dies while actually dreaming, the character receives no benefit from the rest and takes `3d6` psychic damage.
+Death in dreams is less severe than in reality, but it's not without consequence. Of course, characters who are mere figments of a dreamer's imagination are simply removed from the dream. But a character dies while actually dreaming, the character receives no benefit from the rest and takes `dice:3d6|noform|noparens|avg` (`3d6`) psychic damage.
 
 If you want to establish more severe consequences, you can. A dreamer killed by a quori could be trapped in Dal Quor while the quori possesses their body, forcing their allies to try to rescue them from their nightmares.
 

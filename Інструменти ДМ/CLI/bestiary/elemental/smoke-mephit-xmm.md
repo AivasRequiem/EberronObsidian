@@ -70,8 +70,8 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
       \ next turn."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Slashing damage."
     "name": "Claw"
   - "desc": "Dexterity Saving Throw: DC 11, one creature the mephit can see within\
       \ 15 feet. Failure: The target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\

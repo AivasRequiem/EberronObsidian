@@ -25,6 +25,6 @@ While holding the staff, you have a +1 bonus to your Armor Class.
 
 The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (1 charge) or [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) (2 charges). No components are required.
 
-The staff regains `1d6 + 4` expended charges each day at dawn. If you expend the staff's last charge, roll a `d20`. On a 1, the staff shatters and is destroyed.
+The staff regains `dice:1d6+4|noform|noparens|avg` (`1d6 + 4`) expended charges each day at dawn. If you expend the staff's last charge, roll a `dice:d20|noform|noparens|avg` (`d20`). On a 1, the staff shatters and is destroyed.
 
 *Source: Lost Mine of Phandelver p. 53*

@@ -53,7 +53,7 @@ A Champion focuses on the development of martial prowess in a relentless pursuit
 
 ### Improved Critical (Level 3)
 
-Your attack rolls with weapons and Unarmed Strikes can score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `d20`.
+Your attack rolls with weapons and Unarmed Strikes can score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `dice:d20|noform|noparens|avg` (`d20`).
 
 ### Remarkable Athlete (Level 3)
 
@@ -71,7 +71,7 @@ The thrill of battle drives you toward victory. During combat, you can give your
 
 ### Superior Critical (Level 15)
 
-Your attack rolls with weapons and Unarmed Strikes can now score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 18–20 on the `d20`.
+Your attack rolls with weapons and Unarmed Strikes can now score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 18–20 on the `dice:d20|noform|noparens|avg` (`d20`).
 
 ### Survivor (Level 18)
 
@@ -83,4 +83,4 @@ You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advan
 
 #### Heroic Rally
 
-At the start of each of your turns, you regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to 5 plus your Constitution modifier if you are [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md) and have at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).
+At the start of each of your turns, you regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) equal to 5 plus your Constitution modifier if you are [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied) and have at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).

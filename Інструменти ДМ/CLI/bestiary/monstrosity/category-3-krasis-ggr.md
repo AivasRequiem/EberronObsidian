@@ -56,14 +56,17 @@ Just a few examples of krasis are the battering krasis (a fusion of hammerhead s
   - "desc": "The krasis makes three attacks: one with its bite, one with its claws,\
       \ and one with its tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit:\
-      \ 27 (6d6 + 6) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 10 ft., one creature. Hit: dice:6d6+6|noform|noparens|avg|text(27)\
+      \ (6d6 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 22 (3d10 + 6) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d10+6|noform|noparens|avg|text(22)\
+      \ (3d10 + 6) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
-      \ 33 (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 15 ft., one target. Hit: dice:6d8+6|noform|noparens|avg|text(33)\
+      \ (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 19 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
 "source":

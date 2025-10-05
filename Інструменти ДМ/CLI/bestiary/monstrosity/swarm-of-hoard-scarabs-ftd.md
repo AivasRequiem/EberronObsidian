@@ -58,10 +58,12 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing\
-      \ damage if the swarm is at half of its hit points or fewer, and the target\
-      \ has disadvantage on attack rolls until the start of its next turn."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 0 ft., one creature in the swarm's space. Hit: dice:3d6+3|noform|noparens|avg|text(13)\
+      \ (3d6 + 3) piercing damage, or dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage if the swarm is at half of its hit points or fewer,\
+      \ and the target has disadvantage on attack rolls until the start of its next\
+      \ turn."
     "name": "Swarm of Bites"
 "bonus_actions":
   - "desc": "The swarm releases magical glittering dust from its wings. Each creature\

@@ -56,8 +56,8 @@ When a master thief completes a challenging heist, they often leave behind a cal
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+3"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -81,11 +81,15 @@ When a master thief completes a challenging heist, they often leave behind a cal
 "actions":
   - "desc": "The thief makes three Shortsword or Shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
+      \ + 4) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6) poison\
+      \ damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit:\
-      \ 7 (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ range 80/320 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7)\
+      \ (1d6 + 4) piercing damage plus dice:1d6|noform|noparens|avg|text(3) (d6)\
+      \ poison damage."
     "name": "Shortbow"
 "bonus_actions":
   - "desc": "The thief takes the [Dash](Інструменти%20ДМ/CLI/rules/actions.md#Dash),\

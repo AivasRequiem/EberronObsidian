@@ -32,15 +32,16 @@ aliases:
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "understands the languages you know"
 "traits":
-  - "desc": "The beast doesn't provoke Opportunity Attacks when it flies out of an\
-      \ enemy's reach."
+  - "desc": "The beast doesn't provoke [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it flies out of an enemy's reach."
     "name": "Flyby"
   - "desc": "Add your Proficiency Bonus to any ability check or saving throw the beast\
       \ makes."
     "name": "Primal Bond"
 "actions":
   - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d4 + 3 plus your Wisdom modifier Slashing damage."
+      \ ft. Hit: dice:1d4+3|noform|noparens|avg (1d4 + 3) plus your Wisdom modifier\
+      \ Slashing damage."
     "name": "Beast's Strike"
 "source":
   - "XPHB"

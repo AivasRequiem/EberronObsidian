@@ -26,7 +26,7 @@ Juvenile bulettes are known as pups. They travel in small groups, using their nu
 - **Habitat.** Grassland, Hill, Mountain  
 - **Treasure.** None  
 
-Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just belowground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
+Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just below ground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
 
 ```statblock
 "name": "Bulette Pup (XMM)"
@@ -52,7 +52,8 @@ Also called "land sharks," bulettes are single-minded predators that burrow unde
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 14 (2d10 + 3) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d10+3|noform|noparens|avg|text(14) (2d10 + 3) Piercing\
       \ damage."
     "name": "Bite"
 "bonus_actions":

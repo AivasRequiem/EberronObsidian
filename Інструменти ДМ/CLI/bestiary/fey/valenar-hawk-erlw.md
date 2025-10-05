@@ -74,8 +74,9 @@ Each Valenar animal can be customized with an ancestral gift, a supernatural tra
       \ checks that rely on sight."
     "name": "Keen Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4\
+      \ + 4) slashing damage."
     "name": "Talons"
 "source":
   - "ERLW"

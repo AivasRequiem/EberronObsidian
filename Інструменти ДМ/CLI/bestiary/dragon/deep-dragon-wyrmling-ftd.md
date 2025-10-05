@@ -111,10 +111,10 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
   - !!int "13"
 "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+3"
-  - "wisdom": "+3"
-  - "charisma": "+3"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -130,17 +130,18 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
 "languages": "Draconic"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
       \ (1d10 + 2) piercing damage."
     "name": "Bite"
   - "desc": "The dragon exhales a cloud of spores in a 15-foot cone. Each creature\
       \ in that area must make a DC 11 Wisdom saving throw. On a failed save, the\
-      \ creature takes 5 (d10) psychic damage, and it is [frightened](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Frightened) of the dragon for 1 minute. On a\
-      \ successful save, the creature takes half as much damage with no additional\
-      \ effects. A [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ creature can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success."
+      \ creature takes dice:1d10|noform|noparens|avg|text(5) (d10) psychic damage,\
+      \ and it is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ of the dragon for 1 minute. On a successful save, the creature takes half\
+      \ as much damage with no additional effects. A [frightened](Інструменти%20ДМ\
+      /CLI/rules/conditions.md#Frightened) creature can repeat the saving throw at\
+      \ the end of each of its turns, ending the effect on itself on a success."
     "name": "Nightmare Breath (Recharge 5-6)"
 "source":
   - "FTD"

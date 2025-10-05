@@ -70,10 +70,10 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - !!int "21"
 "speed": "40 ft., climb 40 ft., fly 40 ft. (hover)"
 "saves":
-  - "strength": "+10"
-  - "dexterity": "+9"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "strength": !!int "10"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -113,10 +113,12 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "desc": "The vampire makes two attacks, using Grave Strike or Sickening Ray in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 9 (1d8 + 5) Slashing\
-      \ damage plus 13 (3d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8 + 5) Slashing\
+      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Necrotic damage."
     "name": "Grave Strike"
-  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 16 (2d10 + 5) Necrotic\
+  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
+      \ 120 ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Necrotic\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the vampire's next turn."
     "name": "Sickening Ray"
@@ -124,15 +126,10 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
       \ (level 5 version), requiring no spell components and using Charisma as the\
       \ spellcasting ability (spell save DC 18).\n"
     "name": "Hunger of Hadar (Recharge 5-6)"
-  - "desc": "The vampire casts [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
-      \ requiring no spell components and using Charisma as the spellcasting ability\
-      \ (spell save DC 18). The vampire can't take this action again until the start\
-      \ of its next turn.\n"
-    "name": "Beguile"
 "bonus_actions":
   - "desc": "Constitution Saving Throw: DC 18, one creature the vampire can see\
-      \ within 30 feet that isn't a Construct or an Undead. Failure: 14 (4d6)\
-      \ Necrotic damage. The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ within 30 feet that isn't a Construct or an Undead. Failure: dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) Necrotic damage. The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the damage taken, and the vampire\
       \ regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ equal to that amount."
@@ -141,10 +138,6 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "desc": "The vampire moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Grave Strike or Sickening Ray attack."
     "name": "Umbral Strike"
-  - "desc": "The vampire casts [Hunger of Hadar](Інструменти%20ДМ/CLI/spells/hunger-of-hadar-xphb.md)\
-      \ (level 5 version), requiring no spell components and using Charisma as the\
-      \ spellcasting ability (spell save DC 18).\n"
-    "name": "Hunger of Hadar (Recharge 5-6)"
   - "desc": "The vampire casts [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
       \ requiring no spell components and using Charisma as the spellcasting ability\
       \ (spell save DC 18). The vampire can't take this action again until the start\

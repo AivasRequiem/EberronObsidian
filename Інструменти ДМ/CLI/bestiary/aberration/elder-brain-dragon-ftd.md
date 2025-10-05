@@ -37,10 +37,10 @@ Using the mobility of the dragon's body, the elder brain can now serve as a powe
   - !!int "24"
 "speed": "40 ft., fly 80 ft. (hover)"
 "saves":
-  - "constitution": "+14"
-  - "intelligence": "+12"
-  - "wisdom": "+11"
-  - "charisma": "+14"
+  - "constitution": !!int "14"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "14"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -65,45 +65,49 @@ Using the mobility of the dragon's body, the elder brain can now serve as a powe
   - "desc": "The dragon makes one Bite attack, two Claw attacks, and one Tentacle\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
-      \ 19 (2d10 + 8) piercing damage plus 11 (2d10) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+8|noform|noparens|avg|text(19)\
+      \ (2d10 + 8) piercing damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (1d6 + 8) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 10 ft., one target. Hit: dice:1d6+8|noform|noparens|avg|text(11)\
+      \ (1d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one creature. Hit:\
-      \ 12 (1d8 + 8) psychic damage. If the target is Huge or smaller, it is [grappled](І\
+  - "desc": "Melee Weapon Attack: dice:1d20+15|noform|noparens|text(+15) to hit,\
+      \ reach 15 ft., one creature. Hit: dice:1d8+8|noform|noparens|avg|text(12)\
+      \ (1d8 + 8) psychic damage. If the target is Huge or smaller, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 18). The dragon\
       \ can have up to four targets [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ at a time."
     "name": "Tentacle"
   - "desc": "The dragon exhales brine in a 120-foot line that is 15 feet wide. Each\
       \ creature in that area must make a DC 22 Constitution saving throw, taking\
-      \ 55 (10d10) psychic damage on a failed save, or half as much damage on a\
-      \ successful one. On a success or failure, if the creature isn't a Construct\
-      \ or an Undead, it becomes infested with illithid tadpoles.\n\nWhile infested,\
-      \ the creature takes 16 (3d10) psychic damage at the start of each of its\
-      \ turns. The creature can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself after it succeeds on three of these saves.\
-      \ If the creature is targeted by magic that ends a curse or restores 40 hit\
-      \ points or more, the tadpoles infesting the creature are killed instantly,\
-      \ ending the effect on the creature.\n\nIf a Humanoid is reduced to 0 hit points\
-      \ while infested, the creature is stable but remains [unconscious](Інструмен\
-      ти%20ДМ/CLI/rules/conditions.md#Unconscious) for 6d12 hours. When the period\
-      \ of unconsciousness ends, the creature transforms into a [mind flayer](Інст\
-      рументи%20ДМ/CLI/bestiary/aberration/mind-flayer-xmm.md) (see the Monster Manual)\
-      \ with all its hit points. Casting a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\
-      \ spell on the [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
-      \ creature rids it of the infestation and prevents it from turning into a mind\
-      \ flayer."
+      \ dice:10d10|noform|noparens|avg|text(55) (10d10) psychic damage on a failed\
+      \ save, or half as much damage on a successful one. On a success or failure,\
+      \ if the creature isn't a Construct or an Undead, it becomes infested with illithid\
+      \ tadpoles.\n\nWhile infested, the creature takes dice:3d10|noform|noparens|avg|text(16)\
+      \ (3d10) psychic damage at the start of each of its turns. The creature can\
+      \ repeat the saving throw at the end of each of its turns, ending the effect\
+      \ on itself after it succeeds on three of these saves. If the creature is targeted\
+      \ by magic that ends a curse or restores 40 hit points or more, the tadpoles\
+      \ infesting the creature are killed instantly, ending the effect on the creature.\n\
+      \nIf a Humanoid is reduced to 0 hit points while infested, the creature is stable\
+      \ but remains [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
+      \ for dice:6d12|noform|noparens|avg (6d12) hours. When the period of unconsciousness\
+      \ ends, the creature transforms into a [mind flayer](Інструменти%20ДМ/CLI/bestiary/aberration/mind-flayer-xmm.md)\
+      \ (see the Monster Manual) with all its hit points. Casting a [wish](Інструм\
+      енти%20ДМ/CLI/spells/wish-xphb.md) spell on the [unconscious](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Unconscious) creature rids it of the infestation and\
+      \ prevents it from turning into a mind flayer."
     "name": "Tadpole Brine Breath (Recharge 5-6)"
 "legendary_actions":
   - "desc": "The dragon makes one Tentacle attack."
     "name": "Tentacle"
   - "desc": "The dragon targets a creature it is grappling. The target's [concentration](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Concentration) on a spell it has cast\
-      \ or an ability it is maintaining ends, and the target takes 19 (3d12) psychic\
-      \ damage."
+      \ or an ability it is maintaining ends, and the target takes dice:3d12|noform|noparens|avg|text(19)\
+      \ (3d12) psychic damage."
     "name": "Shatter Concentration (Costs 2 Actions)"
 "source":
   - "FTD"

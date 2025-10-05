@@ -24,7 +24,7 @@ Constantly jockeying for position, each tsucora hopes to be reincarnated as a mo
 
 Their ability to manipulate the fears of mortals sees tsucoras often sent to Eberron as Inspired. Nothing keeps humanoid chattel in line like fear, and the tsucoras are the masters of manipulating the uncertainty of mobs and high-ranking officials alike. The effectiveness of tsucora Inspired keeps the members of this order in the good graces of the kalaraq quori.
 
-Dal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter.
+Dal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter.
 
 ```statblock
 "name": "Tsucora Quori (ERLW)"
@@ -45,8 +45,8 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+5"
@@ -68,20 +68,23 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori makes three attacks: one pincer attack, one attack with its\
       \ claws, and one stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
       \ (1d10 + 3) bludgeoning damage. The target is [grappled](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or smaller\
       \ creature. The quori has two pincers, each of which can grapple one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:4d4+3|noform|noparens|avg|text(13)\
       \ (4d4 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
-      \ 8 (1d10 + 3) piercing damage plus 10 (3d6) psychic damage, and the target\
-      \ must succeed on a DC 14 Wisdom saving throw or be [frightened](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Frightened) of the quori for 1 minute. The target\
-      \ can repeat the saving throw at the end of each of its turns, ending the effect\
-      \ on itself on a success."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 10 ft., one creature. Hit: dice:1d10+3|noform|noparens|avg|text(8)\
+      \ (1d10 + 3) piercing damage plus dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) psychic damage, and the target must succeed on a DC 14 Wisdom saving\
+      \ throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ of the quori for 1 minute. The target can repeat the saving throw at the end\
+      \ of each of its turns, ending the effect on itself on a success."
     "name": "Stinger"
   - "desc": "One humanoid that the quori can see within 5 feet of it must succeed\
       \ on a DC 14 Charisma saving throw or be possessed by the quori; the quori then\

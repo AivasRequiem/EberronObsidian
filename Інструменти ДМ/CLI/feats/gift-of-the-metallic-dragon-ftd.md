@@ -9,6 +9,7 @@ aliases:
 ---
 # Gift of the Metallic Dragon
 *Source: Fizban's Treasury of Dragons p. 17*  
+
 You've manifested some of the power of metallic dragons, granting you the following benefits:
 
 - **Draconic Healing.** You learn the [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat).  

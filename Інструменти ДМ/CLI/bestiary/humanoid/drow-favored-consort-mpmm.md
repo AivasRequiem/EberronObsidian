@@ -41,9 +41,9 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+9"
-  - "charisma": "+10"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "9"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+11"
@@ -69,11 +69,14 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
   - "desc": "The drow makes three Scimitar or Arcane Eruption attacks. The drow can\
       \ replace one of the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
-      \ 8 (1d6 + 5) slashing damage plus 27 (6d8) poison damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+11|noform|noparens|text(+11) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6\
+      \ + 5) slashing damage plus dice:6d8|noform|noparens|avg|text(27) (6d8)\
+      \ poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit:\
-      \ 36 (8d8) force damage, and the drow can push the target up to 10 feet away\
+  - "desc": "Ranged Spell Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ range 120 ft., one target. Hit: dice:8d8|noform|noparens|avg|text(36)\
+      \ (8d8) force damage, and the drow can push the target up to 10 feet away\
       \ if it is a Large or smaller creature."
     "name": "Arcane Eruption"
   - "desc": "The drow casts one of the following spells, requiring no material components\

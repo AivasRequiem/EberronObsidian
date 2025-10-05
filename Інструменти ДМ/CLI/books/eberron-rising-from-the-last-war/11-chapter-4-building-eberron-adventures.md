@@ -686,7 +686,7 @@ The [dominate monster](Інструменти%20ДМ/CLI/spells/dominate-monster
 
 #### Freeing the Elemental
 
-Shattering the Khyber dragonshard that binds it can free an elemental, preventing the vehicle from moving. On most elemental vessels, the shard is sealed in a protective metal chest with 10 (`3d6`) hit points, usually made of iron (AC 19) but sometimes of mithral (AC 21) or adamantine (AC 23). The chest is often guarded with a [glyph of warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md) and housed in a room behind locked and possibly trapped doors. The shard itself has AC 17 and 10 (`3d6`) hit points.
+Shattering the Khyber dragonshard that binds it can free an elemental, preventing the vehicle from moving. On most elemental vessels, the shard is sealed in a protective metal chest with `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) hit points, usually made of iron (AC 19) but sometimes of mithral (AC 21) or adamantine (AC 23). The chest is often guarded with a [glyph of warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md) and housed in a room behind locked and possibly trapped doors. The shard itself has AC 17 and `dice:3d6|noform|noparens|avg|text(10)` (`3d6`) hit points.
 
 ### Lyrandar Airship
 

@@ -10,7 +10,7 @@ aliases:
 # Fire-Casting Statue
 *Generic Hazard*  
 
-When a creature moves onto this trap's pressure plate for the first time on a turn or starts its turn there, a nearby statue exhales a 15-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) of magical flame. The statue can look like anything, such as a dragon or a wizard. Each creature in the Cone must succeed on a DC 15 Dexterity saving throw, taking 11 (`2d10`) Fire damage on a failed save or half as much damage on a successful one.
+When a creature moves onto this trap's pressure plate for the first time on a turn or starts its turn there, a nearby statue exhales a 15-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) of magical flame. The statue can look like anything, such as a dragon or a wizard. Each creature in the Cone must succeed on a DC 15 Dexterity saving throw, taking `dice:2d10|noform|noparens|avg|text(11)` (`2d10`) Fire damage on a failed save or half as much damage on a successful one.
 
 ## Detect and Disarm
 
@@ -24,9 +24,9 @@ You can scale the trap for higher levels by increasing the damage and the area o
 
 | Levels | Fire Damage | Area of Effect |
 |--------|-------------|----------------|
-| 5–10 | 22 (`4d10`) | 30-foot Cone |
-| 11–16 | 55 (`10d10`) | 60-foot Cone |
-| 17–20 | 99 (`18d10`) | 120-foot Cone |
+| 5–10 | 22 (`dice:4d10\|noform\|noparens\|avg` (`4d10`)) | 30-foot Cone |
+| 11–16 | 55 (`dice:10d10\|noform\|noparens\|avg` (`10d10`)) | 60-foot Cone |
+| 17–20 | 99 (`dice:18d10\|noform\|noparens\|avg` (`18d10`)) | 120-foot Cone |
 ^levels-fire-damage-area-of-effect
 
 *Source: Dungeon Master's Guide (2024) p. 102. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*

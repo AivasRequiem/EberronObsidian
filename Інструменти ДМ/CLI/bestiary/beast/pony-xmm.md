@@ -38,12 +38,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "7"
 "speed": "40 ft."
 "saves":
-  - "strength": "+4"
+  - "strength": !!int "4"
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Bludgeoning\
       \ damage."
     "name": "Hooves"
 "source":

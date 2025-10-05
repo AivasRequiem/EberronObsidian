@@ -53,8 +53,8 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
   - !!int "15"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+3"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -70,12 +70,14 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing\
-      \ damage plus 3 (d6) Acid damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:2d4+4|noform|noparens|avg|text(9) (2d4 + 4) Slashing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Acid damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 49 (14d6) Acid damage. Success: Half damage."
+      \ Failure: dice:14d6|noform|noparens|avg|text(49) (14d6) Acid damage.\
+      \ Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
 "source":
   - "XMM"

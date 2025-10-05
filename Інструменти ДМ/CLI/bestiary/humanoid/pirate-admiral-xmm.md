@@ -66,10 +66,10 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
-  - "dexterity": "+10"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "strength": !!int "6"
+  - "dexterity": !!int "10"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+10"
@@ -83,15 +83,17 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
 "actions":
   - "desc": "The pirate makes three attacks, using Scimitar or Pistol in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Slashing\
-      \ damage plus 7 (2d6) Poison damage, and the target suffers one of the following\
-      \ effects of the pirate's choice:\n\n- Awestruck. The target has the [Charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until the start of\
-      \ the pirate's next turn.  \n- Poison. The target has the [Poisoned](Інс\
-      трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
-      \ the pirate's next turn.  "
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:3d6+6|noform|noparens|avg|text(16) (3d6 + 6) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage,\
+      \ and the target suffers one of the following effects of the pirate's choice:\n\
+      \n- Awestruck. The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ condition until the start of the pirate's next turn.  \n- Poison. The\
+      \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the start of the pirate's next turn.  "
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: +10, range 30/90 ft. Hit: 28 (4d10 + 6) Piercing\
+  - "desc": "Ranged Attack Roll: dice:1d20+10|noform|noparens|text(+10), range\
+      \ 30/90 ft. Hit: dice:4d10+6|noform|noparens|avg|text(28) (4d10 + 6) Piercing\
       \ damage."
     "name": "Pistol"
 "bonus_actions":

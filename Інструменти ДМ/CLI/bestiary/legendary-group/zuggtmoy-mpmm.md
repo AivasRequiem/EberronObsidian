@@ -26,4 +26,4 @@ The region containing Zuggtmoy's lair is warped by his magic, creating one or mo
 - **Corrupted Nature.** Within 6 miles of the lair, all Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) and Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) checks have disadvantage.  
 - **Fungal Infestation.** Molds and fungi grow on surfaces within 6 miles of the lair, even where they would normally find no purchase.  
 - **Mutating Vegetation.** Vegetation within 1 mile of the lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.  
-- If Zuggtmoy dies, these effects fade over the course of `d10` days.
+- If Zuggtmoy dies, these effects fade over the course of `dice:1d10|noform|noparens|avg` (`d10`) days.

@@ -30,7 +30,7 @@ Copper dragons typically live in caverns amid picturesque hills and rock formati
 
 ### Copper Dragon Lairs
 
-Copper dragons typically inhabit multichamber caves and renovated ruins.
+Copper dragons typically inhabit multi-chamber caves and renovated ruins.
 
 ```statblock
 "name": "Ancient Copper Dragon (XMM)"
@@ -51,8 +51,8 @@ Copper dragons typically inhabit multichamber caves and renovated ruins.
   - !!int "22"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+10"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -72,12 +72,14 @@ Copper dragons typically inhabit multichamber caves and renovated ruins.
       \ use of (A) Slowing Breath or (B) Spellcasting to cast [Mind Spike](Інструм\
       енти%20ДМ/CLI/spells/mind-spike-xphb.md) (level 5 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +15, reach 15 ft. Hit: 19 (2d10 + 8) Slashing\
-      \ damage plus 9 (2d8) Acid damage."
+  - "desc": "Melee Attack Roll: dice:1d20+15|noform|noparens|text(+15), reach\
+      \ 15 ft. Hit: dice:2d10+8|noform|noparens|avg|text(19) (2d10 + 8) Slashing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Acid damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 22, each creature in an 90-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 63 (14d8) Acid damage. Success: Half damage."
+      \ Failure: dice:14d8|noform|noparens|avg|text(63) (14d8) Acid damage.\
+      \ Success: Half damage."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 22, each creature in a 90-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
@@ -101,9 +103,10 @@ Copper dragons typically inhabit multichamber caves and renovated ruins.
     "name": "Spellcasting"
 "legendary_actions":
   - "desc": "Charisma Saving Throw: DC 21, one creature the dragon can see within\
-      \ 120 feet. Failure: 31 (9d6) Psychic damage. Until the end of its next\
-      \ turn, the target rolls d8 whenever it makes an ability check or attack roll\
-      \ and subtracts the number rolled from the [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md).\
+      \ 120 feet. Failure: dice:9d6|noform|noparens|avg|text(31) (9d6) Psychic\
+      \ damage. Until the end of its next turn, the target rolls dice:1d8|noform|noparens|avg\
+      \ (d8) whenever it makes an ability check or attack roll and subtracts the\
+      \ number rolled from the [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md).\
       \ Failure or Success: The dragon can't take this action again until the start\
       \ of its next turn."
     "name": "Giggling Magic"

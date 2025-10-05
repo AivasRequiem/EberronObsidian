@@ -581,7 +581,7 @@ The conflict between adventurers and chromatic dragons might follow this broad o
 - **Levels 1–4.** Consider introducing this conflict as the adventurers reach level 3 or 4, with the adventurers confronting an aggressive chromatic dragon wyrmling. (You can use the adventure ""The Winged God"" from "chapter 4".)  
 - **Levels 5–10.** The adventurers might face a handful of ambitious young chromatic dragons, without hinting at a more significant conflict.  
 - **Levels 11–16.** It eventually becomes clear that the behavior of the adult dragons the characters face isn't normal. The characters might get involved in one dragon's schemes to undermine or overthrow another, or the characters might hear whispers of the dragons' dream of liberating Tiamat.  
-- **Levels 17–20.** The conflict reaches its worldshattering conclusion, with ancient dragons threatening nations and clashing with each other in devastating battles. The campaign might end with Tiamat herself appearing in the Flanaess—perhaps emerging from the Riftcanyon (see ""Mysteries of Greyhawk"" in this chapter) or from the depths of the Nyr Dyv.  
+- **Levels 17–20.** The conflict reaches its world-shattering conclusion, with ancient dragons threatening nations and clashing with each other in devastating battles. The campaign might end with Tiamat herself appearing in the Flanaess—perhaps emerging from the Riftcanyon (see ""Mysteries of Greyhawk"" in this chapter) or from the depths of the Nyr Dyv.  
 
 ![Tiamat herself brings a ca...](Інструменти%20ДМ/CLI/books/dungeon-masters-guide-2024/img/068-05-002-tiamat-encounter.webp#center "Tiamat herself brings a campaign to a dramatic close")
 
@@ -822,15 +822,15 @@ The Free City of Greyhawk is home to many thieves, vandals, charlatans, and hool
 
 ###### Petty Crime
 
-Public unarmed brawling, pickpocketing, vandalism, and other crimes that cause up to 50 GP in property damage are petty crimes. The perpetrator pays a fine of `2d10` GP or works to provide restitution.
+Public unarmed brawling, pickpocketing, vandalism, and other crimes that cause up to 50 GP in property damage are petty crimes. The perpetrator pays a fine of `dice:2d10|noform|noparens|avg` (`2d10`) GP or works to provide restitution.
 
 ###### Minor Crime
 
-The category of minor crimes includes armed assault (defined as any nonfatal attack made with a weapon or damaging spell) and property crimes that cause between 50 and 250 GP in damages. The perpetrator must pay a fine of at least 100 GP and is sentenced to `d6` years in prison.
+The category of minor crimes includes armed assault (defined as any nonfatal attack made with a weapon or damaging spell) and property crimes that cause between 50 and 250 GP in damages. The perpetrator must pay a fine of at least 100 GP and is sentenced to `dice:1d6|noform|noparens|avg` (`d6`) years in prison.
 
 ###### Major Crime
 
-Crimes more severe than those described above—including murder, bribery or impersonation of a city official, and magical coercion—are major crimes. The criminal faces `2d10` years of imprisonment, the death penalty, or permanent exile. A city magistrate decides which punishment is appropriate.
+Crimes more severe than those described above—including murder, bribery or impersonation of a city official, and magical coercion—are major crimes. The criminal faces `dice:2d10|noform|noparens|avg` (`2d10`) years of imprisonment, the death penalty, or permanent exile. A city magistrate decides which punishment is appropriate.
 
 ##### Religion
 
@@ -1000,7 +1000,7 @@ Adventurers with the [Guide](Інструменти%20ДМ/CLI/backgrounds/guide
 Adventurers might visit the temple for one of the following reasons:
 
 - **Adventurers Wanted.** The priests keep tabs on threats in the region around the city. They're paying close attention to rumors of dragon activity in the nearby Cairn Hills, and they're looking to hire adventurers to investigate these rumors.  
-- **Healing.** Adventurers can purchase [Potions of Healing](Інструменти%20ДМ/CLI/items/potion-of-healing-xdmg.md) for 50 GP each, and the temple's priests have `d4` such potions in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared and customarily cast them for free. For more powerful magic, such as [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) and [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spells, the priests direct the adventurers to the Temple of the Radiant Sun.  
+- **Healing.** Adventurers can purchase [Potions of Healing](Інструменти%20ДМ/CLI/items/potion-of-healing-xdmg.md) for 50 GP each, and the temple's priests have `dice:1d4|noform|noparens|avg` (`d4`) such potions in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared and customarily cast them for free. For more powerful magic, such as [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) and [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spells, the priests direct the adventurers to the Temple of the Radiant Sun.  
 - **Safe Travels.** By making a small donation to the temple, adventurers increase the likelihood of safe travel to their next destination.  
 - **Teleportation Circle.** Though it isn't the only permanent teleportation circle in the city, the circle within the Temple of the Far Horizon is the easiest to access. The priests allow free access to the teleportation circle in either direction. For 2,000 GP, the chief priest will cast the [Teleportation Circle](Інструменти%20ДМ/CLI/spells/teleportation-circle-xphb.md) spell to open a connection to another permanent circle on the Material Plane.  
 
@@ -1023,7 +1023,7 @@ Adventurers with the [Acolyte](Інструменти%20ДМ/CLI/backgrounds/aco
 
 Adventurers might visit the temple for one of the following reasons:
 
-- **Healing.** The temple sells [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) for 3,200 GP apiece and [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md) for 300 GP apiece, and the priests have `d3` copies of each scroll in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared, which they customarily cast for free.  
+- **Healing.** The temple sells [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) for 3,200 GP apiece and [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md) for 300 GP apiece, and the priests have `dice:1d3|noform|noparens|avg` (`d3`) copies of each scroll in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared, which they customarily cast for free.  
 - **Raise Dead.** Archpriest Sarana is one of a handful of people in the Free City of Greyhawk who can cast the [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spell, but she needs the requisite 500 GP diamond to do so. Sarana can recommend a jeweler who sells diamonds of sufficient value. Before agreeing to cast the spell, Sarana casts [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) and asks questions about the deceased individual to make sure she's not returning to life someone who should stay dead.  
 - **Service to the Greater Good.** The temple might call upon the adventurers to perform good acts in the city or abroad. Sarana is particularly vigilant about the threat of Elemental Evil, since she was involved in the battle at the Temple of Elemental Evil seven years ago. In exchange for their service, the characters and their companions are entitled to a 50 percent discount on goods purchased at the temple.  
 
@@ -1274,7 +1274,7 @@ United by their shared history as part of the ancient Kingdom of Keoland, the ma
 
 ##### Old Keoland Culture
 
-Old Keoland is a diverse region of the Flanaess where different cultures have mingled for many centuries. Keolish folk often garden, maintain close family ties, have a down-to-earth nature, and love storytelling.
+Old Keoland is a diverse region of the Flanaess where different cultures have mingled for many centuries. Keoish folk often garden, maintain close family ties, have a down-to-earth nature, and love storytelling.
 
 The clothes worn in Old Keoland tend toward loose-fitting shirts and wide-legged pants, voluminous cloaks for cold or wet weather, and sturdy boots. This region's cuisine represents a fusion of Central Flan dishes of rice, potato, and meat with some spices and seasonings brought from the west, creating unique flavors.
 

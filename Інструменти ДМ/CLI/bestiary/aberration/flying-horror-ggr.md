@@ -51,7 +51,7 @@ Horrors share some common body types but vary wildly in other characteristics. A
 | 1 | Avoidance. If the horror is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. |
 | 2 | Damage Resistances. The horror has resistance to necrotic and psychic damage. |
 | 3 | Innate Spellcasting. The horror's innate spellcasting ability is Charisma (spell save DC 13 for flying horror, DC 16 for shadow horror, and DC 17 for skittering horror). It can innately cast the following spells, requiring no material components: 3/day: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md) 1/day each: [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) (shadow horror and skittering horror only), [phantasmal killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md) (skittering horror only) |
-| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
+| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes `dice:1d6\|noform\|noparens\|avg\|text(3)` (`d6`) psychic damage (flying horror), `dice:2d6\|noform\|noparens\|avg\|text(7)` (`2d6`) psychic damage (shadow horror), or `dice:3d6\|noform\|noparens\|avg\|text(10)` (`3d6`) psychic damage (skittering horror). |
 ^primary-features
 
 **Secondary Features**
@@ -103,8 +103,10 @@ Horrors share some common body types but vary wildly in other characteristics. A
       \ that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d6 + 5) slashing damage plus 14 (4d6) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8) (1d6\
+      \ + 5) slashing damage plus dice:4d6|noform|noparens|avg|text(14) (4d6)\
+      \ psychic damage."
     "name": "Claws"
   - "desc": "The horror screeches. Each creature within 30 feet of it that can hear\
       \ it must succeed on a DC 13 Wisdom saving throw or be [frightened](Інструме\

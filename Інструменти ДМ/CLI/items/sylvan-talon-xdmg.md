@@ -23,7 +23,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/sylvan-talon.webp#right)
 
 
-While this weapon is on your person, you understand the nonwritten communication of all Fey, and they understand yours.
+While this weapon is on your person, you understand the non-written communication of all Fey, and they understand yours.
 
 ## Secret Message
 

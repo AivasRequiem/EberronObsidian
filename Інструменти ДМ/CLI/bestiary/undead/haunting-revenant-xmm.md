@@ -48,8 +48,8 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+8"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "8"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -78,9 +78,10 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   - "desc": "The revenant makes two [Object](Інструменти%20ДМ/CLI/rules/variant-rules/object-xphb.md)\
       \ Slam attacks and uses Invitation."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9 (with [Advantage](Інструменти%20Д\
-      М/CLI/rules/variant-rules/advantage-xphb.md) if the target is inside the revenant's\
-      \ space), reach 10 ft. or range 30/90 ft. Hit: 27 (5d8 + 5) Bludgeoning\
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9)\
+      \ (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ if the target is inside the revenant's space), reach 10 ft. or range 30/90\
+      \ ft. Hit: dice:5d8+5|noform|noparens|avg|text(27) (5d8 + 5) Bludgeoning\
       \ damage."
     "name": "Object Slam"
   - "desc": "Charisma Saving Throw: DC 17, each creature in a 60-foot [Cone](Інс\

@@ -55,7 +55,7 @@ Trolls typically hunt alone, but small groups occasionally cooperate to ambush p
 "languages": "Giant"
 "cr": "5"
 "traits":
-  - "desc": "If the troll ends any turn [Bloodied](Інструменти%20ДМ/CLI/rules/variant-rules/bloodied-xphb.md)\
+  - "desc": "If the troll ends any turn [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied)\
       \ and took 15+ Slashing damage during that turn, one of the troll's limbs is\
       \ severed, falls into the troll's space, and becomes a [Troll Limb](Інструме\
       нти%20ДМ/CLI/bestiary/giant/troll-limb-xmm.md). The limb acts immediately after\
@@ -72,7 +72,8 @@ Trolls typically hunt alone, but small groups occasionally cooperate to ambush p
 "actions":
   - "desc": "The troll makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Slashing\
       \ damage."
     "name": "Rend"
 "bonus_actions":

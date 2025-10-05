@@ -44,8 +44,8 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+9"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "9"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
@@ -66,20 +66,22 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Marshal Undead"
   - "desc": "If the death knight is destroyed before it atones for its evil, it gains\
-      \ a new body in d10 days, reviving with all its [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md). The new body appears in a location\
-      \ significant to the death knight."
+      \ a new body in dice:1d10|noform|noparens|avg (d10) days, reviving with\
+      \ all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
+      \ The new body appears in a location significant to the death knight."
     "name": "Undead Restoration"
 "actions":
   - "desc": "The death knight makes three Dread Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 13 (3d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
+      \ 5 ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Necrotic damage."
     "name": "Dread Blade"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the death knight can see within 120 feet. Failure: 35 (10d6)\
-      \ Fire damage plus 35 (10d6) Necrotic damage. Success: Half damage."
+      \ on a point the death knight can see within 120 feet. Failure: dice:10d6|noform|noparens|avg|text(35)\
+      \ (10d6) Fire damage plus dice:10d6|noform|noparens|avg|text(35) (10d6)\
+      \ Necrotic damage. Success: Half damage."
     "name": "Hellfire Orb (Recharge 5-6)"
   - "desc": "The death knight casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 18):\n\
@@ -99,10 +101,11 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
       \ until the start of its next turn."
     "name": "Dread Authority"
   - "desc": "Constitution Saving Throw: DC 18, one creature the death knight can\
-      \ see within 120 feet. Failure: 17 (5d6) Necrotic damage, and the target's\
-      \ [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum\
-      \ decreases by an amount equal to the damage taken. Failure or Success: The\
-      \ death knight can't take this action again until the start of its next turn."
+      \ see within 120 feet. Failure: dice:5d6|noform|noparens|avg|text(17) (5d6)\
+      \ Necrotic damage, and the target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by an amount equal to the damage taken. Failure or Success:\
+      \ The death knight can't take this action again until the start of its next\
+      \ turn."
     "name": "Fell Word"
   - "desc": "The death knight moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Dread Blade attack."

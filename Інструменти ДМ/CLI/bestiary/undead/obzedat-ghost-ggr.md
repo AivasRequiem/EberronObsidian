@@ -55,8 +55,8 @@ Flaw: "Everyone has a price."
   - !!int "17"
 "speed": "0 ft., fly 30 ft. (hover)"
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+8"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+8"
@@ -76,10 +76,11 @@ Flaw: "Everyone has a price."
 "cr": "8"
 "traits":
   - "desc": "The ghost's innate spellcasting ability is Wisdom (spell save DC 16,\
-      \ +8 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no components:\n\nAt will: [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md)\
-      \ (at 5th level, and the ghost regains hit points equal to half the amount of\
-      \ damage the target takes)\n\n1/day each: [sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md),\
+      \ dice:1d20+8|noform|noparens|text(+8) to hit with spell attacks). It can\
+      \ innately cast the following spells, requiring no components:\n\nAt will:\
+      \ [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md) (at 5th level,\
+      \ and the ghost regains hit points equal to half the amount of damage the target\
+      \ takes)\n\n1/day each: [sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md),\
       \ [spirit guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md) (at\
       \ 4th level)"
     "name": "Innate Spellcasting"
@@ -96,26 +97,27 @@ Flaw: "Everyone has a price."
       \ he can cast at will.  \n- Xil Xaxosz Lingering Spite. When Xil Xaxosz\
       \ is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic\
       \ energy. Each creature within 5 feet of him must make a DC 16 Constitution\
-      \ saving throw, taking 14 (4d6) necrotic damage on a failed save, or half\
-      \ as much damage on a successful one.  "
+      \ saving throw, taking dice:4d6|noform|noparens|avg|text(14) (4d6) necrotic\
+      \ damage on a failed save, or half as much damage on a successful one.  "
     "name": "Council of Five"
   - "desc": "The ghost can see 60 feet into the Ethereal Plane when it is on the Material\
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
-      \ an object."
+      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "If the ghost fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
-      \ 18 (4d8) necrotic damage, and the ghost regains hit points equal to half\
-      \ the amount of damage the target takes. The target must succeed on a DC 13\
-      \ Constitution saving throw or its hit point maximum is reduced by an amount\
-      \ equal to the damage taken. The target dies if its hit point maximum is reduced\
-      \ to 0. This reduction to the target's hit point maximum lasts until the target\
-      \ finishes a long rest."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) necrotic damage, and the ghost regains hit points equal to half the\
+      \ amount of damage the target takes. The target must succeed on a DC 13 Constitution\
+      \ saving throw or its hit point maximum is reduced by an amount equal to the\
+      \ damage taken. The target dies if its hit point maximum is reduced to 0. This\
+      \ reduction to the target's hit point maximum lasts until the target finishes\
+      \ a long rest."
     "name": "Life Drain"
   - "desc": "The ghost summons the other four members of the Obzedat. At the start\
       \ of the ghost's next turn, the other members appear in unoccupied spaces within\
@@ -133,9 +135,9 @@ Flaw: "Everyone has a price."
       \ ends, the target can't take actions or reactions, and its speed is 0 and can't\
       \ be increased."
     "name": "Forced Obedience"
-  - "desc": "The Obzedat ghosts conjure d6 [indentured spirits](Інструменти%20ДМ\
-      /CLI/bestiary/undead/indentured-spirit-ggr.md) (described in this chapter) within\
-      \ 60 feet of one of them."
+  - "desc": "The Obzedat ghosts conjure dice:1d6|noform|noparens|avg (d6) [indentured\
+      \ spirits](Інструменти%20ДМ/CLI/bestiary/undead/indentured-spirit-ggr.md) (described\
+      \ in this chapter) within 60 feet of one of them."
     "name": "Indentured Spirits (Costs 3 Actions)"
 "source":
   - "GGR"

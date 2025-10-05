@@ -26,7 +26,7 @@ aliases:
 
 A cool light wreathes your body for the duration, emitting [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 20-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for an additional 20 feet.
 
-Until the spell ends, you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Radiant damage, and your melee attacks deal an extra `2d6` Radiant damage on a hit.
+Until the spell ends, you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Radiant damage, and your melee attacks deal an extra `dice:2d6|noform|noparens|avg` (`2d6`) Radiant damage on a hit.
 
 In addition, immediately after you take damage from a creature you can see within 60 feet of yourself, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to force the creature to make a Constitution saving throw. On a failed save, the creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the end of your next turn.
 

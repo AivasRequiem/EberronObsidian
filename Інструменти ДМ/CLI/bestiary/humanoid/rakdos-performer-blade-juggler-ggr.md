@@ -35,8 +35,8 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
   - !!int "15"
 "speed": "40 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+4"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -52,8 +52,9 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
 "actions":
   - "desc": "The juggler makes three dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
+      \ (1d4 + 3) piercing damage."
     "name": "Dagger"
 "source":
   - "GGR"

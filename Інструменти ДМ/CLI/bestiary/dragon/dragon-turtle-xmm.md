@@ -45,8 +45,8 @@ Many dragon turtles live in secluded lairs or ruins deep underwater, and they mi
   - !!int "12"
 "speed": "20 ft., swim 50 ft."
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+7"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "7"
 "damage_resistances": "fire"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Draconic, Primordial (Aquan)"
@@ -58,19 +58,22 @@ Many dragon turtles live in secluded lairs or ruins deep underwater, and they mi
   - "desc": "The dragon makes three Bite attacks. It can replace one attack with a\
       \ Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing\
-      \ damage plus 7 (2d6) Fire damage. Being underwater doesn't grant [Resistance](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to this Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
+      \ 15 ft. Hit: dice:3d10+7|noform|noparens|avg|text(23) (3d10 + 7) Piercing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Fire damage. Being\
+      \ underwater doesn't grant [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md)\
+      \ to this Fire damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+13|noform|noparens|text(+13), reach\
+      \ 15 ft. Hit: dice:2d10+7|noform|noparens|avg|text(18) (2d10 + 7) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"
   - "desc": "Constitution Saving Throw: DC 19, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being\
-      \ underwater doesn't grant [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md)\
-      \ to this Fire damage."
+      \ dice:16d6|noform|noparens|avg|text(56) (16d6) Fire damage. Success:\
+      \ Half damage. Failure or Success: Being underwater doesn't grant [Resistance](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to this Fire damage."
     "name": "Steam Breath (Recharge 5-6)"
 "source":
   - "XMM"

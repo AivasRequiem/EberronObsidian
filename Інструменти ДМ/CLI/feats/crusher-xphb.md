@@ -9,14 +9,13 @@ aliases:
 ---
 # Crusher
 *Source: Player's Handbook (2024) p. 203*  
+
 **Prerequisite**: 4th
-**Ability Score Increase**: Increase your Strength or Constitution by 1, to a maximum of 20.
+
 You gain the following benefits.
 
-## Push
+**Ability Score Increase.** Increase your Strength or Constitution by 1, to a maximum of 20.
 
-Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.
+**Push.** Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.
 
-## Enhanced Critical
-
-When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.
+**Enhanced Critical.** When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.

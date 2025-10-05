@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 40*  
 
 
-- **Ability Scores**: Wisdom +2; Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Intelligence
@@ -36,7 +36,7 @@ You have advantage on saving throws against being [charmed](Інструмент
 
 ### Deductive Intuition
 
-When you make an Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) or a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check, you can roll a `d4` and add the number rolled to the ability check.
+When you make an Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) or a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Languages
 

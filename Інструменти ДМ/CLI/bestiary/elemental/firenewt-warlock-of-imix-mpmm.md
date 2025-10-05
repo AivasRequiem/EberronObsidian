@@ -56,11 +56,13 @@ Originally from the Elemental Plane of Fire, firenewts can be found on the Mater
 "actions":
   - "desc": "The firenewt makes three Morningstar or Fire Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d8 + 1) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+3|noform|noparens|text(+3) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8\
+      \ + 1) piercing damage."
     "name": "Morningstar"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 120 ft., one target. Hit:\
-      \ 5 (1d6 + 2) fire damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ range 120 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5)\
+      \ (1d6 + 2) fire damage."
     "name": "Fire Ray"
   - "desc": "The firenewt casts one of the following spells, using Charisma as the\
       \ spellcasting ability (spell save DC 12):\n\nAt will: [guidance](Інстру\

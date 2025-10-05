@@ -42,8 +42,8 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -58,9 +58,10 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "actions":
   - "desc": "The giant makes three spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 10 ft. or range\
-      \ 60/240 ft., one target. Hit: 17 (3d6 + 7) piercing damage, or 20 (3d8\
-      \ + 7) piercing damage if used with two hands to make a melee attack."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+10|noform|noparens|text(+10)\
+      \ to hit, reach 10 ft. or range 60/240 ft., one target. Hit: dice:3d6+7|noform|noparens|avg|text(17)\
+      \ (3d6 + 7) piercing damage, or dice:3d8+7|noform|noparens|avg|text(20)\
+      \ (3d8 + 7) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
 "reactions":
   - "desc": "When an attacker the giant can see makes an attack roll against a creature\

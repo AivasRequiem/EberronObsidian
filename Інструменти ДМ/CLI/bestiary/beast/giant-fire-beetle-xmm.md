@@ -46,7 +46,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ for an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+1|noform|noparens|text(+1), reach 5\
+      \ ft. Hit: 1 Fire damage."
     "name": "Bite"
 "source":
   - "XMM"

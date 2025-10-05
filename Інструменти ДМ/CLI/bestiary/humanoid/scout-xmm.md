@@ -58,11 +58,11 @@ Scouts are warriors of the wilderness, trained in hunting and tracking. They mig
 "actions":
   - "desc": "The scout makes two attacks, using Shortsword and Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 150/600\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Piercing damage."
     "name": "Longbow"
 "source":
   - "XMM"

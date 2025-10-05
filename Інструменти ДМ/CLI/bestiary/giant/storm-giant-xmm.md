@@ -43,10 +43,10 @@ Among the tallest giants, storm giants live amid extreme forces of nature. In pa
   - !!int "18"
 "speed": "50 ft., fly 25 ft. (hover), swim 50 ft."
 "saves":
-  - "strength": "+14"
-  - "constitution": "+10"
-  - "wisdom": "+10"
-  - "charisma": "+9"
+  - "strength": !!int "14"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -68,17 +68,19 @@ Among the tallest giants, storm giants live amid extreme forces of nature. In pa
   - "desc": "The giant makes two attacks, using Storm Sword or Thunderbolt in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 23 (4d6 + 9) Slashing\
-      \ damage plus 13 (3d8) Lightning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+14|noform|noparens|text(+14), reach\
+      \ 10 ft. Hit: dice:4d6+9|noform|noparens|avg|text(23) (4d6 + 9) Slashing\
+      \ damage plus dice:3d8|noform|noparens|avg|text(13) (3d8) Lightning damage."
     "name": "Storm Sword"
-  - "desc": "Ranged Attack Roll: +14, range 500 ft. Hit: 22 (2d12 + 9) Lightning\
+  - "desc": "Ranged Attack Roll: dice:1d20+14|noform|noparens|text(+14), range\
+      \ 500 ft. Hit: dice:2d12+9|noform|noparens|avg|text(22) (2d12 + 9) Lightning\
       \ damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened) conditions\
       \ until the start of the giant's next turn."
     "name": "Thunderbolt"
   - "desc": "Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high\
       \ [Cylinder](Інструменти%20ДМ/CLI/rules/variant-rules/cylinder-area-of-effect-xphb.md)\
-      \ originating from a point the giant can see within 500 feet. Failure: 55\
+      \ originating from a point the giant can see within 500 feet. Failure: dice:10d10|noform|noparens|avg|text(55)\
       \ (10d10) Lightning damage. Success: Half damage."
     "name": "Lightning Storm (Recharge 5-6)"
   - "desc": "The giant casts one of the following spells, requiring no Material components\

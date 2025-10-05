@@ -22,6 +22,6 @@ Whenever you make a [Death Saving Throw](Інструменти%20ДМ/CLI/rules
 
 ## Natural Healing Boost
 
-Whenever you roll a [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) Die to regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), double the number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) it restores.
+Whenever you roll a [Hit Point Die](Інструменти%20ДМ/CLI/rules/variant-rules/hit-point-dice-xphb.md) to regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), double the number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) it restores.
 
 *Source: Dungeon Master's Guide (2024) p. 284. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

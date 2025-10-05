@@ -55,8 +55,8 @@ In rare cases, Fiends other than demons might adopt forms similar to shadow demo
   - !!int "14"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+4"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
@@ -79,15 +79,16 @@ In rare cases, Fiends other than demons might adopt forms similar to shadow demo
     "name": "Demonic Restoration"
   - "desc": "The demon can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes dice:1d10|noform|noparens|avg|text(5) (d10) Force damage if it\
+      \ ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md),\
       \ the demon has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on ability checks and attack rolls."
     "name": "Light Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (3d8 + 3) Psychic\
-      \ damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:3d8+3|noform|noparens|avg|text(16) (3d8 + 3) Psychic damage."
     "name": "Umbral Claw"
 "bonus_actions":
   - "desc": "While in [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\

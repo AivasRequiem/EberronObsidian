@@ -52,8 +52,9 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
 "languages": "telepathy 30 ft."
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
+      \ damage plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage."
     "name": "Slam"
 "source":
   - "XMM"

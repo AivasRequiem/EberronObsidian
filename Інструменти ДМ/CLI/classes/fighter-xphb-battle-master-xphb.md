@@ -63,7 +63,7 @@ You learn two additional maneuvers of your choice when you reach Fighter levels 
 
 #### Superiority Dice
 
-You have four Superiority Dice, which are d8s (`d8`). A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
+You have four Superiority Dice, which are `dice:d8|noform|noparens|avg|text(d8s)` (`d8`). A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).
 
 You gain an additional Superiority Die when you reach Fighter levels 7 (five dice total) and 15 (six dice total).
 
@@ -87,15 +87,15 @@ Once you use this feature, you can't do so again until you finish a [Long Rest](
 
 ### Improved Combat Superiority (Level 10)
 
-Your Superiority Die becomes a `d10`.
+Your Superiority Die becomes a `dice:d10|noform|noparens|avg` (`d10`).
 
 ### Relentless (Level 15)
 
-Once per turn, when you use a maneuver, you can roll `d8` and use the number rolled instead of expending a Superiority Die.
+Once per turn, when you use a maneuver, you can roll `dice:1d8|noform|noparens|avg` (`d8`) and use the number rolled instead of expending a Superiority Die.
 
 ### Ultimate Combat Superiority (Level 18)
 
-Your Superiority Die becomes a `d12`.
+Your Superiority Die becomes a `dice:d12|noform|noparens|avg` (`d12`).
 
 ## Optional Features
 

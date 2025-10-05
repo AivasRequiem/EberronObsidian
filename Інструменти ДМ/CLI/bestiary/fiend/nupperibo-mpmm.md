@@ -63,16 +63,17 @@ Nupperibos unthinkingly obey any command they receive telepathically from anothe
 "traits":
   - "desc": "Any creature, other than a devil, that starts its turn within 20 feet\
       \ of one or more nupperibos must succeed on a DC 11 Constitution saving throw\
-      \ or take 5 (2d4) acid damage. A creature within the areas of two or more\
-      \ nupperibos makes the saving throw with disadvantage."
+      \ or take dice:2d4|noform|noparens|avg|text(5) (2d4) acid damage. A creature\
+      \ within the areas of two or more nupperibos makes the saving throw with disadvantage."
     "name": "Cloud of Vermin"
   - "desc": "In the Nine Hells, the nupperibo can flawlessly track any creature that\
       \ has taken damage from any nupperibo's Cloud of Vermin within the previous\
       \ 24 hours."
     "name": "Driven Tracker"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6\
+      \ + 3) piercing damage."
     "name": "Bite"
 "source":
   - "MPMM"

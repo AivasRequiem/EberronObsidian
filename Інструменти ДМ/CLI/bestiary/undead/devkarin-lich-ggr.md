@@ -41,9 +41,9 @@ The lich doesn't require air, food, drink, or sleep.
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+9"
-  - "wisdom": "+8"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+14"
@@ -62,12 +62,12 @@ The lich doesn't require air, food, drink, or sleep.
 "cr": "14"
 "traits":
   - "desc": "The lich is a 14th-level Golgari spellcaster. Its spellcasting ability\
-      \ is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lich\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [acid\
-      \ splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [chill touch](Ін\
-      струменти%20ДМ/CLI/spells/chill-touch-xphb.md), [mage hand](Інструменти%20ДМ\
-      /CLI/spells/mage-hand-xphb.md), [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md),\
-      \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
+      \ is Intelligence (spell save DC 17, dice:1d20+9|noform|noparens|text(+9)\
+      \ to hit with spell attacks). The lich has the following wizard spells prepared:\n\
+      \nCantrips (at will): [acid splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md),\
+      \ [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md), [mage hand](І\
+      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [poison spray](Інструменти%20Д\
+      М/CLI/spells/poison-spray-xphb.md), [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
       \n1st level (4 slots): [chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md),\
       \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [ray of\
       \ sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n2nd level\
@@ -101,8 +101,9 @@ The lich doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the lich drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit:\
-      \ 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution\
+  - "desc": "Melee Spell Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one creature. Hit: dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) poison damage, and the target must succeed on a DC 17 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
@@ -114,8 +115,8 @@ The lich doesn't require air, food, drink, or sleep.
   - "desc": "The lich uses Noxious Touch."
     "name": "Noxious Touch (Costs 2 Actions)"
   - "desc": "Each creature within 30 feet of the lich must make a DC 17 Constitution\
-      \ saving throw, taking 21 (6d6) necrotic damage on a failed save, or half\
-      \ as much damage on a successful one."
+      \ saving throw, taking dice:6d6|noform|noparens|avg|text(21) (6d6) necrotic\
+      \ damage on a failed save, or half as much damage on a successful one."
     "name": "Disrupt Life (Costs 3 Actions)"
 "source":
   - "GGR"

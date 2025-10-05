@@ -20,9 +20,9 @@ A creature needs an amount of food per day based on its size, as shown in the Fo
 | Tiny | 1/4 pound |
 | Small | 1 pound |
 | Medium | 1 pound |
-| Large | 4 pound |
-| Huge | 16 pound |
-| Gargantuan | 64 pound |
+| Large | 4 pounds |
+| Huge | 16 pounds |
+| Gargantuan | 64 pounds |
 ^food-needs-per-day
 
 *Source: Player's Handbook (2024) p. 371*

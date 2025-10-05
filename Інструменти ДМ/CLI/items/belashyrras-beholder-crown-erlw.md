@@ -21,7 +21,7 @@ While wearing the crown, you can see normally in darkness, both magical and nonm
 
 The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (1 charge), [disintegrate](Інструменти%20ДМ/CLI/spells/disintegrate-xphb.md) (6 charges), [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) (3 charges), [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md) (7 charges), [flesh to stone](Інструменти%20ДМ/CLI/spells/flesh-to-stone-xphb.md) (6 charges), [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md) (2 charges), [ray of enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md) (2 charges), [sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md) (1 charge), [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md) (3 charges), [telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md) (5 charges).
 
-The crown regains `1d6 + 3` expended charges daily at dawn.
+The crown regains `dice:1d6+3|noform|noparens|avg` (`1d6 + 3`) expended charges daily at dawn.
 
 ## Symbiotic Nature
 

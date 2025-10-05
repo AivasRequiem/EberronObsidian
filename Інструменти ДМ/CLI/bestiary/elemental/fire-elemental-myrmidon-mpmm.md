@@ -49,15 +49,16 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
       \ a 40-foot radius."
     "name": "Illumination"
   - "desc": "For every 5 feet the myrmidon moves in 1 foot or more of water, it takes\
-      \ 2 (d4) cold damage."
+      \ dice:1d4|noform|noparens|avg|text(2) (d4) cold damage."
     "name": "Water Susceptibility"
 "actions":
   - "desc": "The myrmidon makes three Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) force damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+7|noform|noparens|text(+7) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+4|noform|noparens|avg|text(7) (1d6\
+      \ + 4) force damage."
     "name": "Scimitar"
-  - "desc": "The myrmidon uses Multiattack. Each attack that hits deals an extra 7\
+  - "desc": "The myrmidon uses Multiattack. Each attack that hits deals an extra dice:2d6|noform|noparens|avg|text(7)\
       \ (2d6) fire damage."
     "name": "Fiery Strikes (Recharge 6)"
 "source":

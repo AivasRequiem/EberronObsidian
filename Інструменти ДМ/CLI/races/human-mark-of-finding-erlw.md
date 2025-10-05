@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 41*  
 
 
-- **Ability Scores**: Constitution +1; Wisdom +2
+- **Ability Scores**: con +1 wis +2
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom
@@ -36,7 +36,7 @@ You can see in dim light within 60 feet of you as if it were bright light, and i
 
 ### Hunter's Intuition
 
-When you make a Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) or Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check, you can roll a `d4` and add the number rolled to the ability check.
+When you make a Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) or Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Finder's Magic
 

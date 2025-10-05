@@ -30,6 +30,6 @@ title: Lightning Cannon
 
 ## Actions
 
-***Lightning Ball (Requires Aim).*** *Ranged Attack Roll:* `+6`, range 300/1,200 ft. *Hit:* 22 (`4d10`) Lightning damage.
+***Lightning Ball (Requires Aim).*** *Ranged Attack Roll:* `dice:1d20+6|noform|noparens|text(+6)`, range 300/1,200 ft. *Hit:* `dice:4d10|noform|noparens|avg|text(22)` (`4d10`) Lightning damage.
 ```
 ^statblock

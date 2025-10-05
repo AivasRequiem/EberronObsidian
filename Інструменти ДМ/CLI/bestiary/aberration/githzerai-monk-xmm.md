@@ -73,10 +73,10 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
   - !!int "10"
 "speed": "40 ft."
 "saves":
-  - "strength": "+3"
-  - "dexterity": "+4"
-  - "intelligence": "+3"
-  - "wisdom": "+4"
+  - "strength": !!int "3"
+  - "dexterity": !!int "4"
+  - "intelligence": !!int "3"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+4"
@@ -88,45 +88,20 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
 "actions":
   - "desc": "The githzerai makes two Psi Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Bludgeoning\
-      \ damage plus 9 (2d8) Psychic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8 + 2) Bludgeoning\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Psychic damage."
     "name": "Psi Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability:\n\nAt will: [Mage Hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n1/day:\
       \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
-      \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Psi-Powered Leap (2/Day)"
-  - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, requiring no spell components and using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Psionic Defense (2/Day)"
 "bonus_actions":
-  - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability:\n\nAt will: [Mage Hand](І\
-      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n1/day:\
-      \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
       \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
     "name": "Psi-Powered Leap (2/Day)"
-  - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
-      \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
-      \ spell's trigger, requiring no spell components and using the same spellcasting\
-      \ ability as Spellcasting.\n"
-    "name": "Psionic Defense (2/Day)"
 "reactions":
-  - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability:\n\nAt will: [Mage Hand](І\
-      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n1/day:\
-      \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
-    "name": "Spellcasting"
-  - "desc": "The githzerai casts [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md),\
-      \ requiring no spell components and using the same spellcasting ability as Spellcasting.\n"
-    "name": "Psi-Powered Leap (2/Day)"
   - "desc": "The githzerai casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\
       \ or [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md) in response to the\
       \ spell's trigger, requiring no spell components and using the same spellcasting\

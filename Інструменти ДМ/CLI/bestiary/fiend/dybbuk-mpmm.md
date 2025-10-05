@@ -60,18 +60,19 @@ In their natural form, dybbuks appear as translucent flying jellyfish, trailing 
 "cr": "4"
 "traits":
   - "desc": "The dybbuk can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
-      \ an object."
+      \ difficult terrain. It takes dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The dybbuk has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+4|noform|noparens|avg|text(13)\
       \ (2d8 + 4) necrotic damage. If the target is a creature, its hit point maximum\
-      \ is also reduced by 3 (d6). This reduction lasts until the target finishes\
-      \ a short or long rest. The target dies if its hit point maximum is reduced\
-      \ to 0."
+      \ is also reduced by dice:1d6|noform|noparens|avg|text(3) (d6). This reduction\
+      \ lasts until the target finishes a short or long rest. The target dies if its\
+      \ hit point maximum is reduced to 0."
     "name": "Tentacle"
   - "desc": "The dybbuk disappears into an intact corpse within 5 feet of it that\
       \ belonged to a Large or smaller Beast or Humanoid. The dybbuk gains 20 temporary\

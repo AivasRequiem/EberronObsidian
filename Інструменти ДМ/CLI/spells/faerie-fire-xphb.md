@@ -40,7 +40,7 @@ aliases:
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
 
-Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) in a 10-foot radius and can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
+Objects in a 20-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) within range are outlined in blue, green, or violet light (your choice). Each creature in the [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md) is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) in a 10-foot radius and can't benefit from the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition.
 
 [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) rolls against an affected creature or object have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if the attacker can see it.
 

@@ -31,9 +31,9 @@ Later, in an era marked by treachery and wickedness, the axe was lost in a blood
 
 The Axe of the Dwarvish Lords is a magic weapon that grants a +3 bonus to attack rolls and damage rolls made with it.
 
-When you attack a creature with the axe and roll a 20 on the `d20` for the attack roll, the axe deals an extra 20 Slashing damage.
+When you attack a creature with the axe and roll a 20 on the `dice:d20|noform|noparens|avg` (`d20`) for the attack roll, the axe deals an extra 20 Slashing damage.
 
-The axe has [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra `d8` Force damage, or an extra `2d8` Force damage if the target is a creature of the Giant type. Immediately after hitting or missing, the weapon flies back to your hand.
+The axe has [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra `dice:1d8|noform|noparens|avg` (`d8`) Force damage, or an extra `dice:2d8|noform|noparens|avg` (`2d8`) Force damage if the target is a creature of the Giant type. Immediately after hitting or missing, the weapon flies back to your hand.
 
 ## Blessings of Moradin
 

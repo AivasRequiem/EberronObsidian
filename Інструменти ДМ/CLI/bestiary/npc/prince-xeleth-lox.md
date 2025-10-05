@@ -34,9 +34,9 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -61,13 +61,15 @@ aliases:
 "actions":
   - "desc": "Xeleth makes two Scimitar attacks and uses Radiant Beam (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) slashing damage plus 10 (3d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) slashing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ radiant damage."
     "name": "Scimitar"
   - "desc": "A magical beam of radiance flashes out from Xeleth's hand in a 5-foot-wide,\
       \ 60-foot-long line. Each creature in the line must make a DC 16 Constitution\
-      \ saving throw, taking 18 (4d8) radiant damage on a failed save, or half as\
-      \ much damage on a successful one."
+      \ saving throw, taking dice:4d8|noform|noparens|avg|text(18) (4d8) radiant\
+      \ damage on a failed save, or half as much damage on a successful one."
     "name": "Radiant Beam (3/Day)"
   - "desc": "Xeleth casts one of the following spells, using Intelligence as the spellcasting\
       \ ability:\n\n1/day each: [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\

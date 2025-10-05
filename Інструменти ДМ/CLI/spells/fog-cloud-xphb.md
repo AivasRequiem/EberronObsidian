@@ -44,7 +44,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 hour
 
-You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is [Heavily Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/heavily-obscured-xphb.md). It lasts for the duration or until a strong wind (such as one created by [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)) disperses it.
+You create a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) of fog centered on a point within range. The [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) is [Heavily Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/heavily-obscured-xphb.md). It lasts for the duration or until a strong wind (such as one created by [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)) disperses it.
 
 **Using a Higher-Level Spell Slot.** The fog's radius increases by 20 feet for each spell slot level above 1.
 

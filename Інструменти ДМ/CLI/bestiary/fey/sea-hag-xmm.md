@@ -73,10 +73,6 @@ Sea hags cloak themselves in illusions to work their schemes. Roll on or choose 
       \ Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) before using\
       \ this trait to cast that spell again.\n"
     "name": "Coven Magic"
-  - "desc": "The hag casts [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
-      \ using Constitution as the spellcasting ability (spell save DC 13). The spell's\
-      \ duration is 24 hours.\n"
-    "name": "Illusory Appearance"
   - "desc": "The hag can breathe air and water."
     "name": "Amphibious"
   - "desc": "Wisdom Saving Throw: DC 11, any Beast or Humanoid that starts its turn\
@@ -86,26 +82,17 @@ Sea hags cloak themselves in illusions to work their schemes. Roll on or choose 
       \ to this hag's Vile Appearance for 24 hours."
     "name": "Vile Appearance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:2d6+3|noform|noparens|avg|text(10) (2d6 + 3) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "Wisdom Saving Throw: DC 11, one [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ creature the hag can see within 30 feet. Failure: If the target has 20 [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer,\
       \ it drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
-      \ Otherwise, the target takes 13 (3d8) Psychic damage."
+      \ Otherwise, the target takes dice:3d8|noform|noparens|avg|text(13) (3d8)\
+      \ Psychic damage."
     "name": "Death Glare (Recharge 5-6)"
-  - "desc": "While within 30 feet of at least two hag allies, the hag can cast one\
-      \ of the following spells, requiring no Material components, using the spell's\
-      \ normal casting time, and using Intelligence as the spellcasting ability (spell\
-      \ save DC 11): [Augury](Інструменти%20ДМ/CLI/spells/augury-xphb.md), [Find Familiar](І\
-      нструменти%20ДМ/CLI/spells/find-familiar-xphb.md), [Identify](Інструменти%20Д\
-      М/CLI/spells/identify-xphb.md), [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md),\
-      \ [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), or [Unseen Servant](І\
-      нструменти%20ДМ/CLI/spells/unseen-servant-xphb.md). The hag must finish a [Long\
-      \ Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) before using\
-      \ this trait to cast that spell again.\n"
-    "name": "Coven Magic"
   - "desc": "The hag casts [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
       \ using Constitution as the spellcasting ability (spell save DC 13). The spell's\
       \ duration is 24 hours.\n"

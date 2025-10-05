@@ -11,7 +11,7 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 49*  
 
 
-- **Ability Scores**: Charisma +1
+- **Ability Scores**: cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma
@@ -51,7 +51,7 @@ You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle i
 
 ### Cunning Intuition
 
-When you make a Charisma ([Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance)) or Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check, you can roll a `d4` and add the number rolled to the ability check.
+When you make a Charisma ([Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance)) or Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check, you can roll a `dice:d4|noform|noparens|avg` (`d4`) and add the number rolled to the ability check.
 
 ### Shape Shadows
 

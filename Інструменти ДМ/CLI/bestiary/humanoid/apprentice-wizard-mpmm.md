@@ -48,8 +48,9 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "languages": "any one language (usually Common)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 7 (1d10 + 2) force damage."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:1d10+2|noform|noparens|avg|text(7)\
+      \ (1d10 + 2) force damage."
     "name": "Arcane Burst"
   - "desc": "The apprentice casts one of the following spells, using Intelligence\
       \ as the spellcasting ability (spell save DC 12)\n\nAt will: [mage hand](І\

@@ -39,8 +39,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "8"
 "speed": "40 ft."
 "saves":
-  - "strength": "+6"
-  - "dexterity": "+5"
+  - "strength": !!int "6"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -56,7 +56,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The tiger makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d6+4|noform|noparens|avg|text(11) (2d6 + 4) Slashing\
       \ damage."
     "name": "Rend"
 "bonus_actions":

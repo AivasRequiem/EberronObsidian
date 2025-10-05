@@ -46,10 +46,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
   - !!int "14"
 "speed": "30 ft., fly 40 ft. (hover)"
 "saves":
-  - "strength": "+8"
-  - "dexterity": "+10"
-  - "intelligence": "+9"
-  - "wisdom": "+10"
+  - "strength": !!int "8"
+  - "dexterity": !!int "10"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -69,8 +69,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
 "actions":
   - "desc": "The githzerai makes three Unarmed Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
-      \ 9 (1d8 + 5) bludgeoning damage plus 18 (4d8) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+10|noform|noparens|text(+10) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+5|noform|noparens|avg|text(9) (1d8\
+      \ + 5) bludgeoning damage plus dice:4d8|noform|noparens|avg|text(18) (4d8)\
+      \ psychic damage."
     "name": "Unarmed Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 18):\n\nAt will:\
@@ -124,9 +126,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
       \ Plane for as long as the anarch remains within 1 mile of it (no action required).\
       \  "
     "name": ""
-  - "desc": "If the anarch dies, these effects end after d6 rounds. All formed substance\
-      \ becomes a chaotic churn of energy and matter, unraveling into unformed substance\
-      \ that dissipates d6 rounds later."
+  - "desc": "If the anarch dies, these effects end after dice:1d6|noform|noparens|avg\
+      \ (d6) rounds. All formed substance becomes a chaotic churn of energy and\
+      \ matter, unraveling into unformed substance that dissipates dice:1d6|noform|noparens|avg\
+      \ (d6) rounds later."
     "name": ""
 "source":
   - "MPMM"

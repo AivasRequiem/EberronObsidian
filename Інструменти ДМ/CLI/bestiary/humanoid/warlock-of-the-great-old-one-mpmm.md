@@ -44,8 +44,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -57,21 +57,22 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "cr": "6"
 "traits":
   - "desc": "At the start of each of the warlock's turns, each creature of its choice\
-      \ within 10 feet of it must succeed on a DC 15 Wisdom saving throw or take 10\
+      \ within 10 feet of it must succeed on a DC 15 Wisdom saving throw or take dice:3d6|noform|noparens|avg|text(10)\
       \ (3d6) psychic damage, provided that the warlock isn't [incapacitated](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Whispering Aura"
 "actions":
   - "desc": "The warlock makes two Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic\
-      \ damage."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+6|noform|noparens|text(+6)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d4+3|noform|noparens|avg|text(5)\
+      \ (1d4 + 3) piercing damage plus dice:3d6|noform|noparens|avg|text(10) (3d6)\
+      \ psychic damage."
     "name": "Dagger"
   - "desc": "The warlock opens a momentary extraplanar rift within 60 feet of it.\
       \ The rift is a scream-filled, 20-foot cube. Each creature in that area must\
-      \ make a DC 15 Wisdom saving throw. On a failed save, a creature takes 9 (2d8)\
-      \ psychic damage and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ make a DC 15 Wisdom saving throw. On a failed save, a creature takes dice:2d8|noform|noparens|avg|text(9)\
+      \ (2d8) psychic damage and is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of the warlock until the start of the warlock's next turn. On a successful\
       \ save, a creature takes half as much damage and isn't [frightened](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Frightened)."

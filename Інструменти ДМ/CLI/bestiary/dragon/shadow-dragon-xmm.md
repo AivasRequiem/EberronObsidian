@@ -57,8 +57,8 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
   - !!int "18"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+6"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+11"
@@ -83,16 +83,18 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 3 (d6) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 10 ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:1d6|noform|noparens|avg|text(3) (d6) Necrotic damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 17, each creature in a 60-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 35 (10d6) Necrotic damage. Success: Half damage. Failure or Success:\
-      \ A Humanoid reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ by this damage dies, and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md)\
-      \ rises from the corpse. The shadow is under the dragon's control and shares\
-      \ the dragon's [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md)\
+      \ dice:10d6|noform|noparens|avg|text(35) (10d6) Necrotic damage. Success:\
+      \ Half damage. Failure or Success: A Humanoid reduced to 0 [Hit Points](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage dies,\
+      \ and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md) rises from\
+      \ the corpse. The shadow is under the dragon's control and shares the dragon's\
+      \ [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md)\
       \ count but acts immediately after the dragon."
     "name": "Shadow Breath (Recharge 5-6)"
 "bonus_actions":
@@ -105,8 +107,9 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
       \ and it makes one Rend attack."
     "name": "Pounce"
   - "desc": "The dragon uses Shadow Stealth, and one creature of its choice that it\
-      \ can see within 10 feet of it takes 10 (3d6) Necrotic damage. The dragon\
-      \ can't take this action again until the start of its next turn."
+      \ can see within 10 feet of it takes dice:3d6|noform|noparens|avg|text(10)\
+      \ (3d6) Necrotic damage. The dragon can't take this action again until the\
+      \ start of its next turn."
     "name": "Veil of Shadow"
 "regional_effects":
   - "desc": "The region around a shadow dragon's lair is twisted by its presence,\
@@ -114,11 +117,11 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
     "name": ""
   - "desc": "- Negative Energy Suffusion. Whenever a creature within 1 mile of\
       \ the lair regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ from a spell, it subtracts d10 from the number of [Hit Points](Інструмен\
-      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) regained.  \n- Stifling\
-      \ Shadows. Within 1 mile of the lair, effects that normally create [Bright\
-      \ Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) instead\
-      \ create [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md),\
+      \ from a spell, it subtracts dice:1d10|noform|noparens|avg (d10) from the\
+      \ number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ regained.  \n- Stifling Shadows. Within 1 mile of the lair, effects that\
+      \ normally create [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
+      \ instead create [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md),\
       \ and creatures there have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks.\
       \  "

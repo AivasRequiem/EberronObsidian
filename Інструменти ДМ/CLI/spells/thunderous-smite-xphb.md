@@ -20,9 +20,9 @@ aliases:
 - **Components:** V
 - **Duration:** Instantaneous
 
-Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra `2d6` Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.
+Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra `dice:2d6|noform|noparens|avg` (`2d6`) Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d6` for each spell slot level above 1.
+**Using a Higher-Level Spell Slot.** The damage increases by `dice:1d6|noform|noparens|avg|text(d6)` for each spell slot level above 1.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
 

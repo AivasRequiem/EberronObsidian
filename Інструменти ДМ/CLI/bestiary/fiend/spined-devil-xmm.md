@@ -75,11 +75,13 @@ Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes,
   - "desc": "The devil makes two attacks, using Infernal Fork and Tail Spine in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Piercing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
     "name": "Infernal Fork"
-  - "desc": "Ranged Attack Roll: +4, range 20/80 ft. Hit: 4 (1d4 + 2) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 20/80\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Piercing damage\
+      \ plus dice:1d6|noform|noparens|avg|text(3) (d6) Fire damage."
     "name": "Tail Spine"
 "source":
   - "XMM"

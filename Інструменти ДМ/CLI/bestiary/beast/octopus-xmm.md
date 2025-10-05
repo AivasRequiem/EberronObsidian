@@ -51,7 +51,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The octopus can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Bludgeoning damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: 1 Bludgeoning damage."
     "name": "Tentacles"
 "reactions":
   - "desc": "Trigger: A creature ends its turn within 5 feet of the octopus while\

@@ -57,10 +57,10 @@ Oni torment villages that don't pay them or other supernatural forces respect. R
   - !!int "15"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -81,11 +81,13 @@ Oni torment villages that don't pay them or other supernatural forces respect. R
   - "desc": "The oni makes two Claw or Nightmare Ray attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing\
-      \ damage plus 9 (2d8) Necrotic damage."
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 10\
+      \ ft. Hit: dice:1d12+4|noform|noparens|avg|text(10) (1d12 + 4) Slashing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Necrotic damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: +5, range 60 ft. Hit: 9 (2d6 + 2) Psychic\
-      \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "Ranged Attack Roll: dice:1d20+5|noform|noparens|text(+5), range 60\
+      \ ft. Hit: dice:2d6+2|noform|noparens|avg|text(9) (2d6 + 2) Psychic damage,\
+      \ and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the oni's next turn."
     "name": "Nightmare Ray"
   - "desc": "The oni shape-shifts into a Small or Medium Humanoid or a Large Giant,\
@@ -99,18 +101,7 @@ Oni torment villages that don't pay them or other supernatural forces respect. R
       \ Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Sleep](Інструмен\
       ти%20ДМ/CLI/spells/sleep-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The oni casts [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
-      \ on itself, requiring no spell components and using the same spellcasting ability\
-      \ as Spellcasting.\n"
-    "name": "Invisibility"
 "bonus_actions":
-  - "desc": "The oni casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/day\
-      \ each: [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (level\
-      \ 2 version), [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [Gaseous\
-      \ Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Sleep](Інструмен\
-      ти%20ДМ/CLI/spells/sleep-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The oni casts [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ on itself, requiring no spell components and using the same spellcasting ability\
       \ as Spellcasting.\n"

@@ -87,10 +87,12 @@ Roll on or choose a result from the Xorn Delicacies table to inspire a xorn's fa
 "actions":
   - "desc": "The xorn makes one Bite attack and three Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 17 (4d6 + 3) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:4d6+3|noform|noparens|avg|text(17) (4d6 + 3) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Slashing\
       \ damage."
     "name": "Claw"
 "bonus_actions":

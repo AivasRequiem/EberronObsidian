@@ -42,7 +42,7 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
   - !!int "16"
 "speed": "30 ft., fly 50 ft. (hover, Graystaff magic)"
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)"
     "desc": "+4"
@@ -73,11 +73,14 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
 "actions":
   - "desc": "The hag makes two Slam or Frost Shard attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d8 + 1) bludgeoning damage plus 18 (4d8) cold damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d8+1|noform|noparens|avg|text(10)\
+      \ (2d8 + 1) bludgeoning damage plus dice:4d8|noform|noparens|avg|text(18)\
+      \ (4d8) cold damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
-      \ 30 (6d8 + 3) cold damage, and the target's speed is reduced by 10 feet until\
+  - "desc": "Ranged Spell Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ range 60 ft., one target. Hit: dice:6d8+3|noform|noparens|avg|text(30)\
+      \ (6d8 + 3) cold damage, and the target's speed is reduced by 10 feet until\
       \ the start of the hag's next turn."
     "name": "Frost Shard"
   - "desc": "The hag feeds on the corpse of one enemy within reach that died within\

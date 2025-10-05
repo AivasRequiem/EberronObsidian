@@ -37,12 +37,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "5"
 "speed": "50 ft."
 "saves":
-  - "constitution": "+5"
+  - "constitution": !!int "5"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d4+2|noform|noparens|avg|text(4) (1d4 + 2) Bludgeoning\
       \ damage."
     "name": "Bite"
 "source":

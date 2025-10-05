@@ -22,7 +22,7 @@ You're also a member of a cult devoted to an ancient demon who delights in viole
 
 ## A Flair for the Dramatic
 
-Rakdos performance styles typically fuse standard circus-style acrobatics with fire, wrought-iron spikes and hooks, and monsters. You can roll a `d8` or choose from the options in the Performance Options table to determine your preferred style of performance.
+Rakdos performance styles typically fuse standard circus-style acrobatics with fire, wrought-iron spikes and hooks, and monsters. You can roll a `dice:d8|noform|noparens|avg` (`d8`) or choose from the options in the Performance Options table to determine your preferred style of performance.
 
 **Performance Options**
 

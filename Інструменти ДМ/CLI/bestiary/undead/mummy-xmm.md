@@ -71,7 +71,7 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
   - !!int "12"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "damage_vulnerabilities": "fire"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
@@ -84,16 +84,18 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
 "actions":
   - "desc": "The mummy makes two Rotting Fist attacks and uses Dreadful Glare."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning\
-      \ damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is\
-      \ cursed. While cursed, the target can't regain [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md), its [Hit Point](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) maximum doesn't return to normal\
-      \ when finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
-      \ and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies\
-      \ and turns to dust if reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ by this attack."
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d10+3|noform|noparens|avg|text(8) (1d10 + 3) Bludgeoning\
+      \ damage plus dice:3d6|noform|noparens|avg|text(10) (3d6) Necrotic damage.\
+      \ If the target is a creature, it is cursed. While cursed, the target can't\
+      \ regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
+      \ its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum doesn't return to normal when finishing a [Long Rest](Інструменти\
+      %20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), and its [Hit Point](Інстру\
+      менти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by\
+      \ dice:3d6|noform|noparens|avg|text(10) (3d6) every 24 hours that elapse.\
+      \ A creature dies and turns to dust if reduced to 0 [Hit Points](Інструменти\
+      %20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this attack."
     "name": "Rotting Fist"
   - "desc": "Wisdom Saving Throw: DC 11, one creature the mummy can see within 60\
       \ feet. Failure: The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\

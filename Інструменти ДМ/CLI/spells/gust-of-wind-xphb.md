@@ -45,13 +45,13 @@ aliases:
 - **Components:** V, S, M (a legume seed)
 - **Duration:** Concentration, up to 1 minute
 
-A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.
+A [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md) of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md) must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md). A creature that ends its turn in the [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md) must make the same save.
 
-Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.
+Any creature in the [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md) must spend 2 feet of movement for every 1 foot it moves when moving closer to you.
 
 The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a  chance to extinguish them.
 
-As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on your later turns, you can change the direction in which the Line blasts from you.
+As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on your later turns, you can change the direction in which the [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md) blasts from you.
 
 **Classes**: [Rogue (Arcane Trickster)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Fighter (Eldritch Knight)](Інструменти%20ДМ/CLI/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB"); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Sea)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-sea-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
 

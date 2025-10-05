@@ -75,18 +75,19 @@ Rakshasas' appearances combine humanlike bodies with the features of animals and
 "actions":
   - "desc": "The rakshasa makes three Cursed Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is\
-      \ cursed. While cursed, the target gains no benefit from finishing a [Short](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 5 ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Slashing\
+      \ damage plus dice:3d12|noform|noparens|avg|text(19) (3d12) Necrotic damage.\
+      \ If the target is a creature, it is cursed. While cursed, the target gains\
+      \ no benefit from finishing a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
+      \ or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)."
     "name": "Cursed Touch"
   - "desc": "Wisdom Saving Throw: DC 18, each enemy in a 30-foot [Emanation](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has\
-      \ the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) and\
-      \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) conditions\
-      \ until the start of the rakshasa's next turn."
+      \ from the rakshasa. Failure: dice:8d6|noform|noparens|avg|text(28) (8d6)\
+      \ Psychic damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ and [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ conditions until the start of the rakshasa's next turn."
     "name": "Baleful Command (Recharge 5-6)"
   - "desc": "The rakshasa casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 18):\n\

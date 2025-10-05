@@ -55,7 +55,8 @@ Darkmantles share similarities with piercers and ropers and often hunt near thos
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+5|noform|noparens|text(+5), reach 5\
+      \ ft. Hit: dice:1d6+3|noform|noparens|avg|text(6) (1d6 + 3) Bludgeoning\
       \ damage, and the darkmantle attaches to the target. If the target is a Medium\
       \ or smaller creature and the darkmantle had [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on the attack roll, it covers the target, which has the [Blinded](Інструме\

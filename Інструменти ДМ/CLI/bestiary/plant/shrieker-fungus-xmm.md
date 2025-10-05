@@ -15,7 +15,7 @@ aliases:
 # [Shrieker Fungus](Інструменти ДМ\CLI\bestiary\plant/shrieker-fungus-xmm.md)
 *Source: Monster Manual (2024) p. 125. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*  
 
-If exposed to light or otherwise disturbed, mushroomlike shriekers emit a high-pitched noise that gives them their name. This wailing might alert other creatures or attract predators.
+If exposed to light or otherwise disturbed, mushroom-like shriekers emit a high-pitched noise that gives them their name. This wailing might alert other creatures or attract predators.
 
 ## Fungi
 

@@ -40,7 +40,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "5"
 "speed": "40 ft., climb 30 ft."
 "saves":
-  - "strength": "+2"
+  - "strength": !!int "2"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -48,9 +48,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or\
-      \ 2 (d4) Bludgeoning damage if the goat moved 20+ feet straight toward the\
-      \ target immediately before the hit."
+  - "desc": "Melee Attack Roll: dice:1d20+2|noform|noparens|text(+2), reach 5\
+      \ ft. Hit: 1 Bludgeoning damage, or dice:1d4|noform|noparens|avg|text(2)\
+      \ (d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target\
+      \ immediately before the hit."
     "name": "Ram"
 "source":
   - "XMM"

@@ -56,11 +56,13 @@ Ogres trace their origins to wrathful deities such as Erythnul, Takhisis, and Va
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+6|noform|noparens|text(+6), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
       \ damage."
     "name": "Greatclub"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 11 (2d6 + 4) Piercing damage."
+  - "desc": "Melee  or Ranged Attack Roll: dice:1d20+6|noform|noparens|text(+6),\
+      \ reach 5 ft. or range 30/120 ft. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) Piercing damage."
     "name": "Javelin"
 "source":
   - "XMM"

@@ -54,8 +54,8 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
   - !!int "19"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+4"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+6"
@@ -71,12 +71,14 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Paralyzing Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 10 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Slashing\
       \ damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 17, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 49 (11d8) Cold damage. Success: Half damage."
+      \ dice:11d8|noform|noparens|avg|text(49) (11d8) Cold damage. Success:\
+      \ Half damage."
     "name": "Cold Breath (Recharge 5-6)"
   - "desc": "Constitution Saving Throw: DC 17, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). 1st Failure:\

@@ -64,10 +64,10 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
   - !!int "16"
 "speed": "40 ft., fly 40 ft."
 "saves":
-  - "strength": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "strength": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -92,14 +92,17 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 "actions":
   - "desc": "The devil makes two Claw attacks and one Infernal Sting attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing\
-      \ damage plus 18 (4d8) Poison damage, and the target has the [Poisoned](Ін\
-      струменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
-      \ the devil's next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
-      \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+  - "desc": "Melee Attack Roll: dice:1d20+8|noform|noparens|text(+8), reach 10\
+      \ ft. Hit: dice:2d10+4|noform|noparens|avg|text(15) (2d10 + 4) Piercing\
+      \ damage plus dice:4d8|noform|noparens|avg|text(18) (4d8) Poison damage,\
+      \ and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the start of the devil's next turn. While [Poisoned](Інстр\
+      ументи%20ДМ/CLI/rules/conditions.md#Poisoned), the target can't regain [Hit\
+      \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Infernal Sting"
 "source":
   - "XMM"

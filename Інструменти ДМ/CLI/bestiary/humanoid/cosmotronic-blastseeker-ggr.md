@@ -36,8 +36,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -50,12 +50,12 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
 "cr": "4"
 "traits":
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
-      \ save DC 14, +6 to hit with spell attacks). The blastseeker can innately\
-      \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [scorching ray](Інст\
-      рументи%20ДМ/CLI/spells/scorching-ray-xphb.md), [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md),\
-      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n2/day:\
-      \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)"
+      \ save DC 14, dice:1d20+6|noform|noparens|text(+6) to hit with spell attacks).\
+      \ The blastseeker can innately cast the following spells, requiring no components\
+      \ other than its Izzet gear, which doesn't function for others:\n\n3/day each:\
+      \ [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md), [shield](І\
+      нструменти%20ДМ/CLI/spells/shield-xphb.md), [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\
+      \n2/day: [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the blastseeker rolls damage for a spell, it can reroll up to four\
       \ dice of damage. It must use the new dice."
@@ -64,9 +64,10 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ with advantage."
     "name": "Tides of Chaos (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage if used\
-      \ with two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) bludgeoning damage, or dice:1d10+2|noform|noparens|avg|text(7) (1d10\
+      \ + 2) bludgeoning damage if used with two hands."
     "name": "Warhammer"
 "source":
   - "GGR"

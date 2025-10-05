@@ -40,7 +40,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -54,7 +54,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ its Strength."
     "name": "Jumper"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: 1 Slashing damage."
     "name": "Scratch"
 "source":
   - "XMM"

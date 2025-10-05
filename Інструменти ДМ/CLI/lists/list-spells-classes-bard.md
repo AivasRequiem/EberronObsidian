@@ -71,7 +71,7 @@ aliases:
 - [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md "XPHB")
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB")
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") (\*)
-- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD")
+- [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") (\*)
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
@@ -114,7 +114,7 @@ aliases:
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
 - [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md "XPHB") (\*)
 - [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md "XPHB")
-- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD")
+- [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD") (\*)
 
 ## 5th Level
 

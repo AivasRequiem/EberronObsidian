@@ -41,9 +41,9 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -75,7 +75,8 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
   - "desc": "The dryad makes three attacks, using its vine staff, its longbow, or\
       \ both."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
       \ (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Dexterity saving throw or become [restrained](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Restrained) by twisting vines for 1 minute. A target\
@@ -84,8 +85,9 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
       М/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](Інструменти%20Д\
       М/CLI/rules/skills.md#Acrobatics)) check, ending the effect on itself on a success."
     "name": "Vine Staff"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit:\
-      \ 8 (1d8 + 4) piercing damage."
+  - "desc": "Ranged Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ range 150/600 ft., one target. Hit: dice:1d8+4|noform|noparens|avg|text(8)\
+      \ (1d8 + 4) piercing damage."
     "name": "Longbow"
   - "desc": "The dryad magically summons a mount, which appears in an unoccupied space\
       \ within 60 feet of the dryad. The mount remains for 8 hours, until it or the\

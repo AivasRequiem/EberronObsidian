@@ -53,10 +53,10 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
   - !!int "25"
 "speed": "50 ft., swim 50 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+16"
-  - "wisdom": "+11"
-  - "charisma": "+15"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "16"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+11"
@@ -86,26 +86,28 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
   - "desc": "Demogorgon makes two Tentacle attacks. He can replace one attack with\
       \ a use of Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
-      \ 28 (3d12 + 9) force damage. If the target is a creature, it must succeed\
-      \ on a DC 23 Constitution saving throw, or its hit point maximum is reduced\
-      \ by an amount equal to the damage taken. This reduction lasts until the target\
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 10 ft., one target. Hit: dice:3d12+9|noform|noparens|avg|text(28)\
+      \ (3d12 + 9) force damage. If the target is a creature, it must succeed on\
+      \ a DC 23 Constitution saving throw, or its hit point maximum is reduced by\
+      \ an amount equal to the damage taken. This reduction lasts until the target\
       \ finishes a long rest. The target dies if its hit point maximum is reduced\
       \ to 0."
     "name": "Tentacle"
   - "desc": "Demogorgon turns his magical gaze toward one creature he can see within\
       \ 120 feet of him. The target must succeed on a DC 23 Wisdom saving throw or\
-      \ suffer one of the following effects (choose one or roll a d6):\n\n- 1–\
-      2 Beguiling Gaze. The target is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ until the start of Demogorgon's next turn or until Demogorgon is no longer\
-      \ within line of sight.  \n- 3–4 Confusing Gaze. The target suffers the\
-      \ effect of the [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md) spell\
-      \ without making a saving throw. The effect lasts until the start of Demogorgon's\
-      \ next turn. Demogorgon doesn't need to concentrate on the spell.  \n- 5–\
-      6 Hypnotic Gaze. The target is [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses\
-      \ how the [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) target\
-      \ uses its action, reaction, and movement.  "
+      \ suffer one of the following effects (choose one or roll a dice:d6|noform|noparens|avg\
+      \ (d6)):\n\n- 1–2 Beguiling Gaze. The target is [stunned](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Stunned) until the start of Demogorgon's next\
+      \ turn or until Demogorgon is no longer within line of sight.  \n- 3–4 Confusing\
+      \ Gaze. The target suffers the effect of the [confusion](Інструменти%20ДМ\
+      /CLI/spells/confusion-xphb.md) spell without making a saving throw. The effect\
+      \ lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to\
+      \ concentrate on the spell.  \n- 5–6 Hypnotic Gaze. The target is [charmed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) by Demogorgon until the start\
+      \ of Demogorgon's next turn. Demogorgon chooses how the [charmed](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Charmed) target uses its action, reaction, and\
+      \ movement.  "
     "name": "Gaze"
   - "desc": "Demogorgon casts one of the following spells, requiring no material components\
       \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\
@@ -121,8 +123,10 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
   - "desc": "Demogorgon uses Gaze and must use either Beguiling Gaze or Confusing\
       \ Gaze."
     "name": "Gaze"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
-      \ 20 (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 15 ft., one target. Hit: dice:2d10+9|noform|noparens|avg|text(20)\
+      \ (2d10 + 9) bludgeoning damage plus dice:2d10|noform|noparens|avg|text(11)\
+      \ (2d10) necrotic damage."
     "name": "Tail"
   - "desc": "Demogorgon uses Spellcasting."
     "name": "Cast a Spell (Costs 2 Actions)"
@@ -159,7 +163,8 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
       \ with [poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/venomous-snake-xmm.md)\
       \ and other venomous Beasts.  "
     "name": ""
-  - "desc": "If Demogorgon dies, these effects fade over the course of d10 days."
+  - "desc": "If Demogorgon dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
+      \ (d10) days."
     "name": ""
 "source":
   - "MPMM"

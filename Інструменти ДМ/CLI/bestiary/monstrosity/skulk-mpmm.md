@@ -47,7 +47,7 @@ Cruel and chaotic, skulks carry out their orders in the most violent manner poss
   - !!int "1"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+2"
+  - "constitution": !!int "2"
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
@@ -61,15 +61,17 @@ Cruel and chaotic, skulks carry out their orders in the most violent manner poss
       \ The skulk appears as a dim, translucent form in the light of a candle made\
       \ of fat rendered from a corpse whose identity is unknown.  \n- Children.\
       \ Humanoid children, aged 10 and under, can see through this invisibility. \
-      \ \n- Reflective Surfaces. The skulk appears as a drab, smoothskinned biped\
+      \ \n- Reflective Surfaces. The skulk appears as a drab, smooth-skinned biped\
       \ if its reflection can be seen in a mirror or on another surface.  "
     "name": "Fallible Invisibility"
   - "desc": "The skulk leaves no tracks to indicate where it has been or where it's\
       \ headed."
     "name": "Trackless"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) slashing damage plus 3 (d6) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d4+4|noform|noparens|avg|text(6) (1d4\
+      \ + 4) slashing damage plus dice:1d6|noform|noparens|avg|text(3) (d6) necrotic\
+      \ damage."
     "name": "Claw"
 "source":
   - "MPMM"

@@ -31,7 +31,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by `d4`. A creature can benefit from this spell only once per turn.
+You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by `dice:1d4|noform|noparens|avg` (`d4`). A creature can benefit from this spell only once per turn.
 
 **Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
 

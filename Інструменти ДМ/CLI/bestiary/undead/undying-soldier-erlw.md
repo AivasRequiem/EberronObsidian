@@ -88,10 +88,12 @@ An undying doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The soldier makes two spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage or 7 (1d8 + 3) piercing\
-      \ damage if used with two hands to make a melee attack, plus 9 (2d8) radiant\
-      \ damage if the target is a fiend or undead."
+  - "desc": "Melee  or Ranged Weapon Attack: dice:1d20+5|noform|noparens|text(+5)\
+      \ to hit, reach 5 ft. or range 20/60 ft., one target. Hit: dice:1d6+3|noform|noparens|avg|text(6)\
+      \ (1d6 + 3) piercing damage or dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) piercing damage if used with two hands to make a melee attack, plus\
+      \ dice:2d8|noform|noparens|avg|text(9) (2d8) radiant damage if the target\
+      \ is a fiend or undead."
     "name": "Spear"
 "source":
   - "ERLW"

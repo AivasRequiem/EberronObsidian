@@ -56,10 +56,10 @@ Spies gather information and disseminate lies, manipulating people to gain the r
   - !!int "16"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+5"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -79,18 +79,20 @@ Spies gather information and disseminate lies, manipulating people to gain the r
 "actions":
   - "desc": "The spy makes three attacks, using Rapier or Hand Crossbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 14 (2d8 + 5) Piercing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+9|noform|noparens|text(+9), reach 5\
+      \ ft. Hit: dice:2d8+5|noform|noparens|avg|text(14) (2d8 + 5) Piercing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Rapier"
-  - "desc": "Ranged Attack Roll: +9, range 30/120 ft. Hit: 12 (2d6 + 5) Piercing\
-      \ damage plus 9 (2d8) Poison damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+9|noform|noparens|text(+9), range 30/120\
+      \ ft. Hit: dice:2d6+5|noform|noparens|avg|text(12) (2d6 + 5) Piercing\
+      \ damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Poison damage."
     "name": "Hand Crossbow"
   - "desc": "The spy throws a bomb to a point it can see within 30 feet of itself.\
       \ Constitution Saving Throw: DC 16, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on that point. Failure: 28 (8d6) Poison damage, and the target has the\
-      \ [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until\
-      \ the end of the spy's next turn. Success: Half damage only."
+      \ on that point. Failure: dice:8d6|noform|noparens|avg|text(28) (8d6)\
+      \ Poison damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ condition until the end of the spy's next turn. Success: Half damage only."
     "name": "Smoke Bomb (1/Day)"
 "bonus_actions":
   - "desc": "The spy takes the Dash, Disengage, or Hide action."

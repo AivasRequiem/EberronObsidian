@@ -9,10 +9,11 @@ aliases:
 ---
 # Boon of Spell Recall
 *Source: Player's Handbook (2024) p. 211. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*  
+
 **Prerequisite**: 19th; Spellcasting or Pact Magic feature
-**Ability Score Increase**: Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.
+
 You gain the following benefits.
 
-## Free Casting
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.
 
-Whenever you cast a spell with a level 1-4 spell slot, roll `d4`. If the number you roll is the same as the slot's level, the slot isn't expended.
+**Free Casting.** Whenever you cast a spell with a level 1-4 spell slot, roll `dice:1d4|noform|noparens|avg` (`d4`). If the number you roll is the same as the slot's level, the slot isn't expended.

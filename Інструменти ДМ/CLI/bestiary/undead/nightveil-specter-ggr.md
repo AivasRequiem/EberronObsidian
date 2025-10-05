@@ -49,8 +49,8 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+7"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -79,12 +79,14 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
 "actions":
   - "desc": "The specter makes two scythe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (2d6 + 4) slashing damage plus 13 (3d8) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) slashing damage plus dice:3d8|noform|noparens|avg|text(13) (3d8)\
+      \ psychic damage."
     "name": "Scythe"
   - "desc": "The specter magically emits psychic energy in a 60-foot cone. Each creature\
-      \ in that area must succeed on a DC 15 Wisdom saving throw or take 22 (5d8)\
-      \ psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ in that area must succeed on a DC 15 Wisdom saving throw or take dice:5d8|noform|noparens|avg|text(22)\
+      \ (5d8) psychic damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. The [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ creature can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."

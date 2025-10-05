@@ -46,8 +46,8 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
   - !!int "17"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "wisdom": "+5"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -65,7 +65,8 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
 "actions":
   - "desc": "The satyr makes three Prance attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d8+4|noform|noparens|avg|text(13) (2d8 + 4) Bludgeoning\
       \ damage, and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition until the start of the satyr's next turn."
     "name": "Prance"
@@ -76,10 +77,11 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
       \ condition for 1 minute. While [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
       \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition and uses all its movement to dance in place. The effect ends on\
-      \ the target if it takes any damage.  \n- Frightening. 10 (2d6 + 3) Psychic\
-      \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition for 1 minute. If the target ends its turn out of line of sight from\
-      \ the satyr, the condition ends on it.  "
+      \ the target if it takes any damage.  \n- Frightening. 10 (dice:2d6+3|noform|noparens|avg\
+      \ (2d6 + 3)) Psychic damage, and the target has the [Frightened](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Frightened) condition for 1 minute. If the target\
+      \ ends its turn out of line of sight from the satyr, the condition ends on it.\
+      \  "
     "name": "Fey Melody (Recharge 4-6)"
 "source":
   - "XMM"

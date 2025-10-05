@@ -31,4 +31,4 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md)
 
-*Source: Player's Handbook (2024) p. 279. Available in the Free Rules (2024)*
+*Source: Player's Handbook (2024) p. 279. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

@@ -39,7 +39,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "10"
 "speed": "5 ft., fly 60 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -54,7 +54,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
+  - "desc": "Melee Attack Roll: dice:1d20+4|noform|noparens|text(+4), reach 5\
+      \ ft. Hit: dice:1d10+2|noform|noparens|avg|text(7) (1d10 + 2) Slashing\
       \ damage."
     "name": "Talons"
   - "desc": "The owl casts one of the following spells, requiring no spell components\

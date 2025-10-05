@@ -61,7 +61,8 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
 "actions":
   - "desc": "The golem makes one Pinion attack and two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
       \ (2d6 + 5) piercing damage. If the target is a Medium or smaller creature,\
       \ it is pinned beneath the bony pinion and [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
       \ The golem has two pinions, each of which can restrain one target. If a creature\
@@ -71,13 +72,16 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
       \ at the start of its turn with a successful DC 17 Strength ([Athletics](Інс\
       трументи%20ДМ/CLI/rules/skills.md#Athletics)) check."
     "name": "Pinion"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-      \ (2d6 + 5) piercing damage plus 5 (d10) necrotic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) piercing damage plus dice:1d10|noform|noparens|avg|text(5) (d10)\
+      \ necrotic damage."
     "name": "Rend"
   - "desc": "The golem emits a 60-foot cone of petrifying gas from its mouth. Each\
       \ creature in that area must succeed on a DC 15 Constitution saving throw or\
-      \ take 35 (10d6) poison damage and be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ as it begins to turn to stone. The [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ take dice:10d6|noform|noparens|avg|text(35) (10d6) poison damage and be\
+      \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) as it begins\
+      \ to turn to stone. The [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ target must repeat the saving throw at the end of its next turn. On a successful\
       \ save, the effect ends on the target. On a failed save, the target is [petrified](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Petrified)."

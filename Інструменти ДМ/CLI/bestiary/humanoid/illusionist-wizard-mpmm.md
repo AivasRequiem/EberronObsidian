@@ -40,8 +40,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+2"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -53,8 +53,9 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The illusionist makes two Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 14 (2d10 + 3) psychic damage."
+  - "desc": "Melee  or Ranged Spell Attack: dice:1d20+5|noform|noparens|text(+5)\
+      \ to hit, reach 5 ft. or range 120 ft., one target. Hit: dice:2d10+3|noform|noparens|avg|text(14)\
+      \ (2d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The illusionist casts one of the following spells, using Intelligence\
       \ as the spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](І\

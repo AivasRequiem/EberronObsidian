@@ -47,12 +47,12 @@ Boros reckoners combine physical power and magical prowess, serving as the shock
 "cr": "4"
 "traits":
   - "desc": "The reckoner is a 5th-level Boros spellcaster. Its spellcasting ability\
-      \ is Intelligence (spell save DC 12, +4 to hit with spell attacks). The reckoner\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [blade\
-      \ ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md), [light](Інструменти\
-      %20ДМ/CLI/spells/light-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
-      \ [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st\
-      \ level (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
+      \ is Intelligence (spell save DC 12, dice:1d20+4|noform|noparens|text(+4)\
+      \ to hit with spell attacks). The reckoner has the following wizard spells prepared:\n\
+      \nCantrips (at will): [blade ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md),\
+      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [message](Інструменти\
+      %20ДМ/CLI/spells/message-xphb.md), [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\
+      \n1st level (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
       \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md), [thunderwave](Інстру\
       менти%20ДМ/CLI/spells/thunderwave-xphb.md), [witch bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md)\n\
       \n2nd level (3 slots): [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
@@ -62,9 +62,10 @@ Boros reckoners combine physical power and magical prowess, serving as the shock
   - "desc": "The reckoner has advantage on initiative rolls."
     "name": "First Strike"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
-      \ two hands."
+  - "desc": "Melee Weapon Attack: dice:1d20+5|noform|noparens|text(+5) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+3|noform|noparens|avg|text(7) (1d8\
+      \ + 3) slashing damage, or dice:1d10+3|noform|noparens|avg|text(8) (1d10\
+      \ + 3) slashing damage if used with two hands."
     "name": "Longsword"
 "reactions":
   - "desc": "When a creature hits the reckoner with an attack, the attacker takes\

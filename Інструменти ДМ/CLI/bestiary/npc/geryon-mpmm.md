@@ -47,10 +47,10 @@ Geryon has recently reclaimed his ancient fortress, Coldsteel, a sprawling compl
   - !!int "23"
 "speed": "30 ft., fly 50 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+13"
-  - "wisdom": "+10"
-  - "charisma": "+13"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -81,22 +81,25 @@ Geryon has recently reclaimed his ancient fortress, Coldsteel, a sprawling compl
 "actions":
   - "desc": "Geryon makes one Claw attack and one Stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
-      \ 23 (4d6 + 9) cold damage. If the target is Large or smaller, it is [grappled](І\
+  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
+      \ reach 15 ft., one target. Hit: dice:4d6+9|noform|noparens|avg|text(23)\
+      \ (4d6 + 9) cold damage. If the target is Large or smaller, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (DC 24), and it is [restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) until the grapple ends.\
       \ Geryon can grapple one creature at a time. If the target is already [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by Geryon, the target takes\
-      \ an extra 27 (6d8) cold damage."
+      \ an extra dice:6d8|noform|noparens|avg|text(27) (6d8) cold damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one creature. Hit:\
-      \ 14 (2d4 + 9) force damage, and the target must succeed on a DC 21 Constitution\
-      \ saving throw or take 13 (2d12) poison damage and become [poisoned](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Poisoned) until it finishes a short or long\
-      \ rest. The target's hit point maximum is reduced by an amount equal to half\
-      \ the poison damage taken. This reduction lasts until the [poisoned](Інструм\
-      енти%20ДМ/CLI/rules/conditions.md#Poisoned) condition is removed. The target\
-      \ dies if its hit point maximum is reduced to 0."
+  - "desc": "Melee Weapon Attack: dice:1d20+16|noform|noparens|text(+16) to hit,\
+      \ reach 20 ft., one creature. Hit: dice:2d4+9|noform|noparens|avg|text(14)\
+      \ (2d4 + 9) force damage, and the target must succeed on a DC 21 Constitution\
+      \ saving throw or take dice:2d12|noform|noparens|avg|text(13) (2d12) poison\
+      \ damage and become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ until it finishes a short or long rest. The target's hit point maximum is\
+      \ reduced by an amount equal to half the poison damage taken. This reduction\
+      \ lasts until the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition is removed. The target dies if its hit point maximum is reduced\
+      \ to 0."
     "name": "Stinger"
   - "desc": "Geryon teleports, along with any equipment he is wearing and carrying,\
       \ up to 120 feet to an unoccupied space he can see."
@@ -131,11 +134,12 @@ Geryon has recently reclaimed his ancient fortress, Coldsteel, a sprawling compl
       \ Geryon causes a blast of cold to burst from the ground at a point he can see\
       \ within 120 feet of him. The cold fills a cube, 10 feet on each side, centered\
       \ on that point. Each creature in that area must succeed on a DC 21 Constitution\
-      \ saving throw or take 28 (8d6) cold damage.  \n- Hateful Restraints.\
-      \ Geryon targets one creature he can see within 60 feet of him. The target must\
-      \ succeed on a DC 21 Wisdom saving throw or become [restrained](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Restrained) for 1 minute. The target can end the\
-      \ effect on itself if it deals any damage to one or more of its allies.  "
+      \ saving throw or take dice:8d6|noform|noparens|avg|text(28) (8d6) cold\
+      \ damage.  \n- Hateful Restraints. Geryon targets one creature he can see\
+      \ within 60 feet of him. The target must succeed on a DC 21 Wisdom saving throw\
+      \ or become [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+      \ for 1 minute. The target can end the effect on itself if it deals any damage\
+      \ to one or more of its allies.  "
     "name": ""
 "regional_effects":
   - "desc": "The region containing Geryon's lair is warped by his magic, creating\
@@ -150,7 +154,8 @@ Geryon has recently reclaimed his ancient fortress, Coldsteel, a sprawling compl
       \ consider safe. Passing through a portal always deposits a traveler somewhere\
       \ in Stygia.  "
     "name": ""
-  - "desc": "If Geryon dies, these effects fade over the course of d10 days."
+  - "desc": "If Geryon dies, these effects fade over the course of dice:1d10|noform|noparens|avg\
+      \ (d10) days."
     "name": ""
 "source":
   - "MPMM"

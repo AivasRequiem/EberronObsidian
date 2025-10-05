@@ -51,8 +51,8 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
   - !!int "18"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -77,12 +77,14 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
       \ use of Spellcasting to cast [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)\
       \ (level 3 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 15 (2d8 + 6) Slashing\
-      \ damage plus 7 (2d6) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+11|noform|noparens|text(+11), reach\
+      \ 10 ft. Hit: dice:2d8+6|noform|noparens|avg|text(15) (2d8 + 6) Slashing\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Poison damage."
     "name": "Rend"
   - "desc": "Constitution Saving Throw: DC 18, each creature in a 60-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 56 (16d6) Poison damage. Success: Half damage."
+      \ dice:16d6|noform|noparens|avg|text(56) (16d6) Poison damage. Success:\
+      \ Half damage."
     "name": "Poison Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\
@@ -96,10 +98,10 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
     "name": "Mind Invasion"
   - "desc": "Constitution Saving Throw: DC 17, each creature in a 20-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 90 feet. Failure: 7 (2d6)\
-      \ Poison damage, and the target takes a -2 penalty to AC until the end of its\
-      \ next turn. Failure or Success: The dragon can't take this action again until\
-      \ the start of its next turn."
+      \ centered on a point the dragon can see within 90 feet. Failure: dice:2d6|noform|noparens|avg|text(7)\
+      \ (2d6) Poison damage, and the target takes a -2 penalty to AC until the end\
+      \ of its next turn. Failure or Success: The dragon can't take this action\
+      \ again until the start of its next turn."
     "name": "Noxious Miasma"
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."

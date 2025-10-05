@@ -41,6 +41,7 @@ cssclasses: json5e-note
 - [Korred](./korred-mpmm.md)
 - [Meenlock](./meenlock-mpmm.md)
 - [Nilbog](./nilbog-mpmm.md)
+- [Otherworldly Steed (Fey)](./otherworldly-steed-fey-xphb.md)
 - [Pixie Wonderbringer](./pixie-wonderbringer-xmm.md)
 - [Pixie](./pixie-xmm.md)
 - [Quickling](./quickling-mpmm.md)

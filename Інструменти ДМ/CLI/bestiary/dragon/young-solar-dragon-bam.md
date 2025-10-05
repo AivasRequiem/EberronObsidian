@@ -41,10 +41,10 @@ A solar dragon egg has an obsidian shell, shiny black and opaque. When an egg is
   - !!int "12"
 "speed": "20 ft., fly 60 ft. (hover)"
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+5"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+10"
@@ -64,17 +64,21 @@ A solar dragon egg has an obsidian shell, shiny black and opaque. When an egg is
 "actions":
   - "desc": "The dragon makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 12 (2d6 + 5) piercing damage plus 7 (2d6) radiant damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 10 ft., one target. Hit: dice:2d6+5|noform|noparens|avg|text(12)\
+      \ (2d6 + 5) piercing damage plus dice:2d6|noform|noparens|avg|text(7) (2d6)\
+      \ radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
-      \ 8 (1d6 + 5) bludgeoning damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+9|noform|noparens|text(+9) to hit,\
+      \ reach 15 ft., one target. Hit: dice:1d6+5|noform|noparens|avg|text(8)\
+      \ (1d6 + 5) bludgeoning damage."
     "name": "Tail"
   - "desc": "The dragon exhales a flashing mote of radiant energy that travels to\
       \ a point the dragon can see within 120 feet of itself, then blossoms into a\
       \ 20-foot-radius sphere centered on that point. Each creature in the sphere\
-      \ must make a DC 17 Constitution saving throw, taking 44 (8d10) radiant damage\
-      \ on a failed save, or half as much damage on a successful one."
+      \ must make a DC 17 Constitution saving throw, taking dice:8d10|noform|noparens|avg|text(44)\
+      \ (8d10) radiant damage on a failed save, or half as much damage on a successful\
+      \ one."
     "name": "Photonic Breath (Recharge 5-6)"
 "source":
   - "BAM"

@@ -72,6 +72,7 @@ aliases:
 - [Antipathy/Sympathy](Інструменти%20ДМ/CLI/spells/antipathy-sympathy-xphb.md "XPHB")
 - [Befuddlement](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md "XPHB")
 - [Dominate Monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md "XPHB")
+- [Glibness](Інструменти%20ДМ/CLI/spells/glibness-xphb.md "XPHB")
 - [Power Word Stun](Інструменти%20ДМ/CLI/spells/power-word-stun-xphb.md "XPHB")
 
 ## 9th Level

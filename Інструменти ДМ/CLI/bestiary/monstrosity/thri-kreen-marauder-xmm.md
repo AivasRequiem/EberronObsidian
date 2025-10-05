@@ -62,11 +62,12 @@ Thri-kreen are mantis-like wanderers who harness their innate camouflage and psy
 "actions":
   - "desc": "The thri-kreen makes two attacks, using Gythka or Chatkcha in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Slashing\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "Melee Attack Roll: dice:1d20+3|noform|noparens|text(+3), reach 5\
+      \ ft. Hit: dice:1d8+1|noform|noparens|avg|text(5) (1d8 + 1) Slashing damage\
+      \ plus dice:1d4|noform|noparens|avg|text(2) (d4) Poison damage."
     "name": "Gythka"
-  - "desc": "Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Slashing\
-      \ damage."
+  - "desc": "Ranged Attack Roll: dice:1d20+4|noform|noparens|text(+4), range 30/120\
+      \ ft. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6 + 2) Slashing damage."
     "name": "Chatkcha"
 "bonus_actions":
   - "desc": "The thri-kreen jumps up to 15 feet by spending 5 feet of movement."

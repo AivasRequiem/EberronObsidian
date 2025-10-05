@@ -38,9 +38,9 @@ Sometimes a xenomancer's research requires that a specimen be captured and impri
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+7"
-  - "wisdom": "+8"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Animal Handling](Інструменти%20ДМ/CLI/rules/skills.md#Animal%20Handling)"
     "desc": "+8"
@@ -57,12 +57,15 @@ Sometimes a xenomancer's research requires that a specimen be captured and impri
   - "desc": "The githyanki makes three Staff attacks, three Telekinetic Bolt attacks,\
       \ or a combination thereof."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used\
-      \ with two hands, plus 14 (4d6) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+6|noform|noparens|text(+6) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) bludgeoning damage, or dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) bludgeoning damage when used with two hands, plus dice:4d6|noform|noparens|avg|text(14)\
+      \ (4d6) psychic damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
-      \ 20 (3d10 + 4) force damage."
+  - "desc": "Ranged Spell Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ range 60 ft., one target. Hit: dice:3d10+4|noform|noparens|avg|text(20)\
+      \ (3d10 + 4) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\

@@ -44,7 +44,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** 1 hour
 
-One Humanoid you can see within range makes a Wisdom saving throw. It does so with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if you or your allies are fighting it. On a failed save, the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until the spell ends or until you or your allies damage it. The [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) creature is Friendly to you. When the spell ends, the target knows it was [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by you.
+One Humanoid you can see within range makes a Wisdom saving throw. It does so with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) if you or your allies are fighting it. On a failed save, the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until the spell ends or until you or your allies damage it. The [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) creature is [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you. When the spell ends, the target knows it was [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by you.
 
 **Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1.
 

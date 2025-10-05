@@ -26,7 +26,7 @@ Bulettes range under vast territories. They often threaten animal herds, and the
 - **Habitat.** Grassland, Hill, Mountain  
 - **Treasure.** None  
 
-Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just belowground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
+Also called "land sharks," bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just below ground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.
 
 ```statblock
 "name": "Bulette (XMM)"
@@ -54,15 +54,16 @@ Also called "land sharks," bulettes are single-minded predators that burrow unde
 "actions":
   - "desc": "The bulette makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing\
+  - "desc": "Melee Attack Roll: dice:1d20+7|noform|noparens|text(+7), reach 5\
+      \ ft. Hit: dice:2d12+4|noform|noparens|avg|text(17) (2d12 + 4) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The bulette spends 5 feet of movement to jump to a space within 15 feet\
       \ that contains one or more Large or smaller creatures. Dexterity Saving Throw:\
-      \ DC 15, each creature in the bulette's destination space. Failure: 19 (3d12)\
-      \ Bludgeoning damage, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition. Success: Half damage, and the target is pushed 5 feet straight\
-      \ away from the bulette."
+      \ DC 15, each creature in the bulette's destination space. Failure: dice:3d12|noform|noparens|avg|text(19)\
+      \ (3d12) Bludgeoning damage, and the target has the [Prone](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Prone) condition. Success: Half damage, and the\
+      \ target is pushed 5 feet straight away from the bulette."
     "name": "Deadly Leap"
 "bonus_actions":
   - "desc": "The bulette jumps up to 30 feet by spending 10 feet of movement."

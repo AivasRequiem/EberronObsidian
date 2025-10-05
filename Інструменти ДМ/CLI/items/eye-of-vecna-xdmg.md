@@ -36,7 +36,7 @@ To attune to the eye, you must press it into your empty socket. The eye grafts i
 While you are attuned to the eye, your alignment is Neutral Evil, and you gain the following benefits:
 
 - **Truesight.** You have [Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) out to 240 feet.  
-- **Spellcasting.** The eye has 8 charges and regains `1d4 + 4` expended charges daily at dawn. You can cast a spell on the Eye of Vecna Spells table from the eye (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a 5 percent chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control.  
+- **Spellcasting.** The eye has 8 charges and regains `dice:1d4+4|noform|noparens|avg` (`1d4 + 4`) expended charges daily at dawn. You can cast a spell on the Eye of Vecna Spells table from the eye (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a 5 percent chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control.  
 
     **Eye of Vecna Spells**  
 

@@ -43,9 +43,9 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+7"
-  - "wisdom": "+6"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation)"
     "desc": "+7"
@@ -57,8 +57,10 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes three Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
-      \ (2d6 + 4) slashing damage plus 17 (5d6) psychic damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+8|noform|noparens|text(+8) to hit,\
+      \ reach 5 ft., one target. Hit: dice:2d6+4|noform|noparens|avg|text(11)\
+      \ (2d6 + 4) slashing damage plus dice:5d6|noform|noparens|avg|text(17) (5d6)\
+      \ psychic damage."
     "name": "Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\

@@ -9,6 +9,7 @@ aliases:
 ---
 # Artificer Initiate
 *Source: Tasha's Cauldron of Everything p. 79*  
+
 You've learned some of an artificer's inventiveness:
 
 - You learn one cantrip of your choice from the artificer spell list, and you learn one 1st-level spell of your choice from that list. Intelligence is your spellcasting ability for these spells.  

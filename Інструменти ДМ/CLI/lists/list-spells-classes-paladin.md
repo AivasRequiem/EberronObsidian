@@ -61,7 +61,6 @@ aliases:
 - [Aura of Purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md "XPHB")
 - [Banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md "XPHB")
 - [Death Ward](Інструменти%20ДМ/CLI/spells/death-ward-xphb.md "XPHB")
-- [Find Greater Steed](Інструменти%20ДМ/CLI/spells/find-greater-steed-xge.md "XGE")
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
 - [Staggering Smite](Інструменти%20ДМ/CLI/spells/staggering-smite-xphb.md "XPHB")
 

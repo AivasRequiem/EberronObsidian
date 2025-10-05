@@ -44,8 +44,8 @@ Most cloud giants inhabit citadels crowning tremendous mountains or magical pala
   - !!int "16"
 "speed": "40 ft., fly 20 ft. (hover)"
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+7"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -59,10 +59,12 @@ Most cloud giants inhabit citadels crowning tremendous mountains or magical pala
       \ any combination. It can replace one attack with a use of Spellcasting to cast\
       \ [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning\
-      \ damage plus 7 (2d6) Thunder damage."
+  - "desc": "Melee Attack Roll: dice:1d20+12|noform|noparens|text(+12), reach\
+      \ 10 ft. Hit: dice:3d8+8|noform|noparens|avg|text(21) (3d8 + 8) Bludgeoning\
+      \ damage plus dice:2d6|noform|noparens|avg|text(7) (2d6) Thunder damage."
     "name": "Thunderous Mace"
-  - "desc": "Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder\
+  - "desc": "Ranged Attack Roll: dice:1d20+12|noform|noparens|text(+12), range\
+      \ 240 ft. Hit: dice:3d6+8|noform|noparens|avg|text(18) (3d6 + 8) Thunder\
       \ damage, and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the end of its next turn."
     "name": "Thundercloud"
@@ -74,18 +76,7 @@ Most cloud giants inhabit citadels crowning tremendous mountains or magical pala
       струменти%20ДМ/CLI/spells/control-weather-xphb.md), [Gaseous Form](Інструмен\
       ти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting"
-  - "desc": "The giant casts the [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md)\
-      \ spell, using the same spellcasting ability as Spellcasting.\n"
-    "name": "Misty Step"
 "bonus_actions":
-  - "desc": "The giant casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [Light](Інстру\
-      менти%20ДМ/CLI/spells/light-xphb.md)\n\n1/day each: [Control Weather](Ін\
-      струменти%20ДМ/CLI/spells/control-weather-xphb.md), [Gaseous Form](Інструмен\
-      ти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
-    "name": "Spellcasting"
   - "desc": "The giant casts the [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md)\
       \ spell, using the same spellcasting ability as Spellcasting.\n"
     "name": "Misty Step"

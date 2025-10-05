@@ -52,8 +52,8 @@ Gold dragons make their homes in places of natural and magical wonder.
   - !!int "28"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+10"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -77,27 +77,29 @@ Gold dragons make their homes in places of natural and magical wonder.
       \ use of (A) Spellcasting to cast [Guiding Bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md)\
       \ (level 4 version) or (B) Weakening Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +17 to hit, reach 15 ft. Hit: 19 (2d8 + 10)\
-      \ Slashing damage plus 9 (2d8) Fire damage."
+  - "desc": "Melee Attack Roll: dice:1d20+17|noform|noparens|text(+17) to hit,\
+      \ reach 15 ft. Hit: dice:2d8+10|noform|noparens|avg|text(19) (2d8 + 10)\
+      \ Slashing damage plus dice:2d8|noform|noparens|avg|text(9) (2d8) Fire damage."
     "name": "Rend"
   - "desc": "Dexterity Saving Throw: DC 24, each creature in a 90-foot [Cone](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 71 (13d10) Fire damage. Success: Half damage."
+      \ dice:13d10|noform|noparens|avg|text(71) (13d10) Fire damage. Success:\
+      \ Half damage."
     "name": "Fire Breath (Recharge 5-6)"
   - "desc": "Strength Saving Throw: DC 24, each creature that isn't currently affected\
       \ by this breath in a 90-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
       \ Failure: The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on Strength-based [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)\
-      \ and subtracts 5 (d10) from its damage rolls. It repeats the save at the\
-      \ end of each of its turns, ending the effect on itself on a success. After\
-      \ 1 minute, it succeeds automatically."
+      \ and subtracts dice:1d10|noform|noparens|avg|text(5) (d10) from its damage\
+      \ rolls. It repeats the save at the end of each of its turns, ending the effect\
+      \ on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Weakening Breath"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 24, +16 to\
-      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Guiding Bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (level 4\
-      \ version), [Shapechange](Інструменти%20ДМ/CLI/spells/shapechange-xphb.md) (Beast\
-      \ or Humanoid form only, no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 24, dice:1d20+16|noform|noparens|text(+16)\
+      \ to hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20Д\
+      М/CLI/spells/detect-magic-xphb.md), [Guiding Bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md)\
+      \ (level 4 version), [Shapechange](Інструменти%20ДМ/CLI/spells/shapechange-xphb.md)\
+      \ (Beast or Humanoid form only, no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
       \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
       \ to maintain the spell)\n\n1/day each: [Flame Strike](Інструменти%20ДМ\
@@ -107,12 +109,12 @@ Gold dragons make their homes in places of natural and magical wonder.
     "name": "Spellcasting"
 "legendary_actions":
   - "desc": "Charisma Saving Throw: DC 24, one creature the dragon can see within\
-      \ 120 feet. Failure: 24 (7d6) Force damage, and the target has the [Incapacitated](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition and is transported\
-      \ to a harmless demiplane until the start of the dragon's next turn, at which\
-      \ point it reappears in an unoccupied space of the dragon's choice within 120\
-      \ feet of the dragon. Failure or Success: The dragon can't take this action\
-      \ again until the start of its next turn."
+      \ 120 feet. Failure: dice:7d6|noform|noparens|avg|text(24) (7d6) Force\
+      \ damage, and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
+      \ condition and is transported to a harmless demiplane until the start of the\
+      \ dragon's next turn, at which point it reappears in an unoccupied space of\
+      \ the dragon's choice within 120 feet of the dragon. Failure or Success: The\
+      \ dragon can't take this action again until the start of its next turn."
     "name": "Banish"
   - "desc": "The dragon uses Spellcasting to cast [Guiding Bolt](Інструменти%20ДМ\
       /CLI/spells/guiding-bolt-xphb.md) (level 4 version)."

@@ -17,7 +17,7 @@ aliases:
 # [Yuan-ti Broodguard](Інструменти ДМ\CLI\bestiary\monstrosity/yuan-ti-broodguard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 273*  
 
-> [!quote] A quote from Mordekainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Tasha once likened histachii to the bees that tend to larvae in beehives. It is a fanciful view of a horrific process.
 
@@ -46,9 +46,9 @@ Most broodguards are made from human captives forced to consume a magical brew t
   - !!int "4"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+4"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -67,11 +67,13 @@ Most broodguards are made from human captives forced to consume a magical brew t
 "actions":
   - "desc": "The broodguard makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) piercing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d8+2|noform|noparens|avg|text(6) (1d8\
+      \ + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) slashing damage."
+  - "desc": "Melee Weapon Attack: dice:1d20+4|noform|noparens|text(+4) to hit,\
+      \ reach 5 ft., one target. Hit: dice:1d6+2|noform|noparens|avg|text(5) (1d6\
+      \ + 2) slashing damage."
     "name": "Claw"
 "source":
   - "MPMM"

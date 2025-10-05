@@ -51,10 +51,10 @@ Many nalfeshnees view themselves as prospective demon lords and seek to conquer 
   - !!int "15"
 "speed": "20 ft., fly 30 ft."
 "saves":
-  - "constitution": "+11"
-  - "intelligence": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
@@ -73,8 +73,9 @@ Many nalfeshnees view themselves as prospective demon lords and seek to conquer 
 "actions":
   - "desc": "The nalfeshnee makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 16 (2d10 + 5) Slashing\
-      \ damage plus 11 (2d10) Force damage."
+  - "desc": "Melee Attack Roll: dice:1d20+10|noform|noparens|text(+10), reach\
+      \ 10 ft. Hit: dice:2d10+5|noform|noparens|avg|text(16) (2d10 + 5) Slashing\
+      \ damage plus dice:2d10|noform|noparens|avg|text(11) (2d10) Force damage."
     "name": "Rend"
   - "desc": "The nalfeshnee teleports up to 120 feet to an unoccupied space it can\
       \ see."
@@ -82,8 +83,8 @@ Many nalfeshnees view themselves as prospective demon lords and seek to conquer 
 "bonus_actions":
   - "desc": "Wisdom Saving Throw: DC 15, each creature in a 15-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the nalfeshnee. Failure: 28 (8d6) Psychic damage, and the target\
-      \ has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ from the nalfeshnee. Failure: dice:8d6|noform|noparens|avg|text(28) (8d6)\
+      \ Psychic damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition for 1 minute, until it takes damage, or until it ends its turn with\
       \ the nalfeshnee out of line of sight. Success: The target is immune to this\
       \ nalfeshnee's Horror Nimbus for 24 hours."
