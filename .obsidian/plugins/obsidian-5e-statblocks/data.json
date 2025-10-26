@@ -3710,6 +3710,256 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Imago Arboreal Stalker (C-Epsilon)",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Imago Arboreal Stalker.png<STATBLOCK-WIKI-LINK>",
+        "name": "Imago Arboreal Stalker (C-Epsilon)",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "augmented",
+        "alignment": "unaligned",
+        "ac": 15,
+        "hp": 68,
+        "hit_dice": "8d8+32",
+        "speed": "35 ft., climb 40 ft.",
+        "stats": [
+          14,
+          16,
+          14,
+          10,
+          13,
+          9
+        ],
+        "saves": [
+          {
+            "dexterity": 6
+          },
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 6
+          },
+          {
+            "athletics": 5
+          },
+          {
+            "perception": 4
+          },
+          {
+            "stealth": 6
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Common, Sylvan",
+        "cr": 4,
+        "traits": [
+          {
+            "name": "Arboreal Walker",
+            "desc": "The stalker ignores nonmagical difficult terrain made by trees and undergrowth and can move along vertical surfaces and upside down on branches and thick vines without needing to make an ability check."
+          },
+          {
+            "name": "Camouflage in Foliage",
+            "desc": "The stalker has advantage on Dexterity (Stealth) checks made to hide among trees and dense vegetation."
+          },
+          {
+            "name": "Ambusher from Above",
+            "desc": "If the stalker drops at least 10 feet straight toward a creature and hits it with a melee attack on the same turn, the target must succeed on a DC 14 Strength saving throw or be knocked prone."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The stalker makes two attacks, using Talons or Vine Whip in any combination."
+          },
+          {
+            "name": "Talons",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+          },
+          {
+            "name": "Vine Whip",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 3) slashing damage, and the target must succeed on a DC 14 Strength saving throw or be pulled up to 10 feet straight toward the stalker or lifted up to 10 feet into the branches (stalker’s choice). A creature lifted this way that then falls must succeed on a DC 10 Dexterity saving throw or fall prone when it lands."
+          },
+          {
+            "name": "Skyline Pounce (Recharge 5–6)",
+            "desc": "The stalker leaps or drops up to 30 feet toward a creature and makes one Talons attack. On a hit, the attack deals an extra 10 (3d6) slashing damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone. The stalker can then move up to half its climb speed without provoking opportunity attacks."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Imago Littoral Enforcer (A-Delta)",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Imago Littoral Enforcer.png<STATBLOCK-WIKI-LINK>",
+        "name": "Imago Littoral Enforcer (A-Delta)",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "augmented",
+        "alignment": "unaligned",
+        "ac": 15,
+        "hp": 75,
+        "hit_dice": "10d8+30",
+        "speed": "30 ft., swim 40 ft.",
+        "stats": [
+          16,
+          14,
+          16,
+          10,
+          12,
+          9
+        ],
+        "saves": [
+          {
+            "strength": 6
+          },
+          {
+            "constitution": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 6
+          },
+          {
+            "perception": 4
+          },
+          {
+            "stealth": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Common, Aquan",
+        "damage_resistances": "poison",
+        "cr": 4,
+        "traits": [
+          {
+            "name": "Amphibious",
+            "desc": "The enforcer can breathe air and water."
+          },
+          {
+            "name": "Augmented Physiology",
+            "desc": "The enforcer has advantage on saving throws against being poisoned and against disease."
+          },
+          {
+            "name": "Water Wrangler",
+            "desc": "The enforcer has advantage on Strength (Athletics) checks to grapple or shove a creature while either creature is in or adjacent to water."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The enforcer makes two attacks, using Barbed Gaff or Webbed Claws in any combination."
+          },
+          {
+            "name": "Barbed Gaff",
+            "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 10 (1d8 + 3) piercing damage. If the target is in or adjacent to water, it must succeed on a DC 14 Strength saving throw or be pulled up to 15 feet straight toward the enforcer. If this pull moves the target from water onto solid ground, the target falls prone."
+          },
+          {
+            "name": "Webbed Claws",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 3) slashing damage."
+          },
+          {
+            "name": "Tidal Grasp (Recharge 5–6)",
+            "desc": "A tendril of water lashes a creature the enforcer can see within 30 feet that is in or adjacent to water. The target must make a DC 14 Strength saving throw, taking 14 (4d6) bludgeoning damage on a failed save or half as much damage on a success. On a failed save, the target is also pulled up to 30 feet straight toward the enforcer. If this movement ends on land, the target is knocked prone and is restrained by slick kelp until the end of its next turn (escape DC 14)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Undertow Riposte",
+            "desc": "When a hostile creature within 5 feet of the enforcer leaves water, the enforcer makes one Barbed Gaff attack against it."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Imago Burrowing Mauler (B-Theta)",
+      {
+        "layout": "Basic 5e Layout",
+        "image": "<STATBLOCK-WIKI-LINK>Imago Burrowing Mauler.png<STATBLOCK-WIKI-LINK>",
+        "name": "Imago Burrowing Mauler (B-Theta)",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "augmented",
+        "alignment": "unaligned",
+        "ac": 16,
+        "hp": 85,
+        "hit_dice": "10d8+40",
+        "speed": "30 ft., burrow 20 ft.",
+        "stats": [
+          17,
+          12,
+          18,
+          9,
+          12,
+          8
+        ],
+        "saves": [
+          {
+            "strength": 6
+          },
+          {
+            "constitution": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 6
+          },
+          {
+            "perception": 4
+          },
+          {
+            "stealth": 4
+          }
+        ],
+        "senses": "tremorsense 30 ft., passive Perception 14",
+        "languages": "Common",
+        "damage_resistances": "bludgeoning from nonmagical attacks while underground",
+        "cr": 4,
+        "traits": [
+          {
+            "name": "Earth Swimmer",
+            "desc": "The mauler can burrow through sand, loose earth, and soft clay, but not through solid stone. While burrowed, it has total cover."
+          },
+          {
+            "name": "Churning Ground",
+            "desc": "Spaces the mauler burrows through become difficult terrain until the end of its next turn."
+          },
+          {
+            "name": "Augmented Physiology",
+            "desc": "The mauler has advantage on saving throws against being poisoned and against disease."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The mauler makes two Claw attacks."
+          },
+          {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 3) slashing damage."
+          },
+          {
+            "name": "Drag Under (Recharge 5–6)",
+            "desc": "A creature on the ground within 5 feet of the mauler must succeed on a DC 14 Strength saving throw or take 13 (2d8 + 4) bludgeoning damage, be knocked prone, and become grappled (escape DC 14). While grappled this way, the creature is restrained and partially buried; if it can’t breathe underground, it must hold its breath. The grapple ends if the mauler is incapacitated, isn’t touching the ground, or moves more than 5 feet away."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Earthen Rebuff",
+            "desc": "When a creature the mauler can sense with its tremorsense misses it with a melee attack while both are on the ground, the mauler burrows up to half its burrow speed without provoking opportunity attacks."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},
