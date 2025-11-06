@@ -952,6 +952,23 @@
             "order": ""
           },
           "type": "Date"
+        },
+        {
+          "name": "Домовленість з сонноласками",
+          "description": "",
+          "date": {
+            "day": 18,
+            "month": 5,
+            "year": 998
+          },
+          "id": "ID_1a691a78b88a",
+          "note": "Кампанії/Ехо Скорботи/Журнали сесій/4. Крізь хащі/Сесія 22-24.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
         }
       ],
       "id": "ID_d8bbdbca793a",
