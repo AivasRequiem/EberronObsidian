@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/paladin
 aliases:
@@ -11,6 +12,7 @@ aliases:
 ## 1st Level
 
 - [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md "XPHB")
+- [Ceremony](Інструменти%20ДМ/CLI/spells/ceremony-xge.md "XGE") (\*)
 - [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md "XPHB")
 - [Compelled Duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md "XPHB")
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
@@ -61,6 +63,7 @@ aliases:
 - [Aura of Purity](Інструменти%20ДМ/CLI/spells/aura-of-purity-xphb.md "XPHB")
 - [Banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md "XPHB")
 - [Death Ward](Інструменти%20ДМ/CLI/spells/death-ward-xphb.md "XPHB")
+- [Find Greater Steed](Інструменти%20ДМ/CLI/spells/find-greater-steed-xge.md "XGE") (\*)
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
 - [Staggering Smite](Інструменти%20ДМ/CLI/spells/staggering-smite-xphb.md "XPHB")
 
@@ -72,5 +75,6 @@ aliases:
 - [Dispel Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md "XPHB")
 - [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB")
+- [Holy Weapon](Інструменти%20ДМ/CLI/spells/holy-weapon-xge.md "XGE") (\*)
 - [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md "XPHB")
 - [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB") (\*)

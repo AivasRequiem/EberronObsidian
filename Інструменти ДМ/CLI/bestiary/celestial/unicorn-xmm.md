@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -51,7 +52,8 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Celestial, Elvish, Sylvan; telepathy 120 ft."
 "cr": "5"
 "traits":
@@ -63,16 +65,16 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
 "actions":
   - "desc": "The unicorn makes one Hooves attack and one Radiant Horn attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Bludgeoning\
       \ damage."
     "name": "Hooves"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Radiant\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 9 (1d10 + 4) Radiant\
       \ damage."
     "name": "Radiant Horn"
   - "desc": "The unicorn casts one of the following spells, requiring no spell components\
-      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt\
-      \ will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
-      \ [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n1/day each:\
+      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\n**At\
+      \ will:** [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
+      \ [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n**1/day each:**\
       \ [Calm Emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md), [Dispel\
       \ Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
       \ [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [Pass without Trace](І\
@@ -85,6 +87,21 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
       рументи%20ДМ/CLI/spells/lesser-restoration-xphb.md) on that creature, using\
       \ the same spellcasting ability as Spellcasting.\n"
     "name": "Unicorn's Blessing (3/Day)"
+"regional_effects":
+  - "desc": "The region containing a unicorn's lair is changed by its presence, creating\
+      \ the following effects:\n\n- **Obscuring Foliage.** The unicorn and its allies\
+      \ have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ on Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks\
+      \ while within 1 mile of the lair.  \n- **Positive Energy.** Whenever a creature\
+      \ within 1 mile of the lair regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ from a spell, it regains the maximum number of [Hit Points](Інструменти%20Д\
+      М/CLI/rules/variant-rules/hit-points-xphb.md) possible. Additionally, the effects\
+      \ of curses are suppressed within 1 mile of the lair.  \n\nIf the unicorn dies\
+      \ or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the unicorn can expend a use to take one of the following actions. The unicorn\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The unicorn moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack),\
@@ -96,21 +113,6 @@ Unicorns dwell in unspoiled forests, particularly where benevolent Fey creatures
       \ by 2 until the end of the unicorn's next turn. The unicorn can't take this\
       \ action again until the start of its next turn."
     "name": "Shimmering Shield"
-"regional_effects":
-  - "desc": "The region containing a unicorn's lair is changed by its presence, creating\
-      \ the following effects:"
-    "name": ""
-  - "desc": "- Obscuring Foliage. The unicorn and its allies have [Advantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Dexterity ([Stealth](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks while within 1 mile of\
-      \ the lair.  \n- Positive Energy. Whenever a creature within 1 mile of the\
-      \ lair regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ from a spell, it regains the maximum number of [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) possible. Additionally, the effects\
-      \ of curses are suppressed within 1 mile of the lair.  "
-    "name": ""
-  - "desc": "If the unicorn dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/celestial/token/unicorn-xmm.webp"

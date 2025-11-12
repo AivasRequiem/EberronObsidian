@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -30,6 +31,6 @@ The liquid in the cauldron duplicates the properties of a Common or an Uncommon 
 
 Potions obtained from the cauldron that aren't consumed disappear when you cast this spell again.
 
-**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 330*

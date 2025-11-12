@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Tasha's Cauldron of Everything p. 139* 
 
 **Party Origin**
-
-`dice: [](party-formation-party-origin-tce.md#^party-origin)`
 
 | dice: d6 | Origin Story |
 |----------|--------------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -20,7 +21,7 @@ aliases:
 *Haunter in the Dark*
 
 - **Habitat.** Underdark  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Cloakers are mysterious Underdark predators, named by adventurers for their resemblance to hanging cloaks when they cling to walls. What cloakers call themselves is unknown, if they refer to themselves at all. Though they're undeniably intelligent, their behavior is often inscrutable.
 
@@ -49,7 +50,8 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Deep Speech, Undercommon"
 "cr": "8"
 "traits":
@@ -60,7 +62,7 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
 "actions":
   - "desc": "The cloaker makes one Attach attack and two Tail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 13 (3d6 + 3) Piercing\
       \ damage. If the target is a Large or smaller creature, the cloaker attaches\
       \ to it. While the cloaker is attached, the target has the [Blinded](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Blinded) condition, and the cloaker can't\
@@ -71,15 +73,15 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
       \ the cloaker, doing so by succeeding on a DC 14 Strength ([Athletics](Інстр\
       ументи%20ДМ/CLI/rules/skills.md#Athletics)) check."
     "name": "Attach"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 8 (1d10 + 3) Slashing\
       \ damage."
     "name": "Tail"
 "bonus_actions":
-  - "desc": "Wisdom Saving Throw: DC 13, each creature in a 60-foot [Emanation](І\
+  - "desc": "*Wisdom Saving Throw:* DC 13, each creature in a 60-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the cloaker. Failure: The target has the [Frightened](Інструменти%20Д\
+      \ from the cloaker. *Failure:* The target has the [Frightened](Інструменти%20Д\
       М/CLI/rules/conditions.md#Frightened) condition until the end of the cloaker's\
-      \ next turn. Success: The target is immune to this cloaker's Moan for the\
+      \ next turn. *Success:* The target is immune to this cloaker's Moan for the\
       \ next 24 hours."
     "name": "Moan"
   - "desc": "The cloaker casts the [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\

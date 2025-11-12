@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -16,8 +17,6 @@ Before you draw a card, you must declare how many cards you intend to draw and t
 Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)
 
 **Deck of Many Things**
-
-`dice: [](deck-of-many-things-xdmg.md#^deck-of-many-things)`
 
 | dice: 1d100 | Card |
 |-------------|------|
@@ -53,7 +52,7 @@ You can increase one of your ability scores by 2, to a maximum of 22, provided y
 
 ### Comet
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-12-comet.webp#card)
-The next time you enter combat against one or more [Hostile](Інструменти%20ДМ/CLI/rules/variant-rules/hostile-attitude-xphb.md) creatures, you can select one of them as your foe when you roll [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md). If you reduce your foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) during that combat, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Death Saving Throws for 1 year. If someone else reduces your chosen foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or you don't choose a foe, this card has no effect.
+The next time you enter combat against one or more [Hostile](Інструменти%20ДМ/CLI/rules/variant-rules/hostile-attitude-xphb.md) creatures, you can select one of them as your foe when you roll [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md). If you reduce your foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) during that combat, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [Death Saving Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md) for 1 year. If someone else reduces your chosen foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or you don't choose a foe, this card has no effect.
 
 ### Donjon
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-17-donjon.webp#card)
@@ -93,7 +92,7 @@ You gain the service of a [Knight](Інструменти%20ДМ/CLI/bestiary/hu
 
 ### Moon
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-11-moon.webp#card)
-You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `d3` times.
+You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `1d3` times.
 
 ### Puzzle
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-04-puzzle.webp#card)

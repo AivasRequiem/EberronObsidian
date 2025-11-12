@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/0
@@ -33,7 +34,8 @@ Space guppies are 2- to 3-foot-long, fish-like creatures that glide through Wild
   - !!int "10"
   - !!int "1"
 "speed": "0 ft., fly 30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
@@ -45,7 +47,7 @@ Space guppies are 2- to 3-foot-long, fish-like creatures that glide through Wild
       \ enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ bludgeoning damage."
     "name": "Tail Slap"
 "source":

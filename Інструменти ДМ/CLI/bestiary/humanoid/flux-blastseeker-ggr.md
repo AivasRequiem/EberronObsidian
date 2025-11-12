@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -50,9 +51,9 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 16, +8 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [mage armor](Інструм\
+      \ which doesn't function for others:\n\n**3/day each:** [mage armor](Інструм\
       енти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only), [scorching ray](Інстру\
-      менти%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\n1/day each: [banishment](І\
+      менти%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\n**1/day each:** [banishment](І\
       нструменти%20ДМ/CLI/spells/banishment-xphb.md), [cone of cold](Інструменти%20Д\
       М/CLI/spells/cone-of-cold-xphb.md), [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [ice storm](Інст\
@@ -65,8 +66,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ Constitution saving throw or take 11 (2d10) thunder damage."
     "name": "Fluxbending Overcast (Recharge 5-6)"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two\
       \ hands."
     "name": "Quarterstaff"
 "source":

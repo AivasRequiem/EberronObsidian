@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/30
@@ -57,7 +58,8 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
   \ [deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Paralyzed), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 28"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 28"
 "languages": "Common, Draconic"
 "cr": "30"
 "traits":
@@ -73,27 +75,27 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
 "actions":
   - "desc": "The aspect makes one Bite attack, one Claw attack, and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:*\
       \ 23 (2d12 + 10) piercing damage plus 22 (4d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The aspect can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must\
       \ succeed on a DC 27 Strength saving throw or be knocked [prone](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "The aspect uses one of the following breath weapons:\n\n- Exalting\
-      \ Breath. The aspect exhales the restoring winds of Mount Celestia in a 300-foot\
+  - "desc": "The aspect uses one of the following breath weapons:\n\n- **Exalting\
+      \ Breath.** The aspect exhales the restoring winds of Mount Celestia in a 300-foot\
       \ cone. Each creature in that area of the aspect's choice regains 71 (13d10)\
       \ hit points, and each creature in that area of the aspect's choice that has\
       \ been dead for no longer than 1 hour is restored to life with all its hit points.\
-      \  \n- Platinum Breath. The aspect exhales radiant platinum flames in a\
+      \  \n- **Platinum Breath.** The aspect exhales radiant platinum flames in a\
       \ 300-foot cone. Each creature in that area must make a DC 26 Dexterity saving\
       \ throw, taking 66 (12d10) radiant damage on a failed save, or half as much\
       \ damage on a successful one.  "
@@ -103,6 +105,9 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
       \ his game statistics (other than his size). This transformation ends if the\
       \ aspect is reduced to 0 hit points or if he uses a bonus action to end it."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the aspect of bahamut can expend a use to take one of the following actions.\
+  \ The aspect of bahamut regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The aspect makes one Claw or Tail attack."
     "name": "Attack"
@@ -111,6 +116,20 @@ In combat, Bahamut's enemies experience the full force of his justice, while his
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) of the aspect until the\
       \ end of the target's next turn."
     "name": "Furious Bite (Costs 2 Actions)"
+"mythic_description": "If the aspect's Platinum Brilliance trait has activated in\
+  \ the last hour, he can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The aspect manifests seven spectral [ancient gold dragons](Інструмент\
+      и%20ДМ/CLI/bestiary/dragon/ancient-gold-dragon-xmm.md) around himself that protect\
+      \ him; he gains 77 temporary hit points until the start of his next turn."
+    "name": "Celestial Shield (Costs 2 Actions)"
+  - "desc": "The aspect conjures four enormous lances of magical force that plummet\
+      \ to the ground at four different points he can see within 150 feet of him and\
+      \ then disappear. Each creature in a 20-foot-radius, 100-foot-high cylinder\
+      \ centered on each point must succeed on a DC 27 Dexterity saving throw or take\
+      \ 24 (7d6) force damage. A creature in the area of more than one lance is\
+      \ affected only once."
+    "name": "Celestial Lances (Costs 3 Actions)"
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/aspect-of-bahamut-ftd.webp"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -58,7 +59,8 @@ Any conflagration larger than its body acts as a gateway to Gehenna and banishes
   \ attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 15"
 "languages": "Abyssal, Common, Goblin, Infernal, telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -77,18 +79,18 @@ Any conflagration larger than its body acts as a gateway to Gehenna and banishes
 "actions":
   - "desc": "The barghest makes one Bite attack and one Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The barghest casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md), [minor\
+      \n**At will:** [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md), [minor\
       \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [pass without\
-      \ trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md)\n\n1/day\
-      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md)\n\n**1/day\
+      \ each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [suggestion](І\
       нструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting"

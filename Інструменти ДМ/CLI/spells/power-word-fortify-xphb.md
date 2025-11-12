@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/7th-level
 - ttrpg-cli/spell/school/enchantment
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Power Word Fortify
 ---
@@ -24,6 +27,6 @@ aliases:
 
 You fortify up to six creatures you can see within range. The spell bestows 120 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md), which you divide among the spell's recipients.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 306*

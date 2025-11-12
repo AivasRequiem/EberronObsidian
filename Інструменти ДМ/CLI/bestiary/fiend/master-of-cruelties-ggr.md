@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/9
@@ -69,15 +70,16 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 13"
 "languages": "Abyssal, Common, telepathy 120 ft."
 "cr": "9"
 "traits":
   - "desc": "The master's innate spellcasting ability is Charisma (spell save DC 17).\
       \ The master can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\
+      \n**At will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\
       \ (as a 3rd-level spell), [crown of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md)\n\
-      \n1/day: [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
+      \n**1/day:** [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When any other creature starts its turn within 30 feet of the master,\
       \ that creature must succeed on a DC 17 Wisdom saving throw, or it must immediately\
@@ -95,8 +97,8 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "actions":
   - "desc": "The master makes two melee attacks with its spear."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
       \ piercing damage if used with two hands to make a melee attack, plus 13 (3d8)\
       \ psychic damage."
     "name": "Spear"

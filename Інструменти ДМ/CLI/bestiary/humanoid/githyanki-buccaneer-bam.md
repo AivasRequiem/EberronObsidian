@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/3
@@ -54,17 +55,17 @@ Githyanki buccaneers ply the Astral Plane for riches, which they haul back to th
 "actions":
   - "desc": "The githyanki makes two Greatsword or Telekinetic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage plus 3 (1d6) psychic damage."
     "name": "Greatsword"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 13 (3d6 + 3) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\
-      At will: [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](І\
-      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible)\n\n1/day\
-      \ each: [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [telekinesis](І\
+      **At will:** [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](І\
+      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible)\n\n**1/day\
+      \ each:** [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "bonus_actions":

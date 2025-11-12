@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -44,15 +45,16 @@ Use these stat blocks to represent the creatures they're named for or other simi
     "desc": "+2"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., passive\
+  \ Perception 12"
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Strength Saving Throw: DC 12, one Medium or smaller creature the snake\
-      \ can see within 5 feet. Failure: 7 (3d4) Bludgeoning damage, and the target\
+  - "desc": "*Strength Saving Throw:* DC 12, one Medium or smaller creature the snake\
+      \ can see within 5 feet. *Failure:* 7 (3d4) Bludgeoning damage, and the target\
       \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 12)."
     "name": "Constrict"

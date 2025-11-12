@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -27,8 +28,6 @@ You have more than one identity. The one you wear most of the time makes you app
 Whenever you choose, you can drop this identity and blend into the guildless masses of the city.
 
 Consider why you're embedded in the secondary guild. Create a story with your DM, inspired by rolling on the following table or choosing a reason that suits you.
-
-`dice: [](dimir-operative-ggr.md#^reason-for-infiltration)`
 
 | dice: d8 | Reason for Infiltration |
 |----------|-------------------------|
@@ -68,8 +67,6 @@ Skilled at infiltration, disguise, and deception, members of House Dimir appear 
 
 **Personality Traits**
 
-`dice: [](dimir-operative-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I'm good at hiding my true thoughts and feelings. |
@@ -84,8 +81,6 @@ Skilled at infiltration, disguise, and deception, members of House Dimir appear 
 
 **Ideals**
 
-`dice: [](dimir-operative-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My true guild is all that really matters. (Any) |
@@ -98,8 +93,6 @@ Skilled at infiltration, disguise, and deception, members of House Dimir appear 
 
 **Bonds**
 
-`dice: [](dimir-operative-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I discovered a secret I can't let anyone else uncover—including my guild superiors. |
@@ -111,8 +104,6 @@ Skilled at infiltration, disguise, and deception, members of House Dimir appear 
 ^bonds
 
 **Flaws**
-
-`dice: [](dimir-operative-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -131,8 +122,6 @@ As an agent of House Dimir working undercover, you have limited contacts within 
 Roll once on the Dimir Contacts table, giving you an ally who serves as your contact in Dimir. Then roll twice on the table for your secondary guild. The first roll gives you an ally there, and the second roll gives you a rival.
 
 **Dimir Contacts**
-
-`dice: [](dimir-operative-ggr.md#^dimir-contacts)`
 
 | dice: d8 | Contact |
 |----------|---------|

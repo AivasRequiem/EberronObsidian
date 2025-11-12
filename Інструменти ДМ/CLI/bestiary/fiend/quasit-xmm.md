@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -56,7 +57,8 @@ Quasits are usually overlooked and underestimated by other demons. This drives t
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "1"
 "traits":
@@ -64,11 +66,11 @@ Quasits are usually overlooked and underestimated by other demons. This drives t
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Slashing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the quasit's next turn."
     "name": "Rend"
-  - "desc": "Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure:\
+  - "desc": "*Wisdom Saving Throw:* DC 10, one creature within 20 feet. *Failure:*\
       \ The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition. At the end of each of its turns, the target repeats the save, ending\
       \ the effect on itself on a success. After 1 minute, it succeeds automatically."

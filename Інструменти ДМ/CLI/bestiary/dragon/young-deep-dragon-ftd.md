@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -26,8 +27,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 
 ### Deep Dragon Personality Traits
 
-`dice: [](young-deep-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I will not risk injury at the hands of weaker creatures—especially while I can turn them against one another and have them fight in my stead. |
@@ -41,8 +40,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 ^trait
 
 ### Deep Dragon Ideals
-
-`dice: [](young-deep-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -67,8 +64,6 @@ The Deep Dragon Adventure Hooks table offers suggestions for stories and adventu
 
 ### Deep Dragon Adventure Hooks
 
-`dice: [](young-deep-dragon-ftd.md#^adventure-hook)`
-
 | dice: d8 | Adventure Hook |
 |----------|----------------|
 | 1 | Unfamiliar drow adventurers have been prowling a city's streets at night and have been overheard talking about the dragon they serve. |
@@ -86,8 +81,6 @@ The Deep Dragon Adventure Hooks table offers suggestions for stories and adventu
 Deep dragons appreciate the company of other dragons. Although they view most other species as inferior to dragonkind, having worth only as servants or tools, the rare individuals who impress them can sometimes earn respect as partners—albeit junior ones.
 
 ### Young Deep Dragon Connections
-
-`dice: [](young-deep-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -133,16 +126,17 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 150 ft., passive Perception 15"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 150 ft., passive Perception 15"
 "languages": "Common, Draconic, Undercommon"
 "cr": "5"
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 9 (1d10 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a cloud of spores in a 30-foot cone. Each creature\

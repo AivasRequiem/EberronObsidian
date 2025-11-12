@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -59,7 +60,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [deafened](Інстру\
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft. (blind\
+  \ beyond this radius), passive Perception 12"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -71,8 +73,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   - "desc": "The oblex doesn't require sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) bludgeoning damage plus 2 (d4) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage."
     "name": "Pseudopod"
 "source":
   - "MPMM"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -46,7 +47,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic, radiant"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Celestial; understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "1/4"
 "traits":
@@ -54,13 +56,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (1d10 + 2) Slashing\
       \ damage."
     "name": "Talons"
   - "desc": "The owl casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability:\n\nAt will: [Detect Evil\
+      \ and using Wisdom as the spellcasting ability:\n\n**At will:** [Detect Evil\
       \ and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md), [Detect\
-      \ Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\n1/day: [Clairvoyance](І\
+      \ Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\n**1/day:** [Clairvoyance](І\
       нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)"
     "name": "Spellcasting"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -48,8 +49,6 @@ Members of the Golgari Swarm are unmistakably products of the undercity, ill at 
 
 **Personality Traits**
 
-`dice: [](golgari-agent-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | Remember, I could kill you in your sleep. Or put centipedes in your bedroll. |
@@ -64,8 +63,6 @@ Members of the Golgari Swarm are unmistakably products of the undercity, ill at 
 
 **Ideals**
 
-`dice: [](golgari-agent-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -78,8 +75,6 @@ Members of the Golgari Swarm are unmistakably products of the undercity, ill at 
 
 **Bonds**
 
-`dice: [](golgari-agent-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I cherish the finger of a family member who was [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) by a medusa. |
@@ -91,8 +86,6 @@ Members of the Golgari Swarm are unmistakably products of the undercity, ill at 
 ^bonds
 
 **Flaws**
-
-`dice: [](golgari-agent-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -112,8 +105,6 @@ Roll twice on the Golgari Contacts table (for an ally and a rival) and once on t
 
 **Golgari Contacts**
 
-`dice: [](golgari-agent-ggr.md#^golgari-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | One of my parents is an elite assassin, a member of the Ochran. |
@@ -127,8 +118,6 @@ Roll twice on the Golgari Contacts table (for an ally and a rival) and once on t
 ^golgari-contacts
 
 **Non-Golgari Contacts**
-
-`dice: [](golgari-agent-ggr.md#^non-golgari-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

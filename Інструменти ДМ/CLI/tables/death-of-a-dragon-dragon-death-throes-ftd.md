@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 40* 
 
 **Dragon Death Throes**
-
-`dice: [](death-of-a-dragon-dragon-death-throes-ftd.md#^dragon-death-throes)`
 
 | dice: d6 | Effect |
 |----------|--------|

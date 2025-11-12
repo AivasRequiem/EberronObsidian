@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -20,7 +21,7 @@ aliases:
 *Venomous Arachnid Abductor*
 
 - **Habitat.** Forest  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Spiderlike hunters, ettercaps lurk in forested depths and seek prey to drag into their web-choked lairs. These vicious predators have arachnid features and hunched, bipedal frames, and they're notorious for their venomous bites and ability to shoot out webs to entrap their victims. Ettercaps often hunt in small groups alongside giant spiders and mundane spider swarms.
 
@@ -52,7 +53,8 @@ Ettercaps avoid fire, which can quickly burn through their webs and the dead tre
     "desc": "+4"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -65,16 +67,16 @@ Ettercaps avoid fire, which can quickly burn through their webs and the dead tre
 "actions":
   - "desc": "The ettercap makes one Bite attack and one Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage plus 2 (d4) Poison damage, and the target has the [Poisoned](Інст\
-      рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
+      \ damage plus 2 (1d4) Poison damage, and the target has the [Poisoned](Інс\
+      трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ the ettercap's next turn."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (2d4 + 2) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Dexterity Saving Throw: DC 12, one Large or smaller creature the ettercap\
-      \ can see within 30 feet. Failure: The target has the [Restrained](Інструм\
+  - "desc": "*Dexterity Saving Throw:* DC 12, one Large or smaller creature the ettercap\
+      \ can see within 30 feet. *Failure:* The target has the [Restrained](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the web is destroyed\
       \ (AC 10; HP 5; [Vulnerability](Інструменти%20ДМ/CLI/rules/variant-rules/vulnerability-xphb.md)\
       \ to Fire damage; [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\

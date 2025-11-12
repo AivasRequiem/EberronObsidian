@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -50,7 +51,8 @@ Sages say that gods of pestilence and rot created catoblepases as embodiments of
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": ""
 "cr": "5"
 "traits":
@@ -61,7 +63,7 @@ Sages say that gods of pestilence and rot created catoblepases as embodiments of
       \ immune to the Stench of any catoblepas for 1 hour."
     "name": "Stench"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (5d6 + 4) bludgeoning damage, and the target must succeed on a DC 16\
       \ Constitution saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until the start of the catoblepas's next turn."

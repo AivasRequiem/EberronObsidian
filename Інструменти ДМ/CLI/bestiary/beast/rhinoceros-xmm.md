@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -40,7 +41,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 14 (2d8 + 5) Piercing\
       \ damage. If target is a Large or smaller creature and the rhinoceros moved\
       \ 20+ feet straight toward it immediately before the hit, the target takes an\
       \ extra 9 (2d8) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\

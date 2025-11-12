@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -48,7 +49,8 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "lightning, piercing"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": ""
 "cr": "1"
 "traits":
@@ -60,11 +62,11 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
       \ the thorny's next turn. The thorny dies only if it starts its turn with 0\
       \ hit points and doesn't regenerate."
     "name": "Regeneration"
-  - "desc": "At the start of its turn, the thorny deals 2 (d4) piercing damage to\
-      \ any creature grappling it."
+  - "desc": "At the start of its turn, the thorny deals 2 (1d4) piercing damage\
+      \ to any creature grappling it."
     "name": "Thorny Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) piercing damage."
     "name": "Bite"
 "source":

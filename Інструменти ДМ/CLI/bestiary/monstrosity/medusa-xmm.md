@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -27,8 +28,6 @@ With their hair of living snakes and their infamous petrifying gazes, medusas ar
 Medusas are born or created through preternatural circumstances. Roll on or choose a result from the Medusa Fates table to inspire what led to a medusa's creation.
 
 **Medusa Fates**
-
-`dice: [](medusa-xmm.md#^medusa-fates)`
 
 | dice: 1d6 | The Medusa Was... |
 |-----------|-------------------|
@@ -66,31 +65,32 @@ Medusas are born or created through preternatural circumstances. Roll on or choo
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 150 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 150 ft.,\
+  \ passive Perception 14"
 "languages": "Common plus one other language"
 "cr": "6"
 "actions":
   - "desc": "The medusa makes two Claw attacks and one Snake Hair attack, or it makes\
       \ three Poison Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 5 (1d4 + 3) Piercing\
       \ damage plus 14 (4d6) Poison damage."
     "name": "Snake Hair"
-  - "desc": "Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison\
+  - "desc": "*Ranged Attack Roll:* +5, range 150 ft. *Hit:* 11 (2d8 + 2) Poison\
       \ damage."
     "name": "Poison Ray"
 "bonus_actions":
-  - "desc": "Constitution Saving Throw: DC 13, each creature in a 30-foot [Cone](І\
+  - "desc": "*Constitution Saving Throw:* DC 13, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). If the\
       \ medusa sees its reflection in the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md),\
-      \ the medusa must make this save. 1st Failure: The target has the [Restrained](І\
+      \ the medusa must make this save. *1St Failure:* The target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and repeats the\
       \ save at the end of its next turn if it is still [Restrained](Інструменти%20Д\
       М/CLI/rules/conditions.md#Restrained), ending the effect on itself on a success.\
-      \ 2nd Failure: The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
+      \ *2Nd Failure:* The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
       \ condition instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition."
     "name": "Petrifying Gaze (Recharge 5-6)"

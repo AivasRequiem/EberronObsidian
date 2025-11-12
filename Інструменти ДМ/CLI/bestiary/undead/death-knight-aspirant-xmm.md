@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -22,7 +23,7 @@ When the leader of a villainous order rises as a death knight, their wicked devo
 *Haunted Commanders of Unliving Legions*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Champions of evil, death knights are armor-clad, skeletal warlords. Combining devastating martial prowess and blasphemous magic, these undying tyrants lead unholy legions against the living or brood in cursed citadels. Every death knight is haunted by a legacy of tragedy and dishonor that drives it to commit greater evils.
 
@@ -50,7 +51,8 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Abyssal, Common"
 "cr": "11"
 "traits":
@@ -66,17 +68,17 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
 "actions":
   - "desc": "The aspirant makes three Dread Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 14 (2d8 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing\
       \ damage plus 10 (3d6) Necrotic damage."
     "name": "Dread Blade"
-  - "desc": "Dexterity Saving Throw: DC 15, each creature in a 20-foot-radius [Sphere](І\
+  - "desc": "*Dexterity Saving Throw:* DC 15, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the aspirant can see within 120 feet of itself. Failure: 21 (6d6)\
-      \ Fire damage plus 21 (6d6) Necrotic damage. Success: Half damage."
+      \ on a point the aspirant can see within 120 feet of itself. *Failure:* 21 (6d6)\
+      \ Fire damage plus 21 (6d6) Necrotic damage. *Success:* Half damage."
     "name": "Hellfire Orb (Recharge 5-6)"
   - "desc": "The aspirant casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 15):\n\nAt will: [Phantom Steed](І\
-      нструменти%20ДМ/CLI/spells/phantom-steed-xphb.md)\n\n1/day each: [Destructive\
+      \ spellcasting ability (spell save DC 15):\n\n**At will:** [Phantom Steed](І\
+      нструменти%20ДМ/CLI/spells/phantom-steed-xphb.md)\n\n**1/day each:** [Destructive\
       \ Wave](Інструменти%20ДМ/CLI/spells/destructive-wave-xphb.md) (Necrotic), [Dispel\
       \ Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)"
     "name": "Spellcasting"

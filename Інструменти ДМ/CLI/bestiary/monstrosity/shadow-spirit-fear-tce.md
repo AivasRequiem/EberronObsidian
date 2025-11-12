@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -31,14 +32,15 @@ aliases:
 "speed": "40 ft."
 "damage_resistances": "necrotic"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "understands the languages you speak"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d12 + 3 + the spell's level cold damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d12 + 3 + the spell's level cold damage."
     "name": "Chilling Rend"
   - "desc": "The spirit screams. Each creature within 30 feet of it must succeed on\
       \ a Wisdom saving throw against your spell save DC or be [frightened](Інстру\

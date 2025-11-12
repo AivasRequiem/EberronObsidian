@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -50,19 +51,20 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
     "desc": "+3"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common, Draconic, and any two languages"
 "cr": "2"
 "actions":
   - "desc": "The speaker makes two Thunder Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 13 (3d8) thunder damage, and the target is pushed\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 13 (3d8) thunder damage, and the target is pushed\
       \ horizontally up to 10 feet away from the speaker."
     "name": "Thunder Bolt"
   - "desc": "The speaker casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](І\
-      нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md)\n\n1/day each: [calm\
+      \ spellcasting ability (spell save DC 13):\n\n**At will:** [dancing lights](І\
+      нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md)\n\n**1/day each:** [calm\
       \ emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md), [charm person](І\
       нструменти%20ДМ/CLI/spells/charm-person-xphb.md), [command](Інструменти%20ДМ\
       /CLI/spells/command-xphb.md), [comprehend languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md)"

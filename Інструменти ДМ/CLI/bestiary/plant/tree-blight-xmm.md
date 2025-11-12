@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -49,26 +50,27 @@ Blights are malicious plants that sprout from deep-rooted evil. Their gnarled fo
   - !!int "3"
 "speed": "30 ft."
 "condition_immunities": "[deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened)"
-"senses": "blindsight 60 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands Common and Druidic but can't speak"
 "cr": "7"
 "actions":
   - "desc": "The blight makes two Branch attacks and uses Grasping Root."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 16 (3d6 + 6) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 15 ft. *Hit:* 16 (3d6 + 6) Bludgeoning\
       \ damage."
     "name": "Branch"
-  - "desc": "Strength Saving Throw: DC 17, one Large or smaller creature the blight\
-      \ can see within 15 feet. Failure: The target is pulled up to 10 feet straight\
+  - "desc": "*Strength Saving Throw:* DC 17, one Large or smaller creature the blight\
+      \ can see within 15 feet. *Failure:* The target is pulled up to 10 feet straight\
       \ toward the blight and has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 16) from one of six roots. Until the grapple ends, the\
       \ target takes 13 (2d6 + 6) Bludgeoning damage at the start of each of its\
       \ turns."
     "name": "Grasping Root"
 "bonus_actions":
-  - "desc": "Dexterity Saving Throw: DC 17, one creature [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) by the blight. Failure: 19 (3d8 +\
-      \ 6) Piercing damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 17, one creature [Grappled](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Grappled) by the blight. *Failure:* 19 (3d8 +\
+      \ 6) Piercing damage. *Success:* Half damage."
     "name": "Gnash"
 "source":
   - "XMM"

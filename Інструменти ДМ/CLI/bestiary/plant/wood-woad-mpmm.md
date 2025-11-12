@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -58,7 +59,8 @@ Wood woads are drawn to creatures that have close ties to nature and that protec
 "damage_resistances": "bludgeoning, piercing"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Sylvan"
 "cr": "5"
 "traits":
@@ -80,7 +82,7 @@ Wood woads are drawn to creatures that have close ties to nature and that protec
 "actions":
   - "desc": "The wood woad makes two Club attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d4 + 4) force damage."
     "name": "Club"
 "source":

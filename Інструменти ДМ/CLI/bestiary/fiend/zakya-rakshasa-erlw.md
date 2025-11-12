@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/5
@@ -46,14 +47,15 @@ Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They a
     "desc": "+4"
 "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common, Infernal"
 "cr": "5"
 "traits":
   - "desc": "The rakshasa's innate spellcasting ability is Charisma (spell save DC\
       \ 11). The rakshasa can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n1/day:\
+      \ components:\n\n**At will:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n**1/day:**\
       \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The rakshasa can't be affected or detected by spells of 1st level or\
@@ -73,12 +75,12 @@ Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They a
   - "desc": "The rakshasa makes three melee weapon attacks. Alternatively, it can\
       \ make two ranged attacks with its javelins."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "ERLW"

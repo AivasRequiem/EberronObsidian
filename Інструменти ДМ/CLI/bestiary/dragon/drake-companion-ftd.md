@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/
@@ -35,7 +36,8 @@ aliases:
   - "name": "Wisdom"
     "desc": "+2 + PB"
 "damage_immunities": "determined by the drake's draconic essence trait"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Draconic"
 "traits":
   - "desc": "When you summon the drake, choose a damage type: acid, cold, fire, lightning,\
@@ -43,13 +45,13 @@ aliases:
       \ damage of its Infused Strikes trait."
     "name": "Draconic Essence"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit:\
-      \ d6 plus PB piercing damage."
+  - "desc": "*Melee Weapon Attack:* +3 plus PB to hit, reach 5 ft., one target. *Hit:*\
+      \ 1d6 plus PB piercing damage."
     "name": "Bite"
 "reactions":
   - "desc": "When another creature within 30 feet of the drake that it can see hits\
       \ a target with a weapon attack, the drake infuses the strike with its essence,\
-      \ causing the target to take an extra d6 damage of the type determined by\
+      \ causing the target to take an extra 1d6 damage of the type determined by\
       \ its Draconic Essence."
     "name": "Infused Strikes"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -54,7 +55,8 @@ A bodak retains vague impressions of its past life. It seeks out its former alli
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 14"
 "languages": "Abyssal, the languages it knew in life"
 "cr": "6"
 "traits":
@@ -77,7 +79,7 @@ A bodak retains vague impressions of its past life. It seeks out its former alli
   - "desc": "The bodak doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage."
     "name": "Fist"
   - "desc": "One creature that the bodak can see within 60 feet of it must make a\

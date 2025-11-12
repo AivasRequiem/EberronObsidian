@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/28
@@ -75,16 +76,17 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "28"
 "traits":
   - "desc": "Rak Tulkhesh's spellcasting ability is Charisma (spell save DC 24). He\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**At will:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [spirit\
-      \ guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\n1/day\
-      \ each: [banishing smite](Інструменти%20ДМ/CLI/spells/banishing-smite-xphb.md),\
+      \ guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\n**1/day\
+      \ each:** [banishing smite](Інструменти%20ДМ/CLI/spells/banishing-smite-xphb.md),\
       \ [blinding smite](Інструменти%20ДМ/CLI/spells/blinding-smite-xphb.md), [staggering\
       \ smite](Інструменти%20ДМ/CLI/spells/staggering-smite-xphb.md)"
     "name": "Innate Spellcasting"
@@ -103,11 +105,11 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "actions":
   - "desc": "Rak Tulkhesh makes four weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (3d12 + 9) force damage."
     "name": "Spawned Melee Weapon"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target.\
-      \ Hit: 17 (3d8 + 4) force damage."
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 150/600 ft., one target.\
+      \ *Hit:* 17 (3d8 + 4) force damage."
     "name": "Spawned Ranged Weapon"
   - "desc": "Rak Tulkhesh magically polymorphs into a humanoid, beast, or giant that\
       \ has a challenge rating no higher than his own, or back into his true form.\
@@ -119,6 +121,9 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
       \ those of the new form, except any class features or legendary actions of that\
       \ form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Rak Tulkhesh can expend a use to take one of the following actions. Rak\
+  \ Tulkhesh regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Rak Tulkhesh makes one weapon attack."
     "name": "Attack"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/15
@@ -25,8 +26,6 @@ A mummy lord's heart embodies the pact that grants it immortality. Rather than b
 Mummy lords are usually consumed by ageless plots. Roll on or choose a result from the Mummy Lord Plots table to determine a mummy lord's ancient agenda.
 
 **Mummy Lord Plots**
-
-`dice: [](mummy-lord-xmm.md#^mummy-lord-plots)`
 
 | dice: 1d8 | The Mummy Lord Seeks To... |
 |-----------|----------------------------|
@@ -53,7 +52,7 @@ Mummy lords typically lurk in the ruins of places they dwelled in life. Such sit
 *Deathless Ancients with Ageless Ambitions*
 
 - **Habitat.** Desert, Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Mysterious rites and mighty faith can tie spirits to their corpses, binding them to their remains for all time. Should their resting places be violated, these beings, known as mummies, reanimate their deteriorating bodies to restore the sanctity of their tombs and punish those who disturbed their rest.
 
@@ -95,7 +94,8 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 60 ft., passive Perception 19"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 19"
 "languages": "Common plus three other languages"
 "cr": "15"
 "traits":
@@ -114,7 +114,7 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
   - "desc": "The mummy makes one Rotting Fist or Channel Negative Energy attack, and\
       \ it uses Dreadful Glare."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 15 (2d10 + 4) Bludgeoning\
       \ damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is\
       \ cursed. While cursed, the target can't regain [Hit Points](Інструменти%20Д\
       М/CLI/rules/variant-rules/hit-points-xphb.md), it gains no benefit from finishing\
@@ -124,19 +124,19 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
       \ and turns to dust if reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this attack."
     "name": "Rotting Fist"
-  - "desc": "Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic\
+  - "desc": "*Ranged Attack Roll:* +9, range 60 ft. *Hit:* 25 (6d6 + 4) Necrotic\
       \ damage."
     "name": "Channel Negative Energy"
-  - "desc": "Wisdom Saving Throw: DC 17, one creature the mummy can see within 60\
-      \ feet. Failure: 25 (6d6 + 4) Psychic damage, and the target has the [Paralyzed](І\
+  - "desc": "*Wisdom Saving Throw:* DC 17, one creature the mummy can see within 60\
+      \ feet. *Failure:* 25 (6d6 + 4) Psychic damage, and the target has the [Paralyzed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the end of\
       \ the mummy's next turn."
     "name": "Dreadful Glare"
   - "desc": "The mummy casts one of the following spells, requiring no Material components\
       \ and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit\
-      \ with spell attacks):\n\nAt will: [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
-      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day\
-      \ each: [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \ with spell attacks):\n\n**At will:** [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day\
+      \ each:** [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [Harm](Інструменти%20ДМ/CLI/spells/harm-xphb.md), [Insect Plague](Інструме\
       нти%20ДМ/CLI/spells/insect-plague-xphb.md) (level 7 version)"
     "name": "Spellcasting"
@@ -148,6 +148,26 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
       \ [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until\
       \ the end of the mummy's next turn."
     "name": "Whirlwind of Sand"
+"regional_effects":
+  - "desc": "The region containing a mummy lord's lair is warped by its presence,\
+      \ creating the following effects:\n\n- **Cursed Fate.** Whenever a creature\
+      \ other than the mummy or one of its allies casts a Divination spell while within\
+      \ 1 mile of the lair, the creature makes a DC 15 Constitution saving throw.\
+      \ On a failed save, the spell dissipates with no effect, and the action, [Bonus\
+      \ Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), or\
+      \ [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) used\
+      \ to cast the spell is wasted, but any resources used to cast it aren't expended.\
+      \  \n- **Soul Drain.** Creatures within 1 mile of the lair have [Disadvantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on [Death Saving\
+      \ Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md).\
+      \  \n\nIf the mummy lord is destroyed or moves its lair elsewhere, these effects\
+      \ end immediately. The effects resume if the mummy lord gains a new body (see\
+      \ its Undead Restoration trait)."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the mummy lord can expend a use to take one of the following\
+  \ actions. The mummy lord regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The mummy uses Dreadful Glare. The mummy can't take this action again\
       \ until the start of its next turn."
@@ -158,24 +178,6 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
       \ (level 2 version), using the same spellcasting ability as Spellcasting. The\
       \ mummy can't take this action again until the start of its next turn.\n"
     "name": "Dread Command"
-"regional_effects":
-  - "desc": "The region containing a mummy lord's lair is warped by its presence,\
-      \ creating the following effects:"
-    "name": ""
-  - "desc": "- Cursed Fate. Whenever a creature other than the mummy or one of\
-      \ its allies casts a Divination spell while within 1 mile of the lair, the creature\
-      \ makes a DC 15 Constitution saving throw. On a failed save, the spell dissipates\
-      \ with no effect, and the action, [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md),\
-      \ or [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) used\
-      \ to cast the spell is wasted, but any resources used to cast it aren't expended.\
-      \  \n- Soul Drain. Creatures within 1 mile of the lair have [Disadvantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Death Saving\
-      \ Throws.  "
-    "name": ""
-  - "desc": "If the mummy lord is destroyed or moves its lair elsewhere, these effects\
-      \ end immediately. The effects resume if the mummy lord gains a new body (see\
-      \ its Undead Restoration trait)."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/undead/token/mummy-lord-xmm.webp"

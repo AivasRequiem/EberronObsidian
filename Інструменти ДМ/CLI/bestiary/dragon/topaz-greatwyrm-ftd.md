@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/26
@@ -63,7 +64,8 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "truesight 120 ft., passive Perception 25"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 25"
 "languages": "Common, Draconic"
 "cr": "26"
 "traits":
@@ -81,10 +83,10 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 19) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
@@ -114,7 +116,7 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
       \ Rest)"
   - "desc": "The greatwyrm casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 26, +18\
-      \ to hit with spell attack):\n\n1/day each: [dispel magic](Інструменти%20Д\
+      \ to hit with spell attack):\n\n**1/day each:** [dispel magic](Інструменти%20Д\
       М/CLI/spells/dispel-magic-xphb.md), [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md),\
       \ [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [reverse gravity](І\
       нструменти%20ДМ/CLI/spells/reverse-gravity-xphb.md), [time stop](Інструменти\
@@ -129,6 +131,9 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
   - "desc": "The greatwyrm magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the topaz greatwyrm can expend a use to take one of the following actions.\
+  \ The topaz greatwyrm regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw attack."
     "name": "Claw"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -22,13 +23,11 @@ Elemental cultists harness destructive natural forces to cleanse the world of ci
 *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](elemental-cultist-xmm.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -45,8 +44,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](elemental-cultist-xmm.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -109,16 +106,16 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes three attacks, using Elemental Flail or Elemental Claw\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 25 (6d6 + 4) damage of\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 25 (6d6 + 4) damage of\
       \ a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder."
     "name": "Elemental Flail"
-  - "desc": "Ranged Attack Roll: +7, range 120 ft. Hit: 22 (4d10) damage of\
+  - "desc": "*Ranged Attack Roll:* +7, range 120 ft. *Hit:* 22 (4d10) damage of\
       \ a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder. If\
       \ the target is a Medium or smaller creature, the cultist moves the target up\
       \ to 10 feet straight toward or away from itself."
     "name": "Elemental Claw"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15):\n\nAt will: [Elementalism](Інструменти%20Д\
+      \ ability (spell save DC 15):\n\n**At will:** [Elementalism](Інструменти%20Д\
       М/CLI/spells/elementalism-xphb.md), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)"
     "name": "Spellcasting"
 "reactions":

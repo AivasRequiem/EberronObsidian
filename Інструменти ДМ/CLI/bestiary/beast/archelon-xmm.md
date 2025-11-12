@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -49,7 +50,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The archelon makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 14 (3d6 + 4) Piercing\
       \ damage."
     "name": "Bite"
 "source":

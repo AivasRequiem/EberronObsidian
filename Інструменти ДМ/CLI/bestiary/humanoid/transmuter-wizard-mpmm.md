@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -53,29 +54,29 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "traits":
   - "desc": "The transmuter carries a magic stone it crafted. The stone grants it\
       \ one of the following benefits while bearing the stone; the transmuter chooses\
-      \ the benefit at the end of each long rest:\n\n- Darkvision. The transmuter\
+      \ the benefit at the end of each long rest:\n\n- **Darkvision.** The transmuter\
       \ has [darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) out to a\
-      \ range of 60 feet.  \n- Resilience. The transmuter has proficiency in Constitution\
-      \ saving throws.   \n- Resistance. The transmuter has resistance to acid,\
+      \ range of 60 feet.  \n- **Resilience.** The transmuter has proficiency in Constitution\
+      \ saving throws.   \n- **Resistance.** The transmuter has resistance to acid,\
       \ cold, fire, lightning, or thunder damage (transmuter's choice whenever choosing\
-      \ this benefit).  \n- Speed. The transmuter's walking speed is increased\
+      \ this benefit).  \n- **Speed.** The transmuter's walking speed is increased\
       \ by 10 feet.  "
     "name": "Transmuter's Stone"
 "actions":
   - "desc": "The transmuter makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 19 (3d10 + 3) acid damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 19 (3d10 + 3) acid damage."
     "name": "Arcane Burst"
   - "desc": "The transmuter casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 14):\n\nAt will: [light](Ін\
+      \ as the spellcasting ability (spell save DC 14):\n\n**At will:** [light](Ін\
       струменти%20ДМ/CLI/spells/light-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n2/day each: [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md),\
+      \n**2/day each:** [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md),\
       \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [knock](Ін\
       струменти%20ДМ/CLI/spells/knock-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md),\
       \ [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md), [slow](Інструм\
-      енти%20ДМ/CLI/spells/slow-xphb.md)\n\n1/day each: [telekinesis](Інструме\
+      енти%20ДМ/CLI/spells/slow-xphb.md)\n\n**1/day each:** [telekinesis](Інструме\
       нти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

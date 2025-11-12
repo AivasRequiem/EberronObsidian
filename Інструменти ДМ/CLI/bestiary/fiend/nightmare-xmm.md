@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -28,8 +29,6 @@ Nightmares resemble horses with flaming manes, burning hooves, and smoldering ey
 Nightmares' speed, resilience, and ability to gallop between planes of existence make them steeds coveted by evildoers. Roll on or choose a result from the Nightmare Riders table to inspire what might employ a nightmare steed.
 
 **Nightmare Riders**
-
-`dice: [](nightmare-xmm.md#^nightmare-riders)`
 
 | dice: 1d6 | The Nightmare Carries... |
 |-----------|--------------------------|
@@ -71,7 +70,7 @@ Nightmares' speed, resilience, and ability to gallop between planes of existence
       \ for an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
       \ damage plus 10 (3d6) Fire damage."
     "name": "Hooves"
   - "desc": "The nightmare and up to three willing creatures within 5 feet of it teleport\

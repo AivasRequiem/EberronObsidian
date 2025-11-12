@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/very-rare
@@ -17,8 +18,6 @@ You can make this carpet hover and fly by taking a [Magic](Інструмент�
 Four sizes of Carpet of Flying exist. The DM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its [Fly Speed](Інструменти%20ДМ/CLI/rules/variant-rules/fly-speed-xphb.md) is halved if it carries more than its normal capacity.
 
 **Applicable Carpet Sizes**
-
-`dice: [](carpet-of-flying-xdmg.md#^applicable-carpet-sizes)`
 
 | dice: 1d100 | Size | Capacity | Fly Speed |
 |-------------|------|----------|-----------|

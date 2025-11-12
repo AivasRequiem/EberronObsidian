@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/3
@@ -43,7 +44,8 @@ Neogi pirates (and adult neogi in general) mark themselves and those they captur
     "desc": "+3"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Deep Speech, Undercommon"
 "cr": "3"
 "traits":
@@ -57,14 +59,14 @@ Neogi pirates (and adult neogi in general) mark themselves and those they captur
 "actions":
   - "desc": "The neogi makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
       \ must succeed on a DC 12 Constitution saving throw or become [poisoned](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. A target can repeat\
       \ the saving throw at the end of each of its turns, ending the effect on itself\
       \ on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
@@ -19,8 +20,6 @@ This flickering crystal holds the essence of an Outer Plane. As an action, you c
 Roll a `d4` and consult the Outer Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.
 
 **Outer Essence Shards**
-
-`dice: [](outer-essence-shard-tce.md#^outer-essence-shards)`
 
 | dice: d4 | Property | Shard |
 |----------|----------|-------|

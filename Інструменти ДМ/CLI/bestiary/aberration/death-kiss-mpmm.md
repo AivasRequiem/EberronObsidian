@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -50,11 +51,12 @@ A death kiss lacks the combat finesse and intelligence of a true beholder. In mo
     "desc": "+5"
 "damage_immunities": "lightning"
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": "Deep Speech, Undercommon"
 "cr": "10"
 "traits":
-  - "desc": "A creature within 5 feet of the death kiss takes 5 (d10) lightning\
+  - "desc": "A creature within 5 feet of the death kiss takes 5 (1d10) lightning\
       \ damage whenever it hits the death kiss with a melee attack that deals piercing\
       \ or slashing damage."
     "name": "Lightning Blood"
@@ -62,7 +64,7 @@ A death kiss lacks the combat finesse and intelligence of a true beholder. In mo
   - "desc": "The death kiss makes three Tentacle attacks. Up to three of these attacks\
       \ can be replaced by Blood Drain—one replacement per tentacle grappling a creature."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Huge or smaller\
       \ creature. Until this grapple ends, the target is [restrained](Інструменти\

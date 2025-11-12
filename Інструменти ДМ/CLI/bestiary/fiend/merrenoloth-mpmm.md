@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -51,7 +52,8 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 14"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "3"
 "traits":
@@ -61,7 +63,7 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
 "actions":
   - "desc": "The merrenoloth makes one Oar attack and uses Fear Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) fire damage."
     "name": "Oar"
   - "desc": "The merrenoloth targets one creature it can see within 60 feet of it.\
@@ -73,11 +75,11 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
     "name": "Fear Gaze"
   - "desc": "The merrenoloth casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 13):\n\nAt will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ DC 13):\n\n**At will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect magic](І\
       нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [dispel magic](Інструменти\
       %20ДМ/CLI/spells/dispel-magic-xphb.md), [gust of wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)\n\
-      \n3/day: [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md)"
+      \n**3/day:** [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The merrenoloth teleports, along with any equipment it is wearing or\
@@ -86,26 +88,21 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties) while captaining a vessel,\
       \ the merrenoloth can take one of the following lair actions; it can't take\
-      \ the same lair action two rounds in a row:"
-    "name": ""
-  - "desc": "- Gale. The air within 60 feet of the vessel is filled with wind.\
-      \ Until initiative count 20 on the next round, that area is difficult terrain,\
-      \ and when a Medium or smaller creature flies into that area or starts its turn\
-      \ flying there, it must succeed on a DC 13 Strength saving throw or be knocked\
-      \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  \n- Propel.\
-      \ A strong wind propels the vessel, increasing its speed by 30 feet until initiative\
-      \ count 20 on the next round.  \n- Repair. The vessel regains 22 (4d10)\
-      \ hit points.  "
+      \ the same lair action two rounds in a row:\n\n- **Gale.** The air within 60\
+      \ feet of the vessel is filled with wind. Until initiative count 20 on the next\
+      \ round, that area is difficult terrain, and when a Medium or smaller creature\
+      \ flies into that area or starts its turn flying there, it must succeed on a\
+      \ DC 13 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
+      \  \n- **Propel.** A strong wind propels the vessel, increasing its speed by\
+      \ 30 feet until initiative count 20 on the next round.  \n- **Repair.** The\
+      \ vessel regains 22 (4d10) hit points.  "
     "name": ""
 "regional_effects":
   - "desc": "A merrenoloth imbues its vessel with magic that creates one or more of\
-      \ the following effects:"
-    "name": ""
-  - "desc": "- Unerring. The vessel always stays on course to the destination\
-      \ the merrenoloth names.  \n- Unsinkable. The vessel doesn't sink even if\
-      \ its hull is breached.  "
-    "name": ""
-  - "desc": "If the merrenoloth dies, these effects fade over the course of d6 hours."
+      \ the following effects:\n\n- **Unerring.** The vessel always stays on course\
+      \ to the destination the merrenoloth names.  \n- **Unsinkable.** The vessel\
+      \ doesn't sink even if its hull is breached.  \n\nIf the merrenoloth dies, these\
+      \ effects fade over the course of 1d6 hours."
     "name": ""
 "source":
   - "MPMM"

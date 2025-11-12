@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/17
@@ -53,12 +54,13 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 24"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "17"
 "traits":
   - "desc": "The ghost dragon can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
       \ inside an object."
     "name": "Incorporeal Movement"
   - "desc": "If the ghost dragon fails a saving throw, it can choose to succeed instead."
@@ -68,11 +70,11 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
 "actions":
   - "desc": "The ghost dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 32 (6d8 + 5) cold damage, and the target's speed is halved until the start\
       \ of the dragon's next turn."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) necrotic damage."
     "name": "Claw"
   - "desc": "The ghost dragon exhales shadowy mist in a 90-foot cone. Each creature\

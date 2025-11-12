@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -57,7 +58,8 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+3"
 "damage_resistances": "acid, cold"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Sahuagin"
 "cr": "2"
 "traits":
@@ -74,13 +76,13 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes two Spectral Jaws attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +4, reach 5 ft. or range 120 ft. *Hit:*\
       \ 11 (2d8 + 2) Force damage."
     "name": "Spectral Jaws"
   - "desc": "The sahuagin casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n2/day each: [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
+      \n**At will:** [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
+      \n**2/day each:** [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
       \ [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

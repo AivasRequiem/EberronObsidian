@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -20,8 +21,6 @@ Master thieves are known for perpetrating daring heists. They tend to develop a 
 When a master thief completes a challenging heist, they often leave behind a calling card to taunt their victims. You may roll on the Master Thief Calling Cards table to determine what a master thief leaves behind.
 
 **Master Thief Calling Cards**
-
-`dice: [](master-thief-mpmm.md#^master-thief-calling-cards)`
 
 | dice: d10 | Calling Card |
 |-----------|--------------|
@@ -81,11 +80,11 @@ When a master thief completes a challenging heist, they often leave behind a cal
 "actions":
   - "desc": "The thief makes three Shortsword or Shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d6 + 4) piercing damage plus 3 (1d6) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit:\
-      \ 7 (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 80/320 ft., one target. *Hit:*\
+      \ 7 (1d6 + 4) piercing damage plus 3 (1d6) poison damage."
     "name": "Shortbow"
 "bonus_actions":
   - "desc": "The thief takes the [Dash](Інструменти%20ДМ/CLI/rules/actions.md#Dash),\

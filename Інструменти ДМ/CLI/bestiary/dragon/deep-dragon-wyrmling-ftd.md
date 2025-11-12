@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1
@@ -26,8 +27,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 
 ### Deep Dragon Personality Traits
 
-`dice: [](deep-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I will not risk injury at the hands of weaker creatures—especially while I can turn them against one another and have them fight in my stead. |
@@ -41,8 +40,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 ^trait
 
 ### Deep Dragon Ideals
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -59,8 +56,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 The Deep Dragon Adventure Hooks table offers suggestions for stories and adventures involving deep dragons.
 
 ### Deep Dragon Adventure Hooks
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -79,8 +74,6 @@ The Deep Dragon Adventure Hooks table offers suggestions for stories and adventu
 Deep dragons appreciate the company of other dragons. Although they view most other species as inferior to dragonkind, having worth only as servants or tools, the rare individuals who impress them can sometimes earn respect as partners—albeit junior ones.
 
 ### Deep Dragon Wyrmling Connections
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -126,17 +119,18 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 90 ft., passive Perception 13"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive Perception 13"
 "languages": "Draconic"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) piercing damage."
     "name": "Bite"
   - "desc": "The dragon exhales a cloud of spores in a 15-foot cone. Each creature\
       \ in that area must make a DC 11 Wisdom saving throw. On a failed save, the\
-      \ creature takes 5 (d10) psychic damage, and it is [frightened](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Frightened) of the dragon for 1 minute. On a\
+      \ creature takes 5 (1d10) psychic damage, and it is [frightened](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Frightened) of the dragon for 1 minute. On a\
       \ successful save, the creature takes half as much damage with no additional\
       \ effects. A [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ creature can repeat the saving throw at the end of each of its turns, ending\

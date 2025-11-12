@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-8
@@ -25,8 +26,6 @@ The Valenar animals presented here—hawk, hound, and steed—are but examples, 
 Each Valenar animal can be customized with an ancestral gift, a supernatural trait granted by its ancestral spirit. Choose a trait or roll on the Ancestral Traits table for each Valenar animal.
 
 **Ancestral Traits**
-
-`dice: [](valenar-hawk-erlw.md#^ancestral-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|
@@ -74,7 +73,7 @@ Each Valenar animal can be customized with an ancestral gift, a supernatural tra
       \ checks that rely on sight."
     "name": "Keen Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) slashing damage."
     "name": "Talons"
 "source":

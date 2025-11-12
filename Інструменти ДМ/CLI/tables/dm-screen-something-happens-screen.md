@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Screen* 
 
 **Something happens!**
-
-`dice: [](dm-screen-something-happens-screen.md#^something-happens)`
 
 | dice: d20 | Event |
 |-----------|-------|

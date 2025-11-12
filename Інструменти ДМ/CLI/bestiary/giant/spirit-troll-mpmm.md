@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -58,12 +59,13 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
   трументи%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained), [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Giant"
 "cr": "11"
 "traits":
   - "desc": "The troll can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The troll regains 10 hit points at the start of each of its turns. If\
@@ -74,14 +76,14 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "actions":
   - "desc": "The troll makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 19 (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom\
       \ saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. The [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 19 (3d10 + 3) psychic damage."
     "name": "Claws"
 "source":

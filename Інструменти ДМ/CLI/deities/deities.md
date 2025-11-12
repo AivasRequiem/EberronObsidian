@@ -1,12 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Deities
 
+- [Goibhniu](./celtic-goibhniu.md)
+- [Moradin](./dawn-war-moradin-dmg.md)
 - [Mishakal](./dragonlance-mishakal-phb.md)
 - [Paladine](./dragonlance-paladine-phb.md)
+- [Reorx](./dragonlance-reorx-phb.md)
 - [Berronar Truesilver](./dwarven-berronar-truesilver-mtf.md)
+- [Moradin](./dwarven-moradin-mtf.md)
 - [Arawai](./eberron-arawai-erlw.md)
 - [Aureon](./eberron-aureon-erlw.md)
 - [Balinor](./eberron-balinor-erlw.md)
@@ -28,17 +34,25 @@ cssclasses: json5e-note
 - [The Spirits of the Past](./eberron-the-spirits-of-the-past-erlw.md)
 - [The Traveler](./eberron-the-traveler-erlw.md)
 - [The Undying Court](./eberron-the-undying-court-erlw.md)
+- [Anubis](./egyptian-anubis.md)
+- [Osiris](./egyptian-osiris.md)
 - [Angharradh](./elven-angharradh-mtf.md)
 - [Eldath](./faerunian-eldath-scag.md)
+- [Gond](./faerunian-gond-scag.md)
 - [Helm](./faerunian-helm-scag.md)
 - [Ilmater](./faerunian-ilmater-scag.md)
+- [Kelemvor](./faerunian-kelemvor-scag.md)
 - [Selûne](./faerunian-selune-scag.md)
 - [Eldath](./forgotten-realms-eldath.md)
+- [Gond](./forgotten-realms-gond.md)
 - [Helm](./forgotten-realms-helm.md)
 - [Ilmater](./forgotten-realms-ilmater.md)
+- [Kelemvor](./forgotten-realms-kelemvor.md)
 - [Selûne](./forgotten-realms-selune.md)
 - [Gaerdal Ironhand](./gnome-gaerdal-ironhand-mtf.md)
 - [Gaerdal Ironhand](./gnomish-gaerdal-ironhand-scag.md)
+- [Hades](./greek-hades.md)
+- [Hephaestus](./greek-hephaestus.md)
 - [Beory](./greyhawk-beory-xdmg.md)
 - [Berei](./greyhawk-berei-xdmg.md)
 - [Boccob](./greyhawk-boccob-xdmg.md)
@@ -68,4 +82,5 @@ cssclasses: json5e-note
 - [Wee Jas](./greyhawk-wee-jas-xdmg.md)
 - [Cyrrollalee](./halfling-cyrrollalee-mtf.md)
 - [Yondalla](./halfling-yondalla-mtf.md)
+- [Moradin](./nonhuman-moradin.md)
 - [Yondalla](./nonhuman-yondalla.md)

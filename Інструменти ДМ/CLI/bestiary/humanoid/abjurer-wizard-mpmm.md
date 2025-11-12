@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The abjurer makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (3d10 + 4) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 20 (3d10 + 4) force damage."
     "name": "Arcane Burst"
   - "desc": "Each creature in a 20-foot cube originating from the abjurer must make\
       \ a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8)\
@@ -62,13 +63,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ save, a creature takes half as much damage and isn't pushed."
     "name": "Force Blast"
   - "desc": "The abjurer casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 16):\n\nAt will: [dancing lights](І\
+      \ the spellcasting ability (spell save DC 16):\n\n**At will:** [dancing lights](І\
       нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [mage hand](Інструменти\
       %20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n2/day each: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \n**2/day each:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
       \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [mage\
-      \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\n\n1/day each:\
+      \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\n\n**1/day each:**\
       \ [arcane lock](Інструменти%20ДМ/CLI/spells/arcane-lock-xphb.md), [banishment](І\
       нструменти%20ДМ/CLI/spells/banishment-xphb.md), [globe of invulnerability](І\
       нструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md), [invisibility](І\

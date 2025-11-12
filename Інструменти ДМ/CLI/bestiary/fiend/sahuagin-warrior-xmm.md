@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -55,7 +56,8 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "acid, cold"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": "Sahuagin"
 "cr": "1/2"
 "traits":
@@ -72,7 +74,7 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Slashing\
       \ damage."
     "name": "Claw"
 "bonus_actions":

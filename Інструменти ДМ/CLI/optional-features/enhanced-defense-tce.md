@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/ai
@@ -9,6 +10,8 @@ aliases:
 ---
 # Enhanced Defense
 *Source: Tasha's Cauldron of Everything p. 21, Eberron: Rising from the Last War p. 62*  
+
+**Prerequisite**: A suit of armor or a shield
 
 A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.
 

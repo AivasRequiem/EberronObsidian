@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/fairy
@@ -40,8 +41,6 @@ The Feywild is home to many fantastic peoples, including fairies. Fairies are a 
 Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You're also free to come up with your own characteristic if none of the suggestions below fit your character.
 
 **Fey Characteristics**
-
-`dice: [](fairy-mpmm.md#^fey-characteristics)`
 
 | dice: d8 | Characteristic |
 |----------|----------------|

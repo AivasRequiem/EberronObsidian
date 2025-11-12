@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -22,7 +23,7 @@ Bronze dragon wyrmlings believe they can solve any problems, and they seek to pr
 *Dragons of Potential and Preservation*
 
 - **Habitat.** Coastal  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Where bronze dragons dwell, wonders flourish. Imaginative yet mindful, these metallic dragons work toward greatness and help others achieve all they can. They strive to preserve innovations, from the works of past civilizations to new discoveries, and they share such works widely. When dealing with shorter-lived beings, bronze dragons prefer to win them over through conversation and cultivation, but they don't shy from battle when villains keep others from achieving their potential.
 
@@ -59,7 +60,8 @@ Bronze dragons usually make their homes near or under the sea.
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
 "damage_immunities": "lightning"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
@@ -68,15 +70,15 @@ Bronze dragons usually make their homes near or under the sea.
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 8 (1d10 + 3) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 12, each creature in a 40-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 16 (3d10) Lightning damage. Success: Half damage."
+      \ *Failure:* 16 (3d10) Lightning damage. *Success:* Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
-  - "desc": "Strength Saving Throw: DC 12, each creature in a 30-foot [Cone](Інс\
-      трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Strength Saving Throw:* DC 12, each creature in a 30-foot [Cone](Інс\
+      трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ The target is pushed up to 30 feet straight away from the dragon and has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Repulsion Breath"

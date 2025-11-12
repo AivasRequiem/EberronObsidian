@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -57,13 +58,14 @@ An archon doesn't require food, drink, or sleep.
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 20"
 "languages": "all"
 "cr": "14"
 "traits":
   - "desc": "The archon's innate spellcasting ability is Wisdom (spell save DC 18,\
       \ +10 to hit with spell attacks). The archon can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [calm emotions](І\
+      \ spells, requiring no material components:\n\n**At will:** [calm emotions](І\
       нструменти%20ДМ/CLI/spells/calm-emotions-xphb.md), [command](Інструменти%20Д\
       М/CLI/spells/command-xphb.md), [compelled duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md)"
     "name": "Innate Spellcasting"
@@ -84,7 +86,7 @@ An archon doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The archon makes two Hammer of Justice attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage. If the target\
       \ is a creature, it must succeed on a DC 18 Strength saving throw or be knocked\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
@@ -100,6 +102,10 @@ An archon doesn't require food, drink, or sleep.
       \ or the effect ends for it, the creature is immune to the archon's Pacifying\
       \ Presence for the next 24 hours."
     "name": "Pacifying Presence"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the archon of the triumvirate can expend a use to take one of the following\
+  \ actions. The archon of the triumvirate regains all expended uses at the start\
+  \ of each of its turns."
 "legendary_actions":
   - "desc": "If the archon isn't mounted, it magically teleports to its steed and\
       \ mounts it as long as the archon and its steed are on the same plane of existence."

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/eldritch-knight
 aliases:
@@ -14,11 +15,16 @@ aliases:
 - [Blade Ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md "XPHB") at class level 3
 - [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") at class level 3
 - [Chill Touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md "XPHB") at class level 3
+- [Control Flames](Інструменти%20ДМ/CLI/spells/control-flames-xge.md "XGE") at class level 3
+- [Create Bonfire](Інструменти%20ДМ/CLI/spells/create-bonfire-xge.md "XGE") at class level 3
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB") at class level 3
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB") at class level 3
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") at class level 3
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") at class level 3
+- [Frostbite](Інструменти%20ДМ/CLI/spells/frostbite-xge.md "XGE") at class level 3
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") at class level 3
+- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") at class level 3
+- [Infestation](Інструменти%20ДМ/CLI/spells/infestation-xge.md "XGE") at class level 3
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") at class level 3
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") at class level 3
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") at class level 3
@@ -26,9 +32,11 @@ aliases:
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB") at class level 3
 - [Mind Sliver](Інструменти%20ДМ/CLI/spells/mind-sliver-xphb.md "XPHB") at class level 3
 - [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md "XPHB") at class level 3
+- [Mold Earth](Інструменти%20ДМ/CLI/spells/mold-earth-xge.md "XGE") at class level 3
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB") at class level 3
 - [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md "XPHB") at class level 3
 - [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB") at class level 3
+- [Shape Water](Інструменти%20ДМ/CLI/spells/shape-water-xge.md "XGE") at class level 3
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB") at class level 3
 - [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE") at class level 3
 - [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") at class level 3
@@ -37,14 +45,18 @@ aliases:
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") at class level 3
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB") at class level 3
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") at class level 3
+- [Catapult](Інструменти%20ДМ/CLI/spells/catapult-xge.md "XGE") at class level 3
+- [Cause Fear](Інструменти%20ДМ/CLI/spells/cause-fear-xge.md "XGE") at class level 3
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB") at class level 3
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") at class level 3
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") at class level 3
 - [Comprehend Languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md "XPHB") at class level 3
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB") at class level 3
 - [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB") at class level 3
+- [Earth Tremor](Інструменти%20ДМ/CLI/spells/earth-tremor-xge.md "XGE") at class level 3
 - [Expeditious Retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md "XPHB") at class level 3
 - [False Life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md "XPHB") at class level 3
 - [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md "XPHB") at class level 3
@@ -63,6 +75,7 @@ aliases:
 - [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md "XPHB") at class level 3
 - [Silent Image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md "XPHB") at class level 3
 - [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md "XPHB") at class level 3
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") at class level 3
 - [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") at class level 3
 - [Tasha's Hideous Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md "XPHB") at class level 3
 - [Tenser's Floating Disk](Інструменти%20ДМ/CLI/spells/tensers-floating-disk-xphb.md "XPHB") at class level 3
@@ -72,6 +85,7 @@ aliases:
 
 ## 2nd Level
 
+- [Aganazzar's Scorcher](Інструменти%20ДМ/CLI/spells/aganazzars-scorcher-xge.md "XGE") at class level 3
 - [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md "XPHB") at class level 3
 - [Arcane Lock](Інструменти%20ДМ/CLI/spells/arcane-lock-xphb.md "XPHB") at class level 3
 - [Arcane Vigor](Інструменти%20ДМ/CLI/spells/arcane-vigor-xphb.md "XPHB") at class level 3
@@ -85,6 +99,8 @@ aliases:
 - [Darkvision](Інструменти%20ДМ/CLI/spells/darkvision-xphb.md "XPHB") at class level 3
 - [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md "XPHB") at class level 3
 - [Dragon's Breath](Інструменти%20ДМ/CLI/spells/dragons-breath-xphb.md "XPHB") at class level 3
+- [Dust Devil](Інструменти%20ДМ/CLI/spells/dust-devil-xge.md "XGE") at class level 3
+- [Earthbind](Інструменти%20ДМ/CLI/spells/earthbind-xge.md "XGE") at class level 3
 - [Enhance Ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md "XPHB") at class level 3
 - [Enlarge/Reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md "XPHB") at class level 3
 - [Flaming Sphere](Інструменти%20ДМ/CLI/spells/flaming-sphere-xphb.md "XPHB") at class level 3
@@ -97,6 +113,7 @@ aliases:
 - [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md "XPHB") at class level 3
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB") at class level 3
 - [Magic Weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md "XPHB") at class level 3
+- [Maximilian's Earthen Grasp](Інструменти%20ДМ/CLI/spells/maximilians-earthen-grasp-xge.md "XGE") at class level 3
 - [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md "XPHB") at class level 3
 - [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md "XPHB") at class level 3
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") at class level 3
@@ -104,15 +121,20 @@ aliases:
 - [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") at class level 3
 - [Nystul's Magic Aura](Інструменти%20ДМ/CLI/spells/nystuls-magic-aura-xphb.md "XPHB") at class level 3
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB") at class level 3
+- [Pyrotechnics](Інструменти%20ДМ/CLI/spells/pyrotechnics-xge.md "XGE") at class level 3
 - [Ray of Enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md "XPHB") at class level 3
 - [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD") at class level 3
 - [Rope Trick](Інструменти%20ДМ/CLI/spells/rope-trick-xphb.md "XPHB") at class level 3
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB") at class level 3
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB") at class level 3
+- [Shadow Blade](Інструменти%20ДМ/CLI/spells/shadow-blade-xge.md "XGE") at class level 3
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB") at class level 3
+- [Skywrite](Інструменти%20ДМ/CLI/spells/skywrite-xge.md "XGE") at class level 3
+- [Snilloc's Snowball Swarm](Інструменти%20ДМ/CLI/spells/snillocs-snowball-swarm-xge.md "XGE") at class level 3
 - [Spider Climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md "XPHB") at class level 3
 - [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md "XPHB") at class level 3
 - [Tasha's Mind Whip](Інструменти%20ДМ/CLI/spells/tashas-mind-whip-tce.md "TCE") at class level 3
+- [Warding Wind](Інструменти%20ДМ/CLI/spells/warding-wind-xge.md "XGE") at class level 3
 - [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md "XPHB") at class level 3
 
 ## 3rd Level
@@ -121,12 +143,16 @@ aliases:
 - [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") at class level 3
 - [Bestow Curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md "XPHB") at class level 3
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB") at class level 3
+- [Catnap](Інструменти%20ДМ/CLI/spells/catnap-xge.md "XGE") at class level 3
 - [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md "XPHB") at class level 3
 - [Counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md "XPHB") at class level 3
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB") at class level 3
+- [Enemies Abound](Інструменти%20ДМ/CLI/spells/enemies-abound-xge.md "XGE") at class level 3
+- [Erupting Earth](Інструменти%20ДМ/CLI/spells/erupting-earth-xge.md "XGE") at class level 3
 - [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md "XPHB") at class level 3
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB") at class level 3
 - [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md "XPHB") at class level 3
+- [Flame Arrows](Інструменти%20ДМ/CLI/spells/flame-arrows-xge.md "XGE") at class level 3
 - [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md "XPHB") at class level 3
 - [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md "XPHB") at class level 3
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB") at class level 3
@@ -134,9 +160,11 @@ aliases:
 - [Hypnotic Pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md "XPHB") at class level 3
 - [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE") at class level 3
 - [Leomund's Tiny Hut](Інструменти%20ДМ/CLI/spells/leomunds-tiny-hut-xphb.md "XPHB") at class level 3
+- [Life Transference](Інструменти%20ДМ/CLI/spells/life-transference-xge.md "XGE") at class level 3
 - [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md "XPHB") at class level 3
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB") at class level 3
 - [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md "XPHB") at class level 3
+- [Melf's Minute Meteors](Інструменти%20ДМ/CLI/spells/melfs-minute-meteors-xge.md "XGE") at class level 3
 - [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md "XPHB") at class level 3
 - [Phantom Steed](Інструменти%20ДМ/CLI/spells/phantom-steed-xphb.md "XPHB") at class level 3
 - [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB") at class level 3
@@ -148,10 +176,16 @@ aliases:
 - [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE") at class level 3
 - [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB") at class level 3
 - [Summon Fey](Інструменти%20ДМ/CLI/spells/summon-fey-xphb.md "XPHB") at class level 3
+- [Summon Lesser Demons](Інструменти%20ДМ/CLI/spells/summon-lesser-demons-xge.md "XGE") at class level 3
 - [Summon Shadowspawn](Інструменти%20ДМ/CLI/spells/summon-shadowspawn-tce.md "TCE") at class level 3
 - [Summon Undead](Інструменти%20ДМ/CLI/spells/summon-undead-xphb.md "XPHB") at class level 3
+- [Thunder Step](Інструменти%20ДМ/CLI/spells/thunder-step-xge.md "XGE") at class level 3
+- [Tidal Wave](Інструменти%20ДМ/CLI/spells/tidal-wave-xge.md "XGE") at class level 3
+- [Tiny Servant](Інструменти%20ДМ/CLI/spells/tiny-servant-xge.md "XGE") at class level 3
 - [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md "XPHB") at class level 3
 - [Vampiric Touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md "XPHB") at class level 3
+- [Wall of Sand](Інструменти%20ДМ/CLI/spells/wall-of-sand-xge.md "XGE") at class level 3
+- [Wall of Water](Інструменти%20ДМ/CLI/spells/wall-of-water-xge.md "XGE") at class level 3
 - [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md "XPHB") at class level 3
 
 ## 4th Level
@@ -165,6 +199,7 @@ aliases:
 - [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md "XPHB") at class level 3
 - [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md "XPHB") at class level 3
 - [Divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md "XPHB") at class level 3
+- [Elemental Bane](Інструменти%20ДМ/CLI/spells/elemental-bane-xge.md "XGE") at class level 3
 - [Evard's Black Tentacles](Інструменти%20ДМ/CLI/spells/evards-black-tentacles-xphb.md "XPHB") at class level 3
 - [Fabricate](Інструменти%20ДМ/CLI/spells/fabricate-xphb.md "XPHB") at class level 3
 - [Fire Shield](Інструменти%20ДМ/CLI/spells/fire-shield-xphb.md "XPHB") at class level 3
@@ -179,10 +214,14 @@ aliases:
 - [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md "XPHB") at class level 3
 - [Polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md "XPHB") at class level 3
 - [Raulothim's Psychic Lance](Інструменти%20ДМ/CLI/spells/raulothims-psychic-lance-ftd.md "FTD") at class level 3
+- [Sickening Radiance](Інструменти%20ДМ/CLI/spells/sickening-radiance-xge.md "XGE") at class level 3
 - [Stone Shape](Інструменти%20ДМ/CLI/spells/stone-shape-xphb.md "XPHB") at class level 3
 - [Stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md "XPHB") at class level 3
+- [Storm Sphere](Інструменти%20ДМ/CLI/spells/storm-sphere-xge.md "XGE") at class level 3
 - [Summon Aberration](Інструменти%20ДМ/CLI/spells/summon-aberration-xphb.md "XPHB") at class level 3
 - [Summon Construct](Інструменти%20ДМ/CLI/spells/summon-construct-xphb.md "XPHB") at class level 3
 - [Summon Elemental](Інструменти%20ДМ/CLI/spells/summon-elemental-xphb.md "XPHB") at class level 3
+- [Summon Greater Demon](Інструменти%20ДМ/CLI/spells/summon-greater-demon-xge.md "XGE") at class level 3
 - [Vitriolic Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md "XPHB") at class level 3
 - [Wall of Fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md "XPHB") at class level 3
+- [Watery Sphere](Інструменти%20ДМ/CLI/spells/watery-sphere-xge.md "XGE") at class level 3

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -42,7 +43,8 @@ Devourers hunt Humanoids with the intent of consuming them body and soul. After 
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -52,7 +54,7 @@ Devourers hunt Humanoids with the intent of consuming them body and soul. After 
   - "desc": "The devourer makes two Claw attacks and can use either Imprison Soul\
       \ or Soul Rend, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage."
     "name": "Claw"
   - "desc": "The devourer chooses a living Humanoid with 0 hit points that it can\

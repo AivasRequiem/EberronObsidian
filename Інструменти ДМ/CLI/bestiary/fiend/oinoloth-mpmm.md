@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -53,7 +54,8 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 17"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 17"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "12"
 "traits":
@@ -63,7 +65,7 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
 "actions":
   - "desc": "The oinoloth makes two Claw attacks, and it uses Spellcasting or Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) slashing damage plus 22 (4d10) necrotic damage."
     "name": "Claw"
   - "desc": "The oinoloth touches one willing creature within 5 feet of it. The target\
@@ -84,11 +86,11 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
     "name": "Teleport"
   - "desc": "The oinoloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect\
+      \n**At will:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect\
       \ magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [hold monster](Інструменти\
       %20ДМ/CLI/spells/hold-monster-xphb.md), [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
-      \ (self only)\n\n1/day each: [feeblemind](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md),\
+      \ (self only)\n\n**1/day each:** [feeblemind](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md),\
       \ [globe of invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -103,8 +105,8 @@ Oinoloths solve thorny problems by killing everyone involved. They are typically
       \ creature can't regain hit points. After every 24 hours that elapse, the [poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature can repeat the saving\
       \ throw. On a failed save, the creature's hit point maximum is reduced by 5\
-      \ (d10). This reduction lasts until the poison ends, and the target dies if\
-      \ its hit point maximum is reduced to 0. The poison ends after the creature\
+      \ (1d10). This reduction lasts until the poison ends, and the target dies\
+      \ if its hit point maximum is reduced to 0. The poison ends after the creature\
       \ successfully saves against it three times."
     "name": "Bringer of Plagues (Recharge 5-6)"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -23,7 +24,7 @@ aliases:
 *Flightless, Noise-Mimicking Avian*
 
 - **Habitat.** Forest, Planar (Shadowfell), Urban  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Kenku are birdlike folk who once soared the skies and sang enchanted songs, but a curse stole their wings and transformed their voices. Now kenku slip through the shadows of cities and the Shadowfell, trying to recover what they've lost. To some, this means seeking an end to their curse; others search for magic or contraptions to enable them to fly and sing again.
 
@@ -53,7 +54,8 @@ The curse affecting kenku allows them to vocally communicate only by mimicking s
     "desc": "+2"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Common, Primordial (Auran)"
 "cr": "1/4"
 "traits":
@@ -62,8 +64,8 @@ The curse affecting kenku allows them to vocally communicate only by mimicking s
       \ Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
-      \ 6 (1d6 + 3) Necrotic damage. Hit or Miss: The blade magically returns\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 60 ft. *Hit:*\
+      \ 6 (1d6 + 3) Necrotic damage. *Hit or Miss:* The blade magically returns\
       \ to the kenku's hand immediately after a ranged attack."
     "name": "Shadow Blade"
 "bonus_actions":

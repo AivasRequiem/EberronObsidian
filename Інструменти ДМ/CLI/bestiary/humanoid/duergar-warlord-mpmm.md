@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -59,7 +60,8 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - !!int "14"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Dwarvish, Undercommon"
 "cr": "6"
 "traits":
@@ -76,12 +78,12 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - "desc": "The duergar makes three Psychic-Attuned Hammer or Javelin attacks and\
       \ uses Call to Attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage while\
-      \ under the effect of Enlarge, plus 5 (d10) psychic damage."
+      \ under the effect of Enlarge, plus 5 (1d10) psychic damage."
     "name": "Psychic-Attuned Hammer"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing\
       \ damage while under the effect of Enlarge."
     "name": "Javelin"
   - "desc": "Up to three allies within 120 feet of this duergar that can hear it can\
@@ -105,7 +107,7 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
 "reactions":
   - "desc": "When an ally that the duergar can see makes a d20 roll, the duergar\
       \ can roll a d6, and the ally can add the number rolled to the d20 by taking\
-      \ 3 (d6) psychic damage."
+      \ 3 (1d6) psychic damage."
     "name": "Scouring Instruction"
 "source":
   - "MPMM"

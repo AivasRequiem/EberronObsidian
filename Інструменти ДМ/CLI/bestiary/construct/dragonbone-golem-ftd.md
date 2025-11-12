@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/11
@@ -42,7 +43,8 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands Draconic and the languages of its creator but can't speak"
 "cr": "11"
 "traits":
@@ -61,7 +63,7 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
 "actions":
   - "desc": "The golem makes one Pinion attack and two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) piercing damage. If the target is a Medium or smaller creature,\
       \ it is pinned beneath the bony pinion and [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
       \ The golem has two pinions, each of which can restrain one target. If a creature\
@@ -71,8 +73,8 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
       \ at the start of its turn with a successful DC 17 Strength ([Athletics](Інс\
       трументи%20ДМ/CLI/rules/skills.md#Athletics)) check."
     "name": "Pinion"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-      \ (2d6 + 5) piercing damage plus 5 (d10) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
+      \ (2d6 + 5) piercing damage plus 5 (1d10) necrotic damage."
     "name": "Rend"
   - "desc": "The golem emits a 60-foot cone of petrifying gas from its mouth. Each\
       \ creature in that area must succeed on a DC 15 Constitution saving throw or\

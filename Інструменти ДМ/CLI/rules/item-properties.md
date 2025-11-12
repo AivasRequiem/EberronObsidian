@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 aliases:
 - Item Properties
 ---
@@ -167,4 +168,4 @@ In some settings, laws prohibit the possession and use of poison, but an illicit
 
 ### Harvesting Poison
 
-A character can attempt to harvest poison from a venomous creature that is dead or has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. The effort takes `d6` minutes, after which the character makes a DC 20 Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check using a [Poisoner's Kit](Інструменти%20ДМ/CLI/items/poisoners-kit-xphb.md). On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
+A character can attempt to harvest poison from a venomous creature that is dead or has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. The effort takes `1d6` minutes, after which the character makes a DC 20 Intelligence ([Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)) check using a [Poisoner's Kit](Інструменти%20ДМ/CLI/items/poisoners-kit-xphb.md). On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -57,7 +58,8 @@ Water weirds might protect a site for generations and learn much about their sur
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 10"
 "languages": "understands Primordial but can't speak"
 "cr": "3"
 "traits":
@@ -68,7 +70,7 @@ Water weirds might protect a site for generations and learn much about their sur
       \ that water is destroyed."
     "name": "Water Bound"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 13 (3d6 + 3) Cold damage.\
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 13 (3d6 + 3) Cold damage.\
       \ If the target is a Medium or smaller creature, it has the [Grappled](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13), and\
       \ it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\

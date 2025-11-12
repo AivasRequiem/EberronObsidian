@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -40,7 +41,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": ""
 "cr": "0"
 "traits":
@@ -48,7 +50,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ enemy's reach."
     "name": "Agile"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (d4) Bludgeoning damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 2 (1d4) Bludgeoning damage."
     "name": "Ram"
 "source":
   - "XMM"

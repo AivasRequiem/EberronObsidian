@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -47,7 +48,8 @@ A pack of yeth hounds can be created by powerful Fey such as the Queen of Air an
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "understands Common, Elvish and Sylvan but can't speak"
 "cr": "4"
 "traits":
@@ -66,7 +68,7 @@ A pack of yeth hounds can be created by powerful Fey such as the Queen of Air an
       \ telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage, plus 14 (4d6) psychic damage if the target\
       \ is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)."
     "name": "Bite"

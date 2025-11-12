@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -44,7 +45,8 @@ Because of their unshakable loyalty, merregons form the backbone of many devils'
 "damage_immunities": "fire, poison"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "understands Infernal but can't speak, telepathy 120 ft."
 "cr": "4"
 "traits":
@@ -57,10 +59,10 @@ Because of their unshakable loyalty, merregons form the backbone of many devils'
 "actions":
   - "desc": "The merregon makes three Halberd attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) slashing damage."
     "name": "Halberd"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 100/400 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) piercing damage."
     "name": "Heavy Crossbow"
 "reactions":

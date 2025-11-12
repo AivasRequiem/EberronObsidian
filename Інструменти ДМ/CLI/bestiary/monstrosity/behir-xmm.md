@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -56,29 +57,30 @@ Behirs live in sprawling cave systems and elaborate ruins where they can make th
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive\
+  \ Perception 16"
 "languages": "Draconic"
 "cr": "11"
 "actions":
   - "desc": "The behir makes one Bite attack and uses Constrict."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 19 (2d12 + 6) Piercing\
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 19 (2d12 + 6) Piercing\
       \ damage plus 11 (2d10) Lightning damage."
     "name": "Bite"
-  - "desc": "Strength Saving Throw: DC 18, one Large or smaller creature the behir\
-      \ can see within 5 feet. Failure: 28 (5d8 + 6) Bludgeoning damage. The target\
+  - "desc": "*Strength Saving Throw:* DC 18, one Large or smaller creature the behir\
+      \ can see within 5 feet. *Failure:* 28 (5d8 + 6) Bludgeoning damage. The target\
       \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 16), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Constrict"
-  - "desc": "Dexterity Saving Throw: DC 16, each creature in a 90-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 16, each creature in a 90-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 66 (12d10) Lightning damage. Success: Half damage."
+      \ *Failure:* 66 (12d10) Lightning damage. *Success:* Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "Dexterity Saving Throw: DC 18, one Large or smaller creature [Grappled](І\
+  - "desc": "*Dexterity Saving Throw:* DC 18, one Large or smaller creature [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the behir (the behir can\
-      \ have only one creature swallowed at a time). Failure: The behir swallows\
+      \ have only one creature swallowed at a time). *Failure:* The behir swallows\
       \ the target, which is no longer [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled).\
       \ While swallowed, a creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\

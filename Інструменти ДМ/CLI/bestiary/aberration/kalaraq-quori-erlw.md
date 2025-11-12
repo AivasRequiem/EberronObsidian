@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/19
@@ -58,14 +59,15 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "19"
 "traits":
   - "desc": "The quori's spellcasting ability is Charisma (spell save DC 21, +13\
       \ to hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no components:\n\nAt will: [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md)\n\
-      \n3/day each: [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
+      \ no components:\n\n**At will:** [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md)\n\
+      \n**3/day each:** [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
       \ [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [dream](Інстру\
       менти%20ДМ/CLI/spells/dream-xphb.md), [eyebite](Інструменти%20ДМ/CLI/spells/eyebite-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
@@ -73,7 +75,7 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
       \ while it isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "All-Around Vision"
   - "desc": "The quori can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The quori has advantage on saving throws against spells and other magical\
@@ -83,10 +85,10 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori makes two Soul Binding attacks. Alternatively, it can make\
       \ four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +13 to hit, range 120 ft., one target. *Hit:*\
       \ 12 (1d10 + 7) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Spell Attack: +13 to hit, reach 5 ft., one target. Hit: 29\
+  - "desc": "*Melee Spell Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 29\
       \ (4d10 + 7) necrotic damage. A creature reduced to 0 hit points from this\
       \ attack dies and has its soul imprisoned in one of the quori's eyes. The target\
       \ can't be revived by any means short of a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md)\

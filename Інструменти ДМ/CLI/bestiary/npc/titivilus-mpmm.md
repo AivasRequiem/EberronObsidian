@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -64,7 +65,8 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "all, telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -84,7 +86,7 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
 "actions":
   - "desc": "Titivilus makes one Silver Sword attack, and he uses Frightful Word."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) force damage, or 9 (1d10 + 4) force damage if used with two\
       \ hands, plus 16 (3d10) necrotic damage. If the target is a creature, its\
       \ hit point maximum is reduced by an amount equal to half the necrotic damage\
@@ -113,14 +115,17 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
       \ hours."
     "name": "Twisting Words"
   - "desc": "Titivilus casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md), [major\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md), [major\
       \ image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md), [nondetection](Ін\
       струменти%20ДМ/CLI/spells/nondetection-xphb.md), [sending](Інструменти%20ДМ\
       /CLI/spells/sending-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\
-      \n3/day each: [mislead](Інструменти%20ДМ/CLI/spells/mislead-xphb.md), [modify\
+      \n**3/day each:** [mislead](Інструменти%20ДМ/CLI/spells/mislead-xphb.md), [modify\
       \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Titivilus can expend a use to take one of the following actions. Titivilus\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Titivilus uses Twisting Words. Alternatively, he targets one creature\
       \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by him that is\

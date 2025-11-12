@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -22,13 +23,11 @@ Aberrant cultists pursue mind-bending powers from alien forces. Aberrant cultist
 *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](aberrant-cultist-xmm.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -45,8 +44,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](aberrant-cultist-xmm.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -102,27 +99,28 @@ Cults can organize around any mystical tradition, but many serve supernatural be
     "desc": "+7"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+6"
-"senses": "darkvision 90 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive\
+  \ Perception 17"
 "languages": "Common, Deep Speech; telepathy 30 ft."
 "cr": "8"
 "actions":
   - "desc": "The cultist makes two Tentacle Lash attacks. It can replace any attack\
       \ with a use of Mind Rot."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 10 ft. *Hit:* 7 (1d6 + 4) Slashing\
       \ damage plus 14 (4d6) Psychic damage. If the target is a Large or smaller\
       \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 14) from one of two tentacles, and it has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the grapple\
       \ ends."
     "name": "Tentacle Lash"
-  - "desc": "Wisdom Saving Throw: DC 15, one creature the cultist can see within\
-      \ 90 feet. Failure: 27 (6d8) Psychic damage, and the target has the [Poisoned](І\
+  - "desc": "*Wisdom Saving Throw:* DC 15, one creature the cultist can see within\
+      \ 90 feet. *Failure:* 27 (6d8) Psychic damage, and the target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start\
-      \ of the cultist's next turn. Success: Half damage only."
+      \ of the cultist's next turn. *Success:* Half damage only."
     "name": "Mind Rot"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15):\n\nAt will: [Detect Thoughts](Інструменти\
+      \ ability (spell save DC 15):\n\n**At will:** [Detect Thoughts](Інструменти\
       %20ДМ/CLI/spells/detect-thoughts-xphb.md), [Minor Illusion](Інструменти%20ДМ\
       /CLI/spells/minor-illusion-xphb.md)"
     "name": "Spellcasting"

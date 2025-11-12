@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 138* 
 
 **Undercity Mansion Adventures**
-
-`dice: [](undercity-mansion-adventures-ggr.md#^undercity-mansion-adventures)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

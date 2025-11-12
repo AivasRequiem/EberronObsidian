@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -27,8 +28,6 @@ Gibbering mouthers endlessly feed on and regrow their own amoeboid bodies—amor
 Gibbering mouthers come into being in various unpleasant ways. Roll on or choose a result from the Gibbering Mouther Nascencies table to inspire what brought one of these horrors into being.
 
 **Gibbering Mouther Nascencies**
-
-`dice: [](gibbering-mouther-xmm.md#^gibbering-mouther-nascencies)`
 
 | dice: 1d6 | The Gibbering Mouther Is... |
 |-----------|-----------------------------|
@@ -63,7 +62,8 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
   - !!int "6"
 "speed": "20 ft., swim 20 ft."
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "2"
 "traits":
@@ -71,26 +71,26 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
       \ originating from the mouther is [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md)."
     "name": "Aberrant Ground"
   - "desc": "The mouther babbles incoherently while it doesn't have the [Incapacitated](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. Wisdom Saving\
-      \ Throw: DC 10, any creature that starts its turn within 20 feet of the mouther\
-      \ while it is babbling. Failure: The target rolls d8 to determine what it\
-      \ does during the current turn:\n\n- 1-4. The target does nothing.  \n-\
-      \ 5-6. The target takes no action or [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
-      \ and uses all its movement to move in a random direction.  \n- 7-8. The\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition. *Wisdom Saving\
+      \ Throw:* DC 10, any creature that starts its turn within 20 feet of the mouther\
+      \ while it is babbling. *Failure:* The target rolls 1d8 to determine what\
+      \ it does during the current turn:\n\n- **1-4.** The target does nothing.  \n\
+      - **5-6.** The target takes no action or [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
+      \ and uses all its movement to move in a random direction.  \n- **7-8.** The\
       \ target makes a melee attack against a randomly determined creature within\
       \ its reach or does nothing if it can't make such an attack.  "
     "name": "Gibbering"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 7 (2d6) Piercing damage.\
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 7 (2d6) Piercing damage.\
       \ If the target is a Medium or smaller creature, it has the [Prone](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Prone) condition. The target dies if it is\
       \ reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this attack. Its body is then absorbed into the mouther, leaving only equipment\
       \ behind."
     "name": "Bite"
-  - "desc": "Dexterity Saving Throw: DC 10, each creature in a 10-foot-radius [Sphere](І\
+  - "desc": "*Dexterity Saving Throw:* DC 10, each creature in a 10-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 30 feet. Failure: 7 (2d6) Radiant damage, and the target\
+      \ on a point within 30 feet. *Failure:* 7 (2d6) Radiant damage, and the target\
       \ has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition\
       \ until the end of the mouther's next turn."
     "name": "Blinding Spittle (Recharge 5-6)"

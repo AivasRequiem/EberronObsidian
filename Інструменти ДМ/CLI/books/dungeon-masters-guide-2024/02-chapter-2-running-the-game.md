@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -660,7 +661,7 @@ Depending on how you planned the stages, the end of a stage might mean the chara
 
 #### Weather
 
-During each stage of the characters' journey, you can determine what the weather is like by rolling on the Weather table, adjusting for the terrain and season as appropriate. Roll `d20` three times to determine the temperature, the wind, and the precipitation.
+During each stage of the characters' journey, you can determine what the weather is like by rolling on the Weather table, adjusting for the terrain and season as appropriate. Roll `1d20` three times to determine the temperature, the wind, and the precipitation.
 
 Weather has no significant game effect most of the time, but see ""Environmental Effects"" in "chapter 3" for the effects of extreme weather. Adding weather details to your descriptions of the characters' journey can make it more memorable.
 
@@ -732,7 +733,7 @@ The Encounter Distance column in the "Travel Terrain" table gives the range at w
 
 Characters without water and [Rations](Інструменти%20ДМ/CLI/items/rations-xphb.md) can stave off [dehydration](Інструменти%20ДМ/CLI/traps-hazards/dehydration-xphb.md) and [malnutrition](Інструменти%20ДМ/CLI/traps-hazards/malnutrition-xphb.md) by gathering food and water as they travel. A foraging character makes a Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) check once per journey stage (or once per day if a stage is shorter than a day). The DC is determined by the abundance of food and water in the region, as shown in the Foraging DC column of the "Travel Terrain" table. If multiple characters forage, each character makes a separate check.
 
-A foraging character finds nothing on a failed check. On a successful check, roll `d6` and add the character's Wisdom modifier to determine how much food (in pounds) the character finds per day of the journey stage, then repeat the roll for water (in gallons).
+A foraging character finds nothing on a failed check. On a successful check, roll `1d6` and add the character's Wisdom modifier to determine how much food (in pounds) the character finds per day of the journey stage, then repeat the roll for water (in gallons).
 
 > [!note] Do Players Need to Track Rations?
 > 
@@ -765,7 +766,7 @@ In addition to the chance of a delay (adding a few hours, a day, or a couple of 
 
 - **Combat Encounter.** The characters encounter one or more Hostile creatures. For example, marching through a burning forest instead of circling around it might prompt an encounter with raging fire elementals.  
 - **Damage.** The characters take damage. For example, a character who tumbles over a waterfall might take Bludgeoning damage. See ""Improvising Damage"" in this chapter for guidelines on determining how much damage is appropriate.  
-- **Exhaustion.** The obstacle fatigues the characters, causing them to gain [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels. For example, marching through a blizzard instead of taking shelter might cause each character to gain `d4` [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels.  
+- **Exhaustion.** The obstacle fatigues the characters, causing them to gain [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels. For example, marching through a blizzard instead of taking shelter might cause each character to gain `1d4` [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) levels.  
 - **Another Condition.** The obstacle imposes another condition on the characters. For example, wading through a fetid swamp rather than skirting around it might impose the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition, which lasts until removed by magic.  
 
 #### Searches

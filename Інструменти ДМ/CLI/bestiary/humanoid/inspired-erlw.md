@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/2
@@ -58,9 +59,9 @@ Most of the people of the Five Nations have heard of the Inspired lords in Riedr
 "traits":
   - "desc": "The Inspired's spellcasting ability is Intelligence (spell save DC 13).\
       \ It can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [vicious\
+      \n**At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [vicious\
       \ mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md) (see \"Actions\"\
-      \ below)\n\n1/day each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ below)\n\n**1/day each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [dissonant whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md),\
       \ [hex](Інструменти%20ДМ/CLI/spells/hex-xphb.md), [hold person](Інструменти\
       %20ДМ/CLI/spells/hold-person-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)"
@@ -71,13 +72,13 @@ Most of the people of the Five Nations have heard of the Inspired lords in Riedr
   - "desc": "The Inspired makes two crysteel dagger attacks. It can replace one attack\
       \ with vicious mockery."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage plus 10 (3d6) force damage."
     "name": "Crysteel Dagger"
   - "desc": "The Inspired unleashes a string of insults laced with subtle enchantments\
       \ at one creature it can see within 60 feet of it. If the target can hear the\
       \ Inspired, the target must succeed on a DC 13 Wisdom saving throw or take 2\
-      \ (d4) psychic damage and have disadvantage on the next attack roll it makes\
+      \ (1d4) psychic damage and have disadvantage on the next attack roll it makes\
       \ before the end of its next turn."
     "name": "Vicious Mockery (Cantrip)"
 "source":

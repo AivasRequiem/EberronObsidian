@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/11
@@ -41,7 +42,8 @@ A dracohydra can sometimes be found in the service of the spellcaster who create
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 19"
 "languages": "understands Draconic but can't speak"
 "cr": "11"
 "traits":
@@ -65,7 +67,7 @@ A dracohydra can sometimes be found in the service of the spellcaster who create
 "actions":
   - "desc": "The dracohydra makes as many Bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire,\
       \ lightning, or poison."
     "name": "Bite"

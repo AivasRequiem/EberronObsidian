@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -18,8 +19,6 @@ This candle's magic is activated when the candle is lit, which requires a [Magic
 While lit, the candle sheds [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) in a 30-foot radius. While you are within that light, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md). In addition, a Cleric or Druid in the light can cast level 1 spells they have prepared without expending spell slots.
 
 Alternatively, when you light the candle for the first time, you can cast [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md) with it. Doing so destroys the candle. The portal created by the spell links to a particular Outer Plane chosen by the DM or determined by rolling on the following table.
-
-`dice: [](candle-of-invocation-xdmg.md#^1-outer-plane)`
 
 | dice: 1d100 | Outer Plane |
 |-------------|-------------|

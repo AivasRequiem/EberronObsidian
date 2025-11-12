@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -8,10 +9,12 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/7th-level
 - ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
 - Druid
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Regenerate
 ---
@@ -26,6 +29,6 @@ aliases:
 
 A creature you touch regains `4d8 + 15` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). For the duration, the target regains 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) at the start of each of its turns, and any severed body parts regrow after 2 minutes.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 311. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

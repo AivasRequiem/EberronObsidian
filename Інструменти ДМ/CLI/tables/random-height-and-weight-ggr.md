@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -13,7 +14,7 @@ aliases:
 
 | Race | Base Height | Height Modifier | Base Weight | Weight Modifier |
 |------|-------------|-----------------|-------------|-----------------|
-| Centaur | 6'0" | +`d10` | 600 lb. | × (`2d12`) lb. |
+| Centaur | 6'0" | +`1d10` | 600 lb. | × (`2d12`) lb. |
 | Goblin | 3'5" | +`2d4` | 35 lb. | × 1 lb. |
 | Simic hybrid | * | * | * | * |
 | Loxodon | 6'7" | +`2d10` | 295 lb. | × (`2d4`) lb. |

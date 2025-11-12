@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -32,7 +33,7 @@ While holding Wave, you gain the following benefits:
 
 ## Aquatic Command
 
-Wave has 3 charges and regains `d3` expended charges daily at dawn. While you carry it, you can expend 1 charge to cast [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md) (save DC 20) from it on a Beast that has a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md).
+Wave has 3 charges and regains `1d3` expended charges daily at dawn. While you carry it, you can expend 1 charge to cast [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md) (save DC 20) from it on a Beast that has a [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md).
 
 ## Globe of Invulnerability
 

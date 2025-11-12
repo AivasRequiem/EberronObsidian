@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -69,18 +70,18 @@ aliases:
       \ itself in water for at least 1 hour."
     "name": "Water Dependency"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 5 (2d4) poison\
       \ damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage plus 5 (2d4) poison damage."
     "name": "Shortbow"
   - "desc": "The grung casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [druidcraft](Інструменти%20ДМ\
-      /CLI/spells/druidcraft-xphb.md)\n\n3/day each: [cure wounds](Інструменти\
+      \ ability (spell save DC 12):\n\n**At will:** [druidcraft](Інструменти%20ДМ\
+      /CLI/spells/druidcraft-xphb.md)\n\n**3/day each:** [cure wounds](Інструменти\
       %20ДМ/CLI/spells/cure-wounds-xphb.md), [spike growth](Інструменти%20ДМ/CLI/spells/spike-growth-xphb.md)\n\
-      \n2/day: [plant growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md)"
+      \n**2/day:** [plant growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md)"
     "name": "Spellcasting"
 "source":
   - "MPMM"

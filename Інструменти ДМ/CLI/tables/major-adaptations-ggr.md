@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 210* 
 
 **Major Adaptations**
-
-`dice: [](major-adaptations-ggr.md#^major-adaptations)`
 
 | dice: d8 | Major Adaptation |
 |----------|------------------|

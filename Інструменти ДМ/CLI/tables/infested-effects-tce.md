@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Tasha's Cauldron of Everything p. 156* 
 
 **Infested Effects**
-
-`dice: [](infested-effects-tce.md#^infested-effects)`
 
 | dice: d100 | Infested Effects |
 |------------|------------------|
@@ -33,5 +32,5 @@ aliases:
 | 81–85 | One random creature in the region must succeed on a DC 16 Constitution saving throw or become host to a particularly aggressive tapeworm. The affected creature gains no benefit from eating until it receives treatment that removes a disease. A creature immune to disease automatically succeeds on this saving throw. |
 | 86–90 | Biting mites infest creatures' clothing in the region. Any creature wearing medium or heavy armor has disadvantage on attack rolls, ability checks, and saving throws for the next 24 hours. |
 | 91–95 | Tiny arachnids invade unattended spaces. The next time one random creature in the region dons its clothing or armor after finishing a long rest, it must succeed on a DC 16 Constitution saving throw or take 11 (`2d10`) poison damage. |
-| 96–00 | Countless tiny, bloodsucking insects infest the region for the next `d6` hours. Every hour, each creature in the region must succeed on a DC 10 Constitution saving throw or gain 1 level of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion). The insects don't affect creatures that are immune to disease. |
+| 96–00 | Countless tiny, bloodsucking insects infest the region for the next `1d6` hours. Every hour, each creature in the region must succeed on a DC 10 Constitution saving throw or gain 1 level of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion). The insects don't affect creatures that are immune to disease. |
 ^infested-effects

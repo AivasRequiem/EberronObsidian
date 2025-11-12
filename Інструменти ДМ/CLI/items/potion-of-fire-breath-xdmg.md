@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -10,7 +11,7 @@ aliases:
 ---
 # Potion of Fire Breath
 *Potion, uncommon*  
-
+![](Інструменти%20ДМ/CLI/items/img/potion-of-fire-breath.webp#right)
 
 - **Weight**: 0.5 lbs.
 

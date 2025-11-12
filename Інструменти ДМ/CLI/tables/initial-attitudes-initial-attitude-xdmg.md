@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -18,4 +19,4 @@ aliases:
 | 9-12 | Friendly |
 ^initial-attitude
 
-*Roll different dice to alter the range and likelihood of possible attitudes. For example, you could roll `d6` for a predatory monster, `1d6 + 3` for ordinary travelers, or `1d6 + 6` for kindhearted individuals.
+*Roll different dice to alter the range and likelihood of possible attitudes. For example, you could roll `1d6` for a predatory monster, `1d6 + 3` for ordinary travelers, or `1d6 + 6` for kindhearted individuals.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Copper Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
@@ -24,7 +25,7 @@ At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/besti
 - **Laughing Gas.** The dragon chooses a point on the ground that it can see within 120 feet of it. A cloud of pink gas fills a 20-foot-radius sphere centered on that point. Each creature in that area that fails a DC 15 Wisdom saving throw is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) with laughter until the end of its next turn.  
 - **Torpid Energy.** The dragon chooses a creature it can see within 120 feet of it. If the target fails a DC 15 Constitution saving throw, its speed is halved, and it can't use reactions or bonus actions until the end of its next turn.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 The region containing a legendary copper dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
@@ -33,7 +34,7 @@ The region containing a legendary copper dragon's lair is warped by the dragon's
 - Tiny beasts such as rodents and birds that are normally unable to speak gain the magical ability to speak and understand Draconic while within 1 mile of the dragon's lair. These creatures speak well of the dragon, but can't divulge its whereabouts.  
 - Intelligent creatures within 1 mile of the dragon's lair are prone to fits of giggling. Even serious matters suddenly seem amusing.  
 
-If the dragon dies, the magic carvings fade over the course of `d10` days. The other effects end immediately.
+If the dragon dies, the magic carvings fade over the course of `1d10` days. The other effects end immediately.
 
 ### Additional Regional Effects
 

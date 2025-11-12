@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/16
@@ -52,7 +53,8 @@ A zodar can cause speech to issue from the air around it on three occasions in i
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft. (blind\
+  \ beyond this radius), passive Perception 12"
 "languages": "see Disembodied Voice below"
 "cr": "16"
 "traits":
@@ -72,7 +74,7 @@ A zodar can cause speech to issue from the air around it on three occasions in i
   - "desc": "The zodar makes two Crushing Fist attacks. Before or after these attacks,\
       \ the zodar uses Forced Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) force damage."
     "name": "Crushing Fist"
   - "desc": "The zodar magically warps space around one creature it can see within\

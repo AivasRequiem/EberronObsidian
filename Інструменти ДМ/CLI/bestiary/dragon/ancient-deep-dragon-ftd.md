@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/18
@@ -60,7 +61,8 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 300 ft., passive Perception 20"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 300 ft., passive Perception 20"
 "languages": "Common, Draconic, Undercommon"
 "cr": "18"
 "traits":
@@ -69,13 +71,13 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
@@ -92,6 +94,39 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
       \ creature can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Nightmare Breath (Recharge 5-6)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Deep Torpor.** The dragon casts the [slow](Інс\
+      трументи%20ДМ/CLI/spells/slow-xphb.md) spell, requiring no spell components\
+      \ and using Charisma as the spellcasting ability (spell save DC 16). The spell\
+      \ ends early if the dragon uses this lair action again or if the dragon dies.\
+      \  \n- **Mossy Sludge.** The dragon conjures sludge-like moss that briefly covers\
+      \ surfaces in the lair. The ceiling, floor, and walls of the lair become difficult\
+      \ terrain until initiative count 20 on the next round.  \n- **Toxic Spores.**\
+      \ The dragon fills a 20-foot cube it can see within 120 feet of itself with\
+      \ toxic spores. Each creature in that area must succeed on a DC 15 Constitution\
+      \ saving throw or take 14 (4d6) poison damage and be [poisoned](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Poisoned) until the end of its next turn.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary deep dragon's lair is altered by the\
+      \ dragon's magic, creating one or more of the following effects:\n\n- **Preservation\
+      \ of Knowledge.** Books, letters, and any other physical forms of writing within\
+      \ 6 miles of the dragon's lair become magically charged and can't be damaged\
+      \ by nonmagical means.  \n- **Restless Sleep.** When a creature finishes a long\
+      \ rest within 6 miles of the lair, the creature must first succeed on a DC 10\
+      \ Constitution saving throw or be unable to reduce its level of [exhaustion](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Exhaustion). Creatures immune to the\
+      \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition are\
+      \ immune to this effect.  \n- **Verdant Growth.** Vegetation and fungi within\
+      \ 6 miles of the dragon's lair grow faster and cover a greater area than they\
+      \ normally would. Foraging in this area yields twice the usual amount of food.\
+      \  \n\nIf the dragon dies, these effects fade over the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon releases spores around a creature within 30 feet of it that\
       \ it can see. The target must succeed on a DC 19 Wisdom saving throw or use\
@@ -108,41 +143,6 @@ The challenge rating of a legendary deep dragon increases by 1 when it's encount
       %20ДМ/CLI/rules/conditions.md#Poisoned) creature can repeat the saving throw\
       \ at the end of each of its turns, ending the effect on itself on a success."
     "name": "Spore Salvo (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Deep Torpor. The dragon casts the [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\
-      \ spell, requiring no spell components and using Charisma as the spellcasting\
-      \ ability (spell save DC 16). The spell ends early if the dragon uses this lair\
-      \ action again or if the dragon dies.  \n- Mossy Sludge. The dragon conjures\
-      \ sludge-like moss that briefly covers surfaces in the lair. The ceiling, floor,\
-      \ and walls of the lair become difficult terrain until initiative count 20 on\
-      \ the next round.  \n- Toxic Spores. The dragon fills a 20-foot cube it\
-      \ can see within 120 feet of itself with toxic spores. Each creature in that\
-      \ area must succeed on a DC 15 Constitution saving throw or take 14 (4d6)\
-      \ poison damage and be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ until the end of its next turn.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary deep dragon's lair is altered by the\
-      \ dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Preservation of Knowledge. Books, letters, and any other physical\
-      \ forms of writing within 6 miles of the dragon's lair become magically charged\
-      \ and can't be damaged by nonmagical means.  \n- Restless Sleep. When a\
-      \ creature finishes a long rest within 6 miles of the lair, the creature must\
-      \ first succeed on a DC 10 Constitution saving throw or be unable to reduce\
-      \ its level of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion).\
-      \ Creatures immune to the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition are immune to this effect.  \n- Verdant Growth. Vegetation and\
-      \ fungi within 6 miles of the dragon's lair grow faster and cover a greater\
-      \ area than they normally would. Foraging in this area yields twice the usual\
-      \ amount of food.  "
-    "name": ""
-  - "desc": "If the dragon dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/ancient-deep-dragon-ftd.webp"

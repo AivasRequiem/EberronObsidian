@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -45,7 +46,8 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -58,10 +60,10 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
 "actions":
   - "desc": "The mimic makes one Bite attack and two Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A\
       \ creature adhered to the mimic is also [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by it (escape DC 16). Until this grapple ends, the target is [restrained](І\

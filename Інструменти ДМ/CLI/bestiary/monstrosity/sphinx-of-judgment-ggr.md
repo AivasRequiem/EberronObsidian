@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/11
@@ -45,26 +46,27 @@ aliases:
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 18"
 "languages": "Common, Sphinx"
 "cr": "11"
 "traits":
   - "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). It requires no material\
       \ components to cast its spells. The sphinx has the following wizard spells\
-      \ prepared:\n\nCantrips (at will): [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md),\
+      \ prepared:\n\n**Cantrips (at will):** [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md),\
       \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інст\
-      рументи%20ДМ/CLI/spells/message-xphb.md)\n\n1st level (4 slots): [command](І\
+      рументи%20ДМ/CLI/spells/message-xphb.md)\n\n**1st level (4 slots):** [command](І\
       нструменти%20ДМ/CLI/spells/command-xphb.md), [ensnaring strike](Інструменти\
       %20ДМ/CLI/spells/ensnaring-strike-xphb.md), [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md)\n\
-      \n2nd level (3 slots): [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
+      \n**2nd level (3 slots):** [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
       \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [suggestion](І\
-      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n3rd level (3 slots): [clairvoyance](І\
+      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n**3rd level (3 slots):** [clairvoyance](І\
       нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [counterspell](Інструменти\
       %20ДМ/CLI/spells/counterspell-xphb.md), [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\
-      \n4th level (3 slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
-      \ [divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md)\n\n5th level\
-      \ (1 slots): [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
+      \n**4th level (3 slots):** [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
+      \ [divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md)\n\n**5th level\
+      \ (1 slots):** [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
     "name": "Spellcasting"
   - "desc": "The sphinx is immune to any effect that would sense its emotions or read\
       \ its thoughts, as well as any divination spell that it refuses. Wisdom ([Insight](І\
@@ -76,9 +78,12 @@ aliases:
 "actions":
   - "desc": "The sphinx makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the sphinx of judgment can expend a use to take one of the following actions.\
+  \ The sphinx of judgment regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The sphinx makes one claw attack."
     "name": "Claw Attack"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -50,7 +51,8 @@ An Izzet weird doesn't require air, food, drink, or sleep.
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Draconic"
 "cr": "4"
 "traits":
@@ -68,18 +70,18 @@ An Izzet weird doesn't require air, food, drink, or sleep.
   - "desc": "The weird can move through a space as narrow as 1 inch wide without squeezing.\
       \ In addition, the weird can enter a hostile creature's space and stop there.\
       \ The first time the weird enters another creature's space on a turn, that creature\
-      \ takes 5 (d10) fire damage and catches fire; until someone takes an action\
-      \ to douse the fire, the burning creature takes 5 (d10) fire damage at the\
+      \ takes 5 (1d10) fire damage and catches fire; until someone takes an action\
+      \ to douse the fire, the burning creature takes 5 (1d10) fire damage at the\
       \ start of each of its turns."
     "name": "Form of Fire and Water"
   - "desc": "A creature that touches the weird or hits it with a melee attack while\
-      \ within 5 feet of it takes 5 (d10) fire damage."
+      \ within 5 feet of it takes 5 (1d10) fire damage."
     "name": "Heated Body"
   - "desc": "The weird sheds bright light in a 30-foot radius and dim light for an\
       \ additional 30 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3)\
       \ bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger."
     "name": "Slam"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -48,7 +49,8 @@ Werewolves change from their humanoid forms into fierce wolves or wolf-humanoid 
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common (can't speak in wolf form)"
 "cr": "3"
 "traits":
@@ -61,18 +63,18 @@ Werewolves change from their humanoid forms into fierce wolves or wolf-humanoid 
   - "desc": "The werewolf makes two attacks, using Scratch or Longbow in any combination.\
       \ It can replace one attack with a Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 12 (2d8 + 3) Piercing\
       \ damage. If the target is a Humanoid, it is subjected to the following effect.\
-      \ Constitution Saving Throw: DC 12. Failure: The target is cursed. If the\
+      \ *Constitution Saving Throw:* DC 12. *Failure:* The target is cursed. If the\
       \ cursed target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ it instead becomes a Werewolf under the DM's control and has 10 [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success: The\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). *Success:* The\
       \ target is immune to this werewolf's curse for 24 hours."
     "name": "Bite (Wolf or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Scratch"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing\
+  - "desc": "*Ranged Attack Roll:* +4, range 150/600 ft. *Hit:* 11 (2d8 + 2) Piercing\
       \ damage."
     "name": "Longbow (Humanoid or Hybrid Form Only)"
 "bonus_actions":

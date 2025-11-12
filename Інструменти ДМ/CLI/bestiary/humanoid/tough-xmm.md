@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -22,7 +23,7 @@ Toughs might work in groups at the direction of a leader, or individual toughs m
 *Brawlers and Bullies*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Bodyguards, belligerents, and laborers, toughs rely on their physical strength to intimidate foes. They might be brawny criminals, rowdy tavern goers, seasoned workers, or anyone who uses their muscle to get what they want.
 
@@ -58,10 +59,10 @@ Bodyguards, belligerents, and laborers, toughs rely on their physical strength t
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Bludgeoning\
       \ damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing\
+  - "desc": "*Ranged Attack Roll:* +3, range 100/400 ft. *Hit:* 6 (1d10 + 1) Piercing\
       \ damage."
     "name": "Heavy Crossbow"
 "source":

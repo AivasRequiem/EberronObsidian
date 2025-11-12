@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -20,15 +21,13 @@ aliases:
 *Guardian of Home and Heart*
 
 - **Habitat.** Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Clay golems are magical defenders made from earth and clay to protect places or communities. The materials used in creating clay golems originate from near the location the golems protect and often have special significance to their creators, such as clay from a holy site or bricks from a magical ruin. While some clay golems are masterfully sculpted to resemble living beings, others have only vaguely humanlike forms.
 
 These golems obey their creators' orders and protect what their makers value most. Some still follow these orders long after their creators' deaths. Roll on or choose a result from the Clay Golem Orders table to inspire the commands a clay golem follows.
 
 **Clay Golem Orders**
-
-`dice: [](clay-golem-xmm.md#^clay-golem-orders)`
 
 | dice: 1d4 | The Clay Golem Follows Orders To... |
 |-----------|-------------------------------------|
@@ -62,7 +61,8 @@ These golems obey their creators' orders and protect what their makers value mos
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Common plus one other language"
 "cr": "9"
 "traits":
@@ -71,7 +71,7 @@ These golems obey their creators' orders and protect what their makers value mos
       \ equal to the Acid damage dealt."
     "name": "Acid Absorption"
   - "desc": "Whenever the golem starts its turn [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
-      \ roll d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
+      \ roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
       \ the golem attacks the nearest creature it can see. If no creature is near\
       \ enough to move to and attack, the golem attacks an object. Once the golem\
       \ goes berserk, it continues to be berserk until it is destroyed or it is no\
@@ -86,10 +86,10 @@ These golems obey their creators' orders and protect what their makers value mos
   - "desc": "The golem makes two Slam attacks, or it makes three Slam attacks if it\
       \ used Hasten this turn."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning\
-      \ damage plus 6 (d12) Acid damage, and the target's [Hit Point](Інструмент\
-      и%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an amount\
-      \ equal to the Acid damage taken."
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 10 (1d10 + 5) Bludgeoning\
+      \ damage plus 6 (1d12) Acid damage, and the target's [Hit Point](Інструмен\
+      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an\
+      \ amount equal to the Acid damage taken."
     "name": "Slam"
 "bonus_actions":
   - "desc": "The golem takes the Dash and Disengage actions."

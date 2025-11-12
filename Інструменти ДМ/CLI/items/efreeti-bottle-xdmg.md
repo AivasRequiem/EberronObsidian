@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/very-rare
@@ -15,8 +16,6 @@ aliases:
 When you take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless fire, and an [Efreeti](Інструменти%20ДМ/CLI/bestiary/elemental/efreeti-xmm.md) appears in an unoccupied space within 30 feet of you.
 
 The first time the bottle is opened, the DM rolls on the following table to determine what happens.
-
-`dice: [](efreeti-bottle-xdmg.md#^1-effect)`
 
 | dice: 1d10 | Effect |
 |------------|--------|

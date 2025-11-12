@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -200,10 +201,10 @@ Some sages describe dragons as being akin to knots in the fabric of magic—conc
 
 #### Regional Reversal
 
-As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `d10` days, as in the following examples:
+As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `1d10` days, as in the following examples:
 
-- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `d10` days.  
-- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `d10` days.  
+- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `1d10` days.  
+- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `1d10` days.  
 - **Trembling Earth.** An enormous tremor shakes the earth within 6 miles of the lair.  
 - **Wildlife Changes.** Creatures previously attracted by the dragon's presence undergo sharp behavioral changes, perhaps attacking any creatures they see or beginning a mass migration away from the lair.  
 - **Winds of Change.** The weather within 6 miles of the lair changes dramatically.  
@@ -493,7 +494,7 @@ The magic that suffuses a dragon and the dragon's lair can sometimes extend to e
 
 > [!note] 
 > 
-> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `d8` damage of the same type its master's breath weapon deals.
+> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `1d8` damage of the same type its master's breath weapon deals.
 > 
 > **Minion's Mind.** The minion can't be compelled to act in a way contrary to its master's instructions.
 > 

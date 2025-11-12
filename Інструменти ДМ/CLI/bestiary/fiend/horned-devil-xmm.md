@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -21,7 +22,7 @@ aliases:
 *Devil of Hatred and Subjugation*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Horned devils, also known as cornugons or malebranche, are infernal warriors that exact the will of diabolical generals and lead other devils in battle. Their bodies and weapons are forged in the Nine Hells, and they torment their foes with diabolical flames and pernicious wounds.
 
@@ -50,7 +51,8 @@ Horned devils, also known as cornugons or malebranche, are infernal warriors tha
   - "charisma": !!int "8"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 150 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 150 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 13"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "11"
@@ -67,15 +69,15 @@ Horned devils, also known as cornugons or malebranche, are infernal warriors tha
   - "desc": "The devil makes three attacks, using Searing Fork or Hurl Flame in any\
       \ combination. It can replace one attack with a use of Infernal Tail."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing\
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 15 (2d8 + 6) Piercing\
       \ damage plus 9 (2d8) Fire damage."
     "name": "Searing Fork"
-  - "desc": "Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire\
+  - "desc": "*Ranged Attack Roll:* +8, range 150 ft. *Hit:* 26 (5d8 + 4) Fire\
       \ damage. If the target is a flammable object that isn't being worn or carried,\
       \ it starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Hurl Flame"
-  - "desc": "Dexterity Saving Throw: DC 17, one creature the devil can see within\
-      \ 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives\
+  - "desc": "*Dexterity Saving Throw:* DC 17, one creature the devil can see within\
+      \ 10 feet. *Failure:* 10 (1d8 + 6) Necrotic damage, and the target receives\
       \ an infernal wound if it doesn't have one. While wounded, the target loses\
       \ 10 (3d6) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ at the start of each of its turns. The wound closes after 1 minute, after\

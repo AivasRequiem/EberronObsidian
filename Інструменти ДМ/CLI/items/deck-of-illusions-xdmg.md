@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -19,8 +20,6 @@ The magic of the deck functions only if its cards are drawn at random. You can t
 Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a [Study](Інструменти%20ДМ/CLI/rules/actions.md#Study) action to visually inspect the illusory creature identifies it as an illusion with a successful DC 15 Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check. The illusion lasts until its card is moved or the illusion is dispelled (using a [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md) spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can't be used again.
 
 **Deck of Illusions**
-
-`dice: [](deck-of-illusions-xdmg.md#^deck-of-illusions)`
 
 | dice: 1d100 | Illusion |
 |-------------|----------|

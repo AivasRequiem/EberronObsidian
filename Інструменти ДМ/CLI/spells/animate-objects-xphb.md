@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/izzet-engineer
@@ -10,9 +11,11 @@ tags:
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subclass/forge-domain
 classes:
 - Artificer
 - Bard
+- Cleric (Forge Domain)
 - Sorcerer
 - Wizard
 aliases:
@@ -33,8 +36,8 @@ Each target animates, sprouts legs, and becomes a Construct that uses the [Anima
 
 Until the spell ends, you can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). If you issue no commands, the creature takes the [Dodge](Інструменти%20ДМ/CLI/rules/actions.md#Dodge) action and moves only to avoid harm. When the creature drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it reverts to its object form, and any remaining damage carries over to that form.
 
-**Using a Higher-Level Spell Slot.** The creature's Slam damage increases by `d4` (Medium or smaller), `d6` (Large), or `d12` (Huge) for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The creature's Slam damage increases by `1d4` (Medium or smaller), `1d6` (Large), or `1d12` (Huge) for each spell slot level above 5.
 
-**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
+**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric (Forge Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 240. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -22,7 +23,7 @@ Guards are perceptive, but most have little martial training. They might be boun
 *Sentries and Watch Members*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Guards protect people, places, and things, either for pay or from a sense of duty. They might perform their duties vigilantly or distractedly. Some raise alarms at the first sign of danger and defend their charges with their lives. Others flee outright if their compensation doesn't match the danger they face.
 
@@ -55,8 +56,8 @@ Guards protect people, places, and things, either for pay or from a sense of dut
 "languages": "Common"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d6 + 1) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +3, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 4 (1d6 + 1) Piercing damage."
     "name": "Spear"
 "source":
   - "XMM"

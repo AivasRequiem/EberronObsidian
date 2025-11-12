@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -39,7 +40,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "10"
   - !!int "3"
 "speed": "30 ft., swim 30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -50,7 +52,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ is up to 10 feet with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage plus 5 (2d4) Poison damage. If the target is a Medium or smaller\
       \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 12)."

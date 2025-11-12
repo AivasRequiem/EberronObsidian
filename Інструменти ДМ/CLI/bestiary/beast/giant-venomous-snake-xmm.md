@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -44,12 +45,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., passive\
+  \ Perception 12"
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing\
-      \ damage plus 4 (d8) Poison damage."
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 6 (1d4 + 4) Piercing\
+      \ damage plus 4 (1d8) Poison damage."
     "name": "Bite"
 "source":
   - "XMM"

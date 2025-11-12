@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -19,8 +20,6 @@ You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic)
 The creature is [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you and your allies, and it acts immediately after you on your [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) count. You can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.
 
 Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.
-
-`dice: [](bag-of-tricks-rust-xdmg.md#^1-creature)`
 
 | dice: 1d8 | Creature |
 |-----------|----------|

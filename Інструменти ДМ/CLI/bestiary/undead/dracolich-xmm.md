@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/17
@@ -29,8 +30,6 @@ Dracoliches combine the corrupt immortality of the undead with the legendary pow
 There are untold profane routes by which a dragon might become a dracolich. However one is created, a dracolich chooses a gem that becomes the anchor for its spirit and binds the deathless dragon to the world. So long as a dracolich is on the same plane of existence as its soul gem, the dracolich can survive the destruction of its physical body. Its spirit retreats into the gem if the dracolich's body is destroyed, and the monster might one day regain its terrifying form. Dracoliches often sequester their soul gems within meaningful treasure from their hoard or in unassuming baubles. Roll on or choose a result from the Dracolich Soul Gem Vessels table to inspire what holds a dracolich's soul gem.
 
 **Dracolich Soul Gem Vessels**
-
-`dice: [](dracolich-xmm.md#^dracolich-soul-gem-vessels)`
 
 | dice: 1d10 | A Dracolich's Soul Gem Is Hidden In... |
 |------------|----------------------------------------|
@@ -85,7 +84,8 @@ A dracolich lurks in a corrupted version of the lair it had in life.
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 24"
 "languages": "Common, Draconic"
 "cr": "17"
 "traits":
@@ -99,7 +99,7 @@ A dracolich lurks in a corrupted version of the lair it had in life.
     "name": "Magic Resistance"
   - "desc": "The dracolich has a magical gem. If the dracolich is destroyed while\
       \ the gem is on the same plane of existence as it, the dracolich gains a new\
-      \ body in d20 days, regaining all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ body in 1d20 days, regaining all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ and appearing within 5 feet of the gem.\n\nThe gem is a Tiny object that has\
       \ AC 20; HP 50; and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)\
       \ to Necrotic, Poison, and Psychic damage. The gem regains all its [Hit Points](І\
@@ -114,21 +114,39 @@ A dracolich lurks in a corrupted version of the lair it had in life.
       \ a use of Spellcasting to cast [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\
       \ (level 2 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 18 (2d10 + 7) Slashing\
-      \ damage plus 4 (d8) Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +13, reach 10 ft. *Hit:* 18 (2d10 + 7) Slashing\
+      \ damage plus 4 (1d8) Necrotic damage."
     "name": "Rend"
-  - "desc": "Constitution Saving Throw: DC 20, each creature in a 60-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 52 (8d12) Necrotic damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 20, each creature in a 60-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 52 (8d12) Necrotic damage. *Success:* Half damage."
     "name": "Necrotic Breath (Recharge 5-6)"
   - "desc": "The dracolich casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 19,\
-      \ +11 to hit with spell attacks):\n\nAt will: [Detect Magic](Інструмен\
+      \ +11 to hit with spell attacks):\n\n**At will:** [Detect Magic](Інструмен\
       ти%20ДМ/CLI/spells/detect-magic-xphb.md), [Ray of Sickness](Інструменти%20ДМ\
-      /CLI/spells/ray-of-sickness-xphb.md) (level 2 version)\n\n1/day each: [Create\
+      /CLI/spells/ray-of-sickness-xphb.md) (level 2 version)\n\n**1/day each:** [Create\
       \ Undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md) (level 8 version),\
       \ [Finger of Death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Spellcasting"
+"regional_effects":
+  - "desc": "The region containing a dracolich's lair is warped by its presence, creating\
+      \ the following effects:\n\n- **Sapping Mist.** The area within 1 mile of the\
+      \ lair is [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md)\
+      \ by pale fog. Whenever a creature other than the dracolich or one of its allies\
+      \ finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
+      \ in that area, it must succeed on a DC 15 Constitution saving throw or gain\
+      \ 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level.\
+      \  \n- **Soul Drain.** Creatures within 1 mile of the lair have [Disadvantage](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on [Death Saving\
+      \ Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md).\
+      \  \n\nIf the dracolich is destroyed or moves its lair elsewhere, these effects\
+      \ end immediately. The effects resume if the dracolich gains a new body (see\
+      \ its Soul Gem trait)."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the dracolich can expend a use to take one of the following\
+  \ actions. The dracolich regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dracolich moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."
@@ -137,31 +155,13 @@ A dracolich lurks in a corrupted version of the lair it had in life.
       %20ДМ/CLI/spells/ray-of-sickness-xphb.md) (level 2 version). The dracolich can't\
       \ take this action again until the start of its next turn."
     "name": "Sickening Ray"
-  - "desc": "Wisdom Saving Throw: DC 19, each creature in a 30-foot [Emanation](І\
+  - "desc": "*Wisdom Saving Throw:* DC 19, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the dracolich. Failure: 11 (2d10) Psychic damage, and the target\
+      \ from the dracolich. *Failure:* 11 (2d10) Psychic damage, and the target\
       \ has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the end of its next turn. Failure or Success: The dracolich\
+      \ condition until the end of its next turn. *Failure or Success:* The dracolich\
       \ can't take this action again until the start of its next turn."
     "name": "Terrifying Presence"
-"regional_effects":
-  - "desc": "The region containing a dracolich's lair is warped by its presence, creating\
-      \ the following effects:"
-    "name": ""
-  - "desc": "- Sapping Mist. The area within 1 mile of the lair is [Lightly Obscured](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md) by pale fog.\
-      \ Whenever a creature other than the dracolich or one of its allies finishes\
-      \ a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
-      \ in that area, it must succeed on a DC 15 Constitution saving throw or gain\
-      \ 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level.\
-      \  \n- Soul Drain. Creatures within 1 mile of the lair have [Disadvantage](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on Death Saving\
-      \ Throws.  "
-    "name": ""
-  - "desc": "If the dracolich is destroyed or moves its lair elsewhere, these effects\
-      \ end immediately. The effects resume if the dracolich gains a new body (see\
-      \ its Soul Gem trait)."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/undead/token/dracolich-xmm.webp"

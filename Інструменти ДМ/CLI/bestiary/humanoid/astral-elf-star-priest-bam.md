@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/5
@@ -61,7 +62,8 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
     "desc": "+8"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Celestial, Common, Elvish"
 "cr": "5"
 "traits":
@@ -75,8 +77,8 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
   - "desc": "The elf makes two Morningstar attacks. It can use Rain of Radiance in\
       \ place of one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) piercing damage plus 17 (5d6) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) piercing damage plus 17 (5d6) radiant damage."
     "name": "Morningstar"
   - "desc": "Magical, flame-like radiance rains down on a creature that the elf can\
       \ see within 60 feet of itself. The target must make a DC 16 Dexterity saving\
@@ -84,9 +86,9 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
       \ damage on a successful one."
     "name": "Rain of Radiance"
   - "desc": "The elf casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 16):\n\n2/day each: [cure wounds](Інструменти%20Д\
+      \ ability (spell save DC 16):\n\n**2/day each:** [cure wounds](Інструменти%20Д\
       М/CLI/spells/cure-wounds-xphb.md) (8th-level version), [hold person](Інструм\
-      енти%20ДМ/CLI/spells/hold-person-xphb.md)\n\n1/day each: [divination](Ін\
+      енти%20ДМ/CLI/spells/hold-person-xphb.md)\n\n**1/day each:** [divination](Ін\
       струменти%20ДМ/CLI/spells/divination-xphb.md), [sending](Інструменти%20ДМ/CLI/spells/sending-xphb.md),\
       \ [word of recall](Інструменти%20ДМ/CLI/spells/word-of-recall-xphb.md)"
     "name": "Spellcasting"

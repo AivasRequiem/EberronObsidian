@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/23
@@ -35,8 +36,6 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
 > Honey, I've seen horrors that would make you shit your drawers and reach for the nearest drink. And then there's the blob of annihilation. If you see it, run. And if you can't get away from it, just hope you dissolve fast.
 
 **Blob of Annihilation Contents**
-
-`dice: [](blob-of-annihilation-xmm.md#^blob-of-annihilation-contents)`
 
 | dice: 1d10 | The Blob Contains... |
 |------------|----------------------|
@@ -84,14 +83,15 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), [stunned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 120 ft., passive Perception 13"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft.,\
+  \ passive Perception 13"
 "languages": ""
 "cr": "23"
 "traits":
   - "desc": "If the blob is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ it implodes and ejects any creatures and objects engulfed by it into the Astral\
       \ Sea. The blob itself vanishes, leaving behind a layer of slime on everything\
-      \ that was within 600 feet of it. In d20 years, the blob reconstitutes on\
+      \ that was within 600 feet of it. In 1d20 years, the blob reconstitutes on\
       \ a random world in the Material Plane."
     "name": "Astral Implosion"
   - "desc": "If the blob fails a saving throw, it can choose to succeed instead."
@@ -103,13 +103,13 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
   - "desc": "The blob makes two Pseudopod attacks and uses Engulf. It can replace\
       \ one attack with a use of Restraining Glob."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +15, reach 30 ft. Hit: 24 (3d10 + 8) Force\
+  - "desc": "*Melee Attack Roll:* +15, reach 30 ft. *Hit:* 24 (3d10 + 8) Force\
       \ damage."
     "name": "Pseudopod"
   - "desc": "The blob moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ and can move through the spaces of Huge or smaller creatures and objects.\
-      \ Strength Saving Throw: DC 23, each creature or object whose space the blob\
-      \ enters for the first time during this move. Failure: The target is engulfed.\
+      \ *Strength Saving Throw:* DC 23, each creature or object whose space the blob\
+      \ enters for the first time during this move. *Failure:* The target is engulfed.\
       \ While engulfed, a target has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
       \ against attacks and other effects outside the blob, and when the blob moves,\
       \ the engulfed target moves with it. A nonmagical object is destroyed after\
@@ -118,16 +118,20 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition, and repeats the\
       \ save at the end of each of its turns. An engulfed creature that is reduced\
       \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ dissolves into ash, which is ejected into the Astral Sea. Success: The target\
+      \ dissolves into ash, which is ejected into the Astral Sea. *Success:* The target\
       \ escapes and enters the nearest unoccupied space."
     "name": "Engulf"
   - "desc": "The blob lobs a slimy glob at one Large or smaller creature it can see\
-      \ within 600 feet of itself. Dexterity Saving Throw: DC 23, the targeted creature.\
-      \ Failure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight\
+      \ within 600 feet of itself. *Dexterity Saving Throw:* DC 23, the targeted creature.\
+      \ *Failure:* 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight\
       \ toward the blob, and the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the end of its next turn, when the glob harmlessly dissolves.\
-      \ Success: Half damage only."
+      \ *Success:* Half damage only."
     "name": "Restraining Glob"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the blob of annihilation can expend a use to take one of the following actions.\
+  \ The blob of annihilation regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The blob deals 14 (4d6) Necrotic damage to each creature engulfed by\
       \ it. The blob can't take this action again until the start of its next turn."

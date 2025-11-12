@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/16
@@ -46,32 +47,34 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+9"
 "damage_resistances": "cold, poison"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 19"
 "languages": "Common, Elvish, Merfolk"
 "cr": "16"
 "traits":
   - "desc": "Zegana is a 15th-level Simic spellcaster. Her spellcasting ability is\
       \ Intelligence (spell save DC 18, +10 to hit with spell attacks). She has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](І\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](І\
       нструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [druidcraft](Інструменти%20Д\
       М/CLI/spells/druidcraft-xphb.md), [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md),\
-      \ shape water\n\n1st level (4 slots): [color spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md),\
+      \ [shape water](Інструменти%20ДМ/CLI/spells/shape-water-xge.md)\n\n**1st level\
+      \ (4 slots):** [color spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md),\
       \ [expeditious retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md),\
       \ [fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [shield](Інстр\
-      ументи%20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [enlarge/reduce](І\
+      ументи%20ДМ/CLI/spells/shield-xphb.md)\n\n**2nd level (3 slots):** [enlarge/reduce](І\
       нструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md), [gust of wind](Інструмен\
-      ти%20ДМ/CLI/spells/gust-of-wind-xphb.md)\n\n3rd level (3 slots): [counterspell](І\
+      ти%20ДМ/CLI/spells/gust-of-wind-xphb.md)\n\n**3rd level (3 slots):** [counterspell](І\
       нструменти%20ДМ/CLI/spells/counterspell-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
-      \ [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\n\n4th level (3 slots):\
+      \ [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\n\n**4th level (3 slots):**\
       \ [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md), [ice storm](І\
       нструменти%20ДМ/CLI/spells/ice-storm-xphb.md), [polymorph](Інструменти%20ДМ\
-      /CLI/spells/polymorph-xphb.md)\n\n5th level (2 slots): [conjure elemental](І\
+      /CLI/spells/polymorph-xphb.md)\n\n**5th level (2 slots):** [conjure elemental](І\
       нструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md), [creation](Інструмент\
-      и%20ДМ/CLI/spells/creation-xphb.md)\n\n6th level (1 slots): [move earth](І\
+      и%20ДМ/CLI/spells/creation-xphb.md)\n\n**6th level (1 slots):** [move earth](І\
       нструменти%20ДМ/CLI/spells/move-earth-xphb.md), [wall of ice](Інструменти%20Д\
-      М/CLI/spells/wall-of-ice-xphb.md)\n\n7th level (1 slots): [prismatic spray](І\
+      М/CLI/spells/wall-of-ice-xphb.md)\n\n**7th level (1 slots):** [prismatic spray](І\
       нструменти%20ДМ/CLI/spells/prismatic-spray-xphb.md), [teleport](Інструменти\
-      %20ДМ/CLI/spells/teleport-xphb.md)\n\n8th level (1 slots): [control weather](І\
+      %20ДМ/CLI/spells/teleport-xphb.md)\n\n**8th level (1 slots):** [control weather](І\
       нструменти%20ДМ/CLI/spells/control-weather-xphb.md), [dominate monster](Інст\
       рументи%20ДМ/CLI/spells/dominate-monster-xphb.md)"
     "name": "Spellcasting"
@@ -83,8 +86,8 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the trident\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage, and the trident\
       \ emits a thunderous boom. Each creature in a 15-foot cube originating from\
       \ the prongs of the trident must make a DC 18 Constitution saving throw. On\
       \ a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10\
@@ -102,6 +105,9 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
       \ ground, extinguishing unprotected flames it comes in contact with, and then\
       \ vanishes."
     "name": "Deluge (Recharge 4-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zegana can expend a use to take one of the following actions. Zegana regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zegana gains resistance to one damage type of her choice-acid, fire,\
       \ lightning, or thunder-until the start of her next turn."

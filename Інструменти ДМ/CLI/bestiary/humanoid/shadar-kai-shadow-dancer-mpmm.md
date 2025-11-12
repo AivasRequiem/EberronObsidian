@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -63,7 +64,8 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "damage_resistances": "necrotic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Elvish"
 "cr": "7"
 "traits":
@@ -75,14 +77,14 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - "desc": "The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow\
       \ Jump after one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity\
       \ saving throw or suffer one of the following effects (choose one or roll a\
-      \ d6):\n\n- 1–2 Decay. The target takes 22 (4d10) necrotic damage. \
-      \ \n- 3–4 Grapple. The target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
+      \ d6):\n\n- **1–2 Decay.** The target takes 22 (4d10) necrotic damage. \
+      \ \n- **3–4 Grapple.** The target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends,\
       \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
-      \ and the shadar-kai can't grapple another target.  \n- 5–6 Topple. The\
+      \ and the shadar-kai can't grapple another target.  \n- **5–6 Topple.** The\
       \ target is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).\
       \  "
     "name": "Spiked Chain"

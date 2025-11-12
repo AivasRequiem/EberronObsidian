@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/school/conjuration
 aliases:
@@ -10,6 +11,8 @@ aliases:
 
 ## Cantrip
 
+- [Create Bonfire](Інструменти%20ДМ/CLI/spells/create-bonfire-xge.md "XGE")
+- [Infestation](Інструменти%20ДМ/CLI/spells/infestation-xge.md "XGE")
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
 - [Produce Flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md "XPHB")
 - [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE")
@@ -31,8 +34,10 @@ aliases:
 ## 2nd Level
 
 - [Cloud of Daggers](Інструменти%20ДМ/CLI/spells/cloud-of-daggers-xphb.md "XPHB")
+- [Dust Devil](Інструменти%20ДМ/CLI/spells/dust-devil-xge.md "XGE")
 - [Find Steed](Інструменти%20ДМ/CLI/spells/find-steed-xphb.md "XPHB")
 - [Flaming Sphere](Інструменти%20ДМ/CLI/spells/flaming-sphere-xphb.md "XPHB")
+- [Healing Spirit](Інструменти%20ДМ/CLI/spells/healing-spirit-xge.md "XGE")
 - [Misty Step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md "XPHB")
 - [Summon Beast](Інструменти%20ДМ/CLI/spells/summon-beast-xphb.md "XPHB")
 - [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md "XPHB")
@@ -48,7 +53,10 @@ aliases:
 - [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md "XPHB")
 - [Stinking Cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md "XPHB")
 - [Summon Fey](Інструменти%20ДМ/CLI/spells/summon-fey-xphb.md "XPHB")
+- [Summon Lesser Demons](Інструменти%20ДМ/CLI/spells/summon-lesser-demons-xge.md "XGE")
 - [Summon Shadowspawn](Інструменти%20ДМ/CLI/spells/summon-shadowspawn-tce.md "TCE")
+- [Thunder Step](Інструменти%20ДМ/CLI/spells/thunder-step-xge.md "XGE")
+- [Tidal Wave](Інструменти%20ДМ/CLI/spells/tidal-wave-xge.md "XGE")
 
 ## 4th Level
 
@@ -65,6 +73,8 @@ aliases:
 - [Summon Aberration](Інструменти%20ДМ/CLI/spells/summon-aberration-xphb.md "XPHB")
 - [Summon Construct](Інструменти%20ДМ/CLI/spells/summon-construct-xphb.md "XPHB")
 - [Summon Elemental](Інструменти%20ДМ/CLI/spells/summon-elemental-xphb.md "XPHB")
+- [Summon Greater Demon](Інструменти%20ДМ/CLI/spells/summon-greater-demon-xge.md "XGE")
+- [Watery Sphere](Інструменти%20ДМ/CLI/spells/watery-sphere-xge.md "XGE")
 
 ## 5th Level
 
@@ -72,6 +82,8 @@ aliases:
 - [Cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md "XPHB")
 - [Conjure Elemental](Інструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md "XPHB")
 - [Conjure Volley](Інструменти%20ДМ/CLI/spells/conjure-volley-xphb.md "XPHB")
+- [Far Step](Інструменти%20ДМ/CLI/spells/far-step-xge.md "XGE")
+- [Infernal Calling](Інструменти%20ДМ/CLI/spells/infernal-calling-xge.md "XGE")
 - [Insect Plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md "XPHB")
 - [Steel Wind Strike](Інструменти%20ДМ/CLI/spells/steel-wind-strike-xphb.md "XPHB")
 - [Summon Celestial](Інструменти%20ДМ/CLI/spells/summon-celestial-xphb.md "XPHB")
@@ -86,6 +98,7 @@ aliases:
 - [Drawmij's Instant Summons](Інструменти%20ДМ/CLI/spells/drawmijs-instant-summons-xphb.md "XPHB")
 - [Heroes' Feast](Інструменти%20ДМ/CLI/spells/heroes-feast-xphb.md "XPHB")
 - [Planar Ally](Інструменти%20ДМ/CLI/spells/planar-ally-xphb.md "XPHB")
+- [Scatter](Інструменти%20ДМ/CLI/spells/scatter-xge.md "XGE")
 - [Summon Fiend](Інструменти%20ДМ/CLI/spells/summon-fiend-xphb.md "XPHB")
 - [Tasha's Bubbling Cauldron](Інструменти%20ДМ/CLI/spells/tashas-bubbling-cauldron-xphb.md "XPHB")
 - [Transport via Plants](Інструменти%20ДМ/CLI/spells/transport-via-plants-xphb.md "XPHB")
@@ -100,12 +113,14 @@ aliases:
 - [Mordenkainen's Magnificent Mansion](Інструменти%20ДМ/CLI/spells/mordenkainens-magnificent-mansion-xphb.md "XPHB")
 - [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md "XPHB")
 - [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md "XPHB")
+- [Temple of the Gods](Інструменти%20ДМ/CLI/spells/temple-of-the-gods-xge.md "XGE")
 
 ## 8th Level
 
 - [Demiplane](Інструменти%20ДМ/CLI/spells/demiplane-xphb.md "XPHB")
 - [Incendiary Cloud](Інструменти%20ДМ/CLI/spells/incendiary-cloud-xphb.md "XPHB")
 - [Maze](Інструменти%20ДМ/CLI/spells/maze-xphb.md "XPHB")
+- [Mighty Fortress](Інструменти%20ДМ/CLI/spells/mighty-fortress-xge.md "XGE")
 - [Tsunami](Інструменти%20ДМ/CLI/spells/tsunami-xphb.md "XPHB")
 
 ## 9th Level

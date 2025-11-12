@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -49,7 +50,8 @@ A flail snail shell can also be used to make a [robe of scintillating colors](І
 "speed": "10 ft."
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "3"
 "traits":
@@ -59,13 +61,13 @@ A flail snail shell can also be used to make a [robe of scintillating colors](І
       \ roll misses it, the snail's shell converts some of the spell's energy into\
       \ a burst of destructive force if the spell is of 1st level or higher; each\
       \ creature within 30 feet of the snail must make a DC 15 Constitution saving\
-      \ throw, taking 3 (d6) force damage per level of the spell on a failed save,\
+      \ throw, taking 3 (1d6) force damage per level of the spell on a failed save,\
       \ or half as much damage on a successful one."
     "name": "Antimagic Shell"
 "actions":
   - "desc": "The snail makes five Flail Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) bludgeoning damage."
     "name": "Flail Tentacle"
   - "desc": "The snail's shell emits dazzling, colored light until the end of the\

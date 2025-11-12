@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -27,8 +28,6 @@ Ancient inhabitants of the forest, treants are gigantic, animate trees with wize
 Treants defend and are shaped by secrets of the forest. Roll on or choose a result from the Treant Secrets table to inspire what mysteries a treant protects.
 
 **Treant Secrets**
-
-`dice: [](treant-xmm.md#^treant-secrets)`
 
 | dice: 1d6 | The Treant Is... |
 |-----------|------------------|
@@ -68,10 +67,10 @@ Treants defend and are shaped by secrets of the forest. Roll on or choose a resu
 "actions":
   - "desc": "The treant makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 16 (3d6 + 6) Bludgeoning\
       \ damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing\
+  - "desc": "*Ranged Attack Roll:* +10, range 180 ft. *Hit:* 28 (4d10 + 6) Piercing\
       \ damage."
     "name": "Hail of Bark"
   - "desc": "The treant magically animates up to two trees it can see within 60 feet\

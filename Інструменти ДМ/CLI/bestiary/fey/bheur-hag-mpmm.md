@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -53,7 +54,8 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Auran, Common, Giant"
 "cr": "7"
 "traits":
@@ -73,10 +75,10 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
 "actions":
   - "desc": "The hag makes two Slam or Frost Shard attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) bludgeoning damage plus 18 (4d8) cold damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 30 (6d8 + 3) cold damage, and the target's speed is reduced by 10 feet until\
       \ the start of the hag's next turn."
     "name": "Frost Shard"
@@ -94,8 +96,8 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
     "name": "Horrific Feast"
   - "desc": "While holding or riding the graystaff, the hag casts one of the following\
       \ spells, requiring no material components and using Charisma as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [hold person](Інструменти%20ДМ\
-      /CLI/spells/hold-person-xphb.md)\n\n1/day each: [cone of cold](Інструмен\
+      \ ability (spell save DC 14):\n\n**At will:** [hold person](Інструменти%20ДМ\
+      /CLI/spells/hold-person-xphb.md)\n\n**1/day each:** [cone of cold](Інструмен\
       ти%20ДМ/CLI/spells/cone-of-cold-xphb.md), [ice storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md),\
       \ [wall of ice](Інструменти%20ДМ/CLI/spells/wall-of-ice-xphb.md)"
     "name": "Spellcasting"

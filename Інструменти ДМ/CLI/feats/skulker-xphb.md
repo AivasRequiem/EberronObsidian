@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -18,6 +19,6 @@ You gain the following benefits.
 
 **Blindsight.** You have [Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) with a range of 10 feet.
 
-**Fog of War.** You exploit the distractions of battle, gaining Advantage on any Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check you make as part of the [Hide](Інструменти%20ДМ/CLI/rules/actions.md#Hide) action during combat.
+**Fog of War.** You exploit the distractions of battle, gaining [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on any Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) check you make as part of the [Hide](Інструменти%20ДМ/CLI/rules/actions.md#Hide) action during combat.
 
 **Sniper.** If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -51,7 +52,8 @@ These scavengers avoid ingesting inorganic material. Crypts with funeral armors 
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": ""
 "cr": "2"
 "traits":
@@ -61,11 +63,11 @@ These scavengers avoid ingesting inorganic material. Crypts with funeral armors 
 "actions":
   - "desc": "The carrion crawler uses Paralyzing Tentacles and makes one Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (2d4 + 2) Piercing\
+      \ damage plus 3 (1d6) Poison damage."
     "name": "Bite"
-  - "desc": "Constitution Saving Throw: DC 12, one creature the carrion crawler\
-      \ can see within 10 feet. Failure: The target has the [Poisoned](Інструмен\
+  - "desc": "*Constitution Saving Throw:* DC 12, one creature the carrion crawler\
+      \ can see within 10 feet. *Failure:* The target has the [Poisoned](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Poisoned) condition and repeats the save at\
       \ the end of each of its turns, ending the effect on itself on a success. After\
       \ 1 minute, it succeeds automatically. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\

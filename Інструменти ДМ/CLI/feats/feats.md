@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Feats
 
@@ -25,6 +27,7 @@ cssclasses: json5e-note
 - [Boon of Spell Recall](./boon-of-spell-recall-xphb.md)
 - [Boon of the Night Spirit](./boon-of-the-night-spirit-xphb.md)
 - [Boon of Truesight](./boon-of-truesight-xphb.md)
+- [Bountiful Luck](./bountiful-luck-xge.md)
 - [Charger](./charger-xphb.md)
 - [Chef](./chef-xphb.md)
 - [Crafter](./crafter-xphb.md)
@@ -32,14 +35,22 @@ cssclasses: json5e-note
 - [Crusher](./crusher-xphb.md)
 - [Defense](./defense-xphb.md)
 - [Defensive Duelist](./defensive-duelist-xphb.md)
+- [Dragon Fear](./dragon-fear-xge.md)
+- [Dragon Hide](./dragon-hide-xge.md)
+- [Drow High Magic](./drow-high-magic-xge.md)
 - [Druidic Warrior](./druidic-warrior-xphb.md)
 - [Dual Wielder](./dual-wielder-xphb.md)
 - [Dueling](./dueling-xphb.md)
 - [Durable](./durable-xphb.md)
+- [Dwarven Fortitude](./dwarven-fortitude-xge.md)
 - [Eldritch Adept](./eldritch-adept-tce.md)
 - [Elemental Adept](./elemental-adept-xphb.md)
+- [Elven Accuracy](./elven-accuracy-xge.md)
+- [Fade Away](./fade-away-xge.md)
+- [Fey Teleportation](./fey-teleportation-xge.md)
 - [Fey-Touched](./fey-touched-xphb.md)
 - [Fighting Initiate](./fighting-initiate-tce.md)
+- [Flames of Phlegethos](./flames-of-phlegethos-xge.md)
 - [Gift of the Chromatic Dragon](./gift-of-the-chromatic-dragon-ftd.md)
 - [Gift of the Gem Dragon](./gift-of-the-gem-dragon-ftd.md)
 - [Gift of the Metallic Dragon](./gift-of-the-metallic-dragon-ftd.md)
@@ -50,6 +61,7 @@ cssclasses: json5e-note
 - [Healer](./healer-xphb.md)
 - [Heavily Armored](./heavily-armored-xphb.md)
 - [Heavy Armor Master](./heavy-armor-master-xphb.md)
+- [Infernal Constitution](./infernal-constitution-xge.md)
 - [Inspiring Leader](./inspiring-leader-xphb.md)
 - [Interception](./interception-xphb.md)
 - [Keen Mind](./keen-mind-xphb.md)
@@ -64,14 +76,17 @@ cssclasses: json5e-note
 - [Mounted Combatant](./mounted-combatant-xphb.md)
 - [Musician](./musician-xphb.md)
 - [Observant](./observant-xphb.md)
+- [Orcish Fury](./orcish-fury-xge.md)
 - [Piercer](./piercer-xphb.md)
 - [Poisoner](./poisoner-xphb.md)
 - [Polearm Master](./polearm-master-xphb.md)
+- [Prodigy](./prodigy-xge.md)
 - [Protection](./protection-xphb.md)
 - [Resilient](./resilient-xphb.md)
 - [Revenant Blade](./revenant-blade-erlw.md)
 - [Ritual Caster](./ritual-caster-xphb.md)
 - [Savage Attacker](./savage-attacker-xphb.md)
+- [Second Chance](./second-chance-xge.md)
 - [Sentinel](./sentinel-xphb.md)
 - [Shadow-Touched](./shadow-touched-xphb.md)
 - [Sharpshooter](./sharpshooter-xphb.md)
@@ -82,6 +97,7 @@ cssclasses: json5e-note
 - [Slasher](./slasher-xphb.md)
 - [Speedy](./speedy-xphb.md)
 - [Spell Sniper](./spell-sniper-xphb.md)
+- [Squat Nimbleness](./squat-nimbleness-xge.md)
 - [Tavern Brawler](./tavern-brawler-xphb.md)
 - [Telekinetic](./telekinetic-xphb.md)
 - [Telepathic](./telepathic-xphb.md)
@@ -91,3 +107,4 @@ cssclasses: json5e-note
 - [Unarmed Fighting](./unarmed-fighting-xphb.md)
 - [War Caster](./war-caster-xphb.md)
 - [Weapon Master](./weapon-master-xphb.md)
+- [Wood Elf Magic](./wood-elf-magic-xge.md)

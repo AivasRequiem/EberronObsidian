@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -34,8 +35,6 @@ Despite their ravenous tendencies, manticores enjoy speaking with those they're 
 
 **Manticore Negotiations**
 
-`dice: [](manticore-xmm.md#^manticore-negotiations)`
-
 | dice: 1d8 | The Manticore Agrees To... |
 |-----------|----------------------------|
 | 1 | Attack a particular foe. |
@@ -65,16 +64,17 @@ Despite their ravenous tendencies, manticores enjoy speaking with those they're 
   - !!int "12"
   - !!int "8"
 "speed": "30 ft., fly 50 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common"
 "cr": "3"
 "actions":
   - "desc": "The manticore makes three attacks, using Rend or Tail Spike in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: +5, range 100/200 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Ranged Attack Roll:* +5, range 100/200 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage."
     "name": "Tail Spike"
 "source":

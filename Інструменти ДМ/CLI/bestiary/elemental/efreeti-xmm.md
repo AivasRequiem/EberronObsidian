@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -22,7 +23,7 @@ aliases:
 *Genie of Fire*
 
 - **Habitat.** Desert, Planar (Elemental Plane of Fire)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Efreet burn with the energy and unpredictability of fire. Their innate magic allows them to conjure flames from nothing and shape treasures within magical infernos. Many efreet have wicked reputations, as their fickle natures and love for dramatic conflagrations can be destructive. Other efreet delight in fire's beauty, be it the delicacy of a candle flame or the shared wonder of fireworks. These genies might aid mortals in exchange for treasures or the liberation of captive Elementals.
 
@@ -55,12 +56,13 @@ On many worlds, efreet dwell in sweltering deserts and volcanic regions. Those t
   - "wisdom": !!int "6"
   - "charisma": !!int "8"
 "damage_immunities": "fire"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Primordial (Ignan)"
 "cr": "11"
 "traits":
   - "desc": "If the efreeti dies outside the Elemental Plane of Fire, its body dissolves\
-      \ into ash, and it gains a new body in d4 days, reviving with all its [Hit\
+      \ into ash, and it gains a new body in 1d4 days, reviving with all its [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
       \ on the Plane of Fire."
     "name": "Elemental Restoration"
@@ -78,16 +80,16 @@ On many worlds, efreet dwell in sweltering deserts and volcanic regions. Those t
   - "desc": "The efreeti makes three attacks, using Heated Blade or Hurl Flame in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 13 (2d6 + 6) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 13 (2d6 + 6) Slashing\
       \ damage plus 13 (2d12) Fire damage."
     "name": "Heated Blade"
-  - "desc": "Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage."
+  - "desc": "*Ranged Attack Roll:* +8, range 120 ft. *Hit:* 24 (7d6) Fire damage."
     "name": "Hurl Flame"
   - "desc": "The efreeti casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md)\n\n1/day\
-      \ each: [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
+      \n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md)\n\n**1/day\
+      \ each:** [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
       \ [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Major Image](І\
       нструменти%20ДМ/CLI/spells/major-image-xphb.md), [Plane Shift](Інструменти%20Д\
       М/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md),\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/13
@@ -49,7 +50,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
   - "desc": "The skyswimmer makes three attacks: one with its bite and two with its\
       \ slam."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.\
       \ A swallowed creature is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
@@ -65,7 +66,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
       \ can escape from the corpse by using 15 feet of movement, exiting [prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 30 ft., one target. *Hit:*\
       \ 19 (2d12 + 6) bludgeoning damage."
     "name": "Slam"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -32,7 +33,8 @@ aliases:
 "damage_resistances": "fire"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Abyssal, Infernal, Telepathy 60 ft."
 "traits":
   - "desc": "Magical Darkness doesn't impede the spirit's Darkvision."
@@ -44,8 +46,8 @@ aliases:
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (round down)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: Bonus equals your spell attack modifier,\
-      \ reach 5 ft. or range 150 ft. Hit: 2d6 + 3 + the spell's level Fire damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* Bonus equals your spell attack modifier,\
+      \ reach 5 ft. or range 150 ft. *Hit:* 2d6 + 3 + the spell's level Fire damage."
     "name": "Fiery Strike"
 "source":
   - "XPHB"

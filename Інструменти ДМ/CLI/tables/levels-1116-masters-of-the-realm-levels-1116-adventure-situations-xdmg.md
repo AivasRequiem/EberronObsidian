@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 106* 
 
 **Levels 11–16 Adventure Situations**
-
-`dice: [](levels-1116-masters-of-the-realm-levels-1116-adventure-situations-xdmg.md#^levels-1116-adventure-situations)`
 
 | dice: 1d12 | Situation |
 |------------|-----------|

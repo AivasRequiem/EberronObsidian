@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/0
@@ -23,8 +24,6 @@ Far more limited in magical power than a typical spellcaster, a magewright is de
 The magewright stat block provides the baseline statistics for a magewright. You then add to that baseline by choosing a specialty from the Magewright Specialties table, or roll for one. The specialty determines additional spells the magewright knows, including ones that can be cast only as rituals. The specialty also gives the magewright more proficiencies.
 
 **Magewright Specialties**
-
-`dice: [](magewright-erlw.md#^magewright-specialties)`
 
 | dice: d8 | Specialty | Spells | Proficiencies |
 |----------|-----------|--------|---------------|
@@ -67,13 +66,13 @@ The magewright stat block provides the baseline statistics for a magewright. You
       \ 12). To cast one of its rituals, the magewright must provide additional material\
       \ components whose value in gold pieces is 20 times the spell's level. These\
       \ components are consumed when the ritual is finished. The magewright knows\
-      \ the following spells:\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ the following spells:\n\n**At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \nRituals: [knock](Інструменти%20ДМ/CLI/spells/knock-xphb.md)"
+      \n**Rituals:** [knock](Інструменти%20ДМ/CLI/spells/knock-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":
   - "ERLW"

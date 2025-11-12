@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 86* 
 
 **Adult Blue Dragon Connections**
-
-`dice: [](connected-creatures-adult-blue-dragon-connections-ftd.md#^adult-blue-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

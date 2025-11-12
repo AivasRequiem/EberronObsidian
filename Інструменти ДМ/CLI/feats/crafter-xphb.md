@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -12,11 +13,11 @@ aliases:
 
 You gain the following benefits.
 
-**Tool Proficiency.** You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.
+**Tool Proficiency.** You gain proficiency with three different [Artisan's Tools](Інструменти%20ДМ/CLI/items/artisans-tools-xphb.md) of your choice from the Fast Crafting table.
 
 **Discount.** Whenever you buy a nonmagical item, you receive a 20 percent discount on it.
 
-**Fast Crafting.** When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.
+**Fast Crafting.** When you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), you can craft one piece of gear from the Fast Crafting table, provided you have the [Artisan's Tools](Інструменти%20ДМ/CLI/items/artisans-tools-xphb.md) associated with that item and have proficiency with those tools. The item lasts until you finish another [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), at which point the item falls apart.
 
 **Fast Crafting**
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -21,15 +22,13 @@ aliases:
 *Yugoloth of Tenacity and Want*
 
 - **Habitat.** Planar (Gehenna)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Mezzoloths are insectile yugoloths that seek power and souls in the service of fiendish lords. These greedy, violent yugoloths are more direct than most of their scheming brethren, but what they lack in guile they make up for in persistence and numbers.
 
 Mezzoloths typically form mercenary bands with others of their kind. These forces serve more powerful yugoloths, other fiends, sinister mages, or anyone who provides them with tempting rewards. Mezzoloths obediently adhere to the bargains they strike, potentially serving their patrons for centuries, but once those terms expire, yesterday's client could become today's target. Roll on or choose a result from the Mezzoloth Payments table to inspire a mezzoloth's price for its services.
 
 **Mezzoloth Payments**
-
-`dice: [](mezzoloth-xmm.md#^mezzoloth-payments)`
 
 | dice: 1d6 | The Mezzoloth Agrees to Serve For... |
 |-----------|--------------------------------------|
@@ -65,7 +64,8 @@ Mezzoloths typically form mercenary bands with others of their kind. These force
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 15"
 "languages": "Abyssal, Infernal; telepathy 60 ft."
 "cr": "5"
 "traits":
@@ -80,20 +80,20 @@ Mezzoloths typically form mercenary bands with others of their kind. These force
   - "desc": "The mezzoloth makes two attacks, using Claws or Mercurial Trident in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (2d4 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 9 (2d4 + 4) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ two of four claws, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Claws"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 8 (1d8 + 4) Piercing damage plus 10 (3d6) Force damage. Hit or\
-      \ Miss: The trident magically returns to the mezzoloth's claw immediately after\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 8 (1d8 + 4) Piercing damage plus 10 (3d6) Force damage. *Hit or\
+      \ Miss:* The trident magically returns to the mezzoloth's claw immediately after\
       \ a ranged attack."
     "name": "Mercurial Trident"
   - "desc": "The mezzoloth casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\
-      \n1/day each: [Cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md),\
+      \n**1/day each:** [Cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md),\
       \ [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [Dispel Magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)"
     "name": "Spellcasting"

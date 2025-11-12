@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -62,12 +63,13 @@ Barbed devils rarely collect anything as prosaic as coins and gems. Rather, they
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 18"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "5"
 "traits":
-  - "desc": "At the start of each of its turns, the devil deals 5 (d10) Piercing\
+  - "desc": "At the start of each of its turns, the devil deals 5 (1d10) Piercing\
       \ damage to any creature it is grappling or any creature grappling it."
     "name": "Barbed Hide"
   - "desc": "If the devil dies outside the Nine Hells, its body disappears in sulfurous\
@@ -82,15 +84,15 @@ Barbed devils rarely collect anything as prosaic as coins and gems. Rather, they
   - "desc": "The devil makes one Claws attack and one Tail attack, or it makes two\
       \ Hurl Flame attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 10 (2d6 + 3) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ both claws."
     "name": "Claws"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 14 (2d10 + 3) Slashing\
       \ damage."
     "name": "Tail"
-  - "desc": "Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage.\
+  - "desc": "*Ranged Attack Roll:* +5, range 150 ft. *Hit:* 17 (5d6) Fire damage.\
       \ If the target is a flammable object that isn't being worn or carried, it starts\
       \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Hurl Flame"

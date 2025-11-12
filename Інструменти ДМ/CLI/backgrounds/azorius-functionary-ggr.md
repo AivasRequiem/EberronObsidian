@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -47,8 +48,6 @@ Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragm
 
 **Personality Traits**
 
-`dice: [](azorius-functionary-ggr.md#^personality-traits)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I try never to let my judgment become clouded by emotion. |
@@ -63,8 +62,6 @@ Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragm
 
 **Ideals**
 
-`dice: [](azorius-functionary-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -77,8 +74,6 @@ Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragm
 
 **Bonds**
 
-`dice: [](azorius-functionary-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I am beholden to an Azorius arrester who captured the criminal who killed my parents, saving me from the same fate. |
@@ -90,8 +85,6 @@ Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragm
 ^bonds
 
 **Flaws**
-
-`dice: [](azorius-functionary-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -111,8 +104,6 @@ Roll twice on the Azorius Contacts table (for an ally and a rival) and once on t
 
 **Azorius Contacts**
 
-`dice: [](azorius-functionary-ggr.md#^azorius-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | As a teenager, I was a page for a prominent judge. |
@@ -126,8 +117,6 @@ Roll twice on the Azorius Contacts table (for an ally and a rival) and once on t
 ^azorius-contacts
 
 **Non-Azorius Contacts**
-
-`dice: [](azorius-functionary-ggr.md#^non-azorius-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

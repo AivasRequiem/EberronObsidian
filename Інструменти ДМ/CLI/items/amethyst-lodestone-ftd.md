@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/item/attunement/required
@@ -15,7 +16,7 @@ aliases:
 
 This fist-sized chunk of amethyst is infused with an amethyst dragon's ability to bend gravitational forces. While you are carrying the lodestone, you have advantage on Strength saving throws.
 
-The lodestone has 6 charges for the following properties, which you can use while you are holding the stone. The stone regains `d6` expended charges daily at dawn.
+The lodestone has 6 charges for the following properties, which you can use while you are holding the stone. The stone regains `1d6` expended charges daily at dawn.
 
 ## Flight
 

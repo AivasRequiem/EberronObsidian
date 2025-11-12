@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -61,17 +62,18 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "the languages it knew in life"
 "cr": "4"
 "traits":
   - "desc": "The vampire's innate spellcasting ability is Intelligence (spell save\
       \ DC 14). It can innately cast the following spells, requiring no components:\n\
-      \nAt will: [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n3/day\
-      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \n**At will:** [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n**3/day\
+      \ each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [mirror image](І\
       нструменти%20ДМ/CLI/spells/mirror-image-xphb.md), [sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md)\n\
-      \n1/day each: [gaseous form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
+      \n**1/day each:** [gaseous form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
       \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "While in dim light or darkness, the vampire can take the Hide action\
@@ -84,17 +86,17 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
 "actions":
   - "desc": "The vampire makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by the vampire, [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
-      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). Hit:\
+      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). *Hit:*\
       \ 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken,\
       \ and the vampire regains hit points equal to that amount. The reduction lasts\
       \ until the target finishes a long rest. The target dies if its hit point maximum\
       \ is reduced to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) bludgeoning damage. The vampire can also grapple the target (escape\
       \ DC 13) if it is a creature and the vampire has a hand free."
     "name": "Unarmed Strike"

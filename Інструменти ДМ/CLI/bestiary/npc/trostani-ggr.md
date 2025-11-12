@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/18
@@ -53,20 +54,21 @@ Trostani spends most of her time in the towering tree of Vitu-Ghazi, the Selesny
     "desc": "+13"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)"
-"senses": "darkvision 120 ft., passive Perception 26"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 26"
 "languages": "Common, Druidic, Elvish, Sylvan"
 "cr": "18"
 "traits":
   - "desc": "Trostani's innate spellcasting ability is Wisdom (spell save DC 24).\
       \ She can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
-      \ [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n3/day each:\
+      \n**At will:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \ [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n**3/day each:**\
       \ [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [conjure animals](Інст\
       рументи%20ДМ/CLI/spells/conjure-animals-xphb.md), [giant insect](Інструменти\
       %20ДМ/CLI/spells/giant-insect-xphb.md), [moonbeam](Інструменти%20ДМ/CLI/spells/moonbeam-xphb.md),\
       \ [plant growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md), [spike growth](І\
       нструменти%20ДМ/CLI/spells/spike-growth-xphb.md), [suggestion](Інструменти%20Д\
-      М/CLI/spells/suggestion-xphb.md)\n\n1/day each: [conjure fey](Інструмент\
+      М/CLI/spells/suggestion-xphb.md)\n\n**1/day each:** [conjure fey](Інструмент\
       и%20ДМ/CLI/spells/conjure-fey-xphb.md), [mass cure wounds](Інструменти%20ДМ\
       /CLI/spells/mass-cure-wounds-xphb.md)"
     "name": "Innate Spellcasting"
@@ -88,13 +90,13 @@ Trostani spends most of her time in the towering tree of Vitu-Ghazi, the Selesny
   - "desc": "Trostani takes three actions: she uses Constrict and Touch of Order,\
       \ and she casts a spell with a casting time of 1 action."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (3d6 + 5) bludgeoning damage, and the target is [grappled](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 19). Until this grapple\
       \ ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
       \ Trostani can grapple no more than three targets at a time."
     "name": "Constrict"
-  - "desc": "Melee Spell Attack: +16 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +16 to hit, reach 5 ft., one creature. *Hit:*\
       \ 23 (3d8 + 10) radiant damage, and Trostani can choose one magic item she\
       \ can see in the target's possession. Unless it's an artifact, the item's magic\
       \ is suppressed until the start of Trostani's next turn."
@@ -105,6 +107,9 @@ Trostani spends most of her time in the towering tree of Vitu-Ghazi, the Selesny
       \ damage and 21 (6d6) slashing damage on a failed save, or half as much damage\
       \ on a successful one."
     "name": "Wrath of Mat'Selesnya (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Trostani can expend a use to take one of the following actions. Trostani\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Trostani makes one melee attack, with advantage on the attack roll."
     "name": "Voice of Harmony"

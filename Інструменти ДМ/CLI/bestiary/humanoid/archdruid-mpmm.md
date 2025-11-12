@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -23,8 +24,6 @@ Archdruids watch over the natural wonders of their domains. They seldom interact
 When an archdruid uses their Change Shape action, you may choose the creature they turn into, abiding by the action's restrictions. Or you may roll on the Archdruid Favored Shapes table to determine the form the archdruid adopts.
 
 **Archdruid Favored Shapes**
-
-`dice: [](archdruid-mpmm.md#^archdruid-favored-shapes)`
 
 | dice: d8 | Favored Shape |
 |----------|---------------|
@@ -74,21 +73,21 @@ When an archdruid uses their Change Shape action, you may choose the creature th
   - "desc": "The archdruid makes three Staff or Wildfire attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage plus 21 (6d6) poison damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +9 to hit, range 120 ft., one target. *Hit:*\
       \ 26 (6d6 + 5) fire damage, and the target is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ until the start of the druid's next turn."
     "name": "Wildfire"
   - "desc": "The archdruid casts one of the following spells, using Wisdom as the\
-      \ spellcasting ability (spell save DC 17):\n\nAt will: [beast sense](Інс\
+      \ spellcasting ability (spell save DC 17):\n\n**At will:** [beast sense](Інс\
       трументи%20ДМ/CLI/spells/beast-sense-xphb.md), [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md),\
       \ [speak with animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)\n\
-      \n3/day each: [animal messenger](Інструменти%20ДМ/CLI/spells/animal-messenger-xphb.md),\
+      \n**3/day each:** [animal messenger](Інструменти%20ДМ/CLI/spells/animal-messenger-xphb.md),\
       \ [dominate beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md), [faerie\
       \ fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md), [tree stride](Інст\
-      рументи%20ДМ/CLI/spells/tree-stride-xphb.md)\n\n1/day each: [commune with\
+      рументи%20ДМ/CLI/spells/tree-stride-xphb.md)\n\n**1/day each:** [commune with\
       \ nature](Інструменти%20ДМ/CLI/spells/commune-with-nature-xphb.md) (as an action),\
       \ [mass cure wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md)"
     "name": "Spellcasting"

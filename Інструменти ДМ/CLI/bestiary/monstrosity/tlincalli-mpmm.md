@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -52,25 +53,26 @@ Tlincallis rarely build cities, make clothing, or mine metals. Instead, they sca
     "desc": "+4"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Tlincalli"
 "cr": "5"
 "actions":
   - "desc": "The tlincalli makes one Longsword or Spiked Chain attack and one Sting\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 11) if it is a Large or smaller\
       \ creature. Until this grapple ends, the target is [restrained](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Restrained), and the tlincalli can't use the spiked\
       \ chain against another target."
     "name": "Spiked Chain"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
       \ must succeed on a DC 14 Constitution saving throw or be [poisoned](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. If it fails the saving\

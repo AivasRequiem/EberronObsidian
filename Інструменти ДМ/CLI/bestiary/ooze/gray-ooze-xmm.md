@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -53,7 +54,8 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Grappled), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -69,7 +71,7 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
       \ metal or wood in 1 round."
     "name": "Corrosive Form"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 10 (2d8 + 1) Acid damage.\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 10 (2d8 + 1) Acid damage.\
       \ Nonmagical armor worn by the target takes a -1 penalty to the AC it offers.\
       \ The armor is destroyed if the penalty reduces its AC to 10. The penalty can\
       \ be removed by casting the [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md)\

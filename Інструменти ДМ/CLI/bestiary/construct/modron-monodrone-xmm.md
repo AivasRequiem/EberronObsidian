@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -39,8 +40,6 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 
 **Modron Operations**
 
-`dice: [](modron-monodrone-xmm.md#^modron-operations)`
-
 | dice: 1d8 | The Modrons Work To... |
 |-----------|------------------------|
 | 1 | Create a clockwork outpost to monitor the balance of obscure planar forces. |
@@ -76,7 +75,8 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
   - !!int "5"
 "speed": "30 ft., fly 30 ft."
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 120 ft., passive Perception 10"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 10"
 "languages": "Modron"
 "cr": "1/8"
 "traits":
@@ -84,9 +84,9 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
       \ it was wearing or carrying."
     "name": "Disintegration"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Force damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Force damage."
     "name": "Gear"
-  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 6 (1d8 + 2) Force\
+  - "desc": "*Ranged Attack Roll:* +4, range 120 ft. *Hit:* 6 (1d8 + 2) Force\
       \ damage."
     "name": "Gear Flinger"
 "source":

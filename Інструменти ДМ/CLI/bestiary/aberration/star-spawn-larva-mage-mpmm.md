@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -73,7 +74,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": "Deep Speech"
 "cr": "16"
 "traits":
@@ -85,12 +87,12 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "actions":
   - "desc": "The mage makes three Slam or Eldritch Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 19 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 60 ft., one target. *Hit:*\
       \ 19 (3d10 + 3) force damage."
     "name": "Eldritch Bolt"
   - "desc": "Each creature other than a star spawn within 10 feet of the mage must\
@@ -102,16 +104,20 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
       \ each of its turns, ending the effect on itself on a success."
     "name": "Plague of Worms (Recharge 6)"
   - "desc": "The mage casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](І\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](І\
       нструменти%20ДМ/CLI/spells/message-xphb.md), [minor illusion](Інструменти%20Д\
-      М/CLI/spells/minor-illusion-xphb.md)\n\n1/day: [dominate monster](Інстру\
+      М/CLI/spells/minor-illusion-xphb.md)\n\n**1/day:** [dominate monster](Інстру\
       менти%20ДМ/CLI/spells/dominate-monster-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When a creature within 20 feet of the mage fails a saving throw, the\
       \ mage gains 10 temporary hit points."
     "name": "Feed on Weakness"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the star spawn larva mage can expend a use to take one of the following\
+  \ actions. The star spawn larva mage regains all expended uses at the start of each\
+  \ of its turns."
 "legendary_actions":
   - "desc": "The mage makes one Slam attack."
     "name": "Slam"

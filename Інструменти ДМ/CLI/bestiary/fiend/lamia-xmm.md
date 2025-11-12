@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -20,15 +21,13 @@ aliases:
 *Accursed Bargainer and Ruin Raider*
 
 - **Habitat.** Desert  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Legends say the first lamia was an ambitious ruler who made a sinister bargain with the demon lord Graz'zt for everlasting majesty. As a consequence, the ruler was transformed into a lamia, a monster with the body of a lion and an accursed touch.
 
 Lamias either are descendants of that first lamia or have made similar deals. They often dwell near ruins, seeking mysterious magic they can use to gain riches and influence. Lamias use magical illusions and enchantments to trick others into serving them. They sometimes work with bandits to abduct travelers, releasing captives only if they accept a dangerous bargain. Roll on or choose a result from the Lamia Pacts table to inspire a lamia's desires.
 
 **Lamia Pacts**
-
-`dice: [](lamia-xmm.md#^lamia-pacts)`
 
 | dice: 1d6 | The Lamia Compels the Bargainer To... |
 |-----------|---------------------------------------|
@@ -64,27 +63,28 @@ Lamias either are descendants of that first lamia or have made similar deals. Th
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Abyssal, Common"
 "cr": "4"
 "actions":
   - "desc": "The lamia makes two Claw attacks. It can replace one attack with a use\
       \ of Corrupting Touch."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Slashing\
       \ damage plus 7 (2d6) Psychic damage."
     "name": "Claw"
-  - "desc": "Wisdom Saving Throw: DC 13, one creature the lamia can see within 5\
-      \ feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1\
+  - "desc": "*Wisdom Saving Throw:* DC 13, one creature the lamia can see within 5\
+      \ feet. *Failure:* 13 (3d8) Psychic damage, and the target is cursed for 1\
       \ hour. Until the curse ends, the target has the [Charmed](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Charmed) and [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ conditions."
     "name": "Corrupting Touch"
   - "desc": "The lamia casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt\
-      \ will: [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n**At\
+      \ will:** [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\
       \ (can appear as a Large or Medium biped), [Minor Illusion](Інструменти%20ДМ\
-      /CLI/spells/minor-illusion-xphb.md)\n\n1/day each: [Geas](Інструменти%20Д\
+      /CLI/spells/minor-illusion-xphb.md)\n\n**1/day each:** [Geas](Інструменти%20Д\
       М/CLI/spells/geas-xphb.md), [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md),\
       \ [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/14
@@ -49,7 +50,8 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "cold"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
@@ -62,16 +64,16 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
 "actions":
   - "desc": "The sea serpent makes one Bite attack and one Constrict or Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
-      \ 20 (2d12 + 7) piercing damage plus 6 (d12) cold damage."
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
+      \ 20 (2d12 + 7) piercing damage plus 6 (1d12) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one creature. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage, and the target is [grappled](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 20). Until this grapple\
       \ ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ and the sea serpent can't constrict another target."
     "name": "Constrict"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one target. *Hit:*\
       \ 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be pushed up to 30 feet away from the\
       \ sea serpent and knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
@@ -80,6 +82,10 @@ Living amid the wreckage of sunken ships or in deep sea caves, sea serpents coll
       \ area must make a DC 18 Constitution saving throw, taking 49 (9d10) cold\
       \ damage on a failed save, or half as much damage on a successful one."
     "name": "Rime Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the ancient sea serpent can expend a use to take one of the following actions.\
+  \ The ancient sea serpent regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The sea serpent makes one Tail attack."
     "name": "Tail"

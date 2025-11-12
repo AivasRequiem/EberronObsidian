@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/alchemist
@@ -79,8 +80,6 @@ When you reach certain levels in this class, you can make more elixirs at the en
 You can create additional *experimental elixirs* by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir's effect from the Experimental Elixir table.
 
 **Experimental Elixir**
-
-`dice: [](artificer-alchemist-tce.md#^experimental-elixir)`
 
 | dice: d6 | Effect |
 |----------|--------|

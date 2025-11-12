@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -20,8 +21,6 @@ Warlords are legendary battlefield commanders, whose names are spoken with awe. 
 Warlords urge their troops into the fray with shouted exhortations. You can roll on the Warlord Battle Cries table to select one, or choose a battle cry that fits with your campaign.
 
 **Warlord Battle Cries**
-
-`dice: [](warlord-mpmm.md#^warlord-battle-cries)`
 
 | dice: d8 | Battle Cry |
 |----------|------------|
@@ -78,12 +77,15 @@ Warlords urge their troops into the fray with shouted exhortations. You can roll
 "actions":
   - "desc": "The warlord makes two Greatsword or Short bow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the warlord can expend a use to take one of the following actions. The warlord\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The warlord targets one ally it can see within 30 feet of it. If the\
       \ target can see and hear the warlord, the target can make one weapon attack\

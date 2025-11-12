@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -50,7 +51,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ DC 10 Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 1 Piercing damage."
     "name": "Beak"
 "source":
   - "XMM"

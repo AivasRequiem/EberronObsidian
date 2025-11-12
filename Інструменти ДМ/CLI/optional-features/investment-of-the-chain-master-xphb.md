@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/optional-feature/ei
@@ -10,7 +11,7 @@ aliases:
 # Investment of the Chain Master
 *Source: Player's Handbook (2024) p. 156*  
 
-**Prerequisite**: Level 5
+**Prerequisite**: Level 5, pact of the chain|xphb
 
 When you cast [Find Familiar](Інструменти%20ДМ/CLI/spells/find-familiar-xphb.md), you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
 

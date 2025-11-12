@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -29,7 +30,8 @@ aliases:
   - !!int "14"
   - !!int "11"
 "speed": "5 ft., swim 60 ft."
-"senses": "darkvision 90 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive\
+  \ Perception 12"
 "languages": "understands the languages you know"
 "traits":
   - "desc": "The beast can breathe air and water."
@@ -38,8 +40,8 @@ aliases:
       \ makes."
     "name": "Primal Bond"
 "actions":
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage\
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage\
       \ (your choice when you summon the beast), and the target has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC equals\
       \ your spell save DC)."

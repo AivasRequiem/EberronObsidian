@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -14,7 +15,7 @@ aliases:
 # [Egg Hunter Hatchling](Інструменти ДМ\CLI\bestiary\monstrosity/egg-hunter-hatchling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 193*  
 
-A dragon egg drained by an egg hunter is filled with `d6` new eggs, which hatch inside the dragon egg's shell in `d6` days. The egg hunter hatchlings burst forth `d4` days later, using the needlelike egg tooth that extends from their heads. They are voracious, consuming any other dragon eggs in the vicinity if they can. A hatchling matures into an adult about twenty days after breaking free from its dragon egg.
+A dragon egg drained by an egg hunter is filled with `1d6` new eggs, which hatch inside the dragon egg's shell in `1d6` days. The egg hunter hatchlings burst forth `1d4` days later, using the needlelike egg tooth that extends from their heads. They are voracious, consuming any other dragon eggs in the vicinity if they can. A hatchling matures into an adult about twenty days after breaking free from its dragon egg.
 
 ## Egg Hunters
 
@@ -47,7 +48,8 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
@@ -56,7 +58,7 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
 "actions":
   - "desc": "The egg hunter makes two Egg Tooth attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage if the target\
       \ is an object."
     "name": "Egg Tooth"

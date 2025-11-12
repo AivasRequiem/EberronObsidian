@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/16
@@ -21,15 +22,13 @@ aliases:
 *Righteously Wrathful Angelic Warrior*
 
 - **Habitat.** Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Planetars deliver the punishment of righteous gods. These angels innately know truth from lies, and they use magic and blessed weapons to protect the just and root out wickedness across the Multiverse.
 
 These angels act where they can against overwhelming evil, but to avoid the attention of the Lower Planes, they prefer to let mortals attend to affairs on the Material Plane. Planetars often choose mortal champions to oppose threats they're loath to face directly, involving themselves only if necessary. Roll on or choose a result from the Planetar Quests table to inspire what evil a planetar might recruit heroes to thwart.
 
 **Planetar Quests**
-
-`dice: [](planetar-xmm.md#^planetar-quests)`
 
 | dice: 1d6 | The Planetar Entreats a Mortal Hero To... |
 |-----------|-------------------------------------------|
@@ -71,7 +70,8 @@ These angels act where they can against overwhelming evil, but to avoid the atte
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 21"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 21"
 "languages": "all; telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -87,18 +87,18 @@ These angels act where they can against overwhelming evil, but to avoid the atte
 "actions":
   - "desc": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing\
+  - "desc": "*Melee Attack Roll:* +12, reach 10 ft. *Hit:* 14 (2d6 + 7) Slashing\
       \ damage plus 18 (4d8) Radiant damage."
     "name": "Radiant Sword"
-  - "desc": "Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius [Sphere](І\
+  - "desc": "*Dexterity Saving Throw:* DC 20, each enemy in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant\
-      \ damage. Success: Half damage."
+      \ on a point the planetar can see within 120 feet. *Failure:* 24 (7d6) Radiant\
+      \ damage. *Success:* Half damage."
     "name": "Holy Burst"
   - "desc": "The planetar casts one of the following spells, requiring no Material\
       \ components and using Charisma as spellcasting ability (spell save DC 20):\n\
-      \nAt will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
-      \n1/day each: [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Control\
+      \n**At will:** [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
+      \n**1/day each:** [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Control\
       \ Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md), [Dispel Evil\
       \ and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md), [Raise\
       \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"

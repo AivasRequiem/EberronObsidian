@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -25,7 +26,7 @@ Centaur troopers are knight-like guardians. Many are suspicious of non-Fey creat
 *Defenders of the Feywild*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Centaurs are defenders of forests, plains, and sites of primeval power. With upper bodies like humans' and the lower bodies of horses, centaurs charge into battle against those who would harm their allies.
 
@@ -57,18 +58,18 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
 "actions":
   - "desc": "The centaur makes two attacks, using Pike or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 9 (1d10 + 4) Piercing\
       \ damage."
     "name": "Pike"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
+  - "desc": "*Ranged Attack Roll:* +4, range 150/600 ft. *Hit:* 6 (1d8 + 2) Piercing\
       \ damage."
     "name": "Longbow"
 "bonus_actions":
   - "desc": "The centaur moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
       \ and can move through the spaces of Medium or smaller creatures. Each creature\
-      \ whose space the centaur enters is targeted once by the following effect. Strength\
-      \ Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the\
+      \ whose space the centaur enters is targeted once by the following effect. *Strength\
+      \ Saving Throw:* DC 14. *Failure:* 7 (1d6 + 4) Bludgeoning damage, and the\
       \ target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Trampling Charge (Recharge 5-6)"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/7
@@ -55,28 +56,29 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "damage_resistances": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Common, Quori"
 "cr": "7"
 "traits":
   - "desc": "The quori's spellcasting ability is Charisma (spell save DC 14). It can\
-      \ innately cast the following spells, requiring no components:\n\nAt will:\
-      \ [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\n\n1/day:\
+      \ innately cast the following spells, requiring no components:\n\n**At will:**\
+      \ [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\n\n**1/day:**\
       \ [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "The quori makes three attacks: one pincer attack, one attack with its\
       \ claws, and one stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) bludgeoning damage. The target is [grappled](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or smaller\
       \ creature. The quori has two pincers, each of which can grapple one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (4d4 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:*\
       \ 8 (1d10 + 3) piercing damage plus 10 (3d6) psychic damage, and the target\
       \ must succeed on a DC 14 Wisdom saving throw or be [frightened](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Frightened) of the quori for 1 minute. The target\

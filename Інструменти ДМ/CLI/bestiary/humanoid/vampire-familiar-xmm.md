@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -32,8 +33,6 @@ Vampires disguise their accursed, immortal natures, passing as mortals to feed o
 Undead vampires lie dormant during the day, retreating to resting places hidden from foes and the sun's searing rays. Roll on or choose a result from the Vampire Resting Places table to inspire a vampire's grim sanctuary.
 
 **Vampire Resting Places**
-
-`dice: [](vampire-familiar-xmm.md#^vampire-resting-places)`
 
 | dice: 1d6 | The Vampire's Resting Place Is... |
 |-----------|-----------------------------------|
@@ -84,7 +83,8 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "damage_resistances": "necrotic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
   \ (except from its vampire master)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common plus one other language"
 "cr": "3"
 "traits":
@@ -95,8 +95,8 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The familiar makes two Umbral Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the\
       \ target is reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this attack, the target becomes [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md)\
       \ but has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\

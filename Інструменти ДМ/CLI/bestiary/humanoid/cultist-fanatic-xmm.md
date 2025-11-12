@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -22,13 +23,11 @@ Cultist fanatics lead small cults or cells within larger cults. They're privy to
 *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](cultist-fanatic-xmm.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -45,8 +44,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](cultist-fanatic-xmm.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -105,14 +102,14 @@ Cults can organize around any mystical tradition, but many serve supernatural be
 "languages": "Common"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing\
       \ damage plus 7 (2d6) Necrotic damage."
     "name": "Pact Blade"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt will:\
+      \ ability (spell save DC 12, +4 to hit with spell attacks):\n\n**At will:**\
       \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](Інструме\
-      нти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n2/day: [Command](Інструменти\
-      %20ДМ/CLI/spells/command-xphb.md)\n\n1/day: [Hold Person](Інструменти%20Д\
+      нти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**2/day:** [Command](Інструменти\
+      %20ДМ/CLI/spells/command-xphb.md)\n\n**1/day:** [Hold Person](Інструменти%20Д\
       М/CLI/spells/hold-person-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

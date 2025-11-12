@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/age/futuristic
@@ -74,7 +75,7 @@ aliases:
 
 
 
-Bound into this weapon is a level 2 spell. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains `d6` expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.
+Bound into this weapon is a level 2 spell. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains `1d6` expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.
 
 The spell's saving throw DC is 13, and its attack bonus is `+5`.
 

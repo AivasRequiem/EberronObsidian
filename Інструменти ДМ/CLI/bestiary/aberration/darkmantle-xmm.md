@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -51,11 +52,12 @@ Darkmantles share similarities with piercers and ropers and often hunt near thos
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "blindsight 60 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Bludgeoning\
       \ damage, and the darkmantle attaches to the target. If the target is a Medium\
       \ or smaller creature and the darkmantle had [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on the attack roll, it covers the target, which has the [Blinded](Інструме\

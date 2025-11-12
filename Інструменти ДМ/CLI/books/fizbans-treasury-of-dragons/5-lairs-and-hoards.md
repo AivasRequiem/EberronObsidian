@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -75,7 +76,7 @@ A dragon's presence can alter the behavior or physical characteristics of creatu
 
 **Draconic Tint**. Creatures that live within 6 miles of the lair develop coloration similar to the dragon's.
 
-**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `d10` days.
+**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `1d10` days.
 
 #### Planar Connections
 
@@ -282,13 +283,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 140 (`4d6 × 10`) gp
 
-3 (`d6`) mundane items
+3 (`1d6`) mundane items
 
 9 (`2d8`) gems
 
-2 (`d4`) art objects
+2 (`1d4`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Adult Dragon Hoards
 
@@ -306,7 +307,7 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 10 (`3d6`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Young Dragon Hoards
 
@@ -318,13 +319,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 210 (`6d6 × 10`) pp
 
-4 (`d8`) mundane items
+4 (`1d8`) mundane items
 
 21 (`6d6`) gems
 
 5 (`2d4`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Ancient Dragon Hoards
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -21,8 +22,6 @@ Archers defend castles, hunt wild game on the fringes of civilization, serve as 
 Some renowned archers and groups of archers are known for the special fletching of their arrows. You may roll on the Archer Fletching table to determine the distinctive fletching used by an individual archer or a group of them.
 
 **Archer Fletching**
-
-`dice: [](archer-mpmm.md#^archer-fletching)`
 
 | dice: d12 | Fletching |
 |-----------|-----------|
@@ -69,10 +68,10 @@ Some renowned archers and groups of archers are known for the special fletching 
 "actions":
   - "desc": "The archer makes two Shortsword or Longbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:*\
       \ 8 (1d8 + 4) piercing damage."
     "name": "Longbow"
 "bonus_actions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -60,7 +61,8 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
     "desc": "+3"
   - "name": "[Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "Common, Deep Speech, Undercommon, telepathy 30 ft."
 "cr": "4"
 "traits":
@@ -78,25 +80,25 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
   - "desc": "The neogi makes one Bite attack and one Claw attack, or it makes two\
       \ Tentacle of Hadar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
       \ must succeed on a DC 12 Constitution saving throw or become [poisoned](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. A target can repeat\
       \ the saving throw at the end of each of its turns, ending the effect on itself\
       \ on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage."
     "name": "Claw"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) necrotic damage, and the target can't take reactions until\
       \ the end of the neogi's next turn, as a spectral tentacle clings to the target."
     "name": "Tentacle of Hadar"
   - "desc": "The neogi casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md),\
       \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](Інстр\
-      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [dimension\
+      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [dimension\
       \ door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [hold person](І\
       нструменти%20ДМ/CLI/spells/hold-person-xphb.md), [hunger of Hadar](Інструмен\
       ти%20ДМ/CLI/spells/hunger-of-hadar-xphb.md)"

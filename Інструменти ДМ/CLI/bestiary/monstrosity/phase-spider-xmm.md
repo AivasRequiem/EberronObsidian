@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -58,7 +59,8 @@ Phase spiders are more intelligent than mundane spiders, but most are cowards. T
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "3"
 "traits":
@@ -74,7 +76,7 @@ Phase spiders are more intelligent than mundane spiders, but most are cowards. T
 "actions":
   - "desc": "The spider makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 8 (1d10 + 3) Piercing\
       \ damage plus 9 (2d8) Poison damage. If this damage reduces the target to\
       \ 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ the target becomes [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md),\

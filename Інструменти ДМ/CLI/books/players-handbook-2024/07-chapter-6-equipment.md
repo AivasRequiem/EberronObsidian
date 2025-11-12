@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
@@ -390,7 +391,7 @@ When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#At
 
 ### Alchemist's Fire (50 GP)
 
-When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `d4` Fire damage and start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
+When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take `1d4` Fire damage and start [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).
 
 ### Ammunition (Varies)
 
@@ -552,7 +553,7 @@ When you take the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#At
 
 ### Hunting Trap (5 GP)
 
-As a [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take `d4` Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
+As a [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take `1d4` Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
 
 ### Ink (10 GP)
 
@@ -642,7 +643,7 @@ Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, 
 
 ### Poison, Basic (100 GP)
 
-As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra `d4` Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
+As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra `1d4` Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
 
 ### Pole (5 CP)
 

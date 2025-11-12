@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -8,8 +9,6 @@ aliases:
 ---
 # Weather; 2
 *Source: Dungeon Master's Guide (2024) p. 38* 
-
-`dice: [](weather-2-xdmg.md#^1-wind-precipitation)`
 
 | dice: 1d20 | Wind | Precipitation |
 |------------|------|---------------|

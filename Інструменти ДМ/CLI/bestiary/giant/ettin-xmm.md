@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -33,8 +34,6 @@ Each ettin head has a distinct personality. While this makes some ettins quarrel
 Roll on or choose a result from the Ettin Interactions table to inspire how an ettin's heads are interacting when the creature is encountered.
 
 **Ettin Interactions**
-
-`dice: [](ettin-xmm.md#^ettin-interactions)`
 
 | dice: 1d8 | The Ettin's Heads Are... |
 |-----------|--------------------------|
@@ -78,17 +77,18 @@ Roll on or choose a result from the Ettin Interactions table to inspire how an e
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інс\
   трументи%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Giant"
 "cr": "4"
 "actions":
   - "desc": "The ettin makes one Battleaxe attack and one Morningstar attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Battleaxe"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 14 (2d8 + 5) Piercing\
       \ damage, and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on the next attack roll it makes before the end of its next turn."
     "name": "Morningstar"

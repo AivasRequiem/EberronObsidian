@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/19
@@ -62,7 +63,8 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "19"
 "traits":
@@ -84,7 +86,7 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
 "actions":
   - "desc": "Bael makes two Hellish Morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 20 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) force damage plus 9 (2d8) necrotic damage."
     "name": "Hellish Morningstar"
   - "desc": "Each of Bael's allies within 60 feet of him can't be [charmed](Інстру\
@@ -95,17 +97,20 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
       \ to 120 feet to an unoccupied space he can see."
     "name": "Teleport"
   - "desc": "Bael casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
       \ become Medium), [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [major image](Інструменти\
-      %20ДМ/CLI/spells/major-image-xphb.md)\n\n3/day each: [dispel magic](Інст\
+      %20ДМ/CLI/spells/major-image-xphb.md)\n\n**3/day each:** [dispel magic](Інст\
       рументи%20ДМ/CLI/spells/dispel-magic-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md), [wall of fire](І\
-      нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n1/day: [dominate monster](І\
+      нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n**1/day:** [dominate monster](І\
       нструменти%20ДМ/CLI/spells/dominate-monster-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Bael can expend a use to take one of the following actions. Bael regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Bael uses Spellcasting or Teleport."
     "name": "Fiendish Magic"

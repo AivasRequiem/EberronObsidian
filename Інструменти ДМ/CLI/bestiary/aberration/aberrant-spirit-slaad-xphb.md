@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -30,7 +31,8 @@ aliases:
   - !!int "6"
 "speed": "30 ft."
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Deep Speech, understands the languages you know"
 "traits":
   - "desc": "The spirit regains 5 Hit Points at the start of its turn if it has at\
@@ -40,8 +42,8 @@ aliases:
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (round down)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d10 + 3 + the spell's level Slashing damage, and the target\
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d10 + 3 + the spell's level Slashing damage, and the target\
       \ can't regain Hit Points until the start of the spirit's next turn."
     "name": "Claw"
 "source":

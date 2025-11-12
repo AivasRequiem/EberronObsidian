@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/4
@@ -44,7 +45,8 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Draconic, telepathy 30 ft."
 "cr": "4"
 "traits":
@@ -58,7 +60,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
 "actions":
   - "desc": "The peacekeeper makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (3d8 + 3) bludgeoning damage."
     "name": "Slam"
   - "desc": "The peacekeeper releases a calming gas in a 30-foot-radius sphere centered\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -20,7 +21,7 @@ aliases:
 *Witness to the Weird*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Consumed by their thirst for forbidden knowledge, nothics are cursed lore seekers transformed by secrets never meant to be known. The bodies of these former scholars are warped into otherworldly shapes, each with a head dominated by a gigantic, unblinking eye. Nothics remember nothing of their past lives and care only for their endless pursuit of hidden mysteries and uncanny truths. They seek revelations amid the rubble of forgotten ruins, and they use their supernatural sight to pierce magical deceptions, rot the flesh of enemies, and steal the secrets of those who interrupt their investigations.
 
@@ -57,21 +58,22 @@ Some nothics seek to end the curse that warped them into their bizarre forms, bu
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 14"
 "languages": "Undercommon"
 "cr": "2"
 "actions":
   - "desc": "The nothic makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 8 (1d10 + 3) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Constitution Saving Throw: DC 13, one creature the nothic can see within\
-      \ 120 feet. Failure: 17 (5d6) Necrotic damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 13, one creature the nothic can see within\
+      \ 120 feet. *Failure:* 17 (5d6) Necrotic damage. *Success:* Half damage."
     "name": "Rotting Gaze"
 "bonus_actions":
-  - "desc": "Wisdom Saving Throw: DC 14, one creature the nothic can see within\
-      \ 120 feet. Failure: The nothic magically learns one fact or secret about\
+  - "desc": "*Wisdom Saving Throw:* DC 14, one creature the nothic can see within\
+      \ 120 feet. *Failure:* The nothic magically learns one fact or secret about\
       \ the target."
     "name": "Weird Insight (Recharge 6)"
 "source":

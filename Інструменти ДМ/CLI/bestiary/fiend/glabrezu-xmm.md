@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -21,7 +22,7 @@ aliases:
 *Demon of Delusion and Entrapment*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Glabrezus embody delusion and predatory guile. These cunning demons know the most effective traps are those that individuals devise for themselves. Despite having massive claws and overwhelming physicality, glabrezus excel at using flattery and misdirection to coerce victims into isolating themselves and harming others.
 
@@ -63,7 +64,8 @@ In the Abyss, glabrezus act as lone hunters or deceitful advisers to greater dem
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 17"
 "languages": "Abyssal; telepathy 120 ft."
 "cr": "9"
 "traits":
@@ -77,20 +79,20 @@ In the Abyss, glabrezus act as lone hunters or deceitful advisers to greater dem
 "actions":
   - "desc": "The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 10 ft. *Hit:* 16 (2d10 + 5) Slashing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 15) from\
       \ one of two pincers."
     "name": "Pincer"
-  - "desc": "Dexterity Saving Throw: DC 17, one creature [Grappled](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Grappled) by the glabrezu. Failure: 15 (3d6\
-      \ + 5) Bludgeoning damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 17, one creature [Grappled](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Grappled) by the glabrezu. *Failure:* 15 (3d6\
+      \ + 5) Bludgeoning damage. *Success:* Half damage."
     "name": "Pummel"
   - "desc": "The glabrezu casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\nAt will: [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
+      \ DC 16):\n\n**At will:** [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Dispel\
-      \ Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\n1/day each:\
+      \ Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\n**1/day each:**\
       \ [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [Fly](Інструме\
       нти%20ДМ/CLI/spells/fly-xphb.md), [Power Word Stun](Інструменти%20ДМ/CLI/spells/power-word-stun-xphb.md)"
     "name": "Spellcasting"

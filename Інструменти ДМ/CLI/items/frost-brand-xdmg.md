@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -22,7 +23,7 @@ aliases:
 ![](Інструменти%20ДМ/CLI/items/img/frost-brand.webp#right)
 
 
-When you hit with an attack roll using this magic weapon, the target takes an extra `d6` Cold damage. In addition, while you hold the weapon, you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Fire damage.
+When you hit with an attack roll using this magic weapon, the target takes an extra `1d6` Cold damage. In addition, while you hold the weapon, you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Fire damage.
 
 In freezing temperatures, the weapon sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) in a 10-foot radius and [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) for an additional 10 feet.
 

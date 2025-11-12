@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/school/necromancy
 aliases:
@@ -17,6 +18,7 @@ aliases:
 
 ## 1st Level
 
+- [Cause Fear](Інструменти%20ДМ/CLI/spells/cause-fear-xge.md "XGE")
 - [False Life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md "XPHB")
 - [Inflict Wounds](Інструменти%20ДМ/CLI/spells/inflict-wounds-xphb.md "XPHB")
 - [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md "XPHB")
@@ -32,6 +34,7 @@ aliases:
 - [Animate Dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md "XPHB")
 - [Bestow Curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md "XPHB")
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
+- [Life Transference](Інструменти%20ДМ/CLI/spells/life-transference-xge.md "XGE")
 - [Revivify](Інструменти%20ДМ/CLI/spells/revivify-xphb.md "XPHB")
 - [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md "XPHB")
 - [Spirit Shroud](Інструменти%20ДМ/CLI/spells/spirit-shroud-tce.md "TCE")
@@ -41,10 +44,14 @@ aliases:
 ## 4th Level
 
 - [Blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md "XPHB")
+- [Shadow of Moil](Інструменти%20ДМ/CLI/spells/shadow-of-moil-xge.md "XGE")
 
 ## 5th Level
 
 - [Contagion](Інструменти%20ДМ/CLI/spells/contagion-xphb.md "XPHB")
+- [Danse Macabre](Інструменти%20ДМ/CLI/spells/danse-macabre-xge.md "XGE")
+- [Enervation](Інструменти%20ДМ/CLI/spells/enervation-xge.md "XGE")
+- [Negative Energy Flood](Інструменти%20ДМ/CLI/spells/negative-energy-flood-xge.md "XGE")
 - [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md "XPHB")
 - [Reincarnate](Інструменти%20ДМ/CLI/spells/reincarnate-xphb.md "XPHB")
 
@@ -55,6 +62,7 @@ aliases:
 - [Eyebite](Інструменти%20ДМ/CLI/spells/eyebite-xphb.md "XPHB")
 - [Harm](Інструменти%20ДМ/CLI/spells/harm-xphb.md "XPHB")
 - [Magic Jar](Інструменти%20ДМ/CLI/spells/magic-jar-xphb.md "XPHB")
+- [Soul Cage](Інструменти%20ДМ/CLI/spells/soul-cage-xge.md "XGE")
 
 ## 7th Level
 
@@ -63,6 +71,7 @@ aliases:
 
 ## 8th Level
 
+- [Abi-Dalzim's Horrid Wilting](Інструменти%20ДМ/CLI/spells/abi-dalzims-horrid-wilting-xge.md "XGE")
 - [Clone](Інструменти%20ДМ/CLI/spells/clone-xphb.md "XPHB")
 
 ## 9th Level

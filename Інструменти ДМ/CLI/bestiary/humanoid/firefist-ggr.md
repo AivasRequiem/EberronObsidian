@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/7
@@ -49,27 +50,27 @@ Boros firefists combine potent magic with peerless fighting ability, inspiring a
 "traits":
   - "desc": "The firefist is a 9th-level Boros spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [fire bolt](Інструменти\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [fire bolt](Інструменти\
       %20ДМ/CLI/spells/fire-bolt-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
       \ [sacred flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md), [spare the\
-      \ dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n1st level\
-      \ (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
+      \ dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n**1st level\
+      \ (4 slots):** [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
       \ [healing word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md), [heroism](І\
       нструменти%20ДМ/CLI/spells/heroism-xphb.md), [shield of faith](Інструменти%20Д\
-      М/CLI/spells/shield-of-faith-xphb.md)\n\n2nd level (3 slots): [lesser restoration](І\
+      М/CLI/spells/shield-of-faith-xphb.md)\n\n**2nd level (3 slots):** [lesser restoration](І\
       нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md), [scorching ray](Інст\
-      рументи%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\n3rd level (3 slots): [blinding\
+      рументи%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\n**3rd level (3 slots):** [blinding\
       \ smite](Інструменти%20ДМ/CLI/spells/blinding-smite-xphb.md), [crusader's mantle](І\
       нструменти%20ДМ/CLI/spells/crusaders-mantle-xphb.md), [revivify](Інструменти\
-      %20ДМ/CLI/spells/revivify-xphb.md)\n\n4th level (3 slots): [banishment](І\
+      %20ДМ/CLI/spells/revivify-xphb.md)\n\n**4th level (3 slots):** [banishment](І\
       нструменти%20ДМ/CLI/spells/banishment-xphb.md), [wall of fire](Інструменти%20Д\
-      М/CLI/spells/wall-of-fire-xphb.md)\n\n5th level (1 slots): [flame strike](І\
+      М/CLI/spells/wall-of-fire-xphb.md)\n\n**5th level (1 slots):** [flame strike](І\
       нструменти%20ДМ/CLI/spells/flame-strike-xphb.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "The firefist makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
 "reactions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -52,7 +53,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 60 ft., passive Perception 13"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Draconic"
 "cr": "6"
 "traits":
@@ -67,10 +69,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes three Rend or Energy Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Rend"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) force damage."
     "name": "Energy Ray"
   - "desc": "The draconian exhales a 15-foot cone of noxious gas. Each creature in\
@@ -83,8 +85,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
     "name": "Noxious Breath (Recharge 5-6)"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
-      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n2/day each:\
+      \n**At will:** [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**2/day each:**\
       \ [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [disguise\
       \ self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [sending](Інстру\
       менти%20ДМ/CLI/spells/sending-xphb.md)"

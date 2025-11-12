@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -46,7 +47,8 @@ Corpses that accumulate on a cadaver collector's shell aren't just grisly battle
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands all languages but can't speak"
 "cr": "14"
 "traits":
@@ -58,7 +60,7 @@ Corpses that accumulate on a cadaver collector's shell aren't just grisly battle
 "actions":
   - "desc": "The collector makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 18 (3d8 + 5) bludgeoning damage plus 16 (3d10) necrotic damage."
     "name": "Slam"
   - "desc": "The collector releases paralyzing gas in a 30-foot cone. Each creature\
@@ -69,7 +71,7 @@ Corpses that accumulate on a cadaver collector's shell aren't just grisly battle
       \ on itself with a success."
     "name": "Paralyzing Breath (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "The collector calls up the enslaved spirits of those it has slain; d4\
+  - "desc": "The collector calls up the enslaved spirits of those it has slain; 1d4\
       \ [specters](Інструменти%20ДМ/CLI/bestiary/undead/specter-xmm.md) (without Sunlight\
       \ Sensitivity) arise in unoccupied spaces within 15 feet of it. The specters\
       \ act right after the collector on the same initiative count and fight until\

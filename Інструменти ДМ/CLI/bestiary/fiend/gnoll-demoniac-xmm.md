@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -25,7 +26,7 @@ Gnoll demoniacs are berserkers that arise from gnolls who've ritualistically fed
 *Fiends in Feral Flesh*
 
 - **Habitat.** Desert, Forest, Grassland, Hill  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their corruption and violence delighted the demon lord Yeenoghu, who encouraged their numbers and spread them across the multiverse. Ever since, gnolls have been the cackling servants of Yeenoghu, existing to cause ruin and to feast on what remains.
 
@@ -59,13 +60,14 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Abyssal, Common, Gnoll"
 "cr": "8"
 "actions":
   - "desc": "The gnoll makes two Abyssal Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +6, reach 5 ft. or range 60 ft. *Hit:*\
       \ 20 (5d6 + 3) Poison damage."
     "name": "Abyssal Strike"
   - "desc": "The gnoll conjures a 30-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
@@ -73,11 +75,11 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
       \ originating from a point it can see within 60 feet, which lasts for 1 minute\
       \ or until the gnoll's [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\
       \ ends on it. This area is [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ Dexterity Saving Throw: DC 14, any creature that starts its turn in this\
-      \ area or enters it for the first time on a turn. Failure: 28 (8d6) Necrotic\
+      \ *Dexterity Saving Throw:* DC 14, any creature that starts its turn in this\
+      \ area or enters it for the first time on a turn. *Failure:* 28 (8d6) Necrotic\
       \ damage, and the gnoll or a creature of its choice it can see gains 10 [Temporary\
       \ Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).\
-      \ Success: Half damage only."
+      \ *Success:* Half damage only."
     "name": "Hunger of Yeenoghu (Recharge 5-6)"
 "bonus_actions":
   - "desc": "Immediately after dealing damage to a creature that is already [Bloodied](І\

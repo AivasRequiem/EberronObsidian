@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -50,7 +51,8 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Undercommon"
 "cr": "2"
 "traits":
@@ -61,7 +63,7 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing\
       \ damage, or 13 (3d6 + 3) Slashing damage if the quaggoth is [Bloodied](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Claw"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -24,7 +25,7 @@ Satyr revelmasters use magical music to change the moods of other creatures. The
 *Horned and Hoofed Revelers*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merrymaking—eating, drinking, performing, fighting, and frolicking.
 
@@ -65,18 +66,18 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
 "actions":
   - "desc": "The satyr makes three Prance attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
       \ damage, and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition until the start of the satyr's next turn."
     "name": "Prance"
-  - "desc": "The satyr conjures a charming or frightening song. Wisdom Saving Throw:\
+  - "desc": "The satyr conjures a charming or frightening song. *Wisdom Saving Throw:*\
       \ DC 14, each enemy in a 60-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the satyr. Failure: The target is subjected to the song's\
-      \ effect:\n\n- Charming. The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ originating from the satyr. *Failure:* The target is subjected to the song's\
+      \ effect:\n\n- **Charming.** The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition for 1 minute. While [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
       \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition and uses all its movement to dance in place. The effect ends on\
-      \ the target if it takes any damage.  \n- Frightening. 10 (2d6 + 3) Psychic\
+      \ the target if it takes any damage.  \n- **Frightening.** 10 (2d6 + 3) Psychic\
       \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition for 1 minute. If the target ends its turn out of line of sight from\
       \ the satyr, the condition ends on it.  "

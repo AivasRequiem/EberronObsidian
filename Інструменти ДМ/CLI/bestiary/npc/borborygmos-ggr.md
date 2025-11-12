@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/18
@@ -69,14 +70,14 @@ The Gruul follow strength, and Borborygmos holds his position only because he ha
   - "desc": "Borborygmos can use his Frightful Presence. He also makes two attacks:\
       \ one with his maul and one with his stomp."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (6d6 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 21 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Maul"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) bludgeoning damage."
     "name": "Stomp"
-  - "desc": "Ranged Weapon Attack: +13 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +13 to hit, range 30/120 ft., one target. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage."
     "name": "Rock"
   - "desc": "Each creature of Borborygmos's choice that is within 60 feet of him and\
@@ -88,6 +89,9 @@ The Gruul follow strength, and Borborygmos holds his position only because he ha
       \ or the effect ends for it, the creature is immune to Borborygmos's Frightful\
       \ Presence for the next 24 hours."
     "name": "Frightful Presence"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Borborygmos can expend a use to take one of the following actions. Borborygmos\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Borborygmos makes a weapon attack."
     "name": "Attack"

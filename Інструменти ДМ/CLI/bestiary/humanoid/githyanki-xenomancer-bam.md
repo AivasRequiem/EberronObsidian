@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/9
@@ -57,20 +58,20 @@ Sometimes a xenomancer's research requires that a specimen be captured and impri
   - "desc": "The githyanki makes three Staff attacks, three Telekinetic Bolt attacks,\
       \ or a combination thereof."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used\
       \ with two hands, plus 14 (4d6) psychic damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 60 ft., one target. *Hit:*\
       \ 20 (3d10 + 4) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\n**At will:**\
       \ [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [light](Інст\
       рументи%20ДМ/CLI/spells/light-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
-      \ (the hand is invisible)\n\n2/day each: [invisibility](Інструменти%20ДМ\
+      \ (the hand is invisible)\n\n**2/day each:** [invisibility](Інструменти%20ДМ\
       /CLI/spells/invisibility-xphb.md) (self only), [pass without trace](Інструме\
-      нти%20ДМ/CLI/spells/pass-without-trace-xphb.md) (self only)\n\n1/day each:\
+      нти%20ДМ/CLI/spells/pass-without-trace-xphb.md) (self only)\n\n**1/day each:**\
       \ [dominate monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md),\
       \ [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md), [plane shift](І\
       нструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [telekinesis](Інструменти%20Д\

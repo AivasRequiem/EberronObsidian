@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -28,7 +29,7 @@ Goblin minions enjoy participating in the disruptive schemes of clever leaders b
 *Wild Tricksters and Troublemakers*
 
 - **Habitat.** Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Goblins are Feywild embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better. Goblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.
 
@@ -62,12 +63,13 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d4 + 2) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +4, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 4 (1d4 + 2) Piercing damage."
     "name": "Dagger"
 "bonus_actions":
   - "desc": "The goblin takes the Disengage or Hide action."

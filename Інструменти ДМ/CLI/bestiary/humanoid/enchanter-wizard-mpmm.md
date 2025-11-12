@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -53,13 +54,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The enchanter makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 19 (3d10 + 3) psychic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 19 (3d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The enchanter casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 14):\n\nAt will: [friends](Інс\
+      \ the spellcasting ability (spell save DC 14):\n\n**At will:** [friends](Інс\
       трументи%20ДМ/CLI/spells/friends-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
-      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n2/day each:\
+      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n**2/day each:**\
       \ [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md), [mage armor](І\
       нструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [hold person](Інструменти%20Д\
       М/CLI/spells/hold-person-xphb.md), [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\

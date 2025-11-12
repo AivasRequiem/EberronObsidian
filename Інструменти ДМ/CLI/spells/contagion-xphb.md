@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -9,11 +10,13 @@ tags:
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/necromancy
 - ttrpg-cli/spell/subclass/circle-of-spores
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
 - Druid
 - Druid (Circle of Spores)
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Contagion
 ---
@@ -32,6 +35,6 @@ The target must repeat the saving throw at the end of each of its turns until it
 
 Whenever the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target receives an effect that would end the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition, the target must succeed on a Constitution saving throw, or the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition doesn't end on it.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB")
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 256. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

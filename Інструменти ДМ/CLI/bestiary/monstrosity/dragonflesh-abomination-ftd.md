@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -64,14 +65,14 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - "desc": "The abomination makes three attacks using Claw, Acidic Spit, or a combination\
       \ of them. It can replace one of the attacks with a Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 8 (1d8 + 4) slashing damage plus 5 (d10) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 8 (1d8 + 4) slashing damage plus 5 (1d10) poison damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) acid damage."
     "name": "Acidic Spit"
   - "desc": "The abomination belches forth a cloud of acidic gas in a 30-foot cone.\

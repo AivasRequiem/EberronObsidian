@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -9,9 +10,11 @@ tags:
 - ttrpg-cli/spell/level/8th-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/abjurer
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
+- Sorcerer (Divine Soul, Good)
 - Wizard
 - Wizard (Abjurer)
 aliases:
@@ -34,6 +37,6 @@ Ongoing spells, except those cast by an Artifact or a deity, are suppressed in t
 
 [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md) has no effect on the aura, and the auras created by different [Antimagic Field](Інструменти%20ДМ/CLI/spells/antimagic-field-xphb.md) spells don't nullify each other.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard (Abjurer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-abjurer-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB"); [Wizard (Abjurer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-abjurer-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 241. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

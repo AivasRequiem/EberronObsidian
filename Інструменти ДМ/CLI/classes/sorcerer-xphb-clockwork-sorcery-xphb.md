@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/sorcerer/clockwork
@@ -68,8 +69,6 @@ When you reach a Sorcerer level specified in the Clockwork Spells table, you the
 In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.
 
 **Manifestations of Order**
-
-`dice: [](sorcerer-xphb-clockwork-sorcery-xphb.md#^manifestations-of-order)`
 
 | dice: 1d6 | Manifestation |
 |-----------|---------------|

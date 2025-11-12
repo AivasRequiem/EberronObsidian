@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,8 +17,8 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase your Strength or Dexterity by 1, to a maximum of 20.
 
-**Climb Speed.** You gain a Climb Speed equal to your Speed.
+**Climb Speed.** You gain a [Climb Speed](Інструменти%20ДМ/CLI/rules/variant-rules/climb-speed-xphb.md) equal to your [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md).
 
 **Hop Up.** When you have the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, you can right yourself with only 5 feet of movement.
 
-**Jumping.** You can make a running Long or High Jump after moving only 5 feet.
+**Jumping.** You can make a running Long or [High Jump](Інструменти%20ДМ/CLI/rules/variant-rules/high-jump-xphb.md) after moving only 5 feet.

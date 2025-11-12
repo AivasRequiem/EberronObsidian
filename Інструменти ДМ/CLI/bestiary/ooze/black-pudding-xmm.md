@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -27,8 +28,6 @@ Black puddings are shapeless masses of predatory cells. Once a pudding detects o
 Various supernatural conditions might bring black puddings into being. Roll on or choose a result from the Black Pudding Sources table to inspire a pudding's origins.
 
 **Black Pudding Sources**
-
-`dice: [](black-pudding-xmm.md#^black-pudding-sources)`
 
 | dice: 1d6 | The Black Pudding Formed From... |
 |-----------|----------------------------------|
@@ -64,14 +63,15 @@ Various supernatural conditions might bring black puddings into being. Roll on o
   М/CLI/rules/conditions.md#Frightened), [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "4"
 "traits":
   - "desc": "The pudding can move through a space as narrow as 1 inch without expending\
       \ extra movement to do so."
     "name": "Amorphous"
-  - "desc": "A creature that hits the pudding with a melee attack roll takes 4 (d8)\
+  - "desc": "A creature that hits the pudding with a melee attack roll takes 4 (1d8)\
       \ Acid damage. Nonmagical ammunition is destroyed immediately after hitting\
       \ the pudding and dealing any damage. Any nonmagical weapon takes a cumulative\
       \ -1 penalty to attack rolls immediately after dealing damage to the pudding\
@@ -84,7 +84,7 @@ Various supernatural conditions might bring black puddings into being. Roll on o
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 17 (4d6 + 3) Acid damage.\
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 17 (4d6 + 3) Acid damage.\
       \ Nonmagical armor worn by the target takes a -1 penalty to the AC it offers.\
       \ The armor is destroyed if the penalty reduces its AC to 10. The penalty can\
       \ be removed by casting the [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md)\

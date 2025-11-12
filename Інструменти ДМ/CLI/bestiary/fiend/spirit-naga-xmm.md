@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -22,15 +23,13 @@ aliases:
 *Spiteful Serpentine Grudge Keeper*
 
 - **Habitat.** Planar (Lower Planes), Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Spirit nagas loathe the world and all creatures. Possessing perfect memories, these venomous, cobra-like creatures recall every slight committed against them during their immortal existences. In their dank, joyless lairs, they create vicious plots to avenge themselves against even petty offenses.
 
 Spirit nagas seek to claim what they believe they deserve. Their schemes often involve poisons, vile spells, cursed objects, or magical compulsions, eventually making them wellsprings of diabolical knowledge and evil inspiration. Other villains often seek out spirit nagas as advisers and allies. Roll on or choose a result from the Spirit Naga Grievances table to inspire what motivates a spirit naga's schemes.
 
 **Spirit Naga Grievances**
-
-`dice: [](spirit-naga-xmm.md#^spirit-naga-grievances)`
 
 | dice: 1d6 | The Spirit Naga Believes... |
 |-----------|-----------------------------|
@@ -67,11 +66,12 @@ Spirit nagas seek to claim what they believe they deserve. Their schemes often i
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Abyssal, Common"
 "cr": "8"
 "traits":
-  - "desc": "If it dies, the naga returns to life in d6 days and regains all its\
+  - "desc": "If it dies, the naga returns to life in 1d6 days and regains all its\
       \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \ Only a [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell can prevent\
       \ this trait from functioning."
@@ -79,17 +79,17 @@ Spirit nagas seek to claim what they believe they deserve. Their schemes often i
 "actions":
   - "desc": "The naga makes three attacks, using Bite or Necrotic Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 10 ft. *Hit:* 7 (1d6 + 4) Piercing\
       \ damage plus 14 (4d6) Poison damage."
     "name": "Bite"
-  - "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage."
+  - "desc": "*Ranged Attack Roll:* +6, range 60 ft. *Hit:* 21 (6d6) Necrotic damage."
     "name": "Necrotic Ray"
   - "desc": "The naga casts one of the following spells, requiring no Somatic or Material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 14):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ DC 14):\n\n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor Illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Water Breathing](Інстру\
-      менти%20ДМ/CLI/spells/water-breathing-xphb.md)\n\n2/day each: [Detect Thoughts](І\
+      менти%20ДМ/CLI/spells/water-breathing-xphb.md)\n\n**2/day each:** [Detect Thoughts](І\
       нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Dimension Door](Інстру\
       менти%20ДМ/CLI/spells/dimension-door-xphb.md), [Hold Person](Інструменти%20Д\
       М/CLI/spells/hold-person-xphb.md) (level 3 version), [Lightning Bolt](Інстру\

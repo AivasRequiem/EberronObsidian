@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -22,15 +23,13 @@ Skilled in both combat and leadership, warrior commanders overcome challenges th
 *Soldiers and Scrappers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Warriors are professionals who make a living through their prowess in battle. They might be skilled in using a variety of tactics or trained to take advantage of unusual battlefields. Warriors often work together, whether in armies or in teams with deliberate goals.
 
 Roll on or choose a result from the Warrior Roles table to inspire the creation of different sorts of warriors.
 
 **Warrior Roles**
-
-`dice: [](warrior-commander-xmm.md#^warrior-roles)`
 
 | dice: 1d10 | The Warrior Is... |
 |------------|-------------------|
@@ -86,17 +85,17 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
 "actions":
   - "desc": "The warrior makes three attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (4d6 + 5) Slashing\
-      \ damage. The warrior also creates one of the following effects:\n\n- Sap.\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 19 (4d6 + 5) Slashing\
+      \ damage. The warrior also creates one of the following effects:\n\n- **Sap.**\
       \ The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on its next attack roll before the start of the warrior's next turn.  \n-\
-      \ Maneuver. One ally who can see or hear the warrior can take a [Reaction](І\
+      \ **Maneuver.** One ally who can see or hear the warrior can take a [Reaction](І\
       нструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to move up to half\
       \ the ally's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \  "
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 18 (3d8 + 5) Piercing\
+  - "desc": "*Ranged Attack Roll:* +9, range 150/600 ft. *Hit:* 18 (3d8 + 5) Piercing\
       \ damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ decreases by 10 feet until the end of the target's next turn."
     "name": "Longbow"

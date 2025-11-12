@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-8
@@ -60,7 +61,8 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 30 ft., tremorsense 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., tremorsense\
+  \ 60 ft., passive Perception 14"
 "languages": "Kruthik"
 "cr": "1/8"
 "traits":
@@ -72,7 +74,7 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
       \ and leaves a 2½-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Stab"
 "source":

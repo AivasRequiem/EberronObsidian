@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -21,8 +22,6 @@ War priests worship deities of war, protection, and strategy. They plan tactics,
 War priests typically adorn themselves with a symbol of their faith. You can roll on the War Priest Holy Symbols table below, or choose one that fits your campaign.
 
 **War Priest Holy Symbols**
-
-`dice: [](war-priest-mpmm.md#^war-priest-holy-symbols)`
 
 | dice: d8 | Holy Symbol |
 |----------|-------------|
@@ -69,8 +68,8 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
 "actions":
   - "desc": "The war priest makes two Maul attacks, and it uses Holy Fire."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) bludgeoning damage  plus Hit: 10 (3d6) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) bludgeoning damage  plus *Hit:* 10 (3d6) radiant damage."
     "name": "Maul"
   - "desc": "The war priest targets one creature it can see within 60 feet of it.\
       \ The target must make a DC 15 Wisdom saving throw. On a failed save, the target\
@@ -80,10 +79,10 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
       нструменти%20ДМ/CLI/rules/conditions.md#Blinded)."
     "name": "Holy Fire"
   - "desc": "The war priest casts one of the following spells, using Wisdom as the\
-      \ spellcasting ability (spell save DC 15):\n\nAt will: [light](Інструмен\
+      \ spellcasting ability (spell save DC 15):\n\n**At will:** [light](Інструмен\
       ти%20ДМ/CLI/spells/light-xphb.md), [spare the dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md),\
-      \ [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day\
-      \ each: [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md), [command](І\
+      \ [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day\
+      \ each:** [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md), [command](І\
       нструменти%20ДМ/CLI/spells/command-xphb.md), [dispel magic](Інструменти%20ДМ\
       /CLI/spells/dispel-magic-xphb.md), [flame strike](Інструменти%20ДМ/CLI/spells/flame-strike-xphb.md),\
       \ [guardian of faith](Інструменти%20ДМ/CLI/spells/guardian-of-faith-xphb.md),\

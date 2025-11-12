@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/11
@@ -62,16 +63,17 @@ A radiant idol doesn't require food, drink, or sleep.
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 19"
 "languages": "all, telepathy 120 ft."
 "cr": "11"
 "traits":
   - "desc": "The radiant idol's spellcasting ability is Charisma (spell save DC 17).\
       \ The radiant idol can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ components:\n\n**At will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [disguise\
       \ self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [thaumaturgy](Ін\
-      струменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day each: [commune](І\
+      струменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day each:** [commune](І\
       нструменти%20ДМ/CLI/spells/commune-xphb.md), [dominate person](Інструменти%20Д\
       М/CLI/spells/dominate-person-xphb.md), [insect plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md),\
       \ [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [raise\
@@ -92,7 +94,7 @@ A radiant idol doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The radiant idol makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Flail"
   - "desc": "The radiant idol chooses a point on the ground it can see within 60 feet\

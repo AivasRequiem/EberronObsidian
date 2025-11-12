@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -28,7 +29,7 @@ You conjure nature spirits that flit around you in a 10-foot [Emanation](Інс�
 
 In addition, you can take the [Disengage](Інструменти%20ДМ/CLI/rules/actions.md#Disengage) action as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) for the spell's duration.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 4.
+**Using a Higher-Level Spell Slot.** The damage increases by `1d8` for each spell slot level above 4.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md)
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -33,8 +34,6 @@ The remains of [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md
 
 **Petrified Basilisk Victims**
 
-`dice: [](basilisk-xmm.md#^petrified-basilisk-victims)`
-
 | dice: 1d8 | A Basilisk Used Its Gaze to Petrify... |
 |-----------|----------------------------------------|
 | 1 | An adventurer with an ornate key hanging around their neck. |
@@ -64,22 +63,23 @@ The remains of [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md
   - !!int "8"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "3"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Piercing\
       \ damage plus 7 (2d6) Poison damage."
     "name": "Bite"
 "bonus_actions":
-  - "desc": "Constitution Saving Throw: DC 12, each creature in a 30-foot [Cone](І\
+  - "desc": "*Constitution Saving Throw:* DC 12, each creature in a 30-foot [Cone](І\
       нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). If the\
       \ basilisk sees its reflection within the [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md),\
-      \ the basilisk must make this save. 1st Failure: The target has the [Restrained](І\
+      \ the basilisk must make this save. *1St Failure:* The target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and repeats the\
       \ save at the end of its next turn if it is still [Restrained](Інструменти%20Д\
       М/CLI/rules/conditions.md#Restrained), ending the effect on itself on a success.\
-      \ 2nd Failure: The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
+      \ *2Nd Failure:* The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
       \ condition instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition."
     "name": "Petrifying Gaze (Recharge 4-6)"

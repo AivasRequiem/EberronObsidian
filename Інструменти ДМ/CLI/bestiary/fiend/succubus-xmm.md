@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -22,15 +23,13 @@ aliases:
 *Life-Draining Seducer*
 
 - **Habitat.** Planar (Lower Planes), Urban  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Succubi prey on mortals physically and exploit their waking desires. They relish corrupting virtuous souls and the pain an individual's downfall can cause. Once their targets are at their lowest, succubi slay their victims with their essence-draining kiss.
 
 Through fiendish rites, succubi can transform into incubi to manipulate their prey in dreams as well as the waking world. They can also change shape to torment their victims. These tempters can dominate Humanoids, but they usually do so to reinforce their manipulations or defend themselves rather than controlling others outright. Roll on or choose a result from the Succubus Temptations table to inspire how a succubus toys with its victims.
 
 **Succubus Temptations**
-
-`dice: [](succubus-xmm.md#^succubus-temptations)`
 
 | dice: 1d6 | The Succubus Manipulates Its Target By... |
 |-----------|-------------------------------------------|
@@ -71,7 +70,8 @@ Through fiendish rites, succubi can transform into incubi to manipulate their pr
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_resistances": "cold, fire, poison, psychic"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Abyssal, Common, Infernal; telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -83,16 +83,16 @@ Through fiendish rites, succubi can transform into incubi to manipulate their pr
   - "desc": "The succubus makes one Fiendish Touch attack and uses Charm or Draining\
       \ Kiss."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Psychic\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 16 (2d10 + 5) Psychic\
       \ damage."
     "name": "Fiendish Touch"
   - "desc": "The succubus casts [Dominate Person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md)\
       \ (level 8 version), requiring no spell components and using Charisma as the\
       \ spellcasting ability (spell save DC 15)."
     "name": "Charm"
-  - "desc": "Constitution Saving Throw: DC 15, one creature [Charmed](Інструмент\
-      и%20ДМ/CLI/rules/conditions.md#Charmed) by the succubus within 5 feet. Failure:\
-      \ 13 (3d8) Psychic damage. Success: Half damage. Failure or Success: The\
+  - "desc": "*Constitution Saving Throw:* DC 15, one creature [Charmed](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Charmed) by the succubus within 5 feet. *Failure:*\
+      \ 13 (3d8) Psychic damage. *Success:* Half damage. *Failure or Success:* The\
       \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the damage taken."
     "name": "Draining Kiss"

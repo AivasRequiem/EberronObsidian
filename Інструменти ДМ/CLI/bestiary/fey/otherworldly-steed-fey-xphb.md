@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -36,8 +37,8 @@ aliases:
       \ same number of Hit Points if you're within 5 feet of it."
     "name": "Life Bond"
 "actions":
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: d8 + the spell's level Psychic damage."
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d8 + the spell's level Psychic damage."
     "name": "Otherworldly Slam"
 "bonus_actions":
   - "desc": "The steed teleports, along with its rider, to an unoccupied space of\

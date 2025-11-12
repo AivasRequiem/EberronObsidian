@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/7
@@ -71,7 +72,8 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Grappled), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "7"
 "traits":
@@ -84,7 +86,7 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
 "actions":
   - "desc": "The living spell makes two Magical Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 10 ft., one target. Hit: 22\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 22\
       \ (5d6 + 5) poison damage."
     "name": "Magical Strike"
   - "desc": "The living spell creates a 40-foot-diameter sphere of fog within 60 feet\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 215* 
 
 **Lords of Dust NPCs**
-
-`dice: [](lords-of-dust-npcs-erlw.md#^lords-of-dust-npcs)`
 
 | dice: d6 | NPC |
 |----------|-----|

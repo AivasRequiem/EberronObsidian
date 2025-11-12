@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -30,8 +31,6 @@ Most hydras have five heads, but some mature or battle-tested hydras have more. 
 While many hydras claim their own territories, wicked deities might use them to guard treasures or magical sites. Roll on or choose a result from the Hydra Lairs table to inspire why a hydra lurks where it does.
 
 **Hydra Lairs**
-
-`dice: [](hydra-xmm.md#^hydra-lairs)`
 
 | dice: 1d4 | The Hydra Lurks Where It Does To... |
 |-----------|-------------------------------------|
@@ -66,7 +65,8 @@ While many hydras claim their own territories, wicked deities might use them to 
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інс\
   трументи%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": ""
 "cr": "8"
 "traits":
@@ -87,7 +87,7 @@ While many hydras claim their own territories, wicked deities might use them to 
 "actions":
   - "desc": "The hydra makes as many Bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 10 (1d10 + 5) Piercing\
       \ damage."
     "name": "Bite"
 "source":

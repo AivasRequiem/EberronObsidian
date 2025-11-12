@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -50,7 +51,8 @@ Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Quee
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_resistances": "poison"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 17"
 "languages": "Elvish, Undercommon, can speak with spiders"
 "cr": "13"
 "traits":
@@ -71,7 +73,7 @@ Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Quee
   - "desc": "The drow makes three attacks, using Bite, Poisonous Touch, Web, or a\
       \ combination of them. One attack can be replaced by a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 31 (7d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -80,10 +82,10 @@ Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Quee
       и%20ДМ/CLI/rules/conditions.md#Paralyzed) while [poisoned](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Poisoned) in this way."
     "name": "Bite (Spider Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 35\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 35\
       \ (10d6) poison damage."
     "name": "Poisonous Touch (Humanoid Form Only)"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 30/60 ft., one target. *Hit:*\
       \ The target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 15 Strength check, bursting the webbing on a success.\
@@ -92,8 +94,8 @@ Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Quee
     "name": "Web (Spider Form Only; (Recharge 5-6))"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      At will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n1/day each:\
+      **At will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**1/day each:**\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [etherealness](Інструменти\
       %20ДМ/CLI/spells/etherealness-xphb.md), [faerie fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md),\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -65,7 +66,9 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., truesight 30 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ [truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 30 ft., passive Perception\
+  \ 12"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
@@ -82,7 +85,7 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - "desc": "The duergar makes two Mind-Poison Dagger attacks. It can replace one\
       \ attack with a use of Mind Mastery."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 10 (3d6) psychic damage, or 1 piercing\
       \ damage plus 10 (3d6) psychic damage while under the effect of Reduce."
     "name": "Mind-Poison Dagger"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -79,7 +80,7 @@ While attuned to both the hand and eye, you gain the following additional benefi
 - **Danger Sense.** You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
 - **Necrotic Reduction.** As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can target one creature you can see within 5 feet of yourself. The target makes a DC 18 Constitution saving throw, taking `7d6` Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) by this damage is transformed into [green slime](Інструменти%20ДМ/CLI/traps-hazards/green-slime-xdmg.md) (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime.  
 - **Poison Immunity.** You have [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to Poison damage and the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition.  
-- **Regeneration.** If you start your turn with at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you regain `d10` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).  
+- **Regeneration.** If you start your turn with at least 1 [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), you regain `1d10` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).  
 - **Wish.** You can cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md). Once used, this property can't be used again until 30 days have passed.  
 
 ## Destroying the Eye and Hand

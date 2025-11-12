@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/wizard
 - ttrpg-cli/compendium/src/5e/xphb
@@ -50,7 +51,7 @@ aliases:
 ## Starting Wizard
 
 - **Saving Throw Proficiencies**: Intelligence, Wisdom
-- **Skill Proficiencies**: *Choose 2:* [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), [History](Інструменти%20ДМ/CLI/rules/skills.md#History), [Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight), [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), [Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine), or [Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)
+- **Skill Proficiencies**: *Choose 2:* [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), [History](Інструменти%20ДМ/CLI/rules/skills.md#History), [Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight), [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), [Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine), [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature), or [Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)
 - **Weapon Proficiencies**: Simple weapons
 
 **Starting Equipment:** *Choose A or B:* (A) 2 [Daggers](Інструменти%20ДМ/CLI/items/dagger-xphb.md), [Arcane Focus](Інструменти%20ДМ/CLI/items/arcane-focus-xphb.md) ([Quarterstaff](Інструменти%20ДМ/CLI/items/quarterstaff-xphb.md)), [Robe](Інструменти%20ДМ/CLI/items/robe-xphb.md), Spellbook, [Scholar's Pack](Інструменти%20ДМ/CLI/items/scholars-pack-xphb.md), and 5 GP; or (B) 55 GP

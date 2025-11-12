@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/15
@@ -43,19 +44,15 @@ Horrors share some common body types but vary wildly in other characteristics. A
 
 **Primary Features**
 
-`dice: [](skittering-horror-ggr.md#^primary-features)`
-
 | dice: d4 | Feature |
 |----------|---------|
 | 1 | Avoidance. If the horror is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. |
 | 2 | Damage Resistances. The horror has resistance to necrotic and psychic damage. |
 | 3 | Innate Spellcasting. The horror's innate spellcasting ability is Charisma (spell save DC 13 for flying horror, DC 16 for shadow horror, and DC 17 for skittering horror). It can innately cast the following spells, requiring no material components: 3/day: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md) 1/day each: [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) (shadow horror and skittering horror only), [phantasmal killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md) (skittering horror only) |
-| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
+| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`1d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
 ^primary-features
 
 **Secondary Features**
-
-`dice: [](skittering-horror-ggr.md#^secondary-features)`
 
 | dice: d4 | Feature |
 |----------|---------|
@@ -90,7 +87,8 @@ Horrors share some common body types but vary wildly in other characteristics. A
     "desc": "+8"
 "damage_vulnerabilities": "radiant"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": ""
 "cr": "15"
 "traits":
@@ -105,10 +103,10 @@ Horrors share some common body types but vary wildly in other characteristics. A
   - "desc": "The horror can use its Maddening Presence and make three attacks: one\
       \ with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (4d8 + 6) slashing damage."
     "name": "Claws"
   - "desc": "The horror targets one creature it can see within 30 feet of it. If the\

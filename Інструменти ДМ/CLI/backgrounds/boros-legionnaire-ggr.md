@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -48,8 +49,6 @@ The Boros Legion is a zealous army, full of righteous energy tempered with milit
 
 **Personality Traits**
 
-`dice: [](boros-legionnaire-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I approach every task with the same high degree of military precision. |
@@ -64,8 +63,6 @@ The Boros Legion is a zealous army, full of righteous energy tempered with milit
 
 **Ideals**
 
-`dice: [](boros-legionnaire-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -78,8 +75,6 @@ The Boros Legion is a zealous army, full of righteous energy tempered with milit
 
 **Bonds**
 
-`dice: [](boros-legionnaire-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I would lay down my life for Aurelia and the angels. |
@@ -91,8 +86,6 @@ The Boros Legion is a zealous army, full of righteous energy tempered with milit
 ^bonds
 
 **Flaws**
-
-`dice: [](boros-legionnaire-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -112,8 +105,6 @@ Roll twice on the Boros Contacts table (for an ally and a rival) and once on the
 
 **Boros Contacts**
 
-`dice: [](boros-legionnaire-ggr.md#^boros-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | A former comrade in arms was promoted into the prestigious Sunhome Guard. |
@@ -127,8 +118,6 @@ Roll twice on the Boros Contacts table (for an ally and a rival) and once on the
 ^boros-contacts
 
 **Non-Boros Contacts**
-
-`dice: [](boros-legionnaire-ggr.md#^non-boros-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

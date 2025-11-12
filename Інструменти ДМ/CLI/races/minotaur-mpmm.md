@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/minotaur
@@ -19,7 +20,7 @@ aliases:
 
 ### Horns
 
-You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Goring Rush
 

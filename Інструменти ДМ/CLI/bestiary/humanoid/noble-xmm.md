@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -54,7 +55,7 @@ Nobles encompass a variety of people with social influence. They might be rulers
 "languages": "Common plus two other languages"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 5 (1d8 + 1) Piercing\
       \ damage."
     "name": "Rapier"
 "reactions":

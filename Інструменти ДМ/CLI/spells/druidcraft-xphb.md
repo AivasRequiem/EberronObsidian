@@ -1,22 +1,26 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/background/simic-scientist
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/druidic-warrior
-- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
-- ttrpg-cli/spell/race/elf
+- ttrpg-cli/spell/race/elf/wood-elf
 - ttrpg-cli/spell/race/fairy
 - ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subclass/arcane-archer
 - ttrpg-cli/spell/subclass/college-of-lore
 classes:
 - Bard (College of Lore)
 - Druid
+- Fighter (Arcane Archer)
 aliases:
 - Druidcraft
 ---
@@ -49,6 +53,6 @@ You light or snuff out a candle, a torch, or a campfire.
 
 ## Summary
 
-**Classes**: [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Fighter (Arcane Archer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-arcane-archer-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 266. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

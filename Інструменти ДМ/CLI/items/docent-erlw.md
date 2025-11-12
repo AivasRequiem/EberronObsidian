@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
@@ -27,7 +28,7 @@ Whenever you end your turn with 0 hit points, the docent can make a Wisdom ([Med
 
 A docent has the following properties:
 
-**Languages**. The docent knows Common, Giant, and `d4` additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.
+**Languages**. The docent knows Common, Giant, and `1d4` additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.
 
 **Skills**. The docent has a +7 bonus to one of the following skills (roll a `d4`): (1) [Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana), (2) [History](Інструменти%20ДМ/CLI/rules/skills.md#History), (3) [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), or (4) [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature).
 

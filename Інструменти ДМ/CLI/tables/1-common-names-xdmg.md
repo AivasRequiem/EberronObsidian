@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 84* 
 
 **1: Common Names**
-
-`dice: [](1-common-names-xdmg.md#^1-common-names)`
 
 | dice: 1d12 | Common Given Name | Common Surname |
 |------------|-------------------|----------------|

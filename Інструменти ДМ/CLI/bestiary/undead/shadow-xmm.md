@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -32,8 +33,6 @@ Shadows lurk in dark, lonely places, typically sites that were meaningful to the
 Shadows might resemble the silhouettes of who they were in life or take on more menacing forms. Roll on or choose a result from the Shadow Shapes table to inspire a shadow's form and haunting.
 
 **Shadow Shapes**
-
-`dice: [](shadow-xmm.md#^shadow-shapes)`
 
 | dice: 1d6 | The Shadow Appears As... |
 |-----------|--------------------------|
@@ -75,7 +74,8 @@ Shadows might resemble the silhouettes of who they were in life or take on more 
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -86,10 +86,10 @@ Shadows might resemble the silhouettes of who they were in life or take on more 
       \ on [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic\
-      \ damage, and the target's Strength score decreases by d4. The target dies\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Necrotic\
+      \ damage, and the target's Strength score decreases by 1d4. The target dies\
       \ if this reduces that score to 0. If a Humanoid is slain by this attack, a\
-      \ Shadow rises from the corpse d4 hours later."
+      \ Shadow rises from the corpse 1d4 hours later."
     "name": "Draining Swipe"
 "bonus_actions":
   - "desc": "While in [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md)\

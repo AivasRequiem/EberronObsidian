@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -23,7 +24,7 @@ Young blue dragons seek to establish themselves as forces to be feared. Many cla
 *Dragons of Tyranny and Tempests*
 
 - **Habitat.** Desert  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Arrogant and imperious, blue dragons are chromatic dragons that crave control and collect followers like other dragons hoard treasure. They seek to transform their territories into empires, domains to be feared by nations.
 
@@ -62,18 +63,19 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 19"
 "languages": "Common, Draconic"
 "cr": "9"
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 5 (d10) Lightning damage."
+  - "desc": "*Melee Attack Roll:* +9, reach 10 ft. *Hit:* 12 (2d6 + 5) Slashing\
+      \ damage plus 5 (1d10) Lightning damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 16, each creature in a 60-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 55 (10d10) Lightning damage. Success: Half damage."
+      \ *Failure:* 55 (10d10) Lightning damage. *Success:* Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
 "source":
   - "XMM"

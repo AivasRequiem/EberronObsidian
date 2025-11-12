@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -30,8 +31,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 **Clockwork Enhancements**
 
-`dice: [](clockwork-stone-defender-mpmm.md#^clockwork-enhancements)`
-
 | dice: d10 | Enhancement |
 |-----------|-------------|
 | 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-stone-defender-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -86,7 +83,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "4"
 "traits":
@@ -96,7 +94,7 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it\
       \ is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Slam"

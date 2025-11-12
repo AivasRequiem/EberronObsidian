@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/erlw
@@ -42,8 +43,6 @@ You always gather information for your house, but when a baron give you a specif
 
 **House Agent Role**
 
-`dice: [](house-agent-erlw.md#^house-agent-role)`
-
 | dice: d8 | Role |
 |----------|------|
 | 1 | Acquisition |
@@ -66,8 +65,6 @@ House agents are diverse. Consider the house you serve and the work you do when 
 
 **Personality Traits**
 
-`dice: [](house-agent-erlw.md#^personality-traits)`
-
 | dice: d6 | Personality Trait |
 |----------|-------------------|
 | 1 | I'm always looking to improve efficiency. |
@@ -79,8 +76,6 @@ House agents are diverse. Consider the house you serve and the work you do when 
 ^personality-traits
 
 **Ideals**
-
-`dice: [](house-agent-erlw.md#^ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -94,8 +89,6 @@ House agents are diverse. Consider the house you serve and the work you do when 
 
 **Bonds**
 
-`dice: [](house-agent-erlw.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | My house is my family. I would do anything for it. |
@@ -107,8 +100,6 @@ House agents are diverse. Consider the house you serve and the work you do when 
 ^bonds
 
 **Flaws**
-
-`dice: [](house-agent-erlw.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

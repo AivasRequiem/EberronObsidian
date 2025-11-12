@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -49,13 +50,14 @@ Not all gorgons are so ambitious; some prefer to simply stalk the endless shadow
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common, Elvish"
 "cr": "6"
 "traits":
   - "desc": "The medusa's innate spellcasting ability is Intelligence (spell save\
       \ DC 14). The medusa can innately cast the following spells, requiring no material\
-      \ components:\n\n1/day each: [expeditious retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md),\
+      \ components:\n\n**1/day each:** [expeditious retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md),\
       \ [fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [misty step](І\
       нструменти%20ДМ/CLI/spells/misty-step-xphb.md)"
     "name": "Innate Spellcasting"
@@ -71,7 +73,7 @@ Not all gorgons are so ambitious; some prefer to simply stalk the endless shadow
   - "desc": "The medusa makes two claw attacks. It can also use Petrifying Gaze before\
       \ or after making these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The medusa fixes its gaze on one creature within 60 feet of it that it\

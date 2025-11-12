@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/22
@@ -50,7 +51,8 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "22"
 "traits":
@@ -62,14 +64,14 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
 "actions":
   - "desc": "The zaratan makes one Bite attack and one Stomp attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 28 (4d8 + 10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 26 (3d10 + 10) thunder damage."
     "name": "Stomp"
-  - "desc": "Ranged Weapon Attack: +17 to hit, range 120 ft./240 ft., one target.\
-      \ Hit: 31 (6d8 + 10) force damage."
+  - "desc": "*Ranged Weapon Attack:* +17 to hit, range 120 ft./240 ft., one target.\
+      \ *Hit:* 31 (6d8 + 10) force damage."
     "name": "Spit Rock"
   - "desc": "The zaratan exhales rocky debris in a 90-foot cube. Each creature in\
       \ that area must make a DC 25 Dexterity saving throw. A creature takes 33 (6d10)\
@@ -98,6 +100,9 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
       \ On a successful save, the creature takes half as much damage and doesn't fall\
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) or become trapped."
     "name": "Earth-Shaking Movement"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the zaratan can expend a use to take one of the following actions. The zaratan\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The zaratan makes one Stomp attack."
     "name": "Stomp"

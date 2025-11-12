@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/4
@@ -41,14 +42,15 @@ A gaj's head is a spongy globe about 2 feet in diameter, with three feathery ant
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": "understands all languages but can't speak"
 "cr": "4"
 "actions":
   - "desc": "The gaj makes one Mandibles attack and uses Mind-Probing Antennae or\
       \ Paralyze (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (2d6 + 3) slashing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 11). Until the grapple ends,\
       \ the target takes 10 (2d6 + 3) slashing damage at the start of each of the\

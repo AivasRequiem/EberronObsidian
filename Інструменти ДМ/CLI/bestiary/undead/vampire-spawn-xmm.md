@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -30,8 +31,6 @@ Vampires disguise their accursed, immortal natures, passing as mortals to feed o
 Undead vampires lie dormant during the day, retreating to resting places hidden from foes and the sun's searing rays. Roll on or choose a result from the Vampire Resting Places table to inspire a vampire's grim sanctuary.
 
 **Vampire Resting Places**
-
-`dice: [](vampire-spawn-xmm.md#^vampire-resting-places)`
 
 | dice: 1d6 | The Vampire's Resting Place Is... |
 |-----------|-----------------------------------|
@@ -78,19 +77,20 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common plus one other language"
 "cr": "5"
 "traits":
   - "desc": "The vampire can climb difficult surfaces, including along ceilings, without\
       \ needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "The vampire has these weaknesses:\n\n- Forbiddance. The vampire can't\
-      \ enter a residence without an invitation from an occupant.  \n- Running Water.\
+  - "desc": "The vampire has these weaknesses:\n\n- **Forbiddance.** The vampire can't\
+      \ enter a residence without an invitation from an occupant.  \n- **Running Water.**\
       \ The vampire takes 20 Acid damage if it ends its turn in running water.  \n\
-      - Stake to the Heart. The vampire is destroyed if a weapon that deals Piercing\
+      - **Stake to the Heart.** The vampire is destroyed if a weapon that deals Piercing\
       \ damage is driven into the vampire's heart while the vampire has the [Incapacitated](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition.  \n- Sunlight.\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition.  \n- **Sunlight.**\
       \ The vampire takes 20 Radiant damage if it starts its turn in sunlight. While\
       \ in sunlight, it has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls and ability checks.  "
@@ -98,16 +98,16 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The vampire makes two Claw attacks and uses Bite."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (2d4 + 3) Slashing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two claws."
     "name": "Claw"
-  - "desc": "Constitution Saving Throw: DC 14, one creature within 5 feet that is\
+  - "desc": "*Constitution Saving Throw:* DC 14, one creature within 5 feet that is\
       \ willing or that has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition.\
-      \ Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage.\
+      \ *Failure:* 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage.\
       \ The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the Necrotic damage taken, and the\
       \ vampire regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\

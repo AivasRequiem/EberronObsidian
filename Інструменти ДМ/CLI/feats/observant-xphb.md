@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,6 +17,6 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase your Intelligence or Wisdom by 1, to a maximum of 20.
 
-**Keen Observer.** Choose one of the following skills: [Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight), [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), or [Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception). If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.
+**Keen Observer.** Choose one of the following skills: [Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight), [Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation), or [Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception). If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain [Expertise](Інструменти%20ДМ/CLI/rules/variant-rules/expertise-xphb.md) in it.
 
-**Quick Search.** You can take the [Search](Інструменти%20ДМ/CLI/rules/actions.md#Search) action as a Bonus Action.
+**Quick Search.** You can take the [Search](Інструменти%20ДМ/CLI/rules/actions.md#Search) action as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md).

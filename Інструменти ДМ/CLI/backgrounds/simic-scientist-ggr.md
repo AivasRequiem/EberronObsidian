@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -22,8 +23,6 @@ Imagine a perfect world: one in which nature and civilization exist in harmony, 
 As a Simic researcher, you are part of a clade—a diverse group of individuals combining disparate talents in pursuit of a common goal—or a researcher on a specialized, short-term project focused on addressing an immediate need. You can roll a `d6` or choose from the options in the Research Options table to determine your area of research.
 
 **Research Options**
-
-`dice: [](simic-scientist-ggr.md#^research-options)`
 
 | dice: d6 | Clade/Project |
 |----------|---------------|
@@ -67,8 +66,6 @@ The bizarre science of the Simic Combine attracts a certain type of personality 
 
 **Personality Traits**
 
-`dice: [](simic-scientist-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I can't wait to see what I become next! |
@@ -83,8 +80,6 @@ The bizarre science of the Simic Combine attracts a certain type of personality 
 
 **Ideals**
 
-`dice: [](simic-scientist-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -97,8 +92,6 @@ The bizarre science of the Simic Combine attracts a certain type of personality 
 
 **Bonds**
 
-`dice: [](simic-scientist-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I helped create a krasis that I love like a pet and would carry with me everywhere... except it's the size of a building, and it might eat me. |
@@ -110,8 +103,6 @@ The bizarre science of the Simic Combine attracts a certain type of personality 
 ^bonds
 
 **Flaws**
-
-`dice: [](simic-scientist-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -131,8 +122,6 @@ Roll twice on the Simic Contacts table (for an ally and a rival) and once on the
 
 **Simic Contacts**
 
-`dice: [](simic-scientist-ggr.md#^simic-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | My research builds on my parents' work and takes it in interesting new directions. |
@@ -146,8 +135,6 @@ Roll twice on the Simic Contacts table (for an ally and a rival) and once on the
 ^simic-contacts
 
 **Non-Simic Contacts**
-
-`dice: [](simic-scientist-ggr.md#^non-simic-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

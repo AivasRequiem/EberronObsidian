@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -50,7 +51,8 @@ Hell hounds have greater cunning than normal canines. They're skilled trackers a
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "understands Infernal but can't speak"
 "cr": "3"
 "traits":
@@ -62,12 +64,12 @@ Hell hounds have greater cunning than normal canines. They're skilled trackers a
 "actions":
   - "desc": "The hound makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Bite"
-  - "desc": "Dexterity Saving Throw: DC 12, each creature in a 15-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 17 (5d6) Fire damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 12, each creature in a 15-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 17 (5d6) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

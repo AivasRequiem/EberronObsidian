@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -49,6 +50,6 @@ The Book of Exalted Deeds has the following random properties:
 
 ## Destroying the Book
 
-The Book of Exalted Deeds can't be destroyed. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `d100` years.
+The Book of Exalted Deeds can't be destroyed. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `1d100` years.
 
 *Source: Dungeon Master's Guide (2024) p. 237*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -50,7 +51,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The plesiosaurus can hold its breath for 1 hour."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 11 (2d6 + 4) Piercing\
       \ damage."
     "name": "Bite"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Crystal Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the dragon can take one of the 
 - **Ice Passage.** The dragon can open a passage through a wall of ice or snow that is up to 5 feet thick, creating an opening up to 30 feet wide and high.  
 - **Starlight's Gleam.** The dragon chooses a point it can see in the lair. Gleaming starlight radiates from that point to fill a 10-foot-radius sphere with dim light. Each creature other than the dragon in that area when the light appears must succeed on a DC 15 Dexterity saving throw or take 13 (`2d12`) radiant damage and be outlined in the glow. [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) rolls made against an outlined creature have advantage, and the creature can't hide or benefit from being [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible). The starlight and the glow around any creature fades on initiative count 20 on the next round.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 The region surrounding a legendary crystal dragon's lair is altered by the dragon's magic, creating one or more of the following effects:
@@ -29,4 +30,4 @@ The region surrounding a legendary crystal dragon's lair is altered by the drago
 - **Positive Energy.** Any creature that finishes a long rest within 6 miles of the lair regains two additional spent Hit Dice.  
 - **Thriving Wildlife.** Animal populations flourish within 6 miles of the lair. Ability checks made to forage for food by hunting, fishing, or trapping in that area are made with advantage.  
 
-If the dragon dies, the animal population near the lair returns to normal levels over the course of `d10` days. The increased Hit Die recovery ends immediately. The existing abundance of quartz crystals remains, but new crystals form at a normal rate.
+If the dragon dies, the animal population near the lair returns to normal levels over the course of `1d10` days. The increased Hit Die recovery ends immediately. The existing abundance of quartz crystals remains, but new crystals form at a normal rate.

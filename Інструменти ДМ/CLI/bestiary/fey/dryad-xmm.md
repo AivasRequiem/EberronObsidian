@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -25,8 +26,6 @@ aliases:
 Guardians of the woodlands, dryads magically flit from tree to tree and from root to bough, harrying trespassers with tangling vines and thorns. Most of these elusive beings have a special connection with one plant or a natural sanctuary that they protect. Some also share physical similarities with the plants they're most connected to. Dryads might sicken or die if their plant or sanctuary is destroyed, recovering only if it is healed or magically replaced. Roll on or choose an option from the Dryad Sanctuaries table to inspire a dryad's bond.
 
 **Dryad Sanctuaries**
-
-`dice: [](dryad-xmm.md#^dryad-sanctuaries)`
 
 | dice: 1d6 | The Dryad Dwells in and Protects... |
 |-----------|-------------------------------------|
@@ -60,7 +59,8 @@ Guardians of the woodlands, dryads magically flit from tree to tree and from roo
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Elvish, Sylvan"
 "cr": "1"
 "traits":
@@ -74,18 +74,18 @@ Guardians of the woodlands, dryads magically flit from tree to tree and from roo
   - "desc": "The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting\
       \ to cast [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 8 (1d8 + 4) Slashing\
       \ damage."
     "name": "Vine Lash"
-  - "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing\
+  - "desc": "*Ranged Attack Roll:* +6, range 60 ft. *Hit:* 7 (1d6 + 4) Piercing\
       \ damage."
     "name": "Thorn Burst"
   - "desc": "The dryad casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt\
-      \ will: [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\n**At\
+      \ will:** [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md),\
       \ [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md) (lasts\
       \ 24 hours; ends early if the dryad casts the spell again), [Druidcraft](Інс\
-      трументи%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n1/day each: [Entangle](І\
+      трументи%20ДМ/CLI/spells/druidcraft-xphb.md)\n\n**1/day each:** [Entangle](І\
       нструменти%20ДМ/CLI/spells/entangle-xphb.md), [Pass without Trace](Інструмен\
       ти%20ДМ/CLI/spells/pass-without-trace-xphb.md)"
     "name": "Spellcasting"

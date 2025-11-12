@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/item/gear/
@@ -16,8 +17,6 @@ aliases:
 When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
 
 **Trinkets**
-
-`dice: [](trinket-xphb.md#^trinkets)`
 
 | dice: 1d100 | Trinket |
 |-------------|---------|

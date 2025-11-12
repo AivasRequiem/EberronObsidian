@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/12
@@ -21,7 +22,7 @@ aliases:
 *Yugoloth of Magical Manipulation*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 While all yugoloths are fiendish manifestations of wickedness and greed, arcanaloths bend their considerable intellects toward hoarding and exploiting secrets. They then deploy these secrets to ensnare countless victims and lesser villains, beguiling foes with false promises and powerful magic.
 
@@ -63,7 +64,8 @@ Arcanaloths possess considerable spellcasting prowess and frequently disguise th
 "damage_immunities": "acid, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 17"
 "languages": "all; telepathy 120 ft."
 "cr": "12"
 "traits":
@@ -88,12 +90,12 @@ Arcanaloths possess considerable spellcasting prowess and frequently disguise th
   - "desc": "The arcanaloth makes three Fiendish Burst attacks. It can replace one\
       \ attack with a Banishing Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9, reach 5 ft. or range 120 ft. *Hit:*\
       \ 31 (4d12 + 5) Necrotic damage."
     "name": "Fiendish Burst"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 10 (2d4 + 5) Slashing\
       \ damage plus 19 (3d12) Psychic damage. If the target is a creature, it is\
-      \ subjected to the following effect. Charisma Saving Throw: DC 17. Failure:\
+      \ subjected to the following effect. *Charisma Saving Throw:* DC 17. *Failure:*\
       \ The target is trapped in a demiplane inside the Soul Tome. While trapped there,\
       \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition. At the end of each of its turns, the target repeats the save, escaping\
@@ -105,11 +107,11 @@ Arcanaloths possess considerable spellcasting prowess and frequently disguise th
     "name": "Banishing Claw (Requires Soul Tome)"
   - "desc": "The arcanaloth casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 17):\n\nAt will: [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
+      \ DC 17):\n\n**At will:** [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
       \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Identify](І\
       нструменти%20ДМ/CLI/spells/identify-xphb.md), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1/day each: [Contact Other Plane](Інструменти%20ДМ/CLI/spells/contact-other-plane-xphb.md),\
+      \n**1/day each:** [Contact Other Plane](Інструменти%20ДМ/CLI/spells/contact-other-plane-xphb.md),\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Dimension\
       \ Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [Mind Blank](Ін\
       струменти%20ДМ/CLI/spells/mind-blank-xphb.md)"

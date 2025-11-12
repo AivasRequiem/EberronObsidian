@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/cleric
 - ttrpg-cli/compendium/src/5e/xphb
@@ -128,7 +129,7 @@ If a Channel Divinity effect requires a saving throw, the DC equals the spell sa
 
 ### Divine Spark (Level 2)
 
-As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you point your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll `d8` and add your Wisdom modifier. You either restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
+As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you point your [Holy Symbol](Інструменти%20ДМ/CLI/items/holy-symbol-xphb.md) at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll `1d8` and add your Wisdom modifier. You either restore [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
 
 You roll an additional `d8` when you reach Cleric levels 7 (`2d8`), 13 (`3d8`), and 18 (`4d8`).
 
@@ -146,7 +147,7 @@ You gain the [Ability Score Improvement](Інструменти%20ДМ/CLI/feats
 
 ### Sear Undead (Level 5)
 
-Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of `d8`) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
+Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of `1d8`) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
 
 ### Subclass Feature (Level 6)
 
@@ -158,7 +159,7 @@ Divine power infuses you in battle. You gain one of the following options of you
 
 ### Divine Strike (Level 7)
 
-Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra `d8` Necrotic or Radiant damage (your choice).
+Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra `1d8` Necrotic or Radiant damage (your choice).
 
 ### Potent Spellcasting (Level 7)
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/school/abjuration
 aliases:
@@ -15,8 +16,10 @@ aliases:
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE")
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB")
 - [Armor of Agathys](Інструменти%20ДМ/CLI/spells/armor-of-agathys-xphb.md "XPHB")
+- [Ceremony](Інструменти%20ДМ/CLI/spells/ceremony-xge.md "XGE")
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
 - [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md "XPHB")
 - [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md "XPHB")
@@ -24,6 +27,7 @@ aliases:
 - [Sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md "XPHB")
 - [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md "XPHB")
 - [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md "XPHB")
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE")
 
 ## 2nd Level
 
@@ -73,11 +77,13 @@ aliases:
 ## 6th Level
 
 - [Contingency](Інструменти%20ДМ/CLI/spells/contingency-xphb.md "XPHB")
+- [Druid Grove](Інструменти%20ДМ/CLI/spells/druid-grove-xge.md "XGE")
 - [Fizban's Platinum Shield](Інструменти%20ДМ/CLI/spells/fizbans-platinum-shield-ftd.md "FTD")
 - [Forbiddance](Інструменти%20ДМ/CLI/spells/forbiddance-xphb.md "XPHB")
 - [Globe of Invulnerability](Інструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md "XPHB")
 - [Guards and Wards](Інструменти%20ДМ/CLI/spells/guards-and-wards-xphb.md "XPHB")
 - [Heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md "XPHB")
+- [Primordial Ward](Інструменти%20ДМ/CLI/spells/primordial-ward-xge.md "XGE")
 
 ## 7th Level
 
@@ -92,5 +98,6 @@ aliases:
 ## 9th Level
 
 - [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md "XPHB")
+- [Invulnerability](Інструменти%20ДМ/CLI/spells/invulnerability-xge.md "XGE")
 - [Mass Heal](Інструменти%20ДМ/CLI/spells/mass-heal-xphb.md "XPHB")
 - [Prismatic Wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md "XPHB")

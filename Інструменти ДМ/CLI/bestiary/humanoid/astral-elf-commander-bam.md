@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/7
@@ -65,7 +66,8 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
     "desc": "+7"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Celestial, Common, Elvish"
 "cr": "7"
 "traits":
@@ -78,15 +80,15 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "actions":
   - "desc": "The elf makes two Longsword or Longbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with\
       \ two hands, plus 14 (4d6) radiant damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage plus 14 (4d6) radiant damage."
     "name": "Longbow"
   - "desc": "The elf casts the following spell, using Wisdom as the spellcasting ability:\n\
-      \n2/day: [teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
+      \n**2/day:** [teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
     "name": "Spellcasting"
 "source":
   - "BAM"

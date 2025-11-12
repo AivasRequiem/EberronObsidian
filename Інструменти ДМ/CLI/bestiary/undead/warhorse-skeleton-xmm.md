@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -30,8 +31,6 @@ Warhorse skeletons are obedient, supernatural steeds bearing the rotted remains 
 Skeletons rise at the summons of necromancers and foul spirits. Whether they're the remains of the ancient dead or fresh bones bound to morbid ambitions, they commit deathless work for whatever forces reanimated them, often serving as guardians, soldiers, or laborers. In rare cases, skeletons are reanimated but given no particular direction. Roll on or choose a result from the Skeleton Pantomimes table to inspire how undirected skeletons behave.
 
 **Skeleton Pantomimes**
-
-`dice: [](warhorse-skeleton-xmm.md#^skeleton-pantomimes)`
 
 | dice: 1d6 | Left to Its Own Devices, the Skeleton... |
 |-----------|------------------------------------------|
@@ -64,11 +63,12 @@ Skeletons rise at the summons of necromancers and foul spirits. Whether they're 
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 7 (1d6 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the skeleton moved\
       \ 20+ feet straight toward it immediately before the hit, the target has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."

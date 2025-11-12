@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -22,7 +23,7 @@ Bullywug bog sages channel the magic of the swamp to sicken foes and speak with 
 *Amphibious Appreciators of Marsh and Muck*
 
 - **Habitat.** Swamp  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Fey embodiments of swamplands, bullywugs protect the murky wilds and consider themselves cosmically favored for that role. These human-size, toad- or frog-like creatures have close relationships with the creatures of the swamp.
 
@@ -65,14 +66,14 @@ Fey embodiments of swamplands, bullywugs protect the murky wilds and consider th
   - "desc": "The bullywug makes two Bog Staff attacks. It can replace any attack with\
       \ a use of Spellcasting to cast [Ray of Sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning\
       \ damage plus 10 (3d6) Poison damage."
     "name": "Bog Staff"
   - "desc": "The bullywug casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 13, +5 to hit with spell attacks):\n\nAt will:\
+      \ ability (spell save DC 13, +5 to hit with spell attacks):\n\n**At will:**\
       \ [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [Druidcraft](І\
       нструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [Ray of Sickness](Інструмент\
-      и%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n1/day each: [Speak with Plants](І\
+      и%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n**1/day each:** [Speak with Plants](І\
       нструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md), [Vitriolic Sphere](Ін\
       струменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -28,7 +29,7 @@ When the wall appears, each creature in its area makes a Dexterity saving throw,
 
 A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking `7d8` Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
 
-**Using a Higher-Level Spell Slot.** Both types of damage increase by `d8` for each spell slot level above 6.
+**Using a Higher-Level Spell Slot.** Both types of damage increase by `1d8` for each spell slot level above 6.
 
 **Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md)
 

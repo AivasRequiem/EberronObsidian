@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 229* 
 
 **Daanvi Manifest Zone Features**
-
-`dice: [](daanvi-the-perfect-order-daanvi-manifest-zone-features-erlw.md#^daanvi-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

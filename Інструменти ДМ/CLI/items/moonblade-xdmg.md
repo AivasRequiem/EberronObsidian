@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -43,12 +44,10 @@ A Moonblade has a personality similar to that of its creator. Once a Moonblade h
 
 **Moonblade Properties**
 
-`dice: [](moonblade-xdmg.md#^moonblade-properties)`
-
 | dice: 1d100 | Property |
 |-------------|----------|
 | 01-60 | Increase the weapon's bonus to attack rolls and damage rolls by 1, to a maximum of +3. Reroll if the *Moonblade* already has a +3 bonus. |
-| 61-75 | When you hit with an attack roll using the *Moonblade*, you deal an extra `d6` Force damage. Each time the weapon gains this property after the first, the extra damage increases by `d6`, to a maximum of `3d6`. Reroll if the *Moonblade* already deals an extra `3d6` Force damage on a hit. |
+| 61-75 | When you hit with an attack roll using the *Moonblade*, you deal an extra `1d6` Force damage. Each time the weapon gains this property after the first, the extra damage increases by `1d6`, to a maximum of `3d6`. Reroll if the *Moonblade* already deals an extra `3d6` Force damage on a hit. |
 | 76-80 | The *Moonblade* gains [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet. Each time you throw the weapon, it flies back to your hand after the attack. |
 | 81-85 | The *Moonblade* scores a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) on a roll of 19 or 20 on the `d20`. |
 | 86-95 | You can take a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) to cause the *Moonblade* to flash brightly. Each other creature that is within 30 feet of you and not behind [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md) must succeed on a DC 15 Constitution saving throw or have the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success. You can't use this property again until you finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). |

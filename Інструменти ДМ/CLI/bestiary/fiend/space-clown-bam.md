@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/2
@@ -44,7 +45,8 @@ Marauding space clowns feed on Humanoid flesh. They travel through space in gari
     "desc": "+5"
   - "name": "[Sleight of Hand](Інструменти%20ДМ/CLI/rules/skills.md#Sleight%20of%20Hand)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Abyssal, Common"
 "cr": "2"
 "traits":
@@ -58,10 +60,10 @@ Marauding space clowns feed on Humanoid flesh. They travel through space in gari
       \ Phantasmal Form is in effect."
     "name": "Squeakers"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) lightning damage."
     "name": "Shock"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one creature. *Hit:*\
       \ 7 (2d6) psychic damage, and if the target is a Humanoid with an Intelligence\
       \ score of 3 or higher, it must make a DC 12 Wisdom saving throw. On a failed\
       \ save, the target perceives everything it sees or hears as hilariously funny\
@@ -70,10 +72,10 @@ Marauding space clowns feed on Humanoid flesh. They travel through space in gari
       \ its turns, ending the effect on itself on a success."
     "name": "Ray Gun"
   - "desc": "The clown casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability:\n\nAt will: [friends](І\
+      \ and using Charisma as the spellcasting ability:\n\n**At will:** [friends](І\
       нструменти%20ДМ/CLI/spells/friends-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1/day each: [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md),\
+      \n**1/day each:** [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md),\
       \ [spider climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

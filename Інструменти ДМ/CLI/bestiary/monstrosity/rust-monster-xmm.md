@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -41,7 +42,8 @@ Rust monsters roam the Underdark searching for ferrous metal. When they find thi
   - !!int "13"
   - !!int "6"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -51,12 +53,12 @@ Rust monsters roam the Underdark searching for ferrous metal. When they find thi
 "actions":
   - "desc": "The rust monster makes one Bite attack and uses Antennae twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 5 (1d8 + 1) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The rust monster targets one nonmagical metal object—armor or a weapon—\
-      worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw:\
-      \ DC 11, the creature with the object. Failure: The object takes a -1 penalty\
+      worn or carried by a creature within 5 feet of itself. *Dexterity Saving Throw:*\
+      \ DC 11, the creature with the object. *Failure:* The object takes a -1 penalty\
       \ to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed\
       \ if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty\
       \ reaches -5. The penalty can be removed by casting the [Mending](Інструмент\

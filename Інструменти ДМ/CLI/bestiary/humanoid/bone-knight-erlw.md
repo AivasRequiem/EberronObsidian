@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/5
@@ -62,10 +63,10 @@ During the Last War, many bone knights took service with the Order of the Emeral
 "traits":
   - "desc": "The knight is an 8th-level spellcaster. Its spellcasting ability is Charisma\
       \ (spell save DC 14, +6 to hit with spell attacks). It has the following paladin\
-      \ spells prepared:\n\n1st level (4 slots): [command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
+      \ spells prepared:\n\n**1st level (4 slots):** [command](Інструменти%20ДМ/CLI/spells/command-xphb.md),\
       \ [compelled duel](Інструменти%20ДМ/CLI/spells/compelled-duel-xphb.md), [hellish\
       \ rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md), [wrathful smite](І\
-      нструменти%20ДМ/CLI/spells/wrathful-smite-xphb.md)\n\n2nd level (3 slots):\
+      нструменти%20ДМ/CLI/spells/wrathful-smite-xphb.md)\n\n**2nd level (3 slots):**\
       \ [branding smite](Інструменти%20ДМ/CLI/spells/shining-smite-xphb.md), [crown\
       \ of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md), [darkness](І\
       нструменти%20ДМ/CLI/spells/darkness-xphb.md), [find steed](Інструменти%20ДМ\
@@ -83,10 +84,10 @@ During the Last War, many bone knights took service with the Order of the Emeral
 "actions":
   - "desc": "The knight attacks twice with one of its weapons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Longbow"
 "source":

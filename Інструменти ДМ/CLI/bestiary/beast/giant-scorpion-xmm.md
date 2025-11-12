@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -36,18 +37,19 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "9"
   - !!int "3"
 "speed": "40 ft."
-"senses": "blindsight 60 ft., passive Perception 9"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "3"
 "actions":
   - "desc": "The scorpion makes two Claw attacks and one Sting attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two claws."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage plus 11 (2d10) Poison damage."
     "name": "Sting"
 "source":

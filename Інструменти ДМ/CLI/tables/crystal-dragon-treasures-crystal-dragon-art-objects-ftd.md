@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 106* 
 
 **Crystal Dragon Art Objects**
-
-`dice: [](crystal-dragon-treasures-crystal-dragon-art-objects-ftd.md#^crystal-dragon-art-objects)`
 
 | dice: d12 | Object |
 |-----------|--------|

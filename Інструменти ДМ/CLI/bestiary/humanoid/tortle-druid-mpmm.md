@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -58,10 +59,10 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
   - "desc": "The tortle makes four Claw attacks or two [Nature](Інструменти%20ДМ/CLI/rules/skills.md#Nature)'s\
       \ Wrath attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 90 ft., one target. *Hit:*\
       \ 9 (2d6 + 2) damage of a type chosen by the tortle: cold, fire, lightning,\
       \ or thunder."
     "name": "Nature's Wrath"
@@ -73,9 +74,9 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
       \ action to emerge."
     "name": "Shell Defense"
   - "desc": "The tortle casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [druidcraft](Інструменти%20ДМ\
+      \ ability (spell save DC 12):\n\n**At will:** [druidcraft](Інструменти%20ДМ\
       /CLI/spells/druidcraft-xphb.md), [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md)\n\
-      \n2/day each: [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
+      \n**2/day each:** [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
       \ [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md), [speak with\
       \ animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md), [thunderwave](І\
       нструменти%20ДМ/CLI/spells/thunderwave-xphb.md)"

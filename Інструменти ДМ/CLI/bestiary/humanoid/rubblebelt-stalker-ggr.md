@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -61,7 +62,7 @@ Rubblebelt stalkers are scouts and skirmishers for the Gruul Clans. They excel a
 "actions":
   - "desc": "The stalker makes three attacks with its shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+  - "desc": "*Melee Attack Roll:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6\
       \ + 2) piercing damage."
     "name": "Shortsword"
 "source":

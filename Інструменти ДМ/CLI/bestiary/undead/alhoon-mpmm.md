@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -85,7 +86,8 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 17"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -98,10 +100,10 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
 "actions":
   - "desc": "The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d6) cold damage, and the alhoon regains 14 hit points."
     "name": "Chilling Grasp"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 120 ft., one target. *Hit:*\
       \ 28 (8d6) force damage."
     "name": "Arcane Bolt"
   - "desc": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature\
@@ -112,12 +114,12 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The alhoon casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      At will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      **At will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [detect\
       \ thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [disguise\
       \ self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [mage hand](Інст\
       рументи%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструменти%20Д\
-      М/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [dominate monster](І\
+      М/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [dominate monster](І\
       нструменти%20ДМ/CLI/spells/dominate-monster-xphb.md), [globe of invulnerability](І\
       нструменти%20ДМ/CLI/spells/globe-of-invulnerability-xphb.md), [invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [modify memory](Інструмент\

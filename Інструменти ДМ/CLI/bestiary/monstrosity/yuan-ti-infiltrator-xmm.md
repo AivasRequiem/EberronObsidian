@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -25,7 +26,7 @@ Infiltrators can pass as human, their serpentine features limited to scaly skin,
 *Power-Hungry Serpentine Conspirators*
 
 - **Habitat.** Desert, Forest, Swamp, Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Exploiting pacts with sinister supernatural forces, yuan-ti bargain away their humanity for the lethality and predatory deviousness of serpents. From hidden bastions, they manipulate rulers and the wealthy, seeking to control the world. Many yuan-ti possess venomous magic, which often manifests as fangs or striking serpents.
 
@@ -34,8 +35,6 @@ Yuan-ti have humanlike forms with a variety of horrifying serpentine transformat
 Yuan-ti might gain their reptilian features through dangerous supernatural rites. Roll on or choose a result from the Yuan-ti Transformations table to inspire how yuan-ti obtain their serpentine aspects.
 
 **Yuan-ti Transformations**
-
-`dice: [](yuan-ti-infiltrator-xmm.md#^yuan-ti-transformations)`
 
 | dice: 1d6 | A Yuan-ti Gained Its Snake Features From... |
 |-----------|---------------------------------------------|
@@ -78,7 +77,8 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
     "desc": "+3"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Abyssal, Common, Draconic"
 "cr": "1"
 "traits":
@@ -88,16 +88,16 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
 "actions":
   - "desc": "The yuan-ti makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Slashing\
       \ damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: +4, range 120 ft. Hit: 9 (2d6 + 2) Poison\
+  - "desc": "*Ranged Attack Roll:* +4, range 120 ft. *Hit:* 9 (2d6 + 2) Poison\
       \ damage."
     "name": "Poison Ray"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
-      \ (snakes only)\n\n2/day: [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
+      \n**At will:** [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \ (snakes only)\n\n**2/day:** [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting"
 "source":
   - "XMM"

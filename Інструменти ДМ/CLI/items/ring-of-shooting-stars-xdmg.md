@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -16,7 +17,7 @@ aliases:
 
 You can cast [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md) or [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md) from the ring.
 
-The ring has 6 charges and regains `d6` expended charges daily at dawn. You can expend its charges to use the properties below.
+The ring has 6 charges and regains `1d6` expended charges daily at dawn. You can expend its charges to use the properties below.
 
 ## Faerie Fire
 

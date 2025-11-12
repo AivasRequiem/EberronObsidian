@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -60,7 +61,8 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Abyssal, Elvish, Undercommon"
 "cr": "10"
 "traits":
@@ -81,14 +83,14 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
       \ to cast [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md) or [Dominate Person](І\
       нструменти%20ДМ/CLI/spells/dominate-person-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +8, reach 10 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +8, reach 10 ft. or range 120 ft. *Hit:*\
       \ 25 (6d6 + 4) Acid damage."
     "name": "Caustic Lash"
   - "desc": "The yochlol casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**At will:** [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md) (self only),\
-      \ [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md)\n\n1/day: [Dominate Person](І\
+      \ [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md)\n\n**1/day:** [Dominate Person](І\
       нструменти%20ДМ/CLI/spells/dominate-person-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -99,9 +101,9 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
 "reactions":
   - "desc": "Trigger: The yochlol is hit by an attack roll. _Response:_ The yochlol\
       \ halves the attack's damage to itself (round down), and it teleports to an\
-      \ unoccupied space it can see within 30 feet of itself. Constitution Saving\
-      \ Throw: DC 15, each creature within 5 feet of the yochlol's destination space.\
-      \ Failure: The target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ unoccupied space it can see within 30 feet of itself. *Constitution Saving\
+      \ Throw:* DC 15, each creature within 5 feet of the yochlol's destination space.\
+      \ *Failure:* The target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the end of its next turn. While [Poisoned](Інструменти%20Д\
       М/CLI/rules/conditions.md#Poisoned), it has the [Incapacitated](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Incapacitated) condition."

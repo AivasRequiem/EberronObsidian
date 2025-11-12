@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -31,8 +32,6 @@ Griffons combine the features of raptors and big cats—most commonly eagles and
 Countless tales surround griffons. Roll on or choose a result from the Griffon Tales table to inspire stories about them.
 
 **Griffon Tales**
-
-`dice: [](griffon-xmm.md#^griffon-tales)`
 
 | dice: 1d6 | Legends Claim That Griffons... |
 |-----------|--------------------------------|
@@ -69,13 +68,14 @@ Countless tales surround griffons. Roll on or choose a result from the Griffon T
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": ""
 "cr": "2"
 "actions":
   - "desc": "The griffon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (1d8 + 4) Piercing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ both of the griffon's front claws."

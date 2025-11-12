@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -32,14 +33,12 @@ Rocs nest amid remote heights. Their nests are typically littered with treasure 
 
 **Roc Nest Remnants**
 
-`dice: [](roc-xmm.md#^roc-nest-remnants)`
-
 | dice: 1d6 | The Roc's Nest Holds... |
 |-----------|-------------------------|
 | 1 | The burial litter of a lost hero. |
 | 2 | A caravan wagon full of trade goods. |
 | 3 | A live elephant. |
-| 4 | `d4` eggs larger than adult humans. |
+| 4 | `1d4` eggs larger than adult humans. |
 | 5 | Someone marooned in the nest. |
 | 6 | A statue of a knight riding a rearing steed. |
 ^roc-nest-remnants
@@ -74,10 +73,10 @@ Rocs nest amid remote heights. Their nests are typically littered with treasure 
   - "desc": "The roc makes two Beak attacks. It can replace one attack with a Talons\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing\
+  - "desc": "*Melee Attack Roll:* +13, reach 10 ft. *Hit:* 28 (3d12 + 9) Piercing\
       \ damage."
     "name": "Beak"
-  - "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing\
+  - "desc": "*Melee Attack Roll:* +13, reach 5 ft. *Hit:* 23 (4d6 + 9) Slashing\
       \ damage. If the target is a Huge or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 19) from\
       \ both talons, and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\

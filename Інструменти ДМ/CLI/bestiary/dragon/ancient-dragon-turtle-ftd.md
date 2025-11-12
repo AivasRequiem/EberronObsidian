@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/24
@@ -24,8 +25,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 
 ### Dragon Turtle Personality Traits
 
-`dice: [](ancient-dragon-turtle-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I speak slowly and deliberately, pausing to reflect after (or sometimes in the middle of) each utterance. |
@@ -39,8 +38,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 ^trait
 
 ### Dragon Turtle Ideals
-
-`dice: [](ancient-dragon-turtle-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -67,8 +64,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 
 ### Dragon Turtle Adventure Hooks
 
-`dice: [](ancient-dragon-turtle-ftd.md#^adventure-hook)`
-
 | dice: d8 | Adventure Hook |
 |----------|----------------|
 | 1 | A ruthless shipping magnate has bribed a dragon turtle to attack competitors' vessels and drive them out of business. |
@@ -86,8 +81,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 Dragon turtles are stolid and slow to anger. This temperament, combined with their disinterest in moral quandaries, allows them to get along with—or at least abide—most creatures they encounter. They frequently enter symbiotic relationships with other sea creatures that can bring them food or treasure, and they sometimes agree to work for creatures who ply them with generous sums of wealth.
 
 ### Ancient Dragon Turtle Connections
-
-`dice: [](ancient-dragon-turtle-ftd.md#^connected-creatures)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|
@@ -143,7 +136,8 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 21"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 21"
 "languages": "Aquan, Draconic"
 "cr": "24"
 "traits":
@@ -162,13 +156,13 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
 "actions":
   - "desc": "The dragon turtle makes one Bite or Tail attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d8 + 9) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 24 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
@@ -177,6 +171,44 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
       \ damage on a failed save, or half as much damage on a successful one. Being\
       \ underwater doesn't grant resistance against this damage."
     "name": "Steam Breath (Recharge 5-6)"
+"lair_actions":
+  - "desc": "As they are presented in the *Monster Manual*, dragon turtles don't have\
+      \ access to lair actions while in their lairs. At your discretion, you can give\
+      \ an adult or ancient dragon turtle access to lair actions, increasing its challenge\
+      \ rating by 1. On initiative count 20 (losing initiative ties), the dragon turtle\
+      \ can take one of the following lair actions; the dragon turtle can't take the\
+      \ same lair action two rounds in a row:\n\n- **Blasting Current.** A strong\
+      \ water current moves through the dragon turtle's lair. Each creature within\
+      \ 30 feet of the dragon turtle must succeed on a DC 15 Strength saving throw\
+      \ or be moved 30 feet in a direction of the dragon turtle's choice. On a success,\
+      \ the creature is moved 10 feet instead.  \n- **Entangling Kelp.** Strands of\
+      \ spectral kelp reach out to ensnare creatures in a 20-foot-radius sphere centered\
+      \ on a point in the lair that the dragon turtle can see. Each creature in that\
+      \ area must succeed on a DC 15 Strength saving throw or be [restrained](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Restrained) until the end of its next turn.\
+      \  \n- **Steam Eruption.** Steam erupts in a 15-foot cone from a point on the\
+      \ ground the dragon turtle can see within 120 feet of it. Each creature in that\
+      \ area must make a DC 15 Constitution saving throw, taking 21 (6d6) fire damage\
+      \ on a failed save, or half as much damage on a successful one. Being underwater\
+      \ doesn't grant creatures resistance to this damage.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a dragon turtle's lair can be transformed by its\
+      \ presence, creating one or more of the following effects:\n\n- **Diverting\
+      \ Currents.** Underwater currents push unwanted visitors away from the lair.\
+      \ While swimming in these currents, each foot of movement costs 1 extra foot\
+      \ (2 extra feet in difficult terrain), even if a creature has a swimming speed.\
+      \  \n- **Elemental Portals.** Crevasses on the ocean floor within 1 mile of\
+      \ the dragon turtle's lair form two-way portals to the Elemental Plane of Water,\
+      \ allowing creatures of elemental water into the world to dwell nearby.  \n\
+      - **Hot Water.** Geothermal vents heat the water within 6 miles of the dragon\
+      \ turtle's lair to 100 degrees Fahrenheit.  \n\nIf the dragon turtle dies, these\
+      \ effects fade over the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the ancient dragon turtle can expend a use to take one of the following\
+  \ actions. The ancient dragon turtle regains all expended uses at the start of each\
+  \ of its turns."
 "legendary_actions":
   - "desc": "The dragon turtle makes one Claw or Tail attack."
     "name": "Attack"
@@ -189,45 +221,16 @@ As an example, map 5.14 depicts a topaz dragon's lair in a seaside cavern, but i
       \ throw or take 40 (9d8) fire damage. Being underwater doesn't grant resistance\
       \ against this damage."
     "name": "Boiling Aura (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "As they are presented in the Monster Manual, dragon turtles don't have\
-      \ access to lair actions while in their lairs. At your discretion, you can give\
-      \ an adult or ancient dragon turtle access to lair actions, increasing its challenge\
-      \ rating by 1. On initiative count 20 (losing initiative ties), the dragon turtle\
-      \ can take one of the following lair actions; the dragon turtle can't take the\
-      \ same lair action two rounds in a row:"
-    "name": ""
-  - "desc": "- Blasting Current. A strong water current moves through the dragon\
-      \ turtle's lair. Each creature within 30 feet of the dragon turtle must succeed\
-      \ on a DC 15 Strength saving throw or be moved 30 feet in a direction of the\
-      \ dragon turtle's choice. On a success, the creature is moved 10 feet instead.\
-      \  \n- Entangling Kelp. Strands of spectral kelp reach out to ensnare creatures\
-      \ in a 20-foot-radius sphere centered on a point in the lair that the dragon\
-      \ turtle can see. Each creature in that area must succeed on a DC 15 Strength\
-      \ saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ until the end of its next turn.  \n- Steam Eruption. Steam erupts in a\
-      \ 15-foot cone from a point on the ground the dragon turtle can see within 120\
-      \ feet of it. Each creature in that area must make a DC 15 Constitution saving\
-      \ throw, taking 21 (6d6) fire damage on a failed save, or half as much damage\
-      \ on a successful one. Being underwater doesn't grant creatures resistance to\
-      \ this damage.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing a dragon turtle's lair can be transformed by its\
-      \ presence, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Diverting Currents. Underwater currents push unwanted visitors\
-      \ away from the lair. While swimming in these currents, each foot of movement\
-      \ costs 1 extra foot (2 extra feet in difficult terrain), even if a creature\
-      \ has a swimming speed.  \n- Elemental Portals. Crevasses on the ocean floor\
-      \ within 1 mile of the dragon turtle's lair form two-way portals to the Elemental\
-      \ Plane of Water, allowing creatures of elemental water into the world to dwell\
-      \ nearby.  \n- Hot Water. Geothermal vents heat the water within 6 miles\
-      \ of the dragon turtle's lair to 100 degrees Fahrenheit.  "
-    "name": ""
-  - "desc": "If the dragon turtle dies, these effects fade over the course of d10\
-      \ days."
-    "name": ""
+"mythic_description": "If the dragon turtle's Blessing of the Sea trait has activated\
+  \ in the last hour, it can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The dragon turtle makes one Bite attack."
+    "name": "Bite"
+  - "desc": "Lightning temporarily surrounds the dragon turtle, and it gains 40 temporary\
+      \ hit points until the start of its next turn. Until all these temporary hit\
+      \ points are gone, any creature that touches the dragon turtle or hits it with\
+      \ a melee attack takes 26 (4d12) lightning damage."
+    "name": "Armor of Storms (Costs 2 Actions)"
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/ancient-dragon-turtle-ftd.webp"

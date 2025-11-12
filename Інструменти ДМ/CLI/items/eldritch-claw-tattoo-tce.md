@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
@@ -28,6 +29,6 @@ While the tattoo is on your skin, your unarmed strikes are considered magical fo
 
 ## Eldritch Maul
 
-As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra `d6` force damage on a hit. Once used, this bonus action can't be used again until the next dawn.
+As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra `1d6` force damage on a hit. Once used, this bonus action can't be used again until the next dawn.
 
 *Source: Tasha's Cauldron of Everything p. 126*

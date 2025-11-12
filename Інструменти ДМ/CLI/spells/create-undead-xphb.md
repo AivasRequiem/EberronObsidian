@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -9,9 +10,11 @@ tags:
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/necromancy
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
+- Sorcerer (Divine Soul, Good)
 - Warlock
 - Wizard
 aliases:
@@ -34,6 +37,6 @@ The creature is under your control for 24 hours, after which it stops obeying an
 
 **Using a Higher-Level Spell Slot.** If you use a level 7 spell slot, you can animate or reassert control over four [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md). If you use a level 8 spell slot, you can animate or reassert control over five [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) or two [Ghasts](Інструменти%20ДМ/CLI/bestiary/undead/ghast-xmm.md) or [Wights](Інструменти%20ДМ/CLI/bestiary/undead/wight-xmm.md). If you use a level 9 spell slot, you can animate or reassert control over six [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md), three [Ghasts](Інструменти%20ДМ/CLI/bestiary/undead/ghast-xmm.md) or [Wights](Інструменти%20ДМ/CLI/bestiary/undead/wight-xmm.md), or two [Mummies](Інструменти%20ДМ/CLI/bestiary/undead/mummy-xmm.md). See the "Monster Manual" for these stat blocks.
 
-**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 258. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

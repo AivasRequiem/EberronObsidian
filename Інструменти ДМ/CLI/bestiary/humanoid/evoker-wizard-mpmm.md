@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The evoker makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 25 (4d10 + 3) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 25 (4d10 + 3) force damage."
     "name": "Arcane Burst"
   - "desc": "The evoker unleashes a magical explosion of a particular damage type:\
       \ cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere\
@@ -67,13 +68,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Sculpted Explosion (Recharge 4-6)"
   - "desc": "The evoker casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 15):\n\nAt will: [light](Інструмен\
+      \ spellcasting ability (spell save DC 15):\n\n**At will:** [light](Інструмен\
       ти%20ДМ/CLI/spells/light-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [ice\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [ice\
       \ storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md), [lightning bolt](Ін\
       струменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [mage armor](Інструменти\
-      %20ДМ/CLI/spells/mage-armor-xphb.md)\n\n1/day each: [wall of ice](Інстру\
+      %20ДМ/CLI/spells/mage-armor-xphb.md)\n\n**1/day each:** [wall of ice](Інстру\
       менти%20ДМ/CLI/spells/wall-of-ice-xphb.md)"
     "name": "Spellcasting"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -59,7 +60,8 @@ Crawling claws are severed hands that move and act of their own murderous accord
   /CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), [stunned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 10"
 "languages": "understands Common but can't speak"
 "cr": "3"
 "traits":
@@ -69,7 +71,7 @@ Crawling claws are severed hands that move and act of their own murderous accord
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 20 (4d8 + 2) Necrotic\
       \ damage, or 11 (2d8 + 2) Necrotic damage if the swarm is [Bloodied](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Bloodied). If the target is a Medium or\
       \ smaller creature, it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\

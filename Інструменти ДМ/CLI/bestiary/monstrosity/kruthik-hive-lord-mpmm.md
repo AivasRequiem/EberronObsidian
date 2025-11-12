@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -60,7 +61,8 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+8"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 18"
 "languages": "Kruthik"
 "cr": "5"
 "traits":
@@ -74,10 +76,10 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "actions":
   - "desc": "The kruthik makes two Stab or Spike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage."
     "name": "Stab"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 30/120 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage."
     "name": "Spike"
   - "desc": "The kruthik sprays acid in a 15-foot cone. Each creature in that area\

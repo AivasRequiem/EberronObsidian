@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -39,8 +40,6 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 
 **Modron Operations**
 
-`dice: [](modron-duodrone-xmm.md#^modron-operations)`
-
 | dice: 1d8 | The Modrons Work To... |
 |-----------|------------------------|
 | 1 | Create a clockwork outpost to monitor the balance of obscure planar forces. |
@@ -76,7 +75,8 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
   - !!int "7"
 "speed": "30 ft."
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 120 ft., passive Perception 10"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 10"
 "languages": "Modron"
 "cr": "1/4"
 "traits":
@@ -86,8 +86,8 @@ Whether in service to lawful deities or as part of the Great Modron March, modro
 "actions":
   - "desc": "The modron makes two Clockwork Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 30 ft. Hit:\
-      \ 4 (1d6 + 1) Force damage. Hit or Miss: The blade magically returns to\
+  - "desc": "*Melee  or Ranged Attack Roll:* +3, reach 5 ft. or range 30 ft. *Hit:*\
+      \ 4 (1d6 + 1) Force damage. *Hit or Miss:* The blade magically returns to\
       \ the modron's hand immediately after a ranged attack."
     "name": "Clockwork Blade"
 "source":

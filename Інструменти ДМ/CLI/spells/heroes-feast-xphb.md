@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -8,10 +9,12 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/conjuration
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
 - Druid
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Heroes' Feast
 ---
@@ -28,6 +31,6 @@ You conjure a feast that appears on a surface in an unoccupied 10-foot [Cube](І
 
 A creature that partakes gains several benefits, which last for 24 hours. The creature has [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Poison damage, and it has [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) and [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) conditions. Its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum also increases by `2d10`, and it gains the same number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 284. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -35,7 +36,8 @@ aliases:
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [frightened](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The item is immune to any spell or effect that would alter its form."
@@ -46,8 +48,8 @@ aliases:
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Irrepressible Dance"
 "actions":
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target you can see. Hit: 1d10 + PB force damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target you can see. *Hit:* 1d10 + PB force damage."
     "name": "Force-Empowered Slam"
 "source":
   - "TCE"

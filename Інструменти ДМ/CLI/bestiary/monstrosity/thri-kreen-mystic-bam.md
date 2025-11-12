@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/5
@@ -41,16 +42,17 @@ Thri-kreen mystics use psionics to navigate difficult terrain in Wildspace, turn
     "desc": "+5"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": "telepathy 60 ft., Thri-kreen"
 "cr": "5"
 "actions":
   - "desc": "The thri-kreen makes two Gythka attacks or four Psychic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) slashing damage."
     "name": "Gythka"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) psychic damage."
     "name": "Psychic Bolt"
   - "desc": "The thri-kreen targets one creature it can see within 30 feet of itself.\
@@ -59,10 +61,10 @@ Thri-kreen mystics use psionics to navigate difficult terrain in Wildspace, turn
       \ The thri-kreen regains hit points equal to the damage dealt."
     "name": "Drain Vitality (Recharges after a Short or Long Rest)"
   - "desc": "The thri-kreen casts one of the following spells, requiring no spell\
-      \ components and using Wisdom as the spellcasting ability:\n\nAt will: [levitate](І\
+      \ components and using Wisdom as the spellcasting ability:\n\n**At will:** [levitate](І\
       нструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only), [mage hand](Інстру\
-      менти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible)\n\n1/day\
-      \ each: [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md)\
+      менти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible)\n\n**1/day\
+      \ each:** [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md)\
       \ (self only), [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ (self only)"
     "name": "Spellcasting (Psionics)"

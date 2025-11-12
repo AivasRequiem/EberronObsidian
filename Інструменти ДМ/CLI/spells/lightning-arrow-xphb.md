@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/ranger
@@ -24,7 +25,7 @@ As your attack hits or misses the target, the weapon or ammunition you're using 
 
 The weapon or ammunition then returns to its normal form.
 
-**Using a Higher-Level Spell Slot.** The damage for both effects of the spell increases by `d8` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The damage for both effects of the spell increases by `1d8` for each spell slot level above 3.
 
 **Classes**: [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md)
 

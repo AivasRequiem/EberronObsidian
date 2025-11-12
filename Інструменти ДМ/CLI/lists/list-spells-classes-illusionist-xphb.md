@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/illusionist
 aliases:
@@ -29,6 +30,7 @@ aliases:
 - [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") at class level 3
 - [Nystul's Magic Aura](Інструменти%20ДМ/CLI/spells/nystuls-magic-aura-xphb.md "XPHB") at class level 3
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB") at class level 3
+- [Shadow Blade](Інструменти%20ДМ/CLI/spells/shadow-blade-xge.md "XGE") at class level 3
 - [Summon Beast](Інструменти%20ДМ/CLI/spells/summon-beast-xphb.md "XPHB") at class level 3
 
 ## 3rd Level
@@ -54,6 +56,7 @@ aliases:
 
 ## 6th Level
 
+- [Mental Prison](Інструменти%20ДМ/CLI/spells/mental-prison-xge.md "XGE") at class level 3
 - [Programmed Illusion](Інструменти%20ДМ/CLI/spells/programmed-illusion-xphb.md "XPHB") at class level 3
 
 ## 7th Level
@@ -61,6 +64,10 @@ aliases:
 - [Mirage Arcane](Інструменти%20ДМ/CLI/spells/mirage-arcane-xphb.md "XPHB") at class level 3
 - [Project Image](Інструменти%20ДМ/CLI/spells/project-image-xphb.md "XPHB") at class level 3
 - [Simulacrum](Інструменти%20ДМ/CLI/spells/simulacrum-xphb.md "XPHB") at class level 3
+
+## 8th Level
+
+- [Illusory Dragon](Інструменти%20ДМ/CLI/spells/illusory-dragon-xge.md "XGE") at class level 3
 
 ## 9th Level
 

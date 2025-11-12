@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -27,8 +28,6 @@ Spirits of vengeance bound to crude frames, scarecrows arise from folk magic, th
 Although scarecrows take their name from rural effigies, they might take varied patchwork forms. Roll on or choose a result from the Scarecrow Frames table to inspire a scarecrow's appearance.
 
 **Scarecrow Frames**
-
-`dice: [](scarecrow-xmm.md#^scarecrow-frames)`
 
 | dice: 1d8 | The Scarecrow Is Made From... |
 |-----------|-------------------------------|
@@ -67,16 +66,17 @@ Although scarecrows take their name from rural effigies, they might take varied 
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [unconscious](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common plus one other language"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 6 (2d4 + 1) Slashing\
       \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the end of the scarecrow's next turn."
     "name": "Fearsome Claw"
-  - "desc": "Wisdom Saving Throw: DC 11, one creature the scarecrow can see within\
-      \ 30 feet. Failure: The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "*Wisdom Saving Throw:* DC 11, one creature the scarecrow can see within\
+      \ 30 feet. *Failure:* The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the end of the scarecrow's next turn. While [Frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened), the target has the [Paralyzed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition."

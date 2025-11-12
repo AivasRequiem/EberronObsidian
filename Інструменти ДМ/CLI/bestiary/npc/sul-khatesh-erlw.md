@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/28
@@ -77,24 +78,25 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 16"
 "languages": "all, telepathy 150 ft."
 "cr": "28"
 "traits":
   - "desc": "Sul Khatesh's spellcasting ability is Intelligence (spell save DC 26,\
       \ +18 to hit with spell attacks). She can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [counterspell](Інструмен\
+      \ requiring no material components:\n\n**At will:** [counterspell](Інструмен\
       ти%20ДМ/CLI/spells/counterspell-xphb.md), [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [dispel\
       \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [eyebite](Інстру\
       менти%20ДМ/CLI/spells/eyebite-xphb.md), [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md),\
       \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [shield](І\
-      нструменти%20ДМ/CLI/spells/shield-xphb.md)\n\n3/day each: [chain lightning](І\
+      нструменти%20ДМ/CLI/spells/shield-xphb.md)\n\n**3/day each:** [chain lightning](І\
       нструменти%20ДМ/CLI/spells/chain-lightning-xphb.md), [create undead](Інструм\
       енти%20ДМ/CLI/spells/create-undead-xphb.md), [dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md),\
       \ [hold monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md), [mass suggestion](І\
       нструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [scrying](Інструменти%20Д\
-      М/CLI/spells/scrying-xphb.md)\n\n1/day each: [foresight](Інструменти%20Д\
+      М/CLI/spells/scrying-xphb.md)\n\n**1/day each:** [foresight](Інструменти%20Д\
       М/CLI/spells/foresight-xphb.md), [gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md),\
       \ [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md), [teleport](І\
       нструменти%20ДМ/CLI/spells/teleport-xphb.md)"
@@ -110,10 +112,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "actions":
   - "desc": "Sul Khatesh makes four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +18 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +18 to hit, range 120 ft., one target. *Hit:*\
       \ 15 (1d10 + 10) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 36 (5d12 + 4) force damage."
     "name": "Magic Staff"
   - "desc": "Sul Khatesh conjures orbs of magical energy that plummet to the ground\
@@ -135,6 +137,9 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
       \ otherwise replaced by those of the new form, except any class features or\
       \ legendary actions of that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Sul Khatesh can expend a use to take one of the following actions. Sul Khatesh\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Sul Khatesh makes two attacks with her Arcane Blast or one attack with\
       \ her magic staff."

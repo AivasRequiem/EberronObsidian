@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -22,7 +23,7 @@ Knights frequently lead troops in combat or work in units that dominate the batt
 *Battle Masters and Heroic Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Knights are skilled warriors trained for war and tested in battle. Many serve the rulers of a realm, a religion, or an order devoted to a cause.
 
@@ -54,11 +55,11 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
   - "desc": "The knight makes two attacks, using Greatsword or Heavy Crossbow in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
-      \ damage plus 4 (d8) Radiant damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
+      \ damage plus 4 (1d8) Radiant damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing\
-      \ damage plus 4 (d8) Radiant damage."
+  - "desc": "*Ranged Attack Roll:* +2, range 100/400 ft. *Hit:* 11 (2d10) Piercing\
+      \ damage plus 4 (1d8) Radiant damage."
     "name": "Heavy Crossbow"
 "reactions":
   - "desc": "Trigger: The knight is hit by a melee attack roll while holding a weapon.\

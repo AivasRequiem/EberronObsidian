@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -28,8 +29,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 
 ### Moonstone Dragon Personality Traits
 
-`dice: [](young-moonstone-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often lose track of whether I'm in the Feywild or on the Material Plane. |
@@ -43,8 +42,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 ^trait
 
 ### Moonstone Dragon Ideals
-
-`dice: [](young-moonstone-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -61,8 +58,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 The Moonstone Dragon Adventure Hooks table offers suggestions for stories and adventures involving moonstone dragons.
 
 ### Moonstone Dragon Adventure Hooks
-
-`dice: [](young-moonstone-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -81,8 +76,6 @@ The Moonstone Dragon Adventure Hooks table offers suggestions for stories and ad
 In the Feywild, moonstone dragons interact mostly with pixies, sprites, and other Fey creatures who revere and serve the dragon. Outside the Feywild, they often prefer to communicate with other creatures through dreams.
 
 ### Young Moonstone Dragon Connections
-
-`dice: [](young-moonstone-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -125,31 +118,32 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 16"
 "languages": "Common, Draconic, Sylvan"
 "cr": "8"
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 15 (2d10 + 4) piercing damage plus 5 (d10) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
-  - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
+  - "desc": "The dragon uses one of the following breath weapons:\n\n- **Dream Breath.**\
       \ The dragon exhales mist in a 90-foot cone. Each creature in that area must\
       \ succeed on a DC 14 Constitution saving throw or fall [unconscious](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Unconscious) for 10 minutes. This effect ends\
       \ for a creature if the creature takes damage or someone uses an action to wake\
-      \ it.  \n- Moonlight Breath. The dragon exhales a beam of moonlight in a\
+      \ it.  \n- **Moonlight Breath.** The dragon exhales a beam of moonlight in a\
       \ 60-foot line that is 5 feet wide. Each creature in that area must make a DC\
       \ 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save,\
       \ or half as much damage on a successful one.  "
     "name": "Breath Weapon (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n1/day\
-      \ each: [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n**1/day\
+      \ each:** [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
       \ [faerie fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md)"
     "name": "Spellcasting"
 "source":

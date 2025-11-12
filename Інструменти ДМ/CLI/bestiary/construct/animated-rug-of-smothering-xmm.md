@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -33,8 +34,6 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 > Lyin' next to the chest were the bones of Cap'n Scornblade himself, still clutchin' his rusty sword. Imagine my surprise when the blade flew from his bony grasp! Still got the scar.
 
 **Animated Object Catalysts**
-
-`dice: [](animated-rug-of-smothering-xmm.md#^animated-object-catalysts)`
 
 | dice: 1d10 | The Object Was Animated By... |
 |------------|-------------------------------|
@@ -74,11 +73,12 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
   М/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., passive Perception 6"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 6"
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, the rug can give it\
       \ the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 13) instead of dealing damage. Until the grapple ends, the target\

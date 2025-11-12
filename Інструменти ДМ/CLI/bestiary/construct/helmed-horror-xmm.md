@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -20,15 +21,13 @@ aliases:
 *Armor with a Warrior's Purpose*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Helmed horrors are suits of armor animated by magic. Rather than being unreasoning automatons, these armored shells possess the guile of soldiers and resilience against destructive magic. While their name suggests sinister intentions, these creatures serve their creators loyally. Helmed horrors are also sometimes called doom guards or spirit armors. Most show no evidence of a personality, but exceptions exist.
 
 Helmed horrors might perform any number of assignments. Roll on or choose a result from the Helmed Horror Directives table to inspire what tasks helmed horrors perform.
 
 **Helmed Horror Directives**
-
-`dice: [](helmed-horror-xmm.md#^helmed-horror-directives)`
 
 | dice: 1d6 | The Helmed Horror Follows Commands To... |
 |-----------|------------------------------------------|
@@ -68,7 +67,8 @@ Helmed horrors might perform any number of assignments. Roll on or choose a resu
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 14"
 "languages": "understands Common plus one other language but can't speak"
 "cr": "4"
 "traits":
@@ -83,8 +83,8 @@ Helmed horrors might perform any number of assignments. Roll on or choose a resu
 "actions":
   - "desc": "The helmed horror makes two Arcane Sword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
-      \ damage plus 5 (d10) Force damage."
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (1d8 + 4) Slashing\
+      \ damage plus 5 (1d10) Force damage."
     "name": "Arcane Sword"
 "source":
   - "XMM"

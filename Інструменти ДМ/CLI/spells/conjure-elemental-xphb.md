@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/izzet-engineer
@@ -32,8 +33,8 @@ You conjure a Large, intangible spirit from the Elemental Planes that appears in
 
 Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). On failed save, the target takes `8d8` damage of the spirit's type, and the target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the spell ends. At the start of each of its turns, the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) target repeats the save. On a failed save, the target takes `4d8` damage of the spirit's type. On a successful save, the target isn't [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) by the spirit.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The damage increases by `1d8` for each spell slot level above 5.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Sea)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-sea-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Sea)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-sea-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 254. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

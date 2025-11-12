@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -56,7 +57,8 @@ Due to yetis' elusiveness, folktales about yetis are more common than sightings.
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Yeti"
 "cr": "3"
 "traits":
@@ -68,17 +70,17 @@ Due to yetis' elusiveness, folktales about yetis are more common than sightings.
   - "desc": "The yeti can use its Chilling Gaze and makes two attacks, using Claw\
       \ or Ice Throw in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Slashing\
-      \ damage plus 3 (d6) Cold damage."
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 7 (1d6 + 4) Slashing\
+      \ damage plus 3 (1d6) Cold damage."
     "name": "Claw"
-  - "desc": "Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning\
-      \ damage plus 2 (d4) Cold damage."
+  - "desc": "*Ranged Attack Roll:* +6, range 30/120 ft. *Hit:* 6 (1d4 + 4) Bludgeoning\
+      \ damage plus 2 (1d4) Cold damage."
     "name": "Ice Throw"
-  - "desc": "Constitution Saving Throw: DC 13, one creature the yeti can see within\
-      \ 30 feet. Failure: 5 (2d4) Cold damage, and the target has the [Paralyzed](І\
+  - "desc": "*Constitution Saving Throw:* DC 13, one creature the yeti can see within\
+      \ 30 feet. *Failure:* 5 (2d4) Cold damage, and the target has the [Paralyzed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition until the start\
       \ of the yeti's next turn unless the target has [Immunity](Інструменти%20ДМ\
-      /CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. Success: The target\
+      /CLI/rules/variant-rules/immunity-xphb.md) to Cold damage. *Success:* The target\
       \ is immune to the Chilling Gaze of all yetis (but not abominable yetis) for\
       \ 1 hour."
     "name": "Chilling Gaze"

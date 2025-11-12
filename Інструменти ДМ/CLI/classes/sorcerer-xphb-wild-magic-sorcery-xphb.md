@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/sorcerer/wild-magic
@@ -53,7 +54,7 @@ Your innate magic stems from the forces of chaos that underlie the order of crea
 
 ### Wild Magic Surge (Level 3)
 
-Your spellcasting can unleash surges of untamed magic. Once per turn, you can roll `d20` immediately after you cast a Sorcerer spell with a spell slot. If you roll a 20, roll on the Wild Magic Surge table to create a magical effect.
+Your spellcasting can unleash surges of untamed magic. Once per turn, you can roll `1d20` immediately after you cast a Sorcerer spell with a spell slot. If you roll a 20, roll on the Wild Magic Surge table to create a magical effect.
 
 If the magical effect is a spell, it is too wild to be affected by your Metamagic.
 
@@ -67,7 +68,7 @@ If you do cast a Sorcerer spell with a spell slot before you finish a [Long Rest
 
 ### Bend Luck (Level 6)
 
-You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the `d20` for a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) and spend 1 Sorcery Point to roll `d4` and apply the number rolled as a bonus or penalty (your choice) to the `d20` roll.
+You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the `d20` for a [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md), you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) and spend 1 Sorcery Point to roll `1d4` and apply the number rolled as a bonus or penalty (your choice) to the `d20` roll.
 
 ### Controlled Chaos (Level 14)
 

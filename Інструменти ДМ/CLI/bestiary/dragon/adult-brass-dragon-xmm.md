@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/13
@@ -22,7 +23,7 @@ Adult brass dragons know many secrets and have vast networks of contacts. These 
 *Dragons of Lore and Rapport*
 
 - **Habitat.** Desert  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Gregarious and outgoing, brass dragons relish sharing knowledge and stories. Although these metallic dragons favor arid lands, they cheerfully journey considerable distances to visit friendly creatures, pass on what they've learned, and collect news. Though good natured, brass dragons don't shirk from combat when necessary, thwarting foes with magical sleep and searing them with flame.
 
@@ -65,7 +66,8 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "fire"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "13"
 "traits":
@@ -76,24 +78,24 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
       \ use of (A) Sleep Breath or (B) Spellcasting to cast [Scorching Ray](Інстру\
       менти%20ДМ/CLI/spells/scorching-ray-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 17 (2d10 + 6) Slashing\
-      \ damage plus 4 (d8) Fire damage."
+  - "desc": "*Melee Attack Roll:* +11, reach 10 ft. *Hit:* 17 (2d10 + 6) Slashing\
+      \ damage plus 4 (1d8) Fire damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 60-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 45 (10d8) Fire damage. Success: Half damage."
+      \ *Failure:* 45 (10d8) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 5-6)"
-  - "desc": "Constitution Saving Throw: DC 18, each creature in a 60-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 18, each creature in a 60-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ The target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the end of its next turn, at which point it repeats the save.\
-      \ 2nd Failure: The target has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
+      \ *2Nd Failure:* The target has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition for 10 minutes. This effect ends for the target if it takes damage\
       \ or a creature within 5 feet of it takes an action to wake it."
     "name": "Sleep Breath"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Scorching\
       \ Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md), [Shapechange](Інс\
       трументи%20ДМ/CLI/spells/shapechange-xphb.md) (Beast or Humanoid form only,\
@@ -101,9 +103,25 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
       \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
       \ to maintain the spell), [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)\n\
-      \n1/day each: [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**1/day each:** [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [Control Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md)"
     "name": "Spellcasting"
+"regional_effects":
+  - "desc": "The area containing an adult or ancient brass dragon's lair is altered\
+      \ by its presence, creating the following effects:\n\n- **Mirages.** While in\
+      \ its lair, the dragon can cast [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md),\
+      \ requiring no Material components and using the same spellcasting ability as\
+      \ its Spellcasting action. When casting the spell this way, the spell's range\
+      \ is 1 mile, and the dragon doesn't need to see the spot where the illusion\
+      \ appears.  \n- **Refreshing Water.** Water within 1 mile of the lair is magically\
+      \ refreshing. A creature that drinks such water gains 2d4 [Temporary Hit Points](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md), and the\
+      \ dragon is immediately aware of the creature's presence.  \n\nIf the dragon\
+      \ dies or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the dragon can expend a use to take one of the following\
+  \ actions. The dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon uses Spellcasting to cast [Scorching Ray](Інструменти%20ДМ\
       /CLI/spells/scorching-ray-xphb.md)."
@@ -111,27 +129,12 @@ Brass dragons usually dwell in secret caves and canyons near well-traveled route
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."
     "name": "Pounce"
-  - "desc": "Dexterity Saving Throw: DC 16, one creature the dragon can see within\
-      \ 120 feet. Failure: 27 (6d8) Fire damage, and the target's [Speed](Інст\
+  - "desc": "*Dexterity Saving Throw:* DC 16, one creature the dragon can see within\
+      \ 120 feet. *Failure:* 27 (6d8) Fire damage, and the target's [Speed](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is halved until the end\
-      \ of its next turn. Failure or Success: The dragon can't take this action\
+      \ of its next turn. *Failure or Success:* The dragon can't take this action\
       \ again until the start of its next turn."
     "name": "Scorching Sands"
-"regional_effects":
-  - "desc": "The area containing an adult or ancient brass dragon's lair is altered\
-      \ by its presence, creating the following effects:"
-    "name": ""
-  - "desc": "- Mirages. While in its lair, the dragon can cast [Major Image](І\
-      нструменти%20ДМ/CLI/spells/major-image-xphb.md), requiring no Material components\
-      \ and using the same spellcasting ability as its Spellcasting action. When casting\
-      \ the spell this way, the spell's range is 1 mile, and the dragon doesn't need\
-      \ to see the spot where the illusion appears.  \n- Refreshing Water. Water\
-      \ within 1 mile of the lair is magically refreshing. A creature that drinks\
-      \ such water gains 2d4 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md),\
-      \ and the dragon is immediately aware of the creature's presence.  "
-    "name": ""
-  - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-brass-dragon-xmm.webp"

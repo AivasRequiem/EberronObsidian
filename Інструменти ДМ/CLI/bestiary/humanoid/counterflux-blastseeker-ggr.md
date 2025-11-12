@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/2
@@ -50,26 +51,26 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 14, +6 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [enlarge/reduce](Інс\
+      \ which doesn't function for others:\n\n**3/day each:** [enlarge/reduce](Інс\
       трументи%20ДМ/CLI/spells/enlarge-reduce-xphb.md), [mage armor](Інструменти%20Д\
       М/CLI/spells/mage-armor-xphb.md) (self only), [scorching ray](Інструменти%20Д\
-      М/CLI/spells/scorching-ray-xphb.md)\n\n1/day each: [counterspell](Інстру\
+      М/CLI/spells/scorching-ray-xphb.md)\n\n**1/day each:** [counterspell](Інстру\
       менти%20ДМ/CLI/spells/counterspell-xphb.md), [dispel magic](Інструменти%20ДМ\
       /CLI/spells/dispel-magic-xphb.md), [protection from energy](Інструменти%20ДМ\
       /CLI/spells/protection-from-energy-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The blastseeker can create an additional effect immediately after casting\
-      \ a spell. Roll a d6 to determine the effect:\n\n- 1–3.. The blastseeker\
+      \ a spell. Roll a d6 to determine the effect:\n\n- **1–3..** The blastseeker\
       \ creates a 15-foot-radius [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\
       \ sphere centered on itself that lasts until the end of its next turn. Creatures\
       \ in the sphere have disadvantage on saving throws against spells and other\
-      \ magical effects.  \n- 4–6.. The blastseeker creates a 15-foot-radius [invisible](І\
+      \ magical effects.  \n- **4–6..** The blastseeker creates a 15-foot-radius [invisible](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Invisible) sphere centered on itself\
       \ that lasts until the end of its next turn. Creatures in the sphere have advantage\
       \ on saving throws against spells and other magical effects.  "
     "name": "Counterflux Overcast (Recharge 5-6)"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Rapier"
 "source":

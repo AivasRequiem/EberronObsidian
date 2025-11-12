@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -48,7 +49,8 @@ The congealed blood of a dragon given mobility and hunger, the ooze tries to sha
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Grappled), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft. (blind\
+  \ beyond this radius), passive Perception 14"
 "languages": "understands Draconic and the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -61,7 +63,7 @@ The congealed blood of a dragon given mobility and hunger, the ooze tries to sha
   - "desc": "The ooze makes two Pseudopod attacks. The ooze can replace one Pseudopod\
       \ attack with its Slime Breath, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target\
       \ is a Large or smaller creature, it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage\

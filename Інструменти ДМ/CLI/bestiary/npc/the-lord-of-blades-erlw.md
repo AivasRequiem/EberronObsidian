@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/18
@@ -65,22 +66,22 @@ The Lord of Blades doesn't require air, food, drink, or sleep.
 "traits":
   - "desc": "The Lord of Blades is a 20th-level spellcaster. His spellcasting ability\
       \ is Intelligence (spell save DC 18, +10 to hit with spell attacks). He has\
-      \ the following artificer spells prepared:\n\nCantrips (at will): [fire\
+      \ the following artificer spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md) (see \"Actions\" below),\
       \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [mending](Інст\
       рументи%20ДМ/CLI/spells/mending-xphb.md), [prestidigitation](Інструменти%20Д\
-      М/CLI/spells/prestidigitation-xphb.md)\n\n1st level (4 slots): [expeditious\
+      М/CLI/spells/prestidigitation-xphb.md)\n\n**1st level (4 slots):** [expeditious\
       \ retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md), [sanctuary](І\
       нструменти%20ДМ/CLI/spells/sanctuary-xphb.md), [thunderwave](Інструменти%20Д\
-      М/CLI/spells/thunderwave-xphb.md)\n\n2nd level (3 slots): [blur](Інструм\
+      М/CLI/spells/thunderwave-xphb.md)\n\n**2nd level (3 slots):** [blur](Інструм\
       енти%20ДМ/CLI/spells/blur-xphb.md), [heat metal](Інструменти%20ДМ/CLI/spells/heat-metal-xphb.md),\
       \ [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md), [see invisibility](І\
-      нструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)\n\n3rd level (3 slots):\
+      нструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)\n\n**3rd level (3 slots):**\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [fly](Ін\
       струменти%20ДМ/CLI/spells/fly-xphb.md), [haste](Інструменти%20ДМ/CLI/spells/haste-xphb.md)\n\
-      \n4th level (3 slots): [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md),\
+      \n**4th level (3 slots):** [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md),\
       \ [Mordenkainen's faithful hound](Інструменти%20ДМ/CLI/spells/mordenkainens-faithful-hound-xphb.md)\n\
-      \n5th level (2 slots): [animate objects](Інструменти%20ДМ/CLI/spells/animate-objects-xphb.md),\
+      \n**5th level (2 slots):** [animate objects](Інструменти%20ДМ/CLI/spells/animate-objects-xphb.md),\
       \ [wall of force](Інструменти%20ДМ/CLI/spells/wall-of-force-xphb.md)"
     "name": "Spellcasting"
   - "desc": "Any critical hit against the Lord of Blades becomes a normal hit."
@@ -105,15 +106,18 @@ The Lord of Blades doesn't require air, food, drink, or sleep.
   - "desc": "The Lord of Blades makes three attacks: two with his adamantine sixblade\
       \ and one with his bladed wings."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d10 + 5) slashing damage plus 7 (2d6) force damage."
     "name": "Adamantine Sixblade"
-  - "desc": "Melee  or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 8 (1d6 + 5) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +11 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
     "name": "Bladed Wings"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one target. *Hit:*\
       \ 22 (4d10) fire damage."
     "name": "Fire Bolt (Cantrip)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, The Lord of Blades can expend a use to take one of the following actions.\
+  \ The Lord of Blades regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The Lord of Blades makes one weapon attack."
     "name": "Attack"

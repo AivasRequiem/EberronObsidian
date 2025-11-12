@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -60,7 +61,7 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes two Silver Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical\
       \ hit against a target in an astral body (as with the [astral projection](Ін\
       струменти%20ДМ/CLI/spells/astral-projection-xphb.md) spell), the githyanki can\
@@ -69,10 +70,10 @@ Githyanki descend from an ancient people who were also the progenitors of githze
     "name": "Silver Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
-      \ hand is invisible)\n\n3/day each: [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
+      \ hand is invisible)\n\n**3/day each:** [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\
       \ (self only), [nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md)\
-      \ (self only)\n\n1/day each: [Bigby's hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md),\
+      \ (self only)\n\n**1/day each:** [Bigby's hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md),\
       \ [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [plane\
       \ shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [telekinesis](Інс\
       трументи%20ДМ/CLI/spells/telekinesis-xphb.md)"
@@ -86,6 +87,10 @@ Githyanki descend from an ancient people who were also the progenitors of githze
       \ it. To do so, the githyanki must see the attacker and be wielding a melee\
       \ weapon."
     "name": "Parry"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the githyanki supreme commander can expend a use to take one of the following\
+  \ actions. The githyanki supreme commander regains all expended uses at the start\
+  \ of each of its turns."
 "legendary_actions":
   - "desc": "The githyanki targets one ally it can see within 30 feet of it. If the\
       \ target can see or hear the githyanki, the target can make one melee weapon\

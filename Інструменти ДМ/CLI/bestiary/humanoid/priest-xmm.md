@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -22,15 +23,13 @@ Priests draw on their beliefs to heal the needful and smite their foes. They can
 *Arbiters of the Mortal and the Divine*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Priests harness the power of faith to work miracles. These religious adherents are as diverse as the faiths they follow. Some obey gods and their servants, while others live by age-old creeds. Belief guides priests' actions and their magic, which they use to shape the world in line with their ideologies.
 
 Roll on or choose a result from the Priest Roles table to inspire different sorts of priests.
 
 **Priest Roles**
-
-`dice: [](priest-xmm.md#^priest-roles)`
 
 | dice: 1d10 | The Priest Is... |
 |------------|------------------|
@@ -82,14 +81,14 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The priest makes two attacks, using Mace or Radiant Flame in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Bludgeoning\
       \ damage plus 5 (2d4) Radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Attack Roll: +5, range 60 ft. Hit: 11 (2d10) Radiant damage."
+  - "desc": "*Ranged Attack Roll:* +5, range 60 ft. *Hit:* 11 (2d10) Radiant damage."
     "name": "Radiant Flame"
   - "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability:\n\nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day:\
+      \ ability:\n\n**At will:** [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day:**\
       \ [Spirit Guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

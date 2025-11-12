@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -40,14 +41,15 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "blindsight 30 ft., passive Perception 9"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "0"
 "traits":
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 1 Bludgeoning damage."
     "name": "Claw"
 "source":
   - "XMM"

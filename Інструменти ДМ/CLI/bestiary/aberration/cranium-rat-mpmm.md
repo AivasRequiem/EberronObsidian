@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/0
@@ -39,7 +40,8 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
   - !!int "11"
   - !!int "8"
 "speed": "30 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 10"
 "languages": "telepathy 30 ft."
 "cr": "0"
 "traits":
@@ -47,7 +49,7 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
       \ or read its thoughts, as well as to all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "bonus_actions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -22,15 +23,13 @@ Mages are accomplished spellcasters whose lives have been shaped by magic. They 
 *Magical Scholars and Spellcasters*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Mages are magical wonder-workers, ranging from spellcasting overlords to reclusive witches. They study mystical secrets and possess insight into monsters, legends, omens, and other lore. Mages often gather allies or hire assistants to aid them in their research or to attain magical might.
 
 Roll on or choose a result from the Mage Roles table to inspire different sorts of mages.
 
 **Mage Roles**
-
-`dice: [](mage-xmm.md#^mage-roles)`
 
 | dice: 1d10 | The Mage Is... |
 |------------|----------------|
@@ -85,17 +84,17 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "actions":
   - "desc": "The mage makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +6, reach 5 ft. or range 120 ft. *Hit:*\
       \ 16 (3d8 + 3) Force damage."
     "name": "Arcane Burst"
   - "desc": "The mage casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [Detect Magic](Ін\
+      \ spellcasting ability (spell save DC 14):\n\n**At will:** [Detect Magic](Ін\
       струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
       \ [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in\
       \ AC), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fireball](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [Fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 4 version), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n1/day each: [Cone of\
+      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n**1/day each:** [Cone of\
       \ Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md), [Fly](Інструменти\
       %20ДМ/CLI/spells/fly-xphb.md)"
     "name": "Spellcasting"

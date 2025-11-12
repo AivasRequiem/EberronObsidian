@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -42,7 +43,8 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - "dexterity": !!int "4"
   - "constitution": !!int "8"
   - "wisdom": !!int "4"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Giant"
 "cr": "6"
 "traits":
@@ -56,11 +58,11 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "actions":
   - "desc": "The giant makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit,\
       \ it rolls the damage dice three times, instead of twice."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
 "source":

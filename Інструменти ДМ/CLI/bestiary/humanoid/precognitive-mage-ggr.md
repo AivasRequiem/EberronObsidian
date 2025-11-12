@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/3
@@ -41,19 +42,20 @@ Precognitive mages, a rarity among Azorius spellcasters, are capable of capturin
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "truesight 120 ft., passive Perception 13"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 13"
 "languages": "Common plus any one language"
 "cr": "3"
 "traits":
   - "desc": "The mage's innate spellcasting ability is Intelligence (spell save DC\
       \ 14). It can cast the following spells, requiring no material components:\n\
-      \n3/day: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\n\n1/day each:\
+      \n**3/day:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\n\n**1/day each:**\
       \ [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [locate\
       \ object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md)"
     "name": "Innate Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"

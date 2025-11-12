@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -11,13 +12,13 @@ tags:
 - ttrpg-cli/spell/subclass/archfey-patron
 - ttrpg-cli/spell/subclass/gloom-stalker
 - ttrpg-cli/spell/subclass/illusionist
-- ttrpg-cli/spell/subclass/the-genie
+- ttrpg-cli/spell/subclass/the-genie/djinni
 classes:
 - Bard
 - Ranger (Gloom Stalker)
 - Sorcerer
 - Warlock (Archfey Patron)
-- Warlock (The Genie)
+- Warlock (The Genie, Djinni)
 - Wizard
 - Wizard (Illusionist)
 aliases:
@@ -40,6 +41,6 @@ The changes wrought by this spell fail to hold up to physical inspection. For ex
 
 A creature that takes the [Study](Інструменти%20ДМ/CLI/rules/actions.md#Study) action to examine a target can make an Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
 
-**Classes**: [Ranger (Gloom Stalker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-gloom-stalker-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (Archfey Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-archfey-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Ranger (Gloom Stalker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-gloom-stalker-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (Archfey Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-archfey-patron-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (The Genie, Djinni)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Wizard (Illusionist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-illusionist-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 314. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

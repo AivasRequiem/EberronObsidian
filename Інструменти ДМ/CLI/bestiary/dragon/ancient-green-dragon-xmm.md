@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/22
@@ -22,7 +23,7 @@ Ancient green dragons are creatures of legend, rarely seen by their servants or 
 *Dragons of Deceit and Derision*
 
 - **Habitat.** Forest  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 From forbidden forest depths, green dragons whisper evils into the world and manipulate the lives of those who listen. Elusive, conniving, and egotistical, these chromatic dragons patiently prey on the fears of shorter-lived beings, corrupting and isolating them. Green dragons might lurk amid labyrinthine wildernesses for centuries without revealing themselves; even their most devoted followers might know them only as the voice of the woodlands or a whisper in their dreams.
 
@@ -64,7 +65,8 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
     "desc": "+8"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 27"
 "languages": "Common, Draconic"
 "cr": "22"
 "traits":
@@ -77,49 +79,50 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
       \ use of Spellcasting to cast [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)\
       \ (level 5 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing\
+  - "desc": "*Melee Attack Roll:* +15, reach 15 ft. *Hit:* 17 (2d8 + 8) Slashing\
       \ damage plus 10 (3d6) Poison damage."
     "name": "Rend"
-  - "desc": "Constitution Saving Throw: DC 22, each creature in a 90-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 77 (22d6) Poison damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 22, each creature in a 90-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 77 (22d6) Poison damage. *Success:* Half damage."
     "name": "Poison Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md) (level 5 version)\n\
-      \n1/day each: [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md), [Modify\
+      \n**1/day each:** [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md), [Modify\
       \ Memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md)"
     "name": "Spellcasting"
+"regional_effects":
+  - "desc": "The region containing an adult or ancient green dragon's lair is warped\
+      \ by its presence, creating the following effects:\n\n- **Beast Spies.** Tiny\
+      \ Beasts magically gain the ability to understand Draconic and can communicate\
+      \ telepathically with the dragon while within 1 mile of the lair.  \n- **Poisonous\
+      \ Thicket.** Ordinary plants growing within 1 mile of the lair poison the air\
+      \ around them. Whenever a creature other than the dragon or its allies finishes\
+      \ a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
+      \ in that area, it must succeed on a DC 15 Constitution saving throw or have\
+      \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
+      \ for 1 hour.  \n\nIf the dragon dies or moves its lair elsewhere, these effects\
+      \ end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the dragon can expend a use to take one of the following\
+  \ actions. The dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon uses Spellcasting to cast [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)\
       \ (level 5 version)."
     "name": "Mind Invasion"
-  - "desc": "Constitution Saving Throw: DC 21, each creature in a 30-foot-radius\
+  - "desc": "*Constitution Saving Throw:* DC 21, each creature in a 30-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the dragon can see within 90 feet. Failure: 17 (5d6)\
+      \ centered on a point the dragon can see within 90 feet. *Failure:* 17 (5d6)\
       \ Poison damage, and the target takes a -2 penalty to AC until the end of its\
-      \ next turn. Failure or Success: The dragon can't take this action again until\
+      \ next turn. *Failure or Success:* The dragon can't take this action again until\
       \ the start of its next turn."
     "name": "Noxious Miasma"
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."
     "name": "Pounce"
-"regional_effects":
-  - "desc": "The region containing an adult or ancient green dragon's lair is warped\
-      \ by its presence, creating the following effects:"
-    "name": ""
-  - "desc": "- Beast Spies. Tiny Beasts magically gain the ability to understand\
-      \ Draconic and can communicate telepathically with the dragon while within 1\
-      \ mile of the lair.  \n- Poisonous Thicket. Ordinary plants growing within\
-      \ 1 mile of the lair poison the air around them. Whenever a creature other than\
-      \ the dragon or its allies finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
-      \ in that area, it must succeed on a DC 15 Constitution saving throw or have\
-      \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
-      \ for 1 hour.  "
-    "name": ""
-  - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/ancient-green-dragon-xmm.webp"

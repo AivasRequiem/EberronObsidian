@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -57,7 +58,8 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "damage_immunities": "fire, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Aquan, Ignan)"
 "cr": "1/4"
 "traits":
@@ -66,20 +68,20 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
       \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition."
     "name": "Blurred Form"
-  - "desc": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each\
+  - "desc": "The mephit explodes when it dies. *Dexterity Saving Throw:* DC 10, each\
       \ creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: 5 (2d4) Fire damage. Success:\
+      \ originating from the mephit. *Failure:* 5 (2d4) Fire damage. *Success:*\
       \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (d4) Slashing damage\
-      \ plus 2 (d4) Fire damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 2 (1d4) Slashing damage\
+      \ plus 2 (1d4) Fire damage."
     "name": "Claw"
-  - "desc": "Constitution Saving Throw: DC 10, each creature in a 15-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 10, each creature in a 15-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ 5 (2d4) Fire damage, and the target's [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ decreases by 10 feet until the end of the mephit's next turn. Success: Half\
-      \ damage only. Failure or Success: Being underwater doesn't grant [Resistance](І\
+      \ decreases by 10 feet until the end of the mephit's next turn. *Success:* Half\
+      \ damage only. *Failure or Success:* Being underwater doesn't grant [Resistance](І\
       нструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to this Fire damage."
     "name": "Steam Breath (Recharge 6)"
 "source":

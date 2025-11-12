@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 232* 
 
 **Thelanis Manifest Zone Features**
-
-`dice: [](thelanis-the-faerie-court-thelanis-manifest-zone-features-erlw.md#^thelanis-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

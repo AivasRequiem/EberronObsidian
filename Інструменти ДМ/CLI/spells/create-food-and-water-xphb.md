@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/artificer
@@ -10,7 +11,8 @@ tags:
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/college-of-lore
-- ttrpg-cli/spell/subclass/the-genie
+- ttrpg-cli/spell/subclass/divine-soul/good
+- ttrpg-cli/spell/subclass/the-genie/dao
 - ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
 - Artificer
@@ -18,7 +20,8 @@ classes:
 - Bard (College of Lore)
 - Cleric
 - Paladin
-- Warlock (The Genie)
+- Sorcerer (Divine Soul, Good)
+- Warlock (The Genie, Dao)
 aliases:
 - Create Food and Water
 ---
@@ -33,6 +36,6 @@ aliases:
 
 You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.
 
-**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Warlock (The Genie)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB"); [Warlock (The Genie, Dao)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 258. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 86* 
 
 **NPC Secrets**
-
-`dice: [](npc-secrets-xdmg.md#^npc-secrets)`
 
 | dice: 1d10 | Secret |
 |------------|--------|

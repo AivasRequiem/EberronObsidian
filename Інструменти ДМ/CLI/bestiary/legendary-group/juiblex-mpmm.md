@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Juiblex
 
-## Lair actions
+## Lair Actions
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 On initiative count 20 (losing initiative ties), Juiblex can take one of the following lair actions; it can't take the same lair action two rounds in a row:
@@ -22,7 +23,7 @@ On initiative count 20 (losing initiative ties), Juiblex can take one of the fol
 
     A [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) creature is stuck as long as it remains in the slimy area or until it breaks free. The [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) creature, or another creature that can reach it, can use its action to try to break free and must succeed on a DC 21 Strength check. The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 (`4d10`) fire damage.  
 
-## Regional effects
+## Regional Effects
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 The region containing Juiblex's lair is warped by its magic, creating one or more of the following effects:
@@ -31,4 +32,4 @@ The region containing Juiblex's lair is warped by its magic, creating one or mor
 - **Corrupted Nature.** Within 6 miles of the lair, all Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) and Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) checks have disadvantage.  
 - **Slime.** Surfaces within 6 miles of the lair are frequently covered by a thin film of slime, which is slick and sticks to anything that touches it.  
 
-If Juiblex dies, these effects fade over the course of `d10` days.
+If Juiblex dies, these effects fade over the course of `1d10` days.

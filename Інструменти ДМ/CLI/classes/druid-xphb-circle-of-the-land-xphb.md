@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/druid/land
@@ -99,7 +100,7 @@ Whenever you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/varian
 
 As a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point. Each creature of your choice in the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) must make a Constitution saving throw against your spell save DC, taking `2d6` Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains `2d6` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).
 
-The damage and healing increase by `d6` when you reach Druid levels 10 (`3d6`) and 14 (`4d6`).
+The damage and healing increase by `1d6` when you reach Druid levels 10 (`3d6`) and 14 (`4d6`).
 
 ### Natural Recovery (Level 6)
 

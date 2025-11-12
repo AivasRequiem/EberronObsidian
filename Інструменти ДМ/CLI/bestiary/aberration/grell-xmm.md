@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -29,8 +30,6 @@ Grells are sapient beings, but their intellects and motivations are alien to mos
 Many grells pursue methods of traveling between worlds and planes of existence. They sometimes slip onto star-faring vessels or enter portals heedless of their destination. Roll on or choose a result from the Grell Explorations table to inspire why grells seek passage between realms.
 
 **Grell Explorations**
-
-`dice: [](grell-xmm.md#^grell-explorations)`
 
 | dice: 1d6 | Grells Travel Because They Are... |
 |-----------|-----------------------------------|
@@ -72,7 +71,8 @@ Many grells pursue methods of traveling between worlds and planes of existence. 
 "damage_immunities": "lightning"
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 14"
 "languages": "Deep Speech"
 "cr": "3"
 "traits":
@@ -81,14 +81,14 @@ Many grells pursue methods of traveling between worlds and planes of existence. 
 "actions":
   - "desc": "The grell makes one Beak attack and one Paralyzing Tentacles attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 11 (2d8 + 2) Piercing\
       \ damage."
     "name": "Beak"
-  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 7 (1d10 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 10 ft. *Hit:* 7 (1d10 + 2) Piercing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12) from\
       \ two of ten tentacles. The target is also subjected to the following effect.\
-      \ Constitution Saving Throw: DC 11. Failure: The target has the [Poisoned](І\
+      \ *Constitution Saving Throw:* DC 11. *Failure:* The target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition and repeats the\
       \ save at the end of each of its turns, ending the effect on itself on a success.\
       \ After 1 minute, it succeeds automatically. While [Poisoned](Інструменти%20Д\

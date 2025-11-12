@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -48,27 +49,28 @@ Owing to their draconic instincts, chimeras are greedy creatures that hoard trea
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+8"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 18"
 "languages": "understands Draconic but can't speak"
 "cr": "6"
 "actions":
   - "desc": "The chimera makes one Ram attack, one Bite attack, and one Claw attack.\
       \ It can replace the Claw attack with a use of Fire Breath if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing\
       \ damage, or 18 (4d6 + 4) Piercing damage if the chimera had [Advantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the attack roll."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 7 (1d6 + 4) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 10 (1d12 + 4) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Ram"
-  - "desc": "Dexterity Saving Throw: DC 15, each creature in a 15-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 31 (7d8) Fire damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 15, each creature in a 15-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 31 (7d8) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

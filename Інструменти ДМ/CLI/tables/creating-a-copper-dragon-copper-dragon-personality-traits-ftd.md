@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 99* 
 
 **Copper Dragon Personality Traits**
-
-`dice: [](creating-a-copper-dragon-copper-dragon-personality-traits-ftd.md#^copper-dragon-personality-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|

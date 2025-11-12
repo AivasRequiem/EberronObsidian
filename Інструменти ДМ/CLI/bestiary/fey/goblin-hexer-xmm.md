@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -28,7 +29,7 @@ Goblin hexers use flashy and disruptive magic. Many goblin hexers are theatrical
 *Wild Tricksters and Troublemakers*
 
 - **Habitat.** Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Goblins are Feywild embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better. Goblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.
 
@@ -64,25 +65,26 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
     "desc": "+5"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common, Goblin"
 "cr": "3"
 "actions":
   - "desc": "The goblin makes two Hex Stick attacks. It can replace one attack with\
       \ a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 60 ft. *Hit:*\
       \ 12 (2d8 + 3) Psychic damage."
     "name": "Hex Stick"
   - "desc": "The goblin casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 13):\n\nAt will: [Minor Illusion](І\
-      нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n1/day each: [Blindness/Deafness](І\
+      \ spellcasting ability (spell save DC 13):\n\n**At will:** [Minor Illusion](І\
+      нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**1/day each:** [Blindness/Deafness](І\
       нструменти%20ДМ/CLI/spells/blindness-deafness-xphb.md), [Faerie Fire](Інстру\
       менти%20ДМ/CLI/spells/faerie-fire-xphb.md), [Grease](Інструменти%20ДМ/CLI/spells/grease-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "Trigger: A creature the goblin can see hits it with an attack roll. _Response—\
-      _Wisdom Saving Throw: DC 13, the triggering creature. Failure: The attack\
+      _*Wisdom Saving Throw:* DC 13, the triggering creature. *Failure:* The attack\
       \ misses instead."
     "name": "Jinx"
 "source":

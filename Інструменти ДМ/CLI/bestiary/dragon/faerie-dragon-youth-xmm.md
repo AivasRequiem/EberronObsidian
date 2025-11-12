@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -22,7 +23,7 @@ Faerie dragon youths are quick to use their euphoria-inducing breath on rude or 
 *Whimsical Draconic Tricksters*
 
 - **Habitat.** Forest  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Faerie dragons are cat-size pranksters with draconic features, butterfly-like wings, and scales of warm hues as youths and cool hues as adults.
 
@@ -50,7 +51,8 @@ Faerie dragons are cat-size pranksters with draconic features, butterfly-like wi
     "desc": "+3"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)"
 "cr": "1"
 "traits":
@@ -58,18 +60,18 @@ Faerie dragons are cat-size pranksters with draconic features, butterfly-like wi
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
-      \ damage plus 2 (d4) Psychic damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Piercing\
+      \ damage plus 2 (1d4) Psychic damage."
     "name": "Bite"
-  - "desc": "Wisdom Saving Throw: DC 12, each creature in a 15-foot [Cone](Інстр\
-      ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Wisdom Saving Throw:* DC 12, each creature in a 15-foot [Cone](Інстр\
+      ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ The target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition until the end of its next turn and uses all its movement on its\
       \ turn to move in a random direction."
     "name": "Euphoria Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
-      \ will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\n**At\
+      \ will:** [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor Illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)"
     "name": "Spellcasting"

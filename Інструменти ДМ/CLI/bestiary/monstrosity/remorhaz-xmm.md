@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -44,7 +45,8 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
   - !!int "5"
 "speed": "40 ft., burrow 30 ft."
 "damage_immunities": "cold, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., Tremorsense\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "11"
 "traits":
@@ -53,16 +55,16 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
       \ originating from the remorhaz takes 16 (3d10) Fire damage."
     "name": "Heat Aura"
 "actions":
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 18 (2d10 + 7) Piercing\
+  - "desc": "*Melee Attack Roll:* +11, reach 10 ft. *Hit:* 18 (2d10 + 7) Piercing\
       \ damage plus 14 (4d6) Fire damage. If the target is a Large or smaller creature,\
       \ it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 17), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Bite"
 "bonus_actions":
-  - "desc": "Strength Saving Throw: DC 19, one Large or smaller creature [Grappled](І\
+  - "desc": "*Strength Saving Throw:* DC 19, one Large or smaller creature [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the remorhaz (it can have\
-      \ up to two creatures swallowed at a time). Failure: The target is swallowed\
+      \ up to two creatures swallowed at a time). *Failure:* The target is swallowed\
       \ by the remorhaz, and the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\

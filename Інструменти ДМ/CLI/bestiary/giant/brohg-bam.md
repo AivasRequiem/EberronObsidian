@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/6
@@ -49,10 +50,10 @@ B'rohgs are accustomed to eking out a meager existence in their natural habitat,
 "actions":
   - "desc": "The b'rohg makes four Fist attacks or two Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 60/240 ft., one target. *Hit:*\
       \ 23 (4d8 + 5) bludgeoning damage."
     "name": "Rock"
   - "desc": "The b'rohg uses all four of its hands to target one Large or smaller\

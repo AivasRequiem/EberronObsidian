@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -49,7 +50,8 @@ Choldriths are born with a mystical connection to Lolth, which gives them divine
     "desc": "+2"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
@@ -70,21 +72,21 @@ Choldriths are born with a mystical connection to Lolth, which gives them divine
   - "desc": "The choldrith ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 10 (3d6) poison\
       \ damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller\
-      \ creature. Hit: The target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one Large or smaller\
+      \ creature. *Hit:* The target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 11 Strength check, bursting the webbing on a success.\
       \ The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability\
       \ to fire damage; immunity to bludgeoning, poison, and psychic damage)."
     "name": "Web (Recharge 5-6)"
   - "desc": "The choldrith casts one of the following spells, using Wisdom as the\
-      \ spellcasting ability (spell save DC 12):\n\nAt will: [guidance](Інстру\
+      \ spellcasting ability (spell save DC 12):\n\n**At will:** [guidance](Інстру\
       менти%20ДМ/CLI/spells/guidance-xphb.md), [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n1/day each: [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md), [hold person](І\
+      \n**1/day each:** [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md), [hold person](І\
       нструменти%20ДМ/CLI/spells/hold-person-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

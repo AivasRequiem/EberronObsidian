@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,6 +17,6 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase your Strength score by 1, to a maximum of 20.
 
-**Heavy Weapon Mastery.** When you hit a creature with a weapon that has the Heavy property as part of the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.
+**Heavy Weapon Mastery.** When you hit a creature with a weapon that has the [Heavy](Інструменти%20ДМ/CLI/rules/item-properties.md#Heavy) property as part of the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md).
 
-**Hew.** Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.
+**Hew.** Immediately after you score a [Critical Hit](Інструменти%20ДМ/CLI/rules/variant-rules/critical-hit-xphb.md) with a Melee weapon or reduce a creature to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) with one, you can make one attack with the same weapon as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md).

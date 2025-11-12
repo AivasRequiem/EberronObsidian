@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Topaz Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the dragon can take one of the 
 - **Cancellation.** The dragon chooses an active spell of 5th level or lower that it's aware of in the lair and ends the spell.  
 - **Negative Energy Infusion.** Up to two creatures the dragon can see within the lair must each succeed on a DC 15 Constitution saving throw or take 14 (`4d6`) necrotic damage. Negative energy then infuses the lair until initiative count 20 on the next round. While the infusion lasts, creatures in the lair other than the dragon can't regain hit points.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 The region surrounding a legendary topaz dragon's lair is altered by the dragon's magic, creating one or more of the following effects:
@@ -28,4 +29,4 @@ The region surrounding a legendary topaz dragon's lair is altered by the dragon'
 - **Thriving Wildlife.** Giant squid are attracted to the sea within 6 miles of the lair, migrating and hunting there in large numbers.  
 - **Watery Sight.** Water within 6 miles of the lair is a conduit for the dragon's psionic presence. As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md) spell, requiring no spell components and targeting any body of water in that region.  
 
-If the dragon dies, the population of giant squid in the region returns to normal levels over the course of `d10` days. The existing abundance of crystals and topazes remains, but new ones form at a normal rate.
+If the dragon dies, the population of giant squid in the region returns to normal levels over the course of `1d10` days. The existing abundance of crystals and topazes remains, but new ones form at a normal rate.

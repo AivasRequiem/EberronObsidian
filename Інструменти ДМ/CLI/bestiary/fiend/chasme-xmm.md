@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -21,7 +22,7 @@ aliases:
 *Demon of Betrayal and Sycophancy*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitate foes by producing a mind-numbing droning, then use their proboscises to drain victims of life. In the Abyss, most chasmes obsequiously serve more powerful demons and search for captives to press into demonic hordes.
 
@@ -52,7 +53,8 @@ Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitat
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 15"
 "languages": "Abyssal; telepathy 120 ft."
 "cr": "6"
 "traits":
@@ -67,20 +69,20 @@ Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitat
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (4d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 16 (4d6 + 2) Piercing\
       \ damage plus 21 (6d6) Necrotic damage. If the target is a creature, its [Hit\
       \ Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum\
       \ decreases by an amount equal to the Necrotic damage taken."
     "name": "Proboscis"
 "bonus_actions":
-  - "desc": "Constitution Saving Throw: DC 12, each creature in a 30-foot [Emanation](І\
+  - "desc": "*Constitution Saving Throw:* DC 12, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the chasme (demons automatically succeed on this save). Failure: The\
+      \ from the chasme (demons automatically succeed on this save). *Failure:* The\
       \ target has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition and repeats the save at the end of each of its turns. The target\
       \ succeeds automatically after 10 minutes or if it takes damage or a creature\
       \ within 5 feet of it takes an action to empty a flask of Holy Water on it.\
-      \ Success: The target is immune to this chasme's Drone for 24 hours."
+      \ *Success:* The target is immune to this chasme's Drone for 24 hours."
     "name": "Drone"
 "source":
   - "XMM"

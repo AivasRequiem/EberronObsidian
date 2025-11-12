@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/8
@@ -65,7 +66,8 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
     "desc": "+7"
   - "name": "[Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Celestial, Common, Draconic, Elvish"
 "cr": "8"
 "traits":
@@ -80,7 +82,7 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "actions":
   - "desc": "The elf makes two Scimitar attacks and uses Radiant Beam (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage plus 10 (3d6) radiant damage."
     "name": "Scimitar"
   - "desc": "A magical beam of radiance flashes out from the elf's hand in a 5-foot-wide,\
@@ -89,7 +91,7 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
       \ much damage on a successful one."
     "name": "Radiant Beam (3/Day)"
   - "desc": "The elf casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability:\n\n1/day each: [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
+      \ spellcasting ability:\n\n**1/day each:** [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [mislead](Інструменти%20ДМ/CLI/spells/mislead-xphb.md), [sending](Інструме\
       нти%20ДМ/CLI/spells/sending-xphb.md)"
     "name": "Spellcasting"

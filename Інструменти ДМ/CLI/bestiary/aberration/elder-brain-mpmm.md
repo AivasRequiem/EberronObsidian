@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -66,7 +67,8 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
     "desc": "+12"
   - "name": "[Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)"
     "desc": "+12"
-"senses": "blindsight 120 ft., passive Perception 14"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft.,\
+  \ passive Perception 14"
 "languages": "understands Common, Deep Speech, and Undercommon but can't speak, telepathy\
   \ 5 miles"
 "cr": "14"
@@ -89,7 +91,7 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
       \ those creatures telepathically hear each other while connected in this way."
     "name": "Telepathic Hub"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 30 ft., one target. *Hit:*\
       \ 20 (4d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 15) and takes 9 (1d8 + 5) psychic damage at the start of each of its\
@@ -104,9 +106,9 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The elder brain casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 18):\n\nAt will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n3/day: [modify\
-      \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md)\n\n1/day each:\
+      \ DC 18):\n\n**At will:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n**3/day:** [modify\
+      \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md)\n\n**1/day each:**\
       \ [dominate monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md),\
       \ [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self only)"
     "name": "Spellcasting (Psionics)"
@@ -127,11 +129,44 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
       \ The elder brain gains insight into the target's emotional state and foremost\
       \ thoughts (including worries, loves, and hates)."
     "name": "Sense Thoughts"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), an elder brain can take\
+      \ one of the following lair actions; the elder brain can't take the same lair\
+      \ action two rounds in a row:\n\n- **Force Wall.** The elder brain casts [wall\
+      \ of force](Інструменти%20ДМ/CLI/spells/wall-of-force-xphb.md).  \n- **Psionic\
+      \ Anchor.** The elder brain targets one creature it can sense within 120 feet\
+      \ of it and anchors it by sheer force of will. The target must make a DC 18\
+      \ Charisma saving throw. On a failed save, its speed is reduced to 0, and it\
+      \ can't teleport. It can repeat the saving throw at the end of each of its turns,\
+      \ ending the effect on itself on a success.  \n- **Psychic Inspiration.** The\
+      \ elder brain targets one friendly creature it can sense within 120 feet of\
+      \ it. The target has a flash of inspiration and gains advantage on one attack\
+      \ roll, ability check, or saving throw it makes before the end of its next turn.\
+      \  "
+    "name": ""
+"regional_effects":
+  - "desc": "The territory within 5 miles of an elder brain is altered by the creature's\
+      \ psionic presence, which creates one or more of the following effects:\n\n\
+      - **Paranoia.** Creatures within 5 miles of an elder brain feel as if they are\
+      \ being followed, even when they're not.  \n- **Psychic Whispers.** Any creature\
+      \ with which the elder brain has formed a psychic link hears faint, incomprehensible\
+      \ whispers in the deepest recesses of its mind. This psychic detritus consists\
+      \ of the elder brain's stray thoughts commingled with those of other creatures\
+      \ to which it is linked.  \n- **Telepathic Eavesdropping.** The elder brain\
+      \ can overhear any telepathic conversation within 5 miles of it. The creature\
+      \ that initiated the telepathic conversation makes a DC 18 Wisdom saving throw\
+      \ when telepathic contact is first established. If the save is successful, the\
+      \ creature is aware that something is eavesdropping. The nature of the eavesdropper\
+      \ isn't revealed.  \n\nIf the elder brain dies, these effects immediately end."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the elder brain can expend a use to take one of the following actions. The\
+  \ elder brain regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The elder brain targets one creature within 120 feet of it with which\
       \ it has a psychic link. The elder brain breaks the creature's [concentration](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Concentration) on a spell it has cast.\
-      \ The creature also takes 2 (d4) psychic damage per level of the spell."
+      \ The creature also takes 2 (1d4) psychic damage per level of the spell."
     "name": "Break Concentration"
   - "desc": "The elder brain targets one creature within 120 feet of it with which\
       \ it has a psychic link. The target and enemies of the elder brain within 30\
@@ -144,40 +179,6 @@ An elder brain's ambitions are always tempered by its relative immobility. Altho
     "name": "Sever Psychic Link"
   - "desc": "The elder brain makes one Tentacle attack."
     "name": "Tentacle (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), an elder brain can take\
-      \ one of the following lair actions; the elder brain can't take the same lair\
-      \ action two rounds in a row:"
-    "name": ""
-  - "desc": "- Force Wall. The elder brain casts [wall of force](Інструменти%20Д\
-      М/CLI/spells/wall-of-force-xphb.md).  \n- Psionic Anchor. The elder brain\
-      \ targets one creature it can sense within 120 feet of it and anchors it by\
-      \ sheer force of will. The target must make a DC 18 Charisma saving throw. On\
-      \ a failed save, its speed is reduced to 0, and it can't teleport. It can repeat\
-      \ the saving throw at the end of each of its turns, ending the effect on itself\
-      \ on a success.  \n- Psychic Inspiration. The elder brain targets one friendly\
-      \ creature it can sense within 120 feet of it. The target has a flash of inspiration\
-      \ and gains advantage on one attack roll, ability check, or saving throw it\
-      \ makes before the end of its next turn.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The territory within 5 miles of an elder brain is altered by the creature's\
-      \ psionic presence, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Paranoia. Creatures within 5 miles of an elder brain feel as if\
-      \ they are being followed, even when they're not.  \n- Psychic Whispers.\
-      \ Any creature with which the elder brain has formed a psychic link hears faint,\
-      \ incomprehensible whispers in the deepest recesses of its mind. This psychic\
-      \ detritus consists of the elder brain's stray thoughts commingled with those\
-      \ of other creatures to which it is linked.  \n- Telepathic Eavesdropping.\
-      \ The elder brain can overhear any telepathic conversation within 5 miles of\
-      \ it. The creature that initiated the telepathic conversation makes a DC 18\
-      \ Wisdom saving throw when telepathic contact is first established. If the save\
-      \ is successful, the creature is aware that something is eavesdropping. The\
-      \ nature of the eavesdropper isn't revealed.  "
-    "name": ""
-  - "desc": "If the elder brain dies, these effects immediately end."
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/aberration/token/elder-brain-mpmm.webp"

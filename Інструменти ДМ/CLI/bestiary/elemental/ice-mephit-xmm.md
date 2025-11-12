@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -60,22 +61,23 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "damage_immunities": "cold, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Primordial (Aquan, Auran)"
 "cr": "1/2"
 "traits":
-  - "desc": "The mephit explodes when it dies. Constitution Saving Throw: DC 10,\
+  - "desc": "The mephit explodes when it dies. *Constitution Saving Throw:* DC 10,\
       \ each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: 5 (2d4) Cold damage. Success:\
+      \ originating from the mephit. *Failure:* 5 (2d4) Cold damage. *Success:*\
       \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing\
-      \ damage plus 2 (d4) Cold damage."
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 3 (1d4 + 1) Slashing\
+      \ damage plus 2 (1d4) Cold damage."
     "name": "Claw"
-  - "desc": "Constitution Saving Throw: DC 10, each creature in a 15-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 7 (3d4) Cold damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 10, each creature in a 15-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 7 (3d4) Cold damage. *Success:* Half damage."
     "name": "Frost Breath (Recharge 6)"
   - "desc": "The mephit casts [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md),\
       \ requiring no spell components and using Charisma as the spellcasting ability.\n"

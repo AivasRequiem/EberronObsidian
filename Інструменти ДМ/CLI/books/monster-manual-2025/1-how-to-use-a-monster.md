@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 aliases:
@@ -66,7 +67,7 @@ A monster's treasure entry specifies whether the monster hoards treasure and the
 
 - **Any.** The monster's treasure hoard can include monetary treasure and any kinds of magic items.  
 - **Individual.** The monster doesn't have a treasure hoard, but it might keep monetary treasure.  
-- **Treasure Theme (Arcana, Armaments, Implements, or Relics).** The monster's treasure hoard features magic items with the noted theme. The "Dungeon Master's Guide" details treasure hoards appropriate for each theme.  
+- **Treasure Theme ([Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), or [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)).** The monster's treasure hoard features magic items with the noted theme. The "Dungeon Master's Guide" details treasure hoards appropriate for each theme.  
 - **None.** The monster doesn't care about treasure. Any treasure the monster has is incidental.  
 
 Any treasure a monster has is in addition to equipment listed in the Gear entry of its stat block. The "Dungeon Master's Guide" provides more information on monster treasure.
@@ -292,5 +293,5 @@ The monster has a limited number of Legendary Action uses, and that number is sp
 Some parts of a stat block have restrictions on the number of times they can be used. Here are the most common ways that usage is limited:
 
 - **X/Day.** This notation means the stat block part can be used a certain number of times (represented by X) and that a monster must finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to regain expended uses. For example, a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) that includes "1/Day" means the [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) can be taken once and that the monster must finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to take it again.  
-- **Recharge X–Y.** This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll `d6`. If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). For example, "Recharge 5–6" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on `d6`.  
+- **Recharge X–Y.** This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll `1d6`. If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md). For example, "Recharge 5–6" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on `1d6`.  
 - **Recharge after a Short or Long Rest.** This notation means the monster can use the stat block part once and must then finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md) to use it again.

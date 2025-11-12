@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -49,7 +50,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 30 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -63,7 +65,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage,\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 6 (2d4 + 1) Poison damage,\
       \ or 3 (1d4 + 1) Poison damage if the swarm is [Bloodied](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Bloodied)."
     "name": "Bites"

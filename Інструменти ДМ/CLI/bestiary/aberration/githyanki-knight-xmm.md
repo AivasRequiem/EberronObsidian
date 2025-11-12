@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -23,7 +24,7 @@ Githyanki knights wield silver blades to slay magic-users who use the [Astral Pr
 *Invaders from the Astral Plane*
 
 - **Habitat.** Planar (Astral Plane)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Githyanki were once an ordinary people, but the deeds of a vile mind flayer empire etched conflict on their being. Gaunt, humanlike creatures, githyanki have serrated ears and speckled skin ranging through shades of yellow, green, and brown. While some githyanki follow their own paths, many are influenced by a past that forever altered their fates.
 
@@ -65,18 +66,18 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
       \ with a use of Spellcasting to cast [Telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
-      \ damage plus 14 (4d6) Psychic damage. Critical Hit: If the target is in\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
+      \ damage plus 14 (4d6) Psychic damage. Critical *Hit:* If the target is in\
       \ an astral body (as with the [Astral Projection](Інструменти%20ДМ/CLI/spells/astral-projection-xphb.md)\
       \ spell), the githyanki can cut the silvery cord that tethers the target to\
       \ its material body instead of dealing damage."
     "name": "Silver Sword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\
-      At will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
-      \ hand is Invisible)\n\n2/day each: [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md)\
-      \ (self only), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)\n\n1/day\
-      \ each: [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [Telekinesis](І\
+      **At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
+      \ hand is Invisible)\n\n**2/day each:** [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md)\
+      \ (self only), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)\n\n**1/day\
+      \ each:** [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [Telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

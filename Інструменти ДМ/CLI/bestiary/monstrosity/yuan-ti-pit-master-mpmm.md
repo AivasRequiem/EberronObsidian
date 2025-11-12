@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -50,7 +51,8 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Abyssal, Common, Draconic"
 "cr": "5"
 "traits":
@@ -63,10 +65,10 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
 "actions":
   - "desc": "The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 16 (3d8 + 3) poison damage."
     "name": "Spectral Fangs"
   - "desc": "The yuan-ti targets up to five creatures that it can see within 60 feet\
@@ -78,11 +80,11 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
     "name": "Merrshaulk's Slumber (1/Day)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \n**At will:** [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
       \ (snakes only), [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md), [mage\
       \ hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інструмент\
-      и%20ДМ/CLI/spells/message-xphb.md)\n\n3/day: [suggestion](Інструменти%20Д\
-      М/CLI/spells/suggestion-xphb.md)\n\n2/day each: [hold person](Інструмент\
+      и%20ДМ/CLI/spells/message-xphb.md)\n\n**3/day:** [suggestion](Інструменти%20Д\
+      М/CLI/spells/suggestion-xphb.md)\n\n**2/day each:** [hold person](Інструмент\
       и%20ДМ/CLI/spells/hold-person-xphb.md), [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)"
     "name": "Spellcasting (Yuan-ti Form Only)"
 "bonus_actions":

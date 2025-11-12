@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -30,8 +31,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 **Clockwork Enhancements**
 
-`dice: [](clockwork-oaken-bolter-mpmm.md#^clockwork-enhancements)`
-
 | dice: d10 | Enhancement |
 |-----------|-------------|
 | 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-oaken-bolter-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -86,7 +83,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -99,15 +97,15 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork makes two Lancing Bolt attacks or one Lancing Bolt attack\
       \ and one Harpoon attack."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 100/400\
-      \ ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 100/400\
+      \ ft., one target. *Hit:* 15 (2d10 + 4) piercing damage."
     "name": "Lancing Bolt"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 50/200 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 50/200 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 12). While [grappled](Інструм\
       енти%20ДМ/CLI/rules/conditions.md#Grappled) in this way, a creature's speed\
       \ isn't reduced, but it can move only in directions that bring it closer to\
-      \ the clockwork. A creature takes 5 (d10) slashing damage if it escapes from\
+      \ the clockwork. A creature takes 5 (1d10) slashing damage if it escapes from\
       \ the grapple or if it tries and fails. The clockwork can grapple only one creature\
       \ at a time with its harpoon."
     "name": "Harpoon"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -22,13 +23,11 @@ Empyrean iotas are the thoughts, memories, or indirect attentions of deities per
 *Scions of the Gods*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Empyreans are the spawn of deities. While not gods themselves, they possess divine influence and powers related to their divine parents. Some empyreans are near-demigods with fantastic might and the power to reshape mortal lives. Others are little more than divine thoughts or moments of immortal attention made manifest. Whether empyreans are idealized beings or vestiges of divinity, their appearances are influenced by their creators. Roll on or choose a result from the Empyrean Influences table to inspire what aspects of an empyrean's heritage manifest in its physical form.
 
 **Empyrean Influences**
-
-`dice: [](empyrean-iota-xmm.md#^empyrean-influences)`
 
 | dice: 1d6 | The Empyrean Has Features That Are... |
 |-----------|---------------------------------------|
@@ -71,23 +70,24 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
     "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing"
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "truesight 30 ft., passive Perception 15"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 30 ft., passive\
+  \ Perception 15"
 "languages": "all"
 "cr": "1"
 "traits":
   - "desc": "The empyrean can move through other creatures and objects as if they\
       \ were [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes 5 (1d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The empyrean has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 30 ft. *Hit:*\
       \ 7 (1d8 + 3) Necrotic or Radiant damage (empyrean's choice)."
     "name": "Otherworldly Strike"
   - "desc": "The empyrean casts one of the following spells, requiring no Material\
-      \ components and using Wisdom as the spellcasting ability:\n\n1/day each:\
+      \ components and using Wisdom as the spellcasting ability:\n\n**1/day each:**\
       \ [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [Lesser Restoration](І\
       нструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) (as an action)"
     "name": "Spellcasting"

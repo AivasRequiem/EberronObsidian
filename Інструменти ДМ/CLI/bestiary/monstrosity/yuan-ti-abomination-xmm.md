@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -27,7 +28,7 @@ The true threat of yuan-ti abominations stems not from their physical might but 
 *Power-Hungry Serpentine Conspirators*
 
 - **Habitat.** Desert, Forest, Swamp, Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Exploiting pacts with sinister supernatural forces, yuan-ti bargain away their humanity for the lethality and predatory deviousness of serpents. From hidden bastions, they manipulate rulers and the wealthy, seeking to control the world. Many yuan-ti possess venomous magic, which often manifests as fangs or striking serpents.
 
@@ -36,8 +37,6 @@ Yuan-ti have humanlike forms with a variety of horrifying serpentine transformat
 Yuan-ti might gain their reptilian features through dangerous supernatural rites. Roll on or choose a result from the Yuan-ti Transformations table to inspire how yuan-ti obtain their serpentine aspects.
 
 **Yuan-ti Transformations**
-
-`dice: [](yuan-ti-abomination-xmm.md#^yuan-ti-transformations)`
 
 | dice: 1d6 | A Yuan-ti Gained Its Snake Features From... |
 |-----------|---------------------------------------------|
@@ -78,7 +77,8 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
     "desc": "+6"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": "Abyssal, Common, Draconic"
 "cr": "7"
 "traits":
@@ -89,27 +89,27 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
   - "desc": "The yuan-ti makes two Bite attacks, and it can use Spellcasting to cast\
       \ [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md) if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing\
       \ damage plus 10 (3d6) Poison damage."
     "name": "Bite"
-  - "desc": "Strength Saving Throw: DC 15, one Large or smaller creature within\
-      \ 5 feet. Failure: 28 (7d6 + 4) Bludgeoning damage. The target has the [Grappled](І\
+  - "desc": "*Strength Saving Throw:* DC 15, one Large or smaller creature within\
+      \ 5 feet. *Failure:* 28 (7d6 + 4) Bludgeoning damage. The target has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14),\
       \ and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition until the grapple ends. Success: Half damage only."
+      \ condition until the grapple ends. *Success:* Half damage only."
     "name": "Constrict"
-  - "desc": "Constitution Saving Throw: DC 14, each creature in a 30-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 14, each creature in a 30-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ 21 (6d6) Poison damage, and the target has the [Poisoned](Інструменти%20Д\
       М/CLI/rules/conditions.md#Poisoned) condition until the end of the yuan-ti's\
       \ next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ condition. Success: Half damage only."
+      \ condition. *Success:* Half damage only."
     "name": "Poison Spray (Recharge 5-6)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
-      \ (snakes only)\n\n3/day: [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
+      \n**At will:** [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \ (snakes only)\n\n**3/day:** [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting (Yuan-ti Form Only)"
 "bonus_actions":
   - "desc": "The yuan-ti shape-shifts into a Large snake or returns to its true form.\

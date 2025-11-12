@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -33,8 +34,6 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 > Lyin' next to the chest were the bones of Cap'n Scornblade himself, still clutchin' his rusty sword. Imagine my surprise when the blade flew from his bony grasp! Still got the scar.
 
 **Animated Object Catalysts**
-
-`dice: [](animated-armor-xmm.md#^animated-object-catalysts)`
 
 | dice: 1d10 | The Object Was Animated By... |
 |------------|-------------------------------|
@@ -74,13 +73,14 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
   М/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., passive Perception 6"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 6"
 "languages": ""
 "cr": "1"
 "actions":
   - "desc": "The armor makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Bludgeoning\
       \ damage."
     "name": "Slam"
 "source":

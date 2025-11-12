@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/15
@@ -52,7 +53,8 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "15"
 "traits":
@@ -65,7 +67,7 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
       \ after which it gains a number of Hit Dice (d8s) equal to half the creature's\
       \ number of Hit Dice. Roll those dice, and increase the nabassu's hit points\
       \ by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way,\
-      \ its attacks deal an extra 3 (d6) damage on a hit. The nabassu retains these\
+      \ its attacks deal an extra 3 (1d6) damage on a hit. The nabassu retains these\
       \ benefits for 6 days. A creature devoured by a nabassu can be restored to life\
       \ only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell."
     "name": "Devour Soul"
@@ -76,10 +78,10 @@ Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try t
   - "desc": "The nabassu makes one Bite attack and one Claw attack, and it uses Soul-Stealing\
       \ Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 38 (5d12 + 6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) force damage."
     "name": "Claw"
   - "desc": "The nabassu targets one creature it can see within 30 feet of it. If\

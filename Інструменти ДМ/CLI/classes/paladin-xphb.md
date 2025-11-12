@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/paladin
 - ttrpg-cli/compendium/src/5e/xphb
@@ -186,7 +187,7 @@ You and your allies have [Immunity](Інструменти%20ДМ/CLI/rules/vari
 
 ### Radiant Strikes (Level 11)
 
-Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), the target takes an extra `d8` Radiant damage.
+Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md), the target takes an extra `1d8` Radiant damage.
 
 ### Ability Score Improvement (Level 12)
 

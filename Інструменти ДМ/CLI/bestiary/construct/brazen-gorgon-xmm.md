@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -35,8 +36,6 @@ When magic-users create gorgons, they often enchant them to ignore those who con
 Those who create gorgons strive to give them purposefully obscure command keys. Hints at command keys might be found among the records of a gorgon's creator or in the area the gorgon protects—perhaps scrawled as a [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) trespasser's final act. Roll on or choose a result from the Gorgon Command Keys table to inspire the word or signal that temporarily neutralizes a gorgon.
 
 **Gorgon Command Keys**
-
-`dice: [](brazen-gorgon-xmm.md#^gorgon-command-keys)`
 
 | dice: 1d6 | Gorgon Won't Attack Those That... |
 |-----------|-----------------------------------|
@@ -76,7 +75,8 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "damage_immunities": "fire"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 60 ft., passive Perception 20"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 20"
 "languages": ""
 "cr": "9"
 "traits":
@@ -91,15 +91,15 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 "actions":
   - "desc": "The gorgon makes two Gore attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing\
       \ damage plus 10 (3d6) Fire damage."
     "name": "Gore"
   - "desc": "The gorgon moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack)\
       \ and can move through the spaces of Medium or smaller creatures. Each time\
       \ the gorgon enters a creature's space for the first time during this move,\
-      \ that target is subjected to the following effect. Dexterity Saving Throw:\
-      \ DC 16. Failure: 13 (2d8 + 4) Piercing damage plus 13 (3d8) Fire damage,\
+      \ that target is subjected to the following effect. *Dexterity Saving Throw:*\
+      \ DC 16. *Failure:* 13 (2d8 + 4) Piercing damage plus 13 (3d8) Fire damage,\
       \ and the target is pulled into the gorgon's space and has the [Grappled](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14); if\
       \ the gorgon already has a creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -65,7 +66,8 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
     "desc": "+10"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 20"
 "languages": "telepathy 120 ft."
 "cr": "11"
 "traits":
@@ -75,10 +77,10 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
   - "desc": "The morkoth makes either two Bite attacks and one Tentacles attack or\
       \ three Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage plus 10 (3d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:*\
       \ 15 (3d8 + 2) bludgeoning damage, and the target is [grappled](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Large or\
       \ smaller creature. Until this grapple ends, the target is [restrained](Інст\
@@ -100,8 +102,8 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
     "name": "Hypnosis"
   - "desc": "The morkoth casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 17):\n\nAt will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n3/day each:\
+      \ DC 17):\n\n**At will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**3/day each:**\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dimension door](І\
       нструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [dispel magic](Інструмен\
       ти%20ДМ/CLI/spells/dispel-magic-xphb.md), [lightning bolt](Інструменти%20ДМ\
@@ -117,37 +119,34 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
     "name": "Spell Reflection"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the morkoth can take\
-      \ one of the following lair actions:"
-    "name": ""
-  - "desc": "- Cast a Spell. The morkoth casts [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
-      \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), or [misty\
-      \ step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md), using Intelligence\
-      \ as its spellcasting ability and without expending a spell slot.  \n- Hypnotize.\
-      \ The morkoth uses its Hypnosis action, originating at a point within 120 feet\
-      \ of itself. It doesn't need to see the effect's point of origin.  "
+      \ one of the following lair actions:\n\n- **Cast a Spell.** The morkoth casts\
+      \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dispel magic](І\
+      нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), or [misty step](Інструмент\
+      и%20ДМ/CLI/spells/misty-step-xphb.md), using Intelligence as its spellcasting\
+      \ ability and without expending a spell slot.  \n- **Hypnotize.** The morkoth\
+      \ uses its Hypnosis action, originating at a point within 120 feet of itself.\
+      \ It doesn't need to see the effect's point of origin.  "
     "name": ""
 "regional_effects":
   - "desc": "The island surrounding a morkoth's lair is warped by the creature's presence,\
-      \ creating the following effects:"
-    "name": ""
-  - "desc": "- Alter Water. With a thought (no action required), the morkoth can\
-      \ initiate a change in the water within its lair that takes effect 1 minute\
-      \ later. The water can be as breathable and clear as air, or it can be normal\
-      \ water (ranging in clarity from murky to clear).  \n- Locate Creatures and\
-      \ Objects. The morkoth is aware of any new arrival, whether an object or a\
-      \ creature, on its island or in its sanctum. As an action, the morkoth can locate\
-      \ any one creature or object on the island. Visitors to the island feel as though\
-      \ they are being watched, even when they aren't.  \n- Lost Possessions.\
-      \ Each time a creature that has been on the island for less than a year finishes\
-      \ a short or long rest, it must make a DC 10 Intelligence saving throw. On a\
-      \ failure, the creature has misplaced one possession (chosen by the player,\
-      \ if the creature is that player's character). The possession remains nearby\
-      \ but concealed for a short time, so it can be recovered with a successful DC\
-      \ 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception))\
+      \ creating the following effects:\n\n- **Alter Water.** With a thought (no action\
+      \ required), the morkoth can initiate a change in the water within its lair\
+      \ that takes effect 1 minute later. The water can be as breathable and clear\
+      \ as air, or it can be normal water (ranging in clarity from murky to clear).\
+      \  \n- **Locate Creatures and Objects.** The morkoth is aware of any new arrival,\
+      \ whether an object or a creature, on its island or in its sanctum. As an action,\
+      \ the morkoth can locate any one creature or object on the island. Visitors\
+      \ to the island feel as though they are being watched, even when they aren't.\
+      \  \n- **Lost Possessions.** Each time a creature that has been on the island\
+      \ for less than a year finishes a short or long rest, it must make a DC 10 Intelligence\
+      \ saving throw. On a failure, the creature has misplaced one possession (chosen\
+      \ by the player, if the creature is that player's character). The possession\
+      \ remains nearby but concealed for a short time, so it can be recovered with\
+      \ a successful DC 15 Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception))\
       \ check. An object that is misplaced but not recovered ends up in the morkoth's\
       \ lair 1 hour later. If the creature later goes to the morkoth's lair, its lost\
-      \ possessions stand out in its perception and are easily recovered.  \n- Supernatural\
-      \ Lure. Entrances to the morkoth's lair have an enchantment that the morkoth\
+      \ possessions stand out in its perception and are easily recovered.  \n- **Supernatural\
+      \ Lure.** Entrances to the morkoth's lair have an enchantment that the morkoth\
       \ can activate or suppress at any time while it's in its lair and not [incapacitated](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated). Any creature within\
       \ 30 feet of such an entrance and able to see it must make a DC 15 Wisdom saving\
@@ -157,9 +156,8 @@ A morkoth encountered in its lair has a challenge rating of 12 (8,400 XP).
       \ toward the morkoth by the most direct route. As soon as it can see the morkoth,\
       \ the target can repeat the saving throw, ending the effect on itself on a success.\
       \ It can also repeat the saving throw at the end of each of its turns and every\
-      \ time it takes damage.  "
-    "name": ""
-  - "desc": "If the morkoth dies, these regional effects end immediately."
+      \ time it takes damage.  \n\nIf the morkoth dies, these regional effects end\
+      \ immediately."
     "name": ""
 "source":
   - "MPMM"

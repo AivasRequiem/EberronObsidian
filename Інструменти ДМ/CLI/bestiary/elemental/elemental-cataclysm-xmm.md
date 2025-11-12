@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/22
@@ -30,8 +31,6 @@ Elemental cataclysms rarely escape the Elemental Chaos. When they do, it is typi
 Little can stop an elemental cataclysm. Those that oppose one of these calamities often attempt to reverse the ritual that summoned it, coax it through a planar rift, or conjure another titan in hopes that the two destroy one another. These terrors leave a wake of ashes, floods, storms, and broken earth. But after these disasters recede, the land is imbued with new life or environmental changes. Roll on or choose a result from the Elemental Alterations table to inspire what changes emerge after an elemental cataclysm's destruction.
 
 **Elemental Alterations**
-
-`dice: [](elemental-cataclysm-xmm.md#^elemental-alterations)`
 
 | dice: 1d8 | The Elemental Cataclysm Leaves Behind A... |
 |-----------|--------------------------------------------|
@@ -79,7 +78,8 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інс\
   трументи%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "truesight 150 ft., passive Perception 12"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 150 ft., passive\
+  \ Perception 12"
 "languages": "Primordial"
 "cr": "22"
 "traits":
@@ -93,47 +93,51 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
 "actions":
   - "desc": "The cataclysm makes two Elemental Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +15, reach 30 ft. or range 150 ft.\
-      \ Hit: 25 (5d6 + 8) damage of a type chosen by the cataclysm: Acid, Cold,\
+  - "desc": "*Melee  or Ranged Attack Roll:* +15, reach 30 ft. or range 150 ft.\
+      \ *Hit:* 25 (5d6 + 8) damage of a type chosen by the cataclysm: Acid, Cold,\
       \ Fire, Lightning, or Thunder."
     "name": "Elemental Burst"
-  - "desc": "The cataclysm creates one of the following effects at random (roll d4):\n\
-      \n- 1 Clinging Flames. Dexterity Saving Throw: DC 23, each creature in\
+  - "desc": "The cataclysm creates one of the following effects at random (roll 1d4):\n\
+      \n- **1 Clinging Flames.** *Dexterity Saving Throw:* DC 23, each creature in\
       \ a 60-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the cataclysm can see within 150 feet. Failure: 45 (13d6)\
-      \ Fire damage. Success: Half damage. Failure or Success: The target starts\
-      \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).  \n- 2 Freezing\
-      \ Waves. Strength Saving Throw: DC 23, each creature in a 90-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+      \ centered on a point the cataclysm can see within 150 feet. *Failure:* 45 (13d6)\
+      \ Fire damage. *Success:* Half damage. *Failure or Success:* The target starts\
+      \ [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md).  \n- **2 Freezing\
+      \ Waves.** *Strength Saving Throw:* DC 23, each creature in a 90-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ 22 (5d8) Bludgeoning damage plus 22 (5d8) Cold damage, and the target\
       \ has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\
-      \ Success: Half damage only. Failure or Success: The target's [Speed](Ін\
+      \ *Success:* Half damage only. *Failure or Success:* The target's [Speed](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) is reduced to 0 until\
-      \ the end of its next turn.  \n- 3 Raging Storm. A storm cloud fills a 60-foot-radius\
+      \ the end of its next turn.  \n- **3 Raging Storm.** A storm cloud fills a 60-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
       \ centered on a point the cataclysm can see within 150 feet. The cloud lasts\
       \ for 1 minute or until the cataclysm uses Cataclysmic Event again. Creatures\
       \ entirely in the cloud have the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened) conditions\
-      \ and can't cast spells with a Verbal component. Dexterity Saving Throw: DC\
+      \ and can't cast spells with a Verbal component. *Dexterity Saving Throw:* DC\
       \ 23, each creature that enters the cloud for the first time on a turn or starts\
-      \ its turn there. Failure: 18 (4d8) Lightning damage plus 18 (4d8) Thunder\
-      \ damage. Success: Half damage.  \n- 4 Swallowing Earth. Strength Saving\
-      \ Throw: DC 23, each creature in a 90-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
-      \ originating from a point on the ground within 150 feet. Failure: 18 (4d8)\
+      \ its turn there. *Failure:* 18 (4d8) Lightning damage plus 18 (4d8) Thunder\
+      \ damage. *Success:* Half damage.  \n- **4 Swallowing Earth.** *Strength Saving\
+      \ Throw:* DC 23, each creature in a 90-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
+      \ originating from a point on the ground within 150 feet. *Failure:* 18 (4d8)\
       \ Bludgeoning damage plus 18 (4d8) Acid damage, and the target has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition and is buried under\
       \ rubble. A buried target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition, has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md),\
       \ and is suffocating. As an action, a buried creature or another creature within\
       \ 5 feet of it can make a DC 18 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
-      \ check. On a successful check, the creature is no longer buried. Success:\
+      \ check. On a successful check, the creature is no longer buried. *Success:*\
       \ Half damage only.  "
     "name": "Cataclysmic Event (Recharge 4-6)"
   - "desc": "The cataclysm casts the [Control Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md)\
       \ spell, requiring no spell components and using Constitution as the spellcasting\
       \ ability.\n"
     "name": "Control Weather"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the elemental cataclysm can expend a use to take one of the following actions.\
+  \ The elemental cataclysm regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The cataclysm makes one Elemental Burst attack."
     "name": "Eruption"
@@ -142,9 +146,9 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
       \ [Swim Speed](Інструменти%20ДМ/CLI/rules/variant-rules/swim-speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \ Each creature within 5 feet of the cataclysm as it moves is targeted once\
-      \ by the following effect. Constitution Saving Throw: DC 23. Failure: The\
+      \ by the following effect. *Constitution Saving Throw:* DC 23. *Failure:* The\
       \ target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.\
-      \ Failure or Success: The cataclysm can't take this action again until the\
+      \ *Failure or Success:* The cataclysm can't take this action again until the\
       \ start of its next turn."
     "name": "Rumbling Movement"
 "source":

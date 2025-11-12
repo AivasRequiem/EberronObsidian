@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Items
 
@@ -49,6 +51,7 @@ cssclasses: json5e-note
 - [Absorbing Tattoo](./absorbing-tattoo-tce.md)
 - [Acid Absorbing Tattoo](./acid-absorbing-tattoo-tce.md)
 - [Acid](./acid-xphb.md)
+- [Adamantine Ammunition](./adamantine-ammunition-xge.md)
 - [Adamantine Armor](./adamantine-armor-xdmg.md)
 - [Adamantine Weapon](./adamantine-weapon-xdmg.md)
 - [Aerenal Trinket](./aerenal-trinket-erlw.md)
@@ -1093,6 +1096,7 @@ cssclasses: json5e-note
 - [Trinket](./trinket-xphb.md)
 - [Truth Serum](./truth-serum-xdmg.md)
 - [Turquoise](./turquoise-xdmg.md)
+- [Unbreakable Arrow](./unbreakable-arrow-xge.md)
 - [Uncommon Glamerweave](./uncommon-glamerweave-erlw.md)
 - [Universal Solvent](./universal-solvent-xdmg.md)
 - [Ventilating Lungs](./ventilating-lungs-erlw.md)
@@ -1120,7 +1124,9 @@ cssclasses: json5e-note
 - [Wand of Paralysis](./wand-of-paralysis-xdmg.md)
 - [Wand of Polymorph](./wand-of-polymorph-xdmg.md)
 - [Wand of Pyrotechnics](./wand-of-pyrotechnics-xdmg.md)
+- [Wand of Scowls](./wand-of-scowls-xge.md)
 - [Wand of Secrets](./wand-of-secrets-xdmg.md)
+- [Wand of Smiles](./wand-of-smiles-xge.md)
 - [Wand of the War Mage](./wand-of-the-war-mage-xdmg.md)
 - [Wand of Web](./wand-of-web-xdmg.md)
 - [Wand of Wonder](./wand-of-wonder-xdmg.md)

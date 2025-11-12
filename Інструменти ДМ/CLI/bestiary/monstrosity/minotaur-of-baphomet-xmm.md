@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -20,15 +21,13 @@ aliases:
 *Berserker of the Demon Lord of Beasts*
 
 - **Habitat.** Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Baphomet, Demon Lord of Beasts, claims to have created minotaurs and demands their worship. While most minotaurs live free of the demon lord's bonds, those that serve him become minotaurs of Baphomet. These brutes resemble the hulking, horned demon lord more than others of their kind, and they wreak havoc in that foul immortal's name. Rarely, non-minotaurs cursed by magic-users or spiteful deities might transform into these monsters.
 
 Minotaurs of Baphomet often dwell in mazes, leading their allies to hidden destinations and stalking trespassers. Roll on or choose a result from the Minotaur Mazes table to inspire the shape of a minotaur's dwelling.
 
 **Minotaur Mazes**
-
-`dice: [](minotaur-of-baphomet-xmm.md#^minotaur-mazes)`
 
 | dice: 1d4 | The Minotaur of Baphomet Lurks In... |
 |-----------|--------------------------------------|
@@ -60,14 +59,15 @@ Minotaurs of Baphomet often dwell in mazes, leading their allies to hidden desti
     "desc": "+7"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": "Abyssal"
 "cr": "3"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 10 (1d12 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 10 (1d12 + 4) Slashing\
       \ damage plus 10 (3d6) Necrotic damage."
     "name": "Abyssal Glaive"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 18 (4d6 + 4) Piercing\
       \ damage. If the target is a Large or smaller creature and the minotaur moved\
       \ 10+ feet straight toward it immediately before the hit, the target takes an\
       \ extra 10 (3d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\

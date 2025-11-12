@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -44,6 +45,6 @@ You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic)
 
 ## Regaining Charges
 
-The staff regains `d6` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.
+The staff regains `1d6` expended charges daily at dawn. If you expend the last charge, roll `1d20`. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.
 
 *Source: Dungeon Master's Guide (2024) p. 311. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

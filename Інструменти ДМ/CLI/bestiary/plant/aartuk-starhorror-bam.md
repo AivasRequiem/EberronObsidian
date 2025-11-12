@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/2
@@ -47,7 +48,8 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Aartuk"
 "cr": "2"
 "traits":
@@ -58,14 +60,14 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
       \ of each."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (2d6 + 1) bludgeoning damage."
     "name": "Branch"
-  - "desc": "Ranged Spell Attack: +2 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +2 to hit, range 60 ft., one target. *Hit:*\
       \ 7 (3d4) radiant damage."
     "name": "Radiant Pellet"
   - "desc": "The aartuk casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability:\n\n1/day each: [revivify](І\
+      \ and using Wisdom as the spellcasting ability:\n\n**1/day each:** [revivify](І\
       нструменти%20ДМ/CLI/spells/revivify-xphb.md), [speak with plants](Інструмент\
       и%20ДМ/CLI/spells/speak-with-plants-xphb.md)"
     "name": "Spellcasting (Psionics)"

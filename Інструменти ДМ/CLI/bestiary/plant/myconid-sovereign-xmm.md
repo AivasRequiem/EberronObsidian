@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -43,7 +44,8 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
   - !!int "15"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "telepathy 240 ft."
 "cr": "2"
 "traits":
@@ -54,7 +56,7 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
 "actions":
   - "desc": "The myconid makes one Slam attack and uses Pacifying Spores."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 6 (2d4 + 1) Bludgeoning\
       \ damage plus 5 (2d4) Poison damage."
     "name": "Slam"
   - "desc": "The myconid releases spores at a Medium or Small corpse within 5 feet\
@@ -63,8 +65,8 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
       \ The corpse stays animate for 1d4 + 1 weeks or until destroyed, and it can't\
       \ be animated again in this way."
     "name": "Animating Spores (3/Day)"
-  - "desc": "Constitution Saving Throw: DC 12, one creature the myconid can see\
-      \ within 10 feet. Failure: The target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+  - "desc": "*Constitution Saving Throw:* DC 12, one creature the myconid can see\
+      \ within 10 feet. *Failure:* The target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ condition and repeats the save at the end of each of its turns, ending the\
       \ effect on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Pacifying Spores"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -33,8 +34,6 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 > I am he who rules the world, don't you know? One little piece at a time.
 
 **Bandit Motivations**
-
-`dice: [](bandit-deceiver-xmm.md#^bandit-motivations)`
 
 | dice: 1d6 | The Bandit... |
 |-----------|---------------|
@@ -79,21 +78,21 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "actions":
   - "desc": "The bandit makes three Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 8 (2d4 + 3) Piercing damage plus 10 (3d6) Poison damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +6, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 8 (2d4 + 3) Piercing damage plus 10 (3d6) Poison damage."
     "name": "Dagger"
-  - "desc": "Constitution Saving Throw: DC 14, each creature in a 10-foot-radius\
+  - "desc": "*Constitution Saving Throw:* DC 14, each creature in a 10-foot-radius\
       \ [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md)\
-      \ centered on a point the bandit can see within 120 feet. Failure: 13 (3d6\
+      \ centered on a point the bandit can see within 120 feet. *Failure:* 13 (3d6\
       \ + 3) Radiant damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ condition until the start of the bandit's next turn. Success: Half damage\
+      \ condition until the start of the bandit's next turn. *Success:* Half damage\
       \ only."
     "name": "Blinding Flash (Recharge 4-6)"
   - "desc": "The bandit casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [Disguise Self](І\
+      \ spellcasting ability (spell save DC 14):\n\n**At will:** [Disguise Self](І\
       нструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Mage Hand](Інструменти%20Д\
       М/CLI/spells/mage-hand-xphb.md), [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n1/day each: [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md)\
+      \n**1/day each:** [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md)\
       \ (level 4 version), [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\
       \ (included in AC), [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
     "name": "Spellcasting"

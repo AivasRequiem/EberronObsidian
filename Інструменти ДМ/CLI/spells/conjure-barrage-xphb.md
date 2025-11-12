@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/gruul-anarch
@@ -26,7 +27,7 @@ aliases:
 
 You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) makes a Dexterity saving throw, taking `5d8` Force damage on a failed save or half as much damage on a successful one.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The damage increases by `1d8` for each spell slot level above 3.
 
 **Classes**: [Artificer (Battle Smith)](Інструменти%20ДМ/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md)
 

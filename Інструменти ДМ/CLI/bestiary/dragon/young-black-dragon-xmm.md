@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -22,7 +23,7 @@ Most young black dragons claim a hidden lair—typically a dismal place accessib
 *Dragons of Decay and Despair*
 
 - **Habitat.** Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Black dragons delight in suffering and ruin. While other chromatic dragons scheme for power and wealth, these dragons seek to tear down all they see and rule over what remains.
 
@@ -61,7 +62,8 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "acid"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 16"
 "languages": "Common, Draconic"
 "cr": "7"
 "traits":
@@ -70,12 +72,12 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing\
-      \ damage plus 3 (d6) Acid damage."
+  - "desc": "*Melee Attack Roll:* +7, reach 10 ft. *Hit:* 9 (2d4 + 4) Slashing\
+      \ damage plus 3 (1d6) Acid damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 14, each creature in a 30-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 49 (14d6) Acid damage. Success: Half damage."
+      \ *Failure:* 49 (14d6) Acid damage. *Success:* Half damage."
     "name": "Acid Breath (Recharge 5-6)"
 "source":
   - "XMM"

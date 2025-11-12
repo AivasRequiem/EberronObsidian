@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Ki-rin
 
-## Lair actions
+## Lair Actions
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 On initiative count 20 (losing initiative ties), a kirin can take one of the following lair actions, and it must finish a long rest before taking the chosen lair action again:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), a kirin can take one of the fol
 - **Create Stone and Metal.** The ki-rin conjures up one or more temporary objects made of stone or metal that can collectively fill no more than a 2-foot cube. The objects materialize 1 minute later in unoccupied spaces of the ki-rin's choice on the floor of the lair, and the objects vanish after 1 hour.  
 - **Create Wood.** The ki-rin conjures up one or more permanent objects made of wood, or similarly hard plant-based material, that can collectively fill no more than a 10-foot cube. The objects materialize 1 minute later in unoccupied spaces of the ki-rin's choice on the floor of the lair.  
 
-## Regional effects
+## Regional Effects
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 A ki-rin's Celestial nature transforms the region around its lair. Any of the following magical effects is possible for travelers to encounter in the vicinity:

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -25,7 +26,7 @@ aliases:
 *Fickle, Pint-Sized Dragon*
 
 - **Habitat.** Coastal, Desert, Forest, Hill, Mountain, Urban  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Pseudodragons dwell in scenic wildernesses, preferably where life is easy and prey is small and slow. There they behave like contented wyrms, creating tiny lairs amid ancient trees and rugged cliffs. They fill these lairs with shiny rocks, colorful shells, and unattended treasures that catch their attention, and they guard these hoards fiercely.
 
@@ -36,8 +37,6 @@ Many magic-users attempt to befriend pseudodragons, hoping to enlist them as fam
 Many pseudodragons prefer the finer things in life. These diminutive dragons might be inclined to aid those who ply them with treats. Contrariwise, mages who don't properly pamper their pseudo dragon familiars might be abandoned without warning. Roll on or choose an option from the Pseudo dragon Treats table to inspire a pseudodragon's taste in gifts.
 
 **Pseudodragon Treats**
-
-`dice: [](pseudodragon-xmm.md#^pseudodragon-treats)`
 
 | dice: 1d10 | The Pseudodragon Wants... |
 |------------|---------------------------|
@@ -80,7 +79,8 @@ Many pseudodragons prefer the finer things in life. These diminutive dragons mig
     "desc": "+5"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 15"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "1/4"
 "traits":
@@ -90,11 +90,11 @@ Many pseudodragons prefer the finer things in life. These diminutive dragons mig
 "actions":
   - "desc": "The pseudodragon makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Constitution Saving Throw: DC 12, one creature the pseudodragon can\
-      \ see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has\
+  - "desc": "*Constitution Saving Throw:* DC 12, one creature the pseudodragon can\
+      \ see within 5 feet. *Failure:* 5 (2d4) Poison damage, and the target has\
       \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
       \ for 1 hour. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target also has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -57,7 +58,8 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common plus one other language"
 "cr": "5"
 "traits":
@@ -76,11 +78,11 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
 "actions":
   - "desc": "The revenant uses Vengeful Glare and makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Necrotic\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Necrotic\
       \ damage."
     "name": "Slam"
-  - "desc": "Wisdom Saving Throw: DC 15, one creature the revenant can see within\
-      \ 30 feet. Failure: The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+  - "desc": "*Wisdom Saving Throw:* DC 15, one creature the revenant can see within\
+      \ 30 feet. *Failure:* The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition and repeats the save at the end of each of its turns, ending the\
       \ effect on itself on a success. After 1 minute, it succeeds automatically.\
       \ If the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) target\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
@@ -111,13 +112,13 @@ When you need to roll dice, the rules tell you how many dice to roll of a certai
 
 #### Percentile Dice
 
-The rules sometimes refer to a `d100`. While such dice exist, the common way to roll `d100` uses a pair of ten-sided dice numbered from 0 to 9, known as percentile dice. One die—that you designate before rolling—gives the tens digit, and the other gives the ones digit. If you roll a 7 for the tens digit and a 1 for the ones digit, for example, the number rolled is 71. Two 0s represent 100.
+The rules sometimes refer to a `d100`. While such dice exist, the common way to roll `1d100` uses a pair of ten-sided dice numbered from 0 to 9, known as percentile dice. One die—that you designate before rolling—gives the tens digit, and the other gives the ones digit. If you roll a 7 for the tens digit and a 1 for the ones digit, for example, the number rolled is 71. Two 0s represent 100.
 
 Some ten-sided dice are numbered in tens (00, 10, 20, and so on), making it easier to distinguish the tens digit from the ones digit. In this case, a roll of 70 and 1 is 71, and 00 and 0 is 100.
 
 #### D3
 
-The same *d* notation appears in the expression "`d3`," even though it's rare to find dice with only three sides. To simulate rolling `d3`, roll `d6` and divide the number rolled by 2 (round up).
+The same *d* notation appears in the expression "`1d3`," even though it's rare to find dice with only three sides. To simulate rolling `1d3`, roll `1d6` and divide the number rolled by 2 (round up).
 
 ### What Are Dice For?
 
@@ -129,7 +130,7 @@ The 20-sided die (`d20`) is the most important die you'll use in the game. It's 
 
 #### Damage
 
-The most common use for dice other than the `d20` is to determine damage. When you make a successful attack roll (one kind of [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a [Dagger](Інструменти%20ДМ/CLI/items/dagger-xphb.md) uses `d4`, a [Greataxe](Інструменти%20ДМ/CLI/items/greataxe-xphb.md) uses `d12`, and a [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) spell uses `8d6`.
+The most common use for dice other than the `d20` is to determine damage. When you make a successful attack roll (one kind of [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a [Dagger](Інструменти%20ДМ/CLI/items/dagger-xphb.md) uses `1d4`, a [Greataxe](Інструменти%20ДМ/CLI/items/greataxe-xphb.md) uses `1d12`, and a [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) spell uses `8d6`.
 
 #### Random Tables
 
@@ -759,7 +760,7 @@ You can interact with one object or feature of the environment for free, during 
 
 If you want to interact with a second object, you need to take the [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
 
-The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
+The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM might require you to take the [Utilize](Інструменти%20ДМ/CLI/rules/actions.md#Utilize) action to open a stuck door or turn a crank to lower a drawbridge.
 
 ##### Doing Nothing on Your Turn
 
@@ -948,7 +949,7 @@ When attacking with a weapon, you add your ability modifier—the same modifier 
 
 ### Critical Hits
 
-When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a [Dagger](Інструменти%20ДМ/CLI/items/dagger-xphb.md), roll `2d4` for the damage rather than `d4`, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
+When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a [Dagger](Інструменти%20ДМ/CLI/items/dagger-xphb.md), roll `2d4` for the damage rather than `1d4`, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
 
 ### Saving Throws and Damage
 
@@ -1029,7 +1030,7 @@ Whenever you start your turn with 0 Hit Points, you must make a Death Saving Thr
 
 ##### Three Successes/Failures
 
-Roll `d20`. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md) (see "Stabilizing a Character" below). On your third failure, you die.
+Roll `1d20`. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become [Stable](Інструменти%20ДМ/CLI/rules/variant-rules/stable-xphb.md) (see "Stabilizing a Character" below). On your third failure, you die.
 
 The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.
 
@@ -1045,7 +1046,7 @@ If you take any damage while you have 0 Hit Points, you suffer a Death Saving Th
 
 You can take the [Help](Інструменти%20ДМ/CLI/rules/actions.md#Help) action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check.
 
-A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after `d4` hours.
+A Stable creature doesn't make [Death Saving Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md) even though it has 0 Hit Points, but it still has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) condition. If the creature takes damage, it stops being Stable and starts making [Death Saving Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md) again. A Stable creature that isn't healed regains 1 Hit Point after `1d4` hours.
 
 ### Temporary Hit Points
 

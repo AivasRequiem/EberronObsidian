@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 137* 
 
 **Dimir Adventure Hooks**
-
-`dice: [](other-adventure-hooks-dimir-adventure-hooks-ggr.md#^dimir-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

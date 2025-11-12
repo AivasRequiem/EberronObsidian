@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -43,7 +44,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The triceratops makes two Gore attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 19 (2d12 + 6) Piercing\
       \ damage. If the target is Huge or smaller and the triceratops moved 20+ feet\
       \ straight toward it immediately before the hit, the target takes an extra 9\
       \ (2d8) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\

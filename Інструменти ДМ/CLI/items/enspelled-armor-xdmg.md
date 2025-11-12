@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -10,7 +11,7 @@ aliases:
 - "Enspelled Armor"
 ---
 # Enspelled Armor
-*(requires attunement)*  
+*(Requires attunement)*  
 
 
 

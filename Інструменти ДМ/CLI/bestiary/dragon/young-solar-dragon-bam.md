@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/9
@@ -52,7 +53,8 @@ A solar dragon egg has an obsidian shell, shiny black and opaque. When an egg is
     "desc": "+6"
 "damage_immunities": "radiant"
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 20"
 "languages": "Draconic"
 "cr": "9"
 "traits":
@@ -64,10 +66,10 @@ A solar dragon egg has an obsidian shell, shiny black and opaque. When an egg is
 "actions":
   - "desc": "The dragon makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) piercing damage plus 7 (2d6) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) bludgeoning damage."
     "name": "Tail"
   - "desc": "The dragon exhales a flashing mote of radiant energy that travels to\

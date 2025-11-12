@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 77* 
 
 **Young Amethyst Dragon Connections**
-
-`dice: [](connected-creatures-young-amethyst-dragon-connections-ftd.md#^young-amethyst-dragon-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

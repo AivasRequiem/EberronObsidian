@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -8,8 +9,6 @@ aliases:
 ---
 # Stage 2
 *Source: Dungeon Master's Guide (2024) p. 124* 
-
-`dice: [](stage-2-xdmg.md#^1-encounter)`
 
 | dice: 1d20 | Encounter |
 |------------|-----------|

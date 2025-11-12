@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/26
@@ -50,43 +51,44 @@ There can be little doubt that this ancient dragon is one of the most intelligen
 "damage_resistances": "cold, psychic, thunder"
 "damage_immunities": "fire, lightning"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "26"
 "traits":
   - "desc": "Niv-Mizzet is a 20th-level Izzet spellcaster. His spellcasting ability\
       \ is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [fire bolt](І\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](І\
       нструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md),\
       \ [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md), [shocking\
-      \ grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st level\
-      \ (4 slots): [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n**1st level\
+      \ (4 slots):** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [shield](І\
       нструменти%20ДМ/CLI/spells/shield-xphb.md), [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md),\
-      \ [unseen servant](Інструменти%20ДМ/CLI/spells/unseen-servant-xphb.md)\n\n2nd\
-      \ level (3 slots): [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [enlarge/reduce](І\
+      \ [unseen servant](Інструменти%20ДМ/CLI/spells/unseen-servant-xphb.md)\n\n**2nd\
+      \ level (3 slots):** [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [enlarge/reduce](І\
       нструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md), [flaming sphere](Інструм\
       енти%20ДМ/CLI/spells/flaming-sphere-xphb.md), [hold person](Інструменти%20ДМ\
       /CLI/spells/hold-person-xphb.md), [scorching ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md)\n\
-      \n3rd level (3 slots): [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
+      \n**3rd level (3 slots):** [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [lightning bolt](І\
       нструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md), [slow](Інструменти%20ДМ\
-      /CLI/spells/slow-xphb.md)\n\n4th level (3 slots): [confusion](Інструмент\
+      /CLI/spells/slow-xphb.md)\n\n**4th level (3 slots):** [confusion](Інструмент\
       и%20ДМ/CLI/spells/confusion-xphb.md), [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
-      \ [fabricate](Інструменти%20ДМ/CLI/spells/fabricate-xphb.md)\n\n5th level\
-      \ (2 slots): [conjure elemental](Інструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md),\
+      \ [fabricate](Інструменти%20ДМ/CLI/spells/fabricate-xphb.md)\n\n**5th level\
+      \ (2 slots):** [conjure elemental](Інструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md),\
       \ [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md), [wall of fire](І\
       нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md), [wall of force](Інструмент\
-      и%20ДМ/CLI/spells/wall-of-force-xphb.md)\n\n6th level (1 slots): [chain\
+      и%20ДМ/CLI/spells/wall-of-force-xphb.md)\n\n**6th level (1 slots):** [chain\
       \ lightning](Інструменти%20ДМ/CLI/spells/chain-lightning-xphb.md), [disintegrate](І\
       нструменти%20ДМ/CLI/spells/disintegrate-xphb.md), [true seeing](Інструменти\
-      %20ДМ/CLI/spells/true-seeing-xphb.md)\n\n7th level (1 slots): [project image](І\
+      %20ДМ/CLI/spells/true-seeing-xphb.md)\n\n**7th level (1 slots):** [project image](І\
       нструменти%20ДМ/CLI/spells/project-image-xphb.md), [reverse gravity](Інструм\
       енти%20ДМ/CLI/spells/reverse-gravity-xphb.md), [teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)\n\
-      \n8th level (1 slots): [control weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md),\
+      \n**8th level (1 slots):** [control weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md),\
       \ [maze](Інструменти%20ДМ/CLI/spells/maze-xphb.md), [power word stun](Інстру\
-      менти%20ДМ/CLI/spells/power-word-stun-xphb.md)\n\n9th level (1 slots): [prismatic\
+      менти%20ДМ/CLI/spells/power-word-stun-xphb.md)\n\n**9th level (1 slots):** [prismatic\
       \ wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md)"
     "name": "Spellcasting"
   - "desc": "If Niv-Mizzet fails a saving throw, he can choose to succeed instead."
@@ -105,19 +107,22 @@ There can be little doubt that this ancient dragon is one of the most intelligen
 "actions":
   - "desc": "Niv-Mizzet makes three attacks: one with his bite and two with his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d4 + 9) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 16 (2d6 + 9) bludgeoning damage."
     "name": "Tail"
   - "desc": "Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area\
       \ must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on\
       \ a failed save, or half as much damage on a successful one."
     "name": "Fire Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Niv-Mizzet can expend a use to take one of the following actions. Niv-Mizzet\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Niv-Mizzet casts one of his cantrips."
     "name": "Cantrip"

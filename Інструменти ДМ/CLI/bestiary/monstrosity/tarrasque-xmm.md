@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/30
@@ -33,8 +34,6 @@ It is a mystery what—if anything—calms the tarrasque, but eventually it retu
 Few things survive the tarrasque's rampages, and reports of the monster's devastation are often contradictory, incomplete, or beyond belief. In cases where it leaves no survivors, its calamities might initially be blamed on evil dragons or magical disasters, but the tarrasque frequently leaves behind some unmistakable indication of its passage. Roll on or choose a result from the Tarrasque Evidence table to inspire what marks the monster's rampages.
 
 **Tarrasque Evidence**
-
-`dice: [](tarrasque-xmm.md#^tarrasque-evidence)`
 
 | dice: 1d4 | Amid Destruction, the Tarrasque Leaves... |
 |-----------|-------------------------------------------|
@@ -76,7 +75,8 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
   \ [deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft., passive Perception 19"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft.,\
+  \ passive Perception 19"
 "languages": ""
 "cr": "30"
 "traits":
@@ -86,7 +86,7 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
   - "desc": "If the tarrasque is targeted by a [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\
-      \ spell or a spell that requires a ranged attack roll, roll d6. On a 1-5,\
+      \ spell or a spell that requires a ranged attack roll, roll 1d6. On a 1-5,\
       \ the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects\
       \ the spell, turning the caster into the target."
     "name": "Reflective Carapace"
@@ -96,29 +96,29 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
   - "desc": "The tarrasque makes one Bite attack and three other attacks, using Claw\
       \ or Tail in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing\
+  - "desc": "*Melee Attack Roll:* +19, reach 15 ft. *Hit:* 36 (4d12 + 10) Piercing\
       \ damage, and the target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 20). Until the grapple ends, the target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and can't teleport."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing\
+  - "desc": "*Melee Attack Roll:* +19, reach 15 ft. *Hit:* 28 (4d8 + 10) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +19, reach 30 ft. *Hit:* 23 (3d8 + 10) Bludgeoning\
       \ damage. If the target is a Huge or smaller creature, it has the [Prone](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Tail"
-  - "desc": "Constitution Saving Throw: DC 27, each creature and each object that\
+  - "desc": "*Constitution Saving Throw:* DC 27, each creature and each object that\
       \ isn't being worn or carried in a 150-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
-      \ Failure: 78 (12d12) Thunder damage, and the target has the [Deafened](І\
+      \ *Failure:* 78 (12d12) Thunder damage, and the target has the [Deafened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Deafened) and [Frightened](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Frightened) conditions until the end of its\
-      \ next turn. Success: Half damage only."
+      \ next turn. *Success:* Half damage only."
     "name": "Thunderous Bellow (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "Strength Saving Throw: DC 27, one Large or smaller creature [Grappled](І\
+  - "desc": "*Strength Saving Throw:* DC 27, one Large or smaller creature [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the tarrasque (it can have\
-      \ up to six creatures swallowed at a time). Failure: The target is swallowed,\
+      \ up to six creatures swallowed at a time). *Failure:* The target is swallowed,\
       \ and the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions\
@@ -134,6 +134,9 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
       \ and can escape from the corpse using 20 feet of movement, exiting [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the tarrasque can expend a use to take one of the following actions. The\
+  \ tarrasque regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The tarrasque moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Claw or Tail attack."

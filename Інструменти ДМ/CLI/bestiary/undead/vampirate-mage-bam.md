@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/5
@@ -42,7 +43,8 @@ A ship of vampirates needs a spellcaster to operate the spelljamming helm. A vam
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
@@ -58,17 +60,17 @@ A ship of vampirates needs a spellcaster to operate the spelljamming helm. A vam
 "actions":
   - "desc": "The mage makes two Ray of Cold attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 30\
+      \ ft., one creature. *Hit:* 22 (4d10) necrotic damage. A Humanoid reduced\
       \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
       \ shadow under the DM's control."
     "name": "Energy Drain"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one target. *Hit:*\
       \ 11 (2d8 + 2) cold damage."
     "name": "Ray of Cold"
   - "desc": "The mage casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 13):\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
-      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n1/day: [darkness](І\
+      \ ability (spell save DC 13):\n\n**At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n**1/day:** [darkness](І\
       нструменти%20ДМ/CLI/spells/darkness-xphb.md), [dimension door](Інструменти%20Д\
       М/CLI/spells/dimension-door-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [hypnotic pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md)"

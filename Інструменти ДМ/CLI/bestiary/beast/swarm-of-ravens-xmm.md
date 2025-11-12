@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -58,11 +59,11 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ or gain [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage, or 2 (d4) Piercing damage if the swarm is [Bloodied](Інструменти\
-      %20ДМ/CLI/rules/conditions.md#Bloodied)."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
+      \ damage, or 2 (1d4) Piercing damage if the swarm is [Bloodied](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Beaks"
-  - "desc": "Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure:\
+  - "desc": "*Wisdom Saving Throw:* DC 10, one creature in the swarm's space. *Failure:*\
       \ The target has the [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened)\
       \ condition until the start of the swarm's next turn. While [Deafened](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Deafened), the target also has [Disadvantage](І\

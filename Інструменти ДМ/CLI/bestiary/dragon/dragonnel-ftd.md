@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -46,7 +47,8 @@ A dragonnel is an agile mount and naturally inclined to flyby tactics, swooping 
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 13"
 "languages": "understands Draconic and Common but can't speak"
 "cr": "2"
 "traits":
@@ -56,7 +58,7 @@ A dragonnel is an agile mount and naturally inclined to flyby tactics, swooping 
 "actions":
   - "desc": "The dragonnel makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Rend"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -22,7 +23,7 @@ Along with being competent warriors, pirates are accomplished seafarers who know
 *Freebooters and Fortune Hunters*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Implements  
+- **Treasure.** Individual, [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 The term "pirate" encompasses a broad range of seafarers, including vicious sea rovers, dogged privateers, cursed treasure hunters, and others who seek riches and fame on the seas.
 
@@ -33,8 +34,6 @@ Pirates might be allies, foes, wild cards, or some combination thereof. While th
 To terrify opponents and spread their reputations, pirate crews fly distinctive flags. Roll twice on or choose results from the Pirate Flags table to inspire what flag a pirate crew sails under.
 
 **Pirate Flags**
-
-`dice: [](pirate-xmm.md#^pirate-flags)`
 
 | dice: 1d8 | The Flag Shows A... | With... |
 |-----------|---------------------|---------|
@@ -75,11 +74,11 @@ To terrify opponents and spread their reputations, pirate crews fly distinctive 
   - "desc": "The pirate makes two Dagger attacks. It can replace one attack with a\
       \ use of Enthralling Panache."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 5 (1d4 + 3) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 5 (1d4 + 3) Piercing damage."
     "name": "Dagger"
-  - "desc": "Wisdom Saving Throw: DC 12, one creature the pirate can see within\
-      \ 30 feet. Failure: The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+  - "desc": "*Wisdom Saving Throw:* DC 12, one creature the pirate can see within\
+      \ 30 feet. *Failure:* The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition until the start of the pirate's next turn."
     "name": "Enthralling Panache"
 "source":

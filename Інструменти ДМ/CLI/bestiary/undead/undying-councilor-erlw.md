@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/10
@@ -79,34 +80,35 @@ An undying doesn't require air, food, drink, or sleep.
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 19"
 "languages": "Common, Elvish"
 "cr": "10"
 "traits":
   - "desc": "The councilor is a 13th-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](Інструменти\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](Інструменти\
       %20ДМ/CLI/spells/guidance-xphb.md), [mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md),\
       \ [sacred flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md), [spare the\
       \ dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md), [thaumaturgy](І\
-      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1st level (4 slots):\
+      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1st level (4 slots):**\
       \ [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md), [command](Інструменти\
       %20ДМ/CLI/spells/command-xphb.md), [create or destroy water](Інструменти%20Д\
-      М/CLI/spells/create-or-destroy-water-xphb.md)\n\n2nd level (3 slots): [augury](І\
+      М/CLI/spells/create-or-destroy-water-xphb.md)\n\n**2nd level (3 slots):** [augury](І\
       нструменти%20ДМ/CLI/spells/augury-xphb.md), [calm emotions](Інструменти%20ДМ\
       /CLI/spells/calm-emotions-xphb.md), [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md)\n\
-      \n3rd level (3 slots): [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md),\
+      \n**3rd level (3 slots):** [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [spirit\
-      \ guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\n4th\
-      \ level (3 slots): [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
+      \ guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md)\n\n**4th\
+      \ level (3 slots):** [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
       \ [divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md), [guardian of\
-      \ faith](Інструменти%20ДМ/CLI/spells/guardian-of-faith-xphb.md)\n\n5th level\
-      \ (2 slots): [dispel evil and good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
+      \ faith](Інструменти%20ДМ/CLI/spells/guardian-of-faith-xphb.md)\n\n**5th level\
+      \ (2 slots):** [dispel evil and good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
       \ [flame strike](Інструменти%20ДМ/CLI/spells/flame-strike-xphb.md) (see \"Actions\"\
-      \ below), [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n6th level\
-      \ (1 slots): [forbiddance](Інструменти%20ДМ/CLI/spells/forbiddance-xphb.md),\
-      \ [planar ally](Інструменти%20ДМ/CLI/spells/planar-ally-xphb.md)\n\n7th level\
-      \ (1 slots): [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"
+      \ below), [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n**6th level\
+      \ (1 slots):** [forbiddance](Інструменти%20ДМ/CLI/spells/forbiddance-xphb.md),\
+      \ [planar ally](Інструменти%20ДМ/CLI/spells/planar-ally-xphb.md)\n\n**7th level\
+      \ (1 slots):** [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"
     "name": "Spellcasting"
   - "desc": "The councilor magically sheds bright light in a 15-foot radius and dim\
       \ light for an additional 15 feet. The councilor can extinguish or restore this\
@@ -120,7 +122,7 @@ An undying doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The councilor makes two Radiant Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) radiant damage."
     "name": "Radiant Touch"
   - "desc": "The councilor touches another creature. The target magically regains\
@@ -132,9 +134,12 @@ An undying doesn't require air, food, drink, or sleep.
       \ a DC 17 Dexterity saving throw. A creature takes 14 (4d6) fire damage and\
       \ 14 (4d6) radiant damage on a failed save, or half as much damage on a successful\
       \ one. If the councilor casts this spell using a spell slot of 6th level or\
-      \ higher, the fire damage or the radiant damage (its choice) increases by d6\
+      \ higher, the fire damage or the radiant damage (its choice) increases by 1d6\
       \ for each slot level above 5th."
     "name": "Flame Strike (5th-Level Spell; Requires a Spell Slot)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, the undying councilor can expend a use to take one of the following actions.\
+  \ The undying councilor regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The councilor makes one attack with its Radiant Touch."
     "name": "Touch"

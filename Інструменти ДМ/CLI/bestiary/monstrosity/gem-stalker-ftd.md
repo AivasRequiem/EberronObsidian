@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -45,7 +46,8 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "psychic"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "telepathy 60 ft. understands Draconic but can't speak"
 "cr": "5"
 "traits":
@@ -57,11 +59,11 @@ A gem stalker has a four-legged body resembling that of a wingless dragon, but w
 "actions":
   - "desc": "The gem stalker makes four Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claw"
 "bonus_actions":
-  - "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 30 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) force damage, and one of the following effects occurs, determined\
       \ by the kind of dragon that created the gem stalker:"
     "name": "Crystal Dart"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -24,8 +25,6 @@ The robe has two of each of the following patches:
 - [Sack](Інструменти%20ДМ/CLI/items/sack-xphb.md)  
 
 In addition, the robe has `4d4` other patches. The DM chooses the patches or determines them randomly by rolling on the following table.
-
-`dice: [](robe-of-useful-items-xdmg.md#^1-patch)`
 
 | dice: 1d100 | Patch |
 |-------------|-------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/legendary
@@ -54,7 +55,7 @@ You can increase one of your ability scores by 2, to a maximum of 22, provided y
 
 ## Comet
 
-The next time you enter combat against one or more [Hostile](Інструменти%20ДМ/CLI/rules/variant-rules/hostile-attitude-xphb.md) creatures, you can select one of them as your foe when you roll [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md). If you reduce your foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) during that combat, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Death Saving Throws for 1 year. If someone else reduces your chosen foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or you don't choose a foe, this card has no effect.
+The next time you enter combat against one or more [Hostile](Інструменти%20ДМ/CLI/rules/variant-rules/hostile-attitude-xphb.md) creatures, you can select one of them as your foe when you roll [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md). If you reduce your foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) during that combat, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [Death Saving Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md) for 1 year. If someone else reduces your chosen foe to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or you don't choose a foe, this card has no effect.
 
 ## Donjon
 
@@ -101,7 +102,7 @@ You gain the service of a [Knight](Інструменти%20ДМ/CLI/bestiary/hu
 
 ## Moon
 
-You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `d3` times.
+You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `1d3` times.
 
 ## Puzzle
 

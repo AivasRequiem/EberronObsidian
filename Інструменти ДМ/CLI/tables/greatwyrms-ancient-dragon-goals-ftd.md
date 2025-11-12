@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 37* 
 
 **Ancient Dragon Goals**
-
-`dice: [](greatwyrms-ancient-dragon-goals-ftd.md#^ancient-dragon-goals)`
 
 | dice: d6 | Goal |
 |----------|------|

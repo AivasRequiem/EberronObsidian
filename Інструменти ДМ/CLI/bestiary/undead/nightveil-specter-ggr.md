@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/10
@@ -64,7 +65,8 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "understands Common but can't speak"
 "cr": "10"
 "traits":
@@ -79,7 +81,7 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
 "actions":
   - "desc": "The specter makes two scythe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) slashing damage plus 13 (3d8) psychic damage."
     "name": "Scythe"
   - "desc": "The specter magically emits psychic energy in a 60-foot cone. Each creature\

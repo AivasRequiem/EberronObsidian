@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -27,8 +28,6 @@ Otyughs live to eat—the more disgusting the meal, the better. They consider al
 Otyughs often bury themselves amid trash heaps and observe their surroundings with their eye-studded stalk. They use glittery trash and telepathic urgings to coax creatures close, then burst from hiding, attacking with their spiny tentacles and filthy maws. Roll on or choose a result from the Otyugh Lures table to inspire how an otyugh tempts prey close.
 
 **Otyugh Lures**
-
-`dice: [](otyugh-xmm.md#^otyugh-lures)`
 
 | dice: 1d4 | To Attract Potential Meals, the Otyugh... |
 |-----------|-------------------------------------------|
@@ -57,34 +56,35 @@ Otyughs often bury themselves amid trash heaps and observe their surroundings wi
 "speed": "30 ft."
 "saves":
   - "constitution": !!int "7"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond\
   \ telepathically)"
 "cr": "5"
 "actions":
   - "desc": "The otyugh makes one Bite attack and two Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 12 (2d8 + 3) Piercing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition. Whenever the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
-      \ it is subjected to the following effect. Constitution Saving Throw: DC 15.\
-      \ Failure: The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by 5 (d10) and doesn't return to normal until the [Poisoned](І\
+      \ it is subjected to the following effect. *Constitution Saving Throw:* DC 15.\
+      \ *Failure:* The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ maximum decreases by 5 (1d10) and doesn't return to normal until the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition ends on the target.\
-      \ Success: The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ *Success:* The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition ends."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 12 (2d8 + 3) Piercing\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13) from\
       \ one of two tentacles."
     "name": "Tentacle"
-  - "desc": "Constitution Saving Throw: DC 14, each creature [Grappled](Інструме\
-      нти%20ДМ/CLI/rules/conditions.md#Grappled) by the otyugh. Failure: 16 (3d8\
+  - "desc": "*Constitution Saving Throw:* DC 14, each creature [Grappled](Інструме\
+      нти%20ДМ/CLI/rules/conditions.md#Grappled) by the otyugh. *Failure:* 16 (3d8\
       \ + 3) Bludgeoning damage, and the target has the [Stunned](Інструменти%20Д\
       М/CLI/rules/conditions.md#Stunned) condition until the start of the otyugh's\
-      \ next turn. Success: Half damage only."
+      \ next turn. *Success:* Half damage only."
     "name": "Tentacle Slam"
 "source":
   - "XMM"

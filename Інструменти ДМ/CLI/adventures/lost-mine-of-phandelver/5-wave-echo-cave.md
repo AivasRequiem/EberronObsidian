@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
@@ -36,11 +37,11 @@ If the characters spend a long time in a given area, you can check for wandering
 | Roll | Result |
 |------|--------|
 | 1-3 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`2d4`) |
-| 4-5 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`d4`) |
-| 6 | [Gricks](Інструменти%20ДМ/CLI/bestiary/aberration/grick-xmm.md) (`d4`) |
-| 7-8 | [Bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) (`d4`) |
-| 9 | [Skeletons](Інструменти%20ДМ/CLI/bestiary/undead/skeleton-xmm.md) (`d6`) |
-| 10 | [Zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) (`d6`) |
+| 4-5 | [Ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) (`1d4`) |
+| 6 | [Gricks](Інструменти%20ДМ/CLI/bestiary/aberration/grick-xmm.md) (`1d4`) |
+| 7-8 | [Bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) (`1d4`) |
+| 9 | [Skeletons](Інструменти%20ДМ/CLI/bestiary/undead/skeleton-xmm.md) (`1d6`) |
+| 10 | [Zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md) (`1d6`) |
 | 11-12 | [Ochre Jelly](Інструменти%20ДМ/CLI/bestiary/ooze/ochre-jelly-xmm.md) (1) |
 ^wandering-monsters
 
@@ -103,7 +104,7 @@ The dwarves' supplies are potentially useful, but not particularly valuable.
 
 ### Open Pit
 
-Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
+Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `1d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
 
 ### Treasure
 
@@ -211,7 +212,7 @@ Seven [ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md) l
 
 They notice any light or noise elsewhere in the cave and quickly bound down to attack. The undead are hungry and fight until destroyed.
 
-The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `d6` bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
+The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `1d6` bludgeoning damage and lands [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).
 
 ## 10. Dark Pool
 
@@ -340,7 +341,7 @@ With a successful DC 15 Charisma ([Deception](Інструменти%20ДМ/CLI/
 
 ### Brazier of Green Flame
 
-A successful DC 15 Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](Інструменти%20ДМ/CLI/items/1-weapon-xdmg.md) or [+1 armor](Інструменти%20ДМ/CLI/items/1-armor-xdmg.md), respectively, for `d12` hours. The brazier cannot be removed from the Forge of Spells.
+A successful DC 15 Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](Інструменти%20ДМ/CLI/items/1-weapon-xdmg.md) or [+1 armor](Інструменти%20ДМ/CLI/items/1-armor-xdmg.md), respectively, for `1d12` hours. The brazier cannot be removed from the Forge of Spells.
 
 ### Northern Room
 
@@ -385,7 +386,7 @@ Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-
 
 ### Rift
 
-The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom.
+The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `1d6` bludgeoning damage per 10 feet fallen, landing [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) at the bottom.
 
 ### Developments
 

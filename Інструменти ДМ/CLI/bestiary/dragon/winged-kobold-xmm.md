@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -30,7 +31,7 @@ Some kobolds are born with wings. Called urds by others of their kind, these kob
 *Tricksters and Servants to Chromatic Dragons*
 
 - **Habitat.** Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Cowardly cousins to chromatic dragons, kobolds serve draconic overlords as warriors and servants. These scrappy menaces mimic the behaviors of their dragon masters. Though their small stature and recklessness make kobolds poor imitators of dragons, what they lack in ferocity they make up for in zeal and ingenuity. They are especially adept at creating traps and setting ambushes.
 
@@ -53,7 +54,8 @@ Kobolds' scales resemble those of chromatic dragons that live near their warrens
   - !!int "7"
   - !!int "8"
 "speed": "30 ft., fly 30 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": "Common, Draconic"
 "cr": "1/4"
 "traits":
@@ -66,10 +68,10 @@ Kobolds' scales resemble those of chromatic dragons that live near their warrens
       \ on ability checks and attack rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing\
       \ damage."
     "name": "Dragon-Tooth Blade"
-  - "desc": "Ranged Attack Roll: +5, range 30 ft. Hit: 6 (1d6 + 3) damage\
+  - "desc": "*Ranged Attack Roll:* +5, range 30 ft. *Hit:* 6 (1d6 + 3) damage\
       \ of a type chosen by the kobold: Acid, Cold, Fire, Lightning, or Poison."
     "name": "Chromatic Spittle"
 "source":

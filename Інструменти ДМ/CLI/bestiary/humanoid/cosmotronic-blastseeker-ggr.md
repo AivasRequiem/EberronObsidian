@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -52,9 +53,9 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 14, +6 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [scorching ray](Інст\
+      \ which doesn't function for others:\n\n**3/day each:** [scorching ray](Інст\
       рументи%20ДМ/CLI/spells/scorching-ray-xphb.md), [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md),\
-      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n2/day:\
+      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n**2/day:**\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the blastseeker rolls damage for a spell, it can reroll up to four\
@@ -64,7 +65,7 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ with advantage."
     "name": "Tides of Chaos (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage if used\
       \ with two hands."
     "name": "Warhammer"

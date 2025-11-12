@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/7
@@ -50,21 +51,22 @@ Blood witches strive both to protect the cult from external interference and to 
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "psychic"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Abyssal plus any one language (usually Common)"
 "cr": "7"
 "traits":
   - "desc": "The witch's innate spellcasting ability is Charisma (spell save DC 15,\
       \ +7 to hit with spell attacks). The witch can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [alter self](Інс\
+      \ spells, requiring no material components:\n\n**At will:** [alter self](Інс\
       трументи%20ДМ/CLI/spells/alter-self-xphb.md), [detect magic](Інструменти%20Д\
       М/CLI/spells/detect-magic-xphb.md), [eldritch blast](Інструменти%20ДМ/CLI/spells/eldritch-blast-xphb.md)\
       \ (at 11th level), [false life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md),\
       \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only), [mage\
-      \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only)\n\n3/day\
-      \ each: [hellish rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md),\
+      \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only)\n\n**3/day\
+      \ each:** [hellish rebuke](Інструменти%20ДМ/CLI/spells/hellish-rebuke-xphb.md),\
       \ [hex](Інструменти%20ДМ/CLI/spells/hex-xphb.md), [scorching ray](Інструмент\
-      и%20ДМ/CLI/spells/scorching-ray-xphb.md) (at 3rd level)\n\n1/day each: [circle\
+      и%20ДМ/CLI/spells/scorching-ray-xphb.md) (at 3rd level)\n\n**1/day each:** [circle\
       \ of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md), [enthrall](І\
       нструменти%20ДМ/CLI/spells/enthrall-xphb.md), [suggestion](Інструменти%20ДМ\
       /CLI/spells/suggestion-xphb.md)"
@@ -81,10 +83,10 @@ Blood witches strive both to protect the cult from external interference and to 
   - "desc": "The witch makes two attacks: one with its longsword and one with its\
       \ shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
 "source":

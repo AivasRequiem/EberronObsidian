@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/15
@@ -24,7 +25,7 @@ Salamander inferno masters are ancient connoisseurs of flames and often inhabit 
 *Serpentine Artists of the Inferno*
 
 - **Habitat.** Planar (Elemental Plane of Fire), Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Salamanders are serpentine denizens of the Elemental Plane of Fire. They believe that flames expose the purest forms of all things and delight in burning and melting things, seeing fleeting beauty and striking nuances in blazes consuming different fuels—ancient forests, artistic masterpieces, or living creatures. To salamanders, those that can't endure their flames are nothing but ashes in disguise. They harbor malice toward few creatures, but they consider creating remarkable flames more important than the pain and loss their fires cause.
 
@@ -57,7 +58,8 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
   - "wisdom": !!int "5"
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Primordial (Ignan)"
 "cr": "15"
 "traits":
@@ -71,20 +73,20 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 "actions":
   - "desc": "The salamander makes two Flame Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +12, reach 5 ft. or range 30/90 ft.\
-      \ Hit: 16 (2d8 + 7) Piercing damage plus 14 (4d6) Fire damage. Hit or\
-      \ Miss: The trident magically returns to the salamander's hand immediately\
+  - "desc": "*Melee  or Ranged Attack Roll:* +12, reach 5 ft. or range 30/90 ft.\
+      \ *Hit:* 16 (2d8 + 7) Piercing damage plus 14 (4d6) Fire damage. *Hit or\
+      \ Miss:* The trident magically returns to the salamander's hand immediately\
       \ after a ranged attack."
     "name": "Flame Trident"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 30-foot-radius [Sphere](І\
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 30-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the salamander can see within 120 feet. Failure: 35 (10d6)\
+      \ on a point the salamander can see within 120 feet. *Failure:* 35 (10d6)\
       \ Fire damage, and the target starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md),\
-      \ taking 5 (d10) Fire damage at the start of each of its turns instead of\
+      \ taking 5 (1d10) Fire damage at the start of each of its turns instead of\
       \ the normal [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md) damage.\
       \ The target gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
       \ level whenever it takes this [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)\
-      \ damage. Success: Half damage only."
+      \ damage. *Success:* Half damage only."
     "name": "Inferno Blast (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The salamander moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\

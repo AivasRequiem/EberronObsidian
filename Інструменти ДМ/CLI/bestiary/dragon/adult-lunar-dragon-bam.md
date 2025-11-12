@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/13
@@ -53,7 +54,8 @@ The cave complex where a lunar dragon makes its lair contains ample space for fo
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
 "damage_immunities": "cold"
-"senses": "darkvision 240 ft., passive Perception 21"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 240 ft.,\
+  \ passive Perception 21"
 "languages": "Draconic"
 "cr": "13"
 "traits":
@@ -67,13 +69,13 @@ The cave complex where a lunar dragon makes its lair contains ample space for fo
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 13 (2d6 + 6) piercing damage plus 3 (d6) cold damage."
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 13 (2d6 + 6) piercing damage plus 3 (1d6) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) bludgeoning damage."
     "name": "Tail"
   - "desc": "The dragon exhales a blast of frost in a 60-foot cone. Each creature\
@@ -89,6 +91,9 @@ The cave complex where a lunar dragon makes its lair contains ample space for fo
       \ on a spell). While partially incorporeal, the dragon has resistance to bludgeoning,\
       \ piercing, and slashing damage."
     "name": "Phase (3/Day)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Tail attack."
     "name": "Tail Attack"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 123* 
 
 **Guild Location Goals**
-
-`dice: [](guild-locations-guild-location-goals-ggr.md#^guild-location-goals)`
 
 | dice: d8 | Adventure Goal |
 |----------|----------------|

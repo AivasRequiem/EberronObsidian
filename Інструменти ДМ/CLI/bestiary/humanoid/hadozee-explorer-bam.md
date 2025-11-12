@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/2
@@ -57,10 +58,10 @@ Hadozee explorers scour Wildspace systems for riches and adventure. They often s
 "actions":
   - "desc": "The hadozee makes two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 40/120 ft., one target. *Hit:*\
       \ 16 (2d12 + 3) piercing damage."
     "name": "Musket"
 "bonus_actions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -36,12 +37,13 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "8"
   - !!int "2"
 "speed": "10 ft."
-"senses": "blindsight 10 ft., passive Perception 9"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus\
-      \ 3 (d6) Poison damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 1 Piercing damage plus\
+      \ 3 (1d6) Poison damage."
     "name": "Sting"
 "source":
   - "XMM"

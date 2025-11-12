@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/common
@@ -23,6 +24,6 @@ This wooden staff is decorated with bird carvings. It has 10 charges. While hold
 
 ## Regaining Charges
 
-The staff regains `1d6 + 4` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever.
+The staff regains `1d6 + 4` expended charges daily at dawn. If you expend the last charge, roll `1d20`. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever.
 
 *Source: Dungeon Master's Guide (2024) p. 307*

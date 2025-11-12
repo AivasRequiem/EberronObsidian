@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -207,9 +208,9 @@ On initiative count 20 (losing initiative ties), the Golgari group takes a lair 
 The region containing a Golgari lair is infested with mosses and strange fungi. This habitat accounts for one or both of the following effects in the surrounding undercity (the effects don't spread to the surface):
 
 - Moss, fungi, and other growth covers every underground surface within half a mile of the lair.  
-- Fungal spores drifting throughout the lair have the power to animate corpses. Whenever a Small or Medium humanoid dies within the lair, roll a die. On an odd number, the dead creature rises up as a fungus drudge (use the zombie stat block in the "Monster Manual") `d8` hours later, unless its body is destroyed.  
+- Fungal spores drifting throughout the lair have the power to animate corpses. Whenever a Small or Medium humanoid dies within the lair, roll a die. On an odd number, the dead creature rises up as a fungus drudge (use the zombie stat block in the "Monster Manual") `1d8` hours later, unless its body is destroyed.  
 
-If all the Golgari in the lair die, the regional effects fade over `d10` days.
+If all the Golgari in the lair die, the regional effects fade over `1d10` days.
 
 ## Gruul NPCs
 
@@ -419,7 +420,7 @@ When at least six [Rakdos](Інструменти%20ДМ/CLI/bestiary/npc/rakdos
 On initiative count 20 (losing initiative ties), the carnival takes a lair action, causing one of the following effects; the carnival can't use the same effect two rounds in a row:
 
 - Fire erupts from the ground at up to four points of the DM's choice in the carnival. The fire lasts for 1 minute or until this action is used again. Each jet of flame is a 20-foot-tall cylinder with a 5-foot radius. Each creature in the cylinder when it first appears must make a DC 15 Dexterity saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one. Any creature that starts its turn in the flames must also make the saving throw.  
-- Whirling blades, spiked chains, or other implements of agony appear for a moment to menace `d6` random creatures in a 20-foot cube. Each target must succeed on a DC 15 Dexterity saving throw or take 9 (`2d8`) force damage.  
+- Whirling blades, spiked chains, or other implements of agony appear for a moment to menace `1d6` random creatures in a 20-foot cube. Each target must succeed on a DC 15 Dexterity saving throw or take 9 (`2d8`) force damage.  
 - Blood splashes all creatures in a 20-foot-radius sphere centered on a point within the carnival. Each creature in that area becomes the target of a [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md) spell (save DC 15).  
 
 #### Regional Effects

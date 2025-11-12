@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 153* 
 
 **White Dragon Ideals**
-
-`dice: [](creating-a-white-dragon-white-dragon-ideals-ftd.md#^white-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

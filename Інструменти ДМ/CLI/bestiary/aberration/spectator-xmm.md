@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -51,36 +52,37 @@ At the end of its service, a spectator might discorporate back into nothingness 
     "desc": "+6"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Deep Speech, Undercommon; telepathy 120 ft."
 "cr": "3"
 "actions":
   - "desc": "The spectator uses Eye Rays twice."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The spectator randomly shoots one of the following magical rays at a\
-      \ target it can see within 90 feet of itself (roll d4; reroll if the spectator\
-      \ has already used that ray during this turn):\n\n- 1 Confusion Ray. Wisdom\
-      \ Saving Throw: DC 12. Failure: 5 (2d4) Psychic damage, and the target\
+      \ target it can see within 90 feet of itself (roll 1d4; reroll if the spectator\
+      \ has already used that ray during this turn):\n\n- **1 Confusion Ray.** *Wisdom\
+      \ Saving Throw:* DC 12. *Failure:* 5 (2d4) Psychic damage, and the target\
       \ can't take Reactions until the end of its next turn. On its next turn, the\
       \ target can't move, and it uses its action to make a melee or ranged attack\
       \ against a randomly determined creature within range. If the target can't attack,\
-      \ it does nothing on that turn.  \n- 2 Paralyzing Ray. Constitution Saving\
-      \ Throw: DC 12. Failure: The target has the [Paralyzed](Інструменти%20ДМ\
+      \ it does nothing on that turn.  \n- **2 Paralyzing Ray.** *Constitution Saving\
+      \ Throw:* DC 12. *Failure:* The target has the [Paralyzed](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Paralyzed) condition and repeats the save at the end\
       \ of each of its turns, ending the effect on itself on a success. After 1 minute,\
-      \ it succeeds automatically.  \n- 3 Fear Ray. Wisdom Saving Throw: DC\
-      \ 12. Failure: 5 (2d4) Psychic damage, and the target has the [Frightened](І\
+      \ it succeeds automatically.  \n- **3 Fear Ray.** *Wisdom Saving Throw:* DC\
+      \ 12. *Failure:* 5 (2d4) Psychic damage, and the target has the [Frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end\
-      \ of its next turn.  \n- 4 Wounding Ray. Constitution Saving Throw: DC\
-      \ 12. Failure: 16 (3d10) Necrotic damage. Success: Half damage.  "
+      \ of its next turn.  \n- **4 Wounding Ray.** *Constitution Saving Throw:* DC\
+      \ 12. *Failure:* 16 (3d10) Necrotic damage. *Success:* Half damage.  "
     "name": "Eye Rays"
 "reactions":
   - "desc": "Trigger: The spectator succeeds on a saving throw against a spell, or\
-      \ a spell's attack roll misses it. _Response—_Dexterity Saving Throw: DC 12,\
-      \ one creature the spectator can see within 120 feet. Failure: 10 (3d6)\
+      \ a spell's attack roll misses it. _Response—_*Dexterity Saving Throw:* DC 12,\
+      \ one creature the spectator can see within 120 feet. *Failure:* 10 (3d6)\
       \ Force damage."
     "name": "Spell Reflection"
 "source":

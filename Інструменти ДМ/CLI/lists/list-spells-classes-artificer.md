@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/artificer
 aliases:
@@ -12,13 +13,16 @@ aliases:
 
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB")
 - [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE")
+- [Create Bonfire](Інструменти%20ДМ/CLI/spells/create-bonfire-xge.md "XGE") (\*)
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB")
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB")
+- [Frostbite](Інструменти%20ДМ/CLI/spells/frostbite-xge.md "XGE") (\*)
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE")
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB")
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB")
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE")
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB")
+- [Magic Stone](Інструменти%20ДМ/CLI/spells/magic-stone-xge.md "XGE") (\*)
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB")
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB")
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB")
@@ -29,11 +33,13 @@ aliases:
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB")
 - [Sword Burst](Інструменти%20ДМ/CLI/spells/sword-burst-tce.md "TCE")
 - [Thorn Whip](Інструменти%20ДМ/CLI/spells/thorn-whip-xphb.md "XPHB")
-- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB")
+- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") (\*)
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") (\*)
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB")
+- [Catapult](Інструменти%20ДМ/CLI/spells/catapult-xge.md "XGE") (\*)
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
 - [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB")
@@ -47,6 +53,7 @@ aliases:
 - [Longstrider](Інструменти%20ДМ/CLI/spells/longstrider-xphb.md "XPHB")
 - [Purify Food and Drink](Інструменти%20ДМ/CLI/spells/purify-food-and-drink-xphb.md "XPHB")
 - [Sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md "XPHB")
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") (\*)
 - [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE")
 
 ## 2nd Level
@@ -66,8 +73,10 @@ aliases:
 - [Magic Mouth](Інструменти%20ДМ/CLI/spells/magic-mouth-xphb.md "XPHB")
 - [Magic Weapon](Інструменти%20ДМ/CLI/spells/magic-weapon-xphb.md "XPHB")
 - [Protection from Poison](Інструменти%20ДМ/CLI/spells/protection-from-poison-xphb.md "XPHB")
+- [Pyrotechnics](Інструменти%20ДМ/CLI/spells/pyrotechnics-xge.md "XGE") (\*)
 - [Rope Trick](Інструменти%20ДМ/CLI/spells/rope-trick-xphb.md "XPHB")
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
+- [Skywrite](Інструменти%20ДМ/CLI/spells/skywrite-xge.md "XGE") (\*)
 - [Spider Climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md "XPHB")
 - [Web](Інструменти%20ДМ/CLI/spells/web-xphb.md "XPHB")
 
@@ -75,21 +84,25 @@ aliases:
 
 - [Ashardalon's Stride](Інструменти%20ДМ/CLI/spells/ashardalons-stride-ftd.md "FTD") (\*)
 - [Blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md "XPHB")
+- [Catnap](Інструменти%20ДМ/CLI/spells/catnap-xge.md "XGE") (\*)
 - [Create Food and Water](Інструменти%20ДМ/CLI/spells/create-food-and-water-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
 - [Elemental Weapon](Інструменти%20ДМ/CLI/spells/elemental-weapon-xphb.md "XPHB")
+- [Flame Arrows](Інструменти%20ДМ/CLI/spells/flame-arrows-xge.md "XGE") (\*)
 - [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
 - [Haste](Інструменти%20ДМ/CLI/spells/haste-xphb.md "XPHB")
 - [Intellect Fortress](Інструменти%20ДМ/CLI/spells/intellect-fortress-tce.md "TCE")
 - [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB")
 - [Revivify](Інструменти%20ДМ/CLI/spells/revivify-xphb.md "XPHB")
+- [Tiny Servant](Інструменти%20ДМ/CLI/spells/tiny-servant-xge.md "XGE") (\*)
 - [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md "XPHB")
 - [Water Walk](Інструменти%20ДМ/CLI/spells/water-walk-xphb.md "XPHB")
 
 ## 4th Level
 
 - [Arcane Eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md "XPHB")
+- [Elemental Bane](Інструменти%20ДМ/CLI/spells/elemental-bane-xge.md "XGE") (\*)
 - [Fabricate](Інструменти%20ДМ/CLI/spells/fabricate-xphb.md "XPHB")
 - [Freedom of Movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md "XPHB")
 - [Leomund's Secret Chest](Інструменти%20ДМ/CLI/spells/leomunds-secret-chest-xphb.md "XPHB")
@@ -106,4 +119,6 @@ aliases:
 - [Bigby's Hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md "XPHB")
 - [Creation](Інструменти%20ДМ/CLI/spells/creation-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB")
+- [Skill Empowerment](Інструменти%20ДМ/CLI/spells/skill-empowerment-xge.md "XGE") (\*)
+- [Transmute Rock](Інструменти%20ДМ/CLI/spells/transmute-rock-xge.md "XGE") (\*)
 - [Wall of Stone](Інструменти%20ДМ/CLI/spells/wall-of-stone-xphb.md "XPHB")

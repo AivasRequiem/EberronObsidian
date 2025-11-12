@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -24,7 +25,7 @@ Energetic entertainers, wonderbringers use their magic in defense of the wildern
 *Friends of the Forest*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They invisibly observe those who enter their wooded homes, revealing themselves to those with friendly intentions. Those who are unfriendly become the targets of pixies' pranks.
 
@@ -62,16 +63,16 @@ Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They i
 "actions":
   - "desc": "The pixie makes two Faerie Dust attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 60 ft. *Hit:*\
       \ 15 (2d10 + 4) Radiant damage, and the target has the [Charmed](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Charmed) or [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition (pixie's choice) until the start of the pixie's next turn."
     "name": "Faerie Dust"
   - "desc": "The pixie casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n**At\
+      \ will:** [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md), [Invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only)\n\n1/day each:\
+      нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only)\n\n**1/day each:**\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Fly](І\
       нструменти%20ДМ/CLI/spells/fly-xphb.md), [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
     "name": "Spellcasting"

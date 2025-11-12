@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/paladin
@@ -20,7 +21,7 @@ aliases:
 - **Components:** V, S
 - **Duration:** 1 minute
 
-Until the spell ends, your attacks with weapons deal an extra `d4` Radiant damage on a hit.
+Until the spell ends, your attacks with weapons deal an extra `1d4` Radiant damage on a hit.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
 

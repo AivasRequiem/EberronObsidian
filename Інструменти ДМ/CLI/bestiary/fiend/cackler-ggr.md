@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -60,29 +61,30 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "1/2"
 "traits":
   - "desc": "The cackler's innate spellcasting ability is Charisma (spell save DC\
       \ 11, +3 to hit with spell attacks). The cackler can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [fire bolt](Інст\
-      рументи%20ДМ/CLI/spells/fire-bolt-xphb.md)\n\n1/day: [Tasha's hideous laughter](І\
+      \ spells, requiring no material components:\n\n**At will:** [fire bolt](Інст\
+      рументи%20ДМ/CLI/spells/fire-bolt-xphb.md)\n\n**1/day:** [Tasha's hideous laughter](І\
       нструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the cackler dies, it releases a dying laugh that scars the minds\
       \ of other nearby creatures. Each creature within 10 feet of the cackler must\
-      \ succeed on a DC 11 Wisdom saving throw or take 2 (d4) psychic damage."
+      \ succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage."
     "name": "Last Laugh"
   - "desc": "The cackler can mimic any sounds it has heard, including voices. A creature\
       \ that hears the sounds can tell they are imitations with a successful DC 11\
       \ Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) slashing damage."
     "name": "Spiked Chain"
 "source":

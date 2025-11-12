@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -60,7 +61,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "6"
 "speed": "30 ft."
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Deep Speech"
 "cr": "1/4"
 "traits":
@@ -69,7 +71,7 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
       \ a star spawn grue."
     "name": "Aura of Shrieks"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) piercing damage, and the target must succeed on a DC 10 Wisdom\
       \ saving throw or attack rolls against it have advantage until the start of\
       \ the grue's next turn."

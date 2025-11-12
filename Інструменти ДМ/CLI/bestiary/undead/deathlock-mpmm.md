@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -56,7 +57,8 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "the languages it knew in life"
 "cr": "4"
 "traits":
@@ -68,17 +70,17 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "actions":
   - "desc": "The deathlock makes two Deathly Claw or Grave Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) necrotic damage."
     "name": "Deathly Claw"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one target. *Hit:*\
       \ 14 (2d10 + 3) necrotic damage."
     "name": "Grave Bolt"
   - "desc": "The deathlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 13):\n\nAt will: [detect magic](Ін\
+      \ spellcasting ability (spell save DC 13):\n\n**At will:** [detect magic](Ін\
       струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [disguise self](Інструменти\
       %20ДМ/CLI/spells/disguise-self-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md),\
-      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n1/day each:\
+      \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**1/day each:**\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [hunger\
       \ of Hadar](Інструменти%20ДМ/CLI/spells/hunger-of-hadar-xphb.md), [invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [spider climb](Інструменти\

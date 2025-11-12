@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/22
@@ -37,8 +38,6 @@ Some beholderkin serve Belashyrra as guards and agents, while others spend their
 If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it gains a form of indefinite madness. Roll on the Madness of Belashyrra table to determine the nature of this madness, which takes the form of a character flaw that lasts until cured. Chapter 8 of the "Dungeon Master's Guide" has more information on madness.
 
 **Madness of Belashyrra**
-
-`dice: [](belashyrra-erlw.md#^madness-of-belashyrra)`
 
 | dice: d6 | Flaw (lasts until cured) |
 |----------|--------------------------|
@@ -83,7 +82,8 @@ If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it 
   рументи%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "Deep Speech, telepathy 120 ft."
 "cr": "22"
 "traits":
@@ -113,26 +113,26 @@ If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it 
 "actions":
   - "desc": "Belashyrra makes two attacks with its claws and uses its Eye Ray once."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (3d6 + 7) slashing damage."
     "name": "Claw"
   - "desc": "Belashyrra shoots one of the following magical eye rays of its choice,\
-      \ targeting one creature it can see within 120 feet of it:\n\n- 1. Psyche-Reconstruction\
-      \ Ray. The target must make a DC 22 Wisdom saving throw, taking 49 (9d10)\
+      \ targeting one creature it can see within 120 feet of it:\n\n- **1. Psyche-Reconstruction\
+      \ Ray.** The target must make a DC 22 Wisdom saving throw, taking 49 (9d10)\
       \ psychic damage on a failed save, or half as much damage on a successful one.\
       \ If this damage reduces a creature to 0 hit points, it dies and transforms\
       \ into a spectator under Belashyrra's control and acts immediately after Belashyrra\
       \ in the initiative order. The target can't be returned to its original form\
       \ by any means short of a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell.\
-      \  \n- 2. Domination Ray. The target must succeed on a DC 22 Wisdom saving\
+      \  \n- **2. Domination Ray.** The target must succeed on a DC 22 Wisdom saving\
       \ throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by\
       \ Belashyrra for 1 minute or until the target takes damage. Belashyrra can issue\
       \ telepathic commands to the [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ creature (no action required), which it does its best to obey.  \n- 3. Mind-Weakening\
-      \ Ray. The target must succeed on a DC 22 Intelligence saving throw or take\
+      \ creature (no action required), which it does its best to obey.  \n- **3. Mind-Weakening\
+      \ Ray.** The target must succeed on a DC 22 Intelligence saving throw or take\
       \ 36 (8d8) psychic damage and be unable to cast spells or activate magic items\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 4. Blinding Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **4. Blinding Ray.**\
       \ The target and each creature within 10 feet of it must succeed on a DC 22\
       \ Constitution saving throw or take 19 (3d12) radiant damage and be [blinded](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Blinded) for 1 minute. Until this blindness\
@@ -141,6 +141,49 @@ If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it 
       \ creature can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success.  "
     "name": "Eye Ray"
+"lair_actions":
+  - "desc": "While within the Citadel of Lidless Eyes, Belashyrra can invoke the ambient\
+      \ magic to take lair actions. On initiative count 20 (losing initiative ties),\
+      \ Belashyrra can take a lair action to cause one of the following effects; it\
+      \ can't use the same effect two rounds in a row:\n\n- An eye opens on a solid\
+      \ surface within 60 feet of Belashyrra. One random eye ray of Belashyrra's shoots\
+      \ from that eye at a target of Belashyrra's choice that it can see. The eye\
+      \ then closes and disappears.  \n- Belashyrra creates a [wave](Інструменти%20Д\
+      М/CLI/items/wave-xdmg.md) of madness. Each creature it can see within its lair\
+      \ must succeed on a DC 22 Wisdom saving throw or be [charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) for 1 minute. While [charmed](Інструменти\
+      %20ДМ/CLI/rules/conditions.md#Charmed) in this way, a creature must use its\
+      \ action at the start of its turn before moving to make a melee attack against\
+      \ another creature of Belashyrra's choice within reach. If there are no creatures\
+      \ within reach, the [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ creature can act normally for that turn. A [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success.  \n- Belashyrra taps into the eyesight\
+      \ of creatures in its lair and alters their perception. Each creature of Belashyrra's\
+      \ choice in the lair must make a DC 22 Wisdom saving throw. On a failure, the\
+      \ affected creature perceives objects and creatures a short distance from their\
+      \ actual locations, imposing disadvantage on the creature's attack rolls against\
+      \ those targets. An affected creature can repeat the saving throw at the end\
+      \ of each of its turns, ending the effect on itself on a success. If a creature's\
+      \ saving throw is successful or the effect ends for it, the creature is immune\
+      \ to this lair action for the next 24 hours.  "
+    "name": ""
+"regional_effects":
+  - "desc": "Belashyrra's lair is known to touch remote areas of the Shadow Marches\
+      \ and caverns below Xen'drik. A region containing a passage to Belashyrra's\
+      \ lair is warped by its magic, which creates one or more of the following effects:\n\
+      \n- Creatures within 1 mile of the passage sometimes feel as if they're being\
+      \ watched.  \n- Beasts that live within 5 miles of the passage undergo magical\
+      \ transmutation, growing eyes or eyestalks that Belashyrra can see through.\
+      \  \n- A humanoid who spends at least 1 hour within 1 mile of the passage must\
+      \ succeed on a DC 21 Wisdom saving throw or descend into a type of madness (see\
+      \ \"Madness of Belashyrra\" below). A creature that succeeds on this saving\
+      \ throw can't be affected by this regional effect again for 24 hours.  \n\n\
+      If Belashyrra dies, these effects fade over the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Belashyrra can expend a use to take one of the following actions. Belashyrra\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Belashyrra makes one claw attack."
     "name": "Claw"
@@ -154,50 +197,6 @@ If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it 
       \ or take 19 (3d12) force damage and gain one level of [exhaustion](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Exhaustion)."
     "name": "Rend Reality (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "While within the Citadel of Lidless Eyes, Belashyrra can invoke the ambient\
-      \ magic to take lair actions. On initiative count 20 (losing initiative ties),\
-      \ Belashyrra can take a lair action to cause one of the following effects; it\
-      \ can't use the same effect two rounds in a row:"
-    "name": ""
-  - "desc": "- An eye opens on a solid surface within 60 feet of Belashyrra. One random\
-      \ eye ray of Belashyrra's shoots from that eye at a target of Belashyrra's choice\
-      \ that it can see. The eye then closes and disappears.  \n- Belashyrra creates\
-      \ a [wave](Інструменти%20ДМ/CLI/items/wave-xdmg.md) of madness. Each creature\
-      \ it can see within its lair must succeed on a DC 22 Wisdom saving throw or\
-      \ be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) for 1 minute.\
-      \ While [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this\
-      \ way, a creature must use its action at the start of its turn before moving\
-      \ to make a melee attack against another creature of Belashyrra's choice within\
-      \ reach. If there are no creatures within reach, the [charmed](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Charmed) creature can act normally for that turn.\
-      \ A [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) creature can\
-      \ repeat the saving throw at the end of each of its turns, ending the effect\
-      \ on itself on a success.  \n- Belashyrra taps into the eyesight of creatures\
-      \ in its lair and alters their perception. Each creature of Belashyrra's choice\
-      \ in the lair must make a DC 22 Wisdom saving throw. On a failure, the affected\
-      \ creature perceives objects and creatures a short distance from their actual\
-      \ locations, imposing disadvantage on the creature's attack rolls against those\
-      \ targets. An affected creature can repeat the saving throw at the end of each\
-      \ of its turns, ending the effect on itself on a success. If a creature's saving\
-      \ throw is successful or the effect ends for it, the creature is immune to this\
-      \ lair action for the next 24 hours.  "
-    "name": ""
-"regional_effects":
-  - "desc": "Belashyrra's lair is known to touch remote areas of the Shadow Marches\
-      \ and caverns below Xen'drik. A region containing a passage to Belashyrra's\
-      \ lair is warped by its magic, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Creatures within 1 mile of the passage sometimes feel as if they're\
-      \ being watched.  \n- Beasts that live within 5 miles of the passage undergo\
-      \ magical transmutation, growing eyes or eyestalks that Belashyrra can see through.\
-      \  \n- A humanoid who spends at least 1 hour within 1 mile of the passage must\
-      \ succeed on a DC 21 Wisdom saving throw or descend into a type of madness (see\
-      \ \"Madness of Belashyrra\" below). A creature that succeeds on this saving\
-      \ throw can't be affected by this regional effect again for 24 hours.  "
-    "name": ""
-  - "desc": "If Belashyrra dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "ERLW"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/belashyrra-erlw.webp"

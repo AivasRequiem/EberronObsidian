@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/17
@@ -60,28 +61,29 @@ Hungry to claim more power despite the Raven Queen's curse, nagpas strive to bri
     "desc": "+10"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+10"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 20"
 "languages": "Common plus up to five other languages"
 "cr": "17"
 "actions":
   - "desc": "The nagpa makes three Staff or Deathly Ray attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage plus 24 (7d6) necrotic damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 30 (7d6 + 6) necrotic damage."
     "name": "Deathly Ray"
   - "desc": "The nagpa casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 20):\n\nAt will: [detect magic](Ін\
+      \ spellcasting ability (spell save DC 20):\n\n**At will:** [detect magic](Ін\
       струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [mage hand](Інструменти%20Д\
       М/CLI/spells/mage-hand-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
-      \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n2/day\
-      \ each: [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Ін\
+      \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**2/day\
+      \ each:** [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Ін\
       струменти%20ДМ/CLI/spells/fly-xphb.md), [hold person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md),\
       \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md), [wall of fire](І\
-      нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n1/day each: [dominate\
+      нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n**1/day each:** [dominate\
       \ person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md), [etherealness](І\
       нструменти%20ДМ/CLI/spells/etherealness-xphb.md), [feeblemind](Інструменти%20Д\
       М/CLI/spells/befuddlement-xphb.md)"

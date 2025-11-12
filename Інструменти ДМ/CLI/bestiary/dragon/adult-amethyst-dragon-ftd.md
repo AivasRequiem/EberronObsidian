@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/16
@@ -72,7 +73,8 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
 "damage_resistances": "force, psychic"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 23"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -83,10 +85,10 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage plus 9 (2d8) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d8 + 7) slashing damage."
     "name": "Claw"
   - "desc": "The dragon creates a shining bead of gravitational force in its mouth,\
@@ -98,7 +100,7 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
     "name": "Singularity Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
-      1/day each: [blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md), [control\
+      **1/day each:** [blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md), [control\
       \ water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [protection from evil and\
       \ good](Інструменти%20ДМ/CLI/spells/protection-from-evil-and-good-xphb.md),\
@@ -113,6 +115,48 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Beguiling Whisper.** The dragon telepathically\
+      \ whispers to one creature within range of the dragon's telepathy. The creature\
+      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
+      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ in this way obeys to the best of its ability any command the dragon issues\
+      \ that isn't directly harmful to the creature.  \n- **Imprisoning Force.** The\
+      \ dragon casts the [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md)\
+      \ spell, using its spell save DC and requiring no spell components. The spell\
+      \ ends early if the dragon uses this lair action again or dies.  \n- **Spatial\
+      \ Projection.** The dragon chooses a space it can fit into within the lair.\
+      \ It exists in its own space and the chosen space simultaneously until initiative\
+      \ count 20 on the next round. Whenever it moves or takes an action, it chooses\
+      \ which version of itself is moving or acting. If an effect or attack can target\
+      \ both of the dragon's spaces at the same time, the dragon is affected only\
+      \ once.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary amethyst dragon's lair is altered\
+      \ by the dragon's magic, creating one or more of the following effects:\n\n\
+      - **Background Check.** Once per day, the dragon can cast the [legend lore](І\
+      нструменти%20ДМ/CLI/spells/legend-lore-xphb.md) spell, requiring no spell components,\
+      \ naming any person, place, or object within 1 mile of the lair as the spell's\
+      \ subject.  \n- **Crystal Profusion.** Amethyst crystals and geodes form along\
+      \ muddy shores and lake beds within 6 miles of the lair.  \n- **Thriving Wildlife.**\
+      \ Fish and other aquatic Beasts reproduce rapidly and thrive in bodies of water\
+      \ within 6 miles of the lair. Foraging in these waters yields twice the usual\
+      \ amount of food.  \n- **Watery Sight.** Water within 6 miles of the lair is\
+      \ a conduit for the dragon's psionic presence. As an action, the dragon can\
+      \ cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
+      \ spell, requiring no spell components and targeting any body of water in that\
+      \ region.  \n\nIf the dragon dies, the populations of aquatic life near the\
+      \ lair return to normal levels over the course of 1d10 days. The existing\
+      \ abundance of amethysts remains, but new crystals and geodes form at a normal\
+      \ rate."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one claw attack."
     "name": "Claw"
@@ -123,48 +167,6 @@ The challenge rating of a legendary amethyst dragon increases by 1 when it's enc
       \ on that point must succeed on a DC 20 Dexterity saving throw or take 13 (3d8)\
       \ force damage and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Explosive Crystal (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Beguiling Whisper. The dragon telepathically whispers to one creature\
-      \ within range of the dragon's telepathy. The creature must succeed on a DC\
-      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
-      \ of its ability any command the dragon issues that isn't directly harmful to\
-      \ the creature.  \n- Imprisoning Force. The dragon casts the [forcecage](І\
-      нструменти%20ДМ/CLI/spells/forcecage-xphb.md) spell, using its spell save DC\
-      \ and requiring no spell components. The spell ends early if the dragon uses\
-      \ this lair action again or dies.  \n- Spatial Projection. The dragon chooses\
-      \ a space it can fit into within the lair. It exists in its own space and the\
-      \ chosen space simultaneously until initiative count 20 on the next round. Whenever\
-      \ it moves or takes an action, it chooses which version of itself is moving\
-      \ or acting. If an effect or attack can target both of the dragon's spaces at\
-      \ the same time, the dragon is affected only once.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary amethyst dragon's lair is altered\
-      \ by the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Background Check. Once per day, the dragon can cast the [legend\
-      \ lore](Інструменти%20ДМ/CLI/spells/legend-lore-xphb.md) spell, requiring no\
-      \ spell components, naming any person, place, or object within 1 mile of the\
-      \ lair as the spell's subject.  \n- Crystal Profusion. Amethyst crystals\
-      \ and geodes form along muddy shores and lake beds within 6 miles of the lair.\
-      \  \n- Thriving Wildlife. Fish and other aquatic Beasts reproduce rapidly\
-      \ and thrive in bodies of water within 6 miles of the lair. Foraging in these\
-      \ waters yields twice the usual amount of food.  \n- Watery Sight. Water\
-      \ within 6 miles of the lair is a conduit for the dragon's psionic presence.\
-      \ As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
-      \ spell, requiring no spell components and targeting any body of water in that\
-      \ region.  "
-    "name": ""
-  - "desc": "If the dragon dies, the populations of aquatic life near the lair return\
-      \ to normal levels over the course of d10 days. The existing abundance of\
-      \ amethysts remains, but new crystals and geodes form at a normal rate."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-amethyst-dragon-ftd.webp"

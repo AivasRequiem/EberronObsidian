@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -50,7 +51,8 @@ Mind whisperers are elusive, manipulative, unpredictable, and willing to cheat o
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Abyssal, Common, Draconic"
 "cr": "4"
 "traits":
@@ -67,22 +69,22 @@ Mind whisperers are elusive, manipulative, unpredictable, and willing to cheat o
   - "desc": "The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes\
       \ two Spectral Fangs attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Yuan-ti Form Only)"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one target. *Hit:*\
       \ 16 (3d8 + 3) psychic damage."
     "name": "Spectral Fangs"
   - "desc": "The yuan-ti casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 13):\n\
-      \nAt will: [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \n**At will:** [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
       \ (snakes only), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md), [minor\
       \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n3/day: [suggestion](І\
-      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n2/day each: [detect thoughts](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**3/day:** [suggestion](І\
+      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n**2/day each:** [detect thoughts](І\
       нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [hypnotic pattern](Інст\
       рументи%20ДМ/CLI/spells/hypnotic-pattern-xphb.md)"
     "name": "Spellcasting (Yuan-ti Form Only)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/22
@@ -51,7 +52,8 @@ Using the mobility of the dragon's body, the elder brain can now serve as a powe
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 120 ft., passive Perception 28"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft.,\
+  \ passive Perception 28"
 "languages": "Deep Speech, Draconic, telepathy 5 miles"
 "cr": "22"
 "traits":
@@ -65,13 +67,13 @@ Using the mobility of the dragon's body, the elder brain can now serve as a powe
   - "desc": "The dragon makes one Bite attack, two Claw attacks, and one Tentacle\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage plus 11 (2d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one creature. *Hit:*\
       \ 12 (1d8 + 8) psychic damage. If the target is Huge or smaller, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 18). The dragon\
       \ can have up to four targets [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
@@ -97,6 +99,9 @@ Using the mobility of the dragon's body, the elder brain can now serve as a powe
       \ creature rids it of the infestation and prevents it from turning into a mind\
       \ flayer."
     "name": "Tadpole Brine Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the elder brain dragon can expend a use to take one of the following actions.\
+  \ The elder brain dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Tentacle attack."
     "name": "Tentacle"

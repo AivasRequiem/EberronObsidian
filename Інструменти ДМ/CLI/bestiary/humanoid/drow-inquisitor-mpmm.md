@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -51,7 +52,8 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 20"
 "languages": "Elvish, Undercommon"
 "cr": "14"
 "traits":
@@ -69,18 +71,18 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
 "actions":
   - "desc": "The drow makes three Death Lance attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage plus 18 (4d8) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken.\
       \ This reduction lasts until the target finishes a long rest. The target dies\
       \ if its hit point maximum is reduced to 0."
     "name": "Death Lance"
   - "desc": "The drow's casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
-      \ will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\n**At\
+      \ will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [message](І\
       нструменти%20ДМ/CLI/spells/message-xphb.md), [thaumaturgy](Інструменти%20ДМ\
-      /CLI/spells/thaumaturgy-xphb.md)\n\n1/day each: [clairvoyance](Інструмен\
+      /CLI/spells/thaumaturgy-xphb.md)\n\n**1/day each:** [clairvoyance](Інструмен\
       ти%20ДМ/CLI/spells/clairvoyance-xphb.md), [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [dispel\
       \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [faerie fire](Ін\

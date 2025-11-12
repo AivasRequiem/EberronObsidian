@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -28,8 +29,6 @@ Shambling mounds—also known as "shamblers"—embody the tenacity of the wilder
 Strange circumstances might give rise to shambling mounds, transforming vegetation into hulks with rudimentary cunning. Such conditions include strikes from magical lightning, nature defending itself, or druidic curses. Roll on or choose a result from the Shambling Mound Cultivation table to inspire a shambling mound's origins and features.
 
 **Shambling Mound Cultivation**
-
-`dice: [](shambling-mound-xmm.md#^shambling-mound-cultivation)`
 
 | dice: 1d6 | The Shambling Mound Is... |
 |-----------|---------------------------|
@@ -65,7 +64,8 @@ Strange circumstances might give rise to shambling mounds, transforming vegetati
 "damage_immunities": "lightning"
 "condition_immunities": "[deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)"
-"senses": "blindsight 60 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -77,12 +77,12 @@ Strange circumstances might give rise to shambling mounds, transforming vegetati
   - "desc": "The shambling mound makes three Charged Tendril attacks. It can replace\
       \ one attack with a use of Engulf."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 10 ft. *Hit:* 7 (1d6 + 4) Bludgeoning\
       \ damage plus 5 (2d4) Lightning damage. If the target is a Medium or smaller\
       \ creature, the shambling mound pulls the target 5 feet straight toward itself."
     "name": "Charged Tendril"
-  - "desc": "Strength Saving Throw: DC 15, one Medium or smaller creature within\
-      \ 5 feet. Failure: The target is pulled into the shambling mound's space and\
+  - "desc": "*Strength Saving Throw:* DC 15, one Medium or smaller creature within\
+      \ 5 feet. *Failure:* The target is pulled into the shambling mound's space and\
       \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 14). Until the grapple ends, the target has the [Blinded](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Blinded) and [Restrained](Інструменти%20Д\

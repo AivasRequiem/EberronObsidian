@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -58,7 +59,8 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 16"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 16"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "11"
 "traits":
@@ -70,10 +72,10 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
       \ attack, or it makes one Massive Arm attack and uses Battlefield Cunning, if\
       \ available, or Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 27\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 27\
       \ (6d8) lightning damage."
     "name": "Electrified Touch"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:*\
       \ 23 (3d12 + 4) force damage. If the target is a creature, it must succeed\
       \ on a DC 16 Constitution saving throw or become [stunned](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Stunned) until the end of the yagnoloth's next turn."
@@ -94,11 +96,11 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
     "name": "Teleport"
   - "desc": "The yagnoloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect\
+      \n**At will:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect\
       \ magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [invisibility](Інструменти\
       %20ДМ/CLI/spells/invisibility-xphb.md) (self only), [suggestion](Інструменти\
-      %20ДМ/CLI/spells/suggestion-xphb.md)\n\n3/day: [lightning bolt](Інструме\
+      %20ДМ/CLI/spells/suggestion-xphb.md)\n\n**3/day:** [lightning bolt](Інструме\
       нти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
     "name": "Spellcasting"
 "source":

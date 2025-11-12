@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/1
@@ -47,15 +48,15 @@ Sildar Hallwinter is a retired soldier and sellsword who hails from the city of 
 "actions":
   - "desc": "Sildar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "reactions":
   - "desc": "When an attacker hits Sildar with a melee attack and Sildar can see the\
-      \ attacker, he can roll d6 and add the number rolled to his AC against the\
+      \ attacker, he can roll 1d6 and add the number rolled to his AC against the\
       \ triggering attack, provided that he's wielding a melee weapon."
     "name": "Parry"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Tasha's Cauldron of Everything p. 84* 
 
 **Academy Type**
-
-`dice: [](academy-type-tce.md#^academy-type)`
 
 | dice: d6 | Academy Types |
 |----------|---------------|

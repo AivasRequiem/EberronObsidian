@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/23
@@ -24,13 +25,11 @@ Celestial empyreans are typically noble beings who quest to prove themselves wor
 *Scions of the Gods*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Empyreans are the spawn of deities. While not gods themselves, they possess divine influence and powers related to their divine parents. Some empyreans are near-demigods with fantastic might and the power to reshape mortal lives. Others are little more than divine thoughts or moments of immortal attention made manifest. Whether empyreans are idealized beings or vestiges of divinity, their appearances are influenced by their creators. Roll on or choose a result from the Empyrean Influences table to inspire what aspects of an empyrean's heritage manifest in its physical form.
 
 **Empyrean Influences**
-
-`dice: [](empyrean-xmm.md#^empyrean-influences)`
 
 | dice: 1d6 | The Empyrean Has Features That Are... |
 |-----------|---------------------------------------|
@@ -74,7 +73,8 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
     "desc": "+13"
 "damage_resistances": "bludgeoning, piercing, slashing"
 "damage_immunities": "necrotic, radiant"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "all"
 "cr": "23"
 "traits":
@@ -87,7 +87,7 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
   - "desc": "The empyrean makes two attacks, using Sacred Weapon or Divine Ray in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +17, reach 10 ft. Hit: 31 (6d6 + 10) Force\
+  - "desc": "*Melee Attack Roll:* +17, reach 10 ft. *Hit:* 31 (6d6 + 10) Force\
       \ damage, and the target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ condition until the start of the empyrean's next turn. The target can choose\
       \ not to be [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), in\
@@ -95,19 +95,22 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
       струменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) or [Immunity](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/immunity-xphb.md)."
     "name": "Sacred Weapon"
-  - "desc": "Ranged Attack Roll: +15, range 600 ft. Hit: 35 (6d8 + 8) Necrotic\
+  - "desc": "*Ranged Attack Roll:* +15, range 600 ft. *Hit:* 35 (6d8 + 8) Necrotic\
       \ or Radiant damage (empyrean's choice)."
     "name": "Divine Ray"
   - "desc": "The empyrean casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 23):\n\
-      \nAt will: [Calm Emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
+      \n**At will:** [Calm Emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
       \ [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md),\
       \ [Pass without Trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md),\
       \ [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md)\n\n\
-      1/day each: [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Dispel\
+      **1/day each:** [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Dispel\
       \ Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
       \ [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the empyrean can expend a use to take one of the following actions. The\
+  \ empyrean regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The empyrean gains 10 [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md),\
       \ and the empyrean and each ally within 30 feet of it gain [Advantage](Інстр\
@@ -116,11 +119,11 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
       \ next turn. The empyrean can't take this action again until the start of its\
       \ next turn."
     "name": "Bolster"
-  - "desc": "Constitution Saving Throw: DC 23, each creature in a 30-foot [Emanation](І\
+  - "desc": "*Constitution Saving Throw:* DC 23, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the empyrean. Failure: 27 (6d8) Force damage, and the target has\
-      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success:\
-      \ Half damage only. Failure or Success: The empyrean can't take this action\
+      \ from the empyrean. *Failure:* 27 (6d8) Force damage, and the target has\
+      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. *Success:*\
+      \ Half damage only. *Failure or Success:* The empyrean can't take this action\
       \ again until the start of its next turn."
     "name": "Shockwave of Glory"
   - "desc": "The empyrean makes one Divine Ray attack."

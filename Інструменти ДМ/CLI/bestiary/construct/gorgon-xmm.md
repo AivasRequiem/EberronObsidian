@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -35,8 +36,6 @@ When magic-users create gorgons, they often enchant them to ignore those who con
 Those who create gorgons strive to give them purposefully obscure command keys. Hints at command keys might be found among the records of a gorgon's creator or in the area the gorgon protects—perhaps scrawled as a [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) trespasser's final act. Roll on or choose a result from the Gorgon Command Keys table to inspire the word or signal that temporarily neutralizes a gorgon.
 
 **Gorgon Command Keys**
-
-`dice: [](gorgon-xmm.md#^gorgon-command-keys)`
 
 | dice: 1d6 | Gorgon Won't Attack Those That... |
 |-----------|-----------------------------------|
@@ -75,28 +74,29 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
     "desc": "+7"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": ""
 "cr": "5"
 "actions":
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 18 (2d12 + 5) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 18 (2d12 + 5) Piercing\
       \ damage. If the target is a Large or smaller creature and the gorgon moved\
       \ 20+ feet straight toward it immediately before the hit, the target has the\
       \ [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Gore"
-  - "desc": "Constitution Saving Throw: DC 15, each creature in a 30-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). 1st Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 15, each creature in a 30-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *1St Failure:*\
       \ The target has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition and repeats the save at the end of its next turn if it is still\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), ending\
-      \ the effect on itself on a success. 2nd Failure: The target has the [Petrified](І\
+      \ the effect on itself on a success. *2Nd Failure:* The target has the [Petrified](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Petrified) condition instead of the\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition."
     "name": "Petrifying Breath (Recharge 5-6)"
 "bonus_actions":
-  - "desc": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has\
-      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Failure:\
-      \ 16 (2d10 + 5) Bludgeoning damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 16, one creature within 5 feet that has\
+      \ the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. *Failure:*\
+      \ 16 (2d10 + 5) Bludgeoning damage. *Success:* Half damage."
     "name": "Trample"
 "source":
   - "XMM"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/12
@@ -21,7 +22,7 @@ aliases:
 *Devil of Vengeance and Righteous Wrath*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Erinyes, also known as furies, are winged devils clad in fiendish armor. These fallen angels exact a merciless form of divine justice, hunting down oath breakers and dragging the rightfully damned to the Nine Hells in the grip of their magical ropes. Few ever glimpse what lies within these devils' armored exteriors, and erinyes ensure that those who do can never speak of what they've seen.
 
@@ -59,7 +60,8 @@ When not in the service of a diabolical master, erinyes hunt wicked souls. They 
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 16"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "12"
 "traits":
@@ -84,11 +86,11 @@ When not in the service of a diabolical master, erinyes hunt wicked souls. They 
   - "desc": "The erinyes makes three Withering Sword attacks and can use Entangling\
       \ Rope."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing\
       \ damage plus 11 (2d10) Necrotic damage."
     "name": "Withering Sword"
-  - "desc": "Strength Saving Throw: DC 16, one creature the erinyes can see within\
-      \ 120 feet. Failure: 14 (4d6) Force damage, and the target has the [Restrained](І\
+  - "desc": "*Strength Saving Throw:* DC 16, one creature the erinyes can see within\
+      \ 120 feet. *Failure:* 14 (4d6) Force damage, and the target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition until the rope\
       \ is destroyed, the erinyes uses a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\
       \ to release the target, or the erinyes uses Entangling Rope again."

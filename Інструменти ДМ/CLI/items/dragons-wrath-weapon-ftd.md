@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/item/attunement/required
@@ -10,7 +11,7 @@ aliases:
 - "Dragon's Wrath Weapon"
 ---
 # Dragon's Wrath Weapon
-*(requires attunement)*  
+*(Requires attunement)*  
 
 
 

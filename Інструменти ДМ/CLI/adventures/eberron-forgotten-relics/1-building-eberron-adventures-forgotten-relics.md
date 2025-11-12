@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/efr
 aliases:
@@ -45,8 +46,6 @@ If Caden is rescued and returned to his father, Alden shares what he knows of Da
 Before the adventure begins, inform each character that they are an acquaintance of Sergeant Germaine Vilroy of the Sharn Watch, a Brelish veteran of the Last War. Ask each character to come up with a friendly connection to Germaine, or have them choose or roll on the Germaine Connections table. If a rolled connection doesn't make sense with the character's background, simply roll for a new connection or choose one that seems appropriate.
 
 **Germaine Connections**
-
-`dice: [](1-building-eberron-adventures-forgotten-relics.md#^germaine-connections)`
 
 | dice: d6 | Connection |
 |----------|------------|
@@ -289,7 +288,7 @@ Caden is nearly catatonic from his ordeal. If freed, the six-year-old simply sit
 
 #### Treasure
 
-Each goblin carries `d6` gp and `d6` sp in a pouch. One goblin (determined randomly) also wears a cheap necklace that consists of a [banded agate](Інструменти%20ДМ/CLI/items/banded-agate-xdmg.md) (10 gp) tied to a loop of rope.
+Each goblin carries `1d6` gp and `1d6` sp in a pouch. One goblin (determined randomly) also wears a cheap necklace that consists of a [banded agate](Інструменти%20ДМ/CLI/items/banded-agate-xdmg.md) (10 gp) tied to a loop of rope.
 
 ### Optional Encounter: Ghost of Pfingston Nezzelech
 
@@ -377,7 +376,7 @@ Use the "Falling in Sharn table" in "chapter 3" when a creature falls through a 
 
 ### Sharn Watch Guards
 
-The Sharn Watch has a modest presence in Terminus. Its guards defend wealthy visitors and the holdings of House Orien. If combat breaks out in the streets or if a bystander calls for the Sharn Watch, roll a `d20` on initiative count 0 during each round the disturbance occurs. On a result of 18 or higher, `d4` Sharn Watch [guards](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) arrive and attempt to arrest anyone involved in a crime.
+The Sharn Watch has a modest presence in Terminus. Its guards defend wealthy visitors and the holdings of House Orien. If combat breaks out in the streets or if a bystander calls for the Sharn Watch, roll a `d20` on initiative count 0 during each round the disturbance occurs. On a result of 18 or higher, `1d4` Sharn Watch [guards](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) arrive and attempt to arrest anyone involved in a crime.
 
 ### Daask Forces
 
@@ -408,7 +407,7 @@ The following encounter locations are keyed to map 4.14. This map does not depic
 > shaped prow is chained to the south platform.
 ^4ad
 
-A crowd of `2d8` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `d4` [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) is gathered on the platform waiting to hire skycoaches.
+A crowd of `2d8` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) and `1d4` [nobles](Інструменти%20ДМ/CLI/bestiary/humanoid/noble-xmm.md) is gathered on the platform waiting to hire skycoaches.
 
 The docked skycoach belongs to an off-duty professional driver named Belga Twillo. The chain anchoring the skycoach to the dock has AC 19, 10 hit points, and immunity to poison and psychic damage. A character who makes a successful DC 17 Dexterity check with [thieves' tools](Інструменти%20ДМ/CLI/items/thieves-tools-xphb.md) picks the chain's lock. A bystander who catches a character trying to steal the skycoach shouts for the Sharn Watch (see ""Sharn Watch Personalities"").
 
@@ -464,12 +463,10 @@ The lower-level apartments have similar layouts to the ones in "area T4" but hou
 
 **Apartment Occupants**
 
-`dice: [](1-building-eberron-adventures-forgotten-relics.md#^apartment-occupants)`
-
 | dice: d12 | Occupants |
 |-----------|-----------|
 | 1–6 | No current occupants |
-| 7–9 | A family of `d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) |
+| 7–9 | A family of `1d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) |
 | 10 | A [shifter](Інструменти%20ДМ/CLI/bestiary/humanoid/shifter-erlw.md) (see "chapter 6") |
 | 11 | A [warforged soldier](Інструменти%20ДМ/CLI/bestiary/humanoid/warforged-soldier-erlw.md) (see "chapter 6") |
 | 12 | A [changeling](Інструменти%20ДМ/CLI/bestiary/humanoid/changeling-erlw.md) (see "chapter 6") |
@@ -477,7 +474,7 @@ The lower-level apartments have similar layouts to the ones in "area T4" but hou
 
 ### T6. Skybridge
 
-This stone skybridge connects the tenement building to the building containing the lift. A Daask [harpy](Інструменти%20ДМ/CLI/bestiary/monstrosity/harpy-xmm.md) and a group of `d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) loiter on the bridge when the characters arrive. The commoners pose no threat, but the harpy attacks the characters on sight, using her Luring Song to bring them to her if they flee.
+This stone skybridge connects the tenement building to the building containing the lift. A Daask [harpy](Інструменти%20ДМ/CLI/bestiary/monstrosity/harpy-xmm.md) and a group of `1d4` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoid/commoner-xmm.md) loiter on the bridge when the characters arrive. The commoners pose no threat, but the harpy attacks the characters on sight, using her Luring Song to bring them to her if they flee.
 
 ### T7. Graffiti Hall
 
@@ -551,11 +548,11 @@ A crowd of `2d10` [commoners](Інструменти%20ДМ/CLI/bestiary/humanoi
 
 To catch [Garra](Інструменти%20ДМ/CLI/bestiary/npc/garra-erlw.md), the characters need to board the lightning rail train leaving the station. The coach has ten cars: a helm car (at the front), a first-class car, a galley car, a dining car, two standard cars, two sleeper cars, a steerage car, and a cargo car (at the rear).
 
-The characters have 30 seconds (5 rounds) to catch the coach before it leaves Terminus Station. A character can jump onto a lightning rail car by making a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails this check takes 3 (`d6`) bludgeoning damage and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the platform. At the start of round six, the coach moves 20 feet per round for three rounds before accelerating to top speed.
+The characters have 30 seconds (5 rounds) to catch the coach before it leaves Terminus Station. A character can jump onto a lightning rail car by making a successful DC 10 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. A character who fails this check takes 3 (`1d6`) bludgeoning damage and falls [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the platform. At the start of round six, the coach moves 20 feet per round for three rounds before accelerating to top speed.
 
 #### Left at the Station
 
-If none of the characters board the lightning rail train, Garra gets away with the books and schemas found in Old Sharn's ruins. A more likely scenario is that one or more characters are left behind as the others board the train. In this case, keep the initiative order and alternate between the characters stuck on the platform with the Daask bandits and the characters exploring the train. The characters who remain at the station can seek out an adventurous skycoach driver and bribe them to fly after the train before making a DC 13 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to leap onto the roof of a train car safely. Characters who fail the check take fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof of the car and take bludgeoning damage based on the distance fallen (`d6` per 10 feet).
+If none of the characters board the lightning rail train, Garra gets away with the books and schemas found in Old Sharn's ruins. A more likely scenario is that one or more characters are left behind as the others board the train. In this case, keep the initiative order and alternate between the characters stuck on the platform with the Daask bandits and the characters exploring the train. The characters who remain at the station can seek out an adventurous skycoach driver and bribe them to fly after the train before making a DC 13 Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check to leap onto the roof of a train car safely. Characters who fail the check take fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) on the roof of the car and take bludgeoning damage based on the distance fallen (`1d6` per 10 feet).
 
 ## Lightning Rail to Wroat
 

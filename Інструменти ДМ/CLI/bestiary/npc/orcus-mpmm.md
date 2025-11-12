@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/26
@@ -63,7 +64,8 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 22"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 22"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
@@ -84,13 +86,13 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
 "actions":
   - "desc": "Orcus makes three Wand of Orcus, Tail, or Necrotic Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (3d8 + 11) bludgeoning damage plus 13 (2d12) necrotic damage."
     "name": "Wand of Orcus"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) force damage plus 9 (2d8) poison damage."
     "name": "Tail"
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +15 to hit, range 120 ft., one target. *Hit:*\
       \ 29 (5d8 + 7) necrotic damage."
     "name": "Necrotic Bolt"
   - "desc": "While holding the [Wand of Orcus](Інструменти%20ДМ/CLI/items/wand-of-orcus-xdmg.md),\
@@ -100,27 +102,54 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
       \ are destroyed or until he dismisses them as an action."
     "name": "Conjure Undead (1/Day)"
   - "desc": "Orcus casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\
-      \ will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\
-      \n3/day: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\
-      \n1/day: [time stop](Інструменти%20ДМ/CLI/spells/time-stop-xphb.md)"
+      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n**At\
+      \ will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\
+      \n**3/day:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)\n\
+      \n**1/day:** [time stop](Інструменти%20ДМ/CLI/spells/time-stop-xphb.md)"
     "name": "Spellcasting"
   - "desc": "While holding the [Wand of Orcus](Інструменти%20ДМ/CLI/items/wand-of-orcus-xdmg.md),\
       \ Orcus casts one of the following spells (spell save DC 18), some of which\
       \ require charges; the wand has 7 charges to fuel these spells, and it regains\
-      \ 1d4 + 3 charges daily at dawn:\n\nAt will: [animate dead](Інструмент\
+      \ 1d4 + 3 charges daily at dawn:\n\n**At will:** [animate dead](Інструмент\
       и%20ДМ/CLI/spells/animate-dead-xphb.md) (as an action), [blight](Інструменти\
       %20ДМ/CLI/spells/blight-xphb.md), [speak with dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\
-      \n2e charge2e charge: [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md)\n\
-      \n1e charge1e charge: [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
+      \n**2e charge2e charge:** [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md)\n\
+      \n**1e charge1e charge:** [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
       \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Wand Spellcasting"
-"legendary_actions":
-  - "desc": "Orcus can take 3 legendary actions, choosing from the options below.\
-      \ Only one legendary action option can be used at a time and only at the end\
-      \ of another creature's turn. Orcus regains spent legendary actions at the start\
-      \ of his turn."
+"lair_actions":
+  - "desc": "On Initiative count 20 (losing initiative ties), Orcus can take a lair\
+      \ action to cause one of the following effects; he can't use the same effect\
+      \ two rounds in a row:\n\n- **Deadly Utterance.** Orcus's voice booms throughout\
+      \ the lair. His utterance causes one creature of his choice to be subjected\
+      \ to [power word kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md).\
+      \ Orcus needn't see the creature, but he must be aware that the individual is\
+      \ in the lair.  \n- **Grasp of the Dead.** Orcus causes skeletal arms to rise\
+      \ from an area on the ground in a 20-foot square that he can see. They last\
+      \ until the next initiative count 20. Each creature in that area when the arms\
+      \ appear must succeed on a DC 23 Strength saving throw or be [restrained](Ін\
+      струменти%20ДМ/CLI/rules/conditions.md#Restrained) until the arms disappear\
+      \ or until Orcus releases them (no action required).  \n- **Undead Servants.**\
+      \ Orcus causes up to six corpses within the lair to rise as [skeletons](Інст\
+      рументи%20ДМ/CLI/bestiary/undead/skeleton-xmm.md), [zombies](Інструменти%20Д\
+      М/CLI/bestiary/undead/zombie-xmm.md), or [ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md).\
+      \ These undead obey his telepathic commands, which can reach anywhere in the\
+      \ lair.  "
     "name": ""
+"regional_effects":
+  - "desc": "The region containing Orcus's lair is warped by his magic, creating one\
+      \ or more of the following effects:\n\n- **Charnel Realm.** The air is filled\
+      \ with the stench of rotting flesh, and buzzing flies grow thick within the\
+      \ region.  \n- **Undead Beasts.** Dead Beasts periodically animate as Undead\
+      \ mockeries of their former selves. Skeletal and zombie versions of local wildlife\
+      \ are commonly seen in the area.  \n\nIf Orcus dies, these effects fade over\
+      \ the course of 1d10 days."
+    "name": ""
+"legendary_description": "Orcus can take 3 legendary actions, choosing from the options\
+  \ below. Only one legendary action option can be used at a time and only at the\
+  \ end of another creature's turn. Orcus regains spent legendary actions at the start\
+  \ of his turn."
+"legendary_actions":
   - "desc": "Orcus makes one Tail or Necrotic Bolt attack."
     "name": "Attack"
   - "desc": "Orcus chooses a point on the ground that he can see within 100 feet of\
@@ -128,37 +157,6 @@ Orcus makes his lair in the fortress city of Naratyr, which is on Thanatos, the 
       \ radius rises from that point and lasts until the end of Orcus's next turn.\
       \ Creatures in that area have vulnerability to necrotic damage."
     "name": "Creeping Death (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On Initiative count 20 (losing initiative ties), Orcus can take a lair\
-      \ action to cause one of the following effects; he can't use the same effect\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Deadly Utterance. Orcus's voice booms throughout the lair. His\
-      \ utterance causes one creature of his choice to be subjected to [power word\
-      \ kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md). Orcus needn't\
-      \ see the creature, but he must be aware that the individual is in the lair.\
-      \  \n- Grasp of the Dead. Orcus causes skeletal arms to rise from an area\
-      \ on the ground in a 20-foot square that he can see. They last until the next\
-      \ initiative count 20. Each creature in that area when the arms appear must\
-      \ succeed on a DC 23 Strength saving throw or be [restrained](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Restrained) until the arms disappear or until Orcus\
-      \ releases them (no action required).  \n- Undead Servants. Orcus causes\
-      \ up to six corpses within the lair to rise as [skeletons](Інструменти%20ДМ\
-      /CLI/bestiary/undead/skeleton-xmm.md), [zombies](Інструменти%20ДМ/CLI/bestiary/undead/zombie-xmm.md),\
-      \ or [ghouls](Інструменти%20ДМ/CLI/bestiary/undead/ghoul-xmm.md). These undead\
-      \ obey his telepathic commands, which can reach anywhere in the lair.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Orcus's lair is warped by his magic, creating one\
-      \ or more of the following effects:"
-    "name": ""
-  - "desc": "- Charnel Realm. The air is filled with the stench of rotting flesh,\
-      \ and buzzing flies grow thick within the region.  \n- Undead Beasts. Dead\
-      \ Beasts periodically animate as Undead mockeries of their former selves. Skeletal\
-      \ and zombie versions of local wildlife are commonly seen in the area.  "
-    "name": ""
-  - "desc": "If Orcus dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/orcus-mpmm.webp"

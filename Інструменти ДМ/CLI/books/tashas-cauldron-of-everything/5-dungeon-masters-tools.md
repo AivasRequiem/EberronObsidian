@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -453,7 +454,7 @@ When determining the difficulty of an encounter with a hostile mimic colony, con
 
 In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.
 
-A fruit-bearing plant that is suffused with magic might produce `d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
+A fruit-bearing plant that is suffused with magic might produce `1d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
 
 As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](Інструменти%20ДМ/CLI/spells/identify-xphb.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
 
@@ -685,7 +686,7 @@ All four locks must be opened before the box's contents (whatever they might be)
 
 Show the players puzzle handout 2 (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.
 
-Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`d4` [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `d4` [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `d4` [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `d4` [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
+Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`1d4` [giant bats](Інструменти%20ДМ/CLI/bestiary/beast/giant-bat-xmm.md), `1d4` [giant poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/giant-venomous-snake-xmm.md), `1d4` [giant wolf spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-wolf-spider-xmm.md), or `1d4` [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened).
 
 #### Solution
 

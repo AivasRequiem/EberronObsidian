@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -58,19 +59,20 @@ A hag can have up to three iron tokens active at one time. As an action, the hag
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Common, Giant, Sylvan"
 "cr": "6"
 "actions":
   - "desc": "The annis makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 36\
       \ (9d6 + 5) bludgeoning damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 15) if it is a Large or smaller\
       \ creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning\
@@ -78,7 +80,7 @@ A hag can have up to three iron tokens active at one time. As an action, the hag
       \ while grappling a creature in this way."
     "name": "Crushing Hug"
   - "desc": "The hag casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 13):\n\n3/day each: [disguise self](Інструменти\
+      \ ability (spell save DC 13):\n\n**3/day each:** [disguise self](Інструменти\
       %20ДМ/CLI/spells/disguise-self-xphb.md) (including the form of a Medium Humanoid),\
       \ [Fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -23,15 +24,13 @@ aliases:
 *Enduring Serpentine Lore Keeper*
 
 - **Habitat.** Desert, Forest, Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Guardian nagas are immortal, serpentine scholars that possess perfect memories. They collect the histories and lore of those they live among, guarding cultures' stories and passing them on to new generations with infallible accuracy. Guardian nagas that outlive their host civilizations might linger in whatever ruins remain, preserving the civilizations' stories so their lost people might live on.
 
 Roll on or choose a result from the Guardian Naga Lore table to inspire what a naga knows.
 
 **Guardian Naga Lore**
-
-`dice: [](guardian-naga-xmm.md#^guardian-naga-lore)`
 
 | dice: 1d8 | The Guardian Naga Recalls... |
 |-----------|------------------------------|
@@ -80,11 +79,12 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [restrained](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Celestial, Common"
 "cr": "10"
 "traits":
-  - "desc": "If the naga dies, it returns to life in d6 days and regains all its\
+  - "desc": "If the naga dies, it returns to life in 1d6 days and regains all its\
       \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ unless [Dispel Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md)\
       \ is cast on its remains."
@@ -93,18 +93,18 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
   - "desc": "The naga makes two Bite attacks. It can replace any attack with a use\
       \ of Poisonous Spittle."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 17 (2d12 + 4) Piercing\
       \ damage plus 22 (4d10) Poison damage."
     "name": "Bite"
-  - "desc": "Constitution Saving Throw: DC 16, one creature the naga can see within\
-      \ 60 feet. Failure: 31 (7d8) Poison damage, and the target has the [Blinded](І\
+  - "desc": "*Constitution Saving Throw:* DC 16, one creature the naga can see within\
+      \ 60 feet. *Failure:* 31 (7d8) Poison damage, and the target has the [Blinded](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the start of\
-      \ the naga's next turn. Success: Half damage only."
+      \ the naga's next turn. *Success:* Half damage only."
     "name": "Poisonous Spittle"
   - "desc": "The naga casts one of the following spells, requiring no Somatic or Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n1/day each: [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
+      \n**At will:** [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
+      \n**1/day each:** [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
       \ [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) (level 6 version),\
       \ [Flame Strike](Інструменти%20ДМ/CLI/spells/flame-strike-xphb.md) (level 6\
       \ version), [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md), [True Seeing](І\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -44,7 +45,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
     "desc": "+3"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": ""
 "cr": "1"
 "traits":
@@ -60,10 +62,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "desc": "The lion makes two Rend attacks. It can replace one attack with a use\
       \ of Roar."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure:\
+  - "desc": "*Wisdom Saving Throw:* DC 11, one creature within 15 feet. *Failure:*\
       \ The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the lion's next turn."
     "name": "Roar"

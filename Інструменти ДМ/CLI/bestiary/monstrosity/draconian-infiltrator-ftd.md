@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -51,7 +52,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
     "desc": "+7"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Draconic"
 "cr": "3"
 "traits":
@@ -73,8 +75,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
       \ the end of the target's next turn. While [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ in this way, the target is also [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison\
       \ damage."
     "name": "Dagger"
 "source":

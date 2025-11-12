@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -59,7 +60,8 @@ Imps without masters delight in manipulating other creatures and inflating their
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 11"
 "languages": "Common, Infernal"
 "cr": "1"
@@ -68,7 +70,7 @@ Imps without masters delight in manipulating other creatures and inflating their
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing\
       \ damage plus 7 (2d6) Poison damage."
     "name": "Sting"
   - "desc": "The imp shape-shifts to resemble a rat ([Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\

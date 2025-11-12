@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Black Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
@@ -26,7 +27,7 @@ At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/besti
 - **Grasping Muck.** Tendrils of roiling muck extend from the dragon's lair to grasp up to three creatures of the dragon's choice that it can see within the lair. A targeted creature must succeed on a DC 15 Strength saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) until initiative count 20 on the next round.  
 - **Noxious Gas.** A bubble of swamp gas erupts in a 20-foot-radius sphere centered on a point the dragon can see within its lair. Each creature in the area must succeed on a DC 15 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 The region containing a legendary black dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
@@ -35,7 +36,7 @@ The region containing a legendary black dragon's lair is warped by the dragon's 
 - Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the dragon that drink such water regurgitate it within minutes.  
 - Fog lightly obscures the land within 6 miles of the lair.  
 
-If the dragon dies, vegetation remains as it has grown, but other effects fade over `d10` days.
+If the dragon dies, vegetation remains as it has grown, but other effects fade over `1d10` days.
 
 ### Additional Regional Effects
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/6
@@ -62,10 +63,10 @@ A giff shock trooper is trained to mount assaults on enemy strongholds. Each one
 "actions":
   - "desc": "The giff makes two Greatsword or Musket attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 40/120 ft., one target. *Hit:*\
       \ 15 (2d12 + 2) piercing damage."
     "name": "Musket"
   - "desc": "The giff lights a grapefruit-sized bomb and throws it at a point up to\

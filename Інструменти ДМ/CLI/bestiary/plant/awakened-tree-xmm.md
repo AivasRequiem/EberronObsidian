@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -54,7 +55,7 @@ Magic can invest plants with mobility, sapience, and even a voice. Spells such a
 "languages": "Common plus one other language"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
       \ damage."
     "name": "Slam"
 "source":

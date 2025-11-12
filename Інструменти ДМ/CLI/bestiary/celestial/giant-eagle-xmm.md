@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -50,8 +51,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "actions":
   - "desc": "The eagle makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing\
-      \ damage plus 3 (d6) Radiant damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Slashing\
+      \ damage plus 3 (1d6) Radiant damage."
     "name": "Rend"
 "source":
   - "XMM"

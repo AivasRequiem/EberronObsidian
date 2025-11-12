@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -48,13 +49,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "languages": "any one language (usually Common)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 7 (1d10 + 2) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +4 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 7 (1d10 + 2) force damage."
     "name": "Arcane Burst"
   - "desc": "The apprentice casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 12)\n\nAt will: [mage hand](І\
+      \ as the spellcasting ability (spell save DC 12)\n\n**At will:** [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструмент\
-      и%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [burning hands](І\
+      и%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [burning hands](І\
       нструменти%20ДМ/CLI/spells/burning-hands-xphb.md), [disguise self](Інструмен\
       ти%20ДМ/CLI/spells/disguise-self-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)"
     "name": "Spellcasting"

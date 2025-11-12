@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -60,17 +61,18 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "the languages it knew in life"
 "cr": "8"
 "actions":
   - "desc": "The vampire makes three melee attacks, only one of which can be a bite\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ by the vampire, [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated),\
-      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). Hit:\
+      \ or [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained). *Hit:*\
       \ 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target\
       \ is humanoid, it must succeed on a DC 15 Charisma saving throw or be [charmed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Charmed) by the vampire for 1 minute.\
@@ -81,10 +83,10 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
       \ finishes a long rest. The target dies if its hit point maximum is reduced\
       \ to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. The vampire can also grapple the target (escape\
       \ DC 14) if it is a creature and the vampire has a hand free."
     "name": "Unarmed Strike"

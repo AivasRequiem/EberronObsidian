@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -20,7 +21,7 @@ aliases:
 *Reeking Subterranean Hunter*
 
 - **Habitat.** Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 With features similar to those of pale cave lizards, troglodytes stalk the Underdark in an endless hunt for food. Troglodytes consume almost anything, including bones, giant insects, and other subterranean dwellers. They prey on subterranean communities and those near entrances to the Underdark, stealing livestock and kidnapping residents.
 
@@ -51,15 +52,16 @@ Troglodytes prefer to ambush prey and can change their scale color to blend in w
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Troglodyte"
 "cr": "1/4"
 "traits":
-  - "desc": "Constitution Saving Throw: DC 12, any creature (other than a troglodyte)\
+  - "desc": "*Constitution Saving Throw:* DC 12, any creature (other than a troglodyte)\
       \ that starts its turn in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the troglodyte. Failure: The target has the [Poisoned](І\
+      \ originating from the troglodyte. *Failure:* The target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start\
-      \ of its next turn. Success: The target is immune to the Stench of all troglodytes\
+      \ of its next turn. *Success:* The target is immune to the Stench of all troglodytes\
       \ for 1 hour."
     "name": "Stench"
   - "desc": "While in sunlight, the troglodyte has [Disadvantage](Інструменти%20ДМ\
@@ -67,7 +69,7 @@ Troglodytes prefer to ambush prey and can change their scale color to blend in w
       \ rolls."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing\
       \ damage."
     "name": "Rend"
 "source":

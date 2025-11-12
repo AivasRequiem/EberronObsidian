@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -40,7 +41,7 @@ Hailstones rain down. Each creature under the cloud takes `2d6` Bludgeoning dama
 
 ## Turns 5-10
 
-Gusts and freezing rain assail the area under the cloud. Each creature there takes `d6` Cold damage. Until the spell ends, the area is [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md) and [Heavily Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/heavily-obscured-xphb.md), ranged attacks with weapons are impossible there, and strong wind blows through the area.
+Gusts and freezing rain assail the area under the cloud. Each creature there takes `1d6` Cold damage. Until the spell ends, the area is [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md) and [Heavily Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/heavily-obscured-xphb.md), ranged attacks with weapons are impossible there, and strong wind blows through the area.
 
 ## Summary
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -34,8 +35,6 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 
 **Bandit Motivations**
 
-`dice: [](bandit-xmm.md#^bandit-motivations)`
-
 | dice: 1d6 | The Bandit... |
 |-----------|---------------|
 | 1 | Fights only oppressors. |
@@ -67,10 +66,10 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 "languages": "Common, Thieves' cant"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Slashing\
       \ damage."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing\
+  - "desc": "*Ranged Attack Roll:* +3, range 80/320 ft. *Hit:* 5 (1d8 + 1) Piercing\
       \ damage."
     "name": "Light Crossbow"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -25,7 +26,7 @@ Gnolls possessed by demonic vestiges of the demon lord Yeenoghu, fangs of Yeenog
 *Fiends in Feral Flesh*
 
 - **Habitat.** Desert, Forest, Grassland, Hill  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their corruption and violence delighted the demon lord Yeenoghu, who encouraged their numbers and spread them across the multiverse. Ever since, gnolls have been the cackling servants of Yeenoghu, existing to cause ruin and to feast on what remains.
 
@@ -55,18 +56,19 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
   - "constitution": !!int "4"
   - "wisdom": !!int "2"
   - "charisma": !!int "3"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Abyssal, Gnoll"
 "cr": "4"
 "actions":
   - "desc": "The gnoll makes one Bite attack and two Bone Flail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing\
       \ damage plus 7 (2d6) Poison damage, and the target has the [Poisoned](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ the gnoll's next turn."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage."
     "name": "Bone Flail"
 "bonus_actions":

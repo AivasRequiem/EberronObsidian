@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -51,10 +52,10 @@ Beneath the waves dwell merfolk, mysterious creatures that merge the features of
   - "desc": "The merfolk can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 3 (d6) Piercing damage plus 2 (d4) Cold damage. If the target is\
-      \ a creature, its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
-      \ decreases by 10 feet until the end of its next turn. Hit or Miss: The spear\
+  - "desc": "*Melee  or Ranged Attack Roll:* +2, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target\
+      \ is a creature, its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
+      \ decreases by 10 feet until the end of its next turn. *Hit or Miss:* The spear\
       \ magically returns to the merfolk's hand immediately after a ranged attack."
     "name": "Ocean Spear"
 "source":

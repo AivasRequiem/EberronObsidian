@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/artificer
 - ttrpg-cli/compendium/src/5e/tce
@@ -15,7 +16,7 @@ aliases:
 > <table class="class-progression">
 > <thead>
 > <tr><th colspan='6'></th><th colspan='5'>Spell Slots per Spell Level</th></tr>
-> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th><th class="value">Infusions Known^<a href="Інструменти%20ДМ/CLI/lists/list-optfeaturetype-ai.md">Optional features from [Artificer Infusion</a>; defined in Tasha's Cauldron of Everything]</th><th class="value">Infused Items</th><th class="value">Cantrips Known</th><th class="spellSlot">1st</th><th class="spellSlot">2nd</th><th class="spellSlot">3rd</th><th class="spellSlot">4th</th><th class="spellSlot">5th</th></tr>
+> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th><th class="value">Infusions Known <sup>‡1</sup></th><th class="value">Infused Items</th><th class="value">Cantrips Known</th><th class="spellSlot">1st</th><th class="spellSlot">2nd</th><th class="spellSlot">3rd</th><th class="spellSlot">4th</th><th class="spellSlot">5th</th></tr>
 > </thead><tbody>
 > <tr class="class-progression"><td class"level">1st</td><td class"pb">+2</td><td class"feature"><a href='#Optional Rule: Firearm Proficiency (Level 1)' class='internal-link'>Optional Rule: Firearm Proficiency</a>, <a href='#Magical Tinkering (Level 1)' class='internal-link'>Magical Tinkering</a>, <a href='#Spellcasting (Level 1)' class='internal-link'>Spellcasting</a></td><td class="value">⏤</td><td class="value">⏤</td><td class="value">2</td><td class="spellSlot">2</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td></tr>
 > <tr class="class-progression"><td class"level">2nd</td><td class"pb">+2</td><td class"feature"><a href='#Infuse Item (Level 2)' class='internal-link'>Infuse Item</a></td><td class="value">4</td><td class="value">2</td><td class="value">2</td><td class="spellSlot">2</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td><td class="spellSlot">⏤</td></tr>
@@ -38,6 +39,9 @@ aliases:
 > <tr class="class-progression"><td class"level">19th</td><td class"pb">+6</td><td class"feature"><a href='#Ability Score Improvement (Level 19)' class='internal-link'>Ability Score Improvement</a></td><td class="value">12</td><td class="value">6</td><td class="value">4</td><td class="spellSlot">4</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">2</td></tr>
 > <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Soul of Artifice (Level 20)' class='internal-link'>Soul of Artifice</a></td><td class="value">12</td><td class="value">6</td><td class="value">4</td><td class="spellSlot">4</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">2</td></tr>
 > </tbody></table>
+> <section class="footnotes"><ul>
+> <li>‡1: Optional features from <a href="Інструменти%20ДМ/CLI/lists/list-optfeaturetype-ai.md">Artificer Infusion</a>; defined in Tasha's Cauldron of Everything</li>
+> </ul></section>
 
 ^class-progression
 

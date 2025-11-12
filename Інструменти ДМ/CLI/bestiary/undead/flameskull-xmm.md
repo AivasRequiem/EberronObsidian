@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -20,15 +21,13 @@ aliases:
 *Skull Smoldering with Magical Obsession*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Flameskulls are flying skulls that blaze with magical fire and the half-remembered arcana of dead spellcasters. They rise from the remains of dead magic-users who were reanimated by sinister necromancers or whose magical pursuits drive them beyond death. Flameskulls might serve as guardians for their creators or pursue ambitions left unfulfilled in life. They lash out at foes with destructive spells and bursts of fire, wielding magic without the need for most components.
 
 Flameskulls take various forms, from skulls with humanlike features to ones with fearsome or bestial alterations. Their flames vary in color and grow more intense when they're angry. Roll on or choose a result from the Flameskull Details table to inspire what makes a flameskull distinctive.
 
 **Flameskull Details**
-
-`dice: [](flameskull-xmm.md#^flameskull-details)`
 
 | dice: 1d6 | The Flameskull Features... |
 |-----------|----------------------------|
@@ -73,7 +72,8 @@ Flameskulls take various forms, from skulls with humanlike features to ones with
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Common plus two other languages"
 "cr": "4"
 "traits":
@@ -92,14 +92,14 @@ Flameskulls take various forms, from skulls with humanlike features to ones with
 "actions":
   - "desc": "The flameskull makes two Fire Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 60 ft. *Hit:*\
       \ 13 (3d6 + 3) Fire damage."
     "name": "Fire Ray"
   - "desc": "The flameskull casts one of the following spells, requiring no Somatic\
       \ or Material components and using Intelligence as the spellcasting ability\
-      \ (spell save DC 13):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\
-      \n2/day: [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\
-      \ (level 2 version)\n\n1/day: [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)"
+      \ (spell save DC 13):\n\n**At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\
+      \n**2/day:** [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\
+      \ (level 2 version)\n\n**1/day:** [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)"
     "name": "Spellcasting"
 "source":
   - "XMM"

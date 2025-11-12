@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
@@ -54,7 +55,8 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "18"
 "traits":
@@ -73,7 +75,7 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
 "actions":
   - "desc": "The sibriex makes three Chain attacks, and it uses Squirt Bile."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d12 + 7) force damage."
     "name": "Chain"
   - "desc": "The sibriex targets one creature it can see within 120 feet of it. The\
@@ -98,11 +100,14 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
     "name": "Warp Creature"
   - "desc": "The sibriex casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 21):\n\
-      \nAt will: [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [dispel\
+      \n**At will:** [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [dispel\
       \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [hold monster](І\
-      нструменти%20ДМ/CLI/spells/hold-monster-xphb.md)\n\n1/day: [feeblemind](І\
+      нструменти%20ДМ/CLI/spells/hold-monster-xphb.md)\n\n**1/day:** [feeblemind](І\
       нструменти%20ДМ/CLI/spells/befuddlement-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the sibriex can expend a use to take one of the following actions. The sibriex\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The sibriex uses Spellcasting."
     "name": "Cast a Spell"

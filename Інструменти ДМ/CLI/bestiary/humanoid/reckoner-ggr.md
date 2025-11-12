@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -48,21 +49,21 @@ Boros reckoners combine physical power and magical prowess, serving as the shock
 "traits":
   - "desc": "The reckoner is a 5th-level Boros spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 12, +4 to hit with spell attacks). The reckoner\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [blade\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [blade\
       \ ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md), [light](Інструменти\
       %20ДМ/CLI/spells/light-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
-      \ [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n1st\
-      \ level (4 slots): [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
+      \ [shocking grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md)\n\n**1st\
+      \ level (4 slots):** [guiding bolt](Інструменти%20ДМ/CLI/spells/guiding-bolt-xphb.md),\
       \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md), [thunderwave](Інстру\
       менти%20ДМ/CLI/spells/thunderwave-xphb.md), [witch bolt](Інструменти%20ДМ/CLI/spells/witch-bolt-xphb.md)\n\
-      \n2nd level (3 slots): [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
-      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n3rd level (2\
-      \ slots): [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
+      \n**2nd level (3 slots):** [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
+      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n**3rd level (2\
+      \ slots):** [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
     "name": "Spellcasting"
   - "desc": "The reckoner has advantage on initiative rolls."
     "name": "First Strike"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

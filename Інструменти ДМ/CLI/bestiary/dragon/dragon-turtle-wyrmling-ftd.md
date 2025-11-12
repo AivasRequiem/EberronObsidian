@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/4
@@ -24,8 +25,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 
 ### Dragon Turtle Personality Traits
 
-`dice: [](dragon-turtle-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I speak slowly and deliberately, pausing to reflect after (or sometimes in the middle of) each utterance. |
@@ -39,8 +38,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 ^trait
 
 ### Dragon Turtle Ideals
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -57,8 +54,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 The Dragon Turtle Adventure Hooks table offers suggestions for stories and adventures involving dragon turtles.
 
 ### Dragon Turtle Adventure Hooks
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -77,8 +72,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 Dragon turtles are stolid and slow to anger. This temperament, combined with their disinterest in moral quandaries, allows them to get along with—or at least abide—most creatures they encounter. They frequently enter symbiotic relationships with other sea creatures that can bring them food or treasure, and they sometimes agree to work for creatures who ply them with generous sums of wealth.
 
 ### Dragon Turtle Wyrmling Connections
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -113,14 +106,15 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
   - "constitution": !!int "4"
   - "wisdom": !!int "2"
 "damage_resistances": "fire"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Draconic"
 "cr": "4"
 "traits":
   - "desc": "The dragon turtle can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d12 + 3) piercing damage."
     "name": "Bite"
   - "desc": "The dragon turtle exhales steam in a 15-foot cone. Each creature in that\

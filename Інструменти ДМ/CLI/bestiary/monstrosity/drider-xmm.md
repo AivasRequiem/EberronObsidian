@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -21,15 +22,13 @@ aliases:
 *Spiderlike Underdark Hunter*
 
 - **Habitat.** Forest, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Driders combine the features of drow and giant spiders. The wicked god Lolth is fond of transforming her drow worshipers into driders, as either a blessing or a curse. These driders often become fanatical servants of their god, or they are overwhelmed by their transformation and live only to indulge their predatory arachnid instincts.
 
 Driders also appear when whole communities are transformed by a wicked god's wrath or other magical means, or driders might be part of a world's natural population. Most dwell underground or in dense forests where they can make the most of their spiderlike traits. Driders with non-drow features are uncommon but possible. Roll on or choose a result from the Drider Metamorphoses table to inspire how supernatural driders come into being.
 
 **Drider Metamorphoses**
-
-`dice: [](drider-xmm.md#^drider-metamorphoses)`
 
 | dice: 1d6 | The Drider Gained Its Form As... |
 |-----------|----------------------------------|
@@ -63,7 +62,8 @@ Driders also appear when whole communities are transformed by a wicked god's wra
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+10"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Elvish, Undercommon"
 "cr": "6"
 "traits":
@@ -80,10 +80,10 @@ Driders also appear when whole communities are transformed by a wicked god's wra
   - "desc": "The drider makes three attacks, using Foreleg or Poison Burst in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 10 ft. *Hit:* 13 (2d8 + 4) Piercing\
       \ damage."
     "name": "Foreleg"
-  - "desc": "Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison\
+  - "desc": "*Ranged Attack Roll:* +6, range 120 ft. *Hit:* 13 (3d6 + 3) Poison\
       \ damage."
     "name": "Poison Burst"
 "bonus_actions":

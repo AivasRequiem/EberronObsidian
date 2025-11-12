@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -22,7 +23,7 @@ Mind flayer arcanists enhance their psionic abilities with magic. Other mind fla
 *Brain-Eating Underdark Tyrants*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Scattered survivors of a world-ruining, multiversal empire, mind flayers lurk in secret conclaves hidden deep within Material Plane worlds. Within their alien sanctuaries, these wicked masterminds—also known as illithids—reshape the Underdark and its inhabitants to serve their unfathomable whims. Mind flayers are feared for their psionic powers, which allow them to stun and control other creatures, and for their horrific method of feeding: using their four slimy tentacles to extract the brains of their victims.
 
@@ -33,8 +34,6 @@ Mind flayers are infamous plotters and manipulators, concocting plans that reach
 Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-spanning illithid conspiracies. In groups, mind flayers work toward bizarre agendas organized by an elder brain—a massive, brain-like being with incredible psionic powers. Without such a leader, groups of mind flayers fall to self-destructive squabbling. Roll on or choose a result from the Mind Flayer Machinations table to inspire an illithid conclave's plots.
 
 **Mind Flayer Machinations**
-
-`dice: [](mind-flayer-arcanist-xmm.md#^mind-flayer-machinations)`
 
 | dice: 1d6 | The Mind Flayer Colony Seeks To... |
 |-----------|------------------------------------|
@@ -80,7 +79,8 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "Deep Speech, Undercommon; telepathy 120 ft."
 "cr": "11"
 "traits":
@@ -90,26 +90,26 @@ Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-s
 "actions":
   - "desc": "The mind flayer makes three Arcane Tentacles attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9, reach 5 ft. or range 120 ft. *Hit:*\
       \ 27 (4d10 + 5) Psychic damage, and the mind flayer can teleport the target\
       \ up to 30 feet to an unoccupied space the mind flayer can see on a surface\
       \ or liquid large enough to support the target. If this damage reduces the target\
       \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ the mind flayer kills it and magically devours its brain."
     "name": "Arcane Tentacles"
-  - "desc": "Intelligence Saving Throw: DC 17, each creature in a 40-foot [Emanation](І\
+  - "desc": "*Intelligence Saving Throw:* DC 17, each creature in a 40-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target\
+      \ from the mind flayer. *Failure:* 41 (8d8 + 5) Psychic damage, and the target\
       \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the end of the mind flayer's next turn. Success: Half damage only."
+      \ until the end of the mind flayer's next turn. *Success:* Half damage only."
     "name": "Mind Burst (Recharge 5-6)"
   - "desc": "The mind flayer casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 17):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ DC 17):\n\n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise\
       \ Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Mage Hand](Інст\
-      рументи%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n1/day\
-      \ each: [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
+      рументи%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\n**1/day\
+      \ each:** [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
       \ [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [Fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 5 version), [Lightning Bolt](І\
       нструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md) (level 5 version), [Plane\

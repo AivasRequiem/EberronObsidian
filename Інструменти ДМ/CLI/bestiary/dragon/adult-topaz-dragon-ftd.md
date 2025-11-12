@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/13
@@ -70,7 +71,8 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "cold, necrotic"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 23"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -84,10 +86,10 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 15 (2d10 + 4) piercing damage plus 3 (d6) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales yellowish necrotic energy in a 60-foot cone. Each\
@@ -100,7 +102,7 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      1/day each: [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md), [control water](І\
+      **1/day each:** [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md), [control water](І\
       нструменти%20ДМ/CLI/spells/control-water-xphb.md), [create or destroy water](І\
       нструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md)"
     "name": "Spellcasting (Psionics)"
@@ -113,6 +115,45 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Beguiling Whisper.** The dragon telepathically\
+      \ whispers to one creature within range of the dragon's telepathy. The creature\
+      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
+      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ in this way obeys to the best of its ability any command the dragon issues\
+      \ that isn't directly harmful to the creature.  \n- **Cancellation.** The dragon\
+      \ chooses an active spell of 5th level or lower that it's aware of in the lair\
+      \ and ends the spell.  \n- **Negative Energy Infusion.** Up to two creatures\
+      \ the dragon can see within the lair must each succeed on a DC 15 Constitution\
+      \ saving throw or take 14 (4d6) necrotic damage. Negative energy then infuses\
+      \ the lair until initiative count 20 on the next round. While the infusion lasts,\
+      \ creatures in the lair other than the dragon can't regain hit points.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary topaz dragon's lair is altered by\
+      \ the dragon's magic, creating one or more of the following effects:\n\n- **Crystal\
+      \ Profusion.** Natural stone within 6 miles of the lair grows plentiful crystal\
+      \ formations and veins of topaz gemstones, particularly underground.  \n- **Negative\
+      \ Energy.** When a creature finishes a long rest within 6 miles of the lair,\
+      \ the creature must first succeed on a DC 15 Constitution saving throw or be\
+      \ unable to reduce its levels of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
+      \ or regain spent Hit Dice. Creatures resistant or immune to necrotic damage\
+      \ are immune to this regional effect.  \n- **Thriving Wildlife.** Giant squid\
+      \ are attracted to the sea within 6 miles of the lair, migrating and hunting\
+      \ there in large numbers.  \n- **Watery Sight.** Water within 6 miles of the\
+      \ lair is a conduit for the dragon's psionic presence. As an action, the dragon\
+      \ can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
+      \ spell, requiring no spell components and targeting any body of water in that\
+      \ region.  \n\nIf the dragon dies, the population of giant squid in the region\
+      \ returns to normal levels over the course of 1d10 days. The existing abundance\
+      \ of crystals and topazes remains, but new ones form at a normal rate."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Claw attack."
     "name": "Claw"
@@ -123,47 +164,6 @@ The challenge rating of a legendary topaz dragon increases by 1 when it's encoun
       \ saving throw or take 28 (8d6) necrotic damage. If this damage reduces the\
       \ target to 0 hit points, it crumbles to dust."
     "name": "Essential Reduction (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Beguiling Whisper. The dragon telepathically whispers to one creature\
-      \ within range of the dragon's telepathy. The creature must succeed on a DC\
-      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
-      \ of its ability any command the dragon issues that isn't directly harmful to\
-      \ the creature.  \n- Cancellation. The dragon chooses an active spell of\
-      \ 5th level or lower that it's aware of in the lair and ends the spell.  \n\
-      - Negative Energy Infusion. Up to two creatures the dragon can see within\
-      \ the lair must each succeed on a DC 15 Constitution saving throw or take 14\
-      \ (4d6) necrotic damage. Negative energy then infuses the lair until initiative\
-      \ count 20 on the next round. While the infusion lasts, creatures in the lair\
-      \ other than the dragon can't regain hit points.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary topaz dragon's lair is altered by\
-      \ the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Crystal Profusion. Natural stone within 6 miles of the lair grows\
-      \ plentiful crystal formations and veins of topaz gemstones, particularly underground.\
-      \  \n- Negative Energy. When a creature finishes a long rest within 6 miles\
-      \ of the lair, the creature must first succeed on a DC 15 Constitution saving\
-      \ throw or be unable to reduce its levels of [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)\
-      \ or regain spent Hit Dice. Creatures resistant or immune to necrotic damage\
-      \ are immune to this regional effect.  \n- Thriving Wildlife. Giant squid\
-      \ are attracted to the sea within 6 miles of the lair, migrating and hunting\
-      \ there in large numbers.  \n- Watery Sight. Water within 6 miles of the\
-      \ lair is a conduit for the dragon's psionic presence. As an action, the dragon\
-      \ can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
-      \ spell, requiring no spell components and targeting any body of water in that\
-      \ region.  "
-    "name": ""
-  - "desc": "If the dragon dies, the population of giant squid in the region returns\
-      \ to normal levels over the course of d10 days. The existing abundance of\
-      \ crystals and topazes remains, but new ones form at a normal rate."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-topaz-dragon-ftd.webp"

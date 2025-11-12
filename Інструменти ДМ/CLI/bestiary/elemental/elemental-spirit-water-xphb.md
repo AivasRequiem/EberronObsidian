@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -35,7 +36,8 @@ aliases:
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial, understands the languages you know"
 "traits":
   - "desc": "The spirit can move through a space as narrow as 1 inch wide without\
@@ -45,8 +47,8 @@ aliases:
   - "desc": "The spirit makes a number of Slam attacks equal to half this spell's\
       \ level (round down)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft.. Hit: 1d10 + 4 + the spell's level Bludgeoning damage."
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft.. *Hit:* 1d10 + 4 + the spell's level Bludgeoning damage."
     "name": "Slam"
 "source":
   - "XPHB"

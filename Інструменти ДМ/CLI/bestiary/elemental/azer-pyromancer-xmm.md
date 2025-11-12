@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -24,7 +25,7 @@ Azer pyromancers conjure flames from the Elemental Plane of Fire to defend thems
 *Fiery Smiths of Living Metal*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Fire)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Azers are living bronze folk who work the primal elements of creation to craft weapons and magical wonders among the multiverse's mightiest infernos.
 
@@ -72,13 +73,13 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 "actions":
   - "desc": "The azer makes two Flame Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 120 ft. *Hit:*\
       \ 15 (2d10 + 4) Fire damage."
     "name": "Flame Burst"
   - "desc": "The azer casts one of the following spells, requiring no Material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\n**At will:**\
       \ [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md), [Mage Hand](І\
-      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n1/day: [Fireball](Інстр\
+      нструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**1/day:** [Fireball](Інстр\
       ументи%20ДМ/CLI/spells/fireball-xphb.md)"
     "name": "Spellcasting"
 "reactions":

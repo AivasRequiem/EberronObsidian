@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
@@ -19,8 +20,6 @@ This crackling crystal contains the essence of an elemental plane. As an action,
 Roll a `d4` and consult the Elemental Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.
 
 **Elemental Essence Shards**
-
-`dice: [](elemental-essence-shard-tce.md#^elemental-essence-shards)`
 
 | dice: d4 | Element | Shard |
 |----------|---------|-------|

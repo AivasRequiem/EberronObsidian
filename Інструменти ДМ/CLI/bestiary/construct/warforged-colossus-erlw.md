@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/25
@@ -64,7 +65,8 @@ A colossus might be filled with monsters and secrets, in addition to the corpses
   %20ДМ/CLI/rules/conditions.md#Incapacitated), [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 150 ft., passive Perception 10"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 150 ft., passive\
+  \ Perception 10"
 "languages": "understands Common but can't speak"
 "cr": "25"
 "traits":
@@ -87,11 +89,11 @@ A colossus might be filled with monsters and secrets, in addition to the corpses
   - "desc": "The colossus makes three attacks—one with its slam and two with its eldritch\
       \ turrets—and then uses Stomp."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 29 (3d12 + 10) bludgeoning damage, and the colossus can push the target\
       \ up to 20 feet away from it."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +18 to hit, range 300 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +18 to hit, range 300 ft., one target. *Hit:*\
       \ 18 (4d8) force damage, and if the target is a creature, it is knocked [prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Eldritch Turret"

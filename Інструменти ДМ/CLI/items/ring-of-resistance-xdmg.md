@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/rare
@@ -14,8 +15,6 @@ aliases:
 
 
 You have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the DM chooses or determines randomly by rolling on the following table.
-
-`dice: [](ring-of-resistance-xdmg.md#^damage-type-gem)`
 
 | dice: d10 | Damage Type | Gem |
 |-----------|-------------|-----|

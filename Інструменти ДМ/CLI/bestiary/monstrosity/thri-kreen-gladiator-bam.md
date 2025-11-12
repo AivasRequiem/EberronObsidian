@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/7
@@ -46,18 +47,19 @@ Thri-kreen gladiators relish opportunities to test their mettle in combat and of
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "telepathy 60 ft., Thri-kreen"
 "cr": "7"
 "actions":
   - "desc": "The thri-kreen makes two Gythka attacks and one Chatkcha attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit (with advantage if the thri-kreen\
-      \ is missing any hit points), reach 5 ft., one target. Hit: 13 (2d8 + 4)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit (with advantage if the thri-kreen\
+      \ is missing any hit points), reach 5 ft., one target. *Hit:* 13 (2d8 + 4)\
       \ slashing damage."
     "name": "Gythka"
-  - "desc": "Ranged Weapon Attack: +7 to hit (with advantage if the thri-kreen\
-      \ is missing any hit points), range 30/120 ft., one target. Hit: 7 (1d6 +\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit (with advantage if the thri-kreen\
+      \ is missing any hit points), range 30/120 ft., one target. *Hit:* 7 (1d6 +\
       \ 4) slashing damage."
     "name": "Chatkcha"
 "bonus_actions":

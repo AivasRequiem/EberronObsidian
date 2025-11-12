@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/golgari-agent
@@ -11,10 +12,12 @@ tags:
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/alchemist
 - ttrpg-cli/spell/subclass/circle-of-spores
+- ttrpg-cli/spell/subclass/oath-of-conquest
 classes:
 - Artificer (Alchemist)
 - Bard
 - Druid (Circle of Spores)
+- Paladin (Oath of Conquest)
 - Sorcerer
 - Wizard
 aliases:
@@ -35,8 +38,8 @@ Each creature in the [Sphere](Інструменти%20ДМ/CLI/rules/variant-ru
 
 The [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) moves 10 feet away from you at the start of each of your turns.
 
-**Using a Higher-Level Spell Slot.** The damage increases by `d8` for each spell slot level above 5.
+**Using a Higher-Level Spell Slot.** The damage increases by `1d8` for each spell slot level above 5.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB")
+**Classes**: [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE;class=XPHB"); [Paladin (Oath of Conquest)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE;class=XPHB"); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 251. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

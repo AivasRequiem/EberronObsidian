@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/1-2
@@ -51,11 +52,11 @@ Ssurran poisoners coat their weapons with toxin and hurl bombs that release pois
 "actions":
   - "desc": "The ssurran makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 4 (d8) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage plus 4 (1d8) poison\
       \ damage."
     "name": "Javelin"
   - "desc": "The ssurran throws a tangerine-sized bomb at a point up to 60 feet away,\

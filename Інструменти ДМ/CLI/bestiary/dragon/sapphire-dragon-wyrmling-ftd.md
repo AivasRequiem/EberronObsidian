@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -38,8 +39,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 
 ### Sapphire Dragon Personality Traits
 
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often fixate on specific historical battles or wars and won't rest until my hoard contains that conflict's most significant artifacts. |
@@ -53,8 +52,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 ^trait
 
 ### Sapphire Dragon Ideals
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adventures involving sapphire dragons.
 
 ### Sapphire Dragon Adventure Hooks
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adv
 Sapphire dragons are generally solitary creatures. On the rare occasion that one forms nonhostile relationships with other beings, it is almost always to bolster the defenses of the dragon's lair and hoard.
 
 ### Sapphire Dragon Wyrmling Connections
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -139,7 +132,8 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
     "desc": "+4"
 "damage_resistances": "lightning, thunder"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 15"
 "languages": "Draconic, telepathy 120 ft."
 "cr": "3"
 "traits":
@@ -150,8 +144,8 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
       \ and can leave a 5-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 3 (d6) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (1d10 + 3) piercing damage plus 3 (1d6) thunder damage."
     "name": "Bite"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
       \ a 15-foot cone. Each creature in that area must make a DC 13 Constitution\
@@ -161,7 +155,7 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
       \ as much damage and isn't [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Debilitating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability:\n\n1/day each: [alarm](І\
+      \ and using Intelligence as the spellcasting ability:\n\n**1/day each:** [alarm](І\
       нструменти%20ДМ/CLI/spells/alarm-xphb.md), [Tenser's floating disk](Інструме\
       нти%20ДМ/CLI/spells/tensers-floating-disk-xphb.md)"
     "name": "Spellcasting (Psionics)"

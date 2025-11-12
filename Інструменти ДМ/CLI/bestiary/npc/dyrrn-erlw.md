@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/24
@@ -37,8 +38,6 @@ Dyrrn makes its lair in the Palace of Sinew, a horrid site shaped from the lefto
 If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains a form of indefinite madness. Roll on the Madness of Dyrrn table to determine the nature of this madness, which takes the form of a character flaw that lasts until cured. Chapter 8 of the "Dungeon Master's Guide" has more information on madness.
 
 **Madness of Dyrrn**
-
-`dice: [](dyrrn-erlw.md#^madness-of-dyrrn)`
 
 | dice: d6 | Flaw (lasts until cured) |
 |----------|--------------------------|
@@ -87,7 +86,8 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
   рументи%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 23"
 "languages": "Deep Speech, telepathy 120 ft."
 "cr": "24"
 "traits":
@@ -115,7 +115,7 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ can replace its Tentacle Whip attack with Extract Brain if it has a creature\
       \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (3d10 + 8) slashing damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 23), pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed\
@@ -132,12 +132,56 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ creature can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Corruption"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one [incapacitated](І\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one [incapacitated](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) creature [grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by Dyrrn. Hit: 55 (10d10)\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by Dyrrn. *Hit:* 55 (10d10)\
       \ piercing damage. If this damage reduces the target to 0 hit points, Dyrrn\
       \ kills the target by extracting and devouring its brain."
     "name": "Extract Brain"
+"lair_actions":
+  - "desc": "While within the Palace of Sinew, Dyrrn can invoke the ambient magic\
+      \ to take lair actions. On initiative count 20 (losing initiative ties), Dyrrn\
+      \ can take a lair action to cause one of the following effects; it can't use\
+      \ the same effect two rounds in a row:\n\n- Dyrrn uses its Corruption action.\
+      \  \n- A 30-foot-square area of ground within 120 feet of Dyrrn sprouts tentacles\
+      \ until initiative count 20 on the next round. Any creature that starts or ends\
+      \ its turn in the area must succeed on a DC 23 Strength saving throw or be [restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained). A creature can escape the\
+      \ tentacles with a successful DC 23 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
+      \ or Dexterity ([Acrobatics](Інструменти%20ДМ/CLI/rules/skills.md#Acrobatics))\
+      \ check as an action.  \n- Each creature of Dyrrn's choice that it can see within\
+      \ 120 feet of it must succeed on a DC 23 Wisdom saving throw or take 26 (4d12)\
+      \ psychic damage. Unless the target has immunity to psychic damage, its Intelligence\
+      \ score is reduced by 1d4 each time it fails the saving throw for this lair\
+      \ action. The target dies if its Intelligence score is reduced to 0. The reduction\
+      \ lasts until the target finishes a short or long rest.  "
+    "name": ""
+"regional_effects":
+  - "desc": "A region containing a passage to Dyrrn's lair is warped in one or more\
+      \ of these ways:\n\n- Plants and animals raised within 2 mile of the passage\
+      \ have twisted, aberrant forms. Use the Daelkyr Modifications table for inspiration.\
+      \  \n- Creatures within 1 mile of the passage frequently feel as if something\
+      \ is crawling under their skin.  \n- If a humanoid spends at least 1 hour within\
+      \ 1 mile of the passage, that creature must succeed on a DC 22 Wisdom saving\
+      \ throw or descend into a type of madness (see \"Madness of Dyrrn\" below).\
+      \ A creature that succeeds on this saving throw can't be affected by this regional\
+      \ effect again for 24 hours.  \n\nIf Dyrrn dies, these effects fade away after\
+      \ 1d10 days.\n\n**Madness of Dyrrn.** If a creature goes mad in Dyrrn's lair\
+      \ or while it can see the daelkyr, it gains a form of indefinite madness. Roll\
+      \ on the Madness of Dyrrn table to determine the nature of this madness, which\
+      \ takes the form of a character flaw that lasts until cured. Chapter 8 of the\
+      \ \"Dungeon Master's Guide\" has more information on madness.\n\n**Madness of\
+      \ Dyrrn**\n\n| dice: d6 | Flaw (lasts until cured) |\n|----------|--------------------------|\n\
+      | 1 | \"There's an illithid parasite living in my brain!\" |\n| 2 | \"I can\
+      \ feel myself evolving into an aberration.\" |\n| 3 | \"Aberrations are the\
+      \ only natural things.\" |\n| 4 | \"A part of me has become a conscious entity.\"\
+      \ |\n| 5 | \"My opponents must bow down to a mind flayer!\" |\n| 6 | \"Dyrrn\
+      \ and the mind flayers simply want to unite all sentient creatures in collective\
+      \ consciousness. And I receive messages from the group mind!\" |\n^madness-of-dyrrn"
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Dyrrn can expend a use to take one of the following actions. Dyrrn regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Dyrrn makes one attack with its Tentacle Whip."
     "name": "Tentacle Whip"
@@ -151,54 +195,6 @@ If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains
       \ for 1 minute. A creature can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Mind Blast (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "While within the Palace of Sinew, Dyrrn can invoke the ambient magic\
-      \ to take lair actions. On initiative count 20 (losing initiative ties), Dyrrn\
-      \ can take a lair action to cause one of the following effects; it can't use\
-      \ the same effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Dyrrn uses its Corruption action.  \n- A 30-foot-square area of ground\
-      \ within 120 feet of Dyrrn sprouts tentacles until initiative count 20 on the\
-      \ next round. Any creature that starts or ends its turn in the area must succeed\
-      \ on a DC 23 Strength saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained).\
-      \ A creature can escape the tentacles with a successful DC 23 Strength ([Athletics](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Acrobatics)) check as an action.  \n- Each\
-      \ creature of Dyrrn's choice that it can see within 120 feet of it must succeed\
-      \ on a DC 23 Wisdom saving throw or take 26 (4d12) psychic damage. Unless\
-      \ the target has immunity to psychic damage, its Intelligence score is reduced\
-      \ by d4 each time it fails the saving throw for this lair action. The target\
-      \ dies if its Intelligence score is reduced to 0. The reduction lasts until\
-      \ the target finishes a short or long rest.  "
-    "name": ""
-"regional_effects":
-  - "desc": "A region containing a passage to Dyrrn's lair is warped in one or more\
-      \ of these ways:"
-    "name": ""
-  - "desc": "- Plants and animals raised within 2 mile of the passage have twisted,\
-      \ aberrant forms. Use the Daelkyr Modifications table for inspiration.  \n-\
-      \ Creatures within 1 mile of the passage frequently feel as if something is\
-      \ crawling under their skin.  \n- If a humanoid spends at least 1 hour within\
-      \ 1 mile of the passage, that creature must succeed on a DC 22 Wisdom saving\
-      \ throw or descend into a type of madness (see \"Madness of Dyrrn\" below).\
-      \ A creature that succeeds on this saving throw can't be affected by this regional\
-      \ effect again for 24 hours.  "
-    "name": ""
-  - "desc": "If Dyrrn dies, these effects fade away after d10 days."
-    "name": ""
-  - "desc": "If a creature goes mad in Dyrrn's lair or while it can see the daelkyr,\
-      \ it gains a form of indefinite madness. Roll on the Madness of Dyrrn table\
-      \ to determine the nature of this madness, which takes the form of a character\
-      \ flaw that lasts until cured. Chapter 8 of the \"Dungeon Master's Guide\" has\
-      \ more information on madness.\n\nMadness of Dyrrn\n\ndice: [](dyrrn-erlw.md#^madness-of-dyrrn)\n\
-      \n| dice: d6 | Flaw (lasts until cured) |\n|----------|--------------------------|\n\
-      | 1 | \"There's an illithid parasite living in my brain!\" |\n| 2 | \"I can\
-      \ feel myself evolving into an aberration.\" |\n| 3 | \"Aberrations are the\
-      \ only natural things.\" |\n| 4 | \"A part of me has become a conscious entity.\"\
-      \ |\n| 5 | \"My opponents must bow down to a mind flayer!\" |\n| 6 | \"Dyrrn\
-      \ and the mind flayers simply want to unite all sentient creatures in collective\
-      \ consciousness. And I receive messages from the group mind!\" |\n^madness-of-dyrrn"
-    "name": "Madness of Dyrrn"
 "source":
   - "ERLW"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/dyrrn-erlw.webp"

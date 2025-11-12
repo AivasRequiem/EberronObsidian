@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/7
@@ -40,14 +41,15 @@ Kindori are peaceful creatures but have many natural enemies, including lunar dr
   - !!int "14"
   - !!int "7"
 "speed": "0 ft., fly 60 ft. (hover)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": ""
 "cr": "7"
 "traits":
   - "desc": "The kindori doesn't require food, drink, or air."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) bludgeoning damage."
     "name": "Tail"
 "bonus_actions":

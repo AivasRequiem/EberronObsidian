@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -53,7 +54,8 @@ A molydeus' demon lord bestows on it a powerful weapon that dissolves if the mol
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інстр\
   ументи%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 31"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 31"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -66,14 +68,14 @@ A molydeus' demon lord bestows on it a powerful weapon that dissolves if the mol
   - "desc": "The molydeus makes one Demonic Weapon attack, one Snakebite attack, and\
       \ one Wolf Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 35 (4d12 + 9) force damage. If the target has at least one head and the\
       \ molydeus rolled a 20 on the attack roll, the target is decapitated and dies\
       \ if it can't survive without that head. A target is immune to this effect if\
       \ it takes none of the damage, has legendary actions, or is Huge or larger.\
       \ Such a creature takes an extra 27 (6d8) force damage from the hit."
     "name": "Demonic Weapon"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one creature. *Hit:*\
       \ 16 (2d6 + 9) poison damage. The target must succeed on a DC 22 Constitution\
       \ saving throw, or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -81,17 +83,20 @@ A molydeus' demon lord bestows on it a powerful weapon that dissolves if the mol
       \ if this reduces its hit point maximum to 0. This transformation can be ended\
       \ only by a [wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) spell."
     "name": "Snakebite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d10 + 9) necrotic damage."
     "name": "Wolf Bite"
   - "desc": "The molydeus casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 22):\n\
-      \nAt will: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \n**At will:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
       \ [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md), [telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md), [teleport](Інструменти%20ДМ\
-      /CLI/spells/teleport-xphb.md)\n\n3/day: [lightning bolt](Інструменти%20Д\
+      /CLI/spells/teleport-xphb.md)\n\n**3/day:** [lightning bolt](Інструменти%20Д\
       М/CLI/spells/lightning-bolt-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the molydeus can expend a use to take one of the following actions. The\
+  \ molydeus regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The molydeus makes one Demonic Weapon or Snakebite attack."
     "name": "Attack"

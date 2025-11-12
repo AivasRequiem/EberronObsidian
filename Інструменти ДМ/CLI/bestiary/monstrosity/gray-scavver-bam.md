@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/1-4
@@ -34,15 +35,16 @@ Gray scavvers are 6 feet long and travel in packs. The scent of blood sends them
   - !!int "10"
   - !!int "1"
 "speed": "0 ft., fly 40 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
   - "desc": "The scavver doesn't require air."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit (with advantage if the target is a\
-      \ creature that is missing any hit points), reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit (with advantage if the target is a\
+      \ creature that is missing any hit points), reach 5 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage."
     "name": "Bite"
 "source":

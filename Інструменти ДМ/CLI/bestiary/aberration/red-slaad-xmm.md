@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -62,7 +63,8 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+1"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Slaad; telepathy 60 ft."
 "cr": "5"
 "traits":
@@ -76,9 +78,9 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes three Injecting Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 10 (2d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 10 (2d6 + 3) Piercing\
       \ damage. If the target is a Humanoid not cursed by a slaad, it is subjected\
-      \ to the following effect. Constitution Saving Throw: DC 14. Failure: The\
+      \ to the following effect. *Constitution Saving Throw:* DC 14. *Failure:* The\
       \ target is cursed unawares, and a minuscule slaad egg is implanted in it. Removing\
       \ the curse destroys the egg.\n\nOver 2d4 × 10 days, the egg gestates. In\
       \ the final 24 hours, the cursed target feels unwell; its [Speed](Інструмент\

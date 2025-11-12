@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/17
@@ -22,7 +23,7 @@ Death knights are deadly combatants and domineering commanders with grim histori
 *Haunted Commanders of Unliving Legions*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Champions of evil, death knights are armor-clad, skeletal warlords. Combining devastating martial prowess and blasphemous magic, these undying tyrants lead unholy legions against the living or brood in cursed citadels. Every death knight is haunted by a legacy of tragedy and dishonor that drives it to commit greater evils.
 
@@ -50,7 +51,8 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "Abyssal, Common"
 "cr": "17"
 "traits":
@@ -66,25 +68,25 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Marshal Undead"
   - "desc": "If the death knight is destroyed before it atones for its evil, it gains\
-      \ a new body in d10 days, reviving with all its [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md). The new body appears in a location\
-      \ significant to the death knight."
+      \ a new body in 1d10 days, reviving with all its [Hit Points](Інструменти\
+      %20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). The new body appears in a\
+      \ location significant to the death knight."
     "name": "Undead Restoration"
 "actions":
   - "desc": "The death knight makes three Dread Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +11, reach 5 ft. *Hit:* 12 (2d6 + 5) Slashing\
       \ damage plus 13 (3d8) Necrotic damage."
     "name": "Dread Blade"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 20-foot-radius [Sphere](І\
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point the death knight can see within 120 feet. Failure: 35 (10d6)\
-      \ Fire damage plus 35 (10d6) Necrotic damage. Success: Half damage."
+      \ on a point the death knight can see within 120 feet. *Failure:* 35 (10d6)\
+      \ Fire damage plus 35 (10d6) Necrotic damage. *Success:* Half damage."
     "name": "Hellfire Orb (Recharge 5-6)"
   - "desc": "The death knight casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 18):\n\
-      \nAt will: [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [Phantom\
-      \ Steed](Інструменти%20ДМ/CLI/spells/phantom-steed-xphb.md)\n\n2/day each:\
+      \n**At will:** [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [Phantom\
+      \ Steed](Інструменти%20ДМ/CLI/spells/phantom-steed-xphb.md)\n\n**2/day each:**\
       \ [Destructive Wave](Інструменти%20ДМ/CLI/spells/destructive-wave-xphb.md) (Necrotic),\
       \ [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md)"
     "name": "Spellcasting"
@@ -93,15 +95,18 @@ Champions of evil, death knights are armor-clad, skeletal warlords. Combining de
       \ a weapon. _Response:_ The death knight adds 6 to its AC against that attack,\
       \ possibly causing it to miss."
     "name": "Parry"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the death knight can expend a use to take one of the following actions.\
+  \ The death knight regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The death knight uses Spellcasting to cast [Command](Інструменти%20ДМ\
       /CLI/spells/command-xphb.md). The death knight can't take this action again\
       \ until the start of its next turn."
     "name": "Dread Authority"
-  - "desc": "Constitution Saving Throw: DC 18, one creature the death knight can\
-      \ see within 120 feet. Failure: 17 (5d6) Necrotic damage, and the target's\
+  - "desc": "*Constitution Saving Throw:* DC 18, one creature the death knight can\
+      \ see within 120 feet. *Failure:* 17 (5d6) Necrotic damage, and the target's\
       \ [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum\
-      \ decreases by an amount equal to the damage taken. Failure or Success: The\
+      \ decreases by an amount equal to the damage taken. *Failure or Success:* The\
       \ death knight can't take this action again until the start of its next turn."
     "name": "Fell Word"
   - "desc": "The death knight moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\

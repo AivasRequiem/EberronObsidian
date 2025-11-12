@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -10,6 +11,7 @@ tags:
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/divine-soul/good
 - ttrpg-cli/spell/subclass/the-fathomless
 - ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
@@ -17,6 +19,7 @@ classes:
 - Bard (College of Lore)
 - Cleric
 - Ranger
+- Sorcerer (Divine Soul, Good)
 - Warlock (The Fathomless)
 aliases:
 - Silence
@@ -32,6 +35,6 @@ aliases:
 
 For the duration, no sound can be created within or pass through a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on a point you choose within range. Any creature or object entirely inside the [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) has [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to Thunder damage, and creatures have the [Deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened) condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB"); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB"); [Warlock (The Fathomless)](Інструменти%20ДМ/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 316. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

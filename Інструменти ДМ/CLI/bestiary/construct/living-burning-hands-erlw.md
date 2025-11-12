@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1
@@ -71,7 +72,8 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Grappled), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "1"
 "traits":
@@ -82,7 +84,7 @@ For example, if you turn [fireball](Інструменти%20ДМ/CLI/spells/fir
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) fire damage."
     "name": "Magical Strike"
   - "desc": "The living spell unleashes a thin sheet of flames in a 15-foot cone.\

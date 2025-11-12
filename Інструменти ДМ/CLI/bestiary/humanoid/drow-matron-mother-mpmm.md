@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/20
@@ -65,7 +66,8 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 21"
 "languages": "Elvish, Undercommon"
 "cr": "20"
 "traits":
@@ -83,7 +85,7 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
   - "desc": "The drow makes two Demon Staff attacks or one Demon Staff attack and\
       \ three Tentacle Rod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used\
       \ with two hands, plus 14 (4d6) psychic damage. The target must succeed on\
       \ a DC 19 Wisdom saving throw or become [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
@@ -91,8 +93,8 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Demon Staff"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one creature. Hit:\
-      \ 3 (d6) bludgeoning damage. If the target is hit three times by the [rod](І\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one creature. *Hit:*\
+      \ 3 (1d6) bludgeoning damage. If the target is hit three times by the [rod](І\
       нструменти%20ДМ/CLI/items/tentacle-rod-xdmg.md) on one turn, the target must\
       \ succeed on a DC 15 Constitution saving throw or suffer the following effects\
       \ for 1 minute: the target's speed is halved, it has disadvantage on Dexterity\
@@ -107,16 +109,16 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
       \ radiant damage on a failed save, or half as much damage on a successful one."
     "name": "Divine Flame (2/Day)"
   - "desc": "The drow casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\nAt\
-      \ will: [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [dancing lights](І\
+      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\n**At\
+      \ will:** [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [dancing lights](І\
       нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [detect magic](Інструмен\
       ти%20ДМ/CLI/spells/detect-magic-xphb.md), [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n2/day each: [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
+      \n**2/day each:** [banishment](Інструменти%20ДМ/CLI/spells/banishment-xphb.md),\
       \ [blade barrier](Інструменти%20ДМ/CLI/spells/blade-barrier-xphb.md), [cure\
       \ wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [hold person](Ін\
       струменти%20ДМ/CLI/spells/hold-person-xphb.md), [plane shift](Інструменти%20Д\
       М/CLI/spells/plane-shift-xphb.md), [silence](Інструменти%20ДМ/CLI/spells/silence-xphb.md)\n\
-      \n1/day each: [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
+      \n**1/day each:** [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md),\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [detect thoughts](І\
       нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [dispel magic](Інструме\
       нти%20ДМ/CLI/spells/dispel-magic-xphb.md), [faerie fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md),\
@@ -135,6 +137,29 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
       \ 10 minutes, until it or its summoner dies, or until its summoner dismisses\
       \ it as an action."
     "name": "Summon Servant (1/Day)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the drow can take one\
+      \ of the following lair actions when in her lair; she can't take the same lair\
+      \ action two rounds in a row:\n\n- **Perceive Interlopers.** The drow projects\
+      \ her mind throughout her lair, marking any potential threats against her or\
+      \ her retinue. Until initiative count 20 of the next round, hostile creatures\
+      \ within the lair can't become hidden from her and gain no benefit from the\
+      \ [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition\
+      \ against her.  \n- **Spectral Web.** A glistening spectral spider web erupts\
+      \ from a point the drow can see within 120 feet of her. Each creature within\
+      \ 60 feet of that point must succeed a DC 19 Dexterity saving throw or be [restrained](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Restrained) for 1 minute. A creature\
+      \ can repeat the saving throw at the end of each of its turns, ending the effect\
+      \ on itself on a success.  \n- **Telekinetic Throw.** The drow targets one creature\
+      \ she can see within 60 feet of her and attempts to expel it from her presence.\
+      \ The target must succeed on a DC 19 Strength saving throw or be flung 2d6\
+      \ × 10 feet through the air. A creature smashed into a solid object takes 1d6\
+      \ bludgeoning damage for every 10 feet moved. If released in midair, the creature\
+      \ takes falling damage as normal.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the drow matron mother can expend a use to take one of the following actions.\
+  \ The drow matron mother regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "An allied demon within 30 feet of the drow uses its reaction to make\
       \ one attack against a target of the drow's choice that she can see."
@@ -143,27 +168,6 @@ Any temple of Lolth also functions as a matron mother's lair while she is inside
     "name": "Demon Staff"
   - "desc": "The drow uses Spellcasting."
     "name": "Cast a Spell (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the drow can take one\
-      \ of the following lair actions when in her lair; she can't take the same lair\
-      \ action two rounds in a row:"
-    "name": ""
-  - "desc": "- Perceive Interlopers. The drow projects her mind throughout her\
-      \ lair, marking any potential threats against her or her retinue. Until initiative\
-      \ count 20 of the next round, hostile creatures within the lair can't become\
-      \ hidden from her and gain no benefit from the [invisible](Інструменти%20ДМ\
-      /CLI/rules/conditions.md#Invisible) condition against her.  \n- Spectral Web.\
-      \ A glistening spectral spider web erupts from a point the drow can see within\
-      \ 120 feet of her. Each creature within 60 feet of that point must succeed a\
-      \ DC 19 Dexterity saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- Telekinetic Throw.\
-      \ The drow targets one creature she can see within 60 feet of her and attempts\
-      \ to expel it from her presence. The target must succeed on a DC 19 Strength\
-      \ saving throw or be flung 2d6 × 10 feet through the air. A creature smashed\
-      \ into a solid object takes d6 bludgeoning damage for every 10 feet moved.\
-      \ If released in midair, the creature takes falling damage as normal.  "
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/humanoid/token/drow-matron-mother-mpmm.webp"

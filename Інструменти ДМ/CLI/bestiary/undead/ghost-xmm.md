@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -54,7 +55,8 @@ Ghosts typically appear as semitransparent versions of the creatures they were i
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common plus one other language"
 "cr": "4"
 "traits":
@@ -63,23 +65,23 @@ Ghosts typically appear as semitransparent versions of the creatures they were i
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes 5 (1d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
   - "desc": "The ghost makes two Withering Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 19 (3d10 + 3) Necrotic\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 19 (3d10 + 3) Necrotic\
       \ damage."
     "name": "Withering Touch"
-  - "desc": "Wisdom Saving Throw: DC 13, each creature in a 60-foot [Cone](Інстр\
+  - "desc": "*Wisdom Saving Throw:* DC 13, each creature in a 60-foot [Cone](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md) that can see\
-      \ the ghost and isn't an Undead. Failure: 10 (2d6 + 3) Psychic damage, and\
+      \ the ghost and isn't an Undead. *Failure:* 10 (2d6 + 3) Psychic damage, and\
       \ the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the start of the ghost's next turn. Success: The target\
+      \ condition until the start of the ghost's next turn. *Success:* The target\
       \ is immune to this ghost's Horrific Visage for 24 hours."
     "name": "Horrific Visage"
-  - "desc": "Charisma Saving Throw: DC 13, one Humanoid the ghost can see within\
-      \ 5 feet. Failure: The target is possessed by the ghost; the ghost disappears,\
+  - "desc": "*Charisma Saving Throw:* DC 13, one Humanoid the ghost can see within\
+      \ 5 feet. *Failure:* The target is possessed by the ghost; the ghost disappears,\
       \ and the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition and loses control of its body. The ghost now controls the body,\
       \ but the target retains awareness. The ghost can't be targeted by any attack,\
@@ -91,7 +93,7 @@ Ghosts typically appear as semitransparent versions of the creatures they were i
       \ or the ghost leaves as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md).\
       \ When the possession ends, the ghost appears in an unoccupied space within\
       \ 5 feet of the target, and the target is immune to this ghost's [Possession](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/possession-xphb.md) for 24 hours. Success:\
+      нструменти%20ДМ/CLI/rules/variant-rules/possession-xphb.md) for 24 hours. *Success:*\
       \ The target is immune to this ghost's [Possession](Інструменти%20ДМ/CLI/rules/variant-rules/possession-xphb.md)\
       \ for 24 hours."
     "name": "Possession (Recharge 6)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -34,20 +35,21 @@ aliases:
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands the languages you know"
 "traits":
-  - "desc": "Constitution Saving Throw: DC equals your spell save DC, any creature\
+  - "desc": "*Constitution Saving Throw:* DC equals your spell save DC, any creature\
       \ (other than you) that starts its turn within a 5-foot Emanation originating\
-      \ from the spirit. Failure: The creature has the [Poisoned](Інструменти%20Д\
+      \ from the spirit. *Failure:* The creature has the [Poisoned](Інструменти%20Д\
       М/CLI/rules/conditions.md#Poisoned) condition until the start of its next turn."
     "name": "Festering Aura"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (round down)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d6 + 3 + the spell's level Slashing damage. If the target has\
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d6 + 3 + the spell's level Slashing damage. If the target has\
       \ the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition,\
       \ it has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ condition until the end of its next turn."

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/21
@@ -76,7 +77,8 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_resistances": "fire, psychic"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 28"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 28"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -91,10 +93,10 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage plus 10 (3d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 90-foot cone. Each\
@@ -106,9 +108,9 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 20):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
       \ hand is invisible), [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n1/day each: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**1/day each:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [etherealness](І\
       нструменти%20ДМ/CLI/spells/etherealness-xphb.md), [major image](Інструменти\
       %20ДМ/CLI/spells/major-image-xphb.md), [mislead](Інструменти%20ДМ/CLI/spells/mislead-xphb.md)"
@@ -122,6 +124,47 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Beguiling Whisper.** The dragon telepathically\
+      \ whispers to one creature within range of the dragon's telepathy. The creature\
+      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
+      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ in this way obeys to the best of its ability any command the dragon issues\
+      \ that isn't directly harmful to the creature.  \n- **Distort Perceptions.**\
+      \ The dragon attempts to alter the perceptions of one creature it can see within\
+      \ its lair. That creature must succeed on a DC 15 Intelligence saving throw\
+      \ or take 22 (4d10) psychic damage and have disadvantage on saving throws\
+      \ until the start of its next turn.  \n- **Vanish.** The dragon becomes [invisible](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Invisible) until initiative count 20\
+      \ on the next round.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary emerald dragon's lair is altered by\
+      \ the dragon's magic, creating one or more of the following effects:\n\n- **Crystal\
+      \ Profusion.** Natural stone within 6 miles of the lair grows plentiful crystal\
+      \ formations and veins of emerald gemstones.  \n- **Fiery Sight.** Fire and\
+      \ lava within 6 miles of the lair become conduits for the dragon's psionic presence.\
+      \ As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
+      \ spell, requiring no spell components and targeting any area of fire or lava\
+      \ in that region.  \n- **Subtle Obstruction.** Rocks within 6 miles of the dragon's\
+      \ lair sometimes move of their own accord, usually when no one is watching.\
+      \ Often the rocks obstruct the approach to the emerald dragon's lair, with boulders\
+      \ moving to block narrow defiles, way-markers tumbling off the path, or smaller\
+      \ stones shifting beneath travelers' feet to send them tumbling down slopes\
+      \ or into rivers.  \n- **Thriving Wildlife.** [Giant lizards](Інструменти%20Д\
+      М/CLI/bestiary/beast/giant-lizard-xmm.md) are attracted to the area within 6\
+      \ miles of the lair and settle there in large numbers.  \n\nIf the dragon dies,\
+      \ the population of giant lizards near the lair returns to normal levels over\
+      \ the course of 1d10 days. Rocks immediately stop moving of their own accord.\
+      \ The existing abundance of crystals and emeralds remains, but new ones form\
+      \ at a normal rate."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Claw attack."
     "name": "Claw"
@@ -131,48 +174,6 @@ The challenge rating of a legendary emerald dragon increases by 1 when it's enco
       \ can see within 60 feet of it. The target must succeed on a DC 20 Dexterity\
       \ saving throw or take 42 (12d6) fire damage."
     "name": "Emerald Embers (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Beguiling Whisper. The dragon telepathically whispers to one creature\
-      \ within range of the dragon's telepathy. The creature must succeed on a DC\
-      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
-      \ of its ability any command the dragon issues that isn't directly harmful to\
-      \ the creature.  \n- Distort Perceptions. The dragon attempts to alter the\
-      \ perceptions of one creature it can see within its lair. That creature must\
-      \ succeed on a DC 15 Intelligence saving throw or take 22 (4d10) psychic damage\
-      \ and have disadvantage on saving throws until the start of its next turn. \
-      \ \n- Vanish. The dragon becomes [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\
-      \ until initiative count 20 on the next round.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary emerald dragon's lair is altered by\
-      \ the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Crystal Profusion. Natural stone within 6 miles of the lair grows\
-      \ plentiful crystal formations and veins of emerald gemstones.  \n- Fiery\
-      \ Sight. Fire and lava within 6 miles of the lair become conduits for the\
-      \ dragon's psionic presence. As an action, the dragon can cast the [clairvoyance](І\
-      нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md) spell, requiring no spell components\
-      \ and targeting any area of fire or lava in that region.  \n- Subtle Obstruction.\
-      \ Rocks within 6 miles of the dragon's lair sometimes move of their own accord,\
-      \ usually when no one is watching. Often the rocks obstruct the approach to\
-      \ the emerald dragon's lair, with boulders moving to block narrow defiles, way-markers\
-      \ tumbling off the path, or smaller stones shifting beneath travelers' feet\
-      \ to send them tumbling down slopes or into rivers.  \n- Thriving Wildlife.\
-      \ [Giant lizards](Інструменти%20ДМ/CLI/bestiary/beast/giant-lizard-xmm.md) are\
-      \ attracted to the area within 6 miles of the lair and settle there in large\
-      \ numbers.  "
-    "name": ""
-  - "desc": "If the dragon dies, the population of giant lizards near the lair returns\
-      \ to normal levels over the course of d10 days. Rocks immediately stop moving\
-      \ of their own accord. The existing abundance of crystals and emeralds remains,\
-      \ but new ones form at a normal rate."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/ancient-emerald-dragon-ftd.webp"

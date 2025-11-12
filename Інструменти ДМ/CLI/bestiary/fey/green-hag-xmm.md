@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -22,15 +23,13 @@ aliases:
 *Foul Witch of the Wicked Wild*
 
 - **Habitat.** Forest, Hill, Swamp  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Green hags work bitter magic to foul all that is beautiful and pure. Whether alone or in covens of other hags, these ancient witches call on eerie forces, spreading corruption and plotting doom for those who earn their ire. Green hags are adept deceivers, and they use illusions to cloak themselves in unassuming forms, hoping to tempt innocents into peril. These hags often spirit their victims back to surreal lairs where they hold captives prisoner or cook them into monstrous meals.
 
 Green hags frequently know strange magic or forgotten secrets, such as the weaknesses of villains, the locations of lost treasures, or the ways to break curses. They might trade such knowledge for rare magic or symbolic treasures. Roll on or choose a result from the Green Hag Bargains table to inspire what a green hag charges for its secrets.
 
 **Green Hag Bargains**
-
-`dice: [](green-hag-xmm.md#^green-hag-bargains)`
 
 | dice: 1d6 | A Green Hag Trades Its Knowledge For... |
 |-----------|-----------------------------------------|
@@ -68,7 +67,8 @@ Green hags frequently know strange magic or forgotten secrets, such as the weakn
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common, Elvish, Sylvan"
 "cr": "3"
 "traits":
@@ -92,12 +92,12 @@ Green hags frequently know strange magic or forgotten secrets, such as the weakn
 "actions":
   - "desc": "The hag makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (1d8 + 4) Slashing\
+      \ damage plus 3 (1d6) Poison damage."
     "name": "Claw"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
       \ and using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit\
-      \ with spell attacks):\n\nAt will: [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ with spell attacks):\n\n**At will:** [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md) (24-hour\
       \ duration), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ (self only, and the hag leaves no tracks while Invisible), [Minor Illusion](І\

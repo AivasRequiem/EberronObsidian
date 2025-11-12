@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -29,8 +30,6 @@ Part hunting bird, part horse, hippogriffs are majestic creatures that hunt oppo
 Hippogriff migrations might take months or years, and sages frequently predict their routes. Roll on or choose a result from the Hippogriff Destination table to inspire where a hippogriff might be en route to.
 
 **Hippogriff Destination**
-
-`dice: [](hippogriff-xmm.md#^hippogriff-destination)`
 
 | dice: 1d6 | The Hippogriff Is Traveling to A... |
 |-----------|-------------------------------------|
@@ -72,7 +71,7 @@ Hippogriff migrations might take months or years, and sages frequently predict t
 "actions":
   - "desc": "The hippogriff makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Slashing\
       \ damage."
     "name": "Rend"
 "source":

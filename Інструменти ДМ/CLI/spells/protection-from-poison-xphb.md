@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/golgari-agent
@@ -13,6 +14,7 @@ tags:
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/college-of-lore
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Artificer
 - Bard
@@ -21,6 +23,7 @@ classes:
 - Druid
 - Paladin
 - Ranger
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Protection from Poison
 ---
@@ -35,6 +38,6 @@ aliases:
 
 You touch a creature and end the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition on it. For the duration, the target has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on saving throws to avoid or end the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition, and it has [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Poison damage.
 
-**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Artificer](Інструменти%20ДМ/CLI/lists/list-spells-classes-artificer.md); [Bard (College of Lore)](Інструменти%20ДМ/CLI/lists/list-spells-classes-college-of-lore-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 310. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/12
@@ -22,7 +23,7 @@ Questing knights travel in pursuit of a cause, such as slaying a villain, defeat
 *Battle Masters and Heroic Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Knights are skilled warriors trained for war and tested in battle. Many serve the rulers of a realm, a religion, or an order devoted to a cause.
 
@@ -70,14 +71,14 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
 "actions":
   - "desc": "The knight makes three attacks, using Greatsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 12 (2d6 + 5) Slashing\
       \ damage plus 22 (5d8) Radiant damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +7, range 150/600 ft. Hit: 12 (2d8 + 3) Piercing\
+  - "desc": "*Ranged Attack Roll:* +7, range 150/600 ft. *Hit:* 12 (2d8 + 3) Piercing\
       \ damage plus 22 (5d8) Radiant damage."
     "name": "Longbow"
   - "desc": "The knight casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 16):\n\n1/day each: [Daylight](Інструменти%20ДМ\
+      \ ability (spell save DC 16):\n\n**1/day each:** [Daylight](Інструменти%20ДМ\
       /CLI/spells/daylight-xphb.md), [Dispel Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
       \ [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md),\
       \ [Phantom Steed](Інструменти%20ДМ/CLI/spells/phantom-steed-xphb.md)"

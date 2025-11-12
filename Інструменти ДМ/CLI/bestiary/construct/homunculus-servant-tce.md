@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -41,7 +42,8 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 0"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 0"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "If the homunculus is subjected to an effect that allows it to make a\
@@ -50,8 +52,8 @@ aliases:
       \ use this trait if it's [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Evasion"
 "actions":
-  - "desc": "Ranged Weapon Attack: your spell attack modifier to hit, range 30 ft.,\
-      \ one target you can see. Hit: 1d4 + PB force damage."
+  - "desc": "*Ranged Weapon Attack:* your spell attack modifier to hit, range 30 ft.,\
+      \ one target you can see. *Hit:* 1d4 + PB force damage."
     "name": "Force Strike"
 "reactions":
   - "desc": "The homunculus delivers a spell you cast that has a range of touch. The\

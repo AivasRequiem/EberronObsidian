@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -20,7 +21,7 @@ aliases:
 - **Properties**: [Versatile](Інструменти%20ДМ/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
-This staff has 3 charges and regains `d3` expended charges daily at dawn.
+This staff has 3 charges and regains `1d3` expended charges daily at dawn.
 
 The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff , and you can expend 1 charge to deal an extra `2d10` Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) for 1 hour on any ability check or saving throw that uses Strength or Constitution.
 

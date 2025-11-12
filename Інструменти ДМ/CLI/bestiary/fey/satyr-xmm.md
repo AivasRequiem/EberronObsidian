@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -24,7 +25,7 @@ Satyrs enjoy demonstrating their physicality through contests, evicting party po
 *Horned and Hoofed Revelers*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merrymaking—eating, drinking, performing, fighting, and frolicking.
 
@@ -60,12 +61,12 @@ Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merr
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, the satyr pushes the\
       \ target up to 10 feet straight away from itself."
     "name": "Hooves"
-  - "desc": "Wisdom Saving Throw: DC 12, one creature the satyr can see within 90\
-      \ feet. Failure: 5 (1d6 + 2) Psychic damage."
+  - "desc": "*Wisdom Saving Throw:* DC 12, one creature the satyr can see within 90\
+      \ feet. *Failure:* 5 (1d6 + 2) Psychic damage."
     "name": "Mockery"
 "source":
   - "XMM"

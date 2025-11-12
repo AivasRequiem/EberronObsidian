@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/2
@@ -44,7 +45,8 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - !!int "13"
   - !!int "10"
 "speed": "20 ft., climb 20 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Aartuk"
 "cr": "2"
 "traits":
@@ -55,10 +57,10 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
       \ of each."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (2d6 + 2) bludgeoning damage."
     "name": "Branch"
-  - "desc": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +3 to hit, range 60 ft., one target. *Hit:*\
       \ 7 (3d4 + 1) radiant damage."
     "name": "Radiant Pellet"
 "bonus_actions":

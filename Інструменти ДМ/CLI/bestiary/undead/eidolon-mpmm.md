@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -54,12 +55,13 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 18"
 "languages": "the languages it knew in life"
 "cr": "12"
 "traits":
   - "desc": "The eidolon can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object other than a [sacred statue](Інструменти%20ДМ/CLI/bestiary/construct/sacred-statue-mpmm.md)."
     "name": "Incorporeal Movement"
   - "desc": "When the eidolon moves into a space occupied by a [sacred statue](Інс\

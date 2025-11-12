@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -20,8 +21,6 @@ Bards are gifted poets, storytellers, and entertainers who travel far and wide. 
 Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard [Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance) Types table to determine it.
 
 **Bard Performance Types**
-
-`dice: [](bard-mpmm.md#^bard-performance-types)`
 
 | dice: d10 | Performance Type |
 |-----------|------------------|
@@ -72,10 +71,10 @@ Each bard is a master of at least one type of performance. You may choose a bard
   - "desc": "The bard makes two Shortsword or Shortbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
   - "desc": "Each creature in a 15-foot cube originating from the bard must make a\
@@ -84,10 +83,10 @@ Each bard is a master of at least one type of performance. You may choose a bard
       \ save, a creature takes half as much damage and isn't pushed."
     "name": "Cacophony (Recharge 4-6)"
   - "desc": "The bard casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [dancing lights](Інструменти%20Д\
+      \ ability (spell save DC 12):\n\n**At will:** [dancing lights](Інструменти%20Д\
       М/CLI/spells/dancing-lights-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1/day each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \n**1/day each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [sleep](І\
       нструменти%20ДМ/CLI/spells/sleep-xphb.md)"
     "name": "Spellcasting"

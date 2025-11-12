@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -21,8 +22,6 @@ Common mummies are the remains of priests, nobles, or champions of faith that un
 Roll on or choose a result from the Mummy Resurrections table to determine why a mummy has returned from the dead.
 
 **Mummy Resurrections**
-
-`dice: [](mummy-xmm.md#^mummy-resurrections)`
 
 | dice: 1d8 | The Mummy Reanimates To... |
 |-----------|----------------------------|
@@ -45,7 +44,7 @@ Roll on or choose a result from the Mummy Resurrections table to determine why a
 *Deathless Ancients with Ageless Ambitions*
 
 - **Habitat.** Desert, Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Mysterious rites and mighty faith can tie spirits to their corpses, binding them to their remains for all time. Should their resting places be violated, these beings, known as mummies, reanimate their deteriorating bodies to restore the sanctity of their tombs and punish those who disturbed their rest.
 
@@ -78,13 +77,14 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common plus two other languages"
 "cr": "3"
 "actions":
   - "desc": "The mummy makes two Rotting Fist attacks and uses Dreadful Glare."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 8 (1d10 + 3) Bludgeoning\
       \ damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is\
       \ cursed. While cursed, the target can't regain [Hit Points](Інструменти%20Д\
       М/CLI/rules/variant-rules/hit-points-xphb.md), its [Hit Point](Інструменти%20Д\
@@ -95,9 +95,9 @@ A mummy might look frail, but its body possesses supernatural strength, and its 
       \ and turns to dust if reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this attack."
     "name": "Rotting Fist"
-  - "desc": "Wisdom Saving Throw: DC 11, one creature the mummy can see within 60\
-      \ feet. Failure: The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the end of the mummy's next turn. Success: The target is\
+  - "desc": "*Wisdom Saving Throw:* DC 11, one creature the mummy can see within 60\
+      \ feet. *Failure:* The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition until the end of the mummy's next turn. *Success:* The target is\
       \ immune to this mummy's Dreadful Glare for 24 hours."
     "name": "Dreadful Glare"
 "source":

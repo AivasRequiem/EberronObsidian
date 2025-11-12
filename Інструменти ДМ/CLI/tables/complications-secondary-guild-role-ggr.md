@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 127* 
 
 **Secondary Guild Role**
-
-`dice: [](complications-secondary-guild-role-ggr.md#^secondary-guild-role)`
 
 | dice: d8 | Secondary Guild Role |
 |----------|----------------------|

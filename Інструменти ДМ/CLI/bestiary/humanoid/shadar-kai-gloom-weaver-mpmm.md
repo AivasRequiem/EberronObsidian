@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -58,7 +59,8 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "damage_immunities": "necrotic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Elvish"
 "cr": "9"
 "traits":
@@ -73,18 +75,18 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - "desc": "The shadar-kai makes three Shadow Spear attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 30/120,\
-      \ one target. Hit: 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic\
-      \ damage. Hit or Miss: The spear magically returns to the shadar-kai's hand\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 30/120,\
+      \ one target. *Hit:* 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic\
+      \ damage. *Hit or Miss:* The spear magically returns to the shadar-kai's hand\
       \ immediately after a ranged attack."
     "name": "Shadow Spear"
   - "desc": "The shadar-kai casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
+      \n**At will:** [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
       \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [minor illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](Інстр\
       ументи%20ДМ/CLI/spells/prestidigitation-xphb.md), [speak with dead](Інструме\
-      нти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\n1/day each: [arcane gate](І\
+      нти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\n**1/day each:** [arcane gate](І\
       нструменти%20ДМ/CLI/spells/arcane-gate-xphb.md), [bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md),\
       \ [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [darkness](Інс\
       трументи%20ДМ/CLI/spells/darkness-xphb.md), [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md),\

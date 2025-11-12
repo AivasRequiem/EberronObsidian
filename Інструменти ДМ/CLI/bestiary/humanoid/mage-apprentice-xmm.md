@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -22,15 +23,13 @@ Mage apprentices are spellcasters of humble skill. Some are students of accompli
 *Magical Scholars and Spellcasters*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Mages are magical wonder-workers, ranging from spellcasting overlords to reclusive witches. They study mystical secrets and possess insight into monsters, legends, omens, and other lore. Mages often gather allies or hire assistants to aid them in their research or to attain magical might.
 
 Roll on or choose a result from the Mage Roles table to inspire different sorts of mages.
 
 **Mage Roles**
-
-`dice: [](mage-apprentice-xmm.md#^mage-roles)`
 
 | dice: 1d10 | The Mage Is... |
 |------------|----------------|
@@ -81,13 +80,13 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "languages": "Common plus one other language"
 "cr": "2"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 120 ft. *Hit:*\
       \ 14 (2d10 + 3) Force damage."
     "name": "Arcane Burst"
   - "desc": "The mage casts one of the following spells, using Intelligence as the\
       \ spellcasting ability (spell save DC 13, +5 to hit with spell attacks):\n\
-      \nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [Disguise\
+      \n**At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [Disguise\
       \ Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Ice Knife](Інст\
       рументи%20ДМ/CLI/spells/ice-knife-xphb.md), [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\
       \ (included in AC), [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)"

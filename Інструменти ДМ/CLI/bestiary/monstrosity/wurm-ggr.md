@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -37,7 +38,8 @@ Wurms are huge creatures that resemble limbless, wingless dragons. They burrow t
 "saves":
   - "constitution": !!int "11"
   - "wisdom": !!int "6"
-"senses": "blindsight 60 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "14"
 "traits":
@@ -54,7 +56,7 @@ Wurms are huge creatures that resemble limbless, wingless dragons. They burrow t
       \ a 10-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (5d6 + 7) piercing damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 20 Dexterity saving throw or be swallowed by the wurm.\
       \ A swallowed creature is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\

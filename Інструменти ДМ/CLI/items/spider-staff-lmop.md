@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/item/attunement/required
@@ -19,7 +20,7 @@ aliases:
 - **Properties**: [Versatile](Інструменти%20ДМ/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 6.0 lbs.
 
-The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals `d6` extra poison damage on a hit when used to make a weapon attack.
+The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals `1d6` extra poison damage on a hit when used to make a weapon attack.
 
 The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: [spider climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md) (1 charge) or [web](Інструменти%20ДМ/CLI/spells/web-xphb.md) (2 charges, spell save DC 15). No components are required.
 

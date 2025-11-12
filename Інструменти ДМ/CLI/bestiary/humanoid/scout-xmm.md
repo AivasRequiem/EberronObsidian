@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -22,7 +23,7 @@ Scouts are keen archers and acutely aware of their surroundings. They often know
 *Watchers and Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Scouts are warriors of the wilderness, trained in hunting and tracking. They might be explorers or trappers, or they could perform more martial roles as archers, bounty hunters, or outriders.
 
@@ -58,10 +59,10 @@ Scouts are warriors of the wilderness, trained in hunting and tracking. They mig
 "actions":
   - "desc": "The scout makes two attacks, using Shortsword and Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
+  - "desc": "*Ranged Attack Roll:* +4, range 150/600 ft. *Hit:* 6 (1d8 + 2) Piercing\
       \ damage."
     "name": "Longbow"
 "source":

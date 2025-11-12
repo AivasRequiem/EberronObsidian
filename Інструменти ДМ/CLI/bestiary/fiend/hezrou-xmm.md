@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -30,8 +31,6 @@ Hezrous serve more powerful demons, such as nalfeshnees and mariliths. They take
 When on the Material Plane or otherwise left to their own devices, hezrous recklessly indulge in destructive, short-sighted rampages. Only magic and threats from more powerful masters can curb these demons' outrages and compel hezrous to pursue greater plots. Powerful spellcasters often use sinister coercions, spells like [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md) and [Planar Binding](Інструменти%20ДМ/CLI/spells/planar-binding-xphb.md), or other magic to force hezrous to serve them. Roll on or choose a result from the Demonic Undertakings table to inspire how a magic-user might employ a hezrou or similar demon.
 
 **Demonic Undertakings**
-
-`dice: [](hezrou-xmm.md#^demonic-undertakings)`
 
 | dice: 1d6 | The Demon Is Compelled To... |
 |-----------|------------------------------|
@@ -68,7 +67,8 @@ When on the Material Plane or otherwise left to their own devices, hezrous reckl
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Abyssal; telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -79,16 +79,16 @@ When on the Material Plane or otherwise left to their own devices, hezrous reckl
   - "desc": "The hezrou has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
-  - "desc": "Constitution Saving Throw: DC 16, any creature that starts its turn\
+  - "desc": "*Constitution Saving Throw:* DC 16, any creature that starts its turn\
       \ in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the hezrou. Failure: The target has the [Poisoned](Інст\
+      \ originating from the hezrou. *Failure:* The target has the [Poisoned](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ its next turn."
     "name": "Stench"
 "actions":
   - "desc": "The hezrou makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 6 (1d4 + 4) Slashing\
       \ damage plus 9 (2d8) Poison damage."
     "name": "Rend"
 "bonus_actions":

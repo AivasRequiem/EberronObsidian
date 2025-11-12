@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -44,7 +45,8 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
   - !!int "4"
 "speed": "30 ft., burrow 20 ft."
 "damage_immunities": "cold, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., Tremorsense\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -53,7 +55,7 @@ Remorhazes are centipede-like terrors that burrow through snow and ice to ambush
       \ originating from the remorhaz takes 11 (2d10) Fire damage."
     "name": "Heat Aura"
 "actions":
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (2d10 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 15 (2d10 + 4) Piercing\
       \ damage plus 13 (3d8) Fire damage."
     "name": "Bite"
 "source":

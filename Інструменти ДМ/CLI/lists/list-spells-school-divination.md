@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/school/divination
 aliases:
@@ -15,6 +16,7 @@ aliases:
 
 ## 1st Level
 
+- [Beast Bond](Інструменти%20ДМ/CLI/spells/beast-bond-xge.md "XGE")
 - [Comprehend Languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md "XPHB")
 - [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md "XPHB")
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")

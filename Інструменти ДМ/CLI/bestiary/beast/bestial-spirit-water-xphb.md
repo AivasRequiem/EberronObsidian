@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -29,7 +30,8 @@ aliases:
   - !!int "14"
   - !!int "5"
 "speed": "30 ft., swim 30 ft."
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands the languages you know"
 "traits":
   - "desc": "The spirit has Advantage on an attack roll against a creature if at least\
@@ -43,8 +45,8 @@ aliases:
   - "desc": "The spirit makes a number of Rend attacks equal to half this spell's\
       \ level (round down)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: 1d8 + 4 + the spell's level Piercing damage."
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d8 + 4 + the spell's level Piercing damage."
     "name": "Rend"
 "source":
   - "XPHB"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Shadow Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 ### Additional Lair Action
@@ -18,7 +19,7 @@ Shadow dragons have access to the lair actions usable by untransformed dragons o
 
 - **Banish Light.** Any nonmagical source of illumination within a 60-foot-radius sphere centered on the dragon is snuffed out, and any spell that creates light within that same area is dispelled.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 When a shadow dragon establishes a lair on the Material Plane, the region around the lair takes on some of the characteristics of the Shadowfell, creating one or more of the following effects:

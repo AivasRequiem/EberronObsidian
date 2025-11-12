@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -64,7 +65,8 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 17"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 17"
 "languages": "Common, Slaad; telepathy 60 ft."
 "cr": "9"
 "traits":
@@ -78,21 +80,21 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes two Chaos Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 9 (1d10 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 9 (1d10 + 4) Slashing\
       \ damage plus 11 (2d10) Necrotic damage. Until the start of the slaad's next\
-      \ turn, the target has a condition determined by rolling d4: on a 1, [Charmed](І\
+      \ turn, the target has a condition determined by rolling 1d4: on a 1, [Charmed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Charmed); on a 2, [Frightened](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Frightened); on a 3, [Poisoned](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Poisoned); or on a 4, [Incapacitated](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Chaos Claw"
   - "desc": "The slaad casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only), [Mage Hand](Ін\
       струменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Major Image](Інструменти%20ДМ\
-      /CLI/spells/major-image-xphb.md)\n\n1/day each: [Cloudkill](Інструменти\
+      /CLI/spells/major-image-xphb.md)\n\n**1/day each:** [Cloudkill](Інструменти\
       %20ДМ/CLI/spells/cloudkill-xphb.md), [Fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self only),\
       \ [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"

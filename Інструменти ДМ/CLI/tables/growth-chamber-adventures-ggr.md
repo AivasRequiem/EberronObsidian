@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 156* 
 
 **Growth Chamber Adventures**
-
-`dice: [](growth-chamber-adventures-ggr.md#^growth-chamber-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

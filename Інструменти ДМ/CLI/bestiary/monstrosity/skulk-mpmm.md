@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -52,24 +53,25 @@ Cruel and chaotic, skulks carry out their orders in the most violent manner poss
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)"
-"senses": "darkvision 120 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 8"
 "languages": "understands Common but can't speak"
 "cr": "1/2"
 "traits":
   - "desc": "The skulk is [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible).\
-      \ This invisibility can be circumvented by three things:\n\n- Charnel Candles.\
+      \ This invisibility can be circumvented by three things:\n\n- **Charnel Candles.**\
       \ The skulk appears as a dim, translucent form in the light of a candle made\
-      \ of fat rendered from a corpse whose identity is unknown.  \n- Children.\
+      \ of fat rendered from a corpse whose identity is unknown.  \n- **Children.**\
       \ Humanoid children, aged 10 and under, can see through this invisibility. \
-      \ \n- Reflective Surfaces. The skulk appears as a drab, smooth-skinned biped\
+      \ \n- **Reflective Surfaces.** The skulk appears as a drab, smooth-skinned biped\
       \ if its reflection can be seen in a mirror or on another surface.  "
     "name": "Fallible Invisibility"
   - "desc": "The skulk leaves no tracks to indicate where it has been or where it's\
       \ headed."
     "name": "Trackless"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) slashing damage plus 3 (d6) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d4 + 4) slashing damage plus 3 (1d6) necrotic damage."
     "name": "Claw"
 "source":
   - "MPMM"

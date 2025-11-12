@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/subclass/monk/ascendant-dragon
@@ -55,8 +56,6 @@ The dragon god Bahamut is known to travel the Material Plane in the guise of a y
 As a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.
 
 **Ascendant Dragon Origin**
-
-`dice: [](monk-xphb-way-of-the-ascendant-dragon-ftd.md#^ascendant-dragon-origin)`
 
 | dice: d6 | Origin |
 |----------|--------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -11,7 +12,7 @@ aliases:
 - "Dwarven Thrower"
 ---
 # Dwarven Thrower
-*Weapon ([warhammer](Інструменти%20ДМ/CLI/items/warhammer-xphb.md)), very rare (requires attunement by a dwarf)*  
+*Weapon ([warhammer](Інструменти%20ДМ/CLI/items/warhammer-xphb.md)), very rare (requires attunement by a Dwarf or a Creature Attuned to a [Belt of Dwarvenkind](Інструменти%20ДМ/CLI/items/belt-of-dwarvenkind-xdmg.md))*  
 ![](Інструменти%20ДМ/CLI/items/img/dwarven-thrower.webp#right)
 
 - **Damage**:
@@ -21,6 +22,6 @@ aliases:
 - **Properties**: [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown), [Versatile](Інструменти%20ДМ/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 5.0 lbs.
 
-You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It has [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra `d8` Force damage, or an extra `2d8` Force damage if the target is a Giant. Immediately after hitting or missing, the weapon flies back to your hand.
+You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It has [Thrown](Інструменти%20ДМ/CLI/rules/item-properties.md#Thrown) with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra `1d8` Force damage, or an extra `2d8` Force damage if the target is a Giant. Immediately after hitting or missing, the weapon flies back to your hand.
 
 *Source: Dungeon Master's Guide (2024) p. 256. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

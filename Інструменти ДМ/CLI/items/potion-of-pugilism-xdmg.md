@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -14,7 +15,7 @@ aliases:
 
 - **Weight**: 0.5 lbs.
 
-After you drink this potion, each [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) you make deals an extra `d6` Force damage on a hit. This effect lasts 10 minutes.
+After you drink this potion, each [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) you make deals an extra `1d6` Force damage on a hit. This effect lasts 10 minutes.
 
 This potion is a thick green fluid that tastes like spinach.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -58,7 +59,8 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - !!int "9"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
@@ -72,9 +74,9 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d12 + 3) piercing damage, or 16 (2d12 + 3) piercing damage while under\
-      \ the effect of Enlarge, plus 3 (d6) fire damage."
+      \ the effect of Enlarge, plus 3 (1d6) fire damage."
     "name": "Fire Lance"
   - "desc": "From its fire lance, the duergar shoots a 15-foot cone of fire or a line\
       \ of fire 30 feet long and 5 feet wide. Each creature in that area must make\

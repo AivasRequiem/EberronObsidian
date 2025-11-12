@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -21,7 +22,7 @@ aliases:
 *Devil of Dread and Obedience*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Bone devils are gaunt, nightmarish Fiends with pallid skin stretched tight over frames that combine human and insectile features. Also known as osyluths, these Fiends command weaker devils and other beings aligned with infernal legions. Bone devils ensure that the commands of hellish sovereigns are exacted efficiently and that non-devils fulfill their commitments to the Nine Hells. They slay those who renege on infernal deals, sending treacherous mortal souls to face unspeakable punishments.
 
@@ -34,8 +35,6 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 > Bone devils are just one of a thousand reasons never to make a deal with a devil, but they're a significant one. Break said deal, and it'll likely be one of these nightmares that drags you down to the Nine Hells.
 
 **Bone Devil Objectives**
-
-`dice: [](bone-devil-xmm.md#^bone-devil-objectives)`
 
 | dice: 1d4 | The Bone Devil Seeks To... |
 |-----------|----------------------------|
@@ -76,7 +75,8 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 12"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "9"
@@ -92,10 +92,10 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 "actions":
   - "desc": "The devil makes two Claw attacks and one Infernal Sting attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 13 (2d8 + 4) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 15 (2d10 + 4) Piercing\
       \ damage plus 18 (4d8) Poison damage, and the target has the [Poisoned](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ the devil's next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\

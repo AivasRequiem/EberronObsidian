@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -43,7 +44,8 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
   - !!int "13"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "telepathy 240 ft."
 "cr": "1/2"
 "traits":
@@ -52,11 +54,11 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
       \ The myconid dies if it spends more than 1 hour in sunlight."
     "name": "Sun Sickness"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 4 (d8) Bludgeoning damage\
-      \ plus 3 (d6) Poison damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 4 (1d8) Bludgeoning damage\
+      \ plus 3 (1d6) Poison damage."
     "name": "Slam"
-  - "desc": "Constitution Saving Throw: DC 11, one creature the myconid can see\
-      \ within 10 feet. Failure: The target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+  - "desc": "*Constitution Saving Throw:* DC 11, one creature the myconid can see\
+      \ within 10 feet. *Failure:* The target has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ condition and repeats the save at the end of each of its turns, ending the\
       \ effect on itself on a success. After 1 minute, it succeeds automatically."
     "name": "Pacifying Spores (1/Day)"

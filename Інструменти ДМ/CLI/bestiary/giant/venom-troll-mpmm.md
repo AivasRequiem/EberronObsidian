@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -52,7 +53,8 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
     "desc": "+2"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Giant"
 "cr": "7"
 "traits":
@@ -67,13 +69,13 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "actions":
   - "desc": "The troll makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) piercing damage plus 4 (d8) poison damage, and the creature\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d6 + 4) piercing damage plus 4 (1d8) poison damage, and the creature\
       \ is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) until the\
       \ start of the troll's next turn."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-      \ (2d6 + 4) slashing damage plus 4 (d8) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
+      \ (2d6 + 4) slashing damage plus 4 (1d8) poison damage."
     "name": "Claws"
   - "desc": "The troll slices itself with a claw, releasing a spray of poison in a\
       \ 15-foot cube. The troll takes 7 (2d6) slashing damage (this damage can't\

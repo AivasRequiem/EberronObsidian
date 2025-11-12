@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/evoker
 aliases:
@@ -13,6 +14,7 @@ aliases:
 - [Acid Splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md "XPHB") at class level 3
 - [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") at class level 3
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") at class level 3
+- [Frostbite](Інструменти%20ДМ/CLI/spells/frostbite-xge.md "XGE") at class level 3
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") at class level 3
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") at class level 3
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") at class level 3
@@ -24,6 +26,7 @@ aliases:
 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") at class level 3
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") at class level 3
+- [Earth Tremor](Інструменти%20ДМ/CLI/spells/earth-tremor-xge.md "XGE") at class level 3
 - [Magic Missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md "XPHB") at class level 3
 - [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") at class level 3
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB") at class level 3
@@ -31,6 +34,7 @@ aliases:
 
 ## 2nd Level
 
+- [Aganazzar's Scorcher](Інструменти%20ДМ/CLI/spells/aganazzars-scorcher-xge.md "XGE") at class level 3
 - [Continual Flame](Інструменти%20ДМ/CLI/spells/continual-flame-xphb.md "XPHB") at class level 3
 - [Darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md "XPHB") at class level 3
 - [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB") at class level 3
@@ -38,17 +42,24 @@ aliases:
 - [Rime's Binding Ice](Інструменти%20ДМ/CLI/spells/rimes-binding-ice-ftd.md "FTD") at class level 3
 - [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md "XPHB") at class level 3
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB") at class level 3
+- [Snilloc's Snowball Swarm](Інструменти%20ДМ/CLI/spells/snillocs-snowball-swarm-xge.md "XGE") at class level 3
+- [Warding Wind](Інструменти%20ДМ/CLI/spells/warding-wind-xge.md "XGE") at class level 3
 
 ## 3rd Level
 
 - [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md "XPHB") at class level 3
 - [Leomund's Tiny Hut](Інструменти%20ДМ/CLI/spells/leomunds-tiny-hut-xphb.md "XPHB") at class level 3
 - [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md "XPHB") at class level 3
+- [Melf's Minute Meteors](Інструменти%20ДМ/CLI/spells/melfs-minute-meteors-xge.md "XGE") at class level 3
+- [Wall of Sand](Інструменти%20ДМ/CLI/spells/wall-of-sand-xge.md "XGE") at class level 3
+- [Wall of Water](Інструменти%20ДМ/CLI/spells/wall-of-water-xge.md "XGE") at class level 3
 
 ## 4th Level
 
 - [Fire Shield](Інструменти%20ДМ/CLI/spells/fire-shield-xphb.md "XPHB") at class level 3
 - [Ice Storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md "XPHB") at class level 3
+- [Sickening Radiance](Інструменти%20ДМ/CLI/spells/sickening-radiance-xge.md "XGE") at class level 3
+- [Storm Sphere](Інструменти%20ДМ/CLI/spells/storm-sphere-xge.md "XGE") at class level 3
 - [Vitriolic Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md "XPHB") at class level 3
 - [Wall of Fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md "XPHB") at class level 3
 
@@ -56,8 +67,11 @@ aliases:
 
 - [Bigby's Hand](Інструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md "XPHB") at class level 3
 - [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md "XPHB") at class level 3
+- [Dawn](Інструменти%20ДМ/CLI/spells/dawn-xge.md "XGE") at class level 3
+- [Immolation](Інструменти%20ДМ/CLI/spells/immolation-xge.md "XGE") at class level 3
 - [Jallarzi's Storm of Radiance](Інструменти%20ДМ/CLI/spells/jallarzis-storm-of-radiance-xphb.md "XPHB") at class level 3
 - [Wall of Force](Інструменти%20ДМ/CLI/spells/wall-of-force-xphb.md "XPHB") at class level 3
+- [Wall of Light](Інструменти%20ДМ/CLI/spells/wall-of-light-xge.md "XGE") at class level 3
 - [Wall of Stone](Інструменти%20ДМ/CLI/spells/wall-of-stone-xphb.md "XPHB") at class level 3
 
 ## 6th Level
@@ -69,13 +83,16 @@ aliases:
 
 ## 7th Level
 
+- [Crown of Stars](Інструменти%20ДМ/CLI/spells/crown-of-stars-xge.md "XGE") at class level 3
 - [Delayed Blast Fireball](Інструменти%20ДМ/CLI/spells/delayed-blast-fireball-xphb.md "XPHB") at class level 3
 - [Forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md "XPHB") at class level 3
 - [Mordenkainen's Sword](Інструменти%20ДМ/CLI/spells/mordenkainens-sword-xphb.md "XPHB") at class level 3
 - [Prismatic Spray](Інструменти%20ДМ/CLI/spells/prismatic-spray-xphb.md "XPHB") at class level 3
+- [Whirlwind](Інструменти%20ДМ/CLI/spells/whirlwind-xge.md "XGE") at class level 3
 
 ## 8th Level
 
+- [Maddening Darkness](Інструменти%20ДМ/CLI/spells/maddening-darkness-xge.md "XGE") at class level 3
 - [Sunburst](Інструменти%20ДМ/CLI/spells/sunburst-xphb.md "XPHB") at class level 3
 
 ## 9th Level

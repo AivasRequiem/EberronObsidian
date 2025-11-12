@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -44,7 +45,8 @@ A trapper needs to eat a [halfling](Інструменти%20ДМ/CLI/races/half
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 11"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -61,7 +63,7 @@ A trapper needs to eat a [halfling](Інструменти%20ДМ/CLI/races/half
   - "desc": "One Large or smaller creature within 10 feet of the trapper must succeed\
       \ on a DC 13 Dexterity saving throw or be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until the grapple ends, the target takes 13 (3d6 + 3) bludgeoning\
-      \ damage plus 3 (d6) acid damage at the start of each of its turns. While\
+      \ damage plus 3 (1d6) acid damage at the start of each of its turns. While\
       \ [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) in this way,\
       \ the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded), and deprived\

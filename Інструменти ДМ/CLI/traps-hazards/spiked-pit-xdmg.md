@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/hazard/trp
@@ -12,7 +13,7 @@ aliases:
 
 A 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit, which has sharpened wooden or metal spikes at the bottom. The lid remains open thereafter.
 
-A creature that falls into the pit lands at the bottom and takes 3 (`d6`) Bludgeoning damage from the fall plus 9 (`2d8`) Piercing damage from the spikes.
+A creature that falls into the pit lands at the bottom and takes 3 (`1d6`) Bludgeoning damage from the fall plus 9 (`2d8`) Piercing damage from the spikes.
 
 ## Detect and Disarm
 

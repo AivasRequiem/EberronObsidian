@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/9
@@ -36,8 +37,6 @@ Use the Amethyst Dragon Personality Traits and Amethyst Dragon Ideals tables to 
 
 ### Amethyst Dragon Personality Traits
 
-`dice: [](young-amethyst-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I am never so content as when contemplating the beauty and wonders of the multiverse. |
@@ -51,8 +50,6 @@ Use the Amethyst Dragon Personality Traits and Amethyst Dragon Ideals tables to 
 ^trait
 
 ### Amethyst Dragon Ideals
-
-`dice: [](young-amethyst-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -69,8 +66,6 @@ Use the Amethyst Dragon Personality Traits and Amethyst Dragon Ideals tables to 
 The Amethyst Dragon Adventure Hooks table offers suggestions for stories and adventures involving amethyst dragons.
 
 ### Amethyst Dragon Adventure Hooks
-
-`dice: [](young-amethyst-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -89,8 +84,6 @@ The Amethyst Dragon Adventure Hooks table offers suggestions for stories and adv
 Amethyst dragons are generally aloof creatures, dwelling in isolation for long periods of time and rarely cultivating connections with other creatures. When they do connect with others, it is most often for intellectual and philosophical pursuits or to fulfill some arcane purpose involving the dragons' echoes across the worlds.
 
 ### Young Amethyst Dragon Connections
-
-`dice: [](young-amethyst-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -138,7 +131,8 @@ Amethyst dragons are generally aloof creatures, dwelling in isolation for long p
 "damage_resistances": "force, psychic"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 20"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "9"
 "traits":
@@ -147,10 +141,10 @@ Amethyst dragons are generally aloof creatures, dwelling in isolation for long p
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 4 (d8) force damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon creates a shining bead of gravitational force in its mouth,\
@@ -162,7 +156,7 @@ Amethyst dragons are generally aloof creatures, dwelling in isolation for long p
     "name": "Singularity Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      1/day each: [blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md), [dispel\
+      **1/day each:** [blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md), [dispel\
       \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [protection from\
       \ evil and good](Інструменти%20ДМ/CLI/spells/protection-from-evil-and-good-xphb.md),\
       \ [sending](Інструменти%20ДМ/CLI/spells/sending-xphb.md)"

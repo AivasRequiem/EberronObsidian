@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-8
@@ -45,7 +46,8 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
   - !!int "10"
   - !!int "9"
 "speed": "20 ft., climb 20 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -57,8 +59,8 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (1d4 + 1) piercing damage plus 3 (d6) poison damage, and the target must\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d4 + 1) piercing damage plus 3 (1d6) poison damage, and the target must\
       \ succeed on a DC 10 Constitution saving throw or become [poisoned](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute. A target can repeat\
       \ the saving throw at the end of each of its turns, ending the effect on itself\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -24,7 +25,7 @@ Rot grubs recoil from flames, and fire is the main weapon against rot grubs once
 
 Rot grubs pose a threat both singly and as a swarm. See the stat block for the mechanics of a swarm of rot grubs. A single rot grub has no stat block.
 
-Any creature that comes into contact with a single rot grub must succeed on a DC 10 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), as the rot grub burrows into the creature. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature takes 3 (`d6`) poison damage at the end of each of its turns. Whenever the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature ends its turn with 0 hit points, it dies, as the rot grub kills it.
+Any creature that comes into contact with a single rot grub must succeed on a DC 10 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), as the rot grub burrows into the creature. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature takes 3 (`1d6`) poison damage at the end of each of its turns. Whenever the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) creature ends its turn with 0 hit points, it dies, as the rot grub kills it.
 
 ```statblock
 "name": "Swarm of Rot Grubs (MPMM)"
@@ -51,7 +52,8 @@ Any creature that comes into contact with a single rot grub must succeed on a DC
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 10 ft., passive Perception 6"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., passive\
+  \ Perception 6"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -60,11 +62,11 @@ Any creature that comes into contact with a single rot grub must succeed on a DC
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 7 (2d6) piercing damage, and the target must succeed\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 7 (2d6) piercing damage, and the target must succeed\
       \ on a DC 10 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned).\
       \ At the end of each of the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ target's turns, the target takes 3 (d6) poison damage. Whenever the [poisoned](І\
+      \ target's turns, the target takes 3 (1d6) poison damage. Whenever the [poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target takes fire damage,\
       \ the target can repeat the saving throw, ending the effect on itself on a success.\
       \ If the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target\

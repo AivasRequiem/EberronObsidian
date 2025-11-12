@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/14
@@ -67,7 +68,8 @@ Death tyrants often lurk deep in the Underdark, in the tunnel-mazes they occupie
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 22"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 22"
 "languages": "Deep Speech, Undercommon"
 "cr": "14"
 "traits":
@@ -76,59 +78,59 @@ Death tyrants often lurk deep in the Underdark, in the tunnel-mazes they occupie
 "actions":
   - "desc": "The death tyrant uses Eye Rays three times."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 feet. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 feet. *Hit:* 13 (2d8 + 4) Piercing\
       \ damage."
     "name": "Bite"
   - "desc": "The death tyrant randomly shoots one of the following magical rays at\
-      \ a target it can see within 120 feet of itself (roll d10; reroll if the death\
-      \ tyrant has already used that ray during this turn):\n\n- 1 Charm Ray.\
-      \ Wisdom Saving Throw: DC 17. Failure: 13 (3d8) Psychic damage, and the\
+      \ a target it can see within 120 feet of itself (roll 1d10; reroll if the\
+      \ death tyrant has already used that ray during this turn):\n\n- **1 Charm Ray.**\
+      \ *Wisdom Saving Throw:* DC 17. *Failure:* 13 (3d8) Psychic damage, and the\
       \ target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ condition for 1 hour or until it takes damage. Success: Half damage only.\
-      \  \n- 2 Paralyzing Ray. Constitution Saving Throw: DC 17. Failure:\
+      \ condition for 1 hour or until it takes damage. *Success:* Half damage only.\
+      \  \n- **2 Paralyzing Ray.** *Constitution Saving Throw:* DC 17. *Failure:*\
       \ The target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ condition and repeats the save at the end of each of its turns, ending the\
       \ effect on itself on a success. After 1 minute, it succeeds automatically.\
-      \  \n- 3 Fear Ray. Wisdom Saving Throw: DC 17. Failure: 10 (3d6) Psychic\
+      \  \n- **3 Fear Ray.** *Wisdom Saving Throw:* DC 17. *Failure:* 10 (3d6) Psychic\
       \ damage, and the target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the end of its next turn. Success: Half damage only.  \n\
-      - 4 Slowing Ray. Constitution Saving Throw: DC 17. Failure: 18 (4d8)\
+      \ condition until the end of its next turn. *Success:* Half damage only.  \n\
+      - **4 Slowing Ray.** *Constitution Saving Throw:* DC 17. *Failure:* 18 (4d8)\
       \ Necrotic damage. Until the end of the target's next turn, the target can't\
       \ take Reactions; its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ is halved; and it can take either an action or a [Bonus Action](Інструмент\
       и%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on its turn, not both.\
-      \ Success: Half damage only.  \n- 5 Enervation Ray. Constitution Saving\
-      \ Throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the\
+      \ *Success:* Half damage only.  \n- **5 Enervation Ray.** *Constitution Saving\
+      \ Throw:* DC 17. *Failure:* 16 (3d10) Poison damage, and the target has the\
       \ [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until\
       \ the end of its next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
-      \ Success: Half damage only.  \n- 6 Telekinetic Ray. Strength Saving\
-      \ Throw: DC 17 (the target succeeds automatically if it is Gargantuan). Failure:\
+      \ *Success:* Half damage only.  \n- **6 Telekinetic Ray.** *Strength Saving\
+      \ Throw:* DC 17 (the target succeeds automatically if it is Gargantuan). *Failure:*\
       \ The death tyrant moves the target up to 30 feet in any direction. The target\
       \ has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the start of the death tyrant's next turn or until the death\
       \ tyrant has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition. The death tyrant can also exert fine control on objects with this\
-      \ ray, such as manipulating a tool or opening a door or container.  \n- 7\
-      \ Sleep Ray. Wisdom Saving Throw: DC 17 (the target succeeds automatically\
-      \ if it is a Construct or an Undead). Failure: The target has the [Unconscious](І\
+      \ ray, such as manipulating a tool or opening a door or container.  \n- **7\
+      \ Sleep Ray.** *Wisdom Saving Throw:* DC 17 (the target succeeds automatically\
+      \ if it is a Construct or an Undead). *Failure:* The target has the [Unconscious](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Unconscious) condition for 1 minute.\
       \ The condition ends if the target takes damage or a creature within 5 feet\
-      \ of it takes an action to wake it.  \n- 8 Petrification Ray. Constitution\
-      \ Saving Throw: DC 17. 1st Failure: The target has the [Restrained](Інстр\
+      \ of it takes an action to wake it.  \n- **8 Petrification Ray.** *Constitution\
+      \ Saving Throw:* DC 17. *1St Failure:* The target has the [Restrained](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Restrained) condition and repeats the save\
       \ at the end of its next turn if it is still [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
-      \ ending the effect on itself on a success. 2nd Failure: The target has the\
+      \ ending the effect on itself on a success. *2Nd Failure:* The target has the\
       \ [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified) condition\
       \ instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
-      \ condition.  \n- 9 Disintegration Ray. Dexterity Saving Throw: DC 17.\
-      \ Failure: 36 (8d8) Force damage. If the target is a nonmagical object or\
+      \ condition.  \n- **9 Disintegration Ray.** *Dexterity Saving Throw:* DC 17.\
+      \ *Failure:* 36 (8d8) Force damage. If the target is a nonmagical object or\
       \ a creation of magical force, a 10-foot [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
-      \ of it disintegrates into dust. Success: Half damage. Failure or Success:\
+      \ of it disintegrates into dust. *Success:* Half damage. *Failure or Success:*\
       \ If the target is a creature and this damage reduces it to 0 [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), it disintegrates\
-      \ into dust.  \n- 10 Death Ray. Dexterity Saving Throw: DC 17. Failure:\
-      \ 55 (10d10) Necrotic damage. Success: Half damage. Failure or Success:\
+      \ into dust.  \n- **10 Death Ray.** *Dexterity Saving Throw:* DC 17. *Failure:*\
+      \ 55 (10d10) Necrotic damage. *Success:* Half damage. *Failure or Success:*\
       \ The target dies if the ray reduces it to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \  "
     "name": "Eye Rays"
@@ -141,28 +143,28 @@ Death tyrants often lurk deep in the Underdark, in the tunnel-mazes they occupie
       \ under the death tyrant's control and takes its turn immediately after the\
       \ death tyrant on the same initiative count."
     "name": "Negative Energy Cone"
+"regional_effects":
+  - "desc": "The region containing a death tyrant's lair is warped by its presence,\
+      \ creating the following effects:\n\n- **Negative Energy Suffusion.** Whenever\
+      \ a creature within 1 mile of the lair regains [Hit Points](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/hit-points-xphb.md) from a spell, it subtracts 1d10\
+      \ from the number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ regained.  \n- **Scopophobia.** Creatures within 1 mile of the lair feel as\
+      \ if they're being watched. Any creature (excluding the death tyrant and its\
+      \ allies) that finishes a [Short Rest](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
+      \ while within 1 mile of the lair must succeed on a DC 15 Wisdom saving throw\
+      \ or gain no benefit from that rest.  \n\nIf the death tyrant dies or moves\
+      \ its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the death tyrant can expend a use to take one of the\
+  \ following actions. The death tyrant regains all expended uses at the start of\
+  \ each of its turns."
 "legendary_actions":
   - "desc": "The death tyrant makes two Bite attacks."
     "name": "Chomp"
   - "desc": "The death tyrant uses Eye Rays."
     "name": "Glare"
-"regional_effects":
-  - "desc": "The region containing a death tyrant's lair is warped by its presence,\
-      \ creating the following effects:"
-    "name": ""
-  - "desc": "- Negative Energy Suffusion. Whenever a creature within 1 mile of\
-      \ the lair regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ from a spell, it subtracts d10 from the number of [Hit Points](Інструмен\
-      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) regained.  \n- Scopophobia.\
-      \ Creatures within 1 mile of the lair feel as if they're being watched. Any\
-      \ creature (excluding the death tyrant and its allies) that finishes a [Short\
-      \ Rest](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) while within\
-      \ 1 mile of the lair must succeed on a DC 15 Wisdom saving throw or gain no\
-      \ benefit from that rest.  "
-    "name": ""
-  - "desc": "If the death tyrant dies or moves its lair elsewhere, these effects end\
-      \ immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/undead/token/death-tyrant-xmm.webp"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/15
@@ -60,7 +61,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "15"
 "traits":
@@ -74,7 +76,7 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes two Fiendish Claw attacks, or it makes one Fiendish\
       \ Claw attack and uses Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) force damage. If the target is a creature, it must succeed on\
       \ a DC 16 Constitution saving throw or take 16 (3d10) poison damage and become\
       \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) for 1 minute.\
@@ -84,11 +86,11 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
     "name": "Fiendish Claw"
   - "desc": "The abishai casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
-      \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)\n\n3/day\
-      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \n**At will:** [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
+      \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)\n\n**3/day\
+      \ each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [fear](І\
-      нструменти%20ДМ/CLI/spells/fear-xphb.md)\n\n1/day each: [confusion](Інст\
+      нструменти%20ДМ/CLI/spells/fear-xphb.md)\n\n**1/day each:** [confusion](Інст\
       рументи%20ДМ/CLI/spells/confusion-xphb.md), [dominate person](Інструменти%20Д\
       М/CLI/spells/dominate-person-xphb.md), [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md)"
     "name": "Spellcasting"

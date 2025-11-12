@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -48,8 +49,6 @@ Gruul ways aren't the ways of civilized folk, and the Gruul have little patience
 
 **Personality Traits**
 
-`dice: [](gruul-anarch-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | Unlike people, the beasts of the wild are friends who won't stab me in the back. |
@@ -64,8 +63,6 @@ Gruul ways aren't the ways of civilized folk, and the Gruul have little patience
 
 **Ideals**
 
-`dice: [](gruul-anarch-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Clan**. My clan is all that really matters. (Any) |
@@ -78,8 +75,6 @@ Gruul ways aren't the ways of civilized folk, and the Gruul have little patience
 
 **Bonds**
 
-`dice: [](gruul-anarch-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I am determined that one day I will lead my clan—or a new one. |
@@ -91,8 +86,6 @@ Gruul ways aren't the ways of civilized folk, and the Gruul have little patience
 ^bonds
 
 **Flaws**
-
-`dice: [](gruul-anarch-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -112,8 +105,6 @@ Roll twice on the Gruul Contacts table (for an ally and a rival) and once on the
 
 **Gruul Contacts**
 
-`dice: [](gruul-anarch-ggr.md#^gruul-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | One of my parents is a renowned warrior in my clan. |
@@ -127,8 +118,6 @@ Roll twice on the Gruul Contacts table (for an ally and a rival) and once on the
 ^gruul-contacts
 
 **Non-Gruul Contacts**
-
-`dice: [](gruul-anarch-ggr.md#^non-gruul-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

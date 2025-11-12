@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/26
@@ -68,7 +69,8 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 29"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 29"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
@@ -86,7 +88,7 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
   - "desc": "Demogorgon makes two Tentacle attacks. He can replace one attack with\
       \ a use of Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (3d12 + 9) force damage. If the target is a creature, it must succeed\
       \ on a DC 23 Constitution saving throw, or its hit point maximum is reduced\
       \ by an amount equal to the damage taken. This reduction lasts until the target\
@@ -95,72 +97,70 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
     "name": "Tentacle"
   - "desc": "Demogorgon turns his magical gaze toward one creature he can see within\
       \ 120 feet of him. The target must succeed on a DC 23 Wisdom saving throw or\
-      \ suffer one of the following effects (choose one or roll a d6):\n\n- 1–\
-      2 Beguiling Gaze. The target is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
+      \ suffer one of the following effects (choose one or roll a d6):\n\n- **1–\
+      2 Beguiling Gaze.** The target is [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until the start of Demogorgon's next turn or until Demogorgon is no longer\
-      \ within line of sight.  \n- 3–4 Confusing Gaze. The target suffers the\
+      \ within line of sight.  \n- **3–4 Confusing Gaze.** The target suffers the\
       \ effect of the [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md) spell\
       \ without making a saving throw. The effect lasts until the start of Demogorgon's\
-      \ next turn. Demogorgon doesn't need to concentrate on the spell.  \n- 5–\
-      6 Hypnotic Gaze. The target is [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ next turn. Demogorgon doesn't need to concentrate on the spell.  \n- **5–\
+      6 Hypnotic Gaze.** The target is [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses\
       \ how the [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) target\
       \ uses its action, reaction, and movement.  "
     "name": "Gaze"
   - "desc": "Demogorgon casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\
-      \ will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)\n\n3/day\
-      \ each: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n**At\
+      \ will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)\n\n**3/day\
+      \ each:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
       \ [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md), [telekinesis](Інструмент\
-      и%20ДМ/CLI/spells/telekinesis-xphb.md)\n\n1/day each: [feeblemind](Інстр\
+      и%20ДМ/CLI/spells/telekinesis-xphb.md)\n\n**1/day each:** [feeblemind](Інстр\
       ументи%20ДМ/CLI/spells/befuddlement-xphb.md), [project image](Інструменти%20Д\
       М/CLI/spells/project-image-xphb.md)"
     "name": "Spellcasting"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), Demogorgon can take\
+      \ one of the following lair actions; he can't take the same lair action two\
+      \ rounds in a row:\n\n- **Darkness.** Demogorgon casts the [darkness](Інстру\
+      менти%20ДМ/CLI/spells/darkness-xphb.md) spell four times, targeting different\
+      \ areas with the spell. Demogorgon doesn't need to concentrate on the spells,\
+      \ which end on initiative count 20 of the next round.  \n- **Illusory Duplicate.**\
+      \ Demogorgon creates an illusory duplicate of himself, which appears in his\
+      \ space and lasts until initiative count 20 of the next round. On his turn,\
+      \ Demogorgon can move the illusory duplicate a distance equal to his walking\
+      \ speed (no action required). The first time a creature or an object interacts\
+      \ physically with Demogorgon (for example, by hitting him with an attack), there\
+      \ is a 50 percent chance that the illusory duplicate is affected, not Demogorgon,\
+      \ in which case the illusion disappears.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Demogorgon's lair is warped by his magic, creating\
+      \ one or more of the following effects:\n\n- **Beguiling Realm.** Within 6 miles\
+      \ of the lair, all Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion))\
+      \ and Charisma ([Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance))\
+      \ checks have disadvantage, and all Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception))\
+      \ and Charisma ([Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation))\
+      \ checks have advantage.  \n- **Frenzied Animals.** Beasts within 1 mile of\
+      \ the lair become frenzied and violent—even creatures that are normally docile.\
+      \ Within that area, any ability check involving Animal Handling has disadvantage.\
+      \  \n- **Venomous Beasts.** The area within 6 miles of the lair becomes overpopulated\
+      \ with [poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/venomous-snake-xmm.md)\
+      \ and other venomous Beasts.  \n\nIf Demogorgon dies, these effects fade over\
+      \ the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, Demogorgon can expend a use to take one of the following actions. Demogorgon\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Demogorgon uses Gaze and must use either Beguiling Gaze or Confusing\
       \ Gaze."
     "name": "Gaze"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage."
     "name": "Tail"
   - "desc": "Demogorgon uses Spellcasting."
     "name": "Cast a Spell (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), Demogorgon can take\
-      \ one of the following lair actions; he can't take the same lair action two\
-      \ rounds in a row:"
-    "name": ""
-  - "desc": "- Darkness. Demogorgon casts the [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\
-      \ spell four times, targeting different areas with the spell. Demogorgon doesn't\
-      \ need to concentrate on the spells, which end on initiative count 20 of the\
-      \ next round.  \n- Illusory Duplicate. Demogorgon creates an illusory duplicate\
-      \ of himself, which appears in his space and lasts until initiative count 20\
-      \ of the next round. On his turn, Demogorgon can move the illusory duplicate\
-      \ a distance equal to his walking speed (no action required). The first time\
-      \ a creature or an object interacts physically with Demogorgon (for example,\
-      \ by hitting him with an attack), there is a 50 percent chance that the illusory\
-      \ duplicate is affected, not Demogorgon, in which case the illusion disappears.\
-      \  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Demogorgon's lair is warped by his magic, creating\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Beguiling Realm. Within 6 miles of the lair, all Charisma ([Persuasion](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Persuasion)) and Charisma ([Performance](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Performance)) checks have disadvantage,\
-      \ and all Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception))\
-      \ and Charisma ([Intimidation](Інструменти%20ДМ/CLI/rules/skills.md#Intimidation))\
-      \ checks have advantage.  \n- Frenzied Animals. Beasts within 1 mile of\
-      \ the lair become frenzied and violent—even creatures that are normally docile.\
-      \ Within that area, any ability check involving Animal Handling has disadvantage.\
-      \  \n- Venomous Beasts. The area within 6 miles of the lair becomes overpopulated\
-      \ with [poisonous snakes](Інструменти%20ДМ/CLI/bestiary/beast/venomous-snake-xmm.md)\
-      \ and other venomous Beasts.  "
-    "name": ""
-  - "desc": "If Demogorgon dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/demogorgon-mpmm.webp"

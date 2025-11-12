@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 aliases:
@@ -424,7 +425,7 @@ aliases:
 **Aarakocra.** *Winged Guardians of the Sky*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Air)  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Aarakocra are birdlike folk who soar the skies of countless worlds and the endless expanses of the Elemental Plane of Air. They often resemble avians common to the lands where they dwell; some resemble hawks or condors, while others appear similar to hummingbirds or archaeopteryxes. In many lands, aarakocra tell of their ancient heroics resisting the wicked Queen of Chaos alongside the mysterious Wind Dukes of Aaqa.
 
@@ -441,7 +442,7 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
 **Aboleth.** *Ageless Alien Mastermind*
 
 - **Habitat.** Underdark, Underwater  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 In aquatic abysses, aboleths dream of dead empires and orchestrate plots that unfold across ages. These elusive, amphibious immortals physically and mentally overwhelm their victims and transform creatures with a slimy, aberrant infection, reshaping other beings to serve them beneath the waves.
 
@@ -454,8 +455,6 @@ Aboleths' alien goals and methods are often mysterious to other creatures. Roll 
 > The lies we call reason are fragile things, vulnerable and raw on the shores of eons. But in the dream-vaults of dread ancients roil seas of terrifying truth. Our age is an island, and the ebb of primordial tides avows the Stygian wave.
 
 **Aboleth Schemes**
-
-`dice: [](2-monsters-a-to-z.md#^aboleth-schemes)`
 
 | dice: 1d6 | The Aboleth Seeks To... |
 |-----------|-------------------------|
@@ -491,8 +490,6 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
 
 **Air Elemental Compositions**
 
-`dice: [](2-monsters-a-to-z.md#^air-elemental-compositions)`
-
 | dice: 1d6 | The Air Elemental's Body Features... |
 |-----------|--------------------------------------|
 | 1 | Cumulus or cirrus clouds. |
@@ -513,7 +510,7 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
 **Animal Lord.** *Immortal Regent of the Wild*
 
 - **Habitat.** Planar (Beastlands)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Animal lords are the immortal spirits of legendary animals. They serve as the divine protectors of animals of their kind, and they appear as hybrids of humanoids and the animals they defend. They frequently change into giant, idealized versions of the animals they're associated with—albeit with glowing eyes. When contending with people, they sometimes appear as humanlike beings with subtle, animal-like features. No matter their appearance, animal lords exhibit the instincts and predilections of the animals they represent, tempered by their intellect and experience.
 
@@ -531,8 +528,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 
 **Forager Animal Lord Appearances**
 
-`dice: [](2-monsters-a-to-z.md#^forager-animal-lord-appearances)`
-
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
 | 1 | Bear |
@@ -549,8 +544,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 
 **Hunter Animal Lord Appearances**
 
-`dice: [](2-monsters-a-to-z.md#^hunter-animal-lord-appearances)`
-
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
 | 1 | Alligator |
@@ -566,8 +559,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 ^hunter-animal-lord-appearances
 
 **Sage Animal Lord Appearances**
-
-`dice: [](2-monsters-a-to-z.md#^sage-animal-lord-appearances)`
 
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
@@ -604,8 +595,6 @@ Roll on or choose a result from the Animated Object Catalysts table to inspire w
 > Lyin' next to the chest were the bones of Cap'n Scornblade himself, still clutchin' his rusty sword. Imagine my surprise when the blade flew from his bony grasp! Still got the scar.
 
 **Animated Object Catalysts**
-
-`dice: [](2-monsters-a-to-z.md#^animated-object-catalysts)`
 
 | dice: 1d10 | The Object Was Animated By... |
 |------------|-------------------------------|
@@ -654,13 +643,11 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
 
 **Ankheg Tunnel Discoveries**
 
-`dice: [](2-monsters-a-to-z.md#^ankheg-tunnel-discoveries)`
-
 | dice: 1d8 | Inside the Ankheg Tunnel Is... |
 |-----------|--------------------------------|
 | 1 | Another tunnel (either natural or of worked stone) that extends into the Underdark. |
 | 2 | A buried ruin or grave exposed by the tunnel. |
-| 3 | A cluster of `d4` fresh ankheg eggs that can be broken and used as vials of Acid. |
+| 3 | A cluster of `1d4` fresh ankheg eggs that can be broken and used as vials of Acid. |
 | 4 | A dead ankheg and evidence of a deadlier subterranean predator. |
 | 5 | A piece of ankheg carapace usable as a Shield. |
 | 6 | A pouch with `2d6` GP near a puddle of acid. |
@@ -680,7 +667,7 @@ Ankheg tunnels are roughly cylindrical and are often littered with the remains o
 **Arcanaloth.** *Yugoloth of Magical Manipulation*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 While all yugoloths are fiendish manifestations of wickedness and greed, arcanaloths bend their considerable intellects toward hoarding and exploiting secrets. They then deploy these secrets to ensnare countless victims and lesser villains, beguiling foes with false promises and powerful magic.
 
@@ -694,7 +681,7 @@ Arcanaloths possess considerable spellcasting prowess and frequently disguise th
 **Arch-hag.** *Hag of Forbidden Secrets and Magical Malice*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Immortal and unpredictable, arch-hags hoard secrets and strike magical bargains, altering fate to indulge their fickle whims. These timeless schemers pursue the secrets of the multiverse and work strange magic in pursuit of their inscrutable goals.
 
@@ -709,8 +696,6 @@ Every arch-hag has a unique weakness tied to a fateful encounter the hag had in 
 > Heh! People who know too much grow old before their time. Ask me your questions, but be certain that every secret has its cost.
 
 **Arch-hag Anathemas**
-
-`dice: [](2-monsters-a-to-z.md#^arch-hag-anathemas)`
 
 | dice: 1d10 | The Arch-hag's Weakness Is... |
 |------------|-------------------------------|
@@ -738,15 +723,13 @@ Every arch-hag has a unique weakness tied to a fateful encounter the hag had in 
 **Assassin.** *Contract Killer*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Assassins are professional killers skilled at stealthily approaching their victims and striking unseen. Most assassins kill for a reason, perhaps hiring themselves out to wealthy patrons or slaying for an unscrupulous cause. They use poisons and other deadly tools, and they might carry equipment to help them break into secure areas or avoid capture.
 
 Many assassins adhere to a professional code or exhibit some signature quirk. Roll on or choose a result from the Assassin Modus Operandi table to inspire an assassin's distinctive habits.
 
 **Assassin Modus Operandi**
-
-`dice: [](2-monsters-a-to-z.md#^assassin-modus-operandi)`
 
 | dice: 1d6 | The Assassin Is Infamous For... |
 |-----------|---------------------------------|
@@ -812,7 +795,7 @@ Axe beaks are difficult to train, but those hatched and raised in captivity can 
 **Azers.** *Fiery Smiths of Living Metal*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Fire)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Azers are living bronze folk who work the primal elements of creation to craft weapons and magical wonders among the multiverse's mightiest infernos.
 
@@ -831,7 +814,7 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 **Balor.** *Demon of Overwhelming Rage*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Balors embody demons' ruinous fury and hatred. Towering, winged terrors, these demonic warlords seethe with wrath, their rage erupting in waves of fire and as a pair of vicious weapons: a sword of crackling lightning and a whip of lashing flames. A balor's fury persists until the moment of its demise, at which point it explodes—a last act of vengeance against those who slew it. Demon lords and evil gods harness balors' rage by making balors commanders of armies or guardians of grave secrets.
 
@@ -856,8 +839,6 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 > I am he who rules the world, don't you know? One little piece at a time.
 
 **Bandit Motivations**
-
-`dice: [](2-monsters-a-to-z.md#^bandit-motivations)`
 
 | dice: 1d6 | The Bandit... |
 |-----------|---------------|
@@ -888,15 +869,13 @@ Roll on or choose a result from the Bandit Motivations table to determine the ci
 **Banshee.** *Wailing Harbinger of Death*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Heralds of doom and plagues on the living, banshees are spirits obsessed by unresolved bitterness or sorrow. These storied phantoms slay any who glimpse them or hear their baleful wails. Although any tormented soul can arise as a banshee, some elven communities particularly fear them and believe that those who hoard or destroy beauty—natural or otherwise—risk returning as a banshee.
 
 All manner of torments might give rise to a banshee. Roll on or choose a result from the Banshee Sorrows table to inspire how a banshee's torment influences its behavior.
 
 **Banshee Sorrows**
-
-`dice: [](2-monsters-a-to-z.md#^banshee-sorrows)`
 
 | dice: 1d6 | Torment Compels the Banshee To... |
 |-----------|-----------------------------------|
@@ -966,8 +945,6 @@ The remains of [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md
 
 **Petrified Basilisk Victims**
 
-`dice: [](2-monsters-a-to-z.md#^petrified-basilisk-victims)`
-
 | dice: 1d8 | A Basilisk Used Its Gaze to Petrify... |
 |-----------|----------------------------------------|
 | 1 | An adventurer with an ornate key hanging around their neck. |
@@ -990,7 +967,7 @@ The remains of [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md
 **Bearded Devil.** *Devil of Force and Intimidation*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Bearded devils, also known as barbazus, fill the legions of the Nine Hells. These cruel soldiers follow the orders of diabolical generals as they defend infernal realms, invade Material Plane worlds, and clash against demons in planes-spanning conflicts.
 
@@ -1030,7 +1007,7 @@ Behirs live in sprawling cave systems and elaborate ruins where they can make th
 **Beholder.** *Infamous Many-Eyed Tyrant*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Beholders—also known as eye tyrants—number among the most notorious inhabitants of the Underdark. Few creatures in the multiverse are as loathed and feared as these maniacal horrors.
 
@@ -1054,7 +1031,7 @@ Beholders are a particular threat to adventurers because both gravitate toward m
 **Berserkers.** *Raging Invaders and Impassioned Warriors*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fighters, and other ferocious warriors.
 
@@ -1071,7 +1048,7 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
 **Black Dragons.** *Dragons of Decay and Despair*
 
 - **Habitat.** Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Black dragons delight in suffering and ruin. While other chromatic dragons scheme for power and wealth, these dragons seek to tear down all they see and rule over what remains.
 
@@ -1111,8 +1088,6 @@ Black puddings are shapeless masses of predatory cells. Once a pudding detects o
 Various supernatural conditions might bring black puddings into being. Roll on or choose a result from the Black Pudding Sources table to inspire a pudding's origins.
 
 **Black Pudding Sources**
-
-`dice: [](2-monsters-a-to-z.md#^black-pudding-sources)`
 
 | dice: 1d6 | The Black Pudding Formed From... |
 |-----------|----------------------------------|
@@ -1198,8 +1173,6 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
 
 **Blob of Annihilation Contents**
 
-`dice: [](2-monsters-a-to-z.md#^blob-of-annihilation-contents)`
-
 | dice: 1d10 | The Blob Contains... |
 |------------|----------------------|
 | 1 | An [Amulet of the Planes](Інструменти%20ДМ/CLI/items/amulet-of-the-planes-xdmg.md). |
@@ -1224,7 +1197,7 @@ When the blob appears, roll on or choose a result from the Blob of Annihilation 
 **Blue Dragons.** *Dragons of Tyranny and Tempests*
 
 - **Habitat.** Desert  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Arrogant and imperious, blue dragons are chromatic dragons that crave control and collect followers like other dragons hoard treasure. They seek to transform their territories into empires, domains to be feared by nations.
 
@@ -1257,7 +1230,7 @@ Regalia of rulership and artistic masterpieces fill blue dragons' hoards. These 
 **Bone Devil.** *Devil of Dread and Obedience*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Bone devils are gaunt, nightmarish Fiends with pallid skin stretched tight over frames that combine human and insectile features. Also known as osyluths, these Fiends command weaker devils and other beings aligned with infernal legions. Bone devils ensure that the commands of hellish sovereigns are exacted efficiently and that non-devils fulfill their commitments to the Nine Hells. They slay those who renege on infernal deals, sending treacherous mortal souls to face unspeakable punishments.
 
@@ -1270,8 +1243,6 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 > Bone devils are just one of a thousand reasons never to make a deal with a devil, but they're a significant one. Break said deal, and it'll likely be one of these nightmares that drags you down to the Nine Hells.
 
 **Bone Devil Objectives**
-
-`dice: [](2-monsters-a-to-z.md#^bone-devil-objectives)`
 
 | dice: 1d4 | The Bone Devil Seeks To... |
 |-----------|----------------------------|
@@ -1291,7 +1262,7 @@ Bone devils travel across the multiverse to fulfill diabolical orders. If left w
 **Bone Naga.** *Deathless Serpentine Mind Bender*
 
 - **Habitat.** Underdark  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Nagas are immortal but not invincible, and powerful magic can end their lives. Bone nagas are skeletal terrors raised from the remains of magically slain nagas or nagas that were killed but that hadn't yet rejuvenated. They are granted unlife through rituals practiced by cultists, yuan-ti, and morbid spirit nagas. These Undead nagas possess magical abilities similar to those they had in life, along with an eerie gaze that can beguile other creatures.
 
@@ -1309,7 +1280,7 @@ In rare cases, bone nagas continue to pursue the goals they had while alive inst
 **Brass Dragons.** *Dragons of Lore and Rapport*
 
 - **Habitat.** Desert  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Gregarious and outgoing, brass dragons relish sharing knowledge and stories. Although these metallic dragons favor arid lands, they cheerfully journey considerable distances to visit friendly creatures, pass on what they've learned, and collect news. Though good natured, brass dragons don't shirk from combat when necessary, thwarting foes with magical sleep and searing them with flame.
 
@@ -1342,7 +1313,7 @@ Brass dragons collect eclectic objects. While such items might seem like knickkn
 **Bronze Dragons.** *Dragons of Potential and Preservation*
 
 - **Habitat.** Coastal  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Where bronze dragons dwell, wonders flourish. Imaginative yet mindful, these metallic dragons work toward greatness and help others achieve all they can. They strive to preserve innovations, from the works of past civilizations to new discoveries, and they share such works widely. When dealing with shorter-lived beings, bronze dragons prefer to win them over through conversation and cultivation, but they don't shy from battle when villains keep others from achieving their potential.
 
@@ -1373,7 +1344,7 @@ Bronze dragons enjoy the power and endless possibilities of the sea, and they of
 **Bugbears.** *Lurking Goblinoid Brutes*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild), Underdark  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Bugbears embody fear of the wilds and the menace of natural places. They're notoriously stealthy, and foes that venture into their territories often vanish without a trace.
 
@@ -1407,7 +1378,7 @@ Also called "land sharks," bulettes are single-minded predators that burrow unde
 **Bullywugs.** *Amphibious Appreciators of Marsh and Muck*
 
 - **Habitat.** Swamp  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Fey embodiments of swamplands, bullywugs protect the murky wilds and consider themselves cosmically favored for that role. These human-size, toad- or frog-like creatures have close relationships with the creatures of the swamp.
 
@@ -1426,7 +1397,7 @@ Fey embodiments of swamplands, bullywugs protect the murky wilds and consider th
 **Cambion.** *Mortal Infused with Fiendish Might*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cambions are former mortals corrupted by fiendish power or possessed by insidious forces. While tieflings are free-willed individuals with a hint of fiendish ancestry, cambions are inherently tied to or remade by the wicked magic of the Lower Planes.
 
@@ -1439,8 +1410,6 @@ Cambions come into being in disparate ways. Roll on or choose a result from the 
 > It seems that I must do everything myself, since I have only fools for servants. Clearly disappointment must ever be the price of divinity.
 
 **Cambion Origins**
-
-`dice: [](2-monsters-a-to-z.md#^cambion-origins)`
 
 | dice: 1d6 | The Cambion Gained Its Power After... |
 |-----------|---------------------------------------|
@@ -1482,7 +1451,7 @@ These scavengers avoid ingesting inorganic material. Crypts with funeral armors 
 **Centaurs.** *Defenders of the Feywild*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Centaurs are defenders of forests, plains, and sites of primeval power. With upper bodies like humans' and the lower bodies of horses, centaurs charge into battle against those who would harm their allies.
 
@@ -1499,15 +1468,13 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
 **Chain Devil.** *Devil of Pain and Control*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Also known as kytons, chain devils consider themselves morbid artisans who use deception, menace, and vicious metal to coerce prisoners into betraying themselves. Many serve powerful devils, wrenching secrets from imprisoned souls using deadly, animate chains. Left to their own devices, chain devils encourage ruthless individuals to pursue forbidden magic, leading their pupils down paths to the Nine Hells.
 
 Along with psychological threats and physical harm, a chain devil uses its unnerving gaze to make its victims perceive their worst fear rather than the monster. Roll on or choose a result from the Chain Devil Masks table to inspire a chain devil's fearful appearance.
 
 **Chain Devil Masks**
-
-`dice: [](2-monsters-a-to-z.md#^chain-devil-masks)`
 
 | dice: 1d4 | To a Viewer, the Chain Devil Looks Like... |
 |-----------|--------------------------------------------|
@@ -1527,7 +1494,7 @@ Along with psychological threats and physical harm, a chain devil uses its unner
 **Chasme.** *Demon of Betrayal and Sycophancy*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Flying forth from the Abyss, chasmes resemble horse-size flies. They incapacitate foes by producing a mind-numbing droning, then use their proboscises to drain victims of life. In the Abyss, most chasmes obsequiously serve more powerful demons and search for captives to press into demonic hordes.
 
@@ -1557,7 +1524,7 @@ Owing to their draconic instincts, chimeras are greedy creatures that hoard trea
 **Chuul.** *Chitinous Servant of Primeval Powers*
 
 - **Habitat.** Coastal, Swamp, Underdark  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Chuuls originated in forgotten ages when aboleths and stranger beings ruled alien empires beneath the waves. The aboleths transformed numerous deep-sea predators into servants that could venture beyond the seas to claim more magic and creatures to exploit. Chuuls are the most enduring of these bizarre servants.
 
@@ -1575,15 +1542,13 @@ Chuuls don't age and can lie dormant in hidden places for millennia before threa
 **Clay Golem.** *Guardian of Home and Heart*
 
 - **Habitat.** Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Clay golems are magical defenders made from earth and clay to protect places or communities. The materials used in creating clay golems originate from near the location the golems protect and often have special significance to their creators, such as clay from a holy site or bricks from a magical ruin. While some clay golems are masterfully sculpted to resemble living beings, others have only vaguely humanlike forms.
 
 These golems obey their creators' orders and protect what their makers value most. Some still follow these orders long after their creators' deaths. Roll on or choose a result from the Clay Golem Orders table to inspire the commands a clay golem follows.
 
 **Clay Golem Orders**
-
-`dice: [](2-monsters-a-to-z.md#^clay-golem-orders)`
 
 | dice: 1d4 | The Clay Golem Follows Orders To... |
 |-----------|-------------------------------------|
@@ -1603,7 +1568,7 @@ These golems obey their creators' orders and protect what their makers value mos
 **Cloaker.** *Haunter in the Dark*
 
 - **Habitat.** Underdark  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Cloakers are mysterious Underdark predators, named by adventurers for their resemblance to hanging cloaks when they cling to walls. What cloakers call themselves is unknown, if they refer to themselves at all. Though they're undeniably intelligent, their behavior is often inscrutable.
 
@@ -1621,7 +1586,7 @@ Cloakers delight in frightening foes. In addition to their methods of ambush, cl
 **Cloud Giant.** *Giant of the Loftiest Heights*
 
 - **Habitat.** Mountain  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Cloud giants use the power of the skies to observe and subtly influence the world. These giants resemble humans with hair ranging from silver to blue and with skin in cloudlike shades from stark white to twilight hues. Curved canines grow in their upper jaws, extending past their lower lips. In battle, they attack with weapons wreathed in storm clouds and throw roaring thunderheads.
 
@@ -1654,7 +1619,7 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
 **Colossus.** *Titanic Vessel of Divine Might*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Colossi are massive Constructs created by the devout to reflect the nature of a deity, which could be benevolent or wicked. Colossi thrum with incredible magic and work divine will on the land.
 
@@ -1764,7 +1729,7 @@ Youngster
 **Copper Dragons.** *Dragons of Curiosity and Community*
 
 - **Habitat.** Hill  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Relentlessly friendly and curious, most copper dragons view the world as a place of endless wonder and possibility. These gregarious dragons are fonts of patience, hospitality, and humor, and they seek to improve the lives—or, at least, the mood—of those they interact with. If forced to fight to defend themselves or their friends, these dragons favor using their slowing breath and physical attacks to subdue antagonists. Only in cases of extreme peril or emotion do they use their deadly acid breath.
 
@@ -1795,7 +1760,7 @@ Copper dragons typically live in caverns amid picturesque hills and rock formati
 **Couatl.** *Guardian Manifestation of the Divine*
 
 - **Habitat.** Desert, Forest, Grassland, Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Embodiments of prophecy and protectors of divine secrets, couatls ensure fate unfolds as it should. They resemble serpents with rainbow wings, and each is a manifestation of a divine edict, a truth or fate that a righteous god decrees must hold true for all time. Most couatls appear in places of ancient power, where they guard hidden magic or ensure foretold acts do or don't come to pass. Rarely, couatls watch over communities or travel lands in disguise, interpreting omens or manipulating factors to set fate on its proper course.
 
@@ -1834,13 +1799,11 @@ Crawling claws are severed hands that move and act of their own murderous accord
 **Cultists.** *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](2-monsters-a-to-z.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -1855,8 +1818,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 **Occult Symbols.** Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](2-monsters-a-to-z.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -1910,7 +1871,7 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 **Cyclopes.** *Monocular Servants of Destiny*
 
 - **Habitat.** Coastal, Desert, Grassland, Hill, Mountain, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vision, cyclopes can witness how future events are likely to occur.
 
@@ -1929,7 +1890,7 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
 **Dao.** *Genie of the Earth*
 
 - **Habitat.** Planar (Elemental Plane of Earth), Underdark  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Genies of minerals and gemstones, dao embody the resolve of rock. Using innate magic, they move through the earth unimpeded, exploring depths inaccessible to most. Dao delight in the treasures of the earth, whether raw gemstones, jewelry crafted from pure metals, or wondrous fossils. In exchange for such treasures, dao might reveal underground mysteries, such as paths through the Underdark, buried ruins, or whole subterranean realms.
 
@@ -1981,8 +1942,6 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
 
 **Death Dog Malady Symptoms**
 
-`dice: [](2-monsters-a-to-z.md#^death-dog-malady-symptoms)`
-
 | dice: 1d6 | The Death Dog's Malady Causes... |
 |-----------|----------------------------------|
 | 1 | Marks from canine jaws to appear on the victim's body, as if they were still being mauled. |
@@ -2003,7 +1962,7 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
 **Death Knights.** *Haunted Commanders of Unliving Legions*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Champions of evil, death knights are armor-clad, skeletal warlords. Combining devastating martial prowess and blasphemous magic, these undying tyrants lead unholy legions against the living or brood in cursed citadels. Every death knight is haunted by a legacy of tragedy and dishonor that drives it to commit greater evils.
 
@@ -2044,7 +2003,7 @@ No matter how death tyrants come into being, bizarre impulses drive their deathl
 **Demilich.** *What Lies beyond Lichdom*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 A demilich is a skull harboring the remnants of a lich's wicked essence. If the burden of immortality overwhelms a lich, its consciousness turns inward as its body rots away. But if its remains are disturbed, a demilich rises. Demiliches usually appear as skulls adorned with gems or arcane sigils.
 
@@ -2062,15 +2021,13 @@ A demilich is a skull harboring the remnants of a lich's wicked essence. If the 
 **Deva.** *World-Changing Angelic Messenger*
 
 - **Habitat.** Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Devas are emissaries of divine will. These immortal messengers adopt the shapes of mystical beasts or idealized, winged mortals. As with all angels, their true forms are known only to the gods they serve.
 
 Rather than literal correspondence from a god, a deva conveys an allegory or quest to mortals, tasking them with delivering something to its rightful place. While the angel might be called on in times of need, it encourages mortal heroism. Should a deva's chosen champions carry out their charge, they experience a revelation or the world is changed in line with divine purpose. Roll on or choose a result from the Deva Messages table to inspire a deva's charge.
 
 **Deva Messages**
-
-`dice: [](2-monsters-a-to-z.md#^deva-messages)`
 
 | dice: 1d6 | The Deva Tasks a Mortal with Delivering... |
 |-----------|--------------------------------------------|
@@ -2112,7 +2069,7 @@ Displacer beasts sometimes pursue prey through portals to other planes of existe
 **Djinni.** *Genie of the Air*
 
 - **Habitat.** Coastal, Planar (Elemental Plane of Air)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 As genies of wind and skies, djinn personify freedom and might. They can control wind and travel as swiftly as a breeze. They might be as serene as drifting clouds or as tempestuous as storms, but most djinn relish their freedom and desire to discover the wonders of the multiverse. Djinn often know many stories, and they might share such lore with those who offer their own exciting stories in trade.
 
@@ -2135,8 +2092,6 @@ Doppelgangers are supernatural beings with the ability to shape-shift into any h
 A doppelganger's agenda might relate to its mysterious magical origins or to more mercenary goals. Roll on or choose a result from the Doppelganger Deceptions table to inspire a doppelganger's plot.
 
 **Doppelganger Deceptions**
-
-`dice: [](2-monsters-a-to-z.md#^doppelganger-deceptions)`
 
 | dice: 1d6 | The Doppelganger Schemes To... |
 |-----------|--------------------------------|
@@ -2171,8 +2126,6 @@ Dracoliches combine the corrupt immortality of the undead with the legendary pow
 There are untold profane routes by which a dragon might become a dracolich. However one is created, a dracolich chooses a gem that becomes the anchor for its spirit and binds the deathless dragon to the world. So long as a dracolich is on the same plane of existence as its soul gem, the dracolich can survive the destruction of its physical body. Its spirit retreats into the gem if the dracolich's body is destroyed, and the monster might one day regain its terrifying form. Dracoliches often sequester their soul gems within meaningful treasure from their hoard or in unassuming baubles. Roll on or choose a result from the Dracolich Soul Gem Vessels table to inspire what holds a dracolich's soul gem.
 
 **Dracolich Soul Gem Vessels**
-
-`dice: [](2-monsters-a-to-z.md#^dracolich-soul-gem-vessels)`
 
 | dice: 1d10 | A Dracolich's Soul Gem Is Hidden In... |
 |------------|----------------------------------------|
@@ -2241,15 +2194,13 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
 **Drider.** *Spiderlike Underdark Hunter*
 
 - **Habitat.** Forest, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Driders combine the features of drow and giant spiders. The wicked god Lolth is fond of transforming her drow worshipers into driders, as either a blessing or a curse. These driders often become fanatical servants of their god, or they are overwhelmed by their transformation and live only to indulge their predatory arachnid instincts.
 
 Driders also appear when whole communities are transformed by a wicked god's wrath or other magical means, or driders might be part of a world's natural population. Most dwell underground or in dense forests where they can make the most of their spiderlike traits. Driders with non-drow features are uncommon but possible. Roll on or choose a result from the Drider Metamorphoses table to inspire how supernatural driders come into being.
 
 **Drider Metamorphoses**
-
-`dice: [](2-monsters-a-to-z.md#^drider-metamorphoses)`
 
 | dice: 1d6 | The Drider Gained Its Form As... |
 |-----------|----------------------------------|
@@ -2271,13 +2222,11 @@ Driders also appear when whole communities are transformed by a wicked god's wra
 **Druid.** *Steward and Sage of Nature*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Druids use primal magic, traditional teachings, and bonds with animals and eldritch beings to guard the natural world and heal its ills. These magic-users might be recluses devoted to a particular land, or they might be part of a mystic organization. Roll on or choose a result from the Druidic Traditions table to inspire a druid's magical practices.
 
 **Druid Traditions**
-
-`dice: [](2-monsters-a-to-z.md#^druid-traditions)`
 
 | dice: 1d6 | The Druid Is... |
 |-----------|-----------------|
@@ -2304,8 +2253,6 @@ Druids use primal magic, traditional teachings, and bonds with animals and eldri
 Guardians of the woodlands, dryads magically flit from tree to tree and from root to bough, harrying trespassers with tangling vines and thorns. Most of these elusive beings have a special connection with one plant or a natural sanctuary that they protect. Some also share physical similarities with the plants they're most connected to. Dryads might sicken or die if their plant or sanctuary is destroyed, recovering only if it is healed or magically replaced. Roll on or choose an option from the Dryad Sanctuaries table to inspire a dryad's bond.
 
 **Dryad Sanctuaries**
-
-`dice: [](2-monsters-a-to-z.md#^dryad-sanctuaries)`
 
 | dice: 1d6 | The Dryad Dwells in and Protects... |
 |-----------|-------------------------------------|
@@ -2337,8 +2284,6 @@ Earth elementals are typically made of more than dirt. While an elemental's comp
 
 **Earth Elemental Compositions**
 
-`dice: [](2-monsters-a-to-z.md#^earth-elemental-compositions)`
-
 | dice: 1d8 | The Earth Elemental's Body Features... |
 |-----------|----------------------------------------|
 | 1 | Colorful mineral formations. |
@@ -2365,7 +2310,7 @@ Earth elementals are typically made of more than dirt. While an elemental's comp
 **Efreeti.** *Genie of Fire*
 
 - **Habitat.** Desert, Planar (Elemental Plane of Fire)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Efreet burn with the energy and unpredictability of fire. Their innate magic allows them to conjure flames from nothing and shape treasures within magical infernos. Many efreet have wicked reputations, as their fickle natures and love for dramatic conflagrations can be destructive. Other efreet delight in fire's beauty, be it the delicacy of a candle flame or the shared wonder of fireworks. These genies might aid mortals in exchange for treasures or the liberation of captive Elementals.
 
@@ -2395,8 +2340,6 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
 
 **Elemental Alterations**
 
-`dice: [](2-monsters-a-to-z.md#^elemental-alterations)`
-
 | dice: 1d8 | The Elemental Cataclysm Leaves Behind A... |
 |-----------|--------------------------------------------|
 | 1 | Dramatic increase or decrease in temperature. |
@@ -2421,13 +2364,11 @@ Little can stop an elemental cataclysm. Those that oppose one of these calamitie
 **Empyreans.** *Scions of the Gods*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Empyreans are the spawn of deities. While not gods themselves, they possess divine influence and powers related to their divine parents. Some empyreans are near-demigods with fantastic might and the power to reshape mortal lives. Others are little more than divine thoughts or moments of immortal attention made manifest. Whether empyreans are idealized beings or vestiges of divinity, their appearances are influenced by their creators. Roll on or choose a result from the Empyrean Influences table to inspire what aspects of an empyrean's heritage manifest in its physical form.
 
 **Empyrean Influences**
-
-`dice: [](2-monsters-a-to-z.md#^empyrean-influences)`
 
 | dice: 1d6 | The Empyrean Has Features That Are... |
 |-----------|---------------------------------------|
@@ -2456,7 +2397,7 @@ Empyreans are the spawn of deities. While not gods themselves, they possess divi
 **Erinyes.** *Devil of Vengeance and Righteous Wrath*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Erinyes, also known as furies, are winged devils clad in fiendish armor. These fallen angels exact a merciless form of divine justice, hunting down oath breakers and dragging the rightfully damned to the Nine Hells in the grip of their magical ropes. Few ever glimpse what lies within these devils' armored exteriors, and erinyes ensure that those who do can never speak of what they've seen.
 
@@ -2474,7 +2415,7 @@ When not in the service of a diabolical master, erinyes hunt wicked souls. They 
 **Ettercap.** *Venomous Arachnid Abductor*
 
 - **Habitat.** Forest  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Spiderlike hunters, ettercaps lurk in forested depths and seek prey to drag into their web-choked lairs. These vicious predators have arachnid features and hunched, bipedal frames, and they're notorious for their venomous bites and ability to shoot out webs to entrap their victims. Ettercaps often hunt in small groups alongside giant spiders and mundane spider swarms.
 
@@ -2504,8 +2445,6 @@ Roll on or choose a result from the Ettin Interactions table to inspire how an e
 
 **Ettin Interactions**
 
-`dice: [](2-monsters-a-to-z.md#^ettin-interactions)`
-
 | dice: 1d8 | The Ettin's Heads Are... |
 |-----------|--------------------------|
 | 1 | Amping up one another in preparation for a conflict or challenge. |
@@ -2534,7 +2473,7 @@ Roll on or choose a result from the Ettin Interactions table to inspire how an e
 **Faerie Dragons.** *Whimsical Draconic Tricksters*
 
 - **Habitat.** Forest  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Faerie dragons are cat-size pranksters with draconic features, butterfly-like wings, and scales of warm hues as youths and cool hues as adults.
 
@@ -2558,8 +2497,6 @@ Fire elementals arise when spirits of the Elemental Plane of Fire inhabit flames
 Fire elementals might burn in distinctive ways. Roll on or choose a result from the Fire Elemental Compositions table to inspire a fire elemental's features.
 
 **Fire Elemental Compositions**
-
-`dice: [](2-monsters-a-to-z.md#^fire-elemental-compositions)`
 
 | dice: 1d8 | The Fire Elemental's Body Features... |
 |-----------|---------------------------------------|
@@ -2587,7 +2524,7 @@ Fire elementals might burn in distinctive ways. Roll on or choose a result from 
 **Fire Giant.** *Giant of the Smoldering Depths*
 
 - **Habitat.** Mountain, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Fire giants inhabit the hollow vaults and molten rivers of mountainous depths. There, they use subterranean heat and riches to craft wonders, from titanic weapons of war to delicate works of art.
 
@@ -2605,15 +2542,13 @@ Most fire giants dwell in volcanically active mountains or cavernous depths that
 **Flameskull.** *Skull Smoldering with Magical Obsession*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Flameskulls are flying skulls that blaze with magical fire and the half-remembered arcana of dead spellcasters. They rise from the remains of dead magic-users who were reanimated by sinister necromancers or whose magical pursuits drive them beyond death. Flameskulls might serve as guardians for their creators or pursue ambitions left unfulfilled in life. They lash out at foes with destructive spells and bursts of fire, wielding magic without the need for most components.
 
 Flameskulls take various forms, from skulls with humanlike features to ones with fearsome or bestial alterations. Their flames vary in color and grow more intense when they're angry. Roll on or choose a result from the Flameskull Details table to inspire what makes a flameskull distinctive.
 
 **Flameskull Details**
-
-`dice: [](2-monsters-a-to-z.md#^flameskull-details)`
 
 | dice: 1d6 | The Flameskull Features... |
 |-----------|----------------------------|
@@ -2639,15 +2574,13 @@ Flameskulls take various forms, from skulls with humanlike features to ones with
 **Flesh Golem.** *Dead Flesh Given New Life*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Flesh golems are roughly human-shaped collections of body parts bound together by misused magic or strange science. They serve their reckless creators, but many possess disjointed memories and instincts from their component parts. If wounded, these golems might go berserk and vent their confusion on anything in their sight, including their creators.
 
 Flesh golems appear in varied forms. Roll on or choose a result from the Flesh Golem Characteristics table to inspire a flesh golem's features.
 
 **Flesh Golem Characteristics**
-
-`dice: [](2-monsters-a-to-z.md#^flesh-golem-characteristics)`
 
 | dice: 1d6 | The Flesh Golem Has... |
 |-----------|------------------------|
@@ -2673,7 +2606,7 @@ Flesh golems appear in varied forms. Roll on or choose a result from the Flesh G
 **Flumph.** *Strange Ally from a Strange Place*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Bizarre creatures with aberrant agendas inhabit the Underdark. Flumphs number among the few that are helpful to strangers.
 
@@ -2682,8 +2615,6 @@ These tentacled, telepathic creatures jet through the air in short bursts, venti
 Flumphs dwell in psychically charged regions or near creatures with psionic magic. They harmlessly feed off psychic energies, but in doing so, they often encounter dangerous beings such as aboleths and mind flayers. While flumphs generally avoid combat, they often help adventurers in peril. Such help might be of doubtful use, but flumphs mean well. Roll on or choose a result from the Flumph Assistance table to inspire what support flumphs provide.
 
 **Flumph Assistance**
-
-`dice: [](2-monsters-a-to-z.md#^flumph-assistance)`
 
 | dice: 1d6 | The Flumph Helps By... |
 |-----------|------------------------|
@@ -2731,8 +2662,6 @@ Once infamous for their magical aptitude, fomorians are giants afflicted with a 
 
 **Fomorian Warping**
 
-`dice: [](2-monsters-a-to-z.md#^fomorian-warping)`
-
 | dice: 1d4 | The Fomorian's Hex Causes... |
 |-----------|------------------------------|
 | 1 | Colorful, wandering pustules. |
@@ -2755,7 +2684,7 @@ Once infamous for their magical aptitude, fomorians are giants afflicted with a 
 **Frost Giant.** *Giant of the Ice and Snow*
 
 - **Habitat.** Arctic, Mountain  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 From glacial mountain heights and vast tundras rise the homes of frost giants. These giants have skin and hair of icy hues. Their natural immunity to cold allows them to flourish in places inhospitable to most other creatures. They use this resilience to aid them when hunting and in combat, bolstering their allies with chilling war cries.
 
@@ -2828,8 +2757,6 @@ Gargoyles have a variety of appearances. Roll on or choose a result from the Gar
 
 **Gargoyle Sculptures**
 
-`dice: [](2-monsters-a-to-z.md#^gargoyle-sculptures)`
-
 | dice: 1d6 | The Gargoyle Is Sculpted to Appear... |
 |-----------|---------------------------------------|
 | 1 | Cherubic with perpetually smiling features. |
@@ -2843,8 +2770,6 @@ Gargoyles have a variety of appearances. Roll on or choose a result from the Gar
 **Gargoyle Ambushes.** Gargoyles seek to ambush foes or creatures that trespass on their territories. With no biological needs and supernatural patience, these monsters might wait unmoving for months, revealing themselves only when conditions are perfect to attack. They tend to lurk where statuary seems commonplace or where terrain obscures the shape and color of their bodies. Roll on or choose a result from the Gargoyle Camouflage table to inspire where a gargoyle sets up an ambush.
 
 **Gargoyle Camouflage**
-
-`dice: [](2-monsters-a-to-z.md#^gargoyle-camouflage)`
 
 | dice: 1d8 | The Gargoyle Conceals Itself Amid... |
 |-----------|--------------------------------------|
@@ -2877,8 +2802,6 @@ Gargoyles have a variety of appearances. Roll on or choose a result from the Gar
 Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns and dungeons, engulfing anything in their paths. These Oozes are naturally transparent, making them difficult to see while they're stationary. Creatures and objects that become stuck within these slimes are gradually dissolved. Undigested detritus sometimes floats within a gelatinous cube, hinting at its past meals. Roll on or choose a result from the Gelatinous Cube Debris table to inspire a gelatinous cube's contents.
 
 **Gelatinous Cube Debris**
-
-`dice: [](2-monsters-a-to-z.md#^gelatinous-cube-debris)`
 
 | dice: 1d6 | Floating in the Gelatinous Cube Is A... |
 |-----------|-----------------------------------------|
@@ -2962,8 +2885,6 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
 
 **Gibbering Mouther Nascencies**
 
-`dice: [](2-monsters-a-to-z.md#^gibbering-mouther-nascencies)`
-
 | dice: 1d6 | The Gibbering Mouther Is... |
 |-----------|-----------------------------|
 | 1 | Another creature warped by dangerous magic. |
@@ -2988,7 +2909,7 @@ Gibbering mouthers come into being in various unpleasant ways. Roll on or choose
 **Githyanki.** *Invaders from the Astral Plane*
 
 - **Habitat.** Planar (Astral Plane)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Githyanki were once an ordinary people, but the deeds of a vile mind flayer empire etched conflict on their being. Gaunt, humanlike creatures, githyanki have serrated ears and speckled skin ranging through shades of yellow, green, and brown. While some githyanki follow their own paths, many are influenced by a past that forever altered their fates.
 
@@ -3014,7 +2935,7 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
 **Githzerai.** *Explorers at Reality's Extremes*
 
 - **Habitat.** Planar (Limbo)  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Githzerai are gaunt, humanlike beings, physically identical to githyanki. They share a history with githyanki as creatures physically and psychically transformed by mind flayers (see the "Githyanki" section). Githzerai know that in body and mind, their species was manipulated by their former illithid oppressors. Rather than giving in to this programming, githzerai follow the teachings of their first leader, Zerthimon, and reshape their minds and bodies to find peace.
 
@@ -3023,8 +2944,6 @@ Githzerai psychically create serene, hidden sanctuaries in chaotic reaches of th
 **Adventures with Gith.** Characters might be drawn into conflicts involving githzerai and githyanki in various ways. Roll on or choose a result from the Gith Conflicts table to inspire adventures featuring these age-old rivals.
 
 **Gith Conflicts**
-
-`dice: [](2-monsters-a-to-z.md#^gith-conflicts)`
 
 | dice: 1d8 | The Characters Are... |
 |-----------|-----------------------|
@@ -3058,7 +2977,7 @@ Githzerai psychically create serene, hidden sanctuaries in chaotic reaches of th
 **Glabrezu.** *Demon of Delusion and Entrapment*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Glabrezus embody delusion and predatory guile. These cunning demons know the most effective traps are those that individuals devise for themselves. Despite having massive claws and overwhelming physicality, glabrezus excel at using flattery and misdirection to coerce victims into isolating themselves and harming others.
 
@@ -3078,13 +2997,11 @@ In the Abyss, glabrezus act as lone hunters or deceitful advisers to greater dem
 **Gladiator.** *Competitor and Prizefighter*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Gladiators are professional fighters who pit themselves against one another, monsters, and other challenges to entertain audiences. While some compete merely to survive, others love the thrill of performing—and all gladiators know the importance of theatrics in keeping audiences excited. Roll on or choose an option from the Gladiator Theatrics table to inspire the unique flourishes a gladiator uses when competing.
 
 **Gladiator Theatrics**
-
-`dice: [](2-monsters-a-to-z.md#^gladiator-theatrics)`
 
 | dice: 1d6 | During a Competition, the Gladiator... |
 |-----------|----------------------------------------|
@@ -3106,7 +3023,7 @@ Gladiators are professional fighters who pit themselves against one another, mon
 **Gnolls.** *Fiends in Feral Flesh*
 
 - **Habitat.** Desert, Forest, Grassland, Hill  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their corruption and violence delighted the demon lord Yeenoghu, who encouraged their numbers and spread them across the multiverse. Ever since, gnolls have been the cackling servants of Yeenoghu, existing to cause ruin and to feast on what remains.
 
@@ -3133,7 +3050,7 @@ The first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their
 **Goblins.** *Wild Tricksters and Troublemakers*
 
 - **Habitat.** Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Goblins are Feywild embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better. Goblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.
 
@@ -3164,7 +3081,7 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
 **Gold Dragons.** *Dragons of Hope and Majesty*
 
 - **Habitat.** Forest, Grassland  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Gold dragons work to make the world a better place. The most powerful of the metallic dragons, these awe-inspiring dragons strive to protect that which is good and bend fate toward a brighter future. Their kind dispositions don't prevent gold dragons from engaging in combat when necessary, though, and they exhale brilliant flames and weakening magic to rout their foes.
 
@@ -3207,8 +3124,6 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 
 **Gorgon Command Keys**
 
-`dice: [](2-monsters-a-to-z.md#^gorgon-command-keys)`
-
 | dice: 1d6 | Gorgon Won't Attack Those That... |
 |-----------|-----------------------------------|
 | 1 | Cast a particular spell in the gorgon's presence. |
@@ -3236,7 +3151,7 @@ Those who create gorgons strive to give them purposefully obscure command keys. 
 **Goristro.** *Demon of Disaster*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Terrifying in scale and overwhelming power, goristros are giant demons capable of bringing cities to ruin. These demons embody senseless anarchy and nihilistic destruction, and they take special offense at creatures or structures that rival them in size. Castles, towers, giants, and beasts of war are all common victims of these monsters' wrath.
 
@@ -3273,7 +3188,7 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
 **Green Dragons.** *Dragons of Deceit and Derision*
 
 - **Habitat.** Forest  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 From forbidden forest depths, green dragons whisper evils into the world and manipulate the lives of those who listen. Elusive, conniving, and egotistical, these chromatic dragons patiently prey on the fears of shorter-lived beings, corrupting and isolating them. Green dragons might lurk amid labyrinthine wildernesses for centuries without revealing themselves; even their most devoted followers might know them only as the voice of the woodlands or a whisper in their dreams.
 
@@ -3306,15 +3221,13 @@ Despite their might, most green dragons disdain physical violence, viewing comba
 **Green Hag.** *Foul Witch of the Wicked Wild*
 
 - **Habitat.** Forest, Hill, Swamp  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Green hags work bitter magic to foul all that is beautiful and pure. Whether alone or in covens of other hags, these ancient witches call on eerie forces, spreading corruption and plotting doom for those who earn their ire. Green hags are adept deceivers, and they use illusions to cloak themselves in unassuming forms, hoping to tempt innocents into peril. These hags often spirit their victims back to surreal lairs where they hold captives prisoner or cook them into monstrous meals.
 
 Green hags frequently know strange magic or forgotten secrets, such as the weaknesses of villains, the locations of lost treasures, or the ways to break curses. They might trade such knowledge for rare magic or symbolic treasures. Roll on or choose a result from the Green Hag Bargains table to inspire what a green hag charges for its secrets.
 
 **Green Hag Bargains**
-
-`dice: [](2-monsters-a-to-z.md#^green-hag-bargains)`
 
 | dice: 1d6 | A Green Hag Trades Its Knowledge For... |
 |-----------|-----------------------------------------|
@@ -3343,8 +3256,6 @@ Grells are sapient beings, but their intellects and motivations are alien to mos
 Many grells pursue methods of traveling between worlds and planes of existence. They sometimes slip onto star-faring vessels or enter portals heedless of their destination. Roll on or choose a result from the Grell Explorations table to inspire why grells seek passage between realms.
 
 **Grell Explorations**
-
-`dice: [](2-monsters-a-to-z.md#^grell-explorations)`
 
 | dice: 1d6 | Grells Travel Because They Are... |
 |-----------|-----------------------------------|
@@ -3397,8 +3308,6 @@ Countless tales surround griffons. Roll on or choose a result from the Griffon T
 
 **Griffon Tales**
 
-`dice: [](2-monsters-a-to-z.md#^griffon-tales)`
-
 | dice: 1d6 | Legends Claim That Griffons... |
 |-----------|--------------------------------|
 | 1 | Attack anything in the skies near their lairs. |
@@ -3433,8 +3342,6 @@ Roll on or choose a result from the Grimlock Tasks table to inspire how grimlock
 
 **Grimlock Tasks**
 
-`dice: [](2-monsters-a-to-z.md#^grimlock-tasks)`
-
 | dice: 1d4 | The Grimlock Serves Mind Flayers By... |
 |-----------|----------------------------------------|
 | 1 | Carving caves to serve as illithid outposts. |
@@ -3457,15 +3364,13 @@ Roll on or choose a result from the Grimlock Tasks table to inspire how grimlock
 **Guardian Naga.** *Enduring Serpentine Lore Keeper*
 
 - **Habitat.** Desert, Forest, Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Guardian nagas are immortal, serpentine scholars that possess perfect memories. They collect the histories and lore of those they live among, guarding cultures' stories and passing them on to new generations with infallible accuracy. Guardian nagas that outlive their host civilizations might linger in whatever ruins remain, preserving the civilizations' stories so their lost people might live on.
 
 Roll on or choose a result from the Guardian Naga Lore table to inspire what a naga knows.
 
 **Guardian Naga Lore**
-
-`dice: [](2-monsters-a-to-z.md#^guardian-naga-lore)`
 
 | dice: 1d8 | The Guardian Naga Recalls... |
 |-----------|------------------------------|
@@ -3489,7 +3394,7 @@ Roll on or choose a result from the Guardian Naga Lore table to inspire what a n
 **Guards.** *Sentries and Watch Members*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Guards protect people, places, and things, either for pay or from a sense of duty. They might perform their duties vigilantly or distractedly. Some raise alarms at the first sign of danger and defend their charges with their lives. Others flee outright if their compensation doesn't match the danger they face.
 
@@ -3512,7 +3417,7 @@ Guards protect people, places, and things, either for pay or from a sense of dut
 **Half-Dragon.** *Warrior Created by Dragons*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Born through magical rites involving the essences of dragons, half-dragons serve their creators and their own draconic whims. Most half-dragons are created by chromatic dragons who desire servants with some trace of their own might and grandeur. Half-dragons frequently command other servants of a villainous dragon or act as agents in lands where their draconic master would attract unwanted attention.
 
@@ -3566,15 +3471,13 @@ Hell hounds have greater cunning than normal canines. They're skilled trackers a
 **Helmed Horror.** *Armor with a Warrior's Purpose*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Helmed horrors are suits of armor animated by magic. Rather than being unreasoning automatons, these armored shells possess the guile of soldiers and resilience against destructive magic. While their name suggests sinister intentions, these creatures serve their creators loyally. Helmed horrors are also sometimes called doom guards or spirit armors. Most show no evidence of a personality, but exceptions exist.
 
 Helmed horrors might perform any number of assignments. Roll on or choose a result from the Helmed Horror Directives table to inspire what tasks helmed horrors perform.
 
 **Helmed Horror Directives**
-
-`dice: [](2-monsters-a-to-z.md#^helmed-horror-directives)`
 
 | dice: 1d6 | The Helmed Horror Follows Commands To... |
 |-----------|------------------------------------------|
@@ -3606,8 +3509,6 @@ When on the Material Plane or otherwise left to their own devices, hezrous reckl
 
 **Demonic Undertakings**
 
-`dice: [](2-monsters-a-to-z.md#^demonic-undertakings)`
-
 | dice: 1d6 | The Demon Is Compelled To... |
 |-----------|------------------------------|
 | 1 | Break open a vault and steal what's within. |
@@ -3628,7 +3529,7 @@ When on the Material Plane or otherwise left to their own devices, hezrous reckl
 **Hill Giant.** *Giant of Crags and Valleys*
 
 - **Habitat.** Hill  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Hill giants live among rugged bluffs and highlands. Standing three times the size of most humans, these giants exhibit skin and hair in a range of shades, including hues suggestive of the earth and mosses near their dwellings.
 
@@ -3654,8 +3555,6 @@ Hippogriff migrations might take months or years, and sages frequently predict t
 
 **Hippogriff Destination**
 
-`dice: [](2-monsters-a-to-z.md#^hippogriff-destination)`
-
 | dice: 1d6 | The Hippogriff Is Traveling to A... |
 |-----------|-------------------------------------|
 | 1 | Lost ruin hidden by clouds or fog. |
@@ -3676,7 +3575,7 @@ Hippogriff migrations might take months or years, and sages frequently predict t
 **Hobgoblins.** *Conquerors of Every Horizon*
 
 - **Habitat.** Desert, Forest, Grassland, Hill, Mountain, Planar (Acheron), Underdark  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Hobgoblins embody the primal urge to grow and spread, expressing such drives by bending the world to their whims. Lone hobgoblins claim woodland territories and plunder the wilds. In groups, they form hierarchical, martial societies bent on conquering lands and stripping them of resources to serve their expansionist zeal.
 
@@ -3687,8 +3586,6 @@ Many hobgoblins serve the violent god Maglubiyet, whose hunger for conquest matc
 **Hobgoblin Warfare.** The drive to subjugate and pillage is part of hobgoblins' supernatural nature, though a few might repress their warlike tendencies or turn them to more useful ends. Roll on or choose a result from the Hobgoblin Strategies table to inspire how a hobgoblin carries out its conquest.
 
 **Hobgoblin Strategies**
-
-`dice: [](2-monsters-a-to-z.md#^hobgoblin-strategies)`
 
 | dice: 1d6 | The Hobgoblin Works To... |
 |-----------|---------------------------|
@@ -3726,8 +3623,6 @@ A homunculus's appearance reflects its creator's tastes. Roll on or choose a res
 
 **Homunculus Features**
 
-`dice: [](2-monsters-a-to-z.md#^homunculus-features)`
-
 | dice: 1d8 | The Homunculus Has Features That Are... |
 |-----------|-----------------------------------------|
 | 1 | Bat-like with tattered wings. |
@@ -3764,7 +3659,7 @@ Hook horrors feed opportunistically on plants, fungi, and any creatures that com
 **Horned Devil.** *Devil of Hatred and Subjugation*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Horned devils, also known as cornugons or malebranche, are infernal warriors that exact the will of diabolical generals and lead other devils in battle. Their bodies and weapons are forged in the Nine Hells, and they torment their foes with diabolical flames and pernicious wounds.
 
@@ -3788,8 +3683,6 @@ While many hydras claim their own territories, wicked deities might use them to 
 
 **Hydra Lairs**
 
-`dice: [](2-monsters-a-to-z.md#^hydra-lairs)`
-
 | dice: 1d4 | The Hydra Lurks Where It Does To... |
 |-----------|-------------------------------------|
 | 1 | Ensure none claim the weapon of a fallen hero. |
@@ -3810,7 +3703,7 @@ While many hydras claim their own territories, wicked deities might use them to 
 **Ice Devil.** *Devil of Antipathy and Intellectual Arrogance*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Heartless strategists of the Nine Hells, ice devils—also known as gelugons—forsake emotion to indulge in their own malicious interpretations of logic. For them, the multiverse is a puzzle that must be solved to benefit them, their masters, and the Nine Hells.
 
@@ -3864,8 +3757,6 @@ Those visited by an incubus have recurring nightmares. Roll on or choose a resul
 
 **Incubus Nightmares**
 
-`dice: [](2-monsters-a-to-z.md#^incubus-nightmares)`
-
 | dice: 1d8 | The Incubus's Victim Has Dreams Of... |
 |-----------|---------------------------------------|
 | 1 | An angry family member or authority figure. |
@@ -3914,8 +3805,6 @@ In rare cases, an invisible stalker lingers in the world without a spellcaster c
 
 **Uncontrolled Invisible Stalkers**
 
-`dice: [](2-monsters-a-to-z.md#^uncontrolled-invisible-stalkers)`
-
 | dice: 1d6 | The Invisible Stalker Is... |
 |-----------|-----------------------------|
 | 1 | The breath of an infamous god or monster. |
@@ -3948,8 +3837,6 @@ Iron golems preserve and protect their charges for generations. Roll on or choos
 
 **Iron Golem Orders**
 
-`dice: [](2-monsters-a-to-z.md#^iron-golem-orders)`
-
 | dice: 1d4 | The Iron Golem Follows Orders To... |
 |-----------|-------------------------------------|
 | 1 | Block a door that has never been opened, moving only when a prophecy is fulfilled. |
@@ -3972,15 +3859,13 @@ Iron golems preserve and protect their charges for generations. Roll on or choos
 **Jackalwere.** *Shape-Shifting Trickster of the Wilds*
 
 - **Habitat.** Desert, Grassland  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Indistinguishable from jackals in their natural form, jackalweres shape-shift to deceive others. These shape-shifters can take three forms: a jackal, a human, or a monstrous hybrid of the two. Jackalweres are easily mistaken for werewolves, but jackalweres aren't supernaturally afflicted—their jackal forms are their natural state. Jackalweres also possess magical gazes capable of putting foes to sleep, allowing jackalweres to play their tricks unimpeded or get the upper hand over threats.
 
 Jackalweres dwell in inhospitable wildernesses and pride themselves on their cleverness. They take offense at those who travel through their lands without leaving a gift of treasure or fresh game. Roll on or choose a result from the Jackalwere Tricks table to inspire how a jackalwere repays such slights.
 
 **Jackalwere Tricks**
-
-`dice: [](2-monsters-a-to-z.md#^jackalwere-tricks)`
 
 | dice: 1d4 | The Jackalwere Tricks Travelers By... |
 |-----------|---------------------------------------|
@@ -4000,7 +3885,7 @@ Jackalweres dwell in inhospitable wildernesses and pride themselves on their cle
 **Kenku.** *Flightless, Noise-Mimicking Avian*
 
 - **Habitat.** Forest, Planar (Shadowfell), Urban  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Kenku are birdlike folk who once soared the skies and sang enchanted songs, but a curse stole their wings and transformed their voices. Now kenku slip through the shadows of cities and the Shadowfell, trying to recover what they've lost. To some, this means seeking an end to their curse; others search for magic or contraptions to enable them to fly and sing again.
 
@@ -4016,7 +3901,7 @@ The curse affecting kenku allows them to vocally communicate only by mimicking s
 **Knights.** *Battle Masters and Heroic Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Knights are skilled warriors trained for war and tested in battle. Many serve the rulers of a realm, a religion, or an order devoted to a cause.
 
@@ -4033,7 +3918,7 @@ Knights are skilled warriors trained for war and tested in battle. Many serve th
 **Kobolds.** *Tricksters and Servants to Chromatic Dragons*
 
 - **Habitat.** Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Cowardly cousins to chromatic dragons, kobolds serve draconic overlords as warriors and servants. These scrappy menaces mimic the behaviors of their dragon masters. Though their small stature and recklessness make kobolds poor imitators of dragons, what they lack in ferocity they make up for in zeal and ingenuity. They are especially adept at creating traps and setting ambushes.
 
@@ -4061,8 +3946,6 @@ Krakens usually have little interest in mortal affairs. These terrors were creat
 Krakens rarely appear on the surface, but when they do, they herald times of change and doom. When roused to action, these titans directly attack coastal cities or whole armadas. Kraken onslaughts persist until their wrath is sated, their divine patrons are appeased, or their egos are placated by valuable offerings. Roll on or choose a result from the Kraken Attacks table to inspire what ruin a kraken might unleash.
 
 **Kraken Attacks**
-
-`dice: [](2-monsters-a-to-z.md#^kraken-attacks)`
 
 | dice: 1d8 | The Enraged Kraken... |
 |-----------|-----------------------|
@@ -4096,7 +3979,7 @@ Most kuo-toa follow the orders of their more powerful leaders out of a combinati
 **Kuo-toa.** *Fishlike Fanatics of the Deep*
 
 - **Habitat.** Coastal, Underdark  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Kuo-toa have slimy, humanoid bodies and the heads of goggle-eyed deep-sea fish. They claim they once dominated whole worlds, their empires spanning land and sea under the blessings of piscine gods. The kuo-toa can't say what disaster brought their glorious civilization to an end, but elves, humans, mind flayers, and the kuo-toan gods bear the brunt of their blame. From the lands and seas of the surface, the kuo-toa retreated into cavernous trenches and Underdark seas. In these hidden realms, kuo-toa brood over all they've lost and forgotten, nursing plots to avenge themselves for slights that might never have occurred.
 
@@ -4109,8 +3992,6 @@ Kuo-toa frequently serve depraved masterminds such as aboleths and krakens. Such
 Lacking information about what their other gods look like, kuo-toa priests invent new forms for them, creating divine idols with whatever objects are at hand. But whether these kuo-toa priests draw power from belief or delusion, aberrant talent, or a stranger supernatural source, some power answers their petitions. Roll twice on or choose results from the Kuo-toa Deity Features table to inspire how kuo-toa represent a deity.
 
 **Kuo-toa Deity Features**
-
-`dice: [](2-monsters-a-to-z.md#^kuo-toa-deity-features)`
 
 | dice: 1d10 | The Deity's Head Is Like A... | The Deity's Body Is Like A... |
 |------------|-------------------------------|-------------------------------|
@@ -4129,8 +4010,6 @@ Lacking information about what their other gods look like, kuo-toa priests inven
 **Kuo-toa Sanctuaries.** Kuo-toa typically organize their communities around sites they believe to be important to their deities. These might be structures or series of caverns, and most feature both air-filled and submerged chambers. Important places within these sites suggest the rituals of kuo-toa faiths, the demands of kuo-toa deities, or the whims of omen-seeking archpriests. As with kuo-toa deities, the features of these locations vary between communities. Roll on or choose a result from the Kuo-toa Ritual Sites table to inspire features and suggest adventures within a kuo-toa community.
 
 **Kuo-toa Ritual Sites**
-
-`dice: [](2-monsters-a-to-z.md#^kuo-toa-ritual-sites)`
 
 | dice: 1d8 | The Kuo-toa Community Features... |
 |-----------|-----------------------------------|
@@ -4173,15 +4052,13 @@ Lacking information about what their other gods look like, kuo-toa priests inven
 **Lamia.** *Accursed Bargainer and Ruin Raider*
 
 - **Habitat.** Desert  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Legends say the first lamia was an ambitious ruler who made a sinister bargain with the demon lord Graz'zt for everlasting majesty. As a consequence, the ruler was transformed into a lamia, a monster with the body of a lion and an accursed touch.
 
 Lamias either are descendants of that first lamia or have made similar deals. They often dwell near ruins, seeking mysterious magic they can use to gain riches and influence. Lamias use magical illusions and enchantments to trick others into serving them. They sometimes work with bandits to abduct travelers, releasing captives only if they accept a dangerous bargain. Roll on or choose a result from the Lamia Pacts table to inspire a lamia's desires.
 
 **Lamia Pacts**
-
-`dice: [](2-monsters-a-to-z.md#^lamia-pacts)`
 
 | dice: 1d6 | The Lamia Compels the Bargainer To... |
 |-----------|---------------------------------------|
@@ -4239,7 +4116,7 @@ The least of all devils, lemures arise from wicked souls, their mortal memories 
 **Lich.** *Deathless Master of Magic*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Some nefarious magic-users carry out forbidden necromantic rituals that sever their souls from their bodies to turn themselves into liches, masters of magic and undeath. With their souls preserved in hidden relics, liches puppet their own corpses as they pursue ambitions free from mortal bonds.
 
@@ -4254,8 +4131,6 @@ Although liches don't fear death, they're not free from the ravages of time. Ove
 Spirit jars are typically small, well-made objects that were meaningful to a lich in life. Roll on or choose a result from the Lich Spirit Jar table to inspire where a lich hides its soul.
 
 **Lich Spirit Jars**
-
-`dice: [](2-monsters-a-to-z.md#^lich-spirit-jars)`
 
 | dice: 1d8 | The Lich's Spirit Jar Is... |
 |-----------|-----------------------------|
@@ -4304,15 +4179,13 @@ Lizardfolk dwell in wildernesses suffused with primal magic. While many lizardfo
 **Mages.** *Magical Scholars and Spellcasters*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Mages are magical wonder-workers, ranging from spellcasting overlords to reclusive witches. They study mystical secrets and possess insight into monsters, legends, omens, and other lore. Mages often gather allies or hire assistants to aid them in their research or to attain magical might.
 
 Roll on or choose a result from the Mage Roles table to inspire different sorts of mages.
 
 **Mage Roles**
-
-`dice: [](2-monsters-a-to-z.md#^mage-roles)`
 
 | dice: 1d10 | The Mage Is... |
 |------------|----------------|
@@ -4393,8 +4266,6 @@ Despite their ravenous tendencies, manticores enjoy speaking with those they're 
 
 **Manticore Negotiations**
 
-`dice: [](2-monsters-a-to-z.md#^manticore-negotiations)`
-
 | dice: 1d8 | The Manticore Agrees To... |
 |-----------|----------------------------|
 | 1 | Attack a particular foe. |
@@ -4417,7 +4288,7 @@ Despite their ravenous tendencies, manticores enjoy speaking with those they're 
 **Marid.** *Genie of the Water*
 
 - **Habitat.** Coastal, Planar (Elemental Plane of Water), Underwater  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Marids surge with the power of the seas, using it to manipulate the waves or create water. These genies typically dwell in or near bodies of water. While gentle marids make homes amid springs, oases, and serene pools, tempestuous marids inhabit sea stacks, whirlpools, and treacherous coasts. Marids vary in appearance, their bodies reflecting the colors of the waves while distinctive fins and scales accent their features. Marids lend their powers and knowledge of the seas to those who defend the marids' watery realms or who offer them pleasing gifts. Marids appreciate rare aquatic treasures, such as colorful pearls, shell instruments, or delicacies from distant seas.
 
@@ -4433,7 +4304,7 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
 **Marilith.** *Demon of Cruelty and Viciousness*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
 
@@ -4454,8 +4325,6 @@ With their hair of living snakes and their infamous petrifying gazes, medusas ar
 Medusas are born or created through preternatural circumstances. Roll on or choose a result from the Medusa Fates table to inspire what led to a medusa's creation.
 
 **Medusa Fates**
-
-`dice: [](2-monsters-a-to-z.md#^medusa-fates)`
 
 | dice: 1d6 | The Medusa Was... |
 |-----------|-------------------|
@@ -4551,15 +4420,13 @@ Merrow raid coastal settlements and merfolk communities to steal weapons and tre
 **Mezzoloth.** *Yugoloth of Tenacity and Want*
 
 - **Habitat.** Planar (Gehenna)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Mezzoloths are insectile yugoloths that seek power and souls in the service of fiendish lords. These greedy, violent yugoloths are more direct than most of their scheming brethren, but what they lack in guile they make up for in persistence and numbers.
 
 Mezzoloths typically form mercenary bands with others of their kind. These forces serve more powerful yugoloths, other fiends, sinister mages, or anyone who provides them with tempting rewards. Mezzoloths obediently adhere to the bargains they strike, potentially serving their patrons for centuries, but once those terms expire, yesterday's client could become today's target. Roll on or choose a result from the Mezzoloth Payments table to inspire a mezzoloth's price for its services.
 
 **Mezzoloth Payments**
-
-`dice: [](2-monsters-a-to-z.md#^mezzoloth-payments)`
 
 | dice: 1d6 | The Mezzoloth Agrees to Serve For... |
 |-----------|--------------------------------------|
@@ -4669,7 +4536,7 @@ Weapon rack
 **Mind Flayers.** *Brain-Eating Underdark Tyrants*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Scattered survivors of a world-ruining, multiversal empire, mind flayers lurk in secret conclaves hidden deep within Material Plane worlds. Within their alien sanctuaries, these wicked masterminds—also known as illithids—reshape the Underdark and its inhabitants to serve their unfathomable whims. Mind flayers are feared for their psionic powers, which allow them to stun and control other creatures, and for their horrific method of feeding: using their four slimy tentacles to extract the brains of their victims.
 
@@ -4678,8 +4545,6 @@ Mind flayers are infamous plotters and manipulators, concocting plans that reach
 **Mind Flayer Colonies.** Mind flayers work as lone schemers, in mysterious cabals, or as part of worlds-spanning illithid conspiracies. In groups, mind flayers work toward bizarre agendas organized by an elder brain—a massive, brain-like being with incredible psionic powers. Without such a leader, groups of mind flayers fall to self-destructive squabbling. Roll on or choose a result from the Mind Flayer Machinations table to inspire an illithid conclave's plots.
 
 **Mind Flayer Machinations**
-
-`dice: [](2-monsters-a-to-z.md#^mind-flayer-machinations)`
 
 | dice: 1d6 | The Mind Flayer Colony Seeks To... |
 |-----------|------------------------------------|
@@ -4704,15 +4569,13 @@ Mind flayers are infamous plotters and manipulators, concocting plans that reach
 **Minotaur of Baphomet.** *Berserker of the Demon Lord of Beasts*
 
 - **Habitat.** Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Baphomet, Demon Lord of Beasts, claims to have created minotaurs and demands their worship. While most minotaurs live free of the demon lord's bonds, those that serve him become minotaurs of Baphomet. These brutes resemble the hulking, horned demon lord more than others of their kind, and they wreak havoc in that foul immortal's name. Rarely, non-minotaurs cursed by magic-users or spiteful deities might transform into these monsters.
 
 Minotaurs of Baphomet often dwell in mazes, leading their allies to hidden destinations and stalking trespassers. Roll on or choose a result from the Minotaur Mazes table to inspire the shape of a minotaur's dwelling.
 
 **Minotaur Mazes**
-
-`dice: [](2-monsters-a-to-z.md#^minotaur-mazes)`
 
 | dice: 1d4 | The Minotaur of Baphomet Lurks In... |
 |-----------|--------------------------------------|
@@ -4745,8 +4608,6 @@ In rare cases, a modron goes rogue and develops its own will. In these cases, ot
 **Modron Marches.** Whether in service to lawful deities or as part of the Great Modron March, modrons travel from Mechanus to spread their vision of law to other planes of existence. Roll on or choose a result from the Modron Operations table to inspire what effort leads a group of modrons to other realms.
 
 **Modron Operations**
-
-`dice: [](2-monsters-a-to-z.md#^modron-operations)`
 
 | dice: 1d8 | The Modrons Work To... |
 |-----------|------------------------|
@@ -4794,7 +4655,7 @@ In rare cases, a modron goes rogue and develops its own will. In these cases, ot
 **Mummies.** *Deathless Ancients with Ageless Ambitions*
 
 - **Habitat.** Desert, Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Mysterious rites and mighty faith can tie spirits to their corpses, binding them to their remains for all time. Should their resting places be violated, these beings, known as mummies, reanimate their deteriorating bodies to restore the sanctity of their tombs and punish those who disturbed their rest.
 
@@ -4842,7 +4703,7 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
 **Nalfeshnee.** *Demon of Intimidation and Hopelessness*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Nalfeshnees seek to dominate all they encounter. Hulking and grotesque, these demons combine misshapen, bestial features with ogre-like frames. Through both brute force and cunning, nalfeshnees compel cultists and weaker demons to serve them in the endless conflicts of the Abyss or in plots on the Material Plane.
 
@@ -4862,7 +4723,7 @@ Many nalfeshnees view themselves as prospective demon lords and seek to conquer 
 **Night Hag.** *Hag of Nightmare and Corruption*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Night hags seek mortals to torment and turn to evil. By day, night hags use supernatural deceptions to plague their victims, shape-shifting to pose as other creatures and make their targets believe the world has turned against them. By night, these hags reinforce their tortures with terrifying dreams. Once they force their targets to desperate limits, night hags claim their victims' tormented spirits, capturing them in sinister traps called soul bags. The hags then slip between planes of existence to barter stolen souls to vile magic-users and fiendish entities.
 
@@ -4885,8 +4746,6 @@ Nightmares resemble horses with flaming manes, burning hooves, and smoldering ey
 Nightmares' speed, resilience, and ability to gallop between planes of existence make them steeds coveted by evildoers. Roll on or choose a result from the Nightmare Riders table to inspire what might employ a nightmare steed.
 
 **Nightmare Riders**
-
-`dice: [](2-monsters-a-to-z.md#^nightmare-riders)`
 
 | dice: 1d6 | The Nightmare Carries... |
 |-----------|--------------------------|
@@ -4925,7 +4784,7 @@ Nobles encompass a variety of people with social influence. They might be rulers
 **Nothic.** *Witness to the Weird*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Consumed by their thirst for forbidden knowledge, nothics are cursed lore seekers transformed by secrets never meant to be known. The bodies of these former scholars are warped into otherworldly shapes, each with a head dominated by a gigantic, unblinking eye. Nothics remember nothing of their past lives and care only for their endless pursuit of hidden mysteries and uncanny truths. They seek revelations amid the rubble of forgotten ruins, and they use their supernatural sight to pierce magical deceptions, rot the flesh of enemies, and steal the secrets of those who interrupt their investigations.
 
@@ -4945,7 +4804,7 @@ Some nothics seek to end the curse that warped them into their bizarre forms, bu
 **Nycaloth.** *Yugoloth of Strategy and Strife*
 
 - **Habitat.** Planar (Gehenna)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Fiendish warmongers, nycaloths relish combat and conquest. These tremendous winged yugoloths teleport around battlefields and into the air to bewilder their foes and attack with constantly shifting, Gehenna-forged axes—mercurial weapons similar to those favored by many yugoloths.
 
@@ -4954,8 +4813,6 @@ Nycaloths might command groups of mezzoloths and make pacts to serve arcanaloths
 Nycaloths and other yugoloths frequently serve as mercenary forces in extraplanar conflicts that spill onto the Material Plane. Roll on or choose a result from the Yugoloth Incursions table to inspire the plans of a yugoloth war band.
 
 **Yugoloth Incursions**
-
-`dice: [](2-monsters-a-to-z.md#^yugoloth-incursions)`
 
 | dice: 1d4 | Yugoloth Mercenaries Seek To... |
 |-----------|---------------------------------|
@@ -4987,15 +4844,13 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 
 **Ochre Jelly Leftovers**
 
-`dice: [](2-monsters-a-to-z.md#^ochre-jelly-leftovers)`
-
 | dice: 1d6 | After a Meal, the Ochre Jelly Leaves Behind... |
 |-----------|------------------------------------------------|
 | 1 | A bone etched with a word or an eerie symbol. |
 | 2 | Broken dragonborn or tiefling horns. |
 | 3 | An ornate prosthetic limb. |
 | 4 | The skeleton of an explorer's pet (perhaps a small dog, monkey, or parrot). |
-| 5 | A skull with gold teeth worth `d4` GP. |
+| 5 | A skull with gold teeth worth `1d4` GP. |
 | 6 | A spotless suit of metal armor. |
 ^ochre-jelly-leftovers
 
@@ -5009,7 +4864,7 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 **Ogres.** *Raging Hulks and Hoarders*
 
 - **Habitat.** Arctic, Desert, Forest, Grassland, Hill, Mountain, Swamp, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Ogres are selfish raiders and hulking gluttons spawned of hateful supernatural forces. From dismal ruins and bleak hinterlands, they raid vulnerable communities and ambush travelers. Ogres covet food and treasure, and they spitefully destroy art, books, clockwork devices, and other delicate or lovingly made things. Occasionally they kidnap victims to eat later or, more rarely, performers who catch their interest.
 
@@ -5028,15 +4883,13 @@ Ogres trace their origins to wrathful deities such as Erythnul, Takhisis, and Va
 **Oni.** *Wickedness Drawn to the Wicked*
 
 - **Habitat.** Forest, Urban  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Oni are elusive entities that inhabit dark forests and other wildernesses. By shape-shifting into the form of an innocent or moving invisibly, oni encroach on communities and lonely roads. They frequently harass people of faith, testing the limits of their piousness, or torment selfish people, punishing them for their wickedness. Wise communities often have guardian statues, annual rituals, or local superstitions meant to keep oni at bay. In rare cases, an oni might gradually befriend such communities and protect them from other threats for generations.
 
 Oni torment villages that don't pay them or other supernatural forces respect. Roll on or choose a result from the Oni Troubles table to inspire how an oni menaces such communities.
 
 **Oni Troubles**
-
-`dice: [](2-monsters-a-to-z.md#^oni-troubles)`
 
 | dice: 1d4 | The Oni Torments People By... |
 |-----------|-------------------------------|
@@ -5064,8 +4917,6 @@ Otyughs often bury themselves amid trash heaps and observe their surroundings wi
 
 **Otyugh Lures**
 
-`dice: [](2-monsters-a-to-z.md#^otyugh-lures)`
-
 | dice: 1d4 | To Attract Potential Meals, the Otyugh... |
 |-----------|-------------------------------------------|
 | 1 | Disguises its tentacles with garbage puppets. |
@@ -5092,13 +4943,11 @@ Owlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear 
 
 **Owlbear Den Features**
 
-`dice: [](2-monsters-a-to-z.md#^owlbear-den-features)`
-
 | dice: 1d4 | An Owlbear Den Contains... |
 |-----------|----------------------------|
 | 1 | Evidence of previous occupants, like bandits, wolves, or dragons. |
 | 2 | Heaps of regurgitated pellets studded with coins or other treasure. |
-| 3 | A nest with `d6` owlbear eggs. |
+| 3 | A nest with `1d6` owlbear eggs. |
 | 4 | Passages through the earth or hollow trees. |
 ^owlbear-den-features
 
@@ -5125,8 +4974,6 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
 
 **Pegasus Offerings**
 
-`dice: [](2-monsters-a-to-z.md#^pegasus-offerings)`
-
 | dice: 1d4 | A Pegasus Won't Flee Someone... |
 |-----------|---------------------------------|
 | 1 | Bearing the gear of a hero the pegasus aided. |
@@ -5149,7 +4996,7 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
 **Performers.** *Artists and Entertainers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 From royal courts to village squares, skilled entertainers hone their talents and delight audiences. Some travel far, sharing tales and demonstrating mysterious arts. Others serve in the courts and theaters of great nations, cultivating celebrity and navigating the whims of patrons. Many hone professional secrets and magical flourishes, striving to make their performances truly unforgettable.
 
@@ -5235,15 +5082,13 @@ Wrestler
 **Peryton.** *Winged Heart Hunter*
 
 - **Habitat.** Hill, Mountain  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Perytons are monstrous predators that hunt people—particularly humans and elves—in favor of all other prey. With the bodies of mighty avian scavengers and fanged, stag-like heads, perytons use ambush tactics to dive-bomb travelers. Strangely, the shadows they cast resemble humanoid silhouettes. This supernatural oddity lends credence to stories that perytons are cursed humans or elves, or that they arise from carrion birds that feed on the corpses of villains.
 
 Perytons tear out the hearts of those they slay, carrying the organs back to grisly lairs. This gives rise to numerous superstitions surrounding perytons. Roll on or choose a result from the Peryton Superstitions table to inspire why a peryton steals hearts.
 
 **Peryton Superstitions**
-
-`dice: [](2-monsters-a-to-z.md#^peryton-superstitions)`
 
 | dice: 1d4 | If a Peryton Collects Enough Hearts... |
 |-----------|----------------------------------------|
@@ -5303,7 +5148,7 @@ Piercers are the larval form of ropers. Young piercers seek to move as far from 
 **Pirates.** *Freebooters and Fortune Hunters*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Implements  
+- **Treasure.** Individual, [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 The term "pirate" encompasses a broad range of seafarers, including vicious sea rovers, dogged privateers, cursed treasure hunters, and others who seek riches and fame on the seas.
 
@@ -5312,8 +5157,6 @@ Pirates might be allies, foes, wild cards, or some combination thereof. While th
 **Pirate Flags.** To terrify opponents and spread their reputations, pirate crews fly distinctive flags. Roll twice on or choose results from the Pirate Flags table to inspire what flag a pirate crew sails under.
 
 **Pirate Flags**
-
-`dice: [](2-monsters-a-to-z.md#^pirate-flags)`
 
 | dice: 1d8 | The Flag Shows A... | With... |
 |-----------|---------------------|---------|
@@ -5343,7 +5186,7 @@ Pirates might be allies, foes, wild cards, or some combination thereof. While th
 **Pit Fiend.** *Devil of Domination*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Masterminds of the Nine Hells and generals of infernal legions, pit fiends seek conquests across the planes of existence. More than warmongers, these diabolical tyrants concoct intricate plots that play out among fiendish battlefields, infernal politics, and mortal conspiracies.
 
@@ -5361,7 +5204,7 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
 **Pixies.** *Friends of the Forest*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They invisibly observe those who enter their wooded homes, revealing themselves to those with friendly intentions. Those who are unfriendly become the targets of pixies' pranks.
 
@@ -5378,15 +5221,13 @@ Barely a foot tall, pixies resemble diminutive elves with gossamer wings. They i
 **Planetar.** *Righteously Wrathful Angelic Warrior*
 
 - **Habitat.** Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Planetars deliver the punishment of righteous gods. These angels innately know truth from lies, and they use magic and blessed weapons to protect the just and root out wickedness across the Multiverse.
 
 These angels act where they can against overwhelming evil, but to avoid the attention of the Lower Planes, they prefer to let mortals attend to affairs on the Material Plane. Planetars often choose mortal champions to oppose threats they're loath to face directly, involving themselves only if necessary. Roll on or choose a result from the Planetar Quests table to inspire what evil a planetar might recruit heroes to thwart.
 
 **Planetar Quests**
-
-`dice: [](2-monsters-a-to-z.md#^planetar-quests)`
 
 | dice: 1d6 | The Planetar Entreats a Mortal Hero To... |
 |-----------|-------------------------------------------|
@@ -5416,8 +5257,6 @@ Poltergeists telekinetically move objects in the places they lurk. Roll on or ch
 
 **Poltergeist Activities**
 
-`dice: [](2-monsters-a-to-z.md#^poltergeist-activities)`
-
 | dice: 1d8 | To Torment the Living, the Poltergeist... |
 |-----------|-------------------------------------------|
 | 1 | Keeps returning a discarded item. |
@@ -5440,15 +5279,13 @@ Poltergeists telekinetically move objects in the places they lurk. Roll on or ch
 **Priests.** *Arbiters of the Mortal and the Divine*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Priests harness the power of faith to work miracles. These religious adherents are as diverse as the faiths they follow. Some obey gods and their servants, while others live by age-old creeds. Belief guides priests' actions and their magic, which they use to shape the world in line with their ideologies.
 
 Roll on or choose a result from the Priest Roles table to inspire different sorts of priests.
 
 **Priest Roles**
-
-`dice: [](2-monsters-a-to-z.md#^priest-roles)`
 
 | dice: 1d10 | The Priest Is... |
 |------------|------------------|
@@ -5484,7 +5321,7 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 **Pseudodragon.** *Fickle, Pint-Sized Dragon*
 
 - **Habitat.** Coastal, Desert, Forest, Hill, Mountain, Urban  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Pseudodragons dwell in scenic wildernesses, preferably where life is easy and prey is small and slow. There they behave like contented wyrms, creating tiny lairs amid ancient trees and rugged cliffs. They fill these lairs with shiny rocks, colorful shells, and unattended treasures that catch their attention, and they guard these hoards fiercely.
 
@@ -5495,8 +5332,6 @@ Many magic-users attempt to befriend pseudodragons, hoping to enlist them as fam
 Many pseudodragons prefer the finer things in life. These diminutive dragons might be inclined to aid those who ply them with treats. Contrariwise, mages who don't properly pamper their pseudo dragon familiars might be abandoned without warning. Roll on or choose an option from the Pseudo dragon Treats table to inspire a pseudodragon's taste in gifts.
 
 **Pseudodragon Treats**
-
-`dice: [](2-monsters-a-to-z.md#^pseudodragon-treats)`
 
 | dice: 1d10 | The Pseudodragon Wants... |
 |------------|---------------------------|
@@ -5587,7 +5422,7 @@ Quasits are usually overlooked and underestimated by other demons. This drives t
 **Rakshasa.** *Deceiver Hungry for Power and Flesh*
 
 - **Habitat.** Planar (Nine Hells), Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Masters of manipulation, rakshasas infiltrate communities to claim positions of power. While disguising their true natures, they kidnap victims and indulge their insatiable hunger for flesh.
 
@@ -5685,14 +5520,12 @@ Rocs nest amid remote heights. Their nests are typically littered with treasure 
 
 **Roc Nest Remnants**
 
-`dice: [](2-monsters-a-to-z.md#^roc-nest-remnants)`
-
 | dice: 1d6 | The Roc's Nest Holds... |
 |-----------|-------------------------|
 | 1 | The burial litter of a lost hero. |
 | 2 | A caravan wagon full of trade goods. |
 | 3 | A live elephant. |
-| 4 | `d4` eggs larger than adult humans. |
+| 4 | `1d4` eggs larger than adult humans. |
 | 5 | Someone marooned in the nest. |
 | 6 | A statue of a knight riding a rearing steed. |
 ^roc-nest-remnants
@@ -5714,8 +5547,6 @@ Camouflaged as rock formations, ropers are aberrant ambushers that lurk in wait 
 Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their undersides, ropers can climb walls and suspend themselves from ceilings. These hunters often position themselves in unexpected or treacherous locations, using their surroundings to weaken their prey. Roll on or choose a result from the Roper Hazards table to inspire what dangers ropers employ when ambushing prey.
 
 **Roper Hazards**
-
-`dice: [](2-monsters-a-to-z.md#^roper-hazards)`
 
 | dice: 1d8 | The Roper Drags Prey Through... |
 |-----------|---------------------------------|
@@ -5785,7 +5616,7 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 **Salamanders.** *Serpentine Artists of the Inferno*
 
 - **Habitat.** Planar (Elemental Plane of Fire), Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Salamanders are serpentine denizens of the Elemental Plane of Fire. They believe that flames expose the purest forms of all things and delight in burning and melting things, seeing fleeting beauty and striking nuances in blazes consuming different fuels—ancient forests, artistic masterpieces, or living creatures. To salamanders, those that can't endure their flames are nothing but ashes in disguise. They harbor malice toward few creatures, but they consider creating remarkable flames more important than the pain and loss their fires cause.
 
@@ -5811,7 +5642,7 @@ Salamanders are typically content to dwell on the Elemental Plane of Fire, creat
 **Satyrs.** *Horned and Hoofed Revelers*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Satyrs embody the untamed joys of the wilderness. They indulge in sprees of merrymaking—eating, drinking, performing, fighting, and frolicking.
 
@@ -5836,8 +5667,6 @@ Although scarecrows take their name from rural effigies, they might take varied 
 
 **Scarecrow Frames**
 
-`dice: [](2-monsters-a-to-z.md#^scarecrow-frames)`
-
 | dice: 1d8 | The Scarecrow Is Made From... |
 |-----------|-------------------------------|
 | 1 | Animal furs, bones, horns, and claws. |
@@ -5860,7 +5689,7 @@ Although scarecrows take their name from rural effigies, they might take varied 
 **Scouts.** *Watchers and Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Scouts are warriors of the wilderness, trained in hunting and tracking. They might be explorers or trappers, or they could perform more martial roles as archers, bounty hunters, or outriders.
 
@@ -5877,15 +5706,13 @@ Scouts are warriors of the wilderness, trained in hunting and tracking. They mig
 **Sea Hag.** *Hag of Despair and the Dismal Deep*
 
 - **Habitat.** Coastal, Underwater  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Sea hags loathe peace and beauty. Bitter, jealous creatures, they spread chaos and undermine joy however they can, undertaking elaborate deceptions to sow discord for its own sake. The hags' true forms are supernaturally vile, and their baleful gazes can strike down creatures [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) by their appearance.
 
 Sea hags cloak themselves in illusions to work their schemes. Roll on or choose a result from the Sea Hag Disguises table to inspire a sea hag's illusion and how they might use it to wreak chaos and destruction.
 
 **Sea Hag Disguises**
-
-`dice: [](2-monsters-a-to-z.md#^sea-hag-disguises)`
 
 | dice: 1d6 | The Sea Hag Takes the Form of A... |
 |-----------|------------------------------------|
@@ -5916,8 +5743,6 @@ Shadows lurk in dark, lonely places, typically sites that were meaningful to the
 Shadows might resemble the silhouettes of who they were in life or take on more menacing forms. Roll on or choose a result from the Shadow Shapes table to inspire a shadow's form and haunting.
 
 **Shadow Shapes**
-
-`dice: [](2-monsters-a-to-z.md#^shadow-shapes)`
 
 | dice: 1d6 | The Shadow Appears As... |
 |-----------|--------------------------|
@@ -5998,8 +5823,6 @@ Strange circumstances might give rise to shambling mounds, transforming vegetati
 
 **Shambling Mound Cultivation**
 
-`dice: [](2-monsters-a-to-z.md#^shambling-mound-cultivation)`
-
 | dice: 1d6 | The Shambling Mound Is... |
 |-----------|---------------------------|
 | 1 | Covered in vibrant alien or Feywild blooms. |
@@ -6036,7 +5859,7 @@ Shield guardians are typically constructed of steel, stone, and wood in the shap
 **Silver Dragons.** *Dragons of Courage and Fairness*
 
 - **Habitat.** Mountain, Urban  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Silver dragons work to preserve peace and encourage greatness. They try to live as examples of decency while remaining watchful against evil.
 
@@ -6074,8 +5897,6 @@ Silver dragons take inspiration from legendary heroes and have grand ambitions. 
 Skeletons rise at the summons of necromancers and foul spirits. Whether they're the remains of the ancient dead or fresh bones bound to morbid ambitions, they commit deathless work for whatever forces reanimated them, often serving as guardians, soldiers, or laborers. In rare cases, skeletons are reanimated but given no particular direction. Roll on or choose a result from the Skeleton Pantomimes table to inspire how undirected skeletons behave.
 
 **Skeleton Pantomimes**
-
-`dice: [](2-monsters-a-to-z.md#^skeleton-pantomimes)`
 
 | dice: 1d6 | Left to Its Own Devices, the Skeleton... |
 |-----------|------------------------------------------|
@@ -6192,8 +6013,6 @@ Specters seek creatures and locations that exude evil and feed on the suffering 
 
 **Specter Haunts**
 
-`dice: [](2-monsters-a-to-z.md#^specter-haunts)`
-
 | dice: 1d8 | The Specter Lurks Near... |
 |-----------|---------------------------|
 | 1 | A community afflicted by curses, grudges, plagues, or tragedies. |
@@ -6216,7 +6035,7 @@ Specters seek creatures and locations that exude evil and feed on the suffering 
 **Sphinxes.** *Collectors and Keepers of Secrets*
 
 - **Habitat.** Desert, Planar (Upper Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Sphinxes protect the secrets of the multiverse. Formed from the spirits of sages and explorers, sphinxes know the power of truth and the importance of preserving it. They share their wisdom only with those who prove themselves wise or overcome tests of worthiness, such as riddles or battles with dangerous beasts. Through their existences, sphinxes might change form as they gain more nuanced understanding of cosmic enigmas.
 
@@ -6260,13 +6079,11 @@ Sphinxes protect the secrets of the multiverse. Formed from the spirits of sages
 **Spies.** *Infiltrators and Informants*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Spies gather information and disseminate lies, manipulating people to gain the results the spies' patrons desire. They're trained to manipulate, infiltrate, and—when necessary—escape in a hurry. Many adopt disguises, aliases, or code names to maintain anonymity. Roll on or choose a result from the Spy Personas table to inspire a spy's disguise.
 
 **Spy Personas**
-
-`dice: [](2-monsters-a-to-z.md#^spy-personas)`
 
 | dice: 1d4 | The Spy Disguises Themself As... |
 |-----------|----------------------------------|
@@ -6295,8 +6112,6 @@ Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes,
 
 **Spined Devil Intelligence**
 
-`dice: [](2-monsters-a-to-z.md#^spined-devil-intelligence)`
-
 | dice: 1d6 | The Spined Devil Covets Information About... |
 |-----------|----------------------------------------------|
 | 1 | Artifacts, their locations, and their owners. |
@@ -6317,15 +6132,13 @@ Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes,
 **Spirit Naga.** *Spiteful Serpentine Grudge Keeper*
 
 - **Habitat.** Planar (Lower Planes), Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Spirit nagas loathe the world and all creatures. Possessing perfect memories, these venomous, cobra-like creatures recall every slight committed against them during their immortal existences. In their dank, joyless lairs, they create vicious plots to avenge themselves against even petty offenses.
 
 Spirit nagas seek to claim what they believe they deserve. Their schemes often involve poisons, vile spells, cursed objects, or magical compulsions, eventually making them wellsprings of diabolical knowledge and evil inspiration. Other villains often seek out spirit nagas as advisers and allies. Roll on or choose a result from the Spirit Naga Grievances table to inspire what motivates a spirit naga's schemes.
 
 **Spirit Naga Grievances**
-
-`dice: [](2-monsters-a-to-z.md#^spirit-naga-grievances)`
 
 | dice: 1d6 | The Spirit Naga Believes... |
 |-----------|-----------------------------|
@@ -6347,7 +6160,7 @@ Spirit nagas seek to claim what they believe they deserve. Their schemes often i
 **Sprite.** *Elusive Defender of Fey Realms*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Sprites dwell in mystical forests touched by the magic of the Feywild, living peacefully with most other Fey and friends of nature. These foot-tall spirits of nature resemble elves with exaggerated, whimsical features and gossamer wings.
 
@@ -6375,8 +6188,6 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
 
 **Stirge Roosts**
 
-`dice: [](2-monsters-a-to-z.md#^stirge-roosts)`
-
 | dice: 1d4 | Between Hunts, the Stirge Lurks In... |
 |-----------|---------------------------------------|
 | 1 | The attic or furniture of a ruined building. |
@@ -6398,7 +6209,7 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
 **Stone Giant.** *Giant of the Earth*
 
 - **Habitat.** Mountain, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 In cavernous depths and amid mountain canyons, stone giants contemplate the strength and persistence of the earth. Stone giants have rugged features and skin with patterns and hues similar to the rock common near their homes. This makes them adept at blending in with their stony surroundings despite their size.
 
@@ -6424,8 +6235,6 @@ Stone golems are typically created to protect places of significance to a group,
 
 **Stone Golem Orders**
 
-`dice: [](2-monsters-a-to-z.md#^stone-golem-orders)`
-
 | dice: 1d6 | The Stone Golem Follows Orders To... |
 |-----------|--------------------------------------|
 | 1 | Allow only those wearing ritual garb to pass. |
@@ -6450,7 +6259,7 @@ Stone golems are typically created to protect places of significance to a group,
 **Storm Giant.** *Giant of Seas and Skies*
 
 - **Habitat.** Coastal, Underwater  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Among the tallest giants, storm giants live amid extreme forces of nature. In palaces at the bottom of the sea and castles floating amid the clouds, they revel in the power of mighty storms. When angered, they can shape the weather and call down devastating lightning. More often, though, these giants watch the rise and fall of nations and interpret supernatural omens, interfering in the world only when they're needed most.
 
@@ -6464,15 +6273,13 @@ Among the tallest giants, storm giants live amid extreme forces of nature. In pa
 **Succubus.** *Life-Draining Seducer*
 
 - **Habitat.** Planar (Lower Planes), Urban  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Succubi prey on mortals physically and exploit their waking desires. They relish corrupting virtuous souls and the pain an individual's downfall can cause. Once their targets are at their lowest, succubi slay their victims with their essence-draining kiss.
 
 Through fiendish rites, succubi can transform into incubi to manipulate their prey in dreams as well as the waking world. They can also change shape to torment their victims. These tempters can dominate Humanoids, but they usually do so to reinforce their manipulations or defend themselves rather than controlling others outright. Roll on or choose a result from the Succubus Temptations table to inspire how a succubus toys with its victims.
 
 **Succubus Temptations**
-
-`dice: [](2-monsters-a-to-z.md#^succubus-temptations)`
 
 | dice: 1d6 | The Succubus Manipulates Its Target By... |
 |-----------|-------------------------------------------|
@@ -6510,8 +6317,6 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
 
 **Tarrasque Evidence**
 
-`dice: [](2-monsters-a-to-z.md#^tarrasque-evidence)`
-
 | dice: 1d4 | Amid Destruction, the Tarrasque Leaves... |
 |-----------|-------------------------------------------|
 | 1 | Evidence of a magic spell reflected back on its caster, like Ice Knife or Melf's Acid Arrow. |
@@ -6530,7 +6335,7 @@ Few things survive the tarrasque's rampages, and reports of the monster's devast
 **Thri-kreen.** *Mantid Psychics and Scavengers*
 
 - **Habitat.** Desert, Grassland  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Thri-kreen are mantis-like wanderers who harness their innate camouflage and psychic abilities to survive. Different groups of thri-kreen have distinct carapaces, from the rocky shades of desert dwellers to the vibrant hues of those living in verdant lands. While their language has a distinctly insectile quality, thri-kreen often use telepathy to communicate, and groups can rapidly share a wealth of detailed information without making a sound.
 
@@ -6551,7 +6356,7 @@ Thri-kreen are mantis-like wanderers who harness their innate camouflage and psy
 **Toughs.** *Brawlers and Bullies*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Bodyguards, belligerents, and laborers, toughs rely on their physical strength to intimidate foes. They might be brawny criminals, rowdy tavern goers, seasoned workers, or anyone who uses their muscle to get what they want.
 
@@ -6580,8 +6385,6 @@ Treants defend and are shaped by secrets of the forest. Roll on or choose a resu
 
 **Treant Secrets**
 
-`dice: [](2-monsters-a-to-z.md#^treant-secrets)`
-
 | dice: 1d6 | The Treant Is... |
 |-----------|------------------|
 | 1 | Blessed by a god and grows magic fruit. |
@@ -6602,7 +6405,7 @@ Treants defend and are shaped by secrets of the forest. Roll on or choose a resu
 **Troglodyte.** *Reeking Subterranean Hunter*
 
 - **Habitat.** Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 With features similar to those of pale cave lizards, troglodytes stalk the Underdark in an endless hunt for food. Troglodytes consume almost anything, including bones, giant insects, and other subterranean dwellers. They prey on subterranean communities and those near entrances to the Underdark, stealing livestock and kidnapping residents.
 
@@ -6643,15 +6446,13 @@ Trolls typically hunt alone, but small groups occasionally cooperate to ambush p
 **Ultroloth.** *Yugoloth of Conspiracy and Control*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 With uncanny patience and fiendish cunning, ultroloths manipulate mortals and their fellow yugoloths alike, seeking to hoard power and spread suffering. These sinister masterminds often work with other yugoloths, but they might compel nearly any creature into their service. If coercion doesn't work, ultroloths use their eerie eyes and innate magic to hypnotize or charm targets.
 
 Ultroloths strive to achieve planes-spanning plots. Roll on or choose a result from the Ultroloth Conspiracies table to inspire such villainy.
 
 **Ultroloth Conspiracies**
-
-`dice: [](2-monsters-a-to-z.md#^ultroloth-conspiracies)`
 
 | dice: 1d6 | The Ultroloth Schemes To... |
 |-----------|-----------------------------|
@@ -6715,8 +6516,6 @@ Undead vampires lie dormant during the day, retreating to resting places hidden 
 
 **Vampire Resting Places**
 
-`dice: [](2-monsters-a-to-z.md#^vampire-resting-places)`
-
 | dice: 1d6 | The Vampire's Resting Place Is... |
 |-----------|-----------------------------------|
 | 1 | Among the roots of a dead tree. |
@@ -6761,7 +6560,7 @@ Undead vampires lie dormant during the day, retreating to resting places hidden 
 **Vrock.** *Demon of Carnage and Ruin*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Screeching, vulturelike demons, vrocks soar from the Abyss to spread ruin and slaughter. Their filthy feathers carry magical toxins from the Lower Planes, creating a noxious cloud capable of killing those who escape the vrocks' vicious beaks and claws. To further terrorize their foes, vrocks unleash an otherworldly screech so terrible it can halt creatures in their tracks.
 
@@ -6777,15 +6576,13 @@ Screeching, vulturelike demons, vrocks soar from the Abyss to spread ruin and sl
 **Warriors.** *Soldiers and Scrappers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Warriors are professionals who make a living through their prowess in battle. They might be skilled in using a variety of tactics or trained to take advantage of unusual battlefields. Warriors often work together, whether in armies or in teams with deliberate goals.
 
 Roll on or choose a result from the Warrior Roles table to inspire the creation of different sorts of warriors.
 
 **Warrior Roles**
-
-`dice: [](2-monsters-a-to-z.md#^warrior-roles)`
 
 | dice: 1d10 | The Warrior Is... |
 |------------|-------------------|
@@ -6829,8 +6626,6 @@ Water elementals' shapes are influenced by the liquid bodies in which they form.
 
 **Water Elemental Compositions**
 
-`dice: [](2-monsters-a-to-z.md#^water-elemental-compositions)`
-
 | dice: 1d4 | The Water Elemental's Body Features... |
 |-----------|----------------------------------------|
 | 1 | Chilling or near-boiling temperatures. |
@@ -6873,7 +6668,7 @@ Water weirds might protect a site for generations and learn much about their sur
 **Werebear.** *Changed by the Might of the Bear*
 
 - **Habitat.** Arctic, Forest, Hill  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 When threatened or compelled by magic, werebears shape-shift from their humanoid forms into mighty bears or hybrids of those two forms. They scare off or sabotage those who threaten the wilds, and they frequently aid Fey, druids, or spirits of the wilderness, as many owe their magical nature to such forces. Werebears take the shape of bears common to the regions in which they dwell, with brown and polar bear forms being common.
 
@@ -6911,13 +6706,11 @@ Wererats can shape-shift from their humanoid forms into giant rats or humanoid-r
 **Weretiger.** *Changed by the Power of the Tiger*
 
 - **Habitat.** Desert, Forest, Grassland  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Weretigers shape-shift from humanoid forms into tigers or tiger-humanoid hybrids. Although they can transform at will or when their magical nature demands, many weretigers are nocturnal and transform into their bestial shapes at night. Some weretigers' transformations might also be tied to the crescent moon, seasons, or momentous events. Weretigers often view their abilities as a blessing or a family honor, and they use their shape-shifting abilities to defend something with historic importance. Roll on or choose a result from the Weretiger Wards table to inspire what a weretiger defends.
 
 **Weretiger Wards**
-
-`dice: [](2-monsters-a-to-z.md#^weretiger-wards)`
 
 | dice: 1d4 | The Weretiger Protects A... |
 |-----------|-----------------------------|
@@ -6955,7 +6748,7 @@ Werewolves change from their humanoid forms into fierce wolves or wolf-humanoid 
 **White Dragons.** *Dragons of Cold and Cruelty*
 
 - **Habitat.** Arctic  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Among the most primal chromatic dragons, white dragons prioritize survival over all. Life is harsh and uncertain in the arctic expanses, glacial heights, and frozen seas where these dragons dwell. White dragons fiercely protect their territories, scouring the frigid regions for food and evidence of trespassers. Most white dragons ignore the plots of smaller creatures and other dragons, concerning themselves only with their own survival.
 
@@ -6986,7 +6779,7 @@ White dragons create lairs to defend themselves from other deadly arctic creatur
 **Wight.** *Life-Leeching Corpse Warrior*
 
 - **Habitat.** Desert, Planar (Shadowfell), Swamp, Underdark, Urban  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Wights are the withered corpses of relentless warriors whose wickedness sustains them beyond death. Unlike mere zombies, they retain the memories and evil agendas they harbored in life.
 
@@ -6995,8 +6788,6 @@ After dying and returning from the grave, a wight continues its villainous ways,
 Wights might return from the dead for a multitude of sinister reasons. Roll on or choose a result from the Wight Motives table to inspire why a wight plagues the living.
 
 **Wight Motives**
-
-`dice: [](2-monsters-a-to-z.md#^wight-motives)`
 
 | dice: 1d8 | The Wight Returned from the Dead To... |
 |-----------|----------------------------------------|
@@ -7027,8 +6818,6 @@ From a distance, will-o'-wisps look like lanterns bobbing in the dark. Through t
 Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a will-o'-wisp imperils its victims.
 
 **Will-o'-Wisp Ambushes**
-
-`dice: [](2-monsters-a-to-z.md#^will-o-wisp-ambushes)`
 
 | dice: 1d6 | The Will-o'-Wisp Tempts Victims Into... |
 |-----------|-----------------------------------------|
@@ -7099,8 +6888,6 @@ Wraiths might arise from a single powerfully evil soul or other baleful forces. 
 
 **Wraith Manifestations**
 
-`dice: [](2-monsters-a-to-z.md#^wraith-manifestations)`
-
 | dice: 1d10 | The Wraith Embodies... |
 |------------|------------------------|
 | 1 | The blasphemous magic of a cursed location. |
@@ -7156,8 +6943,6 @@ Rapt gourmands, xorn focus on their next meals. They care little for living crea
 Roll on or choose a result from the Xorn Delicacies table to inspire a xorn's favorite fare.
 
 **Xorn Delicacies**
-
-`dice: [](2-monsters-a-to-z.md#^xorn-delicacies)`
 
 | dice: 1d8 | The Xorn Craves... |
 |-----------|--------------------|
@@ -7226,7 +7011,7 @@ Despite their service to demon lords, yochlols harbor their own vicious whims an
 **Yuan-ti.** *Power-Hungry Serpentine Conspirators*
 
 - **Habitat.** Desert, Forest, Swamp, Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Exploiting pacts with sinister supernatural forces, yuan-ti bargain away their humanity for the lethality and predatory deviousness of serpents. From hidden bastions, they manipulate rulers and the wealthy, seeking to control the world. Many yuan-ti possess venomous magic, which often manifests as fangs or striking serpents.
 
@@ -7235,8 +7020,6 @@ Yuan-ti have humanlike forms with a variety of horrifying serpentine transformat
 Yuan-ti might gain their reptilian features through dangerous supernatural rites. Roll on or choose a result from the Yuan-ti Transformations table to inspire how yuan-ti obtain their serpentine aspects.
 
 **Yuan-ti Transformations**
-
-`dice: [](2-monsters-a-to-z.md#^yuan-ti-transformations)`
 
 | dice: 1d6 | A Yuan-ti Gained Its Snake Features From... |
 |-----------|---------------------------------------------|

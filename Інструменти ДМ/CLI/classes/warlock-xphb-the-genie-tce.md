@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/warlock/genie
@@ -56,8 +57,6 @@ You choose your patron's kind or determine it randomly, using the Genie Kind tab
 
 **Genie Kind**
 
-`dice: [](warlock-xphb-the-genie-tce.md#^genie-kind)`
-
 | dice: d4 | Kind | Element |
 |----------|------|---------|
 | 1 | [Dao](Інструменти%20ДМ/CLI/bestiary/elemental/dao-xmm.md) | Earth |
@@ -92,8 +91,6 @@ The Genie lets you choose from an expanded list of spells when you learn a warlo
 Your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.
 
 **Genie's Vessel**
-
-`dice: [](warlock-xphb-the-genie-tce.md#^genies-vessel)`
 
 | dice: d6 | Vessel |
 |----------|--------|
@@ -143,4 +140,4 @@ In addition, anyone (including you) who remains within the vessel for at least 1
 
 You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.
 
-Once you use this feature, you can't use it again until you finish `d4` long rests.
+Once you use this feature, you can't use it again until you finish `1d4` long rests.

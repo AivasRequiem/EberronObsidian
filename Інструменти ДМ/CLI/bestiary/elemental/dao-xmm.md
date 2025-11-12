@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -22,7 +23,7 @@ aliases:
 *Genie of the Earth*
 
 - **Habitat.** Planar (Elemental Plane of Earth), Underdark  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Genies of minerals and gemstones, dao embody the resolve of rock. Using innate magic, they move through the earth unimpeded, exploring depths inaccessible to most. Dao delight in the treasures of the earth, whether raw gemstones, jewelry crafted from pure metals, or wondrous fossils. In exchange for such treasures, dao might reveal underground mysteries, such as paths through the Underdark, buried ruins, or whole subterranean realms.
 
@@ -55,7 +56,8 @@ Many dao call the Elemental Plane of Earth home. There, they create cities that 
   - "dexterity": !!int "5"
   - "wisdom": !!int "5"
 "condition_immunities": "[petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Primordial (Terran)"
 "cr": "11"
 "traits":
@@ -63,7 +65,7 @@ Many dao call the Elemental Plane of Earth home. There, they create cities that 
       \ doing so, the dao doesn't disturb the material it moves through."
     "name": "Earth Glide"
   - "desc": "If the dao dies outside the Elemental Plane of Earth, its body dissolves\
-      \ into dirt, and it gains a new body in d4 days, reviving with all its [Hit\
+      \ into dirt, and it gains a new body in 1d4 days, reviving with all its [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
       \ on the Plane of Earth."
     "name": "Elemental Restoration"
@@ -80,21 +82,21 @@ Many dao call the Elemental Plane of Earth home. There, they create cities that 
 "actions":
   - "desc": "The dao makes three Earthen Maul attacks or two Earth Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 20 (4d6 + 6) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 20 (4d6 + 6) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Earthen Maul"
-  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 15 (2d8 + 6) Bludgeoning\
-      \ damage. Hit or Miss: Earth explodes from the target's space, creating the\
-      \ following effect. Dexterity Saving Throw: DC 16, each creature in a 10-foot\
+  - "desc": "*Ranged Attack Roll:* +10, range 120 ft. *Hit:* 15 (2d8 + 6) Bludgeoning\
+      \ damage. *Hit or Miss:* Earth explodes from the target's space, creating the\
+      \ following effect. *Dexterity Saving Throw:* DC 16, each creature in a 10-foot\
       \ [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from and including the target. Failure: 10 (3d6) Thunder damage."
+      \ originating from and including the target. *Failure:* 10 (3d6) Thunder damage."
     "name": "Earth Burst"
   - "desc": "The dao casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
       \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Stone Shape](І\
-      нструменти%20ДМ/CLI/spells/stone-shape-xphb.md)\n\n1/day each: [Gaseous\
+      нструменти%20ДМ/CLI/spells/stone-shape-xphb.md)\n\n**1/day each:** [Gaseous\
       \ Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Invisibility](Ін\
       струменти%20ДМ/CLI/spells/invisibility-xphb.md), [Move Earth](Інструменти%20Д\
       М/CLI/spells/move-earth-xphb.md), [Passwall](Інструменти%20ДМ/CLI/spells/passwall-xphb.md),\

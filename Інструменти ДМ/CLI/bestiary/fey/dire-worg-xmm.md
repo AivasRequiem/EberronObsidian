@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -53,7 +54,8 @@ Sometimes mistaken at first for giant wolves, worgs are vicious hunters. These s
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+11"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 21"
 "languages": "Goblin, Sylvan, Worg"
 "cr": "10"
 "traits":
@@ -63,16 +65,16 @@ Sometimes mistaken at first for giant wolves, worgs are vicious hunters. These s
 "actions":
   - "desc": "The worg makes three Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Piercing\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 15 (2d8 + 6) Piercing\
       \ damage plus 7 (2d6) Poison damage, and the target has the [Poisoned](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ the worg's next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Bite"
-  - "desc": "Wisdom Saving Throw: DC 16, each creature within 30 feet that isn't\
-      \ a worg. Failure: 36 (8d8) Psychic damage, and the target has the [Frightened](І\
+  - "desc": "*Wisdom Saving Throw:* DC 16, each creature within 30 feet that isn't\
+      \ a worg. *Failure:* 36 (8d8) Psychic damage, and the target has the [Frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the start\
-      \ of the worg's next turn. Success: Half damage only."
+      \ of the worg's next turn. *Success:* Half damage only."
     "name": "Dreadful Howl (Recharge 5-6)"
 "bonus_actions":
   - "desc": "The worg teleports, along with a willing creature of its choice within\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/15
@@ -50,7 +51,8 @@ Titanic purple worms burrow through the earth and sand. Ever ravenous, they devo
 "saves":
   - "constitution": !!int "11"
   - "wisdom": !!int "4"
-"senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., Tremorsense\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "15"
 "traits":
@@ -61,19 +63,19 @@ Titanic purple worms burrow through the earth and sand. Ever ravenous, they devo
 "actions":
   - "desc": "The worm makes one Bite attack and one Tail Stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 22 (3d8 + 9) Piercing\
+  - "desc": "*Melee Attack Roll:* +14, reach 10 ft. *Hit:* 22 (3d8 + 9) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 19),\
       \ and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 16 (2d6 + 9) Piercing\
+  - "desc": "*Melee Attack Roll:* +14, reach 10 ft. *Hit:* 16 (2d6 + 9) Piercing\
       \ damage plus 35 (10d6) Poison damage."
     "name": "Tail Stinger"
 "bonus_actions":
-  - "desc": "Strength Saving Throw: DC 19, one Large or smaller creature [Grappled](І\
+  - "desc": "*Strength Saving Throw:* DC 19, one Large or smaller creature [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the worm (it can have up\
-      \ to three creatures swallowed at a time). Failure: The target is swallowed\
+      \ to three creatures swallowed at a time). *Failure:* The target is swallowed\
       \ by the worm, and the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition ends. A swallowed creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) conditions,\

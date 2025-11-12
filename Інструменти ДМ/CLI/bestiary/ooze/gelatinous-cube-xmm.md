@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -25,8 +26,6 @@ aliases:
 Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns and dungeons, engulfing anything in their paths. These Oozes are naturally transparent, making them difficult to see while they're stationary. Creatures and objects that become stuck within these slimes are gradually dissolved. Undigested detritus sometimes floats within a gelatinous cube, hinting at its past meals. Roll on or choose a result from the Gelatinous Cube Debris table to inspire a gelatinous cube's contents.
 
 **Gelatinous Cube Debris**
-
-`dice: [](gelatinous-cube-xmm.md#^gelatinous-cube-debris)`
 
 | dice: 1d6 | Floating in the Gelatinous Cube Is A... |
 |-----------|-----------------------------------------|
@@ -61,7 +60,8 @@ Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns a
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [prone](Інс\
   трументи%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -82,21 +82,21 @@ Quivering masses of acidic goo, gelatinous cubes wobble through narrow caverns a
       \ otherwise act."
     "name": "Transparent"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 12 (3d6 + 2) Acid damage."
     "name": "Pseudopod"
   - "desc": "The cube moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \ The cube can move through the spaces of Large or smaller creatures if it has\
       \ room inside itself to contain them (see the Ooze [Cube](Інструменти%20ДМ/CLI/rules/variant-rules/cube-area-of-effect-xphb.md)\
-      \ trait). Dexterity Saving Throw: DC 12, each creature whose space the cube\
-      \ enters for the first time during this move. Failure: 10 (3d6) Acid damage,\
+      \ trait). *Dexterity Saving Throw:* DC 12, each creature whose space the cube\
+      \ enters for the first time during this move. *Failure:* 10 (3d6) Acid damage,\
       \ and the target is engulfed. An engulfed target is suffocating, can't cast\
       \ spells with a Verbal component, has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition, and takes 10 (3d6) Acid damage at the start of each of the cube's\
       \ turns. When the cube moves, the engulfed target moves with it. An engulfed\
       \ target can try to escape by taking an action to make a DC 12 Strength ([Athletics](І\
       нструменти%20ДМ/CLI/rules/skills.md#Athletics)) check. On a successful check,\
-      \ the target escapes and enters the nearest unoccupied space. Success: Half\
+      \ the target escapes and enters the nearest unoccupied space. *Success:* Half\
       \ damage, and the target moves to an unoccupied space within 5 feet of the cube.\
       \ If there is no unoccupied space, the target fails the save instead."
     "name": "Engulf"

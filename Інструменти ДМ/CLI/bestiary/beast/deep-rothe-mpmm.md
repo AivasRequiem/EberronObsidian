@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -39,7 +40,8 @@ Many kinds of cattle roam the multiverse, some of them domesticated and others f
   - !!int "10"
   - !!int "4"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -47,7 +49,7 @@ Many kinds of cattle roam the multiverse, some of them domesticated and others f
       \ its carrying capacity."
     "name": "Beast of Burden"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage. If the rothé moved at least 20 feet straight\
       \ toward the target immediately before the hit, the target takes an extra 7\
       \ (2d6) piercing damage."

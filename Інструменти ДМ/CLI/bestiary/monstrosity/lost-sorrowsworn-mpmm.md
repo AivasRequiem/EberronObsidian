@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -51,16 +52,17 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - "name": "[Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": "Common"
 "cr": "7"
 "actions":
   - "desc": "The sorrowsworn makes two Arm Spike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d10 + 3) piercing damage."
     "name": "Arm Spike"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 25\
       \ (4d10 + 3) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 14) if it is a Medium or smaller\
       \ creature. Until the grapple ends, the target is [frightened](Інструменти%20Д\

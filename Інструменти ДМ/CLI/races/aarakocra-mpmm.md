@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/aarakocra
@@ -24,7 +25,7 @@ Because of your wings, you have a flying speed equal to your walking speed. You 
 
 ### Talons
 
-You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Wind Caller
 

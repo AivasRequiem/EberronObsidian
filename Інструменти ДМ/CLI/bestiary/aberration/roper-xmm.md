@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -27,8 +28,6 @@ Camouflaged as rock formations, ropers are aberrant ambushers that lurk in wait 
 Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their undersides, ropers can climb walls and suspend themselves from ceilings. These hunters often position themselves in unexpected or treacherous locations, using their surroundings to weaken their prey. Roll on or choose a result from the Roper Hazards table to inspire what dangers ropers employ when ambushing prey.
 
 **Roper Hazards**
-
-`dice: [](roper-xmm.md#^roper-hazards)`
 
 | dice: 1d8 | The Roper Drags Prey Through... |
 |-----------|---------------------------------|
@@ -69,7 +68,8 @@ Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their un
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
@@ -79,10 +79,10 @@ Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their un
 "actions":
   - "desc": "The roper makes two Tentacle attacks, uses Reel, and makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (3d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 17 (3d8 + 4) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +7, reach 60 ft. Hit: The target has the [Grappled](І\
+  - "desc": "*Melee Attack Roll:* +7, reach 60 ft. *Hit:* The target has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of six tentacles, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the grapple ends.\n\nThe tentacle can be damaged, freeing\

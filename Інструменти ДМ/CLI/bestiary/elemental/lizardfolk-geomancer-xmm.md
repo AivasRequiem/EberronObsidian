@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -57,19 +58,19 @@ Lizardfolk dwell in wildernesses suffused with primal magic. While many lizardfo
 "actions":
   - "desc": "The lizardfolk makes two Earth Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +4, reach 5 ft. or range 60 ft. *Hit:*\
       \ 9 (2d6 + 2) Bludgeoning damage."
     "name": "Earth Burst"
-  - "desc": "Constitution Saving Throw: DC 12, each creature in a 20-foot-radius,\
+  - "desc": "*Constitution Saving Throw:* DC 12, each creature in a 20-foot-radius,\
       \ 40-foot-high [Cylinder](Інструменти%20ДМ/CLI/rules/variant-rules/cylinder-area-of-effect-xphb.md)\
-      \ centered on a point the lizardfolk can see within 60 feet. Failure: 15 (6d4)\
+      \ centered on a point the lizardfolk can see within 60 feet. *Failure:* 15 (6d4)\
       \ Bludgeoning damage, and the target has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
-      \ condition. Success: Half damage only."
+      \ condition. *Success:* Half damage only."
     "name": "Hail of Stone (Recharge 5-6)"
   - "desc": "The lizardfolk casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md)\n\
-      \n1/day each: [Meld into Stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md),\
+      \n**At will:** [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md)\n\
+      \n**1/day each:** [Meld into Stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md),\
       \ [Speak with Plants](Інструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md),\
       \ [Spike Growth](Інструменти%20ДМ/CLI/spells/spike-growth-xphb.md)"
     "name": "Spellcasting"

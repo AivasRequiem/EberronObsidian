@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/ranger/fey-wanderer
@@ -53,7 +54,7 @@ A fey mystique surrounds you, thanks to the boon of an archfey or a location in 
 
 ### Dreadful Strikes (Level 3)
 
-You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra `d4` Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to `d6` when you reach Ranger level 11.
+You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra `1d4` Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to `1d6` when you reach Ranger level 11.
 
 ### Fey Wanderer Spells (Level 3)
 
@@ -73,8 +74,6 @@ When you reach a Ranger level specified in the Fey Wanderer Spells table, you th
 You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.
 
 **Feywild Gifts**
-
-`dice: [](ranger-xphb-fey-wanderer-xphb.md#^feywild-gifts)`
 
 | dice: 1d6 | Gift |
 |-----------|------|

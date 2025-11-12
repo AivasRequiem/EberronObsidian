@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -30,6 +31,6 @@ Until the spell ends, you have [Resistance](Інструменти%20ДМ/CLI/ru
 
 In addition, immediately after you take damage from a creature you can see within 60 feet of yourself, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to force the creature to make a Constitution saving throw. On a failed save, the creature has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the end of your next turn.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Moon)](Інструменти%20ДМ/CLI/lists/list-spells-classes-circle-of-the-moon-xphb.md "subclass=XPHB;class=XPHB"); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook (2024) p. 277*

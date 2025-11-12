@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/feat/ritual-caster
 aliases:
@@ -11,6 +12,7 @@ aliases:
 ## 1st Level
 
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB") 
+- [Ceremony](Інструменти%20ДМ/CLI/spells/ceremony-xge.md "XGE") 
 - [Comprehend Languages](Інструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md "XPHB") 
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB") 
 - [Detect Poison and Disease](Інструменти%20ДМ/CLI/spells/detect-poison-and-disease-xphb.md "XPHB") 

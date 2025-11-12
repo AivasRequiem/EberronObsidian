@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -65,7 +66,8 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Dwarvish, Undercommon"
 "cr": "12"
 "traits":
@@ -86,12 +88,12 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
       \ [opportunity attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \ It can replace one of the attacks with a use of Flame Jet."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 23\
       \ (4d8 + 5) bludgeoning damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet\
       \ away in a straight line and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Iron Fist"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) bludgeoning damage, or 21 (3d10 + 5) to a [prone](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Prone) target."
     "name": "Stomping Foot"
@@ -101,8 +103,8 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
     "name": "Flame Jet"
   - "desc": "The duergar casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor\
-      \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n1/day:\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor\
+      \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**1/day:**\
       \ [stinking cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "source":

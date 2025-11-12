@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -52,7 +53,7 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
 "actions":
   - "desc": "The acrobat makes two attacks with its barbed pole."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage, and the acrobat can jump up to 20 feet. This\
       \ movement doesn't provoke opportunity attacks."
     "name": "Barbed Pole"

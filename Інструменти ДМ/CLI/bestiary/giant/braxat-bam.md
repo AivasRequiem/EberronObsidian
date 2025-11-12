@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/9
@@ -41,7 +42,8 @@ A braxat projects an invisible psychic barrier around itself that enhances its n
 "damage_immunities": "acid, psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Giant"
 "cr": "9"
 "traits":
@@ -50,7 +52,7 @@ A braxat projects an invisible psychic barrier around itself that enhances its n
 "actions":
   - "desc": "The braxat makes two Greatclub attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The braxat exhales a 15-foot cone of acid. Each creature in the cone\
@@ -59,7 +61,7 @@ A braxat projects an invisible psychic barrier around itself that enhances its n
     "name": "Acid Breath (Recharge 6)"
   - "desc": "The braxat casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      1/day each: [compulsion](Інструменти%20ДМ/CLI/spells/compulsion-xphb.md),\
+      **1/day each:** [compulsion](Інструменти%20ДМ/CLI/spells/compulsion-xphb.md),\
       \ [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "reactions":

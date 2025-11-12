@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -59,7 +60,8 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
 "damage_resistances": "acid, cold"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "Sahuagin"
 "cr": "5"
 "traits":
@@ -76,14 +78,14 @@ Sahuagin constantly war on any peoples living near their territory. Merfolk and 
 "actions":
   - "desc": "The sahuagin makes three Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 13 (2d8 + 4) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 13 (2d8 + 4) Piercing damage."
     "name": "Trident"
 "reactions":
-  - "desc": "Trigger: The sahuagin takes Piercing or Slashing damage. _Response—_Constitution\
-      \ Saving Throw: DC 14, each creature of the sahuagin's choice in a 5-foot [Emanation](І\
+  - "desc": "Trigger: The sahuagin takes Piercing or Slashing damage. _Response—_*Constitution\
+      \ Saving Throw:* DC 14, each creature of the sahuagin's choice in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the sahuagin. Failure: 10 (3d6) Acid damage, and the target is cursed\
+      \ from the sahuagin. *Failure:* 10 (3d6) Acid damage, and the target is cursed\
       \ until it finishes a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
       \ or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).\
       \ While cursed, the target can't benefit from the [Invisible](Інструменти%20Д\

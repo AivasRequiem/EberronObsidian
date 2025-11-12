@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -22,13 +23,11 @@ Fiend cultists worship fiends or evil deities. They often work to bring ruin to 
 *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](fiend-cultist-xmm.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -45,8 +44,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](fiend-cultist-xmm.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -100,21 +97,22 @@ Cults can organize around any mystical tradition, but many serve supernatural be
     "desc": "+7"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+4"
-"senses": "darkvision 90 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 17"
 "languages": "Abyssal, Common, Infernal"
 "cr": "8"
 "actions":
   - "desc": "The cultist makes three Pact Axe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 10 (1d12 + 4) Slashing\
       \ damage plus 13 (3d8) Fire damage."
     "name": "Pact Axe"
   - "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15, +7 to hit with spell attacks):\n\nAt will:\
+      \ ability (spell save DC 15, +7 to hit with spell attacks):\n\n**At will:**\
       \ [Scorching Ray](Інструменти%20ДМ/CLI/spells/scorching-ray-xphb.md) (level\
       \ 5 version), [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\
-      \n2/day: [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) (level\
+      \n**2/day:** [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md) (level\
       \ 6 version)"
     "name": "Spellcasting"
 "reactions":

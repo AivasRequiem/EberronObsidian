@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -57,34 +58,35 @@ The lich doesn't require air, food, drink, or sleep.
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 18"
 "languages": "Common, Elvish, Kraul"
 "cr": "14"
 "traits":
   - "desc": "The lich is a 14th-level Golgari spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lich\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [acid\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [acid\
       \ splash](Інструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [chill touch](Ін\
       струменти%20ДМ/CLI/spells/chill-touch-xphb.md), [mage hand](Інструменти%20ДМ\
       /CLI/spells/mage-hand-xphb.md), [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1st level (4 slots): [chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md),\
+      \n**1st level (4 slots):** [chromatic orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md),\
       \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [ray of\
-      \ sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n2nd level\
-      \ (3 slots): [Melf's acid arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md),\
+      \ sickness](Інструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n**2nd level\
+      \ (3 slots):** [Melf's acid arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md),\
       \ [ray of enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md),\
       \ [spider climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md), [web](Ін\
-      струменти%20ДМ/CLI/spells/web-xphb.md)\n\n3rd level (3 slots): [animate\
+      струменти%20ДМ/CLI/spells/web-xphb.md)\n\n**3rd level (3 slots):** [animate\
       \ dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md), [bestow curse](Ін\
       струменти%20ДМ/CLI/spells/bestow-curse-xphb.md), [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md),\
-      \ [vampiric touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md)\n\n4th\
-      \ level (3 slots): [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [Evard's\
+      \ [vampiric touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md)\n\n**4th\
+      \ level (3 slots):** [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [Evard's\
       \ black tentacles](Інструменти%20ДМ/CLI/spells/evards-black-tentacles-xphb.md)\n\
-      \n5th level (2 slots): [cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md),\
-      \ [insect plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md)\n\n6th\
-      \ level (1 slots): [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
-      \ [create undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n7th\
-      \ level (1 slots): [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
+      \n**5th level (2 slots):** [cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md),\
+      \ [insect plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md)\n\n**6th\
+      \ level (1 slots):** [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md),\
+      \ [create undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n**7th\
+      \ level (1 slots):** [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Spellcasting"
   - "desc": "If the lich fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -101,13 +103,16 @@ The lich doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the lich drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Noxious Touch"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the devkarin lich can expend a use to take one of the following actions.\
+  \ The devkarin lich regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The lich casts one of its cantrips."
     "name": "Cantrip"

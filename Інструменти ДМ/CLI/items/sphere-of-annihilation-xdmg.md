@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/legendary
@@ -25,8 +26,6 @@ While in control of the sphere, you can take a [Bonus Action](Інструмен
 ## Sphere Interactions
 
 If the sphere comes into contact with a planar portal (such as that created by the [Gate](Інструменти%20ДМ/CLI/spells/gate-xphb.md) spell) or an extradimensional space (such as that within a Portable Hole), the DM determines randomly what happens using the following table.
-
-`dice: [](sphere-of-annihilation-xdmg.md#^1-result)`
 
 | dice: 1d100 | Result |
 |-------------|--------|

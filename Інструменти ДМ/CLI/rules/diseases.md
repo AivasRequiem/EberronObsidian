@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -11,10 +12,10 @@ aliases:
 ## Cackle Fever
 _Source: Dungeon Master's Guide (2024) p. 61. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
 
-Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which affects Humanoids only (gnomes are strangely immune). A creature suffers the following effects `d4` days after infection:
+Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which affects Humanoids only (gnomes are strangely immune). A creature suffers the following effects `1d4` days after infection:
 
 - **Fever.** The creature gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level, which lasts until the contagion ends on the creature.  
-- **Uncontrollable Laughter.** While the creature has the [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) condition, the creature makes a DC 13 Constitution saving throw each time it takes damage other than Psychic damage. On a failed save, the creature takes 5 (`d10`) Psychic damage and has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition as it laughs uncontrollably. At the end of each of its turns, the creature repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.  
+- **Uncontrollable Laughter.** While the creature has the [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) condition, the creature makes a DC 13 Constitution saving throw each time it takes damage other than Psychic damage. On a failed save, the creature takes 5 (`1d10`) Psychic damage and has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition as it laughs uncontrollably. At the end of each of its turns, the creature repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.  
 
 **Fighting the Contagion.** At the end of each Long Rest, an infected creature makes a DC 13 Constitution saving throw. After the creature succeeds on three of these saves, the contagion ends on it, and the creature is immune to Cackle Fever for 1 year.
 
@@ -23,7 +24,7 @@ Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which af
 ## Sewer Plague
 _Source: Dungeon Master's Guide (2024) p. 61. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
 
-Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects `d4` days after infection:
+Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects `1d4` days after infection:
 
 - **Fatigue.** The creature gains 1 [Exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level.  
 - **Weakness.** While the creature has any Exhaustion levels, it regains only half the normal number of Hit Points from spending Hit Point Dice.  

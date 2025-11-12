@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -33,7 +34,8 @@ aliases:
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 12"
 "languages": "Draconic, understands the languages you know"
 "traits":
   - "desc": "When you summon the spirit, choose one of its Resistances. You have Resistance\
@@ -43,12 +45,12 @@ aliases:
   - "desc": "The spirit makes a number of Rend attacks equal to half the spell's level\
       \ (round down), and it uses Breath Weapon."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 10\
-      \ feet. Hit: 1d6 + 4 + the spell's level Piercing damage."
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10\
+      \ feet. *Hit:* 1d6 + 4 + the spell's level Piercing damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC equals your spell save DC, each creature\
-      \ in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance\
-      \ to (your choice when you cast the spell). Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC equals your spell save DC, each creature\
+      \ in a 30-foot Cone. *Failure:* 2d6 damage of a type this spirit has Resistance\
+      \ to (your choice when you cast the spell). *Success:* Half damage."
     "name": "Breath Weapon"
 "source":
   - "XPHB"

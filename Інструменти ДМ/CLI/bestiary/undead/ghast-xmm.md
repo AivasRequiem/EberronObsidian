@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -52,23 +53,24 @@ Ghasts are reeking, undying corpses closely related to ghouls. They hunger for t
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common"
 "cr": "2"
 "traits":
-  - "desc": "Constitution Saving Throw: DC 10, any creature that starts its turn\
+  - "desc": "*Constitution Saving Throw:* DC 10, any creature that starts its turn\
       \ in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the ghast. Failure: The target has the [Poisoned](Інстр\
+      \ originating from the ghast. *Failure:* The target has the [Poisoned](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of its\
-      \ next turn. Success: The target is immune to this ghast's Stench for 24 hours."
+      \ next turn. *Success:* The target is immune to this ghast's Stench for 24 hours."
     "name": "Stench"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage plus 9 (2d8) Necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
       \ damage. If the target is a non-Undead creature, it is subjected to the following\
-      \ effect. Constitution Saving Throw: DC 10. Failure: The target has the\
+      \ effect. *Constitution Saving Throw:* DC 10. *Failure:* The target has the\
       \ [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) condition\
       \ until the end of its next turn."
     "name": "Claw"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -43,11 +44,11 @@ This massive four-legged dinosaur is large enough that most predators leave it a
 "languages": ""
 "cr": "5"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:*\
       \ 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14\
       \ Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Stomp"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:*\
       \ 32 (6d8 + 5) bludgeoning damage"
     "name": "Tail"
 "source":

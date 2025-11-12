@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -21,7 +22,7 @@ aliases:
 *Giant of the Ice and Snow*
 
 - **Habitat.** Arctic, Mountain  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 From glacial mountain heights and vast tundras rise the homes of frost giants. These giants have skin and hair of icy hues. Their natural immunity to cold allows them to flourish in places inhospitable to most other creatures. They use this resilience to aid them when hunting and in combat, bolstering their allies with chilling war cries.
 
@@ -65,10 +66,10 @@ Frost giants often travel far to find food and goods. This leads many to become 
 "actions":
   - "desc": "The giant makes two attacks, using Frost Axe or Great Bow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 10 ft. *Hit:* 19 (2d12 + 6) Slashing\
       \ damage plus 9 (2d8) Cold damage."
     "name": "Frost Axe"
-  - "desc": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6)\
+  - "desc": "*Ranged Attack Roll:* +9, range 150/600 ft. *Hit:* 17 (2d10 + 6)\
       \ Piercing damage plus 7 (2d6) Cold damage, and the target's [Speed](Інстр\
       ументи%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases by 10 feet until\
       \ the end of its next turn."

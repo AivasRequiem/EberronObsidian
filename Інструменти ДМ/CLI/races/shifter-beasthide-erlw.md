@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/shifter/beasthide
@@ -53,7 +54,7 @@ You have proficiency in the [Athletics](Інструменти%20ДМ/CLI/rules/
 
 ### Shifting Feature
 
-Whenever you shift, you gain `d6` additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.
+Whenever you shift, you gain `1d6` additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.
 
 ## Description
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/common
@@ -10,7 +11,7 @@ aliases:
 ---
 # Potion of Climbing
 *Potion, common*  
-
+![](Інструменти%20ДМ/CLI/items/img/potion-of-climbing.webp#right)
 
 - **Weight**: 0.5 lbs.
 

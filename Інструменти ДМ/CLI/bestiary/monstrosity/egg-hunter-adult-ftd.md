@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -48,7 +49,8 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
     "desc": "+11"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 14"
 "languages": ""
 "cr": "5"
 "traits":
@@ -64,7 +66,7 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - "desc": "The egg hunter makes two Barbed Proboscis attacks, and it can use Torpor\
       \ Spores if it's available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage, and the egg hunter\
       \ regains hit points equal to the necrotic damage dealt."
     "name": "Barbed Proboscis"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -54,8 +55,6 @@ Members of the Izzet League embody some combination of chaotic, frenetic energy 
 
 **Personality Traits**
 
-`dice: [](izzet-engineer-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I have a hard time staying focused on... oh, and my brain tends to jump from one... did I mention focus? |
@@ -70,8 +69,6 @@ Members of the Izzet League embody some combination of chaotic, frenetic energy 
 
 **Ideals**
 
-`dice: [](izzet-engineer-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -84,8 +81,6 @@ Members of the Izzet League embody some combination of chaotic, frenetic energy 
 
 **Bonds**
 
-`dice: [](izzet-engineer-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I have dedicated my life to finding a solution to a scientific problem. |
@@ -97,8 +92,6 @@ Members of the Izzet League embody some combination of chaotic, frenetic energy 
 ^bonds
 
 **Flaws**
-
-`dice: [](izzet-engineer-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -118,8 +111,6 @@ Roll twice on the Izzet Contacts table (for an ally and a rival) and once on the
 
 **Izzet Contacts**
 
-`dice: [](izzet-engineer-ggr.md#^izzet-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | An older relative is a member of the guild's board of directors. |
@@ -133,8 +124,6 @@ Roll twice on the Izzet Contacts table (for an ally and a rival) and once on the
 ^izzet-contacts
 
 **Non-Izzet Contacts**
-
-`dice: [](izzet-engineer-ggr.md#^non-izzet-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

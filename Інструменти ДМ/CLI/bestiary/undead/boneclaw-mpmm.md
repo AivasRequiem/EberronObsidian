@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -57,11 +58,12 @@ In service to its master, a boneclaw delights in causing horrific pain. It lurks
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 16"
 "languages": "Common plus one language spoken by its master"
 "cr": "12"
 "traits":
-  - "desc": "While its master lives, a destroyed boneclaw gains a new body in d10\
+  - "desc": "While its master lives, a destroyed boneclaw gains a new body in 1d10\
       \ hours, with all its hit points. The new body appears within 1 mile of the\
       \ boneclaw's master."
     "name": "Rejuvenation"
@@ -70,7 +72,7 @@ In service to its master, a boneclaw delights in causing horrific pain. It lurks
 "actions":
   - "desc": "The boneclaw makes two Piercing Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (3d10 + 4) piercing damage plus 11 (2d10) necrotic damage. If the target\
       \ is a creature, the boneclaw can pull the target up to 10 feet toward itself,\
       \ and the target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/17
@@ -56,7 +57,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   \ that aren't silvered"
 "damage_immunities": "fire, lightning, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "17"
 "traits":
@@ -69,17 +71,17 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "actions":
   - "desc": "The abishai makes three Bite or Lightning Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d10 + 2) piercing damage plus 14 (4d6) lightning damage."
     "name": "Bite"
-  - "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 36 (8d8) lightning damage."
     "name": "Lightning Strike"
   - "desc": "The abishai casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 20):\n\nAt will: [disguise self](І\
+      \ the spellcasting ability (spell save DC 20):\n\n**At will:** [disguise self](І\
       нструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [mage hand](Інструменти%20Д\
       М/CLI/spells/mage-hand-xphb.md), [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n2/day each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \n**2/day each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [greater\
       \ invisibility](Інструменти%20ДМ/CLI/spells/greater-invisibility-xphb.md), [wall\
       \ of force](Інструменти%20ДМ/CLI/spells/wall-of-force-xphb.md)"

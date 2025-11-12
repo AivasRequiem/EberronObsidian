@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -53,7 +54,7 @@ Once you use the sword to cast a spell, you can't cast that spell again from it 
 
 While the sword is on your person, you gain the following benefits:
 
-- **Battle Hunger.** You add `d10` to your [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
+- **Battle Hunger.** You add `1d10` to your [Initiative](Інструменти%20ДМ/CLI/rules/variant-rules/initiative-xphb.md) rolls.  
 - **Blade of Defense.** When you take an action to attack with the sword, you can transfer some or all of its attack bonus to your [Armor Class](Інструменти%20ДМ/CLI/rules/variant-rules/armor-class-xphb.md) instead. The adjusted bonuses remain in effect until the start of your next turn.  
 - **Necrotic Resistance.** You have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to Necrotic damage.  
 

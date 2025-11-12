@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Monstrosity
 
@@ -60,6 +62,7 @@ cssclasses: json5e-note
 - [Hoard Mimic](./hoard-mimic-ftd.md)
 - [Hoard Scarab](./hoard-scarab-ftd.md)
 - [Hook Horror](./hook-horror-xmm.md)
+- [Hound of Ill Omen](./hound-of-ill-omen-xge.md)
 - [Hungry Sorrowsworn](./hungry-sorrowsworn-mpmm.md)
 - [Hydra](./hydra-xmm.md)
 - [Juvenile Mimic](./juvenile-mimic-tce.md)

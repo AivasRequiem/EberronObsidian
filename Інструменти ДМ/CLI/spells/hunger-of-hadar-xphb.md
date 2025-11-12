@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/warlock
@@ -28,8 +29,8 @@ You open a gateway to the Far Realm, a region infested with unspeakable horrors.
 
 Any creature that starts its turn in the area takes `2d6` Cold damage. Any creature that ends its turn there must succeed on a Dexterity saving throw or take `2d6` Acid damage from otherworldly tentacles.
 
-**Using a Higher-Level Spell Slot.** The Cold or Acid damage (your choice) increases by `d6` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The Cold or Acid damage (your choice) increases by `1d6` for each spell slot level above 3.
 
-**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Warlock (Great Old One Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-great-old-one-patron-xphb.md "subclass=XPHB;class=XPHB"); [Sorcerer (Aberrant Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-aberrant-sorcery-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Sorcerer (Aberrant Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-aberrant-sorcery-xphb.md "subclass=XPHB;class=XPHB"); [Warlock (Great Old One Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-great-old-one-patron-xphb.md "subclass=XPHB;class=XPHB"); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md)
 
 *Source: Player's Handbook (2024) p. 286*

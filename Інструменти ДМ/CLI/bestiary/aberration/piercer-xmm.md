@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -51,7 +52,8 @@ Piercers are the larval form of ropers. Young piercers seek to move as far from 
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -59,12 +61,12 @@ Piercers are the larval form of ropers. Young piercers seek to move as far from 
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 5 (1d8 + 1) Piercing\
       \ damage."
     "name": "Bite"
-  - "desc": "The piercer falls. Dexterity Saving Throw: DC 11, one creature directly\
-      \ underneath the piercer. Failure: 10 (3d6) Piercing damage. Failure or\
-      \ Success: The piercer reduces any damage it takes from the fall by 20."
+  - "desc": "The piercer falls. *Dexterity Saving Throw:* DC 11, one creature directly\
+      \ underneath the piercer. *Failure:* 10 (3d6) Piercing damage. *Failure or\
+      \ Success:* The piercer reduces any damage it takes from the fall by 20."
     "name": "Drop"
 "source":
   - "XMM"

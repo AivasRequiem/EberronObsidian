@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Red Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
@@ -25,7 +26,7 @@ At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/besti
 - **Noxious Smoke.** A cloud of thick, dark smoke fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is heavily obscured. A creature other than the dragon that starts its turn in the cloud or enters it for the first time on its turn must succeed on a DC 15 Constitution saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) until the end of its turn. The cloud lasts until initiative count 20 on the next round.  
 - **Searing Heat.** Searing heat spreads out in a 15-foot-radius sphere centered on a point the dragon can see within 120 feet of it. Any creature that enters the affected area or starts its turn there must make a DC 15 Constitution saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one. The heat lasts until initiative count 20 on the next round.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 The region containing a legendary red dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
@@ -34,7 +35,7 @@ The region containing a legendary red dragon's lair is warped by the dragon's ma
 - Water sources within 1 mile of the lair are supernaturally warm and tainted by sulfur.  
 - Rocky fissures within 1 mile of the dragon's lair form portals to the Elemental Plane of Fire, allowing creatures of elemental fire into the world to dwell nearby.  
 
-If the dragon dies, these effects fade over the course of `d10` days.
+If the dragon dies, these effects fade over the course of `1d10` days.
 
 ### Additional Regional Effects
 

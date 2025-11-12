@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/abjurer
 aliases:
@@ -14,10 +15,12 @@ aliases:
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") at class level 3
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB") at class level 3
 - [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md "XPHB") at class level 3
 - [Protection from Evil and Good](Інструменти%20ДМ/CLI/spells/protection-from-evil-and-good-xphb.md "XPHB") at class level 3
 - [Shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md "XPHB") at class level 3
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") at class level 3
 
 ## 2nd Level
 
@@ -65,4 +68,5 @@ aliases:
 ## 9th Level
 
 - [Imprisonment](Інструменти%20ДМ/CLI/spells/imprisonment-xphb.md "XPHB") at class level 3
+- [Invulnerability](Інструменти%20ДМ/CLI/spells/invulnerability-xge.md "XGE") at class level 3
 - [Prismatic Wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md "XPHB") at class level 3

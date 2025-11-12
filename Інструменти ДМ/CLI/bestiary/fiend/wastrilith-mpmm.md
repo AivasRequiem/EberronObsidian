@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -50,7 +51,8 @@ Creatures that ingest water corrupted by a wastrilith risk their very souls. Tho
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -76,10 +78,10 @@ Creatures that ingest water corrupted by a wastrilith risk their very souls. Tho
   - "desc": "The wastrilith makes one Bite attack and two Claw attacks, and it uses\
       \ Grasping Spout."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 30 (4d12 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (4d6 + 4) slashing damage."
     "name": "Claws"
   - "desc": "The wastrilith magically launches a spout of water at one creature it\

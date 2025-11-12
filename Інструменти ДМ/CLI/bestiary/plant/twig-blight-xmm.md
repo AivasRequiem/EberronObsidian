@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -53,7 +54,8 @@ Blights are malicious plants that sprout from deep-rooted evil. Their gnarled fo
     "desc": "+4"
 "damage_vulnerabilities": "fire"
 "condition_immunities": "[deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened)"
-"senses": "blindsight 60 ft., passive Perception 9"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 9"
 "languages": "understands Common but can't speak"
 "cr": "1/8"
 "traits":
@@ -63,7 +65,7 @@ Blights are malicious plants that sprout from deep-rooted evil. Their gnarled fo
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Slashing\
       \ damage."
     "name": "Claw"
 "source":

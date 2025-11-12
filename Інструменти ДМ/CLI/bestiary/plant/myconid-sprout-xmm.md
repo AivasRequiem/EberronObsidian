@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -43,7 +44,8 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
   - !!int "11"
   - !!int "5"
 "speed": "10 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "telepathy 240 ft."
 "cr": "0"
 "traits":
@@ -52,8 +54,8 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
       \ The myconid dies if it spends more than 1 hour in sunlight."
     "name": "Sun Sickness"
 "actions":
-  - "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Bludgeoning\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "*Melee Attack Roll:* +1, reach 5 ft. *Hit:* 1 (1d4 - 1) Bludgeoning\
+      \ damage plus 2 (1d4) Poison damage."
     "name": "Slam"
   - "desc": "The myconid expels spores in a 30-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
       \ originating from itself. Creatures in that area with an Intelligence score\

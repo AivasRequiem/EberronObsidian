@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -50,7 +51,8 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
     "desc": "+3"
   - "name": "[Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance)"
     "desc": "+5"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 13"
 "languages": "Aquan, telepathy 120 ft."
 "cr": "3"
 "traits":
@@ -59,7 +61,7 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
 "actions":
   - "desc": "The dolphin makes two Dazzling Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage plus 7 (2d6) psychic damage, and the target\
       \ is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the start\
       \ of the dolphin's next turn."

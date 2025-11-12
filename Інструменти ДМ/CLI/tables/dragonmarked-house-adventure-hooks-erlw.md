@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 192* 
 
 **Dragonmarked House Adventure Hooks**
-
-`dice: [](dragonmarked-house-adventure-hooks-erlw.md#^dragonmarked-house-adventure-hooks)`
 
 | dice: d12 | Adventure Hook |
 |-----------|----------------|

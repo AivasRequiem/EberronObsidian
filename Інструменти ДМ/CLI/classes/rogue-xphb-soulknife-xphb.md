@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/rogue/soulknife
@@ -90,7 +91,7 @@ You can manifest shimmering blades of psychic energy. Whenever you take the [Att
 
 The blade vanishes immediately after it hits or misses its target, and it leaves no mark if it deals damage.
 
-After you attack with the blade on your turn, you can make a melee or ranged attack with a second psychic blade as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on the same turn if your other hand is free to create it. The damage die of this bonus attack is `d4` instead of `d6`.
+After you attack with the blade on your turn, you can make a melee or ranged attack with a second psychic blade as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md) on the same turn if your other hand is free to create it. The damage die of this bonus attack is `1d4` instead of `1d6`.
 
 ### Soul Blades (Level 9)
 

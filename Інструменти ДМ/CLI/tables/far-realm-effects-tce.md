@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -11,13 +12,11 @@ aliases:
 
 **Far Realm Effects**
 
-`dice: [](far-realm-effects-tce.md#^far-realm-effects)`
-
 | dice: d100 | Effect |
 |------------|--------|
 | 01–09 | A structure in the region whispers faintly. Any creature within 60 feet of the structure that can hear it must succeed on a DC 12 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed). While [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way, the creature must move toward the source of the whispering, avoiding obvious hazards. When it reaches the source, it is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated). The creature can repeat the saving throw when it takes damage and at the end of every hour, ending the effect on itself on a success. |
 | 10–18 | An elder evil turns its attention to the region, imposing the pressure of its unfathomable presence upon the place. Any creature that finishes a rest in the region must succeed on a DC 12 Charisma saving throw, or it gains no benefit from finishing the rest. It instead finds strange scrawls, stacked stones, or its belongings arranged in intricate, abstruse patterns nearby. |
-| 19–27 | Local plants and animals share a malevolent intelligence. Roll a `d6`. On a 1–2, an [insect plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md) spell is centered on one random creature in the region. On a 3–4, `d4` [swarms of ravens](Інструменти%20ДМ/CLI/bestiary/beast/swarm-of-ravens-xmm.md) and `d4` [swarms of rats](Інструменти%20ДМ/CLI/bestiary/beast/swarm-of-rats-xmm.md) gather and attack any other creatures in the region. On a 5–6, a [treant](Інструменти%20ДМ/CLI/bestiary/plant/treant-xmm.md) (in forested terrain) or a [galeb duhr](Інструменти%20ДМ/CLI/bestiary/elemental/galeb-duhr-xmm.md) (in rockier terrain) attacks. |
+| 19–27 | Local plants and animals share a malevolent intelligence. Roll a `d6`. On a 1–2, an [insect plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md) spell is centered on one random creature in the region. On a 3–4, `1d4` [swarms of ravens](Інструменти%20ДМ/CLI/bestiary/beast/swarm-of-ravens-xmm.md) and `1d4` [swarms of rats](Інструменти%20ДМ/CLI/bestiary/beast/swarm-of-rats-xmm.md) gather and attack any other creatures in the region. On a 5–6, a [treant](Інструменти%20ДМ/CLI/bestiary/plant/treant-xmm.md) (in forested terrain) or a [galeb duhr](Інструменти%20ДМ/CLI/bestiary/elemental/galeb-duhr-xmm.md) (in rockier terrain) attacks. |
 | 28–36 | Distance no longer functions in a comprehensible manner within the region. Creatures make ranged attack rolls with disadvantage, and the range of those attacks is halved. |
 | 37–45 | The landscape melts into a mass of writhing flesh, eyes, and fanged mouths. From an unoccupied space in the fleshy ground arise `1d4 + 5` [gibbering mouthers](Інструменти%20ДМ/CLI/bestiary/aberration/gibbering-mouther-xmm.md) that attack anyone in sight. |
 | 46–54 | Unintelligible murmurings threaten to overcome the mind of one random creature within the region. At the start of the creature's turn, it must succeed on a DC 13 Intelligence saving throw or use its action to make one melee attack against the nearest creature it can see. If there are no other creatures within reach, the target spends its action babbling. |

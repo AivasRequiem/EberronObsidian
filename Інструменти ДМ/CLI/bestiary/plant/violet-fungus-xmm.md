@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -46,13 +47,14 @@ The dank, sunless Underdark is a fertile breeding ground for weird and dangerous
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [deafened](Інстру\
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., passive Perception 6"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 6"
 "languages": ""
 "cr": "1/4"
 "actions":
   - "desc": "The fungus makes two Rotting Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +2, reach 10 ft. Hit: 4 (d8) Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 10 ft. *Hit:* 4 (1d8) Necrotic damage."
     "name": "Rotting Touch"
 "source":
   - "XMM"

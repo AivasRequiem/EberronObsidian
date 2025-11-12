@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -68,18 +69,19 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 20"
 "languages": "all"
 "cr": "14"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 19,\
       \ +11 to hit with spell attacks). The angel can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [command](Інстру\
+      \ spells, requiring no material components:\n\n**At will:** [command](Інстру\
       менти%20ДМ/CLI/spells/command-xphb.md) (as a 2nd-level spell), [detect evil\
-      \ and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\n3/day\
-      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (as\
+      \ and good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\n**3/day\
+      \ each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md) (as\
       \ a 5th-level spell), [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
-      \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n1/day:\
+      \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n**1/day:**\
       \ [raise dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "As a bonus action, the angel targets a creature [charmed](Інструменти\
@@ -97,7 +99,7 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
   - "desc": "The angel makes two attacks with its scythe. It can substitute Chains\
       \ of Obligation for one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage."
     "name": "Scythe"
   - "desc": "The angel targets one creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\

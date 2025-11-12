@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -13,7 +14,7 @@ aliases:
 
 | Spell Level | One Target | Multiple Targets |
 |-------------|------------|------------------|
-| Cantrip | `d10` | `d6` |
+| Cantrip | `1d10` | `1d6` |
 | 1 | `2d10` | `2d6` |
 | 2 | `3d10` | `3d6` |
 | 3 | `5d10` | `6d6` |

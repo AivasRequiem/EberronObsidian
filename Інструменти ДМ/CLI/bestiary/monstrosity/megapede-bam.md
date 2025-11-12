@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/11
@@ -46,14 +47,15 @@ After a megapede lays eggs, it attaches the eggs to its body using sticky saliva
     "desc": "+8"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 18"
 "languages": ""
 "cr": "11"
 "actions":
   - "desc": "The megapede makes one Bite attack and uses either Life Drain or Psychic\
       \ Bomb."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 20 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage plus 22 (5d8) poison damage."
     "name": "Bite"
   - "desc": "The megapede magically drains life energy from other creatures nearby.\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/12
@@ -49,7 +50,8 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [restrained](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Restrained), [unconscious](Інструменти%20Д\
   М/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": ""
 "cr": "12"
 "traits":
@@ -80,7 +82,7 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
       \ space."
     "name": "Crackling Death"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 27 (6d8) lightning damage, and lightning jumps from the target to one creature\
       \ of the phoenix's choice that it can see within 30 feet of the target. That\
       \ second creature must succeed on a DC 18 Dexterity saving throw or take 27\

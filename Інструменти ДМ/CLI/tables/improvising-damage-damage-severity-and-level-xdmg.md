@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -13,7 +14,7 @@ aliases:
 
 | Character Levels | Nuisance | Deadly |
 |------------------|----------|--------|
-| 1–4 | 5 (`d10`) | 11 (`2d10`) |
+| 1–4 | 5 (`1d10`) | 11 (`2d10`) |
 | 5–10 | 11 (`2d10`) | 22 (`4d10`) |
 | 11–16 | 22 (`4d10`) | 55 (`10d10`) |
 | 17–20 | 55 (`10d10`) | 99 (`18d10`) |

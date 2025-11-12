@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -29,8 +30,6 @@ From a distance, will-o'-wisps look like lanterns bobbing in the dark. Through t
 Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a will-o'-wisp imperils its victims.
 
 **Will-o'-Wisp Ambushes**
-
-`dice: [](will-o-wisp-xmm.md#^will-o-wisp-ambushes)`
 
 | dice: 1d6 | The Will-o'-Wisp Tempts Victims Into... |
 |-----------|-----------------------------------------|
@@ -67,7 +66,8 @@ Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Common plus one other language"
 "cr": "2"
 "traits":
@@ -79,16 +79,16 @@ Roll on or choose a result from the Will-o'-Wisp Ambushes table to inspire how a
     "name": "Illumination"
   - "desc": "The wisp can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes 5 (1d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Lightning\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 11 (2d8 + 2) Lightning\
       \ damage."
     "name": "Shock"
 "bonus_actions":
-  - "desc": "Constitution Saving Throw: DC 10, one living creature the wisp can\
+  - "desc": "*Constitution Saving Throw:* DC 10, one living creature the wisp can\
       \ see within 5 feet that has 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
-      \ Failure: The target dies, and the wisp regains 10 (3d6) [Hit Points](І\
+      \ *Failure:* The target dies, and the wisp regains 10 (3d6) [Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Consume Life"
   - "desc": "The wisp and its light have the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible)\

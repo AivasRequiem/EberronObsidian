@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/6
@@ -47,25 +48,25 @@ aliases:
 "traits":
   - "desc": "The aarakocra is a 9th-level spellcaster. Its spellcasting ability is\
       \ Intelligence (spell save DC 14, +6 to hit with spell attacks). The aarakocra\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [light](Інструменти\
       %20ДМ/CLI/spells/light-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1st level (4 slots): [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \n**1st level (4 slots):** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [magic missile](І\
       нструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [shield](Інструменти%20ДМ\
-      /CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [misty step](Інструм\
+      /CLI/spells/shield-xphb.md)\n\n**2nd level (3 slots):** [misty step](Інструм\
       енти%20ДМ/CLI/spells/misty-step-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\
-      \n3rd level (3 slots): [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
+      \n**3rd level (3 slots):** [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md),\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Інструмент\
-      и%20ДМ/CLI/spells/fly-xphb.md)\n\n4th level (3 slots): [greater invisibility](І\
+      и%20ДМ/CLI/spells/fly-xphb.md)\n\n**4th level (3 slots):** [greater invisibility](І\
       нструменти%20ДМ/CLI/spells/greater-invisibility-xphb.md), [ice storm](Інстру\
-      менти%20ДМ/CLI/spells/ice-storm-xphb.md)\n\n5th level (1 slots): [cone of\
+      менти%20ДМ/CLI/spells/ice-storm-xphb.md)\n\n**5th level (1 slots):** [cone of\
       \ cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "LoX"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -18,7 +19,7 @@ aliases:
 - **Properties**: [Two-Handed](Інструменти%20ДМ/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 10.0 lbs.
 
-While you are attuned to this magic weapon, your Strength is 20 unless your Strength is already equal to or greater than that score. The weapon deals an extra `d8` Thunder damage to any creature it hits and an extra `3d8` Thunder damage to objects it hits that aren't being worn or carried.
+While you are attuned to this magic weapon, your Strength is 20 unless your Strength is already equal to or greater than that score. The weapon deals an extra `1d8` Thunder damage to any creature it hits and an extra `3d8` Thunder damage to objects it hits that aren't being worn or carried.
 
 The weapon has the following additional properties.
 

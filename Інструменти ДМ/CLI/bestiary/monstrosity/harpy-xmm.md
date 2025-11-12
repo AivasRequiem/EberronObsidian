@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -52,14 +53,14 @@ Every harpy sings a distinct song. While some songs are said to be heartbreaking
 "languages": "Common"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 6 (2d4 + 1) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "The harpy sings a magical melody, which lasts until the harpy's [Concentration](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Concentration) ends on it. Wisdom Saving\
-      \ Throw: DC 11, each Humanoid and Giant in a 300-foot [Emanation](Інструмен\
+      нструменти%20ДМ/CLI/rules/conditions.md#Concentration) ends on it. *Wisdom Saving\
+      \ Throw:* DC 11, each Humanoid and Giant in a 300-foot [Emanation](Інструмен\
       ти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the harpy when the song starts. Failure: The target has the [Charmed](І\
+      \ from the harpy when the song starts. *Failure:* The target has the [Charmed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until the song ends\
       \ and repeats the save at the end of each of its turns. While [Charmed](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Charmed), the target has the [Incapacitated](І\
@@ -69,7 +70,7 @@ Every harpy sings a distinct song. While some songs are said to be heartbreaking
       \ trying to get within 5 feet of the harpy. It doesn't avoid [Opportunity Attacks](І\
       нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack); however, before\
       \ moving into damaging terrain (such as lava or a pit) and whenever it takes\
-      \ damage from a source other than the harpy, the target repeats the save. Success:\
+      \ damage from a source other than the harpy, the target repeats the save. *Success:*\
       \ The target is immune to this harpy's Luring Song for 24 hours."
     "name": "Luring Song"
 "source":

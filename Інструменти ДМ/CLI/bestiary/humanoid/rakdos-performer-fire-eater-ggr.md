@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -52,7 +53,7 @@ By offering a place for those of many different talents, the Cult of Rakdos has 
 "actions":
   - "desc": "The fire eater makes two attacks with its bladed chain."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) slashing damage."
     "name": "Bladed Chain"
   - "desc": "The fire eater exhales flames. Each creature in a 15-foot cone must make\

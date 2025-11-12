@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
@@ -54,7 +55,7 @@ As it grows taller, the vine also grows wider, slowly pushing away the dirt and 
 
 ### Danger in the Streets
 
-Astral blights roam the streets. Members of the local militia (use the [guard](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) stat block) try to hold the blights at bay long enough for unarmed civilians to flee the vicinity. If the characters stay in a single location for longer than 1 minute, `d6` [astral blights](Інструменти%20ДМ/CLI/bestiary/plant/astral-blight-lox.md) (see the accompanying stat block) converge on their location and attack them.
+Astral blights roam the streets. Members of the local militia (use the [guard](Інструменти%20ДМ/CLI/bestiary/humanoid/guard-xmm.md) stat block) try to hold the blights at bay long enough for unarmed civilians to flee the vicinity. If the characters stay in a single location for longer than 1 minute, `1d6` [astral blights](Інструменти%20ДМ/CLI/bestiary/plant/astral-blight-lox.md) (see the accompanying stat block) converge on their location and attack them.
 
 The following events occur as the characters move through streets and alleys toward the outskirts of the settlement, but not if they head straight to the docks:
 

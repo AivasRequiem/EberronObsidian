@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Tasha's Cauldron of Everything p. 169* 
 
 **Unearthly Road Keys**
-
-`dice: [](unearthly-roads-unearthly-road-keys-tce.md#^unearthly-road-keys)`
 
 | dice: d6 | Key |
 |----------|-----|

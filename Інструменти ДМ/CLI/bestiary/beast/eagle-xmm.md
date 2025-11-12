@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -46,7 +47,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 feet. *Hit:* 4 (1d4 + 2) Slashing\
       \ damage."
     "name": "Talons"
 "source":

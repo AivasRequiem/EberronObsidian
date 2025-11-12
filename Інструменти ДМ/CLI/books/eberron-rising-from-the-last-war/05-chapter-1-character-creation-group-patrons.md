@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -256,7 +257,7 @@ The city of Sharn is unusual in that it is home to no less than four powerful sy
 
 **The Tyrants**. The Tyrants are a mysterious group of shapeshifters who traffic in all manner of information. They sell secrets, blackmail powerful people, and forge everything from identification papers to coins and works of art.
 
-**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `3d6` criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `d6` gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
+**Running Your Own**. Rather than join an existing syndicate, you can start your own. You need to establish your own headquarters and direct the activities of the `3d6` criminals who work for you. By claiming a 15 percent share of their take, you can rely on an income that will sustain you at a modest lifestyle, plus an additional `1d6` gp in profit per week. You can access contraband and fences as described earlier in this section, but you don't get a discount at syndicate-owned businesses unless you acquire some businesses of your own. You can also use the Running a Business downtime activity to direct the activities of your syndicate.
 
 ## Dragonmarked House
 

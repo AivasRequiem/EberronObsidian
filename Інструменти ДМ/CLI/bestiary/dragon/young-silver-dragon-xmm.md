@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -23,7 +24,7 @@ Young silver dragons usually have close ties with elder metallic dragons or hero
 *Dragons of Courage and Fairness*
 
 - **Habitat.** Mountain, Urban  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Silver dragons work to preserve peace and encourage greatness. They try to live as examples of decency while remaining watchful against evil.
 
@@ -64,24 +65,25 @@ Silver dragons typically lair in picturesque mountain retreats or on sculpted cl
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "cold"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "9"
 "actions":
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Paralyzing Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 15 (2d8 + 6) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Constitution Saving Throw: DC 17, each creature in a 30-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 49 (11d8) Cold damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 17, each creature in a 30-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 49 (11d8) Cold damage. *Success:* Half damage."
     "name": "Cold Breath (Recharge 5-6)"
-  - "desc": "Constitution Saving Throw: DC 17, each creature in a 30-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). 1st Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 17, each creature in a 30-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *1St Failure:*\
       \ The target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ condition until the end of its next turn, when it repeats the save. 2nd Failure:\
+      \ condition until the end of its next turn, when it repeats the save. *2Nd Failure:*\
       \ The target has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ condition, and it repeats the save at the end of each of its turns, ending\
       \ the effect on itself on a success. After 1 minute, it succeeds automatically."

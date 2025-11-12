@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -20,7 +21,7 @@ aliases:
 
 Hidden in the dungeon of White Plume Mountain, Blackrazor shines like a piece of night sky filled with stars. Its black scabbard is decorated with pieces of cut obsidian.
 
-You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. If you hit an Undead with this weapon, you take `d10` Necrotic damage, and the target regains `d10` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). If this Necrotic damage reduces you to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), Blackrazor devours your soul (see "Devour Soul" below).
+You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. If you hit an Undead with this weapon, you take `1d10` Necrotic damage, and the target regains `1d10` [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). If this Necrotic damage reduces you to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md), Blackrazor devours your soul (see "Devour Soul" below).
 
 While you hold this weapon, you have [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md) to the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) and [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) conditions, and you have [Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) with a range of 30 feet.
 

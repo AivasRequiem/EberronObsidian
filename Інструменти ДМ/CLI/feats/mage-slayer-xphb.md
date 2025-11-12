@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,6 +17,6 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase your Strength or Dexterity by 1, to a maximum of 20.
 
-**Concentration Breaker.** When you damage a creature that is [Concentrating](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration), it has Disadvantage on the saving throw it makes to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration).
+**Concentration Breaker.** When you damage a creature that is [Concentrating](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration), it has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the saving throw it makes to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration).
 
-**Guarded Mind.** If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.
+**Guarded Mind.** If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a [Short](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md).

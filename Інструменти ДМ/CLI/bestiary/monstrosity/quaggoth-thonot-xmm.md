@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -50,7 +51,8 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 12"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
@@ -61,13 +63,13 @@ Quaggoths frequently collect in small bands led by the most fearsome group membe
 "actions":
   - "desc": "The quaggoth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing\
       \ damage plus 5 (2d4) Psychic damage."
     "name": "Claw"
   - "desc": "The quaggoth casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\n**At will:**\
       \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible),\
-      \ [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n2/day:\
+      \ [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**2/day:**\
       \ [Mind Spike](Інструменти%20ДМ/CLI/spells/mind-spike-xphb.md)"
     "name": "Spellcasting"
 "reactions":

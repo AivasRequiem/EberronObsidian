@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
@@ -13,9 +14,9 @@ aliases:
 
 | Item | Cost |
 |------|------|
-| &emsp;Ale (mug) | 4 CP |
-| &emsp;Bread (loaf) | 2 CP |
-| &emsp;Cheese (wedge) | 1 SP |
+| &emsp;[Ale (mug)](Інструменти%20ДМ/CLI/items/ale-mug-xphb.md) | 4 CP |
+| &emsp;[Bread (loaf)](Інструменти%20ДМ/CLI/items/bread-loaf-xphb.md) | 2 CP |
+| &emsp;[Cheese (wedge)](Інструменти%20ДМ/CLI/items/cheese-wedge-xphb.md) | 1 SP |
 | *Inn Stay per Day* |
 | &emsp;Squalid | 7 CP |
 | &emsp;Poor | 1 SP |
@@ -31,6 +32,6 @@ aliases:
 | &emsp;Wealthy | 3 SP |
 | &emsp;Aristocratic | 6 SP |
 | *Wine (bottle)* |
-| &emsp;Common | 2 SP |
-| &emsp;Fine | 10 GP |
+| &emsp;[Common](Інструменти%20ДМ/CLI/items/common-wine-bottle-xphb.md) | 2 SP |
+| &emsp;[Fine](Інструменти%20ДМ/CLI/items/fine-wine-bottle-xphb.md) | 10 GP |
 ^food-drink-and-lodging

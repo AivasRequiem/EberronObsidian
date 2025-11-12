@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -26,7 +27,7 @@ Bugbear stalkers frequently take their victims hostage, relishing opportunities 
 *Lurking Goblinoid Brutes*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild), Underdark  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Bugbears embody fear of the wilds and the menace of natural places. They're notoriously stealthy, and foes that venture into their territories often vanish without a trace.
 
@@ -56,7 +57,8 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
     "desc": "+6"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Goblin"
 "cr": "3"
 "traits":
@@ -65,16 +67,16 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
 "actions":
   - "desc": "The bugbear makes two Javelin or Morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft.\
-      \ Hit: 13 (3d6 + 3) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 10 ft. or range 30/120 ft.\
+      \ *Hit:* 13 (3d6 + 3) Piercing damage."
     "name": "Javelin"
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+  - "desc": "*Melee Attack Roll:* +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ if the target is [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
-      \ by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage."
+      \ by the bugbear), reach 10 ft. *Hit:* 12 (2d8 + 3) Piercing damage."
     "name": "Morningstar"
 "bonus_actions":
-  - "desc": "Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear\
-      \ can see within 10 feet. Failure: The target has the [Grappled](Інструмен\
+  - "desc": "*Dexterity Saving Throw:* DC 13, one Medium or smaller creature the bugbear\
+      \ can see within 10 feet. *Failure:* The target has the [Grappled](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 13)."
     "name": "Quick Grapple"
 "source":

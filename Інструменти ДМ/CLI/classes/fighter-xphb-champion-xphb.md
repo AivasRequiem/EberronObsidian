@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/fighter/champion
@@ -79,7 +80,7 @@ You attain the pinnacle of resilience in battle, giving you these benefits.
 
 #### Defy Death
 
-You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Death Saving Throws. Moreover, when you roll 18–20 on a [Death Saving Throw](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md), you gain the benefit of rolling a 20 on it.
+You have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on [Death Saving Throws](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md). Moreover, when you roll 18–20 on a [Death Saving Throw](Інструменти%20ДМ/CLI/rules/variant-rules/death-saving-throw-xphb.md), you gain the benefit of rolling a 20 on it.
 
 #### Heroic Rally
 

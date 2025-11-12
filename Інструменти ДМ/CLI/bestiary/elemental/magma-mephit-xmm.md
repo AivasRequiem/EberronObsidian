@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -58,22 +59,23 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "damage_immunities": "fire, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Ignan, Terran)"
 "cr": "1/2"
 "traits":
-  - "desc": "The mephit explodes when it dies. Dexterity Saving Throw: DC 11, each\
+  - "desc": "The mephit explodes when it dies. *Dexterity Saving Throw:* DC 11, each\
       \ creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: 7 (2d6) Fire damage. Success:\
+      \ originating from the mephit. *Failure:* 7 (2d6) Fire damage. *Success:*\
       \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 3 (1d4 + 1) Slashing\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Claw"
-  - "desc": "Dexterity Saving Throw: DC 11, each creature in a 15-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 7 (2d6) Fire damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 11, each creature in a 15-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 7 (2d6) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 6)"
 "source":
   - "XMM"

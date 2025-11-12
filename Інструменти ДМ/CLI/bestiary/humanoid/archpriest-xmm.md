@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/12
@@ -22,15 +23,13 @@ By forging connections with divine beings and mastering mystical truths, archpri
 *Arbiters of the Mortal and the Divine*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Priests harness the power of faith to work miracles. These religious adherents are as diverse as the faiths they follow. Some obey gods and their servants, while others live by age-old creeds. Belief guides priests' actions and their magic, which they use to shape the world in line with their ideologies.
 
 Roll on or choose a result from the Priest Roles table to inspire different sorts of priests.
 
 **Priest Roles**
-
-`dice: [](archpriest-xmm.md#^priest-roles)`
 
 | dice: 1d10 | The Priest Is... |
 |------------|------------------|
@@ -89,19 +88,19 @@ Roll on or choose a result from the Priest Roles table to inspire different sort
 "actions":
   - "desc": "The archpriest makes three Radiant Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9, reach 5 ft. or range 60 ft. *Hit:*\
       \ 27 (4d10 + 5) Radiant damage."
     "name": "Radiant Burst"
-  - "desc": "Wisdom Saving Throw: DC 17, each enemy in a 20-foot [Emanation](Інс\
+  - "desc": "*Wisdom Saving Throw:* DC 17, each enemy in a 20-foot [Emanation](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the archpriest. Failure: 21 (6d6) Radiant damage, and the target\
+      \ from the archpriest. *Failure:* 21 (6d6) Radiant damage, and the target\
       \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
-      \ until the end of the archpriest's next turn. Success: Half damage only."
+      \ until the end of the archpriest's next turn. *Success:* Half damage only."
     "name": "Holy Word (Recharge 4-6)"
   - "desc": "The archpriest casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](І\
-      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day each: [Flame Strike](І\
+      \n**At will:** [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Thaumaturgy](І\
+      нструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day each:** [Flame Strike](І\
       нструменти%20ДМ/CLI/spells/flame-strike-xphb.md) (level 6 version), [Greater\
       \ Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md), [Raise\
       \ Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md), [Zone of Truth](Інс\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -48,7 +49,7 @@ Specialized shamans called horncallers use their magic to call wild beasts to fi
 "traits":
   - "desc": "The horncaller's innate spellcasting ability is Wisdom (spell save DC\
       \ 14). The horncaller can innately cast the following spells, requiring no material\
-      \ components:\n\n1/day each: [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
+      \ components:\n\n**1/day each:** [bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md),\
       \ [conjure animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The horncaller can communicate with beasts as if they shared a language."
@@ -57,7 +58,7 @@ Specialized shamans called horncallers use their magic to call wild beasts to fi
   - "desc": "The horncaller makes two melee attacks with its staff and uses One with\
       \ the Worldsoul."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with\
       \ two hands."
     "name": "Staff"

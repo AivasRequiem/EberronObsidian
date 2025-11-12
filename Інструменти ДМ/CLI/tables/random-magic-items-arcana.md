@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 326* 
 
 **Arcana - Common**
-
-`dice: [](random-magic-items-arcana.md#^arcana-common)`
 
 | dice: 1d100 | Item |
 |-------------|------|
@@ -54,8 +53,6 @@ aliases:
 ^arcana-common
 
 **Arcana - Uncommon**
-
-`dice: [](random-magic-items-arcana.md#^arcana-uncommon)`
 
 | dice: 1d100 | Item |
 |-------------|------|
@@ -125,8 +122,6 @@ aliases:
 
 **Arcana - Rare**
 
-`dice: [](random-magic-items-arcana.md#^arcana-rare)`
-
 | dice: 1d100 | Item |
 |-------------|------|
 | 01 | [Bag of Beans](Інструменти%20ДМ/CLI/items/bag-of-beans-xdmg.md) |
@@ -188,8 +183,6 @@ aliases:
 
 **Arcana - Very Rare**
 
-`dice: [](random-magic-items-arcana.md#^arcana-very-rare)`
-
 | dice: 1d100 | Item |
 |-------------|------|
 | 01–02 | [Amulet of the Planes](Інструменти%20ДМ/CLI/items/amulet-of-the-planes-xdmg.md) |
@@ -235,8 +228,6 @@ aliases:
 ^arcana-very-rare
 
 **Arcana - Legendary**
-
-`dice: [](random-magic-items-arcana.md#^arcana-legendary)`
 
 | dice: 1d100 | Item |
 |-------------|------|

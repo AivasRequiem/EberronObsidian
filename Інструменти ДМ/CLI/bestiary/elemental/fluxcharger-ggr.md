@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/7
@@ -52,7 +53,8 @@ An Izzet weird doesn't require air, food, drink, or sleep.
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Draconic"
 "cr": "7"
 "traits":
@@ -62,14 +64,14 @@ An Izzet weird doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The fluxcharger makes two slam attacks or uses Arc Lightning twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 30 ft., one target. *Hit:*\
       \ 16 (3d10) lightning damage, and lightning jumps from the target to one creature\
       \ of the fluxcharger's choice that it can see within 30 feet of the target.\
       \ That second creature must succeed on a DC 15 Dexterity saving throw or take\
-      \ 13 (3d8) lightning damage. Hit or Miss: The fluxcharger takes 5 (d10)\
+      \ 13 (3d8) lightning damage. *Hit or Miss:* The fluxcharger takes 5 (1d10)\
       \ force damage after resolving the attack."
     "name": "Arc Lightning"
 "source":

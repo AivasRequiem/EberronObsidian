@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -44,7 +45,8 @@ Spawn of Kyuss are expressions of Orcus's intent to replace all life with undeat
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "5"
 "traits":
@@ -63,7 +65,7 @@ Spawn of Kyuss are expressions of Orcus's intent to replace all life with undeat
 "actions":
   - "desc": "The spawn of Kyuss makes two Claw attacks, and it uses Burrowing Worm."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Claw"
   - "desc": "A worm launches from the spawn of Kyuss at one Humanoid that the spawn\

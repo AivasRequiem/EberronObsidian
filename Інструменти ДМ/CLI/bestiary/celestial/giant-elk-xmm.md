@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -45,11 +46,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_resistances": "necrotic, radiant"
-"senses": "darkvision 90 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive\
+  \ Perception 14"
 "languages": "Celestial; understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 11 (2d6 + 4) Bludgeoning\
       \ damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature\
       \ and the elk moved 20+ feet straight toward it immediately before the hit,\
       \ the target takes an extra 5 (2d4) Bludgeoning damage and has the [Prone](І\

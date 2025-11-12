@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -30,8 +31,6 @@ Flaming skeletons burn with unbridled necromantic energy. This magic grants them
 Skeletons rise at the summons of necromancers and foul spirits. Whether they're the remains of the ancient dead or fresh bones bound to morbid ambitions, they commit deathless work for whatever forces reanimated them, often serving as guardians, soldiers, or laborers. In rare cases, skeletons are reanimated but given no particular direction. Roll on or choose a result from the Skeleton Pantomimes table to inspire how undirected skeletons behave.
 
 **Skeleton Pantomimes**
-
-`dice: [](flaming-skeleton-xmm.md#^skeleton-pantomimes)`
 
 | dice: 1d6 | Left to Its Own Devices, the Skeleton... |
 |-----------|------------------------------------------|
@@ -64,13 +63,14 @@ Skeletons rise at the summons of necromancers and foul spirits. Whether they're 
 "damage_immunities": "fire, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands Common plus one other language but can't speak"
 "cr": "3"
 "traits":
-  - "desc": "The skeleton explodes when it dies. Dexterity Saving Throw: DC 12,\
+  - "desc": "The skeleton explodes when it dies. *Dexterity Saving Throw:* DC 12,\
       \ each creature in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the skeleton. Failure: 14 (4d6) Fire damage. Success:\
+      \ originating from the skeleton. *Failure:* 14 (4d6) Fire damage. *Success:*\
       \ Half damage."
     "name": "Death Burst"
   - "desc": "The skeleton sheds [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
@@ -81,10 +81,10 @@ Skeletons rise at the summons of necromancers and foul spirits. Whether they're 
   - "desc": "The skeleton makes two attacks, using Flame Scepter or Hurl Flame in\
       \ any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Bludgeoning\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Flame Scepter"
-  - "desc": "Ranged Attack Roll: +4, range 60 ft. Hit: 7 (1d10 + 2) Fire damage."
+  - "desc": "*Ranged Attack Roll:* +4, range 60 ft. *Hit:* 7 (1d10 + 2) Fire damage."
     "name": "Hurl Flame"
 "source":
   - "XMM"

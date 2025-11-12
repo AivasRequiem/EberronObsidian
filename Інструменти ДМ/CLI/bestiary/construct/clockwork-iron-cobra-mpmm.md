@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -30,8 +31,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 **Clockwork Enhancements**
 
-`dice: [](clockwork-iron-cobra-mpmm.md#^clockwork-enhancements)`
-
 | dice: d10 | Enhancement |
 |-----------|-------------|
 | 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-iron-cobra-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -88,7 +85,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "4"
 "traits":
@@ -98,17 +96,17 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Constitution saving throw or suffer one random effect (roll a d6):\n\
-      \n- 1–2 Confusion. On its next turn, the target must use its action to make\
+      \n- **1–2 Confusion.** On its next turn, the target must use its action to make\
       \ one weapon attack against a random creature it can see within 30 feet of it,\
       \ using whatever weapon it has in hand and moving beforehand if necessary to\
       \ get in range. If it's holding no weapon, it makes an unarmed strike. If no\
       \ creature is visible within 30 feet, it takes the [Dash](Інструменти%20ДМ/CLI/rules/actions.md#Dash)\
-      \ action, moving toward the nearest creature.  \n- 3–4 Paralysis. The target\
+      \ action, moving toward the nearest creature.  \n- **3–4 Paralysis.** The target\
       \ is [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) until the\
-      \ end of its next turn.  \n- 5–6 Poison. The target takes 13 (3d8) poison\
+      \ end of its next turn.  \n- **5–6 Poison.** The target takes 13 (3d8) poison\
       \ damage.  "
     "name": "Bite"
 "source":

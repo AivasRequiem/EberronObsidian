@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/armor/heavy
@@ -30,7 +31,7 @@ aliases:
 
 - **Properties**: [Cursed](Інструменти%20ДМ/CLI/rules/item-properties.md#Cursed%20Items)
 
-While wearing this armor, you gain a +1 bonus to [Armor Class](Інструменти%20ДМ/CLI/rules/variant-rules/armor-class-xphb.md), and you know Abyssal. In addition, the armor's clawed gauntlets allow your Unarmed Strikes to deal `d8` Slashing damage instead of the usual Bludgeoning damage, and you gain a +1 bonus to the attack and damage rolls of your Unarmed Strikes.
+While wearing this armor, you gain a +1 bonus to [Armor Class](Інструменти%20ДМ/CLI/rules/variant-rules/armor-class-xphb.md), and you know Abyssal. In addition, the armor's clawed gauntlets allow your Unarmed Strikes to deal `1d8` Slashing damage instead of the usual Bludgeoning damage, and you gain a +1 bonus to the attack and damage rolls of your Unarmed Strikes.
 
 ## Curse
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -62,18 +63,19 @@ Red dragons make their lairs in smoldering, unapproachable places such as volcan
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "fire"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "10"
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 13 (2d6 + 6) Slashing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 13 (2d6 + 6) Slashing\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 17, each creature in a 30-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 56 (16d6) Fire damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 17, each creature in a 30-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 56 (16d6) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "XMM"

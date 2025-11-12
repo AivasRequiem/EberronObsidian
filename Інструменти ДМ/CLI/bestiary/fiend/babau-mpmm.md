@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -52,15 +53,16 @@ A babau demon has the cunning of a devil and the bloodthirstiness of a demon. It
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": "Abyssal"
 "cr": "4"
 "actions":
   - "desc": "The babau makes two Claw attacks. It can replace one attack with a use\
       \ of Spellcasting or Weakening Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) slashing damage plus 2 (d4) acid damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d4 + 4) slashing damage plus 2 (1d4) acid damage."
     "name": "Claw"
   - "desc": "The babau targets one creature that it can see within 20 feet of it.\
       \ The target must make a DC 13 Constitution saving throw. On a failed save,\
@@ -69,7 +71,7 @@ A babau demon has the cunning of a devil and the bloodthirstiness of a demon. It
       \ turns, ending the effect on itself on a success."
     "name": "Weakening Gaze"
   - "desc": "The babau casts one of the following spells, requiring no material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 11):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 11):\n\n**At will:**\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md),\
       \ [heat metal](Інструменти%20ДМ/CLI/spells/heat-metal-xphb.md), [levitate](І\

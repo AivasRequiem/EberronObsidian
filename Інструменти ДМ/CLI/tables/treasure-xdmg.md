@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -8,8 +9,6 @@ aliases:
 ---
 # Treasure
 *Source: Dungeon Master's Guide (2024) p. 352* 
-
-`dice: [](treasure-xdmg.md#^1-treasure)`
 
 | dice: 1d100 | Treasure |
 |-------------|----------|

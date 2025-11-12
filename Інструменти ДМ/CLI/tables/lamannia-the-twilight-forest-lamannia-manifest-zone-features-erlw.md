@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 230* 
 
 **Lamannia Manifest Zone Features**
-
-`dice: [](lamannia-the-twilight-forest-lamannia-manifest-zone-features-erlw.md#^lamannia-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

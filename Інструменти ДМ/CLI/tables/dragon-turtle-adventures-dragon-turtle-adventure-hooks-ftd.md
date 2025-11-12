@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 110* 
 
 **Dragon Turtle Adventure Hooks**
-
-`dice: [](dragon-turtle-adventures-dragon-turtle-adventure-hooks-ftd.md#^dragon-turtle-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

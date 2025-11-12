@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/barbarian/zealot
@@ -53,7 +54,7 @@ Barbarians who walk the Path of the Zealot receive boons from a god or pantheon.
 
 ### Divine Fury (Level 3)
 
-You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) takes extra damage equal to `d6` plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.
+You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) takes extra damage equal to `1d6` plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.
 
 ### Warrior of the Gods (Level 3)
 

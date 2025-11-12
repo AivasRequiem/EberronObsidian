@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/9th-level
 - ttrpg-cli/spell/school/enchantment
+- ttrpg-cli/spell/subclass/divine-soul/good
 classes:
 - Bard
 - Cleric
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Power Word Heal
 ---
@@ -24,6 +27,6 @@ aliases:
 
 A wave of healing energy washes over one creature you can see within range. The target regains all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). If the creature has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), or [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition, the condition ends. If the creature has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition, it can use its [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to stand up.
 
-**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 306. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

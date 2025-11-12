@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/school/enchantment
 aliases:
@@ -40,6 +41,11 @@ aliases:
 - [Tasha's Mind Whip](Інструменти%20ДМ/CLI/spells/tashas-mind-whip-tce.md "TCE")
 - [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md "XPHB")
 
+## 3rd Level
+
+- [Catnap](Інструменти%20ДМ/CLI/spells/catnap-xge.md "XGE")
+- [Enemies Abound](Інструменти%20ДМ/CLI/spells/enemies-abound-xge.md "XGE")
+
 ## 4th Level
 
 - [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB")
@@ -66,6 +72,7 @@ aliases:
 ## 7th Level
 
 - [Power Word Fortify](Інструменти%20ДМ/CLI/spells/power-word-fortify-xphb.md "XPHB")
+- [Power Word Pain](Інструменти%20ДМ/CLI/spells/power-word-pain-xge.md "XGE")
 
 ## 8th Level
 
@@ -79,3 +86,4 @@ aliases:
 
 - [Power Word Heal](Інструменти%20ДМ/CLI/spells/power-word-heal-xphb.md "XPHB")
 - [Power Word Kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md "XPHB")
+- [Psychic Scream](Інструменти%20ДМ/CLI/spells/psychic-scream-xge.md "XGE")

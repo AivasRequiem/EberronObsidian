@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 329* 
 
 **Implements - Common**
-
-`dice: [](random-magic-items-implements.md#^implements-common)`
 
 | dice: 1d100 | Item |
 |-------------|------|
@@ -54,8 +53,6 @@ aliases:
 ^implements-common
 
 **Implements - Uncommon**
-
-`dice: [](random-magic-items-implements.md#^implements-uncommon)`
 
 | dice: 1d100 | Item |
 |-------------|------|
@@ -106,8 +103,6 @@ aliases:
 
 **Implements - Rare**
 
-`dice: [](random-magic-items-implements.md#^implements-rare)`
-
 | dice: 1d100 | Item |
 |-------------|------|
 | 01–04 | [Ammunition, +2](Інструменти%20ДМ/CLI/items/2-ammunition-xdmg.md) |
@@ -138,8 +133,6 @@ aliases:
 
 **Implements - Very Rare**
 
-`dice: [](random-magic-items-implements.md#^implements-very-rare)`
-
 | dice: 1d100 | Item |
 |-------------|------|
 | 01–07 | [Ammunition, +3](Інструменти%20ДМ/CLI/items/3-ammunition-xdmg.md) |
@@ -159,8 +152,6 @@ aliases:
 ^implements-very-rare
 
 **Implements - Legendary**
-
-`dice: [](random-magic-items-implements.md#^implements-legendary)`
 
 | dice: 1d100 | Item |
 |-------------|------|

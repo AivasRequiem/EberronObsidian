@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 214* 
 
 **1,000 GP Gemstones**
-
-`dice: [](1000-gp-gemstones-xdmg.md#^1000-gp-gemstones)`
 
 | dice: 1d8 | Stone |
 |-----------|-------|

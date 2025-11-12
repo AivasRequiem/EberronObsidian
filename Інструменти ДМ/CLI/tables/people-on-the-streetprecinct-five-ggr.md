@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 118* 
 
 **People on the Street—Precinct Five**
-
-`dice: [](people-on-the-streetprecinct-five-ggr.md#^people-on-the-streetprecinct-five)`
 
 | dice: d12 | Description |
 |-----------|-------------|

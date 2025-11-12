@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -30,8 +31,6 @@ Primal spirits from the Elemental Plane of Earth merge with rocks and minerals t
 Earth elementals are typically made of more than dirt. While an elemental's composition doesn't change its statistics or have monetary value, it makes each elemental distinct. Roll on or choose a result from the Earth Elemental Compositions table to inspire an earth elemental's features.
 
 **Earth Elemental Compositions**
-
-`dice: [](earth-elemental-xmm.md#^earth-elemental-compositions)`
 
 | dice: 1d8 | The Earth Elemental's Body Features... |
 |-----------|----------------------------------------|
@@ -73,7 +72,8 @@ Earth elementals are typically made of more than dirt. While an elemental's comp
   \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned), [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., Tremorsense\
+  \ 60 ft., passive Perception 10"
 "languages": "Primordial (Terran)"
 "cr": "5"
 "traits":
@@ -85,10 +85,10 @@ Earth elementals are typically made of more than dirt. While an elemental's comp
 "actions":
   - "desc": "The elemental makes two attacks, using Slam or Rock Launch in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 14 (2d8 + 5) Bludgeoning\
       \ damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning\
+  - "desc": "*Ranged Attack Roll:* +8, range 60 ft. *Hit:* 8 (1d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Rock Launch"

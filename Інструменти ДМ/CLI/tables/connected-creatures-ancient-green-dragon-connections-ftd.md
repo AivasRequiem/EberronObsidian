@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 127* 
 
 **Ancient Green Dragon Connections**
-
-`dice: [](connected-creatures-ancient-green-dragon-connections-ftd.md#^ancient-green-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

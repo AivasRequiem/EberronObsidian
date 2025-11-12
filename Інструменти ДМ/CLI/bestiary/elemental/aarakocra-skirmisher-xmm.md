@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -24,7 +25,7 @@ Aarakocra skirmishers are adept at fighting aerial foes amid the clouds. They of
 *Winged Guardians of the Sky*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Air)  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Aarakocra are birdlike folk who soar the skies of countless worlds and the endless expanses of the Elemental Plane of Air. They often resemble avians common to the lands where they dwell; some resemble hawks or condors, while others appear similar to hummingbirds or archaeopteryxes. In many lands, aarakocra tell of their ancient heroics resisting the wicked Queen of Chaos alongside the mysterious Wind Dukes of Aaqa.
 
@@ -52,13 +53,13 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
 "languages": "Aarakocra, Primordial (Auran)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Slashing\
       \ damage, or 9 (3d4 + 2) Slashing damage if the aarakocra moved 30+ feet straight\
       \ toward the target immediately before the hit."
     "name": "Talons"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 5 (1d6 + 2) Piercing damage plus 2 (d4) Thunder damage. Hit or\
-      \ Miss: The javelin magically returns to the aarakocra's hand immediately after\
+  - "desc": "*Melee  or Ranged Attack Roll:* +4, reach 5 ft. or range 30/120 ft.\
+      \ *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Thunder damage. *Hit or\
+      \ Miss:* The javelin magically returns to the aarakocra's hand immediately after\
       \ a ranged attack."
     "name": "Wind Javelin"
 "source":

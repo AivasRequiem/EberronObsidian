@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 84* 
 
 **5: Sinister Names**
-
-`dice: [](5-sinister-names-xdmg.md#^5-sinister-names)`
 
 | dice: 1d12 | Sinister Given Name | Sinister Surname |
 |------------|---------------------|------------------|

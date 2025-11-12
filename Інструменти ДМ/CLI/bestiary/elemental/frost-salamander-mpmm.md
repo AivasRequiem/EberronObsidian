@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -51,7 +52,8 @@ On rare occasions, [frost giants](Інструменти%20ДМ/CLI/bestiary/gia
     "desc": "+4"
 "damage_vulnerabilities": "fire"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 14"
 "languages": "Primordial"
 "cr": "9"
 "traits":
@@ -61,10 +63,10 @@ On rare occasions, [frost giants](Інструменти%20ДМ/CLI/bestiary/gia
 "actions":
   - "desc": "The salamander makes one Bite attack and four Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
-      \ 9 (1d8 + 5) piercing damage plus 5 (d10) cold damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
+      \ 9 (1d8 + 5) piercing damage plus 5 (1d10) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage."
     "name": "Claw"
   - "desc": "The salamander exhales chill wind in a 60-foot cone. Each creature in\

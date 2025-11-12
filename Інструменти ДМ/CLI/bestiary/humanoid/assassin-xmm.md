@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -20,15 +21,13 @@ aliases:
 *Contract Killer*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Assassins are professional killers skilled at stealthily approaching their victims and striking unseen. Most assassins kill for a reason, perhaps hiring themselves out to wealthy patrons or slaying for an unscrupulous cause. They use poisons and other deadly tools, and they might carry equipment to help them break into secure areas or avoid capture.
 
 Many assassins adhere to a professional code or exhibit some signature quirk. Roll on or choose a result from the Assassin Modus Operandi table to inspire an assassin's distinctive habits.
 
 **Assassin Modus Operandi**
-
-`dice: [](assassin-xmm.md#^assassin-modus-operandi)`
 
 | dice: 1d6 | The Assassin Is Infamous For... |
 |-----------|---------------------------------|
@@ -82,12 +81,12 @@ Many assassins adhere to a professional code or exhibit some signature quirk. Ro
   - "desc": "The assassin makes three attacks, using Shortsword or Light Crossbow\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 7 (1d6 + 4) Piercing\
       \ damage plus 17 (5d6) Poison damage, and the target has the [Poisoned](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of\
       \ the assassin's next turn."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing\
+  - "desc": "*Ranged Attack Roll:* +7, range 80/320 ft. *Hit:* 8 (1d8 + 4) Piercing\
       \ damage plus 21 (6d6) Poison damage."
     "name": "Light Crossbow"
 "bonus_actions":

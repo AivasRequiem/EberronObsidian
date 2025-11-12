@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/subclass/ranger/drakewarden
@@ -56,8 +57,6 @@ Consider the source of the draconic spirit you have bonded with. The Drakewarden
 
 **Drakewarden Origin**
 
-`dice: [](ranger-xphb-drakewarden-ftd.md#^drakewarden-origin)`
-
 | dice: d6 | Origin |
 |----------|--------|
 | 1 | You studied a dragon's scale or claw, or a trinket from a dragon's hoard, creating your bond through that token's lingering draconic magic. |
@@ -100,7 +99,7 @@ The bond you share with your drake intensifies, protecting you and stoking the d
 In addition, while your drake is summoned, you and the drake gain the following benefits:
 
 - **Drake Mount.** The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller. While you are riding your drake, it can't use the flying speed of this feature.  
-- **Magic Fang.** The drake's Bite attack deals an extra `d6` damage of the type chosen for the drake's Draconic Essence.  
+- **Magic Fang.** The drake's Bite attack deals an extra `1d6` damage of the type chosen for the drake's Draconic Essence.  
 - **Resistance.** You gain resistance to the damage type chosen for the drake's Draconic Essence.  
 
 ### Drake's Breath (Level 11)
@@ -119,6 +118,6 @@ Once you use this feature, you can't do so again until you finish a long rest, u
 
 Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:
 
-- **Empowered Bite.** The drake's Bite attack deals an extra `d6` damage of the type chosen for its Draconic Essence (for a total of `2d6` extra damage).  
+- **Empowered Bite.** The drake's Bite attack deals an extra `1d6` damage of the type chosen for its Draconic Essence (for a total of `2d6` extra damage).  
 - **Large Drake.** The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale.  
 - **Reflexive Resistance.** When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.

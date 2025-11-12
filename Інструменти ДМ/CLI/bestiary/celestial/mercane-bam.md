@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/5
@@ -59,15 +60,15 @@ Mercanes will conduct business with anyone, fairly and reliably, provided the ot
 "actions":
   - "desc": "The mercane makes three Psi-Imbued Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
       \ on a DC 15 Wisdom saving throw or be [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ of the mercane until the end of the target's next turn."
     "name": "Psi-Imbued Blade"
   - "desc": "The mercane casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md)\n\n1/day each: [dimension\
+      **At will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [light](Інструменти%20ДМ/CLI/spells/light-xphb.md)\n\n**1/day each:** [dimension\
       \ door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [mage armor](Інструменти%20Д\
       М/CLI/spells/mage-armor-xphb.md) (self only)"

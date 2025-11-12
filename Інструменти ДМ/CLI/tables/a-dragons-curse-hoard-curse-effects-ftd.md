@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 68* 
 
 **Hoard Curse Effects**
-
-`dice: [](a-dragons-curse-hoard-curse-effects-ftd.md#^hoard-curse-effects)`
 
 | dice: d6 | Hoard Curse Effect |
 |----------|--------------------|

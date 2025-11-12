@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -59,16 +60,16 @@ Nobles encompass a variety of people with social influence. They might be rulers
 "actions":
   - "desc": "The noble makes three Beguiling Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +8, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +8, reach 5 ft. or range 60 ft. *Hit:*\
       \ 18 (4d6 + 4) Psychic damage, and the target has the [Charmed](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Charmed) condition until the start of the noble's\
       \ next turn."
     "name": "Beguiling Strike"
   - "desc": "The noble casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [Mage Armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (included\
       \ in AC), [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor\
-      \ Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n1/day each:\
+      \ Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**1/day each:**\
       \ [Befuddlement](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md), [Detect\
       \ Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Fly](Інст\
       рументи%20ДМ/CLI/spells/fly-xphb.md), [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md),\

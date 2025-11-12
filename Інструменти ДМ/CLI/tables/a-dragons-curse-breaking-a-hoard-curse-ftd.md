@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 68* 
 
 **Breaking a Hoard Curse**
-
-`dice: [](a-dragons-curse-breaking-a-hoard-curse-ftd.md#^breaking-a-hoard-curse)`
 
 | dice: d4 | Rite Elements |
 |----------|---------------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -52,7 +53,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - "name": "[History](Інструменти%20ДМ/CLI/rules/skills.md#History)"
     "desc": "+4"
 "damage_resistances": "psychic"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "any two languages, telepathy 30 ft."
 "cr": "6"
 "traits":
@@ -64,8 +66,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes two Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic\
       \ damage."
     "name": "Dagger"
   - "desc": "The warlock opens a momentary extraplanar rift within 60 feet of it.\
@@ -77,13 +79,13 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
       нти%20ДМ/CLI/rules/conditions.md#Frightened)."
     "name": "Howling Void"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 15): \n\nAt will: [detect magic](І\
+      \ spellcasting ability (spell save DC 15): \n\n**At will:** [detect magic](І\
       нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [guidance](Інструменти%20Д\
       М/CLI/spells/guidance-xphb.md), [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md),\
       \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only),\
       \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](Інстр\
-      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [arcane\
+      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [arcane\
       \ gate](Інструменти%20ДМ/CLI/spells/arcane-gate-xphb.md), [detect thoughts](І\
       нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [true seeing](Інструмен\
       ти%20ДМ/CLI/spells/true-seeing-xphb.md)"

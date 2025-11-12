@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/armor/heavy
@@ -29,7 +30,7 @@ aliases:
 
 
 
-Bound into this armor is a level 4 spell. The spell is determined when the armor is created and must belong to the Abjuration or Illusion school of magic. The armor has 6 charges and regains `d6` expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.
+Bound into this armor is a level 4 spell. The spell is determined when the armor is created and must belong to the Abjuration or Illusion school of magic. The armor has 6 charges and regains `1d6` expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.
 
 The spell's saving throw DC is 15, and its attack bonus is `+7`.
 

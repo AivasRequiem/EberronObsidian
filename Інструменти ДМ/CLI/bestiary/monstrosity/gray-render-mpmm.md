@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -25,8 +26,6 @@ A gray render might be a strong ally, but it's always an unpredictable one. In c
 The Gray Render Quirks table presents possible quirks for gray renders that can be generated randomly or selected as desired.
 
 **Gray Render Quirks**
-
-`dice: [](gray-render-mpmm.md#^gray-render-quirks)`
 
 | dice: d12 | Quirk |
 |-----------|-------|
@@ -68,18 +67,19 @@ The Gray Render Quirks table presents possible quirks for gray renders that can 
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": ""
 "cr": "12"
 "actions":
   - "desc": "The gray render makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) piercing damage. If the target is Medium or smaller, the target\
       \ must succeed on a DC 16 Strength saving throw or be knocked [prone](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d8 + 4) slashing damage, plus 10 (3d6) bludgeoning damage if the\
       \ target is [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Claw"

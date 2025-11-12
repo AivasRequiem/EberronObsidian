@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/8
@@ -65,12 +66,12 @@ Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, tr
 "actions":
   - "desc": "The reigar makes two Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
-      \ damage if used with two hands to make a melee attack, plus 3 (d6) force\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+      \ damage if used with two hands to make a melee attack, plus 3 (1d6) force\
       \ damage if the reigar is wearing its talarith."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 90 ft., one target. *Hit:*\
       \ 22 (5d8) damage of a type chosen by the reigar from the following list:\
       \ cold, fire, lightning, or radiant."
     "name": "Chromatic Bolt"
@@ -81,12 +82,12 @@ Reigar wander Wildspace and the Astral Sea in search of artistic inspiration, tr
       \ it is reduced to 0 hit points."
     "name": "Summon Duplicate (Recharges after a Short or Long Rest)"
   - "desc": "The reigar casts one of the following spells, requiring no spell components\
-      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
-      \ will: [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](Ін\
+      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\n**At\
+      \ will:** [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](Ін\
       струменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструменти\
-      %20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [dimension door](І\
+      %20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [dimension door](І\
       нструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [phantasmal force](Інстр\
-      ументи%20ДМ/CLI/spells/phantasmal-force-xphb.md)\n\n1/day each: [mass suggestion](І\
+      ументи%20ДМ/CLI/spells/phantasmal-force-xphb.md)\n\n**1/day each:** [mass suggestion](І\
       нструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [sending](Інструменти%20Д\
       М/CLI/spells/sending-xphb.md)"
     "name": "Spellcasting (Psionics)"

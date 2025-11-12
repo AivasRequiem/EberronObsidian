@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/27
@@ -55,7 +56,8 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 31"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 31"
 "languages": "Common, Draconic"
 "cr": "27"
 "traits":
@@ -73,17 +75,17 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The greatwyrm can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 26 Strength saving throw or be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
@@ -92,6 +94,9 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
       \ creature takes 78 (12d12) cold damage. On a successful save, the creature\
       \ takes half as much damage."
     "name": "Breath Weapon (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the white greatwyrm can expend a use to take one of the following actions.\
+  \ The white greatwyrm regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw or Tail attack."
     "name": "Attack"
@@ -104,6 +109,15 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
       \ creature of the greatwyrm's choice it can see within 120 feet of it, dealing\
       \ 12 (1d8 + 8) force damage to its target, then disappears."
     "name": "Arcane Spear (Costs 3 Actions)"
+"mythic_description": "If the greatwyrm's Chromatic Awakening trait has activated\
+  \ in the last hour, it can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The greatwyrm makes one Bite attack."
+    "name": "Bite"
+  - "desc": "The greatwyrm flares with elemental energy. Each creature in a 60-foot-radius\
+      \ sphere centered on the greatwyrm must succeed on a DC 26 Dexterity saving\
+      \ throw or take 22 (5d8) cold damage."
+    "name": "Chromatic Flare (Costs 2 Actions)"
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/white-greatwyrm-ftd.webp"

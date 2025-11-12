@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 240* 
 
 **Upper Sharn Street Events**
-
-`dice: [](what-happens-next-upper-sharn-street-events-erlw.md#^upper-sharn-street-events)`
 
 | dice: d100 | Event |
 |------------|-------|

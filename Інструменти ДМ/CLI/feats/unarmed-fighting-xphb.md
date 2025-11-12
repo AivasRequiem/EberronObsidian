@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -10,6 +11,8 @@ aliases:
 # Unarmed Fighting
 *Source: Player's Handbook (2024) p. 210*  
 
-When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to `d6` plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the `d6` becomes a `d8`.
+**Prerequisite**: Fighting Style Feature
 
-At the start of each of your turns, you can deal `d4` Bludgeoning damage to one creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by you.
+When you hit with your [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md) and deal damage, you can deal Bludgeoning damage equal to `1d6` plus your Strength modifier instead of the normal damage of an [Unarmed Strike](Інструменти%20ДМ/CLI/rules/variant-rules/unarmed-strike-xphb.md). If you aren't holding any weapons or a [Shield](Інструменти%20ДМ/CLI/items/shield-xphb.md) when you make the attack roll, the `d6` becomes a `d8`.
+
+At the start of each of your turns, you can deal `1d4` Bludgeoning damage to one creature [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) by you.

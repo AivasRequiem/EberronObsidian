@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -22,7 +23,7 @@ Green dragon wyrmlings often serve as pawns in older dragons' schemes. By spying
 *Dragons of Deceit and Derision*
 
 - **Habitat.** Forest  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 From forbidden forest depths, green dragons whisper evils into the world and manipulate the lives of those who listen. Elusive, conniving, and egotistical, these chromatic dragons patiently prey on the fears of shorter-lived beings, corrupting and isolating them. Green dragons might lurk amid labyrinthine wildernesses for centuries without revealing themselves; even their most devoted followers might know them only as the voice of the woodlands or a whisper in their dreams.
 
@@ -60,7 +61,8 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
     "desc": "+3"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
@@ -69,12 +71,12 @@ Green dragons lair in ancient forests, often shaping stands of massive trees int
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing\
-      \ damage plus 3 (d6) Poison damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (1d10 + 2) Slashing\
+      \ damage plus 3 (1d6) Poison damage."
     "name": "Rend"
-  - "desc": "Constitution Saving Throw: DC 11, each creature in a 15-foot [Cone](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 21 (6d6) Poison damage. Success: Half damage."
+  - "desc": "*Constitution Saving Throw:* DC 11, each creature in a 15-foot [Cone](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 21 (6d6) Poison damage. *Success:* Half damage."
     "name": "Poison Breath (Recharge 5-6)"
 "source":
   - "XMM"

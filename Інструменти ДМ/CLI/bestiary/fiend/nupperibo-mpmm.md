@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -57,7 +58,8 @@ Nupperibos unthinkingly obey any command they receive telepathically from anothe
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [frightened](Інст\
   рументи%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 20 ft. (blind beyond this radius), passive Perception 11"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 20 ft. (blind\
+  \ beyond this radius), passive Perception 11"
 "languages": "understands Infernal but can't speak"
 "cr": "1/2"
 "traits":
@@ -71,7 +73,7 @@ Nupperibos unthinkingly obey any command they receive telepathically from anothe
       \ 24 hours."
     "name": "Driven Tracker"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bite"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 137* 
 
 **Red Dragon Art Objects**
-
-`dice: [](red-dragon-treasures-red-dragon-art-objects-ftd.md#^red-dragon-art-objects)`
 
 | dice: d12 | Object |
 |-----------|--------|

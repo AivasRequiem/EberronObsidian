@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -52,7 +53,8 @@ Rather than spinning webs, steeders excrete a viscous substance from their legs.
     "desc": "+5"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 14"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -63,11 +65,11 @@ Rather than spinning webs, steeders excrete a viscous substance from their legs.
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d8 + 2) piercing damage plus 4 (d8) poison damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d8 + 2) piercing damage plus 4 (1d8) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature.\
-      \ Hit: The target is stuck to the steeder's leg and [grappled](Інструменти\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one Small or Tiny creature.\
+      \ *Hit:* The target is stuck to the steeder's leg and [grappled](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 12). The steeder can have\
       \ only one creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ at a time."

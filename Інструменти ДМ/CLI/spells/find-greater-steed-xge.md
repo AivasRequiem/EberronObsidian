@@ -1,10 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
+- ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/conjuration
+classes:
+- Paladin
 aliases:
 - Find Greater Steed
 ---
@@ -31,5 +35,7 @@ Whenever the mount disappears, it leaves behind any objects it was wearing or ca
 > 
 > With the DM's permission, a paladin can summon a spirit in the form of a [dragonnel](Інструменти%20ДМ/CLI/bestiary/dragon/dragonnel-ftd.md) using the find greater steed spell, which appears in *Xanathar's Guide to Everything*.
 ^dragonnel-steeds
+
+**Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Xanathar's Guide to Everything p. 156, Fizban's Treasury of Dragons p. 190*

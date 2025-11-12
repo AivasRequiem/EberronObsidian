@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/25
@@ -20,7 +21,7 @@ aliases:
 *Titanic Vessel of Divine Might*
 
 - **Habitat.** Any  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Colossi are massive Constructs created by the devout to reflect the nature of a deity, which could be benevolent or wicked. Colossi thrum with incredible magic and work divine will on the land.
 
@@ -57,7 +58,8 @@ Most colossi were created in ages past and now lie dormant in secluded wildernes
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інстр\
   ументи%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "truesight 300 ft., passive Perception 10"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 300 ft., passive\
+  \ Perception 10"
 "languages": "understands Celestial and Common but can't speak"
 "cr": "25"
 "traits":
@@ -73,21 +75,24 @@ Most colossi were created in ages past and now lie dormant in secluded wildernes
 "actions":
   - "desc": "The colossus makes three attacks, using Slam or Radiant Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +18, reach 20 ft. Hit: 32 (4d10 + 10) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +18, reach 20 ft. *Hit:* 32 (4d10 + 10) Bludgeoning\
       \ damage, and the colossus pushes the target up to 20 feet straight away from\
       \ itself."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +18, range 300 ft. Hit: 22 (4d10) Radiant\
+  - "desc": "*Ranged Attack Roll:* +18, range 300 ft. *Hit:* 22 (4d10) Radiant\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Radiant Ray"
-  - "desc": "Dexterity Saving Throw: DC 26, each creature in a 300-foot-long, 10-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 26, each creature in a 300-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 65 (10d12) Radiant damage. Success: Half damage. Failure or\
-      \ Success: A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ *Failure:* 65 (10d12) Radiant damage. *Success:* Half damage. *Failure or\
+      \ Success:* A creature reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this beam disintegrates into dust, leaving behind any magic items it was\
       \ wearing or carrying."
     "name": "Divine Beam (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the colossus can expend a use to take one of the following actions. The\
+  \ colossus regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The colossus makes one Radiant Ray attack."
     "name": "Smite"

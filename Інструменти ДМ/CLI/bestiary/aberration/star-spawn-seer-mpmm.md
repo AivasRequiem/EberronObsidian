@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -77,27 +78,28 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 19"
 "languages": "Common, Deep Speech, Undercommon"
 "cr": "13"
 "traits":
   - "desc": "The seer can move through other creatures and objects as if they were\
       \ difficult terrain, and its movement doesn't provoke [opportunity attacks](І\
       нструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\n\nEach creature\
-      \ it moves through takes 5 (d10) psychic damage; no creature can take this\
-      \ damage more than once per turn.\n\nThe seer takes 5 (d10) force damage if\
-      \ it ends its turn inside an object."
+      \ it moves through takes 5 (1d10) psychic damage; no creature can take this\
+      \ damage more than once per turn.\n\nThe seer takes 5 (1d10) force damage\
+      \ if it ends its turn inside an object."
     "name": "Out-Of-Phase Movement"
 "actions":
   - "desc": "The seer makes two Comet Staff or Psychic Orb attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage plus 18 (4d8) psychic damage, and if the\
       \ target is a creature, it must succeed on a DC 19 Constitution saving throw\
       \ or be [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ until the end of its next turn."
     "name": "Comet Staff"
-  - "desc": "Ranged Spell Attack: +11 to hit, range 120 feet, one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +11 to hit, range 120 feet, one creature. *Hit:*\
       \ 27 (5d10) psychic damage."
     "name": "Psychic Orb"
   - "desc": "The seer warps space around one creature it can see within 30 feet of\

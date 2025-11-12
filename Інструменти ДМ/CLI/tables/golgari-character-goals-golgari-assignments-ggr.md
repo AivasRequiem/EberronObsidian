@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Guildmasters' Guide to Ravnica p. 140* 
 
 **Golgari Assignments**
-
-`dice: [](golgari-character-goals-golgari-assignments-ggr.md#^golgari-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

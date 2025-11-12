@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -52,7 +53,8 @@ Intellect devourers serve their mind flayer creators by consuming other creature
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "psychic"
-"senses": "blindsight 60 ft., passive Perception 12"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands Deep Speech but can't speak; telepathy 60 ft."
 "cr": "2"
 "traits":
@@ -63,18 +65,18 @@ Intellect devourers serve their mind flayer creators by consuming other creature
 "actions":
   - "desc": "The intellect devourer makes one Claw attack and uses Devour Intellect."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (2d4 + 2) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Intelligence Saving Throw: DC 12, one creature the intellect devourer\
-      \ can see within 5 feet. Failure: 11 (2d10) Psychic damage, and the target\
+  - "desc": "*Intelligence Saving Throw:* DC 12, one creature the intellect devourer\
+      \ can see within 5 feet. *Failure:* 11 (2d10) Psychic damage, and the target\
       \ has the [Stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned) condition\
       \ until the end of the intellect devourer's next turn."
     "name": "Devour Intellect"
-  - "desc": "Intelligence Saving Throw: DC 12, one Small or Medium creature within\
+  - "desc": "*Intelligence Saving Throw:* DC 12, one Small or Medium creature within\
       \ 5 feet that has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition, is a Humanoid or Beast, and has 10 [Hit Points](Інструменти%20Д\
-      М/CLI/rules/variant-rules/hit-points-xphb.md) or fewer. Failure: The intellect\
+      М/CLI/rules/variant-rules/hit-points-xphb.md) or fewer. *Failure:* The intellect\
       \ devourer possesses the target, consumes its brain, and teleports inside its\
       \ skull. While there, the intellect devourer has [Total Cover](Інструменти%20Д\
       М/CLI/rules/variant-rules/cover-xphb.md) against attacks and other effects originating\

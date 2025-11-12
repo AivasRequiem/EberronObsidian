@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/9
@@ -59,23 +60,24 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "damage_resistances": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Quori"
 "cr": "9"
 "traits":
   - "desc": "The quori's spellcasting ability is Intelligence (spell save DC 16).\
-      \ It can innately cast the following spells, requiring no components:\n\nAt\
-      \ will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\n\
-      \n3/day each: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ It can innately cast the following spells, requiring no components:\n\n**At\
+      \ will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\n\
+      \n**3/day each:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [suggestion](І\
-      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n1/day: [dominate person](І\
+      нструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\n**1/day:** [dominate person](І\
       нструменти%20ДМ/CLI/spells/dominate-person-xphb.md), [dream](Інструменти%20Д\
       М/CLI/spells/dream-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "The quori uses its Mind Thrust twice."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) force damage. If the target is a creature, it must succeed on\
       \ a DC 16 Wisdom saving throw or fall [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ in a fit of laughter."

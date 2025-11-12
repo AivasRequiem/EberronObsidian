@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 39* 
 
 **Half-Dragon Origin**
-
-`dice: [](half-dragons-half-dragon-origin-ftd.md#^half-dragon-origin)`
 
 | dice: d6 | Origin |
 |----------|--------|

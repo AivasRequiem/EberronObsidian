@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -61,11 +62,11 @@ Axe beaks are difficult to train, but those hatched and raised in captivity can 
 "actions":
   - "desc": "The axe beak makes one Sharpened Beak attack and one Talons attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 18 (2d12 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 18 (2d12 + 5) Slashing\
       \ damage, and a creature within 5 feet of the target (axe beak's choice) takes\
-      \ 6 (d12) Slashing damage."
+      \ 6 (1d12) Slashing damage."
     "name": "Sharpened Beak"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 14 (2d8 + 5) Piercing\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 14 (2d8 + 5) Piercing\
       \ damage. If the target is a Large or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Talons"

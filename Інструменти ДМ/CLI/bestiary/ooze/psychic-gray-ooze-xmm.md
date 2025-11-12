@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -53,7 +54,8 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Grappled), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "1"
 "traits":
@@ -61,17 +63,17 @@ Gray oozes are predatory, corrosive slimes that blend in with stony surroundings
       \ extra movement to do so."
     "name": "Amorphous"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 11 (3d6 + 1) Acid damage,\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 11 (3d6 + 1) Acid damage,\
       \ and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on Intelligence saving throws until the end of the ooze's next turn."
     "name": "Pseudopod"
-  - "desc": "Intelligence Saving Throw: DC 10, one creature the ooze can see within\
-      \ 60 feet. Failure: 13 (3d8) Psychic damage."
+  - "desc": "*Intelligence Saving Throw:* DC 10, one creature the ooze can see within\
+      \ 60 feet. *Failure:* 13 (3d8) Psychic damage."
     "name": "Psychic Crush"
 "reactions":
   - "desc": "Trigger: The ooze fails a saving throw against a spell or another magical\
       \ effect created by a creature. _Response:_ The triggering creature takes 3\
-      \ (d6) Psychic damage."
+      \ (1d6) Psychic damage."
     "name": "Mind Corrosion"
 "source":
   - "XMM"

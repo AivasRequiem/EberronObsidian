@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -43,7 +44,8 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 9"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "2"
 "traits":
@@ -58,8 +60,8 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing\
       \ damage if the swarm is at half of its hit points or fewer, and the target\
       \ has disadvantage on attack rolls until the start of its next turn."
     "name": "Swarm of Bites"

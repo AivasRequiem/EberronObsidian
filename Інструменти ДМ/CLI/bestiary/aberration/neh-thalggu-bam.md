@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/4
@@ -40,7 +41,8 @@ In an encounter with a neh-thalggu, roll a `d12` to determine how many brains it
   - !!int "11"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "Deep Speech; see also Brain Dump"
 "cr": "4"
 "traits":
@@ -52,14 +54,14 @@ In an encounter with a neh-thalggu, roll a `d12` to determine how many brains it
 "actions":
   - "desc": "The neh-thalggu makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one [incapacitated](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) Humanoid. Hit: 35 (10d6)\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one [incapacitated](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) Humanoid. *Hit:* 35 (10d6)\
       \ piercing damage. If this damage reduces the target to 0 hit points, the neh-thalggu\
       \ kills the target by extracting and consuming its brain."
     "name": "Extract Brain"
@@ -73,7 +75,7 @@ In an encounter with a neh-thalggu, roll a `d12` to determine how many brains it
   - "desc": "The neh-thalggu casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
       \ DC 11). It must have consumed the requisite number of brains to cast the spell,\
-      \ as indicated:\n\n1/day each: [arms of Hadar](Інструменти%20ДМ/CLI/spells/arms-of-hadar-xphb.md)\
+      \ as indicated:\n\n**1/day each:** [arms of Hadar](Інструменти%20ДМ/CLI/spells/arms-of-hadar-xphb.md)\
       \ (1 brain), [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\
       \ (2 brains), [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md)\
       \ (3 brains), [Tenser's floating disk](Інструменти%20ДМ/CLI/spells/tensers-floating-disk-xphb.md)\

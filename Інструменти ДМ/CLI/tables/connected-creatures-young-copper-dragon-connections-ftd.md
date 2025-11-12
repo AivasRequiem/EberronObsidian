@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 100* 
 
 **Young Copper Dragon Connections**
-
-`dice: [](connected-creatures-young-copper-dragon-connections-ftd.md#^young-copper-dragon-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

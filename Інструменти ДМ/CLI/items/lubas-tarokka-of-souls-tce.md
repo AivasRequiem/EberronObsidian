@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
@@ -48,8 +49,6 @@ The deck can be used in this way twice, and you regain all expended uses at the 
 Whenever you use the Twist of Fate property, there is a chance that one of the souls trapped in the deck escapes. Roll `d100` and consult the Souls of the Tarokka table. If you roll one of the high cards, the soul associated with it escapes. You can find its statistics in the "Monster Manual". If you roll a soul that has already escaped, roll again.
 
 **Souls of the Tarokka**
-
-`dice: [](lubas-tarokka-of-souls-tce.md#^souls-of-the-tarokka)`
 
 | dice: d100 | Card | Soul |
 |------------|------|------|

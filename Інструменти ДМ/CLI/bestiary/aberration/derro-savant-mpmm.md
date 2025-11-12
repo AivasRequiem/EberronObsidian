@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -51,7 +52,8 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 7"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "3"
 "traits":
@@ -63,7 +65,7 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage."
     "name": "Quarterstaff"
   - "desc": "The derro launches a brilliant beam of magical energy in a 5-foot-wide\
@@ -72,9 +74,9 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
       \ much damage on a successful one."
     "name": "Chromatic Beam"
   - "desc": "The derro casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ ability (spell save DC 12):\n\n**At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [invisibility](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md),\
       \ [spider climb](Інструменти%20ДМ/CLI/spells/spider-climb-xphb.md)"
     "name": "Spellcasting"

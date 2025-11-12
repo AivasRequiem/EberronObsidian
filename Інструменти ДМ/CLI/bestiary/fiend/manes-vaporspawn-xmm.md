@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -52,22 +53,23 @@ The lowest form of demons, manes appear when truly loathsome souls are condemned
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [grappled](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Grappled), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1"
 "traits":
   - "desc": "The manes can move through a space as narrow as 1 inch without expending\
       \ extra movement to do so."
     "name": "Contortionist"
-  - "desc": "Constitution Saving Throw: DC 12, each creature in a 5-foot [Emanation](І\
+  - "desc": "*Constitution Saving Throw:* DC 12, each creature in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the manes at the end of the manes's turn. Failure: The target has the\
+      \ from the manes at the end of the manes's turn. *Failure:* The target has the\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition\
-      \ until the end of its next turn. Success: The target is immune to this manes's\
+      \ until the end of its next turn. *Success:* The target is immune to this manes's\
       \ Sickening Vapors for 24 hours."
     "name": "Sickening Vapors"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing\
       \ damage plus 5 (2d4) Necrotic damage."
     "name": "Claw"
 "bonus_actions":

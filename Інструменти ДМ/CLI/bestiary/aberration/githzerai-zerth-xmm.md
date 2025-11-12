@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -23,7 +24,7 @@ Githzerai zerths embody the discipline espoused by their first leader, Zerthimon
 *Explorers at Reality's Extremes*
 
 - **Habitat.** Planar (Limbo)  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Githzerai are gaunt, humanlike beings, physically identical to githyanki. They share a history with githyanki as creatures physically and psychically transformed by mind flayers (see the "Githyanki" section). Githzerai know that in body and mind, their species was manipulated by their former illithid oppressors. Rather than giving in to this programming, githzerai follow the teachings of their first leader, Zerthimon, and reshape their minds and bodies to find peace.
 
@@ -34,8 +35,6 @@ Githzerai psychically create serene, hidden sanctuaries in chaotic reaches of th
 Characters might be drawn into conflicts involving githzerai and githyanki in various ways. Roll on or choose a result from the Gith Conflicts table to inspire adventures featuring these age-old rivals.
 
 **Gith Conflicts**
-
-`dice: [](githzerai-zerth-xmm.md#^gith-conflicts)`
 
 | dice: 1d8 | The Characters Are... |
 |-----------|-----------------------|
@@ -90,13 +89,13 @@ Characters might be drawn into conflicts involving githzerai and githyanki in va
 "actions":
   - "desc": "The githzerai makes two Psi Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Bludgeoning\
       \ damage plus 13 (3d8) Psychic damage."
     "name": "Psi Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 14):\n\n**At will:**\
       \ [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is Invisible)\n\
-      \n1/day each: [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md)\
+      \n**1/day each:** [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md)\
       \ (level 6 version), [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
       \ [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/cleric
 aliases:
@@ -17,13 +18,14 @@ aliases:
 - [Sacred Flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md "XPHB")
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB")
 - [Thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md "XPHB")
-- [Toll the Dead](Інструменти%20ДМ/CLI/spells/toll-the-dead-xphb.md "XPHB")
-- [Word of Radiance](Інструменти%20ДМ/CLI/spells/word-of-radiance-xphb.md "XPHB")
+- [Toll the Dead](Інструменти%20ДМ/CLI/spells/toll-the-dead-xphb.md "XPHB") (\*)
+- [Word of Radiance](Інструменти%20ДМ/CLI/spells/word-of-radiance-xphb.md "XPHB") (\*)
 
 ## 1st Level
 
 - [Bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md "XPHB")
 - [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md "XPHB")
+- [Ceremony](Інструменти%20ДМ/CLI/spells/ceremony-xge.md "XGE") (\*)
 - [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md "XPHB")
 - [Create or Destroy Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md "XPHB")
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
@@ -70,6 +72,7 @@ aliases:
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
+- [Life Transference](Інструменти%20ДМ/CLI/spells/life-transference-xge.md "XGE") (\*)
 - [Magic Circle](Інструменти%20ДМ/CLI/spells/magic-circle-xphb.md "XPHB")
 - [Mass Healing Word](Інструменти%20ДМ/CLI/spells/mass-healing-word-xphb.md "XPHB")
 - [Meld into Stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md "XPHB")
@@ -101,11 +104,13 @@ aliases:
 - [Circle of Power](Інструменти%20ДМ/CLI/spells/circle-of-power-xphb.md "XPHB")
 - [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md "XPHB")
 - [Contagion](Інструменти%20ДМ/CLI/spells/contagion-xphb.md "XPHB")
+- [Dawn](Інструменти%20ДМ/CLI/spells/dawn-xge.md "XGE") (\*)
 - [Dispel Evil and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md "XPHB")
 - [Flame Strike](Інструменти%20ДМ/CLI/spells/flame-strike-xphb.md "XPHB")
 - [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB")
 - [Hallow](Інструменти%20ДМ/CLI/spells/hallow-xphb.md "XPHB")
+- [Holy Weapon](Інструменти%20ДМ/CLI/spells/holy-weapon-xge.md "XGE") (\*)
 - [Insect Plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md "XPHB")
 - [Legend Lore](Інструменти%20ДМ/CLI/spells/legend-lore-xphb.md "XPHB")
 - [Mass Cure Wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md "XPHB")
@@ -139,6 +144,7 @@ aliases:
 - [Regenerate](Інструменти%20ДМ/CLI/spells/regenerate-xphb.md "XPHB")
 - [Resurrection](Інструменти%20ДМ/CLI/spells/resurrection-xphb.md "XPHB")
 - [Symbol](Інструменти%20ДМ/CLI/spells/symbol-xphb.md "XPHB")
+- [Temple of the Gods](Інструменти%20ДМ/CLI/spells/temple-of-the-gods-xge.md "XGE") (\*)
 
 ## 8th Level
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/11
@@ -23,7 +24,7 @@ aliases:
 *Genie of the Water*
 
 - **Habitat.** Coastal, Planar (Elemental Plane of Water), Underwater  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Marids surge with the power of the seas, using it to manipulate the waves or create water. These genies typically dwell in or near bodies of water. While gentle marids make homes amid springs, oases, and serene pools, tempestuous marids inhabit sea stacks, whirlpools, and treacherous coasts. Marids vary in appearance, their bodies reflecting the colors of the waves while distinctive fins and scales accent their features. Marids lend their powers and knowledge of the seas to those who defend the marids' watery realms or who offer them pleasing gifts. Marids appreciate rare aquatic treasures, such as colorful pearls, shell instruments, or delicacies from distant seas.
 
@@ -51,14 +52,15 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
   - "dexterity": !!int "5"
   - "charisma": !!int "8"
 "damage_resistances": "acid, cold, lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 13"
 "languages": "Primordial (Aquan)"
 "cr": "11"
 "traits":
   - "desc": "The marid can breathe air and water."
     "name": "Amphibious"
   - "desc": "If the marid dies outside the Elemental Plane of Water, its body dissolves\
-      \ into brine, and it gains a new body in d4 days, reviving with all its [Hit\
+      \ into brine, and it gains a new body in 1d4 days, reviving with all its [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) somewhere\
       \ on the Plane of Water."
     "name": "Elemental Restoration"
@@ -72,23 +74,23 @@ Marids hail from the Elemental Plane of Water, where they live in wondrous homes
 "actions":
   - "desc": "The marid makes three Aquatic Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 15 ft. Hit: 15 (2d8 + 6) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 15 ft. *Hit:* 15 (2d8 + 6) Slashing\
       \ damage plus 9 (2d8) Cold damage."
     "name": "Aquatic Lash"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 10-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 60-foot-long, 10-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature,\
+      \ *Failure:* 31 (9d6) Cold damage. If the target is a Huge or smaller creature,\
       \ it is pushed up to 20 feet straight away from the marid and has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success: Half damage\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. *Success:* Half damage\
       \ only."
     "name": "Water Jet"
   - "desc": "The marid casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [Create or Destroy Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [Create or Destroy Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md),\
       \ [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
       \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Purify\
       \ Food and Drink](Інструменти%20ДМ/CLI/spells/purify-food-and-drink-xphb.md)\n\
-      \n1/day each: [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md),\
+      \n**1/day each:** [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md),\
       \ [Gaseous Form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [Invisibility](І\
       нструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Plane Shift](Інструменти\
       %20ДМ/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"

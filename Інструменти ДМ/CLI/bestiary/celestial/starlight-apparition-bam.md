@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/5
@@ -46,7 +47,8 @@ A starlight apparition is different from a ghost. While a ghost is doomed to hau
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
@@ -57,14 +59,14 @@ A starlight apparition is different from a ghost. While a ghost is doomed to hau
       \ in a 20-foot radius and dim light for an additional 20 feet."
     "name": "Illumination"
   - "desc": "The apparition can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
       \ inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The apparition doesn't require air, drink, food, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (5d6 + 3) radiant damage, and if the target is\
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 20 (5d6 + 3) radiant damage, and if the target is\
       \ a creature, it must succeed on a DC 14 Wisdom saving throw or be [blinded](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Blinded) for 1 minute. The target can\
       \ repeat the saving throw at the end of each of its turns, ending the effect\

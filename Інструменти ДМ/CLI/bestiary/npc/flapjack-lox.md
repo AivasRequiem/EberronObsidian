@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/1-8
@@ -41,7 +42,8 @@ One crew member stayed aboard the Moondancer while it was in port: a flumph name
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+4"
 "damage_vulnerabilities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands Undercommon but can't speak, telepathy 60 ft."
 "cr": "1/8"
 "traits":
@@ -60,16 +62,16 @@ One crew member stayed aboard the Moondancer while it was in port: a flumph name
       \ its thoughts, as well as all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
-      \ 4 (1d4 + 2) piercing damage plus 2 (d4) acid damage. At the end of each\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each\
       \ of its turns, the target must make a DC 10 Constitution saving throw, taking\
-      \ 2 (d4) acid damage on a failure or ending the recurring acid damage on a\
-      \ success. A [lesser restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md)\
+      \ 2 (1d4) acid damage on a failure or ending the recurring acid damage on\
+      \ a success. A [lesser restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md)\
       \ spell cast on the target also ends the recurring acid damage."
     "name": "Tendrils"
   - "desc": "Each creature in a 15-foot cone originating from Flapjack must succeed\
       \ on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid.\
-      \ A coated creature exudes a horrible stench for d4 hours. The coated creature\
+      \ A coated creature exudes a horrible stench for 1d4 hours. The coated creature\
       \ is [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) as long as\
       \ the stench lasts, and other creatures are [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ while with in 5 feet of the coated creature. A creature can remove the stench\
@@ -77,8 +79,8 @@ One crew member stayed aboard the Moondancer while it was in port: a flumph name
     "name": "Stench Spray (1/Day)"
   - "desc": "Flapjack casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor\
-      \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n1/day each:\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor\
+      \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**1/day each:**\
       \ [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md), [unseen\
       \ servant](Інструменти%20ДМ/CLI/spells/unseen-servant-xphb.md)"
     "name": "Spellcasting"

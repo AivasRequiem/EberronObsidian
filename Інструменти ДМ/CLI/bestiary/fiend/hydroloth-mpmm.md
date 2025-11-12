@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -46,7 +47,8 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
   \ attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 14"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "9"
 "traits":
@@ -64,10 +66,10 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
   - "desc": "The hydroloth makes two Bite or Claw attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) force damage plus 9 (2d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target.  Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target.  *Hit:*\
       \ 14 (2d8 + 5) force damage plus 9 (2d10) psychic damage."
     "name": "Claw"
   - "desc": "The hydroloth targets one creature it can see within 60 feet of it. The\
@@ -86,10 +88,10 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
     "name": "Teleport"
   - "desc": "The hydroloth casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\nAt will: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
+      \ DC 16):\n\n**At will:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [dispel\
       \ magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only)\n\n3/day each:\
+      нструменти%20ДМ/CLI/spells/invisibility-xphb.md) (self only)\n\n**3/day each:**\
       \ [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md), [crown\
       \ of madness](Інструменти%20ДМ/CLI/spells/crown-of-madness-xphb.md), [fear](І\
       нструменти%20ДМ/CLI/spells/fear-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 67* 
 
 **Hoard Linking Items**
-
-`dice: [](linking-hoards-hoard-linking-items-ftd.md#^hoard-linking-items)`
 
 | dice: d10 | Linking Items |
 |-----------|---------------|

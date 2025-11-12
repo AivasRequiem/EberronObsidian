@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -51,7 +52,8 @@ aliases:
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [restrained](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Restrained), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 120 ft., passive Perception 19"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft.,\
+  \ passive Perception 19"
 "languages": "understands the languages of creatures attuned to it but can't speak"
 "traits":
   - "desc": "The servant is immune to any spell or effect that would alter its form\
@@ -71,9 +73,9 @@ aliases:
   - "desc": "The servant doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: +17 to hit, range\
-      \ 120 ft., one target. Hit: 36 (4d12 + 10) force damage. If the target is\
+      \ 120 ft., one target. *Hit:* 36 (4d12 + 10) force damage. If the target is\
       \ an object, it takes triple damage."
     "name": "Destructive Fist"
   - "desc": "If the servant jumps at least 25 feet as part of its movement, it can\

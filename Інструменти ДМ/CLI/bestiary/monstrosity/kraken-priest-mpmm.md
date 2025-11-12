@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -50,10 +51,10 @@ Every kraken priest undergoes a change in appearance that reflects the kraken's 
 "actions":
   - "desc": "The priest makes two Thunderous Touch or Thunderbolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 27\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 27\
       \ (5d10) thunder damage."
     "name": "Thunderous Touch"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 11 (2d10) lightning damage plus 11 (2d10) thunder damage, and the target\
       \ is knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Thunderbolt"
@@ -66,13 +67,13 @@ Every kraken priest undergoes a change in appearance that reflects the kraken's 
       \ the effect on itself on a success."
     "name": "Voice of the Kraken (Recharges after a Short or Long Rest)"
   - "desc": "The priest casts one of the following spells, requiring no material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [create or destroy\
-      \ water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md)\n\n3/day\
-      \ each: [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md),\
+      \ water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md)\n\n**3/day\
+      \ each:** [control water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md),\
       \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [water breathing](І\
       нструменти%20ДМ/CLI/spells/water-breathing-xphb.md), [water walk](Інструмент\
-      и%20ДМ/CLI/spells/water-walk-xphb.md)\n\n1/day: [Evard's black tentacles](І\
+      и%20ДМ/CLI/spells/water-walk-xphb.md)\n\n**1/day:** [Evard's black tentacles](І\
       нструменти%20ДМ/CLI/spells/evards-black-tentacles-xphb.md)"
     "name": "Spellcasting"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/13
@@ -66,7 +67,8 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
     "desc": "+14"
 "damage_resistances": "See Living Shadow"
 "damage_immunities": "necrotic"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "13"
 "traits":
@@ -83,12 +85,12 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
 "actions":
   - "desc": "The dragon makes three Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 3 (d6) Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 12 (2d6 + 5) Slashing\
+      \ damage plus 3 (1d6) Necrotic damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 17, each creature in a 60-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 35 (10d6) Necrotic damage. Success: Half damage. Failure or Success:\
+  - "desc": "*Dexterity Saving Throw:* DC 17, each creature in a 60-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 35 (10d6) Necrotic damage. *Success:* Half damage. *Failure or Success:*\
       \ A Humanoid reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this damage dies, and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md)\
       \ rises from the corpse. The shadow is under the dragon's control and shares\
@@ -100,6 +102,23 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
       \ or [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md),\
       \ the dragon takes the Hide action."
     "name": "Shadow Stealth"
+"regional_effects":
+  - "desc": "The region around a shadow dragon's lair is twisted by its presence,\
+      \ creating the following effects:\n\n- **Negative Energy Suffusion.** Whenever\
+      \ a creature within 1 mile of the lair regains [Hit Points](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/hit-points-xphb.md) from a spell, it subtracts 1d10\
+      \ from the number of [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ regained.  \n- **Stifling Shadows.** Within 1 mile of the lair, effects that\
+      \ normally create [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md)\
+      \ instead create [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md),\
+      \ and creatures there have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+      \ on Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks.\
+      \  \n\nIf the dragon dies or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the shadow dragon can expend a use to take one of the\
+  \ following actions. The shadow dragon regains all expended uses at the start of\
+  \ each of its turns."
 "legendary_actions":
   - "desc": "The dragon moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."
@@ -108,23 +127,6 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
       \ can see within 10 feet of it takes 10 (3d6) Necrotic damage. The dragon\
       \ can't take this action again until the start of its next turn."
     "name": "Veil of Shadow"
-"regional_effects":
-  - "desc": "The region around a shadow dragon's lair is twisted by its presence,\
-      \ creating the following effects:"
-    "name": ""
-  - "desc": "- Negative Energy Suffusion. Whenever a creature within 1 mile of\
-      \ the lair regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ from a spell, it subtracts d10 from the number of [Hit Points](Інструмен\
-      ти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) regained.  \n- Stifling\
-      \ Shadows. Within 1 mile of the lair, effects that normally create [Bright\
-      \ Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md) instead\
-      \ create [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md),\
-      \ and creatures there have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
-      \ on Dexterity ([Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)) checks.\
-      \  "
-    "name": ""
-  - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/shadow-dragon-xmm.webp"

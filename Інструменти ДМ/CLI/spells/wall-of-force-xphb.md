@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -11,10 +12,12 @@ tags:
 - ttrpg-cli/spell/subclass/artillerist
 - ttrpg-cli/spell/subclass/clockwork-sorcery
 - ttrpg-cli/spell/subclass/evoker
+- ttrpg-cli/spell/subclass/oath-of-redemption
 classes:
 - Artificer (Armorer)
 - Artificer (Artillerist)
 - Bard
+- Paladin (Oath of Redemption)
 - Sorcerer (Clockwork Sorcery)
 - Wizard
 - Wizard (Evoker)
@@ -34,6 +37,6 @@ An [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) 
 
 Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md). A [Disintegrate](Інструменти%20ДМ/CLI/spells/disintegrate-xphb.md) spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.
 
-**Classes**: [Artificer (Armorer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Artificer (Artillerist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Clockwork Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-clockwork-sorcery-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB")
+**Classes**: [Artificer (Armorer)](Інструменти%20ДМ/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Artificer (Artillerist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Redemption)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE;class=XPHB"); [Sorcerer (Clockwork Sorcery)](Інструменти%20ДМ/CLI/lists/list-spells-classes-clockwork-sorcery-xphb.md "subclass=XPHB;class=XPHB"); [Wizard (Evoker)](Інструменти%20ДМ/CLI/lists/list-spells-classes-evoker-xphb.md "subclass=XPHB;class=XPHB"); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 338. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

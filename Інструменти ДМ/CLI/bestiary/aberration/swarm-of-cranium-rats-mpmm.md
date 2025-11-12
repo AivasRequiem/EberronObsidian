@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -46,7 +47,8 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 10"
 "languages": "telepathy 30 ft."
 "cr": "5"
 "traits":
@@ -58,16 +60,16 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
       \ its thoughts, as well as to all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if\
       \ the swarm has half of its hit points or fewer, plus 22 (5d8) psychic damage."
     "name": "Bites"
   - "desc": "As long as it has more than half of its hit points remaining, the swarm\
       \ casts one of the following spells, requiring no spell components and using\
-      \ Intelligence as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ Intelligence as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [comprehend languages](І\
       нструменти%20ДМ/CLI/spells/comprehend-languages-xphb.md), [detect thoughts](І\
-      нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md)\n\n1/day each: [confusion](І\
+      нструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md)\n\n**1/day each:** [confusion](І\
       нструменти%20ДМ/CLI/spells/confusion-xphb.md), [dominate monster](Інструмент\
       и%20ДМ/CLI/spells/dominate-monster-xphb.md)"
     "name": "Spellcasting (Psionics)"

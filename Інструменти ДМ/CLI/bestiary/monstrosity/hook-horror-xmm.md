@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -48,13 +49,14 @@ Hook horrors feed opportunistically on plants, fungi, and any creatures that com
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 15"
 "languages": "Hook Horror"
 "cr": "3"
 "actions":
   - "desc": "The hook horror makes two Hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 11 (2d6 + 4) Piercing\
       \ damage. If the target is a Large or smaller creature, the hook horror moves\
       \ the target 5 feet straight toward or away from itself."
     "name": "Hook"

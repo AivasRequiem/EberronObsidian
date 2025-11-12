@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -29,7 +30,7 @@ Hobgoblin warriors might hunt and raid alone or with trained mastiffs, worgs, go
 *Conquerors of Every Horizon*
 
 - **Habitat.** Desert, Forest, Grassland, Hill, Mountain, Planar (Acheron), Underdark  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Hobgoblins embody the primal urge to grow and spread, expressing such drives by bending the world to their whims. Lone hobgoblins claim woodland territories and plunder the wilds. In groups, they form hierarchical, martial societies bent on conquering lands and stripping them of resources to serve their expansionist zeal.
 
@@ -42,8 +43,6 @@ Many hobgoblins serve the violent god Maglubiyet, whose hunger for conquest matc
 The drive to subjugate and pillage is part of hobgoblins' supernatural nature, though a few might repress their warlike tendencies or turn them to more useful ends. Roll on or choose a result from the Hobgoblin Strategies table to inspire how a hobgoblin carries out its conquest.
 
 **Hobgoblin Strategies**
-
-`dice: [](hobgoblin-warrior-xmm.md#^hobgoblin-strategies)`
 
 | dice: 1d6 | The Hobgoblin Works To... |
 |-----------|---------------------------|
@@ -73,7 +72,8 @@ The drive to subjugate and pillage is part of hobgoblins' supernatural nature, t
   - !!int "10"
   - !!int "9"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common, Goblin"
 "cr": "1/2"
 "traits":
@@ -83,10 +83,10 @@ The drive to subjugate and pillage is part of hobgoblins' supernatural nature, t
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 12 (2d10 + 1) Slashing\
       \ damage."
     "name": "Longsword"
-  - "desc": "Ranged Attack Roll: +3, range 150/600 ft. Hit: 5 (1d8 + 1) Piercing\
+  - "desc": "*Ranged Attack Roll:* +3, range 150/600 ft. *Hit:* 5 (1d8 + 1) Piercing\
       \ damage plus 7 (3d4) Poison damage."
     "name": "Longbow"
 "source":

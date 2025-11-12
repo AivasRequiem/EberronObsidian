@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/13
@@ -21,15 +22,13 @@ aliases:
 *Yugoloth of Conspiracy and Control*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 With uncanny patience and fiendish cunning, ultroloths manipulate mortals and their fellow yugoloths alike, seeking to hoard power and spread suffering. These sinister masterminds often work with other yugoloths, but they might compel nearly any creature into their service. If coercion doesn't work, ultroloths use their eerie eyes and innate magic to hypnotize or charm targets.
 
 Ultroloths strive to achieve planes-spanning plots. Roll on or choose a result from the Ultroloth Conspiracies table to inspire such villainy.
 
 **Ultroloth Conspiracies**
-
-`dice: [](ultroloth-xmm.md#^ultroloth-conspiracies)`
 
 | dice: 1d6 | The Ultroloth Schemes To... |
 |-----------|-----------------------------|
@@ -71,7 +70,8 @@ Ultroloths strive to achieve planes-spanning plots. Roll on or choose a result f
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 17"
 "languages": "Abyssal, Infernal; telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -85,22 +85,22 @@ Ultroloths strive to achieve planes-spanning plots. Roll on or choose a result f
 "actions":
   - "desc": "The ultroloth uses Hypnotic Gaze and makes two Mercurial Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 25 (6d6 + 4) Force damage,\
+  - "desc": "*Melee Attack Roll:* +9, reach 15 ft. *Hit:* 25 (6d6 + 4) Force damage,\
       \ and the ultroloth can teleport the target up to 10 feet to an unoccupied space\
       \ the ultroloth can see that isn't in the air."
     "name": "Mercurial Whip"
-  - "desc": "Wisdom Saving Throw: DC 17, each creature in a 30-foot [Cone](Інстр\
-      ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Wisdom Saving Throw:* DC 17, each creature in a 30-foot [Cone](Інстр\
+      ументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ 10 (3d6) Psychic damage, and the target has the [Stunned](Інструменти%20Д\
       М/CLI/rules/conditions.md#Stunned) condition until the start of the ultroloth's\
-      \ next turn. Success: The target is immune to this ultroloth's Hypnotic Gaze\
+      \ next turn. *Success:* The target is immune to this ultroloth's Hypnotic Gaze\
       \ for 24 hours."
     "name": "Hypnotic Gaze"
   - "desc": "The ultroloth casts one of the following spells, requiring no Material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 17):\n\nAt will: [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
+      \ DC 17):\n\n**At will:** [Alter Self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md),\
       \ [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [Detect\
-      \ Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\n1/day each:\
+      \ Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md)\n\n**1/day each:**\
       \ [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [Fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md) (level 5 version), [Wall of Fire](І\
       нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)"

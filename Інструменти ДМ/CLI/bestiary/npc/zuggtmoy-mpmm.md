@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/23
@@ -63,7 +64,8 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 21"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "23"
 "traits":
@@ -75,16 +77,16 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
 "actions":
   - "desc": "Zuggtmoy makes three Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) force damage plus 9 (2d8) poison damage."
     "name": "Pseudopod"
   - "desc": "Zuggtmoy casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
-      \ will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\n**At\
+      \ will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [locate animals or plants](Інструменти%20ДМ/CLI/spells/locate-animals-or-plants-xphb.md)\n\
-      \n3/day each: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \n**3/day each:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
       \ [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [plant growth](І\
-      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n1/day each: [etherealness](І\
+      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n**1/day each:** [etherealness](І\
       нструменти%20ДМ/CLI/spells/etherealness-xphb.md), [teleport](Інструменти%20Д\
       М/CLI/spells/teleport-xphb.md)"
     "name": "Spellcasting"
@@ -116,6 +118,33 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
       \ her that is [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by\
       \ her is hit by the attack instead."
     "name": "Protective Thrall"
+"lair_actions":
+  - "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a\
+      \ lair action to cause one of the following effects; she can't use the same\
+      \ effect two rounds in a row:\n\n- **Rally Plants.** Up to four plant creatures\
+      \ that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions\
+      \ to move up to their speed and make one weapon attack.  \n- **Summon Fungi.**\
+      \ Zuggtmoy causes four [gas spores](Інструменти%20ДМ/CLI/bestiary/plant/gas-spore-fungus-xmm.md)\
+      \ or [violet fungi](Інструменти%20ДМ/CLI/bestiary/plant/violet-fungus-xmm.md)\
+      \ to appear in unoccupied spaces that she chooses within the lair. They vanish\
+      \ after 1 hour.  \n- **Unleash Spores.** Zuggtmoy uses either her Infestation\
+      \ Spores or her Mind Control Spores, centered on a mushroom or other fungus\
+      \ within her lair, instead of on herself.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
+      \ one or more of the following effects:\n\n- **Corrupted Nature.** Within 6\
+      \ miles of the lair, all Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine))\
+      \ and Wisdom ([Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)) checks\
+      \ have disadvantage.  \n- **Fungal Infestation.** Molds and fungi grow on surfaces\
+      \ within 6 miles of the lair, even where they would normally find no purchase.\
+      \  \n- **Mutating Vegetation.** Vegetation within 1 mile of the lair becomes\
+      \ infested with parasitic fungi, slowly mutating as it is overwhelmed.  \n-\
+      \ If Zuggtmoy dies, these effects fade over the course of 1d10 days.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zuggtmoy can expend a use to take one of the following actions. Zuggtmoy\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zuggtmoy makes one Pseudopod attack."
     "name": "Attack"
@@ -124,34 +153,6 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
       \ up to its speed as she directs or to make one weapon attack against a target\
       \ that she designates."
     "name": "Exert Will"
-"lair_actions":
-  - "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a\
-      \ lair action to cause one of the following effects; she can't use the same\
-      \ effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Rally Plants. Up to four plant creatures that are friendly to Zuggtmoy\
-      \ and that Zuggtmoy can see can use their reactions to move up to their speed\
-      \ and make one weapon attack.  \n- Summon Fungi. Zuggtmoy causes four [gas\
-      \ spores](Інструменти%20ДМ/CLI/bestiary/plant/gas-spore-fungus-xmm.md) or [violet\
-      \ fungi](Інструменти%20ДМ/CLI/bestiary/plant/violet-fungus-xmm.md) to appear\
-      \ in unoccupied spaces that she chooses within the lair. They vanish after 1\
-      \ hour.  \n- Unleash Spores. Zuggtmoy uses either her Infestation Spores\
-      \ or her Mind Control Spores, centered on a mushroom or other fungus within\
-      \ her lair, instead of on herself.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Corrupted Nature. Within 6 miles of the lair, all Wisdom ([Medicine](І\
-      нструменти%20ДМ/CLI/rules/skills.md#Medicine)) and Wisdom ([Survival](Інстру\
-      менти%20ДМ/CLI/rules/skills.md#Survival)) checks have disadvantage.  \n- Fungal\
-      \ Infestation. Molds and fungi grow on surfaces within 6 miles of the lair,\
-      \ even where they would normally find no purchase.  \n- Mutating Vegetation.\
-      \ Vegetation within 1 mile of the lair becomes infested with parasitic fungi,\
-      \ slowly mutating as it is overwhelmed.  \n- If Zuggtmoy dies, these effects\
-      \ fade over the course of d10 days.  "
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/zuggtmoy-mpmm.webp"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/uncommon
@@ -15,8 +16,6 @@ aliases:
 - **Weight**: 0.5 lbs.
 
 When you drink this potion, you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to one type of damage for 1 hour. The DM chooses the type or determines it randomly by rolling on the following table.
-
-`dice: [](potion-of-resistance-xdmg.md#^damage-type)`
 
 | dice: d10 | Damage Type |
 |-----------|-------------|

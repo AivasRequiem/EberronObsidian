@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/30
@@ -56,7 +57,8 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інстр\
   ументи%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 33"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 33"
 "languages": "Common, Draconic, Infernal"
 "cr": "30"
 "traits":
@@ -72,17 +74,17 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
 "actions":
   - "desc": "The aspect makes one Bite attack, one Claw attack, and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:*\
       \ 23 (2d12 + 10) piercing damage plus 19 (3d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 20) and is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The aspect can have only one creature [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must\
       \ succeed on a DC 27 Strength saving throw or be knocked [prone](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Prone)."
@@ -93,6 +95,9 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
       \ cold, fire, lightning, or poison. On a successful save, the creature takes\
       \ half as much damage."
     "name": "Chromatic Flames (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the aspect of tiamat can expend a use to take one of the following actions.\
+  \ The aspect of tiamat regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The aspect makes one Claw or Tail attack."
     "name": "Attack"
@@ -101,6 +106,21 @@ The aspect of Tiamat has the body of a titanic dragon with five heads, each the 
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) of the aspect until the\
       \ end of its next turn."
     "name": "Furious Bite (Costs 2 Actions)"
+"mythic_description": "If the aspect's Chromatic Wrath trait has activated in the\
+  \ last hour, she can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The aspect targets a creature she is grappling. The creature must succeed\
+      \ on a DC 25 Charisma saving throw or take 44 (8d10) psychic damage and be\
+      \ banished to Avernus (the first layer of the Nine Hells). At the start of the\
+      \ aspect's next turn, the creature reappears in an unoccupied space within 10\
+      \ feet of the aspect."
+    "name": "Hurl Through Avernus (Costs 2 Actions)"
+  - "desc": "The aspect flares with elemental energy. Each creature of the aspect's\
+      \ choice in a 60-foot-radius sphere centered on her must make a DC 27 Dexterity\
+      \ saving throw. On a failed save, the creature takes 39 (6d12) damage of a\
+      \ type chosen by the aspect: acid, cold, fire, lightning, or poison. On a successful\
+      \ save, the creature takes half as much damage."
+    "name": "Chromatic Flare (Costs 3 Actions)"
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/aspect-of-tiamat-ftd.webp"

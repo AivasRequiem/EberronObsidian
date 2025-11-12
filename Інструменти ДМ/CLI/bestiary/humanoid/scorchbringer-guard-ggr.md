@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -47,8 +48,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ and it destroys the scorchbringer."
     "name": "Explosive Tank"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
     "name": "Light Hammer"
   - "desc": "The guard's scorchbringer spouts a stream of flame in a line that is\
       \ 30 feet long and 5 feet wide. Each creature in the line must make a DC 12\

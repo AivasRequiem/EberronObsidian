@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/monk/astral-self
@@ -109,7 +110,7 @@ While the spectral body is present, you gain the following benefits.
 #### Deflect Energy
 _Source: Tasha's Cauldron of Everything_
 
-When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by `d10` + your Wisdom modifier (minimum reduction of 1).
+When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by `1d10` + your Wisdom modifier (minimum reduction of 1).
 
 #### Empowered Arms
 _Source: Tasha's Cauldron of Everything_

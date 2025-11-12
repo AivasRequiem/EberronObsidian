@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -35,8 +36,6 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
 
 **Stirge Roosts**
 
-`dice: [](stirge-xmm.md#^stirge-roosts)`
-
 | dice: 1d4 | Between Hunts, the Stirge Lurks In... |
 |-----------|---------------------------------------|
 | 1 | The attic or furniture of a ruined building. |
@@ -62,11 +61,12 @@ Stirges are bat-size vermin with dagger-length proboscises that attach to other 
   - !!int "8"
   - !!int "6"
 "speed": "10 ft., fly 40 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing\
       \ damage, and the stirge attaches to the target. While attached, the stirge\
       \ can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage\
       \ at the start of each of the stirge's turns.\n\nThe stirge can detach itself\

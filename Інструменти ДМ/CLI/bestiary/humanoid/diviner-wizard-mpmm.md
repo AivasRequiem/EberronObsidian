@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The diviner makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (3d10 + 4) radiant damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 20 (3d10 + 4) radiant damage."
     "name": "Arcane Burst"
   - "desc": "The diviner magically creates a burst of illumination in a 10-foot-radius\
       \ sphere centered on a point within 120 feet of it. Each creature in that area\
@@ -64,17 +65,17 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ takes half as much damage and isn't [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
     "name": "Overwhelming Revelation (Recharge 5-6)"
   - "desc": "The diviner casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 15):\n\nAt will: [mage hand](І\
+      \ the spellcasting ability (spell save DC 15):\n\n**At will:** [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md),\
       \ [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n2/day each: [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
+      \n**2/day each:** [arcane eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [detect\
       \ thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [fly](Інст\
       рументи%20ДМ/CLI/spells/fly-xphb.md), [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md),\
       \ [locate object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md), [mage\
       \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [Rary's telepathic\
-      \ bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md)\n\n1/day\
-      \ each: [true seeing](Інструменти%20ДМ/CLI/spells/true-seeing-xphb.md)"
+      \ bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md)\n\n**1/day\
+      \ each:** [true seeing](Інструменти%20ДМ/CLI/spells/true-seeing-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When the diviner or a creature it can see makes an attack roll, a saving\

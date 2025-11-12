@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/15
@@ -55,16 +56,17 @@ Many of the horrors of the Last War were instigated—or at least encouraged—b
 "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 18"
 "languages": "Common, Infernal"
 "cr": "15"
 "traits":
   - "desc": "Mordakhesh's spellcasting ability is Charisma (spell save DC 18, +10\
       \ to hit with spell attacks). Mordakhesh can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [chromatic orb](Інструме\
+      \ requiring no material components:\n\n**At will:** [chromatic orb](Інструме\
       нти%20ДМ/CLI/spells/chromatic-orb-xphb.md) (see \"Actions\" below), [detect\
       \ thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [disguise\
-      \ self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n1/day each:\
+      \ self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n**1/day each:**\
       \ [banishing smite](Інструменти%20ДМ/CLI/spells/banishing-smite-xphb.md), [destructive\
       \ wave](Інструменти%20ДМ/CLI/spells/destructive-wave-xphb.md), [fly](Інструм\
       енти%20ДМ/CLI/spells/fly-xphb.md), [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md),\
@@ -79,13 +81,16 @@ Many of the horrors of the Last War were instigated—or at least encouraged—b
 "actions":
   - "desc": "Mordakhesh makes three greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
-      \ 12 (2d6 + 5) slashing damage plus 5 (d10) force damage."
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
+      \ 12 (2d6 + 5) slashing damage plus 5 (1d10) force damage."
     "name": "Greatsword"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one creature. *Hit:*\
       \ 13 (3d8) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning,\
       \ poison, or thunder."
     "name": "Chromatic Orb"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Mordakhesh can expend a use to take one of the following actions. Mordakhesh\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Mordakhesh makes one weapon attack or casts [chromatic orb](Інструмен\
       ти%20ДМ/CLI/spells/chromatic-orb-xphb.md)."

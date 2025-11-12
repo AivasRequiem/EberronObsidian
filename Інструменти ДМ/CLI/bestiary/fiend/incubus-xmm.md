@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -31,8 +32,6 @@ Incubi can transform into succubi and vice versa, taking the forms they need to 
 Those visited by an incubus have recurring nightmares. Roll on or choose a result from the Incubus Nightmares table to inspire these night terrors.
 
 **Incubus Nightmares**
-
-`dice: [](incubus-xmm.md#^incubus-nightmares)`
 
 | dice: 1d8 | The Incubus's Victim Has Dreams Of... |
 |-----------|---------------------------------------|
@@ -75,7 +74,8 @@ Those visited by an incubus have recurring nightmares. Roll on or choose a resul
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_resistances": "cold, fire, poison, psychic"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "Abyssal, Common, Infernal; telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -87,20 +87,20 @@ Those visited by an incubus have recurring nightmares. Roll on or choose a resul
 "actions":
   - "desc": "The incubus makes two Restless Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (3d6 + 5) Psychic\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 15 (3d6 + 5) Psychic\
       \ damage, and the target is cursed for 24 hours or until the incubus dies. Until\
       \ the curse ends, the target gains no benefit from finishing Short Rests."
     "name": "Restless Touch"
   - "desc": "The incubus casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
-      \ [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md)\n\n1/day\
-      \ each: [Dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md), [Hypnotic Pattern](І\
+      \n**At will:** [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
+      \ [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md)\n\n**1/day\
+      \ each:** [Dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md), [Hypnotic Pattern](І\
       нструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
-  - "desc": "Wisdom Saving Throw: DC 15, one creature the incubus can see within\
-      \ 60 feet. Failure: If the target has 20 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+  - "desc": "*Wisdom Saving Throw:* DC 15, one creature the incubus can see within\
+      \ 60 feet. *Failure:* If the target has 20 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ or fewer, it has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition for 1 hour, until it takes damage, or until a creature within 5\
       \ feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8)\

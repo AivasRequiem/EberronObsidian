@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -22,7 +23,7 @@ Performer legends are celebrities known across nations, continents, or worlds. T
 *Artists and Entertainers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 From royal courts to village squares, skilled entertainers hone their talents and delight audiences. Some travel far, sharing tales and demonstrating mysterious arts. Others serve in the courts and theaters of great nations, cultivating celebrity and navigating the whims of patrons. Many hone professional secrets and magical flourishes, striving to make their performances truly unforgettable.
 
@@ -132,28 +133,28 @@ Wrestler
 "actions":
   - "desc": "The performer makes three Bejeweled Baton attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 10 (2d4 + 5) Bludgeoning\
       \ damage plus 10 (3d6) Psychic damage."
     "name": "Bejeweled Baton"
-  - "desc": "Wisdom Saving Throw: DC 17, each creature in a 20-foot-radius [Sphere](І\
+  - "desc": "*Wisdom Saving Throw:* DC 17, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 120 feet. Failure: 22 (4d8 + 4) Psychic damage, and\
+      \ on a point within 120 feet. *Failure:* 22 (4d8 + 4) Psychic damage, and\
       \ the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ or [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition\
-      \ (performer's choice) until the end of the performer's next turn. Success:\
+      \ (performer's choice) until the end of the performer's next turn. *Success:*\
       \ Half damage only."
     "name": "Majestic Song"
   - "desc": "The performer casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor\
+      \n**At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor\
       \ Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [Major\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [Major\
       \ Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md), [Project Image](І\
       нструменти%20ДМ/CLI/spells/project-image-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "Trigger: A creature hits the performer with an attack roll. _Response—\
-      _Wisdom Saving Throw: DC 17, the triggering creature. Failure: The attack\
+      _*Wisdom Saving Throw:* DC 17, the triggering creature. *Failure:* The attack\
       \ roll misses the performer, and the target has the [Charmed](Інструменти%20Д\
       М/CLI/rules/conditions.md#Charmed) condition until the end of the performer's\
       \ next turn."

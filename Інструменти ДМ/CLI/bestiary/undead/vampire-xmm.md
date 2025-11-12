@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/13
@@ -30,8 +31,6 @@ Vampires disguise their accursed, immortal natures, passing as mortals to feed o
 Undead vampires lie dormant during the day, retreating to resting places hidden from foes and the sun's searing rays. Roll on or choose a result from the Vampire Resting Places table to inspire a vampire's grim sanctuary.
 
 **Vampire Resting Places**
-
-`dice: [](vampire-xmm.md#^vampire-resting-places)`
 
 | dice: 1d6 | The Vampire's Resting Place Is... |
 |-----------|-----------------------------------|
@@ -80,7 +79,8 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "necrotic"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "Common plus two other languages"
 "cr": "13"
 "traits":
@@ -100,14 +100,14 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
   - "desc": "The vampire can climb difficult surfaces, including along ceilings, without\
       \ needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "The vampire has these weaknesses:\n\n- Forbiddance. The vampire can't\
-      \ enter a residence without an invitation from an occupant.  \n- Running Water.\
+  - "desc": "The vampire has these weaknesses:\n\n- **Forbiddance.** The vampire can't\
+      \ enter a residence without an invitation from an occupant.  \n- **Running Water.**\
       \ The vampire takes 20 Acid damage if it ends its turn in running water.  \n\
-      - Stake to the Heart. If a weapon that deals Piercing damage is driven into\
+      - **Stake to the Heart.** If a weapon that deals Piercing damage is driven into\
       \ the vampire's heart while the vampire has the [Incapacitated](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Incapacitated) condition in its resting place,\
       \ the vampire has the [Paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
-      \ condition until the weapon is removed.  \n- Sunlight. The vampire takes\
+      \ condition until the weapon is removed.  \n- **Sunlight.** The vampire takes\
       \ 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it\
       \ has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls and ability checks.  "
@@ -115,16 +115,16 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
 "actions":
   - "desc": "The vampire makes two Grave Strike attacks and uses Bite."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 8 (1d8 + 4) Bludgeoning\
       \ damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller\
       \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 14) from one of two hands."
     "name": "Grave Strike (Vampire Form Only)"
-  - "desc": "Constitution Saving Throw: DC 17, one creature within 5 feet that is\
+  - "desc": "*Constitution Saving Throw:* DC 17, one creature within 5 feet that is\
       \ willing or that has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated), or\
       \ [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition.\
-      \ Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage.\
+      \ *Failure:* 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage.\
       \ The target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by an amount equal to the Necrotic damage taken, and the\
       \ vampire regains [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
@@ -154,6 +154,25 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
       \ willing recipient of the vampire's Bite, the damage of which doesn't end the\
       \ spell. When the spell ends, the target is unaware it was Charmed by the vampire.\n"
     "name": "Charm (Recharge 5-6)"
+"regional_effects":
+  - "desc": "The region containing a vampire's lair is warped by its presence, creating\
+      \ the following effects:\n\n- **Children of the Night.** The vampire exerts\
+      \ influence over the animals in its domain. From dusk until dawn, Medium or\
+      \ smaller Beasts have the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ condition while within 1 mile of the lair.  \n- **Looming Shadows.** Shadows\
+      \ within 1 mile of the lair seem to move as if alive. Any creature (excluding\
+      \ the vampire and its allies) that finishes a [Short Rest](Інструменти%20ДМ\
+      /CLI/rules/variant-rules/short-rest-xphb.md) while within 1 mile of the lair\
+      \ must succeed on a DC 15 Wisdom saving throw or gain no benefit from that rest.\
+      \  \n- **Mists.** The area within 1 mile of the lair is [Lightly Obscured](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md) by a persistent,\
+      \ creeping fog. The vampire and any creatures of its choice are unaffected by\
+      \ the fog.  \n\nIf the vampire dies or moves its lair elsewhere, these effects\
+      \ end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the vampire can expend a use to take one of the following\
+  \ actions. The vampire regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The vampire moves up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Grave Strike attack."
@@ -163,24 +182,6 @@ Vampires and vampire umbral lords create sanctuaries apart from the living, whet
       \ (spell save DC 17). The vampire can't take this action again until the start\
       \ of its next turn.\n"
     "name": "Beguile"
-"regional_effects":
-  - "desc": "The region containing a vampire's lair is warped by its presence, creating\
-      \ the following effects:"
-    "name": ""
-  - "desc": "- Children of the Night. The vampire exerts influence over the animals\
-      \ in its domain. From dusk until dawn, Medium or smaller Beasts have the [Charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition while within 1 mile\
-      \ of the lair.  \n- Looming Shadows. Shadows within 1 mile of the lair seem\
-      \ to move as if alive. Any creature (excluding the vampire and its allies) that\
-      \ finishes a [Short Rest](Інструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md)\
-      \ while within 1 mile of the lair must succeed on a DC 15 Wisdom saving throw\
-      \ or gain no benefit from that rest.  \n- Mists. The area within 1 mile\
-      \ of the lair is [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md)\
-      \ by a persistent, creeping fog. The vampire and any creatures of its choice\
-      \ are unaffected by the fog.  "
-    "name": ""
-  - "desc": "If the vampire dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/undead/token/vampire-xmm.webp"

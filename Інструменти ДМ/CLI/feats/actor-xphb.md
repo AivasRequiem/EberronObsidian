@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,6 +17,6 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase your Charisma score by 1, to a maximum of 20.
 
-**Impersonation.** While you're disguised as a real or fictional person, you have Advantage on Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception) or [Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance)) checks to convince others that you are that person.
+**Impersonation.** While you're disguised as a real or fictional person, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception) or [Performance](Інструменти%20ДМ/CLI/rules/skills.md#Performance)) checks to convince others that you are that person.
 
-**Mimicry.** You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).
+**Mimicry.** You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check to determine the effect is faked (DC 8 plus your Charisma modifier and [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md)).

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/compendium/src/5e/xphb
@@ -36,6 +37,32 @@ _Source: Player's Handbook (2024) p. 221. Available in the Free Rules (2024)_
 
 If you have proficiency with a tool, add your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md) to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the check too.
 
+Proficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.
+
+### Components
+
+A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.
+
+### History
+
+Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.
+
+### Insight
+
+Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.
+
+### Sleight of Hand
+
+Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.
+
+**Gaming Set**
+
+| Activity | DC |
+|----------|----|
+| Catch a player cheating | 15 |
+| Gain insight into an opponent's personality | 15 |
+^gaming-set
+
 ## Heavy Armor
 _Source: Player's Handbook (2024) p. 219. Available in the Free Rules (2024)_
 
@@ -43,6 +70,28 @@ _Source: Player's Handbook (2024) p. 219. Available in the Free Rules (2024)_
 _Source: Player's Handbook (2024) p. 221. Available in the Free Rules (2024)_
 
 If you have proficiency with a tool, add your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md) to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on the check too.
+
+Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.
+
+### History
+
+Your expertise aids you in recalling lore related to your instrument.
+
+### Performance
+
+Your ability to put on a good show is improved when you incorporate an instrument into your act.
+
+### Compose a Tune
+
+As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune.
+
+**Musical Instrument**
+
+| Activity | DC |
+|----------|----|
+| Identify a tune | 10 |
+| Improvise a tune | 20 |
+^musical-instrument
 
 ## Light Armor
 _Source: Player's Handbook (2024) p. 219. Available in the Free Rules (2024)_

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -53,7 +54,8 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
@@ -65,7 +67,7 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
       \ healing, except through its Reversal of Fortune reaction."
     "name": "Nilbogism"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Fool's Scepter"
   - "desc": "The nilbog targets one creature it can see within 60 feet of it. The\
@@ -74,7 +76,7 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
       \ next turn."
     "name": "Mocking Word"
   - "desc": "The nilbog casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
+      \ ability (spell save DC 12):\n\n**At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [Tasha's hideous laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -83,7 +85,7 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
     "name": "Nimble Escape"
 "reactions":
   - "desc": "In response to another creature dealing damage to the nilbog, the nilbog\
-      \ reduces the damage to 0 and regains 3 (d6) hit points."
+      \ reduces the damage to 0 and regains 3 (1d6) hit points."
     "name": "Reversal of Fortune"
 "source":
   - "MPMM"

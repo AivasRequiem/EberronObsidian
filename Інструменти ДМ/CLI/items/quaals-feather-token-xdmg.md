@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/varies
@@ -15,8 +16,6 @@ aliases:
 This object looks like a feather. Different types of feather tokens exist, each with a different single-use effect. The DM chooses the kind of token or determines it randomly by rolling on the Quaal's Feather Tokens table. The type of token determines its rarity.
 
 **Quaal's Feather Tokens**
-
-`dice: [](quaals-feather-token-xdmg.md#^quaals-feather-tokens)`
 
 | dice: 1d100 | Token | Rarity |
 |-------------|-------|--------|

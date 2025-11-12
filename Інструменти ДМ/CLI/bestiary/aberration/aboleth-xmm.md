@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -21,7 +22,7 @@ aliases:
 *Ageless Alien Mastermind*
 
 - **Habitat.** Underdark, Underwater  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 In aquatic abysses, aboleths dream of dead empires and orchestrate plots that unfold across ages. These elusive, amphibious immortals physically and mentally overwhelm their victims and transform creatures with a slimy, aberrant infection, reshaping other beings to serve them beneath the waves.
 
@@ -34,8 +35,6 @@ Aboleths' alien goals and methods are often mysterious to other creatures. Roll 
 > The lies we call reason are fragile things, vulnerable and raw on the shores of eons. But in the dream-vaults of dread ancients roil seas of terrifying truth. Our age is an island, and the ebb of primordial tides avows the Stygian wave.
 
 **Aboleth Schemes**
-
-`dice: [](aboleth-xmm.md#^aboleth-schemes)`
 
 | dice: 1d6 | The Aboleth Seeks To... |
 |-----------|-------------------------|
@@ -78,7 +77,8 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
     "desc": "+12"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+10"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 20"
 "languages": "Deep Speech; telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -90,14 +90,14 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
     "name": "Eldritch Restoration"
   - "desc": "If the aboleth fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day, or 4/Day in Lair)"
-  - "desc": "While underwater, the aboleth is surrounded by mucus. Constitution Saving\
-      \ Throw: DC 14, each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the aboleth at the end of the aboleth's turn. Failure:\
+  - "desc": "While underwater, the aboleth is surrounded by mucus. *Constitution Saving\
+      \ Throw:* DC 14, each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
+      \ originating from the aboleth at the end of the aboleth's turn. *Failure:*\
       \ The target is cursed. Until the curse ends, the target's skin becomes slimy,\
       \ the target can breathe air and water, and it can't regain [Hit Points](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) unless it is underwater.\n\
       \nWhile the cursed creature is outside a body of water, the creature takes 6\
-      \ (d12) Acid damage at the end of every 10 minutes unless moisture is applied\
+      \ (1d12) Acid damage at the end of every 10 minutes unless moisture is applied\
       \ to its skin before those minutes have passed."
     "name": "Mucus Cloud"
   - "desc": "If a creature the aboleth can see communicates telepathically with the\
@@ -107,21 +107,21 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
   - "desc": "The aboleth makes two Tentacle attacks and uses either Consume Memories\
       \ or Dominate Mind if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 12 (2d6 + 5) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 15 ft. *Hit:* 12 (2d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of four tentacles."
     "name": "Tentacle"
-  - "desc": "Intelligence Saving Throw: DC 16, one creature within 30 feet that\
+  - "desc": "*Intelligence Saving Throw:* DC 16, one creature within 30 feet that\
       \ is [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) or [Grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the aboleth. Failure:\
-      \ 10 (3d6) Psychic damage. Success: Half damage. Failure or Success: The\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the aboleth. *Failure:*\
+      \ 10 (3d6) Psychic damage. *Success:* Half damage. *Failure or Success:* The\
       \ aboleth gains the target's memories if the target is a Humanoid and is reduced\
       \ to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this action."
     "name": "Consume Memories"
-  - "desc": "Wisdom Saving Throw: DC 16, one creature the aboleth can see within\
-      \ 30 feet. Failure: The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+  - "desc": "*Wisdom Saving Throw:* DC 16, one creature the aboleth can see within\
+      \ 30 feet. *Failure:* The target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition until the aboleth dies or is on a different plane of existence from\
       \ the target. While [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
       \ the target acts as an ally to the aboleth and is under its control while within\
@@ -130,29 +130,29 @@ Aboleths usually dwell in submerged ruins and caverns. They keep air-filled spac
       \ it takes damage as well as after every 24 hours it spends at least 1 mile\
       \ away from the aboleth, ending the effect on itself on a success."
     "name": "Dominate Mind (2/Day)"
+"regional_effects":
+  - "desc": "The region containing an aboleth's lair is warped by it, creating the\
+      \ following effects:\n\n- **Foul Water.** Water sources within 1 mile of the\
+      \ lair are supernaturally fouled. Creatures other than the aboleth and its allies\
+      \ that drink such water must succeed on a DC 15 Constitution saving throw or\
+      \ have the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
+      \ for 1 hour.  \n- **Psionic Projection.** While in its lair, the aboleth can\
+      \ cast [Project Image](Інструменти%20ДМ/CLI/spells/project-image-xphb.md), requiring\
+      \ no spell components and using Intelligence as the spellcasting ability (spell\
+      \ save DC 16). When casting the spell this way, the spell's range is 1 mile,\
+      \ and the aboleth can use its telepathy as if it were in the illusion's space.\
+      \  \n\nIf the aboleth dies or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the aboleth can expend a use to take one of the following\
+  \ actions. The aboleth regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The aboleth makes one Tentacle attack."
     "name": "Lash"
   - "desc": "If the aboleth has at least one creature [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ or [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled), it uses\
-      \ Consume Memories and regains 5 (d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
+      \ Consume Memories and regains 5 (1d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Psychic Drain"
-"regional_effects":
-  - "desc": "The region containing an aboleth's lair is warped by it, creating the\
-      \ following effects:"
-    "name": ""
-  - "desc": "- Foul Water. Water sources within 1 mile of the lair are supernaturally\
-      \ fouled. Creatures other than the aboleth and its allies that drink such water\
-      \ must succeed on a DC 15 Constitution saving throw or have the [Poisoned](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for 1 hour.  \n\
-      - Psionic Projection. While in its lair, the aboleth can cast [Project Image](І\
-      нструменти%20ДМ/CLI/spells/project-image-xphb.md), requiring no spell components\
-      \ and using Intelligence as the spellcasting ability (spell save DC 16). When\
-      \ casting the spell this way, the spell's range is 1 mile, and the aboleth can\
-      \ use its telepathy as if it were in the illusion's space.  "
-    "name": ""
-  - "desc": "If the aboleth dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/aberration/token/aboleth-xmm.webp"

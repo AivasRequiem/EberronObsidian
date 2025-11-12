@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -51,9 +52,9 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 15, +7 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [levitate](Інструмен\
+      \ which doesn't function for others:\n\n**3/day each:** [levitate](Інструмен\
       ти%20ДМ/CLI/spells/levitate-xphb.md), [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md),\
-      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n1/day:\
+      \ [thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md)\n\n**1/day:**\
       \ [stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the blastseeker casts [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\
@@ -69,8 +70,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ opportunity attacks."
     "name": "Gust-Propelled Leap"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
       \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

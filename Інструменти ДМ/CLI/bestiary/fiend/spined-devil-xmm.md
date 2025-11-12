@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -26,8 +27,6 @@ aliases:
 Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes, seeking secrets for their infernal lords. They prefer to attack from the air, flinging wicked barbs while staying out of reach of foes. Spined devils collect information to gain leverage over mortals or to entice powerful devils. Roll on or choose a result from the Spined Devil Intelligence table to inspire what information a spined devil seeks or already possesses.
 
 **Spined Devil Intelligence**
-
-`dice: [](spined-devil-xmm.md#^spined-devil-intelligence)`
 
 | dice: 1d6 | The Spined Devil Covets Information About... |
 |-----------|----------------------------------------------|
@@ -60,7 +59,8 @@ Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes,
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 12"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "2"
@@ -75,11 +75,11 @@ Spined devils, also known as spinagons, lurk in the shadows of the Lower Planes,
   - "desc": "The devil makes two attacks, using Infernal Fork and Tail Spine in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Infernal Fork"
-  - "desc": "Ranged Attack Roll: +4, range 20/80 ft. Hit: 4 (1d4 + 2) Piercing\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Ranged Attack Roll:* +4, range 20/80 ft. *Hit:* 4 (1d4 + 2) Piercing\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Tail Spine"
 "source":
   - "XMM"

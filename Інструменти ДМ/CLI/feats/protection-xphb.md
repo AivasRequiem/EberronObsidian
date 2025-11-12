@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -8,6 +9,8 @@ aliases:
 - Protection
 ---
 # Protection
-*Source: Player's Handbook (2024) p. 209. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>*  
+*Source: Player's Handbook (2024) p. 209*  
 
-When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.
+**Prerequisite**: Fighting Style Feature
+
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to interpose your [Shield](Інструменти%20ДМ/CLI/items/shield-xphb.md) if you're holding one. You impose [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -48,16 +49,17 @@ Thought spies form the backbone of House Dimir's covert operations. They are tra
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 13"
 "languages": "Common plus any one language"
 "cr": "1"
 "traits":
   - "desc": "The thought spy's innate spellcasting ability is Intelligence (spell\
       \ save DC 13). The thought spy can innately cast the following spells, requiring\
-      \ no components:\n\nAt will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ no components:\n\n**At will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [encode\
       \ thoughts](Інструменти%20ДМ/CLI/spells/encode-thoughts-ggr.md) (see chapter\
-      \ 2)\n\n1/day each: [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [detect\
+      \ 2)\n\n**1/day each:** [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md), [detect\
       \ thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [gaseous form](І\
       нструменти%20ДМ/CLI/spells/gaseous-form-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
@@ -68,10 +70,10 @@ Thought spies form the backbone of House Dimir's covert operations. They are tra
   - "desc": "The thought spy makes two melee attacks, or it makes three ranged attacks\
       \ with its daggers."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Rapier"
 "source":

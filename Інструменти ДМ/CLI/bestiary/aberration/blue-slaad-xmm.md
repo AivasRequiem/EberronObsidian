@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -62,7 +63,8 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+1"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Slaad; telepathy 60 ft."
 "cr": "7"
 "traits":
@@ -76,10 +78,10 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes three Mutating Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 12 (2d6 + 5) Slashing\
-      \ damage plus 3 (d6) Poison damage. If the target is a Humanoid not cursed\
-      \ by a slaad, it is subjected to the following effect. Constitution Saving\
-      \ Throw: DC 15. Failure: The target is cursed. The cursed target can't regain\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 12 (2d6 + 5) Slashing\
+      \ damage plus 3 (1d6) Poison damage. If the target is a Humanoid not cursed\
+      \ by a slaad, it is subjected to the following effect. *Constitution Saving\
+      \ Throw:* DC 15. *Failure:* The target is cursed. The cursed target can't regain\
       \ [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ and its [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ maximum decreases by 10 (3d6) after every 24 hours and doesn't return to\

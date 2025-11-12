@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -64,14 +65,14 @@ Every other keg of gunpowder within 20 feet of an exploding keg has a 50 percent
 "actions":
   - "desc": "The giff makes two Longsword, Musket, or Pistol attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 40/120 ft., one target. *Hit:*\
       \ 8 (1d12 + 2) piercing damage."
     "name": "Musket"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/90 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/90 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) piercing damage."
     "name": "Pistol"
   - "desc": "The giff throws a grenade up to 60 feet, and the grenade explodes in\

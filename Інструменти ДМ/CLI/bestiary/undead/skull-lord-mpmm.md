@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/15
@@ -58,7 +59,8 @@ Infighting and treachery brought skull lords into existence. The first of them a
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 22"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 22"
 "languages": "all the languages it knew in life"
 "cr": "15"
 "traits":
@@ -70,7 +72,7 @@ Infighting and treachery brought skull lords into existence. The first of them a
   - "desc": "If the skull lord fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
   - "desc": "While within 30 feet of the skull lord, any Undead ally of the skull\
-      \ lord makes saving throws with advantage, and that ally regains d6 hit points\
+      \ lord makes saving throws with advantage, and that ally regains 1d6 hit points\
       \ whenever it starts its turn there."
     "name": "Master of the Grave"
   - "desc": "The skull lord doesn't require air, food, drink, or sleep."
@@ -78,20 +80,23 @@ Infighting and treachery brought skull lords into existence. The first of them a
 "actions":
   - "desc": "The skull lord makes three Bone Staff or Deathly Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage plus 21 (6d6) necrotic damage."
     "name": "Bone Staff"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 60 ft., one target. *Hit:*\
       \ 27 (5d8 + 5) necrotic damage."
     "name": "Deathly Ray"
   - "desc": "The skull, lord casts one of the following spells, using Charisma as\
-      \ the spellcasting ability (spell save DC 18):\n\nAt will: [mage hand](І\
+      \ the spellcasting ability (spell save DC 18):\n\n**At will:** [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
-      \n2/day each: [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
-      \ [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md)\n\n1/day each: [cloudkill](І\
+      \n**2/day each:** [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
+      \ [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md)\n\n**1/day each:** [cloudkill](І\
       нструменти%20ДМ/CLI/spells/cloudkill-xphb.md), [cone of cold](Інструменти%20Д\
       М/CLI/spells/cone-of-cold-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the skull lord can expend a use to take one of the following actions. The\
+  \ skull lord regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The skull lord makes one Bone Staff or Deathly Ray attack."
     "name": "Attack"

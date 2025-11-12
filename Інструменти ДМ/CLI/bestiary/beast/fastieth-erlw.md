@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-4
@@ -44,7 +45,7 @@ Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains
   - "desc": "The fastieth can take the Dodge action as a bonus action."
     "name": "Quickness (Recharge 5-6)"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Bite"
 "source":

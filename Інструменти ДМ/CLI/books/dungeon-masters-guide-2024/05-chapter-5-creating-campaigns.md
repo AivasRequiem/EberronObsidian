@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -826,7 +827,7 @@ Public unarmed brawling, pickpocketing, vandalism, and other crimes that cause u
 
 ###### Minor Crime
 
-The category of minor crimes includes armed assault (defined as any nonfatal attack made with a weapon or damaging spell) and property crimes that cause between 50 and 250 GP in damages. The perpetrator must pay a fine of at least 100 GP and is sentenced to `d6` years in prison.
+The category of minor crimes includes armed assault (defined as any nonfatal attack made with a weapon or damaging spell) and property crimes that cause between 50 and 250 GP in damages. The perpetrator must pay a fine of at least 100 GP and is sentenced to `1d6` years in prison.
 
 ###### Major Crime
 
@@ -1000,7 +1001,7 @@ Adventurers with the [Guide](Інструменти%20ДМ/CLI/backgrounds/guide
 Adventurers might visit the temple for one of the following reasons:
 
 - **Adventurers Wanted.** The priests keep tabs on threats in the region around the city. They're paying close attention to rumors of dragon activity in the nearby Cairn Hills, and they're looking to hire adventurers to investigate these rumors.  
-- **Healing.** Adventurers can purchase [Potions of Healing](Інструменти%20ДМ/CLI/items/potion-of-healing-xdmg.md) for 50 GP each, and the temple's priests have `d4` such potions in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared and customarily cast them for free. For more powerful magic, such as [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) and [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spells, the priests direct the adventurers to the Temple of the Radiant Sun.  
+- **Healing.** Adventurers can purchase [Potions of Healing](Інструменти%20ДМ/CLI/items/potion-of-healing-xdmg.md) for 50 GP each, and the temple's priests have `1d4` such potions in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared and customarily cast them for free. For more powerful magic, such as [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) and [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spells, the priests direct the adventurers to the Temple of the Radiant Sun.  
 - **Safe Travels.** By making a small donation to the temple, adventurers increase the likelihood of safe travel to their next destination.  
 - **Teleportation Circle.** Though it isn't the only permanent teleportation circle in the city, the circle within the Temple of the Far Horizon is the easiest to access. The priests allow free access to the teleportation circle in either direction. For 2,000 GP, the chief priest will cast the [Teleportation Circle](Інструменти%20ДМ/CLI/spells/teleportation-circle-xphb.md) spell to open a connection to another permanent circle on the Material Plane.  
 
@@ -1023,7 +1024,7 @@ Adventurers with the [Acolyte](Інструменти%20ДМ/CLI/backgrounds/aco
 
 Adventurers might visit the temple for one of the following reasons:
 
-- **Healing.** The temple sells [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) for 3,200 GP apiece and [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md) for 300 GP apiece, and the priests have `d3` copies of each scroll in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared, which they customarily cast for free.  
+- **Healing.** The temple sells [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md) for 3,200 GP apiece and [Spell Scrolls](Інструменти%20ДМ/CLI/items/spell-scroll-xdmg.md) of [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md) for 300 GP apiece, and the priests have `1d3` copies of each scroll in stock on any given day. The priests also have [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md) and [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md) spells prepared, which they customarily cast for free.  
 - **Raise Dead.** Archpriest Sarana is one of a handful of people in the Free City of Greyhawk who can cast the [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md) spell, but she needs the requisite 500 GP diamond to do so. Sarana can recommend a jeweler who sells diamonds of sufficient value. Before agreeing to cast the spell, Sarana casts [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) and asks questions about the deceased individual to make sure she's not returning to life someone who should stay dead.  
 - **Service to the Greater Good.** The temple might call upon the adventurers to perform good acts in the city or abroad. Sarana is particularly vigilant about the threat of Elemental Evil, since she was involved in the battle at the Temple of Elemental Evil seven years ago. In exchange for their service, the characters and their companions are entitled to a 50 percent discount on goods purchased at the temple.  
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/2
@@ -43,7 +44,8 @@ When a psurlon dies, other psurlons store the corpse in a safe place. As the cor
 "damage_resistances": "psychic"
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft. (blind\
+  \ beyond this radius), passive Perception 10"
 "languages": "Deep Speech, telepathy 120 ft."
 "cr": "2"
 "traits":
@@ -52,10 +54,10 @@ When a psurlon dies, other psurlons store the corpse in a safe place. As the cor
 "actions":
   - "desc": "The psurlon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
   - "desc": "The psurlon targets one creature it can see within 120 feet of itself.\
@@ -64,9 +66,9 @@ When a psurlon dies, other psurlons store the corpse in a safe place. As the cor
     "name": "Psychic Crush"
   - "desc": "The psurlon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\
-      2/day each: [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
+      **2/day each:** [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
       \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md) (self only)\n\
-      \n1/day: [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
+      \n**1/day:** [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "source":
   - "BAM"

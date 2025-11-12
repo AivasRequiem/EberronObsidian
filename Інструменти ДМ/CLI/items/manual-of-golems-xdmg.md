@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/very-rare
@@ -14,8 +15,6 @@ aliases:
 - **Weight**: 5.0 lbs.
 
 This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes `6d6` psychic damage.
-
-`dice: [](manual-of-golems-xdmg.md#^golem-time-cost)`
 
 | dice: d20 | Golem | Time | Cost |
 |-----------|-------|------|------|

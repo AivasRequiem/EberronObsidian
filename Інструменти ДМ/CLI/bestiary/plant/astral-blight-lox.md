@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/1
@@ -33,7 +34,8 @@ aliases:
   - !!int "3"
 "speed": "10 ft."
 "damage_resistances": "cold, radiant"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft. (blind\
+  \ beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -45,10 +47,10 @@ aliases:
 "actions":
   - "desc": "The blight makes two Heat-Draining Vine attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) radiant damage, and if the target is a Large or smaller creature,\
       \ it is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
-      \ DC 13). Until this grapple ends, the target takes 3 (d6) cold damage at\
+      \ DC 13). Until this grapple ends, the target takes 3 (1d6) cold damage at\
       \ the start of each of its turns. The blight has two vines, each of which can\
       \ grapple one creature."
     "name": "Heat-Draining Vine"

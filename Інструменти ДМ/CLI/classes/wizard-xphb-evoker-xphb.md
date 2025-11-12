@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/wizard/evoker
@@ -75,4 +76,4 @@ You can increase the power of your spells. When you cast a Wizard spell with a s
 
 The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), you take `2d12` Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) and [Immunity](Інструменти%20ДМ/CLI/rules/variant-rules/immunity-xphb.md).
 
-Each time you use this feature again before finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), the Necrotic damage per spell level increases by `d12`.
+Each time you use this feature again before finishing a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), the Necrotic damage per spell level increases by `1d12`.

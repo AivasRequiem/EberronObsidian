@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Guide (2024) p. 111* 
 
 **Supernatural Hooks**
-
-`dice: [](supernatural-hooks-xdmg.md#^supernatural-hooks)`
 
 | dice: 1d6 | Hook |
 |-----------|------|

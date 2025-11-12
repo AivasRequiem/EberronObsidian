@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -65,7 +66,8 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
     "desc": "+6"
 "damage_resistances": "See Living Shadow"
 "damage_immunities": "necrotic"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 14"
 "languages": "Common, Draconic"
 "cr": "4"
 "traits":
@@ -80,12 +82,12 @@ Shadow dragons lair in places of darkness and despair, such as accursed ruins, t
 "actions":
   - "desc": "The dragon makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Slashing\
-      \ damage plus 3 (d6) Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 7 (1d8 + 3) Slashing\
+      \ damage plus 3 (1d6) Necrotic damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 13, each creature in a 30-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 17 (5d6) Necrotic damage. Success: Half damage. Failure or Success:\
+  - "desc": "*Dexterity Saving Throw:* DC 13, each creature in a 30-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 17 (5d6) Necrotic damage. *Success:* Half damage. *Failure or Success:*\
       \ A Humanoid reduced to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ by this damage dies, and a [Shadow](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md)\
       \ rises from its corpse. The shadow is under the dragon's control and shares\

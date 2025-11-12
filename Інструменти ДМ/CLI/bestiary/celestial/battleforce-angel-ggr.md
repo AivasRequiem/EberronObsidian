@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -56,7 +57,9 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., truesight 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ [truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive Perception\
+  \ 16"
 "languages": "all"
 "cr": "5"
 "traits":
@@ -69,10 +72,11 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks. It also uses Battlefield Inspiration."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands, plus 18 (4d8) radiant damage. If the target is within 5 feet\
-      \ of any of the angel's allies, the target takes an extra 2 (d4) radiant damage."
+      \ of any of the angel's allies, the target takes an extra 2 (1d4) radiant\
+      \ damage."
     "name": "Longsword"
   - "desc": "The angel chooses up to three creatures it can see within 30 feet of\
       \ it. Until the end of the angel's next turn, each target can add a d4 to\

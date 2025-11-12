@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-8
@@ -45,7 +46,8 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 8"
 "languages": "Abyssal"
 "cr": "1/8"
 "traits":
@@ -55,12 +57,12 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
       нструменти%20ДМ/CLI/bestiary/beast/giant-rat-xmm.md)."
     "name": "Raxivort's Tongue"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage. If at least one of the xvart's allies is within\
       \ 5 feet of the target, the xvart can push the target 5 feet if the target is\
       \ a Medium or smaller creature."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "bonus_actions":

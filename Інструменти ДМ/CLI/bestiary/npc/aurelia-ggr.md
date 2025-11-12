@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/23
@@ -59,7 +60,8 @@ Aurelia doesn't require food, drink, or sleep.
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 24"
 "languages": "all"
 "cr": "23"
 "traits":
@@ -71,7 +73,7 @@ Aurelia doesn't require food, drink, or sleep.
 "actions":
   - "desc": "Aurelia makes three longsword attacks and uses Leadership."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (1d8 + 8) slashing damage, or 13 (1d10 + 8) slashing damage when used\
       \ with two hands, plus 27 (6d8) radiant damage."
     "name": "Longsword"
@@ -79,7 +81,7 @@ Aurelia doesn't require food, drink, or sleep.
       \ 30 feet of her. If the creature can hear her, it can add a d10 to one attack\
       \ roll or saving throw it makes before the start of Aurelia's next turn."
     "name": "Leadership"
-  - "desc": "Ranged Spell Attack: +17 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +17 to hit, range 60 ft., one creature. *Hit:*\
       \ 54 (12d8) radiant damage, and Aurelia can choose another creature she can\
       \ see within 10 feet of the target. The second creature regains 27 (6d8) hit\
       \ points."
@@ -93,6 +95,9 @@ Aurelia doesn't require food, drink, or sleep.
       \ use her reaction to be neither moved nor knocked [prone](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Prone)."
     "name": "Unyielding"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Aurelia can expend a use to take one of the following actions. Aurelia regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Aurelia chooses up to three creatures she can see within 30 feet of her.\
       \ If a chosen creature can see or hear Aurelia, it can immediately use its reaction\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -70,7 +71,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [deafened](Інстру\
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this distance), passive Perception 15"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft. (blind\
+  \ beyond this distance), passive Perception 15"
 "languages": "Common plus six more languages"
 "cr": "10"
 "traits":
@@ -84,7 +86,7 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
 "actions":
   - "desc": "The elder oblex makes two Pseudopod attacks, and it uses Eat Memories."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (4d6 + 3) bludgeoning damage plus 14 (4d6) psychic damage."
     "name": "Pseudopod"
   - "desc": "The oblex targets one creature it can see within 5 feet of it. The target\
@@ -103,9 +105,9 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
     "name": "Eat Memories"
   - "desc": "The oblex casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
-      At will: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\
+      **At will:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md)\
       \ (as 5th-level spell), [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md)\n\
-      \n3/day each: [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
+      \n**3/day each:** [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
       \ [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md), [hypnotic\
       \ pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md), [telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"

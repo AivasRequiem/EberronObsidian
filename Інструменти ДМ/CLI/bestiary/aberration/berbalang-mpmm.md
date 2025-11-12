@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -55,22 +56,23 @@ The knowledge that berbalangs accumulate makes them great sources of information
     "desc": "+2"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 12"
 "languages": "all"
 "cr": "2"
 "actions":
   - "desc": "The berbalang makes one Bite attack and one\n\nClaw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 4 (d8) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (1d10 + 3) piercing damage plus 4 (1d8) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The berbalang casts one of the following spells, requiring no material\
-      \ components and using Intelligence as the spellcasting ability:\n\nAt will:\
+      \ components and using Intelligence as the spellcasting ability:\n\n**At will:**\
       \ [speak with dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md)\n\n\
-      1/day: [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self\
+      **1/day:** [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self\
       \ only)"
     "name": "Spellcasting"
 "bonus_actions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/class/bard
@@ -28,8 +29,8 @@ aliases:
 
 You cause psychic energy to erupt at a point within range. Each creature in a 20-foot-radius [Sphere](Інструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered on that point makes an Intelligence saving throw, taking `8d6` Psychic damage on a failed save or half as much damage on a successful one.
 
-On a failed save, a target also has muddled thoughts for 1 minute. During that time, it subtracts `d6` from all its attack rolls and ability checks, as well as any Constitution saving throws to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration). The target makes an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
+On a failed save, a target also has muddled thoughts for 1 minute. During that time, it subtracts `1d6` from all its attack rolls and ability checks, as well as any Constitution saving throws to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration). The target makes an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Classes**: [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](Інструменти%20ДМ/CLI/lists/list-spells-classes-warlock.md); [Wizard](Інструменти%20ДМ/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook (2024) p. 330*

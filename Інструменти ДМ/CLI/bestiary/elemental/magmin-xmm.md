@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -45,17 +46,18 @@ Magmins might be conjured by magic-users to harry foes or might escape the Eleme
   - !!int "10"
 "speed": "30 ft."
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Ignan)"
 "cr": "1/2"
 "traits":
-  - "desc": "The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each\
+  - "desc": "The magmin explodes when it dies. *Dexterity Saving Throw:* DC 11, each\
       \ creature in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the magmin. Failure: 7 (2d6) Fire damage. Success:\
+      \ originating from the magmin. *Failure:* 7 (2d6) Fire damage. *Success:*\
       \ Half damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage.\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (2d4 + 2) Fire damage.\
       \ If the target is a creature or a flammable object that isn't being worn or\
       \ carried, it starts [burning](Інструменти%20ДМ/CLI/traps-hazards/burning-xphb.md)."
     "name": "Touch"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/17
@@ -54,19 +55,20 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 21"
 "languages": "Common, Thieves' cant"
 "cr": "17"
 "traits":
   - "desc": "Lazav's innate spellcasting ability is Intelligence (spell save DC 20).\
       \ He can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**At will:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [encode thoughts](Інструменти%20ДМ/CLI/spells/encode-thoughts-ggr.md) (see\
       \ chapter 2), [freedom of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md),\
       \ [vicious mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md) (4d4\
-      \ psychic damage)\n\n3/day each: [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
+      \ psychic damage)\n\n**3/day each:** [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
       \ [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [mirror image](І\
-      нструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n1/day each: [modify\
+      нструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n**1/day each:** [modify\
       \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md), [Rary's telepathic\
       \ bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md)"
     "name": "Innate Spellcasting"
@@ -87,10 +89,13 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
 "actions":
   - "desc": "Lazav makes three shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target\
       \ has disadvantage on the next attack roll it makes before Lazav's next turn."
     "name": "Shortsword"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lazav can expend a use to take one of the following actions. Lazav regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Lazav makes a weapon attack."
     "name": "Attack"

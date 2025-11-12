@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -50,8 +51,6 @@ Most members of the Selesnya Conclave are true believers—the tight-knit commun
 
 **Personality Traits**
 
-`dice: [](selesnya-initiate-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I never raise my voice or lose my temper. |
@@ -66,8 +65,6 @@ Most members of the Selesnya Conclave are true believers—the tight-knit commun
 
 **Ideals**
 
-`dice: [](selesnya-initiate-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -80,8 +77,6 @@ Most members of the Selesnya Conclave are true believers—the tight-knit commun
 
 **Bonds**
 
-`dice: [](selesnya-initiate-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I would give my life in the defense of the small enclave where I first encountered Mat'Selesnya. |
@@ -93,8 +88,6 @@ Most members of the Selesnya Conclave are true believers—the tight-knit commun
 ^bonds
 
 **Flaws**
-
-`dice: [](selesnya-initiate-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -114,8 +107,6 @@ Roll twice on the Selesnya Contacts table (for an ally and a rival) and once on 
 
 **Selesnya Contacts**
 
-`dice: [](selesnya-initiate-ggr.md#^selesnya-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | A wise centaur trainer believed in me even though I was a terrible student. |
@@ -129,8 +120,6 @@ Roll twice on the Selesnya Contacts table (for an ally and a rival) and once on 
 ^selesnya-contacts
 
 **Non-Selesnya Contacts**
-
-`dice: [](selesnya-initiate-ggr.md#^non-selesnya-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/10
@@ -24,8 +25,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 
 ### Dragon Turtle Personality Traits
 
-`dice: [](young-dragon-turtle-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I speak slowly and deliberately, pausing to reflect after (or sometimes in the middle of) each utterance. |
@@ -39,8 +38,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 ^trait
 
 ### Dragon Turtle Ideals
-
-`dice: [](young-dragon-turtle-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -65,8 +62,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 
 ### Dragon Turtle Adventure Hooks
 
-`dice: [](young-dragon-turtle-ftd.md#^adventure-hook)`
-
 | dice: d8 | Adventure Hook |
 |----------|----------------|
 | 1 | A ruthless shipping magnate has bribed a dragon turtle to attack competitors' vessels and drive them out of business. |
@@ -84,8 +79,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 Dragon turtles are stolid and slow to anger. This temperament, combined with their disinterest in moral quandaries, allows them to get along with—or at least abide—most creatures they encounter. They frequently enter symbiotic relationships with other sea creatures that can bring them food or treasure, and they sometimes agree to work for creatures who ply them with generous sums of wealth.
 
 ### Young Dragon Turtle Connections
-
-`dice: [](young-dragon-turtle-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -120,7 +113,8 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
   - "constitution": !!int "8"
   - "wisdom": !!int "5"
 "damage_resistances": "fire"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Aquan, Draconic"
 "cr": "10"
 "traits":
@@ -129,10 +123,10 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
 "actions":
   - "desc": "The dragon turtle makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 11 (1d12 + 5) piercing damage plus 6 (d12) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon turtle exhales steam in a 30-foot cone. Each creature in that\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/3
@@ -48,7 +49,8 @@ When the daelkyr were defeated, the dolgaunts descended into the depths of Khybe
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft. (blind\
+  \ beyond this radius), passive Perception 14"
 "languages": "Deep Speech, Goblin"
 "cr": "3"
 "traits":
@@ -64,13 +66,13 @@ When the daelkyr were defeated, the dolgaunts descended into the depths of Khybe
   - "desc": "The dolgaunt makes two tentacle attacks and two unarmed strikes. Up to\
       \ two tentacle attacks can be replaced by Vitality Drain."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) bludgeoning damage. The target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 12) if it is a Large or smaller\
       \ creature. Until this grapple ends, the dolgaunt can't use the same tentacle\
       \ on another target. The dolgaunt has two tentacles."
     "name": "Tentacle"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) bludgeoning damage."
     "name": "Unarmed Strike"
   - "desc": "One creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\

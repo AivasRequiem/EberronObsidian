@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -23,7 +24,7 @@ Thri-kreen psions harness their psychic powers to avoid danger and manipulate ob
 *Mantid Psychics and Scavengers*
 
 - **Habitat.** Desert, Grassland  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Thri-kreen are mantis-like wanderers who harness their innate camouflage and psychic abilities to survive. Different groups of thri-kreen have distinct carapaces, from the rocky shades of desert dwellers to the vibrant hues of those living in verdant lands. While their language has a distinctly insectile quality, thri-kreen often use telepathy to communicate, and groups can rapidly share a wealth of detailed information without making a sound.
 
@@ -60,19 +61,20 @@ Thri-kreen are mantis-like wanderers who harness their innate camouflage and psy
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_resistances": "psychic"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "Thri-kreen; telepathy 120 ft."
 "cr": "8"
 "actions":
   - "desc": "The thri-kreen makes three Psionic Lance attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 10 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 10 ft. or range 120 ft. *Hit:*\
       \ 18 (4d6 + 4) Psychic damage."
     "name": "Psionic Lance"
   - "desc": "The thri-kreen casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
-      \ (the hand is Invisible)\n\n1/day each: [Detect Thoughts](Інструменти%20Д\
+      \ DC 15):\n\n**At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
+      \ (the hand is Invisible)\n\n**1/day each:** [Detect Thoughts](Інструменти%20Д\
       М/CLI/spells/detect-thoughts-xphb.md), [Sending](Інструменти%20ДМ/CLI/spells/sending-xphb.md),\
       \ [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md)"
     "name": "Spellcasting"

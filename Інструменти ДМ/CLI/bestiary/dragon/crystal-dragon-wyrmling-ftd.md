@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -38,8 +39,6 @@ Use the Crystal Dragon Personality Traits and Crystal Dragon Ideals tables to in
 
 ### Crystal Dragon Personality Traits
 
-`dice: [](crystal-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | If you're not a thief or a frost giant, let's talk! |
@@ -53,8 +52,6 @@ Use the Crystal Dragon Personality Traits and Crystal Dragon Ideals tables to in
 ^trait
 
 ### Crystal Dragon Ideals
-
-`dice: [](crystal-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Crystal Dragon Personality Traits and Crystal Dragon Ideals tables to in
 The Crystal Dragon Adventure Hooks table offers suggestions for stories and adventures involving crystal dragons.
 
 ### Crystal Dragon Adventure Hooks
-
-`dice: [](crystal-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Crystal Dragon Adventure Hooks table offers suggestions for stories and adve
 Crystal dragons are among the most social and hospitable of dragons. They are equal parts mysterious, contemplative, and mischievous, making it difficult to know what to expect of them.
 
 ### Crystal Dragon Wyrmling Connections
-
-`dice: [](crystal-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -136,12 +129,13 @@ Crystal dragons are among the most social and hospitable of dragons. They are eq
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+3"
 "damage_resistances": "cold, radiant"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 15"
 "languages": "Draconic, telepathy 120 ft."
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d10 + 2) piercing damage plus 2 (d4) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage."
     "name": "Bite"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each\
       \ creature in that area must make a DC 12 Constitution saving throw, taking\
@@ -150,7 +144,7 @@ Crystal dragons are among the most social and hospitable of dragons. They are eq
       \ the radiant energy."
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability:\n\nAt will: [dancing\
+      \ and using Intelligence as the spellcasting ability:\n\n**At will:** [dancing\
       \ lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [guidance](Ін\
       струменти%20ДМ/CLI/spells/guidance-xphb.md)"
     "name": "Spellcasting (Psionics)"

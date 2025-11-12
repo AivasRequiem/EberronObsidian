@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -27,7 +28,7 @@ Cyclops oracles gaze through history to learn hidden truths. Many share these se
 *Monocular Servants of Destiny*
 
 - **Habitat.** Coastal, Desert, Grassland, Hill, Mountain, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vision, cyclopes can witness how future events are likely to occur.
 
@@ -56,31 +57,32 @@ Cyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vi
     "desc": "+11"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+12"
-"senses": "truesight 30 ft., passive Perception 22"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 30 ft., passive\
+  \ Perception 22"
 "languages": "Giant"
 "cr": "10"
 "actions":
   - "desc": "The cyclops makes three attacks, using Radiant Strike or Flash of Light\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 22 (3d10 + 6) Radiant\
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 22 (3d10 + 6) Radiant\
       \ damage."
     "name": "Radiant Strike"
-  - "desc": "Ranged Attack Roll: +10, range 120 ft. Hit: 17 (2d10 + 6) Radiant\
+  - "desc": "*Ranged Attack Roll:* +10, range 120 ft. *Hit:* 17 (2d10 + 6) Radiant\
       \ damage, and the target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls until the end of the cyclops's next turn."
     "name": "Flash of Light"
   - "desc": "The cyclops casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 16):\n\
-      \n2/day each: [Arcane Eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
+      \n**2/day each:** [Arcane Eye](Інструменти%20ДМ/CLI/spells/arcane-eye-xphb.md),\
       \ [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Locate\
-      \ Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md)\n\n1/day: [Legend\
+      \ Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md)\n\n**1/day:** [Legend\
       \ Lore](Інструменти%20ДМ/CLI/spells/legend-lore-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "Trigger: The cyclops or an ally it can see makes a [D20 Test](Інструм\
       енти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md). _Response:_ The cyclops\
-      \ rolls d20 and chooses whether to use that roll in place of the d20 rolled\
+      \ rolls 1d20 and chooses whether to use that roll in place of the d20 rolled\
       \ for the [D20 Test](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)."
     "name": "Portent (Recharge 4-6)"
 "source":

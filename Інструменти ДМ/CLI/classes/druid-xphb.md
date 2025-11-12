@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/druid
 - ttrpg-cli/compendium/src/5e/xphb
@@ -195,7 +196,7 @@ Add your Wisdom modifier to the damage you deal with any Druid cantrip.
 
 ### Primal Strike (Level 7)
 
-Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra `d8` Cold, Fire, Lightning, or Thunder damage (choose when you hit).
+Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra `1d8` Cold, Fire, Lightning, or Thunder damage (choose when you hit).
 
 ### Ability Score Improvement (Level 8)
 

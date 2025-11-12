@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -69,7 +70,8 @@ In rare cases, Fiends other than demons might adopt forms similar to shadow demo
   трументи%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 11"
 "languages": "Abyssal; telepathy 120 ft."
 "cr": "4"
 "traits":
@@ -79,14 +81,14 @@ In rare cases, Fiends other than demons might adopt forms similar to shadow demo
     "name": "Demonic Restoration"
   - "desc": "The demon can move through other creatures and objects as if they were\
       \ [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes 5 (1d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in [Bright Light](Інструменти%20ДМ/CLI/rules/variant-rules/bright-light-xphb.md),\
       \ the demon has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on ability checks and attack rolls."
     "name": "Light Sensitivity"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (3d8 + 3) Psychic\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 16 (3d8 + 3) Psychic\
       \ damage."
     "name": "Umbral Claw"
 "bonus_actions":

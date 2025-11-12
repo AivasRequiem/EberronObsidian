@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -41,7 +42,8 @@ With or without corpses nested in its body, a corpse flower exudes a stench of d
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [deafened](Інструменти%20ДМ/CLI/rules/conditions.md#Deafened), [poisoned](Інст\
   рументи%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 120 ft. (blind\
+  \ beyond this radius), passive Perception 12"
 "languages": ""
 "cr": "8"
 "traits":
@@ -64,7 +66,7 @@ With or without corpses nested in its body, a corpse flower exudes a stench of d
 "actions":
   - "desc": "The corpse flower makes three Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (2d6 + 2) bludgeoning damage plus 10 (3d6) poison damage."
     "name": "Tentacle"
   - "desc": "The corpse flower swallows one unsecured Humanoid corpse within 10 feet\

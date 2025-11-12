@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
@@ -47,8 +48,6 @@ The Triboar Trail is not safe. As the adventurers travel throughout this area, t
 
 **Wilderness Encounters (Day)**
 
-`dice: [](4-the-spiders-web.md#^wilderness-encounters-day)`
-
 | dice: d12 | Encounter |
 |-----------|-----------|
 | 1-2 | [Stirges](Інструменти%20ДМ/CLI/bestiary/monstrosity/stirge-xmm.md) (`1d8 + 2`) |
@@ -61,8 +60,6 @@ The Triboar Trail is not safe. As the adventurers travel throughout this area, t
 ^wilderness-encounters-day
 
 **Wilderness Encounters (Night)**
-
-`dice: [](4-the-spiders-web.md#^wilderness-encounters-night)`
 
 | dice: d12 | Encounter |
 |-----------|-----------|
@@ -89,7 +86,7 @@ The ogre is looking for an easy kill. It is too stupid to flee once combat is jo
 
 #### Goblins
 
-The goblins know the location of Cragmaw Castle and can provide directions if they are captured and threatened. Each one carries a pouch containing `d10` cp.
+The goblins know the location of Cragmaw Castle and can provide directions if they are captured and threatened. Each one carries a pouch containing `1d10` cp.
 
 #### Hobgoblins
 
@@ -859,7 +856,7 @@ Award an additional 200 XP to the party if the characters rescue [Gundren Rockse
 
 You can add a complication in the form of a hobgoblin war band returning home, just as the characters are preparing to leave. This war band consists of three [hobgoblins](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) led by Targor Bloodsword, a [hobgoblin](Інструменти%20ДМ/CLI/bestiary/fey/hobgoblin-warrior-xmm.md) with 20 hit points. Targor also has two [wolves](Інструменти%20ДМ/CLI/bestiary/beast/wolf-xmm.md) as pets.
 
-The hobgoblins have no treasure, but `d4` of them carry bloody sacks, each containing a severed elf head. The severed heads are trophies from the hobgoblins' recent victory over an elf hunting party.
+The hobgoblins have no treasure, but `1d4` of them carry bloody sacks, each containing a severed elf head. The severed heads are trophies from the hobgoblins' recent victory over an elf hunting party.
 
 Clever characters might try to reason with Targor by urging him to think of himself as Grol's successor rather than Grol's avenger. Targor has long aspired to lead the Cragmaw tribe, so he might do the adventurers the favor of not killing them, provided one or more characters succeed on a DC 15 Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)) check.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -25,7 +26,7 @@ Centaur wardens often lead groups of centaur troopers and act as intermediaries 
 *Defenders of the Feywild*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Centaurs are defenders of forests, plains, and sites of primeval power. With upper bodies like humans' and the lower bodies of horses, centaurs charge into battle against those who would harm their allies.
 
@@ -62,22 +63,22 @@ Centaurs are defenders of forests, plains, and sites of primeval power. With upp
 "actions":
   - "desc": "The centaur makes two attacks, using Forest Staff or Sun Ray in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
       \ damage plus 14 (4d6) Poison damage."
     "name": "Forest Staff"
-  - "desc": "Ranged Attack Roll: +7, range 90 ft. Hit: 14 (3d6 + 4) Radiant\
+  - "desc": "*Ranged Attack Roll:* +7, range 90 ft. *Hit:* 14 (3d6 + 4) Radiant\
       \ damage, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ condition until the start of the centaur's next turn."
     "name": "Sun Ray"
   - "desc": "The centaur casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 15):\n\nAt will: [Druidcraft](Інструменти%20ДМ\
+      \ ability (spell save DC 15):\n\n**At will:** [Druidcraft](Інструменти%20ДМ\
       /CLI/spells/druidcraft-xphb.md), [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The centaur moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack).\
       \ Each creature within 5 feet of the centaur as it moves is targeted once by\
-      \ the following effect. Strength Saving Throw: DC 15. Failure: 11 (2d6\
+      \ the following effect. *Strength Saving Throw:* DC 15. *Failure:* 11 (2d6\
       \ + 4) Bludgeoning damage, and the target has the [Restrained](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Restrained) condition until the end of its next\
       \ turn."

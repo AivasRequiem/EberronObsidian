@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/bard
 aliases:
@@ -20,7 +21,7 @@ aliases:
 - [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md "XPHB")
 - [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md "XPHB")
 - [Starry Wisp](Інструменти%20ДМ/CLI/spells/starry-wisp-xphb.md "XPHB")
-- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB")
+- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") (\*)
 - [True Strike](Інструменти%20ДМ/CLI/spells/true-strike-xphb.md "XPHB")
 - [Vicious Mockery](Інструменти%20ДМ/CLI/spells/vicious-mockery-xphb.md "XPHB")
 
@@ -36,6 +37,7 @@ aliases:
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
 - [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB")
 - [Dissonant Whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md "XPHB")
+- [Earth Tremor](Інструменти%20ДМ/CLI/spells/earth-tremor-xge.md "XGE") (\*)
 - [Faerie Fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md "XPHB")
 - [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md "XPHB")
 - [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md "XPHB")
@@ -73,17 +75,22 @@ aliases:
 - [Mirror Image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md "XPHB") (\*)
 - [Nathair's Mischief](Інструменти%20ДМ/CLI/spells/nathairs-mischief-ftd.md "FTD") (\*)
 - [Phantasmal Force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md "XPHB")
+- [Pyrotechnics](Інструменти%20ДМ/CLI/spells/pyrotechnics-xge.md "XGE") (\*)
 - [See Invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md "XPHB")
 - [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md "XPHB")
 - [Silence](Інструменти%20ДМ/CLI/spells/silence-xphb.md "XPHB")
+- [Skywrite](Інструменти%20ДМ/CLI/spells/skywrite-xge.md "XGE") (\*)
 - [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md "XPHB")
+- [Warding Wind](Інструменти%20ДМ/CLI/spells/warding-wind-xge.md "XGE") (\*)
 - [Zone of Truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md "XPHB")
 
 ## 3rd Level
 
 - [Bestow Curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md "XPHB")
+- [Catnap](Інструменти%20ДМ/CLI/spells/catnap-xge.md "XGE") (\*)
 - [Clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
+- [Enemies Abound](Інструменти%20ДМ/CLI/spells/enemies-abound-xge.md "XGE") (\*)
 - [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md "XPHB")
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
 - [Glyph of Warding](Інструменти%20ДМ/CLI/spells/glyph-of-warding-xphb.md "XPHB")
@@ -103,7 +110,7 @@ aliases:
 
 ## 4th Level
 
-- [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB")
+- [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB") (\*)
 - [Compulsion](Інструменти%20ДМ/CLI/spells/compulsion-xphb.md "XPHB")
 - [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md "XPHB")
 - [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md "XPHB")
@@ -134,7 +141,8 @@ aliases:
 - [Rary's Telepathic Bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md "XPHB") (\*)
 - [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md "XPHB")
 - [Seeming](Інструменти%20ДМ/CLI/spells/seeming-xphb.md "XPHB")
-- [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md "XPHB")
+- [Skill Empowerment](Інструменти%20ДМ/CLI/spells/skill-empowerment-xge.md "XGE") (\*)
+- [Synaptic Static](Інструменти%20ДМ/CLI/spells/synaptic-static-xphb.md "XPHB") (\*)
 - [Teleportation Circle](Інструменти%20ДМ/CLI/spells/teleportation-circle-xphb.md "XPHB")
 - [Yolande's Regal Presence](Інструменти%20ДМ/CLI/spells/yolandes-regal-presence-xphb.md "XPHB")
 
@@ -177,7 +185,9 @@ aliases:
 ## 9th Level
 
 - [Foresight](Інструменти%20ДМ/CLI/spells/foresight-xphb.md "XPHB")
+- [Mass Polymorph](Інструменти%20ДМ/CLI/spells/mass-polymorph-xge.md "XGE") (\*)
 - [Power Word Heal](Інструменти%20ДМ/CLI/spells/power-word-heal-xphb.md "XPHB")
 - [Power Word Kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md "XPHB")
 - [Prismatic Wall](Інструменти%20ДМ/CLI/spells/prismatic-wall-xphb.md "XPHB") (\*)
+- [Psychic Scream](Інструменти%20ДМ/CLI/spells/psychic-scream-xge.md "XGE") (\*)
 - [True Polymorph](Інструменти%20ДМ/CLI/spells/true-polymorph-xphb.md "XPHB")

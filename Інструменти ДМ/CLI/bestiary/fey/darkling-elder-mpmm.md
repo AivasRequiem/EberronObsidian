@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -51,7 +52,8 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 16"
 "languages": "Elvish, Sylvan"
 "cr": "2"
 "traits":
@@ -66,7 +68,7 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
 "actions":
   - "desc": "The darkling elder makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Scimitar"
   - "desc": "The darkling elder casts [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\

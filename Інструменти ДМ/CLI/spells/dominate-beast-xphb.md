@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/gruul-anarch
@@ -11,10 +12,12 @@ tags:
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/archfey-patron
+- ttrpg-cli/spell/subclass/oath-of-conquest
 - ttrpg-cli/spell/subrace/human-mark-of-handling
 classes:
 - Bard
 - Druid
+- Paladin (Oath of Conquest)
 - Ranger
 - Sorcerer
 - Warlock (Archfey Patron)
@@ -38,6 +41,6 @@ You can command the target to take a [Reaction](Інструменти%20ДМ/CL
 
 **Using a Higher-Level Spell Slot.** Your [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration) can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).
 
-**Classes**: [Warlock (Archfey Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-archfey-patron-xphb.md "subclass=XPHB;class=XPHB"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md)
+**Classes**: [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Druid](Інструменти%20ДМ/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of Conquest)](Інструменти%20ДМ/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE;class=XPHB"); [Ranger](Інструменти%20ДМ/CLI/lists/list-spells-classes-ranger.md); [Sorcerer](Інструменти%20ДМ/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (Archfey Patron)](Інструменти%20ДМ/CLI/lists/list-spells-classes-archfey-patron-xphb.md "subclass=XPHB;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 265. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

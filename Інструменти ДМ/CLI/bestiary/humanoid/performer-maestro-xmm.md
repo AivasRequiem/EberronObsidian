@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -22,7 +23,7 @@ Maestros are headlining performers who enjoy considerable renown. They might be 
 *Artists and Entertainers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 From royal courts to village squares, skilled entertainers hone their talents and delight audiences. Some travel far, sharing tales and demonstrating mysterious arts. Others serve in the courts and theaters of great nations, cultivating celebrity and navigating the whims of patrons. Many hone professional secrets and magical flourishes, striving to make their performances truly unforgettable.
 
@@ -130,21 +131,21 @@ Wrestler
 "actions":
   - "desc": "The performer makes three Rapier attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 8 (1d8 + 4) Piercing\
       \ damage plus 7 (2d6) Psychic damage."
     "name": "Rapier"
-  - "desc": "Wisdom Saving Throw: DC 15, each creature in a 20-foot-radius [Sphere](І\
+  - "desc": "*Wisdom Saving Throw:* DC 15, each creature in a 20-foot-radius [Sphere](І\
       нструменти%20ДМ/CLI/rules/variant-rules/sphere-area-of-effect-xphb.md) centered\
-      \ on a point within 120 feet. Failure: 20 (3d10 + 4) Psychic damage, and\
+      \ on a point within 120 feet. *Failure:* 20 (3d10 + 4) Psychic damage, and\
       \ the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ condition until the end of the performer's next turn. Success: Half damage\
+      \ condition until the end of the performer's next turn. *Success:* Half damage\
       \ only."
     "name": "Beguiling Song"
   - "desc": "The performer casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md),\
+      \n**At will:** [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md),\
       \ [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n1/day: [Tasha's Hideous Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md)\
+      \n**1/day:** [Tasha's Hideous Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md)\
       \ (level 3 version)"
     "name": "Spellcasting"
 "source":

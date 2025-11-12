@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -48,12 +49,13 @@ Myconids dwell in remote Underdark reaches overgrown with molds and mushrooms. T
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [frightened](Інст\
   рументи%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 8"
 "languages": "telepathy 30 ft."
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning\
-      \ damage plus 2 (d4) Poison damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Bludgeoning\
+      \ damage plus 2 (1d4) Poison damage."
     "name": "Slam"
 "source":
   - "XMM"

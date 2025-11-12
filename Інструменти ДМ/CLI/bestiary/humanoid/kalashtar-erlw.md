@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-4
@@ -49,8 +50,8 @@ The kalashtar have bonded with good-aligned quori spirits, which communicate wit
   - "desc": "The kalashtar has advantage on Wisdom saving throws."
     "name": "Dual Mind"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
   - "desc": "The kalashtar targets a creature it can see within 30 feet of it. The\
       \ target must succeed on a DC 12 Wisdom saving throw or take 11 (2d10) psychic\

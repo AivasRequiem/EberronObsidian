@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -30,15 +31,13 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
 
 **Ochre Jelly Leftovers**
 
-`dice: [](ochre-jelly-xmm.md#^ochre-jelly-leftovers)`
-
 | dice: 1d6 | After a Meal, the Ochre Jelly Leaves Behind... |
 |-----------|------------------------------------------------|
 | 1 | A bone etched with a word or an eerie symbol. |
 | 2 | Broken dragonborn or tiefling horns. |
 | 3 | An ornate prosthetic limb. |
 | 4 | The skeleton of an explorer's pet (perhaps a small dog, monkey, or parrot). |
-| 5 | A skull with gold teeth worth `d4` GP. |
+| 5 | A skull with gold teeth worth `1d4` GP. |
 | 6 | A spotless suit of metal armor. |
 ^ochre-jelly-leftovers
 
@@ -67,7 +66,8 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
   М/CLI/rules/conditions.md#Frightened), [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled),\
   \ [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструме\
   нти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -78,7 +78,7 @@ What ochre jellies can't dissolve they leave behind. Roll on or choose a result 
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 12 (3d6 + 2) Acid damage."
     "name": "Pseudopod"
 "reactions":
   - "desc": "Trigger: While the jelly is Large or Medium and has 10+ [Hit Points](І\

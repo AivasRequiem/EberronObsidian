@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/druid
 aliases:
@@ -10,38 +11,51 @@ aliases:
 
 ## Cantrip
 
+- [Control Flames](Інструменти%20ДМ/CLI/spells/control-flames-xge.md "XGE") (\*)
+- [Create Bonfire](Інструменти%20ДМ/CLI/spells/create-bonfire-xge.md "XGE") (\*)
 - [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md "XPHB")
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB")
+- [Frostbite](Інструменти%20ДМ/CLI/spells/frostbite-xge.md "XGE") (\*)
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB")
+- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") (\*)
+- [Infestation](Інструменти%20ДМ/CLI/spells/infestation-xge.md "XGE") (\*)
+- [Magic Stone](Інструменти%20ДМ/CLI/spells/magic-stone-xge.md "XGE") (\*)
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB")
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB")
+- [Mold Earth](Інструменти%20ДМ/CLI/spells/mold-earth-xge.md "XGE") (\*)
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB")
+- [Primal Savagery](Інструменти%20ДМ/CLI/spells/primal-savagery-xge.md "XGE") (\*)
 - [Produce Flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md "XPHB")
 - [Resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md "XPHB")
+- [Shape Water](Інструменти%20ДМ/CLI/spells/shape-water-xge.md "XGE") (\*)
 - [Shillelagh](Інструменти%20ДМ/CLI/spells/shillelagh-xphb.md "XPHB")
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB")
 - [Starry Wisp](Інструменти%20ДМ/CLI/spells/starry-wisp-xphb.md "XPHB")
 - [Thorn Whip](Інструменти%20ДМ/CLI/spells/thorn-whip-xphb.md "XPHB")
-- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB")
+- [Thunderclap](Інструменти%20ДМ/CLI/spells/thunderclap-xphb.md "XPHB") (\*)
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") (\*)
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md "XPHB")
+- [Beast Bond](Інструменти%20ДМ/CLI/spells/beast-bond-xge.md "XGE") (\*)
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB")
 - [Create or Destroy Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md "XPHB")
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
 - [Detect Poison and Disease](Інструменти%20ДМ/CLI/spells/detect-poison-and-disease-xphb.md "XPHB")
+- [Earth Tremor](Інструменти%20ДМ/CLI/spells/earth-tremor-xge.md "XGE") (\*)
 - [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md "XPHB")
 - [Faerie Fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md "XPHB")
 - [Fog Cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md "XPHB")
 - [Goodberry](Інструменти%20ДМ/CLI/spells/goodberry-xphb.md "XPHB")
 - [Healing Word](Інструменти%20ДМ/CLI/spells/healing-word-xphb.md "XPHB")
-- [Ice Knife](Інструменти%20ДМ/CLI/spells/ice-knife-xphb.md "XPHB")
+- [Ice Knife](Інструменти%20ДМ/CLI/spells/ice-knife-xphb.md "XPHB") (\*)
 - [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md "XPHB")
 - [Longstrider](Інструменти%20ДМ/CLI/spells/longstrider-xphb.md "XPHB")
 - [Protection from Evil and Good](Інструменти%20ДМ/CLI/spells/protection-from-evil-and-good-xphb.md "XPHB") (\*)
 - [Purify Food and Drink](Інструменти%20ДМ/CLI/spells/purify-food-and-drink-xphb.md "XPHB")
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") (\*)
 - [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md "XPHB")
 - [Thunderwave](Інструменти%20ДМ/CLI/spells/thunderwave-xphb.md "XPHB")
 
@@ -54,12 +68,15 @@ aliases:
 - [Beast Sense](Інструменти%20ДМ/CLI/spells/beast-sense-xphb.md "XPHB")
 - [Continual Flame](Інструменти%20ДМ/CLI/spells/continual-flame-xphb.md "XPHB") (\*)
 - [Darkvision](Інструменти%20ДМ/CLI/spells/darkvision-xphb.md "XPHB")
+- [Dust Devil](Інструменти%20ДМ/CLI/spells/dust-devil-xge.md "XGE") (\*)
+- [Earthbind](Інструменти%20ДМ/CLI/spells/earthbind-xge.md "XGE") (\*)
 - [Enhance Ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md "XPHB")
 - [Enlarge/Reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md "XPHB") (\*)
 - [Find Traps](Інструменти%20ДМ/CLI/spells/find-traps-xphb.md "XPHB")
 - [Flame Blade](Інструменти%20ДМ/CLI/spells/flame-blade-xphb.md "XPHB")
 - [Flaming Sphere](Інструменти%20ДМ/CLI/spells/flaming-sphere-xphb.md "XPHB")
 - [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB")
+- [Healing Spirit](Інструменти%20ДМ/CLI/spells/healing-spirit-xge.md "XGE") (\*)
 - [Heat Metal](Інструменти%20ДМ/CLI/spells/heat-metal-xphb.md "XPHB")
 - [Hold Person](Інструменти%20ДМ/CLI/spells/hold-person-xphb.md "XPHB")
 - [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md "XPHB")
@@ -68,8 +85,10 @@ aliases:
 - [Moonbeam](Інструменти%20ДМ/CLI/spells/moonbeam-xphb.md "XPHB")
 - [Pass without Trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md "XPHB")
 - [Protection from Poison](Інструменти%20ДМ/CLI/spells/protection-from-poison-xphb.md "XPHB")
+- [Skywrite](Інструменти%20ДМ/CLI/spells/skywrite-xge.md "XGE") (\*)
 - [Spike Growth](Інструменти%20ДМ/CLI/spells/spike-growth-xphb.md "XPHB")
 - [Summon Beast](Інструменти%20ДМ/CLI/spells/summon-beast-xphb.md "XPHB") (\*)
+- [Warding Wind](Інструменти%20ДМ/CLI/spells/warding-wind-xge.md "XGE") (\*)
 
 ## 3rd Level
 
@@ -79,7 +98,9 @@ aliases:
 - [Daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
 - [Elemental Weapon](Інструменти%20ДМ/CLI/spells/elemental-weapon-xphb.md "XPHB") (\*)
+- [Erupting Earth](Інструменти%20ДМ/CLI/spells/erupting-earth-xge.md "XGE") (\*)
 - [Feign Death](Інструменти%20ДМ/CLI/spells/feign-death-xphb.md "XPHB")
+- [Flame Arrows](Інструменти%20ДМ/CLI/spells/flame-arrows-xge.md "XGE") (\*)
 - [Meld into Stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md "XPHB")
 - [Plant Growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md "XPHB")
 - [Protection from Energy](Інструменти%20ДМ/CLI/spells/protection-from-energy-xphb.md "XPHB")
@@ -87,6 +108,8 @@ aliases:
 - [Sleet Storm](Інструменти%20ДМ/CLI/spells/sleet-storm-xphb.md "XPHB")
 - [Speak with Plants](Інструменти%20ДМ/CLI/spells/speak-with-plants-xphb.md "XPHB")
 - [Summon Fey](Інструменти%20ДМ/CLI/spells/summon-fey-xphb.md "XPHB") (\*)
+- [Tidal Wave](Інструменти%20ДМ/CLI/spells/tidal-wave-xge.md "XGE") (\*)
+- [Wall of Water](Інструменти%20ДМ/CLI/spells/wall-of-water-xge.md "XGE") (\*)
 - [Water Breathing](Інструменти%20ДМ/CLI/spells/water-breathing-xphb.md "XPHB")
 - [Water Walk](Інструменти%20ДМ/CLI/spells/water-walk-xphb.md "XPHB")
 - [Wind Wall](Інструменти%20ДМ/CLI/spells/wind-wall-xphb.md "XPHB")
@@ -94,18 +117,20 @@ aliases:
 ## 4th Level
 
 - [Blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md "XPHB")
-- [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB")
+- [Charm Monster](Інструменти%20ДМ/CLI/spells/charm-monster-xphb.md "XPHB") (\*)
 - [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md "XPHB")
 - [Conjure Minor Elementals](Інструменти%20ДМ/CLI/spells/conjure-minor-elementals-xphb.md "XPHB")
 - [Conjure Woodland Beings](Інструменти%20ДМ/CLI/spells/conjure-woodland-beings-xphb.md "XPHB")
 - [Control Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md "XPHB")
 - [Divination](Інструменти%20ДМ/CLI/spells/divination-xphb.md "XPHB") (\*)
 - [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md "XPHB")
+- [Elemental Bane](Інструменти%20ДМ/CLI/spells/elemental-bane-xge.md "XGE") (\*)
 - [Fire Shield](Інструменти%20ДМ/CLI/spells/fire-shield-xphb.md "XPHB") (\*)
 - [Fount of Moonlight](Інструменти%20ДМ/CLI/spells/fount-of-moonlight-xphb.md "XPHB")
 - [Freedom of Movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md "XPHB")
 - [Giant Insect](Інструменти%20ДМ/CLI/spells/giant-insect-xphb.md "XPHB")
 - [Grasping Vine](Інструменти%20ДМ/CLI/spells/grasping-vine-xphb.md "XPHB")
+- [Guardian of Nature](Інструменти%20ДМ/CLI/spells/guardian-of-nature-xge.md "XGE") (\*)
 - [Hallucinatory Terrain](Інструменти%20ДМ/CLI/spells/hallucinatory-terrain-xphb.md "XPHB")
 - [Ice Storm](Інструменти%20ДМ/CLI/spells/ice-storm-xphb.md "XPHB")
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
@@ -114,6 +139,7 @@ aliases:
 - [Stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md "XPHB")
 - [Summon Elemental](Інструменти%20ДМ/CLI/spells/summon-elemental-xphb.md "XPHB") (\*)
 - [Wall of Fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md "XPHB")
+- [Watery Sphere](Інструменти%20ДМ/CLI/spells/watery-sphere-xge.md "XGE") (\*)
 
 ## 5th Level
 
@@ -123,25 +149,36 @@ aliases:
 - [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md "XPHB") (\*)
 - [Conjure Elemental](Інструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md "XPHB")
 - [Contagion](Інструменти%20ДМ/CLI/spells/contagion-xphb.md "XPHB")
+- [Control Winds](Інструменти%20ДМ/CLI/spells/control-winds-xge.md "XGE") (\*)
 - [Geas](Інструменти%20ДМ/CLI/spells/geas-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB")
 - [Insect Plague](Інструменти%20ДМ/CLI/spells/insect-plague-xphb.md "XPHB")
+- [Maelstrom](Інструменти%20ДМ/CLI/spells/maelstrom-xge.md "XGE") (\*)
 - [Mass Cure Wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md "XPHB")
 - [Planar Binding](Інструменти%20ДМ/CLI/spells/planar-binding-xphb.md "XPHB")
 - [Reincarnate](Інструменти%20ДМ/CLI/spells/reincarnate-xphb.md "XPHB")
 - [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md "XPHB")
 - [Summon Dragon](Інструменти%20ДМ/CLI/spells/summon-dragon-xphb.md "XPHB") (\*)
+- [Transmute Rock](Інструменти%20ДМ/CLI/spells/transmute-rock-xge.md "XGE") (\*)
 - [Tree Stride](Інструменти%20ДМ/CLI/spells/tree-stride-xphb.md "XPHB")
 - [Wall of Stone](Інструменти%20ДМ/CLI/spells/wall-of-stone-xphb.md "XPHB")
+- [Wrath of Nature](Інструменти%20ДМ/CLI/spells/wrath-of-nature-xge.md "XGE") (\*)
 
 ## 6th Level
 
+- [Bones of the Earth](Інструменти%20ДМ/CLI/spells/bones-of-the-earth-xge.md "XGE") (\*)
 - [Conjure Fey](Інструменти%20ДМ/CLI/spells/conjure-fey-xphb.md "XPHB")
+- [Druid Grove](Інструменти%20ДМ/CLI/spells/druid-grove-xge.md "XGE") (\*)
 - [Find the Path](Інструменти%20ДМ/CLI/spells/find-the-path-xphb.md "XPHB")
 - [Flesh to Stone](Інструменти%20ДМ/CLI/spells/flesh-to-stone-xphb.md "XPHB") (\*)
 - [Heal](Інструменти%20ДМ/CLI/spells/heal-xphb.md "XPHB")
 - [Heroes' Feast](Інструменти%20ДМ/CLI/spells/heroes-feast-xphb.md "XPHB")
+- [Investiture of Flame](Інструменти%20ДМ/CLI/spells/investiture-of-flame-xge.md "XGE") (\*)
+- [Investiture of Ice](Інструменти%20ДМ/CLI/spells/investiture-of-ice-xge.md "XGE") (\*)
+- [Investiture of Stone](Інструменти%20ДМ/CLI/spells/investiture-of-stone-xge.md "XGE") (\*)
+- [Investiture of Wind](Інструменти%20ДМ/CLI/spells/investiture-of-wind-xge.md "XGE") (\*)
 - [Move Earth](Інструменти%20ДМ/CLI/spells/move-earth-xphb.md "XPHB")
+- [Primordial Ward](Інструменти%20ДМ/CLI/spells/primordial-ward-xge.md "XGE") (\*)
 - [Sunbeam](Інструменти%20ДМ/CLI/spells/sunbeam-xphb.md "XPHB")
 - [Transport via Plants](Інструменти%20ДМ/CLI/spells/transport-via-plants-xphb.md "XPHB")
 - [Wall of Thorns](Інструменти%20ДМ/CLI/spells/wall-of-thorns-xphb.md "XPHB")
@@ -156,6 +193,7 @@ aliases:
 - [Regenerate](Інструменти%20ДМ/CLI/spells/regenerate-xphb.md "XPHB")
 - [Reverse Gravity](Інструменти%20ДМ/CLI/spells/reverse-gravity-xphb.md "XPHB")
 - [Symbol](Інструменти%20ДМ/CLI/spells/symbol-xphb.md "XPHB") (\*)
+- [Whirlwind](Інструменти%20ДМ/CLI/spells/whirlwind-xge.md "XGE") (\*)
 
 ## 8th Level
 

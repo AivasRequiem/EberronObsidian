@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1-8
@@ -36,7 +37,8 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
   - !!int "8"
   - !!int "6"
 "speed": "20 ft., burrow 20 ft., fly 20 ft."
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 9"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., tremorsense\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -47,7 +49,7 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
       \ scarab is animate."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage. If the target is a creature, it has disadvantage\
       \ on attack rolls until the start of its next turn."
     "name": "Bite"

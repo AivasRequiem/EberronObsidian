@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -59,7 +60,8 @@ If all goes according to plan, a steel predator slays its target and then volunt
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інстр\
   ументи%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 17"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 17"
 "languages": "understands Modron and the language of its owner but can't speak"
 "cr": "16"
 "traits":
@@ -71,10 +73,10 @@ If all goes according to plan, a steel predator slays its target and then volunt
 "actions":
   - "desc": "The steel predator makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) force damage."
     "name": "Claw"
   - "desc": "The steel predator emits a roar in a 60-foot cone. Each creature in that\
@@ -87,7 +89,7 @@ If all goes according to plan, a steel predator slays its target and then volunt
       нструменти%20ДМ/CLI/rules/conditions.md#Stunned)."
     "name": "Stunning Roar (Recharge 5-6)"
   - "desc": "The steel predator casts one of the following spells, requiring no spell\
-      \ components and using Wisdom as the spellcasting ability:\n\n3/day each:\
+      \ components and using Wisdom as the spellcasting ability:\n\n**3/day each:**\
       \ [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md) (self\
       \ only), [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self\
       \ only)"

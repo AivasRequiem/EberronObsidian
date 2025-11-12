@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -29,7 +30,8 @@ aliases:
   - !!int "14"
   - !!int "3"
 "speed": "40 ft., climb 40 ft."
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands the languages you know"
 "traits":
   - "desc": "The insect can climb difficult surfaces, including along ceilings, without\
@@ -39,13 +41,13 @@ aliases:
   - "desc": "The insect makes a number of attacks equal to half this spell's level\
       \ (round down)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 10\
-      \ ft. Hit: 1d6 + 3 + the spell's level Piercing damage plus d4 Poison\
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10\
+      \ ft. *Hit:* 1d6 + 3 + the spell's level Piercing damage plus 1d4 Poison\
       \ damage."
     "name": "Poison Jab"
 "bonus_actions":
-  - "desc": "Constitution Saving Throw: Your spell save DC, one creature the insect\
-      \ can see within 10 feet. Failure: The target has the [Poisoned](Інструмен\
+  - "desc": "*Constitution Saving Throw:* Your spell save DC, one creature the insect\
+      \ can see within 10 feet. *Failure:* The target has the [Poisoned](Інструмен\
       ти%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of the insect's\
       \ next turn."
     "name": "Venomous Spew (Centipede Only)"

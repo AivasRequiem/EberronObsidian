@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -48,7 +49,8 @@ Kraken priests (in this book) tend to the kraken's flock. Most of the priests ar
   - !!int "10"
   - !!int "8"
 "speed": "20 ft., swim 30 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "understands Aquan and Common but can't speak"
 "cr": "1"
 "traits":
@@ -59,18 +61,18 @@ Kraken priests (in this book) tend to the kraken's flock. Most of the priests ar
   - "desc": "The sea spawn makes two Unarmed Strike attacks and one Piscine Anatomy\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Unarmed Strike"
   - "desc": "The sea spawn uses one of the following options (choose one or roll a\
-      \ d6):\n\n- 1–2 Bite. Melee Weapon Attack: +4 to hit, reach 5 ft.,\
-      \ one target. Hit: 4 (1d4 + 2) piercing damage.  \n- 3–4 Poison Quills.\
-      \ Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 3 (d6)\
+      \ d6):\n\n- **1–2 Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft.,\
+      \ one target. *Hit:* 4 (1d4 + 2) piercing damage.  \n- **3–4 Poison Quills.**\
+      \ *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 3 (1d6)\
       \ poison damage, and the target must succeed on a DC 12 Constitution saving\
       \ throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 5–6 Tentacle.\
-      \ Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6\
+      \ its turns, ending the effect on itself on a success.  \n- **5–6 Tentacle.**\
+      \ *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 5 (1d6\
       \ + 2) bludgeoning damage, and the target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends,\
       \ the sea spawn can't use this tentacle on another target.  "

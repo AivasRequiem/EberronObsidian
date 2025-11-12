@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/21
@@ -20,7 +21,7 @@ aliases:
 *Hag of Forbidden Secrets and Magical Malice*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Immortal and unpredictable, arch-hags hoard secrets and strike magical bargains, altering fate to indulge their fickle whims. These timeless schemers pursue the secrets of the multiverse and work strange magic in pursuit of their inscrutable goals.
 
@@ -35,8 +36,6 @@ Every arch-hag has a unique weakness tied to a fateful encounter the hag had in 
 > Heh! People who know too much grow old before their time. Ask me your questions, but be certain that every secret has its cost.
 
 **Arch-hag Anathemas**
-
-`dice: [](arch-hag-xmm.md#^arch-hag-anathemas)`
 
 | dice: 1d10 | The Arch-hag's Weakness Is... |
 |------------|-------------------------------|
@@ -87,7 +86,8 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 60 ft., passive Perception 21"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 21"
 "languages": "all"
 "cr": "21"
 "traits":
@@ -120,22 +120,22 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
 "actions":
   - "desc": "The hag makes two Spectral Claw attacks and uses Crackling Wave."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +14, reach 10 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +14, reach 10 ft. or range 60 ft. *Hit:*\
       \ 17 (3d6 + 7) Force damage. If the target is a Large or smaller creature,\
       \ it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Spectral Claw"
-  - "desc": "Dexterity Saving Throw: DC 22, each creature in a 60-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 32 (5d12) Lightning damage. Success: Half damage. Failure or Success:\
+  - "desc": "*Dexterity Saving Throw:* DC 22, each creature in a 60-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 32 (5d12) Lightning damage. *Success:* Half damage. *Failure or Success:*\
       \ The target is cursed until the end of the hag's next turn. The target can't\
       \ take Reactions until the curse ends."
     "name": "Crackling Wave"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
-      \ will: [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\n**At\
+      \ will:** [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [Dimension Door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [Dispel\
       \ Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [Hypnotic Pattern](І\
-      нструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md)\n\n2/day each: [Mass\
+      нструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md)\n\n**2/day each:** [Mass\
       \ Suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [Modify\
       \ Memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md), [Plane Shift](І\
       нструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"
@@ -151,6 +151,23 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
       \ end of its next turn. Until the curse ends, the target can't cast spells with\
       \ a Verbal component, and when it speaks, it says the opposite of what it means.\n"
     "name": "Tongue Twister"
+"regional_effects":
+  - "desc": "The region containing an arch-hag's lair is altered by its presence,\
+      \ creating the following effects:\n\n- **Lapsus Linguae.** Creatures (excluding\
+      \ the hag and its allies) within 1 mile of the lair subtract 1d10 from any\
+      \ ability check they make when they take the [Influence](Інструменти%20ДМ/CLI/rules/actions.md#Influence)\
+      \ action.  \n- **Meddlesome Magic.** Whenever a creature other than the hag\
+      \ or its allies finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
+      \ while within 1 mile of the lair, the next time that creature casts a spell\
+      \ using a spell slot, it also casts [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md)\
+      \ centered on itself. The spell uses the creature's spellcasting ability and\
+      \ doesn't require [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration).\
+      \  \n\nIf the arch-hag is destroyed or moves its lair elsewhere, these effects\
+      \ end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the arch-hag can expend a use to take one of the following\
+  \ actions. The arch-hag regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The hag makes one Spectral Claw attack."
     "name": "Hag's Swipe"
@@ -158,24 +175,6 @@ Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop
       \ or [Hypnotic Pattern](Інструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md).\
       \ The hag can't take this action again until the start of its next turn."
     "name": "Malicious Magic"
-"regional_effects":
-  - "desc": "The region containing an arch-hag's lair is altered by its presence,\
-      \ creating the following effects:"
-    "name": ""
-  - "desc": "- Lapsus Linguae. Creatures (excluding the hag and its allies) within\
-      \ 1 mile of the lair subtract d10 from any ability check they make when they\
-      \ take the [Influence](Інструменти%20ДМ/CLI/rules/actions.md#Influence) action.\
-      \  \n- Meddlesome Magic. Whenever a creature other than the hag or its allies\
-      \ finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)\
-      \ while within 1 mile of the lair, the next time that creature casts a spell\
-      \ using a spell slot, it also casts [Confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md)\
-      \ centered on itself. The spell uses the creature's spellcasting ability and\
-      \ doesn't require [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration).\
-      \  "
-    "name": ""
-  - "desc": "If the arch-hag is destroyed or moves its lair elsewhere, these effects\
-      \ end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/fey/token/arch-hag-xmm.webp"

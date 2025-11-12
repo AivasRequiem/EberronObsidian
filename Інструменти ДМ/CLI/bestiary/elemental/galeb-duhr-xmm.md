@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -52,11 +53,12 @@ Some mountain dwellers view galeb duhr as aloof allies and might entrust these l
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., Tremorsense\
+  \ 60 ft., passive Perception 11"
 "languages": "Primordial (Terran)"
 "cr": "6"
 "actions":
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 12 (2d6 + 5) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 12 (2d6 + 5) Bludgeoning\
       \ damage. If the target is a Large or smaller creature and the galeb duhr moved\
       \ 20+ feet straight toward it immediately before the hit, the target takes an\
       \ extra 7 (2d6) Bludgeoning damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\

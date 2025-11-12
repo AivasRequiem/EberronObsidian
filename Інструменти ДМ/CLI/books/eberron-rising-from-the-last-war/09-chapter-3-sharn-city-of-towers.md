@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -837,7 +838,7 @@ As veterans and heroes of the Last War, many of the Redcloaks are unfriendly tow
 
 Officers of the watch can levy fines on the spot when they catch culprits, which is the typical way that minor crimes are dealt with. For a serious offense, the perpetrator is taken to a garrison and held until a trial can be arranged. A criminal who is considered to be a serious flight risk will be taken to the most secure facility in Sharn—the King's Citadel headquarters.
 
-Typically, a prisoner's case comes to the attention of a local magistrate within `d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
+Typically, a prisoner's case comes to the attention of a local magistrate within `1d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](Інструменти%20ДМ/CLI/spells/zone-of-truth-xphb.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
 
 Punishment for convicted criminals varies, but long-term imprisonment is quite rare. Prisoners who deemed to be too dangerous to be allowed to roam free are more likely to be executed than imprisoned. Typically, a long prison sentence is used only for criminals who can't be allowed to go free, but whose deaths would have negative diplomatic repercussions.
 

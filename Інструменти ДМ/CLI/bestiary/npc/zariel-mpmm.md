@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/26
@@ -68,7 +69,8 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 26"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 26"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
@@ -88,10 +90,10 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
   - "desc": "Zariel makes three Flail or Longsword attacks. She can replace one attack\
       \ with a use of Horrid Touch, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) force damage plus 36 (8d8) fire damage."
     "name": "Flail"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) radiant damage, or 19 (2d10 + 8) radiant damage when used\
       \ with two hands, plus 36 (8d8) fire damage."
     "name": "Longsword"
@@ -108,17 +110,47 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
       \ up to 120 feet to an unoccupied space she can see."
     "name": "Teleport"
   - "desc": "Zariel casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 26):\n\nAt\
-      \ will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
+      \ and using Charisma as the spellcasting ability (spell save DC 26):\n\n**At\
+      \ will:** [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
       \ become Medium when changing her appearance), [detect evil and good](Інстру\
       менти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md), [fireball](Інструменти\
       %20ДМ/CLI/spells/fireball-xphb.md), [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\
       \ (self only), [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md),\
-      \ [wall of fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n3/day\
-      \ each: [blade barrier](Інструменти%20ДМ/CLI/spells/blade-barrier-xphb.md),\
+      \ [wall of fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n**3/day\
+      \ each:** [blade barrier](Інструменти%20ДМ/CLI/spells/blade-barrier-xphb.md),\
       \ [dispel evil and good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md),\
       \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md)"
     "name": "Spellcasting"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), Zariel can take one\
+      \ of the following lair actions; she can't take the same lair action two rounds\
+      \ in a row:\n\n- **Fireball.** Zariel casts the [fireball](Інструменти%20ДМ\
+      /CLI/spells/fireball-xphb.md) spell.  \n- **Infernal Illusions.** Zariel casts\
+      \ the [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md) spell four\
+      \ times, targeting different areas with it. Zariel prefers to create images\
+      \ of intruders' loved ones being burned alive. Zariel doesn't need to concentrate\
+      \ on the spells, which end on initiative count 20 of the next round. Each creature\
+      \ that can see these illusions must succeed on a DC 26 Wisdom saving throw or\
+      \ become [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) of\
+      \ the illusion for 1 minute. A frightened creature can repeat the saving throw\
+      \ at the end of each of its turns, ending the effect on itself on a success.\
+      \  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Zariel's lair is warped by her magic, which creates\
+      \ one or more of the following effects:\n\n- **Hellscape.** The area within\
+      \ 9 miles of the lair is filled with screaming voices and the stench of burning\
+      \ meat.  \n- **Pyres.** Once every 60 feet within 1 mile of the lair, 10-foot-high\
+      \ gouts of flame rise from the ground. Any creature or object that touches the\
+      \ flame takes 7 (2d6 fire damage, though it can take this damage no more than\
+      \ once per round.  \n- **Smoke.** The area within 2 miles of the lair, but no\
+      \ closer than 500 feet, is filled with smoke, which causes the area to be heavily\
+      \ obscured. The smoke can't be cleared away.  \n\nIf Zariel dies, these effects\
+      \ fade over the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zariel can expend a use to take one of the following actions. Zariel regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zariel uses Teleport."
     "name": "Teleport"
@@ -126,37 +158,6 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
       \ 120 feet of her and commands it to burn. The target must succeed on a DC 26\
       \ Wisdom saving throw or take 22 (4d10) fire damage."
     "name": "Immolating Gaze (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), Zariel can take one\
-      \ of the following lair actions; she can't take the same lair action two rounds\
-      \ in a row:"
-    "name": ""
-  - "desc": "- Fireball. Zariel casts the [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)\
-      \ spell.  \n- Infernal Illusions. Zariel casts the [major image](Інструм\
-      енти%20ДМ/CLI/spells/major-image-xphb.md) spell four times, targeting different\
-      \ areas with it. Zariel prefers to create images of intruders' loved ones being\
-      \ burned alive. Zariel doesn't need to concentrate on the spells, which end\
-      \ on initiative count 20 of the next round. Each creature that can see these\
-      \ illusions must succeed on a DC 26 Wisdom saving throw or become [frightened](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Frightened) of the illusion for 1 minute.\
-      \ A frightened creature can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself on a success.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Zariel's lair is warped by her magic, which creates\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Hellscape. The area within 9 miles of the lair is filled with screaming\
-      \ voices and the stench of burning meat.  \n- Pyres. Once every 60 feet\
-      \ within 1 mile of the lair, 10-foot-high gouts of flame rise from the ground.\
-      \ Any creature or object that touches the flame takes 7 (2d6 fire damage,\
-      \ though it can take this damage no more than once per round.  \n- Smoke.\
-      \ The area within 2 miles of the lair, but no closer than 500 feet, is filled\
-      \ with smoke, which causes the area to be heavily obscured. The smoke can't\
-      \ be cleared away.  "
-    "name": ""
-  - "desc": "If Zariel dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "MPMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/npc/token/zariel-mpmm.webp"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/16
@@ -21,7 +22,7 @@ aliases:
 *Demon of Cruelty and Viciousness*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they lead other demons to slaughter virtuous souls. They often command droves of weaker demons.
 
@@ -54,7 +55,8 @@ Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged bla
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 18"
 "languages": "Abyssal; telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -71,11 +73,11 @@ Mariliths are six-armed, serpent-like demons that wield lethal, Abyss-forged bla
 "actions":
   - "desc": "The marilith makes six Pact Blade attacks and uses Constrict."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 10 (1d10 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 10 (1d10 + 5) Slashing\
       \ damage plus 7 (2d6) Necrotic damage."
     "name": "Pact Blade"
-  - "desc": "Strength Saving Throw: DC 17, one Medium or smaller creature the marilith\
-      \ can see within 5 feet. Failure: 15 (2d10 + 4) Bludgeoning damage. The\
+  - "desc": "*Strength Saving Throw:* DC 17, one Medium or smaller creature the marilith\
+      \ can see within 5 feet. *Failure:* 15 (2d10 + 4) Bludgeoning damage. The\
       \ target has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 14), and it has the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition until the grapple ends."

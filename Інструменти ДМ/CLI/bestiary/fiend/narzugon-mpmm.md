@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -53,7 +54,8 @@ Each narzugon claims a [nightmare](Інструменти%20ДМ/CLI/bestiary/fi
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 22"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 22"
 "languages": "Common, Infernal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -68,10 +70,10 @@ Each narzugon claims a [nightmare](Інструменти%20ДМ/CLI/bestiary/fi
   - "desc": "The narzugon makes three Hellfire Lance attacks. It also uses Infernal\
       \ Command or Terrifying Command."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage\
       \ kills a creature with a soul, the soul rises from the River Styx as a [lemure](І\
-      нструменти%20ДМ/CLI/bestiary/fiend/lemure-xmm.md) in Avernus in d4 hours.\
+      нструменти%20ДМ/CLI/bestiary/fiend/lemure-xmm.md) in Avernus in 1d4 hours.\
       \ If the creature isn't revived before then, only a [wish](Інструменти%20ДМ\
       /CLI/spells/wish-xphb.md) spell or killing the lemure and casting true resurrection\
       \ on the creature's original body can restore it to life. Constructs and devils\

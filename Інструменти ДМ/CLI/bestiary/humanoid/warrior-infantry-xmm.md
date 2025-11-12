@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -22,15 +23,13 @@ Warrior infantry might be trainees or rank-and-file troops. They are skilled at 
 *Soldiers and Scrappers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Warriors are professionals who make a living through their prowess in battle. They might be skilled in using a variety of tactics or trained to take advantage of unusual battlefields. Warriors often work together, whether in armies or in teams with deliberate goals.
 
 Roll on or choose a result from the Warrior Roles table to inspire the creation of different sorts of warriors.
 
 **Warrior Roles**
-
-`dice: [](warrior-infantry-xmm.md#^warrior-roles)`
 
 | dice: 1d10 | The Warrior Is... |
 |------------|-------------------|
@@ -78,8 +77,8 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) condition."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee  or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\
-      \ Hit: 4 (1d6 + 1) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +3, reach 5 ft. or range 20/60 ft.\
+      \ *Hit:* 4 (1d6 + 1) Piercing damage."
     "name": "Spear"
 "source":
   - "XMM"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -31,8 +32,6 @@ Spirits of the Elemental Plane of Water form shapeless liquids into water elemen
 Water elementals' shapes are influenced by the liquid bodies in which they form. Roll on or choose a result from the Water Elemental Compositions table to inspire a water elemental's features.
 
 **Water Elemental Compositions**
-
-`dice: [](water-elemental-xmm.md#^water-elemental-compositions)`
 
 | dice: 1d4 | The Water Elemental's Body Features... |
 |-----------|----------------------------------------|
@@ -72,7 +71,8 @@ Water elementals' shapes are influenced by the liquid bodies in which they form.
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Aquan)"
 "cr": "5"
 "traits":
@@ -86,12 +86,12 @@ Water elementals' shapes are influenced by the liquid bodies in which they form.
 "actions":
   - "desc": "The elemental makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Prone](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Slam"
-  - "desc": "Strength Saving Throw: DC 15, each creature in the elemental's space.\
-      \ Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or\
+  - "desc": "*Strength Saving Throw:* DC 15, each creature in the elemental's space.\
+      \ *Failure:* 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or\
       \ smaller creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 14). Until the grapple ends, the target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition, is suffocating\
@@ -100,7 +100,7 @@ Water elementals' shapes are influenced by the liquid bodies in which they form.
       \ creature or up to two Medium or smaller creatures at a time with Whelm. As\
       \ an action, a creature within 5 feet of the elemental can pull a creature out\
       \ of it by succeeding on a DC 14 Strength ([Athletics](Інструменти%20ДМ/CLI/rules/skills.md#Athletics))\
-      \ check. Success: Half damage only."
+      \ check. *Success:* Half damage only."
     "name": "Whelm (Recharge 4-6)"
 "source":
   - "XMM"

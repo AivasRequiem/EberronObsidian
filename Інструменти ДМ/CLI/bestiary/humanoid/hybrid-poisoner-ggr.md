@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -48,7 +49,8 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
     "desc": "+6"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 30 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 13"
 "languages": "Common plus any one language"
 "cr": "1"
 "traits":
@@ -58,14 +60,14 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
       \ is a critical hit."
     "name": "Assassinate"
   - "desc": "Any creature that touches the hybrid or hits it with a melee attack while\
-      \ within 5 feet of it takes 3 (d6) poison damage."
+      \ within 5 feet of it takes 3 (1d6) poison damage."
     "name": "Poisonous Skin"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. At the end of each of the [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ target's turns, it must repeat the save, taking 3 (d6) poison damage on\
+      \ target's turns, it must repeat the save, taking 3 (1d6) poison damage on\
       \ a failed save, or ending the effect on itself on a successful one."
     "name": "Toxic Touch"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/20
@@ -21,7 +22,7 @@ aliases:
 *Immortal Regent of the Wild*
 
 - **Habitat.** Planar (Beastlands)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Animal lords are the immortal spirits of legendary animals. They serve as the divine protectors of animals of their kind, and they appear as hybrids of humanoids and the animals they defend. They frequently change into giant, idealized versions of the animals they're associated with—albeit with glowing eyes. When contending with people, they sometimes appear as humanlike beings with subtle, animal-like features. No matter their appearance, animal lords exhibit the instincts and predilections of the animals they represent, tempered by their intellect and experience.
 
@@ -39,8 +40,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 
 **Forager Animal Lord Appearances**
 
-`dice: [](animal-lord-xmm.md#^forager-animal-lord-appearances)`
-
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
 | 1 | Bear |
@@ -57,8 +56,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 
 **Hunter Animal Lord Appearances**
 
-`dice: [](animal-lord-xmm.md#^hunter-animal-lord-appearances)`
-
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
 | 1 | Alligator |
@@ -74,8 +71,6 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 ^hunter-animal-lord-appearances
 
 **Sage Animal Lord Appearances**
-
-`dice: [](animal-lord-xmm.md#^sage-animal-lord-appearances)`
 
 | dice: 1d10 | Bestial Shape |
 |------------|---------------|
@@ -124,7 +119,8 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [stunned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 28"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 28"
 "languages": "all"
 "cr": "20"
 "traits":
@@ -133,18 +129,18 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
     "name": "Animal Lordship"
   - "desc": "If the animal lord fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (4/Day)"
-  - "desc": "Wisdom Saving Throw: DC 20, any enemy that starts its turn in a 30-foot\
+  - "desc": "*Wisdom Saving Throw:* DC 20, any enemy that starts its turn in a 30-foot\
       \ [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the animal lord. Failure: The target suffers one of the\
-      \ following effects:\n\n- Captivated (Forager Only). The target has the\
+      \ originating from the animal lord. *Failure:* The target suffers one of the\
+      \ following effects:\n\n- **Captivated (Forager Only).** The target has the\
       \ [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) condition until\
       \ the end of its next turn. While [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
       \ the target has the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ condition.  \n- Fearful (Hunter Only). The target has the [Frightened](І\
+      \ condition.  \n- **Fearful (Hunter Only).** The target has the [Frightened](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end\
-      \ of its next turn.  \n- Mired (Sage Only). The target takes 10 (3d6)\
+      \ of its next turn.  \n- **Mired (Sage Only).** The target takes 10 (3d6)\
       \ Psychic damage, and the target is magically bewildered until the end of its\
-      \ next turn. While bewildered, the target subtracts d4 from its saving throws.\
+      \ next turn. While bewildered, the target subtracts 1d4 from its saving throws.\
       \  "
     "name": "Lordly Presence"
   - "desc": "The animal lord has [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
@@ -154,32 +150,32 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
   - "desc": "The animal lord makes two attacks, using Rend or Radiant Ray in any combination,\
       \ and uses Animal Spirit."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 14 (2d6 + 7) Slashing\
+  - "desc": "*Melee Attack Roll:* +13, reach 5 ft. *Hit:* 14 (2d6 + 7) Slashing\
       \ damage plus 7 (2d6) Force damage."
     "name": "Rend"
-  - "desc": "Ranged Attack Roll: +12, range 120 ft. Hit: 20 (4d6 + 6) Radiant\
+  - "desc": "*Ranged Attack Roll:* +12, range 120 ft. *Hit:* 20 (4d6 + 6) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The animal lord conjures an animal spirit that strikes at a creature\
-      \ and then disappears. Dexterity Saving Throw: DC 20, one creature the animal\
-      \ lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success:\
-      \ Half damage. Failure or Success: One of the following effects occurs:\n\n\
-      - Fortify (Forager Only). The animal lord gains 20 [Temporary Hit Points](І\
+      \ and then disappears. *Dexterity Saving Throw:* DC 20, one creature the animal\
+      \ lord can see within 120 feet. *Failure:* 28 (4d10 + 6) Radiant damage. *Success:*\
+      \ Half damage. *Failure or Success:* One of the following effects occurs:\n\n\
+      - **Fortify (Forager Only).** The animal lord gains 20 [Temporary Hit Points](І\
       нструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md).  \n-\
-      \ Marked as Prey (Hunter Only). The animal lord has [Advantage](Інструме\
+      \ **Marked as Prey (Hunter Only).** The animal lord has [Advantage](Інструме\
       нти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md) on attack rolls against\
-      \ the target until the start of the animal lord's next turn.  \n- Pesky Swarm\
-      \ (Sage Only). The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
+      \ the target until the start of the animal lord's next turn.  \n- **Pesky Swarm\
+      \ (Sage Only).** The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on attack rolls and ability checks until the end of its next turn.  "
     "name": "Animal Spirit"
   - "desc": "The animal lord casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 20):\n\
-      \nAt will: [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md),\
+      \n**At will:** [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md),\
       \ [Animal Messenger](Інструменти%20ДМ/CLI/spells/animal-messenger-xphb.md),\
       \ [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)\n\
-      \n2/day each: [Awaken](Інструменти%20ДМ/CLI/spells/awaken-xphb.md), [Greater\
+      \n**2/day each:** [Awaken](Інструменти%20ДМ/CLI/spells/awaken-xphb.md), [Greater\
       \ Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md)\n\n\
-      1/day each: [Animal Shapes](Інструменти%20ДМ/CLI/spells/animal-shapes-xphb.md),\
+      **1/day each:** [Animal Shapes](Інструменти%20ДМ/CLI/spells/animal-shapes-xphb.md),\
       \ [Sunburst](Інструменти%20ДМ/CLI/spells/sunburst-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -188,6 +184,9 @@ Among the best-known animal lords are those that represent cats, hawks, lizards,
       \ Its game statistics, other than its size, are the same in each form. Any equipment\
       \ it is wearing or carrying isn't transformed."
     "name": "Shape-Shift"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the animal lord can expend a use to take one of the following actions. The\
+  \ animal lord regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The animal lord moves up to its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md)\
       \ without provoking [Opportunity Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack),\

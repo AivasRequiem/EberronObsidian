@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -53,17 +54,18 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Abyssal; telepathy 60 ft. (works only with creatures that understand\
   \ Abyssal)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Constitution Saving Throw: DC 11, each creature in a 10-foot [Emanation](І\
+  - "desc": "*Constitution Saving Throw:* DC 11, each creature in a 10-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the dretch. Failure: The target has the [Poisoned](Інструменти%20ДМ\
+      \ from the dretch. *Failure:* The target has the [Poisoned](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Poisoned) condition until the end of its next turn.\
       \ While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the creature\
       \ can take either an action or a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md)\

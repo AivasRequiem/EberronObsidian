@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -20,7 +21,7 @@ aliases:
 *Strange Ally from a Strange Place*
 
 - **Habitat.** Underdark  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Bizarre creatures with aberrant agendas inhabit the Underdark. Flumphs number among the few that are helpful to strangers.
 
@@ -29,8 +30,6 @@ These tentacled, telepathic creatures jet through the air in short bursts, venti
 Flumphs dwell in psychically charged regions or near creatures with psionic magic. They harmlessly feed off psychic energies, but in doing so, they often encounter dangerous beings such as aboleths and mind flayers. While flumphs generally avoid combat, they often help adventurers in peril. Such help might be of doubtful use, but flumphs mean well. Roll on or choose a result from the Flumph Assistance table to inspire what support flumphs provide.
 
 **Flumph Assistance**
-
-`dice: [](flumph-xmm.md#^flumph-assistance)`
 
 | dice: 1d6 | The Flumph Helps By... |
 |-----------|------------------------|
@@ -89,7 +88,8 @@ A flumph's extremities change color to reflect its mood. The Flumph Colors and E
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+4"
 "damage_vulnerabilities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "understands Undercommon but can't speak; telepathy 60 ft."
 "cr": "1/8"
 "traits":
@@ -107,11 +107,11 @@ A flumph's extremities change color to reflect its mood. The Flumph Colors and E
       \ its location or observe it remotely."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Acid damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 feet. *Hit:* 4 (1d4 + 2) Acid damage."
     "name": "Tentacle"
-  - "desc": "Dexterity Saving Throw: DC 10, one creature the flumph can see within\
-      \ 15 feet. Failure: The target is coated in a foul-smelling liquid, exudes\
-      \ a stench for d4 hours, and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+  - "desc": "*Dexterity Saving Throw:* DC 10, one creature the flumph can see within\
+      \ 15 feet. *Failure:* The target is coated in a foul-smelling liquid, exudes\
+      \ a stench for 1d4 hours, and has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition while the stench lasts. Other creatures have the [Poisoned](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition while in a 5-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\

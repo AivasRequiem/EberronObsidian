@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/legendary
@@ -16,6 +17,6 @@ This fine black cloth, soft as silk, is folded up to the dimensions of a handker
 
 You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to unfold the Well of Many Worlds and place it on a solid surface, whereupon it forms a two-way, 6-foot-diameter, circular portal to another world or plane of existence. Each time the item opens a portal, the DM decides where it leads. The portal remains open until a creature within 5 feet of it takes a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic) action to close it by taking hold of the edges of the cloth and folding it up.
 
-Once the Well of Many Worlds has opened a portal, it can't do so again for `d8` hours.
+Once the Well of Many Worlds has opened a portal, it can't do so again for `1d8` hours.
 
 *Source: Dungeon Master's Guide (2024) p. 324. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

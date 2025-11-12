@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/24
@@ -55,7 +56,8 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 14"
 "languages": "Abyssal, Common"
 "cr": "24"
 "traits":
@@ -82,12 +84,15 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
 "actions":
   - "desc": "Rakdos makes two attacks with his Curtain-Call Scythe or his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (3d10 + 8) slashing damage plus 13 (3d8) fire damage."
     "name": "Curtain-Call Scythe"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) slashing damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Rakdos can expend a use to take one of the following actions. Rakdos regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Each creature within 60 feet of Rakdos that is his ally or is [charmed](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Charmed) by him must use its reaction\

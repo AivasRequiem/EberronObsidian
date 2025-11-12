@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -21,7 +22,7 @@ aliases:
 *Hag of Nightmare and Corruption*
 
 - **Habitat.** Planar (Lower Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Night hags seek mortals to torment and turn to evil. By day, night hags use supernatural deceptions to plague their victims, shape-shifting to pose as other creatures and make their targets believe the world has turned against them. By night, these hags reinforce their tortures with terrifying dreams. Once they force their targets to desperate limits, night hags claim their victims' tormented spirits, capturing them in sinister traps called soul bags. The hags then slip between planes of existence to barter stolen souls to vile magic-users and fiendish entities.
 
@@ -55,7 +56,8 @@ Night hags maintain networks of nefarious customers and collect rumors from acro
     "desc": "+5"
 "damage_resistances": "cold, fire"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": "Abyssal, Common, Infernal, Primordial"
 "cr": "5"
 "traits":
@@ -83,15 +85,15 @@ Night hags maintain networks of nefarious customers and collect rumors from acro
 "actions":
   - "desc": "The hag makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing\
       \ damage."
     "name": "Claw"
   - "desc": "The hag casts one of the following spells, requiring no Material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      At will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      **At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Etherealness](Інструменти%20ДМ/CLI/spells/etherealness-xphb.md), [Magic Missile](І\
-      нструменти%20ДМ/CLI/spells/magic-missile-xphb.md) (level 4 version)\n\n2/day\
-      \ each: [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md),\
+      нструменти%20ДМ/CLI/spells/magic-missile-xphb.md) (level 4 version)\n\n**2/day\
+      \ each:** [Phantasmal Killer](Інструменти%20ДМ/CLI/spells/phantasmal-killer-xphb.md),\
       \ [Plane Shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md) (self only)"
     "name": "Spellcasting"
   - "desc": "While on the Ethereal Plane, the hag casts [Dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md),\

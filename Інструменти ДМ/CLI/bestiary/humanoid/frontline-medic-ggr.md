@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-4
@@ -47,17 +48,17 @@ The soldiers of the Boros Legion depend on skilled healers to keep them on their
 "traits":
   - "desc": "The medic is a 3rd-level Boros spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 11). The medic has the following cleric spells prepared:\n\
-      \nCantrips (at will): [mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md),\
+      \n**Cantrips (at will):** [mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md),\
       \ [resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md), [spare the dying](І\
-      нструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n1st level (4 slots):\
+      нструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md)\n\n**1st level (4 slots):**\
       \ [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [sanctuary](І\
-      нструменти%20ДМ/CLI/spells/sanctuary-xphb.md)\n\n2nd level (2 slots): [aid](І\
+      нструменти%20ДМ/CLI/spells/sanctuary-xphb.md)\n\n**2nd level (2 slots):** [aid](І\
       нструменти%20ДМ/CLI/spells/aid-xphb.md), [lesser restoration](Інструменти%20Д\
       М/CLI/spells/lesser-restoration-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

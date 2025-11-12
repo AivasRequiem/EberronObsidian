@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -22,7 +23,7 @@ aliases:
 *Elusive Defender of Fey Realms*
 
 - **Habitat.** Forest, Planar (Feywild)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Sprites dwell in mystical forests touched by the magic of the Feywild, living peacefully with most other Fey and friends of nature. These foot-tall spirits of nature resemble elves with exaggerated, whimsical features and gossamer wings.
 
@@ -61,15 +62,15 @@ Sprites oppose any creatures that seek to harm places of natural magic and beaut
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 6 (1d4 + 4) Piercing\
       \ damage."
     "name": "Needle Sword"
-  - "desc": "Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage,\
+  - "desc": "*Ranged Attack Roll:* +6, range 40/160 ft. *Hit:* 1 Piercing damage,\
       \ and the target has the [Charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ condition until the start of the sprite's next turn."
     "name": "Enchanting Bow"
-  - "desc": "Charisma Saving Throw: DC 10, one creature within 5 feet the sprite\
-      \ can see (Celestials, Fiends, and Undead automatically fail the save). Failure:\
+  - "desc": "*Charisma Saving Throw:* DC 10, one creature within 5 feet the sprite\
+      \ can see (Celestials, Fiends, and Undead automatically fail the save). *Failure:*\
       \ The sprite knows the target's emotions and alignment."
     "name": "Heart Sight"
   - "desc": "The sprite casts [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)\

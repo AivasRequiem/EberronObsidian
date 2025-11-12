@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -54,7 +55,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
     "desc": "+7"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "any two languages (usually Abyssal or Infernal)"
 "cr": "7"
 "traits":
@@ -65,7 +67,7 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes three Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 14 (4d6) fire damage."
     "name": "Scimitar"
   - "desc": "Green flame explodes in a 10-foot-radius sphere centered on a point within\
@@ -74,11 +76,11 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
       \ on a failed save, or half as much damage on a successful one."
     "name": "Hellfire"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 15): \n\nAt will: [alter self](Інс\
+      \ spellcasting ability (spell save DC 15): \n\n**At will:** [alter self](Інс\
       трументи%20ДМ/CLI/spells/alter-self-xphb.md), [mage armor](Інструменти%20ДМ\
       /CLI/spells/mage-armor-xphb.md) (self only), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [banishment](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [banishment](І\
       нструменти%20ДМ/CLI/spells/banishment-xphb.md), [plane shift](Інструменти%20Д\
       М/CLI/spells/plane-shift-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting"

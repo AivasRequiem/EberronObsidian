@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -16,8 +17,6 @@ Before you draw a card, you must declare how many cards you intend to draw and t
 Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)
 
 **Deck of Many Things**
-
-`dice: [](deck-of-many-things-13-cards-xdmg.md#^deck-of-many-things)`
 
 | dice: 1d100 | Card |
 |-------------|------|
@@ -60,7 +59,7 @@ You gain the service of a [Knight](Інструменти%20ДМ/CLI/bestiary/hu
 
 ### Moon
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-11-moon.webp#card)
-You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `d3` times.
+You gain the ability to cast [Wish](Інструменти%20ДМ/CLI/spells/wish-xphb.md) `1d3` times.
 
 ### Rogue
 ![](Інструменти%20ДМ/CLI/decks/img/deck-of-many-things-06-rogue.webp#card)

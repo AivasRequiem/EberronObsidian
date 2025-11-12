@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/6
@@ -17,8 +18,6 @@ aliases:
 Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair, and eyes that burn like hot coals. They see visions of the future in their dreams, and their dark magic allows them to influence the dreams of others, sending messages or inflicting nightmares with a touch. Tales talk of ambitious wizards, frantic monarchs, and desperate heroes undertaking quests or making bargains with a dusk hag in exchange for its prophecies and visions of the future. But the information gained from a dusk hag often has a way of causing more pain than joy. Like all hags, dusk hags enjoy causing strife to those who bargain with them, and find ways to twist and turn promises to their own advantage. The Dusk Hag Prophecies table provides examples of the sort of dreams dusk hags might share with unsuspecting sleepers.
 
 **Dusk Hag Prophecies**
-
-`dice: [](dusk-hag-erlw.md#^dusk-hag-prophecies)`
 
 | dice: d10 | Prophecy |
 |-----------|----------|
@@ -65,17 +64,18 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
 "condition_immunities": "[blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded),\
   \ [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed), [frightened](Інст\
   рументи%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft., passive Perception 16"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 16"
 "languages": "Common, Giant, Infernal"
 "cr": "6"
 "traits":
   - "desc": "The hag's spellcasting ability is Charisma (spell save DC 15). She can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
-      \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n3/day\
-      \ each: [dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md), [hypnotic pattern](І\
+      **At will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md)\n\n**3/day\
+      \ each:** [dream](Інструменти%20ДМ/CLI/spells/dream-xphb.md), [hypnotic pattern](І\
       нструменти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md), [sleep](Інструменти%20Д\
-      М/CLI/spells/sleep-xphb.md) (9d8)\n\n1/day each: [legend lore](Інструм\
+      М/CLI/spells/sleep-xphb.md) (9d8)\n\n**1/day each:** [legend lore](Інструм\
       енти%20ДМ/CLI/spells/legend-lore-xphb.md), [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)"
     "name": "Innate Spellcasting"
   - "desc": "The hag has advantage on saving throws against spells and other magical\
@@ -84,15 +84,15 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
 "actions":
   - "desc": "The hag makes two Nightmare Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 18 (4d6 + 4) psychic damage. If the target is [unconscious](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Unconscious), it takes an extra 10 (3d6) psychic\
       \ damage and is cursed until the hag dies or the curse is removed. The cursed\
-      \ creature's hit point maximum decreases by 5 (d10) whenever it finishes a\
-      \ long rest."
+      \ creature's hit point maximum decreases by 5 (1d10) whenever it finishes\
+      \ a long rest."
     "name": "Nightmare Touch"
 "reactions":
   - "desc": "When an [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\

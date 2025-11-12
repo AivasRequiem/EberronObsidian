@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -38,8 +39,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 
 ### Emerald Dragon Personality Traits
 
-`dice: [](young-emerald-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I repeat what others have said back to them to make sure I have remembered it correctly. |
@@ -53,8 +52,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 ^trait
 
 ### Emerald Dragon Ideals
-
-`dice: [](young-emerald-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 The Emerald Dragon Adventure Hooks table offers suggestions for stories and adventures involving emerald dragons.
 
 ### Emerald Dragon Adventure Hooks
-
-`dice: [](young-emerald-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Emerald Dragon Adventure Hooks table offers suggestions for stories and adve
 Emerald dragons generally go out of their way to avoid interacting with other intelligent creatures. However, their interest in history and culture occasionally gets the better of them, prompting them to seek some engagement with the folk of the world.
 
 ### Young Emerald Dragon Connections
-
-`dice: [](young-emerald-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -138,7 +131,8 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "fire, psychic"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 18"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -148,10 +142,10 @@ Emerald dragons generally go out of their way to avoid interacting with other in
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each\
@@ -163,9 +157,9 @@ Emerald dragons generally go out of their way to avoid interacting with other in
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
       \ hand is invisible), [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n1/day each: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \n**1/day each:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
       \ [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [silent\
       \ image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md)"
     "name": "Spellcasting (Psionics)"

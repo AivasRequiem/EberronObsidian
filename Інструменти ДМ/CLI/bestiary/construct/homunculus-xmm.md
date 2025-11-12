@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -27,8 +28,6 @@ A mage can create a cat-sized, obedient assistant called a homunculus through a 
 A homunculus's appearance reflects its creator's tastes. Roll on or choose a result from the Homunculus Features table to inspire a homunculus's form.
 
 **Homunculus Features**
-
-`dice: [](homunculus-xmm.md#^homunculus-features)`
 
 | dice: 1d8 | The Homunculus Has Features That Are... |
 |-----------|-----------------------------------------|
@@ -65,7 +64,8 @@ A homunculus's appearance reflects its creator's tastes. Roll on or choose a res
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands Common plus one other language but can't speak"
 "cr": "0"
 "traits":
@@ -73,10 +73,10 @@ A homunculus's appearance reflects its creator's tastes. Roll on or choose a res
       \ the two of them can communicate telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and\
-      \ the target is subjected to the following effect. Constitution Saving Throw:\
-      \ DC 12. Failure: The target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
-      \ condition until the end of the homunculus's next turn. By 5th Failure: The\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 1 Piercing damage, and\
+      \ the target is subjected to the following effect. *Constitution Saving Throw:*\
+      \ DC 12. *Failure:* The target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
+      \ condition until the end of the homunculus's next turn. *By 5Th Failure:* The\
       \ target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition for 1 minute. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\

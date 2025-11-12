@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -25,8 +26,6 @@ Champions are mighty warriors who have honed their fighting skills in wars or gl
 A typical champion bears a coat of arms, heraldry that is associated with the champion far and wide. You may create a coat of arms for a champion or roll on the Champion's Coats of Arms table to determine it.
 
 **Champion's Coat of Arms**
-
-`dice: [](champion-mpmm.md#^champions-coat-of-arms)`
 
 | dice: d12 | Coat of Arms |
 |-----------|--------------|
@@ -81,11 +80,11 @@ A typical champion bears a coat of arms, heraldry that is associated with the ch
 "actions":
   - "desc": "The champion makes three Greatsword or Shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion\
       \ has more than half of its total hit points remaining."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion\
       \ has more than half of its total hit points remaining."
     "name": "Shortbow"

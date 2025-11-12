@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/22
@@ -86,40 +87,41 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Petrified), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 22"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 22"
 "languages": "Common, Draconic, Elvish"
 "cr": "22"
 "traits":
   - "desc": "Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 23, +15 to hit with spell attacks). Illmarrow has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [chill touch](Інструмен\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [chill touch](Інструмен\
       ти%20ДМ/CLI/spells/chill-touch-xphb.md) (see \"Actions\" below), [fire bolt](І\
       нструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [mage hand](Інструменти%20ДМ\
       /CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md),\
-      \ [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md)\n\n1st\
-      \ level (4 slots): [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md),\
+      \ [ray of frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md)\n\n**1st\
+      \ level (4 slots):** [magic missile](Інструменти%20ДМ/CLI/spells/magic-missile-xphb.md),\
       \ [shield](Інструменти%20ДМ/CLI/spells/shield-xphb.md), [sleep](Інструменти\
-      %20ДМ/CLI/spells/sleep-xphb.md)\n\n2nd level (3 slots): [blur](Інструмен\
+      %20ДМ/CLI/spells/sleep-xphb.md)\n\n**2nd level (3 slots):** [blur](Інструмен\
       ти%20ДМ/CLI/spells/blur-xphb.md), [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n3rd\
-      \ level (3 slots): [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \ [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md)\n\n**3rd\
+      \ level (3 slots):** [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [counterspell](Інструменти%20ДМ/CLI/spells/counterspell-xphb.md), [fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
-      \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\n\n4th\
-      \ level (3 slots): [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [confusion](І\
+      \ [lightning bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\n\n**4th\
+      \ level (3 slots):** [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [confusion](І\
       нструменти%20ДМ/CLI/spells/confusion-xphb.md), [polymorph](Інструменти%20ДМ\
-      /CLI/spells/polymorph-xphb.md)\n\n5th level (3 slots): [cloudkill](Інстр\
+      /CLI/spells/polymorph-xphb.md)\n\n**5th level (3 slots):** [cloudkill](Інстр\
       ументи%20ДМ/CLI/spells/cloudkill-xphb.md), [cone of cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md),\
       \ [hold monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md), [scrying](І\
-      нструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n6th level (2 slots): [chain\
+      нструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n**6th level (2 slots):** [chain\
       \ lightning](Інструменти%20ДМ/CLI/spells/chain-lightning-xphb.md), [circle of\
       \ death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md), [create undead](І\
-      нструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n7th level (2 slots):\
+      нструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n**7th level (2 slots):**\
       \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md), [forcecage](І\
       нструменти%20ДМ/CLI/spells/forcecage-xphb.md), [prismatic spray](Інструменти\
-      %20ДМ/CLI/spells/prismatic-spray-xphb.md)\n\n8th level (1 slots): [incendiary\
+      %20ДМ/CLI/spells/prismatic-spray-xphb.md)\n\n**8th level (1 slots):** [incendiary\
       \ cloud](Інструменти%20ДМ/CLI/spells/incendiary-cloud-xphb.md), [maze](Інстр\
-      ументи%20ДМ/CLI/spells/maze-xphb.md)\n\n9th level (1 slots): [power word\
+      ументи%20ДМ/CLI/spells/maze-xphb.md)\n\n**9th level (1 slots):** [power word\
       \ kill](Інструменти%20ДМ/CLI/spells/power-word-kill-xphb.md), [time stop](Ін\
       струменти%20ДМ/CLI/spells/time-stop-xphb.md)"
     "name": "Spellcasting"
@@ -129,17 +131,17 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
       \ effects."
     "name": "Magic Resistance"
   - "desc": "Illmarrow's body turns to dust when she drops to 0 hit points, and her\
-      \ equipment is left behind. She gains a new body after d10 days, regaining\
+      \ equipment is left behind. She gains a new body after 1d10 days, regaining\
       \ all her hit points and becoming active again. The new body appears within\
       \ two hundred miles of the location at which she was destroyed."
     "name": "Rejuvenation"
 "actions":
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +15 to hit, range 120 ft., one creature. *Hit:*\
       \ 18 (4d8) necrotic damage, and the target can't regain hit points until the\
       \ start of Illmarrow's next turn. If the target is undead, it also has disadvantage\
       \ on attack rolls against Illmarrow until the end of her next turn."
     "name": "Chill Touch (Cantrip)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (3d6 + 3) slashing damage plus 10 (3d6) cold damage, and the target\
       \ must succeed on a DC 20 Constitution saving throw or be [paralyzed](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Paralyzed) for 1 minute. The target can repeat\
@@ -157,6 +159,9 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
       \ in the initiative count and is permanently under her command, following her\
       \ verbal orders."
     "name": "Poison Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lady can expend a use to take one of the following actions. Lady regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Illmarrow casts a cantrip."
     "name": "Cantrip"

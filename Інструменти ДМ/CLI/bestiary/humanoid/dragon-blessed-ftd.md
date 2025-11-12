@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -55,16 +56,16 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
 "actions":
   - "desc": "The blessed makes two Mace or Radiant Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 22 (5d8) radiant damage, and the blessed regains 5 (d10) hit points."
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
+      \ 22 (5d8) radiant damage, and the blessed regains 5 (1d10) hit points."
     "name": "Radiant Bolt"
   - "desc": "The blessed casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day\
-      \ each: [enhance ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
+      \ [thaumaturgy](Інструменти%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day\
+      \ each:** [enhance ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md),\
       \ [flame strike](Інструменти%20ДМ/CLI/spells/flame-strike-xphb.md), [mass cure\
       \ wounds](Інструменти%20ДМ/CLI/spells/mass-cure-wounds-xphb.md), [revivify](І\
       нструменти%20ДМ/CLI/spells/revivify-xphb.md), [tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -53,11 +54,12 @@ Crawling claws are severed hands that move and act of their own murderous accord
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [incapacitated](Інструменти\
   %20ДМ/CLI/rules/conditions.md#Incapacitated), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 10"
 "languages": "understands Common but can't speak"
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 2 Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 2 Necrotic damage."
     "name": "Slam"
 "source":
   - "XMM"

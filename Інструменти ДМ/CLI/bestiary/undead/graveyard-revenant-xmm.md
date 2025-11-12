@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/7
@@ -58,7 +59,8 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [stunned](Інстр\
   ументи%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "Common plus two other languages"
 "cr": "7"
 "traits":
@@ -71,16 +73,16 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
 "actions":
   - "desc": "The revenant makes two Suffocate attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 10 (1d10 + 5) Bludgeoning\
       \ damage plus 10 (3d6) Necrotic damage. If the target is a Large or smaller\
       \ creature, it has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ condition (escape DC 15). Until the grapple ends, the target is suffocating.\
       \ The revenant can have up to two targets [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ in this way at a time."
     "name": "Suffocate"
-  - "desc": "Wisdom Saving Throw: DC 15, each creature in a 30-foot [Emanation](І\
+  - "desc": "*Wisdom Saving Throw:* DC 15, each creature in a 30-foot [Emanation](І\
       нструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the revenant. Failure: The target has the [Paralyzed](Інструменти%20Д\
+      \ from the revenant. *Failure:* The target has the [Paralyzed](Інструменти%20Д\
       М/CLI/rules/conditions.md#Paralyzed) condition and repeats the save at the end\
       \ of each of its turns, ending the effect on itself on a success. After 1 minute,\
       \ it succeeds automatically."

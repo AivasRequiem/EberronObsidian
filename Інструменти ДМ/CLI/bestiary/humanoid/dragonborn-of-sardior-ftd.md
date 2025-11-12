@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -66,8 +67,8 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes three Mind Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic\
       \ damage."
     "name": "Mind Blade"
   - "desc": "The dragonborn exhales a wave of intense heat in a 30-foot cone. Each\
@@ -81,7 +82,7 @@ The connection between dragonborn and their draconic ancestors manifests in a va
     "name": "Heat Breath (Recharge 6)"
   - "desc": "The dragonborn casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15, +7 to hit with spell attacks):\n\n1/day each: [Bigby's hand](І\
+      \ DC 15, +7 to hit with spell attacks):\n\n**1/day each:** [Bigby's hand](І\
       нструменти%20ДМ/CLI/spells/bigbys-hand-xphb.md), [hypnotic pattern](Інструме\
       нти%20ДМ/CLI/spells/hypnotic-pattern-xphb.md), [telekinesis](Інструменти%20Д\
       М/CLI/spells/telekinesis-xphb.md)"

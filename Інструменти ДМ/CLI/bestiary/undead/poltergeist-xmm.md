@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -28,8 +29,6 @@ Poltergeists are spirits that confuse and torment the living. While typically no
 Poltergeists telekinetically move objects in the places they lurk. Roll on or choose a result from the Poltergeist Activities table to inspire how a poltergeist menaces the living.
 
 **Poltergeist Activities**
-
-`dice: [](poltergeist-xmm.md#^poltergeist-activities)`
 
 | dice: 1d8 | To Torment the Living, the Poltergeist... |
 |-----------|-------------------------------------------|
@@ -70,22 +69,23 @@ Poltergeists telekinetically move objects in the places they lurk. Roll on or ch
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common plus one other language"
 "cr": "2"
 "traits":
   - "desc": "The poltergeist can move through other creatures and objects as if they\
       \ were [Difficult Terrain](Інструменти%20ДМ/CLI/rules/variant-rules/difficult-terrain-xphb.md).\
-      \ It takes 5 (d10) Force damage if it ends its turn inside an object."
+      \ It takes 5 (1d10) Force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
   - "desc": "The poltergeist makes one Object Slam attack and uses Telekinetic Thrust."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +4, reach 5 ft. or range 30 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +4, reach 5 ft. or range 30 ft. *Hit:*\
       \ 7 (2d4 + 2) Bludgeoning damage."
     "name": "Object Slam"
-  - "desc": "Strength Saving Throw: DC 12, one creature the poltergeist can see\
-      \ within 30 feet. Failure: 9 (2d6 + 2) Force damage, and the target is pushed\
+  - "desc": "*Strength Saving Throw:* DC 12, one creature the poltergeist can see\
+      \ within 30 feet. *Failure:* 9 (2d6 + 2) Force damage, and the target is pushed\
       \ up to 30 feet straight away from the poltergeist."
     "name": "Telekinetic Thrust"
 "bonus_actions":

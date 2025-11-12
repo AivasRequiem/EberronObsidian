@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -58,16 +59,17 @@ Each shoosuva is bonded to a particular worshiper of Yeenoghu and fights alongsi
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Abyssal, Gnoll, telepathy 120 ft."
 "cr": "8"
 "actions":
   - "desc": "The shoosuva makes one Bite attack and one Tail Stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 26\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 26\
       \ (4d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one creature. *Hit:*\
       \ 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution\
       \ saving throw or become [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned).\
       \ While [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) in this\

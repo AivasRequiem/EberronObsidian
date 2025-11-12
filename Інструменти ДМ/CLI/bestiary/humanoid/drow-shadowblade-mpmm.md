@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -47,7 +48,8 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Elvish, Undercommon"
 "cr": "11"
 "traits":
@@ -67,10 +69,10 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
       \ replaced by a Hand Crossbow attack. The drow can also use Spellcasting to\
       \ cast darkness."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/60\
-      \ ft., one target. Hit: 27 (7d6 + 5) necrotic damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/60\
+      \ ft., one target. *Hit:* 27 (7d6 + 5) necrotic damage."
     "name": "Shadow Sword"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 30/120 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](І\
@@ -80,9 +82,9 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
       \ shake it."
     "name": "Hand Crossbow"
   - "desc": "The drow casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt\
-      \ will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\n\n1/day each:\
+      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n**At\
+      \ will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\n\n**1/day each:**\
       \ [faerie fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md), [levitate](І\
       нструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only)"
     "name": "Spellcasting"

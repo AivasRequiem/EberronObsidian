@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Dungeon Master's Screen* 
 
 **NPC Flaws**
-
-`dice: [](dm-screen-npc-flaws-screen.md#^npc-flaws)`
 
 | dice: d12 | Flaw |
 |-----------|------|

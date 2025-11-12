@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -21,7 +22,7 @@ aliases:
 *Yugoloth of Strategy and Strife*
 
 - **Habitat.** Planar (Gehenna)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Fiendish warmongers, nycaloths relish combat and conquest. These tremendous winged yugoloths teleport around battlefields and into the air to bewilder their foes and attack with constantly shifting, Gehenna-forged axes—mercurial weapons similar to those favored by many yugoloths.
 
@@ -30,8 +31,6 @@ Nycaloths might command groups of mezzoloths and make pacts to serve arcanaloths
 Nycaloths and other yugoloths frequently serve as mercenary forces in extraplanar conflicts that spill onto the Material Plane. Roll on or choose a result from the Yugoloth Incursions table to inspire the plans of a yugoloth war band.
 
 **Yugoloth Incursions**
-
-`dice: [](nycaloth-xmm.md#^yugoloth-incursions)`
 
 | dice: 1d4 | Yugoloth Mercenaries Seek To... |
 |-----------|---------------------------------|
@@ -67,7 +66,8 @@ Nycaloths and other yugoloths frequently serve as mercenary forces in extraplana
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., passive Perception 14"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 14"
 "languages": "Abyssal, Infernal; telepathy 60 ft."
 "cr": "9"
 "traits":
@@ -81,9 +81,9 @@ Nycaloths and other yugoloths frequently serve as mercenary forces in extraplana
 "actions":
   - "desc": "The nycaloth makes two Mercurial Axe attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 10 ft. or range 30/90 ft.\
-      \ Hit: 18 (2d12 + 5) Slashing damage plus 10 (3d6) Force damage. Hit\
-      \ or Miss: The axe magically returns to the nycaloth's hand immediately after\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9, reach 10 ft. or range 30/90 ft.\
+      \ *Hit:* 18 (2d12 + 5) Slashing damage plus 10 (3d6) Force damage. *Hit\
+      \ or Miss:* The axe magically returns to the nycaloth's hand immediately after\
       \ a ranged attack."
     "name": "Mercurial Axe"
 "bonus_actions":

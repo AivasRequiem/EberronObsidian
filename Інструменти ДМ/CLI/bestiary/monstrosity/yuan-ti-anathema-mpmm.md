@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -49,7 +50,8 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
 "damage_resistances": "acid, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 21"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 21"
 "languages": "Abyssal, Common, Draconic"
 "cr": "12"
 "traits":
@@ -75,14 +77,14 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
 "actions":
   - "desc": "The anathema makes two Claw attacks and one Flurry of Bites attack."
     "name": "Multiattack (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one creature. *Hit:*\
       \ 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
     "name": "Flurry of Bites (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one Large or smaller\
-      \ creature. Hit: 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one Large or smaller\
+      \ creature. *Hit:* 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
       \ and the target is [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Restrained), and it takes 16 (3d6 + 6)\
@@ -91,8 +93,8 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
     "name": "Constrict (Snake Form Only)"
   - "desc": "The anathema casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
-      \ (snakes only)\n\n3/day each: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
+      \n**At will:** [animal friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \ (snakes only)\n\n**3/day each:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [fear](Інструмен\
       ти%20ДМ/CLI/spells/fear-xphb.md), [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md),\
       \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/12
@@ -22,7 +23,7 @@ Each esthetic is unique in appearance. One might be bilaterally symmetrical (two
 
 An esthetic contains enough interior space to comfortably accommodate its reigar host and up to six Medium passengers. Access is gained through a hatch that the reigar (and no one else) can open or close with a touch.
 
-An esthetic can survive indefinitely on the Astral Plane, provided its creator is alive. If the esthetic's creator dies, the esthetic sickens over a period of `d12` days and then expires.
+An esthetic can survive indefinitely on the Astral Plane, provided its creator is alive. If the esthetic's creator dies, the esthetic sickens over a period of `1d12` days and then expires.
 
 ```statblock
 "name": "Esthetic (BAM)"
@@ -48,7 +49,8 @@ An esthetic can survive indefinitely on the Astral Plane, provided its creator i
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [petrified](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Petrified), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 300 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 300 ft. (blind\
+  \ beyond this radius), passive Perception 12"
 "languages": ""
 "cr": "12"
 "traits":
@@ -64,7 +66,7 @@ An esthetic can survive indefinitely on the Astral Plane, provided its creator i
 "actions":
   - "desc": "The esthetic makes two Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 30 ft., one target. *Hit:*\
       \ 17 (3d6 + 7) force damage, and if the target is a creature, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 17). Until this\
       \ grapple ends, the creature takes 18 (4d8) acid damage at the start of each\

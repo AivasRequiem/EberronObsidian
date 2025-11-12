@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/1-2
@@ -44,7 +45,8 @@ aliases:
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -58,11 +60,11 @@ aliases:
       \ checks, and saving throws."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced\
-      \ by d4. The target dies if this reduces its Strength to 0. Otherwise, the\
+      \ by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the\
       \ reduction lasts until the target finishes a short or long rest.\n\nIf a non-evil\
-      \ humanoid dies from this attack, a new reflection rises from the corpse d4\
+      \ humanoid dies from this attack, a new reflection rises from the corpse 1d4\
       \ hours later."
     "name": "Strength Drain"
 "source":

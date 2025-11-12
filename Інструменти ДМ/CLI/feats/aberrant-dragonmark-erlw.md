@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/feat
@@ -21,8 +22,6 @@ You have manifested an aberrant dragonmark. Determine its appearance and the fla
 You also develop a random flaw from the Aberrant Dragonmark Flaws table.
 
 **Aberrant Dragonmark Flaws**
-
-`dice: [](aberrant-dragonmark-erlw.md#^aberrant-dragonmark-flaws)`
 
 | dice: d8 | Flaw |
 |----------|------|

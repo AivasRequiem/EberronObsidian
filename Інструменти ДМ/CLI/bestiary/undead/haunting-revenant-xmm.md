@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -60,12 +61,13 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), [unconscious](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "truesight 60 ft., passive Perception 14"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 14"
 "languages": "Common plus two other languages"
 "cr": "10"
 "traits":
-  - "desc": "Constitution Saving Throw: DC 17, any creature that casts a spell while\
-      \ inside the revenant's space. Failure: The spell fails and is wasted."
+  - "desc": "*Constitution Saving Throw:* DC 17, any creature that casts a spell while\
+      \ inside the revenant's space. *Failure:* The spell fails and is wasted."
     "name": "Haunted Zone"
   - "desc": "If the revenant dies, it revives 24 hours later unless [Dispel Evil and\
       \ Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md) is cast on\
@@ -78,13 +80,13 @@ Wrathful spirits bent on revenge, revenants possess corpses and other materials,
   - "desc": "The revenant makes two [Object](Інструменти%20ДМ/CLI/rules/variant-rules/object-xphb.md)\
       \ Slam attacks and uses Invitation."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9 (with [Advantage](Інструменти%20Д\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9 (with [Advantage](Інструменти%20Д\
       М/CLI/rules/variant-rules/advantage-xphb.md) if the target is inside the revenant's\
-      \ space), reach 10 ft. or range 30/90 ft. Hit: 27 (5d8 + 5) Bludgeoning\
+      \ space), reach 10 ft. or range 30/90 ft. *Hit:* 27 (5d8 + 5) Bludgeoning\
       \ damage."
     "name": "Object Slam"
-  - "desc": "Charisma Saving Throw: DC 17, each creature in a 60-foot [Cone](Інс\
-      трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
+  - "desc": "*Charisma Saving Throw:* DC 17, each creature in a 60-foot [Cone](Інс\
+      трументи%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
       \ The target is teleported inside the revenant's space and swallowed. A swallowed\
       \ creature has [Total Cover](Інструменти%20ДМ/CLI/rules/variant-rules/cover-xphb.md)\
       \ against attacks and other effects outside the revenant.\n\nWhile the revenant\

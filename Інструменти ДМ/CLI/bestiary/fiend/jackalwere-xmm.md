@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-2
@@ -21,15 +22,13 @@ aliases:
 *Shape-Shifting Trickster of the Wilds*
 
 - **Habitat.** Desert, Grassland  
-- **Treasure.** Implements  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md)  
 
 Indistinguishable from jackals in their natural form, jackalweres shape-shift to deceive others. These shape-shifters can take three forms: a jackal, a human, or a monstrous hybrid of the two. Jackalweres are easily mistaken for werewolves, but jackalweres aren't supernaturally afflicted—their jackal forms are their natural state. Jackalweres also possess magical gazes capable of putting foes to sleep, allowing jackalweres to play their tricks unimpeded or get the upper hand over threats.
 
 Jackalweres dwell in inhospitable wildernesses and pride themselves on their cleverness. They take offense at those who travel through their lands without leaving a gift of treasure or fresh game. Roll on or choose a result from the Jackalwere Tricks table to inspire how a jackalwere repays such slights.
 
 **Jackalwere Tricks**
-
-`dice: [](jackalwere-xmm.md#^jackalwere-tricks)`
 
 | dice: 1d4 | The Jackalwere Tricks Travelers By... |
 |-----------|---------------------------------------|
@@ -63,7 +62,8 @@ Jackalweres dwell in inhospitable wildernesses and pride themselves on their cle
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 90 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 90 ft., passive\
+  \ Perception 14"
 "languages": "Common"
 "cr": "1/2"
 "traits":
@@ -75,17 +75,17 @@ Jackalweres dwell in inhospitable wildernesses and pride themselves on their cle
 "actions":
   - "desc": "The jackalwere makes two Rend or Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage."
     "name": "Rend (Jackal or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Bludgeoning\
       \ damage."
     "name": "Slam (Human or Hybrid Form Only)"
-  - "desc": "Wisdom Saving Throw: DC 10, one creature the jackalwere can see within\
-      \ 30 feet (Constructs and Undead succeed automatically). Failure: The target\
+  - "desc": "*Wisdom Saving Throw:* DC 10, one creature the jackalwere can see within\
+      \ 30 feet (Constructs and Undead succeed automatically). *Failure:* The target\
       \ has the [Unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ condition for 10 minutes or until it takes damage or a creature within 5 feet\
-      \ of it takes an action to wake it. Success: The target is immune to this\
+      \ of it takes an action to wake it. *Success:* The target is immune to this\
       \ jackalwere's Sleep Gaze for 24 hours."
     "name": "Sleep Gaze (Recharge 5-6)"
 "bonus_actions":

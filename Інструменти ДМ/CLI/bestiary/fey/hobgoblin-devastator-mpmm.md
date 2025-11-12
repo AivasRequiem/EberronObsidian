@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -50,7 +51,8 @@ In the Feywild, many archfey seek to bolster their armies' might with the servic
 "skillsaves":
   - "name": "[Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Goblin"
 "cr": "4"
 "traits":
@@ -62,18 +64,18 @@ In the Feywild, many archfey seek to bolster their armies' might with the servic
 "actions":
   - "desc": "The hobgoblin makes two Quarterstaff or Devastating Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used\
       \ with two hands, plus 13 (3d8) force damage."
     "name": "Quarterstaff"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 21 (4d8 + 3) force damage, and the target is knocked [prone](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Devastating Bolt"
   - "desc": "The hobgoblin casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 13):\n\nAt will: [mage hand](І\
+      \ the spellcasting ability (spell save DC 13):\n\n**At will:** [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструмент\
-      и%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [fireball](Ін\
+      и%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [fireball](Ін\
       струменти%20ДМ/CLI/spells/fireball-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [gust of wind](І\
       нструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md), [lightning bolt](Інструмен\

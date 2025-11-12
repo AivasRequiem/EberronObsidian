@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/15
@@ -38,8 +39,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 
 ### Sapphire Dragon Personality Traits
 
-`dice: [](adult-sapphire-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often fixate on specific historical battles or wars and won't rest until my hoard contains that conflict's most significant artifacts. |
@@ -53,8 +52,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 ^trait
 
 ### Sapphire Dragon Ideals
-
-`dice: [](adult-sapphire-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adventures involving sapphire dragons.
 
 ### Sapphire Dragon Adventure Hooks
-
-`dice: [](adult-sapphire-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adv
 Sapphire dragons are generally solitary creatures. On the rare occasion that one forms nonhostile relationships with other beings, it is almost always to bolster the defenses of the dragon's lair and hoard.
 
 ### Adult Sapphire Dragon Connections
-
-`dice: [](adult-sapphire-dragon-ftd.md#^connected-creatures)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|
@@ -165,7 +158,8 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
     "desc": "+7"
 "damage_resistances": "lightning, thunder"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 23"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "15"
 "traits":
@@ -180,10 +174,10 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 5 (d10) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
@@ -195,7 +189,7 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
     "name": "Debilitating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      1/day each: [dissonant whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md),\
+      **1/day each:** [dissonant whispers](Інструменти%20ДМ/CLI/spells/dissonant-whispers-xphb.md),\
       \ [hold monster](Інструменти%20ДМ/CLI/spells/hold-monster-xphb.md), [meld into\
       \ stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md), [telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
@@ -209,6 +203,50 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Awesome Thunder.** A thunderous detonation of\
+      \ sound that can be heard up to 300 feet away surrounds one creature in the\
+      \ lair that the dragon can see. That creature must succeed on a DC 15 Constitution\
+      \ saving throw or take 13 (3d8) thunder damage and be [stunned](Інструмент\
+      и%20ДМ/CLI/rules/conditions.md#Stunned) until the end of its next turn.  \n\
+      - **Beguiling Whisper.** The dragon telepathically whispers to one creature\
+      \ within range of the dragon's telepathy. The creature must succeed on a DC\
+      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
+      \ of its ability any command the dragon issues that isn't directly harmful to\
+      \ the creature.  \n- **Stone Passage.** The dragon touches a section of stone\
+      \ up to 30 feet in any dimension. The dragon can shape the stone to open or\
+      \ close a passage through a wall, as long as the wall is less than 10 feet thick.\
+      \  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary sapphire dragon's lair is altered\
+      \ by the dragon's magic, creating one or more of the following effects:\n\n\
+      - **Crystal Profusion.** Natural stone within 6 miles of the lair grows plentiful\
+      \ crystal formations and veins of sapphire gemstones, particularly underground.\
+      \  \n- **Stony Sight.** Natural stone within 6 miles of the lair is a conduit\
+      \ for the dragon's psionic presence. As an action, the dragon can cast the [clairvoyance](І\
+      нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md) spell, requiring no spell components\
+      \ and targeting any natural stone formation in that region.  \n- **Telepathic\
+      \ Enhancement.** The dragon's psionic energy enhances the mental powers of other\
+      \ creatures. Any creature capable of telepathic communication has its telepathy\
+      \ range doubled while within 1 mile of the lair. This includes creatures with\
+      \ innate telepathy and magical telepathy such as the [Rary's telepathic bond](І\
+      нструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md) spell.  \n- **Thriving\
+      \ Wildlife.** [Giant spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-spider-xmm.md)\
+      \ (a sapphire dragon's favorite prey) are attracted to the area within 6 miles\
+      \ of the lair and settle there in large numbers.  \n\nIf the dragon dies, the\
+      \ population of giant spiders in the region returns to normal levels over the\
+      \ course of 1d10 days. The enhancement of telepathic abilities ends immediately.\
+      \ The existing abundance of crystals and sapphires remains, but new ones form\
+      \ at a normal rate."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Claw attack."
     "name": "Claw"
@@ -219,50 +257,6 @@ The challenge rating of a legendary sapphire dragon increases by 1 when it's enc
       \ object at a creature it can see within 60 feet of the object. The target must\
       \ succeed on a DC 17 Dexterity saving throw or take 31 (9d6) bludgeoning damage."
     "name": "Telekinetic Fling (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Awesome Thunder. A thunderous detonation of sound that can be heard\
-      \ up to 300 feet away surrounds one creature in the lair that the dragon can\
-      \ see. That creature must succeed on a DC 15 Constitution saving throw or take\
-      \ 13 (3d8) thunder damage and be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
-      \ until the end of its next turn.  \n- Beguiling Whisper. The dragon telepathically\
-      \ whispers to one creature within range of the dragon's telepathy. The creature\
-      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
-      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
-      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ in this way obeys to the best of its ability any command the dragon issues\
-      \ that isn't directly harmful to the creature.  \n- Stone Passage. The dragon\
-      \ touches a section of stone up to 30 feet in any dimension. The dragon can\
-      \ shape the stone to open or close a passage through a wall, as long as the\
-      \ wall is less than 10 feet thick.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary sapphire dragon's lair is altered\
-      \ by the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Crystal Profusion. Natural stone within 6 miles of the lair grows\
-      \ plentiful crystal formations and veins of sapphire gemstones, particularly\
-      \ underground.  \n- Stony Sight. Natural stone within 6 miles of the lair\
-      \ is a conduit for the dragon's psionic presence. As an action, the dragon can\
-      \ cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
-      \ spell, requiring no spell components and targeting any natural stone formation\
-      \ in that region.  \n- Telepathic Enhancement. The dragon's psionic energy\
-      \ enhances the mental powers of other creatures. Any creature capable of telepathic\
-      \ communication has its telepathy range doubled while within 1 mile of the lair.\
-      \ This includes creatures with innate telepathy and magical telepathy such as\
-      \ the [Rary's telepathic bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md)\
-      \ spell.  \n- Thriving Wildlife. [Giant spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-spider-xmm.md)\
-      \ (a sapphire dragon's favorite prey) are attracted to the area within 6 miles\
-      \ of the lair and settle there in large numbers.  "
-    "name": ""
-  - "desc": "If the dragon dies, the population of giant spiders in the region returns\
-      \ to normal levels over the course of d10 days. The enhancement of telepathic\
-      \ abilities ends immediately. The existing abundance of crystals and sapphires\
-      \ remains, but new ones form at a normal rate."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-sapphire-dragon-ftd.webp"

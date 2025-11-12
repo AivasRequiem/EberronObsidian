@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/varies
@@ -17,8 +18,6 @@ You can take a [Magic](Інструменти%20ДМ/CLI/rules/actions.md#Magic)
 Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn's type or determines it randomly by rolling on the following table. If you blow the horn without meeting its requirement, the summoned spirits attack you.
 
 If you meet the requirement, they are [Friendly](Інструменти%20ДМ/CLI/rules/variant-rules/friendly-attitude-xphb.md) to you and your allies and follow your commands.
-
-`dice: [](horn-of-valhalla-xdmg.md#^1-horn-type-spirits-requirement)`
 
 | dice: 1d100 | Horn Type | Spirits | Requirement |
 |-------------|-----------|---------|-------------|

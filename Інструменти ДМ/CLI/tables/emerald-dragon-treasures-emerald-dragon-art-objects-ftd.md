@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 117* 
 
 **Emerald Dragon Art Objects**
-
-`dice: [](emerald-dragon-treasures-emerald-dragon-art-objects-ftd.md#^emerald-dragon-art-objects)`
 
 | dice: d10 | Object |
 |-----------|--------|

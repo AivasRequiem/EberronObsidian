@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -24,7 +25,7 @@ Aarakocra aeromancers control magical winds from the endless storms of the Eleme
 *Winged Guardians of the Sky*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Air)  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Aarakocra are birdlike folk who soar the skies of countless worlds and the endless expanses of the Elemental Plane of Air. They often resemble avians common to the lands where they dwell; some resemble hawks or condors, while others appear similar to hummingbirds or archaeopteryxes. In many lands, aarakocra tell of their ancient heroics resisting the wicked Queen of Chaos alongside the mysterious Wind Dukes of Aaqa.
 
@@ -62,15 +63,15 @@ Aarakocra are birdlike folk who soar the skies of countless worlds and the endle
   - "desc": "The aarakocra makes two Wind Staff attacks, and it can use Spellcasting\
       \ to cast [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +5, reach 5 ft. or range 120 ft. *Hit:*\
       \ 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage."
     "name": "Wind Staff"
   - "desc": "The aarakocra casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\
-      \nAt will: [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md),\
+      \n**At will:** [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md),\
       \ [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md), [Mage Hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
-      \n1/day: [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
+      \n**1/day:** [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "The aarakocra casts [Feather Fall](Інструменти%20ДМ/CLI/spells/feather-fall-xphb.md)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -50,7 +51,8 @@ Although draegloths plays an important part in the plans of Lolth's cult, a drae
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": "Abyssal, Elvish, Undercommon"
 "cr": "7"
 "traits":
@@ -61,16 +63,16 @@ Although draegloths plays an important part in the plans of Lolth's cult, a drae
 "actions":
   - "desc": "The draegloth makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (2d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The draegloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 11):\n\
-      \nAt will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\n\n1/day each:\
+      \n**At will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md)\n\n**1/day each:**\
       \ [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md), [faerie fire](І\
       нструменти%20ДМ/CLI/spells/faerie-fire-xphb.md)"
     "name": "Spellcasting"

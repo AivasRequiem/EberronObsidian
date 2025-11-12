@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -43,7 +44,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
     "desc": "+5"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": ""
 "cr": "0"
 "traits":
@@ -51,7 +53,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ when it flies out of an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 1 Slashing damage."
     "name": "Talons"
 "source":
   - "XMM"

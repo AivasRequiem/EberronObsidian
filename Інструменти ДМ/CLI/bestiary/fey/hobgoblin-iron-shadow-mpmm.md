@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -47,7 +48,8 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
     "desc": "+4"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Common, Goblin"
 "cr": "2"
 "traits":
@@ -59,10 +61,10 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
       \ or a Dart attack. It can also use\n\nShadow Jaunt once, either before or after\
       \ one of the attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) bludgeoning damage."
     "name": "Unarmed Strike"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Dart"
   - "desc": "The hobgoblin teleports, along with any equipment it is wearing or carrying,\
@@ -70,9 +72,9 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
       \ and its destination must be in dim light or darkness."
     "name": "Shadow Jaunt"
   - "desc": "The hobgoblin casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 12):\n\nAt will: [minor illusion](І\
+      \ the spellcasting ability (spell save DC 12):\n\n**At will:** [minor illusion](І\
       нструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](Інстр\
-      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [charm person](І\
+      ументи%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [charm person](І\
       нструменти%20ДМ/CLI/spells/charm-person-xphb.md), [disguise self](Інструмент\
       и%20ДМ/CLI/spells/disguise-self-xphb.md), [silent image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -49,8 +50,6 @@ Members of the Orzhov Syndicate range from the decadent nobility at the top of t
 
 **Personality Traits**
 
-`dice: [](orzhov-representative-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I am always willing to act in accordance with the financial incentive offered. |
@@ -65,8 +64,6 @@ Members of the Orzhov Syndicate range from the decadent nobility at the top of t
 
 **Ideals**
 
-`dice: [](orzhov-representative-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -79,8 +76,6 @@ Members of the Orzhov Syndicate range from the decadent nobility at the top of t
 
 **Bonds**
 
-`dice: [](orzhov-representative-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | The unbearable weight of my debt has driven me to desperation. |
@@ -92,8 +87,6 @@ Members of the Orzhov Syndicate range from the decadent nobility at the top of t
 ^bonds
 
 **Flaws**
-
-`dice: [](orzhov-representative-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -113,8 +106,6 @@ Roll twice on the Orzhov Contacts table (for an ally and a rival) and once on th
 
 **Orzhov Contacts**
 
-`dice: [](orzhov-representative-ggr.md#^orzhov-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | The spirit of an ancestor has taken an interest in me. |
@@ -128,8 +119,6 @@ Roll twice on the Orzhov Contacts table (for an ally and a rival) and once on th
 ^orzhov-contacts
 
 **Non-Orzhov Contacts**
-
-`dice: [](orzhov-representative-ggr.md#^non-orzhov-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

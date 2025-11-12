@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -68,7 +69,8 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -85,13 +87,13 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
   - "desc": "Moloch makes one Bite attack, one Claw attack, and one Many-Tailed Whip\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 26 (4d8 + 8) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) force damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 30 ft., one target. *Hit:*\
       \ 13 (2d4 + 8) lightning damage plus 11 (2d10) thunder damage. If the target\
       \ is a creature, it must succeed on a DC 24 Strength saving throw or be pulled\
       \ up to 30 feet in a straight line toward Moloch."
@@ -112,8 +114,8 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
       \ up to 120 feet to an unoccupied space he can see."
     "name": "Teleport"
   - "desc": "Moloch casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](Інструменти%20ДМ/CLI/spells/alter-self-xphb.md) (can\
       \ become Medium when changing his appearance), [confusion](Інструменти%20ДМ\
       /CLI/spells/confusion-xphb.md), [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md), [major image](Інструменти\
@@ -121,6 +123,9 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
       \ [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md), [wall of fire](І\
       нструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Moloch can expend a use to take one of the following actions. Moloch regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Moloch makes one Bite, Claw, or Many-Tailed Whip attack."
     "name": "Attack"

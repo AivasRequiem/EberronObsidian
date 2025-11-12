@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/boros-legionnaire
@@ -11,14 +12,18 @@ tags:
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/alchemist
+- ttrpg-cli/spell/subclass/divine-soul/good
+- ttrpg-cli/spell/subclass/grave-domain
 - ttrpg-cli/spell/subclass/life-domain
 - ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Artificer (Alchemist)
 - Bard
 - Cleric
+- Cleric (Grave Domain)
 - Cleric (Life Domain)
 - Paladin
+- Sorcerer (Divine Soul, Good)
 aliases:
 - Death Ward
 ---
@@ -35,6 +40,6 @@ You touch a creature and grant it a measure of protection from death. The first 
 
 If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.
 
-**Classes**: [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE")
+**Classes**: [Artificer (Alchemist)](Інструменти%20ДМ/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](Інструменти%20ДМ/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE;class=XPHB"); [Cleric (Life Domain)](Інструменти%20ДМ/CLI/lists/list-spells-classes-life-domain-xphb.md "subclass=XPHB;class=XPHB"); [Cleric](Інструменти%20ДМ/CLI/lists/list-spells-classes-cleric.md); [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul, Good)](Інструменти%20ДМ/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE;class=XPHB")
 
 *Source: Player's Handbook (2024) p. 261. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

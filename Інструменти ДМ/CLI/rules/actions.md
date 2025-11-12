@@ -1,7 +1,9 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
+- ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
 - Actions
@@ -96,6 +98,19 @@ With the Hide action, you try to conceal yourself. To do so, you must succeed on
 On a successful check, you have the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition. Make note of your check's total, which is the DC for a creature to find you with a Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) check.
 
 You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.
+
+## Identify a Spell
+_Source: Xanathar's Guide to Everything p. 85_
+
+- **Duration**: 1 reaction, 1 action
+
+Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.
+
+If the character perceived the casting, the spell's effect, or both, the character can make an Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check with the reaction or action. The DC equals 15 + the spell's level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell. Some spells aren't associated with any class when they're cast, such as when a monster uses its Innate Spellcasting trait.
+
+This Intelligence ([Arcana](Інструменти%20ДМ/CLI/rules/skills.md#Arcana)) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Wisdom or Charisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells.
+
+This action is an optional addition to the game, from the optional/variant rule [Spellcasting](Інструменти%20ДМ/CLI/rules/variant-rules/spellcasting-xge.md).
 
 ## Improvising an Action
 _Source: Player's Handbook (2024) p. 15. Available in the Free Rules (2024)_
@@ -215,3 +230,12 @@ _Source: Player's Handbook (2024) p. 377. Available in the <span title='Systems 
 - **Duration**: 1 action
 
 You normally interact with an object while doing something else, such as when you draw a sword as part of the [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) action. When an object requires an action for its use, you take the Utilize action.
+
+## Waking Someone
+_Source: Xanathar's Guide to Everything p. 77_
+
+- **Duration**: 1 action
+
+A creature that is naturally sleeping, as opposed to being in a magically or chemically induced sleep, wakes up if it takes any damage or if someone else uses an action to shake or slap the creature awake. A sudden loud noise—such as yelling, thunder, or a ringing bell—also awakens someone that is sleeping naturally.
+
+Whispers don't disturb sleep, unless a sleeper's passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score is 20 or higher and the whispers are within 10 feet of the sleeper. Speech at a normal volume awakens a sleeper if the environment is otherwise silent (no wind, birdsong, crickets, street sounds, or the like) and the sleeper has a passive Wisdom ([Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)) score of 15 or higher.

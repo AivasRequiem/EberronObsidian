@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 42* 
 
 **Dragon Echo Characteristics**
-
-`dice: [](echoes-across-the-worlds-dragon-echo-characteristics-ftd.md#^dragon-echo-characteristics)`
 
 | dice: d8 | Echo Characteristics |
 |----------|----------------------|

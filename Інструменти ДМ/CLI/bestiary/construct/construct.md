@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Construct
 
@@ -59,6 +61,7 @@ cssclasses: json5e-note
 - [Steel Predator](./steel-predator-mpmm.md)
 - [Stone Cursed](./stone-cursed-mpmm.md)
 - [Stone Golem](./stone-golem-xmm.md)
+- [Tiny Servant](./tiny-servant-xge.md)
 - [Warforged Colossus](./warforged-colossus-erlw.md)
 - [Warforged Titan](./warforged-titan-erlw.md)
 - [Winged Thrull](./winged-thrull-ggr.md)

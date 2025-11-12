@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 36* 
 
 **Young Dragon Goals**
-
-`dice: [](young-dragons-young-dragon-goals-ftd.md#^young-dragon-goals)`
 
 | dice: d6 | Goal |
 |----------|------|

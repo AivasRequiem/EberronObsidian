@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/0
@@ -56,11 +57,11 @@ Dohwars prefer to communicate through a form of telepathy they call merging, in 
       \ of one another."
     "name": "Merging"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
   - "desc": "The dohwar casts the following spell, requiring no spell components and\
-      \ using Charisma as the spellcasting ability (spell save DC 11):\n\n3/day:\
+      \ using Charisma as the spellcasting ability (spell save DC 11):\n\n**3/day:**\
       \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "source":

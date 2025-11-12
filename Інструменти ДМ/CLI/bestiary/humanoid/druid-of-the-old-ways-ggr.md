@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/7
@@ -56,24 +57,24 @@ The druids of the Old Ways believe that civilization will never be eradicated by
 "traits":
   - "desc": "The druid is a 12th-level Gruul spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following\
-      \ druid spells prepared:\n\nCantrips (at will): [druidcraft](Інструменти\
+      \ druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](Інструменти\
       %20ДМ/CLI/spells/druidcraft-xphb.md), [produce flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md),\
       \ [resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md), [thorn whip](І\
-      нструменти%20ДМ/CLI/spells/thorn-whip-xphb.md)\n\n1st level (4 slots): [cure\
+      нструменти%20ДМ/CLI/spells/thorn-whip-xphb.md)\n\n**1st level (4 slots):** [cure\
       \ wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md), [faerie fire](Ін\
       струменти%20ДМ/CLI/spells/faerie-fire-xphb.md), [thunderwave](Інструменти%20Д\
-      М/CLI/spells/thunderwave-xphb.md)\n\n2nd level (3 slots): [beast sense](І\
+      М/CLI/spells/thunderwave-xphb.md)\n\n**2nd level (3 slots):** [beast sense](І\
       нструменти%20ДМ/CLI/spells/beast-sense-xphb.md), [flame blade](Інструменти%20Д\
       М/CLI/spells/flame-blade-xphb.md), [pass without trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md)\n\
-      \n3rd level (3 slots): [conjure animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md),\
+      \n**3rd level (3 slots):** [conjure animals](Інструменти%20ДМ/CLI/spells/conjure-animals-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [plant growth](І\
-      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n4th level (3 slots):\
+      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n**4th level (3 slots):**\
       \ [dominate beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md), [freedom\
       \ of movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md), [wall\
-      \ of fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n5th level\
-      \ (2 slots): [commune with nature](Інструменти%20ДМ/CLI/spells/commune-with-nature-xphb.md),\
+      \ of fire](Інструменти%20ДМ/CLI/spells/wall-of-fire-xphb.md)\n\n**5th level\
+      \ (2 slots):** [commune with nature](Інструменти%20ДМ/CLI/spells/commune-with-nature-xphb.md),\
       \ [conjure elemental](Інструменти%20ДМ/CLI/spells/conjure-elemental-xphb.md),\
-      \ [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n6th level (1 slots):\
+      \ [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md)\n\n**6th level (1 slots):**\
       \ [transport via plants](Інструменти%20ДМ/CLI/spells/transport-via-plants-xphb.md),\
       \ [wall of thorns](Інструменти%20ДМ/CLI/spells/wall-of-thorns-xphb.md)"
     "name": "Spellcasting"
@@ -83,8 +84,8 @@ The druids of the Old Ways believe that civilization will never be eradicated by
       \ language."
     "name": "Speak with Beasts and Plants"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two\
       \ hands."
     "name": "Quarterstaff"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -71,29 +72,30 @@ Flaw: "Everyone has a price."
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 18"
 "languages": "Common"
 "cr": "8"
 "traits":
   - "desc": "The ghost's innate spellcasting ability is Wisdom (spell save DC 16,\
       \ +8 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no components:\n\nAt will: [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md)\
+      \ requiring no components:\n\n**At will:** [chill touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md)\
       \ (at 5th level, and the ghost regains hit points equal to half the amount of\
-      \ damage the target takes)\n\n1/day each: [sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md),\
+      \ damage the target takes)\n\n**1/day each:** [sanctuary](Інструменти%20ДМ/CLI/spells/sanctuary-xphb.md),\
       \ [spirit guardians](Інструменти%20ДМ/CLI/spells/spirit-guardians-xphb.md) (at\
       \ 4th level)"
     "name": "Innate Spellcasting"
-  - "desc": "The ghost has a trait based on who it is, as shown below:\n\n- Enezesku\
-      \ Enfeebling Ray. Enezesku's Innate Spellcasting trait includes [ray of enfeeblement](І\
+  - "desc": "The ghost has a trait based on who it is, as shown below:\n\n- **Enezesku\
+      \ Enfeebling Ray.** Enezesku's Innate Spellcasting trait includes [ray of enfeeblement](І\
       нструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md), which he can cast at\
-      \ will.  \n- Fautomni Undead Fortitude. If damage reduces Fautomni to 0\
+      \ will.  \n- **Fautomni Undead Fortitude.** If damage reduces Fautomni to 0\
       \ hit points, he must make a Constitution saving throw with a DC of 5 + the\
       \ damage taken, unless the damage is radiant or from a critical hit. On a success,\
-      \ Fautomni drops to 1 hit point instead.  \n- Karlov Unnatural Vigor. When\
+      \ Fautomni drops to 1 hit point instead.  \n- **Karlov Unnatural Vigor.** When\
       \ Karlov regains hit points, he has advantage on attack rolls he makes on his\
-      \ next turn.  \n- Vuliev Teleportation. Vuliev's Innate Spellcasting trait\
+      \ next turn.  \n- **Vuliev Teleportation.** Vuliev's Innate Spellcasting trait\
       \ includes [misty step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md), which\
-      \ he can cast at will.  \n- Xil Xaxosz Lingering Spite. When Xil Xaxosz\
+      \ he can cast at will.  \n- **Xil Xaxosz Lingering Spite.** When Xil Xaxosz\
       \ is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic\
       \ energy. Each creature within 5 feet of him must make a DC 16 Constitution\
       \ saving throw, taking 14 (4d6) necrotic damage on a failed save, or half\
@@ -103,13 +105,13 @@ Flaw: "Everyone has a price."
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "If the ghost fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 18 (4d8) necrotic damage, and the ghost regains hit points equal to half\
       \ the amount of damage the target takes. The target must succeed on a DC 13\
       \ Constitution saving throw or its hit point maximum is reduced by an amount\
@@ -121,21 +123,20 @@ Flaw: "Everyone has a price."
       \ of the ghost's next turn, the other members appear in unoccupied spaces within\
       \ 30 feet of the summoner. The ghosts each roll initiative when they appear."
     "name": "Convene the Ghost Council"
+"legendary_description": "If five Obzedat ghosts are all within 30 feet of each other,\
+  \ they can collectively take 3 legendary actions, choosing from the options below.\
+  \ Only one legendary action option can be used at a time, and only at the end of\
+  \ another creature's turn. Obzedat ghosts regain spent legendary actions at the\
+  \ start of the turn of the ghost with the highest initiative."
 "legendary_actions":
-  - "desc": "If five Obzedat ghosts are all within 30 feet of each other, they can\
-      \ collectively take 3 legendary actions, choosing from the options below. Only\
-      \ one legendary action option can be used at a time, and only at the end of\
-      \ another creature's turn. Obzedat ghosts regain spent legendary actions at\
-      \ the start of the turn of the ghost with the highest initiative."
-    "name": ""
   - "desc": "A target that all of the Obzedat ghosts can see must succeed on a DC\
       \ 16 Wisdom saving throw or bow until the end of its next turn. Until this bow\
       \ ends, the target can't take actions or reactions, and its speed is 0 and can't\
       \ be increased."
     "name": "Forced Obedience"
-  - "desc": "The Obzedat ghosts conjure d6 [indentured spirits](Інструменти%20ДМ\
-      /CLI/bestiary/undead/indentured-spirit-ggr.md) (described in this chapter) within\
-      \ 60 feet of one of them."
+  - "desc": "The Obzedat ghosts conjure 1d6 [indentured spirits](Інструменти%20Д\
+      М/CLI/bestiary/undead/indentured-spirit-ggr.md) (described in this chapter)\
+      \ within 60 feet of one of them."
     "name": "Indentured Spirits (Costs 3 Actions)"
 "source":
   - "GGR"

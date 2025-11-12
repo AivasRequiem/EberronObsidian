@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/16
@@ -23,7 +24,7 @@ One of Gith's last deeds was to forge an alliance between the githyanki and the 
 *Invaders from the Astral Plane*
 
 - **Habitat.** Planar (Astral Plane)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Githyanki were once an ordinary people, but the deeds of a vile mind flayer empire etched conflict on their being. Gaunt, humanlike creatures, githyanki have serrated ears and speckled skin ranging through shades of yellow, green, and brown. While some githyanki follow their own paths, many are influenced by a past that forever altered their fates.
 
@@ -63,25 +64,26 @@ When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaaki
     "desc": "+10"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+8"
-"senses": "blindsight 30 ft., passive Perception 18"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 18"
 "languages": "Common, Draconic, Gith"
 "cr": "16"
 "actions":
   - "desc": "The githyanki makes three Draconic Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +10, reach 10 ft. or range 120 ft.\
-      \ Hit: 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the\
+  - "desc": "*Melee  or Ranged Attack Roll:* +10, reach 10 ft. or range 120 ft.\
+      \ *Hit:* 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the\
       \ target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
       \ condition until the start of the githyanki's next turn."
     "name": "Draconic Strike"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 90-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 27 (6d8) Fire damage plus 27 (6d8) Force damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 90-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 27 (6d8) Fire damage plus 27 (6d8) Force damage. *Success:* Half damage."
     "name": "Conjured Dragon's Breath (Recharge 5-6)"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18, +10\
-      \ to hit with spell attacks):\n\nAt will: [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
-      \ (the hand is Invisible)\n\n2/day each: [Nondetection](Інструменти%20ДМ\
+      \ to hit with spell attacks):\n\n**At will:** [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\
+      \ (the hand is Invisible)\n\n**2/day each:** [Nondetection](Інструменти%20ДМ\
       /CLI/spells/nondetection-xphb.md) (self only), [Plane Shift](Інструменти%20Д\
       М/CLI/spells/plane-shift-xphb.md), [Tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Amethyst Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the dragon can take one of the 
 - **Imprisoning Force.** The dragon casts the [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md) spell, using its spell save DC and requiring no spell components. The spell ends early if the dragon uses this lair action again or dies.  
 - **Spatial Projection.** The dragon chooses a space it can fit into within the lair. It exists in its own space and the chosen space simultaneously until initiative count 20 on the next round. Whenever it moves or takes an action, it chooses which version of itself is moving or acting. If an effect or attack can target both of the dragon's spaces at the same time, the dragon is affected only once.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 The region surrounding a legendary amethyst dragon's lair is altered by the dragon's magic, creating one or more of the following effects:
@@ -28,4 +29,4 @@ The region surrounding a legendary amethyst dragon's lair is altered by the drag
 - **Thriving Wildlife.** Fish and other aquatic Beasts reproduce rapidly and thrive in bodies of water within 6 miles of the lair. Foraging in these waters yields twice the usual amount of food.  
 - **Watery Sight.** Water within 6 miles of the lair is a conduit for the dragon's psionic presence. As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md) spell, requiring no spell components and targeting any body of water in that region.  
 
-If the dragon dies, the populations of aquatic life near the lair return to normal levels over the course of `d10` days. The existing abundance of amethysts remains, but new crystals and geodes form at a normal rate.
+If the dragon dies, the populations of aquatic life near the lair return to normal levels over the course of `1d10` days. The existing abundance of amethysts remains, but new crystals and geodes form at a normal rate.

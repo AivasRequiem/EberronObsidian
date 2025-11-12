@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 140* 
 
 **Rejection of Faith**
-
-`dice: [](chapter-2-khorvaire-gazetteer-faiths-of-khorvaire-rejection-of-faith-erlw.md#^rejection-of-faith)`
 
 | dice: d6 | Rejection |
 |----------|-----------|

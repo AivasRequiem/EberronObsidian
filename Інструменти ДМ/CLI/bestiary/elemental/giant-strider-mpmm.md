@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -56,7 +57,7 @@ Firenewts prize giant striders and seek to adopt them whenever possible. They pr
       \ and regains a number of hit points equal to half the fire damage dealt."
     "name": "Fire Absorption"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Bite"
   - "desc": "The giant strider hurls a gout of flame at a point it can see within\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -27,8 +28,6 @@ Stone golems take varied forms, such as weathered carvings of ancient deities, l
 Stone golems are typically created to protect places of significance to a group, such as a monument to an important event, a leader's tomb, or a faith's sanctuary. Roll on or choose a result from the Stone Golem Orders table to inspire the commands a stone golem follows.
 
 **Stone Golem Orders**
-
-`dice: [](stone-golem-xmm.md#^stone-golem-orders)`
 
 | dice: 1d6 | The Stone Golem Follows Orders To... |
 |-----------|--------------------------------------|
@@ -68,7 +67,8 @@ Stone golems are typically created to protect places of significance to a group,
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 10"
 "languages": "understands Common plus two other languages but can't speak"
 "cr": "10"
 "traits":
@@ -80,10 +80,10 @@ Stone golems are typically created to protect places of significance to a group,
 "actions":
   - "desc": "The golem makes two attacks, using Slam or Force Bolt in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 15 (2d8 + 6) Bludgeoning\
       \ damage plus 9 (2d8) Force damage."
     "name": "Slam"
-  - "desc": "Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage."
+  - "desc": "*Ranged Attack Roll:* +9, range 120 ft. *Hit:* 22 (4d10) Force damage."
     "name": "Force Bolt"
 "bonus_actions":
   - "desc": "The golem casts the [Slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
@@ -27,8 +28,6 @@ If your attunement to the tattoo ends, the tattoo vanishes, and the needle reapp
 While the tattoo is on your skin, you have resistance to a type of damage associated with that color, as shown on the table below. The DM chooses the color or determines it randomly.
 
 **Absorbing Tattoo**
-
-`dice: [](absorbing-tattoo-tce.md#^absorbing-tattoo)`
 
 | dice: d10 | Color | Tattoo |
 |-----------|-------|--------|

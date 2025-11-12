@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -57,15 +58,15 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes three Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage plus 17 (5d6) psychic damage."
     "name": "Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
-      \ hand is invisible)\n\n3/day each: [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
+      **At will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the\
+      \ hand is invisible)\n\n**3/day each:** [blur](Інструменти%20ДМ/CLI/spells/blur-xphb.md),\
       \ [nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md) (self only)\n\
-      \n1/day each: [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
+      \n**1/day each:** [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
       \ [telekinesis](Інструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "bonus_actions":

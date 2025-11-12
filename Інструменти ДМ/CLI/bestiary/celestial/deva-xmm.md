@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -21,15 +22,13 @@ aliases:
 *World-Changing Angelic Messenger*
 
 - **Habitat.** Planar (Upper Planes)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Devas are emissaries of divine will. These immortal messengers adopt the shapes of mystical beasts or idealized, winged mortals. As with all angels, their true forms are known only to the gods they serve.
 
 Rather than literal correspondence from a god, a deva conveys an allegory or quest to mortals, tasking them with delivering something to its rightful place. While the angel might be called on in times of need, it encourages mortal heroism. Should a deva's chosen champions carry out their charge, they experience a revelation or the world is changed in line with divine purpose. Roll on or choose a result from the Deva Messages table to inspire a deva's charge.
 
 **Deva Messages**
-
-`dice: [](deva-xmm.md#^deva-messages)`
 
 | dice: 1d6 | The Deva Tasks a Mortal with Delivering... |
 |-----------|--------------------------------------------|
@@ -71,7 +70,8 @@ Rather than literal correspondence from a god, a deva conveys an allegory or que
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 19"
 "languages": "all; telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -85,17 +85,17 @@ Rather than literal correspondence from a god, a deva conveys an allegory or que
 "actions":
   - "desc": "The deva makes two Holy Mace attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 7 (1d6 + 4) Bludgeoning\
       \ damage plus 18 (4d8) Radiant damage."
     "name": "Holy Mace"
   - "desc": "The deva casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\
-      \ will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 17):\n\n**At\
+      \ will:** [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md),\
       \ [Shapechange](Інструменти%20ДМ/CLI/spells/shapechange-xphb.md) (Beast or Humanoid\
       \ form only, no [Temporary Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md)\
       \ gained from the spell, and no Concentration or [Temporary Hit Points](Інст\
       рументи%20ДМ/CLI/rules/variant-rules/temporary-hit-points-xphb.md) required\
-      \ to maintain the spell)\n\n1/day each: [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md),\
+      \ to maintain the spell)\n\n**1/day each:** [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md),\
       \ [Raise Dead](Інструменти%20ДМ/CLI/spells/raise-dead-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

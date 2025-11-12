@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -29,8 +30,6 @@ Gargoyles have a variety of appearances. Roll on or choose a result from the Gar
 
 **Gargoyle Sculptures**
 
-`dice: [](gargoyle-xmm.md#^gargoyle-sculptures)`
-
 | dice: 1d6 | The Gargoyle Is Sculpted to Appear... |
 |-----------|---------------------------------------|
 | 1 | Cherubic with perpetually smiling features. |
@@ -46,8 +45,6 @@ Gargoyles have a variety of appearances. Roll on or choose a result from the Gar
 Gargoyles seek to ambush foes or creatures that trespass on their territories. With no biological needs and supernatural patience, these monsters might wait unmoving for months, revealing themselves only when conditions are perfect to attack. They tend to lurk where statuary seems commonplace or where terrain obscures the shape and color of their bodies. Roll on or choose a result from the Gargoyle Camouflage table to inspire where a gargoyle sets up an ambush.
 
 **Gargoyle Camouflage**
-
-`dice: [](gargoyle-xmm.md#^gargoyle-camouflage)`
 
 | dice: 1d8 | The Gargoyle Conceals Itself Amid... |
 |-----------|--------------------------------------|
@@ -90,7 +87,8 @@ Gargoyles seek to ambush foes or creatures that trespass on their territories. W
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Terran)"
 "cr": "2"
 "traits":
@@ -100,7 +98,7 @@ Gargoyles seek to ambush foes or creatures that trespass on their territories. W
 "actions":
   - "desc": "The gargoyle makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 7 (2d4 + 2) Slashing\
       \ damage."
     "name": "Claw"
 "source":

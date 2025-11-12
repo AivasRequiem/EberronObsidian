@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -36,16 +37,17 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "7"
   - !!int "2"
 "speed": "5 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "0"
 "traits":
   - "desc": "The piranha can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Attack Roll: +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
+  - "desc": "*Melee Attack Roll:* +5 (with [Advantage](Інструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)\
       \ if the target doesn't have all its [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)),\
-      \ reach 5 ft. Hit: 1 Piercing damage."
+      \ reach 5 ft. *Hit:* 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

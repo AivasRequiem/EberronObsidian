@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
@@ -590,7 +591,7 @@ A character who listens at this door with a successful DC 10 Wisdom ([Perception
 > This barracks contains four roughly built wooden bunks, with heaped-up blankets and dirty dishes scattered about. A strong smell of unwashed bodies and rotten meat fills the air. Three tall, furry humanoids are lounging among the mess, barking orders at a sad little goblin that demeans itself for their amusement. Your sudden appearance causes the goblin to faint.
 ^09f
 
-Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) and one [goblin](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) are present. The goblin, Droop, falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) at the sight of the party, but another creature can use an action to wake him. Otherwise, Droop remains [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) for `d10` minutes.
+Three [bugbears](Інструменти%20ДМ/CLI/bestiary/fey/bugbear-warrior-xmm.md) and one [goblin](Інструменти%20ДМ/CLI/bestiary/fey/goblin-warrior-xmm.md) are present. The goblin, Droop, falls [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) at the sight of the party, but another creature can use an action to wake him. Otherwise, Droop remains [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious) for `1d10` minutes.
 
 The bugbears work for the Black Spider and were sent here to help Iarno keep the Redbrands and the citizens of Phandalin in line. The leader is named Mosk. He wears a jeweled eye patch even though he has both his eyes. Mosk wears the eye patch because he thinks it's fancy.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/kalashtar
@@ -68,8 +69,6 @@ Kalashtar can't directly communicate with their quori spirits. Rather, they migh
 The bond to the spirit can cause some kalashtar to display unusual quirks. Consider rolling or selecting a trait from the Kalashtar Quirks table.
 
 **Kalashtar Quirks**
-
-`dice: [](kalashtar-erlw.md#^kalashtar-quirks)`
 
 | dice: d10 | Quirk |
 |-----------|-------|

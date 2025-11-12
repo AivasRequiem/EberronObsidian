@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Tasha's Cauldron of Everything p. 161* 
 
 **Unraveling Magic Effects**
-
-`dice: [](unraveling-magic-effects-tce.md#^unraveling-magic-effects)`
 
 | dice: d100 | Effect |
 |------------|--------|
@@ -23,12 +22,12 @@ aliases:
 | 26–30 | One of the characters in the region must succeed on a DC 15 Wisdom saving throw or be transformed into a [blink dog](Інструменти%20ДМ/CLI/bestiary/fey/blink-dog-xmm.md), as if by the [polymorph](Інструменти%20ДМ/CLI/spells/polymorph-xphb.md) spell. The spell lasts for 1 hour or until dispelled. |
 | 31–35 | One random creature in the region that has spell slots expends one spell slot of a random level in a harmless shower of sparks and sounds. |
 | 36–40 | All fire in the region freezes into ice that gives off a blue light equal to the illumination it normally provides. In addition, the region radiates "extreme cold" (see the "Dungeon Master's Guide") for 1 day. |
-| 41–45 | One random creature in the region with spell slots becomes a focal point for ambient magic for 1 hour. At the end of each of the creature's turns, other creatures within 10 feet of it must succeed on a Dexterity saving throw against the spellcaster's spell save DC or take `d6` force damage. |
+| 41–45 | One random creature in the region with spell slots becomes a focal point for ambient magic for 1 hour. At the end of each of the creature's turns, other creatures within 10 feet of it must succeed on a Dexterity saving throw against the spellcaster's spell save DC or take `1d6` force damage. |
 | 46–50 | The [flaming sphere](Інструменти%20ДМ/CLI/spells/flaming-sphere-xphb.md) spell (save DC 15) spontaneously activates in an unoccupied space within 5 feet of the party. On initiative count 20 (losing all ties), the sphere moves 30 feet toward the nearest creature. The sphere vanishes after 1 minute. |
 | 51–55 | simple or martial weapons in the region that are nonmagical crackle with power. For 1 hour, they become magic weapons that grant a +1 bonus to attack and damage rolls made with them. |
 | 56–60 | Swirling energy surrounds one random creature in the region for 24 hours. For the duration, the creature gains resistance to force damage and its speed is reduced by 10 feet. |
-| 61–65 | Each character in the region suddenly learns some magic. A character learns one wizard cantrip of the character's choice and knows the cantrip for `d8` days. |
-| 66–70 | One random creature in the region crackles with sparks of light for 1 hour. For the duration, the creature magically sheds bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, any creature it touches (requiring an unarmed strike if the target is unwilling) takes `d6` force damage. |
+| 61–65 | Each character in the region suddenly learns some magic. A character learns one wizard cantrip of the character's choice and knows the cantrip for `1d8` days. |
+| 66–70 | One random creature in the region crackles with sparks of light for 1 hour. For the duration, the creature magically sheds bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, any creature it touches (requiring an unarmed strike if the target is unwilling) takes `1d6` force damage. |
 | 71–75 | Lightning arcs in a 5-foot wide line between two creatures in the region that are within 30 feet of each other and not behind total cover. Each creature in the line (including the two) must make a DC 13 Dexterity saving throw, taking `4d6` lightning damage on a failed save or half as much damage on a successful one. |
 | 76–80 | The [reverse gravity](Інструменти%20ДМ/CLI/spells/reverse-gravity-xphb.md) spell (save DC 18) activates for 1 minute, centered on the ground beneath one random creature in the region. |
 | 81–85 | On initiative count 20 (losing all ties), two random creatures in the region must each make a DC 15 Charisma saving throw. If either save fails, the creatures magically teleport, switching places. If both saves succeed, they don't teleport. |

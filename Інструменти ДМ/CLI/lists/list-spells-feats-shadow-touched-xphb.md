@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/feat/shadow-touched
 aliases:
@@ -10,6 +11,7 @@ aliases:
 
 ## 1st Level
 
+- [Cause Fear](Інструменти%20ДМ/CLI/spells/cause-fear-xge.md "XGE") 
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") 
 - [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB") 
 - [False Life](Інструменти%20ДМ/CLI/spells/false-life-xphb.md "XPHB") 

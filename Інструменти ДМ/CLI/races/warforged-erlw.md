@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/warforged
@@ -91,8 +92,6 @@ The more a warforged develops its individuality, the more likely it is to modify
 Warforged often display an odd personality trait or two, given how new they are to the world. The Warforged Quirks table contains example quirks.
 
 **Warforged Quirks**
-
-`dice: [](warforged-erlw.md#^warforged-quirks)`
 
 | dice: d8 | Quirk |
 |----------|-------|

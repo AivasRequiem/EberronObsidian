@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -22,7 +23,7 @@ Scout captains are experienced explorers and sharpshooters. They might lead band
 *Watchers and Wanderers*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Scouts are warriors of the wilderness, trained in hunting and tracking. They might be explorers or trappers, or they could perform more martial roles as archers, bounty hunters, or outriders.
 
@@ -59,11 +60,11 @@ Scouts are warriors of the wilderness, trained in hunting and tracking. They mig
 "actions":
   - "desc": "The scout makes two attacks, using Shortsword or Longbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing\
       \ damage, plus 10 (3d6) Piercing damage if the attack was made with [Advantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: +5, range 150/600 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Ranged Attack Roll:* +5, range 150/600 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage, plus 10 (3d6) Piercing damage if the attack was made with [Advantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Longbow"

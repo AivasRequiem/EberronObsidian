@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/20
@@ -48,7 +49,8 @@ Usually found only on the Elemental Plane of Water, a leviathan sometimes swims 
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": ""
 "cr": "20"
 "traits":
@@ -66,10 +68,10 @@ Usually found only on the Elemental Plane of Water, a leviathan sometimes swims 
 "actions":
   - "desc": "The leviathan makes one Slam attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 20 ft., one target. *Hit:*\
       \ 21 (2d12 + 8) bludgeoning damage plus 13 (2d12) acid damage."
     "name": "Slam"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) bludgeoning damage plus 10 (3d6) acid damage."
     "name": "Tail"
   - "desc": "The leviathan magically creates a wave of water that extends from a point\
@@ -82,6 +84,9 @@ Usually found only on the Elemental Plane of Water, a leviathan sometimes swims 
       \ out across the ground in all directions, extinguishing unprotected flames\
       \ in its area and within 250 feet of it, and then it vanishes."
     "name": "Tidal Wave (Recharge 6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the leviathan can expend a use to take one of the following actions. The\
+  \ leviathan regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The leviathan moves up to its speed."
     "name": "Move"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -50,7 +51,8 @@ Covered from head to tail in layers of thick, spiked plates, a dreadnought has t
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 19"
 "languages": ""
 "cr": "21"
 "traits":
@@ -86,16 +88,19 @@ Covered from head to tail in layers of thick, spiked plates, a dreadnought has t
 "actions":
   - "desc": "The dreadnought makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 36 (5d10 + 9) force damage. If the target is a Huge or smaller creature\
       \ and this damage reduces it to 0 hit points or it is [incapacitated](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Incapacitated), the dreadnought swallows\
       \ it. The swallowed target, along with everything it is wearing and carrying,\
       \ appears in an unoccupied space on the floor of the Demiplanar Donjon."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (3d6 + 9) force damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the astral dreadnought can expend a use to take one of the following actions.\
+  \ The astral dreadnought regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dreadnought makes one Claw attack."
     "name": "Claw"

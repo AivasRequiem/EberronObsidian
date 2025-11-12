@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -52,7 +53,8 @@ Howlers rely on speed, numbers, and their mind-numbing howling to corner prey be
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": "understands Abyssal but can't speak"
 "cr": "8"
 "traits":
@@ -63,7 +65,7 @@ Howlers rely on speed, numbers, and their mind-numbing howling to corner prey be
 "actions":
   - "desc": "The howler makes two Rending Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage, plus 22 (4d10) psychic damage if the target\
       \ is [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened). This\
       \ attack ignores damage resistance."

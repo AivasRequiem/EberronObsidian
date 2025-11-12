@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -20,15 +21,13 @@ aliases:
 *Dead Flesh Given New Life*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Flesh golems are roughly human-shaped collections of body parts bound together by misused magic or strange science. They serve their reckless creators, but many possess disjointed memories and instincts from their component parts. If wounded, these golems might go berserk and vent their confusion on anything in their sight, including their creators.
 
 Flesh golems appear in varied forms. Roll on or choose a result from the Flesh Golem Characteristics table to inspire a flesh golem's features.
 
 **Flesh Golem Characteristics**
-
-`dice: [](flesh-golem-xmm.md#^flesh-golem-characteristics)`
 
 | dice: 1d6 | The Flesh Golem Has... |
 |-----------|------------------------|
@@ -68,7 +67,8 @@ Flesh golems appear in varied forms. Roll on or choose a result from the Flesh G
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands Common plus one other language but can't speak"
 "cr": "5"
 "traits":
@@ -77,7 +77,7 @@ Flesh golems appear in varied forms. Roll on or choose a result from the Flesh G
       \ checks until the end of its next turn."
     "name": "Aversion to Fire"
   - "desc": "Whenever the golem starts its turn [Bloodied](Інструменти%20ДМ/CLI/rules/conditions.md#Bloodied),\
-      \ roll d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
+      \ roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
       \ the golem attacks the nearest creature it can see. If no creature is near\
       \ enough to move to and attack, the golem attacks an object. Once the golem\
       \ goes berserk, it remains so until it is destroyed or it is no longer [Bloodied](І\
@@ -101,8 +101,8 @@ Flesh golems appear in varied forms. Roll on or choose a result from the Flesh G
 "actions":
   - "desc": "The golem makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning\
-      \ damage plus 4 (d8) Lightning damage."
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Bludgeoning\
+      \ damage plus 4 (1d8) Lightning damage."
     "name": "Slam"
 "source":
   - "XMM"

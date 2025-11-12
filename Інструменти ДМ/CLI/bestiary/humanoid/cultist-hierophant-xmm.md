@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -22,13 +23,11 @@ Cultist hierophants are leaders who oversee the lives of their underlings, dicta
 *Doomsayers and Fanatics*
 
 - **Habitat.** Any  
-- **Treasure.** Individual, Relics  
+- **Treasure.** Individual, [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.
 
 **Cultist Agendas**
-
-`dice: [](cultist-hierophant-xmm.md#^cultist-agendas)`
 
 | dice: 1d6 | The Cultist Strives To... |
 |-----------|---------------------------|
@@ -45,8 +44,6 @@ Cultists use magic and extreme measures to spread radical beliefs. Some privatel
 Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.
 
 **Cult Symbols**
-
-`dice: [](cultist-hierophant-xmm.md#^cult-symbols)`
 
 | dice: 1d10 | The Symbol Is... | Depicted As... |
 |------------|------------------|----------------|
@@ -109,15 +106,15 @@ Cults can organize around any mystical tradition, but many serve supernatural be
   - "desc": "The cultist makes three attacks, using Pact Blade or Radiant Ray in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 12 (2d6 + 5) Slashing\
       \ damage plus 18 (4d8) Radiant damage."
     "name": "Pact Blade"
-  - "desc": "Ranged Attack Roll: +9, range 120 ft. Hit: 31 (4d12 + 5) Radiant\
+  - "desc": "*Ranged Attack Roll:* +9, range 120 ft. *Hit:* 31 (4d12 + 5) Radiant\
       \ damage."
     "name": "Radiant Ray"
   - "desc": "The cultist casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 17):\n\nAt will: [Thaumaturgy](Інс\
-      трументи%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n1/day each: [Jallarzi's\
+      \ spellcasting ability (spell save DC 17):\n\n**At will:** [Thaumaturgy](Інс\
+      трументи%20ДМ/CLI/spells/thaumaturgy-xphb.md)\n\n**1/day each:** [Jallarzi's\
       \ Storm of Radiance](Інструменти%20ДМ/CLI/spells/jallarzis-storm-of-radiance-xphb.md)\
       \ (level 7 version), [Mass Suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md)"
     "name": "Spellcasting"

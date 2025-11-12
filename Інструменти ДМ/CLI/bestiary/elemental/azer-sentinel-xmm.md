@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -24,7 +25,7 @@ Azer sentinels defend their communities' smiths and channel their flames through
 *Fiery Smiths of Living Metal*
 
 - **Habitat.** Mountain, Planar (Elemental Plane of Fire)  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Azers are living bronze folk who work the primal elements of creation to craft weapons and magical wonders among the multiverse's mightiest infernos.
 
@@ -55,7 +56,7 @@ Azers are living bronze folk who work the primal elements of creation to craft w
 "traits":
   - "desc": "At the end of each of the azer's turns, each creature of the azer's choice\
       \ in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the azer takes 5 (d10) Fire damage unless the azer has\
+      \ originating from the azer takes 5 (1d10) Fire damage unless the azer has\
       \ the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
       \ condition."
     "name": "Fire Aura"
@@ -64,8 +65,8 @@ Azers are living bronze folk who work the primal elements of creation to craft w
       \ for an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning\
-      \ damage plus 3 (d6) Fire damage."
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 8 (1d10 + 3) Bludgeoning\
+      \ damage plus 3 (1d6) Fire damage."
     "name": "Burning Hammer"
 "source":
   - "XMM"

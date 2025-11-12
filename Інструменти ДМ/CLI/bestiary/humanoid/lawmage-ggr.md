@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -51,23 +52,23 @@ The Azorius Senate has spellcasters who are trained to capture lawbreakers and b
 "traits":
   - "desc": "The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 14, +6 to hit with spell attacks). The lawmage\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md), [friends](Інструмент\
       и%20ДМ/CLI/spells/friends-xphb.md), [light](Інструменти%20ДМ/CLI/spells/light-xphb.md),\
-      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n1st level (4 slots):\
+      \ [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\n**1st level (4 slots):**\
       \ [alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md), [expeditious retreat](І\
       нструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md), [shield](Інструмент\
-      и%20ДМ/CLI/spells/shield-xphb.md)\n\n2nd level (3 slots): [arcane lock](І\
+      и%20ДМ/CLI/spells/shield-xphb.md)\n\n**2nd level (3 slots):** [arcane lock](І\
       нструменти%20ДМ/CLI/spells/arcane-lock-xphb.md), [detect thoughts](Інструмен\
       ти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [hold person](Інструменти%20ДМ\
-      /CLI/spells/hold-person-xphb.md)\n\n3rd level (3 slots): [clairvoyance](І\
+      /CLI/spells/hold-person-xphb.md)\n\n**3rd level (3 slots):** [clairvoyance](І\
       нструменти%20ДМ/CLI/spells/clairvoyance-xphb.md), [dispel magic](Інструменти\
       %20ДМ/CLI/spells/dispel-magic-xphb.md), [slow](Інструменти%20ДМ/CLI/spells/slow-xphb.md)\n\
-      \n4th level (2 slots): [locate creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md),\
+      \n**4th level (2 slots):** [locate creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md),\
       \ [stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"

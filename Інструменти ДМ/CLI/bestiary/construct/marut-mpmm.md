@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/25
@@ -56,7 +57,8 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned), [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 20"
 "languages": "all but rarely speaks"
 "cr": "25"
 "traits":
@@ -72,7 +74,7 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
 "actions":
   - "desc": "The marut makes two Unerring Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* automatic hit, reach 5 ft., one target. *Hit:*\
       \ 60 force damage, and the target is pushed up to 5 feet away from the marut\
       \ if it is Huge or smaller."
     "name": "Unerring Slam"

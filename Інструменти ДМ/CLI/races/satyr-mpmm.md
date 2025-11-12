@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/satyr
@@ -24,7 +25,7 @@ You are a Fey.
 
 ### Ram
 
-You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
+You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Magic Resistance
 

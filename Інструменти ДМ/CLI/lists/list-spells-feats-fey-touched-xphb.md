@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/feat/fey-touched
 aliases:
@@ -12,6 +13,7 @@ aliases:
 
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md "XPHB") 
 - [Bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md "XPHB") 
+- [Beast Bond](Інструменти%20ДМ/CLI/spells/beast-bond-xge.md "XGE") 
 - [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md "XPHB") 
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB") 
 - [Command](Інструменти%20ДМ/CLI/spells/command-xphb.md "XPHB") 

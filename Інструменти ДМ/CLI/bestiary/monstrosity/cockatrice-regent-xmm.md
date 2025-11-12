@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -46,7 +47,8 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
 "saves":
   - "wisdom": !!int "6"
 "condition_immunities": "[petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 13"
 "languages": ""
 "cr": "8"
 "traits":
@@ -56,22 +58,22 @@ Cockatrices combine the features of irate roosters and starving reptiles. They p
 "actions":
   - "desc": "The cockatrice makes one Petrifying Bite attack and two Talons attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Piercing\
       \ damage. If the target is a creature, it is subjected to the following effect.\
-      \ Constitution Saving Throw: DC 14. 1st Failure: The target has the [Restrained](І\
+      \ *Constitution Saving Throw:* DC 14. *1St Failure:* The target has the [Restrained](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) condition and repeats the\
       \ save at the end of its next turn if it is still [Restrained](Інструменти%20Д\
       М/CLI/rules/conditions.md#Restrained), ending the effect on itself on a success.\
-      \ 2nd Failure: The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
+      \ *2Nd Failure:* The target has the [Petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified)\
       \ condition instead of the [Restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ condition."
     "name": "Petrifying Bite"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 18 (4d6 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 18 (4d6 + 4) Slashing\
       \ damage."
     "name": "Talons"
 "reactions":
   - "desc": "Trigger: A creature within 120 feet of the cockatrice deals damage to\
-      \ it. _Response—_Dexterity Saving Throw: DC 14, the triggering creature. Failure:\
+      \ it. _Response—_*Dexterity Saving Throw:* DC 14, the triggering creature. *Failure:*\
       \ 13 (3d6 + 3) Force damage."
     "name": "Magical Backlash"
 "source":

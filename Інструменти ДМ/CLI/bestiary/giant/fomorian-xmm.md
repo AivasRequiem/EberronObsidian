@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -25,8 +26,6 @@ aliases:
 Once infamous for their magical aptitude, fomorians are giants afflicted with a fey curse. In their pride, they were tricked into invading the Feywild to claim its magic for their own. When the archfey rulers of that realm united, the fomorians were turned back and cursed with supernatural strangeness to make their bodies match their vile souls. Ever since, fomorians have dwelled in the Underdark amid the ruins of their magical cities. The archfey's curse afflicts them still, tormenting them with wandering cankers, lurching organs, and stranger discomforts. Rather than atoning for their offenses, fomorians harness the magic of their curse and turn it against others. Roll on or choose a result from the Fomorian Warping table to inspire the cosmetic effects a creature undergoes while they're affected by a fomorian's Warping Hex.
 
 **Fomorian Warping**
-
-`dice: [](fomorian-xmm.md#^fomorian-warping)`
 
 | dice: 1d4 | The Fomorian's Hex Causes... |
 |-----------|------------------------------|
@@ -63,19 +62,20 @@ Once infamous for their magical aptitude, fomorians are giants afflicted with a 
     "desc": "+8"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 18"
 "languages": "Giant, Undercommon"
 "cr": "8"
 "actions":
   - "desc": "The fomorian makes two Stone Club attacks. It can replace one attack\
       \ with a use of Warping Hex if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 24 (4d8 + 6) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +9, reach 15 ft. *Hit:* 24 (4d8 + 6) Bludgeoning\
       \ damage."
     "name": "Stone Club"
-  - "desc": "Wisdom Saving Throw: DC 16, one creature the fomorian can see within\
-      \ 120 feet. Failure: 21 (6d6) Psychic damage, and the target gains 1 [Exhaustion](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level. Success: Half damage\
+  - "desc": "*Wisdom Saving Throw:* DC 16, one creature the fomorian can see within\
+      \ 120 feet. *Failure:* 21 (6d6) Psychic damage, and the target gains 1 [Exhaustion](І\
+      нструменти%20ДМ/CLI/rules/conditions.md#Exhaustion) level. *Success:* Half damage\
       \ only."
     "name": "Warping Hex (Recharge 4-6)"
 "source":

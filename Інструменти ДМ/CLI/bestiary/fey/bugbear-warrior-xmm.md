@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -26,7 +27,7 @@ Bugbear warriors serve those who offer them treasure, food, or the chance to hun
 *Lurking Goblinoid Brutes*
 
 - **Habitat.** Forest, Grassland, Planar (Feywild), Underdark  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Bugbears embody fear of the wilds and the menace of natural places. They're notoriously stealthy, and foes that venture into their territories often vanish without a trace.
 
@@ -53,21 +54,22 @@ Bugbears embody fear of the wilds and the menace of natural places. They're noto
     "desc": "+6"
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
   - "desc": "The bugbear needn't spend extra movement to move a creature it is grappling."
     "name": "Abduct"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +4, reach 10 ft. *Hit:* 9 (2d6 + 2) Bludgeoning\
       \ damage. If the target is a Medium or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 12)."
     "name": "Grab"
-  - "desc": "Melee  or Ranged Attack Roll: +4 (with [Advantage](Інструменти%20Д\
+  - "desc": "*Melee  or Ranged Attack Roll:* +4 (with [Advantage](Інструменти%20Д\
       М/CLI/rules/variant-rules/advantage-xphb.md) if the target is [Grappled](Інс\
       трументи%20ДМ/CLI/rules/conditions.md#Grappled) by the bugbear), reach 10 ft.\
-      \ or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage."
+      \ or range 20/60 ft. *Hit:* 9 (3d4 + 2) Bludgeoning damage."
     "name": "Light Hammer"
 "source":
   - "XMM"

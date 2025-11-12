@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -42,7 +43,8 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - !!int "5"
 "speed": "40 ft."
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 8"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -52,7 +54,7 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
       \ The sorrowsworn otherwise has disadvantage on attack rolls."
     "name": "Wretched Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d10 + 1) piercing damage, and the sorrowsworn attaches to the target.\
       \ While attached, the sorrowsworn can't attack, and at the start of each of\
       \ the sorrowsworn's turns, the target takes 6 (1d10 + 1) necrotic damage.\n\

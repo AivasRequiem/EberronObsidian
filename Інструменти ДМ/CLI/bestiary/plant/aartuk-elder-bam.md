@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bam
 - ttrpg-cli/monster/cr/3
@@ -44,7 +45,8 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - !!int "14"
   - !!int "12"
 "speed": "20 ft., climb 20 ft."
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Aartuk"
 "cr": "3"
 "traits":
@@ -55,15 +57,15 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
   - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
       \ of each."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage."
     "name": "Branch"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (4d4) radiant damage."
     "name": "Radiant Pellet"
   - "desc": "The aartuk casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\n1/day\
-      \ each: [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
+      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\n**1/day\
+      \ each:** [calm emotions](Інструменти%20ДМ/CLI/spells/calm-emotions-xphb.md),\
       \ [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [sending](І\
       нструменти%20ДМ/CLI/spells/sending-xphb.md)"
     "name": "Spellcasting (Psionics)"

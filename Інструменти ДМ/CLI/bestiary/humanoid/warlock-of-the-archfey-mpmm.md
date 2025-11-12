@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -62,7 +63,7 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes two Rapier attacks, or it uses Bewildering Word twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 7 (2d6) force damage."
     "name": "Rapier"
   - "desc": "The warlock utters a magical bewilderment, targeting one creature it\
@@ -71,13 +72,13 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
       \ until the end of the warlock's next turn."
     "name": "Bewildering Word"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 14): \n\nAt will: [dancing lights](І\
+      \ spellcasting ability (spell save DC 14): \n\n**At will:** [dancing lights](І\
       нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [disguise self](Інструме\
       нти%20ДМ/CLI/spells/disguise-self-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md)\
       \ (self only), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [minor\
       \ illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md), [prestidigitation](І\
       нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md), [speak with animals](І\
-      нструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)\n\n1/day each: [charm\
+      нструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md)\n\n**1/day each:** [charm\
       \ person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md), [dimension door](І\
       нструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [hold monster](Інструмен\
       ти%20ДМ/CLI/spells/hold-monster-xphb.md)"

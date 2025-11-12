@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/21
@@ -53,7 +54,8 @@ Solars can resurrect the dead and often use that power to enlist mortal aid. The
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 24"
 "languages": "all; telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -72,20 +74,20 @@ Solars can resurrect the dead and often use that power to enlist mortal aid. The
   - "desc": "The solar makes two Flying Sword attacks. It can replace one attack with\
       \ a use of Slaying Bow."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +15, reach 10 ft. or range 120 ft.\
-      \ Hit: 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. Hit\
-      \ or Miss: The sword magically returns to the solar's hand or hovers within\
+  - "desc": "*Melee  or Ranged Attack Roll:* +15, reach 10 ft. or range 120 ft.\
+      \ *Hit:* 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. *Hit\
+      \ or Miss:* The sword magically returns to the solar's hand or hovers within\
       \ 5 feet of the solar immediately after a ranged attack."
     "name": "Flying Sword"
-  - "desc": "Dexterity Saving Throw: DC 21, one creature the solar can see within\
-      \ 600 feet. Failure: If the creature has 100 [Hit Points](Інструменти%20ДМ\
+  - "desc": "*Dexterity Saving Throw:* DC 21, one creature the solar can see within\
+      \ 600 feet. *Failure:* If the creature has 100 [Hit Points](Інструменти%20ДМ\
       /CLI/rules/variant-rules/hit-points-xphb.md) or fewer, it dies. It otherwise\
       \ takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage."
     "name": "Slaying Bow"
   - "desc": "The solar casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 25):\n\nAt\
-      \ will: [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
-      \n1/day each: [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Control\
+      \ and using Charisma as the spellcasting ability (spell save DC 25):\n\n**At\
+      \ will:** [Detect Evil and Good](Інструменти%20ДМ/CLI/spells/detect-evil-and-good-xphb.md)\n\
+      \n**1/day each:** [Commune](Інструменти%20ДМ/CLI/spells/commune-xphb.md), [Control\
       \ Weather](Інструменти%20ДМ/CLI/spells/control-weather-xphb.md), [Dispel Evil\
       \ and Good](Інструменти%20ДМ/CLI/spells/dispel-evil-and-good-xphb.md), [Resurrection](І\
       нструменти%20ДМ/CLI/spells/resurrection-xphb.md)"
@@ -96,17 +98,20 @@ Solars can resurrect the dead and often use that power to enlist mortal aid. The
       \ or [Remove Curse](Інструменти%20ДМ/CLI/spells/remove-curse-xphb.md), using\
       \ the same spellcasting ability as Spellcasting.\n"
     "name": "Divine Aid (3/Day)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the solar can expend a use to take one of the following actions. The solar\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
-  - "desc": "Constitution Saving Throw: DC 25, one creature the solar can see within\
-      \ 120 feet. Failure: The target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
-      \ condition for 1 minute. Failure or Success: The solar can't take this action\
+  - "desc": "*Constitution Saving Throw:* DC 25, one creature the solar can see within\
+      \ 120 feet. *Failure:* The target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+      \ condition for 1 minute. *Failure or Success:* The solar can't take this action\
       \ again until the start of its next turn."
     "name": "Blinding Gaze"
   - "desc": "The solar teleports up to 60 feet to an unoccupied space it can see.\
-      \ Dexterity Saving Throw: DC 25, each creature in a 10-foot [Emanation](Ін\
+      \ *Dexterity Saving Throw:* DC 25, each creature in a 10-foot [Emanation](Ін\
       струменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the solar at its destination space. Failure: 11 (2d10) Radiant damage.\
-      \ Success: Half damage."
+      \ from the solar at its destination space. *Failure:* 11 (2d10) Radiant damage.\
+      \ *Success:* Half damage."
     "name": "Radiant Teleport"
 "source":
   - "XMM"

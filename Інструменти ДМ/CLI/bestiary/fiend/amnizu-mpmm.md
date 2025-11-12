@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
@@ -50,7 +51,8 @@ Some amnizus perform the critical task of watching over the River Styx from fort
 "damage_immunities": "fire, poison"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "Common, Infernal, telepathy 1,000 ft."
 "cr": "18"
 "traits":
@@ -64,7 +66,7 @@ Some amnizus perform the critical task of watching over the River Styx from fort
   - "desc": "The amnizu uses Blinding Rot or Forgetfulness, if available. It also\
       \ makes two Taskmaster Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) slashing damage plus 16 (3d10) force damage."
     "name": "Taskmaster Whip"
   - "desc": "The amnizu targets one or two creatures that it can see within 60 feet\
@@ -83,9 +85,9 @@ Some amnizus perform the critical task of watching over the River Styx from fort
     "name": "Forgetfulness (Recharge 6)"
   - "desc": "The amnizu casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 19):\n\n\
-      At will: [command](Інструменти%20ДМ/CLI/spells/command-xphb.md)\n\n3/day:\
+      **At will:** [command](Інструменти%20ДМ/CLI/spells/command-xphb.md)\n\n**3/day:**\
       \ [dominate monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md)\n\
-      \n1/day: [feeblemind](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md)"
+      \n**1/day:** [feeblemind](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When a creature within 60 feet of the amnizu makes an attack roll against\

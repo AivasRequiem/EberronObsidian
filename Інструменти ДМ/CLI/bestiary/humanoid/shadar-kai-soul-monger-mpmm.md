@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -64,7 +65,8 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": "Common, Elvish"
 "cr": "11"
 "traits":
@@ -86,10 +88,10 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "actions":
   - "desc": "The shadar-kai makes two Shadow Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic\
       \ damage, and the target has disadvantage on saving throws until the end of\
-      \ the shadar-kai's next turn. Hit or Miss: The dagger magically returns to\
+      \ the shadar-kai's next turn. *Hit or Miss:* The dagger magically returns to\
       \ the shadar-kai's hand immediately after a ranged attack."
     "name": "Shadow Dagger"
   - "desc": "The shadar-kai emits weariness in a 60-foot cube. Each creature in that\
@@ -101,7 +103,7 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
     "name": "Wave of Weariness (Recharge 4-6)"
   - "desc": "The shadar-kai casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\n1/day each: [bestow curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md),\
+      \ DC 16):\n\n**1/day each:** [bestow curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md),\
       \ [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md), [gaseous\
       \ form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md), [seeming](Інструм\
       енти%20ДМ/CLI/spells/seeming-xphb.md)"

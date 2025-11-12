@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -39,11 +40,12 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "12"
   - !!int "4"
 "speed": "5 ft., fly 30 ft."
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 11"
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Attack Roll: +4 to hit, reach 5 ft. Hit: 1 Piercing damage."
+  - "desc": "*Melee Attack Roll:* +4 to hit, reach 5 ft. *Hit:* 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/23
@@ -49,7 +50,8 @@ Terrifying storms manifest in the bodies of elder tempests. Beings carved from c
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": ""
 "cr": "23"
 "traits":
@@ -74,7 +76,7 @@ Terrifying storms manifest in the bodies of elder tempests. Beings carved from c
 "actions":
   - "desc": "The tempest makes two Thunderous Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:*\
       \ 23 (4d6 + 9) thunder damage."
     "name": "Thunderous Slam"
   - "desc": "Each creature within 120 feet of the tempest must make a DC 21 Dexterity\
@@ -83,6 +85,9 @@ Terrifying storms manifest in the bodies of elder tempests. Beings carved from c
       \ or more, the creature is also [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until the end of its next turn."
     "name": "Lightning Storm (Recharge 6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the elder tempest can expend a use to take one of the following actions.\
+  \ The elder tempest regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The tempest moves up to its speed."
     "name": "Move"
@@ -96,7 +101,7 @@ Terrifying storms manifest in the bodies of elder tempests. Beings carved from c
       \ damage. Each creature there must succeed on a DC 21 Dexterity saving throw\
       \ or take 22 (4d10) thunder damage and be flung up to 60 feet in a direction\
       \ away from the line. If a thrown target collides with an immovable object (such\
-      \ as a wall or floor) or another creature, the target takes 3 (d6) bludgeoning\
+      \ as a wall or floor) or another creature, the target takes 3 (1d6) bludgeoning\
       \ damage for every 10 feet it was thrown before impact. If the target collides\
       \ with another creature, that other creature must succeed on a DC 19 Dexterity\
       \ saving throw or take the same impact damage and be knocked [prone](Інструм\

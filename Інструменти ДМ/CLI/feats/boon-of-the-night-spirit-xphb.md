@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -16,6 +17,6 @@ You gain the following benefits.
 
 **Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.
 
-**Merge with Shadows.** While within Dim Light or Darkness, you can give yourself the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
+**Merge with Shadows.** While within [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) or [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md), you can give yourself the [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) condition as a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md). The condition ends on you immediately after you take an action, a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), or a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md).
 
-**Shadowy Form.** While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.
+**Shadowy Form.** While within [Dim Light](Інструменти%20ДМ/CLI/rules/variant-rules/dim-light-xphb.md) or [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md), you have [Resistance](Інструменти%20ДМ/CLI/rules/variant-rules/resistance-xphb.md) to all damage except Psychic and Radiant.

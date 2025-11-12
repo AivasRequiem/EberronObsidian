@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -24,7 +25,7 @@ Sphinxes of secrets are commonly associated with a site of great magic or learni
 *Collectors and Keepers of Secrets*
 
 - **Habitat.** Desert, Planar (Upper Planes)  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Sphinxes protect the secrets of the multiverse. Formed from the spirits of sages and explorers, sphinxes know the power of truth and the importance of preserving it. They share their wisdom only with those who prove themselves wise or overcome tests of worthiness, such as riddles or battles with dangerous beasts. Through their existences, sphinxes might change form as they gain more nuanced understanding of cosmic enigmas.
 
@@ -73,7 +74,8 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 60 ft., passive Perception 17"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 17"
 "languages": "Celestial, Common"
 "cr": "8"
 "traits":
@@ -90,11 +92,11 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
       \ use of [Curse](Інструменти%20ДМ/CLI/rules/variant-rules/curses-xphb.md) of\
       \ the Riddle."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing\
       \ damage plus 7 (2d6) Radiant damage."
     "name": "Claw"
-  - "desc": "Intelligence Saving Throw: DC 15, one creature the sphinx can see within\
-      \ 60 feet. Failure: 21 (6d6) Psychic damage, and the target is cursed with\
+  - "desc": "*Intelligence Saving Throw:* DC 15, one creature the sphinx can see within\
+      \ 60 feet. *Failure:* 21 (6d6) Psychic damage, and the target is cursed with\
       \ a riddle. The cursed target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on ability checks and attack rolls. In addition, if it takes the Magic action,\
       \ it must succeed on a DC 15 Intelligence saving throw or that action is wasted.\
@@ -104,9 +106,9 @@ Sphinxes typically dwell in places that hold great knowledge or prophetic magic.
     "name": "Curse of the Riddle"
   - "desc": "The sphinx casts one of the following spells, requiring no Material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      **At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Identify](Інструменти%20ДМ/CLI/spells/identify-xphb.md), [Prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1/day each: [Locate\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1/day each:** [Locate\
       \ Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md), [Remove Curse](І\
       нструменти%20ДМ/CLI/spells/remove-curse-xphb.md)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
@@ -53,7 +54,8 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
     "desc": "+8"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 18"
 "languages": "Elvish, Undercommon"
 "cr": "18"
 "traits":
@@ -69,21 +71,21 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
   - "desc": "The drow makes three Scimitar or Arcane Eruption attacks. The drow can\
       \ replace one of the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) slashing damage plus 27 (6d8) poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one target. *Hit:*\
       \ 36 (8d8) force damage, and the drow can push the target up to 10 feet away\
       \ if it is a Large or smaller creature."
     "name": "Arcane Eruption"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
-      At will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      **At will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
       \ [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [message](Інструменти%20ДМ/CLI/spells/message-xphb.md)\n\
-      \n3/day each: [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
+      \n**3/day each:** [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
       \ [fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md), [invisibility](І\
-      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n1/day each: [darkness](І\
+      нструменти%20ДМ/CLI/spells/invisibility-xphb.md)\n\n**1/day each:** [darkness](І\
       нструменти%20ДМ/CLI/spells/darkness-xphb.md), [faerie fire](Інструменти%20ДМ\
       /CLI/spells/faerie-fire-xphb.md), [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\
       \ (self only)"

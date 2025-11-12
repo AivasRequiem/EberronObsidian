@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -52,14 +53,14 @@ Dimir mind mages are among the most feared spellcasters in Ravnica, thanks in la
 "cr": "5"
 "traits":
   - "desc": "The mage's spellcasting ability is Intelligence (spell save DC 16). It\
-      \ can innately cast the following spells, requiring no components:\n\nAt will:\
+      \ can innately cast the following spells, requiring no components:\n\n**At will:**\
       \ [encode thoughts](Інструменти%20ДМ/CLI/spells/encode-thoughts-ggr.md) (see\
-      \ chapter 2), [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md)\n\n3/day\
-      \ each: [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
+      \ chapter 2), [friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md)\n\n**3/day\
+      \ each:** [charm person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md),\
       \ [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [mage\
       \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [sleep](Інструмент\
       и%20ДМ/CLI/spells/sleep-xphb.md), [suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\n\
-      \n1/day each: [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md),\
+      \n**1/day each:** [dominate person](Інструменти%20ДМ/CLI/spells/dominate-person-xphb.md),\
       \ [mass suggestion](Інструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [modify\
       \ memory](Інструменти%20ДМ/CLI/spells/modify-memory-xphb.md)"
     "name": "Innate Spellcasting (Psionics)"
@@ -67,8 +68,8 @@ Dimir mind mages are among the most feared spellcasters in Ravnica, thanks in la
       \ (see chapter 5)."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "GGR"

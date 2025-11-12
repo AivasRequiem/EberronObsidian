@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -56,7 +57,8 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "8"
 "traits":
@@ -71,10 +73,10 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "actions":
   - "desc": "The deathlock makes two Deathly Claw or Grave Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3 necrotic damage)."
     "name": "Deathly Claw"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 13 (3d8) necrotic damage. If the target is Large or smaller, it must succeed\
       \ on a DC 16 Strength saving throw or become [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ as shadowy tendrils wrap around it for 1 minute. A [restrained](Інструмент\
@@ -82,11 +84,11 @@ An powerful necromancer might also discover the wicked methods of creating a dea
       \ the saving throw, ending the effect on itself on a success."
     "name": "Grave Bolt"
   - "desc": "The deathlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [detect magic](Ін\
+      \ spellcasting ability (spell save DC 14):\n\n**At will:** [detect magic](Ін\
       струменти%20ДМ/CLI/spells/detect-magic-xphb.md), [disguise self](Інструменти\
       %20ДМ/CLI/spells/disguise-self-xphb.md), [mage armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md),\
-      \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n1/day\
-      \ each: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dimension\
+      \ [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\n**1/day\
+      \ each:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dimension\
       \ door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [dispel magic](І\
       нструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [fly](Інструменти%20ДМ/CLI/spells/fly-xphb.md),\
       \ [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md)"

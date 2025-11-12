@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Player's Handbook (2024) p. 38* 
 
 **Dexterity**
-
-`dice: [](describe-appearance-and-personality-dexterity-xphb.md#^dexterity)`
 
 | dice: 1d4 | High Dexterity | Low Dexterity |
 |-----------|----------------|---------------|

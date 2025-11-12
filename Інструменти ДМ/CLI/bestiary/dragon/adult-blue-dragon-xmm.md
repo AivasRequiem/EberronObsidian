@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/16
@@ -23,7 +24,7 @@ Adult blue dragons command small empires, which might be territories of subjugat
 *Dragons of Tyranny and Tempests*
 
 - **Habitat.** Desert  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Arrogant and imperious, blue dragons are chromatic dragons that crave control and collect followers like other dragons hoard treasure. They seek to transform their territories into empires, domains to be feared by nations.
 
@@ -62,7 +63,8 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "lightning"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 22"
 "languages": "Common, Draconic"
 "cr": "16"
 "traits":
@@ -72,21 +74,36 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Spellcasting to cast [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing\
-      \ damage plus 5 (d10) Lightning damage."
+  - "desc": "*Melee Attack Roll:* +12, reach 10 ft. *Hit:* 16 (2d8 + 7) Slashing\
+      \ damage plus 5 (1d10) Lightning damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 19, each creature in a 90-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 60 (11d10) Lightning damage. Success: Half damage."
+      \ *Failure:* 60 (11d10) Lightning damage. *Success:* Half damage."
     "name": "Lightning Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
-      \ will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\n**At\
+      \ will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [Mage Hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [Shatter](Інструменти%20ДМ/CLI/spells/shatter-xphb.md)\n\
-      \n1/day each: [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), [Sending](І\
+      \n**1/day each:** [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md), [Sending](І\
       нструменти%20ДМ/CLI/spells/sending-xphb.md)"
     "name": "Spellcasting"
+"regional_effects":
+  - "desc": "The region containing an adult or ancient blue dragon's lair is changed\
+      \ by its presence, creating the following effects:\n\n- **Sinkholes.** Sinkholes\
+      \ form more frequently in the area within 1 mile of the lair. Whenever a creature\
+      \ in that area other than the dragon and its allies finishes a [Long Rest](І\
+      нструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md), roll 1d20. On\
+      \ a 1, a sinkhole opens beneath the creature, and the creature must succeed\
+      \ on a DC 15 Dexterity saving throw or fall 2d4 × 10 feet into the sinkhole.\
+      \  \n- **Spiteful Storms.** Dust devils and thunderstorms rage within 1 mile\
+      \ of the lair. The area is [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md).\
+      \  \n\nIf the dragon dies or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the dragon can expend a use to take one of the following\
+  \ actions. The dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon uses Spellcasting to cast [Invisibility](Інструменти%20ДМ\
       /CLI/spells/invisibility-xphb.md) on itself, and it can fly up to half its [Fly\
@@ -98,21 +115,6 @@ Blue dragons dwell in arid lands. Their lairs might be death traps meant to ento
     "name": "Sonic Boom"
   - "desc": "The dragon makes one Rend attack."
     "name": "Tail Swipe"
-"regional_effects":
-  - "desc": "The region containing an adult or ancient blue dragon's lair is changed\
-      \ by its presence, creating the following effects:"
-    "name": ""
-  - "desc": "- Sinkholes. Sinkholes form more frequently in the area within 1\
-      \ mile of the lair. Whenever a creature in that area other than the dragon and\
-      \ its allies finishes a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md),\
-      \ roll d20. On a 1, a sinkhole opens beneath the creature, and the creature\
-      \ must succeed on a DC 15 Dexterity saving throw or fall 2d4 × 10 feet into\
-      \ the sinkhole.  \n- Spiteful Storms. Dust devils and thunderstorms rage\
-      \ within 1 mile of the lair. The area is [Lightly Obscured](Інструменти%20ДМ\
-      /CLI/rules/variant-rules/lightly-obscured-xphb.md).  "
-    "name": ""
-  - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-blue-dragon-xmm.webp"

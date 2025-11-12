@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/attunement/required
@@ -55,7 +56,7 @@ While holding the staff, you can cast one of the spells on the following table f
 
 ## Regaining Charges
 
-The staff regains `4d6 + 2` expended charges daily at dawn. If you expend the last charge, roll `d20`. On a 20, the staff regains `1d12 + 1` charges.
+The staff regains `4d6 + 2` expended charges daily at dawn. If you expend the last charge, roll `1d20`. On a 20, the staff regains `1d12 + 1` charges.
 
 ## Retributive Strike
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/spell/background/boros-legionnaire
@@ -23,7 +24,7 @@ aliases:
 
 The target hit by the strike takes an extra `3d8` Radiant damage from the attack, and the target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) condition until the spell ends. At the end of each of its turns, the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) target makes a Constitution saving throw, ending the spell on itself on a success.
 
-**Using a Higher-Level Spell Slot.** The extra damage increases by `d8` for each spell slot level above 3.
+**Using a Higher-Level Spell Slot.** The extra damage increases by `1d8` for each spell slot level above 3.
 
 **Classes**: [Paladin](Інструменти%20ДМ/CLI/lists/list-spells-classes-paladin.md)
 

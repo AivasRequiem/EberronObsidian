@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -22,7 +23,7 @@ Berserker commanders bear the scars of battle and drive their followers to match
 *Raging Invaders and Impassioned Warriors*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fighters, and other ferocious warriors.
 
@@ -64,12 +65,12 @@ Gripped by the adrenaline of battle, berserkers are reckless invaders, pit fight
 "actions":
   - "desc": "The berserker makes three attacks, using Greataxe or Javelin in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 10 (1d12 + 4) Slashing\
       \ damage, plus 10 (3d6) Thunder damage to the target or another creature within\
       \ 5 feet of the target."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 18 (4d6 + 4) Piercing damage, and the target's [Speed](Інструмент\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 30/120 ft.\
+      \ *Hit:* 18 (4d6 + 4) Piercing damage, and the target's [Speed](Інструмент\
       и%20ДМ/CLI/rules/variant-rules/speed-xphb.md) decreases by 5 feet until the\
       \ start of the berserker's next turn."
     "name": "Javelin"

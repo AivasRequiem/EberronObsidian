@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/10
@@ -23,7 +24,7 @@ Young gold dragons have seen glimpses of the world's true evils and crusade to o
 *Dragons of Hope and Majesty*
 
 - **Habitat.** Forest, Grassland  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Gold dragons work to make the world a better place. The most powerful of the metallic dragons, these awe-inspiring dragons strive to protect that which is good and bend fate toward a brighter future. Their kind dispositions don't prevent gold dragons from engaging in combat when necessary, though, and they exhale brilliant flames and weakening magic to rout their foes.
 
@@ -64,7 +65,8 @@ Gold dragons make their homes in places of natural and magical wonder.
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_immunities": "fire"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 19"
 "languages": "Common, Draconic"
 "cr": "10"
 "traits":
@@ -74,20 +76,20 @@ Gold dragons make their homes in places of natural and magical wonder.
   - "desc": "The dragon makes three Rend attacks. It can replace one attack with a\
       \ use of Weakening Breath."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 17 (2d10 + 6) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 10 ft. *Hit:* 17 (2d10 + 6) Slashing\
       \ damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 17, each creature in a 30-foot [Cone](Ін\
-      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). Failure:\
-      \ 55 (10d10) Fire damage. Success: Half damage."
+  - "desc": "*Dexterity Saving Throw:* DC 17, each creature in a 30-foot [Cone](Ін\
+      струменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md). *Failure:*\
+      \ 55 (10d10) Fire damage. *Success:* Half damage."
     "name": "Fire Breath (Recharge 5-6)"
-  - "desc": "Strength Saving Throw: DC 17, each creature that isn't currently affected\
+  - "desc": "*Strength Saving Throw:* DC 17, each creature that isn't currently affected\
       \ by this breath in a 30-foot [Cone](Інструменти%20ДМ/CLI/rules/variant-rules/cone-area-of-effect-xphb.md).\
-      \ Failure: The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
+      \ *Failure:* The target has [Disadvantage](Інструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md)\
       \ on Strength-based [D20 Tests](Інструменти%20ДМ/CLI/rules/variant-rules/d20-test-xphb.md)\
-      \ and subtracts 3 (d6) from its damage rolls. It repeats the save at the end\
-      \ of each of its turns, ending the effect on itself on a success. After 1 minute,\
-      \ it succeeds automatically."
+      \ and subtracts 3 (1d6) from its damage rolls. It repeats the save at the\
+      \ end of each of its turns, ending the effect on itself on a success. After\
+      \ 1 minute, it succeeds automatically."
     "name": "Weakening Breath"
 "source":
   - "XMM"

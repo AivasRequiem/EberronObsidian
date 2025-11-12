@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -29,7 +30,7 @@ Malisons possesses deadly venom, which some manipulate into magical strikes. The
 *Power-Hungry Serpentine Conspirators*
 
 - **Habitat.** Desert, Forest, Swamp, Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Exploiting pacts with sinister supernatural forces, yuan-ti bargain away their humanity for the lethality and predatory deviousness of serpents. From hidden bastions, they manipulate rulers and the wealthy, seeking to control the world. Many yuan-ti possess venomous magic, which often manifests as fangs or striking serpents.
 
@@ -38,8 +39,6 @@ Yuan-ti have humanlike forms with a variety of horrifying serpentine transformat
 Yuan-ti might gain their reptilian features through dangerous supernatural rites. Roll on or choose a result from the Yuan-ti Transformations table to inspire how yuan-ti obtain their serpentine aspects.
 
 **Yuan-ti Transformations**
-
-`dice: [](yuan-ti-malison-type-1-xmm.md#^yuan-ti-transformations)`
 
 | dice: 1d6 | A Yuan-ti Gained Its Snake Features From... |
 |-----------|---------------------------------------------|
@@ -78,7 +77,8 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
     "desc": "+4 (+6 while in snake form)"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Abyssal, Common, Draconic"
 "cr": "3"
 "traits":
@@ -90,16 +90,16 @@ Yuan-ti might gain their reptilian features through dangerous supernatural rites
       \ and it can use Spellcasting to cast [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Piercing\
       \ damage plus 7 (2d6) Poison damage."
     "name": "Bite"
-  - "desc": "Ranged Attack Roll: +5, range 120 ft. Hit: 12 (2d8 + 3) Poison\
+  - "desc": "*Ranged Attack Roll:* +5, range 120 ft. *Hit:* 12 (2d8 + 3) Poison\
       \ damage."
     "name": "Poison Ray (Yuan-ti Form Only)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 13):\n\
-      \nAt will: [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
-      \ (snakes only)\n\n2/day: [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
+      \n**At will:** [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md)\
+      \ (snakes only)\n\n**2/day:** [Suggestion](Інструменти%20ДМ/CLI/spells/suggestion-xphb.md)"
     "name": "Spellcasting (Yuan-ti Form Only)"
 "bonus_actions":
   - "desc": "The yuan-ti shape-shifts into a Medium snake or returns to its true form.\

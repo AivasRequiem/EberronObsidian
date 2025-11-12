@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/20
@@ -21,7 +22,7 @@ aliases:
 *Devil of Domination*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Masterminds of the Nine Hells and generals of infernal legions, pit fiends seek conquests across the planes of existence. More than warmongers, these diabolical tyrants concoct intricate plots that play out among fiendish battlefields, infernal politics, and mortal conspiracies.
 
@@ -58,7 +59,8 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 20"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "20"
 "traits":
@@ -70,9 +72,9 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
   - "desc": "The pit fiend emanates an aura in a 20-foot [Emanation](Інструменти%20Д\
       М/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) while it doesn't\
       \ have the [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated)\
-      \ condition. Wisdom Saving Throw: DC 21, any enemy that starts its turn in\
-      \ the aura. Failure: The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the start of its next turn. Success: The target is immune\
+      \ condition. *Wisdom Saving Throw:* DC 21, any enemy that starts its turn in\
+      \ the aura. *Failure:* The target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ condition until the start of its next turn. *Success:* The target is immune\
       \ to this pit fiend's aura for 24 hours."
     "name": "Fear Aura"
   - "desc": "If the pit fiend fails a saving throw, it can choose to succeed instead."
@@ -84,9 +86,9 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
   - "desc": "The pit fiend makes one Bite attack, two Devilish Claw attacks, and one\
       \ Fiery Mace attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 18 (3d6 + 8) Piercing\
+  - "desc": "*Melee Attack Roll:* +14, reach 10 ft. *Hit:* 18 (3d6 + 8) Piercing\
       \ damage. If the target is a creature, it must make the following saving throw.\
-      \ Constitution Saving Throw: DC 21. Failure: The target has the [Poisoned](І\
+      \ *Constitution Saving Throw:* DC 21. *Failure:* The target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition. While [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target can't regain [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) and takes\
@@ -94,10 +96,10 @@ Smoldering with the evil of the Nine Hells, pit fiends strike fear in creatures 
       \ the save at the end of each of its turns, ending the effect on itself on a\
       \ success. After 1 minute, it succeeds automatically."
     "name": "Bite"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 26 (4d8 + 8) Necrotic\
+  - "desc": "*Melee Attack Roll:* +14, reach 10 ft. *Hit:* 26 (4d8 + 8) Necrotic\
       \ damage."
     "name": "Devilish Claw"
-  - "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 22 (4d6 + 8) Force\
+  - "desc": "*Melee Attack Roll:* +14, reach 10 ft. *Hit:* 22 (4d6 + 8) Force\
       \ damage plus 21 (6d6) Fire damage."
     "name": "Fiery Mace"
   - "desc": "The pit fiend casts [Fireball](Інструменти%20ДМ/CLI/spells/fireball-xphb.md)\

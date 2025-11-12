@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -51,7 +52,8 @@ If [bullywugs](Інструменти%20ДМ/CLI/bestiary/fey/bullywug-warrior-x
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "fire, lightning"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 19"
 "languages": ""
 "cr": "10"
 "traits":
@@ -65,7 +67,7 @@ If [bullywugs](Інструменти%20ДМ/CLI/bestiary/fey/bullywug-warrior-x
   - "desc": "The froghemoth makes one Bite attack and two Tentacle attacks, and it\
       \ can use Tongue."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage, and the target is swallowed if it is a Medium\
       \ or smaller creature. A swallowed creature is [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained), has\
@@ -80,7 +82,7 @@ If [bullywugs](Інструменти%20ДМ/CLI/bestiary/fey/bullywug-warrior-x
       нструменти%20ДМ/CLI/rules/conditions.md#Restrained) by it and can escape from\
       \ the corpse using 10 feet of movement, exiting [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage, and the target is [grappled](Інструмент\
       и%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 16) if it is a Huge or smaller\
       \ creature. Until the grapple ends, the froghemoth can't use this tentacle on\

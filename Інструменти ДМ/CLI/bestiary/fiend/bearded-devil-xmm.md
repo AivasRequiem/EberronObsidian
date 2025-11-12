@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -21,7 +22,7 @@ aliases:
 *Devil of Force and Intimidation*
 
 - **Habitat.** Planar (Nine Hells)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Bearded devils, also known as barbazus, fill the legions of the Nine Hells. These cruel soldiers follow the orders of diabolical generals as they defend infernal realms, invade Material Plane worlds, and clash against demons in planes-spanning conflicts.
 
@@ -55,7 +56,8 @@ Bearded devils' eponymous beards consist of grotesque, tentacle-like growths. Th
 "damage_immunities": "fire, poison"
 "condition_immunities": "[frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 10"
 "languages": "Infernal; telepathy 120 ft."
 "cr": "3"
@@ -66,16 +68,16 @@ Bearded devils' eponymous beards consist of grotesque, tentacle-like growths. Th
 "actions":
   - "desc": "The devil makes one Beard attack and one Infernal Glaive attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing\
       \ damage, and the target has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ condition until the start of the devil's next turn. Until this poison ends,\
       \ the target can't regain [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)."
     "name": "Beard"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (1d10 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 8 (1d10 + 3) Slashing\
       \ damage. If the target is a creature and doesn't already have an infernal wound,\
-      \ it is subjected to the following effect. Constitution Saving Throw: DC 12.\
-      \ Failure: The target receives an infernal wound. While wounded, the target\
-      \ loses 5 (d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
+      \ it is subjected to the following effect. *Constitution Saving Throw:* DC 12.\
+      \ *Failure:* The target receives an infernal wound. While wounded, the target\
+      \ loses 5 (1d10) [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ at the start of each of its turns. The wound closes after 1 minute, after\
       \ a spell restores [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
       \ to the target, or after the target or a creature within 5 feet of it takes\

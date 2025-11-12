@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/17
@@ -21,7 +22,7 @@ aliases:
 *Demon of Disaster*
 
 - **Habitat.** Planar (Abyss)  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Terrifying in scale and overwhelming power, goristros are giant demons capable of bringing cities to ruin. These demons embody senseless anarchy and nihilistic destruction, and they take special offense at creatures or structures that rival them in size. Castles, towers, giants, and beasts of war are all common victims of these monsters' wrath.
 
@@ -63,7 +64,8 @@ Goristros resemble hunched, primeval minotaurs bearing the scars of Abyssal wars
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 17"
 "languages": "Abyssal"
 "cr": "17"
 "traits":
@@ -79,12 +81,12 @@ Goristros resemble hunched, primeval minotaurs bearing the scars of Abyssal wars
 "actions":
   - "desc": "The goristro makes one Brutal Gore attack and two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 40 (6d10 + 7) Piercing\
+  - "desc": "*Melee Attack Roll:* +13, reach 10 ft. *Hit:* 40 (6d10 + 7) Piercing\
       \ damage. If the target is a Huge or smaller creature, it is pushed up to 20\
       \ feet straight away from the goristro and has the [Prone](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Prone) condition."
     "name": "Brutal Gore"
-  - "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 29 (4d10 + 7) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +13, reach 10 ft. *Hit:* 29 (4d10 + 7) Bludgeoning\
       \ damage."
     "name": "Slam"
 "bonus_actions":

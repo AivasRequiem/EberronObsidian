@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -64,10 +65,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
 "actions":
   - "desc": "The githzerai makes three Unarmed Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage plus 18 (4d8) psychic damage."
     "name": "Unarmed Strike"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The target\
       \ must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time.\
       \ A target moved forward in time vanishes for the duration. When the effect\
@@ -75,10 +76,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
       \ nearest to that space if it's occupied."
     "name": "Temporal Strike (Recharge 6)"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\n**At will:**\
       \ [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible)\n\
-      \n3/day: [see invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)\n\
-      \n1/day each: [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
+      \n**3/day:** [see invisibility](Інструменти%20ДМ/CLI/spells/see-invisibility-xphb.md)\n\
+      \n**1/day each:** [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md),\
       \ [teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"
     "name": "Spellcasting (Psionics)"
 "reactions":

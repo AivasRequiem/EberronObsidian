@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -53,7 +54,8 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
     "desc": "+8"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 18"
 "languages": "Deep Speech, Undercommon, telepathy 2 miles"
 "cr": "9"
 "traits":
@@ -78,15 +80,15 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
       \ the psychic link at any time (no action required)."
     "name": "Psionic Hub"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one creature. *Hit:*\
       \ 27 (4d10 + 5) psychic damage. If the target is Large or smaller, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 14) and must succeed\
       \ on a DC 17 Intelligence saving throw or be [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one [incapacitated](І\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one [incapacitated](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) Humanoid [grappled](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the ulitharid. Hit: 55\
+      нструменти%20ДМ/CLI/rules/conditions.md#Grappled) by the ulitharid. *Hit:* 55\
       \ (10d10) piercing damage. If this damage reduces the target to 0 hit points,\
       \ the ulitharid kills the target by extracting and devouring its brain."
     "name": "Extract Brain"
@@ -98,8 +100,8 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The ulitharid casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      At will: [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
-      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n1/day each:\
+      **At will:** [detect thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md),\
+      \ [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)\n\n**1/day each:**\
       \ [dominate monster](Інструменти%20ДМ/CLI/spells/dominate-monster-xphb.md),\
       \ [feeblemind](Інструменти%20ДМ/CLI/spells/befuddlement-xphb.md), [mass suggestion](І\
       нструменти%20ДМ/CLI/spells/mass-suggestion-xphb.md), [plane shift](Інструмен\

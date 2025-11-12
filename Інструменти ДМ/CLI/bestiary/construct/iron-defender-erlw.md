@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1
@@ -50,7 +51,8 @@ Each kind of homunculus has a body constructed from different kinds of materials
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -62,9 +64,9 @@ Each kind of homunculus has a body constructed from different kinds of materials
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
-      \ on a DC 13 Strength saving throw or take an extra 3 (d6) piercing damage\
+      \ on a DC 13 Strength saving throw or take an extra 3 (1d6) piercing damage\
       \ and be [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape\
       \ DC 13). The defender can have only one creature [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) in this way at a time."

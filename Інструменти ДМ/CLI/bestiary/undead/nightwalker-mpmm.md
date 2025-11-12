@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/20
@@ -52,7 +53,8 @@ Generally, a nightwalker on the Material Plane is attracted to elements of the w
   /CLI/rules/conditions.md#Paralyzed), [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 9"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 9"
 "languages": ""
 "cr": "20"
 "traits":
@@ -69,7 +71,7 @@ Generally, a nightwalker on the Material Plane is attracted to elements of the w
   - "desc": "The nightwalker makes two Enervating Focus attacks, one of which can\
       \ be replaced by Finger of Doom, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
       \ 28 (5d8 + 6) necrotic damage. The target must succeed on a DC 21 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ necrotic damage taken. This reduction lasts until the target finishes a long\

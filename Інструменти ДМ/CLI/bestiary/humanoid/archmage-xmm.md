@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/12
@@ -22,15 +23,13 @@ Archmages have mastered incredible magical power. While some use their magic to 
 *Magical Scholars and Spellcasters*
 
 - **Habitat.** Any  
-- **Treasure.** Arcana, Individual  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md), Individual  
 
 Mages are magical wonder-workers, ranging from spellcasting overlords to reclusive witches. They study mystical secrets and possess insight into monsters, legends, omens, and other lore. Mages often gather allies or hire assistants to aid them in their research or to attain magical might.
 
 Roll on or choose a result from the Mage Roles table to inspire different sorts of mages.
 
 **Mage Roles**
-
-`dice: [](archmage-xmm.md#^mage-roles)`
 
 | dice: 1d10 | The Mage Is... |
 |------------|----------------|
@@ -92,20 +91,20 @@ Roll on or choose a result from the Mage Roles table to inspire different sorts 
 "actions":
   - "desc": "The archmage makes four Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +9, reach 5 ft. or range 150 ft. *Hit:*\
       \ 27 (4d10 + 5) Force damage."
     "name": "Arcane Burst"
   - "desc": "The archmage casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 17):\n\nAt will: [Detect Magic](І\
+      \ the spellcasting ability (spell save DC 17):\n\n**At will:** [Detect Magic](І\
       нструменти%20ДМ/CLI/spells/detect-magic-xphb.md), [Detect Thoughts](Інструме\
       нти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise Self](Інструменти%20Д\
       М/CLI/spells/disguise-self-xphb.md), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
       \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [Mage Armor](Інструмен\
       ти%20ДМ/CLI/spells/mage-armor-xphb.md) (included in AC), [Mage Hand](Інструм\
       енти%20ДМ/CLI/spells/mage-hand-xphb.md), [Prestidigitation](Інструменти%20ДМ\
-      /CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [Fly](Інструменти%20Д\
+      /CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [Fly](Інструменти%20Д\
       М/CLI/spells/fly-xphb.md), [Lightning Bolt](Інструменти%20ДМ/CLI/spells/lightning-bolt-xphb.md)\
-      \ (level 7 version)\n\n1/day each: [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md)\
+      \ (level 7 version)\n\n**1/day each:** [Cone of Cold](Інструменти%20ДМ/CLI/spells/cone-of-cold-xphb.md)\
       \ (level 9 version), [Mind Blank](Інструменти%20ДМ/CLI/spells/mind-blank-xphb.md)\
       \ (cast before combat), [Scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md),\
       \ [Teleport](Інструменти%20ДМ/CLI/spells/teleport-xphb.md)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
@@ -67,7 +68,7 @@ If the characters ask Krux why he's sulking, he reveals the source of his shame.
 
 #### Raising Krux's Spirits
 
-Characters can persuade the giff to "buck up" with a successful DC 13 Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)) check. Those who motivate the commodore with a rousing speech or a healthy dose of tough love have advantage on this check. On a successful check, Krux regains his resolve and stands ready once more to tackle the Xaryxian Empire. On a failed check, the giff sulks in his cabin; when he emerges `d8` hours later, he is pickled in equal measures of ale and shame.
+Characters can persuade the giff to "buck up" with a successful DC 13 Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)) check. Those who motivate the commodore with a rousing speech or a healthy dose of tough love have advantage on this check. On a successful check, Krux regains his resolve and stands ready once more to tackle the Xaryxian Empire. On a failed check, the giff sulks in his cabin; when he emerges `1d8` hours later, he is pickled in equal measures of ale and shame.
 
 #### What Krux Knows
 

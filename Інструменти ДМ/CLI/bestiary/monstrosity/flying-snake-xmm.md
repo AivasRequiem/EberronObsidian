@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-8
@@ -38,7 +39,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "12"
   - !!int "5"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
-"senses": "blindsight 10 ft., passive Perception 11"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 10 ft., passive\
+  \ Perception 11"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -46,7 +48,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 1 Piercing damage plus\
       \ 5 (2d4) Poison damage."
     "name": "Bite"
 "source":

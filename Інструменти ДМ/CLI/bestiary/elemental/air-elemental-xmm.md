@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -34,8 +35,6 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
 > What can withstand the storm's scream? The lightning's spear? The want of sweet breath? Air is the mightiest of elements—respect its power.
 
 **Air Elemental Compositions**
-
-`dice: [](air-elemental-xmm.md#^air-elemental-compositions)`
 
 | dice: 1d6 | The Air Elemental's Body Features... |
 |-----------|--------------------------------------|
@@ -72,7 +71,8 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Primordial (Auran)"
 "cr": "5"
 "traits":
@@ -83,13 +83,13 @@ Air elementals often have distinctive compositions. Roll on or choose a result f
 "actions":
   - "desc": "The elemental makes two Thunderous Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder\
+  - "desc": "*Melee Attack Roll:* +8, reach 10 ft. *Hit:* 14 (2d8 + 5) Thunder\
       \ damage."
     "name": "Thunderous Slam"
-  - "desc": "Strength Saving Throw: DC 13, one Medium or smaller creature in the\
-      \ elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target\
+  - "desc": "*Strength Saving Throw:* DC 13, one Medium or smaller creature in the\
+      \ elemental's space. *Failure:* 24 (4d10 + 2) Thunder damage, and the target\
       \ is pushed up to 20 feet straight away from the elemental and has the [Prone](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. Success: Half damage\
+      нструменти%20ДМ/CLI/rules/conditions.md#Prone) condition. *Success:* Half damage\
       \ only."
     "name": "Whirlwind (Recharge 4-6)"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/9
@@ -21,7 +22,7 @@ aliases:
 *Giant of the Smoldering Depths*
 
 - **Habitat.** Mountain, Underdark  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Fire giants inhabit the hollow vaults and molten rivers of mountainous depths. There, they use subterranean heat and riches to craft wonders, from titanic weapons of war to delicate works of art.
 
@@ -63,11 +64,11 @@ Most fire giants dwell in volcanically active mountains or cavernous depths that
   - "desc": "The giant makes two attacks, using Flame Sword or Hammer Throw in any\
       \ combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing\
+  - "desc": "*Melee Attack Roll:* +11, reach 10 ft. *Hit:* 21 (4d6 + 7) Slashing\
       \ damage plus 10 (3d6) Fire damage."
     "name": "Flame Sword"
-  - "desc": "Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7)\
-      \ Bludgeoning damage plus 4 (d8) Fire damage, and the target is pushed up\
+  - "desc": "*Ranged Attack Roll:* +11, range 60/240 ft. *Hit:* 23 (3d10 + 7)\
+      \ Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up\
       \ to 15 feet straight away from the giant and has [Disadvantage](Інструменти\
       %20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on the next attack roll\
       \ it makes before the end of its next turn."

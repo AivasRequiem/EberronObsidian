@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -51,7 +52,8 @@ Among Lolth's devotees in the city of Menzoberranzan in the Forgotten Realms, ea
     "desc": "+6"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 16"
 "languages": "Elvish, Undercommon"
 "cr": "9"
 "traits":
@@ -66,13 +68,13 @@ Among Lolth's devotees in the city of Menzoberranzan in the Forgotten Realms, ea
 "actions":
   - "desc": "The drow makes two Scimitar attacks and one Whip or Hand Crossbow attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage plus 14 (4d6) poison damage."
     "name": "Scimitar"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d4 + 4) slashing damage."
     "name": "Whip"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 30/120 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](І\
@@ -82,9 +84,9 @@ Among Lolth's devotees in the city of Menzoberranzan in the Forgotten Realms, ea
       \ shake it."
     "name": "Hand Crossbow"
   - "desc": "The drow casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt\
-      \ will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md)\n\
-      \n1/day each: [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n**At\
+      \ will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md)\n\
+      \n**1/day each:** [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md),\
       \ [faerie fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md), [levitate](І\
       нструменти%20ДМ/CLI/spells/levitate-xphb.md) (self only)"
     "name": "Spellcasting"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/legendary
@@ -10,7 +11,7 @@ aliases:
 ---
 # Potion of Storm Giant Strength
 *Potion, legendary*  
-
+![](Інструменти%20ДМ/CLI/items/img/potion-of-storm-giant-strength.webp#right)
 
 - **Weight**: 0.5 lbs.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -50,7 +51,8 @@ A [beholder](Інструменти%20ДМ/CLI/bestiary/aberration/beholder-xmm.
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": "Deep Speech, Undercommon"
 "cr": "6"
 "traits":
@@ -71,27 +73,27 @@ A [beholder](Інструменти%20ДМ/CLI/bestiary/aberration/beholder-xmm.
       \ one."
     "name": "Death Throes"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d8) piercing damage."
     "name": "Bite"
   - "desc": "The gauth shoots three of the following magical eye rays at random (roll\
       \ three d6s, and reroll duplicates), targeting one to three creatures it can\
-      \ see within 120 feet of it:\n\n- 1 Devour Magic Ray. The target must succeed\
+      \ see within 120 feet of it:\n\n- **1 Devour Magic Ray.** The target must succeed\
       \ on a DC 14 Dexterity saving throw or have one of its magic items lose all\
       \ magical properties until the start of the gauth's next turn. If the object\
-      \ is a charged item, it also loses d4 charges. Determine the affected item\
-      \ randomly, ignoring single-use items such as potions and scrolls.  \n- 2\
-      \ Enervation Ray. The target must make a DC 14 Constitution saving throw,\
+      \ is a charged item, it also loses 1d4 charges. Determine the affected item\
+      \ randomly, ignoring single-use items such as potions and scrolls.  \n- **2\
+      \ Enervation Ray.** The target must make a DC 14 Constitution saving throw,\
       \ taking 18 (4d8) necrotic damage on a failed save, or half as much damage\
-      \ on a successful one.  \n- 3 Fire Ray. The target must succeed on a DC\
-      \ 14 Dexterity saving throw or take 22 (4d10) fire damage.  \n- 4 Paralyzing\
-      \ Ray. The target must succeed on a DC 14 Constitution saving throw or be\
+      \ on a successful one.  \n- **3 Fire Ray.** The target must succeed on a DC\
+      \ 14 Dexterity saving throw or take 22 (4d10) fire damage.  \n- **4 Paralyzing\
+      \ Ray.** The target must succeed on a DC 14 Constitution saving throw or be\
       \ [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed) for 1 minute.\
       \ The target can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success.  \n- 5 Pushing Ray. The target must\
+      \ the effect on itself on a success.  \n- **5 Pushing Ray.** The target must\
       \ succeed on a DC 14 Strength saving throw or be pushed up to 15 feet away from\
       \ the gauth and have its speed halved until the start of the gauth's next turn.\
-      \  \n- 6 Sleep Ray. The target must succeed on a DC 14 Wisdom saving throw\
+      \  \n- **6 Sleep Ray.** The target must succeed on a DC 14 Wisdom saving throw\
       \ or fall asleep and remain [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)\
       \ for 1 minute. The target awakens if it takes damage or another creature takes\
       \ an action to wake it. This ray has no effect on Constructs and Undead.  "

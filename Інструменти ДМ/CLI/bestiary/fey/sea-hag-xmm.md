@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -21,15 +22,13 @@ aliases:
 *Hag of Despair and the Dismal Deep*
 
 - **Habitat.** Coastal, Underwater  
-- **Treasure.** Arcana  
+- **Treasure.** [Arcana](Інструменти%20ДМ/CLI/tables/random-magic-items-arcana.md)  
 
 Sea hags loathe peace and beauty. Bitter, jealous creatures, they spread chaos and undermine joy however they can, undertaking elaborate deceptions to sow discord for its own sake. The hags' true forms are supernaturally vile, and their baleful gazes can strike down creatures [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) by their appearance.
 
 Sea hags cloak themselves in illusions to work their schemes. Roll on or choose a result from the Sea Hag Disguises table to inspire a sea hag's illusion and how they might use it to wreak chaos and destruction.
 
 **Sea Hag Disguises**
-
-`dice: [](sea-hag-xmm.md#^sea-hag-disguises)`
 
 | dice: 1d6 | The Sea Hag Takes the Form of A... |
 |-----------|------------------------------------|
@@ -58,7 +57,8 @@ Sea hags cloak themselves in illusions to work their schemes. Roll on or choose 
   - !!int "12"
   - !!int "13"
 "speed": "30 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 11"
 "languages": "Common, Giant, Primordial (Aquan)"
 "cr": "2"
 "traits":
@@ -75,18 +75,18 @@ Sea hags cloak themselves in illusions to work their schemes. Roll on or choose 
     "name": "Coven Magic"
   - "desc": "The hag can breathe air and water."
     "name": "Amphibious"
-  - "desc": "Wisdom Saving Throw: DC 11, any Beast or Humanoid that starts its turn\
-      \ within 30 feet of the hag and can see the hag's true form. Failure: The\
+  - "desc": "*Wisdom Saving Throw:* DC 11, any Beast or Humanoid that starts its turn\
+      \ within 30 feet of the hag and can see the hag's true form. *Failure:* The\
       \ target has the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ condition until the start of its next turn. Success: The target is immune\
+      \ condition until the start of its next turn. *Success:* The target is immune\
       \ to this hag's Vile Appearance for 24 hours."
     "name": "Vile Appearance"
 "actions":
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Wisdom Saving Throw: DC 11, one [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
-      \ creature the hag can see within 30 feet. Failure: If the target has 20 [Hit\
+  - "desc": "*Wisdom Saving Throw:* DC 11, one [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)\
+      \ creature the hag can see within 30 feet. *Failure:* If the target has 20 [Hit\
       \ Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) or fewer,\
       \ it drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md).\
       \ Otherwise, the target takes 13 (3d8) Psychic damage."

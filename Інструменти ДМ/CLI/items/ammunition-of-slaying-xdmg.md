@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/age/futuristic
@@ -25,8 +26,6 @@ aliases:
 This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra `6d10` Force damage on a failed save or half as much extra damage on a successful one.
 
 After dealing its extra damage to a creature, the ammunition becomes nonmagical.
-
-`dice: [](ammunition-of-slaying-xdmg.md#^1-creature-type)`
 
 | dice: 1d100 | Creature Type |
 |-------------|---------------|

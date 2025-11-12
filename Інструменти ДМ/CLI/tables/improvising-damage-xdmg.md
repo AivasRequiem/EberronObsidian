@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 aliases:
@@ -13,7 +14,7 @@ aliases:
 
 | Damage | Examples |
 |--------|----------|
-| `d10` | Burned by coals, hit by a falling bookcase, pricked by a poison needle |
+| `1d10` | Burned by coals, hit by a falling bookcase, pricked by a poison needle |
 | `2d10` | Struck by lightning, stumbling into a firepit |
 | `4d10` | Hit by falling rubble in a collapsing tunnel, tumbling into a vat of acid |
 | `10d10` | Crushed by compacting walls, hit by whirling steel blades, wading through lava |

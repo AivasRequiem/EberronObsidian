@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/class/ranger
 aliases:
@@ -10,8 +11,10 @@ aliases:
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") (\*)
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB")
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md "XPHB")
+- [Beast Bond](Інструменти%20ДМ/CLI/spells/beast-bond-xge.md "XGE") (\*)
 - [Cure Wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md "XPHB")
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB")
 - [Detect Poison and Disease](Інструменти%20ДМ/CLI/spells/detect-poison-and-disease-xphb.md "XPHB")
@@ -24,7 +27,9 @@ aliases:
 - [Jump](Інструменти%20ДМ/CLI/spells/jump-xphb.md "XPHB")
 - [Longstrider](Інструменти%20ДМ/CLI/spells/longstrider-xphb.md "XPHB")
 - [Searing Smite](Інструменти%20ДМ/CLI/spells/searing-smite-xphb.md "XPHB") (\*)
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") (\*)
 - [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md "XPHB")
+- [Zephyr Strike](Інструменти%20ДМ/CLI/spells/zephyr-strike-xge.md "XGE") (\*)
 
 ## 2nd Level
 
@@ -37,6 +42,7 @@ aliases:
 - [Enhance Ability](Інструменти%20ДМ/CLI/spells/enhance-ability-xphb.md "XPHB") (\*)
 - [Find Traps](Інструменти%20ДМ/CLI/spells/find-traps-xphb.md "XPHB")
 - [Gust of Wind](Інструменти%20ДМ/CLI/spells/gust-of-wind-xphb.md "XPHB") (\*)
+- [Healing Spirit](Інструменти%20ДМ/CLI/spells/healing-spirit-xge.md "XGE") (\*)
 - [Lesser Restoration](Інструменти%20ДМ/CLI/spells/lesser-restoration-xphb.md "XPHB")
 - [Locate Animals or Plants](Інструменти%20ДМ/CLI/spells/locate-animals-or-plants-xphb.md "XPHB")
 - [Locate Object](Інструменти%20ДМ/CLI/spells/locate-object-xphb.md "XPHB")
@@ -55,6 +61,7 @@ aliases:
 - [Daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md "XPHB")
 - [Dispel Magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md "XPHB")
 - [Elemental Weapon](Інструменти%20ДМ/CLI/spells/elemental-weapon-xphb.md "XPHB") (\*)
+- [Flame Arrows](Інструменти%20ДМ/CLI/spells/flame-arrows-xge.md "XGE") (\*)
 - [Lightning Arrow](Інструменти%20ДМ/CLI/spells/lightning-arrow-xphb.md "XPHB")
 - [Meld into Stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md "XPHB") (\*)
 - [Nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md "XPHB")
@@ -73,6 +80,7 @@ aliases:
 - [Dominate Beast](Інструменти%20ДМ/CLI/spells/dominate-beast-xphb.md "XPHB") (\*)
 - [Freedom of Movement](Інструменти%20ДМ/CLI/spells/freedom-of-movement-xphb.md "XPHB")
 - [Grasping Vine](Інструменти%20ДМ/CLI/spells/grasping-vine-xphb.md "XPHB")
+- [Guardian of Nature](Інструменти%20ДМ/CLI/spells/guardian-of-nature-xge.md "XGE") (\*)
 - [Locate Creature](Інструменти%20ДМ/CLI/spells/locate-creature-xphb.md "XPHB")
 - [Stoneskin](Інструменти%20ДМ/CLI/spells/stoneskin-xphb.md "XPHB")
 - [Summon Elemental](Інструменти%20ДМ/CLI/spells/summon-elemental-xphb.md "XPHB") (\*)
@@ -82,6 +90,7 @@ aliases:
 - [Commune with Nature](Інструменти%20ДМ/CLI/spells/commune-with-nature-xphb.md "XPHB")
 - [Conjure Volley](Інструменти%20ДМ/CLI/spells/conjure-volley-xphb.md "XPHB")
 - [Greater Restoration](Інструменти%20ДМ/CLI/spells/greater-restoration-xphb.md "XPHB") (\*)
-- [Steel Wind Strike](Інструменти%20ДМ/CLI/spells/steel-wind-strike-xphb.md "XPHB")
+- [Steel Wind Strike](Інструменти%20ДМ/CLI/spells/steel-wind-strike-xphb.md "XPHB") (\*)
 - [Swift Quiver](Інструменти%20ДМ/CLI/spells/swift-quiver-xphb.md "XPHB")
 - [Tree Stride](Інструменти%20ДМ/CLI/spells/tree-stride-xphb.md "XPHB")
+- [Wrath of Nature](Інструменти%20ДМ/CLI/spells/wrath-of-nature-xge.md "XGE") (\*)

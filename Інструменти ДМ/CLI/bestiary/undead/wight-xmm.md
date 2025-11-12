@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -25,7 +26,7 @@ aliases:
 *Life-Leeching Corpse Warrior*
 
 - **Habitat.** Desert, Planar (Shadowfell), Swamp, Underdark, Urban  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Wights are the withered corpses of relentless warriors whose wickedness sustains them beyond death. Unlike mere zombies, they retain the memories and evil agendas they harbored in life.
 
@@ -34,8 +35,6 @@ After dying and returning from the grave, a wight continues its villainous ways,
 Wights might return from the dead for a multitude of sinister reasons. Roll on or choose a result from the Wight Motives table to inspire why a wight plagues the living.
 
 **Wight Motives**
-
-`dice: [](wight-xmm.md#^wight-motives)`
 
 | dice: 1d8 | The Wight Returned from the Dead To... |
 |-----------|----------------------------------------|
@@ -75,7 +74,8 @@ Wights might return from the dead for a multitude of sinister reasons. Roll on o
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common plus one other language"
 "cr": "3"
 "traits":
@@ -86,13 +86,13 @@ Wights might return from the dead for a multitude of sinister reasons. Roll on o
   - "desc": "The wight makes two attacks, using Necrotic Sword or Necrotic Bow in\
       \ any combination. It can replace one attack with a use of Life Drain."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing\
-      \ damage plus 4 (d8) Necrotic damage."
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing\
+      \ damage plus 4 (1d8) Necrotic damage."
     "name": "Necrotic Sword"
-  - "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing\
-      \ damage plus 4 (d8) Necrotic damage."
+  - "desc": "*Ranged Attack Roll:* +4, range 150/600 ft. *Hit:* 6 (1d8 + 2) Piercing\
+      \ damage plus 4 (1d8) Necrotic damage."
     "name": "Necrotic Bow"
-  - "desc": "Constitution Saving Throw: DC 13, one creature within 5 feet. Failure:\
+  - "desc": "*Constitution Saving Throw:* DC 13, one creature within 5 feet. *Failure:*\
       \ 6 (1d8 + 2) Necrotic damage, and the target's [Hit Point](Інструменти%20Д\
       М/CLI/rules/variant-rules/hit-points-xphb.md) maximum decreases by an amount\
       \ equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/hobgoblin
@@ -36,7 +37,7 @@ You can use this trait to take the [Help](Інструменти%20ДМ/CLI/rule
 
 Starting at 3rd level, choose one of the options below each time you take the [Help](Інструменти%20ДМ/CLI/rules/actions.md#Help) action with this trait:
 
-- **Hospitality.** You and the creature you help each gain a number of temporary hit points equal to `d6` plus your proficiency bonus.  
+- **Hospitality.** You and the creature you help each gain a number of temporary hit points equal to `1d6` plus your proficiency bonus.  
 - **Passage.** You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.  
 - **Spite.** Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.  
 

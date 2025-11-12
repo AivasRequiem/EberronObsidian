@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -28,7 +29,7 @@ Goblin bosses are often the most imaginative, disruptive, or forceful goblins. T
 *Wild Tricksters and Troublemakers*
 
 - **Habitat.** Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Goblins are Feywild embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better. Goblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.
 
@@ -62,18 +63,19 @@ The deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, 
 "skillsaves":
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Common, Goblin"
 "cr": "1"
 "actions":
   - "desc": "The goblin makes two attacks, using Scimitar or Shortbow in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing\
-      \ damage, plus 2 (d4) Slashing damage if the attack roll had [Advantage](І\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing\
+      \ damage, plus 2 (1d4) Slashing damage if the attack roll had [Advantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Scimitar"
-  - "desc": "Ranged Attack Roll: +4, range 80/320 ft. Hit: 5 (1d6 + 2) Piercing\
-      \ damage, plus 2 (d4) Piercing damage if the attack roll had [Advantage](І\
+  - "desc": "*Ranged Attack Roll:* +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing\
+      \ damage, plus 2 (1d4) Piercing damage if the attack roll had [Advantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/advantage-xphb.md)."
     "name": "Shortbow"
 "bonus_actions":

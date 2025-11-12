@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/fighter/battle-master
@@ -91,7 +92,7 @@ Your Superiority Die becomes a `d10`.
 
 ### Relentless (Level 15)
 
-Once per turn, when you use a maneuver, you can roll `d8` and use the number rolled instead of expending a Superiority Die.
+Once per turn, when you use a maneuver, you can roll `1d8` and use the number rolled instead of expending a Superiority Die.
 
 ### Ultimate Combat Superiority (Level 18)
 

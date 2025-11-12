@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -50,7 +51,8 @@ While some folk hunt cave fishers to kill them to harvest their filaments, shell
     "desc": "+2"
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "blindsight 60 ft., passive Perception 12"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., passive\
+  \ Perception 12"
 "languages": ""
 "cr": "3"
 "traits":
@@ -63,7 +65,7 @@ While some folk hunt cave fishers to kill them to harvest their filaments, shell
 "actions":
   - "desc": "The cave fisher makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "One Large or smaller creature [grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled)\

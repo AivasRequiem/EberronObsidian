@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/22
@@ -57,34 +58,35 @@ Jarad doesn't require air, food, drink, or sleep.
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](Інструменти%20Д\
   М/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 20"
 "languages": "Common, Elvish, Kraul"
 "cr": "22"
 "traits":
   - "desc": "Jarad is a 14th-level Golgari spellcaster. His spellcasting ability is\
       \ Intelligence (spell save DC 20, +12 to hit with spell attacks). Jarad has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](І\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](І\
       нструменти%20ДМ/CLI/spells/acid-splash-xphb.md), [chill touch](Інструменти%20Д\
       М/CLI/spells/chill-touch-xphb.md), [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md),\
       \ [poison spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n1st level (4 slots):\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**1st level (4 slots):**\
       \ [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [ray of sickness](І\
       нструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md), [sleep](Інструменти%20Д\
-      М/CLI/spells/sleep-xphb.md)\n\n2nd level (3 slots): [Melf's acid arrow](І\
+      М/CLI/spells/sleep-xphb.md)\n\n**2nd level (3 slots):** [Melf's acid arrow](І\
       нструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md), [ray of enfeeblement](І\
       нструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md), [spider climb](Інст\
       рументи%20ДМ/CLI/spells/spider-climb-xphb.md), [web](Інструменти%20ДМ/CLI/spells/web-xphb.md)\n\
-      \n3rd level (3 slots): [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \n**3rd level (3 slots):** [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [plant growth](Інструменти%20ДМ/CLI/spells/plant-growth-xphb.md), [vampiric\
-      \ touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md)\n\n4th level\
-      \ (3 slots): [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [giant\
+      \ touch](Інструменти%20ДМ/CLI/spells/vampiric-touch-xphb.md)\n\n**4th level\
+      \ (3 slots):** [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [giant\
       \ insect](Інструменти%20ДМ/CLI/spells/giant-insect-xphb.md), [grasping vine](І\
-      нструменти%20ДМ/CLI/spells/grasping-vine-xphb.md)\n\n5th level (2 slots):\
+      нструменти%20ДМ/CLI/spells/grasping-vine-xphb.md)\n\n**5th level (2 slots):**\
       \ [cloudkill](Інструменти%20ДМ/CLI/spells/cloudkill-xphb.md), [insect plague](І\
-      нструменти%20ДМ/CLI/spells/insect-plague-xphb.md)\n\n6th level (1 slots):\
+      нструменти%20ДМ/CLI/spells/insect-plague-xphb.md)\n\n**6th level (1 slots):**\
       \ [circle of death](Інструменти%20ДМ/CLI/spells/circle-of-death-xphb.md), [create\
-      \ undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n7th level\
-      \ (1 slots): [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md),\
+      \ undead](Інструменти%20ДМ/CLI/spells/create-undead-xphb.md)\n\n**7th level\
+      \ (1 slots):** [finger of death](Інструменти%20ДМ/CLI/spells/finger-of-death-xphb.md),\
       \ [forcecage](Інструменти%20ДМ/CLI/spells/forcecage-xphb.md)"
     "name": "Spellcasting"
   - "desc": "If Jarad fails a saving throw, he can choose to succeed instead."
@@ -111,16 +113,19 @@ Jarad doesn't require air, food, drink, or sleep.
       \ Staff of Svogthir. He can cast a spell with a casting time of 1 action in\
       \ place of one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution\
       \ saving throw or be [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Noxious Touch"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 13 (3d8) poison damage and 13 (3d8)\
       \ necrotic damage."
     "name": "Staff of Svogthir"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Jarad can expend a use to take one of the following actions. Jarad regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Jarad casts one of his cantrips."
     "name": "Cantrip"

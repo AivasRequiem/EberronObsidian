@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/eladrin
@@ -60,8 +61,6 @@ Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic
 Like other elves, eladrin can live to be over 750 years old.
 
 **Eladrin Seasons**
-
-`dice: [](eladrin-mpmm.md#^eladrin-seasons)`
 
 | dice: d4 | Season |
 |----------|--------|

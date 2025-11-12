@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -23,7 +24,7 @@ Kuo-toa monitors control the day-to-day life of weaker kuo-toa, directing their 
 *Fishlike Fanatics of the Deep*
 
 - **Habitat.** Coastal, Underdark  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Kuo-toa have slimy, humanoid bodies and the heads of goggle-eyed deep-sea fish. They claim they once dominated whole worlds, their empires spanning land and sea under the blessings of piscine gods. The kuo-toa can't say what disaster brought their glorious civilization to an end, but elves, humans, mind flayers, and the kuo-toan gods bear the brunt of their blame. From the lands and seas of the surface, the kuo-toa retreated into cavernous trenches and Underdark seas. In these hidden realms, kuo-toa brood over all they've lost and forgotten, nursing plots to avenge themselves for slights that might never have occurred.
 
@@ -38,8 +39,6 @@ Kuo-toa ever seek to placate their inscrutable deities. However, few kuo-toa can
 Lacking information about what their other gods look like, kuo-toa priests invent new forms for them, creating divine idols with whatever objects are at hand. But whether these kuo-toa priests draw power from belief or delusion, aberrant talent, or a stranger supernatural source, some power answers their petitions. Roll twice on or choose results from the Kuo-toa Deity Features table to inspire how kuo-toa represent a deity.
 
 **Kuo-toa Deity Features**
-
-`dice: [](kuo-toa-monitor-xmm.md#^kuo-toa-deity-features)`
 
 | dice: 1d10 | The Deity's Head Is Like A... | The Deity's Body Is Like A... |
 |------------|-------------------------------|-------------------------------|
@@ -60,8 +59,6 @@ Lacking information about what their other gods look like, kuo-toa priests inven
 Kuo-toa typically organize their communities around sites they believe to be important to their deities. These might be structures or series of caverns, and most feature both air-filled and submerged chambers. Important places within these sites suggest the rituals of kuo-toa faiths, the demands of kuo-toa deities, or the whims of omen-seeking archpriests. As with kuo-toa deities, the features of these locations vary between communities. Roll on or choose a result from the Kuo-toa Ritual Sites table to inspire features and suggest adventures within a kuo-toa community.
 
 **Kuo-toa Ritual Sites**
-
-`dice: [](kuo-toa-monitor-xmm.md#^kuo-toa-ritual-sites)`
 
 | dice: 1d8 | The Kuo-toa Community Features... |
 |-----------|-----------------------------------|
@@ -102,7 +99,9 @@ Kuo-toa typically organize their communities around sites they believe to be imp
     "desc": "+6"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+3"
-"senses": "darkvision 120 ft., truesight 30 ft., passive Perception 16"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ [Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 30 ft., passive Perception\
+  \ 16"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
@@ -114,7 +113,7 @@ Kuo-toa typically organize their communities around sites they believe to be imp
 "actions":
   - "desc": "The kuo-toa makes two Bone Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 6 (1d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 10 ft. *Hit:* 6 (1d6 + 3) Slashing\
       \ damage plus 7 (2d6) Lightning damage, and the target can't make [Opportunity\
       \ Attacks](Інструменти%20ДМ/CLI/rules/actions.md#Opportunity%20Attack) until\
       \ the start of the kuo-toa's next turn."

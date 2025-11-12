@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -35,13 +36,13 @@ aliases:
       \ same number of Hit Points if you're within 5 feet of it."
     "name": "Life Bond"
 "actions":
-  - "desc": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5\
-      \ ft. Hit: d8 + the spell's level of Radiant (Celestial), Psychic (Fey),\
+  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+      \ ft. *Hit:* 1d8 + the spell's level of Radiant (Celestial), Psychic (Fey),\
       \ or Necrotic (Fiend) damage."
     "name": "Otherworldly Slam"
 "bonus_actions":
-  - "desc": "Wisdom Saving Throw: DC equals your spell save DC, one creature within\
-      \ 60 feet the steed can see. Failure: The target has the [Frightened](Інст\
+  - "desc": "*Wisdom Saving Throw:* DC equals your spell save DC, one creature within\
+      \ 60 feet the steed can see. *Failure:* The target has the [Frightened](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Frightened) condition until the end of\
       \ your next turn."
     "name": "Fell Glare (Fiend Only; Recharges after a Long Rest)"

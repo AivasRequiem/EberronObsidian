@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/5
@@ -22,7 +23,7 @@ aliases:
 *Changed by the Might of the Bear*
 
 - **Habitat.** Arctic, Forest, Hill  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 When threatened or compelled by magic, werebears shape-shift from their humanoid forms into mighty bears or hybrids of those two forms. They scare off or sabotage those who threaten the wilds, and they frequently aid Fey, druids, or spirits of the wilderness, as many owe their magical nature to such forces. Werebears take the shape of bears common to the regions in which they dwell, with brown and polar bear forms being common.
 
@@ -47,25 +48,26 @@ When threatened or compelled by magic, werebears shape-shift from their humanoid
 "skillsaves":
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 17"
 "languages": "Common (can't speak in bear form)"
 "cr": "5"
 "actions":
   - "desc": "The werebear makes two attacks, using Handaxe or Rend in any combination.\
       \ It can replace one attack with a Bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 17 (2d12 + 4) Piercing\
       \ damage. If the target is a Humanoid, it is subjected to the following effect.\
-      \ Constitution Saving Throw: DC 14. Failure: The target is cursed. If the\
+      \ *Constitution Saving Throw:* DC 14. *Failure:* The target is cursed. If the\
       \ cursed target drops to 0 [Hit Points](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md),\
       \ it instead becomes a Werebear under the DM's control and has 10 [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). Success: The\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md). *Success:* The\
       \ target is immune to this werebear's curse for 24 hours."
     "name": "Bite (Bear or Hybrid Form Only)"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft or range 20/60 ft. *Hit:*\
       \ 14 (3d6 + 4) Slashing damage."
     "name": "Handaxe (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing\
       \ damage."
     "name": "Rend (Bear or Hybrid Form Only)"
 "bonus_actions":

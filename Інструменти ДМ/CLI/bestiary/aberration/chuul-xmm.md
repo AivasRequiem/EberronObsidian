@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -22,7 +23,7 @@ aliases:
 *Chitinous Servant of Primeval Powers*
 
 - **Habitat.** Coastal, Swamp, Underdark  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Chuuls originated in forgotten ages when aboleths and stranger beings ruled alien empires beneath the waves. The aboleths transformed numerous deep-sea predators into servants that could venture beyond the seas to claim more magic and creatures to exploit. Chuuls are the most enduring of these bizarre servants.
 
@@ -52,7 +53,8 @@ Chuuls don't age and can lie dormant in hidden places for millennia before threa
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": "understands Deep Speech but can't speak"
 "cr": "4"
 "traits":
@@ -65,13 +67,13 @@ Chuuls don't age and can lie dormant in hidden places for millennia before threa
 "actions":
   - "desc": "The chuul makes two Pincer attacks and uses Paralyzing Tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 9 (1d10 + 4) Bludgeoning\
       \ damage. If the target is a Large or smaller creature, it has the [Grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition (escape DC 14) from\
       \ one of two pincers."
     "name": "Pincer"
-  - "desc": "Constitution Saving Throw: DC 13, one creature [Grappled](Інструмен\
-      ти%20ДМ/CLI/rules/conditions.md#Grappled) by the chuul. Failure: The target\
+  - "desc": "*Constitution Saving Throw:* DC 13, one creature [Grappled](Інструмен\
+      ти%20ДМ/CLI/rules/conditions.md#Grappled) by the chuul. *Failure:* The target\
       \ has the [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition\
       \ and repeats the save at the end of each of its turns, ending the effect on\
       \ itself on a success. After 1 minute, it succeeds automatically. While [Poisoned](І\

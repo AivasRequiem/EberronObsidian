@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Sapphire Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the dragon can take one of the 
 - **Beguiling Whisper.** The dragon telepathically whispers to one creature within range of the dragon's telepathy. The creature must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best of its ability any command the dragon issues that isn't directly harmful to the creature.  
 - **Stone Passage.** The dragon touches a section of stone up to 30 feet in any dimension. The dragon can shape the stone to open or close a passage through a wall, as long as the wall is less than 10 feet thick.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 The region surrounding a legendary sapphire dragon's lair is altered by the dragon's magic, creating one or more of the following effects:
@@ -28,4 +29,4 @@ The region surrounding a legendary sapphire dragon's lair is altered by the drag
 - **Telepathic Enhancement.** The dragon's psionic energy enhances the mental powers of other creatures. Any creature capable of telepathic communication has its telepathy range doubled while within 1 mile of the lair. This includes creatures with innate telepathy and magical telepathy such as the [Rary's telepathic bond](Інструменти%20ДМ/CLI/spells/rarys-telepathic-bond-xphb.md) spell.  
 - **Thriving Wildlife.** [Giant spiders](Інструменти%20ДМ/CLI/bestiary/beast/giant-spider-xmm.md) (a sapphire dragon's favorite prey) are attracted to the area within 6 miles of the lair and settle there in large numbers.  
 
-If the dragon dies, the population of giant spiders in the region returns to normal levels over the course of `d10` days. The enhancement of telepathic abilities ends immediately. The existing abundance of crystals and sapphires remains, but new ones form at a normal rate.
+If the dragon dies, the population of giant spiders in the region returns to normal levels over the course of `1d10` days. The enhancement of telepathic abilities ends immediately. The existing abundance of crystals and sapphires remains, but new ones form at a normal rate.

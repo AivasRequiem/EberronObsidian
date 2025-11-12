@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -22,15 +23,13 @@ Warrior veterans have participated in numerous battles and can hold their own ag
 *Soldiers and Scrappers*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md)  
 
 Warriors are professionals who make a living through their prowess in battle. They might be skilled in using a variety of tactics or trained to take advantage of unusual battlefields. Warriors often work together, whether in armies or in teams with deliberate goals.
 
 Roll on or choose a result from the Warrior Roles table to inspire the creation of different sorts of warriors.
 
 **Warrior Roles**
-
-`dice: [](warrior-veteran-xmm.md#^warrior-roles)`
 
 | dice: 1d10 | The Warrior Is... |
 |------------|-------------------|
@@ -79,10 +78,10 @@ Roll on or choose a result from the Warrior Roles table to inspire the creation 
 "actions":
   - "desc": "The warrior makes two Greatsword or Heavy Crossbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing\
+  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 10 (2d6 + 3) Slashing\
       \ damage."
     "name": "Greatsword"
-  - "desc": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1)\
+  - "desc": "*Ranged Attack Roll:* +3, range 100/400 ft. *Hit:* 12 (2d10 + 1)\
       \ Piercing damage."
     "name": "Heavy Crossbow"
 "reactions":

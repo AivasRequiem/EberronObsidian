@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -59,7 +60,9 @@ Orthons value the challenge of the chase and the thrill of one-on-one combat abo
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [poisoned](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., truesight 30 ft., passive Perception 20"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ [truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 30 ft., passive Perception\
+  \ 20"
 "languages": "Common, Infernal, telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -67,7 +70,7 @@ Orthons value the challenge of the chase and the thrill of one-on-one combat abo
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 11 (2d4 + 6) force damage, and the target must make a DC 17 Constitution\
       \ saving throw, taking 22 (4d10) poison damage on a failed save, or half as\
       \ much damage on a successful one. On a failure, the target is [poisoned](Ін\
@@ -75,27 +78,27 @@ Orthons value the challenge of the chase and the thrill of one-on-one combat abo
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) target can repeat the saving\
       \ throw at the end of each of its turns, ending the effect on itself on a success."
     "name": "Infernal Dagger"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 100/400 ft., one target. *Hit:*\
       \ 14 (2d10 + 3) force damage. The target also suffers one of the following\
       \ effects of the orthon's choice; the orthon can't use the same effect two rounds\
-      \ in a row:\n\n- Acid. The target must make a DC 17 Constitution saving\
+      \ in a row:\n\n- **Acid.** The target must make a DC 17 Constitution saving\
       \ throw, taking an additional 17 (5d6) acid damage on a failed save, or half\
-      \ as much damage on a successful one.  \n- Blindness. The target takes 5\
-      \ (d10) radiant damage. In addition, the target and all other creatures within\
+      \ as much damage on a successful one.  \n- **Blindness.** The target takes 5\
+      \ (1d10) radiant damage. In addition, the target and all other creatures within\
       \ 20 feet of it must each make a successful DC 17 Dexterity saving throw or\
       \ be [blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded) until the end\
-      \ of the orthon's next turn.  \n- Concussion. The target and each creature\
+      \ of the orthon's next turn.  \n- **Concussion.** The target and each creature\
       \ within 20 feet of it must make a DC 17 Constitution saving throw, taking 13\
       \ (2d12) thunder damage on a failed save, or half as much damage on a successful\
-      \ one.  \n- Entanglement. The target must make a successful DC 17 Dexterity\
+      \ one.  \n- **Entanglement.** The target must make a successful DC 17 Dexterity\
       \ saving throw or be [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)\
       \ for 1 hour by strands of sticky webbing. The target can escape by taking an\
-      \ action to make a DC 17 Strength or Dexterity check and succeeding.  \n- Paralysis.\
+      \ action to make a DC 17 Strength or Dexterity check and succeeding.  \n- **Paralysis.**\
       \ The target takes 22 (4d10) lightning damage and must make a successful DC\
       \ 17 Constitution saving throw or be [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The [paralyzed](Інструменти%20ДМ/CLI/rules/conditions.md#Paralyzed)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success.  \n- Tracking. For the next 24 hours,\
+      \ the effect on itself on a success.  \n- **Tracking.** For the next 24 hours,\
       \ the orthon knows the direction and distance to the target, as long as it's\
       \ on the same plane of existence. If the target is on a different plane, the\
       \ orthon knows which one, but not the exact location there.  "

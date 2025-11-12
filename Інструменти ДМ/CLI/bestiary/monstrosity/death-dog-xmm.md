@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -31,8 +32,6 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
 > And his sorrows will stalk your land like hungry dogs until the seas turn to sand and the sun burns to cinders.
 
 **Death Dog Malady Symptoms**
-
-`dice: [](death-dog-xmm.md#^death-dog-malady-symptoms)`
 
 | dice: 1d6 | The Death Dog's Malady Causes... |
 |-----------|----------------------------------|
@@ -71,15 +70,16 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
   менти%20ДМ/CLI/rules/conditions.md#Deafened), [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned), [unconscious](Інс\
   трументи%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 15"
 "languages": ""
 "cr": "1"
 "actions":
   - "desc": "The death dog makes two Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Piercing\
       \ damage. If the target is a creature, it is subjected to the following effect.\
-      \ Constitution Saving Throw: DC 12. 1st Failure: The target has the [Poisoned](І\
+      \ *Constitution Saving Throw:* DC 12. *1St Failure:* The target has the [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned) condition. While [Poisoned](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Poisoned), the target's [Hit Point](І\
       нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) maximum doesn't\
@@ -87,7 +87,7 @@ Legends tie death dogs to malicious death gods, the underworld, and cursed ruler
       \ and it repeats the save every 24 hours that elapse, ending the effect on itself\
       \ on a success. Subsequent Failures: The [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)\
       \ target's [Hit Point](Інструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md)\
-      \ maximum decreases by 5 (d10)."
+      \ maximum decreases by 5 (1d10)."
     "name": "Bite"
 "source":
   - "XMM"

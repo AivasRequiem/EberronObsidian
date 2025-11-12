@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/battle-smith
@@ -106,4 +107,4 @@ At 15th level, your Arcane Jolt and steel defender become more powerful:
 
 - The extra damage and the healing of your Arcane Jolt both increase to `4d6`.  
 - Your steel defender gains a +2 bonus to Armor Class.  
-- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `d4` + your Intelligence modifier.
+- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `1d4` + your Intelligence modifier.

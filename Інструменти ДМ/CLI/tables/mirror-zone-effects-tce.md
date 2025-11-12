@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
@@ -11,17 +12,15 @@ aliases:
 
 **Mirror Zone Effects**
 
-`dice: [](mirror-zone-effects-tce.md#^mirror-zone-effects)`
-
 | dice: d100 | Effect |
 |------------|--------|
 | 01–06 | Creatures in the region begin to display features other than their own for the next 24 hours. During that time, affected creatures have advantage on Charisma ([Deception](Інструменти%20ДМ/CLI/rules/skills.md#Deception)) checks and ability checks made to disguise themselves. |
 | 07–12 | The [hallucinatory terrain](Інструменти%20ДМ/CLI/spells/hallucinatory-terrain-xphb.md) spell (save DC 15) affects the natural terrain of the region, changing it into a different kind of terrain (DM's choice). |
 | 13–18 | One random creature in the region gains the benefits of the [blink](Інструменти%20ДМ/CLI/spells/blink-xphb.md) spell for 1 minute, shimmering with overlapping shattered reflections. |
 | 19–24 | Creatures in the region don't cast reflections. Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) checks made against those creatures have disadvantage, and the creatures have disadvantage on Charisma ([Persuasion](Інструменти%20ДМ/CLI/rules/skills.md#Persuasion)) checks made against anyone who notices their lack of [reflection](Інструменти%20ДМ/CLI/bestiary/fey/reflection-tce.md). When they leave the region, creatures regain their reflections, and the effect ends. |
-| 25–34 | Reflections of `d4` creatures in the region emerge from mirrors and attack. The [reflections](Інструменти%20ДМ/CLI/bestiary/fey/reflection-tce.md) are two-dimensional, shimmering versions of the creatures that cast them. Treat the reflections as [shadows](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md) that are fey instead of undead and vulnerable to bludgeoning damage instead of radiant. |
+| 25–34 | Reflections of `1d4` creatures in the region emerge from mirrors and attack. The [reflections](Інструменти%20ДМ/CLI/bestiary/fey/reflection-tce.md) are two-dimensional, shimmering versions of the creatures that cast them. Treat the reflections as [shadows](Інструменти%20ДМ/CLI/bestiary/undead/shadow-xmm.md) that are fey instead of undead and vulnerable to bludgeoning damage instead of radiant. |
 | 35–40 | One character in the region gains the benefit of the [mirror image](Інструменти%20ДМ/CLI/spells/mirror-image-xphb.md) spell. The images created sometimes move or speak of their own volition. |
-| 41–46 | For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing `d4` hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by `d4`. Any creature can take an action to stanch the wound with a successful DC 10 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. The bleeding also stops if the target receives magical healing. |
+| 41–46 | For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing `1d4` hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by `1d4`. Any creature can take an action to stanch the wound with a successful DC 10 Wisdom ([Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)) check. The bleeding also stops if the target receives magical healing. |
 | 47–52 | Mirrors and other highly reflective surfaces allow magical transport while in the region. Any creature that touches its [reflection](Інструменти%20ДМ/CLI/bestiary/fey/reflection-tce.md) in an object that it isn't wearing or carrying can immediately cast the [misty step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md) spell, requiring no components. |
 | 53–58 | One character can cast the [scrying](Інструменти%20ДМ/CLI/spells/scrying-xphb.md) spell (save DC 17) once within the next 24 hours, requiring no components but using a mirror or other reflective surface. |
 | 59–64 | The skin of one random creature in the region becomes silvery and reflective for the next 24 hours. For the duration, that creature has advantage on saving throws against spells, and spell attacks have disadvantage against that creature. |

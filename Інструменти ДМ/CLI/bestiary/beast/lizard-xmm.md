@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/0
@@ -40,7 +41,8 @@ Use these stat blocks to represent the creatures they're named for or other simi
   - !!int "8"
   - !!int "3"
 "speed": "20 ft., climb 20 ft."
-"senses": "darkvision 30 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 30 ft., passive\
+  \ Perception 9"
 "languages": ""
 "cr": "0"
 "traits":
@@ -48,7 +50,7 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  - "desc": "*Melee Attack Roll:* +2, reach 5 ft. *Hit:* 1 Piercing damage."
     "name": "Bite"
 "source":
   - "XMM"

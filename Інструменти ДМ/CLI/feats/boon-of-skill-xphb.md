@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/feat
@@ -18,4 +19,4 @@ You gain the following benefits.
 
 **All-Around Adept.** You gain proficiency in all skills.
 
-**Expertise.** Choose one skill in which you lack Expertise. You gain Expertise in that skill.
+**Expertise.** Choose one skill in which you lack [Expertise](Інструменти%20ДМ/CLI/rules/variant-rules/expertise-xphb.md). You gain [Expertise](Інструменти%20ДМ/CLI/rules/variant-rules/expertise-xphb.md) in that skill.

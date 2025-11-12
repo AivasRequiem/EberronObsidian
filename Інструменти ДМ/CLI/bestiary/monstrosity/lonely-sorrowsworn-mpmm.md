@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -44,7 +45,8 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - !!int "6"
 "speed": "30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common"
 "cr": "9"
 "traits":
@@ -58,7 +60,7 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
 "actions":
   - "desc": "The sorrowsworn makes one Harpoon Arm attack, and it uses Sorrowful Embrace."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 60 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 60 ft., one target. *Hit:*\
       \ 21 (4d8 + 3) piercing damage, and the target is [grappled](Інструменти%20Д\
       М/CLI/rules/conditions.md#Grappled) (escape DC 15) if it is a Large or smaller\
       \ creature. The sorrowsworn has two harpoon arms and can grapple up to two creatures\

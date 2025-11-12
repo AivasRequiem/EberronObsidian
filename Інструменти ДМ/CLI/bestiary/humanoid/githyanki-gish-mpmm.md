@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -61,21 +62,21 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - "desc": "The githyanki makes three Longsword or Telekinetic Bolt attacks, or it\
       \ makes one of those attacks and uses Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands, plus 22 (5d8) psychic damage."
     "name": "Longsword"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 28 (8d6) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](І\
+      **At will:** [light](Інструменти%20ДМ/CLI/spells/light-xphb.md), [mage hand](І\
       нструменти%20ДМ/CLI/spells/mage-hand-xphb.md) (the hand is invisible), [message](І\
-      нструменти%20ДМ/CLI/spells/message-xphb.md)\n\n3/day each: [fireball](Ін\
+      нструменти%20ДМ/CLI/spells/message-xphb.md)\n\n**3/day each:** [fireball](Ін\
       струменти%20ДМ/CLI/spells/fireball-xphb.md), [invisibility](Інструменти%20ДМ\
       /CLI/spells/invisibility-xphb.md), [nondetection](Інструменти%20ДМ/CLI/spells/nondetection-xphb.md)\
-      \ (self only)\n\n1/day each: [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
+      \ (self only)\n\n**1/day each:** [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md),\
       \ [plane shift](Інструменти%20ДМ/CLI/spells/plane-shift-xphb.md), [telekinesis](І\
       нструменти%20ДМ/CLI/spells/telekinesis-xphb.md)"
     "name": "Spellcasting (Psionics)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/ggr
@@ -25,8 +26,6 @@ You're also a member of a cult devoted to an ancient demon who delights in viole
 Rakdos performance styles typically fuse standard circus-style acrobatics with fire, wrought-iron spikes and hooks, and monsters. You can roll a `d8` or choose from the options in the Performance Options table to determine your preferred style of performance.
 
 **Performance Options**
-
-`dice: [](rakdos-cultist-ggr.md#^performance-options)`
 
 | dice: d8 | Type of Performer |
 |----------|-------------------|
@@ -70,8 +69,6 @@ Members of demonic cults aren't generally known as the kindest or most mentally 
 
 **Personality Traits**
 
-`dice: [](rakdos-cultist-ggr.md#^personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I revel in mayhem, the more destructive the better. |
@@ -86,8 +83,6 @@ Members of demonic cults aren't generally known as the kindest or most mentally 
 
 **Ideals**
 
-`dice: [](rakdos-cultist-ggr.md#^ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | **Guild**. My guild is all that really matters. (Any) |
@@ -100,8 +95,6 @@ Members of demonic cults aren't generally known as the kindest or most mentally 
 
 **Bonds**
 
-`dice: [](rakdos-cultist-ggr.md#^bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I have belonged to the same performance troupe for years, and these people mean everything to me. |
@@ -113,8 +106,6 @@ Members of demonic cults aren't generally known as the kindest or most mentally 
 ^bonds
 
 **Flaws**
-
-`dice: [](rakdos-cultist-ggr.md#^flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|
@@ -134,8 +125,6 @@ Roll twice on the Rakdos Contacts table (for an ally and a rival) and once on th
 
 **Rakdos Contacts**
 
-`dice: [](rakdos-cultist-ggr.md#^rakdos-contacts)`
-
 | dice: d8 | Contact |
 |----------|---------|
 | 1 | I was part of a two-person act until my former partner moved to a different troupe. |
@@ -149,8 +138,6 @@ Roll twice on the Rakdos Contacts table (for an ally and a rival) and once on th
 ^rakdos-contacts
 
 **Non-Rakdos Contacts**
-
-`dice: [](rakdos-cultist-ggr.md#^non-rakdos-contacts)`
 
 | dice: d10 | Contact |
 |-----------|---------|

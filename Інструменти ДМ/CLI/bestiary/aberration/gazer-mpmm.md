@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -47,7 +48,8 @@ A wild gazer (one living separately from a beholder) is territorial, eats bugs a
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "condition_immunities": "[prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 14"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -56,20 +58,20 @@ A wild gazer (one living separately from a beholder) is territorial, eats bugs a
       \ DC 10 Wisdom ([Insight](Інструменти%20ДМ/CLI/rules/skills.md#Insight)) check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
   - "desc": "The gazer shoots two of the following magical eye rays at random (roll\
       \ two d4s, and reroll duplicates), choosing one or two targets it can see\
-      \ within 60 feet of it:\n\n- 1 Dazing Ray. The targeted creature must succeed\
+      \ within 60 feet of it:\n\n- **1 Dazing Ray.** The targeted creature must succeed\
       \ on a DC 12 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
       \ until the start of the gazer's next turn. While the target is [charmed](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way, its speed is halved,\
-      \ and it has disadvantage on attack rolls.  \n- 2 Fear Ray. The targeted\
+      \ and it has disadvantage on attack rolls.  \n- **2 Fear Ray.** The targeted\
       \ creature must succeed on a DC 12 Wisdom saving throw or be [frightened](Ін\
       струменти%20ДМ/CLI/rules/conditions.md#Frightened) until the start of the gazer's\
-      \ next turn.  \n- 3 Frost Ray. The target must succeed on a DC 12 Dexterity\
-      \ saving throw or take 10 (3d6) cold damage.  \n- 4 Telekinetic Ray. If\
+      \ next turn.  \n- **3 Frost Ray.** The target must succeed on a DC 12 Dexterity\
+      \ saving throw or take 10 (3d6) cold damage.  \n- **4 Telekinetic Ray.** If\
       \ the target is a creature that is Medium or smaller, it must succeed on a DC\
       \ 12 Strength saving throw or be moved up to 30 feet directly away from the\
       \ gazer. If the target is a Tiny object that isn't being worn or carried, the\

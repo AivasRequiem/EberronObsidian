@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -55,21 +56,22 @@ In their natural form, dybbuks appear as translucent flying jellyfish, trailing 
   \ [petrified](Інструменти%20ДМ/CLI/rules/conditions.md#Petrified), [poisoned](Ін\
   струменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone),\
   \ [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ passive Perception 14"
 "languages": "Abyssal, Common, telepathy 120 ft."
 "cr": "4"
 "traits":
   - "desc": "The dybbuk can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The dybbuk has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) necrotic damage. If the target is a creature, its hit point maximum\
-      \ is also reduced by 3 (d6). This reduction lasts until the target finishes\
+      \ is also reduced by 3 (1d6). This reduction lasts until the target finishes\
       \ a short or long rest. The target dies if its hit point maximum is reduced\
       \ to 0."
     "name": "Tentacle"
@@ -82,9 +84,9 @@ In their natural form, dybbuks appear as translucent flying jellyfish, trailing 
       \ in an unoccupied space within 5 feet of the corpse."
     "name": "Possess Corpse (Recharge 6)"
   - "desc": "The dybbuk casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
-      \ will: [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md)\n\
-      \n3/day: [phantasmal force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md)"
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\n**At\
+      \ will:** [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md)\n\
+      \n**3/day:** [phantasmal force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "While Possess Corpse is active, the dybbuk makes the corpse do something\

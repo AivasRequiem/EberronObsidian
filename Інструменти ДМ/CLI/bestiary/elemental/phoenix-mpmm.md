@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -50,7 +51,8 @@ Releasing a phoenix from the Inner Planes creates an explosion of fire that spre
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 15"
 "languages": ""
 "cr": "16"
 "traits":
@@ -61,14 +63,14 @@ Releasing a phoenix from the Inner Planes creates an explosion of fire that spre
       \ or carried.\n\nThe explosion destroys the phoenix's body and leaves behind\
       \ an egg-shaped cinder, which weighs 5 pounds. The cinder deals 21 (6d6) fire\
       \ damage to any creature that touches it, though no more than once per round.\
-      \ The cinder is immune to all damage, and after d6 days, it hatches a new\
+      \ The cinder is immune to all damage, and after 1d6 days, it hatches a new\
       \ phoenix."
     "name": "Fiery Death and Rebirth"
   - "desc": "The phoenix can move through a space as narrow as 1 inch wide without\
       \ squeezing.\n\nAny creature that touches the phoenix or hits it with a melee\
-      \ attack while within 5 feet of it takes 5 (d10) fire damage. In addition,\
+      \ attack while within 5 feet of it takes 5 (1d10) fire damage. In addition,\
       \ the phoenix can enter a hostile creature's space and stop there. The first\
-      \ time it enters a creature's space on a turn, that creature takes 5 (d10)\
+      \ time it enters a creature's space on a turn, that creature takes 5 (1d10)\
       \ fire damage.\n\nWith a touch, the phoenix can also ignite flammable objects\
       \ that aren't worn or carried (no action required)."
     "name": "Fire Form"
@@ -85,12 +87,15 @@ Releasing a phoenix from the Inner Planes creates an explosion of fire that spre
 "actions":
   - "desc": "The phoenix makes two attacks: one Beak attack and one Fiery Talons attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) fire damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) fire damage."
     "name": "Fiery Talons"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the phoenix can expend a use to take one of the following actions. The phoenix\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The phoenix moves up to its speed."
     "name": "Move"

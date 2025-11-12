@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 aliases:
@@ -17,7 +18,7 @@ Don't add your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/varia
 
 ## Damage
 
-On a hit, the weapon deals `d4` damage of a type the DM thinks is appropriate for the object.
+On a hit, the weapon deals `1d4` damage of a type the DM thinks is appropriate for the object.
 
 ## Range
 

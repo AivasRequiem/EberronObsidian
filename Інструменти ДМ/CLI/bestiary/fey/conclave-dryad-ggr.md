@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/9
@@ -51,17 +52,18 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
     "desc": "+8"
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 19"
 "languages": "Common, Elvish, Sylvan"
 "cr": "9"
 "traits":
   - "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 17).\
       \ The dryad can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\
-      \n3/day each: [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
+      \n**At will:** [druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md)\n\
+      \n**3/day each:** [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md),\
       \ [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [plant growth](І\
       нструменти%20ДМ/CLI/spells/plant-growth-xphb.md), [spike growth](Інструменти\
-      %20ДМ/CLI/spells/spike-growth-xphb.md)\n\n1/day each: [moonbeam](Інструм\
+      %20ДМ/CLI/spells/spike-growth-xphb.md)\n\n**1/day each:** [moonbeam](Інструм\
       енти%20ДМ/CLI/spells/moonbeam-xphb.md), [grasping vine](Інструменти%20ДМ/CLI/spells/grasping-vine-xphb.md),\
       \ [wall of thorns](Інструменти%20ДМ/CLI/spells/wall-of-thorns-xphb.md)"
     "name": "Innate Spellcasting"
@@ -75,7 +77,7 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
   - "desc": "The dryad makes three attacks, using its vine staff, its longbow, or\
       \ both."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Dexterity saving throw or become [restrained](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Restrained) by twisting vines for 1 minute. A target\
@@ -84,7 +86,7 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
       М/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](Інструменти%20Д\
       М/CLI/rules/skills.md#Acrobatics)) check, ending the effect on itself on a success."
     "name": "Vine Staff"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 150/600 ft., one target. *Hit:*\
       \ 8 (1d8 + 4) piercing damage."
     "name": "Longbow"
   - "desc": "The dryad magically summons a mount, which appears in an unoccupied space\

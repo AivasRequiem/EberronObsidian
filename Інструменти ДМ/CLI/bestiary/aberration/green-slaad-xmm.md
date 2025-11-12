@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/8
@@ -64,7 +65,8 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
   - "name": "[Perception](Інструменти%20ДМ/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 30 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive Perception 12"
 "languages": "Common, Slaad; telepathy 60 ft."
 "cr": "8"
 "traits":
@@ -78,19 +80,19 @@ Slaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue 
 "actions":
   - "desc": "The slaad makes three Chaos Staff attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 10 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 10 ft. or range 60 ft. *Hit:*\
       \ 8 (1d8 + 4) Force damage. Until the start of the slaad's next turn, the\
-      \ target has a condition determined by rolling d4: on a 1, [Charmed](Інстр\
-      ументи%20ДМ/CLI/rules/conditions.md#Charmed); on a 2, [Frightened](Інструмен\
-      ти%20ДМ/CLI/rules/conditions.md#Frightened); on a 3, [Poisoned](Інструменти\
+      \ target has a condition determined by rolling 1d4: on a 1, [Charmed](Інст\
+      рументи%20ДМ/CLI/rules/conditions.md#Charmed); on a 2, [Frightened](Інструме\
+      нти%20ДМ/CLI/rules/conditions.md#Frightened); on a 3, [Poisoned](Інструменти\
       %20ДМ/CLI/rules/conditions.md#Poisoned); or on a 4, [Incapacitated](Інструме\
       нти%20ДМ/CLI/rules/conditions.md#Incapacitated)."
     "name": "Chaos Staff"
   - "desc": "The slaad casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 14, +6 to\
-      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ hit with spell attacks):\n\n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Mage\
-      \ Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n1/day each: [Fireball](І\
+      \ Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md)\n\n**1/day each:** [Fireball](І\
       нструменти%20ДМ/CLI/spells/fireball-xphb.md), [Invisibility](Інструменти%20Д\
       М/CLI/spells/invisibility-xphb.md) (self only)"
     "name": "Spellcasting"

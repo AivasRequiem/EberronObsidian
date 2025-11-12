@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
@@ -8,8 +9,6 @@ aliases:
 ---
 # Membership and Independence
 *Source: Guildmasters' Guide to Ravnica p. 31* 
-
-`dice: [](membership-and-independence-ggr.md#^reason-for-independence)`
 
 | dice: d6 | Reason for Independence |
 |----------|-------------------------|

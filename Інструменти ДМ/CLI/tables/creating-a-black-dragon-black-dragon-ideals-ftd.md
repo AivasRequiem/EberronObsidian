@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Fizban's Treasury of Dragons p. 80* 
 
 **Black Dragon Ideals**
-
-`dice: [](creating-a-black-dragon-black-dragon-ideals-ftd.md#^black-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

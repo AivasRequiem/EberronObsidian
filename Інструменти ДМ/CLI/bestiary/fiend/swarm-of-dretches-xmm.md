@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -59,14 +60,15 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Abyssal; telepathy 60 ft. (works only with creatures that understand\
   \ Abyssal)"
 "cr": "4"
 "traits":
-  - "desc": "Constitution Saving Throw: DC 12, any creature that starts its turn\
+  - "desc": "*Constitution Saving Throw:* DC 12, any creature that starts its turn\
       \ in a 10-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the swarm. Failure: The target has the [Poisoned](Інстр\
+      \ originating from the swarm. *Failure:* The target has the [Poisoned](Інстр\
       ументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the start of its\
       \ next turn. While [Poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned),\
       \ the target can take either an action or a [Bonus Action](Інструменти%20ДМ\
@@ -81,7 +83,7 @@ The servants and victims of greater demons, dretches embody petty instincts, cha
 "actions":
   - "desc": "The swarm makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 12 (3d6 + 2) Slashing\
       \ damage, or 9 (3d4 + 2) Slashing damage if the swarm is [Bloodied](Інстру\
       менти%20ДМ/CLI/rules/conditions.md#Bloodied)."
     "name": "Rend"

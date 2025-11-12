@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Brass Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
@@ -25,7 +26,7 @@ At your discretion, a legendary ([adult](Інструменти%20ДМ/CLI/besti
 - **Blast of Wind.** A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet in the wind's direction and be knocked [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone). Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon [prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone).  
 - **Obscuring Sand.** Dust and sand fill the air within 120 feet of the dragon, making the area lightly obscured until initiative count 20 on the next round.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 The region containing a legendary brass dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
@@ -34,7 +35,7 @@ The region containing a legendary brass dragon's lair is warped by the dragon's 
 - Images of Large or smaller monsters haunt the desert sands within 1 mile of the dragon's lair. These illusions move and appear real, although they can do no harm. A creature that examines an image from a distance can tell it's an illusion with a successful DC 20 Intelligence ([Investigation](Інструменти%20ДМ/CLI/rules/skills.md#Investigation)) check. Any physical interaction with an image reveals it to be an illusion, because objects pass through it.  
 - Whenever a creature with an Intelligence of 3 or higher comes within 30 feet of a water source within 1 mile of the dragon's lair, the dragon becomes aware of the creature's presence and location.  
 
-If the dragon dies, the tracks fade in `d10` days, but the other effects fade immediately.
+If the dragon dies, the tracks fade in `1d10` days, but the other effects fade immediately.
 
 ### Additional Regional Effects
 

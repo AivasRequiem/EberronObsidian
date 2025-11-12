@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/13
@@ -22,7 +23,7 @@ aliases:
 *Deceiver Hungry for Power and Flesh*
 
 - **Habitat.** Planar (Nine Hells), Urban  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Masters of manipulation, rakshasas infiltrate communities to claim positions of power. While disguising their true natures, they kidnap victims and indulge their insatiable hunger for flesh.
 
@@ -58,7 +59,8 @@ Rakshasas' appearances combine humanlike bodies with the features of animals and
   \ the effect of a Bless spell"
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 60 ft., passive Perception 18"
+"senses": "[Truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 60 ft., passive\
+  \ Perception 18"
 "languages": "Common, Infernal"
 "cr": "13"
 "traits":
@@ -75,26 +77,26 @@ Rakshasas' appearances combine humanlike bodies with the features of animals and
 "actions":
   - "desc": "The rakshasa makes three Cursed Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing\
+  - "desc": "*Melee Attack Roll:* +10, reach 5 ft. *Hit:* 12 (2d6 + 5) Slashing\
       \ damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is\
       \ cursed. While cursed, the target gains no benefit from finishing a [Short](І\
       нструменти%20ДМ/CLI/rules/variant-rules/short-rest-xphb.md) or [Long Rest](І\
       нструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md)."
     "name": "Cursed Touch"
-  - "desc": "Wisdom Saving Throw: DC 18, each enemy in a 30-foot [Emanation](Інс\
+  - "desc": "*Wisdom Saving Throw:* DC 18, each enemy in a 30-foot [Emanation](Інс\
       трументи%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md) originating\
-      \ from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has\
+      \ from the rakshasa. *Failure:* 28 (8d6) Psychic damage, and the target has\
       \ the [Frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened) and\
       \ [Incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) conditions\
       \ until the start of the rakshasa's next turn."
     "name": "Baleful Command (Recharge 5-6)"
   - "desc": "The rakshasa casts one of the following spells, requiring no Material\
       \ components and using Charisma as the spellcasting ability (spell save DC 18):\n\
-      \nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Detect Thoughts](Інструменти%20ДМ/CLI/spells/detect-thoughts-xphb.md), [Disguise\
       \ Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md), [Mage Hand](Інст\
       рументи%20ДМ/CLI/spells/mage-hand-xphb.md), [Minor Illusion](Інструменти%20Д\
-      М/CLI/spells/minor-illusion-xphb.md)\n\n1/day each: [Fly](Інструменти%20Д\
+      М/CLI/spells/minor-illusion-xphb.md)\n\n**1/day each:** [Fly](Інструменти%20Д\
       М/CLI/spells/fly-xphb.md), [Invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
       \ [Major Image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md), [Plane Shift](І\
       нструменти%20ДМ/CLI/spells/plane-shift-xphb.md)"

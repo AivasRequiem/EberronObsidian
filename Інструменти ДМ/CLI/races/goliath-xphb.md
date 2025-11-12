@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/race/goliath
@@ -23,11 +24,11 @@ aliases:
 You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your [Proficiency Bonus](Інструменти%20ДМ/CLI/rules/variant-rules/proficiency-xphb.md), and you regain all expended uses when you finish a [Long Rest](Інструменти%20ДМ/CLI/rules/variant-rules/long-rest-xphb.md):
 
 - **Cloud's Jaunt (Cloud Giant).** As a [Bonus Action](Інструменти%20ДМ/CLI/rules/variant-rules/bonus-action-xphb.md), you magically teleport up to 30 feet to an unoccupied space you can see.  
-- **Fire's Burn (Fire Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal `d10` Fire damage to that target.  
-- **Frost's Chill (Frost Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal `d6` Cold damage to that target and reduce its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) by 10 feet until the start of your next turn.  
+- **Fire's Burn (Fire Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal `1d10` Fire damage to that target.  
+- **Frost's Chill (Frost Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal `1d6` Cold damage to that target and reduce its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md) by 10 feet until the start of your next turn.  
 - **Hill's Tumble (Hill Giant).** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition.  
-- **Stone's Endurance (Stone Giant).** When you take damage, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to roll `d12`. Add your Constitution modifier to the number rolled and reduce the damage by that total.  
-- **Storm's Thunder (Storm Giant).** When you take damage from a creature within 60 feet of you, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to deal `d8` Thunder damage to that creature.  
+- **Stone's Endurance (Stone Giant).** When you take damage, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to roll `1d12`. Add your Constitution modifier to the number rolled and reduce the damage by that total.  
+- **Storm's Thunder (Storm Giant).** When you take damage from a creature within 60 feet of you, you can take a [Reaction](Інструменти%20ДМ/CLI/rules/variant-rules/reaction-xphb.md) to deal `1d8` Thunder damage to that creature.  
 
 ### Large Form
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -67,11 +68,11 @@ When not called on to fight, dreadnoughts maintain their strength by using their
 "actions":
   - "desc": "The giant makes two Fireshield or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6)\
       \ piercing damage."
     "name": "Fireshield"
-  - "desc": "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +13 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Rock"
   - "desc": "The giant moves up to 30 feet in a straight line and can move through\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -27,8 +28,6 @@ Magic and malice give form to invisible stalkers, bodiless spirits of the air. T
 In rare cases, an invisible stalker lingers in the world without a spellcaster controlling it. Roll on or choose a result from the Uncontrolled [Invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible) Stalkers table to inspire why one of these monsters lurks in an area without a direct command.
 
 **Uncontrolled Invisible Stalkers**
-
-`dice: [](invisible-stalker-xmm.md#^uncontrolled-invisible-stalkers)`
 
 | dice: 1d6 | The Invisible Stalker Is... |
 |-----------|-----------------------------|
@@ -75,7 +74,8 @@ In rare cases, an invisible stalker lingers in the world without a spellcaster c
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](Інструменти%20ДМ/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 18"
 "languages": "Common, Primordial (Auran)"
 "cr": "6"
 "traits":
@@ -89,10 +89,10 @@ In rare cases, an invisible stalker lingers in the world without a spellcaster c
   - "desc": "The stalker makes three Wind Swipe attacks. It can replace one attack\
       \ with a use of Vortex."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage."
+  - "desc": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Force damage."
     "name": "Wind Swipe"
-  - "desc": "Constitution Saving Throw: DC 14, one Large or smaller creature in\
-      \ the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target\
+  - "desc": "*Constitution Saving Throw:* DC 14, one Large or smaller creature in\
+      \ the stalker's space. *Failure:* 7 (1d8 + 3) Thunder damage, and the target\
       \ has the [Grappled](Інструменти%20ДМ/CLI/rules/conditions.md#Grappled) condition\
       \ (escape DC 13). Until the grapple ends, the target can't cast spells with\
       \ a Verbal component and takes 7 (2d6) Thunder damage at the start of each\

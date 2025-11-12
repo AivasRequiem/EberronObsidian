@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/gear/
@@ -14,8 +15,6 @@ aliases:
 
 
 **Trinkets from Xen'drik**
-
-`dice: [](xendrik-trinket-erlw.md#^trinkets-from-xendrik)`
 
 | dice: d8 | Trinket |
 |----------|---------|

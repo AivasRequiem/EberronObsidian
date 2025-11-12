@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/rare
@@ -14,8 +15,6 @@ aliases:
 
 
 Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.
-
-`dice: [](scroll-of-protection-xdmg.md#^1-creature-type)`
 
 | dice: 1d100 | Creature Type |
 |-------------|---------------|

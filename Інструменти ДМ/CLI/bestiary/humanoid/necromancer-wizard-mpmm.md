@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -55,17 +56,17 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The necromancer makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 25 (4d10 + 3) necrotic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 25 (4d10 + 3) necrotic damage."
     "name": "Arcane Burst"
   - "desc": "The necromancer casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 15):\n\nAt will: [dancing lights](І\
+      \ as the spellcasting ability (spell save DC 15):\n\n**At will:** [dancing lights](І\
       нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [mage hand](Інструменти\
       %20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\
-      \n2/day each: [bestow curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md),\
+      \n**2/day each:** [bestow curse](Інструменти%20ДМ/CLI/spells/bestow-curse-xphb.md),\
       \ [dimension door](Інструменти%20ДМ/CLI/spells/dimension-door-xphb.md), [mage\
       \ armor](Інструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [web](Інструменти\
-      %20ДМ/CLI/spells/web-xphb.md)\n\n1/day each: [circle of death](Інструмен\
+      %20ДМ/CLI/spells/web-xphb.md)\n\n**1/day each:** [circle of death](Інструмен\
       ти%20ДМ/CLI/spells/circle-of-death-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Morkoth
 
-## Lair actions
+## Lair Actions
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 On initiative count 20 (losing initiative ties), the morkoth can take one of the following lair actions:
@@ -17,7 +18,7 @@ On initiative count 20 (losing initiative ties), the morkoth can take one of the
 - **Cast a Spell.** The morkoth casts [darkness](Інструменти%20ДМ/CLI/spells/darkness-xphb.md), [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), or [misty step](Інструменти%20ДМ/CLI/spells/misty-step-xphb.md), using Intelligence as its spellcasting ability and without expending a spell slot.  
 - **Hypnotize.** The morkoth uses its Hypnosis action, originating at a point within 120 feet of itself. It doesn't need to see the effect's point of origin.  
 
-## Regional effects
+## Regional Effects
 _Source: Mordenkainen Presents: Monsters of the Multiverse_
 
 The island surrounding a morkoth's lair is warped by the creature's presence, creating the following effects:

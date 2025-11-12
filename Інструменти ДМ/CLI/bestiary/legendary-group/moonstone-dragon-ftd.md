@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/legendary-group
@@ -9,7 +10,7 @@ aliases:
 ---
 # Moonstone Dragon
 
-## Lair actions
+## Lair Actions
 _Source: Fizban's Treasury of Dragons_
 
 On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the dragon can take one of the 
 - **Compulsive Dance.** The dragon targets a creature it can see in its lair, and a merry waltz begins to play that only the target can hear. The target must succeed on a DC 15 Intelligence saving throw or dance until initiative count 20 on the following round. The dancing creature is [incapacitated](Інструменти%20ДМ/CLI/rules/conditions.md#Incapacitated) and must use all its movement to dance.  
 - **Disorienting Visions.** Disorienting illusory images flit through the dragon's lair. Each creature in the lair must succeed on a DC 20 Wisdom saving throw or have disadvantage on ability checks until initiative count 20 on the following round.  
 
-## Regional effects
+## Regional Effects
 _Source: Fizban's Treasury of Dragons_
 
 The region surrounding a legendary moonstone dragon's lair is altered by the dragon's magic, creating one or more of the following effects:

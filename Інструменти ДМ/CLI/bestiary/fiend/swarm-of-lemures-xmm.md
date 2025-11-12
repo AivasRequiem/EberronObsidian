@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/3
@@ -54,13 +55,14 @@ The least of all devils, lemures arise from wicked souls, their mortal memories 
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned), [prone](Інструм\
   енти%20ДМ/CLI/rules/conditions.md#Prone), [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
   \ [stunned](Інструменти%20ДМ/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft. (unimpeded by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft. (unimpeded\
+  \ by magical [Darkness](Інструменти%20ДМ/CLI/rules/variant-rules/darkness-xphb.md)),\
   \ passive Perception 11"
 "languages": "understands Infernal but can't speak"
 "cr": "3"
 "traits":
   - "desc": "If the swarm dies in the Nine Hells, it revives with all its [Hit Points](І\
-      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) in d10 days unless\
+      нструменти%20ДМ/CLI/rules/variant-rules/hit-points-xphb.md) in 1d10 days unless\
       \ it is killed by a creature under the effects of a [Bless](Інструменти%20ДМ\
       /CLI/spells/bless-xphb.md) spell or its remains are sprinkled with Holy Water."
     "name": "Hellish Restoration"
@@ -72,7 +74,7 @@ The least of all devils, lemures arise from wicked souls, their mortal memories 
 "actions":
   - "desc": "The swarm makes two Vile Slime attacks."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Poison damage,\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 11 (2d8 + 2) Poison damage,\
       \ or 9 (2d6 + 2) Poison damage if the swarm is [Bloodied](Інструменти%20ДМ\
       /CLI/rules/conditions.md#Bloodied)."
     "name": "Vile Slime"

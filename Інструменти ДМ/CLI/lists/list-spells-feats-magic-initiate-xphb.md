@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/feat/magic-initiate
 aliases:
@@ -14,26 +15,35 @@ aliases:
 - [Blade Ward](Інструменти%20ДМ/CLI/spells/blade-ward-xphb.md "XPHB") 
 - [Booming Blade](Інструменти%20ДМ/CLI/spells/booming-blade-tce.md "TCE") 
 - [Chill Touch](Інструменти%20ДМ/CLI/spells/chill-touch-xphb.md "XPHB") 
+- [Control Flames](Інструменти%20ДМ/CLI/spells/control-flames-xge.md "XGE") 
+- [Create Bonfire](Інструменти%20ДМ/CLI/spells/create-bonfire-xge.md "XGE") 
 - [Dancing Lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md "XPHB") 
 - [Druidcraft](Інструменти%20ДМ/CLI/spells/druidcraft-xphb.md "XPHB") 
 - [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md "XPHB") 
 - [Fire Bolt](Інструменти%20ДМ/CLI/spells/fire-bolt-xphb.md "XPHB") 
 - [Friends](Інструменти%20ДМ/CLI/spells/friends-xphb.md "XPHB") 
+- [Frostbite](Інструменти%20ДМ/CLI/spells/frostbite-xge.md "XGE") 
 - [Green-Flame Blade](Інструменти%20ДМ/CLI/spells/green-flame-blade-tce.md "TCE") 
 - [Guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md "XPHB") 
+- [Gust](Інструменти%20ДМ/CLI/spells/gust-xge.md "XGE") 
+- [Infestation](Інструменти%20ДМ/CLI/spells/infestation-xge.md "XGE") 
 - [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md "XPHB") 
 - [Lightning Lure](Інструменти%20ДМ/CLI/spells/lightning-lure-tce.md "TCE") 
 - [Mage Hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md "XPHB") 
+- [Magic Stone](Інструменти%20ДМ/CLI/spells/magic-stone-xge.md "XGE") 
 - [Mending](Інструменти%20ДМ/CLI/spells/mending-xphb.md "XPHB") 
 - [Message](Інструменти%20ДМ/CLI/spells/message-xphb.md "XPHB") 
 - [Mind Sliver](Інструменти%20ДМ/CLI/spells/mind-sliver-xphb.md "XPHB") 
 - [Minor Illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md "XPHB") 
+- [Mold Earth](Інструменти%20ДМ/CLI/spells/mold-earth-xge.md "XGE") 
 - [Poison Spray](Інструменти%20ДМ/CLI/spells/poison-spray-xphb.md "XPHB") 
 - [Prestidigitation](Інструменти%20ДМ/CLI/spells/prestidigitation-xphb.md "XPHB") 
+- [Primal Savagery](Інструменти%20ДМ/CLI/spells/primal-savagery-xge.md "XGE") 
 - [Produce Flame](Інструменти%20ДМ/CLI/spells/produce-flame-xphb.md "XPHB") 
 - [Ray of Frost](Інструменти%20ДМ/CLI/spells/ray-of-frost-xphb.md "XPHB") 
 - [Resistance](Інструменти%20ДМ/CLI/spells/resistance-xphb.md "XPHB") 
 - [Sacred Flame](Інструменти%20ДМ/CLI/spells/sacred-flame-xphb.md "XPHB") 
+- [Shape Water](Інструменти%20ДМ/CLI/spells/shape-water-xge.md "XGE") 
 - [Shillelagh](Інструменти%20ДМ/CLI/spells/shillelagh-xphb.md "XPHB") 
 - [Shocking Grasp](Інструменти%20ДМ/CLI/spells/shocking-grasp-xphb.md "XPHB") 
 - [Spare the Dying](Інструменти%20ДМ/CLI/spells/spare-the-dying-xphb.md "XPHB") 
@@ -48,11 +58,16 @@ aliases:
 
 ## 1st Level
 
+- [Absorb Elements](Інструменти%20ДМ/CLI/spells/absorb-elements-xge.md "XGE") 
 - [Alarm](Інструменти%20ДМ/CLI/spells/alarm-xphb.md "XPHB") 
 - [Animal Friendship](Інструменти%20ДМ/CLI/spells/animal-friendship-xphb.md "XPHB") 
 - [Bane](Інструменти%20ДМ/CLI/spells/bane-xphb.md "XPHB") 
+- [Beast Bond](Інструменти%20ДМ/CLI/spells/beast-bond-xge.md "XGE") 
 - [Bless](Інструменти%20ДМ/CLI/spells/bless-xphb.md "XPHB") 
 - [Burning Hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md "XPHB") 
+- [Catapult](Інструменти%20ДМ/CLI/spells/catapult-xge.md "XGE") 
+- [Cause Fear](Інструменти%20ДМ/CLI/spells/cause-fear-xge.md "XGE") 
+- [Ceremony](Інструменти%20ДМ/CLI/spells/ceremony-xge.md "XGE") 
 - [Charm Person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md "XPHB") 
 - [Chromatic Orb](Інструменти%20ДМ/CLI/spells/chromatic-orb-xphb.md "XPHB") 
 - [Color Spray](Інструменти%20ДМ/CLI/spells/color-spray-xphb.md "XPHB") 
@@ -64,6 +79,7 @@ aliases:
 - [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md "XPHB") 
 - [Detect Poison and Disease](Інструменти%20ДМ/CLI/spells/detect-poison-and-disease-xphb.md "XPHB") 
 - [Disguise Self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md "XPHB") 
+- [Earth Tremor](Інструменти%20ДМ/CLI/spells/earth-tremor-xge.md "XGE") 
 - [Entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md "XPHB") 
 - [Expeditious Retreat](Інструменти%20ДМ/CLI/spells/expeditious-retreat-xphb.md "XPHB") 
 - [Faerie Fire](Інструменти%20ДМ/CLI/spells/faerie-fire-xphb.md "XPHB") 
@@ -91,6 +107,7 @@ aliases:
 - [Shield of Faith](Інструменти%20ДМ/CLI/spells/shield-of-faith-xphb.md "XPHB") 
 - [Silent Image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md "XPHB") 
 - [Sleep](Інструменти%20ДМ/CLI/spells/sleep-xphb.md "XPHB") 
+- [Snare](Інструменти%20ДМ/CLI/spells/snare-xge.md "XGE") 
 - [Speak with Animals](Інструменти%20ДМ/CLI/spells/speak-with-animals-xphb.md "XPHB") 
 - [Tasha's Caustic Brew](Інструменти%20ДМ/CLI/spells/tashas-caustic-brew-tce.md "TCE") 
 - [Tasha's Hideous Laughter](Інструменти%20ДМ/CLI/spells/tashas-hideous-laughter-xphb.md "XPHB") 

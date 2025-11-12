@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/2
@@ -31,8 +32,6 @@ Winged, sapient horses of noble bearing, pegasi are as majestic as they are elus
 Pegasi are hunted by servants of evil, leading many of these winged steeds to flee strangers on sight. Roll on or choose a result from the Pegasus Offerings table to inspire how one might show their good intentions to a wary pegasus.
 
 **Pegasus Offerings**
-
-`dice: [](pegasus-xmm.md#^pegasus-offerings)`
 
 | dice: 1d4 | A Pegasus Won't Flee Someone... |
 |-----------|---------------------------------|
@@ -76,7 +75,7 @@ Pegasi are hunted by servants of evil, leading many of these winged steeds to fl
 "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak"
 "cr": "2"
 "actions":
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 7 (1d6 + 4) Bludgeoning\
       \ damage plus 5 (2d4) Radiant damage."
     "name": "Hooves"
 "source":

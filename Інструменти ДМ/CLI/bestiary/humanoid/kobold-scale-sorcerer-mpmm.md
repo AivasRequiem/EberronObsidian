@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -46,7 +47,8 @@ A scale sorcerer who resides in or near a dragon's lair may serve as that dragon
     "desc": "+2"
   - "name": "[Medicine](Інструменти%20ДМ/CLI/rules/skills.md#Medicine)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 9"
 "languages": "Common, Draconic"
 "cr": "1"
 "traits":
@@ -62,17 +64,17 @@ A scale sorcerer who resides in or near a dragon's lair may serve as that dragon
   - "desc": "The kobold makes two Dagger or Chromatic Bolt attacks. It can replace\
       \ one attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 feet, one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 feet, one target. *Hit:*\
       \ 9 (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning,\
       \ poison, or thunder."
     "name": "Chromatic Bolt"
   - "desc": "The kobold casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
-      \ will: [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](І\
-      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n2/day each: [charm\
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\n**At\
+      \ will:** [mage hand](Інструменти%20ДМ/CLI/spells/mage-hand-xphb.md), [prestidigitation](І\
+      нструменти%20ДМ/CLI/spells/prestidigitation-xphb.md)\n\n**2/day each:** [charm\
       \ person](Інструменти%20ДМ/CLI/spells/charm-person-xphb.md), [fog cloud](Інс\
       трументи%20ДМ/CLI/spells/fog-cloud-xphb.md), [levitate](Інструменти%20ДМ/CLI/spells/levitate-xphb.md)"
     "name": "Spellcasting"

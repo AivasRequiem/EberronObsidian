@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/item/attunement/required
@@ -26,8 +27,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **1st-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^1st-level-spells)`
-
 | dice: d6 | spell |
 |----------|-------|
 | 1 | [burning hands](Інструменти%20ДМ/CLI/spells/burning-hands-xphb.md) |
@@ -39,8 +38,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 ^1st-level-spells
 
 **2nd-Level Spells**
-
-`dice: [](mizzium-apparatus-ggr.md#^2nd-level-spells)`
 
 | dice: d6 | spell |
 |----------|-------|
@@ -54,8 +51,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **3rd-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^3rd-level-spells)`
-
 | dice: d6 | spell |
 |----------|-------|
 | 1 | [fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md) |
@@ -68,8 +63,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **4th-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^4th-level-spells)`
-
 | dice: d4 | spell |
 |----------|-------|
 | 1 | [confusion](Інструменти%20ДМ/CLI/spells/confusion-xphb.md) |
@@ -79,8 +72,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 ^4th-level-spells
 
 **5th-Level Spells**
-
-`dice: [](mizzium-apparatus-ggr.md#^5th-level-spells)`
 
 | dice: d4 | spell |
 |----------|-------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/14
@@ -22,7 +23,7 @@ By the time they're adults, black dragons are among the greatest terrors in the 
 *Dragons of Decay and Despair*
 
 - **Habitat.** Swamp  
-- **Treasure.** Relics  
+- **Treasure.** [Relics](Інструменти%20ДМ/CLI/tables/random-magic-items-relics.md)  
 
 Black dragons delight in suffering and ruin. While other chromatic dragons scheme for power and wealth, these dragons seek to tear down all they see and rule over what remains.
 
@@ -61,7 +62,8 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "acid"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[Blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [Darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
@@ -74,27 +76,42 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
       \ use of Spellcasting to cast [Melf's Acid Arrow](Інструменти%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md)\
       \ (level 3 version)."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 13 (2d6 + 6) Slashing\
-      \ damage plus 4 (d8) Acid damage."
+  - "desc": "*Melee Attack Roll:* +11, reach 10 ft. *Hit:* 13 (2d6 + 6) Slashing\
+      \ damage plus 4 (1d8) Acid damage."
     "name": "Rend"
-  - "desc": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 5-foot-wide\
+  - "desc": "*Dexterity Saving Throw:* DC 18, each creature in a 60-foot-long, 5-foot-wide\
       \ [Line](Інструменти%20ДМ/CLI/rules/variant-rules/line-area-of-effect-xphb.md).\
-      \ Failure: 54 (12d8) Acid damage. Success: Half damage."
+      \ *Failure:* 54 (12d8) Acid damage. *Success:* Half damage."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no Material components\
       \ and using Charisma as the spellcasting ability (spell save DC 17, +9 to\
-      \ hit with spell attacks):\n\nAt will: [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ hit with spell attacks):\n\n**At will:** [Detect Magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md), [Melf's Acid Arrow](Інст\
-      рументи%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md) (level 3 version)\n\n1/day\
-      \ each: [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md),\
+      рументи%20ДМ/CLI/spells/melfs-acid-arrow-xphb.md) (level 3 version)\n\n**1/day\
+      \ each:** [Speak with Dead](Інструменти%20ДМ/CLI/spells/speak-with-dead-xphb.md),\
       \ [Vitriolic Sphere](Інструменти%20ДМ/CLI/spells/vitriolic-sphere-xphb.md)"
     "name": "Spellcasting"
+"regional_effects":
+  - "desc": "The region containing an adult or ancient black dragon's lair is warped\
+      \ by its presence, creating the following effects:\n\n- **Acrid Haze.** Odorous\
+      \ and stifling fog covers the area within 1 mile of the lair, rendering that\
+      \ area [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md).\
+      \ Travel for creatures other than the dragon and its allies takes twice the\
+      \ usual time in that area.  \n- **Foul Water.** Water sources within 1 mile\
+      \ of the lair are supernaturally fouled. A creature that drinks such water must\
+      \ succeed on a DC 15 Constitution saving throw or have the [Poisoned](Інстру\
+      менти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for 1 hour.  \n\nIf the\
+      \ dragon dies or moves its lair elsewhere, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3 (4 in Lair). Immediately after\
+  \ another creature's turn, the dragon can expend a use to take one of the following\
+  \ actions. The dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
-  - "desc": "Dexterity Saving Throw: DC 17, one creature the dragon can see within\
-      \ 120 feet. Failure: 22 (4d10) Poison damage, and the target has [Disadvantage](І\
+  - "desc": "*Dexterity Saving Throw:* DC 17, one creature the dragon can see within\
+      \ 120 feet. *Failure:* 22 (4d10) Poison damage, and the target has [Disadvantage](І\
       нструменти%20ДМ/CLI/rules/variant-rules/disadvantage-xphb.md) on saving throws\
       \ to maintain [Concentration](Інструменти%20ДМ/CLI/rules/conditions.md#Concentration)\
-      \ until the end of its next turn. Failure or Success: The dragon can't take\
+      \ until the end of its next turn. *Failure or Success:* The dragon can't take\
       \ this action again until the start of its next turn."
     "name": "Cloud of Insects"
   - "desc": "The dragon uses Spellcasting to cast [Fear](Інструменти%20ДМ/CLI/spells/fear-xphb.md).\
@@ -103,20 +120,6 @@ Black dragons lurk in dismal ruins, polluted bogs, or other sites gripped by dec
   - "desc": "The dragon can move up to half its [Speed](Інструменти%20ДМ/CLI/rules/variant-rules/speed-xphb.md),\
       \ and it makes one Rend attack."
     "name": "Pounce"
-"regional_effects":
-  - "desc": "The region containing an adult or ancient black dragon's lair is warped\
-      \ by its presence, creating the following effects:"
-    "name": ""
-  - "desc": "- Acrid Haze. Odorous and stifling fog covers the area within 1 mile\
-      \ of the lair, rendering that area [Lightly Obscured](Інструменти%20ДМ/CLI/rules/variant-rules/lightly-obscured-xphb.md).\
-      \ Travel for creatures other than the dragon and its allies takes twice the\
-      \ usual time in that area.  \n- Foul Water. Water sources within 1 mile\
-      \ of the lair are supernaturally fouled. A creature that drinks such water must\
-      \ succeed on a DC 15 Constitution saving throw or have the [Poisoned](Інстру\
-      менти%20ДМ/CLI/rules/conditions.md#Poisoned) condition for 1 hour.  "
-    "name": ""
-  - "desc": "If the dragon dies or moves its lair elsewhere, these effects end immediately."
-    "name": ""
 "source":
   - "XMM"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-black-dragon-xmm.webp"

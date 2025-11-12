@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -48,7 +49,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - "intelligence": !!int "2"
   - "wisdom": !!int "2"
   - "charisma": !!int "4"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
 "traits":
@@ -63,16 +65,16 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Trident or Necrotic Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) necrotic damage."
     "name": "Necrotic Ray"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \n1/day each: [enlarge/reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md),\
+      \n**1/day each:** [enlarge/reduce](Інструменти%20ДМ/CLI/spells/enlarge-reduce-xphb.md),\
       \ [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [stinking\
       \ cloud](Інструменти%20ДМ/CLI/spells/stinking-cloud-xphb.md)"
     "name": "Spellcasting"

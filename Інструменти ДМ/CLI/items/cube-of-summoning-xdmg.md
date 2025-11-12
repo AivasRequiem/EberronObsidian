@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xdmg
 - ttrpg-cli/item/rarity/rare
@@ -19,8 +20,6 @@ Roll on the [Cube of Summoning](Інструменти%20ДМ/CLI/items/cube-of-
 Once the cube summons a creature, the cube can't do so again until the next dawn.
 
 **Cube of Summoning**
-
-`dice: [](cube-of-summoning-xdmg.md#^cube-of-summoning)`
 
 | dice: 1d6 | Spell |
 |-----------|-------|

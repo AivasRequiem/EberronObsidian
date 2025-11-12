@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -53,24 +54,25 @@ Members of the Golgari Swarm have an intimate connection to their territory. Whe
     "desc": "+4"
   - "name": "[Religion](Інструменти%20ДМ/CLI/rules/skills.md#Religion)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 13"
 "languages": "Common, Elvish"
 "cr": "5"
 "traits":
   - "desc": "The shaman is an 8th-level Golgari spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 14, +6 to hit with spell attacks). The shaman has\
-      \ the following druid spells prepared:\n\nCantrips (at will): [poison spray](І\
+      \ the following druid spells prepared:\n\n**Cantrips (at will):** [poison spray](І\
       нструменти%20ДМ/CLI/spells/poison-spray-xphb.md), [shillelagh](Інструменти%20Д\
       М/CLI/spells/shillelagh-xphb.md), [thorn whip](Інструменти%20ДМ/CLI/spells/thorn-whip-xphb.md)\n\
-      \n1st level (4 slots): [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
+      \n**1st level (4 slots):** [cure wounds](Інструменти%20ДМ/CLI/spells/cure-wounds-xphb.md),\
       \ [entangle](Інструменти%20ДМ/CLI/spells/entangle-xphb.md), [ray of sickness](І\
-      нструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n2nd level (3 slots):\
+      нструменти%20ДМ/CLI/spells/ray-of-sickness-xphb.md)\n\n**2nd level (3 slots):**\
       \ [pass without trace](Інструменти%20ДМ/CLI/spells/pass-without-trace-xphb.md),\
       \ [ray of enfeeblement](Інструменти%20ДМ/CLI/spells/ray-of-enfeeblement-xphb.md),\
-      \ [spike growth](Інструменти%20ДМ/CLI/spells/spike-growth-xphb.md)\n\n3rd\
-      \ level (3 slots): [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
+      \ [spike growth](Інструменти%20ДМ/CLI/spells/spike-growth-xphb.md)\n\n**3rd\
+      \ level (3 slots):** [animate dead](Інструменти%20ДМ/CLI/spells/animate-dead-xphb.md),\
       \ [dispel magic](Інструменти%20ДМ/CLI/spells/dispel-magic-xphb.md), [plant growth](І\
-      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n4th level (2 slots):\
+      нструменти%20ДМ/CLI/spells/plant-growth-xphb.md)\n\n**4th level (2 slots):**\
       \ [blight](Інструменти%20ДМ/CLI/spells/blight-xphb.md), [giant insect](Інстр\
       ументи%20ДМ/CLI/spells/giant-insect-xphb.md)"
     "name": "Spellcasting"
@@ -78,18 +80,18 @@ Members of the Golgari Swarm have an intimate connection to their territory. Whe
       трументи%20ДМ/CLI/rules/conditions.md#Charmed), and magic can't put it to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d8) necrotic damage, and the target must make a DC 14 Constitution saving\
       \ throw, taking 18 (4d8) poison damage on a failed save, or half as much damage\
       \ on a successful one."
     "name": "Fungal Rot"
 "reactions":
   - "desc": "When a creature within 30 feet of the shaman drops to 0 hit points, the\
-      \ shaman gains 5 (d10) temporary hit points."
+      \ shaman gains 5 (1d10) temporary hit points."
     "name": "Feed on Death"
 "source":
   - "GGR"

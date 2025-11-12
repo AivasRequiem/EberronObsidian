@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -59,22 +60,23 @@ Mephits resent leaving the elemental extremes where they make their homes. If lo
 "damage_immunities": "fire, poison"
 "condition_immunities": "[exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](Інструменти%20ДМ/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 12"
 "languages": "Primordial (Auran, Ignan)"
 "cr": "1/4"
 "traits":
-  - "desc": "The mephit explodes when it dies. Constitution Saving Throw: DC 11,\
+  - "desc": "The mephit explodes when it dies. *Constitution Saving Throw:* DC 11,\
       \ each creature in a 5-foot [Emanation](Інструменти%20ДМ/CLI/rules/variant-rules/emanation-area-of-effect-xphb.md)\
-      \ originating from the mephit. Failure: The target has the [Poisoned](Інст\
+      \ originating from the mephit. *Failure:* The target has the [Poisoned](Інст\
       рументи%20ДМ/CLI/rules/conditions.md#Poisoned) condition until the end of its\
       \ next turn."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Slashing\
       \ damage."
     "name": "Claw"
-  - "desc": "Dexterity Saving Throw: DC 11, one creature the mephit can see within\
-      \ 15 feet. Failure: The target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
+  - "desc": "*Dexterity Saving Throw:* DC 11, one creature the mephit can see within\
+      \ 15 feet. *Failure:* The target has the [Blinded](Інструменти%20ДМ/CLI/rules/conditions.md#Blinded)\
       \ condition until the end of the mephit's next turn."
     "name": "Cinder Breath (Recharge 6)"
 "source":

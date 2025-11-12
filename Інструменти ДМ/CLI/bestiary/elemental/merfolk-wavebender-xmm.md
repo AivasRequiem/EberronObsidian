@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/6
@@ -62,21 +63,21 @@ Beneath the waves dwell merfolk, mysterious creatures that merge the features of
 "actions":
   - "desc": "The merfolk makes two Aquatic Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft. Hit:\
+  - "desc": "*Melee  or Ranged Attack Roll:* +7, reach 5 ft. or range 60 ft. *Hit:*\
       \ 20 (3d10 + 4) Cold damage. If the target is a Large or smaller creature,\
       \ it has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone) condition."
     "name": "Aquatic Burst"
   - "desc": "The merfolk casts one of the following spells, requiring no Material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md),\
-      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md)\n\n1/day each: [Control\
+      \n**At will:** [Elementalism](Інструменти%20ДМ/CLI/spells/elementalism-xphb.md),\
+      \ [Light](Інструменти%20ДМ/CLI/spells/light-xphb.md)\n\n**1/day each:** [Control\
       \ Water](Інструменти%20ДМ/CLI/spells/control-water-xphb.md), [Create or Destroy\
       \ Water](Інструменти%20ДМ/CLI/spells/create-or-destroy-water-xphb.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "Trigger: An enemy the merfolk can see enters a space within 5 feet of\
-      \ the merfolk. _Response—_Strength Saving Throw: DC 15, the triggering enemy.\
-      \ Failure: 14 (4d6) Cold damage. If the target is Large or smaller, it is\
+      \ the merfolk. _Response—_*Strength Saving Throw:* DC 15, the triggering enemy.\
+      \ *Failure:* 14 (4d6) Cold damage. If the target is Large or smaller, it is\
       \ pushed up to 30 feet straight away from the merfolk by conjured water."
     "name": "Watery Rebuke"
 "source":

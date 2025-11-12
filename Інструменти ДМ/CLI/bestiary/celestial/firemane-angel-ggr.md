@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/12
@@ -60,15 +61,16 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "condition_immunities": "[charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](Інструменти%20ДМ/CLI/rules/conditions.md#Exhaustion), [frightened](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[truesight](Інструменти%20ДМ/CLI/rules/senses.md#Truesight) 120 ft., passive\
+  \ Perception 16"
 "languages": "all"
 "cr": "12"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 18,\
       \ +10 to hit with spell attacks). The angel can innately cast the following\
-      \ spells, requiring no material components:\n\n3/day each: [compelled duel](І\
+      \ spells, requiring no material components:\n\n**3/day each:** [compelled duel](І\
       нструменти%20ДМ/CLI/spells/compelled-duel-xphb.md), [guiding bolt](Інструмен\
-      ти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (as a 5th-level spell)\n\n1/day each:\
+      ти%20ДМ/CLI/spells/guiding-bolt-xphb.md) (as a 5th-level spell)\n\n**1/day each:**\
       \ [daylight](Інструменти%20ДМ/CLI/spells/daylight-xphb.md), [fireball](Інстр\
       ументи%20ДМ/CLI/spells/fireball-xphb.md) (as a 6th-level spell)"
     "name": "Innate Spellcasting"
@@ -84,7 +86,7 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used\
       \ with two hands, plus 22 (5d8) fire or radiant damage (angel's choice)."
     "name": "Longsword"

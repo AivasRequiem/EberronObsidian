@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/optional-feature/ei
@@ -10,7 +11,7 @@ aliases:
 # Gift of the Protectors
 *Source: Player's Handbook (2024) p. 156*  
 
-**Prerequisite**: Level 9
+**Prerequisite**: Level 9, pact of the tome|xphb
 
 A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).
 

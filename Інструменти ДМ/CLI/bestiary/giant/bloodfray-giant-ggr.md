@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -51,13 +52,13 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "languages": "Giant"
 "cr": "6"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 20 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage. If the target is a creature, it is [grappled](І\
       нструменти%20ДМ/CLI/rules/conditions.md#Grappled) (escape DC 17). Until the\
       \ grapple ends, the target is [restrained](Інструменти%20ДМ/CLI/rules/conditions.md#Restrained),\
       \ and the giant can't use this attack on anyone else."
     "name": "Chain"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Rock"
 "reactions":

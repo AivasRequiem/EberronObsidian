@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1
@@ -22,13 +23,11 @@ Spies use charm and deception to veil their true intentions. If forced into comb
 *Infiltrators and Informants*
 
 - **Habitat.** Any  
-- **Treasure.** Implements, Individual  
+- **Treasure.** [Implements](Інструменти%20ДМ/CLI/tables/random-magic-items-implements.md), Individual  
 
 Spies gather information and disseminate lies, manipulating people to gain the results the spies' patrons desire. They're trained to manipulate, infiltrate, and—when necessary—escape in a hurry. Many adopt disguises, aliases, or code names to maintain anonymity. Roll on or choose a result from the Spy Personas table to inspire a spy's disguise.
 
 **Spy Personas**
-
-`dice: [](spy-xmm.md#^spy-personas)`
 
 | dice: 1d4 | The Spy Disguises Themself As... |
 |-----------|----------------------------------|
@@ -72,10 +71,10 @@ Spies gather information and disseminate lies, manipulating people to gain the r
 "languages": "Common plus one other language"
 "cr": "1"
 "actions":
-  - "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage plus 7 (2d6) Poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing\
+  - "desc": "*Ranged Attack Roll:* +4, range 30/120 ft. *Hit:* 5 (1d6 + 2) Piercing\
       \ damage plus 7 (2d6) Poison damage."
     "name": "Hand Crossbow"
 "bonus_actions":

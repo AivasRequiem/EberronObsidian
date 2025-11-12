@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -53,14 +54,14 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The illusionist makes two Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 14 (2d10 + 3) psychic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 14 (2d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The illusionist casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](І\
+      \ as the spellcasting ability (spell save DC 13):\n\n**At will:** [dancing lights](І\
       нструменти%20ДМ/CLI/spells/dancing-lights-xphb.md), [mage hand](Інструменти\
       %20ДМ/CLI/spells/mage-hand-xphb.md), [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n2/day each: [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
+      \n**2/day each:** [disguise self](Інструменти%20ДМ/CLI/spells/disguise-self-xphb.md),\
       \ [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md), [mage armor](І\
       нструменти%20ДМ/CLI/spells/mage-armor-xphb.md), [major image](Інструменти%20Д\
       М/CLI/spells/major-image-xphb.md), [phantasmal force](Інструменти%20ДМ/CLI/spells/phantasmal-force-xphb.md),\

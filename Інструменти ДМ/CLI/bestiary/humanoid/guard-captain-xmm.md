@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/4
@@ -22,7 +23,7 @@ Guard captains often have ample professional experience. They might be accomplis
 *Sentries and Watch Members*
 
 - **Habitat.** Any  
-- **Treasure.** Armaments, Individual  
+- **Treasure.** [Armaments](Інструменти%20ДМ/CLI/tables/random-magic-items-armaments.md), Individual  
 
 Guards protect people, places, and things, either for pay or from a sense of duty. They might perform their duties vigilantly or distractedly. Some raise alarms at the first sign of danger and defend their charges with their lives. Others flee outright if their compensation doesn't match the danger they face.
 
@@ -59,10 +60,10 @@ Guards protect people, places, and things, either for pay or from a sense of dut
 "actions":
   - "desc": "The guard makes two attacks, using Javelin or Longsword in any combination."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft.\
-      \ Hit: 14 (3d6 + 4) Piercing damage."
+  - "desc": "*Melee  or Ranged Attack Roll:* +6, reach 5 ft. or range 30/120 ft.\
+      \ *Hit:* 14 (3d6 + 4) Piercing damage."
     "name": "Javelin"
-  - "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing\
+  - "desc": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 15 (2d10 + 4) Slashing\
       \ damage."
     "name": "Longsword"
 "source":

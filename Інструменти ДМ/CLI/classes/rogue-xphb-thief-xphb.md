@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/subclass/rogue/thief
@@ -93,7 +94,7 @@ You can attune to up to four magic items at once.
 
 #### Charges
 
-Whenever you use a magic item property that expends charges, roll `d6`. On a roll of 6, you use the property without expending the charges.
+Whenever you use a magic item property that expends charges, roll `1d6`. On a roll of 6, you use the property without expending the charges.
 
 #### Scrolls
 

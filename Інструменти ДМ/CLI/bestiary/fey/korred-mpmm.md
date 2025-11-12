@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -51,7 +52,8 @@ Korreds have hair all over their bodies, but the hair that grows from their head
   - "name": "[Stealth](Інструменти%20ДМ/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 15"
+"senses": "[darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft.,\
+  \ tremorsense 120 ft., passive Perception 15"
 "languages": "Dwarvish, Gnomish, Sylvan, Terran, Undercommon"
 "cr": "7"
 "traits":
@@ -61,19 +63,19 @@ Korreds have hair all over their bodies, but the hair that grows from their head
 "actions":
   - "desc": "The korred makes two Greatclub or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if the\
       \ korred is on the ground."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/120 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if\
       \ the korred is on the ground."
     "name": "Rock"
   - "desc": "The korred casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [commune with nature](Інструменти%20ДМ/CLI/spells/commune-with-nature-xphb.md)\
       \ (as an action), [meld into stone](Інструменти%20ДМ/CLI/spells/meld-into-stone-xphb.md),\
-      \ [stone shape](Інструменти%20ДМ/CLI/spells/stone-shape-xphb.md)\n\n1/day:\
+      \ [stone shape](Інструменти%20ДМ/CLI/spells/stone-shape-xphb.md)\n\n**1/day:**\
       \ [Otto's irresistible dance](Інструменти%20ДМ/CLI/spells/ottos-irresistible-dance-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

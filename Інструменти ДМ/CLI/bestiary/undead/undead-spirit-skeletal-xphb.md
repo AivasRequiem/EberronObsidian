@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xphb
 - ttrpg-cli/monster/cr/
@@ -34,14 +35,15 @@ aliases:
   \ [frightened](Інструменти%20ДМ/CLI/rules/conditions.md#Frightened), [paralyzed](І\
   нструменти%20ДМ/CLI/rules/conditions.md#Paralyzed), [poisoned](Інструменти%20ДМ\
   /CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[Darkvision](Інструменти%20ДМ/CLI/rules/senses.md#Darkvision) 60 ft., passive\
+  \ Perception 10"
 "languages": "understands the languages you know"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (round down)."
     "name": "Multiattack"
-  - "desc": "Ranged Attack Roll: Bonus equals your spell attack modifier, range\
-      \ 150 ft. Hit: 2d4 + 3 + the spell's level Necrotic damage."
+  - "desc": "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range\
+      \ 150 ft. *Hit:* 2d4 + 3 + the spell's level Necrotic damage."
     "name": "Grave Bolt"
 "source":
   - "XPHB"

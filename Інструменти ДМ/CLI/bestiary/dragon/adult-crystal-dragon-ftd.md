@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/12
@@ -70,7 +71,8 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
   - "name": "[Survival](Інструменти%20ДМ/CLI/rules/skills.md#Survival)"
     "desc": "+6"
 "damage_resistances": "cold, radiant"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 20"
+"senses": "[blindsight](Інструменти%20ДМ/CLI/rules/senses.md#Blindsight) 60 ft., [darkvision](І\
+  нструменти%20ДМ/CLI/rules/senses.md#Darkvision) 120 ft., passive Perception 20"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "12"
 "traits":
@@ -79,10 +81,10 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 4 (d8) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 60-foot cone. Each\
@@ -93,8 +95,8 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      At will: [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
-      \ [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md)\n\n1/day each:\
+      **At will:** [dancing lights](Інструменти%20ДМ/CLI/spells/dancing-lights-xphb.md),\
+      \ [guidance](Інструменти%20ДМ/CLI/spells/guidance-xphb.md)\n\n**1/day each:**\
       \ [command](Інструменти%20ДМ/CLI/spells/command-xphb.md), [divination](Інстр\
       ументи%20ДМ/CLI/spells/divination-xphb.md), [hypnotic pattern](Інструменти%20Д\
       М/CLI/spells/hypnotic-pattern-xphb.md), [lesser restoration](Інструменти%20Д\
@@ -109,6 +111,52 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
+      \ one of the following lair actions; the dragon can't take the same lair action\
+      \ two rounds in a row:\n\n- **Beguiling Whisper.** The dragon telepathically\
+      \ whispers to one creature within range of the dragon's telepathy. The creature\
+      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](Інструменти%20Д\
+      М/CLI/rules/conditions.md#Charmed) by the dragon until initiative count 20 on\
+      \ the next round. A creature [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
+      \ in this way obeys to the best of its ability any command the dragon issues\
+      \ that isn't directly harmful to the creature.  \n- **Ice Passage.** The dragon\
+      \ can open a passage through a wall of ice or snow that is up to 5 feet thick,\
+      \ creating an opening up to 30 feet wide and high.  \n- **Starlight's Gleam.**\
+      \ The dragon chooses a point it can see in the lair. Gleaming starlight radiates\
+      \ from that point to fill a 10-foot-radius sphere with dim light. Each creature\
+      \ other than the dragon in that area when the light appears must succeed on\
+      \ a DC 15 Dexterity saving throw or take 13 (2d12) radiant damage and be outlined\
+      \ in the glow. [Attack](Інструменти%20ДМ/CLI/rules/actions.md#Attack) rolls\
+      \ made against an outlined creature have advantage, and the creature can't hide\
+      \ or benefit from being [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible).\
+      \ The starlight and the glow around any creature fades on initiative count 20\
+      \ on the next round.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region surrounding a legendary crystal dragon's lair is altered by\
+      \ the dragon's magic, creating one or more of the following effects:\n\n- **Clear\
+      \ Skies.** The skies above a crystal dragon's lair remain clear and free of\
+      \ precipitation unless magically altered. Winds blow lightly, posing little\
+      \ threat to those approaching the lair, and visibility is the best possible\
+      \ for the time of day.  \n- **Crystal Profusion.** Plentiful quartz crystals\
+      \ form in natural stone within 6 miles of the lair, particularly in places where\
+      \ natural light can shine on the crystals.  \n- **Icy Sight.** Ice and quartz\
+      \ within 6 miles of the lair become conduits for the dragon's psionic presence.\
+      \ As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
+      \ spell, requiring no spell components and targeting any ice or quartz crystals\
+      \ in that region.  \n- **Positive Energy.** Any creature that finishes a long\
+      \ rest within 6 miles of the lair regains two additional spent Hit Dice.  \n\
+      - **Thriving Wildlife.** Animal populations flourish within 6 miles of the lair.\
+      \ Ability checks made to forage for food by hunting, fishing, or trapping in\
+      \ that area are made with advantage.  \n\nIf the dragon dies, the animal population\
+      \ near the lair returns to normal levels over the course of 1d10 days. The\
+      \ increased Hit Die recovery ends immediately. The existing abundance of quartz\
+      \ crystals remains, but new crystals form at a normal rate."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes one Claw attack."
     "name": "Claw"
@@ -118,54 +166,6 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
       \ can see within 60 feet of it. The target must succeed on a DC 17 Dexterity\
       \ saving throw or take 31 (9d6) radiant damage."
     "name": "Starlight Strike (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
-      \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Beguiling Whisper. The dragon telepathically whispers to one creature\
-      \ within range of the dragon's telepathy. The creature must succeed on a DC\
-      \ 15 Wisdom saving throw or be [charmed](Інструменти%20ДМ/CLI/rules/conditions.md#Charmed)\
-      \ by the dragon until initiative count 20 on the next round. A creature [charmed](І\
-      нструменти%20ДМ/CLI/rules/conditions.md#Charmed) in this way obeys to the best\
-      \ of its ability any command the dragon issues that isn't directly harmful to\
-      \ the creature.  \n- Ice Passage. The dragon can open a passage through\
-      \ a wall of ice or snow that is up to 5 feet thick, creating an opening up to\
-      \ 30 feet wide and high.  \n- Starlight's Gleam. The dragon chooses a point\
-      \ it can see in the lair. Gleaming starlight radiates from that point to fill\
-      \ a 10-foot-radius sphere with dim light. Each creature other than the dragon\
-      \ in that area when the light appears must succeed on a DC 15 Dexterity saving\
-      \ throw or take 13 (2d12) radiant damage and be outlined in the glow. [Attack](І\
-      нструменти%20ДМ/CLI/rules/actions.md#Attack) rolls made against an outlined\
-      \ creature have advantage, and the creature can't hide or benefit from being\
-      \ [invisible](Інструменти%20ДМ/CLI/rules/conditions.md#Invisible). The starlight\
-      \ and the glow around any creature fades on initiative count 20 on the next\
-      \ round.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region surrounding a legendary crystal dragon's lair is altered by\
-      \ the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Clear Skies. The skies above a crystal dragon's lair remain clear\
-      \ and free of precipitation unless magically altered. Winds blow lightly, posing\
-      \ little threat to those approaching the lair, and visibility is the best possible\
-      \ for the time of day.  \n- Crystal Profusion. Plentiful quartz crystals\
-      \ form in natural stone within 6 miles of the lair, particularly in places where\
-      \ natural light can shine on the crystals.  \n- Icy Sight. Ice and quartz\
-      \ within 6 miles of the lair become conduits for the dragon's psionic presence.\
-      \ As an action, the dragon can cast the [clairvoyance](Інструменти%20ДМ/CLI/spells/clairvoyance-xphb.md)\
-      \ spell, requiring no spell components and targeting any ice or quartz crystals\
-      \ in that region.  \n- Positive Energy. Any creature that finishes a long\
-      \ rest within 6 miles of the lair regains two additional spent Hit Dice.  \n\
-      - Thriving Wildlife. Animal populations flourish within 6 miles of the lair.\
-      \ Ability checks made to forage for food by hunting, fishing, or trapping in\
-      \ that area are made with advantage.  "
-    "name": ""
-  - "desc": "If the dragon dies, the animal population near the lair returns to normal\
-      \ levels over the course of d10 days. The increased Hit Die recovery ends\
-      \ immediately. The existing abundance of quartz crystals remains, but new crystals\
-      \ form at a normal rate."
-    "name": ""
 "source":
   - "FTD"
 "image": "Інструменти%20ДМ/CLI/bestiary/dragon/token/adult-crystal-dragon-ftd.webp"

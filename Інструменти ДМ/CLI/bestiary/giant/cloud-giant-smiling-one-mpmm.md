@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -61,10 +62,10 @@ Smiling ones take their name from the strange two-faced masks they wear. The smi
 "actions":
   - "desc": "The giant makes two Slam attacks or two Telekinetic Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 21 (3d8 + 8) bludgeoning damage plus 5 (d10) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
+      \ 21 (3d8 + 8) bludgeoning damage plus 5 (1d10) psychic damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 240 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 240 ft., one target. *Hit:*\
       \ 25 (4d10 + 3) force damage."
     "name": "Telekinetic Strike"
   - "desc": "The giant magically transforms to look and feel like a Beast or a Humanoid\
@@ -73,14 +74,14 @@ Smiling ones take their name from the strange two-faced masks they wear. The smi
       \ don't change. It reverts to its true form if it dies."
     "name": "Change Shape"
   - "desc": "The giant casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n**At\
+      \ will:** [detect magic](Інструменти%20ДМ/CLI/spells/detect-magic-xphb.md),\
       \ [fog cloud](Інструменти%20ДМ/CLI/spells/fog-cloud-xphb.md), [light](Інстру\
       менти%20ДМ/CLI/spells/light-xphb.md), [minor illusion](Інструменти%20ДМ/CLI/spells/minor-illusion-xphb.md)\n\
-      \n3/day each: [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
+      \n**3/day each:** [invisibility](Інструменти%20ДМ/CLI/spells/invisibility-xphb.md),\
       \ [silent image](Інструменти%20ДМ/CLI/spells/silent-image-xphb.md), [suggestion](І\
       нструменти%20ДМ/CLI/spells/suggestion-xphb.md), [tongues](Інструменти%20ДМ/CLI/spells/tongues-xphb.md)\n\
-      \n1/day each: [gaseous form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
+      \n**1/day each:** [gaseous form](Інструменти%20ДМ/CLI/spells/gaseous-form-xphb.md),\
       \ [major image](Інструменти%20ДМ/CLI/spells/major-image-xphb.md)"
     "name": "Spellcasting"
 "bonus_actions":

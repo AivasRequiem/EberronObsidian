@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
@@ -10,8 +11,6 @@ aliases:
 *Source: Eberron: Rising from the Last War p. 23* 
 
 **Zil Schemes**
-
-`dice: [](gnomes-of-zilargo-zil-schemes-erlw.md#^zil-schemes)`
 
 | dice: d10 | Scheme |
 |-----------|--------|

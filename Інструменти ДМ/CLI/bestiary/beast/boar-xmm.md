@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xmm
 - ttrpg-cli/monster/cr/1-4
@@ -47,10 +48,10 @@ Use these stat blocks to represent the creatures they're named for or other simi
       \ on attack rolls."
     "name": "Bloodied Fury"
 "actions":
-  - "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing\
+  - "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing\
       \ damage. If the target is a Medium or smaller creature and the boar moved 20+\
       \ feet straight toward it immediately before the hit, the target takes an extra\
-      \ 3 (d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
+      \ 3 (1d6) Piercing damage and has the [Prone](Інструменти%20ДМ/CLI/rules/conditions.md#Prone)\
       \ condition."
     "name": "Gore"
 "source":
