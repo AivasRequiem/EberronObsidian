@@ -3712,11 +3712,11 @@
       }
     ],
     [
-      "Imago Arboreal Stalker (C-Epsilon)",
+      "Imago Arboreal Stalker",
       {
         "layout": "Basic 5e Layout",
         "image": "<STATBLOCK-WIKI-LINK>Imago Arboreal Stalker.png<STATBLOCK-WIKI-LINK>",
-        "name": "Imago Arboreal Stalker (C-Epsilon)",
+        "name": "Imago Arboreal Stalker",
         "size": "Medium",
         "type": "humanoid",
         "subtype": "augmented",
@@ -3794,11 +3794,11 @@
       }
     ],
     [
-      "Imago Littoral Enforcer (A-Delta)",
+      "Imago Littoral Enforcer",
       {
         "layout": "Basic 5e Layout",
         "image": "<STATBLOCK-WIKI-LINK>Imago Littoral Enforcer.png<STATBLOCK-WIKI-LINK>",
-        "name": "Imago Littoral Enforcer (A-Delta)",
+        "name": "Imago Littoral Enforcer",
         "size": "Medium",
         "type": "humanoid",
         "subtype": "augmented",
@@ -3880,11 +3880,11 @@
       }
     ],
     [
-      "Imago Burrowing Mauler (B-Theta)",
+      "Imago Burrowing Mauler",
       {
         "layout": "Basic 5e Layout",
         "image": "<STATBLOCK-WIKI-LINK>Imago Burrowing Mauler.png<STATBLOCK-WIKI-LINK>",
-        "name": "Imago Burrowing Mauler (B-Theta)",
+        "name": "Imago Burrowing Mauler",
         "size": "Medium",
         "type": "humanoid",
         "subtype": "augmented",
