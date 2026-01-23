@@ -4398,6 +4398,124 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Bloomward Flower (Blight)",
+      {
+        "name": "Bloomward Flower (Blight)",
+        "size": "Medium",
+        "type": "plant",
+        "subtype": null,
+        "alignment": "Unaligned",
+        "ac": 15,
+        "hp": 18,
+        "hit_dice": "4d8",
+        "modifier": 0,
+        "stats": [
+          1,
+          10,
+          10,
+          1,
+          10,
+          1
+        ],
+        "speed": "0 ft.",
+        "damage_vulnerabilities": "Fire",
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "Poison, Psychic",
+        "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned, Prone",
+        "senses": "Blindsight 30 ft. (blind beyond this radius), passive Perception 10",
+        "cr": "0",
+        "traits": [
+          {
+            "name": "Rooted",
+            "desc": "The bloomward flower is rooted in place and can't move or be knocked prone."
+          },
+          {
+            "name": "Bloomward Aura",
+            "desc": "While this flower remains, the Blight has advantage on saving throws against spells and other magical effects while the Blight is within 30 feet of this flower. Multiple bloomward flowers don't stack this benefit."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Damage Mushroom (Blight)",
+      {
+        "name": "Damage Mushroom (Blight)",
+        "size": "Medium",
+        "type": "plant",
+        "subtype": null,
+        "alignment": "Unaligned",
+        "ac": 15,
+        "hp": 10,
+        "hit_dice": "3d8",
+        "modifier": 0,
+        "stats": [
+          5,
+          10,
+          10,
+          1,
+          10,
+          1
+        ],
+        "speed": "0 ft.",
+        "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+        "senses": "Blindsight 30 ft. (blind beyond this radius), passive Perception 10",
+        "cr": "0",
+        "traits": [
+          {
+            "name": "Rooted",
+            "desc": "The damage mushroom is rooted in place and can't move or be knocked prone."
+          },
+          {
+            "name": "Spore Amplifier",
+            "desc": "While this mushroom remains, the Blight’s weapon attacks and spell attacks deal an extra 1 damage (cumulative with other damage mushrooms, up to +4)."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Healing Lily (Blight)",
+      {
+        "name": "Healing Lily (Blight)",
+        "size": "Medium",
+        "type": "plant",
+        "subtype": null,
+        "alignment": "Unaligned",
+        "ac": 5,
+        "hp": 15,
+        "hit_dice": "3d8",
+        "modifier": -3,
+        "stats": [
+          1,
+          5,
+          10,
+          1,
+          10,
+          1
+        ],
+        "speed": "0 ft.",
+        "damage_vulnerabilities": "Fire",
+        "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+        "senses": "Blindsight 30 ft. (blind beyond this radius), passive Perception 10",
+        "cr": "0",
+        "traits": [
+          {
+            "name": "Rooted",
+            "desc": "The healing lily is rooted in place and can't move or be knocked prone."
+          },
+          {
+            "name": "Healing Bloom",
+            "desc": "While this lily remains, at the start of each of the Blight’s turns, the Blight regains 7 (2d6) hit points."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
