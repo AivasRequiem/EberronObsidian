@@ -28,6 +28,14 @@
           "height": 680,
           "fullscreen": false,
           "maximized": true
+        },
+        "Anastasya": {
+          "x": 1533,
+          "y": -3,
+          "width": 1286,
+          "height": 678,
+          "fullscreen": false,
+          "maximized": true
         }
       }
     }
